@@ -4,7 +4,7 @@ seo-title: Rollen und Zuständigkeiten des AEM Screens-Projekts
 description: Auf der Seite werden die Rollen und Zuständigkeiten des AEM Screens-Projekts beschrieben
 seo-description: Auf der Seite werden die Rollen und Zuständigkeiten des AEM Screens-Projekts beschrieben
 translation-type: tm+mt
-source-git-commit: f01b69b860a3862e2b46f11b2d9b95dede742d9c
+source-git-commit: fe5a340e817488dc4c3a92d607c990756ac259b6
 
 ---
 
@@ -161,7 +161,7 @@ Die folgende Tabelle fasst den zweiten **Tag zusammen: RACI-Diagramm** zur Unter
 | *Tag 2:Unterstützung nach dem Start* |
 | Einigung über Rollen und Zuständigkeiten | RA | RA | RA |
 | Unterstützung für Stufe 1 | I | I | RA |
-| Unterstützung für Stufe 1 | I | C | RA |
-| Unterstützung für Stufe 1 | I | RA | C |
+| Unterstützung für Stufe 2 | I | C | RA |
+| Unterstützung für Stufe 3 | I | RA | C |
 | Inhaltsaktualisierung | RA | I | I |
 | Bewerten Sie den UX-Erfolg und identifizieren Sie Bereiche der Verbesserungen. | RA | C | I |
