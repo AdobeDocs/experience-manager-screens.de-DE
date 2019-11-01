@@ -1,33 +1,33 @@
 ---
 title: Prototypen
 seo-title: Prototypen
-description: Diese Seite beschreibt Prototypen für ein AEM Screens-Projekt
-seo-description: Die Seite beschreibt Prototypen für ein AEM Screens-Projekt
-translation-type: tm+mt
+description: Auf dieser Seite werden Prototypen für ein AEM Screens-Projekt beschrieben.
+seo-description: Auf dieser Seite werden Prototypen für ein AEM Screens-Projekt beschrieben.
+translation-type: ht
 source-git-commit: 750ee1552065932e65c6709037a6a3feaa4e342c
 
 ---
 
 
-# Benutzererlebnis-Prototypisierung {#prototypes}
+# Prototypen für das Benutzererlebnis {#prototypes}
 
 >[!NOTE]
 >
->Typischer Stakeholder für diese Aktivität ist ein Marketing-/Geschäftsstrategist.
+>Typische Verantwortliche für diese Aktivität sind Marketing-/Geschäftsstrategen.
 
-Es ist wichtig, die Ideen, Annahmen und Abhängigkeiten, die zuvor in der UX Journey Map definiert wurden, mithilfe der UX-Prototypisierung zu testen.
+Die Ideen, Annahmen und Abhängigkeiten, die zuvor in der UX Journey Map definiert wurden, müssen mithilfe von UX-Prototypen getestet werden.
 
-In dieser Phase des Projekts sind wir mehr über die Kernfunktionalität und weniger über die Verfeinerung der tatsächlichen UX besorgt.
+In dieser Projektphase geht es mehr um die Kernfunktionen als um die Verfeinerung des tatsächlichen UX.
 
-In dieser Phase werden in der Regel Beispiel- oder FPO-Inhalte verwendet, um dem Projektmanager und wichtigen Interessenträgern zu helfen, größere Lücken im UX-Fluss sowie etwaige Timing-Probleme mit der Wiedergabe und den zugehörigen Triggerereignissen zu identifizieren.
-Diese Phase kann auch potenzielle Probleme bei der Positionierung, Skalierung und Größe von Assets aufzeigen.
+Meist werden in dieser Phase Beispiel- oder FPO-Inhalte verwendet, um dem Projektmanager und wichtigen Stakeholdern zu helfen, größere Lücken im UX-Fluss sowie mögliche Timing-Probleme bei der Wiedergabe und zugehörigen Auslöserereignissen zu identifizieren.
+In der Phase können sich auch potenzielle Probleme mit der Positionierung, Skalierung und Größe von Assets zeigen.
 
-Durch die Prototypisierung des Erlebnisses können wir verschiedene Szenarien simulieren, in denen beschrieben wird, wie der Inhalt genutzt wird, welche Interaktionen auftreten können und welche Abhängigkeiten von externen Daten zu einer Unterbrechung des beabsichtigten Erlebnisflusses führen können.
+Durch Prototypen des Erlebnisses können wir verschiedene Szenarien simulieren, in denen beschrieben wird, wie der Inhalt genutzt wird, welche Interaktionen auftreten können und welche Abhängigkeiten von externen Daten zu einer Unterbrechung des beabsichtigten Erlebnisflusses führen können.
 
-Es wurden verschiedene Beispielverwendungsfälle erstellt, die als Referenz oder Ausgangspunkt für die Prototypisierung bestimmter Erlebnisse dienen sollen.
+Es wurden verschiedene Nutzungsszenarien erarbeitet, die als Referenz oder Ausgangspunkt für die Prototypen bestimmter Erlebnisse dienen können.
 
 
 >[!NOTE]
 >
-> Überprüfen Sie während der UX-Entwurfsphase, ob das UI-Design durch die extrahierten Daten ausreichend unterstützt werden kann.
-> So ist es beispielsweise wahrscheinlich, dass nicht alle Entscheidungsträger mit der Datenstruktur ihrer Produktdatenbank vertraut sind. Sie können Deskriptoren für ihre UX-Lösung auswählen, die keine primären Felder in der Datenschicht sind. Die frühzeitige Identifizierung von Stellen, an denen die Verarbeitung der Daten erforderlich sein könnte, und die Übermittlung an den Kunden verhindern später Missverständnisse. Wenn der Client beschließt, die Benutzeroberflächenbeschriftung zu erweitern oder zu ändern, nachdem die Entwicklung begonnen hat, ist mehr Aufwand erforderlich, um die Änderungen zu berücksichtigen.
+> Überprüfen Sie in der UX-Designphase, ob das UI-Design durch die extrahierten Daten ausreichend unterstützt wird.
+> So ist es beispielsweise wahrscheinlich, dass nicht alle Entscheidungsträger mit der Datenstruktur ihrer Produktdatenbank vertraut sind. Sie wählen möglicherweise Deskriptoren für ihre UX-Lösung aus, die in der Datenschicht keine primären Felder sind. Eine frühzeitige Erkennung von Stellen, an denen Daten möglicherweise anders gehandhabt werden müssen, und eine Übermittlung dieser Informationen an den Kunden verhindern spätere Missverständnisse. Wenn der Kunde beschließt, die UI-Beschriftung nach Beginn der Entwicklung zu erweitern oder zu ändern, ist zusätzliche Arbeit erforderlich, um die Änderungen zu berücksichtigen.
