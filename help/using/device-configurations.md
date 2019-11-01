@@ -1,9 +1,9 @@
 ---
 title: Gerätespezifikationen
 seo-title: Gerätespezifikationen
-description: Auf der Seite werden Gerätespezifikationen beschrieben.
-seo-description: Auf der Seite werden Gerätespezifikationen beschrieben.
-translation-type: tm+mt
+description: Auf dieser Seite werden Gerätespezifikationen beschrieben.
+seo-description: Auf dieser Seite werden Gerätespezifikationen beschrieben.
+translation-type: ht
 source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
 
 ---
@@ -13,29 +13,29 @@ source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
 
 >[!NOTE]
 >
->Typischer Stakeholder für diese Aktivität ist ein A/V-Integrator.
+>Typische Verantwortliche für diese Aktivität sind A/V-Integratoren.
 
-Bestätigen Sie anhand der während *Tag Null* gesammelten Informationen vor Beginn der Entwicklung die folgenden Informationen:
+Beantworten Sie vor Beginn der Entwicklung unter Einsatz der an *Tag 0* gesammelten Informationen folgende Fragen:
 
-* Welche Ausrichtung, Abmessungen und Auflösung werden verwendet?
+* Welche Ausrichtung, Abmessungen und Auflösung haben die verwendeten Bildschirme?
 
-* Wie viele Bildschirme werden pro Standort installiert und in welcher Konfiguration?
+* Wie viele Bildschirme werden pro Standort installiert? Und in welcher Konfiguration?
 
-* Welche Software und welches Betriebssystem müssen auf den Anzeigegeräten installiert werden?
+* Welche Software und welches Betriebssystem müssen auf den Anzeigegeräten installiert sein?
 
-* Wird für Player eine Internetverbindung erforderlich sein, um die Bildschirme mit AEM-Servern zu synchronisieren?
+* Ist für Player eine Internetverbindung erforderlich, damit sich die Bildschirme mit AEM-Servern synchronisieren lassen?
 
 * Wann werden Inhalte auf Playern aktualisiert?
 
-* Wenn Sie Videos ausführen, stellen Sie sicher, dass Sie die Spezifikationen Ihres Geräts kennen, damit Inhalte korrekt angezeigt werden.
+* Wenn Sie Videos wiedergeben, müssen Sie die Spezifikationen Ihres Geräts kennen, damit sich Inhalte korrekt anzeigen lassen.
 
-* Ist der feste Zustand oder die Festplattenspeicherung aufgrund der oben genannten Umweltaspekte angemessener?
+* Ist mit Blick auf die genannten Umgebungsaspekte eher Solid-State- oder Festplattenspeicher angemessen?
 
-* Stellen Sie fest, wie viel Speicherkapazität Sie benötigen und welche Anforderungen Sie an die Speicherleistung stellen müssen. Beispiele:
-   * Haben Sie besondere Überlegungen zum Speicher (mehrere Laufwerke, Boot-Geräte oder Massenspeicher)?
-   * Welche RAM-Kapazitäten werden benötigt?
+* Ermitteln Sie, wie viel Speicherkapazität und -leistung Sie benötigen. Beispiele:
+   * Gibt es bei Ihnen besondere Speicherüberlegungen (mehrere Laufwerke, Bootgeräte vs. Massenspeicher)?
+   * Welche RAM-Kapazitäten benötigen Sie?
 
 
 >[!NOTE]
 >
->Es ist auch wichtig, die Spezifikationen für die ausgewählte Hardware zu validieren, um sicherzustellen, dass sie die entwickelte Anwendung unterstützen kann. Wenn die Anwendung zum Beispiel fünf HD-Videos gleichzeitig ausführen soll, wird sie dann von der Hardware unterstützt?
+>Außerdem müssen Sie die Spezifikationen der ausgewählten Hardware prüfen, um sicherzustellen, dass diese die in Entwicklung befindliche Anwendung unterstützen kann. Wenn die Anwendung zum Beispiel fünf HD-Videos gleichzeitig ausführen soll: Ist das mit der Hardware möglich?
