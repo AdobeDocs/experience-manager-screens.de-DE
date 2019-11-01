@@ -1,9 +1,9 @@
 ---
 title: Übergang zur Plattform
-seo-title: Übergang zur Plattform für AEM Screens
-description: Die Seite beschreibt den Übergang zur Plattform
-seo-description: Die Seite beschreibt den Übergang zur Plattform
-translation-type: tm+mt
+seo-title: Übergang zur Plattform für AEM Screens
+description: Auf dieser Seite wird der Übergang zur Plattform beschrieben.
+seo-description: Auf dieser Seite wird der Übergang zur Plattform beschrieben.
+translation-type: ht
 source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
 
 ---
@@ -13,24 +13,24 @@ source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
 
 >[!NOTE]
 >
->Typischer Stakeholder für diese Aktivität ist ein AEM-Implementor.
+>Typische Verantwortliche für diese Aktivität sind AEM-Implementoren.
 
-Da unser Projekt von einer strategischen Vision zu einer breiteren Realität übergegangen ist, sollten wir jetzt damit beginnen, uns auf die Aufgaben vorzubereiten, die notwendig sind, um tatsächlich ein Screens-Projekt in AEM zu erstellen, das wir einsetzen können.
+Da unser Projekt von einer strategischen Vision zur Realität geworden ist, sollten wir uns nun auf die Aufgaben vorbereiten, die erledigt werden müssen, um in AEM ein reales, implementierbares Screens-Projekt einrichten zu können.
 
-Dies umfasst die Zuordnung plattformspezifischer Konfigurationen zu lose definierten Anforderungen, die in der Prototyping-Phase definiert werden.
+Das umfasst die Zuordnung plattformspezifischer Konfigurationen zu lose definierten Anforderungen, die in der Prototypenphase definiert wurden.
 
-Beispiele wären wie und wann:
+Beispiele würden Nutzungsszenarien beinhalten:
 
-* **Erlebnisfragmente** zum Erstellen von Inhaltsgruppierungen
-* **Inhaltsfragmente** zum Erstellen von Textvarianten
-* **Context Hub** zum Erstellen externer Datenspeicher, SPAs für interaktive Erlebnisse
+* **Experience Fragments** zum Erstellen von Inhaltsgruppierungen
+* **Content Fragments** zum Erstellen von Textvarianten
+* **ContextHub** zum Erstellen externer Datenspeicher, SPAs für interaktive Erlebnisse
 * **OSGI-Dienste** für Netzwerkwarnungen
 * **Asset-Link** für Creative Cloud-Sourcing
-* **Netzwerkordner** für Asset-Zuordnung
+* **Netzwerkordner** für die Asset-Zuordnung
 * **Textüberlagerung** für Echtzeitdaten
 * **Zeitpläne** für Anzeige-/Kanalgruppierungen
-* **Arbeitsabläufe** für automatisierte Inhaltsbearbeitung.
+* **Workflows** für automatisierte Inhaltsbearbeitung
 
-In dieser Phase ist es wichtig, alle erforderlichen Aufgaben und Aktivitäten zu überprüfen, die Aufmerksamkeit erfordern, und sie ordnungsgemäß zu dokumentieren, damit zugewiesene Aufgaben in der Errichtungsphase ordnungsgemäß nachverfolgt werden können.
+In dieser Phase müssen alle Aufgaben und Aktivitäten, die Aufmerksamkeit erfordern, geprüft und ordnungsgemäß dokumentiert werden, damit zugewiesene Aufgaben in der Implementierungsphase richtig nachverfolgt werden können.
 
-Wir sollten auch alle vordefinierten Aktivitäten als mögliche Kandidaten für die Automatisierung in dieser Phase überprüfen.
+Außerdem sollten in dieser Phase alle vordefinierten Aktivitäten als mögliche Automatisierungskandidaten geprüft werden.
