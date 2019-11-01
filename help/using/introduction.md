@@ -1,9 +1,9 @@
 ---
-title: Einführung in [!UICONTROL AEM-Bildschirme]
-seo-title: Best Practices für [!UICONTROL AEM Screens] -Projekte
-description: Diese Seite ist ein Einführungsabschnitt zu AEM Screens
-seo-description: Diese Seite bietet eine Einführung in AEM Screens
-translation-type: tm+mt
+title: Einführung in [!UICONTROL AEM Screens]
+seo-title: Handbuch mit Best Practices für [!UICONTROL AEM Screens]-Projekte
+description: Diese Seite enthält einen Einführungsabschnitt zu AEM Screens.
+seo-description: Diese Seite enthält eine Einführung zu AEM Screens.
+translation-type: ht
 source-git-commit: 55999ae9ead7ab8986f4dcb69b0bbaa46933c9ec
 
 ---
@@ -11,51 +11,51 @@ source-git-commit: 55999ae9ead7ab8986f4dcb69b0bbaa46933c9ec
 
 # Einführung in AEM Screens {#introduction}
 
-**AEM (Adobe Experience Manager) Screens** ist eine Digital Signage-Lösung, mit der Sie dynamische und interaktive digitale Erlebnisse erstellen, veröffentlichen und abspielen können, die verschiedene Arten von lokalen Anzeigebildschirmen in Abstimmung mit einer umfassenden digitalen Marketingstrategie für Omniannel beinhalten.
+**AEM (Adobe Experience Manager) Screens** ist eine Digital Signage-Lösung, mit der Sie im Rahmen einer umfassenden kanalübergreifenden digitalen Marketingstrategie dynamische und interaktive digitale Erlebnisse auf verschiedenen lokalen Anzeigebildschirmen einrichten, veröffentlichen und abspielen können.
 
 Mit AEM Screens können Sie Folgendes erstellen:
 
-* **dedizierte Menüs**
+* **dedizierte digitale Menüboards**
 * **Produktempfehlungen**
-* **Hintergrundbilder für Lifestyle**
+* **Lifestyle-Hintergrundbilder**
 
-Darüber hinaus bieten Screens eine Vielzahl einzigartiger Anwendungen für Kunden und Mitarbeiter, die auf der jeweiligen Domäne basieren, in der diese bereitgestellt werden, z. B.:
+Darüber hinaus bietet Screens verschiedene spezielle Anwendungen für Kunden und Mitarbeiter, die auf dem jeweiligen Bereich basieren, in dem sie bereitgestellt werden; zum Beispiel:
 
-* **interaktive Displays**
-* **Wegsuchen**
+* **Interaktive Displays**
+* **Wegweiser**
 * **Branding**
-* **Ambiente in Ihrer Umgebung hinzufügen**
+* **Zusätzliches Ambiente für Ihre Umgebung**
 
-Das Erstellen und Verwalten eines digitalen Signaturnetzwerks mit AEM Screens ist einfach und intuitiv. Eine Player-Anwendung hostet Inhaltskanäle, die von Kunden oder Implementierungspartnern für AEM Screens erstellt wurden. *Positionen* verwalten eine vordefinierte Positionshierarchie und enthalten Anzeigen. Each *display* has a dashboard that shows different devices and screens attached. Der Inhalt für AEM Screens wird in *Kanälen* verwaltet. *Mit dem AEM Screens Player wird der auf Kanälen vorhandene Inhalt auf Displays dargestellt.*
+Das Einrichten und Verwalten eines Digital-Signage-Netzwerks mit AEM Screens ist einfach und intuitiv. Eine Player-Anwendung hostet Inhaltskanäle, die von Kunden oder Implementierungspartnern für AEM Screens erstellt wurden. *Standorte* verwalten eine vordefinierte Standorthierarchie und beinhalten Displays. Jedes *Display* verfügt über ein Dashboard, in dem unterschiedliche angeschlossene Geräte und Bildschirme angezeigt werden. Inhalte für AEM Screens werden in *Kanälen* verwaltet. Mit dem *AEM Screens Player* lassen sich in Kanälen vorhandene Inhalte auf Displays darstellen.
 
 
 
 >[!NOTE]
 >
->Detaillierte Informationen zu den verschiedenen Funktionen in der Entwicklung und Verwaltung von AEM Screens-Projekten finden Sie im **[AEM Screens-Benutzerhandbuch](https://helpx.adobe.com/experience-manager/6-5/screens/user-guide.html)**.
+>Weitere Informationen zu verschiedenen Funktionen bei der Entwicklung und Verwaltung von AEM Screens-Projekten finden Sie im **[AEM Screens-Benutzerhandbuch](https://helpx.adobe.com/experience-manager/6-5/screens/user-guide.html)**.
 
 ## AEM Sites versus AEM Screens {#aem-sites-screens}
 
 > [!NOTE]
 >
-> Wenn Ihr Implementierungsteam Erfahrung mit der Arbeit mit AEM-Sites-Anwendungen hat, ist es wichtig, den Unterschied zwischen AEM-Sites und AEM-Bildschirmen zu verstehen.
+> Wenn Ihr Implementierungsteam Erfahrung mit AEM Sites-Anwendungen hat, ist es wichtig, dass es den Unterschied zwischen AEM Sites und AEM Screens kennt.
 
-AEM Screens bietet eine einheitliche Authoring-/Wiedergabe-Plattform für die Bereitstellung von Inhalten auf Geräten mit digitaler Signatur in öffentlichen Räumen. Während der Erlebnisautor sich bemühen sollte, die Konsistenz über das Web und die Kanäle zu gewährleisten, gibt es einige Unterschiede, die beachtet werden sollten.
+AEM Screens ist eine einheitliche Authoring-/Wiedergabeplattform für die Bereitstellung von Inhalten auf Digital-Signage-Geräten in öffentlichen Räumen. Der Autor des Erlebnisses sollte zwar um Konsistenz im Web und an lokalen Standorten bemüht sein. Darüber hinaus gibt es aber Unterschiede, die beachtet werden sollten.
 
-* **Verweilzeit**: In der Regel werden Webseiten so gestaltet, dass sie eine Vielzahl von Informationen bereitstellen, die über einen relativ längeren Zeitraum genutzt werden können. Im Gegensatz dazu sollten digitale Erlebnisse am Verkaufsort die Bedürfnisse des Viewers vorwegnehmen und klare und präzise Anweisungen dazu geben, wie und warum der Benutzer eingreifen sollte. Dies führt zu zielgerichteteren, kuratierten und kontextbezogenen Erlebnissen.
+* **Verweildauer**: In der Regel werden Webseiten so gestaltet, dass sie eine Vielzahl von Informationen bereitstellen, die sich über einen relativ langen Zeitraum konsumieren lassen. Im Gegensatz dazu sollten digitale Vor-Ort-Erlebnisse die Bedürfnisse des Betrachters vorwegnehmen sowie klare und präzise Anweisungen geben, wie und warum der Benutzer interagieren sollte. So entstehen gezieltere, kuratierte und kontextbezogene Erlebnisse.
 
-* **Anzeigeabstand**: Die Anzeige von Entfernungen ist in der Regel länger oder weiter entfernt als die typische Entfernung, die Benutzer mit einer Website erleben. Daher sollte die Textgröße normalerweise größer sein, und der Abstand zwischen Text, Bildern und anderen ergänzenden Inhalten sollte anhand der erwarteten Bildschirmgröße und Platzierung im physischen Raum getestet werden.
+* **Betrachtungsabstand**: Betrachtungsabstände sind in der Regel größer oder weiter als der typische Abstand, den Benutzer bei einer Website erleben. Daher sollte die Textgröße meist größer ausfallen; zudem sollte der Abstand zwischen Text, Bildern und anderen ergänzenden Inhalten mit Blick auf die erwartete Bildschirmgröße und Platzierung im physischen Raum getestet werden.
 
-* **Persistenz**: Der vernetzte Zustand des Player-Geräts sollte nie Einfluss darauf haben, ob dem Benutzer digitale Erlebnisse bereitgestellt werden. Der Player muss so konzipiert sein, dass ein oder mehrere Erlebnisse immer bestehen bleiben und unabhängig vom Status des Player-Geräts bereitgestellt werden können.
+* **Persistenz**: Der Verbindungsstatus des Player-Geräts sollte niemals Einfluss darauf haben, ob dem Benutzer digitale Erlebnisse angezeigt werden oder nicht. Der Player muss so konzipiert sein, dass stets ein oder mehrere Erlebnisse vorhanden sind und unabhängig vom Verbindungsstatus des Player-Geräts bereitgestellt werden können.
 
-* **Medienschleifensegmentierung**: Durch die Konfiguration der einzelnen Player-Geräte mit einem eigenen Loopsegment wird sichergestellt, dass lokalisierte Inhalte innerhalb des gesamten digitalen Erlebnisses einfach erstellt, veröffentlicht und wiedergegeben werden können. Medienelemente, die in eingebetteten Sequenzkanälen enthalten sind, werden dem vorherigen Schleifensegment hinzugefügt und bieten die Möglichkeit, ein Medienschleifensegment für jede Ortsgruppierung als Ziel festzulegen.
+* **Segmentierung von Medienschleifen**: Durch Konfiguration einzelner Player-Geräte mit eigenen Schleifensegmenten wird sichergestellt, dass lokalisierte Inhalte innerhalb des übergeordneten digitalen Erlebnisses einfach erstellt, veröffentlicht und wiedergegeben werden können. Medien-Assets, die in integrierten Sequenzkanälen enthalten sind, werden dem vorherigen Schleifensegment hinzugefügt und bieten die Möglichkeit, für jede Standortgruppe ein Medienschleifensegment als Ziel festzulegen.
 
-* **Interaktive Erlebnisse**: Eine Touch-fähige Kiosk-Anwendung kann mit AEM und dem SPA-Editor in einem Bildschirmkanal erstellt und bereitgestellt werden. Es empfiehlt sich, konsistente omnichannel-Designeigenschaften anzuwenden, einen Inaktivitätszeitgeber zum Zurücksetzen des Erlebnisses und einen klaren Aktionsaufruf für die Aufgaben, die die Anwendung ausführen kann. Die Einstiegsseite sollte aus wichtigen digitalen Elementen bestehen, die dazu bestimmt sind, einen Wert zu vermitteln, den Benutzer zum Bildschirm anzuziehen und den Benutzer zur Interaktion aufzufordern.
+* **Interaktive Erlebnisse**: Mit AEM und dem SPA Editor kann in einem Screens-Kanal eine Touch-fähige Kiosk-Anwendung erzeugt und bereitgestellt werden. Empfohlen wird die Anwendung konsistenter Omnichannel-Designeigenschaften, eines Inaktivitäts-Timers zum Zurücksetzen des Erlebnisses und eines klaren Handlungsaufrufs dazu, welche Aufgaben die Anwendung ausführen kann. Die Landingpage sollte aus zentralen digitalen Elementen bestehen, die dazu dienen, Wert zu vermitteln sowie Benutzer an den Bildschirm zu locken und zur Interaktion einzuladen.
 
-AEM Screens bietet ein Framework zum Bereitstellen von Inhalten auf physischen Geräten. Inhalte werden Kanälen in Bildschirmen zugewiesen, die Medieninhalte oder Touchscreen-Anwendungen enthalten können. Innerhalb dieses Rahmens kann eine AEM-Site-Anwendung als Inhalt über einen Kanal bereitgestellt werden.
+AEM Screens bietet ein Framework zum Bereitstellen von Inhalten auf physischen Geräten. Inhalte werden in Screens Kanälen zugewiesen, die Medieninhalte oder Touchscreen-Anwendungen enthalten können. In diesem Framework kann eine AEM Site-Anwendung als Inhalt über einen Kanal bereitgestellt werden.
 
-Bevor eine AEM-Site in einem Kanal in Bildschirmen abgelegt wird, muss sie für die verwendeten Abmessungen des Anzeigegeräts formatiert werden.
+Bevor eine AEM Site in Screens in einem Kanal abgelegt werden kann, muss sie für die Abmessungen des Anzeigegeräts formatiert werden.
 
 > [!NOTE]
 >
-> Viele AEM-Sites-Komponenten sind nicht mit AEM-Bildschirmen kompatibel. AEM Screens enthält viele eigene vordefinierte Komponenten, mit denen Sie digitale Erlebnisse erstellen können, ohne dass eine Anpassung erforderlich ist. Wenn die Projektanforderungen dies zulassen, verwenden Sie nach Möglichkeit die integrierte AEM Screens-Funktion.
+> Viele Komponenten von AEM Sites sind nicht mit AEM Screens kompatibel. AEM Screens ist mit vielen vordefinierten Komponenten ausgestattet, sodass Sie digitale Erlebnisse auch ohne Anpassungen kreieren können. Wenn es die Projektanforderungen zulassen, sollten Sie nach Möglichkeit integrierte AEM Screens-Funktionen verwenden.
