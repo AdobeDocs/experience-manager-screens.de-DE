@@ -1,36 +1,36 @@
 ---
-title: Drahtmodelle
-seo-title: Wireframes für AEM-Bildschirme
-description: Die Seite beschreibt Wireframes für ein AEM Screens-Projekt
-seo-description: Die Seite beschreibt Wireframes für ein AEM Screens-Projekt
-translation-type: tm+mt
+title: Wireframes
+seo-title: Wireframes für AEM Screens
+description: Auf dieser Seite werden Wireframes für ein AEM Screens-Projekt beschrieben.
+seo-description: Auf dieser Seite werden Wireframes für ein AEM Screens-Projekt beschrieben.
+translation-type: ht
 source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
 
 ---
 
 
-# Drahtmodelle {#wireframes}
+# Wireframes {#wireframes}
 
 >[!NOTE]
 >
->Typischer Stakeholder für diese Aktivität ist ein Marketing-/Geschäftsstrategist.
+>Typische Verantwortliche für diese Aktivität sind Marketing-/Geschäftsstrategen.
 
-Wireframes sind eine visuelle Darstellung des erwarteten digitalen Erlebnisses, das wir bereitstellen wollen.
+Wireframes sind eine visuelle Darstellung des erwarteten digitalen Erlebnisses, das bereitgestellt werden soll.
 
-Dieser Prozess kann angewendet werden auf:
+Dieser Prozess kann folgendermaßen angewendet werden:
 
 * Ansicht auf Asset-Ebene
 * Ansicht auf Kanalebene
 * Ansicht auf Projektebene
 
-Dadurch wird das Projekt von der Prototyping-Phase näher an die eigentliche Errichtungsphase verschoben.
+Dadurch gelangt das Projekt von der Prototypenphase näher zur eigentlichen Implementierungsphase.
 
-In der Ansicht **auf**Asset-Ebene sollten Wireframes erstellt werden, die verschiedene Inhaltslayoutoptionen und Inhaltsgruppierungen definieren. Auf diese Weise können Sie festlegen, wie mehrere Inhaltselemente aussehen können, wenn sie als Gruppe zusammengestellt werden.
-Normalerweise würden wir in dieser Aktivität produktionsfertige Grafiken, Bilder und Videos verwenden.
+Auf einer **Asset-Ebene** sollten wir Wireframes erstellen, die verschiedene Inhaltslayoutoptionen und Inhaltsgruppierungen definieren. Auf diese Weise können wir festlegen, wie verschiedene Inhaltselemente aussehen könnten, wenn sie als Gruppe zusammengestellt werden.
+Normalerweise werden bei dieser Aktivität produktionsbereite Grafiken, Bilder und Videos verwendet.
 
-In der Ansicht **auf** Kanalebene sollten wir Wireframes erstellen, die zeigen, wie Inhaltskanäle im Gesamterlebnis miteinander verknüpft sind, einschließlich der Wiedergabestrategien für eingebettete Kanäle. Wir können auch Kanalübergänge überprüfen, die auftreten können, wenn Datenauslöser gesendet werden.
+Auf einer **Kanalebene** sollten wir Wireframes erstellen, die zeigen, wie Inhaltskanäle im Gesamterlebnis miteinander verknüpft sind, einschließlich Wiedergabestrategien für integrierte Kanäle. Außerdem lassen sich Kanalübergänge überprüfen, die auftreten können, wenn Datenauslöser aktiviert werden.
 
-Auf **Projektebene** können wir mit dem Modellieren beginnen, wie mehrere Bildschirme oder Erlebnisse in einem physischen Raum zusammenarbeiten können, um eine vollständige Benutzerreise mit mehreren Touchpoints zu ermöglichen.
+Auf einer **Projektebene** können wir die Frage untersuchen, wie mehrere Bildschirme oder Erlebnisse in einem physischen Raum zusammenarbeiten könnten, um eine vollständige User Journey mit unterschiedlichen Touchpoints zu ermöglichen.
 
-Dies sollte mit der zuvor erstellten UX Journey-Karte übereinstimmen.
+Dabei sollten wir uns an der zuvor erstellten UX Journey Map orientieren.
 
