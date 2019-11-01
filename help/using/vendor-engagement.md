@@ -1,40 +1,40 @@
 ---
-title: Kundenbindung
-seo-title: Herstellerinteraktion für AEM-Bildschirme
-description: Auf der Seite werden Best Practices für die Vendor-Interaktion mit AEM Screens beschrieben.
-seo-description: Auf der Seite werden Best Practices für die Vendor-Interaktion mit AEM Screens beschrieben.
-translation-type: tm+mt
+title: Anbieterinteraktion
+seo-title: Anbieterinteraktion für AEM Screens
+description: Auf dieser Seite werden die Best Practices für Anbieterinteraktion bei AEM Screens beschrieben.
+seo-description: Auf dieser Seite werden die Best Practices für Anbieterinteraktion bei AEM Screens beschrieben.
+translation-type: ht
 source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
 
 ---
 
 
-# Kundenbindung {#vendor-engagement}
+# Anbieterinteraktion {#vendor-engagement}
 
 >[!NOTE]
 >
->Typischer Stakeholder für diese Aktivität ist ein A/V-Integrator.
+>Typische Verantwortliche für diese Aktivität sind A/V-Integratoren.
 
-Bei dieser Aktivität ist es wichtig, alle wichtigen Anbieter zu identifizieren, die für die Zusammenstellung und Bereitstellung des Netzwerks erforderlich sind, sowie alle Partnerabhängigkeiten:
+Bei dieser Aktivität müssen alle zentralen Anbieter, die für die Einrichtung und Implementierung des Netzwerks erforderlich sind, sowie alle Partnerabhängigkeiten identifiziert werden:
 
-* Identifizieren Sie Anbieter für alle Hardware, einschließlich Displays, Player-PCs, Anschlüsse und Peripheriegeräte.
+* Ermitteln Sie Anbieter für die gesamte Hardware, einschließlich Displays, Player-PCs, Halterungen und Peripheriegeräte.
 
-* Definieren Sie die Funktionen und Aufgaben für jeden Anbieter im Zusammenhang mit der Produktkategorie, die er unterstützt.
+* Definieren Sie Funktionen und Aufgaben für die einzelnen Anbieter mit Blick auf die von ihnen unterstützte Produktkategorie.
 
-* Bestätigen Sie die *Lieferzeiten* für alle Auslieferungsoptionen und erstellen Sie einen Bereitstellungsplan, der alle Vorlaufzeiten berücksichtigt, die ab dem gewünschten Installationsdatum der ersten erforderlichen Installationen rückwärts arbeiten.
+* Bestätigen Sie *Lieferzeiten* für alle Lieferziele und erstellen Sie einen Implementierungsplan, der alle Lieferzeiten berücksichtigt – und zwar von den gewünschten Installationsdaten der ersten erforderlichen Installationen rückwärts.
 
-Wenn wir alle vorherigen Schritte durchführen, sollten wir nun einen umfassenden *Bereitstellungsplan für Tag 1* ausführen können.
+Nach Erledigung aller vorherigen Schritte sollten wir nun einen umfassenden *Bereitstellungsplan für Tag 1* ausführen können.
 
-## Hardwarepartner berücksichtigen {#selecting-hardware-partner}
+## Auswahl von Hardwarepartnern {#selecting-hardware-partner}
 
-Entscheidend ist, den richtigen Hardwarepartner auszuwählen. Folgende Fragen sind zu prüfen:
+Es ist wichtig, den richtigen Hardwarepartner auszuwählen. Beantworten Sie folgende Fragen:
 
-1. Welche Vertragsbedingungen gelten für Service Level?
+1. Wie sehen die Service Level Agreement-Bedingungen aus?
 
-1. Was ist die globale Abdeckung?
+1. Gibt es globale Abdeckung?
 
-1. Ist es 24 Stunden Support?
+1. Gibt es Rund-um-die-Uhr-Support (24 Stunden)?
 
 1. Wie werden die Geräte verwaltet?
 
-1. Was sind die aktiven Überwachungs- und Warnsysteme?
+1. Woraus bestehen die aktiven Überwachungs- und Warnsysteme?
