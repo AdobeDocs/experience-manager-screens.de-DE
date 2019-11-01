@@ -1,28 +1,28 @@
 ---
-title: Support und Wartung am zweiten Tag
-seo-title: Unterstützung und Wartung für AEM Screens am zweiten Tag
-description: Auf der Seite werden Support und Wartung am zweiten Tag beschrieben.
-seo-description: Auf der Seite werden Support und Wartung am zweiten Tag beschrieben.
-translation-type: tm+mt
+title: Tag 2 – Support und Wartung
+seo-title: Tag 2 – Support und Wartung für AEM Screens
+description: Auf dieser Seite wird „Tag 2 – Support und Wartung“ beschrieben.
+seo-description: Auf dieser Seite wird „Tag 2 – Support und Wartung“ beschrieben.
+translation-type: ht
 source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
 
 ---
 
 
-# Unterstützung und Wartung der zweiten Plattform {#day-two-support-maintenance}
+# Tag 2 – Plattformsupport und -wartung {#day-two-support-maintenance}
 
-AEM Screens erfordert mehrere Pakete, damit Projekte funktionieren. In allen Umgebungen sollte dieselbe Version von Adobe Experience Manager ausgeführt werden.
+AEM Screens erfordert für funktionierende Projekte verschiedene Pakete. In allen Umgebungen sollte dieselbe Version von Adobe Experience Manager ausgeführt werden.
 
-Befolgen Sie die Richtlinien zur Unterstützung und Wartung der zweiten Stufe der Projektentwicklungsphase:
+Folgen Sie den Richtlinien zu Support und Wartung für Tag 2 der Projektentwicklungsphase:
 
 1. Führen Sie die neuesten Versionen der folgenden Pakete für Ihre Version von Adobe Experience Manager aus:
 
-   * **AEM Service Pack **
+   * **AEM Service Pack**
    * **Screens Feature Pack**
-   * **AEM  Cumulative Fix Pack **
+   * **AEM Cumulative Fix Pack**
 
-1. Identifizieren Sie alle erforderlichen Entwicklungspakete (z. B. WCM-Kernkomponenten) oder Drittanbieter-Toolkits (z. B. SAP Hybris).
+1. Ermitteln Sie alle erforderlichen Entwicklungspakete (z. B. zentrale WCM-Komponenten) oder Toolkits von Drittanbietern (z. B. SAP Hybris).
 
-1. Installieren Sie dieselben Softwarepakete auf Ihren lokalen Entwicklungsumgebungen.
+1. Installieren Sie dieselben Softwarepakete in Ihren lokalen Entwicklungsumgebungen.
 
-1. Weisen Sie Ihren Client an, dieselbe Konfiguration auf allen QA-, Stage- und Production-Servern zu verwenden. Nicht übereinstimmende Serverkonfigurationen verursachen Probleme bei der Bereitstellung und beim Testen.
+1. Weisen Sie Ihren Klienten an, dieselbe Konfiguration auf allen QA-, Staging- und Produktionsservern zu verwenden. Nicht übereinstimmende Serverkonfigurationen verursachen Probleme bei Bereitstellung und Tests.
