@@ -1,9 +1,9 @@
 ---
 title: Empfohlener Ansatz
-seo-title: Empfohlener Ansatz in einem AEM Screens-Projekt
-description: Die Seite beschreibt den empfohlenen Ansatz in einem AEM Screens-Projekt
-seo-description: Die Seite beschreibt den empfohlenen Ansatz in einem AEM Screens-Projekt
-translation-type: tm+mt
+seo-title: Empfohlener Ansatz für ein AEM Screens-Projekt
+description: Auf dieser Seite wird der empfohlene Ansatz für ein AEM Screens-Projekt beschrieben.
+seo-description: Auf dieser Seite wird der empfohlene Ansatz für ein AEM Screens-Projekt beschrieben.
+translation-type: ht
 source-git-commit: c8be1ed0c3949091b3a10825167da4df16d68fc0
 
 ---
@@ -11,47 +11,47 @@ source-git-commit: c8be1ed0c3949091b3a10825167da4df16d68fc0
 
 # Empfohlener Ansatz {#recommended-approach}
 
-Es wird empfohlen, AEM Screens-Projekte auf Unternehmensebene als langfristige Projekte zu betrachten. Eine Projektdauer von einem oder mehreren Jahren ist wahrscheinlich, insbesondere wenn die Lösung komplexe Benutzerinteraktionen ermöglicht oder auf verschiedenen Geräten und Standorten bereitgestellt wird.
+Es wird empfohlen, alle AEM Screens-Projekte auf Unternehmensebene als langfristige Projekte zu betrachten. Eine Projektdauer von einem oder mehreren Jahren ist wahrscheinlich, insbesondere wenn die Lösung komplexe Benutzerinteraktionen ermöglicht oder auf/an verschiedenen Geräten und Standorten bereitgestellt wird.
 
-## Leitlinien vor der Entwicklung einer Strategie für digitale Signaturen {#signage-strategy}
+## Leitlinien vor der Entwicklung einer Digital Signage-Strategie {#signage-strategy}
 
-Beachten Sie die folgenden Empfehlungen, bevor Sie ein Digitalsignage-Projekt entwickeln und bereitstellen:
+Beachten Sie die folgenden Empfehlungen, bevor Sie ein Digital Signage-Projekt entwickeln und implementieren:
 
-* **Bereichssteuerung**:
-Ist die gewünschte Lösung ehrgeizig, sollten Sie die Ergebnisse in einzelne Phasen unterteilen, um den Umfang des Projekts zu steuern.
+* **Kontrolle des Umfangs**:
+Ist die gewünschte Lösung ehrgeizig, sollten Sie die Lieferziele in einzelne Schritte unterteilen, um den Umfang des Projekts richtig steuern zu können.
 
-* **Definierte Anwendungsfälle**:
-Die Projektphasen sollten genau definierte Anwendungsfälle mit klar definierten Erfolgskriterien liefern.
+* **Definierte Nutzungsszenarien**:
+Projektphasen sollten genau definierte Nutzungsszenarien mit klar definierten Erfolgskriterien beinhalten.
 
-* **Inkrementelle Ergebnisse**:
-Konzentrieren Sie sich auf die schrittweise Bereitstellung von Funktionen.
+* **Inkrementelle Lieferziele**:
+Konzentrieren Sie sich auf eine schrittweise Bereitstellung von Funktionen.
 
-* **Geschätztes angestrebtes Ergebnis**:
-Beginnen Sie mit den vordefinierten AEM Screens-Funktionen, bevor Sie benutzerdefinierte Komponenten und Integrationen erstellen. Führen Sie immer Brainstorming durch, wenn das gewünschte Ergebnis mit den Komponenten und Funktionen erreicht werden kann, die mit AEM Screens Standard sind.
+* **Schätzen des angestrebten Ergebnisses**:
+Beginnen Sie mit vordefinierten AEM Screens-Funktionen, bevor Sie benutzerdefinierte Komponenten und Integrationen erstellen. Führen Sie stets ein Brainstorming durch, um zu ermitteln, ob das gewünschte Ergebnis mit den standardmäßigen Komponenten und Funktionen von AEM Screens erreichbar ist.
 
-* **Definieren von Piloten, Rollouts und POCs**:
-Entwickeln Sie einen Proof of Concept (POCs) und passen Sie sich nach Bedarf durch einen Pilotversuch und eine Einführung an.
+* **Definieren von Pilotprojekten, Rollouts und POCs**:
+Erarbeiten Sie Machbarkeitsstudien (POCs), die Sie in der Pilot- und Rollout-Phase bei Bedarf anpassen.
 
-* **Vordefinierte Inhaltsstrategie**:
-Festlegung einer Inhaltsstrategie, einschließlich kurz- und langfristiger Ziele. Richten Sie außerdem Markenziele/KPIs an Funktionsverbesserungen aus.
-
-   >[!NOTE]
-   >
-   > Die Kosten im Voraus sind in einem AEM-Screens-Projekt häufig höher, da in Hardware, Geräte und Site-Designs investiert werden muss; Daher kann die Vereinfachung der Lösungen für den anfänglichen Inhalt dazu beitragen, die Budgeterwartungen zu verwalten.
-
-* **Schätzen der Bereitstellung**im großen Maßstab:
-Wenn die Lösung in großem Maßstab bereitgestellt wird, wird empfohlen, die Komponenten der Anwendung an sorgfältig ausgewählten Pilotanlagen zur Verwendung als Testversion auszuführen. Stellen Sie die Bereitstellung an neuen Orten und Geräten während der Validierung der Anwendung sicher.
+* **Vordefinieren der Inhaltsstrategie**:
+Legen Sie eine Inhaltsstrategie fest, einschließlich kurz- und langfristiger Ziele. Richten Sie außerdem Markenziele/KPIs auf Funktionsverbesserungen aus.
 
    >[!NOTE]
    >
-   > Beginnen Sie mit der Erfassung von Analysen während des Pilotprojekts, um Geschäftsteams bei der Validierung des Erfolgs der Lösung anhand der spezifischen Metriken zu unterstützen, die sie zu erreichen versuchen. Die Kenntnis der Leistung des Piloten hilft dem Geschäftsteam festzustellen, welche Verbesserungen vorgenommen werden müssen.
+   > Die Vorabkosten in AEM Screens-Projekten sind häufig höher, da in Hardware, Geräte und Site-Designs investiert werden muss; daher können von Anfang an einfachere Lösungen dazu beitragen, die Budgeterwartungen zu erfüllen.
 
-* **Aufteilen der Ergebnisse in messbare Aufgaben**:
-Die Aufteilung der Leistungsmerkmale in messbare Aufgaben ermöglicht eine zeitnahe Rückmeldung, bietet erreichbare Ziele und reduziert die Gesamtrisiken des Projekts.
+* **Schätzen der übergeordneten Lieferziele**:
+Wenn die Lösung in großem Maßstab implementiert werden soll, wird empfohlen, die Komponenten der Anwendung an sorgfältig ausgewählten Pilotstandorten zum Testen einzuführen. Stellen Sie die Anwendung an neuen Standorten und auf neuen Geräten bereit, sobald die Anwendung die Validierung bestanden hat.
 
-* **Entwicklung eines Fahrplans**:
-Wenn Ihr Kunde ein funktionsreiches Produkt benötigt, stellen Sie frühzeitig im Projekt einen Teil der geplanten Funktionen bereit und planen Sie weitere Funktionen für zukünftige Phasen. Eine leistungsstarke erste Auslieferung birgt ein höheres Risiko und wird mit dem Kunden schwieriger zu validieren sein.
+   >[!NOTE]
+   >
+   > Beginnen Sie in der Pilotphase mit der Erfassung von Analysen. So können Sie Geschäftsteams dabei helfen, anhand der spezifischen Metriken, die sie erreichen möchten, den Erfolg der Lösung zu überprüfen. Die Ergebnisse aus dem Pilotprojekt helfen dem Geschäftsteam dabei zu ermitteln, welche Verbesserungen vorgenommen werden müssen.
 
-* **Umfang benutzerdefinierter Integrationen**:
-Interaktive Komponenten mit Touchscreen-Interaktion, Bewegungssensor oder RFID erfordern eine bedeutende benutzerdefinierte Entwicklung der Implementierungsmethode. Eine Diashow, Videowerbung oder ein statisches Menü können als grafischer Inhalt oder HTML auf einem Bildschirmkanal bereitgestellt werden.
+* **Aufteilen von Lieferzielen in messbare Aufgaben**:
+Eine Aufteilung der Bereitstellung von Funktionen in messbare Aufgaben erlaubt eine zeitnahe Rückmeldung, erlaubt mehr erreichbare Ziele und reduziert die Gesamtrisiken eines Projekts.
+
+* **Entwickeln einer Roadmap**:
+Wenn Ihr Kunde ein funktionsreiches Produkt benötigt, stellen Sie frühzeitig im Projekt einen Teil der geplanten Funktionen bereit und planen Sie andere Funktionen für spätere Phasen. Eine funktionsreiche erste Lieferung birgt ein höheres Risiko und wird mit dem Kunden schwieriger zu validieren sein.
+
+* **Verstehen des Umfangs benutzerdefinierter Integrationen**:
+Interaktive Komponenten mit Touchscreen-Interaktionen, Bewegungssensoren oder RFID erfordern bei der Implementierung eine umfangreiche benutzerdefinierte Entwicklung. Bildschirmpräsentationen, Videowerbung oder statische Menüs können in einem Screens-Kanal als grafischer Inhalt oder HTML bereitgestellt werden.
 
