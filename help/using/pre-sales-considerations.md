@@ -1,35 +1,35 @@
 ---
-title: Überlegungen zum Scoping von Projekten
-seo-title: Überlegungen zum Scoping von Projekten
-description: Auf der Seite werden Erwägungen beschrieben, bei denen Projekte kopiert wurden
-seo-description: Auf der Seite werden Erwägungen beschrieben, bei denen Projekte kopiert wurden
-translation-type: tm+mt
+title: Überlegungen zum Projektumfang
+seo-title: Überlegungen zum Projektumfang
+description: Auf dieser Seite werden Erwägungen zum Projektumfang beschrieben.
+seo-description: Auf dieser Seite werden Erwägungen zum Projektumfang beschrieben.
+translation-type: ht
 source-git-commit: 55999ae9ead7ab8986f4dcb69b0bbaa46933c9ec
 
 ---
 
 
-# Überlegungen zum Scoping von Projekten {#pre-sales-considerations}
+# Überlegungen zum Projektumfang {#pre-sales-considerations}
 
 >[!NOTE]
 >
->Typischer Stakeholder für diese Aktivität ist ein Marketing-/Geschäftsstrategist.
+>Typische Verantwortliche für diese Aktivität sind Marketing-/Geschäftsstrategen.
 
-Diese Phase umfasst alle Vor- und Nachverkaufsbemühungen, die erforderlich sind, um den Projektumfang vollständig zu definieren. Die Arbeit, die während Tag Null geleistet wurde, setzt den Ton für den Rest des Projekts und beeinflusst den Gesamterfolg der Anwendung, die erstellt wird.
-In diesem Stadium werden wichtige Anbieter ermittelt und zusammengeführt, um den Projektplan zu erstellen. In diesem Stadium ist es wichtig, dass auch mit wichtigen Projektbeteiligten innerhalb des Kundenunternehmens, wie z.B. Vertriebsmitarbeitern, Marketingmanagern und IT-Teams, ein Buy-in eingerichtet wird, da sie alle eine wichtige Rolle bei der Entwicklung der Anwendung und ihrer weiteren Wartung spielen werden.
+Dieser Schritt umfasst alle Pre-Sales- und Erkundungsmaßnahmen, die zur vollständigen Definition des Projektumfangs erforderlich sind. Die an Tag 0 erledigten Aufgaben setzen den Ton für den Rest des Projekts und beeinflussen den Gesamterfolg der erstellten Anwendung.
+In diesem Schritt werden wichtige Anbieter ermittelt und zusammengeführt, um den Projektplan zu erstellen. Dabei ist es wichtig, zentrale Projektbeteiligte im Kundenunternehmen wie z. B. Vertriebsmitarbeiter, Marketingmanager und IT-Teams einzubinden, da sie eine wichtige Rolle bei der Entwicklung der Anwendung und ihrer fortlaufenden Wartung spielen.
 
-## Wichtigste Ergebnisse {#key-deliverables}
+## Wichtigste Lieferziele {#key-deliverables}
 
-Zu den wichtigsten zum gegenwärtigen Zeitpunkt zu erreichenden Ergebnissen zählen:
+Zu den wichtigsten Lieferzielen in diesem Schritt zählen:
 
-* Zugelassener Projektplan (einschließlich Arbeitsbereich, Projektplan und Budget) mit Unterstützung wichtiger Interessengruppen.
-* Definierte Teams mit klaren Rollen und Verantwortlichkeiten.
-* Definierte Inhaltsstrategie mit kurz- und mittelfristigen Zielen und einer langfristigen Vision.
-* Liste der Berichtspflichten und der wichtigsten Leistungsindikatoren (KPIs).
-* Planen und Planen der Bereitstellung
+* Genehmigter Projektplan (einschließlich Arbeitsumfang, Projektplan und Budget) unter Einbindung zentraler Stakeholder
+* Definierte Teams mit klaren Rollen und Zuständigkeiten
+* Definierte Inhaltsstrategie mit kurz- und mittelfristigen Zielen sowie einer langfristigen Vision
+* Liste mit Reporting-Pflichten und Key Performance Indicators (KPIs)
+* Planung des Implementierungsentwurfs
 
 >[!NOTE]
 >
->Identifizieren Sie so bald wie möglich die Daten, die für die Anwendung benötigt werden, und wo sie herkommen. Während während der Implementierung eine tiefer gehende Untersuchung durchgeführt wird, sollten Sie sich die Zeit des *Tages Null* nehmen, um herauszufinden, welche Daten der Client verwenden möchte, wo diese Daten derzeit gespeichert sind und wie sie von der erstellten Anwendung aufgerufen werden können. Die Information des Entwicklungsteams über künftige Herausforderungen wird dazu beitragen, die Implementierung reibungsloser zu gestalten.
+>Ermitteln Sie so früh wie möglich Art und Herkunft der Daten, die für die Anwendung benötigt werden. Auch wenn bei der Implementierung eine tiefgehendere Untersuchung durchgeführt wird, sollten Sie sich an *Tag 0* Zeit nehmen, um herauszufinden, welche Daten der Kunde verwenden möchte, wo diese Daten derzeit gespeichert sind und wie sie von der erstellten Anwendung aufgerufen werden können. Benachrichtigungen an das Entwicklungsteam über kommende Herausforderungen tragen zu einer reibungsloseren Implementierung bei.
 
-Weitere Informationen finden Sie in der Videoschulung zu [Betrachtungen als Projekte](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-considerations.html) .
+Weitere Informationen dazu finden Sie in der Videoschulung [Überlegungen zum Projektumfang](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-considerations.html).
