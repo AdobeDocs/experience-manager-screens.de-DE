@@ -1,9 +1,9 @@
 ---
 title: Informationen zu diesem Handbuch
-seo-title: Beschreibung im Handbuch
-description: Diese Seite beschreibt den Zweck des Leitfadens zu Best Practices
-seo-description: Diese Seite beschreibt den Zweck des Leitfadens zu Best Practices
-translation-type: tm+mt
+seo-title: Beschreibung des Handbuchs
+description: Auf dieser Seite wird der Zweck des Best-Practices-Handbuchs beschrieben.
+seo-description: Auf dieser Seite wird der Zweck des Best-Practices-Handbuchs beschrieben.
+translation-type: ht
 source-git-commit: 61cf90bd834d2afa1e09a2f8371984c9635fac23
 
 ---
@@ -11,33 +11,33 @@ source-git-commit: 61cf90bd834d2afa1e09a2f8371984c9635fac23
 
 # Informationen zu diesem Handbuch {#about-guide}
 
-Der Leitfaden zu bewährten Verfahren für AEM Screens enthält Anleitungen zur erfolgreichen Planung und Ausführung eines AEM Screens-Projekts.
+Das Handbuch mit Best Practices für AEM Screens enthält Anleitungen zur erfolgreichen Planung und Ausführung eines AEM Screens-Projekts.
 
-Die Zielgruppe für dieses Dokument ist:
+Zur Zielgruppe für dieses Dokument gehören:
 
 * *AEM-Implementoren*
-* *AV-Integratoren*
-* *Geschäftsstrategien*
+* *A/V-Integratoren*
+* *Geschäftsstrategen*
 * *Projektmanager*
 * *Berater*
 
-Es sollte jedoch hervorgehoben werden, dass auch viele andere Rollen von der Lektüre dieses Leitfadens profitieren werden.
+Es sollte jedoch hervorgehoben werden, dass auch viele andere Rollen von der Lektüre dieses Handbuchs profitieren würden.
 
-Die AEM-Bildschirme sind eine neue Erweiterung von Adobe Experience Manager (AEM). Da es sich bei den Tools um neue Tools handelt und deren potenzielle Anwendungen unterschiedlich sind, müssen wichtige Überlegungen und allgemeine Risikofaktoren für die Entwicklung und Bereitstellung von AEM Screens ermittelt werden.
+AEM Screens ist eine neue Erweiterung von Adobe Experience Manager (AEM). Da es sich dabei um neue Tools handelt, deren potenzielle Anwendungen variieren, müssen Sie wichtige Überlegungen und allgemeine Risikofaktoren mit Blick auf die Entwicklung und Implementierung von AEM Screens ermitteln.
 
-Dieser Leitfaden bietet nicht nur einen umfassenden Einblick und praktische Ratschläge zur Vorstellung, Gestaltung und Einbindung vorsätzlicher Kundenerlebnisse in Ihre digitale Signaturimplementierung, sondern bietet Ihnen auch Anleitungen, wie Sie mithilfe einiger bewährter Verfahren, die bei der Bereitstellung eines digitalen Signaturprojekts in AEM Screens angewendet werden, positive Auswirkungen auf Ihr Unternehmen erzielen können.
+Das Handbuch bietet nicht nur umfassende Einblicke und praktische Ratschläge zur Planung, Gestaltung und Einbindung beabsichtigter Kundenerlebnisse in Ihre Digital Signage-Implementierung, sondern auch Anleitungen dazu, wie Sie bei der Bereitstellung eines Digital Signage-Projekts in AEM Screens durch Anwendung von Best Practices positive Auswirkungen auf Ihre Geschäftstätigkeit erzielen können.
 >[!IMPORTANT]
-> Dieser Leitfaden wurde entwickelt, um allgemeine Fallstricke bei der Implementierung eines AEM Screens-Projekts zu identifizieren. Der Schwerpunkt des Materials liegt in folgenden Themen:
+> Das Handbuch dient dazu, allgemeine Fallstricke bei der Implementierung eines AEM Screens-Projekts zu identifizieren. Der Schwerpunkt des Materials liegt besonders auf folgenden Themen:
 >
-> * **[Rollen und Zuständigkeiten des Projekts](roles-responsibilities.md)**
+> * **[Projektrollen und Zuständigkeiten](roles-responsibilities.md)**
 > * **[RACI-Diagramm für verschiedene Rollen](roles-responsibilities.md#raci-chart)**
 > * **[AEM-Plattformkonfigurationen](aem-platform-configurations.md)**
-> * **[Unterstützung und Überwachung](support-monitoring.md)**
+> * **[Support und Überwachung](support-monitoring.md)**
 
 
 >[!NOTE]
 > In diesem Handbuch verwendete Begriffe (im Kontext von AEM Screens):
 >
-> * **UX** ist eine digitale Signatur, die an Endkunden geliefert wird.
-> * **Die Benutzeroberfläche** wird als die Benutzeroberfläche betrachtet, mit der Sie Ihre Projekte in Bildschirmen erstellen und verwalten können.
+> * **UX** steht für die Digital Signage-Erlebnisse, die Endkunden bereitgestellt werden.
+> * **UI** steht für die Benutzeroberfläche, mit der Sie Ihre Projekte in Screens erstellen und verwalten können.
 
