@@ -1,9 +1,9 @@
 ---
-title: Reiseplan
-seo-title: Reiseplan für AEM Screens
-description: Die Seite beschreibt die "Journey Map"für AEM Screens
-seo-description: Die Seite beschreibt die "Journey Map"für AEM Screens
-translation-type: tm+mt
+title: Journey Map
+seo-title: Journey Map für AEM Screens
+description: Auf dieser Seite wird die Journey Map für AEM Screens beschrieben.
+seo-description: Auf dieser Seite wird die Journey Map für AEM Screens beschrieben.
+translation-type: ht
 source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
 
 ---
@@ -13,20 +13,20 @@ source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
 
 >[!NOTE]
 >
->Typischer Stakeholder für diese Aktivität sind Marketing-/Geschäftsstrategen.
+>Typische Verantwortliche für diese Aktivität sind Marketing-/Geschäftsstrategen.
 
-Eine Benutzererfahrungs-Jouney-Map ist so konzipiert, dass sie veranschaulicht, wie und warum die Benutzer die vom Netzwerk bereitgestellten digitalen Inhalte nutzen.
+Eine Journey Map zur User Experience (UX) liefert Informationen dazu, wie und warum Benutzer die vom Netzwerk bereitgestellten digitalen Inhalte nutzen.
 
-## Erstellen der UX-Reisekarte {#building-map}
+## Einrichten der UX Journey Map {#building-map}
 
-Ein starkes Verständnis dafür, wie die Verbraucher mit einem digitalen Signaturnetzwerk in einem physischen Raum interagieren, ist entscheidend für den Erfolg und den Wert, den dieses Netz bietet. Es hilft auch zu verstehen, wie die digitalen Erlebnisse im Kontext aller anderen Kanäle genutzt werden, auf die ein Kunde möglicherweise stoßen wird.
+Genaue Informationen dazu, wie Verbraucher in einem physischen Raum mit einem Digital Signage-Netzwerk interagieren, sind entscheidend für Erfolg und Nutzen des Netzwerks. Außerdem sollten Sie wissen, wie die digitalen Erlebnisse im Kontext aller anderen Kanäle, auf die ein Kunde ggf. stößt, verwendet werden.
 
-Die UX Journey-Karte ist eine sehr gute Möglichkeit, zu visualisieren, wie ein Besucher durch einen physischen Raum navigieren kann, welche Elemente ihm begegnen können und wie das vom Netzwerk bereitgestellte digitale Erlebnis Lücken in der gesamten Reise füllen kann.
+Die UX Journey Map ist eine gute Möglichkeit zur Visualisierung dessen, wie sich Besucher durch einen physischen Raum bewegen können, welche Elemente ihnen begegnen können und wie das vom Netzwerk bereitgestellte digitale Erlebnis Lücken in der übergeordneten Journey füllen kann.
 
-In dieser Projektphase können wir Optionen und Abhängigkeiten für dynamische oder interaktive Inhalte definieren, damit wir sie später als Prototypen einsetzen können. Dazu gehört ein Storyboard für jede Interaktion, jeden Datenauslöser oder jedes Schleifensegment, das das Netzwerk bereitstellt, zusammen mit den KPIs, die in der Strategiebeschreibung definiert sind.
+In dieser Projektphase können Sie Optionen und Abhängigkeiten für dynamische oder interaktive Inhalte definieren, damit Sie diese später als Prototypen erstellen können. Dazu gehört ein Storyboard für alle Interaktionen, Datenauslöser oder Schleifensegmente, die das Netzwerk bereitstellt, zusammen mit den in der Strategiebeschreibung definierten KPIs.
 
-Es wird empfohlen, dass Projektleiter und wichtige Interessenträger mit der physischen Platzierung digitaler Elemente entlang verschiedener Teile der Ladenreise sowie mit den tatsächlichen digitalen Erfahrungen, die geliefert werden können, experimentieren können.
+Es wird empfohlen, Projektleitern und zentralen Verantwortlichen zu ermöglichen, mit der physischen Platzierung digitaler Elemente entlang verschiedener Teile der Store Journey sowie mit den tatsächlichen digitalen Erfahrungen, die sich bereitstellen lassen, zu experimentieren.
 
 >[!NOTE]
 >
-> Beginnen Sie mit der Erfassung von Analysen während des Pilotprojekts, um Geschäftsteams bei der Validierung des Erfolgs der Lösung anhand der spezifischen Metriken zu unterstützen, die sie zu erreichen versuchen. Die Kenntnis der Leistung des Piloten hilft dem Geschäftsteam festzustellen, welche Verbesserungen vorgenommen werden müssen.
+> Beginnen Sie in der Pilotphase mit der Erfassung von Analysen. So können Sie Geschäftsteams dabei helfen, anhand der spezifischen Metriken, die sie erreichen möchten, den Erfolg der Lösung zu überprüfen. Die Ergebnisse aus dem Pilotprojekt helfen dem Geschäftsteam dabei zu ermitteln, welche Verbesserungen vorgenommen werden müssen.
