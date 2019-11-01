@@ -1,9 +1,9 @@
 ---
-title: Grundlagen der digitalen Signatur für [!UICONTROL AEM-Bildschirme]
-seo-title: Grundlagen der digitalen Signatur für [!UICONTROL AEM-Bildschirme]
-description: Das Handbuch beschreibt die Grundlagen eines Projekts zur digitalen Signage
-seo-description: Das Handbuch beschreibt die Grundlagen eines Projekts zur digitalen Signage
-translation-type: tm+mt
+title: Grundlagen von Digital Signage für [!UICONTROL AEM Screens]
+seo-title: Grundlagen von Digital Signage für [!UICONTROL AEM Screens]
+description: In diesem Handbuch werden die Grundlagen eines Digital Signage-Projekts beschrieben.
+seo-description: In diesem Handbuch werden die Grundlagen eines Digital Signage-Projekts beschrieben.
+translation-type: ht
 source-git-commit: 30c724ea897fd2da5300bb5cad285d460af5de40
 
 ---
@@ -11,88 +11,88 @@ source-git-commit: 30c724ea897fd2da5300bb5cad285d460af5de40
 
 # Grundlagen eines Digital Signage-Projekts {#basics-digital-signage}
 
-Bevor Sie sich mit den Best Practices für die Implementierung von AEM Screens vertraut machen, sollten Sie sich das Projekt nicht als herkömmliche Softwareentwicklung, sondern als Digitalsignaturprojekt vorstellen.
+Bevor Sie sich mit Best Practices für die Implementierung von AEM Screens vertraut machen, sollten Sie sich das Projekt als Digital Signage-Projekt vorstellen – und nicht als herkömmliche Softwareentwicklung.
 
-Dieser Abschnitt enthält Empfehlungen zu wichtigen Elementen, die vor der Implementierung eines AEM Screens-Projekts entscheidend sind.
+Dieser Abschnitt enthält Empfehlungen zu wichtigen Elementen, die vor der Implementierung eines AEM Screens-Projekts beachtet werden müssen.
 
-## Schlüsselelemente der digitalen Signatur {#key-elements}
+## Schlüsselelemente von Digital Signage {#key-elements}
 
-Die *Schlüsselelemente* eines Projekts zur digitalen Signatur sind:
+Die *Schlüsselelemente* eines Digital Signage-Projekts sind:
 
 ![](/help/assets/Elements-Revised.png)
 
-Die Definition der Schlüsselelemente ist vor der Implementierung eines digitalen Signage-Projekts unverzichtbar:
+Ein Definieren der Schlüsselelemente ist vor Implementierung eines Digital Signage-Projekts unerlässlich:
 
 1. **Hardware**
 
-   Die Hardware definiert, welche Hardwarekomponenten für die Implementierung des Digital Signage-Projekts geeignet sind:
-   * Verfügt das Gerät über genügend Speicherplatz, um alle Varianten des Erlebnisses offline ausführen zu können?
-   * Haben wir Videokabel-Typ und -Länge zugelassen? Unterstützt das Gerät beide gewünschten Auflösungen (HD, FullHD, 4K usw.) und Video-Codecs, die ich bereitstellen möchte (h.264, h.265 usw.)
-   * Verwendung von Kupferdraht
-   * Bildschirmgröße
-   * Anzahl Bildschirme
-      * orientation
+   Die Hardware bestimmt darüber, welche Hardwarekomponenten sich zur Implementierung Ihres Digital Signage-Projekts eignen:
+   * Verfügt das Gerät über ausreichend Speicherplatz, um alle Varianten der Erlebnisse offline ausführen zu können?
+   * Wurden Art und Länge der Videokabel berücksichtigt? Unterstützt das Gerät sowohl die gewünschten Auflösungen (HD, FullHD, 4K usw.) als auch die bereitzustellenden Videocodecs (h.264, h.265 usw.)?
+   * Einsatz von Kupferleitungen
+   * Größe der Bildschirme
+   * Anzahl der Bildschirme
+      * Ausrichtung
       * Seitenverhältnis
-      * Auflösungseinstellung
+      * Voreingestellte Auflösung
 
 1. **Konnektivität**
 
-   Konnektivität betont die folgenden Fragen:
-   * Networked (cell oder wi-fi) oder standalone?
-      * Müssen wir Updates für USB-Inhalte zulassen?
-      * Müssen wir die Erfassung von Nutzungsdaten zulassen?
+   Beim Thema Konnektivität geht es um folgende Fragen:
+   * Vernetzt (per Mobilfunk oder WLAN) bzw. eigenständig?
+      * Müssen Inhaltsaktualisierungen über USB möglich sein?
+      * Muss eine Erfassung von Nutzungsdaten möglich sein?
 
 1. **Installation**
 
    Die Installation umfasst:
-   * Zeigt: Querformat oder Hochformat
-   * Wie wird der Bildschirm gemountet?
+   * Displays: Querformat oder Hochformat
+   * Wie wird der Bildschirm befestigt?
       * Hochformat oder Querformat
-      * Volle Wohnung
+      * Komplettes Gehäuse
       * Abdeckplatte
-   * Fixierunterstützung
-   * Personal: für die Installation und den Anschluss des Geräts an das Netzwerk verantwortlich
-   * Wie weit ist die Stromquelle von der Vorrichtung entfernt?
-   * Wie weit ist die physische Leiste vom eigentlichen Gerät entfernt?
+   * Halterung
+   * Personal: verantwortlich für Installation und Anschluss des Geräts an das Netzwerk
+   * Wie weit ist die Stromquelle vom Gerät entfernt?
+   * Wie weit ist das physische Bedienfeld vom betreffenden Gerät entfernt?
 
 1. **Inhalt**
 
-   Der Inhalt umfasst:
-   * Einzel- oder Mehrzonen?
-      * Wie viele Medienelemente befinden sich gleichzeitig auf dem Bildschirm?
+   Inhalt umfasst:
+   * eine oder mehrere Zonen?
+      * Wie viele Medien-Assets befinden sich gleichzeitig auf dem Bildschirm?
       * Wie viele Seiten für interaktive Anwendungen?
       * Definieren der UI-Schleife
       * Datengesteuerter Inhalt?
-   * Versionssteuerung
+   * Versionskontrolle
 
-1. **interaktiv**
+1. **Interaktives**
 
-   Interaktiv:
-   * Bevorzugter Touchscreen-Typ?(resistive, kapazitive, multi-touch)?
+   Interaktives beinhaltet:
+   * bevorzugter Touchscreen? (resistiv, kapazitiv, Multi-Touch)
       * Tastendruck
       * Geste
    * Datenauslösung (I/O)?
-      * Senden/Empfangen von seriellen Befehlen (Kontaktschließung, PLC usw.)
-      * Eingehende Daten werden auf dem Bildschirm (RSS) angezeigt oder lösen Inhalte aus
+      * Senden/Empfangen von seriellen Befehlen (Schließen von Kontakt, PLC usw.)
+      * Eingehende Daten werden auf dem Bildschirm angezeigt (RSS) oder lösen Inhalt aus
       * RFID/NFC/Bluetooth/iBeacon
-      * Externe Dienstleistungen (Wetter, Verkehr usw.)
+      * Externe Dienste (Wetter, Verkehr usw.)
 
 1. **Umgebung**
 
-   Die Umwelt betont Folgendes:
-   * Anzeigeposition?
-      * Inside vs. Outside
-      * Unerreichbar oder direkt exponiert
-   * Spezielle Anforderungen an Temp?
-   * Vandal-Beweis?
-   * Hohe Umgebungslicht? Starke Kontraste?
+   Bei der Umgebung geht es um Folgendes:
+   * Displaystandort?
+      * Drinnen vs. draußen
+      * Unerreichbar oder direkter Kontakt
+   * Spezielle Temperaturbedingungen?
+   * Schutz vor Vandalismus?
+   * Starkes Umgebungslicht? Starke Kontraste?
 
 1. **Wartung**
 
-   Die Wartung konzentriert sich auf:
+   Bei der Wartung geht es um Folgendes:
 
-   * Sind detaillierte Installationsanleitungen/Benutzerhandbücher erforderlich?
-   * Konfigurieren (programmieren) wir das Gerät vor dem Versand?
-   * Müssen wir jede Seriennummer zu Tracking-Zwecken erfassen?
-   * Gibt es Reserveanforderungen an die Stromversorgung (unterbrechungsfreie Stromversorgung)?
-   * Wie werden Systemaktualisierungen bereitgestellt? Und wie werden Geräte remote überwacht? Ist eine MDM-Lösung erforderlich?
+   * Werden detaillierte Installationsanleitungen/Benutzerhandbücher benötigt?
+   * Wird das Gerät vor dem Versand konfiguriert (programmiert)?
+   * Müssen die einzelnen Seriennummern zu Verfolgungszwecken erfasst werden?
+   * Gibt es Bedarf an einer Stromversorgungsreserve (unterbrechungsfreie Stromversorgung)?
+   * Wie werden Systemaktualisierungen implementiert? Und wie werden Geräte remote überwacht? Ist eine MDM-Lösung erforderlich?
