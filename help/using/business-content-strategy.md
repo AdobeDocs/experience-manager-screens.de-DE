@@ -1,55 +1,55 @@
 ---
-title: Strategie für Geschäftsinhalte für [!UICONTROL AEM-Bildschirme]
-seo-title: Strategie für Geschäftsinhalte für [!UICONTROL AEM-Bildschirme]
-description: Das Handbuch beschreibt die Strategie für Geschäftsinhalte
-seo-description: Das Handbuch beschreibt die Strategie für Geschäftsinhalte
-translation-type: tm+mt
+title: Business Content-Strategie für [!UICONTROL AEM Screens]
+seo-title: Business Content-Strategie für [!UICONTROL AEM Screens]
+description: In diesem Handbuch wird die Strategie für Business Content beschrieben.
+seo-description: In diesem Handbuch wird eine Strategie für Business Content beschrieben.
+translation-type: ht
 source-git-commit: 55999ae9ead7ab8986f4dcb69b0bbaa46933c9ec
 
 ---
 
 
-# Strategie für Geschäftsinhalte {#business-content}
+# Business Content-Strategie{#business-content}
 
 >[!NOTE]
 >
->Typischer Stakeholder für diese Aktivität ist ein Marketing-/Geschäftsstrategist.
+>Typische Verantwortliche für diese Aktivität sind Marketing-/Geschäftsstrategen.
 
-Inhalte sind ein wichtiger Faktor für die Förderung der Interaktion. In der Phase vor dem Verkauf ist es wichtig, eine Strategie für Geschäftsinhalte zu definieren, in der berücksichtigt wird, wie die Anwendung Hardware-, Software- und Konnektivitätsressourcen nutzen wird, um den Kunden des Kunden den gewünschten Wert zu liefern.
+Content ist ein wichtiger Faktor zur Förderung von Interaktion. Darum muss in der Pre-Sales-Phase eine Business Content-Strategie definiert werden, in der berücksichtigt wird, wie die Anwendung Hardware-, Software- und Konnektivitätsressourcen nutzen wird, um den Kunden Ihres Klienten den gewünschten Nutzen zu liefern.
 
-Eine klar definierte Strategie für Geschäftsinhalte legt einen Pfad zur Erstellung, Verteilung und Verfolgung der Nutzung von Inhalten in Bezug auf die Customer Journey und die Marketing Toupoints im Verkaufstrichter fest. Die richtige Botschaft zum richtigen Zeitpunkt beim richtigen Kunden zu erhalten, ist von entscheidender Bedeutung.
+Eine klar definierte Strategie für Business Content ermöglicht die Erstellung, Verteilung und Verfolgung der Nutzung von Inhalten für die Buyer's Journey und die Marketing-Touchpoints im Verkaufstrichter. Dass jeder Kunde zum richtigen Zeitpunkt die richtige Botschaft erhält, ist dabei von entscheidender Bedeutung.
 
-Überlegen Sie, wie die Bildschirmanwendung dazu beitragen kann, dies zu erreichen, und bestimmen Sie KPIs, um den Erfolg der Anwendung bei der Bereitstellung dieses Inhalts zu messen.
+Überlegen Sie, wie Screens bei dieser Aufgabe helfen kann, und legen Sie KPIs fest, um den Erfolg der Anwendung bei der Bereitstellung des Inhalts zu messen.
 
 >[!NOTE]
 >
->Sie müssen bedenken, dass das Erlebnis offline mit begrenzter Bandbreite funktionieren muss.
+>Beachten Sie, dass das Erlebnis offline mit begrenzter Bandbreite funktionieren muss.
 
-Sie müssen auf die folgenden Fragen verweisen, die beim Erstellen einer Inhaltsstrategie für Ihr AEM Screens-Projekt beantworten sollten:
+Beantworten Sie beim Erstellen einer Inhaltsstrategie für Ihr AEM Screens-Projekt folgende Fragen:
 
-* Wer ist das Zielpublikum und wie hoch ist die erwartete Verweilzeit?
-* Welche Inhalte müssen ihnen gezeigt werden?
-* Wo werden Inhalte am wirkungsvollsten sein?
-* Wann ist der ideale Zeitpunkt, um das Publikum einzubinden?
+* Wer gehört zur Zielgruppe und wie hoch ist die erwartete Verweilzeit?
+* Welche Inhalte müssen gezeigt werden?
+* Wo sind Inhalte am wirkungsvollsten?
+* Wann ist der ideale Zeitpunkt, um die Zielgruppe zu erreichen?
 * Wer erstellt den Inhalt?
-* Warum sollte sich die Zielgruppe um den Inhalt kümmern?
-* Welche Probleme hilft ihnen der Inhalt zu lösen? (Hilft die Anwendung Screens beispielsweise einem Kunden, die besten Schuhe für extreme Bergsteigen oder ein perfektes Gerät für sein neues Zuhause zu finden?)
+* Warum sollte sich die Zielgruppe für den Inhalt interessieren?
+* Welche Probleme kann die Zielgruppe mithilfe des Inhalts lösen? (Beispiel: Hilft die Anwendung Screens einem Kunden dabei, die besten Schuhe für extreme Bergtouren bzw. das perfekte Haushaltsgerät für sein neues Zuhause zu finden?)
 * Wie interagiert der Kunde mit der Anwendung oder wie sieht das Benutzererlebnis aus?
 * Wie lautet Ihre Strategie für Updates und Upgrades?
-* Wie oft werden neue Inhalte benötigt?
+* Wie oft werden neue Inhalte benötigt? 
 
    >[!NOTE]
    >
-   >In der Phase vor dem Verkauf ist es wichtig, Fragen zu stellen, nicht nur darüber, welche Inhalte freigegeben werden, sondern auch, wo sich die Inhaltsdaten derzeit befinden und wie sie in das Screens-Projekt einfließen. Sie müssen während der Implementierung versuchen, den Inhalt genauer zu untersuchen, aber vorher feststellen, welche Daten verfügbar sind und in welchem Format.
+   >In der Pre-Sales-Phase müssen Fragen gestellt werden, nicht nur zur Art der geteilten Inhalte, sondern auch dazu, wo sich die Inhaltsdaten derzeit befinden und wie sie im Screens-Projekt genutzt werden sollen. Bei der Implementierung müssen Sie versuchen, den Inhalt genauer zu untersuchen. Dazu müssen Sie jedoch wissen, welche Daten in welchem Format vorliegen.
 
 ## Wichtige Überlegungen {#important-considerations}
 
-Befolgen Sie die folgenden wichtigen Überlegungen zu Inhaltsdaten:
+Beachten Sie folgende wichtige Überlegungen zu Inhaltsdaten:
 
-* Woher kommen die Inhalte?
-* Ist sie aktuell, korrekt und eine Quelle der Wahrheit oder ist sie anfällig für Inkonsistenzen und Fehler?
+* Woher stammt der Inhalt?
+* Ist er aktuell, korrekt und wahrheitsgemäß oder inkonsistent und fehlerhaft?
 * Gibt es eine vorhandene Integration, die zur Datenerfassung verwendet werden kann?
-* Gibt es einen Datenfeed und ist er zuverlässig?
-* In welchem Format sind die Daten?
-* Sind alle Daten vorhanden? Wenn nicht, welche Daten fehlen und wo sind sie zu finden?
+* Gibt es einen Daten-Feed und ist er zuverlässig?
+* In welchem Format liegen die Daten vor?
+* Sind alle Daten vorhanden? Wenn nicht: Welche Daten fehlen und wo sind sie zu finden?
 * Wie oft werden die Daten hinzugefügt oder aktualisiert?
