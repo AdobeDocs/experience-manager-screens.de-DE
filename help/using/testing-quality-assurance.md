@@ -1,9 +1,9 @@
 ---
 title: Tests und Qualitätssicherung
-seo-title: Tests und Qualitätssicherung für AEM Screens
-description: Auf der Seite werden Best Practices für Tests und Qualitätssicherung in AEM Screens beschrieben.
-seo-description: Auf der Seite werden Best Practices für Tests und Qualitätssicherung in AEM Screens beschrieben.
-translation-type: tm+mt
+seo-title: Tests und Qualitätssicherung für AEM Screens
+description: Auf dieser Seite werden die Best Practices für Tests und die Qualitätssicherung von AEM Screens beschrieben.
+seo-description: Auf dieser Seite werden die Best Practices für Tests und die Qualitätssicherung von AEM Screens beschrieben.
+translation-type: ht
 source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
 
 ---
@@ -13,28 +13,28 @@ source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
 
 >[!NOTE]
 >
->Typischer Stakeholder für diese Aktivität ist ein A/V-Integrator.
+>Typische Verantwortliche für diese Aktivität sind A/V-Integratoren.
 
-Da wir uns der tatsächlichen Implementierung des digitalen Signaturnetzwerks nähern, sollten wir einen Test- und QA-Plan erstellen, der alle Netzwerkelemente einschließlich aller Hardwarekomponenten, aller Softwarekomponenten und aller Netzwerkkomponenten umfasst.
-In der Phase sollten ganze Prüfsysteme gebaut und vollständig getestet werden.
+Da wir uns der realen Implementierung des Digital Signage-Netzwerks nähern, sollten wir einen Test- und QA-Plan erstellen, der alle Elemente des Netzwerks einschließlich der Hardwarekomponenten, Softwarekomponenten und Netzwerkkomponenten umfasst.
+In dem Schritt sollten vollständige Prüfsysteme eingerichtet und gründlich getestet werden.
 
-Es sollte eine Checkliste erstellt werden, in der alle zuvor definierten KPIs identifiziert und die zu erbringenden KPIs gemessen werden.
+Es sollte eine Checkliste erstellt werden, in der alle zuvor definierten KPIs aufgeführt und anhand der entsprechenden Lieferziele gemessen werden.
 
 Folgende Elemente sollten berücksichtigt werden:
 
-1. **Mechanische Erwägungen** für
-   * Anzeigeauflage
-   * Player-Installation
+1. **Mechanische Erwägungen** mit Blick auf
+   * Displaymontage
+   * Player-Montage
    * Lüftung
    * Peripheriegeräte
    * Kabelmanagement
    * Gerätenetzwerk
 
-1. **Überlegungen** zur Software
+1. **Softwareüberlegungen** mit Blick auf:
    * Geräteregistrierung
-   * Medienveröffentlichung
-   * play
+   * Media Publishing
+   * Wiedergabe
    * Datenbankabhängigkeiten (zuvor definiert)
 
 >[!NOTE]
-> Diese Phase sollte auch als Werkzeug zur Erstellung eines Installations- und Benutzerhandbuchs verwendet werden, das später mit dem Gerät versendet und für künftige Referenzzwecke vor Ort aufbewahrt werden kann.
+> Dieser Schritt sollte auch zur Erstellung eines Installations- und Benutzerhandbuchs genutzt werden, das später mit dem Gerät ausgeliefert und für künftige Referenzzwecke vor Ort aufbewahrt werden kann.
