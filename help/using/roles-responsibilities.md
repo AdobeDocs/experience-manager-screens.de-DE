@@ -1,30 +1,30 @@
 ---
-title: Rollen und Zuständigkeiten des AEM Screens-Projekts
-seo-title: Rollen und Zuständigkeiten des AEM Screens-Projekts
-description: Auf der Seite werden die Rollen und Zuständigkeiten des AEM Screens-Projekts beschrieben
-seo-description: Auf der Seite werden die Rollen und Zuständigkeiten des AEM Screens-Projekts beschrieben
-translation-type: tm+mt
+title: Projektrollen und Zuständigkeiten in AEM Screens
+seo-title: Projektrollen und Zuständigkeiten in AEM Screens
+description: Auf dieser Seite werden die Projektrollen und Zuständigkeiten in AEM Screens beschrieben.
+seo-description: Auf dieser Seite werden die Projektrollen und Zuständigkeiten in AEM Screens beschrieben.
+translation-type: ht
 source-git-commit: fe5a340e817488dc4c3a92d607c990756ac259b6
 
 ---
 
 
-# Aufgaben und Zuständigkeiten des Projekts {#roles-responsibilities}
+# Projektrollen und Zuständigkeiten {#roles-responsibilities}
 
-Als erfahrener AEM-Implementor werden Sie wahrscheinlich gesehen haben, welche Rollen als *Autoren*, *Entwickler* und *IT/Techniker* bezeichnet werden.
+Als erfahrener AEM-Implementor kennen Sie wahrscheinlich die Rollen, die als *Autoren*, *Entwickler* und *IT/Techniker* bezeichnet werden.
 
-In einem typischen AEM Screens-Projekt werden die Rollen weiter verfeinert, da sie jeweils einen wichtigen Zweck im Projekt erfüllen.
+In einem typischen AEM Screens-Projekt werden die Rollen weiter verfeinert, da sie jeweils eine wichtige Aufgabe im Projekt haben.
 
-Das unten stehende Diagramm zeigt die Rollen, auf die wir im Handbuch Bezug nehmen werden.
+Im folgenden Diagramm werden die Rollen dargestellt, auf die wir im Handbuch immer wieder Bezug nehmen werden.
 
 ![](/help/assets/roles-used.png)
 
 >[!NOTE]
-> Viele dieser Rollen könnten entweder intern oder extern vergeben werden, je nachdem, wie die einzelnen Projekte eingerichtet wurden.
+> Viele der Rollen können interner oder externer Art sein, je nachdem, wie die einzelnen Projekte eingerichtet wurden.
 
-## Rollen definieren {#roles}
+## Definieren von Rollen {#roles}
 
-Der folgende Abschnitt gibt einen Überblick über die Zielgruppe:
+Im folgenden Abschnitt finden Sie einen Überblick über die Zielgruppe:
 
 ### Adobe {#adobe-audience}
 
@@ -32,136 +32,136 @@ Adobe umfasst Adobe Managed Services-Ressourcen wie CSE (Customer Success Engine
 
 ### AEM-Implementoren {#aem-implementors}
 
-AEM-Implementoren sind für die Durchführung von Entwicklungs- und Integrationsaufgaben zuständig, um die Benutzererfahrung, benutzerdefinierte Vorlagen und Back-End-Integrationen für AEM zu entwickeln.
+AEM-Implementoren sind für die Durchführung von Entwicklungs- und Integrationsaufgaben zuständig, die der Entwicklung der Benutzererfahrung sowie benutzerdefinierter Vorlagen und Back-End-Integrationen für AEM dienen.
 
-Benutzerdefinierte Funktionen, die für die Bearbeitung von UX-Parametern (User Experience) für Endkunden erforderlich sind, werden ebenfalls erfasst und bereitgestellt.
+Benutzerdefinierte Funktionen, die für die Bearbeitung von UX-Parametern (User Experience) bei Endkunden erforderlich sind, werden dabei ebenfalls erfasst und bereitgestellt.
 
-AEM-Implementoren stellen benutzerdefinierte Funktionen in der Regel schrittweise an Standorte bereit. Beispielsweise können sie zunächst Unterstützung für die Wiedergabe von Basisvideo- oder statischen Grafikinhalten mit Schleife einrichten. Die nächste Phase kann die Unterstützung der Wiedergabe lokalisierter Inhalte durch dynamische Vorlagen und Metadaten-Tags umfassen. Zusätzlich werden weitere Phasen mit Unterstützung für interaktive Elemente über Touch-Bildschirme, Sensoren, dynamische Auslöser usw. unterstützt.
+AEM-Implementoren implementieren benutzerdefinierte Funktionen an Standorten in der Regel schrittweise. Beispielsweise richten sie möglicherweise zunächst Unterstützung für die Wiedergabe von einfachen Videoschleifen oder statischen Grafikinhalten ein. Der nächste Schritt kann Unterstützung für die Wiedergabe lokalisierter Inhalte durch dynamische Vorlagen und Metadaten-Tags umfassen. In weiteren Schritten kann Unterstützung für interaktive Elemente über Touchscreens, Sensoren, dynamische Auslöser usw. hinzukommen.
 
-### AV-Integratoren {#av-integrators}
+### A/V-Integratoren {#av-integrators}
 
-Der A/V-Integrator ist der Hardware-Anbieter/Partner. Dies ist die Partei, die sich mit dem Design und der Vorbereitung von Websites für den Einzelhandel beschäftigt, einschließlich Beschaffung, Konfiguration und Bereitstellung von Hardware. Es handelt sich in der Regel um einen vertraglich gebundenen Drittanbieter, der Zugriff auf ein Network Operations Center (NOC) hat. In vielen Fällen ist der A/V Integrator der Projekteigentümer, da er nach dem Start kontinuierlich beteiligt ist.
+A/V-Integratoren sind die Hardwareanbieter/-partner. Dabei handelt es sich um die Partei, die sich mit der Vorbereitung von Design und Sites für den Einzelhandel beschäftigt, einschließlich Beschaffung, Konfiguration und Bereitstellung der Hardware. Es handelt sich dabei in der Regel um einen beauftragten Drittanbieter, der Zugriff auf ein Network Operations Center (NOC) hat. In vielen Fällen sind A/V-Integratoren die Projekteigentümer, da sie nach dem Launch weiter kontinuierlich beteiligt sind.
 
-Ein AV Integrator ist für die Durchführung von Entdeckungen mit Endkunden verantwortlich, um Anforderungen zu definieren, die den Projektumfang für die Entwicklung, den Aufbau und die effektive Verwaltung von Implementierungen auf der Hardware für digitale Signaturen bestimmen.
+A/V-Integratoren sind für die Durchführung der Erkundung mit Endkunden verantwortlich, um Anforderungen zu definieren, die den Projektumfang für Entwicklung, Aufbau und effektive Verwaltung von Implementierungen im Zusammenhang mit Digital Signage-Hardware bestimmen.
 
-### Geschäftsstrategien {#business-strategist}
+### Geschäftsstrategen {#business-strategist}
 
-Die Geschäftsstrategen vertreten die Entscheidungsträger des Unternehmens. Diese Rolle ist stark in die Entdeckungs- und Anforderungsstadien eingebunden und ist der Hauptmotor des Projekts.
+Geschäftsstrategen vertreten die Entscheidungsträger im Unternehmen. Diese Rolle ist stark in die Erkundungs- und Anforderungsschritte eingebunden und dient als Hauptmotor für das Projekt.
 
-Sie definieren Anforderungen und richten KPI-Metriken ein. Die Geschäftsstrategie könnte lauten:
+Geschäftsstrategen definieren die Anforderungen und richten KPI-Metriken ein. Geschäftsstrategen können zum Beispiel sein:
 
 * Marketing oder
-* Sales Manager Digital Strategy Manager Creative/Content Management.
+* Sales Manager Digital Strategy Manager Creatives / Content Management.
 
-Das Creative- und Content-Management-Team arbeitet eng mit dem Strategieteam zusammen und macht Anforderungen zu Kundenerlebnissen. Sie verhelfen zu dem allgemeinen UX-Design und kuratieren die Inhalte, die die Marke ergänzen.
+Das Creatives- und Content Management-Team arbeitet eng mit dem Strategieteam zusammen, um Anforderungen in Kundenerlebnisse zu verwandeln. Es verwaltet das allgemeine UX-Design und kuratiert Inhalte, die zur Marke passen.
 
-Creative und Content Management können wie folgt aussehen:
+Das Creatives- und Content Management-Team kann zum Beispiel beinhalten:
 
 * Kreativagentur oder
 * Markenmanager
 
 ### Projektmanager {#project-managers}
 
-Projektmanager verwalten in der Regel die gesamte Bereitstellung für Ihre AEM Screens-Bereitstellung. Ein Projektmanager ist die zentrale Anlaufstelle für die gesamte Implementierung des ausgewählten Projekts und erfüllt wichtige Aufgaben wie die Festlegung von Fristen, die Bearbeitung der Anforderungen und Kommunikation des Teams, die Bewältigung von Herausforderungen und die Sicherstellung, dass die Ziele erreicht werden.
+Projektmanager verwalten in der Regel die gesamte Implementierung für Ihre AEM Screens-Umgebung. Ein Projektmanager ist der zentrale Ansprechpartner für die gesamte Implementierung des ausgewählten Projekts und erledigt wichtige Aufgaben wie die Festlegung von Zeitplänen, die Verwaltung von Teamanforderungen und Kommunikation, die Bewältigung von Herausforderungen und die Sicherstellung, dass Ziele erreicht werden.
 
 >[!NOTE]
 >
-> Ausführliche Informationen zu den verschiedenen Rollen und Verantwortlichkeiten und der Zielgruppe für ein Projekt zur digitalen Signatur finden Sie unter **[Projektrollen und Zuständigkeiten](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
+> Ausführliche Informationen zu den verschiedenen Rollen und Zuständigkeiten sowie zur Zielgruppe für ein Digital Signage-Projekt finden Sie unter **[Projektrollen und Zuständigkeiten](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
 
 
-## Projektphasen {#project-stages}
+## Projektschritte {#project-stages}
 
-Um eine erfolgreiche Bereitstellung von Digital Signage zu unterstützen, ist es üblich, das Projekt in drei Stufen zu unterteilen.  Diese Phasen werden häufig als **Tage** bezeichnet. Es handelt sich nicht um wörtliche Tage, sondern um Bezeichnungen für die einzelnen Hauptabschnitte des Projekts.
+Zur Sicherstellung einer erfolgreichen Bereitstellung von Digital Signage ist es üblich, ein Projekt in drei Schritte zu unterteilen.  Diese Schritte werden häufig als **Tage** bezeichnet. Es handelt sich dabei nicht um Tage im wörtlichen Sinne, sondern um Bezeichnungen für die verschiedenen Hauptschritte eines Projekts.
 
-1. Die erste Phase wird als *Tag Null* bezeichnet. Diese Phase umfasst alle Vor- und Nachverkaufsbemühungen, die erforderlich sind, um den Projektumfang vollständig zu definieren.
+1. Der erste Schritt wird als *Tag 0* bezeichnet. Dieser Schritt umfasst alle Pre-Sales- und Erkundungsbemühungen, die zur vollständigen Definition des Projektumfangs erforderlich sind.
 
-1. Die zweite Phase, *Tag 1*, bezieht sich auf alle Aktivitäten, die in den Bereitstellungsbemühungen enthalten sind.
+1. Der zweite Schritt, *Tag 1*, bezieht sich auf alle Aktivitäten, die Teil der Implementierung sind.
 
-1. Die dritte und letzte Stufe *Tag Zwei* bezieht sich auf alle laufenden Operationen und Unterstützungselemente als Teil der Gesamtlösung.
+1. Der dritte und letzte Schritt, *Tag 2* bezieht sich auf alle laufenden Operationen und unterstützenden Elemente, die Teil der Gesamtlösung sind.
 
 >[!NOTE]
 >
-> Während dieser Leitfaden in erster Linie den Schwerpunkt auf *Tag 1* und *Tag 2*legt, ist die Aufmerksamkeit auf alle drei Phasen notwendig, um ein erfolgreiches Digital Signage Projekt.
-In einem zusätzlichen Video zu **[Projektverwaltung und -bereitstellung](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** erfahren Sie mehr über die Projektvorbereitung, die Projektaufnahme und den Projektfortschritt.
+> Auch wenn der Schwerpunkt dieses Handbuchs auf *Tag 1* und *Tag 2* liegt, müssen bei einem erfolgreichen Digital Signage-Projekt alle drei Schritte beachtet werden.
+In einem zusätzlichen Video zu **[Projektverwaltung und -implementierung](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** erfahren Sie mehr über die Projektvorbereitung, die Projektinitiierung und den Projektfortschritt.
 
 ## RACI-Diagramm {#raci-chart}
 
-Im Folgenden finden Sie ein Beispiel für ein RACI-Diagramm mit den Rollendefinitionen.
+Im Folgenden finden Sie ein Beispiel für ein RACI-Diagramm unter Verwendung der Rollendefinitionen.
 
 >[!NOTE]
 >
-> Dieses Diagramm soll nicht exakt befolgt werden, sondern soll ein Beispiel für häufige Aufgaben und Überlegungen in einem AEM Screens-Projekt liefern.
+> Dieses Diagramm muss nicht genau befolgt werden, sondern dient als Beispiel für häufige Aufgaben und Überlegungen bei AEM Screens-Projekten.
 
 ### RACI-Definitionen {#raci-definitions}
 
-* **Verantwortlich**: Vervollständigt die Aufgabe.
+* **Responsible (verantwortlich)**: Führt die Arbeiten zur Erledigung der Aufgabe aus.
 
-* **Wirtschaftlich**: Die Delegaten arbeiten und sind die letzte Partei, die die Aufgabe überprüft, bevor sie abgeschlossen ist.
+* **Accountable (rechenschaftspflichtig)**: Delegiert Arbeiten und ist die letzte Partei, die eine Aufgabe überprüft, bevor sie abgeschlossen wird.
 
-* **Besprochen**: Prüft die Aufgabe oder Bereitstellung, um Eingaben bereitzustellen.
+* **Consulted (konsultiert)**: Prüft die Aufgabe oder das Lieferziel, um Input zu liefern.
 
-* **Information**: Wir informieren Sie über die Fortschritte bei der Aufgabe, sind aber nicht in die Einzelheiten des Lieferbaren eingebunden.
+* **Informed (zu informieren)**: Wird über den Fortschritt der Aufgabe informiert, ist aber nicht in die Einzelheiten des Lieferziels eingebunden.
 
-Im Folgenden finden Sie ein Beispiel für ein RACI-Diagramm, das die Rollendefinitionen verwendet, und ein Beispiel für allgemeine Aufgaben und Überlegungen in einem AEM Screens-Projekt.
+Im Folgenden finden Sie ein Beispiel für ein RACI-Diagramm mit Verwendung der Rollendefinitionen sowie ein Beispiel für allgemeine Aufgaben und Überlegungen in AEM Screens-Projekten.
 
-| **Phase** | **A/V-Integrator** | **AEM-Implementor** | **Geschäftsstrategie** | **Content Management** |
+| **Schritt** | **A/V-Integrator** | **AEM-Implementor** | **Geschäftsstrategie** | **Content Management** |
 |---|---|---|---|---|
-| *Tag Null: Überlegungen zu Vorverkäufen* |
-| Teambildung und Händlerauswahl | I | I | RA | RA |
+| *Tag 0: Pre-Sales-Überlegungen* |
+| Teambildung und Anbieterauswahl | I | I | RA | RA |
 | Einigung über Rollen und Zuständigkeiten | RA | RA | RA | RA |
-| Angleichung an strategische Ziele | CI | I | RA | RA |
-| Berichterstellungsanforderungen und ROI-Identifizierung | I | C | RA | C |
+| Ausrichtung auf strategische Ziele | CI | I | RA | RA |
+| Reportingbedarf und ROI-Identifizierung | I | C | RA | C |
 | Site-Besuche und Hardwareanforderungen | RA | I | C | C |
-| Unterstützungsprozessdefinition | C | I | RA | I |
-| Definieren des Arbeitsbereichs und des Projektplans | RA | RA | C | C |
-| *Erster Tag: Projektimplementierung (Anwendungsdesign)* |
-| Einigung über die Rollen und Zuständigkeiten | RA | RA | RA | RA |
-| Ausrichtung am Projektplan und Zeitplan | RA | RA | C | C |
-| Aktuelle Serverumgebungen bewerten | I | RA | I | I |
+| Definition von Supportprozessen | C | I | RA | I |
+| Definition von Arbeitsumfang und Projektplan | RA | RA | C | C |
+| *Tag 1: Projektimplementierung (Anwendungsdesign)* |
+| Einigung über Rollen und Zuständigkeiten | RA | RA | RA | RA |
+| Ausrichtung am Projekt- und Zeitplan | RA | RA | C | C |
+| Bewerten vorhandener Serverumgebungen | I | RA | I | I |
 | UX-Designanforderungen | I | AR | C | AR |
 | Validierung der technischen Anforderungen | I | RA | RA | C |
 | Architekturdesign | I | AR | I | I |
-| Datenstruktur mit UI-Design überprüfen | I | AR | C | C |
+| Validieren der Datenstruktur mit UI-Design | I | AR | C | C |
 | Anwendungsentwicklung | RA | RA | RA | RA |
-| AEM Screens - Projekteinrichtung | I | AR | C | I |
+| AEM Screens – Projekteinrichtung | I | AR | C | I |
 | Analytics-Implementierung | I | AR | C | - |
-| Tests und Bereitstellung | AR | C | AR | I |
+| Tests und Implementierung | AR | C | AR | I |
 | Serverkonfiguration | I | AR | I | I |
-| Content Update Plan | I | AR | C | C |
-| Plan für den Übergang von Pilot zu Produktion | AR | AR | I | I |
+| Inhaltsaktualisierungsplan | I | AR | C | C |
+| Plan für den Übergang von der Pilotphase in die Produktion | AR | AR | I | I |
 | Wissenstransfer | AR | AR | I | I |
-| *Erster Tag: Projektdurchführung (Einzelhandelsbereitschaft)* |
-| Hardware-Bestellung und -Speicherung | AR | I | I | I |
-| Einzelhandel - Einsteigerplan | I | I | C | AR |
-| Test der Benutzerakzeptanz | I | C | AR |  |
-| Hardware-Massenkonfiguration | AR | I | C | I |
-| Vereinbarung über Support nach dem Start | AR | C | AR | C |
-| *Erster Tag:Erster Tag: Projektdurchführung (Hardware)* |
+| *Tag 1: Projektimplementierung (Einzelhandelsbereitschaft)* |
+| Hardwarebestellung und -lagerung | AR | I | I | I |
+| Onboarding-Zeitplan für den Einzelhandel | I | I | C | AR |
+| Tests der Benutzerakzeptanz | I | C | AR |  |
+| Massenkonfiguration von Hardware | AR | I | C | I |
+| Vereinbarung über Post-Launch-Support | AR | C | AR | C |
+| *Tag 1: Projektimplementierung (Hardware)* |
 | Einigung über Rollen und Zuständigkeiten | RA | RA | RA | RA |
-| Einzelhandelsdesign umfasst Kabelvorgänge | - | - | - | - |
-| Hardwareauswahl des Players | RAC | - | - | - |
-| Hauptgerätemanagement | RA | I | - | - |
-| Gerätebestellung und -speicherung und -konfiguration | RA | CI | I | - |
-| Unterstützungsprozessdefinition | RA | I | RA | C |
+| Einzelhandelsdesign inklusive Verkabelung | - | - | - | - |
+| Auswahl der Player-Hardware | RAC | - | - | - |
+| Verwaltung der Mastergeräte | RA | I | - | - |
+| Bestellung, Aufbewahrung und Konfiguration von Geräten | RA | CI | I | - |
+| Definition von Supportprozessen | RA | I | RA | C |
 
 >[!NOTE]
 >
-> Rollen ändern sich während des zweiten Tages (Unterstützung nach dem Start).
+> Rollen ändern sich an Tag 2 (Post-Launch-Support).
 
-* **Autor**: Content Management + Strategie
+* **Autor**: Content Management + Strategie
 
-* **Entwickler**: In der Regel Mitglied des AEM Screens-Implementierungsteams oder Übergabe an das interne Entwicklungsteam
+* **Entwickler**: In der Regel ein Mitglied des AEM Screens-Implementierungsteams oder Übergabe an das interne Entwicklungsteam
 
-* **Techniker**: Entweder wurde der Vertrag vom AV-Integrator abgeschlossen oder ist Teil desselben Unternehmens.
+* **Techniker**: Entweder vom AV-Integrator beauftragt oder Teil desselben Unternehmens.
 
-Die folgende Tabelle fasst den zweiten **Tag zusammen: RACI-Diagramm** zur Unterstützung nach dem Start:
+In der folgenden Tabelle wird **Tag 2 zusammengefasst: RACI-Diagramm für Post-Launch-Support**:
 
-| **Phase** | **Autor** | **Entwickler** | **Techniker** |
+| **Schritt** | **Autor** | **Entwickler** | **Techniker** |
 |---|---|---|---|
-| *Tag 2:Unterstützung nach dem Start* |
+| *Tag 2: Post-Launch-Support* |
 | Einigung über Rollen und Zuständigkeiten | RA | RA | RA |
-| Unterstützung für Stufe 1 | I | I | RA |
-| Unterstützung für Stufe 2 | I | C | RA |
-| Unterstützung für Stufe 3 | I | RA | C |
+| Level 1-Support | I | I | RA |
+| Level 2-Support | I | C | RA |
+| Level 3-Support | I | RA | C |
 | Inhaltsaktualisierung | RA | I | I |
-| Bewerten Sie den UX-Erfolg und identifizieren Sie Bereiche der Verbesserungen. | RA | C | I |
+| Bewerten des UX-Erfolgs und Ermitteln von Verbesserungspotenzialen | RA | C | I |
