@@ -4,7 +4,7 @@ seo-title: Projektrollen und Zuständigkeiten in AEM Screens
 description: Auf dieser Seite werden die Projektrollen und Zuständigkeiten in AEM Screens beschrieben.
 seo-description: Auf dieser Seite werden die Projektrollen und Zuständigkeiten in AEM Screens beschrieben.
 translation-type: tm+mt
-source-git-commit: fb13c72f0ab841e075ab3cf6918d872949739609
+source-git-commit: 67bbe7228a896c89a9aac80f2a15c1d6fefb6bb6
 
 ---
 
@@ -44,7 +44,7 @@ A/V-Integratoren sind die Hardwareanbieter/-partner. Dabei handelt es sich um di
 
 A/V-Integratoren sind für die Durchführung der Erkundung mit Endkunden verantwortlich, um Anforderungen zu definieren, die den Projektumfang für Entwicklung, Aufbau und effektive Verwaltung von Implementierungen im Zusammenhang mit Digital Signage-Hardware bestimmen.
 
-### Auswahl von Hardwarepartnern {#selecting-hardware-partner}
+#### Auswahl von Hardwarepartnern {#selecting-hardware-partner}
 
 Es ist wichtig, den richtigen Hardwarepartner auszuwählen. Beantworten Sie folgende Fragen:
 
@@ -147,12 +147,18 @@ Im Folgenden finden Sie ein Beispiel für ein RACI-Diagramm mit Verwendung der R
 | Inhaltsaktualisierungsplan | I | RA | C | C |
 | Plan für den Übergang von der Pilotphase in die Produktion | RA | RA | I | I |
 | Wissenstransfer | RA | RA | I | I |
+
+| **Schritt** | **A/V-Integrator** | **AEM-Implementor** | **Geschäftsstrategie** | **Content Management** |
+|---|---|---|---|---|
 | *Tag 1: Projektimplementierung (Einzelhandelsbereitschaft)* |
 | Hardwarebestellung und -lagerung | RA | I | I | I |
 | Onboarding-Zeitplan für den Einzelhandel | I | I | C | RA |
 | Tests der Benutzerakzeptanz | I | C | RA |  |
 | Massenkonfiguration von Hardware | RA | I | C | I |
 | Vereinbarung über Post-Launch-Support | RA | C | RA | C |
+
+| **Schritt** | **A/V-Integrator** | **AEM-Implementor** | **Geschäftsstrategie** | **Content Management** |
+|---|---|---|---|---|
 | *Tag 1: Projektimplementierung (Hardware)* |
 | Einigung über Rollen und Zuständigkeiten | RA | RA | RA | RA |
 | Einzelhandelsdesign inklusive Verkabelung | - | - | - | - |
