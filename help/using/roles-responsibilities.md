@@ -3,8 +3,8 @@ title: Projektrollen und Zuständigkeiten in AEM Screens
 seo-title: Projektrollen und Zuständigkeiten in AEM Screens
 description: Auf dieser Seite werden die Projektrollen und Zuständigkeiten in AEM Screens beschrieben.
 seo-description: Auf dieser Seite werden die Projektrollen und Zuständigkeiten in AEM Screens beschrieben.
-translation-type: ht
-source-git-commit: fe5a340e817488dc4c3a92d607c990756ac259b6
+translation-type: tm+mt
+source-git-commit: fb13c72f0ab841e075ab3cf6918d872949739609
 
 ---
 
@@ -43,6 +43,20 @@ AEM-Implementoren implementieren benutzerdefinierte Funktionen an Standorten in 
 A/V-Integratoren sind die Hardwareanbieter/-partner. Dabei handelt es sich um die Partei, die sich mit der Vorbereitung von Design und Sites für den Einzelhandel beschäftigt, einschließlich Beschaffung, Konfiguration und Bereitstellung der Hardware. Es handelt sich dabei in der Regel um einen beauftragten Drittanbieter, der Zugriff auf ein Network Operations Center (NOC) hat. In vielen Fällen sind A/V-Integratoren die Projekteigentümer, da sie nach dem Launch weiter kontinuierlich beteiligt sind.
 
 A/V-Integratoren sind für die Durchführung der Erkundung mit Endkunden verantwortlich, um Anforderungen zu definieren, die den Projektumfang für Entwicklung, Aufbau und effektive Verwaltung von Implementierungen im Zusammenhang mit Digital Signage-Hardware bestimmen.
+
+### Auswahl von Hardwarepartnern {#selecting-hardware-partner}
+
+Es ist wichtig, den richtigen Hardwarepartner auszuwählen. Beantworten Sie folgende Fragen:
+
+1. Wie sehen die Service Level Agreement-Bedingungen aus?
+
+1. Gibt es globale Abdeckung?
+
+1. Gibt es Rund-um-die-Uhr-Support (24 Stunden)?
+
+1. Wie werden die Geräte verwaltet?
+
+1. Woraus bestehen die aktiven Überwachungs- und Warnsysteme?
 
 ### Geschäftsstrategen {#business-strategist}
 
@@ -114,28 +128,31 @@ Im Folgenden finden Sie ein Beispiel für ein RACI-Diagramm mit Verwendung der R
 | Site-Besuche und Hardwareanforderungen | RA | I | C | C |
 | Definition von Supportprozessen | C | I | RA | I |
 | Definition von Arbeitsumfang und Projektplan | RA | RA | C | C |
+
+| **Schritt** | **A/V-Integrator** | **AEM-Implementor** | **Geschäftsstrategie** | **Content Management** |
+|---|---|---|---|---|
 | *Tag 1: Projektimplementierung (Anwendungsdesign)* |
 | Einigung über Rollen und Zuständigkeiten | RA | RA | RA | RA |
 | Ausrichtung am Projekt- und Zeitplan | RA | RA | C | C |
 | Bewerten vorhandener Serverumgebungen | I | RA | I | I |
-| UX-Designanforderungen | I | AR | C | AR |
+| UX-Designanforderungen | I | RA | C | RA |
 | Validierung der technischen Anforderungen | I | RA | RA | C |
-| Architekturdesign | I | AR | I | I |
-| Validieren der Datenstruktur mit UI-Design | I | AR | C | C |
+| Architekturdesign | I | RA | I | I |
+| Validieren der Datenstruktur mit UI-Design | I | RA | C | C |
 | Anwendungsentwicklung | RA | RA | RA | RA |
-| AEM Screens – Projekteinrichtung | I | AR | C | I |
-| Analytics-Implementierung | I | AR | C | - |
-| Tests und Implementierung | AR | C | AR | I |
-| Serverkonfiguration | I | AR | I | I |
-| Inhaltsaktualisierungsplan | I | AR | C | C |
-| Plan für den Übergang von der Pilotphase in die Produktion | AR | AR | I | I |
-| Wissenstransfer | AR | AR | I | I |
+| AEM Screens – Projekteinrichtung | I | RA | C | I |
+| Analytics-Implementierung | I | RA | C | - |
+| Tests und Implementierung | RA | C | RA | I |
+| Serverkonfiguration | I | RA | I | I |
+| Inhaltsaktualisierungsplan | I | RA | C | C |
+| Plan für den Übergang von der Pilotphase in die Produktion | RA | RA | I | I |
+| Wissenstransfer | RA | RA | I | I |
 | *Tag 1: Projektimplementierung (Einzelhandelsbereitschaft)* |
-| Hardwarebestellung und -lagerung | AR | I | I | I |
-| Onboarding-Zeitplan für den Einzelhandel | I | I | C | AR |
-| Tests der Benutzerakzeptanz | I | C | AR |  |
-| Massenkonfiguration von Hardware | AR | I | C | I |
-| Vereinbarung über Post-Launch-Support | AR | C | AR | C |
+| Hardwarebestellung und -lagerung | RA | I | I | I |
+| Onboarding-Zeitplan für den Einzelhandel | I | I | C | RA |
+| Tests der Benutzerakzeptanz | I | C | RA |  |
+| Massenkonfiguration von Hardware | RA | I | C | I |
+| Vereinbarung über Post-Launch-Support | RA | C | RA | C |
 | *Tag 1: Projektimplementierung (Hardware)* |
 | Einigung über Rollen und Zuständigkeiten | RA | RA | RA | RA |
 | Einzelhandelsdesign inklusive Verkabelung | - | - | - | - |
