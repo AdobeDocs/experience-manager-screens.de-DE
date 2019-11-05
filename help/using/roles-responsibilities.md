@@ -4,7 +4,7 @@ seo-title: Projektrollen und Zuständigkeiten in AEM Screens
 description: Auf dieser Seite werden die Projektrollen und Zuständigkeiten in AEM Screens beschrieben.
 seo-description: Auf dieser Seite werden die Projektrollen und Zuständigkeiten in AEM Screens beschrieben.
 translation-type: tm+mt
-source-git-commit: 67bbe7228a896c89a9aac80f2a15c1d6fefb6bb6
+source-git-commit: 7b55a3e847c533fbfc1bec77d1521889c24b66a2
 
 ---
 
@@ -118,9 +118,10 @@ Im Folgenden finden Sie ein Beispiel für ein RACI-Diagramm unter Verwendung der
 
 Im Folgenden finden Sie ein Beispiel für ein RACI-Diagramm mit Verwendung der Rollendefinitionen sowie ein Beispiel für allgemeine Aufgaben und Überlegungen in AEM Screens-Projekten.
 
+Die folgende Tabelle fasst den **Tag Null zusammen: Überlegungen** vor dem Verkauf:
+
 | **Schritt** | **A/V-Integrator** | **AEM-Implementor** | **Geschäftsstrategie** | **Content Management** |
 |---|---|---|---|---|
-| *Tag 0: Pre-Sales-Überlegungen* |
 | Teambildung und Anbieterauswahl | I | I | RA | RA |
 | Einigung über Rollen und Zuständigkeiten | RA | RA | RA | RA |
 | Ausrichtung auf strategische Ziele | CI | I | RA | RA |
@@ -129,9 +130,10 @@ Im Folgenden finden Sie ein Beispiel für ein RACI-Diagramm mit Verwendung der R
 | Definition von Supportprozessen | C | I | RA | I |
 | Definition von Arbeitsumfang und Projektplan | RA | RA | C | C |
 
+Die folgende Tabelle fasst den ersten **Tag zusammen: Projektimplementierung (Anwendungsdesign)**:
+
 | **Schritt** | **A/V-Integrator** | **AEM-Implementor** | **Geschäftsstrategie** | **Content Management** |
 |---|---|---|---|---|
-| *Tag 1: Projektimplementierung (Anwendungsdesign)* |
 | Einigung über Rollen und Zuständigkeiten | RA | RA | RA | RA |
 | Ausrichtung am Projekt- und Zeitplan | RA | RA | C | C |
 | Bewerten vorhandener Serverumgebungen | I | RA | I | I |
@@ -148,18 +150,20 @@ Im Folgenden finden Sie ein Beispiel für ein RACI-Diagramm mit Verwendung der R
 | Plan für den Übergang von der Pilotphase in die Produktion | RA | RA | I | I |
 | Wissenstransfer | RA | RA | I | I |
 
+Die folgende Tabelle fasst den ersten **Tag zusammen: Projektdurchführung (Einzelhandelsbereitschaft)**:
+
 | **Schritt** | **A/V-Integrator** | **AEM-Implementor** | **Geschäftsstrategie** | **Content Management** |
 |---|---|---|---|---|
-| *Tag 1: Projektimplementierung (Einzelhandelsbereitschaft)* |
 | Hardwarebestellung und -lagerung | RA | I | I | I |
 | Onboarding-Zeitplan für den Einzelhandel | I | I | C | RA |
 | Tests der Benutzerakzeptanz | I | C | RA |  |
 | Massenkonfiguration von Hardware | RA | I | C | I |
 | Vereinbarung über Post-Launch-Support | RA | C | RA | C |
 
+Die folgende Tabelle fasst den ersten **Tag zusammen:Erster Tag: Projektdurchführung (Hardware)**:
+
 | **Schritt** | **A/V-Integrator** | **AEM-Implementor** | **Geschäftsstrategie** | **Content Management** |
 |---|---|---|---|---|
-| *Tag 1: Projektimplementierung (Hardware)* |
 | Einigung über Rollen und Zuständigkeiten | RA | RA | RA | RA |
 | Einzelhandelsdesign inklusive Verkabelung | - | - | - | - |
 | Auswahl der Player-Hardware | RAC | - | - | - |
