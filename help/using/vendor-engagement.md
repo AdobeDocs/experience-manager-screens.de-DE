@@ -3,7 +3,7 @@ title: Anbieterinteraktion
 seo-title: Anbieterinteraktion für AEM Screens
 description: Auf dieser Seite werden die Best Practices für Anbieterinteraktion bei AEM Screens beschrieben.
 seo-description: Auf dieser Seite werden die Best Practices für Anbieterinteraktion bei AEM Screens beschrieben.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fb13c72f0ab841e075ab3cf6918d872949739609
 
 ---
