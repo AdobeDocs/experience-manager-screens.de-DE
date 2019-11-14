@@ -3,7 +3,7 @@ title: Projektrollen und Zuständigkeiten in AEM Screens
 seo-title: Projektrollen und Zuständigkeiten in AEM Screens
 description: Auf dieser Seite werden die Projektrollen und Zuständigkeiten in AEM Screens beschrieben.
 seo-description: Auf dieser Seite werden die Projektrollen und Zuständigkeiten in AEM Screens beschrieben.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7b55a3e847c533fbfc1bec77d1521889c24b66a2
 
 ---
@@ -118,7 +118,7 @@ Im Folgenden finden Sie ein Beispiel für ein RACI-Diagramm unter Verwendung der
 
 Im Folgenden finden Sie ein Beispiel für ein RACI-Diagramm mit Verwendung der Rollendefinitionen sowie ein Beispiel für allgemeine Aufgaben und Überlegungen in AEM Screens-Projekten.
 
-Die folgende Tabelle fasst den **Tag Null zusammen: Überlegungen** vor dem Verkauf:
+Die folgende Tabelle fasst die Überlegungen zu **Tag 0: Pre-Sales** zusammen:
 
 | **Schritt** | **A/V-Integrator** | **AEM-Implementor** | **Geschäftsstrategie** | **Content Management** |
 |---|---|---|---|---|
@@ -130,7 +130,7 @@ Die folgende Tabelle fasst den **Tag Null zusammen: Überlegungen** vor dem Verk
 | Definition von Supportprozessen | C | I | RA | I |
 | Definition von Arbeitsumfang und Projektplan | RA | RA | C | C |
 
-Die folgende Tabelle fasst den ersten **Tag zusammen: Projektimplementierung (Anwendungsdesign)**:
+Die folgende Tabelle fasst die Überlegungen zu **Tag 0: Projektimplementierung (Anwendungs-Design)** zusammen:
 
 | **Schritt** | **A/V-Integrator** | **AEM-Implementor** | **Geschäftsstrategie** | **Content Management** |
 |---|---|---|---|---|
@@ -150,7 +150,7 @@ Die folgende Tabelle fasst den ersten **Tag zusammen: Projektimplementierung (An
 | Plan für den Übergang von der Pilotphase in die Produktion | RA | RA | I | I |
 | Wissenstransfer | RA | RA | I | I |
 
-Die folgende Tabelle fasst den ersten **Tag zusammen: Projektdurchführung (Einzelhandelsbereitschaft)**:
+Die folgende Tabelle fasst die Überlegungen zu **Tag 0: Projektimplementierung (Einzelhändlervorbereitung)** zusammen:
 
 | **Schritt** | **A/V-Integrator** | **AEM-Implementor** | **Geschäftsstrategie** | **Content Management** |
 |---|---|---|---|---|
@@ -160,7 +160,7 @@ Die folgende Tabelle fasst den ersten **Tag zusammen: Projektdurchführung (Einz
 | Massenkonfiguration von Hardware | RA | I | C | I |
 | Vereinbarung über Post-Launch-Support | RA | C | RA | C |
 
-Die folgende Tabelle fasst den ersten **Tag zusammen:Erster Tag: Projektdurchführung (Hardware)**:
+Die folgende Tabelle fasst die Überlegungen zu **Tag 1: Projektimplementierung (Hardware)** zusammen:
 
 | **Schritt** | **A/V-Integrator** | **AEM-Implementor** | **Geschäftsstrategie** | **Content Management** |
 |---|---|---|---|---|
