@@ -11,14 +11,14 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f30bfdba-8db6-482b-8d0c-2818fc58e2b1
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 99f6817a0d126cfb1811887a3415f1b87079d6e7
 
 ---
 
 
 # Was ist AEM Screens?{#what-is-aem-screens}
 
-**AEM (Adobe Experience Manager) Screens** - *eine Digital Signage Solution *mit der Sie dynamische und interaktive digitale Erlebnisse und Interaktionen veröffentlichen können, die verschiedene Arten von Bildschirmen in Verbindung mit einer umfassenden digitalen Marketing-Plattform einbeziehen.
+**AEM (Adobe Experience Manager) Screens** - eine Digital Signage-Lösung, mit der Sie dynamische und interaktive digitale Erlebnisse und Interaktionen mit verschiedenen Bildschirmtypen in Verbindung mit einer umfassenden digitalen Marketingplattform veröffentlichen können.
 
 Get up and running with a simple digital signage experience, using [Kickstart for AEM Screens](kickstart-for-aem-screens.md).
 
