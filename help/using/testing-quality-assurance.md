@@ -4,7 +4,7 @@ seo-title: Tests und Qualitätssicherung für AEM Screens
 description: Auf dieser Seite werden die Best Practices für Tests und die Qualitätssicherung von AEM Screens beschrieben.
 seo-description: Auf dieser Seite werden die Best Practices für Tests und die Qualitätssicherung von AEM Screens beschrieben.
 translation-type: tm+mt
-source-git-commit: 86f01fbe2ae7750ad961df0693e72a84d785344e
+source-git-commit: 2301922de9638ffb5586202d1631d0fa4754aecc
 
 ---
 
@@ -57,7 +57,7 @@ Dieses Modul ermöglicht Ihnen Folgendes:
 1. Anwendungsfehlerprotokolle überwachen
 1. Remote-Screenshots verwalten
 1. Verwalten von Inhaltsdownloads
-1. Anwendungsneustarts
+1. Probleme beim Neustart von Anwendungen verwalten
 
 Ausführliche Informationen zum ***Gerätesteuerungszentrum*** finden Sie im Benutzerhandbuch[zu ](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html)AEM Screens unter **Fehlerbehebung im Gerätesteuerungszentrum** .
 
