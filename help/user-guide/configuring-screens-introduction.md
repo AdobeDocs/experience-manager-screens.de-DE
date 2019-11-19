@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 99f6817a0d126cfb1811887a3415f1b87079d6e7
 
 ---
 
@@ -19,33 +19,6 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 # Configuring and Deploying AEM Screens {#configuring-and-deploying-aem-screens}
 
 Auf dieser Seite erfahren Sie, wie Sie AEM Screens Player auf Ihren Geräten installieren und konfigurieren.
-
-## Installieren von AEM Screens Player {#installing-aem-screens-player}
-
-Der AEM Screens Player ist für Android, Chrome OS, iOS und Windows verfügbar.
-
-Um **AEM Screens Player** herunterzuladen, besuchen Sie die [**AEM 6.5 Player-Downloadseite**](https://download.macromedia.com/screens/) .
-
->[!NOTE]
->
->Nachdem Sie den neuesten Player (*.exe*) heruntergeladen haben, führen Sie die Schritte auf dem Player aus, um die Ad-hoc-Installation abzuschließen:
->
->1. Drücken Sie die lange Taste oben links, um das Admin-Bedienfeld zu öffnen.
->1. Navigieren Sie im linken Aktionsmenü zu **Konfiguration** , geben Sie die Adresse der AEM-Instanz im **Server** ein und klicken Sie auf **Speichern**.
->1. Klicken Sie auf den Link **Registrierung** aus dem linken Aktionsmenü und die unten stehenden Schritte, um die Geräteregistrierung abzuschließen.
->
-
-
-
-### Zusätzliche Ressourcen {#additional-resources}
-
-Detaillierte Informationen finden Sie in den folgenden Themen:
-
-* Um Android Player herunterzuladen, besuchen Sie **Google Play**. Weitere Informationen zur Implementierung von Android Watchdog finden Sie unter [Implementieren von Android-Playern](implementing-android-player.md).
-
-* Weitere Informationen zur Implementierung von Chrome OS Player finden Sie in der [Chrome Management Console](implementing-chrome-os-player.md) .
-
-* Informationen zum Konfigurieren von AEM Screens Windows Player finden Sie unter [Implementieren von Windows Player](implementing-windows-player.md).
 
 ## Serverkonfiguration {#server-configuration}
 
