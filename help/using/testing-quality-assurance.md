@@ -4,7 +4,7 @@ seo-title: Tests und Qualitätssicherung für AEM Screens
 description: Auf dieser Seite werden die Best Practices für Tests und die Qualitätssicherung von AEM Screens beschrieben.
 seo-description: Auf dieser Seite werden die Best Practices für Tests und die Qualitätssicherung von AEM Screens beschrieben.
 translation-type: tm+mt
-source-git-commit: 2301922de9638ffb5586202d1631d0fa4754aecc
+source-git-commit: d5eb9fadffcc41ede9b1f9399c5edbeac3363954
 
 ---
 
@@ -54,7 +54,7 @@ AEM Screens enthält ein Device Control Center-Modul, das die Verwaltung von Scr
 Dies bezieht sich auf alle *Player* -Hardwaregeräte, auf denen die Bildschirmplayer-Anwendung installiert ist und die für eine AEM-Instanz registriert sind.
 Dieses Modul ermöglicht Ihnen Folgendes:
 
-1. Anwendungsfehlerprotokolle überwachen
+1. Fehlerprotokolle der Player-Anwendung
 1. Remote-Screenshots verwalten
 1. Verwalten von Inhaltsdownloads
 1. Probleme beim Neustart von Anwendungen verwalten
@@ -66,8 +66,8 @@ Ausführliche Informationen zum ***Gerätesteuerungszentrum*** finden Sie im Ben
 >
 > 1. Neue Versionen der Player-Anwendung installieren
 > 1. Systemebene überwachen
-> 1. Konfigurationen auf Systemebene konfigurieren
-> 1. Remote-Eingreifen des Desktop zulassen.
+> 1. Fehlerbehebung bei Fehlern auf Systemebene
+> 1. Remote-Desktop-Intervention zulassen
 
 
 
@@ -80,6 +80,6 @@ Einige Beispiele sind:
 
 * Google Chrome-Geräteverwaltung
 * TeamViewer
-* AirWatch42
-* Geflügel
-* Soti
+* AirWatch
+* 42Gears
+* proprietäre AV Integrator Middleware
