@@ -11,12 +11,12 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 09d6104e-903b-4cff-a4e2-1469653352c3
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: a61375feb5ba0da16f6f81d4b577fce578ac120e
 
 ---
 
 
-# Glossar{#glossary}
+# Glossar {#glossary}
 
 **Anwendungskanal** Ein Anwendungskanal zeigt eine Anwendung an, die von einem Entwickler erstellt wurde und interaktive Inhalte anzeigt.
 
@@ -28,9 +28,9 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 **Live Copy** Eine Live Copy ist eine Kopie eines bestimmten Site-Inhalts, für den eine Live-Beziehung zur ursprünglichen Quelle aufrechterhalten wird. Durch diese Live-Beziehung kann die Live Copy Inhalts- und Seiteneigenschaften der Quelle übernehmen.
 
-**Standorte** enthalten die Konfiguration der Bildschirme entsprechend der Position der verschiedenen Bildschirme.
+**Speicherort/Speicherort Ordner** Orte oder Orte im Ordner "location"hosten die Konfiguration der Bildschirme entsprechend der Position der verschiedenen Bildschirme.
 
-**Player-Software** Der Player ist die Software, die auf einem Gerät ausgeführt wird, mit der Sie einen Kanal auf einem Display anzeigen können.
+**Player-Software** Der Player ist die Software-Anwendung, die auf einem Gerät ausgeführt wird, mit dem Sie einen Kanal auf einem Display anzeigen können.
 
 **Bildschirm** Ein Bildschirm ist ein physischer Monitor oder ein anderes System, das visuelle Ausgabe erzeugen kann, die den Inhalt des Geräts anzeigt.
 
