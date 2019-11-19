@@ -4,7 +4,7 @@ seo-title: Tests und Qualitätssicherung für AEM Screens
 description: Auf dieser Seite werden die Best Practices für Tests und die Qualitätssicherung von AEM Screens beschrieben.
 seo-description: Auf dieser Seite werden die Best Practices für Tests und die Qualitätssicherung von AEM Screens beschrieben.
 translation-type: tm+mt
-source-git-commit: 12b1cc4f2b359742966c2073d233b0113459e2de
+source-git-commit: 86f01fbe2ae7750ad961df0693e72a84d785344e
 
 ---
 
@@ -19,6 +19,9 @@ Da wir uns der realen Implementierung des Digital Signage-Netzwerks nähern, sol
 In dem Schritt sollten vollständige Prüfsysteme eingerichtet und gründlich getestet werden.
 
 Es sollte eine Checkliste erstellt werden, in der alle zuvor definierten KPIs aufgeführt und anhand der entsprechenden Lieferziele gemessen werden.
+
+>[!NOTE]
+> Dieser Schritt sollte auch zur Erstellung eines Installations- und Benutzerhandbuchs genutzt werden, das später mit dem Gerät ausgeliefert und für künftige Referenzzwecke vor Ort aufbewahrt werden kann.
 
 Folgende Elemente sollten berücksichtigt werden:
 
@@ -42,8 +45,6 @@ Die folgenden Softwareüberlegungen werden empfohlen:
 * Wiedergabe
 * Datenbankabhängigkeiten (zuvor definiert)
 
->[!NOTE]
-> Dieser Schritt sollte auch zur Erstellung eines Installations- und Benutzerhandbuchs genutzt werden, das später mit dem Gerät ausgeliefert und für künftige Referenzzwecke vor Ort aufbewahrt werden kann.
 
 ## 3. Überlegungen zur Geräteverwaltung {#device-management-considerations}
 
@@ -58,8 +59,10 @@ Dieses Modul ermöglicht Ihnen Folgendes:
 1. Verwalten von Inhaltsdownloads
 1. Anwendungsneustarts
 
+Ausführliche Informationen zum ***Gerätesteuerungszentrum*** finden Sie im Benutzerhandbuch[zu ](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html)AEM Screens unter **Fehlerbehebung im Gerätesteuerungszentrum** .
+
 >[!CAUTION]
-> SIE SOLLTEN DAS Gerätesteuerungscenter NICHT VERWENDEN, UM:
+> Sie sollten Device Control Center nicht verwenden, um:
 >
 > 1. Neue Versionen der Player-Anwendung installieren
 > 1. Systemebene überwachen
