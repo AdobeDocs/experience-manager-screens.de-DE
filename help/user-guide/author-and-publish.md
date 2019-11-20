@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 428e1dbaa1a252d2aa9bcbb02264a0076b95291b
+source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
 
 ---
 
@@ -334,7 +334,7 @@ Beispielsweise können Sie mit der folgenden Abbildung nur die geänderten Seite
 Mit dieser Option können Sie Updates nur für die Unterknoten in Ihrer Projektstruktur verwalten.
    1. **Nur geänderte Seiten**einschließen:
 Mit dieser Option können Sie nur Updates auf den geänderten Seiten des Projekts verwalten, auf denen die Änderungen in Ihrer Projektstruktur gefunden werden.
-   1. **Schließen Sie nur Seiten**mit bereits aktualisierten Informationen ein:
+   1. **Nur bereits veröffentlichte Seiten**einschließen:
 Mit diesen Optionen können Updates nur für die zuvor veröffentlichten Seiten verwaltet werden.
 
 
