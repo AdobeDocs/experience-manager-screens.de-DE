@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 428e1dbaa1a252d2aa9bcbb02264a0076b95291b
 
 ---
 
@@ -321,6 +321,22 @@ Führen Sie die folgenden Schritte aus, um Inhaltsaktualisierungen vom Autor zum
    >Standardmäßig werden alle Felder markiert und Sie müssen die Kontrollkästchen manuell deaktivieren, um alle Module in Ihrem Projekt zu veröffentlichen.
 
    ![screen_shot_2019-02-25at23116pm](assets/screen_shot_2019-02-25at23116pm.png)
+
+   **Dialogfeld "Untergeordnete Elemente einschließen"**
+
+   Der oben erwähnte Schritt zeigt, wie Sie den gesamten Inhalt veröffentlichen können. Falls Sie die anderen drei verfügbaren Alternativen verwenden möchten, müssen Sie diese Option aktivieren.
+Beispielsweise können Sie mit der folgenden Abbildung nur die geänderten Seiten in Ihrem Projekt verwalten und aktualisieren:
+   ![image](assets/author-publish-manage.png)
+
+   Befolgen Sie die folgenden Erläuterungen, um die verfügbaren Optionen zu verstehen:
+
+   1. **Nur unmittelbar untergeordnete Elemente**einschließen:
+Mit dieser Option können Sie Updates nur für die Unterknoten in Ihrer Projektstruktur verwalten.
+   1. **Nur geänderte Seiten**einschließen:
+Mit dieser Option können Sie nur Updates auf den geänderten Seiten des Projekts verwalten, auf denen die Änderungen in Ihrer Projektstruktur gefunden werden.
+   1. **Schließen Sie nur Seiten**mit bereits aktualisierten Informationen ein:
+Mit diesen Optionen können Updates nur für die zuvor veröffentlichten Seiten verwaltet werden.
+
 
 1. Klicken Sie im Assistenten "Veröffentlichung **verwalten"auf**"Veröffentlichen **".**
 
