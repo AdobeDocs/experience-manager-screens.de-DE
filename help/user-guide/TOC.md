@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: e9d479171db686ea1e2dccc38d5651e68982d5a2
+source-git-commit: 221243c537e708aac44145c8d5d5a181ea80a293
 
 ---
 
@@ -29,6 +29,7 @@ source-git-commit: e9d479171db686ea1e2dccc38d5651e68982d5a2
    + [Geräteregistrierung](device-registration.md)
    + [Einrichten von ACLs](setting-up-acls.md)
    + [Übergang von ContentSync zu SmartSync](smartsync.md)
+   + [Neuer Project Importer aus Datei](project-importer.md)
    + Kundenspezifische Aspekte {#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
       + [Verwenden von Chrome Player als Erweiterung zur Fehlerbehebung](using-chrome-player-as-an-extension.md)
@@ -49,7 +50,7 @@ source-git-commit: e9d479171db686ea1e2dccc38d5651e68982d5a2
       + [Erstellen und Verwalten von Zeitplänen](managing-schedules.md) 
       + [Verwalten der Geräte](managing-devices.md) 
       + [Kanalzuweisung](channel-assignment.md)
-   + Verwenden von Produktfunktionen {#product-features}
+   + Verwendung der wichtigsten Produktfunktionen {#product-features}
       + [Textüberlagerung](text-overlay.md)
       + [Bulk Offline Update](bulk-offline-update.md)
       + [AEM Screens-Benachrichtigungsdienst](screens-notifications-service.md)
@@ -63,9 +64,11 @@ source-git-commit: e9d479171db686ea1e2dccc38d5651e68982d5a2
       + [Mehrzonenlayout](multi-zone-layout-aem-screens.md)
       + [Videoausgabeformate](generating-renditions.md)
       + [Verwenden dynamischer eingebetteter Sequenzen](dynamic-embedded-sequences.md)
-      + [Launches](launches.md)
-      + [Neuer Project Importer aus Datei](project-importer.md)
       + [Dauer der Wiedergabe von Massenbildern auf Kanalebene](channel-level-image-playback.md)
+   + Verwalten von Inhaltsaktualisierungen {#content-updates}
+      + [On-Demand Content Update](on-demand-content.md)
+      + [Content Update als Dienst](content-update-as-a-service.md)
+      + [Inhaltsaktualisierung mit Starts](launches.md)
    + Verwendungsfallbeispiele {#use-case-examples}
       + [Notfallkanäle](emergency-channel.md)
       + [Aktivierung der Travel Center-Temperatur](local-temperature-activation.md)
