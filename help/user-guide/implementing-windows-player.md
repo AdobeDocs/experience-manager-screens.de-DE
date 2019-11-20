@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
 
 ---
 
@@ -102,7 +102,7 @@ Gehen Sie wie folgt vor, um den Kiosk-Modus zu aktivieren:
 
 1. Aktivieren Sie Shell Launcher.
 
-   Weitere Informationen finden Sie im Abschnitt ***Shell Launcher*** konfigurieren auf der Seite ** [Shell Launcher](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)** von Microsoft Windows Support.
+   Weitere Informationen finden Sie im Abschnitt ***Shell Launcher*** konfigurieren auf der Seite **[Shell Launcher](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)** von Microsoft Windows-Unterstützung.
 
 1. Erstellen Sie einen Benutzer ohne Administratorrechte (falls Sie bereits keinen haben), der für Kiosk verwendet werden soll. Dabei kann es sich um einen lokalen Benutzer oder einen Domänenbenutzer handeln.
 1. Installieren Sie den Windows Player für diesen Kiosk-Benutzer von der Seite [AEM Screens Player-Downloads](https://download.macromedia.com/screens/) .
