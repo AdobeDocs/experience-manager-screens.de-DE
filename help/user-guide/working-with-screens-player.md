@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 428e1dbaa1a252d2aa9bcbb02264a0076b95291b
 
 ---
 
@@ -64,6 +64,10 @@ Darüber hinaus können Sie die Anzahl der maximalen Protokolldateien angeben, d
 >Die Option "Firmware **aktualisieren** "funktioniert nur auf der Cordova-Konsole, z. B. Android-Playern.
 
 ![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
+
+>[!NOTE]
+>
+>Es wird empfohlen, die **Admin-Benutzeroberfläche** in Produktionsbereitstellungen zu deaktivieren.
 
 Sie können den Cache für Kanäle und Anwendungen über die Administrator-Benutzeroberfläche im Player für AEM Screens löschen.
 
