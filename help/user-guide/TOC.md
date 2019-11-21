@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 56b3222d5cdb00291ca167bcfa9b5d9b2aa61ec3
+source-git-commit: 672c26d9cbbed8e4bd96c19b751395c564522845
 
 ---
 
@@ -14,6 +14,7 @@ source-git-commit: 56b3222d5cdb00291ca167bcfa9b5d9b2aa61ec3
 + [Einführung in Bildschirme](aem-screens-introduction.md)
 + Übersicht und Kickstart-Handbuch {#overview}
    + [Schnellstartanleitung](kickstart-for-aem-screens.md)
+   + [Leitfaden zu bewährten Verfahren für Bildschirme](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)
    + [Schlüsselbegriffe](screens-glossary.md)
 + Grundlagen des Digital Signage-Netzwerks {#digital-signage-network}
    + [Teil 1: Aufgaben und Zuständigkeiten des Projekts](project-roles-responsibilities.md)
