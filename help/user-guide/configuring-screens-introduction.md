@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 99f6817a0d126cfb1811887a3415f1b87079d6e7
+source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
 
 ---
 
@@ -34,7 +34,7 @@ Die folgenden wichtigen Punkte bieten Hilfestellung beim Konfigurieren von AEM-S
 
 #### Zulassen von leeren Referrer-Anforderungen {#allow-empty-referrer-requests}
 
-1. Navigieren Sie zu **Adobe Experience Manager Web Console Configuration **via AEM-Instanz —&gt; Hammer-Symbol —&gt; **Vorgänge** —&gt; **Web Console**.
+1. Navigieren Sie zur **Adobe Experience Manager Web Console-Konfiguration** über AEM-Instanz —&gt; Hammer-Symbol —&gt; **Vorgänge** —&gt; **Web-Konsole**.
 
    ![screen_shot_2019-07-31at91253am](assets/screen_shot_2019-07-31at91253am.png)
 
@@ -57,7 +57,7 @@ AEM Screens erfordert die TOUCH-Benutzeroberfläche und funktioniert nicht mit d
 1. Navigieren Sie zu *&lt;yourAuthorInstance&gt;/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*
 1. Stellen Sie sicher, dass der **Standard-Authoring-UI-Modus** auf **TOUCH** eingestellt ist (siehe folgende Abbildung)
 
-Alternativ können Sie die gleiche Einstellung auch mit *&lt;IhrAuthorInstance&gt; *-&gt;* Tools (Hammersymbol)* -&gt; **Vorgänge** -&gt;** Web Console** und nach **WCM Authoring UI Mode Service** suchen.
+Alternativ können Sie die gleiche Einstellung auch mit *&lt;IhrAuthorInstance&gt;*-&gt;*Tools (Hammersymbol)* -&gt; **Vorgänge** -&gt; **Web-Konsole** durchführen und nach **WCM Authoring UI Mode Service** suchen.
 
 ![screen_shot_2018-12-04at22425pm](assets/screen_shot_2018-12-04at22425pm.png)
 
@@ -83,7 +83,7 @@ Sie können ***DeviceServiceImpl*** über den unten stehenden Link konfigurieren
 
 Gehen Sie wie folgt vor, um ***DeviceServiceImpl*** zu konfigurieren:
 
-1. Navigieren Sie zu **Adobe Experience Manager Web Console Configuration **via AEM-Instanz —&gt; Hammer-Symbol —&gt; **Vorgänge** —&gt; **Web Console**.
+1. Navigieren Sie zur **Adobe Experience Manager Web Console-Konfiguration** über AEM-Instanz —&gt; Hammer-Symbol —&gt; **Vorgänge** —&gt; **Web-Konsole**.
 
 1. **Adobe Experience Manager Web Console Configuration **wird geöffnet. Suchen Sie nach DeviceService. Drücken Sie zum Durchsuchen der Eigenschaft **Befehl+F** für **Mac** und **Strg+F** für **Windows**.
 
