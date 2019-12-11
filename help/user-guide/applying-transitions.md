@@ -6,19 +6,19 @@ seo-description: Auf dieser Seite erfahren Sie, wie Sie Übergänge auf Ihre Scr
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 2708464222321fd138c986f19d8572c71f1dae75
+source-git-commit: 4078050ada4c53c2a9de00928d2198279aaa1e34
 
 ---
 
 
 # Anwenden von Übergängen {#applying-transitions}
 
-In diesem Abschnitt wird beschrieben, wie Sie mit einer **Übergangskomponente** einen Übergang zu Ihrem Screens-Projekt hinzufügen können.
+In diesem Abschnitt wird beschrieben, wie Sie die **Übergangskomponente** zwischen verschiedenen Assets (Bilder und Videos) in einem Kanal anwenden können.
 
 
 >[!CAUTION]
 >
->Weitere Informationen zu den Eigenschaften der Übergangskomponente finden Sie unter [Übergänge](adding-components-to-a-channel.md#transition)
+>Ausführliche Informationen zu den Eigenschaften der Übergangskomponente finden Sie unter [Übergänge](adding-components-to-a-channel.md#transition).
 
 ## Hinzufügen der Übergangskomponente zu Assets in einem Kanal {#adding-transition}
 
@@ -43,15 +43,13 @@ Gehen Sie wie folgt vor, um Ihrem AEM Screens-Projekt eine Übergangskomponente 
 1. Ziehen Sie die **Übergangskomponente** per Drag &amp; Drop in Ihren Editor.
    >[!CAUTION]
    >
-   >Bevor Sie den Übergang zu Ihren Assets in Ihrem Kanal hinzufügen, stellen Sie Folgendes sicher:
-Sie fügen keinen Übergang vor dem ersten Asset im sequenziellen Kanal hinzu. Das erste Element im Kanal muss ein Asset und kein Übergang sein.
+   >Bevor Sie den Übergang zu Ihren Assets in Ihrem Kanal hinzufügen, stellen Sie sicher, dass Sie keinen Übergang vor dem ersten Asset im sequenziellen Kanal hinzufügen. Das erste Element im Kanal muss ein Asset und kein Übergang sein.
 
    ![image3](assets/transitions3.png)
 
    > [!NOTE]
    >
-   >Standardmäßig ist die Übergangskomponente auf "Typ"als " **Normal** "eingestellt, wobei die **Dauer** auf *600 ms* eingestellt ist.  Darüber hinaus ist es nicht ratsam, eine Übergangszeit festzulegen, die länger ist als das Asset, auf das sie angewendet wird.
-
+   >Standardmäßig sind die Eigenschaften der Übergangskomponente wie **Typ** auf **Normal** eingestellt und die **Dauer** auf *600 ms* eingestellt.  Darüber hinaus ist es nicht ratsam, eine Übergangszeit festzulegen, die länger ist als das Asset, auf das sie angewendet wird.
 
 ## Hinzufügen der Übergangskomponente zu Videos in einem Kanal {#adding-transition-videos}
 
