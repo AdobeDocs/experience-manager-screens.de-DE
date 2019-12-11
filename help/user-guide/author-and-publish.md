@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 221243c537e708aac44145c8d5d5a181ea80a293
+source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
 
 ---
 
@@ -48,7 +48,7 @@ Sie können ein einfaches Beispiel einrichten, in dem Sie einen Autor und zwei I
 
 * Autor —&gt; localhost:4502
 * Publish 1 (pub1) —&gt; localhost:4503
-* Publish (pub2) —&gt; localhost:4504
+* Publish 2 (pub2) —&gt; localhost:4504
 
 ## Einrichten von Replizierungsagenten beim Autor {#setting-replication-agents}
 
@@ -85,6 +85,10 @@ Gehen Sie wie folgt vor, um einen standardmäßigen Replizierungsagenten zu erst
    ![screen_shot_2019-02-25at30018pm](assets/screen_shot_2019-02-25at30018pm.png)
 
 1. Klicken Sie auf **Bearbeiten** , um das Dialogfeld " **Agenteinstellungen** "zu öffnen und die Details einzugeben.
+
+   >[!NOTE]
+   >
+   >Benutzer muss die Option **Aktiviert** aktivieren, um Replizierungsagenten zu aktivieren. Sie müssen diese Option auf "Standard", "Bildschirme"und "Replizierungsagenten umkehren"aktivieren.
 
    ![screen_shot_2019-02-25at30134pm](assets/screen_shot_2019-02-25at30134pm.png)
 
