@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f6ee043e41e46690e057758266f9adc5323001d2
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -68,7 +68,7 @@ Gehen Sie wie folgt vor, um einer Anzeige einen Kanal zuzuweisen:
 
    Mit „Priorität“ können Zuweisungen gereiht werden, falls mehrere die Präsentationskriterien erfüllen. Höhere Werte haben stets Vorrang vor niedrigeren Werten. Wenn es beispielsweise die beiden Kanäle A und B gibt und A eine Priorität von 1 und B eine Priorität von 2 hat, wird Kanal B angezeigt, da er eine höhere Priorität als A hat.
 
-   Die Priorität für einen Kanal wird im Dialogfeld **Kanalzuweisung **wie oben erwähnt als Zahl (1) festgelegt. Darüber hinaus werden die zugewiesenen Kanäle nach absteigender Priorität sortiert.
+   Die Priorität eines Kanals wird als Zahl (1 für Minimum) im Dialogfeld **Kanalzuweisung** festgelegt, wie oben angegeben. Darüber hinaus werden die zugewiesenen Kanäle nach absteigender Priorität sortiert.
 
    **Unterstützte Ereignisse**:
 
