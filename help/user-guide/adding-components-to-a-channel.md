@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -46,7 +46,7 @@ Im folgenden Beispiel sehen Sie, wie einem AEM Screens-Projekt eine Livefyre-Kom
 
 1. Wählen Sie den Kanal aus, dem eine neue Komponente hinzugefügt werden soll. Beispiel: **We.Retail In-Store** &gt; **Kanäle** &gt;** Idle Channel**.
 
-1. Klicken Sie in der Aktionsleiste auf** Bearbeiten**, um den Editor zu öffnen.
+1. Klicken Sie in der Aktionsleiste auf **Bearbeiten**, um den Editor zu öffnen.
 1. Wählen Sie den **Designmodus** aus.
 1. Wählen Sie rechts den kompletten Designeditor aus und klicken Sie auf das Einstellungssymbol, um das Dialogfeld **ParSys-Design** zu öffnen.
 1. Sie können die Komponenten auswählen, die dem AEM Screens-Projekt hinzugefügt werden sollen. Im folgenden Beispiel wird das Hinzufügen der **Livefyre** -Komponente zu einem AEM Screens-Projekt veranschaulicht.
