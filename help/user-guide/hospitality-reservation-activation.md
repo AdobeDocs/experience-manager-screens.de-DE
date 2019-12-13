@@ -11,12 +11,12 @@ topic-tags: use-case-examples
 discoiquuid: ef3e5dce-e36a-45d3-ad5e-db01430477c6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
 
-# Gastgewerbereservierung Aktivierung {#hospitality-reservation-activation}
+#  Gastgewerbereservierung Aktivierung {#hospitality-reservation-activation}
 
 Der folgende Anwendungsfall zeigt die Nutzung der Aktivierung der Krankenhausreservierung anhand der in Google Sheets ausgefüllten Werte.
 
@@ -24,7 +24,7 @@ Der folgende Anwendungsfall zeigt die Nutzung der Aktivierung der Krankenhausres
 
 Für diesen Verwendungsfall wird das Google Sheet mit einem Prozentsatz der Reservierung in zwei Restaurants **Restaurant1** und **Restaurant2** gefüllt. Eine Formel wird basierend auf den Werten von Restaurant1 und Restaurant2 angewendet und basierend auf der Formel wird der Spalte **AdTarget** der Wert 1 oder 2 zugewiesen.
 
-Wenn der Wert von **Restaurant1** &gt; **Restaurant2**, dann wird **AdTarget** der Wert** 1 **ansonsten wird **AdTarget** der Wert **2** zugewiesen. Der Wert 1 generiert die Option *Steak food* und der Wert 2 zeigt die Option *Thai food* an.
+Wenn der Wert von **Restaurant1** &gt; **Restaurant2**, dann wird **AdTarget** der Wert **1** zugewiesen. Andernfalls wird **AdTarget** **** der Wert2zugewiesen. Der Wert 1 generiert die Option *Steak food* und der Wert 2 zeigt die Option *Thai food* an.
 
 ## Voraussetzungen {#preconditions}
 
@@ -44,18 +44,18 @@ Gehen Sie wie folgt vor, um den Anwendungsfall für die Aktivierung der Gastfreu
 
 1. **Konfigurieren der Segmente in Zielgruppen gemäß den Anforderungen**
 
-   1. Navigieren Sie zu den Segmenten in Ihrer Zielgruppe (siehe ***Schritt 2: Einrichten der Zielgruppensegmentierung*** in ** [Konfigurieren von ContextHub in AEM Screens](configuring-context-hub.md)** Seite.
+   1. Navigieren Sie zu den Segmenten in Ihrer Zielgruppe (siehe ***Schritt 2: Einrichten der Zielgruppensegmentierung*** unter **[Konfigurieren von ContextHub auf der Seite "AEM Screens](configuring-context-hub.md)** ".
 
    1. Wählen Sie die **Blätter A1 1** aus und klicken Sie auf **Bearbeiten**.
 
    1. Wählen Sie die Vergleichseigenschaft und klicken Sie auf das Symbol zum Konfigurieren, um die Eigenschaften zu bearbeiten.
    1. Wählen Sie **googlesheets/value/1/2** aus der Dropdownliste im **Eigenschaftsnamen**
 
-   1. Wählen Sie den **Operator** als **gleich **aus dem Dropdown-Menü
+   1. Wählen Sie den **Operator** aus dem Dropdownmenü als **gleich** aus
 
    1. Geben Sie den **Wert** als **1 ein**
 
-   1. Gleichermaßen wählen Sie die** Blätter A1 2 **und klicken Sie auf **Bearbeiten**.
+   1. Gleichermaßen wählen Sie die **Blätter A1 2** und klicken Sie auf **Bearbeiten**.
 
    1. Wählen Sie die Vergleichseigenschaft und klicken Sie auf das Symbol zum Konfigurieren, um die Eigenschaften zu bearbeiten.
    1. Wählen Sie **googlesheets/value/1/2** aus der Dropdownliste im **Eigenschaftsnamen**
