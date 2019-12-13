@@ -6,19 +6,19 @@ seo-description: Auf dieser Seite erfahren Sie, wie Sie Übergänge auf Ihre Scr
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 4078050ada4c53c2a9de00928d2198279aaa1e34
+source-git-commit: f6ee043e41e46690e057758266f9adc5323001d2
 
 ---
 
 
 # Anwenden von Übergängen {#applying-transitions}
 
-In diesem Abschnitt wird beschrieben, wie Sie die **Übergangskomponente** zwischen verschiedenen Assets (Bilder und Videos) in einem Kanal anwenden können.
+In diesem Abschnitt wird beschrieben, wie Sie die **Übergangskomponente** zwischen verschiedenen Assets (Bilder und Videos) und eingebetteten Sequenzen in einem Kanal anwenden können.
 
 
 >[!CAUTION]
 >
->Ausführliche Informationen zu den Eigenschaften der Übergangskomponente finden Sie unter [Übergänge](adding-components-to-a-channel.md#transition).
+>Ausführliche Informationen zu den Eigenschaften der **Übergangskomponente** finden Sie unter [Übergänge](adding-components-to-a-channel.md#transition).
 
 ## Hinzufügen der Übergangskomponente zu Assets in einem Kanal {#adding-transition}
 
@@ -51,8 +51,12 @@ Gehen Sie wie folgt vor, um Ihrem AEM Screens-Projekt eine Übergangskomponente 
    >
    >Standardmäßig sind die Eigenschaften der Übergangskomponente wie **Typ** auf **Normal** eingestellt und die **Dauer** auf *600 ms* eingestellt.  Darüber hinaus ist es nicht ratsam, eine Übergangszeit festzulegen, die länger ist als das Asset, auf das sie angewendet wird.
 
+1. Wenn Sie diesem Kanaleditor außerdem eine **eingebettete Sequenzkomponente** hinzufügen (die einen Sequenzkanal enthält), können Sie am Ende eine Übergangskomponente hinzufügen, sodass der Inhalt in der Reihenfolge abgespielt wird, wie in der folgenden Abbildung gezeigt:
+
+   ![image3](assets/transitions5.png)
+
 ## Hinzufügen der Übergangskomponente zu Videos in einem Kanal {#adding-transition-videos}
 
-Wenn Sie eine Übergangskomponente zwischen Videos anwenden, stellen Sie den **Typ** immer auf **Fade** und die **Sequenzdauer** auf **1600 ms** ein.
+Beim Anwenden der Übergangskomponente zwischen Videos wird empfohlen, den **Typ** auf **Fade** und die **Sequenzdauer** auf **1600 ms** festzulegen.
 
 ![image3](assets/transitions4.png)
