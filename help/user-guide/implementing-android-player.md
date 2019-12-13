@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 In diesem Abschnitt wird die Konfiguration des Android-Players beschrieben. Er enthält Informationen zur Konfigurationsdatei und präsentiert die verfügbaren Optionen und Empfehlungen zu den zum Entwickeln und Testen zu verwendenden Einstellungen.
 
-Additionally,**Watchdog** is a solution to recover the player from crashes. Eine Anwendung muss sich selbst beim Watchdog-Dienst registrieren und dann regelmäßig Nachrichten zur Bestätigung ihrer Aktivität an den Dienst senden. Falls der Watchdog-Dienst innerhalb der geforderten Zeit keine Keep-Alive-Nachricht erhält, versucht der Dienst das Gerät neu zu starten, um eine saubere Wiederherstellung durchzuführen (bei ausreichenden Rechten) oder die Anwendung neu zu starten.
+Additionally, **Watchdog** is a solution to recover the player from crashes. Eine Anwendung muss sich selbst beim Watchdog-Dienst registrieren und dann regelmäßig Nachrichten zur Bestätigung ihrer Aktivität an den Dienst senden. Falls der Watchdog-Dienst innerhalb der geforderten Zeit keine Keep-Alive-Nachricht erhält, versucht der Dienst das Gerät neu zu starten, um eine saubere Wiederherstellung durchzuführen (bei ausreichenden Rechten) oder die Anwendung neu zu starten.
 
 ## Installieren von Android Player {#installing-android-player}
 
@@ -66,7 +66,7 @@ Gehen Sie wie folgt vor, um die Android-apk mithilfe von Herstellerschlüsseln z
 
 1. Suchen Sie nach dem apksigner-Tool in Android SDK mithilfe von find ~/Library/Android/sdk/build-tools -name "apksigner"
 1. &lt;Pfad&gt; /apksigner sign --key platform.pk8 --cert platform.x509.pem aemscreensplayer.apk
-1. Suchen Sie den Pfad zum Werkzeug zur ZIP-Ausrichtung in android sdk
+1. Suchen Sie den Pfad zum Werkzeug für die ZIP-Ausrichtung in android sdk
 1. &lt;Pfad&gt; /zipalign -fv 4 aemscreensplayer.apk aemscreensaligned.apk
 1. Installieren Sie ***aemscreensaligned.apk**mithilfe von adb install auf dem Gerät*
 
