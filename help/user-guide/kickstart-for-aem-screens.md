@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 5ce1e0b9-1926-49dc-b4dd-44b649a3e710
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -56,7 +56,7 @@ Mit den nachfolgenden Schritten können Sie ein Beispielprojekt für Screens ers
    1. Klicken Sie auf **Erstellen**, um ein neues Screens-Projekt zu erstellen (siehe Abbildung unten).
    1. Wählen Sie im Assistenten **Screens-Projekt erstellen** die Option **Screens** aus und klicken Sie auf **Weiter**.
 
-   1. Enter the title as *Test_Project *and click **Create**.
+   1. Geben Sie als Titel *Testprojekt* ein und klicken Sie auf **Erstellen**.
    ![chlimage_1-4](assets/chlimage_1-4.png)
 
    Wenn das Projekt erstellt wurde, kehren Sie zur Screens-Projektkonsole zurück. Sie können Ihr Projekt jetzt auswählen. In a project, there are five kind of folders namely **Applications**, **Channels**, **Devices**, **Locations**, and **Schedules**, as shown in the figure below.
@@ -77,8 +77,8 @@ Mit den nachfolgenden Schritten können Sie ein Beispielprojekt für Screens ers
 
    1. Navigieren Sie zum erstellten *Testprojekt* und wählen Sie den Ordner **Kanäle** aus.
 
-   1. Klicken Sie in der Aktionsleiste auf** Erstellen* (siehe Abbildung unten). Ein Assistent wird geöffnet.
-   1. Choose the **Sequence Channel **and click **Next**.
+   1. Click **Create** from the action bar (see the figure below). Ein Assistent wird geöffnet.
+   1. Choose the **Sequence Channel** and click **Next**.
 
    1. Enter the **Name** and **Title** as *TestChannel* and click **Create**.
    ![chlimage_1-6](assets/chlimage_1-6.png)
@@ -95,9 +95,9 @@ Mit den nachfolgenden Schritten können Sie ein Beispielprojekt für Screens ers
 
    Gehen Sie wie folgt vor, um dem Kanal (*Testkanal*) Ihres Projekts Inhalte hinzuzufügen:
 
-   1. Navigate to the *Test_Project* you created and select the **Channels **folder.
+   1. Navigieren Sie zum erstellten *Testprojekt* und wählen Sie den Ordner **Kanäle** aus.
 
-   1. Click **Edit** from the action bar (see the figure below). Der Editor für* TestChannel* wird geöffnet.
+   1. Click **Edit** from the action bar (see the figure below). Der Editor für den *Testkanal* wird geöffnet.
 
    1. Klicken Sie auf der linken Seite der Aktionsleiste auf das Symbol zum Ein-/Ausblenden des seitlichen Bedienfelds, um die Assets und Komponenten zu öffnen.
    1. Wählen Sie die Ihrem Kanal hinzuzufügenden Komponenten per Drag-and-Drop aus.
@@ -115,7 +115,7 @@ Mit den nachfolgenden Schritten können Sie ein Beispielprojekt für Screens ers
 
    Gehen Sie wie folgt vor, um einen neuen Ort für Ihr Projekt zu erstellen:
 
-   1. Navigate to the *Test_Project* you created and select the **Locations **folder.
+   1. Navigate to the *Test_Project* you created and select the **Locations** folder.
 
    1. Click **Create** next to the plus icon in the action bar (see the figure below). Ein Assistent wird geöffnet.
    1. Select **Location** from the wizard and click **Next**.
@@ -135,8 +135,8 @@ Mit den nachfolgenden Schritten können Sie ein Beispielprojekt für Screens ers
 
    1. Navigate to the location where you want to create your display (*Test_Projec* t --&gt; **Locations** --&gt; *TestLocation)* as shown in the figure above and selct *TestLocation*.
 
-   1. Klicken Sie in der Aktionsleiste auf** **erstellen.
-   1. Select **Display **from the **Create** wizard and click **Next**.
+   1. Klicken Sie in der Aktionsleiste auf **Erstellen**.
+   1. Select **Display** from the **Create** wizard and click **Next**.
 
    1. Geben Sie einen **Namen** und **Titel** für den Ort der Anzeige ein (geben Sie als Titel *Testanzeige* ein).
 
@@ -161,7 +161,7 @@ Mit den nachfolgenden Schritten können Sie ein Beispielprojekt für Screens ers
 
    1. Navigate to the **Schedules** folder from Test_Project --&gt; **Schedules**.
 
-   1. Klicken Sie in der Aktionsleiste auf** **erstellen. Ein Assistent wird geöffnet.
+   1. Klicken Sie in der Aktionsleiste auf **Erstellen.** Ein Assistent wird geöffnet.
    1. Wählen Sie auf der Seite des Assistenten **Erstellen** die Option **Zeitplan** aus.
 
    1. Geben Sie auf der Eigenschaftenseite *ZeitplanVormittag* als **Name** und **Titel** ein.
@@ -187,13 +187,13 @@ Mit den nachfolgenden Schritten können Sie ein Beispielprojekt für Screens ers
 
    1. Geben Sie als **Kanalrolle** den Wert *LiveStream* ein.
 
-   1. Select the** Channel Path** (*Test_Project* --&gt; *Channels* --&gt; *TestChannel* ) in the **Channel**.
+   1. Select the **Channel Path** (*Test_Project* --&gt; *Channels* --&gt; *TestChannel* ) in the **Channel**.
 
    1. Wählen Sie als **Priorität** für den Kanal *1* aus.
 
-   1. Choose the **Supported Events** as **Initial Load **and **Idle Screen**.
+   1. Wählen Sie **Erster Ladevorgang** und **Bildschirm bei Untätigkeit** als **Unterstützte Ereignisse** aus.
 
-   1. Enter **Schedule **and select the dates in **active from** and **active until**.
+   1. Geben Sie den **Zeitplan** ein und wählen Sie unter **aktiv ab** und **aktiv bis** die Daten aus.
 
    1. Klicken Sie auf **Speichern**.
    Der Kanal wird erstellt und dem Bedienfeld hinzugefügt.
@@ -241,7 +241,7 @@ Mit den nachfolgenden Schritten können Sie ein Beispielprojekt für Screens ers
 
    ![chlimage_1-19](assets/chlimage_1-19.png)
 
-   Enter **Title** and click **Register **and** **the device will be registered.
+   Enter **Title** and click **Register** and the device will be registered.
 
    Click **Finish** to complete the device registration step.
 
