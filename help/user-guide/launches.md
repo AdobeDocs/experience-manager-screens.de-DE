@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -104,7 +104,7 @@ Gehen Sie wie folgt vor, um zukünftige Veröffentlichungsfunktionen in Ihr AEM 
 
    ![screen_shot_2019-06-25at20128pm](assets/screen_shot_2019-06-25at20128pm.png)
 
-1. Geben Sie den **Starttitel** als **SummerPromotions** ein, und Sie müssen das Startdatum*** nicht festlegen, wie in der folgenden Abbildung dargestellt. Klicken Sie auf **Erstellen**.
+1. Geben Sie den **Starttitel** als **SummerPromotions** ein, und Sie müssen das **Startdatum** nicht festlegen, wie in der folgenden Abbildung dargestellt. Klicken Sie auf **Erstellen**.
 
    >[!NOTE]
    >
@@ -137,7 +137,7 @@ Gehen Sie wie folgt vor, um die Eigenschaften für den Start zu bearbeiten:
 
    >[!NOTE]
    >
-   >Wählen Sie in der linken Leiste die Option **Inhaltsstruktur **aus, um den von Ihnen erstellten Start zu öffnen.
+   >Wählen Sie in der linken Leiste die Option " **Inhaltsstruktur** "aus, um den von Ihnen erstellten Start zu öffnen.
 
    ![screen_shot_2019-06-25at25852pm](assets/screen_shot_2019-06-25at25852pm.png)
 
