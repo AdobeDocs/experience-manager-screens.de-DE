@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: da25cdc7-c814-493e-8d8e-b6191fee2831
 noindex: true
 translation-type: tm+mt
-source-git-commit: 99f6817a0d126cfb1811887a3415f1b87079d6e7
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -22,7 +22,7 @@ In diesem Abschnitt wird die Planung auf Asset-Ebene für die in Kanälen verwen
 
 In diesem Abschnitt werden die folgenden Themen behandelt:
 
-* OvervieW
+* Überblick
 * Planen auf Asset-Ebene
 * Umgang mit Wiederholungen in Assets
 * Multi-Asset-Planung
