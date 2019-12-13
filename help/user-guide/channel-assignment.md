@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: f6ee043e41e46690e057758266f9adc5323001d2
 
 ---
 
@@ -40,7 +40,7 @@ Auf dieser Seite wird beschrieben, wie Sie Ihren Anzeigen einen Kanal zuweisen.
 
 Gehen Sie wie folgt vor, um einer Anzeige einen Kanal zuzuweisen:
 
-1. Navigieren Sie zum gewünschten Display, z. B. **DemoProject*** *—&gt; **Speicherorte** —&gt; **SanJose** —&gt; **StoreDisplay**.
+1. Navigieren Sie zum gewünschten Display, z. B. **DemoProject** —&gt; **Speicherorte** —&gt; **SanJose** —&gt; **StoreDisplay**.
 
    ![screen_shot_2018-08-23at25359pm](assets/screen_shot_2018-08-23at25359pm.png)
 
@@ -48,11 +48,11 @@ Gehen Sie wie folgt vor, um einer Anzeige einen Kanal zuzuweisen:
 
    Oder
 
-   Tap/click **Dashboard **and** **click** +Assign Channel **from the** ASSIGNED CHANNNELS **panel to open the **Channel Assignment** dialog box.
+   Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNNELS** panel to open the **Channel Assignment** dialog box.
 
    ![screen_shot_2018-08-23at25938pm](assets/screen_shot_2018-08-23at25938pm.png)
 
-   Sie können die folgenden Eigenschaften im Dialogfeld **Kanalzuweisung **konfigurieren:
+   Sie können im Dialogfeld **Kanalzuweisung** die folgenden Eigenschaften konfigurieren:
 
    **Kanalrolle**:
 
@@ -105,7 +105,7 @@ Hier unterteilen wir jeden Tag drei verschiedene Zeitfenster, sodass der Kanalin
 | **Channel** | **Rolle** | **Priorität** | **Plan** |
 |---|---|---|---|
 | Menu_A | Frühstück |  | nach 6:00 und vor 11:00 Uhr |
-| Menu_B | Mittagessen |  | nach 11:00 und vor 15:00 |
+| Menu_B | Mittagessen |  | nach 11:00 und vor 15:00 Uhr |
 | Menu_C | Abendessen |  | nach 15:00 und vor 20:00 |
 
 #### Anzeigen von Inhalten an einem bestimmten Wochentag {#playing-content-on-a-particular-day-of-the-week}
