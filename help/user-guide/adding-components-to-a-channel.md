@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: cec2a2f8b056bf713e56a9fab08d88e29263820b
 
 ---
 
@@ -228,7 +228,7 @@ Das Bild-Asset besitzt die drei Registerkarten **Bild**, **Erreichbarkeit** und 
 | **Barrierefreiheit** |
 | ***Alternativtext*** | Hierbei handelt es sich um Alternativtext für das Bild. |
 | **Sequenz** |
-| ***Dauer*** | Damit wird die Gesamtdauer des Bildes festgelegt. Wenn Sie die Dauer auf -1 einstellen, wird angezeigt, dass das eingebettete Bild in einem bestimmten Kanal seine volle Länge ausführt. |
+| ***Dauer*** | Standardmäßig ist die Dauer auf *8000 ms* festgelegt. Wenn Sie die Wiedergabedauer des Bildes ändern möchten, aktualisieren Sie das Feld **Dauer** . |
 
 ### Übergang {#transition}
 
