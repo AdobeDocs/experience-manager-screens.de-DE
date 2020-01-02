@@ -5,7 +5,7 @@ description: Folgen Sie diesem Verwendungsfall für die Erstellung eines Single 
 seo-description: Folgen Sie diesem Verwendungsfall für die Erstellung eines Single Use TakeOver-Kanals.
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 7678f8b4e940963daa346383d70379fab8cc1765
+source-git-commit: c4a05f816ce259490600732356572e0774f2ea2f
 
 ---
 
@@ -76,7 +76,7 @@ Gehen Sie wie folgt vor, um ein Projekt einzurichten:
    >[!NOTE]
    >Informationen zum Zuweisen eines Kanals zu einer Anzeige finden Sie unter **[Kanalzuweisung](channel-assignment.md)**.
 
-1. Füllen Sie die Felder (**Kanalpfad**, **Priorität** und **unterstützte Ereignisse**) im Dialogfeld &quot;Kanalzuweisung **&quot;aus und klicken Sie auf** Speichern ****. Jetzt haben Sie den **MainAdChannel** Ihrem Display zugewiesen.
+1. Füllen Sie die Felder (**Kanalpfad**, **Priorität** und **unterstützte Ereignisse**) im Dialogfeld &quot;Kanalzuweisung **&quot;aus und klicken Sie auf** Speichern ****. Sie haben nun den **MainAdChannel** Ihrer Anzeige zugewiesen.
 
    ![Asset](assets/single-takeover7.png)
 
@@ -91,6 +91,13 @@ Gehen Sie wie folgt vor, um ein Projekt einzurichten:
 Der in diesem Beispiel erwähnte Text im **Zeitplan** ist *am 31. Dezember nach 23:58 Uhr und am 1. Januar vor 00.01*.
 
       ![Asset](assets/single-takeover8.png)
+
+      Navigieren Sie zur Anzeige von **SingleUseTakeOver** —> **Speicherorte** —> **Lobby** —> **Hauptlobby-Anzeige** und klicken Sie in der Aktionsleiste auf **Dashboard** , um die zugewiesenen Kanäle mit ihren Prioritäten anzuzeigen, wie unten dargestellt.
+
+      >[!NOTE]
+      >Es ist obligatorisch, die Priorität des Übernahmekanals auf die höchste zu setzen.
+
+      ![Asset](assets/single-takeover9.png)
 
       >[!NOTE]
       >Sie können den Zeitplan für verschiedene Anwendungsfälle erwähnen. Weitere Informationen finden Sie unter Perpetual Use Case.
