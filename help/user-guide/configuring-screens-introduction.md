@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
+source-git-commit: 9ee952340d8d966bbad6e6587686448b6413dcca
 
 ---
 
@@ -34,17 +34,17 @@ Die folgenden wichtigen Punkte bieten Hilfestellung beim Konfigurieren von AEM-S
 
 #### Zulassen von leeren Referrer-Anforderungen {#allow-empty-referrer-requests}
 
-1. Navigieren Sie zur **Adobe Experience Manager Web Console-Konfiguration** über AEM-Instanz —&gt; Hammer-Symbol —&gt; **Vorgänge** —&gt; **Web-Konsole**.
+1. Navigieren Sie zur **Adobe Experience Manager Web Console-Konfiguration** über AEM-Instanz —> Hammer-Symbol —> **Vorgänge** —> **Web-Konsole**.
 
    ![screen_shot_2019-07-31at91253am](assets/screen_shot_2019-07-31at91253am.png)
 
 1. **Adobe Experience Manager Web Console Configuration** wird geöffnet. Suchen Sie nach einer verweisenden Stelle.
 
-   Zum Durchsuchen der Eigenschaft "sling referrer"drücken Sie **Befehl+F** für **Mac** und **Strg+F** für **Windows**.
+   Zum Durchsuchen der Eigenschaft &quot;sling referrer&quot;drücken Sie **Befehl+F** für **Mac** und **Strg+F** für **Windows**.
 
    ![screen_shot_2019-07-31at91728am](assets/screen_shot_2019-07-31at91728am.png)
 
-1. Markieren Sie die Option **Leeres Feld zulassen **wie in der folgenden Abbildung dargestellt.
+1. Aktivieren Sie die Option &quot;Leeres Feld **zulassen** &quot;, wie in der Abbildung unten dargestellt.
 
    ![screen_shot_2019-07-31at91807am](assets/screen_shot_2019-07-31at91807am.png)
 
@@ -54,10 +54,10 @@ Die folgenden wichtigen Punkte bieten Hilfestellung beim Konfigurieren von AEM-S
 
 AEM Screens erfordert die TOUCH-Benutzeroberfläche und funktioniert nicht mit der CLASSIC-Benutzeroberfläche von Adobe Experience Manager (AEM).
 
-1. Navigieren Sie zu *&lt;yourAuthorInstance&gt;/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*
+1. Navigieren Sie zu *&lt;yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*
 1. Stellen Sie sicher, dass der **Standard-Authoring-UI-Modus** auf **TOUCH** eingestellt ist (siehe folgende Abbildung)
 
-Alternativ können Sie die gleiche Einstellung auch mit *&lt;IhrAuthorInstance&gt;*-&gt;*Tools (Hammersymbol)* -&gt; **Vorgänge** -&gt; **Web-Konsole** durchführen und nach **WCM Authoring UI Mode Service** suchen.
+Alternativ können Sie die gleiche Einstellung auch mit *&lt;IhrAuthorInstance>*->*Tools (Hammersymbol)* -> **Vorgänge** -> **Web-Konsole** durchführen und nach **WCM Authoring UI Mode Service** suchen.
 
 ![screen_shot_2018-12-04at22425pm](assets/screen_shot_2018-12-04at22425pm.png)
 
@@ -67,7 +67,7 @@ Alternativ können Sie die gleiche Einstellung auch mit *&lt;IhrAuthorInstance&g
 
 #### AEM im NOSAMPLECONTENT-Ausführungsmodus {#aem-in-nosamplecontent-runmode}
 
-Running AEM in production uses the **NOSAMPLECONTENT** runmode. *Entfernen Sie die Kopfzeile "X-Frame-Options=SAMEORIGIN* "(im Abschnitt "Zusätzliche Antwort-Kopfzeile") aus
+Running AEM in production uses the **NOSAMPLECONTENT** runmode. *Entfernen Sie die Kopfzeile &quot;X-Frame-Options=SAMEORIGIN* &quot;(im Abschnitt &quot;Zusätzliche Antwort-Kopfzeile&quot;) aus
 
 `https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`.
 
@@ -75,15 +75,15 @@ Dies ist erforderlich, damit AEM Screens Player Online-Kanäle wiedergeben kann.
 
 #### Kennworteinschränkungen {#password-restrictions}
 
-Mit den neuesten Änderungen an ***DeviceServiceImpl*** müssen Sie die Kennwortbeschränkungen nicht entfernen.
+Mit den neuesten Änderungen an ***DeviceServiceImpl ***müssen Sie die Kennwortbeschränkungen nicht entfernen.
 
-Sie können ***DeviceServiceImpl*** über den unten stehenden Link konfigurieren, um beim Erstellen des Kennworts für die Bildschirmbenutzer die Kennwortbeschränkung zu aktivieren:
+Sie können ***DeviceServiceImpl ***über den unten stehenden Link konfigurieren, um die Kennwortbeschränkung beim Erstellen des Kennworts für die Bildschirmbenutzer zu aktivieren:
 
 `https://localhost:4502/system/console/configMgr/com.adobe.cq.screens.device.impl.DeviceService`
 
-Gehen Sie wie folgt vor, um ***DeviceServiceImpl*** zu konfigurieren:
+Gehen Sie wie folgt vor, um ***DeviceServiceImpl ***zu konfigurieren:
 
-1. Navigieren Sie zur **Adobe Experience Manager Web Console-Konfiguration** über AEM-Instanz —&gt; Hammer-Symbol —&gt; **Vorgänge** —&gt; **Web-Konsole**.
+1. Navigieren Sie zur **Adobe Experience Manager Web Console-Konfiguration** über AEM-Instanz —> Hammer-Symbol —> **Vorgänge** —> **Web-Konsole**.
 
 1. **Adobe Experience Manager Web Console Configuration **wird geöffnet. Suchen Sie nach DeviceService. Drücken Sie zum Durchsuchen der Eigenschaft **Befehl+F** für **Mac** und **Strg+F** für **Windows**.
 
@@ -95,7 +95,7 @@ Weitere Informationen zum Konfigurieren des Dispatchers für ein AEM Screens-Pro
 
 #### Java-Kodierung {#java-encoding}
 
-Set the ***Java encoding*** to Unicode. *Dfile.encoding=Cp1252* funktioniert beispielsweise nicht.
+Set the ***Java encoding ***to Unicode.*Dfile.encoding=Cp1252 *funktioniert beispielsweise nicht.
 
 >[!NOTE]
 >
