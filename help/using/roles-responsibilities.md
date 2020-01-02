@@ -3,8 +3,8 @@ title: Projektrollen und Zuständigkeiten in AEM Screens
 seo-title: Projektrollen und Zuständigkeiten in AEM Screens
 description: Auf dieser Seite werden die Projektrollen und Zuständigkeiten in AEM Screens beschrieben.
 seo-description: Auf dieser Seite werden die Projektrollen und Zuständigkeiten in AEM Screens beschrieben.
-translation-type: ht
-source-git-commit: 7b55a3e847c533fbfc1bec77d1521889c24b66a2
+translation-type: tm+mt
+source-git-commit: 50d36d89b8dcc746a043e5e72ffc0148d99854ad
 
 ---
 
@@ -17,7 +17,7 @@ In einem typischen AEM Screens-Projekt werden die Rollen weiter verfeinert, da s
 
 Im folgenden Diagramm werden die Rollen dargestellt, auf die wir im Handbuch immer wieder Bezug nehmen werden.
 
-![](/help/assets/roles-used.png)
+![](/help/assets/project-roles-revised.png)
 
 >[!NOTE]
 > Viele der Rollen können interner oder externer Art sein, je nachdem, wie die einzelnen Projekte eingerichtet wurden.
@@ -96,7 +96,7 @@ Zur Sicherstellung einer erfolgreichen Bereitstellung von Digital Signage ist es
 >[!NOTE]
 >
 > Auch wenn der Schwerpunkt dieses Handbuchs auf *Tag 1* und *Tag 2* liegt, müssen bei einem erfolgreichen Digital Signage-Projekt alle drei Schritte beachtet werden.
-In einem zusätzlichen Video zu **[Projektverwaltung und -implementierung](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** erfahren Sie mehr über die Projektvorbereitung, die Projektinitiierung und den Projektfortschritt.
+In einem zusätzlichen Video zu **[Projektverwaltung und -implementierung](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)**erfahren Sie mehr über die Projektvorbereitung, die Projektinitiierung und den Projektfortschritt.
 
 ## RACI-Diagramm {#raci-chart}
 
