@@ -5,7 +5,7 @@ description: Folgen Sie diesem Verwendungsfall für die Erstellung eines Single 
 seo-description: Folgen Sie diesem Verwendungsfall für die Erstellung eines Single Use TakeOver-Kanals.
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: c4a05f816ce259490600732356572e0774f2ea2f
+source-git-commit: d64eb2ca3efc4d15be119c9b8efd9ff2b8f8daf4
 
 ---
 
@@ -86,18 +86,20 @@ Gehen Sie wie folgt vor, um ein Projekt einzurichten:
 
    * **Kanalpfad**: Wählen Sie den Pfad zum TakeOver-Kanal
    * **Priorität**: Legen Sie die Priorität dieses Kanals höher als **MainAdChannel** fest. Die in diesem Beispiel eingestellte Priorität ist beispielsweise 8.
+      >[!NOTE]
+      >Priorität kann jeder Wert sein, der höher ist als der Prioritätswert des normalerweise wiedergegebenen Kanals.
    * **Unterstützte Ereignisse**: Wählen Sie den **Leerbildschirm** und den **Timer** aus.
    * **Plan**: Geben Sie den Text für den Zeitplan ein, in dem die Anzeige ausgeführt werden soll. Der Text hier ermöglicht es zum Beispiel, den Inhalt 2 Minuten vor 12:00 Uhr am 31. Dezember bis 12:01 Uhr abzuspielen.
 Der in diesem Beispiel erwähnte Text im **Zeitplan** ist *am 31. Dezember nach 23:58 Uhr und am 1. Januar vor 00.01*.
 
       ![Asset](assets/single-takeover8.png)
 
-      Navigieren Sie zur Anzeige von **SingleUseTakeOver** —> **Speicherorte** —> **Lobby** —> **Hauptlobby-Anzeige** und klicken Sie in der Aktionsleiste auf **Dashboard** , um die zugewiesenen Kanäle mit ihren Prioritäten anzuzeigen, wie unten dargestellt.
+      Navigieren Sie zur Anzeige von **SingleUseTakeOver** —> **Locations** —> **Lobby** —> **MainLobbyDisplay** und klicken Sie in der Aktionsleiste auf **Dashboard** , um die zugewiesenen Kanäle mit ihren Prioritäten anzuzeigen, wie unten dargestellt.
 
       >[!NOTE]
       >Es ist obligatorisch, die Priorität des Übernahmekanals auf die höchste zu setzen.
 
       ![Asset](assets/single-takeover9.png)
 
-      >[!NOTE]
-      >Sie können den Zeitplan für verschiedene Anwendungsfälle erwähnen. Weitere Informationen finden Sie unter Perpetual Use Case.
+>[!NOTE]
+>Es empfiehlt sich, den &quot;Single Use Take Over&quot;-Kanal nach der Wiedergabe zu löschen.
