@@ -5,7 +5,7 @@ description: Folgen Sie diesem Verwendungsfall für die Erstellung eines permane
 seo-description: Befolgen Sie diesen Verwendungsfall beim Einrichten eines Projekts, das einen permanenten TakeOver-Kanal erstellt, der für einen bestimmten Tag und eine bestimmte Zeit kontinuierlich wiedergegeben wird.
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 9bf6799e41b0cabba3ce3e68770e14005ff62fce
+source-git-commit: ba7086ec041f6cfe41d8847b97e97948526cc205
 
 ---
 
@@ -17,7 +17,7 @@ Auf der folgenden Seite wird ein Anwendungsfall vorgestellt, der sich auf die Ei
 ## Nutzungsszenario – Beschreibung {#use-case-description}
 
 In diesem Verwendungsfall wird erläutert, wie ein Kanal erstellt wird, der den normalen Wiedergabekanal für eine Anzeige oder Gruppe von Bildschirmen *übernimmt* . Die Übernahme wird für einen bestimmten Tag und eine bestimmte Zeit dauernd erfolgen.
-So gibt es zum Beispiel einen Kanal für &quot;Perpetual TakeOver&quot;, der jeden Freitag von 9.00 Uhr bis 10.00 Uhr abgespielt wird. Während dieser Zeit sollte kein anderer Kanal wiedergegeben werden. Das folgende Beispiel zeigt die Erstellung eines permanenten Übernahmekanals, der abgespielt wird und den Inhalt jeden Mittwoch für 2 Stunden von 17.00 Uhr bis 19.00 Uhr wiedergeben kann.
+So gibt es zum Beispiel einen Kanal für &quot;Perpetual TakeOver&quot;, der jeden Freitag von 9.00 Uhr bis 10.00 Uhr abgespielt wird. Während dieser Zeit sollte kein anderer Kanal wiedergegeben werden. Das folgende Beispiel zeigt die Erstellung eines permanenten Übernahmekanals, der abgespielt wird und den Inhalt jeden Mittwoch für 2 Stunden von 14.00 Uhr bis 16.00 Uhr abspielen lässt.
 
 ### Voraussetzungen {#preconditions}
 
@@ -85,7 +85,9 @@ Gehen Sie wie folgt vor, um ein Projekt einzurichten:
    * **Kanalpfad**: Wählen Sie den Pfad zum **TakeOver** -Kanal
    * **Priorität**: Legen Sie die Priorität dieses Kanals höher als **MainAdChannel** fest. Die in diesem Beispiel eingestellte Priorität ist beispielsweise 8.
    * **Unterstützte Ereignisse**: Wählen Sie den **Leerbildschirm** und den **Timer** aus.
-   * **Plan**: Geben Sie den Text für den Zeitplan ein, in dem die Anzeige ausgeführt werden soll. Der in diesem Beispiel erwähnte Text im **Zeitplan** ist *am Mittwoch nach 14:00 und vor 16:00* Uhr.
+   * **Plan**: Geben Sie den Text für den Zeitplan ein, in dem die Anzeige ausgeführt werden soll. Der in diesem Beispiel erwähnte Text im **Zeitplan** ist *am Mittwoch nach 14:00 und vor 16:00*Uhr.
+      [!NOTE]
+      > Weitere Informationen zu den Ausdrücken, die Sie dem **Zeitplan** hinzufügen können, finden Sie im Abschnitt [Beispielausdrücke](#example-expressions) unten
    * **aktiv von**: Startdatum und -zeit.
    * **aktiv bis**: Enddatum und -zeit.
    Beispielsweise kann der Text in **Plan** und **aktiv von** und **aktiv bis** Datum und Uhrzeit hier jeden Mittwoch von 14.00 bis 16.00 Uhr abgespielt werden.
