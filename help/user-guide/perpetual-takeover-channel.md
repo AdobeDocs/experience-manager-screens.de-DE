@@ -5,7 +5,7 @@ description: Folgen Sie diesem Verwendungsfall für die Erstellung eines permane
 seo-description: Befolgen Sie diesen Verwendungsfall beim Einrichten eines Projekts, das einen permanenten TakeOver-Kanal erstellt, der für einen bestimmten Tag und eine bestimmte Zeit kontinuierlich wiedergegeben wird.
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 5c89be38d0a8dade2f829bcce6fb3154789d3579
+source-git-commit: 9bf6799e41b0cabba3ce3e68770e14005ff62fce
 
 ---
 
@@ -106,4 +106,11 @@ Die folgende Tabelle fasst einige Beispielausdrücke zusammen, die Sie dem Zeitp
 
 | **Ausdruck** | **Interpretation** |
 |---|---|
+| vor 8:00 Uhr | der Kanal wird vor 8:00 Uhr morgens wiedergegeben |
+| nach 14:00 Uhr | der Kanal wird täglich nach 14.00 Uhr wiedergegeben |
 | nach 12:15 und vor 12:45 | der Kanal wird 30 Minuten lang täglich nach 22:15 Uhr abgespielt |
+| vor 12:15 Uhr auch nach 12:45 | Der Kanal wird täglich vor 22:15 Uhr und danach auch nach 22:45 Uhr abgespielt |
+| am 1. Januar nach 14:00 Uhr auch am 2. Januar, auch am 3. Januar vor 3:00 Uhr | Der Kanal beginnt am 1. Januar um 12:45 Uhr, spielt am 2. Januar den ganzen Tag bis 3:00 Uhr am 3. Januar |
+| am 1./2. Januar nach 14:00 Uhr auch am 2./3. Januar vor 3:00 Uhr | Der Kanal startet den Player am 1. Januar um 12:45 Uhr, läuft bis 3:00 Uhr am 2. Januar und beginnt dann am 2. Januar um 2:45 Uhr und läuft bis 3:00 Uhr am 3. Januar |
+
+Beachten Sie, dass Sie auch _militärische Zeitschreibweise_ verwenden können (d. h. 14:00 Uhr) anstelle der am/pm-Notation (d. h. 14:00 Uhr)
