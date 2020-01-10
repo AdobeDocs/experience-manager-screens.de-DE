@@ -5,7 +5,7 @@ description: Folgen Sie diesem Verwendungsfall für die Erstellung eines permane
 seo-description: Befolgen Sie diesen Verwendungsfall beim Einrichten eines Projekts, das einen permanenten TakeOver-Kanal erstellt, der für einen bestimmten Tag und eine bestimmte Zeit kontinuierlich wiedergegeben wird.
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 5e80a23674528467dd6eca7054e0730471646baf
+source-git-commit: 874ddde28be840d0dcac197e48ca579a12661994
 
 ---
 
@@ -87,7 +87,7 @@ Gehen Sie wie folgt vor, um ein Projekt einzurichten:
    * **Unterstützte Ereignisse**: Wählen Sie den **Leerbildschirm** und den **Timer** aus.
    * **Plan**: Geben Sie den Text für den Zeitplan ein, in dem die Anzeige ausgeführt werden soll. Der in diesem Beispiel erwähnte Text im **Zeitplan** ist *am Mittwoch nach 14:00 und vor 16:00* Uhr.
       >[!NOTE]
-      >Weitere Informationen zu den Ausdrücken, die Sie dem **Zeitplan** hinzufügen können, finden Sie im Abschnitt [Beispielausdrücke](#example-expressions) unten
+      >Weitere Informationen zu den Ausdrücken, die Sie dem **Zeitplan** hinzufügen können, finden Sie im Abschnitt [Beispielausdrücke](#example-expressions) unten.
    * **aktiv von**: Startdatum und -zeit.
    * **aktiv bis**: Enddatum und -zeit.
    Beispielsweise kann der Text in **Plan** und **aktiv von** und **aktiv bis** Datum und Uhrzeit hier jeden Mittwoch von 14.00 bis 16.00 Uhr abgespielt werden.
@@ -116,4 +116,4 @@ Die folgende Tabelle fasst einige Beispielausdrücke zusammen, die Sie dem Zeitp
 | am 1./2. Januar nach 14:00 Uhr auch am 2./3. Januar vor 3:00 Uhr | Der Kanal startet den Player am 1. Januar um 12:45 Uhr, läuft bis 3:00 Uhr am 2. Januar und beginnt dann am 2. Januar um 2:45 Uhr und läuft bis 3:00 Uhr am 3. Januar |
 
 >[!NOTE]
->Sie können auch _militärische Zeitschreibweise_ verwenden (d. h. 14:00 Uhr) anstelle der am/pm-Notation (d. h. 14:00 Uhr).
+>Sie können auch _militärische Zeitschreibweise_ (d. h. 14:00 Uhr) anstelle von *AM/pm* -Notation (d. h. 14:00 Uhr) verwenden.
