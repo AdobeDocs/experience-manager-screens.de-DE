@@ -2,10 +2,10 @@
 title: Dauerhafter Übernahmekanal
 seo-title: Dauerhafter Übernahmekanal
 description: Folgen Sie diesem Verwendungsfall für die Erstellung eines permanenten TakeOver-Kanals.
-seo-description: Folgen Sie diesem Verwendungsfall für die Erstellung eines permanenten TakeOver-Kanals.
+seo-description: Befolgen Sie diesen Verwendungsfall beim Einrichten eines Projekts, das einen permanenten TakeOver-Kanal erstellt, der für einen bestimmten Tag und eine bestimmte Zeit kontinuierlich wiedergegeben wird.
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: d64eb2ca3efc4d15be119c9b8efd9ff2b8f8daf4
+source-git-commit: ab7b6637619cc0074cc0198202d69b1245b1b1f5
 
 ---
 
@@ -21,16 +21,16 @@ So gibt es zum Beispiel einen Kanal für &quot;Perpetual TakeOver&quot;, der jed
 
 ### Voraussetzungen {#preconditions}
 
-Bevor Sie mit diesem Anwendungsfall beginnen, sollten Sie wissen, wie:
+Bevor Sie mit diesem Nutzungsszenario beginnen, sollten Sie sich mit den folgenden Themen vertraut machen:
 
-* **[Kanäle erstellen und verwalten](managing-channels.md)**
-* **[Orte erstellen und verwalten](managing-locations.md)**
-* **[Zeitpläne erstellen und verwalten](managing-schedules.md)**
+* **[Erstellen und Verwalten von Kanälen](managing-channels.md)**
+* **[Erstellen und Verwalten von Standorten](managing-locations.md)**
+* **[Erstellen und Verwalten von Zeitplänen](managing-schedules.md)**
 * **[Geräteregistrierung](device-registration.md)**
 
 ### Hauptakteure {#primary-actors}
 
-Inhaltsersteller
+Autoren von Inhalten
 
 ## Setting up the Project {#setting-up-the-project}
 
@@ -38,63 +38,69 @@ Gehen Sie wie folgt vor, um ein Projekt einzurichten:
 
 **Einrichten der Kanäle und Anzeigen**
 
-1. Erstellen Sie ein AEM Screens-Projekt mit dem Titel **PerpetualTakeOver**(siehe unten).
+1. Create an AEM Screens Project titled as **PerpetualTakeOver**, as shown below.
 
-   ![Asset](assets/single-takeover1.png)
+   ![Asset](assets/p_usecase1.png)
 
 1. Erstellen Sie einen **MainAdChannel** im Ordner &quot; **Channels** &quot;.
 
-   ![Asset](assets/single-takeover2.png)
+   ![Asset](assets/p_usecase2.png)
 
-1. Wählen Sie den **MainAdChannel** aus und klicken Sie in der Aktionsleiste auf **Bearbeiten** . Ziehen Sie Elemente (Bilder, Videos, eingebettete Sequenzen) per Drag &amp; Drop in Ihren Kanal.
+1. Select the **MainAdChannel** and click **Edit** from the action bar. Ziehen Sie Elemente (Bilder, Videos, eingebettete Sequenzen) per Drag &amp; Drop in Ihren Kanal.
 
-   ![Asset](assets/single-takeover2.png)
+   ![Asset](assets/p_usecase3.png)
 
 
    >[!NOTE]
    >Der **MainAdChannel** in diesem Beispiel zeigt einen Sequenzkanal, der Inhalt kontinuierlich wiedergibt.
 
-   ![Asset](assets/single-takeover3.png)
+1. Erstellen Sie einen **TakeOver** -Kanal, der den Inhalt in **MainAdChannel** übernimmt und jeden Mittwoch von 14:00 bis 16:00 Uhr abspielt.
 
-1. Erstellen Sie einen **TakeOver** -Kanal, der den Inhalt in **MainAdChannel** übernimmt und nur für einen bestimmten Tag und eine bestimmte Zeit abspielt.
+1. Select the the **TakeOver** and click **Edit** from the action bar. Ziehen Sie Elemente per Drag &amp; Drop in Ihren Kanal. Im folgenden Beispiel wird ein Bild für eine einzelne Zone gezeigt, das diesem Kanal hinzugefügt wurde.
 
-1. Wählen Sie das **Übernehmen** aus und klicken Sie in der Aktionsleiste auf **Bearbeiten** . Ziehen Sie Elemente per Drag &amp; Drop in Ihren Kanal. Im folgenden Beispiel wird ein Bild für eine einzelne Zone gezeigt, das diesem Kanal hinzugefügt wurde.
+   ![Asset](assets/p_usecase4.png)
 
-   ![Asset](assets/single-takeover4.png)
+1. Richten Sie einen Ort und eine Anzeige für Ihre Kanäle ein. Beispielsweise wird für dieses Projekt der folgende Speicherort **MainLobby** und **MainLobbyDisplay** eingerichtet.
 
-1. Richten Sie einen Ort und eine Anzeige für Ihre Kanäle ein. Beispielsweise wird für dieses Projekt der folgende Speicherort **Lobby** und **MainLobbyDisplay** eingerichtet.
-
-   ![Asset](assets/single-takeover5.png)
+   ![Asset](assets/p_usecase5.png)
 
 **Zuweisen von Kanälen zu einer Anzeige**
 
-1. Wählen Sie die Anzeige **MainLobbyDisplay** aus dem Ordner **Locations** . Click **Assign Channel** from the action bar.
-
-   ![Asset](assets/single-takeover6.png)
+1. Wählen Sie die Anzeige **MainLobbyDisplay** aus dem Ordner **Locations** . Klicken Sie in der Aktionsleiste auf Kanal **zuweisen** , um das Dialogfeld &quot; **Kanalzuweisung** &quot;zu öffnen.
 
    >[!NOTE]
    >Informationen zum Zuweisen eines Kanals zu einer Anzeige finden Sie unter **[Kanalzuweisung](channel-assignment.md)**.
 
-1. Füllen Sie die Felder (**Kanalpfad**, **Priorität** und **unterstützte Ereignisse**) im Dialogfeld &quot;Kanalzuweisung **&quot;aus und klicken Sie auf** Speichern ****. Sie haben nun den **MainAdChannel** Ihrer Anzeige zugewiesen.
+1. Füllen Sie die Felder (**Kanalpfad**, **Priorität** und **Unterstützte Ereignisse**) aus dem Dialogfeld &quot;Kanalzuweisung **&quot;aus und klicken Sie auf** Speichern ******** , um Ihrer Anzeige die Option &quot;MainAdChannel&quot;zuzuweisen.
 
-   ![Asset](assets/single-takeover7.png)
+   * **Kanalpfad**: Wählen Sie den Pfad zum **MainAdChannel** -Kanal
+   * **Priorität**: Legen Sie die Priorität dieses Kanals auf 1 fest.
+   * **Unterstützte Ereignisse**: Wählen Sie den **Startbildschirm** und den **Leerlaufbildschirm**.
+   ![Asset](assets/p_usecase6.png)
 
-1. Wählen Sie die Anzeige **TakeOver** aus dem Ordner **Locations** . Klicken Sie in der Aktionsleiste auf Kanal **zuweisen** , um den Übernahmekanal für einzelne Benutzer zuzuweisen.
+1. Wählen Sie die Anzeige **TakeOver** aus dem Ordner **Locations** . Klicken Sie in der Aktionsleiste auf Kanal **zuweisen** , um den Übernahmekanal zuzuweisen.
 
 1. So weisen Sie der Anzeige den **TakeOver** -Kanal zu einem geplanten Zeitpunkt zu und füllen die folgenden Felder im Dialogfeld &quot; **Kanalzuweisung** &quot;aus und klicken auf **Speichern**:
 
-   * **Kanalpfad**: Wählen Sie den Pfad zum TakeOver-Kanal
+   * **Kanalpfad**: Wählen Sie den Pfad zum **TakeOver** -Kanal
    * **Priorität**: Legen Sie die Priorität dieses Kanals höher als **MainAdChannel** fest. Die in diesem Beispiel eingestellte Priorität ist beispielsweise 8.
    * **Unterstützte Ereignisse**: Wählen Sie den **Leerbildschirm** und den **Timer** aus.
-   * **Plan**: Geben Sie den Text für den Zeitplan ein, in dem die Anzeige ausgeführt werden soll. Der Text hier ermöglicht es zum Beispiel, den Inhalt 2 Minuten vor 12:00 Uhr am 31. Dezember bis 12:01 Uhr abzuspielen.
-Der in diesem Beispiel erwähnte Text im **Zeitplan** ist *am 31. Dezember nach 23:58 Uhr und am 1. Januar vor 00.01*.
+   * **Plan**: Geben Sie den Text für den Zeitplan ein, in dem die Anzeige ausgeführt werden soll. Der Text hier ermöglicht es beispielsweise, den Inhalt jeden Mittwoch von 14.00 bis 16.00 Uhr abzuspielen.
+Der in diesem Beispiel erwähnte Text im **Zeitplan** ist *am Mittwoch nach 14:00 und vor 16:00* Uhr.
 
-      ![Asset](assets/single-takeover8.png)
+      ![Asset](assets/p_usecase7.png)
 
-      Navigieren Sie zur Anzeige von **SingleUseTakeOver** —> **Speicherorte** —> **Lobby** —> **Hauptlobby-Anzeige** und klicken Sie in der Aktionsleiste auf **Dashboard** , um die zugewiesenen Kanäle mit ihren Prioritäten anzuzeigen, wie unten dargestellt.
+      Navigieren Sie zur Anzeige unter **Übernehmen** —> **Positionen** —> **Hauptlobby** —> **MainLobbyDisplay** und klicken Sie in der Aktionsleiste auf **Dashboard** , um die zugewiesenen Kanäle mit ihren Prioritäten anzuzeigen, wie unten dargestellt.
 
       >[!NOTE]
       >Es ist obligatorisch, die Priorität des Übernahmekanals auf die höchste zu setzen.
 
-      ![Asset](assets/single-takeover9.png)
+      ![asset](assets/p_usecase8.png)Now, der **TakeOver** -Kanal übernimmt den **MainAdChannel** um 14:00 Uhr für zwei Stunden bis 16:00 Uhr jeden Mittwoch und spielt seinen Inhalt von 09.01.2020 bis 31.01.2020.
 
+### Example Expressions {#example-expressions}
+
+Die folgende Tabelle fasst einige Beispielausdrücke zusammen, die Sie dem Zeitplan hinzufügen können, während Sie einem Display einen Kanal zuweisen.
+
+| **Ausdruck** | **Interpretation** |
+|---|---|
+| nach 12:15 und vor 12:45 | der Kanal wird 30 Minuten lang täglich nach 22:15 Uhr abgespielt |
