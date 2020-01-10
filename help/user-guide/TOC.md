@@ -4,23 +4,23 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: d7097a5e0156951ac041fb54241faa8c2878f7ae
+source-git-commit: b723f58ce58ccba6d0b7df7acf7ee00df98c2348
 
 ---
 
 
-# AEM Screens Benutzerhandbuch {#user-guide}
+# Benutzerhandbuch für AEM Screens {#user-guide}
 
 + [Einführung in Bildschirme](aem-screens-introduction.md)
 + Übersicht und Kickstart-Handbuch {#overview}
-   + [Schnellstartanleitung](kickstart-for-aem-screens.md)
+   + [Schnellstartanleitung ](kickstart-for-aem-screens.md)
    + [Leitfaden zu bewährten Verfahren für Bildschirme](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)
    + [Schlüsselbegriffe](screens-glossary.md)
 + Grundlagen des Digital Signage-Netzwerks {#digital-signage-network}
-   + [Teil 1: Aufgaben und Zuständigkeiten des Projekts](project-roles-responsibilities.md)
-   + [Teil 2: Überlegungen zum Scoping von Projekten](project-considerations.md)
+   + [Teil 1: Projektrollen und Zuständigkeiten](project-roles-responsibilities.md)
+   + [Teil 2: Überlegungen zum Projektumfang](project-considerations.md)
    + [Teil 3: Tests, POCs, Pilotprogramme und Rollouts](testing-pocs-pilots-rollouts.md)
-   + [Teil 4: Projektverwaltung und Bereitstellung](project-management-and-deployment.md)
+   + [Teil 4: Projektmanagement und Bereitstellung](project-management-and-deployment.md)
    + [Teil 5: Support-Aspekte](support-considerations.md)
 + Konfiguration und Verwaltung {#administering}
    + [Bildschirmserver-Konfigurationen](configuring-screens-introduction.md)
@@ -45,17 +45,17 @@ source-git-commit: d7097a5e0156951ac041fb54241faa8c2878f7ae
 + Authoring- und Verwendungsfallbeispiele {#authoring}
    + Einrichten eines Screenprojekts {#setting-up-projects}
       + [Erstellen und Verwalten von Projekten](creating-a-screens-project.md)
-      + [Erstellen und Verwalten von Kanälen](managing-channels.md) 
-      + [Erstellen und Verwalten von Anzeigen](managing-displays.md) 
-      + [Erstellen und Verwalten von Orten](managing-locations.md) 
-      + [Erstellen und Verwalten von Zeitplänen](managing-schedules.md) 
-      + [Verwalten der Geräte](managing-devices.md) 
+      + [Erstellen und Verwalten von Kanälen](managing-channels.md)
+      + [Erstellen und Verwalten von Anzeigen](managing-displays.md)
+      + [Erstellen und Verwalten von Standorten](managing-locations.md)
+      + [Erstellen und Verwalten von Zeitplänen](managing-schedules.md)
+      + [Verwalten von Geräten](managing-devices.md)
       + [Kanalzuweisung](channel-assignment.md)
    + Verwendung der wichtigsten Produktfunktionen {#product-features}
       + [Textüberlagerung](text-overlay.md)
       + [Bulk Offline Update](bulk-offline-update.md)
       + [AEM Screens-Benachrichtigungsdienst](screens-notifications-service.md)
-      + [Verwenden von Erlebnisfragmenten](experience-fragments-in-screens.md)
+      + [Verwenden von Experience Fragments](experience-fragments-in-screens.md)
       + [Planung auf Asset-Ebene](asset-level-scheduling.md)
       + [Erstellen und Verwalten einer Live Copy](managing-livecopy.md)
       + [Erstellen eines Arbeitsablaufs zum Hinzufügen von Videos](creating-a-video-padding-workflow.md)
@@ -63,21 +63,22 @@ source-git-commit: d7097a5e0156951ac041fb54241faa8c2878f7ae
       + [Eingebettete Sequenzen](embedded-sequences.md)
       + [Aktivierung auf Kanalebene - Wiedergabe eines einzelnen Ereignisses](channel-level-activation.md)
       + [Mehrzonenlayout](multi-zone-layout-aem-screens.md)
-      + [Videoausgabeformate](generating-renditions.md)
+      + [Videowiedergaben](generating-renditions.md)
       + [Verwenden dynamischer eingebetteter Sequenzen](dynamic-embedded-sequences.md)
       + [Dauer der Wiedergabe von Massenbildern auf Kanalebene](channel-level-image-playback.md)
    + Verwalten von Inhaltsaktualisierungen {#content-updates}
-      + [On-Demand Content Update](on-demand-content.md)
+      + [On-Demand-Inhaltsaktualisierung](on-demand-content.md)
       + [Aktualisierung von Inhalten als Dienst](content-update-as-a-service.md)
       + [Inhaltsaktualisierung mit Starts](launches.md)
    + Verwendungsfallbeispiele {#use-case-examples}
       + [Notfallkanäle](emergency-channel.md)
-      + [Aktivierung der Travel Center-Temperatur](local-temperature-activation.md)
-      + [Gastgewerbereservierung Aktivierung](hospitality-reservation-activation.md)
-      + [Zielgerichtete Aktivierung des Einzelhandelsinventars](retail-inventory-activation.md)
+      + [Reisezentrum: Temperaturgesteuerte Aktivierung](local-temperature-activation.md)
+      + [Gastgewerbe: Reservierungsgesteuerte Aktivierung](hospitality-reservation-activation.md)
+      + [Einzelhandel: Bestandsgesteuerte Aktivierung](retail-inventory-activation.md)
       + [Anwenden von Übergängen](applying-transitions.md)
       + [Übergang von mehreren Zonen zu einzelnen Zonen](multizone-to-singlezone.md)
       + [Einmalige Verwendung Übernahmekanal](single-use-takeover-channel.md)
+      + [Kanal für die unbefristete Verwendung](perpetual-takeover-channel.md)
 + Entwickler- und API-Ressourcen {#developing}
    + [REST-APIs](rest-api.md)
    + [Entwickeln einer benutzerdefinierten Komponente für AEM-Bildschirme](developing-custom-component-tutorial-develop.md)
@@ -89,7 +90,7 @@ source-git-commit: d7097a5e0156951ac041fb54241faa8c2878f7ae
    + [Erstellen benutzerdefinierter Vorlagen MultiZone-Layouts](creating-custom-templates-multizone-layouts.md)
 + Fehlerbehebung und häufig gestellte Fragen {#troubleshooting}
    + [Häufig gestellte Fragen zu AEM Screens](aem-screens-faqs.md)
-   + [Fehlerbehebung beim Device Control Center](monitoring-screens.md)
+   + [Fehlerbehebung beim Geräte-Kontrollzentrum](monitoring-screens.md)
    + [Konfiguration der Videowiedergabe](troubleshoot-videos.md)
 + Versionshinweise {#release-notes}
    + [Versionshinweise für Feature Pack 201909](release-notes-fp-201909.md)
