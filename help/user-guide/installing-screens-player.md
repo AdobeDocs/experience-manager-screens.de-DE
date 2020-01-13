@@ -4,37 +4,37 @@ seo-title: Installieren des Screens-Players
 description: Installieren des Screens-Players
 seo-description: Installieren des Screens-Players
 contentOwner: jsyal
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a61375feb5ba0da16f6f81d4b577fce578ac120e
 
 ---
 
 
-# Installieren von AEM Screens Player {#installing-player}
+# Installieren des AEM Screens-Players {#installing-player}
 
 Auf dieser Seite wird die Installation des AEM Screens-Players beschrieben.
 
-## Verfügbarer Bildschirmplayer {#available-players}
+## Verfügbarer Screens-Player {#available-players}
 
-Der AEM Screens Player ist für Android, Chrome OS, iOS und Windows verfügbar.
+Der AEM Screens-Player ist für Android, Chrome OS, iOS und Windows verfügbar.
 
-Um **AEM Screens Player** herunterzuladen, besuchen Sie die [AEM 6.5 Player-Downloadseite](https://download.macromedia.com/screens/) .
+Um einen **AEM Screens-Player** herunterzuladen, rufen Sie die Seite [AEM 6.5 Player-Downloads](https://download.macromedia.com/screens/) auf.
 
 >[!NOTE]
 >
->Nachdem Sie den neuesten Player (*.exe*) heruntergeladen haben, führen Sie die Schritte auf dem Player aus, um die Ad-hoc-Installation abzuschließen:
+>Nachdem Sie den aktuellen Player (*.exe*) heruntergeladen haben, führen Sie die Schritte im Player aus, um die Ad-hoc-Installation abzuschließen:
 >
->1. Drücken Sie die lange Taste oben links, um das Admin-Bedienfeld zu öffnen.
->1. Navigieren Sie im linken Aktionsmenü zu **Konfiguration** , geben Sie die Adresse der AEM-Instanz im **Server** ein und klicken Sie auf **Speichern**.
->1. Klicken Sie auf den Link **Registrierung** aus dem linken Aktionsmenü und die unten stehenden Schritte, um die Geräteregistrierung abzuschließen.
+>1. Halten Sie die linke obere Ecke gedrückt, um den Admin-Bereich zu öffnen.
+>1. Navigieren Sie im linken Aktionsmenü zu **Konfiguration**, geben Sie die Standortadresse der AEM-Instanz unter **Server** ein und klicken Sie auf **Speichern**.
+>1. Klicken Sie im linken Aktionsmenü auf den Link **Registrierung** und führen Sie die folgenden Schritte aus, um die Geräteregistrierung abzuschließen.
 
 
 ### Zusätzliche Ressourcen {#additional-resources}
 
-Detaillierte Informationen finden Sie in den folgenden Themen:
+In den folgenden Themen finden Sie ausführliche Informationen:
 
-* Um Android Player herunterzuladen, besuchen Sie **Google Play**. Weitere Informationen zur Implementierung von Android Watchdog finden Sie unter [Implementieren von Android-Playern](implementing-android-player.md).
+* Um Android-Player herunterzuladen, gehen Sie zu **Google Play**. Weitere Informationen zur Implementierung von Android Watchdog finden Sie unter [Implementieren des Android-Players](implementing-android-player.md).
 
-* Weitere Informationen zur Implementierung von Chrome OS Player finden Sie in der [Chrome Management Console](implementing-chrome-os-player.md) .
+* Weitere Informationen zur Implementierung von Chrome OS-Player finden Sie in der [Chrome Management Console](implementing-chrome-os-player.md).
 
 * Informationen zum Konfigurieren von AEM Screens Windows Player finden Sie unter [Implementieren von Windows Player](implementing-windows-player.md).
