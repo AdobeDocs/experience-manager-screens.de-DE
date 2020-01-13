@@ -1,8 +1,8 @@
 ---
 title: Textüberlagerung
 seo-title: Textüberlagerung
-description: Text Overlay ist eine Funktion, die in AEM Screens zur Verfügung steht und mit der Sie in einem Sequenzkanal ein überzeugendes Erlebnis erstellen können, indem Sie einen Titel oder eine Beschreibung über einem Bild einfügen. Auf dieser Seite erfahren Sie mehr.
-seo-description: Text Overlay ist eine Funktion, die in AEM Screens zur Verfügung steht und mit der Sie in einem Sequenzkanal ein überzeugendes Erlebnis erstellen können, indem Sie einen Titel oder eine Beschreibung über einem Bild einfügen. Auf dieser Seite erfahren Sie mehr.
+description: Textüberlagerung ist eine Funktion in AEM Screens, mit der Sie in einem Sequenzkanal für ein überzeugendes Erlebnis sorgen können, indem Sie einen Titel oder eine Beschreibung auf einem Bild einfügen. Auf dieser Seite erfahren Sie mehr.
+seo-description: Textüberlagerung ist eine Funktion in AEM Screens, mit der Sie in einem Sequenzkanal für ein überzeugendes Erlebnis sorgen können, indem Sie einen Titel oder eine Beschreibung auf einem Bild einfügen. Auf dieser Seite erfahren Sie mehr.
 uuid: 944477e8-0025-4cc7-aa61-6b72f4a245fd
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: b6fdb5a0-5601-4443-a3f4-85cc90c49914
 noindex: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ---
@@ -18,68 +18,68 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 # Textüberlagerung {#text-overlay}
 
-Dieser Abschnitt behandelt die folgenden Themen:
+In diesem Abschnitt werden folgende Themen behandelt:
 
 * **Überblick**
-* **Textüberlagerung verwenden**
+* **Verwenden von Textüberlagerung**
 * **Voraussetzungen**
-* **Eigenschaften von Textüberlagerungen**
+* **Verstehen der Eigenschaften von Textüberlagerung**
 
 >[!CAUTION]
 >
->Die **Funktion "Textüberlagerung** "ist nur verfügbar, wenn Sie AEM 6.3 Feature Pack 5 oder AEM 6.4 Feature Pack 3 installiert haben.
+>Die Funktion **Textüberlagerung** ist nur verfügbar, wenn Sie AEM 6.3 Feature Pack 5 oder AEM 6.4 Feature Pack 3 installiert haben.
 
 ## Überblick {#overview}
 
-Text Overlay ist eine Funktion, die in AEM Screens zur Verfügung steht und mit der Sie in einem Sequenzkanal ein überzeugendes Erlebnis erstellen können, indem Sie einen Titel oder eine Beschreibung über einem Bild einfügen.
+Textüberlagerung ist eine Funktion in AEM Screens, mit der Sie in einem Sequenzkanal für ein überzeugendes Erlebnis sorgen können, indem Sie einen Titel oder eine Beschreibung auf einem Bild einfügen.
 
 Informationen zum Erstellen einer eigenen benutzerdefinierten Komponente finden Sie unter **Erweitern einer AEM Screens-Komponente**.
 
-In diesem Abschnitt wird nur gezeigt, wie die Standkomponente in einem AEM Screens-Projekt verwendet und genutzt und als Textüberlagerung in einem Ihrer Sequenzkanäle verwendet werden kann.
+In diesem Abschnitt wird nur gezeigt, wie die Poster-Komponente in einem AEM Screens-Projekt als Textüberlagerung in einem Ihrer Sequenz-Kanäle genutzt werden kann.
 
-## Textüberlagerung verwenden {#using-text-overlay}
+## Verwenden von Textüberlagerung {#using-text-overlay}
 
-Im folgenden Abschnitt wird die Verwendung von Textüberlagerungen in einem AEM Screens-Projekt beschrieben.
+Im folgenden Abschnitt wird die Verwendung von Textüberlagerung in AEM Screens-Projekten beschrieben.
 
 ### Voraussetzungen {#prerequisites}
 
-Bevor Sie mit der Implementierung dieser Funktion beginnen, stellen Sie sicher, dass Sie ein Projekt als Voraussetzung für die Implementierung der Textüberlagerung eingerichtet haben. Zum Beispiel:
+Bevor Sie mit der Implementierung der Funktion beginnen, stellen Sie sicher, dass Sie als Voraussetzung ein Projekt eingerichtet haben. Beispiel:
 
-* Erstellen eines AEM Screens-Projekts (in diesem Beispiel **TextOverlayDemo**)
+* Erstellen Sie ein AEM Screens-Projekt (in diesem Beispiel **TextOverlayDemo**)
 
-* Kanal als **TextSample** unter **Kanalordner** erstellen
+* Erstellen Sie einen Kanal als **TextSample** im Ordner **Kanäle**
 
-* Hinzufügen von Inhalten zu Ihrem **TextSample** -Kanal
+* Fügen Sie Inhalte zu Ihrem Kanal **TextSample** hinzu
 
-Die folgende Abbildung zeigt das Projekt **TextOverlayDemo** mit dem Kanal **TextSample** im Ordner **Channels** .
+Die folgende Abbildung zeigt das Projekt **TextOverlayDemo** mit dem Kanal **TextSample** im Ordner **Kanäle**.
 
 ![screen_shot_2018-12-16at75908pm](assets/screen_shot_2018-12-16at75908pm.png)
 
-1. Navigieren Sie zu **TextOverlayDemo** —&gt; **Channels** —&gt; **TextSample** und klicken Sie in der Aktionsleiste auf **Bearbeiten** , um den Editor zu öffnen.
+1. Navigieren Sie zu **TextOverlayDemo** &gt; **Kanäle** &gt; **TextSample** und klicken Sie in der Aktionsleiste auf **Bearbeiten**, um den Editor zu öffnen.
 
    ![screen_shot_2018-12-16at80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
-1. Wählen Sie das Bild aus und klicken Sie auf " **Konfigurieren** "(Schraubenschlüsselsymbol), um das Dialogfeld "Eigenschaften"zu öffnen.
+1. Wählen Sie das Bild aus und klicken Sie auf **Konfigurieren** (Schraubenschlüsselsymbol), um das Dialogfeld „Eigenschaften“ zu öffnen.
 
    ![screen_shot_2018-12-16at80221pm](assets/screen_shot_2018-12-16at80221pm.png)
 
-1. Wählen Sie die Option " **Textüberlagerung** "in der Navigationsleiste des Dialogfelds aus, wie in der Abbildung unten dargestellt.
+1. Wählen Sie in der Navigationsleiste des Dialogfelds die Option **Textüberlagerung**, wie in der folgenden Abbildung dargestellt.
 
    ![screen_shot_2018-12-16at80424pm](assets/screen_shot_2018-12-16at80424pm.png)
 
-### Eigenschaften von Textüberlagerungen {#understanding-text-overlay-properties}
+### Verstehen der Eigenschaften von Textüberlagerung {#understanding-text-overlay-properties}
 
-Mithilfe der Eigenschaften "Text-Überlagerung"können Sie einer beliebigen Komponente im Screens-Projekt Text hinzufügen. Im folgenden Abschnitt erhalten Sie eine Übersicht über die Eigenschaften, die in der Textüberlagerung verfügbar sind:
+Mithilfe der Eigenschaften für Textüberlagerung können Sie einer beliebigen Komponente in einem Screens-Projekt Text hinzufügen. Im folgenden Abschnitt erhalten Sie eine Übersicht über die Eigenschaften, die in der Textüberlagerung verfügbar sind:
 
 ![text](assets/text.gif)
 
-Sie können dem Textfeld einen Text hinzufügen und typografische Hervorhebungen wie Fett, Kursiv, Unterstrichen usw. hinzufügen.
+Sie können dem Textfeld einen Text hinzufügen und typografische Hervorhebungen wie Fett, Kursiv, Unterstrichen usw. anwenden.
 
-**Farbvariante** Mit dieser Option kann der Text entweder dunkel (Text in schwarzer Farbe) oder hell (Text in weißer Farbe) sein.
+**Farbvariante** Mit dieser Option kann der Text entweder dunkel (Text in schwarzer Farbe) oder hell (Text in weißer Farbe) dargestellt werden.
 
-**Größe und Positionierung** Diese Option ermöglicht es dem Benutzer, den Text horizontal oder vertikal auszurichten oder zusätzlich feine Werkzeuge für die Textausrichtung zu verwenden.
+**Größe und Anordnung** Mit dieser Option kann der Benutzer den Text horizontal oder vertikal ausrichten oder zusätzlich präzise Tools für die Textausrichtung verwenden.
 
 >[!NOTE]
 >
->Um fein abgestimmte Werkzeuge ordnungsgemäß zu verwenden, müssen Sie die richtige Position in Pixel mit (px) als Suffix (z. B. 200 px) identifizieren. Das Ergebnis dieses Ausdrucks ist 200 Pixel vom Anfangspunkt entfernt.
+>Für einen richtigen Einsatz der Tools müssen Sie die gewünschte Position in Pixel mit „px“ als Suffix angeben (z. B. „200px“). Das Ergebnis dieses Ausdrucks ist 200 Pixel vom Anfangspunkt entfernt.
 
