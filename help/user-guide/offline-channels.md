@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: bd572743-652f-4fc5-8b75-a3c4c74536f4
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 # Offline-Kanäle {#offline-channels}
 
-The Screens player provides offline support for the channels by leveraging the ***ContentSync*** technology.
+Der Screens-Player bietet Offline-Unterstützung für die Kanäle durch Nutzung der ***ContentSync***-Technologie.
 
 Die Player verwenden einen lokalen http-Server, um den entpackten Inhalt bereitzustellen.
 
@@ -32,11 +32,11 @@ Der Workflow für den Prozess ist wie folgt:
 1. Laden Sie die ZIP-Datei herunter und extrahieren Sie sie lokal
 1. Anzeigen einer lokaler Kopie des Inhalts
 
-## Update-Handler {#update-handlers}
+## Update-Handler    {#update-handlers}
 
-***ContentSync**verwendet Update-Handler, um alle erforderlichen Seiten und Assets für ein bestimmtes Projekt zu analysieren und zu sammeln.* AEM Screens verwendet die folgenden Update-Handler:
+***ContentSync*** verwendet Update-Handler, um alle erforderlichen Seiten und Assets für ein bestimmtes Projekt zu analysieren und zu sammeln. AEM Screens verwendet die folgenden Update-Handler:
 
-### Allgemeine Optionen {#common-options}
+### Allgemeine Optionen    {#common-options}
 
 * *type*: Der zu verwendende Update-Handler-Typ
 * *path*: Pfad zur Ressource
@@ -50,23 +50,23 @@ Der Workflow für den Prozess ist wie folgt:
    <td><strong>Optionen</strong></td> 
   </tr>
   <tr>
-   <td>Kanäle</td> 
+   <td>channels</td> 
    <td>erfasst einen Kanal</td> 
-   <td>Erweiterung: Erweiterung der zu erfassenden<br /> Ressource [pathSuffix='']: Suffix zum Hinzufügen zum Kanalpfad<br /> </td> 
+   <td>extension: Erweiterung der zu erfassenden Ressource<br /> [pathSuffix='']: Suffix zum Hinzufügen zum Kanalpfad<br /> </td> 
   </tr>
   <tr>
    <td>clientlib</td> 
-   <td>die angegebene Client-Bibliothek</td> 
-   <td>[extension='']: kann entweder css oder js sein, um nur das erste oder nur das letztere zu sammeln</td> 
+   <td>erfasst die angegebene Client-Bibliothek</td> 
+   <td>[extension='']: kann entweder css oder js sein, um nur das Erstere oder nur das Letztere zu sammeln</td> 
   </tr>
   <tr>
-   <td>Assets</td> 
-   <td>die Asset-Darstellungen erfassen</td> 
-   <td>[renditions=[]]: Liste der zu erfassenden Darstellungen. Die Standardeinstellung ist die ursprüngliche Darstellung</td> 
+   <td>assetrenditions</td> 
+   <td>erfasst die Asset-Wiedergaben</td> 
+   <td>[renditions=[]]: Liste der zu erfassenden Wiedergaben. Standardmäßig wird die ursprüngliche Wiedergabe verwendet</td> 
   </tr>
   <tr>
    <td>copy</td> 
-   <td>Kopieren der angegebenen Struktur aus dem Pfad</td> 
+   <td>kopiert die angegebene Struktur aus dem Pfad</td> 
    <td> </td> 
   </tr>
  </tbody>
@@ -76,16 +76,16 @@ Der Workflow für den Prozess ist wie folgt:
 
 Befolgen Sie die folgenden Schritte, um die ContentSync-Konfiguration zu testen:
 
-1. Öffnen `https://localhost:4502/libs/cq/contentsync/content/console.html`
-1. Wählen Sie Ihre Konfiguration in der Liste
-1. Klicken Sie auf Cache löschen
-1. Klicken Sie auf Cache aktualisieren
-1. Klicken Sie auf Download vollständig
-1. Entpacken Sie die Zip-Datei
-1. Lokalen Server im extrahierten Ordner starten
+1. Öffnen Sie `https://localhost:4502/libs/cq/contentsync/content/console.html`
+1. Wählen Sie Ihre Konfiguration in der Liste aus
+1. Klicken Sie auf „Cache löschen“
+1. Klicken Sie auf „Cache aktualisieren“
+1. Klicken Sie auf „Vollständig herunterladen“
+1. Entpacken Sie die ZIP-Datei
+1. Starten Sie einen lokalen Server im extrahierten Ordner
 1. Öffnen Sie Ihre Startseite und überprüfen Sie Ihren Applikationsstatus
 
-## Aktivieren der Offline-Konfiguration für einen Kanal {#enabling-offline-config-for-a-channel}
+## Aktivieren der Offline-Konfiguration für einen Kanal    {#enabling-offline-config-for-a-channel}
 
 Befolgen Sie die folgenden Schritte, um die Offline-Konfiguration für einen Kanal zu aktivieren:
 
@@ -93,7 +93,7 @@ Befolgen Sie die folgenden Schritte, um die Offline-Konfiguration für einen Kan
 
    ![chlimage_1-24](assets/chlimage_1-24.png)
 
-1. **Navigieren Sie zum Kanal-Dashboard und klicken Sie auf**... im **KANALINFORMATIONSbedienfeld** , um die Eigenschaften zu ändern.
+1. Navigieren Sie zum Kanal-Dashboard und klicken Sie auf **...** im Bedienfeld **KANALINFORMATIONEN**, um die Eigenschaften zu ändern.
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
@@ -109,7 +109,7 @@ Befolgen Sie die folgenden Schritte, um die Offline-Konfiguration für einen Kan
 
    ![screen_shot_2017-12-19at124735pm](assets/screen_shot_2017-12-19at124735pm.png)
 
-1. Inspizieren Sie den Inhalt des Kanals und überprüfen Sie, ob er vom lokalen Player-Cache angefordert wird.
+1. Kontrollieren Sie den Inhalt des Kanals und überprüfen Sie, ob er vom lokalen Player-Cache angefordert wird.
 
    ![chlimage_1-26](assets/chlimage_1-26.png)
 
