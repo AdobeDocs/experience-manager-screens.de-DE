@@ -9,7 +9,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 8dc08e29-a377-4e84-84ee-442470c19019
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ---
@@ -25,44 +25,44 @@ Die Gerätekonsole erlaubt es Ihnen, auf den Geräte-Manager zuzugreifen, um Ihr
 >
 >Vor dem Zuweisen müssen Sie das Gerät registrieren. Weitere Informationen finden Sie unter [Geräteregistrierung](device-registration.md).
 
-## Gerätezuweisung {#device-assignment}
+## Gerätezuweisung    {#device-assignment}
 
 Gehen Sie wie folgt vor, um ein Gerät einer Anzeige zuzuweisen:
 
-1. Navigieren Sie beispielsweise zum Ordner "Geräte"Ihres Projekts.
+1. Navigieren Sie zum Ordner „Geräte“ Ihres Projekts, z. B.
 
    `http://localhost:4502/screens.html/content/screens/TestProject`
 
    ![chlimage_1-32](assets/chlimage_1-32.png)
 
-1. Select your **Devices** folder and tap/click **Device Manager** in the action bar. Die zugewiesenen und nicht zugewiesenen Geräte werden angezeigt.
+1. Wählen Sie den Ordner **Geräte** aus und tippen/klicken Sie in der Aktionsleiste auf **Geräte-Manager**. Die zugewiesenen und nicht zugewiesenen Geräte werden angezeigt.
 
    ![chlimage_1-33](assets/chlimage_1-33.png)
 
-1. Select an unassigned device from the list, and tap/click the **Assign Device** in the action bar.
+1. Wählen Sie ein nicht zugewiesenes Gerät aus der Liste aus und tippen/klicken Sie in der Aktionsleiste auf **Gerät zuweisen**.
 
    ![chlimage_1-34](assets/chlimage_1-34.png)
 
-1. Select the display you want to assign the device to from the list, and tap/click the **Assign**.
+1. Wählen Sie die Anzeige, die Sie dem aus der Liste ausgewählten Gerät zuweisen möchten, und tippen/klicken Sie auf **Zuweisen**.
 
    ![chlimage_1-35](assets/chlimage_1-35.png)
 
-1. Tap/click the **Finish** to complete the assignment process.
+1. Tippen/klicken Sie auf **Abschließen**, um die Zuweisung abzuschließen.
 
    ![chlimage_1-36](assets/chlimage_1-36.png)
 
-   Das Anzeigen-Dashboard zeigt das zugewiesene Gerät im Fenster **GERÄTE** an.
+   Das Anzeigen-Dashboard zeigt das zugewiesene Gerät im Bedienfeld **GERÄTE** an.
 
    ![chlimage_1-37](assets/chlimage_1-37.png)
 
-   Klicken Sie in der oberen rechten Ecke des Fensters **GERÄTE** auf (**...**), um entweder eine Gerätekonfiguration hinzuzufügen oder die Geräte zu aktualisieren.
+   Klicken Sie in der oberen rechten Ecke des Bedienfelds **GERÄTE** auf (**...**), um entweder eine Gerätekonfiguration hinzuzufügen oder die Geräte zu aktualisieren.
 
    ![chlimage_1-38](assets/chlimage_1-38.png)
 
 >[!NOTE]
 >
 >Jedes Mal, wenn das erste Gerät zu einem neuen Screens-Projekt hinzugefügt wird, wird eine Benutzergruppe erstellt.
->For instance, if the project node name is *we-retail*, then the user group name is *screens-we-retail-devices*.
+>Wenn der Projektknotenname zum Beispiel *we-retail* lautet, dann lautet der Benutzergruppenname *screens-we-retail-devices*.
 >Diese Gruppe wird als Mitglied der Gruppe **Mitwirkende** hinzugefügt, wie in der folgenden Abbildung gezeigt:
 
 ![chlimage_1-39](assets/chlimage_1-39.png)
