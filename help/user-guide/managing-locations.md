@@ -1,62 +1,62 @@
 ---
-title: 'Erstellen und Verwalten von Orten '
-seo-title: Verwalten von Orten
-description: Folgen Sie dieser Seite, um mehr über die Erstellung/Verwaltung von Orten erfahren.
-seo-description: Folgen Sie dieser Seite, um mehr über die Erstellung/Verwaltung von Orten erfahren.
+title: Erstellen und Verwalten von Standorten
+seo-title: Verwalten von Standorten
+description: Auf dieser Seite erfahren Sie mehr über die Erstellung/Verwaltung von Standorten.
+seo-description: Auf dieser Seite erfahren Sie mehr über die Erstellung/Verwaltung von Standorten.
 uuid: f18802d4-dae8-48b2-8c94-ecc73579b29f
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 70bdf384-6c27-403b-a6ab-fdec68016428
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ---
 
 
-# Erstellen und Verwalten von Orten{#creating-and-managing-locations} 
+# Erstellen und Verwalten von Standorten {#creating-and-managing-locations}
 
-Die Orte hosten die Konfiguration der Anzeigen entsprechend den Stellen, an denen sich die verschiedenen Bildschirme befinden.
+Die Standorte hosten die Konfiguration der Anzeigen entsprechend den Stellen, an denen sich die verschiedenen Bildschirme befinden.
 
-Diese Seite zeigt, wie Orte für Screens erstellt und verwaltet werden.
+Diese Seite zeigt, wie Standorte für Screens erstellt und verwaltet werden.
 
 **Voraussetzungen**:
 
 * [Konfigurieren und Bereitstellen von Screens](configuring-screens-introduction.md) 
-* [Bildschirmprojekt erstellen und verwalten](creating-a-screens-project.md)
-* [Erstellen und Verwalten von Kanälen](managing-channels.md) 
+* [Erstellen und Verwalten von Screens-Projekten](creating-a-screens-project.md)
+* [Erstellen und Verwalten von Kanälen](managing-channels.md)
 
-## Erstellen eines neuen Speicherorts {#creating-a-new-location}
+## Erstellen eines neuen Standorts {#creating-a-new-location}
 
-Sobald Sie Ihr Projekt für Screens erstellt haben, gehen Sie wie folgt vor, um einen neuen Ort für ein Screens-Projekt zu erstellen:
+Sobald Sie Ihr Projekt für Screens erstellt haben, gehen Sie wie folgt vor, um einen neuen Standort für ein Screens-Projekt zu erstellen:
 
-1. Wählen Sie den Adobe Experience Manager-Link (oben links) und dann Screens aus. Alternativ können Sie direkt zu folgenden Themen navigieren: `http://localhost:4502/screens.html/content/screens`.
-1. Navigate to Screens project and click **Locations**.
-1. Click **Create** next to the plus icon in the action bar. Ein Assistent wird geöffnet.
-1. Select the template **Location** from the wizard and click **Next**.
+1. Wählen Sie den Adobe Experience Manager-Link (oben links) und dann Screens aus. Sie haben auch die Möglichkeit, direkt zur folgenden URL zu wechseln: `http://localhost:4502/screens.html/content/screens`.
+1. Navigieren Sie zum Screens-Projekt und klicken Sie auf **Standorte**.
+1. Klicken Sie neben dem Pluszeichen in der Aktionsleiste auf **Erstellen**. Ein Assistent wird geöffnet.
+1. Wählen Sie die Vorlage **Standort** aus dem Assistenten aus und klicken Sie auf **Weiter**.
 
-1. Enter the properties for **Title and Tags**, **More Titles and Description**, **On/Off Time**, and **Vanity URL**.
+1. Geben Sie die Eigenschaften für **Titel und Tags**, **Weitere Titel und Beschreibungen**, **Einschaltzeit/Ausschaltzeit** und **Vanity-URL** ein.
 
-1. Click **Create** and the location is created and added to your locations folder.
+1. Wenn Sie auf **Erstellen** klicken, wird der Standort erstellt und Ihrem Standortordner hinzugefügt.
 
-In den folgenden Schritten erfahren Sie, wie Sie einen neuen Speicherort für ein AEM Screens-Projekt erstellen. For demonstration purposes, the new location (SanJose) is created under *DemoProject*.
+Gehen Sie wie folgt vor, um einen neuen Standort für ein AEM Screens-Projekt zu erstellen. Zur Veranschaulichung wird der neue Standort (SanJose) unter *DemoProject* erstellt.
 
 ![player2](assets/player2.gif)
 
-Nachdem Sie einen Ort erstellt haben, müssen Sie eine neue Anzeige für Ihren Ort erstellen.
+Nachdem Sie einen Standort erstellt haben, müssen Sie eine neue Anzeige für Ihren Standort erstellen.
 
-### Bearbeiten von Eigenschaften für einen Ort {#editing-properties-for-a-location}
+### Bearbeiten von Eigenschaften für einen Standort {#editing-properties-for-a-location}
 
-So bearbeiten/greifen Sie auf die Eigenschaften eines Speicherorts zu:
+Bearbeiten von/Zugreifen auf die Eigenschaften eines Standorts:
 
-1. Wählen Sie die Position aus.
-1. Click **Properties** from the action bar.
+1. Wählen Sie den Standort aus.
+1. Klicken Sie in der Aktionsleiste auf **Eigenschaften**.
 
 ![player3](assets/player3.gif)
 
 #### Die nächsten Schritte {#the-next-steps}
 
-Nachdem Sie einen Ort erstellt haben, müssen Sie eine neue Anzeige für Ihren Ort erstellen.
+Nachdem Sie einen Standort erstellt haben, müssen Sie eine neue Anzeige für Ihren Standort erstellen.
 
-See [Creating and Managing Displays](managing-displays.md) for more details.
+Weitere Informationen finden Sie unter [Erstellen und Verwalten von Anzeigen](managing-displays.md).
