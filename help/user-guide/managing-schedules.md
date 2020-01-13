@@ -1,5 +1,5 @@
 ---
-title: 'Erstellen und Verwalten von Zeitplänen '
+title: Erstellen und Verwalten von Zeitplänen
 seo-title: Verwalten von Zeitplänen
 description: Auf dieser Seite erfahren Sie Wissenswertes über Zeitpläne. Mit dieser Funktion können Sie Kanäle in wiederverwendbare Gruppen einteilen, sodass Sie nicht für jede einzelne Anzeige, in der Sie einen bestimmten Inhalt zeigen möchten, eine neue Zuweisung vornehmen müssen.
 seo-description: Auf dieser Seite erfahren Sie Wissenswertes über Zeitpläne. Mit dieser Funktion können Sie Kanäle in wiederverwendbare Gruppen einteilen, sodass Sie nicht für jede einzelne Anzeige, in der Sie einen bestimmten Inhalt zeigen möchten, eine neue Zuweisung vornehmen müssen.
@@ -9,17 +9,17 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 75ed3c42-4be9-42ae-9d76-e0343af81516
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ---
 
 
-# Erstellen und Verwalten von Zeitplänen{#creating-and-managing-schedules} 
+# Erstellen und Verwalten von Zeitplänen {#creating-and-managing-schedules}
 
 Mit der Funktion **Zeitpläne** in AEM Screens können Sie Kanäle zu wiederverwendbaren Gruppen zusammenfassen, sodass Sie nicht für jede einzelne Anzeige, in der Sie einen bestimmten Inhalt zeigen möchten, eine neue Zuweisung vornehmen müssen.
 
-Schedules when combined with ***Dayparting***, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+Durch die Kombination von Zeitplänen mit ***Dayparting*** können Sie einen globalen Zeitplan mit mehreren Kanälen festlegen, die zu bestimmten Tageszeiten ausgeführt werden. Diese Einstellung können dann für alle Anzeigen wiederverwendet werden.
 
 >[!NOTE]
 >
@@ -31,8 +31,8 @@ Sie können für Ihr Screens-Projekt einen Zeitplan erstellen, in dem alle Aktiv
 
 Führen Sie die folgenden Schritte aus, um für Ihren Kanal einen Zeitplan zu erstellen:
 
-1. Wählen Sie den Adobe Experience Manager-Link (oben links) und dann Screens aus. Alternatively, you can ﻿go directly to: `http://localhost:4502/screens.html/content/screens`.
-1. Navigate to Screens project and click **Schedules**.
+1. Wählen Sie den Adobe Experience Manager-Link (oben links) und dann Screens aus. Sie haben auch die Möglichkeit, direkt zur folgenden URL zu wechseln: `http://localhost:4502/screens.html/content/screens`.
+1. Navigieren Sie zum Screens-Projekt und klicken Sie auf **Zeitpläne**.
 1. Klicken Sie in der Aktionsleiste auf **Erstellen**.
 1. Wählen Sie im Assistenten **Erstellen** die Option **Plan** aus und klicken Sie auf **Weiter**.
 
@@ -58,9 +58,9 @@ Gehen Sie dazu wie folgt vor: Das folgende Beispiel veranschaulicht, wie das Das
 
    ![chlimage_1-1](assets/chlimage_1-1.png)
 
-   **Infofeld** einplanen Klicken Sie auf Eigenschaften in der oberen rechten Ecke des ZEITPLANINFORMATIONSbedienfelds, um die Eigenschaften des Zeitplans anzuzeigen/zu ändern.
+   **Bedienfeld „Zeitplaninformationen“** Klicken Sie in der oberen rechten Ecke des Bedienfelds „ZEITPLANINFORMATIONEN“ auf die Option „Eigenschaften“, um die Eigenschaften des Zeitplans anzuzeigen bzw. zu ändern.
 
-   **Zugewiesene Kanäle Bedienfeld** Klicken Sie oben rechts im Bereich Zugewiesene KANÄLE auf + Kanal zuweisen, um das Dialogfeld Kanalzuweisung zu öffnen. Siehe „Zuweisen von Kanälen“ für weitere Informationen.
+   **Bedienfeld „Zugewiesene Kanäle“** Klicken Sie in der oberen rechten Ecke im Bedienfeld „ZUGEWIESENE KANÄLE“ auf „+ Kanal zuweisen“, um das Dialogfeld „Kanalzuweisung“ zu öffnen. Weitere Informationen finden Sie unter „Zuweisen von Kanälen“.
 
-   **Zugewiesenes Anzeigebereich** Wählen Sie eine der Bildschirme aus dem Bedienfeld "ZUGEWIESENE ANZEIGEN"aus, um das Dashboard zu öffnen.
+   **Bedienfeld „Zugewiesene Anzeigen“** Wählen Sie beliebige Anzeigen aus dem Bedienfeld „ZUGEWIESENE ANZEIGEN“ aus, um das Anzeigen-Dashboard zu öffnen.
 
