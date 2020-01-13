@@ -8,7 +8,7 @@ uuid: ea68ca72-bbe7-42d5-9043-97aea7edcd6e
 contentOwner: jsyal
 discoiquuid: 046ec5ae-600d-422f-aa59-c39f16cf71de
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ---
@@ -16,23 +16,23 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 # Dispatcher-Konfigurationen für AEM Screens{#dispatcher-configurations-for-aem-screens}
 
-Der Dispatcher ist ein Tool von Adobe Experience Manager für das Zwischenspeichern und/oder den Lastenausgleich.
+Dispatcher ist ein Tool von Adobe Experience Manager für das Zwischenspeichern und/oder den Lastenausgleich.
 
-Die folgende Seite enthält die Richtlinien zum Konfigurieren des Dispatchers für ein AEM Screens-Projekt.
+Die folgende Seite enthält die Richtlinien zum Konfigurieren von Dispatcher für ein AEM Screens-Projekt.
 
 ## Voraussetzungen {#pre-requisites}
 
-Bevor Sie Dispatcher für ein AEM Screens-Projekt konfigurieren, müssen Sie über vorherige Kenntnisse von Dispatcher verfügen.
+Bevor Sie Dispatcher für ein AEM Screens-Projekt konfigurieren, müssen Sie über Vorkenntnisse in Dispatcher verfügen.
 
-Refer to **[Configuring Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html)** for more details.
+Weitere Informationen finden Sie unter **[Konfigurieren von Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html)**.
 
-## Konfigurieren des Dispatchers {#configuring-dispatcher}
+## Konfigurieren von Dispatcher {#configuring-dispatcher}
 
 Gehen Sie wie folgt vor, um Dispatcher für ein AEM Screens-Projekt zu konfigurieren.
 
-### Schritt 1: Client-Header konfigurieren {#step-configuring-client-headers}
+### Schritt 1: Konfigurieren von Client-Kopfzeilen {#step-configuring-client-headers}
 
-Fügen Sie dem `/clientheaders` Abschnitt Folgendes hinzu
+Fügen Sie dem Abschnitt `/clientheaders` Folgendes hinzu
 
 **X-Requested-With**
 
@@ -40,9 +40,9 @@ Fügen Sie dem `/clientheaders` Abschnitt Folgendes hinzu
 
 **X-REQUEST-COMMAND**
 
-### Schritt 2: Konfigurieren von Bildschirmfiltern {#step-configuring-screens-filters}
+### Schritt 2: Konfigurieren von Screens-Filtern {#step-configuring-screens-filters}
 
-Fügen Sie zum Konfigurieren von Bildschirmfiltern Folgendes hinzu ***/filtern***.
+Fügen Sie ***/filter*** Folgendes hinzu, um Screens-Filter zu konfigurieren.
 
 ```
 ## AEM Screens Filters
@@ -62,6 +62,6 @@ Fügen Sie zum Konfigurieren von Bildschirmfiltern Folgendes hinzu ***/filtern**
 /0210 { /type "allow" /method '(GET|HEAD)' /url '/var/contentsync/content/screens/.+/jcr:content/.+/offline-config_.*\.[0-9]+\.zip' }
 ```
 
-### Schritt 3: Dispatcher-Cache deaktivieren {#step-disabling-dispatcher-cache}
+### Schritt 3: Deaktivieren von Dispatcher-Cache {#step-disabling-dispatcher-cache}
 
-Deaktivieren Sie die Dispatcher-Zwischenspeicherung für ***/content/screens-Pfad***.
+Deaktivieren Sie die Dispatcher-Zwischenspeicherung für ***/content/screens path***.
