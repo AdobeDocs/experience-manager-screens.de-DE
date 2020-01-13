@@ -1,9 +1,9 @@
 ---
 title: Versionshinweise für Feature Pack 201909
 seo-title: Versionshinweise für Feature Pack 201909
-description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 2019, das am 31. Juli 2019 veröffentlicht wurde.
-seo-description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 2019, das am 07. Oktober 2019 veröffentlicht wurde.
-translation-type: tm+mt
+description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 201909, das am 31. Juli 2019 veröffentlicht wurde.
+seo-description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 201909, das am Montag, 7. Oktober 2019 veröffentlicht wurde.
+translation-type: ht
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ---
@@ -13,45 +13,45 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 >[!CAUTION]
 >
->Es wird empfohlen, ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM) durchzuführen. Screens bietet Unterstützung bei der Wartung der AEM 6.3 Screens-Plattform.
+>Es wird empfohlen, ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM) durchzuführen. Screens bietet Wartungs-Support für die AEM 6.3 Screens-Plattform.
 
-AEM Screens veröffentlichte AEM 6.4.6 Feature Pack 6 und AEM 6.5.2 Feature Pack 2 mit den folgenden Details.
+AEM Screens hat AEM 6.4.6 Feature Pack 6 und AEM 6.5.2 Feature Pack 2 mit folgenden Details veröffentlicht.
 
 ## Veröffentlichungsdatum {#release-date}
 
-Das Release-Datum für AEM Screens Feature Pack 2019 ist der 07. Oktober 2019.
+Das Veröffentlichungsdatum für AEM Screens Feature Pack 201909 ist der 7. Oktober 2019.
 
 ### Neuerungen {#what-s-new}
 
-* **Verbesserte UI-Aktualisierungen zum Erstellen eines Screenprojekts**
+* **Verbesserte Benutzeroberfläche zum Erstellen eines Screens-Projekts**
 
-   Die aktualisierte Benutzeroberfläche zum Erstellen eines neuen Bildschirmprojekts ist jetzt verfügbar. Sie können ein neues Screens-Projekt mit wenigen einfachen Klicks erstellen. Darüber hinaus verfügt die Registerkarte "Eigenschaften"für jedes Projekt jetzt über eine intuitivere Benutzeroberfläche.
+   Die aktualisierte Benutzeroberfläche zum Erstellen neuer Screens-Projekte ist ab sofort verfügbar. So können Sie ein neues Screens-Projekt mit wenigen einfachen Klicks einrichten. Darüber hinaus weist die Registerkarte „Eigenschaften“ nun für jedes Projekt eine intuitivere Benutzeroberfläche auf.
 
-   Weitere Informationen finden Sie unter [Erstellen eines neuen Bildschirms](creating-a-screens-project.md) .
+   Weitere Informationen dazu finden Sie unter [Erstellen neuer Screens-Projekte](creating-a-screens-project.md).
 
-* **Erweitertes Geräte-Dashboard:**
+* **Verbessertes Geräte-Dashboard:**
 
-   Das Geräte-Dashboard zeigt die Geräteinformationen, den Status, den Screenshot, Protokolle, Voreinstellungen und die Gerätedetails an, mit denen Sie die Geräteaktivitäten und -funktionen überwachen können. Die Bedienfelder werden jetzt aktualisiert.
+   Im Geräte-Dashboard werden die Gerätedaten, der Status, Screenshots, Protokolle, Voreinstellungen und Gerätedetails angezeigt, damit Sie die Geräteaktivitäten und -funktionen überwachen können. Die Bedienfelder wurden aktualisiert.
 
-   Weitere Informationen finden Sie im [Fehlerbehebungscenter](monitoring-screens.md) .
+   Weitere Informationen dazu finden Sie unter [Problembehebung in der Gerätesteuerung](monitoring-screens.md).
 
-* **Zeitüberschreitung aktiviert, um Tastaturinteraktion zu ermöglichen**
+* **Timeout aktiviert, um Tastaturinteraktion zu ermöglichen**
 
-   Aktivieren Sie Fernbedienungsgeräte als Alternative zu Touch-Bedienfeldern. Die zu interagierende Berührung und die Zeitüberschreitung der Aktivität verarbeiten Tastatureingaben.
+   Aktivieren Sie Geräte mit Fernbedienung als Alternative zu Touch-Bedienfeldern. Berührungen zur Interaktion und Aktivitäts-Timeout verwalten Tastatureingaben.
 
-* **Offline-Konfigurationen in Erlebnisfragmenten**
+* **Offline-Konfigurationen in Experience Fragments**
 
-   Sie können jetzt Offline-Konfigurationen (clientseitige Bibliotheken und statische Dateien) beim Konfigurieren des Erlebnisfragments "Bildschirme"hinzufügen.
-Weitere Informationen finden Sie unter [Verwenden von Erlebnisfragmenten](experience-fragments-in-screens.md) .
+   Beim Konfigurieren eines Screens-Experience Fragment können Sie jetzt Offline-Konfigurationen (Client-seitige Bibliotheken und statische Dateien) hinzufügen.
+Weitere Informationen dazu finden Sie unter [Verwenden von Experience Fragments](experience-fragments-in-screens.md).
 
 ### Veröffentlichte AEM Screens-Player {#released-aem-screens-players}
 
-Die folgenden AEM Screens Player sind für AEM 6.4.6 Feature Pack 6 und AEM 6.5.2 Feature Pack 2 verfügbar:
+Die folgenden AEM Screens-Player sind für AEM 6.4.6 Feature Pack 6 und AEM 6.5.2 Feature Pack 2 verfügbar:
 
 * ChromeOS
 * Windows
 * Android
 
-#### AEM Screens Player-Downloads {#aem-screens-player-downloads}
+#### AEM Screens-Player-Downloads {#aem-screens-player-downloads}
 
-Weitere Informationen zum Herunterladen des neuesten AEM Screens-Players und zu den Fehlerkorrekturen finden Sie unter [**AEM Screens Player-Downloads**](https://download.macromedia.com/screens/).
+Navigieren Sie zu [**AEM Screens-Player-Downloads**](https://download.macromedia.com/screens/), um den neusten AEM Screens-Player herunterzuladen und mehr über die Fehlerbehebungen zu erfahren.
