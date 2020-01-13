@@ -1,8 +1,8 @@
 ---
-title: '"Teil 2: Überlegungen zum Scoped-Status von Projekten"'
-seo-title: '"Teil 2: Überlegungen zum Scoped-Status von Projekten"'
-description: In diesem Lernprogramm erfahren Sie mehr über Inhaltsstrategie, E/A-Ebenen, Asset-Typen, Zielgruppensegmentierung, Tagesaufteilungen, Geschäftsabläufe und Site-Bereitschaftsaspekte.
-seo-description: In diesem Lernprogramm erfahren Sie mehr über Inhaltsstrategie, E/A-Ebenen, Asset-Typen, Zielgruppensegmentierung, Tagesaufteilungen, Geschäftsabläufe und Site-Bereitschaftsaspekte.
+title: '„Teil 2: Überlegungen zum Projektumfang“'
+seo-title: '„Teil 2: Überlegungen zum Projektumfang“'
+description: In diesem Tutorial erfahren Sie mehr über die Inhaltsstrategie, E/A-Schichten, Asset-Typen, Zielgruppensegmentierung, Dayparting, Anforderungen an den Geschäftsbetrieb und Überlegungen zur Site-Bereitschaft.
+seo-description: In diesem Tutorial erfahren Sie mehr über die Inhaltsstrategie, E/A-Schichten, Asset-Typen, Zielgruppensegmentierung, Dayparting, Anforderungen an den Geschäftsbetrieb und Überlegungen zur Site-Bereitschaft.
 uuid: 96359202-8f55-4330-97c5-fc8f8c916a8d
 contentOwner: jsyal
 content-type: reference
@@ -10,82 +10,82 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 10b81628-46db-4122-bf9e-96f41f080055
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ---
 
 
-# Part 2: Considerations as Projects are Scoped {#part-considerations-as-projects-are-scoped}
+# Teil 2: Überlegungen zum Projektumfang {#part-considerations-as-projects-are-scoped}
 
-Auf dieser Seite wird Teil 2 einer fünfteiligen Reihe vorgestellt, die Teammitgliedern helfen soll, die Aspekte vor dem Verkauf für die Entwicklung erfolgreicher AEM Screens-Bereitstellungen besser zu verstehen.
+Diese Seite enthält Teil 2 einer 5-teiligen Serie, der Team-Mitgliedern dabei hilft, Pre-Sales-Aspekte bei der Entwicklung erfolgreicher AEM Screens-Implementierungen besser zu verstehen.
 
 ## Überblick {#overview}
 
-Das folgende Lernprogramm behandelt die Elemente, die bei der Projektsuche identifiziert werden müssen, zusammen mit Beiträgen der Interessengruppen, um das Projekt zu bewerten und einen geeigneten Entwurf vorzubereiten.
+Das folgende Tutorial behandelt Elemente, die bei der Projekterkundung identifiziert werden müssen, sowie Beiträge von Beteiligten zur Bewertung des Projekts und zur Vorbereitung eines geeigneten Designs.
 
-Die Hauptkomponenten eines digitalen Signaturprogramms, die für eine erfolgreiche Bereitstellung erforderlich sind, sind:
+Die Hauptkomponenten eines Programms für digitale Beschilderung, die für eine erfolgreiche Bereitstellung erforderlich sind, sind:
 
 * Inhaltsstrategie
-* Geschäftsbetriebliche Anforderungen
+* Anforderungen an den Geschäftsbetrieb
 * Ermittlung der IT- und Netzwerkumgebung
-* AV-Anforderungen
+* A/V-Anforderungen
 * Gerätespezifikation
 * Site-Bereitschaft
 
 >[!NOTE]
 >
->Es ist wichtig, eine Inhaltsstrategie zu definieren, in der berücksichtigt wird, wie die Anwendung Software-, Hardware- und Konnektivitätsressourcen nutzen wird, um den beabsichtigten Wert erfolgreich bereitzustellen.
+>Es ist wichtig, eine Inhaltsstrategie zu definieren, in der berücksichtigt wird, wie die Anwendung Software-, Hardware- und Konnektivitätsressourcen nutzt, um den beabsichtigten Nutzen erfolgreich zu erzielen.
 
-## Zusammenfassung der Projektbetrachtungen in einer digitalen Signatur {#summary-of-project-considerations-in-a-digital-signage}
+## Zusammenfassung der Projektüberlegungen in einem Projekt für digitale Beschilderung {#summary-of-project-considerations-in-a-digital-signage}
 
-Bei der Entwicklung einer Inhaltsstrategie sind verschiedene Aspekte zu beachten, darunter E/A-Ebenen, Asset-Typen, Zielgruppensegmente und Tagesaufteilungsanforderungen.
+Bei der Entwicklung einer Inhaltsstrategie sind verschiedene Aspekte zu beachten, darunter E/A-Schichten, Asset-Typen, Zielgruppensegmente und Dayparting-Anforderungen.
 
-### E/A-Ebenen {#i-o-layers}
+### E/A-Schichten {#i-o-layers}
 
-Die bedingte Wiedergabe von Inhalten wird über die E/A-Steuerung gesteuert, die auf der Ermittlung der Zielgruppennähe basiert. Wenn beispielsweise ein Sensor räumliche Nähe erkennt, kann sich die Wiedergabe von Inhalten von "anziehen"oder "passiven Inhalten"zu "Interaktion"oder interaktiver Wiedergabe ändern. Dies ist besonders hilfreich in Anwendungen, in denen die Bereitstellung von Inhalten auf der Grundlage von demografischen Daten gewünscht wird.
+Die bedingte Wiedergabe von Inhalten wird über die E/A-Steuerung gesteuert, die auf der Ermittlung der Zielgruppennähe basiert. Wenn beispielsweise ein Sensor räumliche Nähe erkennt, kann sich die Wiedergabe von „anziehenden“ oder passiven Inhalten auf eine „aktive“ oder interaktive Wiedergabe ändern. Dies ist besonders hilfreich bei Anwendungen, bei denen die Bereitstellung von Inhalten auf der Grundlage von demografischen Daten gewünscht wird.
 
-### Content Asset-Typen {#content-asset-types}
+### Inhalts-Asset-Typen {#content-asset-types}
 
-Bei den folgenden Punkten wird die Absicht des Endclients in Bezug auf Inhaltselemente berücksichtigt:
+Die folgenden Punkte werden zum Verständnis der Absicht des Endkunden in Bezug auf Inhalts-Assets betrachtet:
 
-* Ob Inhalte aus Print-, TV- oder Web-Kampagnen wiederverwendet werden?
+* Werden Inhalte aus Print-, TV- oder Web-Kampagnen wiederverwendet?
 * Besteht der Inhalt aus statischen Bildern oder Vorlagen mit dynamisch bereitgestellten Komponenten?
 * Werden Animationen als Video- oder HTML-Programme wiedergegeben?
-* Gibt es Integrationen von Drittanbietern aus Content-Abonnementdiensten, Social Media- oder RSS-Aggregationsdiensten oder API-Aufrufen?
+* Gibt es Integrationen von Drittanbietern aus Abonnementdiensten für Inhalte, Social Media- oder RSS-Aggregationsdiensten oder API-Aufrufen?
 * Welche Anforderungen gelten für die Bildauflösung?
-* Sind die Standardseitenverhältnisse für Bildschirme im Format 16:9 oder benutzerdefiniert? Hochformat oder Querformat?
-* Werden Mehrbildschirm-Videowände benötigt, und wenn ja, welche?
+* Sind Bildschirme standardmäßig im 16:9-Format oder benutzerdefiniert? Hochformat oder Querformat?
+* Werden Videowände mit mehreren Bildschirmen benötigt, und wenn ja, welche?
 * Sind Inhalte an operative oder Werbeeinnahmen gebunden, die Ausfallstrategien erfordern, um Ausfallzeiten zu vermeiden?
 
-### Zielgruppensegmentierung, Tagesaufteilungen {#audience-segmentation-day-parts}
+### Zielgruppensegmentierung, Dayparting {#audience-segmentation-day-parts}
 
-Die Einbeziehung von Day-Part-Strategien kann es Endkunden ermöglichen, ihre Inhalte zu segmentieren und Messaging zur richtigen Zeit auf die richtige Zielgruppe auszurichten. Dies ist besonders bei Werbe- und Einzelhandelsnetzen wirksam, bei denen viele Inhaltsbeitragende die gesamte Playlist bilden.
+Durch das Einbeziehen von Dayparting-Strategien können Endkunden ihren Inhalt segmentieren und Nachrichten zur richtigen Zeit an die richtige Zielgruppe richten. Dies ist besonders effektiv für Werbe- oder Einzelhandelsnetzwerke, in denen viele Inhaltsanbieter die gesamte Playlist ausmachen.
 
-### Geschäftsbetriebliche Anforderungen {#business-operations-requirements}
+### Anforderungen an den Geschäftsbetrieb {#business-operations-requirements}
 
-Geschäftsabläufe sind auch bei den Konversationen zur Inhaltsstrategie wichtig. Die Formalisierung der Supportanforderungen für Endkunden wird dazu beitragen, die Erwartungen nach der Bereitstellung zu managen und sicherzustellen, dass die Supportbemühungen angemessen gemessen werden.
+Auch der Geschäftbetrieb ist bei der Diskussion der Inhaltsstrategie wichtig. Die Formalisierung der Support-Anforderungen der Endkunden hilft, die Erwartungen nach der Bereitstellung zu verwalten und sicherzustellen, dass der Support-Aufwand angemessen ermittelt wird.
 
 ### A/V-Anforderungen {#a-v-requirements}
 
-Auch die Einbauszenarien müssen definiert werden, ebenso wie die Aspekte des Gerätezugriffs für die Wartung der Ausrüstung. Dies wirkt sich nicht nur auf die Empfehlungen für die Erstinstallation von Personal und Ausrüstung aus, sondern bestimmt auch die laufenden Service- und Supportanforderungen.
+Montageszenarios müssen ebenso definiert werden, sowie Überlegungen zum Gerätezugriff für die Wartung von Geräten. Dies hat nicht nur Auswirkungen auf den Arbeitsaufwand bei der Erstinstallation und die Empfehlungen für die Geräte, sondern bestimmt auch den laufenden Service- und Support-Bedarf.
 
 ### Site-Bereitschaft {#site-readiness}
 
-Der letzte Schritt im Pre-Sales-Prozess ist die Bestimmung der Site-Bereitschaft. Dies kann durch Site-Umfragen erleichtert werden, die Details zu Ort, Projekt und Fortschritt erfassen. Die Site-Bereitschaft erfasst im Wesentlichen den aktuellen Zustand eines Standorts vor der Installation und ruft alle Elemente auf, die der Kunde vor der Ankunft eines Technikers vorbereiten oder zu behandeln beabsichtigt. Normalerweise umfasst dies Elemente wie Strom, Daten, Möbelentnahme und Beseitigung von Staub.
+Der letzte Schritt im Pre-Sales-Prozess ist die Ermittlung der Site-Bereitschaft. Dies kann durch Site-Begutachtungen erleichtert werden, die Details zu Site, Projekt und Fortschritt erfassen. Die Site-Bereitschaft erfasst im Wesentlichen den aktuellen Zustand eines Standorts vor der Installation und zeigt alle Elemente auf, die der Kunde vor der Ankunft eines Technikers vorbereiten oder ansprechen muss. Typischerweise umfasst dies Elemente wie Stromversorgung, Daten, Möbelentfernung und Staubbeseitigung.
 
-## Teil 2: Videoschulung zu Überlegungen zum Erstellen von Projekten {#part-video-tutorial-on-considerations-as-projects-are-scoped}
+## Teil 2: Video-Tutorial zu Überlegungen zum Projektumfang {#part-video-tutorial-on-considerations-as-projects-are-scoped}
 
-Folgen Sie dem unten stehenden Lernprogramm, um mehr über Inhaltsstrategie, E/A-Ebenen, Asset-Typen, Zielgruppensegmentierung, Tagesaufteilungen, Geschäftsanforderungen und Site-Bereitschaftsaspekte zu erfahren.
+In diesem Tutorial erfahren Sie mehr über die Inhaltsstrategie, E/A-Schichten, Asset-Typen, Zielgruppensegmentierung, Dayparting, Anforderungen an den Geschäftsbetrieb und Überlegungen zur Site-Bereitschaft.
 
 ### Überlegungen zum Projektumfang
 
 >[!VIDEO](https://video.tv.adobe.com/v/28380?captions=ger)
 
-*Erfahren Sie mehr über Inhaltsstrategie, E/A-Ebenen, Asset-Typen, Zielgruppensegmentierung, Tagesaufteilungen, Geschäftsanforderungen und Site-Bereitschaftsaspekte.*
+*Erfahren Sie mehr über die Inhaltsstrategie, E/A-Schichten, Asset-Typen, Zielgruppensegmentierung, Dayparting, Anforderungen an den Geschäftsbetrieb und Überlegungen zur Site-Bereitschaft.*
 
 ## Der nächste Schritt {#the-next-step}
 
-Sobald Sie die Elemente, die bei der Projektsuche identifiziert werden, und die Beiträge der Interessenträger zur Bewertung des Projekts und zur Vorbereitung eines geeigneten Entwurfs verstehen, müssen Sie die Schlüsselbegriffe eines Gesamtprojekts, wie z.B. Projektzyklus, Aktionen im Zusammenhang mit Hardwaretests, Proof Of Concept, Pilotprojekte und Rollouts, lernen.
+Sobald Sie die Elemente, die bei der Projekterkundung identifiziert werden, und die Beiträge von Beteiligten zur Bewertung des Projekts und zur Vorbereitung eines geeigneten Designs verstehen, müssen Sie die Schlüsselbegriffe eines Gesamtprojekts, wie z.B. Projektzyklus, Aktionen im Zusammenhang mit Hardware-Tests, Konzeptnachweis, Pilotprojekte und Rollouts, lernen.
 
-Navigieren Sie zu **[Testen, POCs, Pilots &amp; Rollouts](testing-pocs-pilots-rollouts.md)** , um weitere Informationen zu erhalten.
+Navigieren Sie zu **[Tests, POCs, Pilotprogramme und Rollouts](testing-pocs-pilots-rollouts.md)**, um weitere Informationen zu erhalten.
