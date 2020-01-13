@@ -3,7 +3,7 @@ title: Tests und Qualitätssicherung
 seo-title: Tests und Qualitätssicherung für AEM Screens
 description: Auf dieser Seite werden die Best Practices für Tests und die Qualitätssicherung von AEM Screens beschrieben.
 seo-description: Auf dieser Seite werden die Best Practices für Tests und die Qualitätssicherung von AEM Screens beschrieben.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d5eb9fadffcc41ede9b1f9399c5edbeac3363954
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: d5eb9fadffcc41ede9b1f9399c5edbeac3363954
 >
 >Typische Verantwortliche für diese Aktivität sind A/V-Integratoren.
 
-Da wir uns der realen Implementierung des Digital Signage-Netzwerks nähern, sollten wir einen Test- und QA-Plan erstellen, der alle Elemente des Netzwerks einschließlich der Hardwarekomponenten, Softwarekomponenten und Netzwerkkomponenten umfasst.
+Da wir uns der realen Implementierung des Netzwerks für digitale Beschilderung nähern, sollten wir einen Test- und QA-Plan erstellen, der alle Elemente des Netzwerks einschließlich der Hardwarekomponenten, Softwarekomponenten und Netzwerkkomponenten umfasst.
 In dem Schritt sollten vollständige Prüfsysteme eingerichtet und gründlich getestet werden.
 
 Es sollte eine Checkliste erstellt werden, in der alle zuvor definierten KPIs aufgeführt und anhand der entsprechenden Lieferziele gemessen werden.
@@ -25,9 +25,9 @@ Es sollte eine Checkliste erstellt werden, in der alle zuvor definierten KPIs au
 
 Folgende Elemente sollten berücksichtigt werden:
 
-## 1. Mechanische Überlegungen {#mechanical-considerations}
+## 1. Mechanische Aspekte {#mechanical-considerations}
 
-Folgende mechanische Aspekte werden empfohlen:
+Folgende Überlegungen in Bezug auf die Mechanik werden empfohlen:
 
 * Displaymontage
 * Player-Montage
@@ -36,9 +36,9 @@ Folgende mechanische Aspekte werden empfohlen:
 * Kabelmanagement
 * Gerätenetzwerk
 
-## 2. Überlegungen zur Software {#software-considerations}
+## 2. Software-Aspekte {#software-considerations}
 
-Die folgenden Softwareüberlegungen werden empfohlen:
+Folgende Überlegungen in Bezug auf die Software werden empfohlen:
 
 * Geräteregistrierung
 * Media Publishing
@@ -46,40 +46,40 @@ Die folgenden Softwareüberlegungen werden empfohlen:
 * Datenbankabhängigkeiten (zuvor definiert)
 
 
-## 3. Überlegungen zur Geräteverwaltung {#device-management-considerations}
+## 3. Aspekte der Geräteverwaltung {#device-management-considerations}
 
 
-AEM Screens enthält ein Device Control Center-Modul, das die Verwaltung von Screens Player-Endpunkten ermöglicht.
+AEM Screens enthält ein Gerätesteuerungsmodul, das die Verwaltung von Endgeräten mit der Screens Player-Anwendung ermöglicht.
 
-Dies bezieht sich auf alle *Player* -Hardwaregeräte, auf denen die Bildschirmplayer-Anwendung installiert ist und die für eine AEM-Instanz registriert sind.
-Dieses Modul ermöglicht Ihnen Folgendes:
+Dies bezieht sich auf alle *Player*-Hardwaregeräte, auf denen die Screens Player-Anwendung installiert ist und die für eine AEM-Instanz registriert sind.
+Mit diesem Modul können Sie:
 
-1. Fehlerprotokolle der Player-Anwendung
+1. Anwendungsfehlerprotokolle des Players überwachen
 1. Remote-Screenshots verwalten
-1. Verwalten von Inhaltsdownloads
-1. Probleme beim Neustart von Anwendungen verwalten
+1. Inhaltsdownloads verwalten
+1. Probleme beim Neustart der Anwendung beheben
 
-Ausführliche Informationen zum ***Gerätesteuerungszentrum*** finden Sie im Benutzerhandbuch[zu ](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html)AEM Screens unter **Fehlerbehebung im Gerätesteuerungszentrum** .
+Ausführliche Informationen zur ***Gerätesteuerung*** finden Sie im Abschnitt [Problembehandlung in der Gerätesteuerung](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) des **AEM Screens-Benutzerhandbuchs**.
 
 >[!CAUTION]
-> Sie sollten Device Control Center nicht verwenden, um:
+> Verwenden Sie die Gerätesteuerung nicht für Folgendes:
 >
 > 1. Neue Versionen der Player-Anwendung installieren
-> 1. Systemebene überwachen
-> 1. Fehlerbehebung bei Fehlern auf Systemebene
-> 1. Remote-Desktop-Intervention zulassen
+> 1. Ressourcen auf Systemebene überwachen
+> 1. Fehler auf der Systemebene beheben
+> 1. Remote Desktop-Eingriffe zulassen
 
 
 
 >[!NOTE]
-> Adobe empfiehlt, dass für alle Bereitstellungen dedizierte Drittanbieter-Geräteverwaltungsplattformen verwendet werden sollten.
+> Adobe empfiehlt, für alle Bereitstellungen dedizierte Drittanbieter-Geräteverwaltungsplattformen zu verwenden.
 
-Die gewählte Plattform hängt von einer Reihe von Faktoren ab, darunter dem ***Zielbetriebssystem***, den ***Projektanforderungen*** und der ***Anzahl der Endpunkte***.
+Die gewählte Plattform hängt von einer Reihe von Faktoren ab, darunter dem ***Zielbetriebssystem***, den ***Projektanforderungen*** und der ***Anzahl der Endgeräte***.
 
-Einige Beispiele sind:
+Beispiele:
 
 * Google Chrome-Geräteverwaltung
 * TeamViewer
 * AirWatch
 * 42Gears
-* proprietäre AV Integrator Middleware
+* Proprietäre AV-Integrator-Middleware
