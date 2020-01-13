@@ -1,8 +1,8 @@
 ---
-title: '"Teil 4: Projektverwaltung und Bereitstellung"'
-seo-title: '"Teil 4: Projektverwaltung und Bereitstellung"'
-description: In diesem Lernprogramm erfahren Sie mehr über Projektmanagement und die Vorbereitung der Bereitstellung (Projektvorbereitung, Projektstart, Projektfortschritt). Erfahren Sie außerdem, wie der Projektumfang und der Projektplan definiert werden, und sammeln Sie Informationen zu Lieferanten, internen Arbeitskräften und Arbeitsblättern.
-seo-description: In diesem Lernprogramm erfahren Sie mehr über Projektmanagement und die Vorbereitung der Bereitstellung (Projektvorbereitung, Projektstart, Projektfortschritt). Erfahren Sie außerdem, wie der Projektumfang und der Projektplan definiert werden, und sammeln Sie Informationen zu Lieferanten, internen Arbeitskräften und Arbeitsblättern.
+title: '„Teil 4: Projekt-Management und Bereitstellung“'
+seo-title: '„Teil 4: Projekt-Management und Bereitstellung“'
+description: In diesem Tutorial erfahren Sie mehr über Projekt-Management und die Bereitstellungsvorbereitung (Projektvorbereitung, Projektstart, Projektfortschritt). Erfahren Sie außerdem, wie der Projektumfang und der Projektplan definiert werden, und sammeln Sie Informationen zu Anbieter, Eigenleistung und Datenblättern.
+seo-description: In diesem Tutorial erfahren Sie mehr über Projekt-Management und die Bereitstellungsvorbereitung (Projektvorbereitung, Projektstart, Projektfortschritt). Erfahren Sie außerdem, wie der Projektumfang und der Projektplan definiert werden, und sammeln Sie Informationen zu Anbieter, Eigenleistung und Datenblättern.
 uuid: 44ff4d2b-c9bf-47f4-a14c-9f11554e3182
 contentOwner: jsyal
 content-type: reference
@@ -10,82 +10,82 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: cd1483af-8118-46ac-a2ad-42d89c05bdca
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ---
 
 
-# Teil 4: Projektverwaltung und Bereitstellung {#part-project-management-and-deployment}
+# Teil 4: Projekt-Management und Bereitstellung {#part-project-management-and-deployment}
 
-Auf dieser Seite wird Teil 4 einer 5-teiligen Reihe vorgestellt, die die Vorbereitung von Projektmanagement und -bereitstellung abdeckt und die Schlüsselfaktoren definiert, die der AV Integrator im Zusammenhang mit Projektmanagement und Bereitstellungsvorbereitung zu berücksichtigen hat.
+Diese Seite enthält Teil 4 einer 5-teiligen Reihe, in denen es um Projekt-Management und Bereitstellungsvorbereitung geht und Schlüsselfaktoren definiert werden, für die der A/V-Integrator im Zusammenhang mit Projekt-Management und Bereitstellungsvorbereitung verantwortlich ist.
 
 ## Überblick {#overview}
 
-Auf dieser Seite werden die Projektvorbereitung, die Projektdurchführung und der Projektfortschritt behandelt.
+Diese Seite deckt die Projektvorbereitung, Projektinitiierung und Projektfortschritt ab.
 
-Es ist wichtig, dass alle Beteiligten verstehen, wofür der AV-Integrator verantwortlich ist, und dass dokumentierte Pläne in Bezug auf die in dieser Phase diskutierten Punkte entwickelt werden
+Für alle Beteiligten ist es wichtig zu verstehen, wofür der AV-Integrator verantwortlich ist, und sicherzustellen, dass dokumentierte Pläne anhand der in dieser Phase behandelten Punkte erstellt werden
 
 >[!NOTE]
 >
->Die Ermittlung eines AV-Integrators mit Expertise im Projektmanagement von Digital Signage-Implementierungen im Maßstab ist äußerst wichtig für den langfristigen Erfolg. Es wird dringend empfohlen, dass die Projektpläne zwischen AV Integrator und AEM Implementor verglichen werden, um die Abstimmung im Zuge der Entwicklung und Fertigstellung der Pläne sicherzustellen.
+>Die Identifizierung eines AV-Integrators mit Erfahrung im Projekt-Management von skalierten Bereitstellungen für digitale Beschilderung ist für den langfristigen Erfolg äußerst wichtig. Es wird dringend empfohlen, die Projektpläne zwischen AV-Integrator und AEM-Implementor zu vergleichen, um sicherzustellen, dass sie bei der Entwicklung und Fertigstellung der Pläne aufeinander abgestimmt werden.
 >
->Partner, die einen ganzheitlichen Ansatz bei der Verwaltung von "Vorproduktion", "Initiierung"und "Progression"wählen, helfen dabei sicherzustellen, dass Ihre Endkunden in der Lage sind, den größtmöglichen Nutzen aus ihrer Investition zu ziehen
+>Partner, die einen ganzheitlichen Ansatz bei der Verwaltung von „Projektvorbereitung“, „Projektinitiierung“ und „Projektfortschritt“ wählen, helfen dabei sicherzustellen, dass Ihre Endkunden in der Lage sind, den größtmöglichen Nutzen aus ihrer Investition zu ziehen
 
-## Zusammenfassung aller drei Phasen des Projektmanagements {#summary-of-all-three-phases-in-project-management}
+## Zusammenfassung aller drei Phasen des Projekt-Managements {#summary-of-all-three-phases-in-project-management}
 
-Zur Sicherstellung einer erfolgreichen Bereitstellung von Digital Signage ist es üblich, ein Projekt in drei Schritte zu unterteilen. These stages are commonly referred to as ***days***.
+Zur Sicherstellung einer erfolgreichen Bereitstellung digitaler Beschilderung ist es üblich, ein Projekt in drei Schritte zu unterteilen. Diese Schritte werden häufig als ***Tage*** bezeichnet.
 
-### Aktivitäten am Tag Null {#day-zero-activities}
+### Aktivitäten am Tag 0 {#day-zero-activities}
 
-Der erste Schritt wird als ***Tag 0 bezeichnet***. Diese Phase umfasst alle Vor- und Nachverkaufsbemühungen, die erforderlich sind, um den Projektumfang vollständig zu definieren. Der zweite Schritt, Tag 1, bezieht sich auf alle Aktivitäten, die Teil der Implementierung sind. Und schließlich bezieht sich der zweite Tag auf alle laufenden Aktivitäten und Unterstützungselemente als Teil der Gesamtlösung.
+Der erste Schritt wird als ***Tag 0 bezeichnet***. Dieser Schritt umfasst alle Pre-Sales- und Erkundungsbemühungen, die zur vollständigen Definition des Projektumfangs erforderlich sind. Der zweite Schritt, Tag 1, bezieht sich auf alle Aktivitäten, die Teil der Bereitstellung sind. Tag 2 bezieht sich auf alle laufenden Operationen und unterstützenden Elemente, die Teil der Gesamtlösung sind.
 
-Zu den Aktivitäten am Tag Null gehören Pre-Sales, Client Discovery, Antragsbedarfsanalyse und Definition des Projektumfangs. Diese Phase kann auch die anfängliche Bindung und Definition der Projektanforderungen für das Projektmanagement in Vorbereitung auf die Bereitstellung umfassen.
+Zu den Aktivitäten am Tag 0 gehören Pre-Sales, Kundenerkennung, Analyse der Anwendungsanforderungen und Definition des Projektumfangs. Diese Phase kann auch die erste Einbeziehung und Definition der Projektanforderungen für das Projekt-Management zur Vorbereitung der Bereitstellung umfassen.
 
-Day Zero besteht aus acht wichtigen Schritten, die alle Aspekte des Projektmanagementbeschleunigungs abdecken:
+Tag 0 besteht aus acht wichtigen Schritten, die alle Aspekte des Projekt-Managements abdecken:
 
-* Definieren des Arbeitsbereichs
-* Definieren des Projektplans
-* Definition des Anbieters und der internen Arbeitskräfte
-* Abgeschnittene Arbeitsblätter
-* Planen und Erwerben von Standortgenehmigungen
-* Planen des Site-Zugriffs
-* Energie und Konnektivität
-* Prüfung technischer Pläne oder Zeichnungen
+* Festlegen des Arbeitsumfangs
+* Festlegen des Projektzeitplans
+* Festlegen des Anbieters und der Eigenleistung
+* Beschaffen von Ausrüstungsdatenblättern
+* Planen und Beschaffen von Standortgenehmigungen
+* Planen des Standortzugriffs
+* Stromversorgung und Konnektivität
+* Prüfen technischer Pläne oder Zeichnungen
 
-### Aktivitäten am ersten Tag {#day-one-activities}
+### Aktivitäten am Tag 1 {#day-one-activities}
 
-The second stage, ***Day One***, refers to all activities included in the deployment effort. Ein weiteres wichtiges technisches Dokument für ein erfolgreiches Projekt ist die Bereitstellung von Gantt Chart.
+Der zweite Schritt, ***Tag 1***, bezieht sich auf alle Aktivitäten, die Teil der Bereitstellung sind. Ein weiteres wichtiges technisches Dokument für ein erfolgreiches Projekt ist das Gantt-Diagramm für die Bereitstellung.
 
-Als Vertriebsmöglichkeit wird ein Projektstart-Meeting geplant, um Folgendes zu bestätigen:
+Wenn eine Vertriebschance in ein Projekt übergeht, wird ein Auftakt-Meeting geplant, um Folgendes zu bestätigen:
 
-* Vorentwurf des Haushaltsplans
-* Projektmeilensteine und Interdependenzen
-* Geräteliste
-* Kontoeinrichtung einschließlich Bestätigung der Rechnungsbedingungen
+* Vorläufiges Budget
+* Projektmeilensteine und Abhängigkeiten
+* Ausrüstungsliste
+* Kontoeinrichtung einschließlich Bestätigung der Abrechnungsbedingungen
 * Liste der wichtigsten Kontakte
-* Arbeitsbereich
-* Anforderungen an die Arbeit.
+* Arbeitsumfang
+* Personalbedarf.
 
-### Aktivitäten am zweiten Tag {#day-two-activities}
+### Aktivitäten am Tag 2 {#day-two-activities}
 
-Der letzte Teil einer Day-One-Initiative besteht darin, einen NOC-Handoff abzuschließen. Wenn ein abgeschlossenes Projekt einen Service und Support für Tag 2 umfasst, organisiert der Projektmanager ein NOC-Handoff-Meeting mit den Betreuern dieser Teams.
+Der letzte Teil einer Tage 1-Initiative ist die Durchführung einer NOC-Übergabe. Wenn ein abgeschlossenes Projekt Service und Support für Tag 2 umfasst, organisiert der Projekt-Manager ein NOC-Übergabe-Meeting mit den Vorgesetzten dieser Teams.
 
-Dieses Treffen besteht in erster Linie aus AV Integrator-Vertretern aus Account Management, Network Operations, Field Logistics, Content Services und Accounting. Projektmanagementvertreter von Adobe, dem AEM-Implementor und dem Endkunden sind in der Regel im Tandem tätig, wobei der AV Integrator Zeitplan, Kadenz und Mautsätze definiert. Projektmanager sind in der Regel am besten in der Lage, Diskussionen zu koordinieren, um die Abstimmung der entsprechenden Parteien sicherzustellen und die erforderlichen Unterlagen für das NOC-Handoff-Treffen zu entwickeln. Wichtige Supportdokumentation wird wahrscheinlich von IT- und/oder AV-Engineering sowie von Vertriebs- und Kontoverwaltungsressourcen aller Beteiligten bereitgestellt. Für alle Clients, die Helpdesk-Unterstützung von einem NOC benötigen, muss NOC-Aufsichtsbehörden Dokumentation zum Hochladen auf eine Knowledge Base-Plattform zur Verfügung gestellt werden.
+Dieses Meeting besteht hauptsächlich aus A/V-Integratoren aus den Bereichen Kundenbetreuung, Netzwerkbetrieb, Außendienstlogistik, Inhaltsdienste und Buchhaltung. Das Projekt-Management von Adobe, der AEM-Implementor und der Endkunde sind in der Regel gemeinsam beteiligt, wobei der AV-Integrator den Zeitplan, die Abfolge und Entscheidungspunkte festlegt. Projekt-Manager sind in der Regel am besten in der Lage, Diskussionen zu koordinieren, um die Abstimmung der entsprechenden Parteien sicherzustellen und die erforderlichen Unterlagen für das NOC-Übergabe-Meeting zu entwickeln. Kritische Support-Dokumentation wird wahrscheinlich von der IT und/oder AV-Technik sowie von Vertriebs- und Kundenbetreuungsressourcen aller beteiligten Parteien stammen. Für alle Kunden, die Helpdesk-Unterstützung von einem NOC benötigen, muss den NOC-Vorgesetzten Dokumentation zum Hochladen auf eine Knowledgebase-Plattform zur Verfügung gestellt werden.
 
-## Teil 4: Videoschulung zum Projektmanagement und zur Bereitstellung {#part-video-tutorial-on-project-management-and-deployment}
+## Teil 4: Video-Tutorial zu Projekt-Management und Bereitstellung {#part-video-tutorial-on-project-management-and-deployment}
 
-In diesem Lernprogramm erfahren Sie mehr über die Vorbereitung auf Projektmanagement und -bereitstellung und definieren die Schlüsselfaktoren, die der AV Integrator im Zusammenhang mit Projektmanagement und Bereitstellungsvorbereitung zu berücksichtigen hat.
+In diesem Tutorial erfahren Sie mehr über Projekt-Management und Bereitstellungsvorbereitung und die Definition von Schlüsselfaktoren, für die der A/V-Integrator im Zusammenhang mit Projekt-Management und Bereitstellungsvorbereitung verantwortlich ist.
 
-###  Projektverwaltung und Bereitstellung
+###  Projekt-Management und Bereitstellung
 
 >[!VIDEO](https://video.tv.adobe.com/v/28408?captions=ger)
 
-*Erfahren Sie mehr über Projektmanagement und Bereitstellungsvorbereitung (Projektvorbereitung, Projektstart, Projektfortschritt).*
+*Erfahren Sie mehr über Projekt-Management und die Bereitstellungsvorbereitung (Projektvorbereitung, Projektstart, Projektfortschritt).*
 
 ## Der nächste Schritt {#the-next-step}
 
-Sobald Sie mit den wichtigsten Überlegungen zum Projektmanagement für AEM Screens-Bereitstellungen vertraut sind,
+Sobald Sie mit den wichtigsten Überlegungen zum Projekt-Management für AEM Screens-Bereitstellungen vertraut sind:
 
-Navigieren Sie zu **[Teil 5: Support-Überlegungen](support-considerations.md)** , um die Unterstützung von Tag 2 und die damit verbundenen Prozesse zu verstehen.
+Navigieren Sie zu **[Teil 5: Support-Aspekte](support-considerations.md)**, um den Support von Tag 2 und die damit verbundenen Prozesse zu verstehen.
 
