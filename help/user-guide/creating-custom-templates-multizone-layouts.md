@@ -1,20 +1,20 @@
 ---
-title: Erstellen benutzerdefinierter Vorlagen in MultiZone-Layouts
-seo-title: Erstellen benutzerdefinierter Vorlagen in MultiZone-Layouts
-description: Auf dieser Seite erfahren Sie, wie Sie benutzerdefinierte Vorlagen in MultiZone-Layouts erstellen.
-seo-description: Auf dieser Seite erfahren Sie, wie Sie benutzerdefinierte Vorlagen in MultiZone-Layouts erstellen.
+title: Erstellen benutzerdefinierter Vorlagen für Mehrzonen-Layouts
+seo-title: Erstellen benutzerdefinierter Vorlagen für Mehrzonen-Layouts
+description: Auf dieser Seite erfahren Sie, wie Sie benutzerdefinierte Vorlagen für Mehrzonen-Layouts erstellen.
+seo-description: Auf dieser Seite erfahren Sie, wie Sie benutzerdefinierte Vorlagen für Mehrzonen-Layouts erstellen.
 contentOwner: Jyotika Syal
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ---
 
 
-# Erstellen benutzerdefinierter Vorlagen in MultiZone-Layouts {#creating-custom-templates-multizone}
+# Erstellen benutzerdefinierter Vorlagen für Mehrzonen-Layouts {#creating-custom-templates-multizone}
 
-Das folgende Beispiel zeigt, wie Sie benutzerdefinierte Vorlagen in einem MultiZone-Layout erstellen können.
+Das folgende Beispiel zeigt, wie Sie benutzerdefinierte Vorlagen in einem Mehrzonen-Layout erstellen können.
 
-Im folgenden Abschnitt wird beispielsweise die Erstellung einer benutzerdefinierten Vorlage in einem mehrzonigen Layout mit folgenden Konfigurationen veranschaulicht:
+Der folgende Abschnitt zeigt beispielsweise die Erstellung einer benutzerdefinierten Vorlage in einem Mehrzonen-Layout mit den folgenden Konfigurationen:
 
 ![image](assets/custom-template1.png)
 
@@ -61,15 +61,15 @@ Gehen Sie wie folgt vor, um eine benutzerdefinierte Vorlage zu erstellen.
 </jcr:root>
 ```
 
-1. Erstellen Sie einen Seitenentwurf in `/apps/settings/wcm/designs/<project>`.
+1. Erstellen Sie ein Seiten-Design in `/apps/settings/wcm/designs/<project>`.
 
    >[!NOTE]
    >
-   >Vergewissern Sie sich, dass der `cq:designPath` obige Pfad mit dem Pfad übereinstimmt.
+   >Vergewissern Sie sich, dass der obige `cq:designPath` mit dem Pfad übereinstimmt.
 
-1. Aktualisieren Sie den Knoten **offline-config** für den Entwurf, damit er auf den neuen Pfad verweist.
+1. Aktualisieren Sie den Knoten **offline-config** für das Design, damit er auf den neuen Pfad verweist.
 
-1. Fügen Sie eine **Datei "static.css** "im `/apps/settings/wcm/designs/<project>` Ordner hinzu und legen Sie ihren Inhalt auf
+1. Fügen Sie eine **static.css**-Datei im Ordner `/apps/settings/wcm/designs/<project>` hinzu und setzen Sie deren Inhalt auf
 
 ```shell
 .cq-Screens-channel--multizone.my-CustomLayout {}
@@ -82,19 +82,19 @@ Gehen Sie wie folgt vor, um eine benutzerdefinierte Vorlage zu erstellen.
 
 Sie können ein Bild als Hintergrundebene in das Layout einfügen:
 
-Sie können die CSS-Regel anpassen, um das so genannte "data-uri"zu verwenden und das Bild (Base64-kodiert) direkt in der CSS-Datei einzubinden.
+Sie können die CSS-Regel so anpassen, dass sie den sogenannten „data-uri“ verwendet und das Bild (Base64-kodiert) direkt in die CSS-Datei einbindet.
 
 Dies geschieht wie folgt:
 `.cq-Screens-channel--multizone.my-CustomLayout { background: url('data:image/…;base64,…') no-repeat center center; }`
 
 Sie können auch die folgenden Schritte ausführen:
 
-1. Stellen Sie sicher, dass das Bild irgendwie in der Offlinekonfiguration für den Kanal enthalten ist.
-1. Verwenden Sie einen direkten Link zum Bild im obigen CSS anstelle der "data-uri"-Variante
+1. Stellen Sie sicher, dass das Bild in der Offline-Konfiguration für den Kanal enthalten ist.
+1. Verwenden Sie einen direkten Link zum Bild im obigen CSS anstelle der „data-uri“-Variante.
 
 
-## Hintergrundfarbe aktualisieren {#updating-color}
+## Aktualisieren der Hintergrundfarbe {#updating-color}
 
-Fügen Sie der XML-Datei den folgenden Code hinzu, um die Hintergrundfarbe zu ändern:
+Fügen Sie der xml-Datei den folgenden Code hinzu, um die Hintergrundfarbe zu ändern:
 
 `.cq-Screens-channel--multizone.my-CustomLayout { background-color: …; }`
