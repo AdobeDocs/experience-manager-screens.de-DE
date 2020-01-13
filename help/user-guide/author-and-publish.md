@@ -1,8 +1,8 @@
 ---
-title: Konfigurieren von Authoring und Veröffentlichung in AEM-Bildschirmen
-seo-title: Konfigurieren von Authoring und Veröffentlichung in AEM-Bildschirmen
-description: Die AEM Screens-Architektur ähnelt einer traditionellen AEM-Sites-Architektur. Inhalte werden auf einer AEM-Autoreninstanz erstellt und dann in mehrere Instanzen im Veröffentlichungsmodus repliziert. Auf dieser Seite erfahren Sie, wie Sie Autor und Veröffentlichung für AEM Screens konfigurieren.
-seo-description: Die AEM Screens-Architektur ähnelt einer traditionellen AEM-Sites-Architektur. Inhalte werden auf einer AEM-Autoreninstanz erstellt und dann in mehrere Instanzen im Veröffentlichungsmodus repliziert. Auf dieser Seite erfahren Sie, wie Sie Autor und Veröffentlichung für AEM Screens konfigurieren.
+title: Konfigurieren von Autoren- und Veröffentlichungsinstanz in AEM Screens
+seo-title: Konfigurieren von Autoren- und Veröffentlichungsinstanz in AEM Screens
+description: Die AEM Screens-Architektur ähnelt einer traditionellen AEM Sites-Architektur. Inhalte werden in einer AEM-Autoreninstanz erstellt und dann vorwärts an mehrere Veröffentlichungsinstanzen repliziert. Auf dieser Seite erfahren Sie, wie Sie Autoren- und Veröffentlichungsinstanz für AEM Screens konfigurieren.
+seo-description: Die AEM Screens-Architektur ähnelt einer traditionellen AEM Sites-Architektur. Inhalte werden in einer AEM-Autoreninstanz erstellt und dann vorwärts an mehrere Veröffentlichungsinstanzen repliziert. Auf dieser Seite erfahren Sie, wie Sie Autoren- und Veröffentlichungsinstanz für AEM Screens konfigurieren.
 uuid: 0a6e87e7-0018-42ef-b484-9a3da61c636a
 contentOwner: jsyal
 content-type: reference
@@ -11,80 +11,80 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 9ee952340d8d966bbad6e6587686448b6413dcca
+source-git-commit: b8ab512b7e883fff1265b73403429351e5c6d3b5
 
 ---
 
 
-# Konfigurieren von Authoring und Veröffentlichung in AEM-Bildschirmen {#configuring-author-and-publish-in-aem-screens}
+# Konfigurieren von Autoren- und Veröffentlichungsinstanz in AEM Screens {#configuring-author-and-publish-in-aem-screens}
 
-Auf dieser Seite werden die folgenden Themen hervorgehoben:
+Auf dieser Seite werden folgende Themen vorgestellt:
 
-* **Authoring- und Veröffentlichungsinstanzen konfigurieren**
+* **Konfigurieren von Autoren- und Veröffentlichungsinstanz**
 * **Einrichten der Veröffentlichungstopologie**
-* **Verwalten von Veröffentlichungen: Bereitstellen von Inhaltsaktualisierungen vom Autor zum Veröffentlichen auf dem Gerät**
+* **Verwalten von Veröffentlichungen: Bereitstellen von Inhaltsaktualisierungen vom Autor zur Veröffentlichung auf dem Gerät**
 
 ## Voraussetzungen {#prerequisites}
 
-Bevor Sie mit Autor- und Veröffentlichungsservern beginnen, sollten Sie über Folgendes verfügen:
+Bevor Sie mit Autoren- und Veröffentlichungs-Servern beginnen, sollten Sie mit folgenden Themen vertraut sein:
 
 * **AEM-Topologie**
-* **AEM Screens-Projekt erstellen und verwalten**
-* **Geräteregistrierungsprozess**
+* **Erstellen und Verwalten von AEM Screens-Projekten**
+* **Verfahren zur Geräteregistrierung**
 
 >[!NOTE]
 >
->Diese AEM Screens-Funktion ist nur verfügbar, wenn Sie AEM 6.4 Screens Feature Pack 2 installiert haben. Wenden Sie sich an den Adobe-Support, um Zugriff auf dieses Feature Pack zu erhalten. Wenn Sie die entsprechenden Berechtigungen erhalten haben, können Sie es von Package Share herunterladen.
+>Diese AEM Screens-Funktion ist nur verfügbar, wenn Sie das Feature Pack 2 für AEM 6.4 Screens installiert haben. Wenden Sie sich an den Adobe-Support, um Zugriff auf dieses Feature Pack zu erhalten. Wenn Sie die entsprechenden Berechtigungen erhalten haben, können Sie es von Package Share herunterladen.
 
-## Authoring- und Veröffentlichungsinstanzen konfigurieren {#configuring-author-and-publish-instances}
+## Konfigurieren von Autoren- und Veröffentlichungsinstanz {#configuring-author-and-publish-instances}
 
 >[!NOTE]
 >
->Weitere Informationen zum Überblick über die Authoring- und Veröffentlichungsarchitektur sowie dazu, wie der Inhalt in einer AEM-Autoreninstanz verfasst und dann in mehrere Instanzen im Veröffentlichungsmodus repliziert wird, finden Sie unter Übersicht über die Architektur [für Autoren und Veröffentlichungen](author-publish-architecture-overview.md).
+>Weitere Informationen zur Architektur der Autoren- und Veröffentlichungsinstanz sowie über die Methode, mit der Inhalte in einer AEM-Autoreninstanz verfasst und dann an mehrere Veröffentlichungsinstanzen vorwärts repliziert werden, finden Sie unter [Architektonischer Überblick zur Autoren- und Veröffentlichungsinstanz](author-publish-architecture-overview.md).
 
-Im folgenden Abschnitt wird beschrieben, wie Replizierungsagenten in der Autor- und Veröffentlichungstopologie eingerichtet werden.
+Im folgenden Abschnitt wird beschrieben, wie sich in der Autoren- und Veröffentlichungstopologie Replikationsagenten einrichten lassen.
 
-Sie können ein einfaches Beispiel einrichten, in dem Sie einen Autor und zwei Instanzen im Veröffentlichungsmodus hosten:
+Sie können ein einfaches Beispiel anlegen, in dem Sie eine Autoren- und zwei Veröffentlichungsinstanzen hosten:
 
-* Autor —> localhost:4502
-* Publish 1 (pub1) —> localhost:4503
-* Publish 2 (pub2) —> localhost:4504
+* Autor --> localhost:4502
+* Veröffentlichung 1 (pub1) --> localhost:4503
+* Veröffentlichung 2 (pub2) --> localhost:4504
 
-## Einrichten von Replizierungsagenten beim Autor {#setting-replication-agents}
+## Einrichten von Replikationsagenten in der Autoreninstanz {#setting-replication-agents}
 
-Um Replizierungsagenten zu erstellen, müssen Sie lernen, wie Sie einen standardmäßigen Replizierungsagenten erstellen.
+Zur Erstellung von Replikationsagenten müssen Sie wissen, wie man einen standardmäßigen Replikationsagenten einrichtet.
 
-Für Bildschirme sind drei Replizierungsagenten erforderlich:
+Für Screens sind drei Replikationsagenten erforderlich:
 
-1. **Default Replication Agent ***(angegeben als***Standard Replication Agent **)
-1. **Bildschirmreplikationsagent**
+1. **Standardmäßiger Replikationsagent ***(angegeben als***Standard Replication Agent **)
+1. **Screens-Replikationsagent**
 1. **Agent für Rückwärtsreplikation**
 
-### Schritt 1: Erstellen eines standardmäßigen Replizierungsagenten {#step-creating-a-default-replication-agent}
+### Schritt 1: Erstellen eines standardmäßigen Replikationsagenten {#step-creating-a-default-replication-agent}
 
-Gehen Sie wie folgt vor, um einen standardmäßigen Replizierungsagenten zu erstellen:
+Gehen Sie wie folgt vor, um einen standardmäßigen Replikationsagenten einzurichten:
 
-1. Navigieren Sie zu Ihrer AEM-Instanz —> Hammersymbol —> **Vorgänge** —> **Konfiguration**.
+1. Navigieren Sie zu Ihrer AEM-Instanz > Hammersymbol > **Vorgänge** > **Konfiguration**.
 
    ![screen_shot_2019-02-25at24621pm](assets/screen_shot_2019-02-25at24621pm.png)
 
-1. Wählen Sie die **Replikation** aus der linken Navigationsstruktur.
+1. Wählen Sie die **Replikation** in der linken Navigationsstruktur aus.
 
    ![screen_shot_2019-02-25at24715pm](assets/screen_shot_2019-02-25at24715pm.png)
 
-1. Wählen Sie die **Agenten für Autor** aus dem Ordner **Replication** und klicken Sie auf **Neu** , um einen neuen Replizierungsagenten zu erstellen.
+1. Wählen Sie die Option **Agenten für Autor** im Ordner **Replikation** und klicken Sie auf **Neu**, um einen neuen Replikationsagenten zu erstellen.
 
    ![screen_shot_2019-02-25at25400pm](assets/screen_shot_2019-02-25at25400pm.png)
 
-1. Geben Sie den **Titel** und den **Namen** ein, um den Replizierungsagenten zu erstellen, und klicken Sie auf **Erstellen**.
+1. Geben Sie zum Einrichten des Replikationsagenten den **Titel** und den **Namen** ein und klicken Sie auf **Erstellen**.
 
    ![screen_shot_2019-02-25at25737pm](assets/screen_shot_2019-02-25at25737pm.png)
 
-1. Klicken Sie mit der rechten Maustaste auf den Replizierungsagenten und klicken Sie auf **Öffnen** , um die Einstellungen zu bearbeiten.
+1. Klicken Sie mit der rechten Maustaste auf den Replikationsagenten und klicken Sie auf **Öffnen**, um die Einstellungen zu bearbeiten.
 
    ![screen_shot_2019-02-25at30018pm](assets/screen_shot_2019-02-25at30018pm.png)
 
-1. Klicken Sie auf **Bearbeiten** , um das Dialogfeld &quot; **Agenteinstellungen** &quot;zu öffnen und die Details einzugeben.
+1. Klicken Sie auf **Bearbeiten**, um das Dialogfeld **Agenteneinstellungen** zu öffnen und die Details einzugeben.
 
    >[!NOTE]
    >
@@ -92,211 +92,208 @@ Gehen Sie wie folgt vor, um einen standardmäßigen Replizierungsagenten zu erst
 
    ![screen_shot_2019-02-25at30134pm](assets/screen_shot_2019-02-25at30134pm.png)
 
-1. Navigieren Sie zur Registerkarte &quot; **Transport** &quot;und geben Sie den **URI**, den **Benutzer** und das **Kennwort** ein.
+1. Navigieren Sie zur Registerkarte **Transport** und geben Sie den **URI**, den **Benutzer** und das **Kennwort** ein.
 
    ![screen_shot_2019-03-04at34955pm](assets/screen_shot_2019-03-04at34955pm.png)
 
    >[!NOTE]
    >
-   >Sie können auch einen vorhandenen Replizierungsagenten kopieren und umbenennen.
+   >Alternativ können Sie einen vorhandenen Replikationsagenten kopieren und umbenennen.
 
 
-#### Erstellen von Standard-Replizierungsagenten {#creating-standard-replication-agents}
+#### Erstellen von standardmäßigen Replikationsagenten {#creating-standard-replication-agents}
 
-1. Erstellen Sie einen standardmäßigen Replizierungsagenten für pub1 (der standardmäßige Agent, der bereits standardmäßig konfiguriert sein soll) (z. B. *https://&lt;Hostname>:4503/bin/receive?sling:authRequestLogin=1*).
-1. Erstellen Sie einen standardmäßigen Replizierungsagenten für pub2. Sie können den Rep Agent für pub1 kopieren und den Transport für pub2 aktualisieren, indem Sie den Port in der Transportkonfiguration ändern. (Beispiel: *https://&lt;Hostname>:4504/bin/receive?sling:authRequestLogin=1*)
+1. Erstellen Sie einen standardmäßigen Replikationsagenten für pub1 (standardmäßiger Agent, der bereits vorkonfiguriert sein sollte) (z. B. *https://&lt;Hostname>:4503/bin/receive?sling:authRequestLogin=1*).
+1. Richten Sie einen standardmäßigen Replikationsagenten für pub2 ein. Sie können den Replikationsagenten für pub1 kopieren und den für pub2 zu verwendenden Transport aktualisieren, indem Sie in der Transportkonfiguration den Port ändern. (Beispiel: *https://&lt;Hostname>:4504/bin/receive?sling:authRequestLogin=1*)
 
-#### Erstellen von Replikationsagenten für Bildschirme {#creating-screens-replication-agents}
+#### Erstellen von Screens-Replikationsagenten {#creating-screens-replication-agents}
 
-1. Erstellen Sie den AEM Screens Replizierungsagenten für pub1. Standardmäßig ist ein Bildschirmreplikationsagent vorhanden, der auf Port 4503 verweist. Dies muss aktiviert werden.
-1. Erstellen Sie den AEM Screens Replizierungsagenten für pub2. Kopieren Sie den Bildschirmreplikationsagenten für pub1 und ändern Sie den Port in 4504 für pub2.
+1. Richten Sie den AEM Screens-Replikationsagenten für pub1 ein. Standardmäßig gibt es einen benannten Screens-Replikationsagenten, der auf Port 4503 verweist. Dieser Port muss aktiviert sein.
+1. Richten Sie den AEM Screens-Replikationsagenten für pub2 ein. Kopieren Sie den Screens-Replikationsagenten für pub1 und ändern Sie den Port für pub2 so, dass er auf 4504 verweist.
 
-#### Erstellen von Bildschirmen umgekehrter Replizierungsagenten {#creating-screens-reverse-replication-agents}
+#### Erstellen von Screens-Agenten für die Rückwärtsreplikation {#creating-screens-reverse-replication-agents}
 
-1. Erstellen Sie einen standardmäßigen Agenten für die Rückwärtsreplikation für pub1.
-1. Erstellen Sie einen standardmäßigen Agenten für die Rückwärtsreplikation für pub2. Sie können den Reverse Rep Agent für pub1 kopieren und den Transport für pub2 aktualisieren, indem Sie den Port in der Transportkonfiguration ändern.
+1. Erstellen Sie für pub1 einen standardmäßigen Agenten für die Rückwärtsreplikation.
+1. Erstellen Sie für pub2 einen standardmäßigen Agenten für die Rückwärtsreplikation. Sie können den Agenten für die Rückwärtsreplikation für pub1 kopieren und den für pub2 zu verwendenden Transport aktualisieren, indem Sie in der Transportkonfiguration den Port ändern.
 
 ## Einrichten der Veröffentlichungstopologie {#setting-up-publish-topology}
 
-### Schritt 1: Apache Sling Oak-basierte Erkennung konfigurieren {#step-configure-apache-sling-oak-based-discovery}
+### Schritt 1: Konfigurieren der Apache Sling Oak-basierten Erkennung {#step-configure-apache-sling-oak-based-discovery}
 
 Einrichten der Apache Sling Oak-basierten Erkennung für alle Veröffentlichungsinstanzen in der Topologie
 
-Für jede Instanz im Veröffentlichungsmodus:
+Bei jeder Veröffentlichungsinstanz:
 
 1. Navigieren Sie zu `https://<host>:<port>/system/console/configMgr`
-1. Wählen Sie **Apache Sling Oak-Based Discovery Service** Configuration.
-1. Topology-Connector-URLs aktualisieren: URLs aller beteiligten Instanzen im Veröffentlichungsmodus hinzufügen, die `https://localhost:4502/libs/sling/topology/connector`
-1. Whitelist zum Thema &quot;Topology Connector&quot;: an IPs oder Subnetze anpassen, die Instanzen im Zusammenhang mit der teilweisen Veröffentlichung abdecken
-1. Lokale Schleifen **automatisch anhalten aktivieren**
+1. Wählen Sie die Konfiguration **Apache Sling Oak-basierter Erkennungsdienst**.
+1. Aktualisieren Sie die Topologie-Connector-URLs: Fügen Sie URLs aller beteiligten Veröffentlichungsinstanzen hinzu, d. h. `https://localhost:4502/libs/sling/topology/connector`
+1. Whitelist für Topologie-Connectoren: Nehmen Sie Anpassungen an IPs oder Subnetze vor, die beteiligte Veröffentlichungsinstanzen abdecken
+1. Aktivieren Sie **Auto-Stop Local-Loops**
 
-Die Konfiguration sollte für jede Instanz im Veröffentlichungsmodus identisch sein, und die &quot;Local-Schleife automatisch beenden&quot;verhindert eine Endlosschleife.
+Die Konfiguration sollte für jede Veröffentlichungsinstanz identisch sein; „Auto-Stop Local-Loops“ verhindert eine Endlosschleife.
 
-#### Schritt 2: Veröffentlichungstopologie überprüfen {#step-verify-publish-topology}
+#### Schritt 2: Überprüfen der Veröffentlichungstopologie {#step-verify-publish-topology}
 
-Navigieren Sie für alle Veröffentlichungsinstanzen zu `https://<host>:<port>/system/console/topology`. Sie sollten jede Instanz im Veröffentlichungsmodus in der Topologie anzeigen.
+For any of the publish instances navigate to `https://:/system/console/topology`. Sie sollten alle Instanzen im Veröffentlichungsmodus in der Topologie unter &quot; **Outgoing Topology Connectors**&quot;sehen.
 
-#### Schritt 3: Setup ActiveMQ-Artemis-Cluster {#step-setup-activemq-artemis-cluster}
+#### Schritt 3: Einrichten des ActiveMQ Artemis-Clusters {#step-setup-activemq-artemis-cluster}
 
-Mit diesem Schritt können Sie ein verschlüsseltes Kennwort für den ActiveMQ-Artemis-Cluster erstellen.
-Der Clusterbenutzer und das Kennwort aller Veröffentlichungsinstanzen in der Topologie müssen identisch sein. Das Kennwort der ActiveMQ Artemis-Konfiguration muss verschlüsselt sein. Da jede Instanz über einen eigenen Verschlüsselungsschlüssel verfügt, müssen Sie mit der Crypto-Unterstützung eine verschlüsselte Kennwortzeichenfolge erstellen. Dann wird in der OSGi-Konfiguration für ActiveMQ ein verschlüsseltes Kennwort verwendet.
+In diesem Schritt können Sie ein verschlüsseltes Kennwort für den ActiveMQ Artemis-Cluster erstellen.
+Der Cluster-Benutzer und das Kennwort müssen bei allen Veröffentlichungsinstanzen in der Topologie identisch sein. Das Kennwort der ActiveMQ Artemis-Konfiguration muss verschlüsselt werden. Da jede Instanz über einen eigenen Verschlüsselungsschlüssel verfügt, müssen Sie mit Crypto Support eine verschlüsselte Kennwortzeichenfolge erstellen. Dann wird das verschlüsselte Kennwort in der OSGi-Konfiguration für ActiveMQ verwendet.
 
 Bei jeder Veröffentlichungsinstanz:
 
-1. Navigieren Sie in der OSGi-Konsole zu **MAIN** —> **Crypto-Unterstützung** (*https://&lt;Host>:&lt;Port>/system/console/crypto*).
-1. Geben Sie in **Normaltext das gewünschte Kennwort (für alle Instanzen gleich) ein**
+1. Navigieren Sie in der OSGi-Konsole zu **MAIN** > **Crypto Support** (*https://&lt;Host>:&lt;Port>/system/console/crypto*).
+1. Geben Sie in **Nur Text** das gewünschte Kennwort ein (nur Text; für alle Instanzen gleich).
 1. Klicken Sie auf **Schützen**.
-1. Kopieren Sie den Wert **&quot;Geschützter Text** &quot;in den Notizblock oder Texteditor. Dieser Wert wird in der OSGi-Konfiguration für ActiveMQ verwendet.
+1. Kopieren Sie den Wert **Geschützter Text** in den Notizblock oder Text-Editor. Dieser Wert wird in der OSGi-Konfiguration für ActiveMQ verwendet.
 
-Da jede Instanz im Veröffentlichungsmodus standardmäßig über eindeutige Verschlüsselungsschlüssel verfügt, müssen Sie diesen Schritt für jede Instanz im Pub ausführen und den eindeutigen Schlüssel für die nächste Konfiguration speichern.
+Da jede Veröffentlichungsinstanz standardmäßig über eindeutige Verschlüsselungsschlüssel verfügt, müssen Sie diesen Schritt für jede Veröffentlichungsinstanz ausführen und den eindeutigen Schlüssel für die nächste Konfiguration speichern.
 
->Hinweis:
+>[!NOTE]
 >Das Kennwort sollte mit geschweiften Klammern beginnen und enden.
+>Beispiel:{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a6 10e}
 
-*Beispiel:*
-
-`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
-
-#### Schritt 4: ActiveMQ-Artemis-Cluster aktivieren {#step-activate-activemq-artemis-cluster}
+#### Schritt 4: Aktivieren des ActiveMQ Artemis-Clusters {#step-activate-activemq-artemis-cluster}
 
 Bei jeder Veröffentlichungsinstanz:
 
-1. Navigieren Sie zum OSGi Config Manager *https://&lt;Host>:&lt;Anschluss>/system/console/configMgr*
-1. Wählen Sie **Apache ActiveMQ Artemis JMS Provider** Configuration
+1. Navigieren Sie zum OSGi-Konfigurations-Manager *https://&lt;Host>:&lt;Port>/system/console/configMgr*
+1. Wählen Sie die Konfiguration **Apache ActiveMQ Artemis JMS Provider**
 1. Aktualisieren Sie Folgendes:
 
-* ***Cluster-Kennwort ***: (Verwendung eines verschlüsselten Werts aus dem vorherigen Schritt pro Instanz)
-* ***Themen ***: {name: &#39;Befehle&#39;, Adresse: &#39;com.adobe.cq.screens.commands&#39;, maxConsumers: 50}
+* ***Cluster-Kennwort ***: (verwenden Sie einen verschlüsselten Wert aus dem vorherigen Schritt pro Instanz)
+* ***Themen ***: {name: &#39;commands&#39;, address: &#39;com.adobe.cq.screens.commands&#39;, maxConsumers: 50}
 
-#### ActiveMQ-Artemis-Cluster überprüfen {#verify-activemq-artemis-cluster}
+#### Überprüfen des ActiveMQ Artemis-Clusters {#verify-activemq-artemis-cluster}
 
 Gehen Sie bei jeder Veröffentlichungsinstanz wie folgt vor:
 
-1. Navigieren Sie zur OSGi-Konsole -> Main > ActiveMQ-Artemis `[https://localhost:4505/system/console/mq`.
-1. Überprüfen und überprüfen Sie, um die Anschlüsse anderer Instanzen unter Clusterinformationen > Topologie > Knoten=2, members=2 anzuzeigen.
-1. Testnachricht senden (oben im Bildschirm unter &quot;Browserinformationen&quot;)
-1. Geben Sie die folgenden Änderungen in die Felder ein:
+1. Navigieren Sie zur OSGi-Konsole > „Haupt“ > „ActiveMQ Artemis“ `[https://localhost:4505/system/console/mq`.
+1. Überprüfen Sie die Ports anderer Instanzen unter „Cluster-Informationen“ > „Topologie“ > „nodes=2, members=2“.
+1. Senden Sie eine Testnachricht (oben im Bildschirm unter „Broker-Informationen“).
+1. Geben Sie folgende Änderungen in die Felder ein:
 
    1. **Ziel**: /com.adobe.cq.screens/devTestTopic
    1. **Text**: Hallo Welt
-   1. Zeigen Sie die Datei &quot;error.log&quot;jeder Instanz an, um zu sehen, dass die Nachricht über den Cluster gesendet und empfangen wurde.
+   1. Zeigen Sie für jede Instanz das Fehlerprotokoll (error.log) an, um zu prüfen, ob die Nachricht im ganzen Cluster gesendet und empfangen wurde.
 
 >[!NOTE]
 >
->Die Navigation zur OSGI-Konsole kann einige Sekunden nach dem Speichern der Konfiguration im vorherigen Schritt dauern. Sie können auch die Datei &quot;error.log&quot;für weitere Details überprüfen.
+>Das Navigieren zur OSGI-Konsole kann nach dem Speichern der Konfiguration im vorherigen Schritt einige Sekunden dauern. Sie können das Fehlerprotokoll (error.log) auch auf weitere Details prüfen.
 
-Beispiel: Die folgende Abbildung zeigt eine erfolgreiche Konfiguration von ActiveMQ Artemis Server.
+Beispiel: Das folgende Bild zeigt eine erfolgreiche Konfiguration von ActiveMQ Artemis Server.
 
-Wenn Sie die folgende Konfiguration von */system/console/mq* nicht sehen, navigieren Sie zu */system/console/mq* und klicken Sie auf **Neu starten** , um den Makler neu zu starten.
+Wenn Sie die folgende Konfiguration über */system/console/mq* nicht sehen können, navigieren Sie zu */system/console/mq* und klicken Sie auf **Neu starten**, um den Broker neu zu starten.
 
 ![image-2018-06-18-18-14-55-449](assets/image-2018-06-18-18-14-55-449.png)
 
 #### Anforderung für Referrer-Header entfernen {#remove-referrer-header-requirement}
 
-Führen Sie die Schritte für jede Instanz im Veröffentlichungsmodus aus:
+Führen Sie für jede Veröffentlichungsinstanz folgende Schritte aus:
 
 1. Navigieren Sie zur **OSGi-Konsole** > **Configuration Manager**
-1. Select **Apache Sling Referrer Filter**
-1. Konfiguration aktualisieren und leere **aktivieren**
+1. Wählen Sie **Apache Sling Referrer-Filter**
+1. Aktualisieren Sie die Konfiguration und aktivieren Sie **Allow Empty**
 
-### Configuring Author and Publish Instance {#configuring-author-and-publish-instance}
+### Konfigurieren der Autoren- und Veröffentlichungsinstanz {#configuring-author-and-publish-instance}
 
-Nachdem Sie die Veröffentlichungstoplogie eingerichtet haben, müssen Sie die Autor- und Veröffentlichungsinstanzen konfigurieren, um die praktischen Ergebnisse der Implementierung anzuzeigen:
+Nach dem Einrichten der Veröffentlichungstopologie müssen Sie die Autoren- und Veröffentlichungsinstanzen konfigurieren, um die praktischen Ergebnisse der Implementierung anzuzeigen:
 
 >[!NOTE]
 >
 >**Voraussetzungen**
 >
->Um mit diesem Beispiel zu beginnen, erstellen Sie ein neues AEM Screens-Projekt und erstellen Sie anschließend einen Ort, eine Anzeige und einen Kanal in Ihrem Projekt. Fügen Sie Ihrem Kanal Inhalte hinzu und weisen Sie den Kanal einer Anzeige zu.
+>Erstellen Sie zunächst ein neues AEM Screens-Projekt und anschließend einen Standort, eine Anzeige und einen Kanal in Ihrem Projekt. Fügen Sie Ihrem Kanal Inhalte hinzu und weisen Sie den Kanal einer Anzeige zu.
 
-#### Schritt 1: Starten eines AEM Screens Player (Gerät) {#step-starting-an-aem-screens-player-device}
+#### Schritt 1: Starten eines AEM Screens-Players (Gerät) {#step-starting-an-aem-screens-player-device}
 
-1. Öffnen Sie ein separates Browserfenster.
-1. Go to Screens player using the *web browser*, that is,`https://localhost:4502/content/mobileapps/cq-screens-player/firmware.html` or launch the AEM Screens app. Wenn Sie das Gerät öffnen, können Sie sehen, dass das Gerät nicht registriert ist.
+1. Öffnen Sie ein separates Browser-Fenster.
+1. Rufen Sie mithilfe des *Webbrowsers*, d. h. `https://localhost:4502/content/mobileapps/cq-screens-player/firmware.html`, den Screens-Player auf oder starten Sie die AEM Screens-App. Wenn Sie das Gerät öffnen, können Sie sehen, dass das Gerät nicht registriert ist.
 
 >[!NOTE]
 >
->Sie können einen AEM Screens-Player mit der heruntergeladenen AEM Screens-App oder über den Webbrowser öffnen.
+>Sie können einen AEM Screens-Player über die heruntergeladene AEM Screens-App oder mithilfe des Webbrowsers öffnen.
 
-#### Schritt 2: Registrieren eines Geräts beim Autor {#step-registering-a-device-on-author}
+#### Schritt 2: Registrieren eines Geräts in der Autoreninstanz {#step-registering-a-device-on-author}
 
-1. Navigieren Sie zum Projekt `https://localhost:4502/screens.html/content/screens/we-retail` oder wählen Sie es aus und navigieren Sie zu Geräte > Geräte-Manager.
-1. Wählen Sie **Gerät** registrieren.
-1. Klicken Sie auf **Geräteregistrierung** , um das Gerät anzuzeigen.
+1. Navigieren Sie zu `https://localhost:4502/screens.html/content/screens/we-retail` oder wählen Sie das Projekt aus und navigieren Sie zu „Geräte“ > „Geräte-Manager“.
+1. Wählen Sie **Gerät registrieren**.
+1. Klicken Sie auf **Geräteregistrierung**, um das Gerät anzuzeigen.
 1. Wählen Sie das zu registrierende Gerät aus und klicken Sie auf **Gerät registrieren**.
-1. Überprüfen Sie den Registrierungscode und klicken Sie auf **Überprüfen**.
+1. Prüfen Sie den Registrierungs-Code und klicken Sie auf **Überprüfen**.
 1. Geben Sie einen Titel für Ihr Gerät ein und klicken Sie auf **Registrieren**.
 
-#### Step 3: Assigning the Device to Display {#step-assigning-the-device-to-display}
+#### Schritt 3: Zuweisen des Geräts zur Anzeige {#step-assigning-the-device-to-display}
 
-1. Klicken Sie im Dialogfeld im vorherigen Schritt auf **Anzeige** zuweisen.
-1. Wählen Sie den Anzeigepfad für Ihren Kanal aus dem Ordner &quot; **Speicherorte** &quot;aus.
+1. Klicken Sie im Dialogfeld aus dem vorherigen Schritt auf **Anzeige zuweisen**.
+1. Wählen Sie im Ordner **Standorte** den Anzeigepfad für Ihren Kanal aus.
 1. Klicken Sie auf **Zuweisen**.
-1. Click **Finish** to complete the process, and now the device is assigned.
+1. Klicken Sie auf **Beenden**, um den Vorgang abzuschließen. Das Gerät ist jetzt zugewiesen.
 
-Überprüfen Sie Ihren Player und Sie sehen den Inhalt, den Sie in Ihrem Kanal hinzugefügt haben.
+Wenn Sie den Player überprüfen, sehen Sie den Inhalt, den Sie in Ihrem Kanal hinzugefügt haben.
 
-#### Schritt 4: Konfiguration des Veröffentlichungsgeräts auf Veröffentlichungsinstanzen {#step-publishing-device-configuration-to-publish-instances}
+#### Schritt 4: Veröffentlichen der Gerätekonfiguration auf Veröffentlichungsinstanzen {#step-publishing-device-configuration-to-publish-instances}
 
 **Überprüfen des Geräts**
 
-Bevor Sie die folgenden Schritte ausführen, überprüfen Sie die Geräte-ID. Suchen Sie zur Überprüfung nach der Geräte-ID in CRXDELite mit dem Pfad als */home/users/screens/{project}/devices*.
+Ermitteln Sie zunächst die Geräte-ID, bevor Sie die Schritte unten ausführen. Suchen Sie dazu in CRXDELite mit */home/users/screens/{Projekt}/devices* als Pfad nach der Geräte-ID.
 
 Gehen Sie wie folgt vor, um den Gerätebenutzer zu replizieren:
 
-1. Navigieren Sie zur Admin-Seite des Benutzers (z. B.: `https://localhost:4502/useradmin`
-1. Suchen Sie nach der **Gruppe &quot;screens-devices-master** &quot;
-1. Klicken Sie mit der rechten Maustaste auf die Gruppe und klicken Sie auf **Aktivieren**
+1. Navigieren Sie zur Admin-Seite für Benutzer (z. B.: `https://localhost:4502/useradmin`).
+1. Suchen Sie nach der Gruppe **screens-devices-master**.
+1. Klicken Sie mit der rechten Maustaste auf die Gruppe und klicken Sie auf **Aktivieren**.
 
 >[!CAUTION]
 >
->Aktivieren Sie nicht den Autorenveröffentlichungs-screens-Service, da es sich um einen Systembenutzer handelt, der vom Autorenauftrag verwendet wird.
+>Aktivieren Sie nicht „author-publish-screens-service“, da es sich dabei um einen Systembenutzer handelt, der vom Autorenauftrag verwendet wird.
 
-Sie können das Gerät auch über die Geräteverwaltungskonsole aktivieren. Gehen Sie wie folgt vor:
+Sie können das Gerät auch über die Geräteverwaltungskonsole aktivieren. Führen Sie dazu folgende Schritte durch:
 
-1. Navigieren Sie zu Ihrem Screens-Projekt —> **Geräte**.
+1. Navigieren Sie zu Ihrem Screens-Projekt > **Geräte**.
 1. Klicken Sie in der Aktionsleiste auf **Geräte-Manager**.
-1. Wählen Sie das Gerät aus und klicken Sie in der Aktionsleiste auf **Aktivieren** , wie in der Abbildung unten dargestellt.
+1. Wählen Sie das Gerät aus und klicken Sie in der Aktionsleiste auf **Aktivieren** (wie in der folgenden Abbildung dargestellt).
 
-![screen_shot_2019-02-21at11036am](assets/screen_shot_2019-02-21at111036am.png)
+![screen_shot_2019-02-21at111036am](assets/screen_shot_2019-02-21at111036am.png)
 
 >[!NOTE]
 >
->Alternativ dazu können Sie nach Aktivierung des Geräts auch die Server-URL bearbeiten oder aktualisieren, indem Sie in der Aktionsleiste auf &quot;Server-URL **** bearbeiten&quot;klicken, wie in der Abbildung unten dargestellt. Ihre Änderungen werden an den AEM Screens Player weitergeleitet.
+>Alternatively, once you have activated the device you also can edit or update the server URL by clicking **Edit server URL** from the action bar, as shown in the figure below and your changes will be propagated to the AEM Screens player.
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
 ### Checkliste für Veröffentlichungen {#publishing-check-list}
 
-Die folgenden Punkte fassen die Liste der Veröffentlichungsprüfungen zusammen:
+Folgende Punkte fassen die Checkliste für Veröffentlichungen zusammen:
 
-* *Bildschirmgerät-Benutzer* : Dieser wird als AEM-Benutzer gespeichert und über **Tools** > **Sicherheit** > **Benutzer** aktiviert. Dem Benutzer wird eine lange serialisierte Zeichenfolge vorangestellt.
+* *Screens-Gerätebenutzer*: Dieser wird als AEM-Benutzer gespeichert und kann über **Tools** > **Sicherheit** > **Benutzer** aktiviert werden. Dem Benutzer wird „screens“ mit einer langen serialisierten Zeichenfolge vorangestellt.
 
-* *Projekt* - Das AEM Screens-Projekt.
-* *Ort* : Der Speicherort, an den das Gerät angeschlossen ist.
-* *Kanal(e)* - ein oder mehrere Kanäle, die am Ort angezeigt werden
-* *Plan* - bei Verwendung eines Zeitplans sicherstellen, dass dieser veröffentlicht wird
-* *Speicherort, Zeitpläne und Kanalordner* - wenn sich die entsprechenden Ressourcen in einem Ordner befinden.
+* *Projekt*: Das AEM Screens-Projekt.
+* *Standort*: Der Standort, mit dem das Gerät verbunden ist.
+* *Kanäle*: Ein oder mehrere Kanäle, die am Standort gezeigt werden.
+* *Zeitplan*: Stellen Sie bei Verwendung eines Zeitplans sicher, dass dieser veröffentlicht wird.
+* *Standort-, Zeitplan- und Kanalordner*: Wenn sich die entsprechenden Ressourcen in einem Ordner befinden.
 
-Nachdem Sie die Checkliste überprüft haben, müssen Sie die folgenden Änderungen/Verhaltensweisen in Ihrem Kanal überprüfen:
+Nachdem Sie die Checkliste geprüft haben, müssen Sie die folgenden Änderungen/Verhaltensweisen in Ihrem Kanal überprüfen:
 
-* Öffnen Sie nach dem Veröffentlichen der Gerätekonfiguration die Bildschirmplayer-Konfiguration und verweisen Sie auf die Veröffentlichungsinstanz. Sie können das Gerät auch über die Geräteverwaltungskonsole aktivieren.
-* Aktualisieren Sie einige Kanalinhalte im Autorenmodus, veröffentlichen Sie sie und überprüfen Sie, ob der aktualisierte Kanal jetzt im AEM Screens Player angezeigt wird.
-* Schließen Sie den Bildschirmplayer an eine andere Instanz im Veröffentlichungsmodus an und überprüfen Sie das obige Verhalten.
+* Öffnen Sie nach dem Veröffentlichen der Gerätekonfiguration die Konfiguration des Screens-Players und verweisen Sie sie auf die Veröffentlichungsinstanz. Sie können das Gerät auch über die Geräteverwaltungskonsole aktivieren.
+* Aktualisieren Sie in der Autoreninstanz einige Kanalinhalte, veröffentlichen Sie sie und prüfen Sie, ob nun der aktualisierte Kanal im AEM Screens-Player angezeigt wird.
+* Verbinden Sie den Screens-Player mit einer anderen Veröffentlichungsinstanz und überprüfen Sie das oben beschriebene Verhalten.
 
-#### Schritt 5: Veröffentlichen der Instanz des Geräts zur Veröffentlichung im Admin-Bedienfeld {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
+#### Schritt 5: Verweisen des Geräts auf eine Veröffentlichungsinstanz im Administratorbereich {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
-1. Zeigen Sie die Admin-Benutzeroberfläche vom Bildschirmplayer aus an, drücken Sie die lange Taste oben links, um das Admin-Menü, den Touch-aktivierten AEM Screens-Player oder eine Maus zu öffnen.
-1. Klicken Sie im Seitenbedienfeld auf die Option &quot; **Konfiguration** &quot;.
-1. Ändern Sie die Autoreninstanz in die Veröffentlichungsinstanz in **Server**.
+1. Um die Administrator-Benutzeroberfläche vom Screens-Player aus zu öffnen, halten Sie die linke obere Ecke gedrückt, um das Menü „Admin“ auf Ihrem Touch-optimierten AEM Screens-Player zu öffnen. Alternativ können Sie eine Maus verwenden.
+1. Klicken Sie im seitlichen Bereich auf die Option **Konfiguration**.
+1. Wechseln Sie in **Server** von der Autoreninstanz zur Veröffentlichungsinstanz.
 
-Zeigen Sie die Änderungen im AEM Screens-Player an.
+Sehen Sie sich die Änderungen im AEM Screens-Player an.
 
-Alternativ können Sie die Server-URL auch über die Geräteverwaltungskonsole aktualisieren/bearbeiten:
+Alternativ können Sie über die Geräteverwaltungskonsole die Server-URL aktualisieren/bearbeiten:
 
-1. Navigieren Sie zu Ihrem AEM Screens-Projekt und wählen Sie den Ordner &quot; **Geräte** &quot;aus.
+1. Navigieren Sie zu Ihrem AEM Screens-Projekt und wählen Sie den Ordner **Geräte**.
 1. Klicken Sie in der Aktionsleiste auf **Geräte-Manager**.
-1. Wählen Sie das Gerät aus und klicken Sie in der Aktionsleiste auf Server-URL **** bearbeiten, wie in der Abbildung unten dargestellt. Ihre Änderungen werden an den AEM Screens-Player übertragen.
+1. Select the device and click **Edit server URL** from the action bar, as shown in the figure below and your changes will be propagated to the AEM Screens player.
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
