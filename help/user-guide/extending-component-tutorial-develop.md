@@ -1,15 +1,15 @@
 ---
 title: Erweitern einer AEM Screens-Komponente
 seo-title: Erweitern einer AEM Screens-Komponente
-description: In der folgenden Übung werden die Schritte und Best Practices für die Erweiterung der vordefinierten AEM Screens-Komponenten erläutert. Die Image-Komponente wird erweitert, um eine Überlagerung mit einem verlässlichen Text hinzuzufügen.
-seo-description: In der folgenden Übung werden die Schritte und Best Practices für die Erweiterung der vordefinierten AEM Screens-Komponenten erläutert. Die Image-Komponente wird erweitert, um eine Überlagerung mit einem verlässlichen Text hinzuzufügen.
+description: Im folgenden Tutorial werden die Schritte und Best Practices für die Erweiterung der vordefinierten AEM Screens-Komponenten erläutert. Die Bildkomponente wird erweitert und eine Überlagerung mit einem bearbeitbaren Text wird hinzugefügt.
+seo-description: Im folgenden Tutorial werden die Schritte und Best Practices für die Erweiterung der vordefinierten AEM Screens-Komponenten erläutert. Die Bildkomponente wird erweitert und eine Überlagerung mit einem bearbeitbaren Text wird hinzugefügt.
 uuid: 38ee3a2b-a51a-4c35-b93a-89a0e5fc3837
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: developing
 discoiquuid: 46bdc191-5056-41a4-9804-8f7c4a035abf
 targetaudience: target-audience new
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ---
@@ -17,54 +17,54 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 # Erweitern einer AEM Screens-Komponente {#extending-an-aem-screens-component}
 
-In der folgenden Übung werden die Schritte und Best Practices für die Erweiterung der vordefinierten AEM Screens-Komponenten erläutert. Die Image-Komponente wird erweitert, um eine Überlagerung mit einem verlässlichen Text hinzuzufügen.
+Im folgenden Tutorial werden die Schritte und Best Practices für die Erweiterung der vordefinierten AEM Screens-Komponenten erläutert. Die Bildkomponente wird erweitert und eine Überlagerung mit einem bearbeitbaren Text wird hinzugefügt.
 
 ## Überblick {#overview}
 
-Dieses Lernprogramm richtet sich an Entwickler, die neu bei AEM Screens sind. In diesem Lernprogramm wird die Komponente "Bildschirmbild"erweitert, um eine Standbildkomponente zu erstellen. Ein Titel, eine Beschreibung und ein Logo werden auf einem Bild überlagert, um ein überzeugendes Erlebnis in einem Sequenzkanal zu schaffen.
+Dieses Tutorial richtet sich an Entwickler, die neu bei AEM Screens sind. In diesem Tutorial wird die Screens-Bildkomponente erweitert und eine Poster-Komponente erstellt. Ein Titel, eine Beschreibung und ein Logo werden auf einem Bild überlagert, um ein überzeugendes Erlebnis in einem Sequenzkanal zu schaffen.
 
 >[!NOTE]
 >
->Bevor Sie dieses Lernprogramm starten, sollten Sie die Übung abschließen: [Entwickeln einer benutzerdefinierten Komponente für AEM Screens](developing-custom-component-tutorial-develop.md).
+>Bevor Sie dieses Tutorial starten, sollten Sie das Tutorial [Entwickeln einer benutzerdefinierten Komponente für AEM Screens](developing-custom-component-tutorial-develop.md) absolvieren.
 
-![Benutzerdefinierte Poster-Komponente](assets/2018-05-07_at_4_09pm.png)
+![Custom Poster component](assets/2018-05-07_at_4_09pm.png)
 
-Die Komponente "Benutzerdefiniertes Standbild"wird durch Erweitern der Komponente "Bild"erstellt.
+Die benutzerdefinierte Poster-Komponente wird durch Erweitern der Bildkomponente erstellt.
 
 ## Voraussetzungen {#prerequisites}
 
-## Project Setup {#project-setup}
+## Projekt-Setup {#project-setup}
 
-1. Herunterladen und Installieren der folgenden Pakete mithilfe der **CRX-Paketverwaltung**`http://localhost:4502/crx/packmgr/index.jsp)r:`
+1. Laden Sie die folgenden Pakete herunter und installieren Sie diese mit **CRX Package Manage** `http://localhost:4502/crx/packmgr/index.jsp)r:`
 
-   [Datei abrufen](assets/start-poster-screens-weretail-runuiapps-001-snapshot.zip)
+   [Datei laden](assets/start-poster-screens-weretail-runuiapps-001-snapshot.zip)
 
-   [Datei abrufen](assets/start-poster-screens-weretail-runuicontent-001-snapshot.zip)
-   **Wenn Sie mit Eclipse oder einer anderen IDE arbeiten,** laden Sie optional das folgende Quellpaket herunter. Stellen Sie das Projekt mithilfe des Maven-Befehls in einer lokalen AEM-Instanz bereit:
+   [Datei laden](assets/start-poster-screens-weretail-runuicontent-001-snapshot.zip)
+   Wenn Sie mit Eclipse oder einer anderen IDE arbeiten, laden Sie **optional** das folgende Quellpaket herunter. Stellen Sie das Projekt mithilfe des folgenden Maven-Befehls in einer lokalen AEM-Instanz bereit:
 
    **`mvn -PautoInstallPackage clean install`**
 
-   SRC Startbildschirme Wir.Retail Ausführen Projekt
+   SRC-Startbildschirm, Projekt „We.Retail Run“
 
-   [Datei abrufen](assets/start-poster-screens-weretail-run.zip)
+   [Datei laden](assets/start-poster-screens-weretail-run.zip)
 
 1. In **CRX Package Manager** `http://localhost:4502/crx/packmgr/index.jsp` werden die folgenden zwei Pakete installiert:
 
    1. **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip**
    1. **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip**
-   ![Screens Wir.Retail Ausführen von Ui.Apps- und Ui.Content-Paketen, die über CRX Package Manager installiert werden](assets/crx-packages.png)
+   ![Screens We.Retail Run Ui.Apps and Ui.Content packages installed via CRX Package Manager](assets/crx-packages.png)
 
-   Screens Wir.Retail Ausführen von Ui.Apps- und Ui.Content-Paketen, die über CRX Package Manager installiert werden
+   Pakete Ui.Apps und Ui.Content für das Screens-Projekt „We.Retail Run“ über CRX Package Manager installiert
 
-## Erstellen der Posterkomponente {#poster-cmp}
+## Erstellen der Poster-Komponente {#poster-cmp}
 
-Die Standbildkomponente erweitert die vordefinierte Bildschirmkomponente. Ein Sling-Mechanismus `sling:resourceSuperType`wird verwendet, um die Kernfunktionalität der Image-Komponente zu erben, ohne kopiert und eingefügt werden zu müssen. Weitere Informationen zu den Grundlagen der [Sling Request Processing finden Sie hier.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/the-basics.html#SlingRequestProcessing)
+Die Poster-Komponente stellt eine Erweiterung der standardmäßigen Bildkomponente dar. Ein Sling-Mechanismus `sling:resourceSuperType` wird verwendet, um die Kernfunktionalität der Bildkomponente zu erben, ohne dass Kopieren und Einfügen erforderlich ist. Weitere Informationen zu den Grundlagen der Sling-Anforderungsverarbeitung [finden Sie hier](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/using/the-basics.html#SlingRequestProcessing).
 
-Die Standbildkomponente wird im Vollbildmodus im Vorschau-/Produktionsmodus wiedergegeben. Im Bearbeitungsmodus ist es wichtig, die Komponente anders zu rendern, um das Authoring des Sequenzkanals zu erleichtern.
+Die Poster-Komponente wird im Vollbildmodus im Vorschau-/Produktionsmodus wiedergegeben. Im Bearbeitungsmodus ist es wichtig, die Komponente unterschiedlich wiederzugeben, um das Authoring des Sequenzkanals zu erleichtern.
 
-1. In **CRXDE-Lite** (oder IDE der Wahl) darunter, um einen neuen `http://localhost:4502/crx/de/index.jsp` Namen zu `/apps/weretail-run/components/content`erstellen `cq:Component``poster` .
+1. Erstellen Sie in **CRXDE-Lite** `http://localhost:4502/crx/de/index.jsp` (oder einer IDE Ihrer Wahl) unter `/apps/weretail-run/components/content` eine neue `cq:Component` mit dem Namen `poster`.
 
-   Add the following properties to the `poster` component:
+   Fügen Sie der Komponente `poster` die folgenden Eigenschaften hinzu:
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
@@ -75,19 +75,19 @@ Die Standbildkomponente wird im Vollbildmodus im Vorschau-/Produktionsmodus wied
        componentGroup="We.Retail Run - Content"/>
    ```
 
-   ![Eigenschaften für /apps/weretail-run/components/content/poster](assets/poster.png)
+   ![Properties for /apps/weretail-run/components/content/poster](assets/poster.png)
 
    Eigenschaften für /apps/weretail-run/components/content/poster
 
-   Durch Festlegen der `sling:resourceSuperType`Eigenschaft, die `screens/core/components/content/image` der Poster-Komponente entspricht, werden alle Funktionen der Image-Komponente übernommen. Entsprechende Knoten und Dateien, die sich unten befinden, `screens/core/components/content/image` können unterhalb der `poster` Komponente hinzugefügt werden, um die Funktionalität zu überschreiben und zu erweitern.
+   Wenn Sie die Eigenschaft `sling:resourceSuperType` gleich `screens/core/components/content/image` setzen, übernimmt die Poster-Komponente effektiv die gesamte Funktionalität der Bildkomponente. Entsprechende Knoten und Dateien unter `screens/core/components/content/image` können unter der Komponente `poster` hinzugefügt werden, um die Funktionalität zu überschreiben und zu erweitern.
 
-1. Kopieren Sie die `cq:editConfig` Node unter `/libs/screens/core/components/content/image.`Einfügen `cq:editConfig` unter der `/apps/weretail-run/components/content/poster` Komponente.
+1. Kopieren Sie den Knoten `cq:editConfig` unter `/libs/screens/core/components/content/image.`Fügen Sie `cq:editConfig` unter der Komponente `/apps/weretail-run/components/content/poster` ein.
 
-   Aktualisieren Sie auf dem `cq:editConfig/cq:dropTargets/image/parameters` Knoten die `sling:resourceType` Eigenschaft auf gleich `weretail-run/components/content/poster`.
+   Aktualisieren Sie auf dem Knoten `cq:editConfig/cq:dropTargets/image/parameters` die Eigenschaft `sling:resourceType`, damit sie gleich `weretail-run/components/content/poster` ist.
 
    ![edit-config](assets/edit-config.png)
 
-   XML-Darstellung der unten dargestellten cq:editConfig:
+   Im Folgenden finden Sie die XML-Darstellung von cq:editConfig:
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
@@ -110,19 +110,19 @@ Die Standbildkomponente wird im Vollbildmodus im Vorschau-/Produktionsmodus wied
    </jcr:root>
    ```
 
-1. WCM Foundation- `image` Dialogfeld kopieren, das für die `poster` Komponente verwendet werden soll.
+1. Kopieren Sie das Dialogfeld `image` von „WCM Foundation“, um es für die Komponente `poster` zu verwenden.
 
-   Es ist am einfachsten, von einem vorhandenen Dialog zu beginnen und dann Änderungen vorzunehmen.
+   Es ist am einfachsten, von einem vorhandenen Dialogfeld aus zu starten und dann Änderungen vorzunehmen.
 
-   1. Dialogfeld kopieren aus: `/libs/wcm/foundation/components/image/cq:dialog`
-   1. Das Dialogfeld unten einfügen `/apps/weretail-run/components/content/poster`
-   ![Dialogfeld kopiert von /libs/wcm/foundation/components/image/cq:dialog nach /apps/weretail-run/components/content/poster](assets/2018-05-03_at_4_13pm.png)
+   1. Kopieren Sie das Dialgofeld aus `/libs/wcm/foundation/components/image/cq:dialog`
+   1. Fügen Sie das Dialogfeld hier ein: `/apps/weretail-run/components/content/poster`
+   ![Copied dialog from /libs/wcm/foundation/components/image/cq:dialog to /apps/weretail-run/components/content/poster](assets/2018-05-03_at_4_13pm.png)
 
-   Dialogfeld kopiert von /libs/wcm/foundation/components/image/cq:dialog nach /apps/weretail-run/components/content/poster
+   Kopiertes Dialogfeld von /libs/wcm/foundation/components/image/cq:dialog nach /apps/weretail-run/components/content/poster
 
-   Die Bildschirmkomponente `image` ist der WCM Foundation- `image` Komponente überschrieben. Daher erbt die `poster` Komponente Funktionalität von beiden. Der Dialog für die Posterkomponente besteht aus einer Kombination der Dialoge "Screens"und "Foundation". Funktionen der **Sling Resource Merger** werden verwendet, um irrelevante Dialogfelder und Registerkarten auszublenden, die von den überschriebenen Komponenten übernommen werden.
+   Die Screens-Komponente `image` ist der WCM Foundation-Komponente `image` übergeordnet. Daher erbt die Komponente `poster` die Funktionalität von beiden. Das Dialogfeld für die Poster-Komponente besteht aus einer Kombination der Dialogfelder „Screens“ und „Foundation“. Funktionen von **Sling Resource Merger** werden verwendet, um irrelevante Dialogfelder und Registerkarten auszublenden, die von den übergeordneten Komponenten übernommen werden.
 
-1. Aktualisieren Sie das unten stehende cq:dialog `/apps/weretail-run/components/content/poster` mit den folgenden Änderungen in XML:
+1. Aktualisieren Sie cq:dialog unter `/apps/weretail-run/components/content/poster` mit den folgenden in XML dargestellten Änderungen:
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
@@ -225,23 +225,23 @@ Die Standbildkomponente wird im Vollbildmodus im Vorschau-/Produktionsmodus wied
    </jcr:root>
    ```
 
-   Die Eigenschaft `sling:hideChildren`= `"[linkURL,size]`" wird auf dem `items` Knoten verwendet, um sicherzustellen, dass die Felder **linkURL** und **size** aus dem Dialogfeld ausgeblendet werden. Das Entfernen dieser Knoten aus dem Standbild-Dialogfeld reicht nicht aus. Mit der Eigenschaft `sling:hideResource="{Boolean}true"` auf der Registerkarte "Ein-/Ausgabehilfe"wird die gesamte Registerkarte ausgeblendet.
+   Die Eigenschaft `sling:hideChildren`= `"[linkURL,size]`" wird auf dem Knoten `items` verwendet, um sicherzustellen, dass die Felder **linkURL** und **size** aus dem Dialogfeld ausgeblendet werden. Es genügt nicht, diese Knoten aus dem Poster-Dialogfeld zu entfernen. Mit der Eigenschaft `sling:hideResource="{Boolean}true"` auf der Registerkarte „Erreichbarkeit“ wird die gesamte Registerkarte ausgeblendet.
 
-   Dem Dialogfeld werden zwei Auswahlfelder hinzugefügt, damit die Autoren die Textposition und Farbe des Titels und der Beschreibung steuern können.
+   Dem Dialogfeld werden zwei Auswahlfelder hinzugefügt, damit Autoren die Textposition und Farbe des Titels und der Beschreibung steuern können.
 
-   ![Standbild - Struktur des endgültigen Dialogs](assets/2018-05-03_at_4_49pm.png)
+   ![Poster - Final Dialog Structure](assets/2018-05-03_at_4_49pm.png)
 
-   Standbild - Struktur des endgültigen Dialogs
+   Poster – Struktur des endgültigen Dialogfelds
 
-   An dieser Stelle kann eine Instanz der `poster` Komponente im Projekt "We.Retail-Ausführung"der Seite " **Leerkanal** "hinzugefügt werden: `http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`.
+   An dieser Stelle kann eine Instanz der Komponente `poster` im Projekt „We.Retail Run“ zur Seite **Idle Channel** hinzugefügt werden: `http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`.
 
-   ![Standbilddialogfelder](assets/poster-dialog-full.png)
+   ![Poster Dialog fields](assets/poster-dialog-full.png)
 
-   Standbilddialogfelder
+   Felder des Poster-Dialogfelds
 
-1. Erstellen Sie eine Datei unter dem `/apps/weretail-run/components/content/poster` Namen `production.html.`
+1. Erstellen Sie unter `/apps/weretail-run/components/content/poster` eine Datei mit dem Namen `production.html.`
 
-   Füllen Sie die Datei mit folgenden Elementen:
+   Füllen Sie die Datei mit folgendem Inhalt:
 
    ```xml
    <!--/*
@@ -263,19 +263,19 @@ Die Standbildkomponente wird im Vollbildmodus im Vorschau-/Produktionsmodus wied
    </div>
    ```
 
-   Oben ist das Produktions-Markup für die Poster-Komponente. Das HTL-Skript setzt die Regeln außer Kraft `screens/core/components/content/image/production.html`. Das `image.js` ist ein serverseitiges Skript, das ein POJO-ähnliches Bildobjekt erstellt. Das Image-Objekt kann dann aufgerufen werden, um das Bild `src` als eingebettetes Hintergrundbild im Stil des Stils wiederzugeben.
+   Oben befindet sich das Produktions-Markup für die Poster-Komponente. Das HTL-Skript überschreibt `screens/core/components/content/image/production.html`. `image.js` ist ein Server-seitiges Skript, das ein POJO-ähnliches Bildobjekt erstellt. Das Bildobjekt kann dann aufgerufen werden, um `src` als eingebettetes Hintergrundbild wiederzugeben.
 
-   `The h1` und h2-Tags hinzugefügt werden, werden der Titel und die Beschreibung basierend auf den Komponenteneigenschaften angezeigt: `${properties.jcr:title}` und `${properties.jcr:description}`.
+   `The h1`- und h2-Tags werden hinzugefügt, um den Titel und die Beschreibung anhand der Komponenteneigenschaften anzuzeigen: `${properties.jcr:title}` und `${properties.jcr:description}`.
 
-   Umgeben der Tags `h1` und `h2` ist ein div-Wrapper mit drei CSS-Klassen mit Variationen von " `cmp-poster__text`". Der Wert für die `textPosition` und `textColor` -Eigenschaften wird verwendet, um die CSS-Klasse zu ändern, die basierend auf der Dialogfeldauswahl des Autors wiedergegeben wird. Im nächsten Abschnitt werden CSS aus Client-Bibliotheken geschrieben, um diese Änderungen in der Anzeige zu aktivieren.
+   Die `h1`- und `h2`-Tags werden von einem Div-Wrapper mit drei CSS-Klassen mit Varianten von `cmp-poster__text` umgeben. Der Wert für die Eigenschaften `textPosition` und `textColor` wird verwendet, um die CSS-Klasse zu ändern, die anhand der Dialogfeldauswahl des Autors wiedergegeben wird. Im nächsten Abschnitt werden CSS aus Client-Bibliotheken geschrieben, um diese Änderungen in der Anzeige zu aktivieren.
 
-   Ein Logo ist auch als Überlagerung in der Komponente enthalten. In diesem Beispiel ist der Pfad zum We.Retail-Logo im DAM fest codiert. Je nach Anwendungsfall kann es sinnvoll sein, ein neues Dialogfeld zu erstellen, um den Logopfad zu einem dynamisch ausgefüllten Wert zu machen.
+   Ein Logo ist auch als Überlagerung in der Komponente enthalten. In diesem Beispiel ist der Pfad zum We.Retail-Logo im DAM fest kodiert. Je nach Nutzungsszenario ist es möglicherweise sinnvoller, ein neues Dialogfeld zu erstellen, um den Logo-Pfad zu einem dynamisch ausgefüllten Wert zu machen.
 
-   Beachten Sie außerdem, dass die BEM-Notation (Block Element Modifier) mit der Komponente verwendet wird. BEM ist eine CSS-Kodierungskonvention, die die Erstellung wiederverwendbarer Komponenten erleichtert. BEM ist die von [AEM-Kernkomponenten](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/wiki/CSS-coding-conventions)verwendete Notation. Weitere Informationen finden Sie unter: [https://getbem.com/](https://getbem.com/)
+   Beachten Sie außerdem, dass die BEM-Notation (Block Element Modifier) mit der Komponente verwendet wird. BEM ist eine CSS-Kodierungskonvention, die die Erstellung wiederverwendbarer Komponenten erleichtert. BEM ist die von [AEM-Kernkomponenten](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/wiki/CSS-coding-conventions) verwendete Notation. Weitere Informationen finden Sie unter [https://getbem.com/](https://getbem.com/)
 
-1. Erstellen Sie eine Datei unter dem `/apps/weretail-run/components/content/poster` Namen `edit.html.`
+1. Erstellen Sie unter `/apps/weretail-run/components/content/poster` eine Datei mit dem Namen `edit.html.`
 
-   Füllen Sie die Datei mit folgenden Elementen:
+   Füllen Sie die Datei mit folgendem Inhalt:
 
    ```xml
    <!--/*
@@ -295,23 +295,23 @@ Die Standbildkomponente wird im Vollbildmodus im Vorschau-/Produktionsmodus wied
    </div>
    ```
 
-   Oben ist das **Bearbeiten** -Markup für die Standbildkomponente. Das HTL-Skript setzt die Regeln außer Kraft `/libs/screens/core/components/content/image/edit.html`. Das Markup ähnelt dem `production.html` Markup und zeigt den Titel und die Beschreibung über dem Bild an.
+   Oben befindet sich das **Bearbeitungs**-Markup für die Poster-Komponente. Das HTL-Skript überschreibt `/libs/screens/core/components/content/image/edit.html`. Das Markup ähnelt dem `production.html`-Markup und zeigt den Titel und die Beschreibung über dem Bild an.
 
-   Der `aem-Screens-editWrapper`wird hinzugefügt, damit die Komponente nicht im Vollbildmodus im Editor angezeigt wird. Das `data-emptytext` Attribut stellt sicher, dass ein Platzhalter angezeigt wird, wenn kein Bild oder kein Inhalt gefüllt wurde.
+   Der `aem-Screens-editWrapper` wird hinzugefügt, sodass die Komponente im Editor nicht im Vollbildmodus dargestellt wird. Das Attribut `data-emptytext` stellt sicher, dass ein Platzhalter angezeigt wird, wenn kein Bild oder Inhalt eingefügt wurde.
 
-## Clientseitige Bibliotheken erstellen {#clientlibs}
+## Erstellen Client-seitiger Bibliotheken {#clientlibs}
 
-Clientseitige Bibliotheken bieten einen Mechanismus zum Organisieren und Verwalten von CSS- und JavaScript-Dateien, die für eine AEM-Implementierung erforderlich sind. Weitere Informationen zur Verwendung [clientseitiger Bibliotheken finden Sie hier.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html)
+Client-seitige Bibliotheken bieten einen Mechanismus zum Organisieren und Verwalten von CSS- und JavaScript-Dateien, die für eine AEM-Implementierung erforderlich sind. Weitere Informationen zur Verwendung Client-seitiger Bibliotheken [finden Sie hier](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/using/clientlibs.html).
 
-AEM Screens-Komponenten werden im Bearbeitungsmodus anders als im Vorschaumodus/Produktionsmodus dargestellt. Es werden zwei Gruppen von Client-Bibliotheken erstellt, eine für den Bearbeitungsmodus und eine für Vorschau/Produktion.
+AEM Screens-Komponenten werden im Bearbeitungsmodus anders als im Vorschaumodus/Produktionsmodus dargestellt. Es werden zwei Gruppen von Client-Bibliotheken erstellt, eine für den Bearbeitungsmodus und eine für die Vorschau/Produktion.
 
-1. Erstellen Sie einen Ordner für clientseitige Bibliotheken für die Poster-Komponente.
+1. Erstellen Sie einen Ordner für Client-seitige Bibliotheken für die Poster-Komponente.
 
-   Erstellen `/apps/weretail-run/components/content/poster,`Sie anschließend einen neuen Ordner mit dem Namen `clientlibs`.
+   Erstellen Sie unter `/apps/weretail-run/components/content/poster,` einen neuen Ordner mit dem Namen `clientlibs`.
 
    ![2018-05-03_at_1008pm](assets/2018-05-03_at_1008pm.png)
 
-1. Erstellen Sie unter dem `clientlibs` Ordner einen neuen Knoten `shared` vom Typ `cq:ClientLibraryFolder.`
+1. Erstellen Sie unter dem Ordner `clientlibs` einen neuen Knoten `shared` des Typs `cq:ClientLibraryFolder.`
 
    ![2018-05-03_at_1011pm](assets/2018-05-03_at_1011pm.png)
 
@@ -319,17 +319,17 @@ AEM Screens-Komponenten werden im Bearbeitungsmodus anders als im Vorschaumodus/
 
    * `allowProxy` | Boolesch | `true`
    * `categories` | Zeichenfolge[] | `cq.screens.components`
-   ![Eigenschaften für /apps/weretail-run/components/content/poster/clientlibs/shared](assets/2018-05-03_at_1026pm-1.png)
+   ![Properties for /apps/weretail-run/components/content/poster/clientlibs/shared](assets/2018-05-03_at_1026pm-1.png)
 
    Eigenschaften für /apps/weretail-run/components/content/poster/clientlibs/shared
 
-   Die `categories` Eigenschaft ist eine Zeichenfolge, die die Client-Bibliothek identifiziert. Die `cq.screens.components` Kategorie wird sowohl im Bearbeitungs- als auch im Vorschaumodus/Produktionsmodus verwendet. Daher wird jedes in clientlib definierte CSS/JS in allen Modi geladen. `shared`
+   Die Eigenschaft `categories` ist eine Zeichenfolge, die die Client-Bibliothek identifiziert. Die Kategorie `cq.screens.components` wird sowohl im Bearbeitungs- als auch im Vorschau-/Produktionsmodus verwendet. Daher wird jedes in der Clientlib `shared` definierte CSS/JS in allen Modi geladen.
 
-   Es empfiehlt sich, in einer Produktionsumgebung niemals Pfade direkt zu /apps bereitzustellen. Die `allowProxy` Eigenschaft stellt sicher, dass auf die Client-Bibliothek CSS und JS über ein Präfix von `/etc.clientlibs`verwiesen wird. More information about the [allowProxy property can be found here.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html#main-pars_title_8ced)
+   Es empfiehlt sich, in einer Produktionsumgebung niemals Pfade direkt zu /apps bereitzustellen. Die Eigenschaft `allowProxy` stellt sicher, dass auf die Pfade zu Client-Bibliotheks-CSS und -JS über ein Präfix `/etc.clientlibs` verwiesen wird. Weitere Informationen über die Eigenschaft „allowProxy“ [finden Sie hier](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/using/clientlibs.html#main-pars_title_8ced).
 
 1. Erstellen Sie eine Datei mit dem Namen `css.txt` unter dem freigegebenen Ordner.
 
-   Füllen Sie die Datei mit folgenden Elementen:
+   Füllen Sie die Datei mit folgendem Inhalt:
 
    ```
    #base=css
@@ -337,13 +337,13 @@ AEM Screens-Komponenten werden im Bearbeitungsmodus anders als im Vorschaumodus/
    styles.less
    ```
 
-1. Erstellen Sie einen Ordner `css` unter dem `shared` Ordner. Fügen Sie eine Datei mit dem Namen `style.less` unter dem `css` Ordner hinzu. Die Struktur der Client-Bibliotheken sollte nun wie folgt aussehen:
+1. Erstellen Sie einen Ordner mit dem Namen `css` unter dem Ordner `shared`. Fügen Sie eine Datei mit dem Namen `style.less` unter dem Ordner `css` hinzu. Die Struktur der Client-Bibliotheken sollte jetzt wie folgt aussehen:
 
    ![2018-05-03_at_1057pm](assets/2018-05-03_at_1057pm.png)
 
-   Anstatt CSS direkt zu schreiben, verwendet dieses Tutorial LESS. [LESS](https://lesscss.org/) ist ein beliebter CSS-Prä-Compiler, der CSS-Variablen, Mixins und Funktionen unterstützt. AEM-Client-Bibliotheken unterstützen nativ die LESS-Kompilierung. Sass oder andere Vorkompilatoren können verwendet werden, müssen aber außerhalb von AEM kompiliert werden.
+   Anstatt CSS direkt zu schreiben, verwendet dieses Tutorial LESS. [LESS](https://lesscss.org/) ist ein beliebter CSS-Precompiler, der CSS-Variablen, Mixins und Funktionen unterstützt. AEM-Client-Bibliotheken unterstützen nativ die LESS-Kompilierung. Sass oder andere Precompiler können verwendet werden, müssen aber außerhalb von AEM kompiliert werden.
 
-1. Populate `/apps/weretail-run/components/content/poster/clientlibs/shared/css/styles.less` with the following:
+1. Füllen Sie `/apps/weretail-run/components/content/poster/clientlibs/shared/css/styles.less` wie folgt:
 
    ```css
    /*
@@ -398,21 +398,21 @@ AEM Screens-Komponenten werden im Bearbeitungsmodus anders als im Vorschaumodus/
 
    >[!NOTE]
    >
-   >Google-Webschriftarten werden für die Schriftfamilie verwendet. Webschriftarten erfordern Internetverbindung und nicht alle Bildschirmimplementierungen werden eine zuverlässige Verbindung herstellen. Die Planung für den Offlinemodus ist ein wichtiger Aspekt bei Screens-Bereitstellungen.
+   >Google-Webfonts werden für die Schriftfamilien verwendet. Webfonts erfordern eine Internet-Verbindung und nicht alle Screens-Implementierungen sind mit einer zuverlässigen Verbindung ausgestattet. Die Planung des Offline-Modus ist ein wichtiger Aspekt bei Screens-Bereitstellungen.
 
-1. Kopieren Sie den `shared` Clientbibliotheksordner. Fügen Sie es als Geschwisterelement ein und benennen Sie es in um `production`.
+1. Kopieren Sie den Client-Bibliotheksordner `shared`. Fügen Sie ihn als gleichrangiges Element ein und benennen Sie ihn in `production` um.
 
    ![2018-05-03_at_1114pm](assets/2018-05-03_at_1114pm.png)
 
-1. Die `categories` Eigenschaft der Produktions-ClientLibrary aktualisieren, die `cq.screens.components.production.`
+1. Aktualisieren Sie die Eigenschaft `categories` der Produktions-Client-Bibliothek auf `cq.screens.components.production.`
 
-   Die `cq.screens.components.production` Kategorie stellt sicher, dass die Stile nur geladen werden, wenn sie sich im Vorschaumodus/Produktionsmodus befinden.
+   Die Kategorie `cq.screens.components.production` stellt sicher, dass die Stile nur im Vorschau-/Produktionsmodus geladen werden.
 
-   ![Eigenschaften für /apps/weretail-run/components/content/poster/clientlibs/production](assets/2018-04-30_at_5_04pm.png)
+   ![Properties for /apps/weretail-run/components/content/poster/clientlibs/production](assets/2018-04-30_at_5_04pm.png)
 
    Eigenschaften für /apps/weretail-run/components/content/poster/clientlibs/production
 
-1. Populate `/apps/weretail-run/components/content/poster/clientlibs/production/css/styles.less` with the following:
+1. Füllen Sie `/apps/weretail-run/components/content/poster/clientlibs/production/css/styles.less` wie folgt:
 
    ```css
    /*
@@ -467,24 +467,24 @@ AEM Screens-Komponenten werden im Bearbeitungsmodus anders als im Vorschaumodus/
 
    Die oben genannten Stile zeigen den Titel und die Beschreibung an einer absoluten Position auf dem Bildschirm an. Der Titel wird deutlich größer als die Beschreibung angezeigt. Die BEM-Notation der Komponente macht es sehr einfach, die Stile innerhalb der cmp-poster-Klasse sorgfältig zu definieren.
 
-Eine dritte clientlibrary-Kategorie: Sie `cq.screens.components.edit` könnten dazu verwendet werden, der Komponente nur bestimmte Stile zum Bearbeiten hinzuzufügen.
+Eine dritte Client-Bibliotheks-Kategorie: `cq.screens.components.edit` könnte zum Hinzufügen von nur bearbeitbaren spezifischen Stilen zur Komponente verwendet werden.
 
 | Clientlib-Kategorie | Nutzung |
 |---|---|
-| `cq.screens.components` | Stile und Skripten, die sowohl im Bearbeitungs- als auch im Produktionsmodus verwendet werden |
-| `cq.screens.components.edit` | Stile und Skripten, die nur im Bearbeitungsmodus verwendet werden |
-| `cq.screens.components.production` | Stile und Skripten, die nur im Produktionsmodus verwendet werden |
+| `cq.screens.components` | Stile und Skripte, die sowohl im Bearbeitungs- als auch im Produktionsmodus verwendet werden |
+| `cq.screens.components.edit` | Stile und Skripte, die nur im Bearbeitungsmodus verwendet werden |
+| `cq.screens.components.production` | Stile und Skripte, die nur im Produktionsmodus verwendet werden |
 
-## Hinzufügen einer Standbildkomponente zu einem Sequenzkanal {#add-sequence-channel}
+## Hinzufügen einer Poster-Komponente zu einem Sequenzkanal {#add-sequence-channel}
 
-Die Standbildkomponente ist für die Verwendung in einem Sequenzkanal vorgesehen. Das Startpaket für dieses Lernprogramm enthielt einen Leerkanal. Der Leerkanal ist vorkonfiguriert, um Komponenten der Gruppe **Wir.Einzelhandel - Content** zuzulassen. Die Gruppe der Standbildkomponente ist auf festgelegt `We.Retail Run - Content` und kann dem Kanal hinzugefügt werden.
+Die Poster-Komponente ist für die Verwendung in einem Sequenzkanal vorgesehen. Das Startpaket für dieses Tutorial enthielt einen inaktiven Kanal. Der inaktive Kanal (Idle Channel) ist so vorkonfiguriert, dass Komponenten der Gruppe **We.Retail Run - Content** zugelassen werden. Die Gruppe der Poster-Komponente ist auf `We.Retail Run - Content` eingestellt und kann dem Kanal hinzugefügt werden.
 
-1. Öffnen Sie den Leerkanal im Projekt We.Retail Ausführen: **`http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`**
-1. Ziehen Sie per Drag &amp; Drop eine neue Instanz der **Standbildkomponente** aus der Seitenleiste auf die Seite.
+1. Öffnen Sie den inaktiven Kanal im Projekt „We.Retail Run“: **`http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`**
+1. Ziehen Sie eine neue Instanz der **Poster**-Komponente aus der Seitenleiste auf die Seite.
 
    ![2018-05-07_at_3_23pm](assets/2018-05-07_at_3_23pm.png)
 
-1. Bearbeiten Sie das Dialogfeld der Standkomponente, um ein Bild, einen Titel, eine Beschreibung hinzuzufügen. Verwenden Sie die Optionen "Textposition"und "Textfarbe", um sicherzustellen, dass der Titel/die Beschreibung über dem Bild lesbar ist.
+1. Bearbeiten Sie das Dialogfeld der Poster-Komponente, um ein Bild, einen Titel, eine Beschreibung hinzuzufügen. Verwenden Sie die Optionen „Textposition“ und „Textfarbe“, um sicherzustellen, dass der Titel/die Beschreibung über dem Bild lesbar ist.
 
    ![2018-05-07_at_3_25pm](assets/2018-05-07_at_3_25pm.png)
 
@@ -494,18 +494,18 @@ Die Standbildkomponente ist für die Verwendung in einem Sequenzkanal vorgesehen
 
 ## Alles zusammenbringen {#putting-it-all-together}
 
-Das folgende Video zeigt die fertige Komponente und wie sie einem Sequenzkanal hinzugefügt werden kann. Der Kanal wird dann zu einer Ortsanzeige hinzugefügt und letztendlich einem Bildschirmplayer zugewiesen.
+Das folgende Video zeigt die fertige Komponente und wie sie einem Sequenzkanal hinzugefügt werden kann. Der Kanal wird dann einer Standortsanzeige hinzugefügt und letztendlich einem Screens-Player zugewiesen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22414?quaity=9&captions=ger)
 
-## Fertigcode {#finished-code}
+## Fertiger Code {#finished-code}
 
-Unten finden Sie den fertigen Code aus dem Tutorial. Die **Pakete screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** und **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip** sind kompilierte AEM-Pakete. Der **SRC-screens-weretail-run-0.0.1.zip **ist der nicht kompilierte Quellcode, der mithilfe von Maven bereitgestellt werden kann.
+Unten finden Sie den fertigen Code aus dem Tutorial. **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** und **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip** sind kompilierte AEM-Pakete. SRC-screens-weretail-run-0.0.1.zip ist der nicht kompilierte Quell-Code, der mithilfe von Maven bereitgestellt werden kann.
 
-[Datei abrufen](assets/final-poster-screens-weretail-runuiapps-001-snapshot.zip)
+[Datei laden](assets/final-poster-screens-weretail-runuiapps-001-snapshot.zip)
 
-[Datei abrufen](assets/final-poster-screens-weretail-runuicontent-001-snapshot.zip)
+[Datei laden](assets/final-poster-screens-weretail-runuicontent-001-snapshot.zip)
 
-SRC Abschließende Bildschirme Wir.Retail Ausführen Projekt
+SRC-Endbildschirm, Projekt „We.Retail Run“
 
-[Datei abrufen](assets/src-screens-weretail-run-001.zip)
+[Datei laden](assets/src-screens-weretail-run-001.zip)
