@@ -1,8 +1,8 @@
 ---
-title: '"Teil 1: Aufgaben und Zuständigkeiten des Projekts"'
-seo-title: '"Teil 1: Aufgaben und Zuständigkeiten des Projekts"'
-description: Folgen Sie diesem Lernprogramm, um die Rollen, Verantwortlichkeiten und Zeitlinien besser zu verstehen, die während der Verkaufs- und Projektlebenszyklen für ein Projekt mit digitaler Signatur erforderlich sind.
-seo-description: Folgen Sie diesem Lernprogramm, um die Rollen, Verantwortlichkeiten und Zeitlinien besser zu verstehen, die während der Verkaufs- und Projektlebenszyklen für ein Projekt mit digitaler Signatur erforderlich sind.
+title: '„Teil 1: Projektrollen und Zuständigkeiten“'
+seo-title: '„Teil 1: Projektrollen und Zuständigkeiten“'
+description: In diesem Tutorial erfahren Sie mehr über die Rollen, Verantwortlichkeiten und Zeitpläne, die in den Vertriebs- und Projektlebenszyklen eines Projekts für digitale Beschilderung erforderlich sind.
+seo-description: In diesem Tutorial erfahren Sie mehr über die Rollen, Verantwortlichkeiten und Zeitpläne, die in den Vertriebs- und Projektlebenszyklen eines Projekts für digitale Beschilderung erforderlich sind.
 uuid: 871e75c1-9922-4292-8156-aa3ee8a87617
 contentOwner: jsyal
 content-type: reference
@@ -10,33 +10,33 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 860beb87-3686-488e-9bca-a590e78a751c
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ---
 
 
-# Part 1: Project Roles and Responsibilities {#part-project-roles-and-responsibilities}
+# Teil 1: Projektrollen und Zuständigkeiten {#part-project-roles-and-responsibilities}
 
-Diese Seite hebt Teil 1 einer fünfteiligen Reihe hervor, die Teammitgliedern dabei hilft, Rollen, Verantwortlichkeiten und Zeitlinien besser zu verstehen, die während der Verkaufs- und Projektlebenszyklen für ein Projekt mit digitaler Signatur erforderlich sind.
+Diese Seite enthält Teil 1 einer 5-teiligen Serie, der Team-Mitgliedern dabei hilft, Rollen, Zuständigkeiten und Zeitpläne besser zu verstehen, die in den Vertriebs- und Projektlebenszyklen eines Projekts für digitale Beschilderung zum Einsatz kommen.
 
 ## Überblick {#overview}
 
-In der folgenden Übung werden Projektrollen und -aufgaben für Adobe, AEM-Implementoren und AV-Integratoren auf hoher Ebene behandelt. Sie können zu nachfolgenden Episoden navigieren, um einen umfassenden Überblick darüber zu erhalten, wie Sie AEM Screens-Möglichkeiten erfolgreich entwickeln und Bereitstellungen für langfristigen Erfolg positionieren können.
+Dieses Tutorial behandelt allgemeine Informationen zu den Projektrollen und Zuständigkeiten für Adobe, AEM-Implementoren und A/V-Integratoren. Sie können zu nachfolgenden Folgen navigieren, um einen umfassenden Überblick darüber zu erhalten, wie Sie AEM Screens-Chancen erfolgreich entwickeln und Bereitstellungen für langfristigen Erfolg positionieren können.
 
-Es gibt drei Hauptgruppen, die durch den Bereitstellungsprozess innerhalb von:
+Es gibt drei Hauptgruppen, die am Bereitstellungsprozess beteiligt sind:
 
 * Adobe
 * A/V-Integrator
-* AEM-Implementierungsteam
+* AEM-Implementierungs-Team
 
 >[!NOTE]
 >
->Es ist wichtig, dass alle Beteiligten genau verstehen, wie die einzelnen Parteien in die AEM Screens-Bereitstellungs- und Problemlösungsarbeitsabläufe eingebunden sind, mit klar definierten Rollen bei der Lösung von Leistungsproblemen.
+>Es ist wichtig, dass alle Beteiligten genau verstehen, wie sich die einzelnen Parteien auf die Bereitstellung von AEM Screens und die Problemlösungs-Workflows auswirken. Dabei müssen die Rollen bei der Behebung von Leistungsproblemen klar definiert sein.
 
-## Zusammenfassung der an einem Digital Signage-Projekt beteiligten Rollen {#summary-of-roles-involved-in-a-digital-signage-project}
+## Zusammenfassung der an einem Projekt für digitale Beschilderung beteiligten Rollen {#summary-of-roles-involved-in-a-digital-signage-project}
 
-Die Festlegung von Anwendungsfallparametern in Zusammenarbeit mit Adobe, AEM Implementor und AV Integrator trägt zur Entwicklung der Software bei. Dadurch wird ein stufenweiser Ansatz gewährleistet, bei dem Leistungsbenchmarks und Erfolgsmetriken im gesamten Projekt ermittelt werden.
+Die Festlegung von Anwendungsparameters für das Nutzungsszenario in Zusammenarbeit mit Adobe, AEM-Implementor und A/V-Integrator bestimmt den Umfang der Software-Entwicklung. Dadurch wird ein stufenweiser Ansatz gewährleistet, bei dem Leistungs-Benchmarks und Erfolgsmetriken im gesamten Projekt ermittelt werden.
 
 ### Adobe {#adobe}
 
@@ -44,7 +44,7 @@ Adobe umfasst Adobe Managed Services-Ressourcen wie CSE (Customer Success Engine
 
 #### AEM-Implementoren {#aem-implementors}
 
-An **AEM Implementor** is responsible for performing development and integration tasks to develop the user experience, custom templates, and back-end integrations for AEM.
+Ein **AEM-Implementor** ist für die Durchführung von Entwicklungs- und Integrationsaufgaben zuständig, die der Entwicklung des Benutzererlebnisses sowie benutzerdefinierter Vorlagen und Back-End-Integrationen für AEM dienen.
 
 Benutzerdefinierte Funktionen, die für die Bearbeitung von UX-Parametern (User Experience) bei Endkunden erforderlich sind, werden dabei ebenfalls erfasst und bereitgestellt.
 
@@ -52,20 +52,20 @@ AEM-Implementoren implementieren benutzerdefinierte Funktionen an Standorten in 
 
 #### A/V-Integratoren {#av-integrators}
 
-An **AV Integrator** is responsible for conducting discovery with end-customers to define requirements determining project scope to design, build and effectively manage deployments around digital signage hardware.
+Ein **A/V-Integrator** ist dafür verantwortlich, gemeinsam mit den Endkunden die Anforderungen zu definieren, die den Projektumfang für das Entwerfen, Erstellen und effektive Verwalten von Bereitstellungen rund um Hardware für digitale Beschilderung bestimmen.
 
-## Teil 1: Videoschulung zu Rollen und Zuständigkeiten des Projekts {#part-video-tutorial-on-project-roles-and-responsibilities}
+## Teil 1: Video-Tutorial zu Projektrollen und Zuständigkeiten {#part-video-tutorial-on-project-roles-and-responsibilities}
 
-Folgen Sie dem unten stehenden Lernprogramm, um zu verstehen, wie die einzelnen Parteien in die AEM Screens-Bereitstellung eingebunden sind, und zwar in Bezug auf Problemlösungsarbeitsabläufe mit klar definierten Rollen bei der Lösung von Leistungsproblemen.
+In diesem Tutorial können Sie genau verstehen, wie sich die einzelnen Parteien auf die Bereitstellung von AEM Screens und die Problemlösungs-Workflows auswirken. Dabei müssen die Rollen bei der Behebung von Leistungsproblemen klar definiert sein.
 
-### Teil 1: Aufgaben und Zuständigkeiten des Projekts
+### Teil 1: Projektrollen und Zuständigkeiten
 
 >[!VIDEO](https://video.tv.adobe.com/v/28375?captions=ger)
 
-*Erfahren Sie mehr über die Rollen und Zuständigkeiten von Adobe, AV Integrators und AEM Implementors.*
+*Erfahren Sie mehr über die Rollen und Zuständigkeiten von Adobe, A/V-Integratoren und AEM-Implementoren.*
 
 ## Der nächste Schritt {#the-next-step}
 
-Sobald Sie wissen, welche Rolle und Verantwortlichkeiten das Projekt bei der Implementierung eines Projekts für die digitale Signatur spielt, führen Sie das nächste Lernprogramm durch, das sich tief in Themen wie Tests und Überlegungen vor dem Verkauf eintaucht, da das Projekt bei der Entwicklung von AEM Screens-Möglichkeiten in einem bestimmten Umfang betrachtet wird.
+Wenn Sie die Projektrollen und Verantwortlichkeiten bei der Implementierung eines Projekts für digitale Beschilderung verstanden haben, absolvieren Sie das nächste Tutorial, das sich eingehend mit Themen wie Tests und Erwägungen vor dem Vertrieb befasst, während der Umfang des Projekts bei der Entwicklung von AEM Screens-Chancen festgelegt wird.
 
-Navigieren Sie zu **[Teil 2: Betrachtungen als Projekte werden für weitere Details in Scoped](project-considerations.md)** umgewandelt.
+Navigieren Sie zu **[Teil 2: Überlegungen zum Projektumfang](project-considerations.md)**, um weitere Informationen zu erhalten.
