@@ -9,7 +9,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 64e4d6ae-3fd3-41ec-84e1-cc2cac7b2519
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ---
@@ -17,29 +17,29 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 # Einrichten von ACLs {#setting-up-acls}
 
-Im folgenden Abschnitt ist erläutert, wie Sie Projekte mithilfe von ACLs separieren können, sodass jede Person bzw. jedes Team ein eigenes Projekt erhält.
+Im folgenden Abschnitt wird erläutert, wie Sie Projekte mithilfe von ACLs separieren können, sodass jede Person bzw. jedes Team ein eigenes Projekt erhält.
 
 Als AEM-Administrator möchten Sie sicherstellen, dass für ein bestimmtes Projekt zuständige Teammitglieder nicht in andere Projekte eingreifen und dass den Benutzern je nach den Projektanforderungen spezifische Rollen zugewiesen werden.
 
-## Einrichten von Berechtigungen {#setting-up-permissions}
+## Einrichten von Berechtigungen    {#setting-up-permissions}
 
 Die folgenden Schritte fassen die Vorgehensweise zum Einrichten von ACLs für ein Projekt zusammen:
 
-1. Login to AEM and navigate to **Tools** &gt; **Security**.
+1. Melden Sie sich bei AEM an und navigieren Sie zu **Tools** &gt; **Sicherheit**.
 
    ![screen_shot_2018-02-16at10156pm](assets/screen_shot_2018-02-16at10156pm.png)
 
-1. Klicken Sie auf **Gruppen** und geben Sie eine ID ein (* zum Beispiel Acme).
+1. Klicken Sie auf **Gruppen** und geben Sie eine ID ein (zum Beispiel „Acme“).
 
-   Alternativ können Sie diesen Link verwenden `http://localhost:4502/libs/granite/security/content/groupadmin.html`.
+   Alternativ können Sie diesen Link verwenden: `http://localhost:4502/libs/granite/security/content/groupadmin.html`.
 
    Klicken Sie anschließend auf **Speichern**.
 
    ![screen_shot_2018-02-16at12648pm](assets/screen_shot_2018-02-16at12648pm.png)
 
-1. Select **Contributors** from the list and double click it.
+1. Wählen Sie **Mitarbeiter** aus der Liste aus und doppelklicken Sie darauf.
 
-   ![screen_shot_2018-02-18at3938pm](assets/screen_shot_2018-02-18at33938pm.png)
+   ![screen_shot_2018-02-18at33938pm](assets/screen_shot_2018-02-18at33938pm.png)
 
 1. Fügen Sie **Acme** (das von Ihnen erstellte Projekt) zu **Mitglieder zu Gruppe hinzufügen** hinzu. Klicken Sie auf **Speichern**.
 
@@ -47,13 +47,13 @@ Die folgenden Schritte fassen die Vorgehensweise zum Einrichten von ACLs für ei
 
    >[!NOTE]
    >
-   >Wenn Sie möchten, dass Mitglieder von Projektteams Player registrieren (was die Erstellung eines Benutzers für jeden Player umfasst), suchen Sie nach der Gruppe „user-administrators“ und fügen Sie die ACME-Gruppe zu „user-administrators“ hinzu.
+   >Wenn Sie möchten, dass Mitglieder aus Projekt-Teams Player registrieren (was die Erstellung eines Benutzers für jeden Player umfasst), suchen Sie nach der Gruppe „user-administrators“ und fügen Sie die ACME-Gruppe zu „user-administrators“ hinzu.
 
 1. Fügen Sie die Benutzer, die am Projekt **Acme** arbeiten, zur Gruppe **Acme** hinzu.
 
    ![screen_shot_2018-02-18at41320pm](assets/screen_shot_2018-02-18at41320pm.png)
 
-1. Setup the permissions for the group **Acme** using this `(http://localhost:4502/useradmin)`.
+1. Richten Sie die Berechtigungen für die Gruppe **Acme** mithilfe des Links `(http://localhost:4502/useradmin)` ein.
 
    Wählen Sie die Gruppe **Acme** aus und klicken Sie auf die **Berechtigungen**.
 
@@ -76,11 +76,11 @@ Die folgende Tabelle fasst den Pfad mit den Berechtigungen auf Projektebene zusa
 >
 >In einigen Fällen können Sie separate Autorenfunktionen (wie das Verwalten von Assets und das Erstellen von Kanälen) von den Administratorfunktionen (wie dem Registrieren von Playern) trennen. Erstellen Sie bei solchen Szenarien zwei Gruppen, fügen Sie die Gruppe „authors“ zu „contributors“ hinzu und fügen Sie die Gruppe „admin“ sowohl zu „contributors“ als auch zu „user-administrators“ hinzu.
 
-### Erstellen von Gruppen {#creating-groups}
+### Erstellen von Gruppen    {#creating-groups}
 
 Bei der Erstellung eines neuen Projekts sollten auch Standardbenutzergruppen erstellt werden, denen eine Reihe von Berechtigungen zugewiesen ist. Sie sollten die Berechtigungen auf die typischen Rollen erweitern, über die wir bei AEM Screens verfügen.
 
-Sie können beispielsweise die folgende projektspezifische Gruppe erstellen:
+Sie können beispielsweise folgende projektspezifische Gruppen erstellen:
 
 * Screens-Projektadministratoren
 * Screens-Projektoperatoren (registrieren Player und verwalten Standorte und Geräte)
@@ -133,7 +133,7 @@ Die folgende Tabelle fasst bei einem AEM Screens-Projekt die Gruppen mit Beschre
   <tr>
    <td>Screens Player<br /> <em>screens-we-retail-devices</em></td>
    <td>Gruppiert alle Player und alle Player/Geräte sind automatisch Mitglied von „contributors“</td>
-   <td><p> Mitglied der beitragenden Länder</p> </td>
+   <td><p> Mitglied von „contributors“</p> </td>
   </tr>
  </tbody>
 </table>
