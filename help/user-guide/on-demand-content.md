@@ -1,27 +1,27 @@
 ---
-title: On-Demand-Inhaltsaktualisierung
-seo-title: On-Demand-Inhaltsaktualisierung
+title: On-Demand-Inhaltsaktualisierungen
+seo-title: On-Demand-Inhaltsaktualisierungen
 description: 'Auf dieser Seite erfahren Sie mehr über On-Demand-Inhaltsaktualisierungen.  '
 seo-description: 'Auf dieser Seite erfahren Sie mehr über On-Demand-Inhaltsaktualisierungen.  '
 uuid: 18b9d175-ff26-42db-86aa-5ea978909f71
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 7250f7a2150debc12b7cc7acc4193f6d4bd5aa7b
+source-git-commit: 161eef6e7e45393f345240b9c36a104a18106f12
 
 ---
 
 
-# On-Demand-Inhaltsaktualisierung {#on-demand}
+# On-Demand-Inhaltsaktualisierungen {#on-demand}
 
 In diesem Abschnitt werden On-Demand-Inhalte für die Verwaltung von Veröffentlichungen beschrieben.
 
-## Verwalten von Veröffentlichungen: Bereitstellen von Inhaltsaktualisierungen vom Autor zum Veröffentlichen auf dem Gerät {#managing-publication-delivering-content-updates-from-author-to-publish-to-device}
+## Verwalten von Veröffentlichungen: Bereitstellen von Inhaltsaktualisierungen vom Autor zur Veröffentlichung auf dem Gerät {#managing-publication-delivering-content-updates-from-author-to-publish-to-device}
 
-Sie können Inhalte in AEM Screens veröffentlichen und deren Veröffentlichung aufheben. Mit der Funktion „Veröffentlichung verwalten“ können Sie Inhaltsaktualisierungen vom Autor an das Gerät senden, um sie zu veröffentlichen. Sie können Inhalte für Ihr gesamtes AEM Screens-Projekt oder nur für einen Ihrer Kanäle, Standorte, Geräte, Anwendungen oder einen Zeitplan veröffentlichen oder die Veröffentlichung aufheben.
+Sie können Inhalte in AEM Screens veröffentlichen und deren Veröffentlichung aufheben. Mit der Funktion „Veröffentlichung verwalten“ können Sie Inhaltsaktualisierungen vom Autor an das Gerät senden, um sie zu veröffentlichen. Sie können Inhalte für Ihr gesamtes AEM Screens-Projekt oder nur für einzelne Kanäle, Standorte, Geräte, Anwendungen oder einen Zeitplan veröffentlichen oder die Veröffentlichung aufheben.
 
 ### Verwalten von Veröffentlichungen für ein AEM Screens-Projekt {#managing-publication-for-an-aem-screens-project}
 
-Gehen Sie wie folgt vor, um Inhaltsaktualisierungen vom Autor zum Veröffentlichen auf dem Gerät für ein AEM Screens-Projekt bereitzustellen:
+Gehen Sie wie folgt vor, um Inhaltsaktualisierungen vom Autor zur Veröffentlichung auf dem Gerät für ein AEM Screens-Projekt bereitzustellen:
 
 1. Navigieren Sie zu Ihrem AEM Screens-Projekt.
 1. Klicken Sie in der Aktionsleiste auf **Veröffentlichung verwalten**, um das Projekt in der Veröffentlichungsinstanz zu veröffentlichen.
@@ -54,13 +54,13 @@ Mit der folgenden Abbildung können Sie z.B. nur die geänderten Seiten in Ihrem
 
    1. **Nur unmittelbar untergeordnete Elemente einbeziehen**:
 Mit dieser Option können Sie Aktualisierungen verwalten, die nur für die Unterknoten in Ihrer Projektstruktur gelten.
-   1. **Nur geänderte Seiten einbeziehen**:
+   1. **Nur geänderte Seiten einschließen**:
 Mit dieser Option können Sie Aktualisierungen verwalten, die nur für die geänderten Seiten des Projekts gelten, auf denen sich die Änderungen in Ihrer Projektstruktur befinden.
-   1. **Nur bereits veröffentlichte Seiten einbeziehen**:
+   1. **Nur bereits veröffentlichte Seiten einschließen**:
 Mit diesen Optionen können Sie Aktualisierungen verwalten, die nur für zuvor veröffentlichte Seiten gelten.
 
 
-1. Klicken Sie auf **Veröffentlichen** im Assistenten **Veröffentlichung verwalten.**
+1. Klicken Sie auf **Veröffentlichen** im Assistenten **Veröffentlichung verwalten**.
 
    ![screen_shot_2019-02-25at23341pm](assets/screen_shot_2019-02-25at23341pm.png)
 
@@ -91,7 +91,7 @@ Mit diesen Optionen können Sie Aktualisierungen verwalten, die nur für zuvor v
 
 ### Verwalten der Veröffentlichung für einen Kanal {#managing-publication-for-a-channel}
 
-Gehen Sie wie folgt vor, um Inhaltsaktualisierungen vom Autor zum Veröffentlichen auf dem Gerät für einen Kanal in einem AEM Screens-Projekt bereitzustellen:
+Gehen Sie wie folgt vor, um Inhaltsaktualisierungen vom Autor zur Veröffentlichung auf dem Gerät für einen Kanal in einem AEM Screens-Projekt bereitzustellen:
 
 >[!NOTE]
 >
@@ -106,7 +106,7 @@ Gehen Sie wie folgt vor, um Inhaltsaktualisierungen vom Autor zum Veröffentlich
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 
-1. Klicken Sie auf **Veröffentlichen** im Assistenten **Veröffentlichung verwalten.**
+1. Klicken Sie auf **Veröffentlichen** im Assistenten **Veröffentlichung verwalten**.
 
    ![screen_shot_2019-02-07at120507pm](assets/screen_shot_2019-02-07at120507pm.png)
 
@@ -114,9 +114,7 @@ Gehen Sie wie folgt vor, um Inhaltsaktualisierungen vom Autor zum Veröffentlich
    >
    >Warten Sie einige Sekunden/Minuten, damit der Inhalt die Veröffentlichungsinstanz erreicht.
 
-1. Nachdem Sie den Workflow zum Verwalten von Veröffentlichungen abgeschlossen haben, müssen Sie die Aktualisierung der Offline-Inhalte des Autors auslösen. Dadurch wird die Aktualisierung offline auf der Autoreninstanz erstellt.
-
-   Navigieren Sie zum Kanal-Dashboard und klicken Sie **Offline-Inhalt aktualisieren**. Mit dieser Aktion wird derselbe Befehl an die Veröffentlichungsinstanz weitergeleitet, sodass die Offline-ZIP-Dateien auch in der Veröffentlichungsinstanz erstellt werden.
+1. Auslöser **Offline-Inhalte** im Kanal-Dashboard senden den Offlineinhalt nur an die Autoreninstanz, nicht jedoch an die Veröffentlichungsinstanz. Die Schritte 1 bis 4 dienen zum Verschieben von Offlineinhalten in die Veröffentlichungsinstanz.
 
    ![screen_shot_2019-02-07at21608pm](assets/screen_shot_2019-02-07at21608pm.png)
 
