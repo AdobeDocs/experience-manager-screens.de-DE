@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: b8ab512b7e883fff1265b73403429351e5c6d3b5
+source-git-commit: 161eef6e7e45393f345240b9c36a104a18106f12
 
 ---
 
@@ -126,7 +126,9 @@ Bei jeder Veröffentlichungsinstanz:
 
 1. Navigieren Sie zu `https://<host>:<port>/system/console/configMgr`
 1. Wählen Sie die Konfiguration **Apache Sling Oak-basierter Erkennungsdienst**.
-1. Aktualisieren Sie die Topologie-Connector-URLs: Fügen Sie URLs aller beteiligten Veröffentlichungsinstanzen hinzu, d. h. `https://localhost:4502/libs/sling/topology/connector`
+1. Topology-Connector-URLs aktualisieren: Fügen Sie URLs aller beteiligten Veröffentlichungsinstanzen hinzu, die Folgendes umfassen:
+   * `https://localhost:4503/libs/sling/topology/connector`
+   * `https://localhost:4504/libs/sling/topology/connector`
 1. Whitelist für Topologie-Connectoren: Nehmen Sie Anpassungen an IPs oder Subnetze vor, die beteiligte Veröffentlichungsinstanzen abdecken
 1. Aktivieren Sie **Auto-Stop Local-Loops**
 
@@ -237,7 +239,7 @@ Wenn Sie den Player überprüfen, sehen Sie den Inhalt, den Sie in Ihrem Kanal h
 
 **Überprüfen des Geräts**
 
-Ermitteln Sie zunächst die Geräte-ID, bevor Sie die Schritte unten ausführen. Suchen Sie dazu in CRXDELite mit */home/users/screens/{Projekt}/devices* als Pfad nach der Geräte-ID.
+Ermitteln Sie zunächst die Geräte-ID, bevor Sie die Schritte unten ausführen. To verify, search for the device id in CRXDELite, with the path as */home/users/screens/we-retail/devices*.
 
 Gehen Sie wie folgt vor, um den Gerätebenutzer zu replizieren:
 
@@ -275,11 +277,15 @@ Folgende Punkte fassen die Checkliste für Veröffentlichungen zusammen:
 * *Zeitplan*: Stellen Sie bei Verwendung eines Zeitplans sicher, dass dieser veröffentlicht wird.
 * *Standort-, Zeitplan- und Kanalordner*: Wenn sich die entsprechenden Ressourcen in einem Ordner befinden.
 
-Nachdem Sie die Checkliste geprüft haben, müssen Sie die folgenden Änderungen/Verhaltensweisen in Ihrem Kanal überprüfen:
+Gehen Sie wie folgt vor, um das Autor-/Veröffentlichungsverhalten zu überprüfen:
 
-* Öffnen Sie nach dem Veröffentlichen der Gerätekonfiguration die Konfiguration des Screens-Players und verweisen Sie sie auf die Veröffentlichungsinstanz. Sie können das Gerät auch über die Geräteverwaltungskonsole aktivieren.
-* Aktualisieren Sie in der Autoreninstanz einige Kanalinhalte, veröffentlichen Sie sie und prüfen Sie, ob nun der aktualisierte Kanal im AEM Screens-Player angezeigt wird.
-* Verbinden Sie den Screens-Player mit einer anderen Veröffentlichungsinstanz und überprüfen Sie das oben beschriebene Verhalten.
+1. Kanalinhalt in Autoreninstanz aktualisieren
+1. Veröffentlichung **verwalten** , um neue Änderungen in allen Veröffentlichungsinstanzen zu veröffentlichen
+1. Drücken Sie **Aktivieren** , um das Gerät über den **Geräte-Manager zu aktivieren.**
+1. **URL** von der Instanz im Autorenmodus-URL zu einer der URL im Veröffentlichungsmodus bearbeiten
+1. Überprüfen Sie, ob der aktualisierte Kanalinhalt im AEM Screens Player angezeigt wird.
+1. Wiederholen Sie diese Schritte mit einer anderen Veröffentlichungsinstanz
+
 
 #### Schritt 5: Verweisen des Geräts auf eine Veröffentlichungsinstanz im Administratorbereich {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
@@ -296,5 +302,7 @@ Alternativ können Sie über die Geräteverwaltungskonsole die Server-URL aktual
 1. Select the device and click **Edit server URL** from the action bar, as shown in the figure below and your changes will be propagated to the AEM Screens player.
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
+
+The **Manage Publication** feature allows you to deliver content updates from author to publish to device. Sie können Inhalte für Ihr gesamtes AEM Screens-Projekt oder nur für einzelne Kanäle, Standorte, Geräte, Anwendungen oder einen Zeitplan veröffentlichen oder die Veröffentlichung aufheben. Weitere Informationen zu dieser Funktion finden Sie unter [On-Demand Content Update](on-demand-content.md).
 
 
