@@ -5,7 +5,7 @@ description: Folgen Sie diesem Verwendungsfall für die Erstellung eines permane
 seo-description: Befolgen Sie diesen Verwendungsfall beim Einrichten eines Projekts, das einen permanenten TakeOver-Kanal erstellt, der für einen bestimmten Tag und eine bestimmte Zeit kontinuierlich wiedergegeben wird.
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 5550cefe34770633bb2db86f5878d1ea7fd41d61
+source-git-commit: 75453128ce6c66e6fef9c5433a5e4389ef9f1c88
 
 ---
 
@@ -90,17 +90,18 @@ Gehen Sie wie folgt vor, um ein Projekt einzurichten:
       >Weitere Informationen zu den Ausdrücken, die Sie dem **Zeitplan** hinzufügen können, finden Sie im Abschnitt [Beispielausdrücke](#example-expressions) unten.
    * **aktiv von**: Startdatum und -zeit.
    * **aktiv bis**: Enddatum und -zeit.
-   Beispielsweise kann der Text in **Plan** und **aktiv von** und **aktiv bis** Datum und Uhrzeit hier jeden Mittwoch von 14.00 bis 16.00 Uhr abgespielt werden.
+
+      Beispielsweise kann der Text in **Plan** und **aktiv von** und **aktiv bis** Datum und Uhrzeit hier jeden Mittwoch von 14.00 bis 16.00 Uhr abgespielt werden.
 
 
-   ![Asset](assets/p_usecase7.png)
+      ![Asset](assets/p_usecase7.png)
 
-   Navigieren Sie zur Anzeige unter **Übernehmen** —> **Positionen** —> **Hauptlobby** —> **MainLobbyDisplay** und klicken Sie in der Aktionsleiste auf **Dashboard** , um die zugewiesenen Kanäle mit ihren Prioritäten anzuzeigen, wie unten dargestellt.
+      Navigieren Sie zur Anzeige unter **Übernehmen** —> **Positionen** —> **Hauptlobby** —> **MainLobbyDisplay** und klicken Sie in der Aktionsleiste auf **Dashboard** , um die zugewiesenen Kanäle mit ihren Prioritäten anzuzeigen, wie unten dargestellt.
 
-   >[!NOTE]
-   >Es ist obligatorisch, die Priorität des Übernahmekanals auf die höchste zu setzen.
+      >[!NOTE]
+      >Es ist obligatorisch, die Priorität des Übernahmekanals auf die höchste zu setzen.
 
-   ![asset](assets/p_usecase8.png)Now, der **TakeOver** -Kanal übernimmt den **MainAdChannel** um 14:00 Uhr für zwei Stunden bis 16:00 Uhr jeden Mittwoch und spielt seinen Inhalt von 09.01.2020 bis 31.01.2020.
+      ![asset](assets/p_usecase8.png)Now, der **TakeOver** -Kanal übernimmt den **MainAdChannel** um 14:00 Uhr für zwei Stunden bis 16:00 Uhr jeden Mittwoch und spielt seinen Inhalt von 09.01.2020 bis 31.01.2020.
 
 ## Example Expressions {#example-expressions}
 
