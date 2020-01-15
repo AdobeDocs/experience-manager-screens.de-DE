@@ -5,7 +5,7 @@ description: Folgen Sie diesem Verwendungsfall für die Erstellung eines permane
 seo-description: Befolgen Sie diesen Verwendungsfall beim Einrichten eines Projekts, das einen permanenten TakeOver-Kanal erstellt, der für einen bestimmten Tag und eine bestimmte Zeit kontinuierlich wiedergegeben wird.
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 874ddde28be840d0dcac197e48ca579a12661994
+source-git-commit: 5550cefe34770633bb2db86f5878d1ea7fd41d61
 
 ---
 
@@ -102,7 +102,7 @@ Gehen Sie wie folgt vor, um ein Projekt einzurichten:
 
    ![asset](assets/p_usecase8.png)Now, der **TakeOver** -Kanal übernimmt den **MainAdChannel** um 14:00 Uhr für zwei Stunden bis 16:00 Uhr jeden Mittwoch und spielt seinen Inhalt von 09.01.2020 bis 31.01.2020.
 
-### Example Expressions {#example-expressions}
+## Example Expressions {#example-expressions}
 
 Die folgende Tabelle fasst einige Beispielausdrücke zusammen, die Sie dem Zeitplan hinzufügen können, während Sie einem Display einen Kanal zuweisen.
 
@@ -112,8 +112,8 @@ Die folgende Tabelle fasst einige Beispielausdrücke zusammen, die Sie dem Zeitp
 | nach 14:00 Uhr | der Kanal wird täglich nach 14.00 Uhr wiedergegeben |
 | nach 12:15 und vor 12:45 | der Kanal wird 30 Minuten lang täglich nach 22:15 Uhr abgespielt |
 | vor 12:15 Uhr auch nach 12:45 | Der Kanal wird täglich vor 22:15 Uhr und danach auch nach 22:45 Uhr abgespielt |
-| am 1. Januar nach 14:00 Uhr auch am 2. Januar, auch am 3. Januar vor 3:00 Uhr | Der Kanal beginnt am 1. Januar um 12:45 Uhr, spielt am 2. Januar den ganzen Tag bis 3:00 Uhr am 3. Januar |
-| am 1./2. Januar nach 14:00 Uhr auch am 2./3. Januar vor 3:00 Uhr | Der Kanal startet den Player am 1. Januar um 12:45 Uhr, läuft bis 3:00 Uhr am 2. Januar und beginnt dann am 2. Januar um 2:45 Uhr und läuft bis 3:00 Uhr am 3. Januar |
+| am 1. Januar nach 14:00 Uhr auch am 2. Januar, auch am 3. Januar vor 3:00 Uhr | der Kanal beginnt am 1. Januar nach 14:00 Uhr zu spielen, läuft am 2. Januar den ganzen Tag bis 3:00 Uhr am 3. Januar |
+| am 1./2. Januar nach 14:00 Uhr auch am 2./3. Januar vor 3:00 Uhr | Der Kanal startet den Player am 1. Januar nach 14:00 Uhr, spielt bis 3:00 Uhr am 2. Januar weiter, dann beginnt er am 2. Januar um 14:00 Uhr und läuft bis 3:00 Uhr am 3. Januar |
 
 >[!NOTE]
 >Sie können auch _militärische Zeitschreibweise_ (d. h. 14:00 Uhr) anstelle von *AM/pm* -Notation (d. h. 14:00 Uhr) verwenden.
