@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: d076b0f2362b5feccc78d3984306d3036a6d916b
+source-git-commit: 389a44e3f6175e0a43a6e99edd3048f2b8455d0b
 
 ---
 
@@ -50,7 +50,7 @@ Gehen Sie wie folgt vor, um zu prüfen, ob diese beiden wichtigen Konfiguratione
 
    ![Assets](assets/health-check2.png)
 
-   Wenn einer oder beide Filter deaktiviert sind, wird eine Warnung für den Benutzer angezeigt, wie in der Abbildung unten dargestellt.
+   Wenn einer oder beide Filter deaktiviert sind, wird eine Warnung für den Benutzer angezeigt, wie in der folgenden Abbildung dargestellt.
 
    Die folgende Warnung zeigt Fälle, in denen beide Filter deaktiviert sind:
    ![Assets](assets/health-check3.png)
