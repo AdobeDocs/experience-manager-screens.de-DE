@@ -1,8 +1,8 @@
 ---
-title: Konfigurieren und Bereitstellen von AEM-Bildschirmen
+title: Konfigurieren und Bereitstellen von AEM Screens
 seo-title: Konfigurieren und Bereitstellen von Screens
-description: Der AEM Screens Player ist für Android, Chrome OS, iOS und Windows verfügbar. Diese Seite beschreibt die Konfiguration und Bereitstellung von AEM Screens und fasst die h/w-Auswahlrichtlinien für Player-Geräte zusammen.
-seo-description: Der AEM Screens Player ist für Android, Chrome OS, iOS und Windows verfügbar. Diese Seite beschreibt die Konfiguration und Bereitstellung von AEM Screens und fasst die h/w-Auswahlrichtlinien für Player-Geräte zusammen.
+description: Der AEM Screens-Player ist für Android, Chrome OS, iOS und Windows verfügbar. Diese Seite beschreibt die Konfiguration und Bereitstellung von AEM Screens und fasst die Hardware-Auswahlrichtlinien für Player-Geräte zusammen.
+seo-description: Der AEM Screens-Player ist für Android, Chrome OS, iOS und Windows verfügbar. Diese Seite beschreibt die Konfiguration und Bereitstellung von AEM Screens und fasst die Hardware-Auswahlrichtlinien für Player-Geräte zusammen.
 uuid: bf730d0f-e590-4c0d-a554-e1ff914eb420
 contentOwner: Jyotika syal
 content-type: reference
@@ -11,16 +11,16 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 9ee952340d8d966bbad6e6587686448b6413dcca
+source-git-commit: d076b0f2362b5feccc78d3984306d3036a6d916b
 
 ---
 
 
-# Configuring and Deploying AEM Screens {#configuring-and-deploying-aem-screens}
+# Konfigurieren und Bereitstellen von AEM Screens {#configuring-and-deploying-aem-screens}
 
-Auf dieser Seite erfahren Sie, wie Sie AEM Screens Player auf Ihren Geräten installieren und konfigurieren.
+Auf dieser Seite erfahren Sie, wie Sie die Player für Screens auf Ihren Geräten installieren und konfigurieren.
 
-## Serverkonfiguration {#server-configuration}
+## Server-Konfiguration {#server-configuration}
 
 >[!NOTE]
 >
@@ -28,36 +28,85 @@ Auf dieser Seite erfahren Sie, wie Sie AEM Screens Player auf Ihren Geräten ins
 >
 >Der AEM Screens-Player verwendet kein Site-übergreifendes Anforderungsfälschungs-Token (CSRF-Token). Um einen AEM-Server für den Einsatz von AEM Screens zu konfigurieren, müssen Sie daher den Referrer-Filter überspringen, indem Sie leere Referrer zulassen.
 
+## Gesundheitscheck-Rahmen {#health-check-framework}
+
+Mit dem Health Check-Framework kann der Benutzer überprüfen, ob zwei erforderliche Konfigurationen eingerichtet wurden, bevor ein AEM Screens-Projekt ausgeführt wird.
+
+Dadurch kann der Benutzer die folgenden beiden Konfigurationsprüfungen überprüfen, um ein AEM Screens-Projekt auszuführen, d. h., um den Status der folgenden beiden Filter zu überprüfen:
+
+1. **Leere verweisende Stelle zulassen**
+2. **https**
+
+Gehen Sie wie folgt vor, um zu prüfen, ob diese beiden wichtigen Konfigurationen für AEM Screens aktiviert sind:
+
+1. Navigieren Sie zu [Adobe Experience Manager Web ConsoleSling Health Check](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&overrideGlobalTimeout=).
+
+   ![Assets](assets/health-check1.png)
+
+
+2. Klicken Sie auf **Ausgewählte Gesundheitschecks** ausführen, um die Überprüfung für zwei oben aufgelistete Eigenschaften auszuführen.
+
+   Wenn beide Filter aktiviert sind, zeigt der **Bildschirmkonfigurationsdienst** das **Ergebnis** als **OK** an, wobei beide Konfigurationen aktiviert sind.
+
+   ![Assets](assets/health-check2.png)
+
+   Wenn einer oder beide Filter deaktiviert sind, wird eine Warnung für den Benutzer angezeigt, wie in der Abbildung unten dargestellt.
+
+   Die folgende Warnung zeigt Fälle, in denen beide Filter deaktiviert sind:
+   ![Assets](assets/health-check3.png)
+
+>[!NOTE]
+>
+>* Informationen zum Aktivieren des **Apache Sling Referrer-Filters** finden Sie unter Leere Referrer-Anforderungen [zulassen](/help/user-guide/configuring-screens-introduction.md#allow-empty-referrer-requests).
+>* Informationen zum Aktivieren des **HTTP** -Dienstes finden Sie unter [Apache Felix Jetty Based HTTP Service](/help/user-guide/configuring-screens-introduction.md#allow-apache-felix-service).
+
+
 ### Voraussetzungen {#prerequisites}
 
-Die folgenden wichtigen Punkte bieten Hilfestellung beim Konfigurieren von AEM-Servern für die Nutzung von AEM Screens:
+Die folgenden wichtigen Punkte bieten Hilfestellung beim Konfigurieren von AEM-Servern für die Nutzung von AEM Screens.
 
 #### Zulassen von leeren Referrer-Anforderungen {#allow-empty-referrer-requests}
 
-1. Navigieren Sie zur **Adobe Experience Manager Web Console-Konfiguration** über AEM-Instanz —> Hammer-Symbol —> **Vorgänge** —> **Web-Konsole**.
+1. Navigieren Sie zur **Konfiguration der Adobe Experience Manager-Web-Konsole** über AEM-Instanz > Hammersymbol > **Vorgänge** > **Web-Konsole**.
 
    ![screen_shot_2019-07-31at91253am](assets/screen_shot_2019-07-31at91253am.png)
 
-1. **Adobe Experience Manager Web Console Configuration** wird geöffnet. Suchen Sie nach einer verweisenden Stelle.
+1. Die **Konfiguration der Adobe Experience Manager-Web-Konsole** wird geöffnet. Suchen Sie nach „sling referrer“.
 
-   Zum Durchsuchen der Eigenschaft &quot;sling referrer&quot;drücken Sie **Befehl+F** für **Mac** und **Strg+F** für **Windows**.
+   Um nach der Eigenschaft „sling referrer“ zu suchen, drücken Sie **Befehl+F** für **Mac** und **Strg+F** für **Windows**.
 
    ![screen_shot_2019-07-31at91728am](assets/screen_shot_2019-07-31at91728am.png)
 
-1. Aktivieren Sie die Option &quot;Leeres Feld **zulassen** &quot;, wie in der Abbildung unten dargestellt.
+1. Check the **Allow Empty** option, as shown in the figure below.
 
    ![screen_shot_2019-07-31at91807am](assets/screen_shot_2019-07-31at91807am.png)
 
-1. Klicken Sie auf **Speichern** , um den Apache Sling Referrer-Filter Leer zulassen zu aktivieren.
+1. Klicken Sie auf **Speichern**, um den Apache Sling Referrer-Filter „Leere erlauben“ zu aktivieren.
 
-#### Touch-Benutzeroberfläche für AEM-Bildschirme aktivieren {#enable-touch-ui-for-aem-screens}
+#### Apache Felix Jetty-basierter HTTP-Dienst {#allow-apache-felix-service}
 
-AEM Screens erfordert die TOUCH-Benutzeroberfläche und funktioniert nicht mit der CLASSIC-Benutzeroberfläche von Adobe Experience Manager (AEM).
+1. Navigieren Sie zur **Konfiguration der Adobe Experience Manager-Web-Konsole** über AEM-Instanz > Hammersymbol > **Vorgänge** > **Web-Konsole**.
 
-1. Navigieren Sie zu *&lt;yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*
-1. Stellen Sie sicher, dass der **Standard-Authoring-UI-Modus** auf **TOUCH** eingestellt ist (siehe folgende Abbildung)
+   ![screen_shot_2019-07-31at91253am](assets/screen_shot_2019-07-31at91253am.png)
 
-Alternativ können Sie die gleiche Einstellung auch mit *&lt;IhrAuthorInstance>*->*Tools (Hammersymbol)* -> **Vorgänge** -> **Web-Konsole** durchführen und nach **WCM Authoring UI Mode Service** suchen.
+1. Die **Konfiguration der Adobe Experience Manager-Web-Konsole** wird geöffnet. Suchen Sie nach Apache Felix Jetty Based HTTP Service.
+
+   For searching this property, press **Command+F** for **Mac** and **Control+F** for **Windows**.
+
+1. Check the **ENABLE HTTP** option, as shown in the figure below.
+
+   ![screen_shot_2019-07-31at91807am](assets/http-image.png)
+
+1. Klicken Sie auf **Speichern** , um den *http* -Dienst zu aktivieren.
+
+#### Aktivieren der Touch-Benutzeroberfläche für AEM Screens {#enable-touch-ui-for-aem-screens}
+
+AEM Screens erfordert die TOUCH-Benutzeroberfläche und funktioniert nicht mit der KLASSISCHEN Benutzeroberfläche von Adobe Experience Manager (AEM).
+
+1. Navigieren Sie zu *&lt;IhreAutoreninstanz>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*
+1. Stellen Sie sicher, dass der **standardmäßige Authoring-Oberflächenmodus** auf **TOUCH** gesetzt ist, wie in der folgenden Abbildung gezeigt.
+
+Alternatively, you can also perform the same setting using *&lt;yourAuthorInstance>*->*tools (hammer icon)* -> **Operations** -> **Web Console** and search for **WCM Authoring UI Mode Service**.
 
 ![screen_shot_2018-12-04at22425pm](assets/screen_shot_2018-12-04at22425pm.png)
 
@@ -67,39 +116,46 @@ Alternativ können Sie die gleiche Einstellung auch mit *&lt;IhrAuthorInstance>*
 
 #### AEM im NOSAMPLECONTENT-Ausführungsmodus {#aem-in-nosamplecontent-runmode}
 
-Running AEM in production uses the **NOSAMPLECONTENT** runmode. *Entfernen Sie die Kopfzeile &quot;X-Frame-Options=SAMEORIGIN* &quot;(im Abschnitt &quot;Zusätzliche Antwort-Kopfzeile&quot;) aus
+Beim Ausführen von AEM in einer Produktionsumgebung wird der Ausführungsmodus **NOSAMPLECONTENT** verwendet. Entfernen Sie die Kopfzeile *X-Frame-Options=SAMEORIGIN* (im Abschnitt für zusätzliche Antwortkopfzeilen) aus
 
 `https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`.
 
-Dies ist erforderlich, damit AEM Screens Player Online-Kanäle wiedergeben kann.
+Dies ist erforderlich, damit der AEM Screens-Player Online-Kanäle wiedergeben kann.
 
 #### Kennworteinschränkungen {#password-restrictions}
 
-Mit den neuesten Änderungen an ***DeviceServiceImpl ***müssen Sie die Kennwortbeschränkungen nicht entfernen.
+Mit den neuesten Änderungen an ***DeviceServiceImpl ***müssen Sie die Kennworteinschränkungen nicht entfernen.
 
-Sie können ***DeviceServiceImpl ***über den unten stehenden Link konfigurieren, um die Kennwortbeschränkung beim Erstellen des Kennworts für die Bildschirmbenutzer zu aktivieren:
+Sie können ***DeviceServiceImpl ***über den unten stehenden Link konfigurieren, um die Kennworteinschränkungen zu aktivieren, während Sie das Kennwort für die Screens-Gerätebenutzer erstellen:
 
 `https://localhost:4502/system/console/configMgr/com.adobe.cq.screens.device.impl.DeviceService`
 
 Gehen Sie wie folgt vor, um ***DeviceServiceImpl ***zu konfigurieren:
 
-1. Navigieren Sie zur **Adobe Experience Manager Web Console-Konfiguration** über AEM-Instanz —> Hammer-Symbol —> **Vorgänge** —> **Web-Konsole**.
+1. Navigieren Sie zur **Konfiguration der Adobe Experience Manager-Web-Konsole** über AEM-Instanz > Hammersymbol > **Vorgänge** > **Web-Konsole**.
 
-1. **Adobe Experience Manager Web Console Configuration **wird geöffnet. Suchen Sie nach DeviceService. Drücken Sie zum Durchsuchen der Eigenschaft **Befehl+F** für **Mac** und **Strg+F** für **Windows**.
+1. Die Konfiguration der Adobe Experience Manager-Web-Konsole wird geöffnet. Suchen Sie nach „deviceservice“. Um nach der Eigenschaft zu suchen, drücken Sie **Befehl+F** für **Mac** und **Strg+F** für **Windows**.
 
 ![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
 
-#### Dispatcherkonfiguration {#dispatcher-configuration}
+#### Dispatcher-Konfiguration {#dispatcher-configuration}
 
-Weitere Informationen zum Konfigurieren des Dispatchers für ein AEM Screens-Projekt finden Sie unter [Konfigurieren von Dispatcher für ein AEM Screens-Projekt](dispatcher-configurations-aem-screens.md).
+Weitere Informationen zum Konfigurieren von Dispatcher für ein AEM Screens-Projekt finden Sie unter [Konfigurieren von Dispatcher für ein AEM Screens-Projekt](dispatcher-configurations-aem-screens.md).
 
 #### Java-Kodierung {#java-encoding}
 
-Set the ***Java encoding ***to Unicode.*Dfile.encoding=Cp1252 *funktioniert beispielsweise nicht.
+Stellen Sie die ***Java-Kodierung *** auf Unicode ein.*Dfile.encoding=Cp1252 *funktioniert beispielsweise nicht.
 
 >[!NOTE]
 >
 >**Empfehlung:**
 >
 >Für AEM Screens Server in Produktionsumgebungen wird HTTPS empfohlen.
+
+
+
+
+
+
+
 
