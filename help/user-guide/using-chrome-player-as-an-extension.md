@@ -3,8 +3,8 @@ title: Verwenden von Chrome-Player als Erweiterung
 seo-title: Verwenden von Chrome-Player als Erweiterung
 description: 'null'
 seo-description: 'null'
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: 1753009451e4bed75eb8241bcca887f7abe2f77b
 
 ---
 
@@ -19,11 +19,11 @@ Im Entwicklermodus kann der Chrome OS-Player als Chrome-Browser-Plug-in install
 
 Auf dieser Seite erfahren Sie, wie Sie den Chrome-Player als Browser-Erweiterung installieren.
 
-1. Klicken Sie hier, um den neuesten Chrome-Player herunterzuladen.
+1. Klicken Sie [hier](https://download.macromedia.com/screens/), um den neuesten Chrome-Player herunterzuladen.
 
 1. Entpacken Sie die Datei und speichern Sie sie auf der Festplatte.
 
-1. Öffnen Sie den Chrome-Browser, klicken Sie oben rechts auf das Menü mit den 3 Punkten und wählen Sie **Weitere Tools** &gt; **Erweiterungen** oder navigieren Sie direkt zu `chrome://extensions`.
+1. Öffnen Sie den Chrome-Browser, klicken Sie oben rechts auf das Menü mit den 3 Punkten und wählen Sie **Weitere Tools** > **Erweiterungen** oder navigieren Sie direkt zu `chrome://extensions`.
 
 1. Aktivieren Sie oben rechts den **Entwicklermodus**.
 
