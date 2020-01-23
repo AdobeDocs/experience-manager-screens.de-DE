@@ -10,8 +10,8 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: 9b68f76512fc090103f29c8c29c761b0f047416f
 
 ---
 
@@ -20,10 +20,9 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 >[!CAUTION]
 >
->Diese AEM Screens-Funktion ist nur verfügbar, wenn Sie das Feature Pack 2 für AEM 6.4.2 und das Feature Pack 4 für AEM 6.3.3 installiert haben.
-
+>Diese AEM Screens-Funktion ist nur verfügbar, wenn Sie das Feature Pack 2 für AEM 6.4.2 und das Feature Pack 4 für AEM 6.3.3 installiert haben.\
 >Wenden Sie sich an den Adobe-Support, um Zugriff auf diese Feature Packs zu erhalten. Wenn Sie die entsprechenden Berechtigungen erhalten haben, können Sie es von Package Share herunterladen.
->
+
 In diesem Abschnitt werden folgende Themen behandelt:
 
 * **Sequenzierung in Adobe Analytics mit AEM Screens**
@@ -31,7 +30,7 @@ In diesem Abschnitt werden folgende Themen behandelt:
 
 ## Sequenzierung in Adobe Analytics mit AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
 
-Der ***Sequenzierungsprozess*** beginnt mit dem Datenspeicherdienst, der den Adobe Analytics-Dienst aktiviert. Kanalinhalte senden Adobe Analytics-Ereignisse mit Kostenanalyse, d. h. die Erfassung von Datentests an Windows I/O und die Auslösung von Aufenthaltsereignissen werden ausgelöst. Die Ereignisse werden in der Index-DB gespeichert und weiter im Objektspeicher abgelegt. Basierend auf dem Zeitplan, den der Administrator festlegt, schneidet er die Daten aus dem Objektspeicher aus und überträgt sie weiter in den Blockspeicher. Es versucht, die maximale Datenmenge zu senden, wenn eine Verbindung besteht.
+Der ***Sequenzierungsprozess ***beginnt mit dem Datenspeicherdienst, der den Adobe Analytics-Dienst aktiviert. Kanalinhalte senden Adobe Analytics-Ereignisse mit Kostenanalyse, d. h. die Erfassung von Datentests an Windows I/O und die Auslösung von Aufenthaltsereignissen werden ausgelöst. Die Ereignisse werden in der Index-DB gespeichert und weiter im Objektspeicher abgelegt. Basierend auf dem Zeitplan, den der Administrator festlegt, schneidet er die Daten aus dem Objektspeicher aus und überträgt sie weiter in den Blockspeicher. Es versucht, die maximale Datenmenge zu senden, wenn eine Verbindung besteht.
 
 ### Sequenzierungsdiagramm {#sequencing-diagram}
 
