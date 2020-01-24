@@ -9,8 +9,8 @@ content-type: reference
 topic-tags: developing
 discoiquuid: 46bdc191-5056-41a4-9804-8f7c4a035abf
 targetaudience: target-audience new
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: ec8324ead3789a6cd5dde35a932c89e916709f70
 
 ---
 
@@ -33,7 +33,17 @@ Die benutzerdefinierte Poster-Komponente wird durch Erweitern der Bildkomponente
 
 ## Voraussetzungen {#prerequisites}
 
+Um dieses Tutorial abzuschließen, benötigen Sie Folgendes:
+
+1. [AEM 6.4](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/release-notes.html) oder [AEM 6.3](https://helpx.adobe.com/experience-manager/6-3/release-notes.html) + neuestes Screen Feature Pack
+1. [AEM Screens-Player](/help/user-guide/aem-screens-introduction.md)
+1. Lokale Entwicklungsumgebung
+
+Für die Tutorial-Schritte und Screenshots wird CRXDE-Lite genutzt. [Eclipse](https://docs.adobe.com/content/help/en/experience-manager-64/developing/devtools/aem-eclipse.html) - oder [IntelliJ](https://docs.adobe.com/content/help/en/experience-manager-64/developing/devtools/ht-intellij.html) -IDEs können auch verwendet werden, um das Tutorial abzuschließen. More information on using an IDE to [develop with AEM can be found here](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/project-setup.html#eclipse-ide).
+
 ## Projekt-Setup {#project-setup}
+
+Der Quell-Code eines Screens-Projekts wird normalerweise als Maven-Projekt mit mehreren Modulen verwaltet. Um das Tutorial zu beschleunigen, wurde ein Projekt mithilfe des [AEM-Projektarchetyps 13](https://github.com/adobe/aem-project-archetype) vorgeneriert. Weitere Informationen zum [Erstellen eines Projekts mit einem Maven-Archetyp für AEM-Projekte finden Sie hier](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/project-setup.html#maven-multimodule).
 
 1. Laden Sie die folgenden Pakete herunter und installieren Sie diese mit **CRX Package Manage** `http://localhost:4502/crx/packmgr/index.jsp)r:`
 
@@ -58,7 +68,7 @@ Die benutzerdefinierte Poster-Komponente wird durch Erweitern der Bildkomponente
 
 ## Erstellen der Poster-Komponente {#poster-cmp}
 
-Die Poster-Komponente stellt eine Erweiterung der standardmäßigen Bildkomponente dar. Ein Sling-Mechanismus `sling:resourceSuperType` wird verwendet, um die Kernfunktionalität der Bildkomponente zu erben, ohne dass Kopieren und Einfügen erforderlich ist. Weitere Informationen zu den Grundlagen der Sling-Anforderungsverarbeitung [finden Sie hier](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/using/the-basics.html#SlingRequestProcessing).
+Die Poster-Komponente stellt eine Erweiterung der standardmäßigen Bildkomponente dar. Ein Sling-Mechanismus `sling:resourceSuperType` wird verwendet, um die Kernfunktionalität der Bildkomponente zu erben, ohne dass Kopieren und Einfügen erforderlich ist. Weitere Informationen zu den Grundlagen der Sling-Anforderungsverarbeitung [finden Sie hier](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/the-basics.html#SlingRequestProcessing).
 
 Die Poster-Komponente wird im Vollbildmodus im Vorschau-/Produktionsmodus wiedergegeben. Im Bearbeitungsmodus ist es wichtig, die Komponente unterschiedlich wiederzugeben, um das Authoring des Sequenzkanals zu erleichtern.
 
@@ -225,7 +235,7 @@ Die Poster-Komponente wird im Vollbildmodus im Vorschau-/Produktionsmodus wieder
    </jcr:root>
    ```
 
-   Die Eigenschaft `sling:hideChildren`= `"[linkURL,size]`" wird auf dem Knoten `items` verwendet, um sicherzustellen, dass die Felder **linkURL** und **size** aus dem Dialogfeld ausgeblendet werden. Es genügt nicht, diese Knoten aus dem Poster-Dialogfeld zu entfernen. Mit der Eigenschaft `sling:hideResource="{Boolean}true"` auf der Registerkarte „Erreichbarkeit“ wird die gesamte Registerkarte ausgeblendet.
+   Die Eigenschaft `sling:hideChildren`= `"[linkURL,size]`&quot; wird auf dem Knoten `items` verwendet, um sicherzustellen, dass die Felder **linkURL** und **size** aus dem Dialogfeld ausgeblendet werden. Es genügt nicht, diese Knoten aus dem Poster-Dialogfeld zu entfernen. Mit der Eigenschaft `sling:hideResource="{Boolean}true"` auf der Registerkarte „Erreichbarkeit“ wird die gesamte Registerkarte ausgeblendet.
 
    Dem Dialogfeld werden zwei Auswahlfelder hinzugefügt, damit Autoren die Textposition und Farbe des Titels und der Beschreibung steuern können.
 
@@ -301,7 +311,7 @@ Die Poster-Komponente wird im Vollbildmodus im Vorschau-/Produktionsmodus wieder
 
 ## Erstellen Client-seitiger Bibliotheken {#clientlibs}
 
-Client-seitige Bibliotheken bieten einen Mechanismus zum Organisieren und Verwalten von CSS- und JavaScript-Dateien, die für eine AEM-Implementierung erforderlich sind. Weitere Informationen zur Verwendung Client-seitiger Bibliotheken [finden Sie hier](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/using/clientlibs.html).
+Client-seitige Bibliotheken bieten einen Mechanismus zum Organisieren und Verwalten von CSS- und JavaScript-Dateien, die für eine AEM-Implementierung erforderlich sind. Weitere Informationen zur Verwendung Client-seitiger Bibliotheken [finden Sie hier](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html).
 
 AEM Screens-Komponenten werden im Bearbeitungsmodus anders als im Vorschaumodus/Produktionsmodus dargestellt. Es werden zwei Gruppen von Client-Bibliotheken erstellt, eine für den Bearbeitungsmodus und eine für die Vorschau/Produktion.
 
@@ -325,7 +335,7 @@ AEM Screens-Komponenten werden im Bearbeitungsmodus anders als im Vorschaumodus/
 
    Die Eigenschaft `categories` ist eine Zeichenfolge, die die Client-Bibliothek identifiziert. Die Kategorie `cq.screens.components` wird sowohl im Bearbeitungs- als auch im Vorschau-/Produktionsmodus verwendet. Daher wird jedes in der Clientlib `shared` definierte CSS/JS in allen Modi geladen.
 
-   Es empfiehlt sich, in einer Produktionsumgebung niemals Pfade direkt zu /apps bereitzustellen. Die Eigenschaft `allowProxy` stellt sicher, dass auf die Pfade zu Client-Bibliotheks-CSS und -JS über ein Präfix `/etc.clientlibs` verwiesen wird. Weitere Informationen über die Eigenschaft „allowProxy“ [finden Sie hier](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/using/clientlibs.html#main-pars_title_8ced).
+   Es empfiehlt sich, in einer Produktionsumgebung niemals Pfade direkt zu /apps bereitzustellen. Die Eigenschaft `allowProxy` stellt sicher, dass auf die Pfade zu Client-Bibliotheks-CSS und -JS über ein Präfix `/etc.clientlibs` verwiesen wird. Weitere Informationen über die Eigenschaft „allowProxy“ [finden Sie hier](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html#main-pars_title_8ced).
 
 1. Erstellen Sie eine Datei mit dem Namen `css.txt` unter dem freigegebenen Ordner.
 
@@ -496,7 +506,7 @@ Die Poster-Komponente ist für die Verwendung in einem Sequenzkanal vorgesehen. 
 
 Das folgende Video zeigt die fertige Komponente und wie sie einem Sequenzkanal hinzugefügt werden kann. Der Kanal wird dann einer Standortsanzeige hinzugefügt und letztendlich einem Screens-Player zugewiesen.
 
->[!VIDEO](https://video.tv.adobe.com/v/22414?quaity=9&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/22414?quaity=9)
 
 ## Fertiger Code {#finished-code}
 
