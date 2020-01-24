@@ -1,8 +1,8 @@
 ---
 title: Adobe Analytics-Integration mit AEM Screens
 seo-title: Adobe Analytics-Integration mit AEM Screens
-description: Auf dieser Seite erfahren Sie mehr über die Integration von AEM Screens mit Adobe Analytics und erhalten einen Spielnachweis.
-seo-description: Auf dieser Seite erfahren Sie mehr über die Integration von AEM Screens mit Adobe Analytics und erhalten einen Spielnachweis.
+description: Folgen Sie dieser Seite, um mehr über die vorkonfigurierte Integration von AEM Screens mit Adobe Analytics zu erfahren und einen Wiedergabenachweis zu erhalten.
+seo-description: Folgen Sie dieser Seite, um mehr über die vorkonfigurierte Integration von AEM Screens mit Adobe Analytics zu erfahren und einen Wiedergabenachweis zu erhalten.
 uuid: 80d61af7-bf4d-46ca-a026-99a666c2e1a0
 contentOwner: jsyal
 content-type: reference
@@ -10,76 +10,76 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: b1a0e00e-0368-42c9-8bcd-5f00b4d0990c
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3621082c7880e61f659d3bca956159d22d7df6de
 
 ---
 
 
-# Adobe Analytics-Integration mit AEM Screens {#adobe-analytics-integration-with-aem-screens}
+# Adobe Analytics-Integration mit AEM Screens{#adobe-analytics-integration-with-aem-screens}
 
 >[!CAUTION]
 >
->Diese AEM Screens-Funktion ist nur verfügbar, wenn Sie AEM 6.4.2 Feature Pack 2 und AEM 6.3.3 Feature Pack 4 installiert haben.
+>Diese AEM Screens-Funktion ist nur verfügbar, wenn Sie das Feature Pack 2 für AEM 6.4.2 und das Feature Pack 4 für AEM 6.3.3 installiert haben.
 
 >[!NOTE]
->Um Zugriff auf eines dieser Feature Packs zu erhalten, müssen Sie sich an den Adobe Support wenden und den Zugriff anfordern. Wenn Sie die entsprechenden Berechtigungen erhalten haben, können Sie es von Package Share herunterladen.
+>Wenden Sie sich an den Adobe-Support, um Zugriff auf diese Feature Packs zu erhalten. Wenn Sie die entsprechenden Berechtigungen erhalten haben, können Sie es von Package Share herunterladen.
 
-Dieser Abschnitt behandelt die folgenden Themen:
+In diesem Abschnitt werden folgende Themen behandelt:
 
 * **Überblick**
 * **Architekturdetails**
-* **Eigenschaften konfigurieren**
+* **Konfigurieren der Eigenschaften**
 
 ## Überblick {#overview}
 
-***AEM Screens ***nutzt Adobe Analytics, und damit können Sie etwas Besonderes auf dem Markt erreichen - kanalübergreifende Analysen, die dazu beitragen, die lokal angezeigten Inhalte mit anderen Datenquellen zu korrelieren.
+***AEM Screens ***nutzt Adobe Analytics, um etwas Einzigartiges auf dem Markt erreichen: kanalübergreifende Analysen, die die Korrelation von lokal angezeigten Inhalten mit anderen Datenquellen ermöglichen.
 
-AEM Screens bietet eine Out-of-the-Box-Integration mit Adobe Analytics und einen Spielnachweis.
+AEM Screens bietet eine vorkonfigurierte Integration mit Adobe Analytics und liefert Ihnen einen Wiedergabenachweis.
 
-In diesem Abschnitt werden die folgenden Funktionen beim Verbinden eines AEM Screens-Projekts mit Adobe Analytics beschrieben:
+In diesem Abschnitt werden folgende Funktionen beschrieben, die beim Verbinden eines AEM Screens-Projekts mit Adobe Analytics genutzt werden:
 
-* Ermöglicht die Berichterstellung zum Nachweis der Wiedergabe nach Gerät
-* Ermöglicht die Berichterstellung zum Nachweis der Wiedergabe nach Asset
-* Stellt sicher, dass alle Player-Ereignisse erfasst und mit einem Zeitstempel versehen werden
-* Stellt sicher, dass alle Player-Ereignisse lokal gespeichert werden, wenn die Wiedergabe nicht mit einem Netzwerk verbunden ist
-* Ermöglicht die Erstellung von Feedback-Schleifen zur Verfolgung von Wiedergabeereignissen im Zeitverlauf
-* Ermöglicht das Ändern von Inhalt und Layouts anhand von Erfolgskriterien, die vom Inhaltsautor definiert wurden
+* Berichte zum Nachweis der Wiedergabe nach Gerät
+* Berichte zum Nachweis der Wiedergabe nach Asset
+* Sicherstellung, dass alle Player-Ereignisse erfasst und mit einem Zeitstempel versehen werden
+* Sicherstellung, dass alle Player-Ereignisse lokal gespeichert werden, wenn die Wiedergabe nicht mit einem Netzwerk verbunden ist
+* Erstellung von Feedback-Schleifen zur Verfolgung von Wiedergabeereignissen im Zeitverlauf
+* Ändern von Inhalten und Layouts anhand von Erfolgskriterien, die vom Inhaltsautor definiert wurden
 
-Die Integration von Adobe Analytics in AEM Screens setzt daher folgende *Ziele*:
+Eine Integration von Adobe Analytics mit AEM Screens hat somit folgende *Ziele*:
 
-* Aktivieren der ROI aus Digital Signage-Implementierungen
-* Analytics als Grundlage für die künftige Aktivierung der Erfassung und Analyse von Nutzungsinformationen integrieren
+* Fördern des ROI bei der Implementierung digitaler Beschilderungen
+* Integrieren von Analytics als Grundlage für die künftige Erfassung und Analyse von Nutzungsdaten
 
 ## Architekturdetails {#architectural-details}
 
-Kunden mit AEM Screens möchten verstehen, welche Inhalte zu welcher Zeit und für wie lange (aggregiert) angezeigt wurden. Dies ist die übliche Fähigkeit der Signage-Lösung. Statt eigene Analysen zu erstellen, nutzt AEM Screens Adobe Analytics, und damit können wir etwas Besonderes auf dem Markt erreichen - kanalübergreifende Analysen, die dazu beitragen, die lokalisierten Inhalte mit anderen Datenquellen zu korrelieren.
+Ein AEM Screens-Kunde möchte wissen, welche Inhalte wann wie lange angezeigt wurden (aggregiert). Dies ist eine gebräuchliche Funktion einer Beschilderungslösung. Statt eigene Analysen zu erstellen, nutzt AEM Screens Adobe Analytics, um etwas branchenweit Einzigartiges zu ermöglichen: kanalübergreifende Analysen, die dabei helfen, lokale angezeigte Inhalte mit anderen Datenquellen zu korrelieren.
 
-Im folgenden Architekturdiagramm wird die Integration von Adobe Analytics mit AEM Screens erläutert:
+Im folgenden Architekturdiagramm wird die Integration von Adobe Analytics mit AEM Screens veranschaulicht:
 
 ![screen_shot_2018-09-12at85611am](assets/screen_shot_2018-09-12at85611am.png)
 
-## Aktivieren von Adobe Analytics in AEM-Bildschirmen {#enabling-adobe-analytics-in-aem-screens}
+## Aktivieren von Adobe Analytics in AEM Screens {#enabling-adobe-analytics-in-aem-screens}
 
-Die Adobe Analytics-Einstellungen können über die OSGi-Konsole konfiguriert werden.
+Die Einstellungen von Adobe Analytics können über die OSGi-Konsole konfiguriert werden.
 
-Navigieren Sie zur **Adobe Experience Manager Web-Konsolenkonfiguration** , um Adobe Analytics für AEM-Bildschirme zu konfigurieren, wie in der folgenden Abbildung dargestellt:
+Navigieren Sie zur **Konfiguration der Adobe Experience Manager-Web-Konsole**, um Adobe Analytics für AEM Screens zu konfigurieren (wie in der folgenden Abbildung gezeigt):
 
 ![screen_shot_2018-09-04at25550pm](assets/screen_shot_2018-09-04at25550pm.png)
 
-## Screenanalysen: Aktivierungsfluss {#screens-analytics-enablement-flow}
+## Screens Analytics: Aktivierungsablauf {#screens-analytics-enablement-flow}
 
 >[!CAUTION]
 >
->Bevor Sie die Eigenschaften konfigurieren, wenden Sie sich an Ihren Adobe Relationship Manager, um ein Ticket zu erstellen, um einen **Analytics-API-Schlüssel** und ein **Analyseprojekt** für die Verwendung mit AEM Screens zu erhalten.
+>Wenden Sie sich vor der Konfiguration der Eigenschaften an Ihren Adobe Relationship Manager, damit dieser ein Ticket erstellt und Sie einen **Analytics-API-Schlüssel** sowie ein **Analytics-Projekt** zur Verwendung mit AEM Screens erhalten.
 
 ![]()
 
-### Eigenschaften konfigurieren {#configuring-the-properties}
+### Konfigurieren der Eigenschaften {#configuring-the-properties}
 
 >[!CAUTION]
 >
->Bevor Sie die Eigenschaften konfigurieren, wenden Sie sich an Ihren Adobe Relationship Manager, um ein Ticket zu erstellen, um einen **Analytics-API-Schlüssel** und ein **Analyseprojekt** für die Verwendung mit AEM Screens zu erhalten.
+>Wenden Sie sich vor der Konfiguration der Eigenschaften an Ihren Adobe Relationship Manager, damit dieser ein Ticket erstellt und Sie einen **Analytics-API-Schlüssel** sowie ein **Analytics-Projekt** zur Verwendung mit AEM Screens erhalten.
 
 In der folgenden Tabelle werden die Eigenschaften mit ihrer Beschreibung zur Konfiguration von Adobe Analytics für AEM Screens aufgeführt:
 
@@ -91,24 +91,24 @@ In der folgenden Tabelle werden die Eigenschaften mit ihrer Beschreibung zur Kon
   </tr>
   <tr>
    <td><strong>Analytics-URL</strong></td>
-   <td>URL zum Posten von Analysedaten vom Player. <br>
-   Entwicklungs-/Bereitstellungs</em> - https://cc-api-data-stage.adobe.io/ingest/<br /> <em>für die Produktion</em> - https://cc-api-data.adobe.io/ingest/</em><br /> <br /></td>
+   <td>URL zum Posten von Analysedaten aus dem Player. <br>
+   Für Entwicklung/Staging</em>: https://cc-api-data-stage.adobe.io/ingest/<br /> <em>Für Produktion</em>: https://cc-api-data.adobe.io/ingest/</em><br /> <br /></td>
   </tr>
   <tr>
    <td><strong>Analytics-API-Schlüssel</strong></td>
-   <td>API-Schlüssel für die Authentifizierung beim Adobe Analytics-Server (vom Konten-Manager bereitgestellt).</td>
+   <td>API-Schlüssel für die Authentifizierung beim Adobe Analytics-Server (bereitgestellt vom Account Manager).</td>
   </tr>
   <tr>
    <td><strong>Analytics-Projekt</strong></td>
-   <td>AEM Screens-Projekt, das in Ihrer Analyse für den Empfang von Daten konfiguriert wurde (bereitgestellt vom Accounts Manager).</td>
+   <td>Das AEM Screens-Projekt, das in Ihrer Analyse für den Empfang von Daten konfiguriert wurde (bereitgestellt vom Account Manager).</td>
   </tr>
   <tr>
    <td><strong>Umgebung</strong></td>
-   <td><p>Stage- oder Produktionsumgebung (wählen Sie entweder "Stage"oder "Produktion").</p></td>
+   <td><p>Staging- oder Produktionsumgebung (wählen Sie entweder „Staging“ oder „Produktion“ aus).</p></td>
   </tr>
   <tr>
-   <td><strong>Analytics-Senden-Frequenz</strong></td>
-   <td>Häufigkeit in Minuten, mit der Analysedaten von den Playern gesendet werden. Standardmäßig ist er auf 15 Minuten eingestellt.</td>
+   <td><strong>Analytics-Sendefrequenz</strong></td>
+   <td>Häufigkeit (in Minuten), mit der Analysedaten von den Playern gesendet werden. Standardmäßig ist der Wert auf 15 Minuten eingestellt.</td>
   </tr>
  </tbody>
 </table>
@@ -119,11 +119,11 @@ In der folgenden Tabelle werden die Eigenschaften mit ihrer Beschreibung zur Kon
 
 #### Verwenden des Adobe Analytics-Dienstes in AEM Screens {#using-adobe-analytics-service-in-aem-screens}
 
-Dieses Szenario ruft die Analytics-API über REST-Aufrufe eines Analytics-Dienstes in den Komponenten &quot;Firmware&quot;und &quot;Instrument&quot;auf, um explizit Ereignisse zu erstellen und zu senden, die für einen bestimmten Anwendungsfall spezifisch sind, während gleichzeitig die Erweiterbarkeit ermöglicht wird, bei der benutzerdefinierte Nachrichten von einem benutzerdefinierten entwickelten Kanal an Analytics gesendet werden können.
+In diesem Szenario wird die Analytics-API über REST-Aufrufe aus einem Analytics-Dienst in den Kernkomponenten „Firmware“ und „Instrumentenbildschirme“ aufgerufen, um explizit Ereignisse zu erstellen und zu senden, die für ein bestimmtes Nutzungsszenario spezifisch sind. Gleichzeitig ist eine Erweiterung möglich, bei der sich benutzerdefinierte Nachrichten von einem benutzerdefinierten Kanal an Analytics senden lassen.
 
-Analytics-Ereignisse werden offline in indexedDB und später chunked gespeichert und an die Cloud gesendet.
+Analytics-Ereignisse werden in indexedDB offline gespeichert und später aufgeteilt und an die Cloud gesendet.
 
 >[!NOTE]
 >
->Weitere Informationen zum ***Sequenzieren ***und zum***Standarddatenmodell für Ereignisse*** finden Sie unter Adobe Analytics für AEM-Bildschirme **[konfigurieren](configuring-adobe-analytics-aem-screens.md)**.
+>Weitere Informationen zum ***Sequenzieren ***und zum***Standarddatenmodell für Ereignisse*** finden Sie unter **[Konfigurieren von Adobe Analytics für AEM Screens](configuring-adobe-analytics-aem-screens.md)**.
 
