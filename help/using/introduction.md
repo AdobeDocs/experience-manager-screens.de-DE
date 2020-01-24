@@ -3,7 +3,7 @@ title: Einführung in [!UICONTROL AEM Screens]
 seo-title: Handbuch mit Best Practices für [!UICONTROL AEM Screens]-Projekte
 description: Diese Seite enthält einen Einführungsabschnitt zu AEM Screens.
 seo-description: Diese Seite enthält eine Einführung zu AEM Screens.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8a80ea5c79bfd9890211bd7e0d958ab0d4c2d4b6
 
 ---
@@ -52,9 +52,9 @@ AEM Screens ist eine einheitliche Authoring-/Wiedergabeplattform für die Bereit
 
 * **Interaktive Erlebnisse**: Mit AEM und dem SPA Editor kann in einem Screens-Kanal eine Touch-fähige Kiosk-Anwendung erzeugt und bereitgestellt werden. Empfohlen wird die Anwendung konsistenter Omnichannel-Designeigenschaften, eines Inaktivitäts-Timers zum Zurücksetzen des Erlebnisses und eines klaren Handlungsaufrufs dazu, welche Aufgaben die Anwendung ausführen kann. Die Landingpage sollte aus zentralen digitalen Elementen bestehen, die dazu dienen, Wert zu vermitteln sowie Benutzer an den Bildschirm zu locken und zur Interaktion einzuladen.
 
-AEM Screens bietet ein Framework zum Bereitstellen von Inhalten auf physischen Geräten. Inhalte werden in Screens Kanälen zugewiesen, die Medieninhalte oder Touchscreen-Anwendungen enthalten können. In diesem Framework kann eine AEM-Sites-Anwendung als Inhalt über einen Kanal bereitgestellt werden.
+AEM Screens bietet ein Framework zum Bereitstellen von Inhalten auf physischen Geräten. Inhalte werden in Screens Kanälen zugewiesen, die Medieninhalte oder Touchscreen-Anwendungen enthalten können. In diesem Framework kann eine AEM Sites-Anwendung als Inhalt über einen Kanal bereitgestellt werden.
 
-Bevor ein AEM-Sites in einem Kanal in Bildschirmen abgelegt wird, muss er für die Verwendung mit den Abmessungen des Anzeigegeräts formatiert werden, für das er vorgesehen ist.
+Bevor eine AEM Sites-Anwendung in Screens in einem Kanal abgelegt werden kann, muss sie für die Abmessungen des Anzeigegeräts formatiert werden.
 
 > [!NOTE]
 >
