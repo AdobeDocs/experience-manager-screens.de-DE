@@ -1,8 +1,8 @@
 ---
 title: Launches
 seo-title: Launches
-description: Autoren von Inhalten können zukünftige Versionen des Kanals (der Kanäle) erstellen, die als Launch bezeichnet werden. Wenn Sie das Live-Datum für diesen Launch festlegen, können Inhalte auf Geräten oder Playern live geschaltet werden.
-seo-description: Autoren von Inhalten können zukünftige Versionen des Kanals (der Kanäle) erstellen, die als Launch bezeichnet werden. Wenn Sie das Live-Datum für diesen Launch festlegen, können Inhalte auf Geräten oder Playern live geschaltet werden.
+description: Autoren von Inhalten können zukünftige Versionen von Kanälen erstellen, die als Launch bezeichnet werden. Wenn Sie das Live-Datum für diesen Launch festlegen, können Inhalte auf Geräten oder Playern live geschaltet werden.
+seo-description: Autoren von Inhalten können zukünftige Versionen von Kanälen erstellen, die als Launch bezeichnet werden. Wenn Sie das Live-Datum für diesen Launch festlegen, können Inhalte auf Geräten oder Playern live geschaltet werden.
 uuid: fb13117c-b99b-48bd-adb6-040dbd13af16
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7250f7a2150debc12b7cc7acc4193f6d4bd5aa7b
 
 ---
@@ -18,11 +18,11 @@ source-git-commit: 7250f7a2150debc12b7cc7acc4193f6d4bd5aa7b
 
 # Launches {#launches}
 
-Autoren von Inhalten können zukünftige Versionen des Kanals (der Kanäle) erstellen, die als **Launch** bezeichnet werden. Wenn Sie das Live-Datum für diesen Launch festlegen, können Inhalte auf Geräten oder Playern live geschaltet werden.
+Autoren von Inhalten können zukünftige Versionen von Kanälen erstellen, die als **Launch** bezeichnet werden. Wenn Sie das Live-Datum für diesen Launch festlegen, können Inhalte auf Geräten oder Playern live geschaltet werden.
 
 Mithilfe von Launches können Autoren die einzelnen Kanäle im Launch in der Vorschau anzeigen und sollten eine Anfrage zur Überprüfung starten können. Die Gruppe der Genehmigenden erhält eine Benachrichtigung und kann die Anfrage genehmigen oder ablehnen. Wenn das Live-Datum erreicht ist, wird der Inhalt auf den Geräten abgespielt.
 
-Wenn der Autor z. B. zukünftige Versionen von c1, c2 (Kanäle) erstellen möchte, wird ein Launch erstellt und ein Live-Datum festgelegt (z. B. 10. November, 08.00 Uhr). Alle weiteren Aktualisierungen des Inhalts werden zur Überprüfung gesendet. Nach der Genehmigung und am Live-Datum (10. November, 8:00 Uhr) wird der Inhalt bei diesem Launch auf den Geräten oder Playern wiedergegeben.
+Wenn der Autor z. B. zukünftige Versionen von c1, c2 (Kanäle) erstellen möchte, wird ein Launch erstellt und ein Live-Datum festgelegt (z. B. 10. November, 08:00 Uhr). Alle weiteren Aktualisierungen des Inhalts werden zur Überprüfung gesendet. Nach der Genehmigung und am Live-Datum (10. November, 8:00 Uhr) wird der Inhalt dieses Launches auf den Geräten oder Playern wiedergegeben.
 
 ## Voraussetzungen {#requirements}
 
@@ -40,11 +40,11 @@ Die **Übergangsphase** umfasst:
 * Veröffentlichen der Ressourcen zur Veröffentlichung von Instanzen
 * Zeit, die die Geräte zum Herunterladen des Inhalts von der Veröffentlichungsinstanz benötigen, sowie etwaige Zeitunterschiede zwischen Server und Player
 
-Angenommen, der Server befindet sich in PST und die Geräte in EST. Die maximale Zeitdifferenz beträgt in diesem Fall 3 Stunden. Es wird davon ausgegangen, dass die Promotion 1 Minute und die Veröffentlichung vom Autor bis zur Veröffentlichung 10 Minuten dauert und der Player die Ressourcen in der Regel in 10-15 min herunterladen kann. Dann ist Übergangsphase = Zeitunterschied (3 Stunden) + Zeit zum Bewerben des Launches (1 Min.) + Zeit für die Veröffentlichung des Launches (10 Min.) + Zeit zum Herunterladen auf den Player (10-15 Min.) + Puffer (z. B. 30 Min.) = 3 Stunden 56 Min. = 14160 Sekunden. Wann immer wir also einen Launch live planen, beginnt die Promotion um diesen Offset früher. In der obigen Gleichung nehmen die meisten Elemente nicht viel Zeit in Anspruch. Wenn wir den maximalen Zeitunterschied zwischen dem Server und einem Player kennen, können wir einen guten Schätzwert für diesen Offset verwenden.
+Angenommen, der Server befindet sich in PST und die Geräte in EST. Die maximale Zeitdifferenz beträgt in diesem Fall 3 Stunden. Es wird davon ausgegangen, dass die Promotion 1 Minute und die Veröffentlichung von der Autoren- auf der Veröffentlichungsinstanz 10 Minuten dauert und der Player die Ressourcen in der Regel in 10-15 Minuten herunterladen kann. Dann ist Übergangsphase = Zeitunterschied (3 Stunden) + Zeit für die Promotion des Launches (1 Min.) + Zeit für die Veröffentlichung des Launches (10 Min.) + Zeit zum Herunterladen auf den Player (10-15 Min.) + Puffer (z. B. 30 Min.) = 3 Stunden 56 Min. = 14160 Sekunden. Wann immer wir also einen Launch live planen, beginnt die Promotion um diesen Zeitversatz früher. In der obigen Gleichung nehmen die meisten Elemente nicht viel Zeit in Anspruch. Wenn wir den maximalen Zeitunterschied zwischen dem Server und einem Player kennen, können wir einen guten Schätzwert für diesen Versatz verwenden.
 
 ### Konfigurieren der standardmäßigen Übergangsphase {#configuring-out-of-the-box-grace-period}
 
-Standardmäßig ist die Übergangsphase für einen Launch auf 24 Stunden festgelegt. Das bedeutet, dass die Promotion mit diesem Offset beginnt, wenn wir für jeden Launch der Ressourcen unter */content/screens* ein Live-Datum festlegen. Wenn das Live-Datum beispielsweise auf 24. November, 9.00 Uhr und die Übergangsphase auf 24 Stunden eingestellt sind, beginnt der Promotion-Auftrag am 23. November, 09.00 Uhr.
+Standardmäßig ist die Übergangsphase für einen Launch auf 24 Stunden festgelegt. Das bedeutet, dass die Promotion mit diesem Versatz beginnt, wenn wir für einen Launch der Ressourcen unter */content/screens* ein Live-Datum festlegen. Wenn das Live-Datum beispielsweise auf 24. November, 9:00 Uhr und die Übergangsphase auf 24 Stunden eingestellt ist, beginnt der Promotion-Auftrag am 23. November, 09:00 Uhr.
 
 ### Herunterladen von Konfigurationen {#downloading-configurations}
 
@@ -68,7 +68,7 @@ launches.eventhandler.threadpool.priority=&quot;MIN&quot;*
 
 * `launches.eventhandler.launch.promotion.graceperiod=["/content/screens(/.&#42;):600"`, damit können Sie eine Übergangsphase von 600 Sekunden im Pfad */content/screens* einstellen.
 
-Das bedeutet, dass die Promotion mit diesem Offset beginnt, wenn Sie für jeden Launch der Ressourcen unter */content/screens* ein Live-Datum festlegen. Wenn das Live-Datum beispielsweise auf 24. November, 9.00 Uhr und die Übergangsphase auf 600 Sekunden eingestellt sind, beginnt der Promotion-Auftrag am 24. November, 08:50 Uhr.
+Das bedeutet, dass die Promotion mit diesem Versatz beginnt, wenn Sie für einen Launch der Ressourcen unter */content/screens* ein Live-Datum festlegen. Wenn das Live-Datum beispielsweise auf 24. November, 9.00 Uhr und die Übergangsphase auf 600 Sekunden eingestellt ist, beginnt der Promotion-Auftrag am 24. November, 08:50 Uhr.
 
 ## Verwenden von Launches {#using-launches}
 
@@ -81,7 +81,7 @@ Gehen Sie wie folgt vor, um Launches in Ihr AEM Screens-Projekt zu implementiere
 
 Gehen Sie wie folgt vor, um zukünftige Veröffentlichungsfunktionen in Ihr AEM Screens-Projekt zu implementieren:
 
-1. Navigieren Sie zum Kanal in Ihrem AEM Screens-Projekt, z. B. **LaunchesDemo** --> **Kanäle** --> **FutureLaunch** wie unten dargestellt.
+1. Navigieren Sie zum Kanal in Ihrem AEM Screens-Projekt, z. B. **LaunchesDemo** > **Kanäle** > **FutureLaunch** wie unten dargestellt.
 
    >[!CAUTION]
    >
@@ -93,7 +93,7 @@ Gehen Sie wie folgt vor, um zukünftige Veröffentlichungsfunktionen in Ihr AEM 
 
    ![screen_shot_2019-06-25at15459pm](assets/screen_shot_2019-06-25at15459pm.png)
 
-1. Der Assistent **Launch erstellen** wird geöffnet. Klicken Sie auf **+ Seiten hinzufügen**, um die AEM Screens-Kanäle auszuwählen, für die Sie den Launch erstellen möchten.
+1. Der Assistent **Launch erstellen** wird geöffnet. Klicken Sie auf **+Seiten hinzufügen**, um die AEM Screens-Kanäle auszuwählen, für die Sie den Launch erstellen möchten.
 
    ![screen_shot_2019-06-11at93710am](assets/screen_shot_2019-06-11at93710am.png)
 
@@ -105,14 +105,14 @@ Gehen Sie wie folgt vor, um zukünftige Veröffentlichungsfunktionen in Ihr AEM 
 
    ![screen_shot_2019-06-25at20128pm](assets/screen_shot_2019-06-25at20128pm.png)
 
-1. Enter the **Launch Title** as **SummerPromotions** and you do not need to set the **Launch Date**, as shown in the figure below. Klicken Sie auf **Erstellen**.
+1. Geben Sie unter **Launch-Titel** den Wert **SummerPromotions** ein. Sie müssen für **Launch-Datum** keinen Wert festlegen, wie in der folgenden Abbildung dargestellt. Klicken Sie auf **Erstellen**.
 
    >[!NOTE]
    >
-   >Wenn Sie die Option **Quellseiten-Livedaten übernehmen** *aktivieren*, können die Kanäle im Launch als Live-Kopien erstellt werden. Wenn Änderungen am ursprünglichen Kanal vorgenommen werden, werden diese Änderungen automatisch auf die Launch-Kanäle angewendet.
+   >Wenn Sie die Option **Quellseiten-Live-Daten übernehmen** *aktivieren*, können die Kanäle im Launch als Live Copies erstellt werden. Wenn Änderungen am ursprünglichen Kanal vorgenommen werden, werden diese Änderungen automatisch auf die Launch-Kanäle angewendet.
    >
    >
-   >Durch *Deaktivieren* der Option **Quellseiten-Livedaten übernehmen** können die Kanäle ohne Live-Beziehung in den Launch kopiert werden. Wenn also Änderungen am ursprünglichen Kanal vorgenommen werden, werden diese Änderungen nicht auf die Launch-Kanäle angewendet.
+   >Durch *Deaktivieren* der Option **Quellseiten-Live-Daten übernehmen** können die Kanäle ohne Live-Beziehung in den Launch kopiert werden. Wenn also Änderungen am ursprünglichen Kanal vorgenommen werden, werden diese Änderungen nicht auf die Launch-Kanäle angewendet.
 
    ![screen_shot_2019-06-25at20215pm](assets/screen_shot_2019-06-25at20215pm.png)
 
@@ -124,7 +124,7 @@ Gehen Sie wie folgt vor, um zukünftige Veröffentlichungsfunktionen in Ihr AEM 
 
    ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
 
-   Durch Klicken auf **Fertig** können Sie zurück zu Ihrem **LaunchesDemo**-Projekt navigieren.
+   Durch Klicken auf **Fertig** können Sie zurück zu Ihrem Projekt **LaunchesDemo** navigieren.
 
    ![screen_shot_2019-06-25at20434pm](assets/screen_shot_2019-06-25at20434pm.png)
 
@@ -138,7 +138,7 @@ Gehen Sie wie folgt vor, um die Eigenschaften für den Launch zu bearbeiten:
 
    >[!NOTE]
    >
-   >Select the **Content Tree** option from the left rail to open the launch you created.
+   >Wählen Sie in der linken Leiste die Option **Inhaltsstruktur** aus, um den von Ihnen erstellten Launch zu öffnen.
 
    ![screen_shot_2019-06-25at25852pm](assets/screen_shot_2019-06-25at25852pm.png)
 
@@ -146,7 +146,7 @@ Gehen Sie wie folgt vor, um die Eigenschaften für den Launch zu bearbeiten:
 
    ![screen_shot_2019-06-25at30008pm](assets/screen_shot_2019-06-25at30008pm.png)
 
-1. Das Launch-Dialogfeld **SummerPromotions** wird geöffnet. Füllen Sie die folgenden Felder aus:
+1. Das Dialogfeld für den Launch **SummerPromotions** wird geöffnet. Füllen Sie die folgenden Felder aus:
 
    * Wählen Sie das **Launch-Datum** aus
    * Aktivieren Sie **Produktionsbereit**
@@ -156,8 +156,8 @@ Gehen Sie wie folgt vor, um die Eigenschaften für den Launch zu bearbeiten:
    >Verstehen der Launch-Einträge unter **Automatische Promotion**:
 
    >    * **Launch-Datum** bezieht sich auf das Live-Datum, d. h. das Datum (und die Uhrzeit), zu dem der Inhalt im Screens-Player gemäß der Zeitzone des Players wiedergegeben wird.
-   >    * **Produktionsbereit** ermöglicht die Promotion Kanäle und bedeutet, dass der Launch verwendet werden kann.
-   >    * **Umfang** bezieht sich auf die Kanäle, die während eines Launch beworben werden können.
+   >    * **Produktionsbereit** ermöglicht die Promotion von Kanälen und bedeutet, dass der Launch verwendet werden kann.
+   >    * **Umfang** bezieht sich auf die Kanäle, die während eines Launches beworben werden können.
 
 
    Die folgenden drei Optionen stehen zur Einrichtung des Umfangs zur Verfügung:
