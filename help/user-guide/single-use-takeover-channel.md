@@ -1,105 +1,105 @@
 ---
-title: Einmalige Verwendung Übernahmekanal
-seo-title: Einmalige Verwendung Übernahmekanal
-description: Folgen Sie diesem Verwendungsfall für die Erstellung eines Single Use TakeOver-Kanals.
-seo-description: Folgen Sie diesem Verwendungsfall für die Erstellung eines Single Use TakeOver-Kanals.
+title: Übernahmekanal für die einmalige Verwendung
+seo-title: Übernahmekanal für die einmalige Verwendung
+description: In diesem Nutzungsszenario erfahren Sie, wie Sie einen Übernahmekanal für die einmalige Verwendung erstellen.
+seo-description: In diesem Nutzungsszenario erfahren Sie, wie Sie einen Übernahmekanal für die einmalige Verwendung erstellen.
 contentOwner: jsyal
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d64eb2ca3efc4d15be119c9b8efd9ff2b8f8daf4
 
 ---
 
 
-# Einmalige Verwendung Übernahmekanal {#single-use-takeover-channel}
+# Übernahmekanal für die einmalige Verwendung {#single-use-takeover-channel}
 
-Auf der folgenden Seite wird ein Anwendungsfall vorgestellt, der sich mit der Einrichtung eines Projekts zur Erstellung eines einzigen TakeOver-Kanals befasst, der nur einmal für eine bestimmte Zeit wiedergegeben wird.
+Auf der folgenden Seite finden Sie ein Nutzungsszenario, in dem ein Projekt eingerichtet wird, in dem ein Übernahmekanal für die einmalige Verwendung erstellt wird, der nur einmal für eine bestimmte Zeit wiedergegeben wird.
 
 
 ## Nutzungsszenario – Beschreibung {#use-case-description}
 
-In diesem Verwendungsfall wird erläutert, wie ein Kanal erstellt wird, der den normalen Wiedergabekanal für eine Anzeige oder Gruppe von Bildschirmen *übernimmt* . Die Übernahme erfolgt nur ein- und mehrmals.
-So gibt es zum Beispiel einen Single TakeOver-Kanal, der am Freitag von 9 Uhr bis 10 Uhr abgespielt wird. Während dieser Zeit sollte kein anderer Kanal wiedergegeben werden. Vor und nach dieser Zeit wird der Einmal-Use-Übernahmekanal nicht wiedergegeben. Das folgende Beispiel zeigt die Erstellung eines einzelnen Übernahmekanals, der abgespielt wird, sodass der Inhalt 2 Minuten vor 12:00 Uhr am 31. Dezember bis 12:01 Uhr abgespielt werden kann.
+In diesem Nutzungsszenario wird erläutert, wie Sie einen Kanal erstellen, der den normalerweise wiedergegebenen Kanal für eine Anzeige oder eine Gruppe von Anzeigen *übernimmt*. Die Übernahme erfolgt nur einmal und für eine bestimmte Zeit.
+Beispielsweise gibt es einen Übernahmekanal für die einmalige Verwendung, der am Freitag von 9:00 Uhr bis 10:00 Uhr wiedergegeben wird. Während dieser Zeit sollte kein anderer Kanal wiedergegeben werden. Vor und nach dieser Zeit wird der Übernahmekanal für die einmalige Verwendung nicht abgespielt. Das folgende Beispiel zeigt die Erstellung eines Übernahmekanals für die einmalige Verwendung, der es ermöglicht, den Inhalt für 2 Minuten vor Mitternacht am 31. Dezember bis 00:01 Uhr wiederzugeben.
 
 ### Voraussetzungen {#preconditions}
 
-Bevor Sie mit diesem Anwendungsfall beginnen, sollten Sie wissen, wie:
+Bevor Sie mit diesem Nutzungsszenario beginnen, sollten Sie sich mit den folgenden Themen vertraut machen:
 
-* **[Kanäle erstellen und verwalten](managing-channels.md)**
-* **[Orte erstellen und verwalten](managing-locations.md)**
-* **[Zeitpläne erstellen und verwalten](managing-schedules.md)**
+* **[Erstellen und Verwalten von Kanälen](managing-channels.md)**
+* **[Erstellen und Verwalten von Standorten](managing-locations.md)**
+* **[Erstellen und Verwalten von Zeitplänen](managing-schedules.md)**
 * **[Geräteregistrierung](device-registration.md)**
 
 ### Hauptakteure {#primary-actors}
 
-Inhaltsersteller
+Autoren von Inhalten
 
-## Setting up the Project {#setting-up-the-project}
+## Einrichten des Projekts {#setting-up-the-project}
 
 Gehen Sie wie folgt vor, um ein Projekt einzurichten:
 
 **Einrichten der Kanäle und Anzeigen**
 
-1. Erstellen Sie ein AEM Screens-Projekt mit dem Titel **SingleUseTakeOver**(siehe unten).
+1. Erstellen Sie ein AEM Screens-Projekt mit dem Namen **SingleUseTakeOver**, wie unten dargestellt.
 
    ![Asset](assets/single-takeover1.png)
 
-1. Erstellen Sie einen **MainAdChannel** im Ordner &quot; **Channels** &quot;.
+1. Erstellen Sie einen Kanal **MainAdChannel** im Ordner **Kanäle**.
 
    ![Asset](assets/single-takeover2.png)
 
-1. Wählen Sie den **MainAdChannel** aus und klicken Sie in der Aktionsleiste auf **Bearbeiten** . Ziehen Sie Elemente (Bilder, Videos, eingebettete Sequenzen) per Drag &amp; Drop in Ihren Kanal.
+1. Wählen Sie den Kanal **MainAdChannel** aus und klicken Sie in der Aktionsleiste auf **Bearbeiten**. Ziehen Sie einige Assets (Bilder, Videos, eingebettete Sequenzen) in Ihren Kanal.
 
    ![Asset](assets/single-takeover2.png)
 
 
    >[!NOTE]
-   >Der **MainAdChannel** in diesem Beispiel zeigt einen Sequenzkanal, der Inhalt kontinuierlich wiedergibt.
+   >Der Kanal **MainAdChannel** in diesem Beispiel ist ein Sequenzkanal, der Inhalt kontinuierlich wiedergibt.
 
    ![Asset](assets/single-takeover3.png)
 
-1. Erstellen Sie einen **TakeOver** -Kanal, der den Inhalt in **MainAdChannel** übernimmt und nur für einen bestimmten Tag und eine bestimmte Zeit abspielt.
+1. Erstellen Sie einen Kanal **TakeOver**, der den Inhalt des Kanals **MainAdChannel** übernimmt und nur einmal an einem bestimmten Tag und zu einer bestimmten Uhrzeit wiedergibt.
 
-1. Wählen Sie das **Übernehmen** aus und klicken Sie in der Aktionsleiste auf **Bearbeiten** . Ziehen Sie Elemente per Drag &amp; Drop in Ihren Kanal. Im folgenden Beispiel wird ein Bild für eine einzelne Zone gezeigt, das diesem Kanal hinzugefügt wurde.
+1. Wählen Sie den Kanal **TakeOver** aus und klicken Sie in der Aktionsleiste auf **Bearbeiten**. Ziehen Sie einige Assets in Ihren Kanal. Im folgenden Beispiel wird gezeigt, wie Sie diesem Kanal ein Bild für eine Einzelzone hinzufügen.
 
    ![Asset](assets/single-takeover4.png)
 
-1. Richten Sie einen Ort und eine Anzeige für Ihre Kanäle ein. Beispielsweise wird für dieses Projekt der folgende Speicherort **Lobby** und **MainLobbyDisplay** eingerichtet.
+1. Richten Sie einen Standort und eine Anzeige für Ihre Kanäle ein. Beispielsweise werden für dieses Projekt der Standort **Lobby** und die Anzeige **MainLobbyDisplay** eingerichtet.
 
    ![Asset](assets/single-takeover5.png)
 
 **Zuweisen von Kanälen zu einer Anzeige**
 
-1. Wählen Sie die Anzeige **MainLobbyDisplay** aus dem Ordner **Locations** . Click **Assign Channel** from the action bar.
+1. Wählen Sie die Anzeige **MainLobbyDisplay** aus dem Ordner **Standorte** aus. Klicken Sie in der Aktionsleiste auf **Kanal zuweisen**.
 
    ![Asset](assets/single-takeover6.png)
 
    >[!NOTE]
    >Informationen zum Zuweisen eines Kanals zu einer Anzeige finden Sie unter **[Kanalzuweisung](channel-assignment.md)**.
 
-1. Füllen Sie die Felder (**Kanalpfad**, **Priorität** und **unterstützte Ereignisse**) im Dialogfeld &quot;Kanalzuweisung **&quot;aus und klicken Sie auf** Speichern ****. Sie haben nun den **MainAdChannel** Ihrer Anzeige zugewiesen.
+1. Füllen Sie die Felder (**Kanalpfad**, **Priorität** und **unterstützte Ereignisse**) im Dialogfeld **Kanalzuweisung** aus und klicken Sie auf **Speichern**. Sie haben Ihrer Anzeige den Kanal **MainAdChannel** zugewiesen.
 
    ![Asset](assets/single-takeover7.png)
 
-1. Wählen Sie die Anzeige **TakeOver** aus dem Ordner **Locations** . Klicken Sie in der Aktionsleiste auf Kanal **zuweisen** , um den Übernahmekanal für einzelne Benutzer zuzuweisen.
+1. Wählen Sie die Anzeige **TakeOver** aus dem Ordner **Standorte** aus. Klicken Sie in der Aktionsleiste auf **Kanal zuweisen**, um den Übernahmekanal für die einmalige Verwendung zuzuweisen.
 
-1. So weisen Sie der Anzeige den **TakeOver** -Kanal zu einem geplanten Zeitpunkt zu und füllen die folgenden Felder im Dialogfeld &quot; **Kanalzuweisung** &quot;aus und klicken auf **Speichern**:
+1. Um den **TakeOver**-Kanal Ihrer Anzeige zu einem geplanten Zeitpunkt zuzuweisen, füllen die folgenden Felder im Dialogfeld **Kanalzuweisung** aus und klicken Sie auf **Speichern**:
 
-   * **Kanalpfad**: Wählen Sie den Pfad zum TakeOver-Kanal
-   * **Priorität**: Legen Sie die Priorität dieses Kanals höher als **MainAdChannel** fest. Die in diesem Beispiel eingestellte Priorität ist beispielsweise 8.
+   * **Kanalpfad**: Wählen Sie den Pfad zum Kanal „TakeOver“ aus
+   * **Priorität**: Legen Sie die Priorität dieses Kanals höher als die von **MainAdChannel** fest. Die in diesem Beispiel eingestellte Priorität ist beispielsweise „8“.
       >[!NOTE]
-      >Priorität kann jeder Wert sein, der höher ist als der Prioritätswert des normalerweise wiedergegebenen Kanals.
-   * **Unterstützte Ereignisse**: Wählen Sie den **Leerbildschirm** und den **Timer** aus.
-   * **Plan**: Geben Sie den Text für den Zeitplan ein, in dem die Anzeige ausgeführt werden soll. Der Text hier ermöglicht es zum Beispiel, den Inhalt 2 Minuten vor 12:00 Uhr am 31. Dezember bis 12:01 Uhr abzuspielen.
-Der in diesem Beispiel erwähnte Text im **Zeitplan** ist *am 31. Dezember nach 23:58 Uhr und am 1. Januar vor 00.01*.
+      >Die Priorität kann ein beliebiger Wert sein, der höher als die Priorität des normalerweise wiedergegebenen Kanals ist.
+   * **Unterstützte Ereignisse**: Wählen Sie **Bildschirm bei Untätigkeit** und **Timer** aus.
+   * **Zeitplan**: Geben Sie den Text für den Zeitplan ein, nach dem dieser Kanal die Anzeige ausführen soll. Dieser Text hier ermöglicht es beispielsweise, den Inhalt 2 Minuten vor Mitternacht am 31. Dezember bis 12:01 Uhr wiederzugeben.
+Der in diesem Beispiel erwähnte Text im **Zeitplan** ist *am 31. Dezember nach 23:58 Uhr und auch am 1. Januar vor 00.01 Uhr*.
 
       ![Asset](assets/single-takeover8.png)
 
-      Navigieren Sie zur Anzeige von **SingleUseTakeOver** —> **Locations** —> **Lobby** —> **MainLobbyDisplay** und klicken Sie in der Aktionsleiste auf **Dashboard** , um die zugewiesenen Kanäle mit ihren Prioritäten anzuzeigen, wie unten dargestellt.
+      Navigieren Sie zur Anzeige unter **SingleUseTakeOver** > **Standorte** > **Lobby** > **MainLobbyDisplay** und klicken Sie in der Aktionsleiste auf **Dashboard**, um die zugewiesenen Kanäle mit ihren Prioritäten anzuzeigen (siehe unten).
 
       >[!NOTE]
-      >Es ist obligatorisch, die Priorität des Übernahmekanals auf die höchste zu setzen.
+      >Es ist zwingend erforderlich, die Priorität des Übernahmekanals auf die höchste zu setzen.
 
       ![Asset](assets/single-takeover9.png)
 
 >[!NOTE]
->Es empfiehlt sich, den &quot;Single Use Take Over&quot;-Kanal nach der Wiedergabe zu löschen.
+>Es empfiehlt sich, den Übernahmekanal für die einmalige Verwendung nach der Wiedergabe zu löschen.
