@@ -1,16 +1,16 @@
 ---
-title: Dauer der Bildwiedergabe
-seo-title: Dauer der Bildwiedergabe
-description: Auf dieser Seite erfahren Sie mehr über die Wiedergabedauer des Bildes.
-seo-description: Auf dieser Seite erfahren Sie mehr über die Wiedergabedauer des Bildes.
+title: Bildwiedergabedauer
+seo-title: Bildwiedergabedauer
+description: Auf dieser Seite erfahren Sie mehr über die Bildwiedergabedauer.
+seo-description: Auf dieser Seite erfahren Sie mehr über die Bildwiedergabedauer.
 contentOwner: jsyal
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 69a40e437fa9b19e283bcf1a1322d18e17990a49
 
 ---
 
 
-# Dauer der Bildwiedergabe {#image-playback-duration}
+# Bildwiedergabedauer {#image-playback-duration}
 
 ## Überblick {#overview}
 
