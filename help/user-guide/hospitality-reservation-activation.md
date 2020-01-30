@@ -16,7 +16,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 ---
 
 
-#  Aktivierung der Gastgewerbereservierung {#hospitality-reservation-activation}
+# Aktivierung der Gastgewerbereservierung {#hospitality-reservation-activation}
 
 Das folgende Nutzungsszenario veranschaulicht die Verwendung der Aktivierung von Reservierungen im Gastgewerbe anhand der in Google Tabellen angegebenen Werten.
 
