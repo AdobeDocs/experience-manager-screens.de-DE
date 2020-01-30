@@ -63,7 +63,7 @@ Sehen Sie sich das folgende Tutorial an, um sich mit Tests, Machbarkeitsstudien,
 
 Wenn Sie alle diese Schritte als Teil des übergeordneten Projektplans betrachten, können Sie Erwartungen besser steuern und natürliche Punkte identifizieren, mit denen sich die Investitionen in eine AEM Screens-Implementierung bewerten lassen.
 
-###  Tests, Machbarkeitsstudien, Pilotprogramme und Rollouts
+### Tests, Machbarkeitsstudien, Pilotprogramme und Rollouts
 
 >[!VIDEO](https://video.tv.adobe.com/v/28405?captions=ger)
 
