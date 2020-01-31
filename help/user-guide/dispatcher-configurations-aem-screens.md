@@ -10,8 +10,8 @@ content-type: reference
 topic-tags: administering
 discoiquuid: 1b1a36a4-4f95-41e3-b0a8-74249efb0119
 docset: aem65
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: 9bee12b69ae85e84572b6f9e8c70f792895d9a32
 
 ---
 
@@ -21,6 +21,10 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 Dispatcher ist ein Tool von Adobe Experience Manager für das Zwischenspeichern und/oder den Lastenausgleich.
 
 Die folgende Seite enthält die Richtlinien zum Konfigurieren von Dispatcher für ein AEM Screens-Projekt.
+
+>[!NOTE]
+>Wenn ein Dispatcher verfügbar ist, können Verbindungen zum Registrierungs-Servlet durch Filtern in den Dispatcher-Regeln verhindert werden.
+>Wenn kein Dispatcher vorhanden ist, deaktivieren Sie das Registrierungs-Servlet in der Liste der OSGi-Komponenten.
 
 ## Voraussetzungen {#pre-requisites}
 
@@ -44,7 +48,7 @@ Fügen Sie dem Abschnitt `/clientheaders` Folgendes hinzu:
 
 ### Schritt 2: Konfigurieren von Screens-Filtern {#step-configuring-screens-filters}
 
-Fügen Sie ***/filter*** Folgendes hinzu, um Screens-Filter zu konfigurieren.
+Fügen Sie ***/filter ***Folgendes hinzu, um Screens-Filter zu konfigurieren.
 
 ```
 ## AEM Screens Filters
@@ -66,4 +70,4 @@ Fügen Sie ***/filter*** Folgendes hinzu, um Screens-Filter zu konfigurieren.
 
 ### Schritt 3: Deaktivieren von Dispatcher-Cache {#step-disabling-dispatcher-cache}
 
-Deaktivieren Sie die Dispatcher-Zwischenspeicherung für ***/content/screens path***.
+Deaktivieren Sie die Dispatcher-Zwischenspeicherung für ***/content/screens path ***.
