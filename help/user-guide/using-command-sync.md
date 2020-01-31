@@ -4,20 +4,22 @@ seo-title: Verwenden der Befehlssynchronisierung
 description: Auf dieser Seite erfahren Sie, wie Sie die Befehlssynchronisierung verwenden.
 seo-description: Auf dieser Seite erfahren Sie, wie Sie die Befehlssynchronisierung verwenden.
 translation-type: tm+mt
-source-git-commit: 1753009451e4bed75eb8241bcca887f7abe2f77b
+source-git-commit: dbc20693481e6f6f379eb93bbf40ed9961589d00
 
 ---
 
 
 # Befehlssynchronisierung {#command-sync}
 
-Auf der folgenden Seite wird die Verwendung der Befehlssynchronisierung beschrieben. Mithilfe der Befehlssynchronisierung kann die Wiedergabe über verschiedene Player hinweg synchronisiert werden. Die Player können unterschiedliche Inhalte wiedergeben, aber jedes Asset muss dieselbe Dauer haben.
+Auf der folgenden Seite wird die Verwendung der Befehlssynchronisierung beschrieben. Die Befehlssynchronisierung ermöglicht die synchronisierte Wiedergabe über verschiedene Player hinweg. Die Player können unterschiedliche Inhalte abspielen, aber jedes Asset muss dieselbe Dauer haben.
 
 ## Überblick {#overview}
 
-Digital Signage-Lösungen müssen Videowände und die synchronisierte Wiedergabe unterstützen, um Szenarien wie Neujahrs-Countdowns oder große Videos zu ermöglichen, die auf mehreren Bildschirmen wiedergegeben werden. Hier kommt die Inhaltssynchronisierung zum Tragen.
+Die Lösungen für digitale Schilder müssen Videowände und synchronisierte Wiedergabe unterstützen, um Szenarien wie Neujahrszählungen oder große Videoschnitte zu unterstützen, die über mehrere Bildschirme verteilt abgespielt werden können. In diesem Fall kommt die Befehlssynchronisierung sofort zum Einsatz.
 
-To use Command Sync, one player acts as a *master* and send command and all the other players act as *clients* and play when they receive the command. Der *Master* sendet einen Befehl an alle registrierten Clients, wenn er im Begriff ist, die Wiedergabe eines Elements zu starten. Die Nutzlast kann hier der Index bzw. der äußere HTML-Code des abzuspielenden Elements sein.
+To use Command Sync, one player acts as a *master* and sends command and all the other players act as *clients* and play when they receive the command.
+
+Der *Master* sendet einen Befehl an alle registrierten Clients, wenn er im Begriff ist, die Wiedergabe eines Elements zu starten. Die Nutzlast kann hier der Index bzw. der äußere HTML-Code des abzuspielenden Elements sein.
 
 ## Implementierung der Befehlssynchronisierung {#using-command-sync}
 
@@ -63,7 +65,7 @@ Bevor Sie die Funktion für die Befehlssynchronisierung verwenden, stellen Sie s
 ### Setting up a Master {#setting-up-master}
 
 1. Navigieren Sie zum Display-Dashboard von **CommandSyncDemo** —> **Speicherorte** —> **Lobby** —> **LobbyDisplay** und klicken Sie in der Aktionsleiste auf **Dashboard** .
-Die beiden Geräte (Chrome und Web Player) werden im Bedienfeld **GERÄTE** angezeigt, wie in der folgenden Abbildung dargestellt.
+Die beiden Geräte (Chrom- und Windows-Player) werden im Bedienfeld **GERÄTE** angezeigt, wie in der folgenden Abbildung dargestellt.
 
    ![image1](assets/command-sync7.png)
 
