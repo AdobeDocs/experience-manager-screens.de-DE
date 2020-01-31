@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
-translation-type: ht
-source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
+translation-type: tm+mt
+source-git-commit: 6abe309a8beb264f1505b6f39d786acc035bad05
 
 ---
 
@@ -38,7 +38,7 @@ Wenn keine Ausgabe verfügbar ist, überprüfen Sie, ob ffmpeg im Betriebssystem
 >
 >Wenn keine Ausgabe verfügbar ist, überprüfen Sie, ob ffmpeg im Betriebssystem installiert ist, unter dem AEM ausgeführt wird.
 >
->Klicken Sie [hier](https://evermeet.cx/ffmpeg/), um ffmpeg zu installieren.
+>Klicken Sie [hier](https://www.ffmpeg.org/download.html), um ffmpeg zu installieren.
 
 ## Video-Assets {#video-assets}
 
@@ -107,7 +107,7 @@ Falls der AEM Screens-Player das Video zwar abruft, aber nicht anzeigt, müssen 
 
 Führen Sie folgende Schritte aus, um das Problem mit dem Flag „Autoplay-Richtlinie“ von Google zu beheben:
 
-1. Navigieren Sie zu ***chrome://flags/#autoplay-policy***
+1. Navigieren Sie zu ***chrome://flags/#autoplay-policy ***
 1. Die **Autoplay-Richtlinie** muss von **Standard** in **Keine Benutzergeste erforderlich** geändert werden
 
 1. Starten Sie den Webbrowser neu und aktualisieren Sie den Player
@@ -149,7 +149,7 @@ Führen Sie die folgenden Schritte durch, um eine absolute Strategie einzurichte
 **Synchronisieren der Uhren unter OS X** Gehen Sie wie folgt vor, um die Uhren unter OS X zu synchronisieren:
 
 1. Öffnen Sie in jedem OS X-Feld die Einstellungen für **Datum und Uhrzeit**.
-1. Aktivieren Sie „Datum und Uhrzeit automatisch festlegen“.
+1. Check **Set date and time automatically**
 1. Kopieren Sie den Wert 0.pool.ntp.org, 1.pool.ntp.org, 2.pool.ntp.org, 3.pool.ntp.org, time.apple.com in das Dropdown-Feld. Sie können auch einfach den Befehl *sudo ntpdate -u -v 0.pool.ntp.org* ausführen.
 1. Starten Sie alle Player (mind. zwei).
 
