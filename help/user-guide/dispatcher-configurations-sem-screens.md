@@ -8,8 +8,8 @@ uuid: ea68ca72-bbe7-42d5-9043-97aea7edcd6e
 contentOwner: jsyal
 discoiquuid: 046ec5ae-600d-422f-aa59-c39f16cf71de
 docset: aem65
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: dbc20693481e6f6f379eb93bbf40ed9961589d00
 
 ---
 
@@ -20,11 +20,15 @@ Dispatcher ist ein Tool von Adobe Experience Manager für das Zwischenspeichern 
 
 Die folgende Seite enthält die Richtlinien zum Konfigurieren von Dispatcher für ein AEM Screens-Projekt.
 
+>[!NOTE]
+>Wenn ein Dispatcher verfügbar ist, können Verbindungen zum Registrierungs-Servlet durch Filtern in den Dispatcher-Regeln verhindert werden.
+>Wenn kein Dispatcher vorhanden ist, deaktivieren Sie das Registrierungs-Servlet in der Liste der OSGi-Komponenten.
+
 ## Voraussetzungen {#pre-requisites}
 
 Bevor Sie Dispatcher für ein AEM Screens-Projekt konfigurieren, müssen Sie über Vorkenntnisse in Dispatcher verfügen.
 
-Weitere Informationen finden Sie unter **[Konfigurieren von Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html)**.
+Weitere Informationen finden Sie unter [Konfigurieren von Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html).
 
 ## Konfigurieren von Dispatcher {#configuring-dispatcher}
 
@@ -42,7 +46,7 @@ Fügen Sie dem Abschnitt `/clientheaders` Folgendes hinzu
 
 ### Schritt 2: Konfigurieren von Screens-Filtern {#step-configuring-screens-filters}
 
-Fügen Sie ***/filter*** Folgendes hinzu, um Screens-Filter zu konfigurieren.
+Fügen Sie ***/filter ***Folgendes hinzu, um Screens-Filter zu konfigurieren.
 
 ```
 ## AEM Screens Filters
@@ -64,4 +68,4 @@ Fügen Sie ***/filter*** Folgendes hinzu, um Screens-Filter zu konfigurieren.
 
 ### Schritt 3: Deaktivieren von Dispatcher-Cache {#step-disabling-dispatcher-cache}
 
-Deaktivieren Sie die Dispatcher-Zwischenspeicherung für ***/content/screens path***.
+Deaktivieren Sie die Dispatcher-Zwischenspeicherung für ***/content/screens path ***.
