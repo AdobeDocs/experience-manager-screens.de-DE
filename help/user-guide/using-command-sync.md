@@ -4,7 +4,7 @@ seo-title: Verwenden der Befehlssynchronisierung
 description: Auf dieser Seite erfahren Sie, wie Sie die Befehlssynchronisierung verwenden.
 seo-description: Auf dieser Seite erfahren Sie, wie Sie die Befehlssynchronisierung verwenden.
 translation-type: tm+mt
-source-git-commit: dbc20693481e6f6f379eb93bbf40ed9961589d00
+source-git-commit: d1c2715f516f9089c346241280d8693118b49873
 
 ---
 
@@ -31,7 +31,7 @@ Bevor Sie die Funktion für die Befehlssynchronisierung verwenden, stellen Sie s
 
 1. Das folgende Beispiel zeigt ein Demoprojekt mit dem Namen **CommandSyncDemo** und einen Sequenzkanal **ChannelLobby**.
 
-   ![image1](assets/command-sync1.png)
+   ![image1](assets/command-sync/command-sync1.png)
 
    >[!NOTE]
    >
@@ -39,17 +39,17 @@ Bevor Sie die Funktion für die Befehlssynchronisierung verwenden, stellen Sie s
 
    Der Kanal enthält den folgenden Inhalt, wie in der Abbildung unten dargestellt.
 
-   ![image1](assets/command-sync2.png)
+   ![image1](assets/command-sync/command-sync2.png)
 
 1. Erstellen Sie eine Anzeige im Ordner &quot; **Speicherorte** &quot;, wie in der Abbildung unten dargestellt.
-   ![image1](assets/command-sync3.png)
+   ![image1](assets/command-sync/command-sync3.png)
 
 1. Weisen Sie den Kanal **ChannelLobby** Ihrem **LobbyDisplay**zu.
-   ![image1](assets/command-sync4.png)
+   ![image1](assets/command-sync/command-sync4.png)
 
    >[!NOTE]
    >
-   >To learn how to assign a channel to a display, refer to [Creating and Managing Displays](/help/user-guide/managing-displays.md)
+   >To learn how to assign a channel to a display, refer to [Creating and Managing Displays](/help/user-guide/managing-displays.md).
 
 1. Navigieren Sie zum Ordner &quot; **Geräte** &quot;und klicken Sie in der Aktionsleiste auf &quot; **Geräte-Manager** &quot;, um die Geräte zu registrieren.
 
@@ -59,8 +59,23 @@ Bevor Sie die Funktion für die Befehlssynchronisierung verwenden, stellen Sie s
    >
    >To learn how to assign a channel to a display, refer to [Creating and Managing Displays](/help/user-guide/managing-displays.md)
 
-1. Zu Demozwecken werden in diesem Beispiel ein Chrome-Gerät und ein Web-Player als zwei separate Geräte dargestellt. Beide Geräte verweisen auf dasselbe Display.
+1. Zu Demozwecken werden in diesem Beispiel ein Chrome-Gerät und ein Windows-Player als zwei separate Geräte dargestellt. Beide Geräte verweisen auf dasselbe Display.
    ![image1](assets/command-sync6.png)
+
+### Kanaleinstellungen aktualisieren
+
+1. Navigieren Sie zu **ChannelLobby** und klicken Sie in der Aktionsleiste auf **Bearbeiten** , um die Kanaleinstellungen zu aktualisieren.
+
+1. Wählen Sie den gesamten Kanal aus, wie in der Abbildung unten dargestellt.
+   ![image1](assets/command-sync/command-sync7.png)
+
+1. Klicken Sie auf das Schraubenschlüsselsymbol, um das Dialogfeld &quot; **Seite** &quot;zu öffnen.
+   ![image1](assets/command-sync/command-sync8.png)
+
+1. Geben Sie den *synchronisierten* Suchbegriff in das Feld &quot; **Strategie** &quot;ein.
+
+   ![image1](assets/command-sync/command-sync9.png)
+
 
 ### Setting up a Master {#setting-up-master}
 
