@@ -4,7 +4,7 @@ seo-title: Verwenden der Befehlssynchronisierung
 description: Auf dieser Seite erfahren Sie, wie Sie die Befehlssynchronisierung verwenden.
 seo-description: Auf dieser Seite erfahren Sie, wie Sie die Befehlssynchronisierung verwenden.
 translation-type: tm+mt
-source-git-commit: d1c2715f516f9089c346241280d8693118b49873
+source-git-commit: f7827b604ca738c3927772fb26b4df68b7e793a0
 
 ---
 
@@ -81,28 +81,33 @@ Bevor Sie die Funktion für die Befehlssynchronisierung verwenden, stellen Sie s
 
 1. Navigieren Sie zum Display-Dashboard von **CommandSyncDemo** —> **Speicherorte** —> **Lobby** —> **LobbyDisplay** und klicken Sie in der Aktionsleiste auf **Dashboard** .
 Die beiden Geräte (Chrom- und Windows-Player) werden im Bedienfeld **GERÄTE** angezeigt, wie in der folgenden Abbildung dargestellt.
-
-   ![image1](assets/command-sync7.png)
+   ![image1](assets/command-sync/command-sync10.png)
 
 1. Wählen Sie im Bedienfeld **GERÄTE** das Gerät aus, das Sie als Master festlegen möchten. Das folgende Beispiel zeigt, wie Sie das Chrome-Gerät als Master einrichten. Klicken Sie auf Als **Hauptgerät** festlegen.
 
-   ![image1](assets/command-sync8.png)
+   ![image1](assets/command-sync/command-sync11.png)
 
 1. Geben Sie die IP-Adresse in **Set as master device** ein und klicken Sie auf **Save**.
 
-   ![image1](assets/command-sync9.png)
+   ![image1](assets/command-sync/command-sync12.png)
+
+>[!NOTE]
+> Sie können mehrere Geräte als Master einrichten.
 
 ### Synchronisieren mit Master {#sync-up-master}
 
-1. Nachdem Sie das Chrome-Gerät als Master festgelegt haben, können Sie das andere Gerät synchronisieren, um es mit dem Master zu synchronisieren.
-Wählen Sie das andere Gerät aus dem **Bedienfeld &quot;GERÄTE** &quot;und klicken Sie auf &quot;Mit **Hauptgerät** synchronisieren&quot;, wie in der folgenden Abbildung dargestellt.
+1. Nachdem Sie das Chrome-Gerät als Master festgelegt haben, können Sie das andere Gerät (in diesem Fall den Windows-Player) synchronisieren, um es mit dem Master zu synchronisieren.
+Wählen Sie das andere Gerät (in diesem Fall den Windows-Player) aus dem **GERÄTEbedienfeld** und klicken Sie auf **Synchronisieren mit dem Hauptgerät**, wie in der folgenden Abbildung dargestellt.
+
+   ![image1](assets/command-sync/command-sync13.png)
 
 1. Wählen Sie das Gerät in der Liste aus und klicken Sie auf **Speichern**.
 
+1. Nachdem das Gerät (Windows-Player) mit dem Master (Chrome-Player) synchronisiert wurde, wird das Gerät im **Gerätebedienfeld** synchronisiert.
 
-1. Navigate to the [Web Player](http://localhost:4502/screens/player.html).
+   ![image1](assets/command-sync/command-sync14.png)
 
+### Entfernen oder Entfernen der Synchronisierung mit dem Master {#desync-up-master}
 
-
-
+Nachdem Sie ein oder mehrere Geräte mit einem Master synchronisiert haben, können Sie die Synchronisierung aufheben oder die Zuweisung von diesem Gerät entfernen. Um die Synchronisierung vom Hauptgerät zu entfernen, wählen Sie das Gerät aus und klicken Sie auf **Desync** aus dem Bedienfeld **GERÄTE** .
 
