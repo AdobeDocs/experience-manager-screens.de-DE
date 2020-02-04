@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: ae1f7cab650f811ae03f0a2f3dfa49ec855997ee
+source-git-commit: eb3fb0111aa3e9bdb7a265028809949fffab2e40
 
 ---
 
@@ -66,6 +66,7 @@ source-git-commit: ae1f7cab650f811ae03f0a2f3dfa49ec855997ee
       + [Videoausgabeformate](generating-renditions.md)
       + [Verwenden dynamischer eingebetteter Sequenzen](dynamic-embedded-sequences.md)
       + [Dauer der Massenwiedergabe von Bildern auf der Kanalebene](channel-level-image-playback.md)
+      + [Verwenden der Befehlssynchronisierung](using-command-sync.md)
    + Verwalten von Inhaltsaktualisierungen {#content-updates}
       + [On-Demand-Inhaltsaktualisierungen](on-demand-content.md)
       + [Aktualisierungen von Content-as-a-Service](content-update-as-a-service.md)
@@ -76,9 +77,9 @@ source-git-commit: ae1f7cab650f811ae03f0a2f3dfa49ec855997ee
       + [Aktivierung der Gastgewerbereservierung](hospitality-reservation-activation.md)
       + [Zielgerichtete Aktivierung des Einzelhandelsinventars](retail-inventory-activation.md)
       + [Anwenden von Übergängen](applying-transitions.md)
-      + [Übergang von mehreren Zonen zu einzelnen Zonen](multizone-to-singlezone.md)
-      + [Einmalige Verwendung Übernahmekanal](single-use-takeover-channel.md)
-      + [Kanal für die unbefristete Verwendung](perpetual-takeover-channel.md)
+      + [Übergang von mehreren zu einzelnen Zonen](multizone-to-singlezone.md)
+      + [Übernahmekanal für die einmalige Verwendung](single-use-takeover-channel.md)
+      + [Übernahmekanal für die unbefristete Verwendung](perpetual-takeover-channel.md)
 + Entwickler- und API-Ressourcen {#developing}
    + [REST-APIs](rest-api.md)
    + [Entwickeln einer benutzerdefinierten Komponente für AEM Screens](developing-custom-component-tutorial-develop.md)
