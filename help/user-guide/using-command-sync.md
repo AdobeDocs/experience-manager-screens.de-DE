@@ -4,7 +4,7 @@ seo-title: Verwenden der Befehlssynchronisierung
 description: Auf dieser Seite erfahren Sie, wie Sie die Befehlssynchronisierung verwenden.
 seo-description: Auf dieser Seite erfahren Sie, wie Sie die Befehlssynchronisierung verwenden.
 translation-type: tm+mt
-source-git-commit: 69a3bc339cc5fa7e457800e010709ee01db33b03
+source-git-commit: bd29a09608066bd5030254812e6ddd7d757879cf
 
 ---
 
@@ -31,7 +31,7 @@ Bevor Sie die Funktion zur Befehlssynchronisierung verwenden, stellen Sie sicher
 
 1. Das folgende Beispiel veranschaulicht ein Demoprojekt mit dem Namen **CommandSyncDemo** und einem Sequenzkanal namens **ChannelLobby**.
 
-   ![image1](assets/command-sync/command-sync1.png)
+   ![image1](assets/command-sync/command-sync1-1.png)
 
    >[!NOTE]
    >
@@ -39,13 +39,13 @@ Bevor Sie die Funktion zur Befehlssynchronisierung verwenden, stellen Sie sicher
 
    Der Kanal enthält den folgenden Inhalt, wie in der Abbildung unten dargestellt.
 
-   ![image1](assets/command-sync/command-sync2.png)
+   ![image1](assets/command-sync/command-sync2-1.png)
 
 1. Erstellen Sie eine Anzeige im Ordner **Standorte**, wie in der Abbildung unten dargestellt.
-   ![image1](assets/command-sync/command-sync3.png)
+   ![image1](assets/command-sync/command-sync3-1.png)
 
 1. Weisen Sie den Kanal **ChannelLobby** Ihrem **LobbyDisplay** zu.
-   ![image1](assets/command-sync/command-sync4.png)
+   ![image1](assets/command-sync/command-sync4-1.png)
 
    >[!NOTE]
    >
@@ -67,29 +67,29 @@ Bevor Sie die Funktion zur Befehlssynchronisierung verwenden, stellen Sie sicher
 1. Navigieren Sie zu **ChannelLobby** und klicken Sie in der Aktionsleiste auf **Bearbeiten** , um die Kanaleinstellungen zu aktualisieren.
 
 1. Wählen Sie den gesamten Kanal aus, wie in der Abbildung unten dargestellt.
-   ![image1](assets/command-sync/command-sync7.png)
+   ![image1](assets/command-sync/command-sync7-1.png)
 
 1. Klicken Sie auf das Schraubenschlüsselsymbol, um das Dialogfeld &quot; **Seite** &quot;zu öffnen.
-   ![image1](assets/command-sync/command-sync8.png)
+   ![image1](assets/command-sync/command-sync8-1.png)
 
 1. Geben Sie den *synchronisierten* Suchbegriff in das Feld &quot; **Strategie** &quot;ein.
 
-   ![image1](assets/command-sync/command-sync9.png)
+   ![image1](assets/command-sync/command-sync9-1.png)
 
 
 ### Einrichten eines Master-Geräts {#setting-up-master}
 
 1. Navigieren Sie zum Anzeige-Dashboard über **CommandSyncDemo** > **Standorte** > **Lobby** > **LobbyDisplay** und klicken Sie in der Aktionsleiste auf **Dashboard**.
 You will see the two devices (chrome and windows player) in **DEVICES** panel, as shown in the figure below.
-   ![image1](assets/command-sync/command-sync10.png)
+   ![image1](assets/command-sync/command-sync10-1.png)
 
 1. Wählen Sie im Bedienfeld **GERÄTE** das Gerät aus, das Sie als Master verwenden möchten. Das folgende Beispiel zeigt, wie Sie das Chrome-Gerät als Master einrichten. Klicken Sie auf **Als Master-Gerät einrichten**.
 
-   ![image1](assets/command-sync/command-sync11.png)
+   ![image1](assets/command-sync/command-sync11-1.png)
 
 1. Geben Sie in **Als Master-Gerät einrichten** die IP-Adresse ein und klicken Sie auf **Speichern**.
 
-   ![image1](assets/command-sync/command-sync12.png)
+   ![image1](assets/command-sync/command-sync12-1.png)
 
 >[!NOTE]
 > Sie können mehrere Geräte als Master einrichten.
@@ -99,13 +99,13 @@ You will see the two devices (chrome and windows player) in **DEVICES** panel, a
 1. Nachdem Sie das Chrome-Gerät als Master festgelegt haben, können Sie das andere Gerät (in diesem Fall den Windows-Player) synchronisieren, um es mit dem Master zu synchronisieren.
 Select the other device (in this case, windows player) from the **DEVICES** panel and click on **Sync to master device**, as shown in the figure below.
 
-   ![image1](assets/command-sync/command-sync13.png)
+   ![image1](assets/command-sync/command-sync13-1.png)
 
 1. Wählen Sie das Gerät in der Liste aus und klicken Sie auf **Speichern**.
 
 1. Nachdem das Gerät (Windows-Player) mit dem Master (Chrome-Player) synchronisiert wurde, wird das Gerät im **Gerätebedienfeld** synchronisiert.
 
-   ![image1](assets/command-sync/command-sync14.png)
+   ![image1](assets/command-sync/command-sync14-1.png)
 
 ### Entfernen oder Entfernen der Synchronisierung mit dem Master {#desync-up-master}
 
