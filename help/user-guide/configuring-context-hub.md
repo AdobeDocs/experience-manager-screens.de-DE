@@ -10,8 +10,8 @@ topic-tags: developing
 content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: ed79a3c9e2b99ef1de6e293fe2e86adfa8dde85c
 
 ---
 
@@ -40,7 +40,7 @@ Das folgende Diagramm zeigt visuell, wie ContextHub-Konfigurationen mit Aktivit�
 
 ## Voraussetzungen {#preconditions}
 
-Bevor Sie mit der Einrichtung eines Datenspeichers für die Konfiguration von Context-Hub-Konfigurationen für ein AEM Screens-Projekt beginnen, müssen Sie Google Tabellen (für Demonstrationszwecke) einrichten.
+Bevor Sie mit der Konfiguration von Context Hub-Konfigurationen für ein AEM Screens-Projekt beginnen, müssen Sie Google-Sheets (zu Demonstrationszwecken) einrichten.
 
 >[!CAUTION]
 >
@@ -50,21 +50,29 @@ Bevor Sie mit der Einrichtung eines Datenspeichers für die Konfiguration von Co
 
 ## Schritt 1: Einrichten eines Datenspeichers {#step-setting-up-a-data-store}
 
-Gehen Sie wie unten beschrieben vor, um einen Datenspeicher einzurichten, mit dem Sie ContextHub-Konfigurationen und Segmentpfade zum AEM Screens-Kanal verwenden können.
+Sie können den Datenspeicher als lokales E/A-Ereignis oder als lokales Datenbankereignis einrichten.
+
+### Lokales E/A-Ereignis {#local-io-event}
+
+Gehen Sie wie folgt vor, um einen Datenspeicher wie z. B. ein ASCII-Ereignis einzurichten, mit dem Sie ContextHub-Konfigurationen und Segmentpfade zum AEM Screens-Kanal verwenden können.
+
+### Lokales Datenbankereignis {#local-db-event}
+
+Gehen Sie wie unten beschrieben vor, um einen Datenspeicher wie ein Excel-Arbeitsblatt einzurichten, mit dem Sie ContextHub-Konfigurationen und Segmentpfade zum AEM Screens-Kanal verwenden können.
 
 1. **Navigieren zu ContextHub**
 
-   Navigieren Sie zu Ihrer AEM-Instanz und klicken Sie in der linken Seitenleiste auf das Symbol „Tools“. Klicken Sie auf **Sites** &gt; **ContextHub**, wie in der Abbildung unten gezeigt.
+   Navigieren Sie zu Ihrer AEM-Instanz und klicken Sie in der linken Seitenleiste auf das Symbol „Tools“. Klicken Sie auf **Sites** > **ContextHub**, wie in der Abbildung unten gezeigt.
 
    ![screen_shot_2019-04-22at53222pm](assets/screen_shot_2019-04-22at53222pm.png)
 
 1. **Erstellen einer neuen ContextHub-Store-Konfiguration**
 
-   1. Navigieren Sie zu **global** &gt; **default** &gt; **ContextHub-Konfiguration**.
+   1. Navigieren Sie zu **global** > **default** > **ContextHub-Konfiguration**.
 
-   1. Klicken Sie auf „Erstellen“ &gt; „Konfigurations-Container“ **und geben Sie den Titel als** „ContextHubDemo“ ein.
+   1. Klicken Sie auf „Erstellen“ > „Konfigurations-Container“ **und geben Sie den Titel als** „ContextHubDemo“ ein.
 
-   1. **Navigieren** Sie zu **ContextHubDemo** &gt; **ContextHub-Store-Konfiguration...**, um den **Konfigurationsassistenten** zu öffnen.
+   1. **Navigieren** Sie zu **ContextHubDemo** > **ContextHub-Store-Konfiguration...**, um den **Konfigurationsassistenten** zu öffnen.
 
    1. Geben Sie unter **Titel** den Wert **Google Tabellen**, unter **Store-Name** den Wert **googlesheets** und unter **Store-Typ** den Wert **contexthub.generic-jsonp** ein.
 
@@ -93,7 +101,7 @@ Gehen Sie wie unten beschrieben vor, um einen Datenspeicher einzurichten, mit de
    >Im obigen Beispiel-Code definiert **pollInterval** die Häufigkeit, mit der die Werte aktualisiert werden (in ms).
    >
    >
-   >Ersetzen Sie den Code durch Ihre *&lt;Tabellenblatt-ID&gt;* und Ihren *&lt;API-Schlüssel&gt;*, den Sie beim Einrichten von Google Tabellen abgerufen haben.
+   >Ersetzen Sie den Code durch Ihre *&lt;Tabellenblatt-ID>* und Ihren *&lt;API-Schlüssel>*, den Sie beim Einrichten von Google Tabellen abgerufen haben.
 
    >[!CAUTION]
    Wenn Sie Google Tabellen-Store-Konfigurationen außerhalb des bestehenden Ordners erstellen (z. B. in Ihrem eigenen Projektordner), funktioniert das Targeting nicht standardmäßig.
@@ -101,9 +109,9 @@ Gehen Sie wie unten beschrieben vor, um einen Datenspeicher einzurichten, mit de
 
 1. **Erstellen einer Marke in „Aktivitäten“**
 
-   1. Navigieren Sie von Ihrer AEM-Instanz aus zu **Personalisierung** &gt; **Aktivitäten**
+   1. Navigieren Sie von Ihrer AEM-Instanz aus zu **Personalisierung** > **Aktivitäten**
 
-   1. Klicken Sie auf **Erstellen** &gt; **Marke erstellen**
+   1. Klicken Sie auf **Erstellen** > **Marke erstellen**
 
    1. Wählen Sie im Assistenten **Seite erstellen** die Option **Marke** aus und klicken Sie auf **Weiter**.
 
@@ -133,9 +141,9 @@ Nachdem Sie einen Datenspeicher eingerichtet und Ihre Marke definiert haben, fü
 
 1. **Erstellen von Segmenten in Zielgruppen**
 
-   1. Navigieren Sie von Ihrer AEM-Instanz zu **Personalisierung** &gt; **Zielgruppen** &gt; **We.Retail**.
+   1. Navigieren Sie von Ihrer AEM-Instanz zu **Personalisierung** > **Zielgruppen** > **We.Retail**.
 
-   1. Klicken Sie auf **Erstellen** &gt; **ContextHub-Segment erstellen.** Das Dialogfeld **Neues ContextHub-Segment** wird geöffnet.
+   1. Klicken Sie auf **Erstellen** > **ContextHub-Segment erstellen.** Das Dialogfeld **Neues ContextHub-Segment** wird geöffnet.
 
    1. Geben Sie unter **Titel** den Wert **TabellenblattA1 1** ein und klicken Sie auf **Erstellen**. Erstellen Sie auf ähnliche Weise ein weiteres Segment mit der Bezeichnung **TabellenblattA2 2**.
 
@@ -171,7 +179,7 @@ Nachdem Sie einen Datenspeicher eingerichtet und Ihre Marke definiert haben, fü
 
 Gehen Sie wie folgt vor, um Targeting in Ihren Kanälen zu aktivieren.
 
-1. Navigieren Sie zu einem der AEM Screens-Kanäle. Die folgenden Schritte zeigen, wie Sie das Targeting mit **DataDrivenRetail** aktivieren, das in einem AEM Screens-Kanal erstellt wurde.
+1. Navigieren Sie zu einem der AEM-Bildschirme-Kanäle. The following steps demonstrate how to enable targeting by using **DataDrivenRetail** created in an AEM Screens Channel.
 
 1. Wählen Sie den Kanal **DataDrivenRetail** aus und klicken Sie in der Aktionsleiste auf **Eigenschaften**.
 
@@ -179,9 +187,9 @@ Gehen Sie wie folgt vor, um Targeting in Ihren Kanälen zu aktivieren.
 
 1. Wählen Sie die Registerkarte **Personalisierung**, um die ContextHub-Konfigurationen einzurichten.
 
-   1. Wählen Sie unter **ContextHub-Pfad** den Wert **libs** &gt; **settings** &gt; **cloudsettings** &gt; **default** &gt; **ContextHub Konfigurationen** aus und klicken Sie auf **Auswählen**.
+   1. Wählen Sie unter **ContextHub-Pfad** den Wert **libs** > **settings** > **cloudsettings** > **default** > **ContextHub Konfigurationen** aus und klicken Sie auf **Auswählen**.
 
-   1. Wählen Sie unter **Segmentpfad** den Wert **conf** &gt; **We.Retail** &gt; **settings** &gt; **wcm** &gt; **segments** aus und klicken Sie auf **Auswählen**.
+   1. Wählen Sie unter **Segmentpfad** den Wert **conf** > **We.Retail** > **settings** > **wcm** > **segments** aus und klicken Sie auf **Auswählen**.
 
    1. Klicken Sie auf **Speichern und schließen**.
    >[!NOTE]
@@ -189,7 +197,7 @@ Gehen Sie wie folgt vor, um Targeting in Ihren Kanälen zu aktivieren.
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. Navigieren Sie zu und wählen Sie **DataDrivenRetail** aus **DataDrivenAssets** &gt; **Kanäle** aus und klicken Sie in der Aktionsleiste auf **Bearbeiten**.
+1. Navigieren Sie zu und wählen Sie **DataDrivenRetail** aus **DataDrivenAssets** > **Kanäle** aus und klicken Sie in der Aktionsleiste auf **Bearbeiten**.
 
    >[!NOTE]
    Wenn Sie alles korrekt eingerichtet haben, sehen Sie die Option **Targeting** in der Dropdown-Liste des Editors, wie in der Abbildung unten gezeigt.
