@@ -4,7 +4,7 @@ seo-title: Verwenden der Befehlssynchronisierung
 description: Auf dieser Seite erfahren Sie, wie Sie die Befehlssynchronisierung verwenden.
 seo-description: Auf dieser Seite erfahren Sie, wie Sie die Befehlssynchronisierung verwenden.
 translation-type: tm+mt
-source-git-commit: bd29a09608066bd5030254812e6ddd7d757879cf
+source-git-commit: 4735e1bcea3b635a55ef5d57e6e10a5948d8fc29
 
 ---
 
@@ -103,11 +103,24 @@ Select the other device (in this case, windows player) from the **DEVICES** pane
 
 1. Wählen Sie das Gerät in der Liste aus und klicken Sie auf **Speichern**.
 
+   >[HINWEIS:]
+   > Im Dialogfeld &quot;Mit **Mastergerät** synchronisieren&quot;wird die Liste der Mastergeräte angezeigt. Sie können die gewünschte Voreinstellung auswählen.
+
 1. Nachdem das Gerät (Windows-Player) mit dem Master (Chrome-Player) synchronisiert wurde, wird das Gerät im **Gerätebedienfeld** synchronisiert.
 
    ![image1](assets/command-sync/command-sync14-1.png)
 
-### Entfernen oder Entfernen der Synchronisierung mit dem Master {#desync-up-master}
+### Synchronisierung mit dem Master {#desync-up-master}
 
-Nachdem Sie ein oder mehrere Geräte mit einem Master synchronisiert haben, können Sie die Synchronisierung aufheben oder die Zuweisung von diesem Gerät entfernen. Um die Synchronisierung vom Hauptgerät zu entfernen, wählen Sie das Gerät aus und klicken Sie auf **Desync** aus dem Bedienfeld **GERÄTE** .
+Nachdem Sie ein oder mehrere Geräte mit einem Master synchronisiert haben, können Sie die Zuweisung von diesem Gerät aus desynchronisieren. Gehen Sie wie folgt vor, um die Synchronisierung vom Hauptgerät zu entfernen:
 
+1. Navigieren Sie zum **Bedienfeld &quot;GERÄTE** &quot;und wählen Sie das Gerät aus.
+
+1. Klicken Sie auf **Desync-Geräte,** um den Client vom Master-Gerät zu synchronisieren.
+
+   ![image1](assets/command-sync/command-sync15-1.png)
+
+1. Klicken Sie auf **Bestätigen** , um die Synchronisierung des ausgewählten Geräts vom Master zu deaktivieren.
+
+   >[HINWEIS:]
+   > Wenn Sie das Mastergerät auswählen und die Option desync verwenden, werden alle mit dem Master verbundenen Geräte in einem Schritt deaktiviert.
