@@ -10,7 +10,7 @@ topic-tags: authoring
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 161eef6e7e45393f345240b9c36a104a18106f12
 
 ---
@@ -56,7 +56,7 @@ Zur Erstellung von Replikationsagenten müssen Sie wissen, wie man einen standar
 
 Für Screens sind drei Replikationsagenten erforderlich:
 
-1. **Standardmäßiger Replikationsagent ***(angegeben als***Standard Replication Agent **)
+1. **Standardmäßiger Replikationsagent ***(angegeben als***Standard Replication Agent**)
 1. **Screens-Replikationsagent**
 1. **Agent für Rückwärtsreplikation**
 
@@ -88,7 +88,7 @@ Gehen Sie wie folgt vor, um einen standardmäßigen Replikationsagenten einzuric
 
    >[!NOTE]
    >
-   >Benutzer muss die Option **Aktiviert** aktivieren, um Replizierungsagenten zu aktivieren. Sie müssen diese Option auf &quot;Standard&quot;, &quot;Bildschirme&quot;und &quot;Replizierungsagenten umkehren&quot;aktivieren.
+   >Der Benutzer muss die Option **Aktiviert** aktivieren, um den Replikationsagenten zu aktivieren. Sie müssen diese Option für standardmäßige Agenten, Screens-Replikationsagenten und Agenten für die Rückwärtsreplikation aktivieren.
 
    ![screen_shot_2019-02-25at30134pm](assets/screen_shot_2019-02-25at30134pm.png)
 
@@ -126,7 +126,7 @@ Bei jeder Veröffentlichungsinstanz:
 
 1. Navigieren Sie zu `https://<host>:<port>/system/console/configMgr`
 1. Wählen Sie die Konfiguration **Apache Sling Oak-basierter Erkennungsdienst**.
-1. Topology-Connector-URLs aktualisieren: Fügen Sie URLs aller beteiligten Veröffentlichungsinstanzen hinzu, die Folgendes umfassen:
+1. Aktualisieren Sie die Topologie-Connector-URLs: Fügen Sie URLs aller beteiligten Veröffentlichungsinstanzen hinzu, d. h.:
    * `https://localhost:4503/libs/sling/topology/connector`
    * `https://localhost:4504/libs/sling/topology/connector`
 1. Whitelist für Topologie-Connectoren: Nehmen Sie Anpassungen an IPs oder Subnetze vor, die beteiligte Veröffentlichungsinstanzen abdecken
@@ -136,7 +136,7 @@ Die Konfiguration sollte für jede Veröffentlichungsinstanz identisch sein; „
 
 #### Schritt 2: Überprüfen der Veröffentlichungstopologie {#step-verify-publish-topology}
 
-For any of the publish instances navigate to `https://:/system/console/topology`. Sie sollten alle Instanzen im Veröffentlichungsmodus in der Topologie unter &quot; **Outgoing Topology Connectors**&quot;sehen.
+Navigieren Sie bei allen Veröffentlichungsinstanzen zu `https://:/system/console/topology`. Sie sollten unter **Ausgehende Topologie-Connectoren** alle Veröffentlichungsinstanzen in der Topologie dargestellt sehen können.
 
 #### Schritt 3: Einrichten des ActiveMQ Artemis-Clusters {#step-setup-activemq-artemis-cluster}
 
@@ -153,8 +153,8 @@ Bei jeder Veröffentlichungsinstanz:
 Da jede Veröffentlichungsinstanz standardmäßig über eindeutige Verschlüsselungsschlüssel verfügt, müssen Sie diesen Schritt für jede Veröffentlichungsinstanz ausführen und den eindeutigen Schlüssel für die nächste Konfiguration speichern.
 
 >[!NOTE]
->Das Kennwort sollte mit geschweiften Klammern beginnen und enden.
->Beispiel:{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a6 10e}
+>Das Passwort sollte mit geschweiften Klammern beginnen und enden.
+>Beispiel:{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}
 
 #### Schritt 4: Aktivieren des ActiveMQ Artemis-Clusters {#step-activate-activemq-artemis-cluster}
 
@@ -164,8 +164,8 @@ Bei jeder Veröffentlichungsinstanz:
 1. Wählen Sie die Konfiguration **Apache ActiveMQ Artemis JMS Provider**
 1. Aktualisieren Sie Folgendes:
 
-* ***Cluster-Kennwort ***: (verwenden Sie einen verschlüsselten Wert aus dem vorherigen Schritt pro Instanz)
-* ***Themen ***: {name: &#39;commands&#39;, address: &#39;com.adobe.cq.screens.commands&#39;, maxConsumers: 50}
+* ***Cluster-Passwort***: (verwenden Sie einen verschlüsselten Wert aus dem vorherigen Schritt pro Instanz)
+* ***Themen***: {name: &#39;commands&#39;, address: &#39;com.adobe.cq.screens.commands&#39;, maxConsumers: 50}
 
 #### Überprüfen des ActiveMQ Artemis-Clusters {#verify-activemq-artemis-cluster}
 
@@ -239,7 +239,7 @@ Wenn Sie den Player überprüfen, sehen Sie den Inhalt, den Sie in Ihrem Kanal h
 
 **Überprüfen des Geräts**
 
-Ermitteln Sie zunächst die Geräte-ID, bevor Sie die Schritte unten ausführen. To verify, search for the device id in CRXDELite, with the path as */home/users/screens/we-retail/devices*.
+Ermitteln Sie zunächst die Geräte-ID, bevor Sie die Schritte unten ausführen. Suchen Sie dazu in CRXDELite mit */home/users/screens/we-retail/devices* als Pfad nach der Geräte-ID.
 
 Gehen Sie wie folgt vor, um den Gerätebenutzer zu replizieren:
 
@@ -261,7 +261,7 @@ Sie können das Gerät auch über die Geräteverwaltungskonsole aktivieren. Füh
 
 >[!NOTE]
 >
->Alternatively, once you have activated the device you also can edit or update the server URL by clicking **Edit server URL** from the action bar, as shown in the figure below and your changes will be propagated to the AEM Screens player.
+>Alternativ können Sie nach Aktivierung des Geräts auch die Server-URL bearbeiten oder aktualisieren, indem Sie in der Aktionsleiste auf **Server-URL bearbeiten** klicken (wie in der Abbildung unten dargestellt). Ihre Änderungen werden an den AEM Screens-Player weitergeleitet.
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
@@ -277,17 +277,17 @@ Folgende Punkte fassen die Checkliste für Veröffentlichungen zusammen:
 * *Zeitplan*: Stellen Sie bei Verwendung eines Zeitplans sicher, dass dieser veröffentlicht wird.
 * *Standort-, Zeitplan- und Kanalordner*: Wenn sich die entsprechenden Ressourcen in einem Ordner befinden.
 
-Gehen Sie wie folgt vor, um das Autor-/Veröffentlichungsverhalten zu überprüfen:
+Gehen Sie wie folgt vor, um das Verhalten von Autoren- und Veröffentlichungsinstanz zu überprüfen:
 
-1. Kanalinhalt in Autoreninstanz aktualisieren
-1. Veröffentlichung **verwalten** , um neue Änderungen in allen Veröffentlichungsinstanzen zu veröffentlichen
-1. Drücken Sie **Aktivieren** , um das Gerät über den **Geräte-Manager zu aktivieren.**
-1. **URL** von der Instanz im Autorenmodus-URL zu einer der URL im Veröffentlichungsmodus bearbeiten
-1. Überprüfen Sie, ob der aktualisierte Kanalinhalt im AEM Screens Player angezeigt wird.
-1. Wiederholen Sie diese Schritte mit einer anderen Veröffentlichungsinstanz
+1. Aktualisieren bestimmter Kanalinhalte in der Autoreninstanz
+1. Führen Sie **Veröffentlichung verwalten** aus, um neue Änderungen in allen Veröffentlichungsinstanzen zu veröffentlichen.
+1. Wählen Sie **Aktivieren**, um das Gerät über den **Geräte-Manager** zu aktivieren.
+1. Ändern Sie die URL (**URL bearbeiten**) von der Autoreninstanz-URL in die URL einer der Veröffentlichungsinstanzen.
+1. Überprüfen Sie, ob der aktualisierte Kanalinhalt im AEM Screens-Player angezeigt wird.
+1. Wiederholen Sie diese Schritte mit einer anderen Veröffentlichungsinstanz.
 
 
-#### Schritt 5: Verweisen des Geräts auf eine Veröffentlichungsinstanz im Administratorbereich {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
+#### Schritt 5: Verweisen des Geräts auf eine Veröffentlichungsinstanz im Admininistrator-Panel {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
 1. Um die Administrator-Benutzeroberfläche vom Screens-Player aus zu öffnen, halten Sie die linke obere Ecke gedrückt, um das Menü „Admin“ auf Ihrem Touch-optimierten AEM Screens-Player zu öffnen. Alternativ können Sie eine Maus verwenden.
 1. Klicken Sie im seitlichen Bereich auf die Option **Konfiguration**.
@@ -299,10 +299,10 @@ Alternativ können Sie über die Geräteverwaltungskonsole die Server-URL aktual
 
 1. Navigieren Sie zu Ihrem AEM Screens-Projekt und wählen Sie den Ordner **Geräte**.
 1. Klicken Sie in der Aktionsleiste auf **Geräte-Manager**.
-1. Select the device and click **Edit server URL** from the action bar, as shown in the figure below and your changes will be propagated to the AEM Screens player.
+1. Wählen Sie das Gerät aus und klicken Sie in der Aktionsleiste auf **Server-URL bearbeiten** (wie in der folgenden Abbildung dargestellt). Ihre Änderungen werden an den AEM Screens-Player weitergeleitet.
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
-The **Manage Publication** feature allows you to deliver content updates from author to publish to device. Sie können Inhalte für Ihr gesamtes AEM Screens-Projekt oder nur für einzelne Kanäle, Standorte, Geräte, Anwendungen oder einen Zeitplan veröffentlichen oder die Veröffentlichung aufheben. Weitere Informationen zu dieser Funktion finden Sie unter [On-Demand Content Update](on-demand-content.md).
+Mit der Funktion **Veröffentlichung verwalten** können Sie Inhaltsaktualisierungen vom Autor an das Gerät senden, um sie zu veröffentlichen. Sie können Inhalte für Ihr gesamtes AEM Screens-Projekt oder nur für einzelne Kanäle, Standorte, Geräte, Anwendungen oder einen Zeitplan veröffentlichen oder die Veröffentlichung aufheben. Weitere Informationen zu dieser Funktion finden Sie unter [On-Demand-Inhaltsaktualisierungen](on-demand-content.md).
 
 
