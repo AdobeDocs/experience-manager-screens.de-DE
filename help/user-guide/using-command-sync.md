@@ -4,7 +4,7 @@ seo-title: Verwenden der Befehlssynchronisierung
 description: Auf dieser Seite erfahren Sie, wie Sie die Befehlssynchronisierung verwenden.
 seo-description: Auf dieser Seite erfahren Sie, wie Sie die Befehlssynchronisierung verwenden.
 translation-type: tm+mt
-source-git-commit: 4735e1bcea3b635a55ef5d57e6e10a5948d8fc29
+source-git-commit: c46f246f9c5b8ab09f1100c798d0a1a240388c18
 
 ---
 
@@ -116,7 +116,7 @@ Nachdem Sie ein oder mehrere Geräte mit einem Master synchronisiert haben, kön
 
 1. Navigieren Sie zum **Bedienfeld &quot;GERÄTE** &quot;und wählen Sie das Gerät aus.
 
-1. Klicken Sie auf **Desync-Geräte,** um den Client vom Master-Gerät zu synchronisieren.
+1. Klicken Sie auf **Desync-Geräte,** um den Client vom Master-Gerät zu trennen.
 
    ![image1](assets/command-sync/command-sync15-1.png)
 
@@ -124,3 +124,4 @@ Nachdem Sie ein oder mehrere Geräte mit einem Master synchronisiert haben, kön
 
    >[HINWEIS:]
    > Wenn Sie das Mastergerät auswählen und die Option desync verwenden, werden alle mit dem Master verbundenen Geräte in einem Schritt deaktiviert.
+
