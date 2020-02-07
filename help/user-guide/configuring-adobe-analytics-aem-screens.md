@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9b68f76512fc090103f29c8c29c761b0f047416f
 
 ---
@@ -30,7 +30,7 @@ In diesem Abschnitt werden folgende Themen behandelt:
 
 ## Sequenzierung in Adobe Analytics mit AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
 
-Der ***Sequenzierungsprozess ***beginnt mit dem Datenspeicherdienst, der den Adobe Analytics-Dienst aktiviert. Kanalinhalte senden Adobe Analytics-Ereignisse mit Kostenanalyse, d. h. die Erfassung von Datentests an Windows I/O und die Auslösung von Aufenthaltsereignissen werden ausgelöst. Die Ereignisse werden in der Index-DB gespeichert und weiter im Objektspeicher abgelegt. Basierend auf dem Zeitplan, den der Administrator festlegt, schneidet er die Daten aus dem Objektspeicher aus und überträgt sie weiter in den Blockspeicher. Es versucht, die maximale Datenmenge zu senden, wenn eine Verbindung besteht.
+Der ***Sequenzierungsprozess*** beginnt mit dem Datenspeicherdienst, der den Adobe Analytics-Dienst aktiviert. Kanalinhalte senden Adobe Analytics-Ereignisse mit Kostenanalyse, d. h. die Erfassung von Datentests an Windows I/O und die Auslösung von Aufenthaltsereignissen werden ausgelöst. Die Ereignisse werden in der Index-DB gespeichert und weiter im Objektspeicher abgelegt. Basierend auf dem Zeitplan, den der Administrator festlegt, schneidet er die Daten aus dem Objektspeicher aus und überträgt sie weiter in den Blockspeicher. Es versucht, die maximale Datenmenge zu senden, wenn eine Verbindung besteht.
 
 ### Sequenzierungsdiagramm {#sequencing-diagram}
 
@@ -54,7 +54,7 @@ Die folgende Tabelle fasst das Standarddatenmodell für Ereignisse zusammen. Es 
    <td><strong>Beschreibung</strong></td> 
   </tr>
   <tr>
-   <td><strong><em>Kern/Ereignis</em></strong></td> 
+   <td><strong><em>Core/Ereignis</em></strong></td> 
    <td>Ereignis-GUID</td> 
    <td>event.guid</td> 
    <td>empfohlen</td> 
