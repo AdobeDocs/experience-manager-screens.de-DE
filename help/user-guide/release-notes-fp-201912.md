@@ -1,10 +1,10 @@
 ---
 title: Versionshinweise für Feature Pack 201912
 seo-title: Versionshinweise für Feature Pack 201912
-description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 201912, das am 20. Januar 2020 veröffentlicht wurde.
-seo-description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 201912, das am 20. Januar 2020 veröffentlicht wurde.
+description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 201912, das am 31. Januar 2020 veröffentlicht wurde.
+seo-description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 201912, das am 31. Januar 2020 veröffentlicht wurde.
 translation-type: tm+mt
-source-git-commit: eb3fb0111aa3e9bdb7a265028809949fffab2e40
+source-git-commit: b6a2485ff992eaafb9ef3e5063e8d8ab4e214532
 
 ---
 
@@ -19,7 +19,7 @@ AEM Screens hat AEM 6.4 Feature Pack 7 und AEM 6.5 Feature Pack 3 mit folgenden 
 
 ## Veröffentlichungsdatum {#release-date}
 
-Das Veröffentlichungsdatum für AEM Screens Feature Pack 201912 ist Mittwoch, 21. Januar 2020.
+Das Veröffentlichungsdatum für AEM Screens Feature Pack 201912 ist Mittwoch, 31. Januar 2020.
 
 ### Neuerungen {#what-s-new}
 
