@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: aa32ecad3282530e9f738c5c5876f49bd5e8d764
+source-git-commit: cf9fac332484716806884edc5d6815c2bdce9ecb
 
 ---
 
@@ -94,7 +94,7 @@ source-git-commit: aa32ecad3282530e9f738c5c5876f49bd5e8d764
    + [Problembehebung in der Gerätesteuerung](monitoring-screens.md)
    + [Konfiguration der Videowiedergabe](troubleshoot-videos.md)
 + Versionshinweise {#release-notes}
-   + [Versionshinweise für Feature Pack 201912](release-notes-fp-202001.md)
+   + [Versionshinweise für Feature Pack 202001](release-notes-fp-202001.md)
    + [Versionshinweise für Feature Pack 201909](release-notes-fp-201909.md)
    + [Versionshinweise für Feature Pack 201907](release-notes-fp-201907.md)
    + [Versionshinweise für Feature Pack 201905](screens-release-notes-fp-201905.md)
