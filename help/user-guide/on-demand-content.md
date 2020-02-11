@@ -5,7 +5,7 @@ description: 'Auf dieser Seite erfahren Sie mehr über On-Demand-Inhaltsaktualis
 seo-description: 'Auf dieser Seite erfahren Sie mehr über On-Demand-Inhaltsaktualisierungen.  '
 uuid: 18b9d175-ff26-42db-86aa-5ea978909f71
 contentOwner: Jyotika Syal
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 161eef6e7e45393f345240b9c36a104a18106f12
 
 ---
@@ -36,7 +36,7 @@ Gehen Sie wie folgt vor, um Inhaltsaktualisierungen vom Autor zur Veröffentlich
 
    ![screen_shot_2019-02-25at22712pm](assets/screen_shot_2019-02-25at22712pm.png)
 
-1. Klicken Sie in der Aktionsleiste auf **+ Untergeordnete Elemente einbeziehen**. Deaktivieren Sie alle Optionen, um alle Module im Projekt zu veröffentlichen, und klicken Sie auf **Hinzufügen**, um sie zu veröffentlichen.
+1. Klicken Sie in der Aktionsleiste auf **+Untergeordnete Elemente einbeziehen**. Deaktivieren Sie alle Optionen, um alle Module im Projekt zu veröffentlichen, und klicken Sie auf **Hinzufügen**, um sie zu veröffentlichen.
 
    >[!NOTE]
    >
@@ -47,7 +47,7 @@ Gehen Sie wie folgt vor, um Inhaltsaktualisierungen vom Autor zur Veröffentlich
    **Dialogfeld „Untergeordnete Elemente einbeziehen“**
 
    Der oben erwähnte Schritt zeigt, wie Sie den gesamten Inhalt veröffentlichen können. Falls Sie die anderen drei verfügbaren Alternativen verwenden möchten, müssen Sie die entsprechende Option aktivieren.
-Mit der folgenden Abbildung können Sie z.B. nur die geänderten Seiten in Ihrem Projekt verwalten und aktualisieren:
+Mit der folgenden Abbildung können Sie z. B. nur die geänderten Seiten in Ihrem Projekt verwalten und aktualisieren:
    ![image](assets/author-publish-manage.png)
 
    Folgen Sie den nachstehenden Erläuterungen, um die verfügbaren Optionen zu verstehen:
@@ -70,11 +70,11 @@ Mit diesen Optionen können Sie Aktualisierungen verwalten, die nur für zuvor v
    >
    >
    >    1. Der Workflow funktioniert nicht, wenn keine Änderungen am Projekt vorgenommen wurden und keine **Offline-Inhalte aktualisiert** werden.
-   >    1. The workflow will not work if author does not complete the replication process (contents are still uploading to publish instance) after clicking the **Publish** button in the managing publication workflow.
+   >    1. Der Workflow funktioniert nicht, wenn der Autor den Replikationsprozess nicht abgeschlossen hat (Inhalte werden weiterhin in die Veröffentlichungsinstanz hochgeladen), nachdem im Workflow für die Verwaltung der Veröffentlichung auf **Veröffentlichen** geklickt wurde.
 
 
    > [!CAUTION]
-   > Wenn Sie als Autor oder Inhaltsersteller die Änderungen auf den Geräten sehen möchten, die mit der Autoreninstanz verbunden sind, klicken Sie im Channel-Dashboard auf Offline-Inhalte **aktualisieren** oder wählen Sie das Projekt aus. In diesem Fall wird der Offlineinhalt nur in der Autoreninstanz aktualisiert.
+   > Wenn Sie als Autor oder Ersteller von Inhalten die Änderungen auf den Geräten sehen möchten, die mit der Autoreninstanz verbunden sind, klicken Sie im Kanal-Dashboard auf **Offline-Inhalte aktualisieren** oder wählen Sie das Projekt aus. In diesem Fall wird der Offline-Inhalt nur in der Autoreninstanz aktualisiert.
 
 1. Navigieren Sie zum Projekt und klicken Sie in der Aktionsleiste auf **Offline-Inhalt aktualisieren**. Mit dieser Aktion wird derselbe Befehl an die Veröffentlichungsinstanz weitergeleitet, sodass die Offline-ZIP-Dateien auch in der Veröffentlichungsinstanz erstellt werden.
 
@@ -83,11 +83,11 @@ Mit diesen Optionen können Sie Aktualisierungen verwalten, die nur für zuvor v
 
    >[!NOTE]
    >
-   >Wenn Sie den Arbeitsablauf zum Verwalten von Veröffentlichungen abgeschlossen haben und ein Player auf die Autoreninstanz verweist, müssen Sie die Offlineinhalte des Updates im Autorenmodus aktivieren, damit das Update offline in der Autoreninstanz erstellt wird.
+   >Nachdem Sie den Workflow zum Verwalten von Veröffentlichungen abgeschlossen haben, müssen Sie die Aktualisierung der Offline-Inhalte des Autors auslösen, wenn ein Player auf die Autoreninstanz verweist. Dadurch wird die Aktualisierung offline auf der Autoreninstanz durchgeführt.
 
    >[!CAUTION]
    >
-   >Sie müssen den Offlineinhalt des Updates in der Autoreninstanz auslösen, wenn Sie einen Player auf dem Autorenserver registriert haben. Für den Player, der in der Veröffentlichungsinstanz registriert ist, ist die Aktualisierung von Offlineinhalten nicht erforderlich.
+   >Sie müssen die Aktualisierung der Offline-Inhalte in der Autoreninstanz auslösen, wenn Sie einen beim Autorenserver registrierten Player haben. Die Aktualisierung von Offline-Inhalten ist für den in der Veröffentlichungsinstanz registrierten Player nicht erforderlich.
 
 ### Verwalten der Veröffentlichung für einen Kanal {#managing-publication-for-a-channel}
 
@@ -114,7 +114,7 @@ Gehen Sie wie folgt vor, um Inhaltsaktualisierungen vom Autor zur Veröffentlich
    >
    >Warten Sie einige Sekunden/Minuten, damit der Inhalt die Veröffentlichungsinstanz erreicht.
 
-1. Auslöser **Offline-Inhalte** im Kanal-Dashboard senden den Offlineinhalt nur an die Autoreninstanz, nicht jedoch an die Veröffentlichungsinstanz. Die Schritte 1 bis 4 dienen zum Verschieben von Offlineinhalten in die Veröffentlichungsinstanz.
+1. Der Auslöser **Offline-Inhalte aktualisieren** im Kanal-Dashboard sendet den Offline-Inhalt nur an die Autoreninstanz, nicht aber an die Veröffentlichungsinstanz. Schritte 1 bis 4 dienen zum Senden von Offline-Inhalten an die Veröffentlichungsinstanz.
 
    ![screen_shot_2019-02-07at21608pm](assets/screen_shot_2019-02-07at21608pm.png)
 
