@@ -5,16 +5,55 @@ description: Auf dieser Seite erfahren Sie, wie Sie benutzerdefinierte Vorlagen 
 seo-description: Auf dieser Seite erfahren Sie, wie Sie benutzerdefinierte Vorlagen für Mehrzonen-Layouts erstellen.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: a4d48ba04bb8ab863f4f07b932892676b70e1e23
+source-git-commit: 87a86d60de9ea09dae93d08a1e0b42271c39249f
 
 ---
 
 
 # Erstellen benutzerdefinierter Vorlagen für Mehrzonen-Layouts {#creating-custom-templates-multizone}
 
-Das folgende Beispiel zeigt, wie Sie eine benutzerdefinierte Vorlage in einem MultiZone-Layout erstellen können.
+Auf dieser Seite wird erläutert, wie Sie eine benutzerdefinierte Vorlage in einem Layout mit mehreren Zonen erstellen können.
 
-Der folgende Abschnitt zeigt beispielsweise die Erstellung einer benutzerdefinierten Vorlage in einem Mehrzonen-Layout mit den folgenden Konfigurationen:
+## Namenskonvention {#name-terms}
+
+Bevor Sie wissen, wie Sie benutzerdefinierte Vorlagen für mehrere Bereiche erstellen, die in einem AEM Screens-Projekt verwendet werden sollen, sollten Sie die verschiedenen Vorlagen, die Sie erstellen möchten, kennen.
+
+| **Layoutname** | **Beschreibung** |
+|---|---|
+| Left20-LandscapeHD3Zone | Bezieht sich auf ein Querformatlayout mit 3 Zonen, mit dem Sie 3 Zonen mit Zone 1 von 20 % des horizontalen und vertikalen Bildschirms von links, Zone 2 von 80 % des horizontalen Bildschirms und 20 % des vertikalen Bildschirms von rechts, Zone 3 von 100 % des horizontalen und 80 % des vertikalen Bildschirms mit einem Seitenverhältnis von 16:9 erstellen können |
+| Upper20-PortraitHD2Zone | Bezieht sich auf eine 2-Zonen-Hochformatvorlage, die 20 % des Bildschirms von oben abdeckt, mit einem Seitenverhältnis von 16:9 |
+| Right20-LandscapeSD3Zone | Bezieht sich auf eine 3-Zonen-Vorlage, die 20 % des Bildschirms von rechts abdeckt, mit einem Seitenverhältnis von 4:3 |
+
+## Anwendungsbeispiele {#example-use-cases}
+
+## Erstellen eines Left20-LandscapeHD3Zone-Layouts {#landscape-layout-one}
+
+Gehen Sie wie folgt vor, um eine benutzerdefinierte Vorlage mit der folgenden Konfiguration zu erstellen:
+
+* **&quot;Left20** &quot;bezieht sich auf den oberen Bereich links, der 20 % der horizontalen und vertikalen Bildschirmgröße umfasst.
+* **Querformat** bezieht sich auf die Bildschirmausrichtung
+* **HD** bezieht sich auf das Seitenverhältnis 16:9
+* **3Zone** bezieht sich auf drei Bereiche der Anzeige
+
+## Visuelle Darstellung des MultiZone-Layouts {#multi-layout-visual-one}
+
+Das Layout Left20-LandscapeHD3Zone ermöglicht Ihnen das Erstellen des folgenden Layouts mit mehreren Zonen in Ihrem Projekt:
+
+![image](/help/user-guide/assets/custom-multizone/custom-multizone1.png)
+
+
+
+
+
+
+## Erstellen eines Upper20-PortraitHD2Zone-Layouts {#landscape-layout-two}
+
+Gehen Sie wie folgt vor, um eine benutzerdefinierte Vorlage mit der folgenden Konfiguration zu erstellen:
+
+
+
+
+
 
 ![image](assets/custom-template1.png)
 
