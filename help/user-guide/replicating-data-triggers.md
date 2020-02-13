@@ -4,7 +4,7 @@ seo-title: Replizieren von Datenauslösern zum Veröffentlichungsserver
 description: Replizieren Sie Datenauslöser auf den Veröffentlichungsserver.
 seo-description: Replizieren Sie Datenauslöser auf den Veröffentlichungsserver.
 translation-type: tm+mt
-source-git-commit: f369bf41b8f4c7a2bf574998834ef75eb2f21877
+source-git-commit: 8e5ad12efe53a9a9f4dcdde62be07fb9341dbb84
 
 ---
 
@@ -41,7 +41,7 @@ Gehen Sie wie folgt vor, um die Datenauslöser auf den Veröffentlichungsserver 
    >[!Note]
    >Wenn der Test fehlschlägt, müssen Sie die Konfiguration des Replizierungsagenten zwischen der Autoreninstanz und der Veröffentlichungsinstanz beheben. Weitere Informationen finden Sie unter [Fehlerbehebung bei Test Connection](/help/user-guide/replicating-data-triggers.md#troubleshoot-test) .
 
-1. Wählen Sie **Hinzufügen** aus der **Verteilungsagenten** -Bildschirmstruktur und wählen Sie den Konfigurationspfad für Ihr Projekt aus, z. B. `/conf/screens/settings/cloudsettings/configuration)`.
+1. Wählen Sie **Hinzufügen** aus der **Verteilungsagenten** -Bildschirmstruktur und wählen Sie den Konfigurationspfad für Ihr Projekt aus, z. B. `/conf/screens/settings/cloudsettings/configuration`.
 
 1. Klicken Sie auf **Übermitteln**
 
@@ -51,7 +51,7 @@ Gehen Sie wie folgt vor, um die Datenauslöser auf den Veröffentlichungsserver 
 
 1. Führen Sie einen Drilldown in Ihren Projektordner aus, z. B. `/conf/screens/`.
 
-   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers5.png)
+   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers10.png)
 
 1. Wählen Sie alle Zielgruppen und Segmente in der Benutzeroberfläche aus.
 
@@ -114,3 +114,6 @@ Führen Sie dazu folgende Schritte durch:
 
    1. Klicken Sie auf **Speichern** und führen Sie die Testverbindung erneut über den Bildschirm **Distribution Agent** aus Ihrer AEM-Instanz aus.
 
+   1. Der Benutzer muss die Seite &quot; **Distribution Agent** &quot;von der AEM-Instanz erneut aufrufen, um die Standard-URL von `localhost:4503` der zu seiner eigenen Veröffentlichungs-URL zu aktualisieren bzw. zu ersetzen.
+
+      ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
