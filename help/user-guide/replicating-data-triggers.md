@@ -4,7 +4,7 @@ seo-title: Replizieren von Datenauslösern zum Veröffentlichungsserver
 description: Replizieren Sie Datenauslöser auf den Veröffentlichungsserver.
 seo-description: Replizieren Sie Datenauslöser auf den Veröffentlichungsserver.
 translation-type: tm+mt
-source-git-commit: ae6ec7dd240b1d6f6adb46359e702eefc167b7b8
+source-git-commit: f369bf41b8f4c7a2bf574998834ef75eb2f21877
 
 ---
 
@@ -89,9 +89,9 @@ Wenn die Testverbindung beim Replizieren der ContextHub-Konfigurationen fehlschl
 1. Navigieren Sie zu Werkzeuge > **Bereitstellung** > **Verteilung** > **Veröffentlichungsagent**.
 
 1. Klicken Sie in der Aktionsleiste auf &quot; **Bearbeiten** &quot;und stellen Sie sicher, dass die Endpunkt-URL im Feld &quot; **Importer-Endpunkte** &quot;auch auf die URL des Servers im Distributionsagent verweist.
-   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers3.png)
+   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
-1. Wenn Sie nicht die standardmäßigen Administratorberechtigungen verwenden, müssen Sie den Verteilungsagenten mit einem anderen Administratorkennwort konfigurieren.
+1. Wenn Sie nicht die standardmäßigen Administratorberechtigungen verwenden, müssen Sie den Verteilungsagenten mit einem anderen Benutzernamen und einem anderen Kennwort konfigurieren.
 Führen Sie dazu folgende Schritte durch:
 
    1. Navigieren Sie zu Tools > **Vorgänge** > **Web-Konsole** , `http://localhost:4502/system/console/configMgr`um den Bildschirm **&quot;** Adobe Experience Manager Web-Konsole&quot;zu öffnen.
