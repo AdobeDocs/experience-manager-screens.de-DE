@@ -4,7 +4,7 @@ seo-title: Replizieren von Datenauslösern zum Veröffentlichungsserver
 description: Replizieren Sie Datenauslöser auf den Veröffentlichungsserver.
 seo-description: Replizieren Sie Datenauslöser auf den Veröffentlichungsserver.
 translation-type: tm+mt
-source-git-commit: 4e86ed7c3050209b3baa67087fc149afae8340b6
+source-git-commit: c9d618c4d38e8b1f74125c89cc9d25a1dcde54bb
 
 ---
 
@@ -43,7 +43,7 @@ Gehen Sie wie folgt vor, um die Datenauslöser auf den Veröffentlichungsserver 
 
 1. Wählen Sie **Hinzufügen** aus der **Verteilungsagenten** -Bildschirmstruktur und wählen Sie den Konfigurationspfad für Ihr Projekt aus, z. B. `/conf/screens/settings/cloudsettings/configuration`.
 
-1. Klicken Sie auf **Übermitteln**
+1. Klicken Sie auf **Übermitteln**.
 
 ### Replizieren der Zielgruppen {#replicating-audiences}
 
@@ -71,8 +71,9 @@ Gehen Sie wie folgt vor, um die Datenauslöser auf den Veröffentlichungsserver 
 
 1. Klicken Sie auf **Weiter** und **Veröffentlichen**.
 
-> [!Note]
-> **Wichtig **:>Die Replizierung von ContextHub-Konfigurationen und -Zielgruppen erfolgt während der Projekteinrichtung, während Aktivitäten repliziert werden. Dies ist bei jeder Änderung des Targeting innerhalb eines Kanals erforderlich.
+>[!IMPORTANT]
+>
+>Die Replizierung von ContextHub-Konfigurationen und -Zielgruppen erfolgt während der Projekteinrichtung, während Aktivitäten repliziert werden. Dies ist bei jeder Änderung des Targeting innerhalb eines Kanals erforderlich.
 
 #### Ergebnis {#result}
 
@@ -92,10 +93,10 @@ Wenn die Testverbindung beim Replizieren der ContextHub-Konfigurationen fehlschl
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
 1. Wenn Sie nicht die standardmäßigen Administratorberechtigungen verwenden, müssen Sie den Verteilungsagenten mit einem anderen Benutzernamen und einem anderen Kennwort konfigurieren.
-Führen Sie dazu folgende Schritte durch:
+
+   Führen Sie dazu folgende Schritte durch:
 
    1. Navigieren Sie zu Tools > **Vorgänge** > **Web-Konsole** , `http://localhost:4502/system/console/configMgr`um den Bildschirm **&quot;** Adobe Experience Manager Web-Konsole&quot;zu öffnen.
-
    1. Search for **Apache Sling Distribution Transport Credentials - User Credentials based DistributionTransportSecretProvider**
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers6.png)
@@ -105,11 +106,9 @@ Führen Sie dazu folgende Schritte durch:
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers7.png)
 
    1. Klicken Sie auf **Speichern**.
-
    1. Verwenden Sie `Cmd +F` die Suche nach **Apache Sling Distribution Agent - Forward Agents Factory** , um die Konfigurationen zu öffnen und nach **Transport Secret Provider** zu suchen.
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers8.png)
 
    1. Aktualisieren Sie den `(name=default)` mit `(name=slingTransportSecretProvider)`.
-
    1. Klicken Sie auf **Speichern** und führen Sie die Testverbindung erneut über den Bildschirm **Distribution Agent** aus Ihrer AEM-Instanz aus.
