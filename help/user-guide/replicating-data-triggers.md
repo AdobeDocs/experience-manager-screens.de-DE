@@ -4,7 +4,7 @@ seo-title: Replizieren von Datenauslösern zum Veröffentlichungsserver
 description: Replizieren Sie Datenauslöser auf den Veröffentlichungsserver.
 seo-description: Replizieren Sie Datenauslöser auf den Veröffentlichungsserver.
 translation-type: tm+mt
-source-git-commit: 8e5ad12efe53a9a9f4dcdde62be07fb9341dbb84
+source-git-commit: 4e86ed7c3050209b3baa67087fc149afae8340b6
 
 ---
 
@@ -71,8 +71,8 @@ Gehen Sie wie folgt vor, um die Datenauslöser auf den Veröffentlichungsserver 
 
 1. Klicken Sie auf **Weiter** und **Veröffentlichen**.
 
-   > [!Note]
-   >Die Replizierung von ContextHub-Konfigurationen und -Zielgruppen erfolgt während der Projekteinrichtung, während Aktivitäten repliziert werden. Dies ist bei jeder Änderung des Targeting innerhalb eines Kanals erforderlich.
+> [!Note]
+> **Wichtig **:>Die Replizierung von ContextHub-Konfigurationen und -Zielgruppen erfolgt während der Projekteinrichtung, während Aktivitäten repliziert werden. Dies ist bei jeder Änderung des Targeting innerhalb eines Kanals erforderlich.
 
 #### Ergebnis {#result}
 
@@ -113,7 +113,3 @@ Führen Sie dazu folgende Schritte durch:
    1. Aktualisieren Sie den `(name=default)` mit `(name=slingTransportSecretProvider)`.
 
    1. Klicken Sie auf **Speichern** und führen Sie die Testverbindung erneut über den Bildschirm **Distribution Agent** aus Ihrer AEM-Instanz aus.
-
-   1. Der Benutzer muss die Seite &quot; **Distribution Agent** &quot;von der AEM-Instanz erneut aufrufen, um die Standard-URL von `localhost:4503` der zu seiner eigenen Veröffentlichungs-URL zu aktualisieren bzw. zu ersetzen.
-
-      ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
