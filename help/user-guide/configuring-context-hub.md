@@ -10,7 +10,7 @@ topic-tags: developing
 content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ed79a3c9e2b99ef1de6e293fe2e86adfa8dde85c
 
 ---
@@ -40,7 +40,7 @@ Das folgende Diagramm zeigt visuell, wie ContextHub-Konfigurationen mit Aktivit�
 
 ## Voraussetzungen {#preconditions}
 
-Bevor Sie mit der Konfiguration von Context Hub-Konfigurationen für ein AEM Screens-Projekt beginnen, müssen Sie Google-Sheets (zu Demonstrationszwecken) einrichten.
+Bevor Sie mit der Konfiguration von Context-Hub-Konfigurationen für ein AEM Screens-Projekt beginnen, müssen Sie Google Tabellen (für Demonstrationszwecke) einrichten.
 
 >[!CAUTION]
 >
@@ -54,11 +54,11 @@ Sie können den Datenspeicher als lokales E/A-Ereignis oder als lokales Datenban
 
 ### Lokales E/A-Ereignis {#local-io-event}
 
-Gehen Sie wie folgt vor, um einen Datenspeicher wie z. B. ein ASCII-Ereignis einzurichten, mit dem Sie ContextHub-Konfigurationen und Segmentpfade zum AEM Screens-Kanal verwenden können.
+Gehen Sie wie unten beschrieben vor, um einen Datenspeicher wie ein ASCII-Ereignis einzurichten, mit dem Sie ContextHub-Konfigurationen und Segmentpfade zum AEM Screens-Kanal verwenden können.
 
 ### Lokales Datenbankereignis {#local-db-event}
 
-Gehen Sie wie unten beschrieben vor, um einen Datenspeicher wie ein Excel-Arbeitsblatt einzurichten, mit dem Sie ContextHub-Konfigurationen und Segmentpfade zum AEM Screens-Kanal verwenden können.
+Gehen Sie wie unten beschrieben vor, um einen Datenspeicher wie eine Excel-Tabelle einzurichten, mit dem Sie ContextHub-Konfigurationen und Segmentpfade zum AEM Screens-Kanal verwenden können.
 
 1. **Navigieren zu ContextHub**
 
@@ -179,7 +179,7 @@ Nachdem Sie einen Datenspeicher eingerichtet und Ihre Marke definiert haben, fü
 
 Gehen Sie wie folgt vor, um Targeting in Ihren Kanälen zu aktivieren.
 
-1. Navigieren Sie zu einem der AEM-Bildschirme-Kanäle. The following steps demonstrate how to enable targeting by using **DataDrivenRetail** created in an AEM Screens Channel.
+1. Navigieren Sie zu einem der AEM Screens-Kanäle. Die folgenden Schritte zeigen, wie Sie das Targeting mit **DataDrivenRetail** aktivieren, das in einem AEM Screens-Kanal erstellt wurde.
 
 1. Wählen Sie den Kanal **DataDrivenRetail** aus und klicken Sie in der Aktionsleiste auf **Eigenschaften**.
 
