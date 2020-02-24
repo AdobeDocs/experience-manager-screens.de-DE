@@ -5,7 +5,7 @@ description: Auf dieser Seite erfahren Sie, wie Sie benutzerdefinierte Vorlagen 
 seo-description: Auf dieser Seite erfahren Sie, wie Sie benutzerdefinierte Vorlagen für Mehrzonen-Layouts erstellen.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 6a0967580d06e749db878d74aad2ffb1fec82f43
+source-git-commit: 23208ed9e4e293cfcec65305918f35573c20cc02
 
 ---
 
@@ -60,15 +60,26 @@ Gehen Sie wie folgt vor, um ein Left20-LandscapeHD3Zone-Layout für ein AEM Scre
 
 1. Kopieren Sie die linke Vorlage von `/libs/screens/core/templates/splitscreenchannel/lbar-left` nach `/apps/customtemplate/template`.
 
-1. Benennen Sie das kopierte **lbar-left** (`/apps/customtemplate/template`) in **my-custom-layout** um.
+1. Benennen Sie das kopierte **lbar-left** (`/apps/customtemplate/template`) in **my-custom-layout**um.
+   ![image](/help/user-guide/assets/custom-multizone/custom-template3.png)
 
 1. Navigieren Sie zu `/apps/customtemplate/template/my-custom-layout` und aktualisieren Sie die Eigenschaften **jcr:description** zu *Template für Left20-LandscapeHD3Zone* und **jcr:title** zu *Left20-LandscapeHD3Zone*.
 
+   ![image](/help/user-guide/assets/custom-multizone/custom-template4.png)
+
 1. Navigieren Sie zum Knoten **offline-config** von `/apps/customtemplate/template/my-custom-layout/jcr:content/offline-config` und aktualisieren Sie **jcr:title** auf *Left20-LandscapeHD3Zone*.
+
+   ![image](/help/user-guide/assets/custom-multizone/custom-template5.png)
 
 1. Navigieren Sie zur Eigenschaft *jcr:content* von **my-custom-template** `/apps/customtemplate/template/my-custom-layout/jcr:content` und aktualisieren Sie die Eigenschaft **cq:cssClass** auf **aem-Layout my-custom-layout**.
 
-1. Bezogen auf Schritt (4), in dem Sie die linke Vorlage kopiert haben, sehen Sie 3 interaktive Raster unter `my-custom-layout/jcr:content`. Fügen Sie der Eigenschaft *cq:cssClass* benutzerdefinierte CSS-Klassen zu jedem interaktiven Raster hinzu. Beispiel: *my-custom-layout - top-left*, *my-custom-layout - top-right*, *my-custom-layout - bottom*.
+   ![image](/help/user-guide/assets/custom-multizone/custom-template6.png)
+
+1. Bezogen auf Schritt (4), in dem Sie die linke Vorlage kopiert haben, sehen Sie 3 interaktive Raster unter `my-custom-layout/jcr:content`. Fügen Sie der Eigenschaft *cq:cssClass* benutzerdefinierte CSS-Klassen zu jedem interaktiven Raster hinzu, z. B. *my-custom-layout - top-left* für den Knoten *r1c1* .
+
+   ![image](/help/user-guide/assets/custom-multizone/custom-template7.png)
+
+   Fügen Sie *my-custom-layout - top-right* for *r1c2* and, *my-custom-layout - bottom* for *r2c1* node hinzu.
 
    >[!NOTE]
    >Diese benutzerdefinierten Klassen werden im CSS verwendet, um die Breite/Höhe für diese interaktiven Raster festzulegen.
@@ -76,72 +87,51 @@ Gehen Sie wie folgt vor, um ein Left20-LandscapeHD3Zone-Layout für ein AEM Scre
    >[!NOTE]
    > Sie können die reaktionsfähigen Raster je nach der gewünschten Gesamtanzahl der Raster hinzufügen oder entfernen. In diesem Beispiel zeigen wir die Raster 2 in der ersten Zeile und 1 in der zweiten Zeile, sodass insgesamt 3 interaktive Raster (r1c1, r1c2, r2c1) vorhanden sind.
 
-1. Kopieren `/libs/settings/wcm/designs/screens` nach `/apps/settings/wcm/designs/` und benennen Sie sie als **benutzerdefinierte Vorlagenentwürfe um**
+1. Kopieren Sie `/libs/settings/wcm/designs/screens` in den kopierten Entwurf und benennen Sie ihn in `/apps/settings/wcm/designs/`custom-template-designs **** um.
 
 1. Navigieren Sie zur Eigenschaft `/apps/settings/wcm/designs/custom-template-designs`jcr:title *von* custom-template-designs **und aktualisieren Sie sie auf** customtemplate-design **** .
 
-1. Aktualisieren Sie den `/apps/settings/wcm/designs/<project>-designs/static.css` Inhalt auf die folgenden
+1. Navigieren Sie zu der Datei static.css `/apps/settings/wcm/designs/custom-template-designs` und erstellen Sie sie.
 
-## Erstellen einer benutzerdefinierten Vorlage mit einer bestimmten Konfiguration {#basic-flow-setting}
-
-![image](assets/custom-template1.png)
-
-Gehen Sie wie folgt vor, um eine benutzerdefinierte Vorlage zu erstellen.
-
-1. Erstellen Sie die Vorlage in `/apps/<project>/templates/my-custom-layout`
+1. Kopieren Sie den Inhalt in die Datei &quot;static.css&quot;:
 
    ```shell
-    <?xml version="1.0" encoding="UTF-8"?>
-    <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:description="My Custom 3-zones layout "
-    jcr:primaryType="cq:Template"
-    jcr:title="3-zones layout"
-    allowedParents="[/libs/screens/core/templates/channelfolder]"
-    allowedPaths="[/content/screens(/.*)?]"
-    ranking="{Long}20000">
-    <jcr:content
-        cq:cssClass="aem-Layout aem-Layout--3x1 my-CustomLayout"
-        cq:designPath="/apps/settings/wcm/designs/<project>"
-        cq:deviceGroups="[mobile/groups/responsive]"
-        jcr:primaryType="cq:PageContent"
-        sling:resourceSuperType="screens/core/components/channel"
-        sling:resourceType="screens/core/components/multiscreenchannel">
-        <r1c1
-            cq:cssClass="aem-LayoutCell--1-1 my-CustomLayout-top"
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid"/>
-        <r2c1
-            cq:cssClass="aem-LayoutCell--1-1 my-CustomLayout-middle"
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid"/>
-        <r3c1
-            cq:cssClass="aem-LayoutCell--1-1 my-CustomLayout-bottom"
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid"/>
-        <cq:responsive jcr:primaryType="nt:unstructured">
-            <breakpoints jcr:primaryType="nt:unstructured"/>
-        </cq:responsive>
-        <offline-config/>
-    </jcr:content>
-   </jcr:root>
+       /*my-custom-layout styles*/
+      .cq-Screens-channel--multizone.my-custom-layout .my-custom-layout--top-left {
+       width:20%;
+       height: 36%;
+      float: left !important;
+      }
+     .cq-Screens-channel--multizone.my-custom-layout .my-custom-layout--top-right {
+      width:80%;
+      height: 36%;
+     float: left !important;
+     }
+     .cq-Screens-channel--multizone.my-custom-layout .my-custom-layout--bottom {
+     width:100%;
+     height: 64%;
+     }
    ```
-
-1. Erstellen Sie ein Seiten-Design in `/apps/settings/wcm/designs/<project>`.
 
    >[!NOTE]
-   >
-   >Vergewissern Sie sich, dass der obige `cq:designPath` mit dem Pfad übereinstimmt.
+   > Sie können die Prozentsätze entsprechend den Anforderungen für Ihre benutzerdefinierte Vorlage aktualisieren.
 
-1. Aktualisieren Sie den Knoten **offline-config** für das Design, damit er auf den neuen Pfad verweist.
+1. Navigieren Sie zur Eigenschaft `/apps/<project>/templates/my-custom-layout/jcr:content`cq:designPath *und aktualisieren Sie sie,* `/apps/settings/wcm/designs/customtemplate-designs` um die in static.css konfigurierten Stile zu laden.
 
-1. Fügen Sie eine **static.css**-Datei im Ordner `/apps/settings/wcm/designs/<project>` hinzu und setzen Sie deren Inhalt auf
+   >[!NOTE]
+   > Es wird empfohlen, alle Stile einzugeben, anstatt sie zu kopieren oder einzufügen. Dies kann zu Leerzeichen führen, die zu CSS-Stilproblemen führen.
 
-   ```shell
-   .cq-Screens-channel--multizone.my-CustomLayout {}
-   .cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-top { height: 150px; }
-   .cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-middle { height: 1470px; }
-   .cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-bottom { height: 300px; }
-   ```
+## Anzeigen des Ergebnisses {#viewing-result}
+
+Gehen Sie wie folgt vor, um die oben genannte benutzerdefinierte Vorlage in Ihrem AEM Screens-Projekt zu verwenden:
+
+1. Navigieren Sie zu dem in Schritt 1 erstellten Projekt &quot;Bildschirme&quot;und wählen Sie den Ordner &quot; **Kanäle** &quot;aus.
+
+   ![image](/help/user-guide/assets/custom-multizone/custom-template8.png)
+
+1. Klicken Sie in der Aktionsleiste auf **Erstellen** und wählen Sie die Vorlage **Left20-LandscapeHD3Zone** im Assistenten **Erstellen** aus.
+
+1. Nachdem Sie einen Kanal mit der benutzerdefinierten Vorlage erstellt haben, können Sie Assets aus dem Editor zu Ihrem Kanal hinzufügen.
 
 ## Einfügen eines Bildes als Hintergrundebene {#inserting-image}
 
