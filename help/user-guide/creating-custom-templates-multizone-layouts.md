@@ -5,7 +5,7 @@ description: Auf dieser Seite erfahren Sie, wie Sie benutzerdefinierte Vorlagen 
 seo-description: Auf dieser Seite erfahren Sie, wie Sie benutzerdefinierte Vorlagen für Mehrzonen-Layouts erstellen.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 87a86d60de9ea09dae93d08a1e0b42271c39249f
+source-git-commit: 6a0967580d06e749db878d74aad2ffb1fec82f43
 
 ---
 
@@ -16,7 +16,7 @@ Auf dieser Seite wird erläutert, wie Sie eine benutzerdefinierte Vorlage in ein
 
 ## Namenskonvention {#name-terms}
 
-Bevor Sie wissen, wie Sie benutzerdefinierte Vorlagen für mehrere Bereiche erstellen, die in einem AEM Screens-Projekt verwendet werden sollen, sollten Sie die verschiedenen Vorlagen, die Sie erstellen möchten, kennen.
+Bevor Sie wissen, wie Sie benutzerdefinierte Multi-Zone-Vorlagen erstellen, die in einem AEM Screens-Projekt verwendet werden, sollten Sie die Version der Vorlagen verstehen, die Sie erstellen möchten.
 
 | **Layoutname** | **Beschreibung** |
 |---|---|
@@ -26,9 +26,9 @@ Bevor Sie wissen, wie Sie benutzerdefinierte Vorlagen für mehrere Bereiche erst
 
 ## Anwendungsbeispiele {#example-use-cases}
 
-## Erstellen eines Left20-LandscapeHD3Zone-Layouts {#landscape-layout-one}
+## Left20-LandscapeHD3Zone-Layout {#custom-template-one}
 
-Gehen Sie wie folgt vor, um eine benutzerdefinierte Vorlage mit der folgenden Konfiguration zu erstellen:
+Gehen Sie wie folgt vor, um eine benutzerdefinierte Vorlage *Left20-LandscapeHD3Zone* mit der folgenden Konfiguration zu erstellen:
 
 * **&quot;Left20** &quot;bezieht sich auf den oberen Bereich links, der 20 % der horizontalen und vertikalen Bildschirmgröße umfasst.
 * **Querformat** bezieht sich auf die Bildschirmausrichtung
@@ -41,24 +41,50 @@ Das Layout Left20-LandscapeHD3Zone ermöglicht Ihnen das Erstellen des folgenden
 
 ![image](/help/user-guide/assets/custom-multizone/custom-multizone1.png)
 
+## Erstellen eines Left20-LandscapeHD3Zone-Layouts {#landscape-layout-one}
 
+Gehen Sie wie folgt vor, um ein Left20-LandscapeHD3Zone-Layout für ein AEM Screens-Projekt zu erstellen:
 
+1. Create an AEM Screens project titled as **customtemplate**.
 
+   ![image](/help/user-guide/assets/custom-multizone/custom-template2.png)
 
+1. Navigieren Sie von Ihrer AEM-Instanz zu **CRXDE Lite** —> Tools —> **CRXDE Lite**.
 
-## Erstellen eines Upper20-PortraitHD2Zone-Layouts {#landscape-layout-two}
+1. Erstellen Sie einen Ordner unter **Apps** mit dem Titel **customtemplate**. Erstellen Sie entsprechend einen weiteren Ordner mit dem Titel &quot; **Vorlage** &quot;unter &quot; **Vorlage**&quot;wie in der folgenden Abbildung dargestellt.
 
-Gehen Sie wie folgt vor, um eine benutzerdefinierte Vorlage mit der folgenden Konfiguration zu erstellen:
+   ![image](/help/user-guide/assets/custom-multizone/custom-template1.png)
 
+   > [!NOTE]
+   > Es wird empfohlen, bei jedem Erstellen, Bearbeiten oder Kopieren von Inhalten auf einer der Knoten in der Aktionsleiste von CRXDE Lite auf Alle **** speichern zu klicken. Andernfalls können die Updates nicht übernommen werden.
 
+1. Kopieren Sie die linke Vorlage von `/libs/screens/core/templates/splitscreenchannel/lbar-left` nach `/apps/customtemplate/template`.
 
+1. Benennen Sie das kopierte **lbar-left** (`/apps/customtemplate/template`) in **my-custom-layout** um.
 
+1. Navigieren Sie zu `/apps/customtemplate/template/my-custom-layout` und aktualisieren Sie die Eigenschaften **jcr:description** zu *Template für Left20-LandscapeHD3Zone* und **jcr:title** zu *Left20-LandscapeHD3Zone*.
 
+1. Navigieren Sie zum Knoten **offline-config** von `/apps/customtemplate/template/my-custom-layout/jcr:content/offline-config` und aktualisieren Sie **jcr:title** auf *Left20-LandscapeHD3Zone*.
 
-![image](assets/custom-template1.png)
+1. Navigieren Sie zur Eigenschaft *jcr:content* von **my-custom-template** `/apps/customtemplate/template/my-custom-layout/jcr:content` und aktualisieren Sie die Eigenschaft **cq:cssClass** auf **aem-Layout my-custom-layout**.
 
+1. Bezogen auf Schritt (4), in dem Sie die linke Vorlage kopiert haben, sehen Sie 3 interaktive Raster unter `my-custom-layout/jcr:content`. Fügen Sie der Eigenschaft *cq:cssClass* benutzerdefinierte CSS-Klassen zu jedem interaktiven Raster hinzu. Beispiel: *my-custom-layout - top-left*, *my-custom-layout - top-right*, *my-custom-layout - bottom*.
+
+   >[!NOTE]
+   >Diese benutzerdefinierten Klassen werden im CSS verwendet, um die Breite/Höhe für diese interaktiven Raster festzulegen.
+
+   >[!NOTE]
+   > Sie können die reaktionsfähigen Raster je nach der gewünschten Gesamtanzahl der Raster hinzufügen oder entfernen. In diesem Beispiel zeigen wir die Raster 2 in der ersten Zeile und 1 in der zweiten Zeile, sodass insgesamt 3 interaktive Raster (r1c1, r1c2, r2c1) vorhanden sind.
+
+1. Kopieren `/libs/settings/wcm/designs/screens` nach `/apps/settings/wcm/designs/` und benennen Sie sie als **benutzerdefinierte Vorlagenentwürfe um**
+
+1. Navigieren Sie zur Eigenschaft `/apps/settings/wcm/designs/custom-template-designs`jcr:title *von* custom-template-designs **und aktualisieren Sie sie auf** customtemplate-design **** .
+
+1. Aktualisieren Sie den `/apps/settings/wcm/designs/<project>-designs/static.css` Inhalt auf die folgenden
 
 ## Erstellen einer benutzerdefinierten Vorlage mit einer bestimmten Konfiguration {#basic-flow-setting}
+
+![image](assets/custom-template1.png)
 
 Gehen Sie wie folgt vor, um eine benutzerdefinierte Vorlage zu erstellen.
 
