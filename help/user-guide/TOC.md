@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: c9d618c4d38e8b1f74125c89cc9d25a1dcde54bb
+source-git-commit: 69dd2238562c00ab83e63e268515e24dee55f5ee
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: c9d618c4d38e8b1f74125c89cc9d25a1dcde54bb
    + [Einrichten von ACLs](setting-up-acls.md)
    + [Umstellung von ContentSync auf SmartSync](smartsync.md)
    + [Importer für neue Projekte aus Datei](project-importer.md)
-   + [Replizieren von Datenauslösern auf Veröffentlichungsserver](replicating-data-triggers.md)
+   + [Replizieren von Datenauslösern auf Veröffentlichungsservern](replicating-data-triggers.md)
    + Kundenspezifische Aspekte {#installing-client}
       + [Chrome OS-Player](implementing-chrome-os-player.md)
       + [Verwenden von Chrome-Player als Erweiterung zur Problembehebung](using-chrome-player-as-an-extension.md)
@@ -89,7 +89,7 @@ source-git-commit: c9d618c4d38e8b1f74125c89cc9d25a1dcde54bb
    + [Erstellen von Komponenten](creating-components.md)
    + [Einbetten einer REACT-Anwendung mit AEM SPA Editor und Integration mit AEM Screens Analytics](embedding-react-app.md)
    + [Konfigurieren von ContextHub in AEM Screens](configuring-context-hub.md)
-   + [Erstellen benutzerdefinierter Vorlagen für Mehrzonen-Layouts](creating-custom-templates-multizone-layouts.md)
+   + [Creating Custom Templates for MultiZone Layouts](creating-custom-templates-multizone-layouts.md)
 + Problembehebung und häufig gestellte Fragen {#troubleshooting}
    + [Häufig gestellte Fragen zu AEM Screens](aem-screens-faqs.md)
    + [Problembehebung in der Gerätesteuerung](monitoring-screens.md)
