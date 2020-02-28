@@ -10,13 +10,13 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: 1dbbe62875cdc1a0c1c7d5fe45221d7ebd12207f
 
 ---
 
 
-# Aktivierung auf der Kanalebene – Wiedergabe eines einzelnen Ereignisses {#channel-level-activation-single-event-playback}
+# Channel Level Activation {#channel-level-activation-single-event-playback}
 
 Die Aktivierung auf der Kanalebene umfasst die folgenden Themen:
 
@@ -87,7 +87,7 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
 
 1. **Erstellen einer Anzeige unter dem Standort**
 
-   1. Navigieren Sie zu **Channel Level Activation** &gt; **Standorte** &gt; **Region**.
+   1. Navigieren Sie zu **Channel Level Activation** > **Standorte** > **Region**.
    1. Wählen Sie **Region** aus und klicken Sie in der Aktionsleiste auf **+ Erstellen**.
    1. Wählen Sie im Assistenten die Option **Anzeigen** aus und erstellen Sie eine Anzeige mit dem Titel **RegionDisplay.**
    ![screen_shot_2018-11-27at112216am](assets/screen_shot_2018-11-27at112216am.png)
@@ -96,10 +96,10 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
 
    Für **MainAdChannel:**
 
-   1. Navigieren Sie zu **Channel Level Activation** &gt; **Standorte** &gt; **Region** &gt; **RegionDisplay** und klicken Sie in der Aktionsleiste auf **Kanal zuweisen**.
+   1. Navigieren Sie zu **Channel Level Activation** > **Standorte** > **Region** > **RegionDisplay** und klicken Sie in der Aktionsleiste auf **Kanal zuweisen**.
    1. Daraufhin wird das Dialogfeld **Kanalzuweisung** geöffnet.
    1. Wählen Sie als Vorgehensweise für **Kanal referenzieren** die Option „Pfad“ aus.
-   1. Wählen Sie unter **Kanalpfad** den Wert **Channel Level Activation** &gt; ***Kanäle*** &gt; ***MainAdChannel*** aus.
+   1. Select the **Channel Path** as **Channel Level Activation** --> ***Channels*** --> ***MainAdChannel***.
    1. Die **Kanalrolle** wird mit **mainadchannel** ausgefüllt.
    1. Wählen Sie als **Priorität** den Wert **1** aus.
    1. Wählen Sie unter **Unterstützte Ereignisse** die Optionen **Erster Ladevorgang** und **Bildschirm bei Untätigkeit** aus.
@@ -108,14 +108,14 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
 
    >[!NOTE]
    >
-   >Sie können Kanäle auch über das Anzeigen-Dashboard zuweisen, indem Sie zu **Channel Level Activation** &gt; **Standorte** &gt; **Region** &gt; **RegionDisplay** navigieren und in der Aktionsleiste auf **Dashboard** klicken. Klicken Sie im Bedienfeld **ZUGEWIESENE KANÄLE UND ZEITPLÄNE** auf **+ Kanal zuweisen**.
+   >Sie können Kanäle auch über das Anzeigen-Dashboard zuweisen, indem Sie zu **Channel Level Activation** > **Standorte** > **Region** > **RegionDisplay** navigieren und in der Aktionsleiste auf **Dashboard** klicken. Klicken Sie im Bedienfeld **ZUGEWIESENE KANÄLE UND ZEITPLÄNE** auf **+ Kanal zuweisen**.
 
    Weisen Sie den Kanal **TargetedSinglePlay** für die Anzeige zu:
 
-   1. Navigieren Sie zu **Channel Level Activation** &gt; **Standorte** &gt; **Region** &gt; **RegionDisplay** und klicken Sie in der Aktionsleiste auf **Kanal zuweisen**.
+   1. Navigieren Sie zu **Channel Level Activation** > **Standorte** > **Region** > **RegionDisplay** und klicken Sie in der Aktionsleiste auf **Kanal zuweisen**.
    1. Daraufhin wird das Dialogfeld **Kanalzuweisung** geöffnet.
    1. Wählen Sie als Vorgehensweise für **Kanal referenzieren** die Option „Pfad“ aus.
-   1. Wählen Sie unter **Kanalpfad** den Wert **Channel Level Activation** &gt; ***Kanäle*** &gt; ***TargetedSinglePlay*** aus.
+   1. Select the **Channel Path** as **Channel Level Activation*** --> ***Channels*** --> ***TargetedSinglePlay***.
    1. Die **Kanalrolle** wird mit **targetedsingleplay** ausgefüllt.
    1. Legen Sie die als **Priorität** den Wert **2** fest.
    1. Wählen Sie unter **Unterstützte Ereignisse** die Optionen **Erster Ladevorgang**, **Bildschirm bei Untätigkeit** und **Timer** aus, wie in der Abbildung unten gezeigt.
