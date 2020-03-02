@@ -5,7 +5,7 @@ description: Auf dieser Seite erfahren Sie, wie Sie benutzerdefinierte Vorlagen 
 seo-description: Auf dieser Seite erfahren Sie, wie Sie benutzerdefinierte Vorlagen für Mehrzonen-Layouts erstellen.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 9e3f26e10a5168511b2bf138f8ce36b94778b339
+source-git-commit: 90d3d91f127432d8783748f00440bc6949262826
 
 ---
 
@@ -51,7 +51,7 @@ Gehen Sie wie folgt vor, um eine benutzerdefinierte Vorlage *Left20-LandscapeHD3
 
 Das Layout Left20-LandscapeHD3Zone ermöglicht Ihnen das Erstellen des folgenden Layouts mit mehreren Zonen in Ihrem Projekt:
 
-![image](/help/user-guide/assets/custom-multizone/custom-multizone1.png)
+![image](/help/user-guide/assets/custom-multizone/landscape-3-zone-new.png)
 
 ## Erstellen eines Left20-LandscapeHD3Zone-Layouts {#landscape-layout-one}
 
