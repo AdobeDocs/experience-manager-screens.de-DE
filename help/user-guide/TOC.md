@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 69dd2238562c00ab83e63e268515e24dee55f5ee
+source-git-commit: 1dbbe62875cdc1a0c1c7d5fe45221d7ebd12207f
 
 ---
 
@@ -57,12 +57,12 @@ source-git-commit: 69dd2238562c00ab83e63e268515e24dee55f5ee
       + [Massen-Offline-Update](bulk-offline-update.md)
       + [AEM Screens-Benachrichtigungsdienst](screens-notifications-service.md)
       + [Verwenden von Experience Fragments](experience-fragments-in-screens.md)
-      + [Zeitplanung auf der Asset-Ebene](asset-level-scheduling.md)
+      + [Aktivierung auf Asset-Ebene](asset-level-scheduling.md)
+      + [Aktivierung auf Kanalebene](channel-level-activation.md)
       + [Erstellen und Verwalten einer Live Copy](managing-livecopy.md)
       + [Erstellen eines Workflows für den Videoabstand](creating-a-video-padding-workflow.md)
       + [Hinzufügen von Komponenten zu Kanälen](adding-components-to-a-channel.md)
       + [Eingebettete Sequenzen](embedded-sequences.md)
-      + [Aktivierung auf der Kanalebene – Wiedergabe eines einzelnen Ereignisses](channel-level-activation.md)
       + [Mehrzonen-Layout](multi-zone-layout-aem-screens.md)
       + [Videoausgabeformate](generating-renditions.md)
       + [Verwenden dynamischer eingebetteter Sequenzen](dynamic-embedded-sequences.md)
@@ -89,7 +89,7 @@ source-git-commit: 69dd2238562c00ab83e63e268515e24dee55f5ee
    + [Erstellen von Komponenten](creating-components.md)
    + [Einbetten einer REACT-Anwendung mit AEM SPA Editor und Integration mit AEM Screens Analytics](embedding-react-app.md)
    + [Konfigurieren von ContextHub in AEM Screens](configuring-context-hub.md)
-   + [Creating Custom Templates for MultiZone Layouts](creating-custom-templates-multizone-layouts.md)
+   + [Erstellen benutzerdefinierter Vorlagen für MultiZone-Layouts](creating-custom-templates-multizone-layouts.md)
 + Problembehebung und häufig gestellte Fragen {#troubleshooting}
    + [Häufig gestellte Fragen zu AEM Screens](aem-screens-faqs.md)
    + [Problembehebung in der Gerätesteuerung](monitoring-screens.md)
