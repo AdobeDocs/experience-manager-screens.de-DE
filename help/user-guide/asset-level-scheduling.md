@@ -4,7 +4,7 @@ seo-title: Aktivierung auf Asset-Ebene
 description: Auf dieser Seite erfahren Sie, wie Sie ein bestimmtes Asset in einem Kanal für einen geplanten Zeitraum in der lokalen Zeitzone des Players aktivieren können.
 seo-description: Auf dieser Seite erfahren Sie, wie Sie ein bestimmtes Asset in einem Kanal für einen geplanten Zeitraum in der lokalen Zeitzone des Players aktivieren können.
 translation-type: tm+mt
-source-git-commit: 94e6e61462e72b17d9aa09aa020dbfdc5524be44
+source-git-commit: e58d2ffa1886199f1602de933dc0d8e5fb293cdd
 
 ---
 
@@ -95,11 +95,16 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 
 | **Ausdruck** | **Interpretation** |
 |---|---|
-| vor 8:00 Uhr | der Kanal wird täglich vor 8:00 Uhr wiedergegeben |
-| nach 14:00 Uhr | der Kanal wird täglich nach 14.00 Uhr wiedergegeben |
-| nach 12:15 Uhr und vor 12:45 Uhr | der Kanal wird täglich für 30 Minuten nach 12:15 Uhr wiedergegeben |
-| vor 12:15 Uhr auch nach 12:45 Uhr | Der Kanal wird täglich vor 12:15 Uhr und danach auch nach 12:45 Uhr wiedergegeben |
+| vor 8:00 Uhr | Das Asset im Kanal wird täglich vor 8:00 Uhr wiedergegeben |
+| nach 14:00 Uhr | das Asset im Kanal wird täglich nach 14.00 Uhr wiedergegeben |
+| nach 12:15 Uhr und vor 12:45 Uhr | Das Asset im Kanal wird 30 Minuten nach 12:15 Uhr täglich wiedergegeben |
+| vor 12:15 Uhr auch nach 12:45 Uhr | Das Asset im Kanal wird täglich vor 22:15 Uhr und danach auch nach 22:45 Uhr wiedergegeben |
 | Mon, Tue, Wed oder Mon-Wed | Das Asset wird von Montag bis Mittwoch im Kanal wiedergegeben |
+| am 1. Januar nach 14:00 Uhr auch am 2. Januar, auch am 3. Januar vor 3:00 Uhr | Das Asset im Kanal wird am 1. Januar nach 14:00 Uhr abgespielt, am 2. Januar wird es bis 3:00 Uhr am 3. Januar für den gesamten Tag abgespielt |
+| am 1./2. Januar nach 14:00 Uhr auch am 2./3. Januar vor 3:00 Uhr | Das Asset im Kanal startet am 1. Januar nach 14:00 Uhr den Player, läuft bis 3:00 Uhr am 2. Januar und beginnt dann am 2. Januar um 14:00 Uhr und wird bis 3:00 Uhr am 3. Januar wiedergegeben |
+
+>[!NOTE]
+>Sie können das _24-Stunden-Format_ (d. h. 14:00 Uhr) oder die *am/pm*-Notation (d. h. 2:00 pm) verwenden.
 
 ### Wochenaufteilung {#week-parting}
 
@@ -118,10 +123,14 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 
 | **Ausdruck** | **Interpretation** |
 |---|---|
-| vor 8:00 Uhr | der Kanal wird täglich vor 8:00 Uhr wiedergegeben |
-| nach 14:00 Uhr | der Kanal wird täglich nach 14.00 Uhr wiedergegeben |
-| nach 12:15 Uhr und vor 12:45 Uhr | der Kanal wird täglich für 30 Minuten nach 12:15 Uhr wiedergegeben |
+| Mon, Tue, Wed oder Mon-Wed | Das Asset wird von Montag bis Mittwoch im Kanal wiedergegeben |
+| vor 8:00 Uhr | Das Asset im Kanal wird täglich vor 8:00 Uhr wiedergegeben |
+| nach 14:00 Uhr | das Asset im Kanal wird täglich nach 14.00 Uhr wiedergegeben |
+| nach 12:15 Uhr und vor 12:45 Uhr | Das Asset im Kanal wird 30 Minuten nach 12:15 Uhr täglich wiedergegeben |
 | vor 12:15 Uhr auch nach 12:45 Uhr | Der Kanal wird täglich vor 12:15 Uhr und danach auch nach 12:45 Uhr wiedergegeben |
+
+>[!NOTE]
+>Sie können das _24-Stunden-Format_ (d. h. 14:00 Uhr) oder die *am/pm*-Notation (d. h. 2:00 pm) verwenden.
 
 
 ### Monatsaufteilung {#month-parting}
@@ -141,12 +150,12 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 | **Ausdruck** | **Interpretation** |
 |---|---|
 | vom Februar, Mai, August, November | Das Asset wird im Februar, Mai, August, November |
-| nach 14:00 Uhr | der Kanal wird täglich nach 14.00 Uhr wiedergegeben |
-| nach 12:15 Uhr und vor 12:45 Uhr | der Kanal wird täglich für 30 Minuten nach 12:15 Uhr wiedergegeben |
-| vor 12:15 Uhr auch nach 12:45 Uhr | Der Kanal wird täglich vor 12:15 Uhr und danach auch nach 12:45 Uhr wiedergegeben |
 
 > [!NOTE]
 > Bei der Definition von Wochentagen und Monaten können Sie sowohl die Kurzbezeichnung als auch den Vollnamen verwenden, z. B. &quot;Mon/Montag&quot;und &quot;Jan/Januar&quot;.
+
+>[!NOTE]
+> Sie können das _24-Stunden-Format_ (d. h. 14:00 Uhr) oder die *am/pm*-Notation (d. h. 2:00 pm) verwenden.
 
 ## Aktivierung mehrerer Assets {#multi-asset-scheduling}
 
@@ -187,18 +196,3 @@ Gehen Sie wie folgt vor, um mehrere Assets auszuwählen und ihre Anzeige in eine
 
    ![screen_shot_2018-12-21at70722am](assets/screen_shot_2018-12-21at70722am.png)
 
-## Beispielausdrücke {#example-expressions}
-
-Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hinzufügen können, während Sie einer Anzeige einen Kanal zuweisen.
-
-| **Ausdruck** | **Interpretation** |
-|---|---|
-| vor 8:00 Uhr | der Kanal wird täglich vor 8:00 Uhr wiedergegeben |
-| nach 14:00 Uhr | der Kanal wird täglich nach 14.00 Uhr wiedergegeben |
-| nach 12:15 Uhr und vor 12:45 Uhr | der Kanal wird täglich für 30 Minuten nach 12:15 Uhr wiedergegeben |
-| vor 12:15 Uhr auch nach 12:45 Uhr | Der Kanal wird täglich vor 12:15 Uhr und danach auch nach 12:45 Uhr wiedergegeben |
-| am 1. Januar nach 14:00 Uhr auch am 2. Januar, auch am 3. Januar vor 3:00 Uhr | Der Kanal beginnt die Wiedergabe am 1. Januar um 14:00 Uhr, läuft den ganzen Tag am 2. Januar, bis um 3:00 Uhr am 3. Januar |
-| am 1./2. Januar nach 14:00 Uhr auch am 2./3. Januar vor 3:00 Uhr | Der Kanal startet den Player am 1. Januar um 14:00 Uhr, läuft bis 3:00 Uhr am 2. Januar und beginnt dann am 2. Januar um 14:00 Uhr und läuft bis 3:00 Uhr am 3. Januar |
-
->[!NOTE]
->Sie können das _24-Stunden-Format_ (d. h. 14:00 Uhr) oder die *am/pm*-Notation (d. h. 2:00 pm) verwenden.
