@@ -4,14 +4,14 @@ seo-title: Aktivierung auf Asset-Ebene
 description: Auf dieser Seite erfahren Sie, wie Sie ein bestimmtes Asset in einem Kanal für einen geplanten Zeitraum in der lokalen Zeitzone des Players aktivieren können.
 seo-description: Auf dieser Seite erfahren Sie, wie Sie ein bestimmtes Asset in einem Kanal für einen geplanten Zeitraum in der lokalen Zeitzone des Players aktivieren können.
 translation-type: tm+mt
-source-git-commit: e58d2ffa1886199f1602de933dc0d8e5fb293cdd
+source-git-commit: 47e48625dcd414d359d816e3082e62abe4018d17
 
 ---
 
 
 # Aktivierung auf Asset-Ebene {#asset-level-scheduling}
 
-In diesem Abschnitt wird die Aktivierung auf Asset-Ebene für die in Kanälen verwendeten Assets beschrieben.
+Diese Seite beschreibt die Aktivierung auf Asset-Ebene für die in Kanälen verwendeten Assets.
 
 In diesem Abschnitt werden die folgenden Themen behandelt:
 
@@ -58,9 +58,9 @@ Gehen Sie wie folgt vor, um die Zeitplanung auf der Asset-Ebene durchzuführen:
 
 1. Klicken Sie auf **Bearbeiten**, um den Kanaleditor zu öffnen und ein Asset auszuwählen, das Sie zeitlich planen möchten.
 
-   ![screen_shot_2018-04-24at90434pm](/help/user-guide/assets/asset-activation/asset-level1.png)
+   ![image](/help/user-guide/assets/asset-activation/asset-level1.png)
 
-1. Wählen Sie das Asset aus und klicken Sie oben links auf das Symbol **Konfigurieren**, um die Eigenschaften des Bilds zu öffnen.
+1. Select the asset and click on top left **Configure** (wrench icon) to open the properties of the image.
 
    Klicken Sie auf die Registerkarte **Aktivierung**.
 
@@ -80,7 +80,7 @@ Angenommen, Sie möchten ein Bild nur freitags von 13.00 bis 22.00 Uhr anzeigen.
 
 ### Tagesaufteilung {#day-parting}
 
-1. Wählen Sie das Asset aus und klicken Sie auf das Symbol **Konfigurieren**, um das Dialogfeld „Eigenschaften“ zu öffnen.
+1. Select the asset and click on **Configure** (wrench icon) to open the properties dialog box.
 
 1. Nach Eingabe des Anfangsdatums/der Startzeit und der Endzeit/des Datums können Sie einen Ausdruck oder eine kostenlose Textversion verwenden, um Ihren Wiederholungsplan anzugeben.
 
@@ -108,7 +108,7 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 
 ### Wochenaufteilung {#week-parting}
 
-1. Wählen Sie das Asset aus und klicken Sie auf das Symbol **Konfigurieren**, um das Dialogfeld „Eigenschaften“ zu öffnen.
+1. Select the asset and click on **Configure** (wrench icon) to open the properties dialog box.
 
 1. Nach Eingabe des Anfangsdatums/der Startzeit und der Endzeit/des Datums können Sie einen Ausdruck oder eine kostenlose Textversion verwenden, um Ihren Wiederholungsplan anzugeben.
 
@@ -135,7 +135,8 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 
 ### Monatsaufteilung {#month-parting}
 
-1. Wählen Sie das Asset aus und klicken Sie auf das Symbol **Konfigurieren**, um das Dialogfeld „Eigenschaften“ zu öffnen.
+1. Select the asset and click on **Configure** (wrench icon) to open the properties dialog box.
+
 1. Nach Eingabe des Anfangsdatums/der Startzeit und der Endzeit/des Datums können Sie einen Ausdruck oder eine kostenlose Textversion verwenden, um Ihren Wiederholungsplan anzugeben.
 
    > [!NOTE]
