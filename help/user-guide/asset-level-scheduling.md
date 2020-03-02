@@ -4,7 +4,7 @@ seo-title: Aktivierung auf Asset-Ebene
 description: Auf dieser Seite erfahren Sie, wie Sie ein bestimmtes Asset in einem Kanal für einen geplanten Zeitraum in der lokalen Zeitzone des Players aktivieren können.
 seo-description: Auf dieser Seite erfahren Sie, wie Sie ein bestimmtes Asset in einem Kanal für einen geplanten Zeitraum in der lokalen Zeitzone des Players aktivieren können.
 translation-type: tm+mt
-source-git-commit: 6c6c15349f350ee50f36f1a0661e7f16c0b42665
+source-git-commit: bd672ce177b8b2c19dbe37f23d9589c51ba1fba2
 
 ---
 
@@ -38,7 +38,7 @@ In diesem Abschnitt werden die folgenden Themen behandelt:
 
 Mit der Funktion können Sie nicht nur Start- und Enddatum sowie -zeit, sondern auch ein Wiederholungsmuster angeben.
 
-## Wiedergabe einzelner Ereignisse {#single-event-playback}
+## Aktivierungsfenster {#single-event-playback}
 
 Asset Level Activation is done by configuring the **Activation** tab while accessing properties of an asset.
 
