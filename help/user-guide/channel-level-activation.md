@@ -11,16 +11,24 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 translation-type: tm+mt
-source-git-commit: 1dbbe62875cdc1a0c1c7d5fe45221d7ebd12207f
+source-git-commit: bd672ce177b8b2c19dbe37f23d9589c51ba1fba2
 
 ---
 
 
 # Channel Level Activation {#channel-level-activation-single-event-playback}
 
-Die Aktivierung auf der Kanalebene umfasst die folgenden Themen:
+Diese Seite beschreibt die Aktivierung auf Kanalebene für die in Kanälen verwendeten Assets.
+
+In diesem Abschnitt werden die folgenden Themen behandelt:
 
 * Überblick
+* Aktivierungsfenster
+* Verwenden der Aktivierung auf der Kanalebene als Wiedergabe eines einzelnen Ereignisses
+* Handhabung der Wiederholung von Assets in einem Kanal
+   * Tagesaufteilung
+   * Wochenaufteilung
+   * Monatsaufteilung
 * Verwenden der Aktivierung auf der Kanalebene als Wiedergabe eines einzelnen Ereignisses
 
 ## Überblick {#overview}
@@ -33,7 +41,7 @@ Das folgende Beispiel zeigt eine Lösung mit Konzentration auf die folgenden Sch
 * einen ***Kanal für ein einzelnes Ereignis***, der nur einmal zur festgelegten Zeit ausgeführt wird
 * einen ***festgelegten Zeitplan und eine Priorität*** für die einzelne Wiedergabe des Ereignisses, die innerhalb des Hauptsequenzkanals erfolgt
 
-## Verwenden der Aktivierung auf Kanalebene {#using-channel-level-activation}
+## Aktivierungsfenster {#using-channel-level-activation}
 
 Im folgenden Abschnitt wird die Erstellung der Wiedergabe eines einzelnen Ereignisses innerhalb eines Kanals für ein AEM Screens-Projekt erläutert.
 
@@ -141,4 +149,85 @@ Der Player zeigt den Inhalt von **MainAdChannel** an und genau um 23:59 Uhr (wie
 Weitere Informationen zum AEM Screens-Player finden Sie in den folgenden Ressourcen:
 * [AEM Screens-Player-Downloads](https://download.macromedia.com/screens/)
 * [Arbeiten mit dem AEM Screens-Player](working-with-screens-player.md)
+
+
+
+## Handhabung der Wiederholung von Assets in einem Kanal{#handling-recurrence-in-assets}
+
+Sie können Assets in einem Kanal so planen, dass sie in bestimmten Intervallen täglich, wöchentlich oder monatlich auch entsprechend Ihren Anforderungen wiederholt werden.
+
+Angenommen, Sie möchten Inhalte eines Kanals nur freitags von 13.00 bis 22.00 Uhr anzeigen. You can use the **Activation** tab to set the desired recurring interval for your asset.
+
+### Tagesaufteilung {#day-parting}
+
+1. Wählen Sie den Kanal aus und klicken Sie in der Aktionsleiste auf **Dashboard** , um das Kanal-Dashboard zu öffnen.
+
+1. Nach Eingabe des Anfangsdatums/der Anfangs-/Uhrzeit und der End-/Datums-Zeit aus dem Dialogfeld &quot; **Kanalzuweisung** &quot;können Sie einen Ausdruck oder eine kostenlose Textversion verwenden, um Ihren Wiederholungsplan anzugeben.
+
+   >[!NOTE]Sie können die Felder &quot; **Aktiv von** &quot;und &quot; **Aktiv bis** &quot;überspringen oder einschließen und den Ausdruck entsprechend Ihren Anforderungen zum Feld &quot;Zeitpläne&quot;hinzufügen.
+
+1. Geben Sie den Ausdruck in den **Zeitplan** ein, und Ihr Asset wird für das jeweilige Tages- und Uhrzeitintervall angezeigt.
+
+#### Beispielausdrücke für die Tagesaufteilung {#example-one}
+
+Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hinzufügen können, während Sie einer Anzeige einen Kanal zuweisen.
+
+| **Ausdruck** | **Interpretation** |
+|---|---|
+| vor 8:00 Uhr | Das Asset im Kanal wird täglich vor 8:00 Uhr wiedergegeben |
+| nach 14:00 Uhr | das Asset im Kanal wird täglich nach 14.00 Uhr wiedergegeben |
+| nach 12:15 Uhr und vor 12:45 Uhr | Das Asset im Kanal wird 30 Minuten nach 12:15 Uhr täglich wiedergegeben |
+| vor 12:15 Uhr auch nach 12:45 Uhr | Das Asset im Kanal wird täglich vor 22:15 Uhr und danach auch nach 22:45 Uhr wiedergegeben |
+| Mon, Tue, Wed oder Mon-Wed | Das Asset wird von Montag bis Mittwoch im Kanal wiedergegeben |
+| am 1. Januar nach 14:00 Uhr auch am 2. Januar, auch am 3. Januar vor 3:00 Uhr | Das Asset im Kanal wird am 1. Januar nach 14:00 Uhr abgespielt, am 2. Januar wird es bis 3:00 Uhr am 3. Januar für den gesamten Tag abgespielt |
+| am 1./2. Januar nach 14:00 Uhr auch am 2./3. Januar vor 3:00 Uhr | Das Asset im Kanal startet am 1. Januar nach 14:00 Uhr den Player, läuft bis 3:00 Uhr am 2. Januar und beginnt dann am 2. Januar um 14:00 Uhr und wird bis 3:00 Uhr am 3. Januar wiedergegeben |
+
+>[!NOTE]Sie können das _24-Stunden-Format_ (d. h. 14:00 Uhr) oder die *am/pm*-Notation (d. h. 2:00 pm) verwenden.
+
+### Wochenaufteilung {#week-parting}
+
+1. Wählen Sie den Kanal aus und klicken Sie in der Aktionsleiste auf **Dashboard** , um das Kanal-Dashboard zu öffnen.
+
+1. Nach Eingabe des Anfangsdatums/der Anfangs-/Uhrzeit und der End-/Datums-Zeit aus dem Dialogfeld &quot; **Kanalzuweisung** &quot;können Sie einen Ausdruck oder eine kostenlose Textversion verwenden, um Ihren Wiederholungsplan anzugeben.
+
+   >[!NOTE]Sie können die Felder &quot; **Aktiv von** &quot;und &quot; **Aktiv bis** &quot;überspringen oder einschließen und den Ausdruck entsprechend Ihren Anforderungen zum Feld &quot;Zeitpläne&quot;hinzufügen.
+
+1. Geben Sie den Ausdruck in den **Zeitplan** ein, und Ihr Asset wird für das jeweilige Tages- und Uhrzeitintervall angezeigt.
+
+#### Beispielausdrücke für die Wochenaufteilung {#example-two}
+
+Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hinzufügen können, während Sie einer Anzeige einen Kanal zuweisen.
+
+| **Ausdruck** | **Interpretation** |
+|---|---|
+| Mon, Tue, Wed oder Mon-Wed | Das Asset wird von Montag bis Mittwoch im Kanal wiedergegeben |
+| vor 8:00 Uhr | Das Asset im Kanal wird täglich vor 8:00 Uhr wiedergegeben |
+| nach 14:00 Uhr | das Asset im Kanal wird täglich nach 14.00 Uhr wiedergegeben |
+| nach 12:15 Uhr und vor 12:45 Uhr | Das Asset im Kanal wird 30 Minuten nach 12:15 Uhr täglich wiedergegeben |
+| vor 12:15 Uhr auch nach 12:45 Uhr | Der Kanal wird täglich vor 12:15 Uhr und danach auch nach 12:45 Uhr wiedergegeben |
+
+>[!NOTE]Sie können das _24-Stunden-Format_ (d. h. 14:00 Uhr) oder die *am/pm*-Notation (d. h. 2:00 pm) verwenden.
+
+
+### Monatsaufteilung {#month-parting}
+
+1. Wählen Sie den Kanal aus und klicken Sie in der Aktionsleiste auf **Dashboard** , um das Kanal-Dashboard zu öffnen.
+
+1. Nach Eingabe des Anfangsdatums/der Anfangs-/Uhrzeit und der End-/Datums-Zeit aus dem Dialogfeld &quot; **Kanalzuweisung** &quot;können Sie einen Ausdruck oder eine kostenlose Textversion verwenden, um Ihren Wiederholungsplan anzugeben.
+
+   >[!NOTE]Sie können die Felder &quot; **Aktiv von** &quot;und &quot; **Aktiv bis** &quot;überspringen oder einschließen und den Ausdruck entsprechend Ihren Anforderungen zum Feld &quot;Zeitpläne&quot;hinzufügen.
+
+1. Geben Sie den Ausdruck in den **Zeitplan** ein, und Ihr Asset wird für das jeweilige Tages- und Uhrzeitintervall angezeigt.
+
+#### Beispielausdrücke für die Monatsaufteilung {#example-three}
+
+Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hinzufügen können, während Sie einer Anzeige einen Kanal zuweisen.
+
+| **Ausdruck** | **Interpretation** |
+|---|---|
+| vom Februar, Mai, August, November | Das Asset wird im Februar, Mai, August, November |
+
+>[!NOTE]Bei der Definition von Wochentagen und Monaten können Sie sowohl die Kurzbezeichnung als auch den Vollnamen verwenden, z. B. &quot;Mon/Montag&quot;und &quot;Jan/Januar&quot;.
+
+>[!NOTE]Sie können das _24-Stunden-Format_ (d. h. 14:00 Uhr) oder die *am/pm*-Notation (d. h. 2:00 pm) verwenden.
 
