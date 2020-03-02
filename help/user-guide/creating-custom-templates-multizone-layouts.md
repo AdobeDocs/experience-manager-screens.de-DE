@@ -5,37 +5,49 @@ description: Auf dieser Seite erfahren Sie, wie Sie benutzerdefinierte Vorlagen 
 seo-description: Auf dieser Seite erfahren Sie, wie Sie benutzerdefinierte Vorlagen für Mehrzonen-Layouts erstellen.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 23208ed9e4e293cfcec65305918f35573c20cc02
+source-git-commit: 9e3f26e10a5168511b2bf138f8ce36b94778b339
 
 ---
 
 
-# Erstellen benutzerdefinierter Vorlagen für Mehrzonen-Layouts {#creating-custom-templates-multizone}
+# Creating Custom Templates for MultiZone Layouts {#creating-custom-templates-multizone}
 
-Auf dieser Seite wird erläutert, wie Sie eine benutzerdefinierte Vorlage in einem Layout mit mehreren Zonen erstellen können.
+Auf dieser Seite wird erläutert, wie Sie eine benutzerdefinierte Vorlage für ein Layout mit mehreren Zonen erstellen können.
 
-## Namenskonvention {#name-terms}
+## Wichtige Überlegungen {#considerations}
 
-Bevor Sie wissen, wie Sie benutzerdefinierte Multi-Zone-Vorlagen erstellen, die in einem AEM Screens-Projekt verwendet werden, sollten Sie die Version der Vorlagen verstehen, die Sie erstellen möchten.
+Es gibt zwei wichtige Aspekte, die Sie beachten müssen, bevor Sie eine benutzerdefinierte Vorlage in einem mehrzonigen Layout erstellen:
 
-| **Layoutname** | **Beschreibung** |
-|---|---|
-| Left20-LandscapeHD3Zone | Bezieht sich auf ein Querformatlayout mit 3 Zonen, mit dem Sie 3 Zonen mit Zone 1 von 20 % des horizontalen und vertikalen Bildschirms von links, Zone 2 von 80 % des horizontalen Bildschirms und 20 % des vertikalen Bildschirms von rechts, Zone 3 von 100 % des horizontalen und 80 % des vertikalen Bildschirms mit einem Seitenverhältnis von 16:9 erstellen können |
-| Upper20-PortraitHD2Zone | Bezieht sich auf eine 2-Zonen-Hochformatvorlage, die 20 % des Bildschirms von oben abdeckt, mit einem Seitenverhältnis von 16:9 |
-| Right20-LandscapeSD3Zone | Bezieht sich auf eine 3-Zonen-Vorlage, die 20 % des Bildschirms von rechts abdeckt, mit einem Seitenverhältnis von 4:3 |
+1. **Korrigierte Pixelgröße oder Prozentwerte**:
 
-## Anwendungsbeispiele {#example-use-cases}
+   Sie müssen entscheiden, ob Sie für Ihr benutzerdefiniertes Layout eine feste Pixelgröße für verschiedene Bereiche verwenden möchten oder ob Sie ein benutzerdefiniertes Layout mit Prozentwerten erstellen möchten.
 
-## Left20-LandscapeHD3Zone-Layout {#custom-template-one}
+   > [!NOTE]
+   > Die Verwendung von Prozentwerten zum Festlegen von Zonen für Ihr benutzerdefiniertes Layout ermöglicht es Ihnen, die Vorlage in verschiedenen Bildschirmgrößen wiederzuverwenden.
+
+1. **Benennungskonvention**:
+
+   Bevor Sie wissen, wie Sie benutzerdefinierte Multi-Zone-Vorlagen erstellen, die in einem AEM Screens-Projekt verwendet werden, sollten Sie die Version der Vorlagen verstehen, die Sie erstellen möchten.
+
+   | **Layoutname** | **Beschreibung** |
+   |---|---|
+   | Left20-LandscapeHD3Zone | Bezieht sich auf ein Querformatlayout mit 3 Zonen, bei dem Zone 1 20 % des horizontalen und vertikalen Bildschirms von links, Zone 2 80 % des horizontalen Bildschirms und 20 % des vertikalen Bildschirms von rechts und Zone 3 100 % des horizontalen und 80 % des vertikalen Bildschirms mit einem Seitenverhältnis von 16:9 einnimmt. |
+   | Upper20-PortraitHD2Zone | Bezieht sich auf eine 2-Zonen-Hochformatvorlage, die 20 % des Bildschirms von oben abdeckt und ein Seitenverhältnis von 16:9 aufweist. |
+   | Right20-LandscapeSD3Zone | Bezieht sich auf eine 3-Zonen-Vorlage, die 20 % des Bildschirms von rechts abdeckt und ein Seitenverhältnis von 4:3 aufweist. |
+
+   > [!IMPORTANT]
+   > Die im benutzerdefinierten Layout definierten Bereiche stimmen möglicherweise nicht mit dem Seitenverhältnis des gesamten Layouts überein. Die in diesem Dokument verwendete Benennungsregel gibt das Seitenverhältnis des benutzerdefinierten Layouts als Ganzes an.
+
+## Beispiel-Verwendungsfall Left20-LandscapeHD3Zone-Layout {#custom-template-one}
 
 Gehen Sie wie folgt vor, um eine benutzerdefinierte Vorlage *Left20-LandscapeHD3Zone* mit der folgenden Konfiguration zu erstellen:
 
-* **&quot;Left20** &quot;bezieht sich auf den oberen Bereich links, der 20 % der horizontalen und vertikalen Bildschirmgröße umfasst.
-* **Querformat** bezieht sich auf die Bildschirmausrichtung
+* **&quot;Left20&quot;** bezieht sich auf den oberen Bereich links, der 20 % der horizontalen und vertikalen Bildschirmgröße umfasst.
+* **Querformat** beschreibt sich auf die Bildschirmausrichtung
 * **HD** bezieht sich auf das Seitenverhältnis 16:9
-* **3Zone** bezieht sich auf drei Bereiche der Anzeige
+* **3Zone** weist auf drei Bereiche der Anzeige hin
 
-## Visuelle Darstellung des MultiZone-Layouts {#multi-layout-visual-one}
+## Visuelle Darstellung des Mehrzonen-Layouts {#multi-layout-visual-one}
 
 Das Layout Left20-LandscapeHD3Zone ermöglicht Ihnen das Erstellen des folgenden Layouts mit mehreren Zonen in Ihrem Projekt:
 
@@ -131,13 +143,17 @@ Gehen Sie wie folgt vor, um die oben genannte benutzerdefinierte Vorlage in Ihre
 
 1. Klicken Sie in der Aktionsleiste auf **Erstellen** und wählen Sie die Vorlage **Left20-LandscapeHD3Zone** im Assistenten **Erstellen** aus.
 
-1. Nachdem Sie einen Kanal mit der benutzerdefinierten Vorlage erstellt haben, können Sie Assets aus dem Editor zu Ihrem Kanal hinzufügen.
+   ![image](/help/user-guide/assets/custom-multizone/custom-template9.png)
+
+1. Nachdem Sie einen Kanal mit der benutzerdefinierten Vorlage erstellt haben, können Sie Assets aus dem Editor zu Ihrem Kanal hinzufügen. Die folgende Vorschau zeigt die Bilder in einer benutzerdefinierten Vorlage.
+
+   ![image](/help/user-guide/assets/custom-multizone/custom-template10.png)
 
 ## Einfügen eines Bildes als Hintergrundebene {#inserting-image}
 
 Sie können ein Bild als Hintergrundebene in das Layout einfügen:
 
-Sie können die CSS-Regel so anpassen, dass sie den sogenannten „data-uri“ verwendet und das Bild (Base64-kodiert) direkt in die CSS-Datei einbindet.
+You can adjust the CSS rule to use what is called “data-uri” and directly inline the image (Base64 encoded) in the CSS file, you created in (step 13), *static.css*.
 
 Dies geschieht wie folgt:
 `.cq-Screens-channel--multizone.my-CustomLayout { background: url('data:image/…;base64,…') no-repeat center center; }`
@@ -150,7 +166,7 @@ Sie können auch die folgenden Schritte ausführen:
 
 ## Aktualisieren der Hintergrundfarbe {#updating-color}
 
-Fügen Sie der xml-Datei den folgenden Code hinzu, um die Hintergrundfarbe zu ändern:
+To change the background color, add the following code to the xml file (step 13), *static.css*.
 
 `.cq-Screens-channel--multizone.my-CustomLayout { background-color: …; }`
 
