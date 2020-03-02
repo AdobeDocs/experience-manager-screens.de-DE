@@ -4,7 +4,7 @@ seo-title: Aktivierung auf Asset-Ebene
 description: Auf dieser Seite erfahren Sie, wie Sie ein bestimmtes Asset in einem Kanal für einen geplanten Zeitraum in der lokalen Zeitzone des Players aktivieren können.
 seo-description: Auf dieser Seite erfahren Sie, wie Sie ein bestimmtes Asset in einem Kanal für einen geplanten Zeitraum in der lokalen Zeitzone des Players aktivieren können.
 translation-type: tm+mt
-source-git-commit: 47e48625dcd414d359d816e3082e62abe4018d17
+source-git-commit: 6c6c15349f350ee50f36f1a0661e7f16c0b42665
 
 ---
 
@@ -46,7 +46,7 @@ Gehen Sie wie folgt vor, um die Zeitplanung auf der Asset-Ebene durchzuführen:
 
 1. Wählen Sie einen beliebigen Kanal aus und klicken Sie in der Aktionsleiste auf **Bearbeiten**, um im Kanal Inhalte hinzuzufügen oder zu bearbeiten.
 
-   ![screen_shot_2018-04-23at111422am](assets/screen_shot_2018-04-23at111422am.png)
+   ![screen_shot_2018-04-23at111422am](/help/user-guide/assets/asset-activation/asset-level1.png)
 
    >[!NOTE]
    >
@@ -58,13 +58,13 @@ Gehen Sie wie folgt vor, um die Zeitplanung auf der Asset-Ebene durchzuführen:
 
 1. Klicken Sie auf **Bearbeiten**, um den Kanaleditor zu öffnen und ein Asset auszuwählen, das Sie zeitlich planen möchten.
 
-   ![image](/help/user-guide/assets/asset-activation/asset-level1.png)
+   ![image](/help/user-guide/assets/asset-activation/asset-level2.png)
 
 1. Select the asset and click on top left **Configure** (wrench icon) to open the properties of the image.
 
    Klicken Sie auf die Registerkarte **Aktivierung**.
 
-   ![image](/help/user-guide/assets/asset-activation/asset-level2.png)
+   ![image](/help/user-guide/assets/asset-activation/asset-level3.png)
 
 1. Sie können das Datum von der Datumsauswahl mit **Aktiv von** und **Aktiv bis** zu den Feldern angeben.
 
