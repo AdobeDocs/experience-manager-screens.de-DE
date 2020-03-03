@@ -3,7 +3,7 @@ title: Versionshinweise für Feature Pack 202001
 seo-title: Versionshinweise für Feature Pack 202001
 description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 202001, das am 31. Januar 2020 veröffentlicht wurde.
 seo-description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 202001, das am 31. Januar 2020 veröffentlicht wurde.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0136d1615f59d99c6bb5dfed09df363bf8ec475e
 
 ---
@@ -24,7 +24,9 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 202001 ist Mittwoch, 3
 ### Neuerungen {#what-s-new}
 
 * **Befehlssynchronisierung für die Asset-Wiedergabe**
-Die Befehlssynchronisierung ermöglicht die synchronisierte Wiedergabe über verschiedene Player hinweg. Die Player können unterschiedliche Inhalte abspielen, aber jedes Asset muss dieselbe Dauer haben.
+
+
+Mithilfe der Befehlssynchronisierung kann die Wiedergabe über verschiedene Player hinweg synchronisiert werden. Die Player können unterschiedliche Inhalte wiedergeben, aber jedes Asset muss dieselbe Dauer haben.
 Weitere Informationen zur Befehlssynchronisierung und zum Festlegen von Master und Clients finden Sie unter [Verwenden der Befehlssynchronisierung](using-command-sync.md).
 
 * **Framework für Statusprüfungen zum Anzeigen des Status von HTTPS und Erlauben eines leeren Referrers** Mit dem Framework für Statusprüfungen können Benutzer vor Ausführung eines AEM Screens-Projekts prüfen, ob zwei erforderliche Konfigurationen („Leere Referrer-Anforderungen erlauben“ und „Apache Felix Jetty-basierter HTTP-Dienst“) eingerichtet wurden.
@@ -33,7 +35,7 @@ Weitere Informationen zur Befehlssynchronisierung und zum Festlegen von Master u
 
 * **Aktualisierungen bei Standardübergangstypen** Die Eigenschaften der Übergangskomponente wie **Typ** sind jetzt standardmäßig auf **Ausblenden** und eine **Dauer** von **1600 ms** eingestellt.
 
-   Weitere Informationen finden Sie unter [Anwendungsfall für Übergänge](/help/user-guide/applying-transitions.md) .
+   Weitere Informationen finden Sie im Anwendungsbeispiel [Anwenden von Übergängen](/help/user-guide/applying-transitions.md).
 
 
 ### Veröffentlichte AEM Screens-Player {#released-aem-screens-players}
