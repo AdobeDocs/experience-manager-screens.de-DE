@@ -4,7 +4,7 @@ seo-title: Aktivierung auf Asset-Ebene
 description: Auf dieser Seite erfahren Sie, wie Sie ein bestimmtes Asset in einem Kanal für einen geplanten Zeitraum in der lokalen Zeitzone des Players aktivieren können.
 seo-description: Auf dieser Seite erfahren Sie, wie Sie ein bestimmtes Asset in einem Kanal für einen geplanten Zeitraum in der lokalen Zeitzone des Players aktivieren können.
 translation-type: tm+mt
-source-git-commit: bae1749c6b39d263e3cf2a187a3b928981e5eadc
+source-git-commit: 74b0a98e3123f703db7f353685aed69d6012709d
 
 ---
 
@@ -173,10 +173,7 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 | am 1./2. Januar nach 14:00 Uhr auch am 2./3. Januar vor 3:00 Uhr | Das Asset im Kanal startet am 1. Januar nach 14:00 Uhr den Player, läuft bis 3:00 Uhr am 2. Januar und beginnt dann am 2. Januar um 14:00 Uhr und wird bis 3:00 Uhr am 3. Januar wiedergegeben |
 
 > [!NOTE]
-> Bei der Definition von Wochentagen und Monaten können Sie sowohl die Kurzbezeichnung als auch den Vollnamen verwenden, z. B. &quot;Mon/Montag&quot;und &quot;Jan/Januar&quot;.
-
->[!NOTE]
->Sie können das _24-Stunden-Format_ (d. h. 14:00 Uhr) oder die *am/pm*-Notation (d. h. 2:00 pm) verwenden.
+> Bei der Definition von Wochentagen und Monaten können Sie sowohl die Kurzbezeichnung als auch den Vollnamen verwenden, z. B. &quot;Mon/Montag&quot;und &quot;Jan/Januar&quot;.  Additionally, you can also use _military time_ notation (that is, 14:00) instead of *am/pm* notation (that is, 2:00 pm).
 
 
 ## Aktivierung mehrerer Assets {#multi-asset-scheduling}
