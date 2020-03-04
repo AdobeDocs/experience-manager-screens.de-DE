@@ -36,7 +36,7 @@ Es gibt zwei wichtige Aspekte, die Sie beachten müssen, bevor Sie eine benutzer
    | Right20-LandscapeSD3Zone | Bezieht sich auf eine 3-Zonen-Vorlage, die 20 % des Bildschirms von rechts abdeckt und ein Seitenverhältnis von 4:3 aufweist. |
 
    > [!IMPORTANT]
-   > Die im benutzerdefinierten Layout definierten Bereiche stimmen möglicherweise nicht mit dem Seitenverhältnis des gesamten Layouts überein. Die in diesem Dokument verwendete Benennungsregel gibt das Seitenverhältnis des benutzerdefinierten Layouts als Ganzes an.
+   > Die im benutzerdefinierten Layout definierten Bereiche stimmen möglicherweise nicht mit dem gesamten Seitenverhältnis des gesamten Layouts überein. Die in diesem Dokument verwendete Benennungsregel gibt das Seitenverhältnis des benutzerdefinierten Layouts als Ganzes an.
 
 ## Beispiel-Verwendungsfall Left20-LandscapeHD3Zone-Layout {#custom-template-one}
 
@@ -99,9 +99,9 @@ Gehen Sie wie folgt vor, um ein Left20-LandscapeHD3Zone-Layout für ein AEM Scre
    >[!NOTE]
    > Sie können die reaktionsfähigen Raster je nach der gewünschten Gesamtanzahl der Raster hinzufügen oder entfernen. In diesem Beispiel zeigen wir die Raster 2 in der ersten Zeile und 1 in der zweiten Zeile, sodass insgesamt 3 interaktive Raster (r1c1, r1c2, r2c1) vorhanden sind.
 
-1. Kopieren Sie `/libs/settings/wcm/designs/screens` in den kopierten Entwurf und benennen Sie ihn in `/apps/settings/wcm/designs/`custom-template-designs **** um.
+1. Kopieren Sie `/libs/settings/wcm/designs/screens` in den kopierten Entwurf und benennen Sie ihn in `/apps/settings/wcm/designs/` custom-template-designs **** um.
 
-1. Navigieren Sie zur Eigenschaft `/apps/settings/wcm/designs/custom-template-designs`jcr:title *von* custom-template-designs **und aktualisieren Sie sie auf** customtemplate-design **** .
+1. Navigieren Sie zur Eigenschaft `/apps/settings/wcm/designs/custom-template-designs` jcr:title *von* custom-template-designs **und aktualisieren Sie sie auf** customtemplate-design ****.
 
 1. Navigieren Sie zu der Datei static.css `/apps/settings/wcm/designs/custom-template-designs` und erstellen Sie sie.
 
@@ -128,7 +128,7 @@ Gehen Sie wie folgt vor, um ein Left20-LandscapeHD3Zone-Layout für ein AEM Scre
    >[!NOTE]
    > Sie können die Prozentsätze entsprechend den Anforderungen für Ihre benutzerdefinierte Vorlage aktualisieren.
 
-1. Navigieren Sie zur Eigenschaft `/apps/<project>/templates/my-custom-layout/jcr:content`cq:designPath *und aktualisieren Sie sie,* `/apps/settings/wcm/designs/customtemplate-designs` um die in static.css konfigurierten Stile zu laden.
+1. Navigieren Sie zur Eigenschaft `/apps/<project>/templates/my-custom-layout/jcr:content` cq:designPath *und aktualisieren Sie sie,* `/apps/settings/wcm/designs/customtemplate-designs` um die in static.css konfigurierten Stile zu laden.
 
    >[!NOTE]
    > Es wird empfohlen, alle Stile einzugeben, anstatt sie zu kopieren oder einzufügen. Dies kann zu Leerzeichen führen, die zu CSS-Stilproblemen führen.
