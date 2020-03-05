@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 translation-type: tm+mt
-source-git-commit: af244dc18aa4eb526978ab9ced60e8b818f6201e
+source-git-commit: d6006c553b53dc7dfb52a03cfeb1a50e8e8de792
 
 ---
 
@@ -34,7 +34,7 @@ In diesem Abschnitt werden die folgenden Themen behandelt:
 
 ## Überblick {#overview}
 
-Die ***Aktivierung auf der Kanalebene*** ermöglicht den Wechsel von Kanälen nach einem festgelegten Zeitplan. Der Kanal für ein einzelnes Ereignis ersetzt den Hauptkanal nach einem festgelegten Zeitplan und spielt für eine bestimmte Zeit, bis der Hauptkanal seinen Inhalt wiedergibt.
+***Die Kanalebenenaktivierung*** ermöglicht es den Kanälen, nach einem bestimmten Zeitplan zu wechseln. Der Kanal für ein einzelnes Ereignis ersetzt den Hauptkanal nach einem festgelegten Zeitplan und spielt für eine bestimmte Zeit, bis der Hauptkanal seinen Inhalt wiedergibt.
 
 Das folgende Beispiel zeigt eine Lösung mit Konzentration auf die folgenden Schlüsselbegriffe:
 
