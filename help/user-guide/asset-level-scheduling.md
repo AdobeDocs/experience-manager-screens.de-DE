@@ -4,7 +4,7 @@ seo-title: Aktivierung auf Asset-Ebene
 description: Auf dieser Seite erfahren Sie, wie Sie ein bestimmtes Asset in einem Kanal für einen geplanten Zeitraum in der lokalen Zeitzone des Players aktivieren können.
 seo-description: Auf dieser Seite erfahren Sie, wie Sie ein bestimmtes Asset in einem Kanal für einen geplanten Zeitraum in der lokalen Zeitzone des Players aktivieren können.
 translation-type: tm+mt
-source-git-commit: 74b0a98e3123f703db7f353685aed69d6012709d
+source-git-commit: af244dc18aa4eb526978ab9ced60e8b818f6201e
 
 ---
 
@@ -22,6 +22,7 @@ In diesem Abschnitt werden die folgenden Themen behandelt:
    * Tagesaufteilung
    * Wochenaufteilung
    * Monatsaufteilung
+   * Kombination von Schnitten
 * Aktivierung mehrerer Assets
 
 >[!CAUTION]
@@ -151,7 +152,7 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 > [!NOTE]
 > Bei der Definition von Wochentagen und Monaten können Sie sowohl die Kurzbezeichnung als auch den Vollnamen verwenden, z. B. &quot;Mon/Montag&quot;und &quot;Jan/Januar&quot;.
 
-### Kombinationen von Schnitten {#combined-parting}
+### Kombination von Schnitten {#combined-parting}
 
 1. Select the asset and click on **Configure** (wrench icon) to open the properties dialog box.
 
@@ -162,7 +163,7 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 
 1. Geben Sie den Ausdruck in den **Zeitplan** ein, und Ihr Asset wird für das jeweilige Tages- und Uhrzeitintervall angezeigt.
 
-#### Beispielausdrücke für Kombinationen von Einstellungen {#example-four}
+#### Beispielausdrücke für die Kombination von Schnitten {#example-four}
 
 Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hinzufügen können, während Sie einer Anzeige einen Kanal zuweisen.
 
