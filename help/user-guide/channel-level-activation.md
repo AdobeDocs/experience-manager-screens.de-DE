@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 translation-type: tm+mt
-source-git-commit: bd672ce177b8b2c19dbe37f23d9589c51ba1fba2
+source-git-commit: af244dc18aa4eb526978ab9ced60e8b818f6201e
 
 ---
 
@@ -29,6 +29,7 @@ In diesem Abschnitt werden die folgenden Themen behandelt:
    * Tagesaufteilung
    * Wochenaufteilung
    * Monatsaufteilung
+   * Kombination von Schnitten
 * Verwenden der Aktivierung auf der Kanalebene als Wiedergabe eines einzelnen Ereignisses
 
 ## Überblick {#overview}
@@ -234,4 +235,28 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 Bei der Definition von Wochentagen und Monaten können Sie sowohl die Kurzbezeichnung als auch den Vollnamen verwenden, z. B. &quot;Mon/Montag&quot;und &quot;Jan/Januar&quot;.
 
 >[!NOTE]Sie können das _24-Stunden-Format_ (d. h. 14:00 Uhr) oder die *am/pm*-Notation (d. h. 2:00 pm) verwenden.
+
+### Kombination von Schnitten {#combined-parting}
+
+1. Wählen Sie den Kanal aus und klicken Sie in der Aktionsleiste auf **Dashboard** , um das Kanal-Dashboard zu öffnen.
+
+1. Nach Eingabe des Anfangsdatums/der Anfangs-/Uhrzeit und der End-/Datums-Zeit aus dem Dialogfeld &quot; **Kanalzuweisung** &quot;können Sie einen Ausdruck oder eine kostenlose Textversion verwenden, um Ihren Wiederholungsplan anzugeben.
+
+   >[!NOTE]
+Sie können die Felder &quot; **Aktiv von** &quot;und &quot; **Aktiv bis** &quot;überspringen oder einschließen und den Ausdruck entsprechend Ihren Anforderungen zum Feld &quot;Zeitpläne&quot;hinzufügen.
+
+1. Geben Sie den Ausdruck in den **Zeitplan** ein, und Ihr Asset wird für das jeweilige Tages- und Uhrzeitintervall angezeigt.
+
+#### Beispielausdrücke für die Kombination von Schnitten {#example-four}
+
+Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hinzufügen können, während Sie einer Anzeige einen Kanal zuweisen.
+
+| **Ausdruck** | **Interpretation** |
+|---|---|
+| nach 6:00 und vor 18:00 Uhr auf Mo,Mi von Jan-Mar | das Asset wird montags bis mittwochs von Januar bis Ende März zwischen 6 Uhr und 18 Uhr im Kanal wiedergegeben |
+| am 1. Januar nach 14:00 Uhr auch am 2. Januar, auch am 3. Januar vor 3:00 Uhr | Das Asset im Kanal wird am 1. Januar nach 14:00 Uhr abgespielt, am 2. Januar wird es bis 3:00 Uhr am 3. Januar für den gesamten Tag abgespielt |
+| am 1./2. Januar nach 14:00 Uhr auch am 2./3. Januar vor 3:00 Uhr | Das Asset im Kanal startet am 1. Januar nach 14:00 Uhr den Player, läuft bis 3:00 Uhr am 2. Januar und beginnt dann am 2. Januar um 14:00 Uhr und wird bis 3:00 Uhr am 3. Januar wiedergegeben |
+
+>[!NOTE]
+Bei der Definition von Wochentagen und Monaten können Sie sowohl die Kurzbezeichnung als auch den Vollnamen verwenden, z. B. &quot;Mon/Montag&quot;und &quot;Jan/Januar&quot;.  Additionally, you can also use _military time_ notation (that is, 14:00) instead of *am/pm* notation (that is, 2:00 pm).
 
