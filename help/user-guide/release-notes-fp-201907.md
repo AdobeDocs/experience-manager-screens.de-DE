@@ -10,8 +10,8 @@ topic-tags: release-notes
 content-type: reference
 discoiquuid: 826d1599-02d1-4d24-b15d-26c1ffee36a2
 docset: aem65
-translation-type: ht
-source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
+translation-type: tm+mt
+source-git-commit: 1f90169ea2dab8bd63874d50708c6eb6ba61b370
 
 ---
 
@@ -36,7 +36,7 @@ Der Player wechselt zu einem Kanal, in dem die Notfallinformationen angezeigt we
 
 Informationen zur Implementierung finden Sie unter dem Nutzungsszenario [Notfallkanal](emergency-channel.md).
 
-* **Targeting aktiviert für asynchrone Komponenten (*wie Videos, eingebettete Sequenz*)**
+* **Targeting für asynchrone Komponenten aktiviert
 
 Targeting kann jetzt für Assets aktiviert werden, die im AEM Screens-Projekt verwendet werden.
 
