@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 1dbbe62875cdc1a0c1c7d5fe45221d7ebd12207f
+source-git-commit: 69cb8b8791c76917ce67ad33f40074027f73f9d5
 
 ---
 
@@ -58,7 +58,7 @@ source-git-commit: 1dbbe62875cdc1a0c1c7d5fe45221d7ebd12207f
       + [AEM Screens-Benachrichtigungsdienst](screens-notifications-service.md)
       + [Verwenden von Experience Fragments](experience-fragments-in-screens.md)
       + [Aktivierung auf Asset-Ebene](asset-level-scheduling.md)
-      + [Aktivierung auf Kanalebene](channel-level-activation.md)
+      + [Aktivierung auf Kanal-Ebene](channel-level-activation.md)
       + [Erstellen und Verwalten einer Live Copy](managing-livecopy.md)
       + [Erstellen eines Workflows für den Videoabstand](creating-a-video-padding-workflow.md)
       + [Hinzufügen von Komponenten zu Kanälen](adding-components-to-a-channel.md)
@@ -68,6 +68,7 @@ source-git-commit: 1dbbe62875cdc1a0c1c7d5fe45221d7ebd12207f
       + [Verwenden dynamischer eingebetteter Sequenzen](dynamic-embedded-sequences.md)
       + [Dauer der Massenwiedergabe von Bildern auf der Kanalebene](channel-level-image-playback.md)
       + [Befehlssynchronisierung](using-command-sync.md)
+      + [Authoring mit Datenauslösern](authoring-data-triggers.md)
    + Verwalten von Inhaltsaktualisierungen {#content-updates}
       + [On-Demand-Inhaltsaktualisierungen](on-demand-content.md)
       + [Aktualisierungen von Content-as-a-Service](content-update-as-a-service.md)
