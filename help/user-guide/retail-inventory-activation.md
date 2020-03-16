@@ -10,8 +10,8 @@ content-type: reference
 topic-tags: use-case-examples
 discoiquuid: 70147920-5bdb-401c-884e-51d268d40585
 docset: aem65
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
 
 ---
 
@@ -28,7 +28,7 @@ Für dieses Anwendungsbeispiel wird je nach der höchsten verfügbaren Anzahl an
 
 ## Voraussetzungen {#preconditions}
 
-Bevor Sie mit der Implementierung der zielgerichteten Aktivierung des Einzelhandelsinventars beginnen, müssen Sie wissen, wie man ***Datenspeicher***, ***Zielgruppensegmentierung*** und das ***Targeting für Kanäle*** in einem AEM Screens-Projekt aktiviert.
+Before you start implementing the retail inventory targeting activation, you must learn how to set up ***Data Store***, ***Audience Segmentation*** and ***Enable Targeting for Channels*** in an AEM Screens Project.
 
 Genaue Informationen dazu finden Sie unter [Konfigurieren von ContextHub in AEM Screens](configuring-context-hub.md).
 
@@ -53,16 +53,16 @@ Gehen Sie wie folgt vor, um das Anwendungsbeispiel zur Aktivierung des Einzelhan
    1. Ziehen Sie den **Vergleich: Eigenschaft - Eigenschaft** per Drag-and-Drop in den Editor und klicken Sie auf das Konfigurationssymbol, um die Eigenschaften zu bearbeiten.
    1. Wählen Sie **googlesheets/value/1/2** aus der Dropdown-Liste in **Name der ersten Eigenschaft** aus.
 
-   1. Wählen Sie unter **Operator** den Wert „größer als“ aus dem Dropdown-Menü aus
+   1. Select the **Operator** as **greater-than** from the drop-down menu
 
    1. Wählen Sie als **Datentyp** die Option **Zahl**.
 
-   1. Wählen Sie **googlesheets/value/1/1** aus der Dropdown-Liste in **Name der zweiten Eigenschaft**.
+   1. Wählen Sie **googlesheets/value/1/1** aus der Dropdown-Liste in **Name der zweiten Eigenschaft**..
 
-   1. Ziehen Sie „Weiterer Vergleich: Eigenschaft - Eigenschaft“ per Drag-and-Drop in den Editor und klicken Sie auf das Konfigurationssymbol, um die Eigenschaften zu bearbeiten.
-   1. Wählen Sie **googlesheets/value/1/2** aus der Dropdown-Liste in **Name der ersten Eigenschaft** aus.
+   1. Drag and drop **another Comparison : Property - Property** to the editor and click the configure icon to edit the properties.
+   1. Select **googlesheets/value/1/2** from the drop-down in **First Property name**.
 
-   1. Wählen Sie unter **Operator** den Wert „größer als“ aus dem Dropdown-Menü aus
+   1. Select the **Operator** as **greater-than** from the drop-down menu
 
    1. Wählen Sie als **Datentyp** die Option **Zahl**.
 
@@ -87,7 +87,7 @@ Gehen Sie wie folgt vor, um das Anwendungsbeispiel zur Aktivierung des Einzelhan
 
    >[!CAUTION]
    >
-   >Sie sollten Ihre **ContextHub**-**Konfigurationen** auf der Registerkarte **Eigenschaften** für Kanäle &gt; **Personalisierung** eingerichtet haben.
+   >Sie sollten Ihre **ContextHub**-**Konfigurationen** auf der Registerkarte **Eigenschaften** für Kanäle > **Personalisierung** eingerichtet haben.
 
    ![screen_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
 
