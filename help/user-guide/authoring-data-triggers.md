@@ -3,7 +3,7 @@ title: Authoring mit Datenauslösern
 seo-title: Authoring mit Datenauslösern
 description: Auf dieser Seite erfahren Sie, wie Sie mit Datenauslösern erstellen.
 translation-type: tm+mt
-source-git-commit: 9490eb2aa089268884d0f39a32eb8c53de110ed7
+source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 9490eb2aa089268884d0f39a32eb8c53de110ed7
 In diesem Abschnitt wird erläutert, wie Sie Targeting in Ihren Kanälen aktivieren.
 
 >[!IMPORTANT]
-> Die Mindestversion, die Datenauslöser in einem AEM Screens-Kanal unterstützt, ist AEM 6.4.3 Feature Pack 3.
+> Die Mindestversion, die Datenauslöser in einem AEM Screens-Kanal unterstützt, ist AEM 6.5.3 Feature Pack 3.
 
 ## Voraussetzungen {#prereqs}
 
@@ -56,7 +56,7 @@ Gehen Sie wie folgt vor, um Targeting in Ihren Kanälen zu aktivieren.
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. Navigieren Sie zu und wählen Sie **DataDrivenRetail** aus **DataDrivenAssets** > **Kanäle** aus und klicken Sie in der Aktionsleiste auf **Bearbeiten**.
+1. Navigieren Sie zu und wählen Sie **DataDrivenRetail** aus **DataDrivenAssets** > **Kanäle** aus und klicken Sie in der Aktionsleiste auf **Bearbeiten.** Ziehen Sie die Assets per Drag &amp; Drop in Ihren Kanal-Editor.
 
    >[!NOTE]
    >
@@ -64,9 +64,9 @@ Gehen Sie wie folgt vor, um Targeting in Ihren Kanälen zu aktivieren.
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
-   >[!NOTE]
-   >
-   >Nachdem Sie die ContextHub-Konfigurationen für Ihren Kanal konfiguriert haben, stellen Sie sicher, dass Sie die vorhergehenden Schritte 1 bis 4 auch für die anderen drei Sequenzkanäle befolgen, wenn Sie alle unten aufgeführten Anwendungsfälle nutzen möchten.
+1. Klicken Sie auf **Targeting**.
+
+1. Wählen Sie **Marke** und **Aktivität** aus dem Dropdown-Menü und klicken Sie auf **Targeting starten**.
 
 ### Weitere Informationen: Anwendungsbeispiele {#learn-more-example-use-cases}
 
