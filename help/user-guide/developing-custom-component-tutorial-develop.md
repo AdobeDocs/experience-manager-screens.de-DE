@@ -9,8 +9,8 @@ content-type: reference
 topic-tags: developing
 discoiquuid: 24eb937f-ab51-4883-8236-8ebe6243f6e3
 targetaudience: target-audience new
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: 20c5be209d0ab1e5371e21b377d83bc05c0ec256
 
 ---
 
@@ -29,17 +29,17 @@ Dieses Tutorial richtet sich an Entwickler, die neu bei AEM Screens sind. In die
 
 Um dieses Tutorial abzuschließen, benötigen Sie Folgendes:
 
-1. [AEM 6.5](https://helpx.adobe.com/de/experience-manager/6-4/release-notes.html) oder [AEM 6.3](https://helpx.adobe.com/de/experience-manager/6-3/release-notes.html) + neuestes Screen Feature Pack
+1. [AEM 6.5](https://helpx.adobe.com/experience-manager/6-4/release-notes.html) oder [AEM 6.3](https://helpx.adobe.com/experience-manager/6-3/release-notes.html) + neuestes Screen Feature Pack
 
-1. [AEM Screens-Player](https://helpx.adobe.com/de/experience-manager/6-4/sites/deploying/using/configuring-screens-introduction.html)
+1. [AEM Screens-Player](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/configuring-screens-introduction.html)
 1. Lokale Entwicklungsumgebung
 
-Für die Tutorial-Schritte und Screenshots wird **CRXDE-Lite** genutzt. IDEs können auch zum Abschluss des Tutorials verwendet werden. Weitere Informationen zur Verwendung einer IDE zur Entwicklung mit AEM [finden Sie hier](https://helpx.adobe.com/de/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part1.html#eclipse-ide).
+Für die Tutorial-Schritte und Screenshots wird **CRXDE-Lite** genutzt. IDEs können auch zum Abschluss des Tutorials verwendet werden. Weitere Informationen zur Verwendung einer IDE zur Entwicklung mit AEM [finden Sie hier](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part1.html#eclipse-ide).
 
 
 ## Projekt-Setup {#project-setup}
 
-Der Quell-Code eines Screens-Projekts wird normalerweise als Maven-Projekt mit mehreren Modulen verwaltet. Um das Tutorial zu beschleunigen, wurde ein Projekt mithilfe des [AEM-Projektarchetyps 13](https://github.com/Adobe-Marketing-Cloud/aem-project-archetype) vorgeneriert. Weitere Informationen zum [Erstellen eines Projekts mit einem Maven-Archetyp für AEM-Projekte finden Sie hier](https://helpx.adobe.com/de/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part1.html#maven-multimodule).
+Der Quell-Code eines Screens-Projekts wird normalerweise als Maven-Projekt mit mehreren Modulen verwaltet. Um das Tutorial zu beschleunigen, wurde ein Projekt mithilfe des [AEM-Projektarchetyps 13](https://github.com/Adobe-Marketing-Cloud/aem-project-archetype) vorgeneriert. Weitere Informationen zum [Erstellen eines Projekts mit einem Maven-Archetyp für AEM-Projekte finden Sie hier](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part1.html#maven-multimodule).
 
 1. Laden Sie die folgenden Pakete mit [CRX Package Manager](http://localhost:4502/crx/packmgr/index.jsp) herunter und installieren Sie sie:
 
@@ -83,7 +83,7 @@ Der Quell-Code eines Screens-Projekts wird normalerweise als Maven-Projekt mit m
    * `/content/screens/we-retail-run`
    Dieses Paket enthält den für das Projekt benötigten Startinhalt und die für das Projekt erforderliche Konfigurationsstruktur. **`/conf/we-retail-run`** enthält alle Konfigurationen für das Projekt „We.Retail Run“. **`/content/dam/we-retail-run`** umfasst das Starten digitaler Assets für das Projekt. **`/content/screens/we-retail-run`** enthält die Screens-Inhaltsstruktur. Der Inhalt unter allen diesen Pfaden wird hauptsächlich in AEM aktualisiert. Um die Konsistenz zwischen Umgebungen (Lokal, Entwicklung, Test und Produktion) zu fördern, wird häufig eine grundlegende Inhaltsstruktur in der Quell-Code-Verwaltung gespeichert.
 
-1. **Navigieren Sie zum Projekt „AEM Screens“ &gt; „We.Retail Run“:**
+1. **Navigieren Sie zum Projekt „AEM Screens“ > „We.Retail Run“:**
 
    Klicken Sie im AEM-Startmenü auf das Screens-Symbol. Überprüfen Sie, ob das Projekt „We.Retail Run“ zu sehen ist.
 
@@ -133,7 +133,7 @@ AEM Screens weist einige interessante Einschränkungen auf, die nicht unbedingt 
    <sly data-sly-test="${!production}" data-sly-include="edit.html" />
    ```
 
-   Screens-Komponenten erfordern je nach verwendetem [Inhaltserstellungsmodus](https://helpx.adobe.com/de/experience-manager/6-4/sites/authoring/using/author-environment-tools.html#PageModes) zwei unterschiedliche Wiedergaben:
+   Screens-Komponenten erfordern je nach verwendetem [Inhaltserstellungsmodus](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/author-environment-tools.html#PageModes) zwei unterschiedliche Wiedergaben:
 
    1. **Produktion**: Vorschau- oder Veröffentlichungsmodus (wcmmode=disabled)
    1. **Bearbeiten**: für alle anderen Inhaltserstellungsmodi, d.h. Bearbeiten, Design, Strukturvorlage, Entwickler ...
@@ -377,7 +377,7 @@ Eine dritte clientlib-Kategorie: `cq.screens.components.edit` könnte zum Hinzuf
 
 ## Erstellen einer Design-Seite {#design-page}
 
-AEM Screens verwendet [statische Seitenvorlagen](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/using/page-templates-static.html) und [Design-Konfigurationen](https://helpx.adobe.com/de/experience-manager/6-4/sites/authoring/using/default-components-designmode.html) für globale Änderungen. Design-Konfigurationen werden häufig verwendet, um zulässige Komponenten für die Parsys auf einem Kanal zu konfigurieren. Eine bewährte Methode besteht darin, diese Konfigurationen anwendungsspezifisch zu speichern.
+AEM Screens verwendet [statische Seitenvorlagen](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-static.html) und [Design-Konfigurationen](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/default-components-designmode.html) für globale Änderungen. Design-Konfigurationen werden häufig verwendet, um zulässige Komponenten für die Parsys auf einem Kanal zu konfigurieren. Eine bewährte Methode besteht darin, diese Konfigurationen anwendungsspezifisch zu speichern.
 
 Unter „We.Retail Run“ wird eine Design-Seite erstellt, die alle für das Projekt „We.Retail Run“ spezifischen Konfigurationen speichert.
 
@@ -399,7 +399,7 @@ Unter „We.Retail Run“ wird eine Design-Seite erstellt, die alle für das Pro
 
 Die Komponente „Hello World“ ist für die Verwendung in einem Sequenzkanal vorgesehen. Zum Testen der Komponente wird ein neuer Sequenzkanal erstellt.
 
-1. Navigieren Sie im AEM-Startmenü zu **Screens** &gt; **We.Retail Run** &gt; und wählen Sie **Kanäle** aus.
+1. Navigieren Sie im AEM-Startmenü zu **Screens** > **We.Retail Run** > und wählen Sie **Kanäle** aus.
 
 1. Klicken Sie auf die Schaltfläche **Erstellen**
 
@@ -408,11 +408,11 @@ Die Komponente „Hello World“ ist für die Verwendung in einem Sequenzkanal v
 
 1. Im Assistenten „Erstellen“:
 
-1. Vorlagenschritt – Wählen Sie „Sequenzkanal“ aus
+1. Template Step - choose **Sequence Channel**
 
    1. Eigenschaftenschritt
-   * Registerkarte „Einfach“ &gt; „Titel“ = **Idle Channel**
-   * Registerkarte „Kanal“ &gt; aktivieren Sie **Online-Kanal erstellen**
+   * Registerkarte „Einfach“ > „Titel“ = **Idle Channel**
+   * Registerkarte „Kanal“ > aktivieren Sie **Online-Kanal erstellen**
    ![idle-channel](assets/idle-channel.gif)
 
 1. Öffnen Sie die Seiteneigenschaften für den inaktiven Kanal (Idle Channel). Aktualisieren Sie das Feld „Design“, um auf `/apps/settings/wcm/designs/we-retail-run,`die im vorherigen Abschnitt erstellte Design-Seite zu verweisen.
@@ -440,11 +440,89 @@ Die Komponente „Hello World“ ist für die Verwendung in einem Sequenzkanal v
 
    Design-Konfiguration unter /apps/settings/wcm/designs/we-retail-run
 
+## Vorlage für benutzerdefinierte Handler {#custom-handlers}
+
+Im folgenden Abschnitt werden die Vorlage für den benutzerdefinierten Handler und die Mindestanforderungen in der Datei &quot;pom.xml&quot;für dieses spezifische Projekt hervorgehoben.
+
+```java
+   package …;
+
+   import javax.annotation.Nonnull;
+
+   import org.apache.felix.scr.annotations.Component;
+   import org.apache.felix.scr.annotations.Reference;
+   import org.apache.felix.scr.annotations.Service;
+   import org.apache.sling.api.resource.Resource;
+   import org.apache.sling.api.resource.ResourceUtil;
+   import org.apache.sling.api.resource.ValueMap;
+
+   import com.adobe.cq.screens.visitor.OfflineResourceHandler;
+
+   @Service(value = OfflineResourceHandler.class)
+   @Component(immediate = true)
+   public class MyCustomHandler extends AbstractResourceHandler 
+   {
+
+    @Reference
+    private …; // OSGi services injection
+
+    /**
+     * The resource types that are handled by the handler.
+     * @return the handled resource types
+     */
+    @Nonnull
+    @Override
+    public String[] getSupportedResourceTypes() {
+        return new String[] { … };
+   }
+
+    /**
+     * Accept the provided resource, visit and traverse it as needed.
+     * @param resource The resource to accept
+     */
+    @Override
+    public void accept(@Nonnull Resource resource) 
+      {
+        ValueMap properties = ResourceUtil.getValueMap(resource);
+        String assetPath = properties.get("myCustomPath", String.class); // retrieve a custom property path
+        String referencedResource = properties.get("myOtherResource", String.class); // a dependent resource that also needs parsing
+        …
+        this.visitor.visit(…); // visit the asset/rendition/path to be added to the manifest
+        this.visitor.accept(referencedResource); // accept/parse the dependent resource as well
+        …
+      }
+   }
+```
+
+Der folgende Code stellt die Mindestanforderungen in der Datei &quot;pom.xml&quot;für dieses spezifische Projekt bereit:
+
+```css
+   <dependencies>
+        …
+        <!-- Felix annotations -->
+        <dependency>
+            <groupId>org.apache.felix</groupId>
+            <artifactId>org.apache.felix.scr.annotations</artifactId>
+            <version>1.9.0</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- Screens core bundle with OfflineResourceHandler/AbstractResourceHandler -->
+        <dependency>
+            <groupId>com.adobe.cq.screens</groupId>
+            <artifactId>com.adobe.cq.screens</artifactId>
+            <version>1.5.90</version>
+            <scope>provided</scope>
+        </dependency>
+        …
+      </dependencies>
+```
+
 ## Alles zusammenbringen {#putting-it-all-together}
 
 Das folgende Video zeigt die fertige Komponente und wie sie einem Sequenzkanal hinzugefügt werden kann. Der Kanal wird dann einer Standortsanzeige hinzugefügt und letztendlich einem Screens-Player zugewiesen.
 
->[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9)
 
 ## Fertiger Code {#finished-code}
 
