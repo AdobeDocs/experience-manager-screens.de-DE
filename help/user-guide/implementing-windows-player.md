@@ -10,8 +10,8 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
-translation-type: ht
-source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
+translation-type: tm+mt
+source-git-commit: 9e7c4ec77265c1b6927a19e0d9d39770b64db0fb
 
 ---
 
@@ -24,17 +24,17 @@ Dieser Abschnitt beschreibt, wie der Windows 10 Player für AEM Screens konfigur
 
 Installieren Sie Windows Player für AEM Screens, um den Windows Player für AEM Screens zu implementieren.
 
-Rufen Sie die Seite [**AEM 6.4 Player-Downloads**](https://download.macromedia.com/screens/) auf.
+Rufen Sie die Seite [**AEM 6.4 Player-Downloads **](https://download.macromedia.com/screens/)auf.
 
 ### Ad-hoc-Methode {#ad-hoc-method}
 
-Mit der Ad-hoc-Methode können Sie den aktuellen Windows Player (*.exe*) installieren. Rufen Sie die Seite [**AEM 6.4 Player-Downloads**](https://download.macromedia.com/screens/) auf.
+Mit der Ad-hoc-Methode können Sie den aktuellen Windows Player (*.exe*) installieren. Rufen Sie die Seite [**AEM 6.4 Player-Downloads **](https://download.macromedia.com/screens/)auf.
 
 Nachdem Sie die Anwendung heruntergeladen haben, führen Sie die Schritte im Player aus, um die Ad-hoc-Installation abzuschließen:
 
 1. Halten Sie die linke obere Ecke gedrückt, um den Admin-Bereich zu öffnen.
 1. Navigieren Sie im linken Aktionsmenü zu **Konfiguration**, geben Sie den Standort (die Adresse) der AEM-Instanz ein, zu der Sie eine Verbindung aufbauen möchten, und klicken Sie auf **Speichern**.
-1. Navigieren Sie im linken Aktionsmenü zum Link **Geräteregistrierung******, um den Status des Prozesses zur Geräteregistrierung zu prüfen.
+1. Navigate to the **Device** **Registration** link from the left action menu to check the status of the device registration process.
 
 >[!NOTE]
 >
@@ -102,11 +102,11 @@ Gehen Sie wie folgt vor, um den Kiosk-Modus zu aktivieren:
 
 1. Aktivieren Sie das Shell-Startprogramm.
 
-   Weitere Informationen finden Sie im Abschnitt ***Shell-Startprogramm konfigurieren*** auf der Seite **[Shell-Startprogramm](https://docs.microsoft.com/de-de/windows-hardware/customize/enterprise/shell-launcher)** des Microsoft Windows-Supports.
+   Weitere Informationen finden Sie im Abschnitt ***Shell-Startprogramm konfigurieren*** auf der Seite **[Shell-Startprogramm](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)**des Microsoft Windows-Supports.
 
 1. Erstellen Sie einen Benutzer ohne Administratorrechte (falls Sie noch keinen haben), der für Kiosk verwendet werden soll. Dabei kann es sich um einen lokalen Benutzer oder einen Domänenbenutzer handeln.
 1. Installieren Sie den Windows Player für diesen Kiosk-Benutzer von der Seite [AEM Screens-Player-Downloads](https://download.macromedia.com/screens/).
-1. Weitere Informationen zur Modifikation des PowerShell-Skripts finden Sie unter [Verwenden des Shell-Startprogramms zum Erstellen eines Windows 10-Kiosks](https://docs.microsoft.com/de-de/windows/configuration/kiosk-shelllauncher).
+1. Weitere Informationen zur Modifikation des PowerShell-Skripts finden Sie unter [Verwenden des Shell-Startprogramms zum Erstellen eines Windows 10-Kiosks](https://docs.microsoft.com/en-us/windows/configuration/kiosk-shelllauncher).
 
    Ändern Sie das PowerShell-Skript, um den Benutzernamen durch den von Ihnen erstellten zu ersetzen. Stellen Sie sicher, dass der Pfad zur ausführbaren Datei der Anwendung korrekt ist. Dadurch wird die benutzerdefinierte Shell als Windows Player-Anwendung für den Kiosk-Benutzer festgelegt und die Standardeinstellung wird als explorer.exe für andere Benutzer festgelegt.
 
@@ -119,7 +119,7 @@ Wenn Sie einen schwarzen Bildschirm sehen, wenn Sie sich als Kiosk-Benutzer anme
 
 Der standardmäßige Installationspfad für Windows Player lautet:
 
-***C:\Benutzer\&amp;lt;Ihr Benutzer&gt;\AppData\Local\Programme\@aem-screensscreens-player-electron\AEM Screens Player.exe***
+***C:\Benutzer\&amp;lt;Ihr Benutzer>\AppData\Local\Programme\@aem-screensscreens-player-electron\AEM Screens Player.exe***
 
 Das Beispielskript in den Links aktiviert und deaktiviert die benutzerdefinierte Shell. Daher müssen Sie das Skript möglicherweise in zwei Teile aufteilen und die folgenden zutreffenden Zeilen aktivieren/deaktivieren:
 
