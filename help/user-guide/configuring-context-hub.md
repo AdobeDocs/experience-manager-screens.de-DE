@@ -10,7 +10,7 @@ topic-tags: developing
 content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 69dd2238562c00ab83e63e268515e24dee55f5ee
 
 ---
@@ -70,7 +70,7 @@ Gehen Sie wie unten beschrieben vor, um einen Datenspeicher wie eine Excel-Tabel
 
    1. Navigieren Sie zu **global** > **default** > **ContextHub-Konfiguration**.
 
-   1. Click **Create** > **Configuration Container** and enter the title as **ContextHubDemo**.
+   1. Klicken Sie auf **Erstellen** > **Konfigurations-Container** und geben Sie als Titel **ContextHubDemo** ein.
 
    1. **Navigieren** Sie zu **ContextHubDemo** > **ContextHub-Store-Konfiguration...**, um den **Konfigurationsassistenten** zu öffnen.
 
