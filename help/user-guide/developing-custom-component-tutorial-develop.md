@@ -10,7 +10,7 @@ topic-tags: developing
 discoiquuid: 24eb937f-ab51-4883-8236-8ebe6243f6e3
 targetaudience: target-audience new
 translation-type: tm+mt
-source-git-commit: 20c5be209d0ab1e5371e21b377d83bc05c0ec256
+source-git-commit: f8d4b612d9c10d3f9f43ff4792ca48a1bf9407d0
 
 ---
 
@@ -442,7 +442,7 @@ Die Komponente „Hello World“ ist für die Verwendung in einem Sequenzkanal v
 
 ## Vorlage für benutzerdefinierte Handler {#custom-handlers}
 
-Im folgenden Abschnitt werden die Vorlage für den benutzerdefinierten Handler und die Mindestanforderungen in der Datei &quot;pom.xml&quot;für dieses spezifische Projekt hervorgehoben.
+Im folgenden Abschnitt werden die Vorlage für den benutzerdefinierten Handler und die Mindestanforderungen in der Datei &quot;pom.xml&quot;für dieses spezifische Projekt dargestellt.
 
 ```java
    package …;
