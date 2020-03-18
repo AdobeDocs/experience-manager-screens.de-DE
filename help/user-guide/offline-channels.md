@@ -10,8 +10,8 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: bd572743-652f-4fc5-8b75-a3c4c74536f4
 docset: aem65
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: 9da83030c5ad90f446befc7a488fac6c9435ea76
 
 ---
 
@@ -113,3 +113,5 @@ Befolgen Sie die folgenden Schritte, um die Offline-Konfiguration für einen Kan
 
    ![chlimage_1-26](assets/chlimage_1-26.png)
 
+>[!NOTE]
+> Weitere Informationen über die Vorlage für benutzerdefinierte Offline-Ressourcen-Handler und die Mindestanforderungen `pom.xml` für dieses spezifische Projekt finden Sie unter [Vorlage für benutzerdefinierte Handler](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) in **Entwickeln einer benutzerdefinierten Komponente für AEM Screens**.
