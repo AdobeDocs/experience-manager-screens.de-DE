@@ -10,8 +10,8 @@ topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f30bfdba-8db6-482b-8d0c-2818fc58e2b1
 docset: aem65
-translation-type: ht
-source-git-commit: 99f6817a0d126cfb1811887a3415f1b87079d6e7
+translation-type: tm+mt
+source-git-commit: 23a6019e27f10ff0e207ddc9c279dc7d42942098
 
 ---
 
@@ -68,8 +68,12 @@ Weitere Informationen zu Adobe Experience Manager 6.5 finden Sie in den folgende
 * **AEM 6.5-Tutorials und -Videos**: Eine Sammlung von Tutorials und Videos, in denen die mit der Veröffentlichung von AEM 6.5 herausgebrachten neuen und aktualisierten Funktionen für AEM Sites, Assets, Forms, Screens und Foundation erläutert werden.
 * **Grundlegende AEM-Konzepte**: Ein Überblick über die grundlegenden Konzepte der AEM-Struktur sowie der damit verbundenen Entwicklung, einschließlich Informationen zu JCR, Sling, OSGi, dem Dispatcher, Workflows und MSM.
 
-### Tutorial zu den Grundlagen der Implementierung {#guided-implementation-essentials}
+## Zusätzliche Ressourcen {#additional-resources}
 
-Folgen Sie dem Tutorial-Lernpfad **[Grundlagen der Implementierung von AEM Screens](https://guided.adobe.com/?launch=AEM-7a#recommended/solutions/experience-manager)**, der sowohl grundlegende als auch erweiterte Funktionen abdeckt, die in AEM Screens unterstützt werden.
+* **Tutorial zu den Grundlagen der Implementierung**
 
-Beim Erstellen eines neuen Projekts können sich abhängig von Ihren Organisations- und Geschäftsanforderungen verschiedene Funktionen überschneiden.
+   Folgen Sie dem Tutorial-Lernpfad **[Grundlagen der Implementierung von AEM Screens](https://guided.adobe.com/?launch=AEM-7a#recommended/solutions/experience-manager)**, der sowohl grundlegende als auch erweiterte Funktionen abdeckt, die in AEM Screens unterstützt werden.
+
+* **Handbuch mit Best Practices für AEM Screens-Projekte**
+
+   Befolgen Sie den **[Leitfaden zu bewährten Verfahren für AEM Screens-Projekte](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)**, der entwickelt wurde, um allgemeine Fallstricke bei der Implementierung eines AEM Screens-Projekts zu identifizieren. Das Material konzentriert sich in erster Linie auf Projektrollen und Verantwortlichkeiten, RACI-Diagramm für verschiedene Rollen AEM-Plattformkonfigurationen sowie Unterstützung und Überwachung.
