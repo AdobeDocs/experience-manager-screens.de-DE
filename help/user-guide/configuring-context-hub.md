@@ -10,8 +10,8 @@ topic-tags: developing
 content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
-translation-type: ht
-source-git-commit: 69dd2238562c00ab83e63e268515e24dee55f5ee
+translation-type: tm+mt
+source-git-commit: 19baf90409eab4c72fb38e992c272338b0098d89
 
 ---
 
@@ -48,17 +48,34 @@ Bevor Sie mit der Konfiguration von Context-Hub-Konfigurationen für ein AEM Scr
 >
 >Weitere Informationen finden Sie in der Google-Dokumentation unter [Abrufen eines API-Schlüssels](https://developers.google.com/maps/documentation/javascript/get-api-key).
 
+
 ## Schritt 1: Einrichten eines Datenspeichers {#step-setting-up-a-data-store}
 
 Sie können den Datenspeicher als lokales E/A-Ereignis oder als lokales Datenbankereignis einrichten.
 
-### Lokales E/A-Ereignis {#local-io-event}
+Im folgenden Beispiel für Datenauslöser auf Asset-Ebene wird ein lokales Ereignis für die Datenbank dargestellt, das einen Datenspeicher wie ein Excel-Blatt einrichtet, mit dem Sie ContextHub-Konfigurationen und Segmentpfade zu AEM Screens Kanal verwenden können.
 
-Gehen Sie wie unten beschrieben vor, um einen Datenspeicher wie ein ASCII-Ereignis einzurichten, mit dem Sie ContextHub-Konfigurationen und Segmentpfade zum AEM Screens-Kanal verwenden können.
+Nachdem Sie das Google-Blatt korrekt eingerichtet haben, z. B. wie unten dargestellt:
 
-### Lokales Datenbankereignis {#local-db-event}
+![image](/help/user-guide/assets/context-hub/context-hub1.png)
 
-Gehen Sie wie unten beschrieben vor, um einen Datenspeicher wie eine Excel-Tabelle einzurichten, mit dem Sie ContextHub-Konfigurationen und Segmentpfade zum AEM Screens-Kanal verwenden können.
+Die folgende Überprüfung wird bei der Verbindungsprüfung durch Eingabe der Google-Blatt-ID und des API-Schlüssels im folgenden Format Ansicht:
+
+`https://sheets.googleapis.com/v4/spreadsheets/<your sheet id>/values/Sheet1?key=<your API key>`
+
+![image](/help/user-guide/assets/context-hub/context-hub2.png)
+
+
+>[!NOTE]
+>**Verwenden der Google-Blattwerte in AEM **>Die Google-Blätter stellen ihre Werte im ContextHub Store offen und stehen unter`<store-name>/values/<i>/<j>`, wo`<i>`und`<j>`sind die Zeilen- und Spaltenindizes in der Tabelle (beginnend mit 0).
+>
+> * /values/0/0 verweist auf A1
+> * /values/5/0 verweist auf A5
+> * /values/0/5 verweist auf E1
+
+
+Das folgende Beispiel zeigt das Excel-Blatt als Datenspeicher, der eine Asset-Änderung auslöst, wenn der Wert größer als 100 oder kleiner als 50 ist.
+
 
 1. **Navigieren zu ContextHub**
 
@@ -85,14 +102,14 @@ Gehen Sie wie unten beschrieben vor, um einen Datenspeicher wie eine Excel-Tabel
      "service": {
        "host": "sheets.googleapis.com",
        "port": 80,
-       "path": "/v4/spreadsheets/<your sheet it>/values/Sheet1",
+       "path": "/v4/spreadsheets/<your google sheet id>/values/Sheet1",
        "jsonp": false,
        "secure": true,
        "params": {
-         "key": "<your API key>"
+         "key": "<your Google API key>"
        }
      },
-     "pollInterval": 3000
+     "pollInterval": 10000
    }
    ```
 
@@ -104,8 +121,8 @@ Gehen Sie wie unten beschrieben vor, um einen Datenspeicher wie eine Excel-Tabel
    >Ersetzen Sie den Code durch Ihre *&lt;Tabellenblatt-ID>* und Ihren *&lt;API-Schlüssel>*, den Sie beim Einrichten von Google Tabellen abgerufen haben.
 
    >[!CAUTION]
-   Wenn Sie Google Tabellen-Store-Konfigurationen außerhalb des bestehenden Ordners erstellen (z. B. in Ihrem eigenen Projektordner), funktioniert das Targeting nicht standardmäßig.
-   Wenn Sie die Google Tabellen-Store-Konfigurationen außerhalb des bestehenden globalen Ordners konfigurieren möchten, müssen Sie den **Store-Namen** als **segmentation** und den **Store-Typ** als **aem.segmentation** festlegen. Außerdem müssen Sie den Prozess der Definition des json wie oben definiert überspringen.
+   Wenn Sie Google Sheets Store-Konfigurationen außerhalb des globalen Ordners erstellen (z. B. in Ihrem eigenen Projektordner), funktioniert das Targeting nicht standardmäßig.
+   In case, you want to configure the Google Sheets store configurations outside the global folder, then you should must set the **Store Name** as **segmentation** and **Store Type** as **aem.segmentation**. Außerdem müssen Sie den Prozess der Definition des json wie oben definiert überspringen.
 
 1. **Erstellen einer Marke in „Aktivitäten“**
 
@@ -141,7 +158,7 @@ Nachdem Sie einen Datenspeicher eingerichtet und Ihre Marke definiert haben, fü
 
 1. **Erstellen von Segmenten in Zielgruppen**
 
-   1. Navigieren Sie von Ihrer AEM-Instanz zu **Personalisierung** > **Zielgruppen** > **We.Retail**.
+   1. Navigate from your AEM instance to **Personalization** > **Audiences** > **screens**.
 
    1. Klicken Sie auf **Erstellen** > **ContextHub-Segment erstellen.** Das Dialogfeld **Neues ContextHub-Segment** wird geöffnet.
 
@@ -149,7 +166,7 @@ Nachdem Sie einen Datenspeicher eingerichtet und Ihre Marke definiert haben, fü
 
 1. **Bearbeiten der Segmente**
 
-   1. Wählen Sie das Segment **Tabellenblatt A1 1** (erstellt in Schritt 5) aus und klicken Sie in der Aktionsleiste auf **Bearbeiten**.
+   1. Select the segment **Sheets A1 1**, and click **Edit** from the action bar.
 
    1. Ziehen Sie die Komponente **Vergleich: Eigenschaft - Wert** in den Editor.
    1. Klicken Sie auf das Schraubenschlüsselsymbol, um das Dialogfeld **Vergleich von Eigenschaft und Wert** zu öffnen.
@@ -172,8 +189,9 @@ Nachdem Sie einen Datenspeicher eingerichtet und Ihre Marke definiert haben, fü
    1. Wählen Sie unter **Operator** den Wert **Gleich** aus dem Dropdown-Menü aus.
 
    1. Geben Sie den **Wert** als **2** ein.
-   >[!NOTE]
-   Die in den vorherigen Schritten angewendeten Regeln sind nur ein Beispiel dafür, wie Sie Segmente für die Implementierung der folgenden Anwendungsfälle einrichten.
+
+
+
 
 ## Schritt 3: Aktivieren von Targeting in Kanälen {#step-enabling-targeting-in-channels}
 
