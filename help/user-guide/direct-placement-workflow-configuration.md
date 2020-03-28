@@ -4,7 +4,7 @@ seo-title: Konfiguration des Arbeitsablaufs für direkte Platzierung
 description: Diese Seite hebt die Konfiguration des Arbeitsablaufs für direkte Platzierung hervor.
 seo-description: Diese Seite hebt die Konfiguration des Arbeitsablaufs für direkte Platzierung hervor.
 translation-type: tm+mt
-source-git-commit: 0f64047955a3b1b2eb523ed222168b87994a7a99
+source-git-commit: 19baf90409eab4c72fb38e992c272338b0098d89
 
 ---
 
@@ -29,3 +29,13 @@ Als Inhaltsersteller können Sie auch manuell auf Offline-Inhalte **aktualisiere
 
 ## Konfigurieren des Arbeitsablaufs für die direkte Platzierung {#configuring-workflow}
 
+>[!IMPORTANT]
+> Vor dem Beginn der Konfiguration müssen Sie das [Demopaket](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip)installieren. Nachdem Sie das Paket installiert haben, sollten Sie in der Lage sein, über Ihre AEM-Instanz auf das Paket zuzugreifen —> Tools (Symbol) —> **Workflow** —> **Workflow-Modelle**.
+
+Gehen Sie wie folgt vor, um den Arbeitsablauf für die direkte Platzierung zu konfigurieren:
+
+1. Navigieren Sie von Ihrer AEM-Instanz zu AEM Screens und erstellen Sie ein Screens-Projekt mit dem Titel **Asset Workflow**.
+
+1. Create a channel titled as **Workflow-Assets** under **Channels** folder.
+
+1. 
