@@ -3,8 +3,8 @@ title: Informationen zu diesem Handbuch
 seo-title: Beschreibung des Handbuchs
 description: Auf dieser Seite wird der Zweck des Best-Practices-Handbuchs beschrieben.
 seo-description: Auf dieser Seite wird der Zweck des Best-Practices-Handbuchs beschrieben.
-translation-type: ht
-source-git-commit: 61cf90bd834d2afa1e09a2f8371984c9635fac23
+translation-type: tm+mt
+source-git-commit: 2c73039b61f713d9cc862a1bef9b3dcda5b0c351
 
 ---
 
