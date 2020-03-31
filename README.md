@@ -1,6 +1,14 @@
 ---
-source-git-commit: fef6a623211f473c61816ccaed0c029565f0a4c0
-translation-type: ht
+source-git-commit: 93dda5a30065f2989427b4fadbb2576dad1c13b8
+translation-type: tm+mt
 
 ---
-# Hilfe für Experience Manager Screens
+# Dokumentation zu Adobe Experience Manager-Bildschirmen
+
+Dies ist das Repository für die Dokumentation zu Adobe Experience Manager Screens.
+
+Ihre Beiträge zur Dokumentation sind willkommen. Sehen Sie sich die folgenden Ressourcen an:
+
+* [contributing.md](contributing.md) Ein Überblick darüber, wie Sie zur Dokumentation beitragen.
+* [guidelines.md](guidelines.md) Ein Überblick darüber, was in Beiträgen erwartet wird und wie Sie Ihre Beiträge zur Dokumentation zusammenstellen können.
+* [code-of-behavior. md](code-of-conduct.md) Ein Überblick über die Verhaltensstandards, die wir erwarten, wenn Sie zu diesem Dokumentationsprojekt beitragen.
