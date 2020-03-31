@@ -76,4 +76,4 @@ Weitere Informationen zu Adobe Experience Manager 6.5 finden Sie in den folgende
 
 * **Handbuch mit Best Practices für AEM Screens-Projekte**
 
-   Befolgen Sie den [Leitfaden zu bewährten Verfahren für AEM Screens-Projekte](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html) , der entwickelt wurde, um allgemeine Fallstricke bei der Implementierung eines AEM Screens-Projekts zu identifizieren. Das Material konzentriert sich in erster Linie auf Projektrollen und Verantwortlichkeiten, RACI-Diagramm für verschiedene Rollen AEM-Plattformkonfigurationen sowie Unterstützung und Überwachung.
+   Befolgen Sie den **[Leitfaden zu bewährten Verfahren für AEM Screens-Projekte](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)**, der entwickelt wurde, um allgemeine Fallstricke bei der Implementierung eines AEM Screens-Projekts zu identifizieren. Das Material konzentriert sich in erster Linie auf Projektrollen und Verantwortlichkeiten, RACI-Diagramm für verschiedene Rollen AEM-Plattformkonfigurationen sowie Unterstützung und Überwachung.
