@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: fc13d713-af30-4a54-8408-920f78fd2b2f
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 23ecaf3533c2298d98c37f2bbcb6cbe50aed17fc
 
 ---
@@ -31,13 +31,13 @@ Sie haben die Möglichkeit, die folgenden Komponenten zu Ihrem Sequenzkanal hinz
 >
 >Weitere Informationen zum Verwenden anderer Komponenten in Ihrem Screens-Projekt finden Sie unter [Hinzufügen von Komponenten zu einem Kanal](adding-components-to-a-channel.md).
 
-### Hinzufügen einer eingebetteten Sequenz    {#adding-an-embedded-sequence}
+### Hinzufügen einer eingebetteten Sequenz     {#adding-an-embedded-sequence}
 
 Sie können Ihrem Kanal eine eingebettete Sequenz hinzufügen. Bei einer eingebetteten Sequenz handelt es sich um einen weiteren Kanal mit Assets wie Bildern oder Videos. Durch Hinzufügen einer eingebetteten Sequenz können Benutzer die Sequenz über den ***Kanalpfad*** in einen Kanal aufnehmen.
 
 >[!NOTE]
 >
->***Kanalpfad*** definiert einen expliziten Verweis auf den Kanal.
+>Der ***Kanalpfad *** definiert einen expliziten Verweis zum Kanal.
 >
 >Weitere Informationen zum *Kanalpfad* finden Sie in „Inhaltserstellung in Screens“ unter [Kanalzuweisung](channel-assignment.md).
 
@@ -53,9 +53,9 @@ Gehen Sie wie folgt vor, um eine eingebettete Sequenz zu Ihrem Kanal hinzuzufüg
 
 1. Legen Sie die **gemessene Wiedergabestrategie** auf **normal** fest.
 
-Standardmäßig ist diese auf **normal** eingestellt. Setting the value to **normal** (Play all items) means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is **Play a single item** (Play a single item) and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)
+Standardmäßig ist diese auf **normal** eingestellt. Ist der Wert auf **normal** (Alle Elemente abspielen) eingestellt, wird die Teilsequenz bei jedem Zyklus der übergeordneten Sequenz vollständig ausgeführt. Der andere mögliche Wert lautet **Einzelnes Element abspielen** (Einzelnes Element abspielen). Hierbei wird nur ein Element der Teilsequenz bei jeder Ausführung angezeigt (beispielsweise das erste Element bei der ersten Schleife, das zweite Element bei der zweiten Schleife usw.).
 
->[!Iportant]
+>[!IWichtig]
 >Sie müssen den Kanal (der in der eingebetteten Sequenz verwendet wird) derselben Anzeige zuweisen.
 >
 >Führen Sie die folgenden Schritte aus, nachdem Sie Ihrem Kanal aus den vorangegangenen Schritten eine eingebettete Sequenz hinzugefügt haben:
@@ -96,10 +96,10 @@ Gehen Sie wie folgt vor, um eine eingebettete Sequenz zu Ihrem Kanal hinzuzufüg
 1. Klicken Sie in der Aktionsleiste auf **Bearbeiten**, um den Kanal im Editormodus zu öffnen.
 1. Klicken Sie in der linken Seitenleiste auf das Symbol „Komponenten“, um die dynamische eingebettete Sequenz hinzuzufügen. Ziehen Sie die **dynamische** eingebettete Sequenz in den Editor.
 
-1. Double-click the **Dynamic** **Embedded Sequence** component to add the page to your sequence channel.
+1. Doppelklicken Sie auf die Komponente **dynamische** **eingebettete Sequenz**, um die Seite Ihrem Sequenzkanal hinzuzufügen.
 
 1. Geben Sie die **Kanalzuordnungsrolle** ein.
-1. Legen Sie die **gemessene Wiedergabestrategie** auf **normal** fest. Standardmäßig ist diese auf **normal** eingestellt. Setting the value to **normal** (Play all items) means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is **Play a single item** (Play a single item) and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)
+1. Legen Sie die **gemessene Wiedergabestrategie** auf **normal** fest. Standardmäßig ist diese auf **normal** eingestellt. Ist der Wert auf **normal** (Alle Elemente abspielen) eingestellt, wird die Teilsequenz bei jedem Zyklus der übergeordneten Sequenz vollständig ausgeführt. Der andere mögliche Wert lautet **Einzelnes Element abspielen** (Einzelnes Element abspielen). Hierbei wird nur ein Element der Teilsequenz bei jeder Ausführung angezeigt (beispielsweise das erste Element bei der ersten Schleife, das zweite Element bei der zweiten Schleife usw.).
 
 1. Wählen Sie die **Dauer (ms)** für Ihren eingebetteten Kanal auf der Registerkarte **Sequenz** aus.
 
