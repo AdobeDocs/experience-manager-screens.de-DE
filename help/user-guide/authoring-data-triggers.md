@@ -1,43 +1,43 @@
 ---
-title: Authoring mit Datenauslösern
-seo-title: Authoring mit Datenauslösern
-description: Auf dieser Seite erfahren Sie, wie Sie mit Datenauslösern erstellen.
-translation-type: tm+mt
+title: Inhaltserstellung mit Datenauslösern
+seo-title: Inhaltserstellung mit Datenauslösern
+description: Auf dieser Seite erfahren Sie, wie Sie mit Datenauslösern Inhalte erstellen.
+translation-type: ht
 source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
 
 ---
 
 
-# Authoring mit Datenauslösern {#authoring-with-data-triggers}
+# Inhaltserstellung mit Datenauslösern {#authoring-with-data-triggers}
 
 In diesem Abschnitt wird erläutert, wie Sie Targeting in Ihren Kanälen aktivieren.
 
 >[!IMPORTANT]
-> Die Mindestversion, die Datenauslöser in einem AEM Screens-Kanal unterstützt, ist AEM 6.5.3 Feature Pack 3.
+> Die Mindestversion, die Datenauslöser in einem AEM Screens-Kanal unterstützt, ist AEM 6.5.3 Feature Pack 3.
 
 ## Voraussetzungen {#prereqs}
 
-Bevor Sie die folgenden Schritte ausführen, um Targeting in Kanälen zu aktivieren, müssen Sie die [Schlüsselbegriffe unter Konfigurieren in AEM Screens](configuring-context-hub.md) lernen, die zum Verständnis von ContextHub und Targeting in AEM Screens erforderlich sind.
+Bevor Sie die folgenden Schritte ausführen, um Targeting in Kanälen zu aktivieren, müssen Sie die [Schlüsselbegriffe für das Konfigurieren in AEM Screens](configuring-context-hub.md) kennen, die zum Verständnis von ContextHub und Targeting in AEM Screens erforderlich sind.
 
 >[!IMPORTANT]
-> Es wird empfohlen, ContextHub-Konfigurationen zu verstehen und einzurichten, bevor Sie das Targeting in einem AEM Screens-Kanal aktivieren.
+> Sie sollten ContextHub-Konfigurationen verstehen und einzurichten können, bevor Sie das Targeting in einem AEM Screens-Kanal aktivieren.
 
 Weitere Informationen finden Sie unter den folgenden Links:
 
-1. **[Einrichten des Datenspeichers](configuring-context-hub.md)**
-1. **[Einrichten der Segmentierung von Audiencen](configuring-context-hub.md)**
+1. **[Einrichten eines Datenspeichers](configuring-context-hub.md)**
+1. **[Einrichten der Zielgruppensegmentierung](configuring-context-hub.md)**
 
 Nachdem Sie die vorherigen Schritte durchgeführt haben, können Sie Targeting in Ihren Kanälen aktivieren.
 
-## Authoring mit Datenauslösern - Übersicht {#author-targeting}
+## Überblick über die Inhaltserstellung mit Datenauslösern {#author-targeting}
 
->[!VIDEO](https://video.tv.adobe.com/v/31921)
+>[!VIDEO](https://video.tv.adobe.com/v/31921?captions=ger)
 
-## Aktivieren des Targeting in einem AEM Screens-Kanal {#enabling-targeting}
+## Aktivieren von Targeting in einem AEM Screens-Kanal {#enabling-targeting}
 
 Gehen Sie wie folgt vor, um Targeting in Ihren Kanälen zu aktivieren.
 
-1. Navigieren Sie zu einem der AEM Screens-Kanäle. The following steps demonstrate how to enable targeting by using **DataDrivenRetail** *(sequence channel)* created in an AEM Screens Channel.
+1. Navigieren Sie zu einem der AEM Screens-Kanäle. Die folgenden Schritte zeigen, wie Sie das Targeting mit **DataDrivenRetail** *(Sequenzkanal)* aktivieren, das in einem AEM Screens-Kanal erstellt wurde.
 
 1. Wählen Sie den Kanal **DataDrivenRetail** aus und klicken Sie in der Aktionsleiste auf **Eigenschaften**.
 
@@ -56,7 +56,7 @@ Gehen Sie wie folgt vor, um Targeting in Ihren Kanälen zu aktivieren.
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. Navigieren Sie zu und wählen Sie **DataDrivenRetail** aus **DataDrivenAssets** > **Kanäle** aus und klicken Sie in der Aktionsleiste auf **Bearbeiten.** Ziehen Sie die Assets per Drag &amp; Drop in Ihren Kanal-Editor.
+1. Navigieren Sie zu und wählen Sie **DataDrivenRetail** aus **DataDrivenAssets** > **Kanäle** aus und klicken Sie in der Aktionsleiste auf **Bearbeiten**. Ziehen Sie die Assets in Ihren Kanal-Editor.
 
    >[!NOTE]
    >
