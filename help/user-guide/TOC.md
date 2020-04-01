@@ -3,7 +3,7 @@ cloud: experience-cloud
 product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 69cb8b8791c76917ce67ad33f40074027f73f9d5
 
 ---
@@ -58,7 +58,7 @@ source-git-commit: 69cb8b8791c76917ce67ad33f40074027f73f9d5
       + [AEM Screens-Benachrichtigungsdienst](screens-notifications-service.md)
       + [Verwenden von Experience Fragments](experience-fragments-in-screens.md)
       + [Aktivierung auf Asset-Ebene](asset-level-scheduling.md)
-      + [Aktivierung auf Kanal-Ebene](channel-level-activation.md)
+      + [Aktivierung auf Kanalebene ](channel-level-activation.md)
       + [Erstellen und Verwalten einer Live Copy](managing-livecopy.md)
       + [Erstellen eines Workflows für den Videoabstand](creating-a-video-padding-workflow.md)
       + [Hinzufügen von Komponenten zu Kanälen](adding-components-to-a-channel.md)
@@ -68,7 +68,7 @@ source-git-commit: 69cb8b8791c76917ce67ad33f40074027f73f9d5
       + [Verwenden dynamischer eingebetteter Sequenzen](dynamic-embedded-sequences.md)
       + [Dauer der Massenwiedergabe von Bildern auf der Kanalebene](channel-level-image-playback.md)
       + [Befehlssynchronisierung](using-command-sync.md)
-      + [Authoring mit Datenauslösern](authoring-data-triggers.md)
+      + [Inhaltserstellung mit Datenauslösern](authoring-data-triggers.md)
    + Verwalten von Inhaltsaktualisierungen {#content-updates}
       + [On-Demand-Inhaltsaktualisierungen](on-demand-content.md)
       + [Aktualisierungen von Content-as-a-Service](content-update-as-a-service.md)
@@ -90,7 +90,7 @@ source-git-commit: 69cb8b8791c76917ce67ad33f40074027f73f9d5
    + [Erstellen von Komponenten](creating-components.md)
    + [Einbetten einer REACT-Anwendung mit AEM SPA Editor und Integration mit AEM Screens Analytics](embedding-react-app.md)
    + [Konfigurieren von ContextHub in AEM Screens](configuring-context-hub.md)
-   + [Erstellen benutzerdefinierter Vorlagen für MultiZone-Layouts](creating-custom-templates-multizone-layouts.md)
+   + [Erstellen benutzerdefinierter Vorlagen für Mehrzonen-Layouts ](creating-custom-templates-multizone-layouts.md)
 + Problembehebung und häufig gestellte Fragen {#troubleshooting}
    + [Häufig gestellte Fragen zu AEM Screens](aem-screens-faqs.md)
    + [Problembehebung in der Gerätesteuerung](monitoring-screens.md)
