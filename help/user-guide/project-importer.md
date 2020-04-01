@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: administering
 discoiquuid: f1df8d05-bb61-4bc9-aea1-c6af9e3519b4
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 121aee4c8bf08e30898cc25d274ef4fc6bded5aa
 
 ---
@@ -59,7 +59,7 @@ Für die Tabellendatei (CSV/XLS) sind daher die folgenden Spalten erforderlich:
 * **path {string}** Der Pfad für den zu importierenden Standort, wobei der Stammordner des Pfades der Ordner für das Projekt ist (d. h. */foo* wird in */content/screens/&lt;Projekt>/locations/foo* importiert)
 
 * **template {string}** Die Vorlage, die für den neuen Standort verwendet werden soll, im Moment ist nur der Wert „location“ erlaubt, aber dies wird in Zukunft auf alle Screens-Vorlagen ausgedehnt („display“, „sequencechannel“ usw.)
-* **[./*]{string}**Any optional property to be set on the location (that is, ./jcr:title, ./jcr:description, ./foo, ./bar). Die aktuelle Version ermöglicht derzeit keine Filterung
+* **[./*]**{string} Jede optionale Eigenschaft, die für den Standort festgelegt wird (d. h. ./jcr:title, ./jcr:description, ./foo, ./bar). Die aktuelle Version ermöglicht derzeit keine Filterung
 
 >[!NOTE]
 >
