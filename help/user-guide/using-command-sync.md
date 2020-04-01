@@ -3,7 +3,7 @@ title: Verwenden der Befehlssynchronisierung
 seo-title: Verwenden der Befehlssynchronisierung
 description: Auf dieser Seite erfahren Sie, wie Sie die Befehlssynchronisierung verwenden.
 seo-description: Auf dieser Seite erfahren Sie, wie Sie die Befehlssynchronisierung verwenden.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7b842534e00e50aa1f066e73539edfa3915aa5e6
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 7b842534e00e50aa1f066e73539edfa3915aa5e6
 Auf der folgenden Seite wird die Verwendung der Befehlssynchronisierung beschrieben. Mithilfe der Befehlssynchronisierung kann die Wiedergabe über verschiedene Player hinweg synchronisiert werden. Die Player können unterschiedliche Inhalte wiedergeben, aber jedes Asset muss dieselbe Dauer haben.
 
 >[!IMPORTANT]
->Diese Funktion unterstützt keine eingebetteten Sequenzen, dynamischen eingebetteten Sequenzen, Application Kanal oder Transitionen.
+>Diese Funktion unterstützt keine eingebetteten Sequenzen, dynamischen eingebetteten Sequenzen, Anwendungskanäle oder Übergänge.
 
 ## Überblick {#overview}
 
@@ -29,7 +29,7 @@ Der *Master* sendet einen Befehl an alle registrierten Clients, wenn er im Begri
 Im folgenden Abschnitt wird beschrieben, wie Sie die Befehlssynchronisierung in einem AEM Screens-Projekt verwenden können.
 
 >[!NOTE]
->Für die synchronisierte Wiedergabe ist es erforderlich, dass alle Hardware-Geräte über dieselben Hardwarespezifikationen und vorzugsweise über dasselbe Betriebssystem verfügen. Eine Synchronisierung zwischen verschiedenen Hardware- und Betriebssystemen wird nicht empfohlen.
+>Für die synchronisierte Wiedergabe ist es erforderlich, dass alle Hardwaregeräte über dieselben Spezifikationen und vorzugsweise über dasselbe Betriebssystem verfügen. Eine Synchronisierung zwischen verschiedenen Hardware- und Betriebssystemen wird nicht empfohlen.
 
 ### Einrichten des Projekts {#setting-up}
 
@@ -118,20 +118,20 @@ Wählen Sie dazu das andere Gerät (in diesem Fall den Windows-Player) im Bedien
 
 ### Aufheben der Synchronisierung mit dem Master {#desync-up-master}
 
-Nachdem Sie ein oder mehrere Geräte mit einem Master synchronisiert haben, können Sie Synchronisierung mit diesem Gerät aufheben.
+Nachdem Sie ein oder mehrere Geräte mit einem Master synchronisiert haben, können Sie die Synchronisierung mit diesem Gerät aufheben.
 
 >[!NOTE]
->Wenn Sie die Synchronisierung eines Mastergeräts aufheben, wird auch die Verknüpfung aller mit diesem Mastergerät verknüpften Client-Geräte aufgehoben.
+>Wenn Sie die Synchronisierung eines Master-Geräts aufheben, wird auch die Verknüpfung aller mit diesem Master-Gerät verbundenen Client-Geräte aufgehoben.
 
 Gehen Sie wie folgt vor, um die Synchronisierung mit dem Master-Gerät aufzuheben:
 
 1. Navigieren Sie zum Bedienfeld **GERÄTE** und wählen Sie das Gerät aus.
 
-1. Click on **Desync device(s)** to de-sync the client from the master device.
+1. Klicken Sie auf **Synchronisierung von Gerät(en) aufheben**, um die Synchronisierung zwischen Client und Master-Gerät aufzuheben.
 
    ![image1](assets/command-sync/command-sync15-1.png)
 
-1. Click **Confirm** to de-sync the selected device from the master.
+1. Klicken Sie auf **Bestätigen**, um die Synchronisierung des ausgewählten Geräts mit dem Master aufzuheben.
 
    >[HINWEIS:]
-   > Wenn Sie das Mastergerät auswählen und die Option &quot;Synchronisierung aufheben&quot;verwenden, werden alle mit dem Master verbundenen Geräte in einem Schritt desynchronisiert.
+   > Wenn Sie das Master-Gerät auswählen und die Option zur Aufhebung der Synchronisierung verwenden, wird die Synchronisierung aller mit dem Master verbundenen Geräte in einem Schritt aufgehoben.
