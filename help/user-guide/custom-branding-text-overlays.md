@@ -5,14 +5,14 @@ description: Auf dieser Seite erfahren Sie, wie Sie benutzerdefinierte Branding-
 seo-description: Auf dieser Seite erfahren Sie, wie Sie benutzerdefinierte Branding- und Stile für Textüberlagerungen anwenden.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: f91faa23c7c5c4f0f705c77251554b64efaf2611
+source-git-commit: 835e801909d8d126042acd713fc68075ff598712
 
 ---
 
 
 # Benutzerdefiniertes Branding und Formatierung für Textüberlagerungen {#creating-custom-branding-styling}
 
-Auf dieser Seite erfahren Sie, wie Sie benutzerdefinierte Branding- und Stile für Textüberlagerungen anwenden.
+Auf dieser Seite erfahren Sie, wie Sie benutzerdefinierte Branding- und Stile für Textüberlagerungen anwenden, die in einem Kanal für Bildschirme auf Ihre Assets angewendet werden.
 
 ## Erstellen von benutzerdefiniertem Branding und Stil für Textüberlagerungen {#steps-custom-branding}
 
@@ -31,11 +31,11 @@ Gehen Sie wie folgt vor, um benutzerdefinierte Branding- und Stile für Textübe
 
 1. Navigieren Sie von Ihrer AEM-Instanz zu Tools > **CRXDE Lite**.
 
-1. Sie müssen einen benutzerdefinierten Entwurf erstellen, `/apps/settings/wcm/designs/<your-project>/`z. B. in diesem Fall
+1. Sie müssen einen benutzerdefinierten Entwurf erstellen, `/apps/settings/wcm/designs/<your-project>/`indem Sie in diesem Fall beispielsweise zu `/apps/settings/wcm/designs/customstyle/`
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand3.png)
 
-1. Navigieren Sie zur Datei &quot;static.css&quot;und legen Sie die folgenden CSS-Regeln fest. Auch in der Abbildung unten dargestellt.
+1. Navigieren Sie zur Datei &quot; *static.css* &quot;und legen Sie die folgenden CSS-Regeln fest. Auch in der Abbildung unter den CSS-Regeln als Beispiel dargestellt.
 
    ```shell
     //global styles
@@ -53,7 +53,7 @@ Gehen Sie wie folgt vor, um benutzerdefinierte Branding- und Stile für Textübe
 
 1. Kopieren Sie den Pfad zu Ihrem Projekt. In diesem Fall wird der Pfad `/apps/settings/wcm/designs/customstyle`verwendet.
 
-1. Navigieren Sie zum Kanal mit dem Titel **DemoBrand** (erstellt in Schritt 1)) und klicken Sie in der Aktionsleiste auf **Eigenschaften** , nachdem Sie den Kanal ausgewählt haben.
+1. Navigieren Sie zum Kanal mit dem Namen **DemoBrand** (erstellt in Schritt 1) und klicken Sie in der Aktionsleiste auf **Eigenschaften** , nachdem Sie den Kanal ausgewählt haben.
 
 1. Navigieren Sie zur Registerkarte &quot; **Erweitert** &quot;und aktivieren Sie das Feld &quot; **Design** &quot;.
    ![image](/help/user-guide/assets/custom-brand/custom-brand5.png)
@@ -70,31 +70,31 @@ Gehen Sie wie folgt vor, um benutzerdefinierte Branding- und Stile für Textübe
 
 ## Anzeigen des Ergebnisses {#viewing-the-result}
 
-Nachdem Sie die oben genannten Schritte ausgeführt haben, können Sie Ihre Datei &quot; *statis.css* &quot;von **CRXDE Lite** aktualisieren und die Aktualisierung daher auf das dem Asset hinzugefügte Textlayout Ansicht.
+Nachdem Sie die oben genannten Schritte ausgeführt haben, können Sie Ihre Datei &quot; *statis.css* &quot;von **CRXDE Lite** aktualisieren und das Update daher auf Ihre Textüberlagerung Ansicht haben, die dem Asset bereits hinzugefügt wurde.
 
-Gehen Sie wie folgt vor, um das aktualisierte Design in das Textlayout Ansicht:
+Gehen Sie wie folgt vor, um den aktualisierten Entwurf in Textüberlagerung Ansicht:
 
-1. Navigieren Sie zu Ihrem AEM Screens-Projekt mit dem Titel **customstyle** und zu einem Kanal mit dem Titel **DemoBrand** und klicken Sie in der Aktionsleiste auf **Bearbeiten** , um den Editor zu öffnen.
+1. Navigieren Sie zu Ihrem AEM Screens-Projekt mit dem Titel **customstyle** —> **Kanal** —> **DemoBrand**. Wählen Sie den Kanal   aus und klicken Sie in der Aktionsleiste auf **Bearbeiten**, um den Editor zu öffnen.
 
 1. Da Sie den Entwurf wie oben erwähnt in Ihr **Designfeld eingefügt haben, klicken Sie auf &quot;** Vorschau **** &quot;, um den aktuellen Bildstil mit der Textüberlagerung Ansicht.
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand7.png)
 
-1. Navigieren Sie in CRXDE Lite zu Ihrer Datei &quot;static.css&quot;, fügen Sie die Schriftart beispielsweise hinzu.
+1. Navigieren Sie in CRXDE Lite zu Ihrer *Datei &quot;static.css* &quot;und fügen Sie die Schrift wie folgt `font-family: "Lucida Console", Courier, monospace;` dieser Datei hinzu:
    ![image](/help/user-guide/assets/custom-brand/custom-brand8.png)
 
-1. Nachdem Sie die Änderungen gespeichert und die Vorschau neu geladen haben, sehen Sie eine Aktualisierung der Textüberlagerungsschrift, wie in der Abbildung unten dargestellt.
+1. Nachdem Sie die Änderungen gespeichert und die Vorschau neu geladen haben, wird eine Aktualisierung der Überlagerungsschriftart angezeigt, wie in der Abbildung unten dargestellt.
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand9.png)
 
-1. Darüber hinaus können Sie die letzten beiden Codeblöcke aus der Datei &quot;static.css&quot;entfernen, um die Boxed-Formatierung um die Textüberlagerung zu entfernen.
+1. Darüber hinaus können Sie die letzten beiden Codeblöcke aus der Datei &quot; *static.css* &quot;entfernen, um den Boxed-Stil um die Textüberlagerung zu entfernen.
    ![image](/help/user-guide/assets/custom-brand/custom-brand10.png)
 
-1. Sie werden die aktualisierte Änderung in Ihrer Vorschau, in der die Textüberlagerung zum Bild hinzugefügt wird, wie unten dargestellt, Ansicht.
+1. Sie werden die aktualisierte Änderung in Ihrer Vorschau, in der die Textüberlagerung zum Bild hinzugefügt wird, Ansicht.
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand11.png)
 
-Entsprechend den Schritten in den vorherigen Abschnitten können Sie Ihre Marke und Ihren benutzerdefinierten Stil für Textüberlagerungen aktualisieren, die zu Ihren Assets hinzugefügt wurden.
+In Bezug auf das Tutorial können Sie jetzt Ihre Marke und Ihren benutzerdefinierten Stil für Textüberlagerungen aktualisieren, die zu Ihren Assets hinzugefügt wurden.
 
 
 
