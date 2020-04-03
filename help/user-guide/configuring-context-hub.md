@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 65a94a5301e4f15979d198f90a2ffc75c8e34a8a
+source-git-commit: 1c251320ec5c514c559f6e506028b0ad6f9bf68b
 
 ---
 
@@ -42,12 +42,11 @@ Das folgende Diagramm zeigt visuell, wie ContextHub-Konfigurationen mit Aktivit�
 
 Bevor Sie mit der Konfiguration von Context-Hub-Konfigurationen für ein AEM Screens-Projekt beginnen, müssen Sie Google Tabellen (für Demonstrationszwecke) einrichten.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Google Tabellen wird im folgenden Beispiel als Beispieldatenbanksystem verwendet, von dem die Werte abgerufen werden und das ausschließlich zu Fortbildungszwecken dient. Adobe unterstützt die Verwendung von Google Tabellen in Produktionsumgebungen nicht.
 >
 >Weitere Informationen finden Sie in der Google-Dokumentation unter [Abrufen eines API-Schlüssels](https://developers.google.com/maps/documentation/javascript/get-api-key).
-
 
 ## Schritt 1: Einrichten eines Datenspeichers {#step-setting-up-a-data-store}
 
@@ -68,7 +67,7 @@ Die folgende Überprüfung wird beim Prüfen der Verbindung durch Eingabe der be
 >[!NOTE]
 > Im folgenden Beispiel werden die Google-Blätter als Datenspeicher dargestellt, der eine Asset-Änderung auslöst, wenn der Wert größer als 100 oder kleiner als 50 ist.
 
-## Schritt 2: Verbinden der Google-Blätter mit der AEM-Instanz {#step-connecting-aem-instance}
+## Schritt 2: Einrichten von Store-Konfigurationen {#step-setting-store-configurations}
 
 1. **Navigieren zu ContextHub**
 
@@ -123,7 +122,19 @@ Ersetzen Sie den Code durch Ihre *&lt;Tabellenblatt-ID>* und Ihren *&lt;API-Schl
 
       >[!CAUTION]
       Wenn Sie Google Sheets Store-Konfigurationen außerhalb des globalen Ordners erstellen (z. B. in Ihrem eigenen Projektordner), funktioniert das Targeting nicht standardmäßig.
-   >In case, you want to configure the Google Sheets store configurations outside the global folder, then you should must set the **Store Name** as **segmentation** and **Store Type** as **aem.segmentation**. Außerdem müssen Sie den Prozess der Definition des json wie oben definiert überspringen.
+
+1. **Einrichten der Store-Segmentierung**
+
+   1. Navigieren Sie zur **ContentHub Store-Konfiguration.** und erstellen Sie eine weitere Store-Konfiguration im Container für die Bildschirmkonfiguration und legen Sie den **Titel** als **segmentation-contexthub**, **Store-Name** als **Segmentierung** und **Store-Typ** **** alsaem.segmentationfest.
+
+      ![image](/help/user-guide/assets/context-hub/context-hub7.png)
+
+   1. Click **Next** and then **Save**.
+
+      >[!NOTE]
+Sie müssen den Prozess der Definition des JSON überspringen und es leer lassen.
+
+## Schritt 3: Einrichten von Marke und Bereich {#setting-brand-area}
 
 1. **Erstellen einer Marke in „Aktivitäten“**
 
@@ -133,14 +144,15 @@ Ersetzen Sie den Code durch Ihre *&lt;Tabellenblatt-ID>* und Ihren *&lt;API-Schl
 
    1. Wählen Sie im Assistenten **Seite erstellen** die Option **Marke** aus und klicken Sie auf **Weiter**.
 
-   1. Geben Sie unter **Titel** den Wert **ContextHubDemo** ein und klicken Sie auf **Erstellen**. Ihre Marke wird jetzt wie unten dargestellt erstellt.
-   ![screen_shot_2019-05-05at44305pm](assets/screen_shot_2019-05-05at44305pm.png)
+   1. Enter the **Title** as **ScreensBrand** and click **Create**. Ihre Marke wird jetzt wie unten dargestellt erstellt.
+
+      ![image](/help/user-guide/assets/context-hub/context-hub8.png)
 
 
-   >[!CAUTION]
-   Bekanntes Problem:
-   Um einen Bereich hinzuzufügen, entfernen Sie den Master aus der URL, z. B.
-   `https://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/contexthubdemo/master`
+      >[!CAUTION]
+      Bekanntes Problem:
+Um einen Bereich hinzuzufügen, entfernen Sie die Master aus der URL, z. B.
+      `https://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/contexthubdemo/master`
 
 1. **Erstellen eines Bereichs in Ihrer Marke**
 
@@ -153,7 +165,7 @@ Ersetzen Sie den Code durch Ihre *&lt;Tabellenblatt-ID>* und Ihren *&lt;API-Schl
    1. Geben Sie unter **Titel** den Wert **GoogleTabellen** ein und klicken Sie auf **Erstellen**.
 Ihr Bereich wird in Ihrer Aktivität erstellt.
 
-## Schritt 2: Einrichten der Zielgruppensegmentierung {#step-setting-up-audience-segmentation}
+## Schritt 4: Einrichten der Zielgruppensegmentierung {#step-setting-up-audience-segmentation}
 
 Nachdem Sie einen Datenspeicher eingerichtet und Ihre Marke definiert haben, führen Sie die folgenden Schritte aus, um Zielgruppensegmente einzurichten.
 
@@ -194,7 +206,7 @@ Nachdem Sie einen Datenspeicher eingerichtet und Ihre Marke definiert haben, fü
 
 
 
-## Schritt 3: Aktivieren von Targeting in Kanälen {#step-enabling-targeting-in-channels}
+## Enabling Targeting in Channels {#step-enabling-targeting-in-channels}
 
 Gehen Sie wie folgt vor, um Targeting in Ihren Kanälen zu aktivieren.
 
