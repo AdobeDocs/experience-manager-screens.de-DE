@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 1c251320ec5c514c559f6e506028b0ad6f9bf68b
+source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
 
 ---
 
@@ -134,40 +134,10 @@ Ersetzen Sie den Code durch Ihre *&lt;Tabellenblatt-ID>* und Ihren *&lt;API-Schl
       >[!NOTE]
 Sie müssen den Prozess der Definition des JSON überspringen und es leer lassen.
 
-## Schritt 3: Einrichten von Marke und Bereich {#setting-brand-area}
 
-1. **Erstellen einer Marke in „Aktivitäten“**
+## Step 3: Setting Up Audience {#setting-up-audience}
 
-   1. Navigieren Sie von Ihrer AEM-Instanz aus zu **Personalisierung** > **Aktivitäten**
-
-   1. Klicken Sie auf **Erstellen** > **Marke erstellen**
-
-   1. Wählen Sie im Assistenten **Seite erstellen** die Option **Marke** aus und klicken Sie auf **Weiter**.
-
-   1. Enter the **Title** as **ScreensBrand** and click **Create**. Ihre Marke wird jetzt wie unten dargestellt erstellt.
-
-      ![image](/help/user-guide/assets/context-hub/context-hub8.png)
-
-
-      >[!CAUTION]
-      Bekanntes Problem:
-Um einen Bereich hinzuzufügen, entfernen Sie die Master aus der URL, z. B.
-      `https://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/contexthubdemo/master`
-
-1. **Erstellen eines Bereichs in Ihrer Marke**
-
-   Gehen Sie wie folgt vor, um einen Bereich in der Marke zu erstellen:
-
-   1. Klicken Sie auf **Erstellen** und dann auf **Bereich erstellen**.
-
-   1. Wählen Sie im Assistenten **Seite erstellen** die Option **Bereich** aus und klicken Sie auf „Weiter“.
-
-   1. Geben Sie unter **Titel** den Wert **GoogleTabellen** ein und klicken Sie auf **Erstellen**.
-Ihr Bereich wird in Ihrer Aktivität erstellt.
-
-## Schritt 4: Einrichten der Zielgruppensegmentierung {#step-setting-up-audience-segmentation}
-
-Nachdem Sie einen Datenspeicher eingerichtet und Ihre Marke definiert haben, führen Sie die folgenden Schritte aus, um Zielgruppensegmente einzurichten.
+Ausstehend: zum Hinzufügen von Eigenschaften
 
 1. **Erstellen von Segmenten in Zielgruppen**
 
@@ -175,17 +145,38 @@ Nachdem Sie einen Datenspeicher eingerichtet und Ihre Marke definiert haben, fü
 
    1. Klicken Sie auf **Erstellen** > **ContextHub-Segment erstellen.** Das Dialogfeld **Neues ContextHub-Segment** wird geöffnet.
 
-   1. Geben Sie unter **Titel** den Wert **TabellenblattA1 1** ein und klicken Sie auf **Erstellen**. Erstellen Sie auf ähnliche Weise ein weiteres Segment mit der Bezeichnung **TabellenblattA2 2**.
+   1. Enter the **Title** as **TargetValue1** and click **Create**. Similarly, create another segment titled as **TargetValue2**.
+
+      ![image](/help/user-guide/assets/context-hub/context-hub10.png)
+
+
+
+## Schritt 4: Einrichten der Zielgruppensegmentierung {#step-setting-up-audience-segmentation}
+
+Bearbeitung ausstehend
+
+Nachdem Sie einen Datenspeicher eingerichtet und Ihre Aktivität (Marke und Bereich) definiert haben, führen Sie die folgenden Schritte aus, um Audiencen einzurichten:
+
+1. **Erstellen von Segmenten in Zielgruppen**
+
+   1. Navigate from your AEM instance to **Personalization** > **Audiences** > **screens**.
+
+   1. Klicken Sie auf **Erstellen** > **ContextHub-Segment erstellen.** Das Dialogfeld **Neues ContextHub-Segment** wird geöffnet.
+
+   1. Enter the **Title** as **TargetValue1** and click **Create**. Similarly, create another segment titled as **TargetValue2**.
+
+      ![image](/help/user-guide/assets/context-hub/context-hub10.png)
+
 
 1. **Bearbeiten der Segmente**
 
-   1. Select the segment **Sheets A1 1**, and click **Edit** from the action bar.
+   1. Select the segment **TargetValue1**, and click **Edit** from the action bar.
 
    1. Ziehen Sie die Komponente **Vergleich: Eigenschaft - Wert** in den Editor.
    1. Klicken Sie auf das Schraubenschlüsselsymbol, um das Dialogfeld **Vergleich von Eigenschaft und Wert** zu öffnen.
    1. Wählen Sie **googlesheets/value/1/0** aus der Dropdown-Liste in **Eigenschaftsname** aus.
 
-   1. Wählen Sie unter **Operator** den Wert **Gleich** aus dem Dropdown-Menü aus.
+   1. Wählen Sie unter **Operator** den Wert **gleich** aus dem Dropdown-Menü aus.
 
    1. Geben Sie den **Wert** als **1** ein.
    >[!NOTE]
@@ -193,7 +184,7 @@ Nachdem Sie einen Datenspeicher eingerichtet und Ihre Marke definiert haben, fü
 
    ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
 
-   Bearbeiten Sie die Eigenschaftswerte entsprechend in **Tabellen A1 2**.
+   Similarly, edit the property values to **TargetValue2**.
 
    1. Ziehen Sie die Komponente **Vergleich: Eigenschaft - Wert** in den Editor.
    1. Klicken Sie auf das Schraubenschlüsselsymbol, um das Dialogfeld **Vergleich von Eigenschaft und Wert** zu öffnen.
@@ -205,6 +196,56 @@ Nachdem Sie einen Datenspeicher eingerichtet und Ihre Marke definiert haben, fü
 
 
 
+## Schritt 5: Einrichten von Marke und Bereich {#setting-brand-area}
+
+Gehen Sie wie folgt vor, um eine Marke in Ihren Aktivitäten und Bereichen unter der Marke zu erstellen:
+
+1. **Erstellen einer Marke in „Aktivitäten“**
+
+   1. Navigieren Sie von Ihrer AEM-Instanz aus zu **Personalisierung** > **Aktivitäten**.
+
+   1. Klicken Sie auf **Erstellen** > **Marke erstellen**.
+
+   1. Select **Brand** from the **Create Page** wizard and click **Next**.
+
+   1. Enter the **Title** as **ScreensBrand** and click **Create**. Ihre Marke wird jetzt wie unten dargestellt erstellt.
+
+      ![image](/help/user-guide/assets/context-hub/context-hub8.png)
+
+
+      >[!CAUTION]
+      Bekanntes Problem:
+Um einen Bereich hinzuzufügen, entfernen Sie die Master aus der URL, z. B.
+      `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`.
+
+1. **Erstellen eines Bereichs in Ihrer Marke**
+
+   Gehen Sie wie folgt vor, um einen Bereich in der Marke zu erstellen:
+
+   1. Klicken Sie auf **Erstellen** und dann auf **Bereich erstellen**..
+
+      ![image](/help/user-guide/assets/context-hub/context-hub9.png)
+
+   1. Select **Area** from the **Create Page** wizard and click **Next**.
+
+   1. Enter the **Title** as **ScreensValue** and click **Create**.
+Ein Bereich wird in Ihrer Marke erstellt.
+
+## Schritt 6: Einrichten der Aktivität {#step-setting-up-activity}
+
+Gehen Sie wie folgt vor, um einen Bereich in der Marke zu erstellen:
+
+1. Navigieren Sie zu **ScreensValue** (im vorherigen Schritt erstellt) und klicken Sie auf **Erstellen** > Aktivität **erstellen**.
+
+1. Der Assistent zum **Konfigurieren der Aktivität** wird geöffnet. Geben Sie den **Titel** als **targetValueCheck** und **Name** als **targetValueCheck** ein. Wählen Sie die **Targeting-Engine** als **ContextHub (AEM)** aus der Dropdownliste und klicken Sie auf **Weiter**.
+
+1. Klicken Sie **Hinzufügen Erlebnis** im Assistenten zur **Konfiguration der Aktivität**.
+
+1. Wählen Sie in den **Audiencen****TargetValue1** aus und klicken Sie auf **Hinzufügen Erlebnis** und geben Sie den **Titel** als **valueCheck** Nameals ValueCheckCheckein **** ****.
+
+1. Gleichermaßen wählen Sie in den **Audiencen** den Wert **TargetValue2** und klicken Sie auf **Hinzufügen Erlebnis** und geben Sie den **Titel** als **valueCheck** **** **** NameValueCheck2 alsValueCheck2ein.
+
+1. Click **Next** and then **Save**.
 
 ## Enabling Targeting in Channels {#step-enabling-targeting-in-channels}
 
