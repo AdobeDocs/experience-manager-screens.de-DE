@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
+source-git-commit: 7481e63a96d07b4e6ff33bf9d6f15e5e6c7bead6
 
 ---
 
@@ -135,9 +135,7 @@ Ersetzen Sie den Code durch Ihre *&lt;Tabellenblatt-ID>* und Ihren *&lt;API-Schl
 Sie müssen den Prozess der Definition des JSON überspringen und es leer lassen.
 
 
-## Step 3: Setting Up Audience {#setting-up-audience}
-
-Ausstehend: zum Hinzufügen von Eigenschaften
+## Schritt 3: Einrichten von Segmenten in der Audience {#setting-up-audience}
 
 1. **Erstellen von Segmenten in Zielgruppen**
 
@@ -145,58 +143,20 @@ Ausstehend: zum Hinzufügen von Eigenschaften
 
    1. Klicken Sie auf **Erstellen** > **ContextHub-Segment erstellen.** Das Dialogfeld **Neues ContextHub-Segment** wird geöffnet.
 
-   1. Enter the **Title** as **TargetValue1** and click **Create**. Similarly, create another segment titled as **TargetValue2**.
+   1. Enter the **Title** as **Higherthan50** and click **Create**. Similarly, create another segment titled as **Lowerthan50**.
 
-      ![image](/help/user-guide/assets/context-hub/context-hub10.png)
+      ![image](/help/user-guide/assets/context-hub/context-hub11.png)
 
+   1. Select the segment **Higherthan50** and click **Properties** from the action bar.
+      ![image](/help/user-guide/assets/context-hub/context-hub12.png)
 
+   1. Wählen Sie die Registerkarte **Personalisierung** aus den **Segmenteigenschaften**. Stellen Sie den **ContextHub-Pfad** auf `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub` und den **Segmentpfad** auf ein `/conf/screens/settings/wcm/segments` und klicken Sie auf **Speichern**, wie in der folgenden Abbildung dargestellt.
 
-## Schritt 4: Einrichten der Zielgruppensegmentierung {#step-setting-up-audience-segmentation}
+      ![image](/help/user-guide/assets/context-hub/context-hub13.png)
 
-Bearbeitung ausstehend
+   1. Stellen Sie auf ähnliche Weise auch das Segment **ContextHub Path** und den **Segmentpfad** für **Weniger als 50** ein.
 
-Nachdem Sie einen Datenspeicher eingerichtet und Ihre Aktivität (Marke und Bereich) definiert haben, führen Sie die folgenden Schritte aus, um Audiencen einzurichten:
-
-1. **Erstellen von Segmenten in Zielgruppen**
-
-   1. Navigate from your AEM instance to **Personalization** > **Audiences** > **screens**.
-
-   1. Klicken Sie auf **Erstellen** > **ContextHub-Segment erstellen.** Das Dialogfeld **Neues ContextHub-Segment** wird geöffnet.
-
-   1. Enter the **Title** as **TargetValue1** and click **Create**. Similarly, create another segment titled as **TargetValue2**.
-
-      ![image](/help/user-guide/assets/context-hub/context-hub10.png)
-
-
-1. **Bearbeiten der Segmente**
-
-   1. Select the segment **TargetValue1**, and click **Edit** from the action bar.
-
-   1. Ziehen Sie die Komponente **Vergleich: Eigenschaft - Wert** in den Editor.
-   1. Klicken Sie auf das Schraubenschlüsselsymbol, um das Dialogfeld **Vergleich von Eigenschaft und Wert** zu öffnen.
-   1. Wählen Sie **googlesheets/value/1/0** aus der Dropdown-Liste in **Eigenschaftsname** aus.
-
-   1. Wählen Sie unter **Operator** den Wert **gleich** aus dem Dropdown-Menü aus.
-
-   1. Geben Sie den **Wert** als **1** ein.
-   >[!NOTE]
-   AEM validiert Ihre Daten aus dem Google-Tabellenblatt, indem Ihr Segment grün anzeigt wird.
-
-   ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
-
-   Similarly, edit the property values to **TargetValue2**.
-
-   1. Ziehen Sie die Komponente **Vergleich: Eigenschaft - Wert** in den Editor.
-   1. Klicken Sie auf das Schraubenschlüsselsymbol, um das Dialogfeld **Vergleich von Eigenschaft und Wert** zu öffnen.
-   1. Wählen Sie **googlesheets/value/1/0** aus der Dropdown-Liste in **Eigenschaftsname** aus.
-
-   1. Wählen Sie unter **Operator** den Wert **Gleich** aus dem Dropdown-Menü aus.
-
-   1. Geben Sie den **Wert** als **2** ein.
-
-
-
-## Schritt 5: Einrichten von Marke und Bereich {#setting-brand-area}
+## Schritt 4: Einrichten von Marke und Bereich {#setting-brand-area}
 
 Gehen Sie wie folgt vor, um eine Marke in Ihren Aktivitäten und Bereichen unter der Marke zu erstellen:
 
@@ -231,21 +191,64 @@ Um einen Bereich hinzuzufügen, entfernen Sie die Master aus der URL, z. B.
    1. Enter the **Title** as **ScreensValue** and click **Create**.
 Ein Bereich wird in Ihrer Marke erstellt.
 
-## Schritt 6: Einrichten der Aktivität {#step-setting-up-activity}
+## Schritt 5: Erstellen der Segmente in einer Aktivität {#step-setting-up-audience-segmentation}
 
-Gehen Sie wie folgt vor, um einen Bereich in der Marke zu erstellen:
+Nachdem Sie einen Datenspeicher eingerichtet und Ihre Aktivität (Marke und Bereich) definiert haben, führen Sie die folgenden Schritte aus, um Segmente in Ihrer Aktivität zu erstellen.
 
-1. Navigieren Sie zu **ScreensValue** (im vorherigen Schritt erstellt) und klicken Sie auf **Erstellen** > Aktivität **erstellen**.
+1. **Erstellen von Segmenten in Aktivitäten**
 
-1. Der Assistent zum **Konfigurieren der Aktivität** wird geöffnet. Geben Sie den **Titel** als **targetValueCheck** und **Name** als **targetValueCheck** ein. Wählen Sie die **Targeting-Engine** als **ContextHub (AEM)** aus der Dropdownliste und klicken Sie auf **Weiter**.
+   1. Navigate from your AEM instance to **Personalization** > **Activities** > **ScreensBrand** >**ScreensValue**.
 
-1. Klicken Sie **Hinzufügen Erlebnis** im Assistenten zur **Konfiguration der Aktivität**.
+   1. Click **Create** > **Create Activity.** Der Assistent zum **Konfigurieren der Aktivität** wird geöffnet.
 
-1. Wählen Sie in den **Audiencen****TargetValue1** aus und klicken Sie auf **Hinzufügen Erlebnis** und geben Sie den **Titel** als **valueCheck** Nameals ValueCheckCheckein **** ****.
+   1. Geben Sie den **Titel** als **ValueCheck50** und **Name** als **valueCheck50** ein. Wählen Sie die **Targeting-Engine** als **ContextHub (AEM)** aus der Dropdownliste und klicken Sie auf **Weiter**.
 
-1. Gleichermaßen wählen Sie in den **Audiencen** den Wert **TargetValue2** und klicken Sie auf **Hinzufügen Erlebnis** und geben Sie den **Titel** als **valueCheck** **** **** NameValueCheck2 alsValueCheck2ein.
+      ![image](/help/user-guide/assets/context-hub/context-hub14.png)
 
-1. Click **Next** and then **Save**.
+   1. Klicken Sie **Hinzufügen Erlebnis** im Assistenten zur **Konfiguration der Aktivität**.
+
+   1. Wählen Sie in den **Audiencen** das **Higherthan50** aus und klicken Sie auf **Hinzufügen Erlebnis** und geben Sie den **Titel** als **höher als50** Name50 **** **** alshigherthan50 ein. Klicken Sie auf **OK**.
+
+   1. Wählen Sie in den **Audiencen** den Wert **Weniger als 50** und klicken Sie auf **Hinzufügen Erlebnis** und geben Sie den **Titel** als **50** Nameals50 **ein50** ****. Klicken Sie auf **OK**.
+
+      ![image](/help/user-guide/assets/context-hub/context-hub15.png)
+
+   1. Click **Next** and then **Save**. **Die ValueCheck50** -Aktivität wird jetzt erstellt und konfiguriert.
+
+      ![image](/help/user-guide/assets/context-hub/context-hub16.png)
+
+## Schritt 5: Bearbeiten der Segmente {#editing-audience-segmentation}
+
+1. **Bearbeiten der Segmente**
+
+   1. 
+      1. Navigieren Sie von Ihrer AEM-Instanz zu **Personalisierung** > **Aktivitäten** > **ScreensBrand** >**ScreensValue** >**ValueCheck50**.
+   1. Select the segment **ValueCheck50**, and click **Edit** from the action bar.
+
+   1. Ziehen Sie die Komponente **Vergleich: Eigenschaft - Wert** in den Editor.
+   1. Klicken Sie auf das Schraubenschlüsselsymbol, um das Dialogfeld **Vergleich von Eigenschaft und Wert** zu öffnen.
+   1. Wählen Sie **googlesheets/value/1/0** aus der Dropdown-Liste in **Eigenschaftsname** aus.
+
+   1. Wählen Sie unter **Operator** den Wert **gleich** aus dem Dropdown-Menü aus.
+
+   1. Geben Sie den **Wert** als **1** ein.
+   >[!NOTE]
+   AEM validiert Ihre Daten aus dem Google-Tabellenblatt, indem Ihr Segment grün anzeigt wird.
+
+   ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
+
+   Similarly, edit the property values to **TargetValue2**.
+
+   1. Ziehen Sie die Komponente **Vergleich: Eigenschaft - Wert** in den Editor.
+   1. Klicken Sie auf das Schraubenschlüsselsymbol, um das Dialogfeld **Vergleich von Eigenschaft und Wert** zu öffnen.
+   1. Wählen Sie **googlesheets/value/1/0** aus der Dropdown-Liste in **Eigenschaftsname** aus.
+
+   1. Wählen Sie unter **Operator** den Wert **Gleich** aus dem Dropdown-Menü aus.
+
+   1. Geben Sie den **Wert** als **2** ein.
+
+
+
 
 ## Enabling Targeting in Channels {#step-enabling-targeting-in-channels}
 
