@@ -5,7 +5,7 @@ description: Auf dieser Seite erfahren Sie, wie Sie benutzerdefinierte Branding-
 seo-description: Auf dieser Seite erfahren Sie, wie Sie benutzerdefinierte Branding- und Stile für Textüberlagerungen anwenden.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 835e801909d8d126042acd713fc68075ff598712
+source-git-commit: fdbe57b2cd927c112e9faa4888e3565626712c7a
 
 ---
 
@@ -18,7 +18,7 @@ Auf dieser Seite erfahren Sie, wie Sie benutzerdefinierte Branding- und Stile f�
 
 Gehen Sie wie folgt vor, um benutzerdefinierte Branding- und Stile für Textüberlagerungen zu erstellen:
 
-1. Erstellen Sie ein AEM Screens-Projekt mit dem Titel **customstyle** und einen Kanal mit dem Titel **DemoBrand**, wie in der folgenden Abbildung dargestellt.
+1. Erstellen Sie ein AEM Screens-Projekt. In diesem Beispiel wird die Funktionalität dargestellt, indem ein Projekt mit dem Namen **customstyle** und ein Kanal mit dem Namen **DemoBrand** erstellt werden (siehe Abbildung unten).
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand1.png)
 
@@ -38,16 +38,26 @@ Gehen Sie wie folgt vor, um benutzerdefinierte Branding- und Stile für Textübe
 1. Navigieren Sie zur Datei &quot; *static.css* &quot;und legen Sie die folgenden CSS-Regeln fest. Auch in der Abbildung unter den CSS-Regeln als Beispiel dargestellt.
 
    ```shell
-    //global styles
-    .cq-Screens-textOverlay
-    { … }
-    //authoring overrides
-    .aem-AuthorLayer-Edit .cq-Screens-textOverlay { … }
-    // light text variant
-    .cq-Screens-textOverlay-color--light
-    { … }
-     // dark text variant
-    .cq-Screens-textOverlay-color--dark { … }
+     //global styles
+     cq-Screens-textOverlay {
+     padding: 1em;
+     font-size: 3rem;
+     line-height: 1em;
+      }
+     //authoring overrides
+    .aem-AuthorLayer-Edit .cq-Screens-textOverlay {
+     display: none;
+     padding: 0;
+     font-size: 1rem;
+     }
+      // light text variant
+     .cq-Screens-textOverlay-color--light {
+      background-color: rgba(0, 0, 0, .6);
+      }
+      // dark text variant
+      .cq-Screens-textOverlay-color--dark {
+       background-color: rgba(255, 255, 255, .6);
+     }
    ```
    ![image](/help/user-guide/assets/custom-brand/custom-brand4.png)
 
@@ -67,6 +77,13 @@ Gehen Sie wie folgt vor, um benutzerdefinierte Branding- und Stile für Textübe
 
 1. Klicken Sie auf **Speichern &amp; Schließen** , um den Entwurfspfad zu aktualisieren.
 
+### ACLs aktualisieren {#updating-acls}
+
+Sie müssen die ACLs für diese Entwürfe aktualisieren, damit sie vom Player heruntergeladen werden können.
+
+1. Navigieren Sie zu &quot;useradmin&quot;, wählen Sie das Element aus `screens-<project>-devices group` und geben Sie ihm Leseberechtigung für den benutzerdefinierten Designpfad.
+
+1. Stellen Sie `screens-<project>-administrators` Gruppen Leseberechtigung bereit und ändern Sie die Berechtigungen für diesen Pfad.
 
 ## Anzeigen des Ergebnisses {#viewing-the-result}
 
