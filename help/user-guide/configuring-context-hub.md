@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 7481e63a96d07b4e6ff33bf9d6f15e5e6c7bead6
+source-git-commit: 593107de8775ffa1f87173c4e9e7be5c3ccb0b90
 
 ---
 
@@ -217,36 +217,39 @@ Nachdem Sie einen Datenspeicher eingerichtet und Ihre Aktivität (Marke und Bere
 
       ![image](/help/user-guide/assets/context-hub/context-hub16.png)
 
-## Schritt 5: Bearbeiten der Segmente {#editing-audience-segmentation}
+## Schritt 5: Bearbeiten der Segmente in Audiencen{#editing-audience-segmentation}
 
 1. **Bearbeiten der Segmente**
 
-   1. 
-      1. Navigieren Sie von Ihrer AEM-Instanz zu **Personalisierung** > **Aktivitäten** > **ScreensBrand** >**ScreensValue** >**ValueCheck50**.
-   1. Select the segment **ValueCheck50**, and click **Edit** from the action bar.
+   1. Navigate from your AEM instance to **Personalization** > **Audiences** > **screens**.
+
+   1. Select the segment **Higherthan50**, and click **Edit** from the action bar.
 
    1. Ziehen Sie die Komponente **Vergleich: Eigenschaft - Wert** in den Editor.
+
    1. Klicken Sie auf das Schraubenschlüsselsymbol, um das Dialogfeld **Vergleich von Eigenschaft und Wert** zu öffnen.
+
    1. Wählen Sie **googlesheets/value/1/0** aus der Dropdown-Liste in **Eigenschaftsname** aus.
 
-   1. Wählen Sie unter **Operator** den Wert **gleich** aus dem Dropdown-Menü aus.
+   1. Select the **Operator** as **greater-than** from the drop-down menu.
 
-   1. Geben Sie den **Wert** als **1** ein.
+   1. Geben Sie den **Wert** als **50** ein.
    >[!NOTE]
    AEM validiert Ihre Daten aus dem Google-Tabellenblatt, indem Ihr Segment grün anzeigt wird.
 
    ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
 
-   Similarly, edit the property values to **TargetValue2**.
+   Bearbeiten Sie die Eigenschaftswerte auf **Weniger als 50**.
 
    1. Ziehen Sie die Komponente **Vergleich: Eigenschaft - Wert** in den Editor.
+
    1. Klicken Sie auf das Schraubenschlüsselsymbol, um das Dialogfeld **Vergleich von Eigenschaft und Wert** zu öffnen.
+
    1. Wählen Sie **googlesheets/value/1/0** aus der Dropdown-Liste in **Eigenschaftsname** aus.
 
-   1. Wählen Sie unter **Operator** den Wert **Gleich** aus dem Dropdown-Menü aus.
+   1. Select the **Operator** as **less-than** from the drop-down menu.
 
-   1. Geben Sie den **Wert** als **2** ein.
-
+   1. Geben Sie den **Wert** als **50** ein.
 
 
 
