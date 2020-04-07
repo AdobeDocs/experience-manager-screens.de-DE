@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 593107de8775ffa1f87173c4e9e7be5c3ccb0b90
+source-git-commit: cc8ce7bec28373f4051cb9cf87a216b57c09ddd1
 
 ---
 
@@ -231,13 +231,18 @@ Nachdem Sie einen Datenspeicher eingerichtet und Ihre Aktivität (Marke und Bere
 
    1. Wählen Sie **googlesheets/value/1/0** aus der Dropdown-Liste in **Eigenschaftsname** aus.
 
+      >[!NOTE]
+Die **googlesheets/Wert/1/0** bezieht sich auf die Zeile 2 und die Spalte, wie in den Google-Blättern in der folgenden Abbildung dargestellt:
+
+      ![image](/help/user-guide/assets/context-hub/context-hub17.png)
+
    1. Select the **Operator** as **greater-than** from the drop-down menu.
 
-   1. Geben Sie den **Wert** als **50** ein.
+   1. Geben Sie den **Wert** als **70** ein.
    >[!NOTE]
    AEM validiert Ihre Daten aus dem Google-Tabellenblatt, indem Ihr Segment grün anzeigt wird.
 
-   ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
+   ![image](/help/user-guide/assets/context-hub/context-hub18.png)
 
    Bearbeiten Sie die Eigenschaftswerte auf **Weniger als 50**.
 
