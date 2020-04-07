@@ -5,7 +5,7 @@ description: Auf dieser Seite erfahren Sie, wie Sie benutzerdefinierte Branding-
 seo-description: Auf dieser Seite erfahren Sie, wie Sie benutzerdefinierte Branding- und Stile für Textüberlagerungen anwenden.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: fdbe57b2cd927c112e9faa4888e3565626712c7a
+source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
 
 ---
 
@@ -35,7 +35,7 @@ Gehen Sie wie folgt vor, um benutzerdefinierte Branding- und Stile für Textübe
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand3.png)
 
-1. Navigieren Sie zur Datei &quot; *static.css* &quot;und legen Sie die folgenden CSS-Regeln fest. Auch in der Abbildung unter den CSS-Regeln als Beispiel dargestellt.
+1. Erstellen Sie die Datei &quot; *static.css* &quot;und legen Sie die folgenden CSS-Regeln fest. Auch in der Abbildung unter den CSS-Regeln als Beispiel dargestellt.
 
    ```shell
      //global styles
@@ -76,6 +76,19 @@ Gehen Sie wie folgt vor, um benutzerdefinierte Branding- und Stile für Textübe
    ![image](/help/user-guide/assets/custom-brand/custom-brand6.png)
 
 1. Klicken Sie auf **Speichern &amp; Schließen** , um den Entwurfspfad zu aktualisieren.
+
+>[!IMPORTANT]
+> Sie haben die Möglichkeit, die vorhandenen Bildschirmvorlagen zu überlagern, um Ihre eigenen Entwürfe standardmäßig einzufügen oder eine eigene Vorlage zu erstellen. Weitere Informationen finden Sie in den unten stehenden Schritten.
+
+1. So überlagern Sie die vorhandenen Bildschirmvorlagen, um Ihre eigenen Designs standardmäßig einzufügen:
+
+   1. Überlagerung `/libs/screens/core/templates/sequencechannel` in `/apps/screens/core/templates/sequencechannel`.
+   1. Ändern Sie die *Eigenschaft &quot;cq:designPath* &quot;in `/apps/screens/core/templates/sequencechannel/jcr:content` den Verweis auf den neuen Entwurf.
+
+1. So erstellen Sie eine eigene Vorlage:
+   1. Kopieren `/libs/screens/core/templates/sequencechannel` nach `/apps/customstyle/templates/styled-sequencechannel`.
+   1. Ändern Sie die *Eigenschaft &quot;cq:designPath* &quot;in `/apps/customstyle/templates/styled-sequencechannel/jcr:content` den Verweis auf den neuen Entwurf.
+
 
 ### ACLs aktualisieren {#updating-acls}
 
