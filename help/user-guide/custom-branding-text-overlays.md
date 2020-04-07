@@ -5,7 +5,7 @@ description: Auf dieser Seite erfahren Sie, wie Sie benutzerdefinierte Branding-
 seo-description: Auf dieser Seite erfahren Sie, wie Sie benutzerdefinierte Branding- und Stile für Textüberlagerungen anwenden.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
+source-git-commit: a475e373b0717b69610cb78907542f1da9ad8992
 
 ---
 
