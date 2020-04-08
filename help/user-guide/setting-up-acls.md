@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 64e4d6ae-3fd3-41ec-84e1-cc2cac7b2519
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: 8356d5eb9449fd31d293c030620588e47fa6513e
 
 ---
 
@@ -19,13 +19,13 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 Im folgenden Abschnitt wird erläutert, wie Sie Projekte mithilfe von ACLs separieren können, sodass jede Person bzw. jedes Team ein eigenes Projekt erhält.
 
-Als AEM-Administrator möchten Sie sicherstellen, dass für ein bestimmtes Projekt zuständige Teammitglieder nicht in andere Projekte eingreifen und dass den Benutzern je nach den Projektanforderungen spezifische Rollen zugewiesen werden.
+Als AEM-Administrator möchten Sie sicherstellen, dass die Teammitglieder eines Projekts sich nicht in andere Projekte einmischen und jedem Benutzer gemäß den Projektanforderungen spezifische Rollen zugewiesen werden.
 
 ## Einrichten von Berechtigungen    {#setting-up-permissions}
 
 Die folgenden Schritte fassen die Vorgehensweise zum Einrichten von ACLs für ein Projekt zusammen:
 
-1. Melden Sie sich bei AEM an und navigieren Sie zu **Tools** &gt; **Sicherheit**.
+1. Melden Sie sich bei AEM an und navigieren Sie zu **Tools** > **Sicherheit**.
 
    ![screen_shot_2018-02-16at10156pm](assets/screen_shot_2018-02-16at10156pm.png)
 
@@ -131,7 +131,7 @@ Die folgende Tabelle fasst bei einem AEM Screens-Projekt die Gruppen mit Beschre
     </ul> </td>
   </tr>
   <tr>
-   <td>Screens Player<br /> <em>screens-we-retail-devices</em></td>
+   <td>Bildschirme<br /> für Player- <em>Bildschirme-&lt;Projekt&gt;-Geräte</em></td>
    <td>Gruppiert alle Player und alle Player/Geräte sind automatisch Mitglied von „contributors“</td>
    <td><p> Mitglied von „contributors“</p> </td>
   </tr>
