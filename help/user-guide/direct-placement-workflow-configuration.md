@@ -1,41 +1,41 @@
 ---
-title: 'Konfiguration des Arbeitsablaufs für direkte Platzierung '
-seo-title: Konfiguration des Arbeitsablaufs für direkte Platzierung
-description: Diese Seite hebt die Konfiguration des Arbeitsablaufs für direkte Platzierung hervor.
-seo-description: Diese Seite hebt die Konfiguration des Arbeitsablaufs für direkte Platzierung hervor.
-translation-type: tm+mt
+title: 'Konfigurieren des Workflows für die direkte Platzierung '
+seo-title: Konfigurieren des Workflows für die direkte Platzierung
+description: Auf dieser Seite wird die Konfiguration des Workflows für die direkte Platzierung beschrieben.
+seo-description: Auf dieser Seite wird die Konfiguration des Workflows für die direkte Platzierung beschrieben.
+translation-type: ht
 source-git-commit: 19baf90409eab4c72fb38e992c272338b0098d89
 
 ---
 
 
-# Konfiguration des Arbeitsablaufs für direkte Platzierung {#direct-placement-workflow}
+# Konfigurieren des Workflows für die direkte Platzierung {#direct-placement-workflow}
 
 Auf dieser Seite erfahren Sie, wie Sie einen Asset-Workflow konfigurieren, mit dem Sie ein Asset programmgesteuert in einen vordefinierten AEM Screens-Kanal einfügen können.
 
 In diesem Abschnitt werden folgende Themen behandelt:
 
 * Überblick
-* Konfigurieren des Arbeitsablaufs für die direkte Platzierung
+* Konfigurieren des Workflows für die direkte Platzierung
 
 ## Überblick {#overview}
 
-Die Konfiguration des Arbeitsablaufs für direkte Platzierung ordnet einen AEM Screens-Kanal einem bestimmten Ordner in Assets zu und ermöglicht die Platzierung von Assets in diesem Ordner. Es wird empfohlen, eine Offline-Massenaktualisierung auszulösen, um die Veröffentlichung abzuschließen.
+Die Konfiguration des Workflows für die direkte Platzierung ordnet einen Kanal in einem AEM Screens-Projekt einem bestimmten Ordner in Assets zu und ermöglicht die Platzierung von Assets in diesem Ordner. Es wird empfohlen, ein Massen-Offline-Update auszulösen, um die Veröffentlichung durchzuführen.
 
-Als Inhaltsersteller können Sie auch manuell auf Offline-Inhalte **aktualisieren** klicken.
+Alternativ kann der Inhaltsautor manuell auf **Offline-Inhalt aktualisieren** klicken.
 
 >[!NOTE]
-> Informationen zur Verwendung von Massen-Offline-Aktualisierungen finden Sie unter [Content Update As a Service](/help/user-guide/content-update-as-a-service.md).
+> Informationen zur Verwendung von Massen-Offline-Updates finden Sie unter [Inhaltsaktualisierung als Dienst](/help/user-guide/content-update-as-a-service.md).
 
-## Konfigurieren des Arbeitsablaufs für die direkte Platzierung {#configuring-workflow}
+## Konfigurieren des Workflows für die direkte Platzierung {#configuring-workflow}
 
 >[!IMPORTANT]
-> Vor dem Beginn der Konfiguration müssen Sie das [Demopaket](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip)installieren. Nachdem Sie das Paket installiert haben, sollten Sie in der Lage sein, über Ihre AEM-Instanz auf das Paket zuzugreifen —> Tools (Symbol) —> **Workflow** —> **Workflow-Modelle**.
+> Installieren Sie das [Demopaket](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip), bevor Sie mit der Konfiguration beginnen. Nachdem Sie das Paket installiert haben, sollten Sie es über Ihre AEM-Instanz > „Tools“ (Symbol) > **Workflow** > **Workflow-Modelle** anzeigen und darauf zugreifen können.
 
-Gehen Sie wie folgt vor, um den Arbeitsablauf für die direkte Platzierung zu konfigurieren:
+So konfigurieren Sie den Workflow für die direkte Platzierung:
 
-1. Navigieren Sie von Ihrer AEM-Instanz zu AEM Screens und erstellen Sie ein Screens-Projekt mit dem Titel **Asset Workflow**.
+1. Navigieren Sie von Ihrer AEM-Instanz aus zu AEM Screens und erstellen Sie ein Screens-Projekt mit dem Titel **Asset Workflow**.
 
-1. Create a channel titled as **Workflow-Assets** under **Channels** folder.
+1. Erstellen Sie im Ordner **Kanäle** einen Kanal mit dem Titel **Workflow-Assets**.
 
 1. 
