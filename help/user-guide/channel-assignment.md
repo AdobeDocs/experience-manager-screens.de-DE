@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e7c4ec77265c1b6927a19e0d9d39770b64db0fb
 
 ---
@@ -44,7 +44,7 @@ Gehen Sie wie folgt vor, um einer Anzeige einen Kanal zuzuweisen:
 
    ![screen_shot_2018-08-23at25359pm](assets/screen_shot_2018-08-23at25359pm.png)
 
-1. Tap/click **Assign Channel** in the action bar
+1. Tippen/klicken Sie in der Aktionsleiste auf **Kanal zuweisen**.
 
    Oder
 
@@ -88,15 +88,15 @@ Gehen Sie wie folgt vor, um einer Anzeige einen Kanal zuzuweisen:
 
 1. Klicken Sie auf **Speichern**, um den erstellten Kanal einer Anzeige zuzuweisen.
 
-### Dayparting      {#dayparting}
+### Dayparting  {#dayparting}
 
-Durch die Kombination von Zeitplänen mit **Dayparting** können Sie einen globalen Zeitplan mit mehreren Kanälen festlegen, die zu bestimmten Tageszeiten ausgeführt werden. Diese Einstellung können dann für alle Anzeigen wiederverwendet werden.
+Durch die Kombination von Zeitplänen mit **Dayparting** können Sie einen globalen Zeitplan mit mehreren Kanälen festlegen, die zu bestimmten Tageszeiten ausgeführt werden. Diese Einstellung kann dann für alle Anzeigen wiederverwendet werden.
 
 Bei Dayparting wird ein Tag in Zeitfenster unterteilt und festgelegt, welcher Inhalt zum gewünschten Zeitpunkt dargestellt wird. Mit AEM Screens können Sie den Dayparting-Zeitplan von Kanälen nach Bedarf für Tage, Wochen oder Monate festlegen.
 
 Im Folgenden wird in drei Szenarien beschrieben, wie Dayparting mit Kanälen verwendet werden kann:
 
-#### Anzeigen von Inhalten an einem einzigen Tag unterteilt in mehrere Zeitfenster      {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
+#### Anzeigen von Inhalten an einem einzigen Tag unterteilt in mehrere Zeitfenster  {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
 Im folgenden Beispiel wird veranschaulicht, wie ein Restaurant Dayparting verwendet, um sein Angebot für Frühstück, Mittagessen und Abendessen zu präsentieren.
 
@@ -150,7 +150,7 @@ Hier wird Dayparting auf monatlicher Basis erstellt, sodass der Kanalinhalt an d
 >
 >Darüber hinaus können Sie für jeden Kanal die ***Priorität*** festlegen. Wenn beispielsweise zwei Kanäle für denselben Tag und dieselbe Uhrzeit oder für denselben Monat festgelegt sind, wird der Kanal mit höherer Priorität zuerst gezeigt. Der Mindestwert für die Priorität beträgt 0.
 
-#### Anzeigen von Inhalt für Kanäle derselben Priorität      {#playing-content-for-channels-with-same-priority}
+#### Anzeigen von Inhalt für Kanäle derselben Priorität        {#playing-content-for-channels-with-same-priority}
 
 Diese Beispiele veranschaulichen die Verwendung von Dayparting durch einen Laden, der seine Winterkollektion mit demselben Zeitplan im Dezember präsentiert. Doch da die Priorität von Kanal B in dieser Woche 2 beträgt, wird der Inhalt von Kanal B anstelle des Inhalts von Kanal A gezeigt.
 
