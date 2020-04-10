@@ -9,7 +9,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 119d5bdf854674ae86682ed82fee390f63972c0a
 
 ---
@@ -26,7 +26,7 @@ Die Verwendung dynamischer eingebetteter Sequenzen umfasst die folgenden Themen:
 
 ## Überblick {#overview}
 
-***Dynamische eingebettete Sequenzen*** werden für große Projekte erstellt, die einer Hierarchie folgen. Dabei wird der untergeordnete Knoten in einem Standortordner und nicht in einem Kanalordner referenziert. Benutzer können so eine Sequenz anhand der ***Kanalrolle*** in einen Kanal einbetten. Damit kann der Benutzer standortspezifische Platzhalter für verschiedene Büros mithilfe einer eingebetteten Sequenz innerhalb eines Hauptkanals definieren.
+***Dynamische eingebettete Sequenzen*** werden für große Projekte erstellt, die einer Hierarchie folgen. Dabei wird der untergeordnete Knoten in einem Standortordner und nicht in einem Kanalordner referenziert. Benutzer können so eine Sequenz nach ***Kanalrolle*** in einen Kanal einbetten. Damit kann der Benutzer standortspezifische Platzhalter für verschiedene Büros mithilfe einer eingebetteten Sequenz innerhalb eines Hauptkanals definieren.
 
 Bei der Zuordnung eines Kanals zu einer Anzeige haben Sie die Möglichkeit, entweder den Pfad der Anzeige oder die Rolle des Kanals anzugeben, der nach Kontext zu einem aktuellen Kanal aufgelöst wird.
 
@@ -127,7 +127,7 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
    1. Wiederholen Sie Schritt (b) und wählen Sie jetzt **Sequenzkanal** im Assistenten aus. Geben Sie den **Titel** als **Region A** und den **Namen** als „region“ für diesen Kanal ein.
    >[!CAUTION]
    >
-   >Please make sure that while creating channel **Region A**, enter the **Title** as **Region A** and the **Name** as **region**.
+   >Geben Sie bei der Erstellung des Kanals **Region A** den **Titel** als **Region A** und den **Namen** als **Region** ein.
 
    ![screen_shot_2018-09-13at22857pm](assets/screen_shot_2018-09-13at22857pm.png)
 
@@ -153,7 +153,7 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
 
    ![screen_shot_2018-09-19at120206pm](assets/screen_shot_2018-09-19at120206pm.png)
 
-   Similarly, create a display as **Store2Display** and a channel **Store2Channel** under **Store 2** (with name as **store**).
+   Erstellen Sie eine Anzeige als **Store2Display** und einen Kanal **Store2Channel** unter **Store 2** (mit dem Namen **store**).
 
    >[!NOTE]
    >
@@ -205,7 +205,7 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
    1. Navigieren Sie zu **Demo** > **Zeitpläne** > **AdSchedule** und klicken Sie in der Aktionsleiste auf **Dashboard**.
    1. Klicken Sie auf **+ Kanal zuweisen** im Bedienfeld **ZUGEWIESENE KANÄLE**, um das Dialogfeld **Kanalzuweisung** zu öffnen.
    1. Wählen Sie als Vorgehensweise für **Kanal referenzieren** nach Pfad.
-   1. Select the **Channel Path** as **Demo** --> ***Channels*** --> ***Global***.
+   1. Wählen Sie unter **Kanalpfad** den Wert **Demo** > ***Kanäle*** > ***Global*** aus.
    1. Geben Sie als **Kanalrolle** den Wert **GlobalAdSegment** ein.
    1. Wählen Sie unter **Unterstützte Ereignisse** die Optionen **Erster Ladevorgang**, **Bildschirm bei Untätigkeit** und **Benutzerinteraktion** aus.
    1. Klicken Sie auf **Speichern**.
@@ -213,7 +213,7 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
 
    1. Klicken Sie auf **+ Kanal zuweisen** im Bedienfeld **ZUGEWIESENE KANÄLE**, um das Dialogfeld **Kanalzuweisung** zu öffnen.
    1. Wählen Sie als Vorgehensweise für **Kanal referenzieren** die Option „Name“ aus.
-   1. Enter the **Channel Name** as **region***.
+   1. Geben Sie unter **Kanalname** den Wert **region** ein.
    1. Geben Sie als **Kanalrolle** den Wert **RegionAdSegment** ein.
    1. Klicken Sie auf **Speichern**.
    **Kanal nach Rolle für den Store zuweisen:
@@ -274,7 +274,7 @@ Wenn Sie den Anzeigepfad als **Demo** > **Standorte** > **Region A** > „Store 
 
 **Szenario 1**:
 
-If you assign the display path as **Demo** --> **Locations** --> **Region B** --> **Store 3** --> **Store3Display**, the following content will display on your AEM Screens player.
+Wenn Sie den Anzeigepfad als **Demo** > **Standorte** > **Region B** > **Store 3** > **Store3Display** zuweisen, wird der folgende Inhalt im AEM Screens-Player angezeigt.
 
 ![channeldisplay2](assets/channeldisplay2.gif)
 
@@ -352,9 +352,9 @@ Führen Sie die folgenden Schritte aus, um Gruppen und Benutzer zu erstellen und
    **Für Global-Autor:**
 
    1. Navigieren Sie zur Registerkarte **Berechtigungen**
-   1. Navigieren Sie zu ***/content/screens/demo*** und prüfen Sie alle Berechtigungen
-   1. Navigieren Sie zu ***/content/screens/demo/locations*** und prüfen Sie alle Berechtigungen
-   1. Navigate to ***/content/screens/demo/locations***/***region-a*** and check all the permissions. Überprüfen Sie auf ähnliche Weise die Berechtigungen für **region-b**.
+   1. Navigieren Sie zu ***/content/screens/demo*** und prüfen Sie alle Berechtigungen.
+   1. Navigieren Sie zu ***/content/screens/demo/locations*** und prüfen Sie alle Berechtigungen.
+   1. Navigieren Sie zu ***/content/screens/demo/locations***/***region-a*** und prüfen Sie alle Berechtigungen. Überprüfen Sie auf ähnliche Weise die Berechtigungen für **region-b**.
    Die Schritte sind in der folgenden Abbildung dargestellt:
    ![screen_shot_2018-09-18at115752am](assets/screen_shot_2018-09-18at115752am.png)
 
@@ -365,10 +365,10 @@ Führen Sie die folgenden Schritte aus, um Gruppen und Benutzer zu erstellen und
    **Für Region-Autor:**
 
    1. Navigieren Sie zur Registerkarte **Berechtigungen**.
-   1. Navigieren Sie zu ***/content/screens/demo*** und überprüfen Sie nur die **Leseberechtigungen**.
-   1. Navigieren Sie zu ***/content/screens/demo/locations*** und prüfen Sie nur die **Leseberechtigungen**.
-   1. Navigieren Sie zu /content/screens/demo/channels ***und deaktivieren Sie die Berechtigungen für den Kanal **Global**.***
-   1. Navigate to ***/content/screens/demo/locations***/***region-a*** and check all the permissions. Überprüfen Sie auf ähnliche Weise die Berechtigungen für **region-b**.
+   1. Navigieren Sie zu ***/content/screens/demo*** und aktivieren Sie nur die **Leseberechtigungen**.
+   1. Navigieren Sie zu ***/content/screens/demo/locations*** und aktivieren Sie nur die **Leseberechtigungen**.
+   1. Navigieren Sie zu ***/content/screens/demo/channels ***und deaktivieren Sie die Berechtigungen für den Kanal **Global**.***
+   1. Navigieren Sie zu ***/content/screens/demo/locations***/***region-a*** und aktivieren Sie alle Berechtigungen. Überprüfen Sie auf ähnliche Weise die Berechtigungen für **region-b**.
    Die Schritte sind in der folgenden Abbildung dargestellt:
 
    ![screen_shot_2018-09-18at125158pm](assets/screen_shot_2018-09-18at125158pm.png)
@@ -380,16 +380,16 @@ Führen Sie die folgenden Schritte aus, um Gruppen und Benutzer zu erstellen und
    **Für Store-Autor:**
 
    1. Navigieren Sie zur Registerkarte **Berechtigungen**.
-   1. Navigieren Sie zu ***/content/screens/demo*** und überprüfen Sie nur die **Leseberechtigungen**.
-   1. Navigieren Sie zu ***/content/screens/demo/locations*** und prüfen Sie nur die **Leseberechtigungen**.
+   1. Navigieren Sie zu ***/content/screens/demo*** und aktivieren Sie nur die **Leseberechtigungen**.
+   1. Navigieren Sie zu ***/content/screens/demo/locations*** und aktivieren Sie nur die **Leseberechtigungen**.
    1. Navigieren Sie zu ***/content/screens/demo/channels*** und deaktivieren Sie die Berechtigungen für den Kanal **Global**.
-   1. Navigieren Sie zu ***/content/screens/demo/locations/region-a*** und prüfen Sie nur die **Leseberechtigungen**. Ebenso sollten Sie nur die **Leseberechtigungen** für **region-b** prüfen.
-   1. Navigate to ***/content/screens/demo/locations***/***region-a /store-1*** and check all the permissions. Prüfen Sie auf ähnliche Weise die Berechtigungen für **store-2, store-3** und **store-4**.
+   1. Navigieren Sie zu ***/content/screens/demo/locations/region-a*** und aktivieren Sie nur die **Leseberechtigungen**. Ebenso sollten Sie nur die **Leseberechtigungen** für **region-b** aktivieren.
+   1. Navigieren Sie zu ***/content/screens/demo/locations***/***region-a /store-1*** und aktivieren Sie alle Berechtigungen. Prüfen Sie auf ähnliche Weise die Berechtigungen für **store-2, store-3** und **store-4**.
    Die Schritte sind in der folgenden Abbildung dargestellt:
 
    ![screen_shot_2018-09-18at12415pm](assets/screen_shot_2018-09-18at12415pm.png)
 
-   The following image shows that now the **Store-User** has access only to the four stores namely **Store 1**, **Store 2**, **Store 3**, and **Store 4** but does not have permissions to access the **Global** or the region (**Region A** and **Region B**) channels.
+   Die folgende Abbildung zeigt, dass der **Store-Benutzer** nur Zugriff auf die vier Stores hat, nämlich **Store 1**, **Store 2**, **Store 3** und **Store 4**, aber keine Berechtigungen für den Zugriff auf den Kanal **Global** oder die Region-Kanäle (**Region A** und **Region B**).
 
    ![store](assets/store.gif)
 
