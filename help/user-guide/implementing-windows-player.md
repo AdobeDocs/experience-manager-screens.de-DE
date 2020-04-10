@@ -10,7 +10,7 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e7c4ec77265c1b6927a19e0d9d39770b64db0fb
 
 ---
@@ -34,7 +34,7 @@ Nachdem Sie die Anwendung heruntergeladen haben, führen Sie die Schritte im Pla
 
 1. Halten Sie die linke obere Ecke gedrückt, um den Admin-Bereich zu öffnen.
 1. Navigieren Sie im linken Aktionsmenü zu **Konfiguration**, geben Sie den Standort (die Adresse) der AEM-Instanz ein, zu der Sie eine Verbindung aufbauen möchten, und klicken Sie auf **Speichern**.
-1. Navigate to the **Device** **Registration** link from the left action menu to check the status of the device registration process.
+1. Navigieren Sie im linken Aktionsmenü zum Link **Geräteregistrierung******, um den Status des Prozesses zur Geräteregistrierung zu prüfen.
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ So konfigurieren Sie den Windows 10-Player:
 1. Suchen Sie die Konfigurationsdatei unter ***%appdata%\com.adobe.aem.screens.player\config.json***.
 1. Aktualisieren Sie die JSON-Konfigurationsdatei mit den nachstehenden Informationen und kopieren Sie sie dann bei allen Systemen, auf denen der Player vorhanden ist, in den gleichen Ordner.
 
-### Richtlinienattribute    {#policy-attributes}
+### Richtlinienattribute      {#policy-attributes}
 
 In der folgenden Tabelle finden Sie eine Zusammenfassung der Richtlinienattribute mit einer beispielhaften JSON-Richtliniendatei als Referenz:
 
@@ -73,7 +73,7 @@ In der folgenden Tabelle finden Sie eine Zusammenfassung der Richtlinienattribut
 | enableOSD | Aktivierung der Kanalschalter-Benutzeroberfläche, damit Benutzer zwischen Kanälen auf dem Gerät wechseln können. Stellen Sie den Wert ggf. auf „false“ ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und produktiv verwendet wird. |
 | enableActivityUI | Aktivierung zum Anzeigen des Fortschritts von Aktivitäten wie Downloads und Synchronisierungen. Aktivieren Sie den Wert zwecks Fehlerbehebung und deaktivieren Sie ihn, sobald die Benutzeroberfläche vollständig konfiguriert ist und produktiv verwendet wird. |
 
-#### Beispielhafte JSON-Richtliniendatei    {#example-policy-json-file}
+#### Beispielhafte JSON-Richtliniendatei      {#example-policy-json-file}
 
 ```
 {
@@ -102,11 +102,11 @@ Gehen Sie wie folgt vor, um den Kiosk-Modus zu aktivieren:
 
 1. Aktivieren Sie das Shell-Startprogramm.
 
-   Weitere Informationen finden Sie im Abschnitt ***Shell-Startprogramm konfigurieren*** auf der Seite **[Shell-Startprogramm](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)**des Microsoft Windows-Supports.
+   Weitere Informationen finden Sie im Abschnitt ***Shell-Startprogramm konfigurieren*** auf der Seite **[Shell-Startprogramm](https://docs.microsoft.com/de-de/windows-hardware/customize/enterprise/shell-launcher)**des Microsoft Windows-Supports.
 
 1. Erstellen Sie einen Benutzer ohne Administratorrechte (falls Sie noch keinen haben), der für Kiosk verwendet werden soll. Dabei kann es sich um einen lokalen Benutzer oder einen Domänenbenutzer handeln.
 1. Installieren Sie den Windows Player für diesen Kiosk-Benutzer von der Seite [AEM Screens-Player-Downloads](https://download.macromedia.com/screens/).
-1. Weitere Informationen zur Modifikation des PowerShell-Skripts finden Sie unter [Verwenden des Shell-Startprogramms zum Erstellen eines Windows 10-Kiosks](https://docs.microsoft.com/en-us/windows/configuration/kiosk-shelllauncher).
+1. Weitere Informationen zur Modifikation des PowerShell-Skripts finden Sie unter [Verwenden des Shell-Startprogramms zum Erstellen eines Windows 10-Kiosks](https://docs.microsoft.com/de-de/windows/configuration/kiosk-shelllauncher).
 
    Ändern Sie das PowerShell-Skript, um den Benutzernamen durch den von Ihnen erstellten zu ersetzen. Stellen Sie sicher, dass der Pfad zur ausführbaren Datei der Anwendung korrekt ist. Dadurch wird die benutzerdefinierte Shell als Windows Player-Anwendung für den Kiosk-Benutzer festgelegt und die Standardeinstellung wird als explorer.exe für andere Benutzer festgelegt.
 
