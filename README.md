@@ -1,11 +1,11 @@
 ---
 source-git-commit: 93dda5a30065f2989427b4fadbb2576dad1c13b8
-translation-type: tm+mt
+translation-type: ht
 
 ---
-# Dokumentation zu Adobe Experience Manager-Bildschirmen
+# Adobe Experience Manager Screens-Dokumentation
 
-Dies ist das Repository für die Dokumentation zu Adobe Experience Manager Screens.
+Dies ist der Speicherort für die Dokumentation zu Adobe Experience Manager Screens.
 
 Ihre Beiträge zur Dokumentation sind willkommen. Sehen Sie sich die folgenden Ressourcen an:
 
