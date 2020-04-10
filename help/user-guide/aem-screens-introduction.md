@@ -10,7 +10,7 @@ topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f30bfdba-8db6-482b-8d0c-2818fc58e2b1
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 23a6019e27f10ff0e207ddc9c279dc7d42942098
 
 ---
@@ -76,4 +76,4 @@ Weitere Informationen zu Adobe Experience Manager 6.5 finden Sie in den folgende
 
 * **Handbuch mit Best Practices für AEM Screens-Projekte**
 
-   Befolgen Sie den **[Leitfaden zu bewährten Verfahren für AEM Screens-Projekte](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)**, der entwickelt wurde, um allgemeine Fallstricke bei der Implementierung eines AEM Screens-Projekts zu identifizieren. Das Material konzentriert sich in erster Linie auf Projektrollen und Verantwortlichkeiten, RACI-Diagramm für verschiedene Rollen AEM-Plattformkonfigurationen sowie Unterstützung und Überwachung.
+   Befolgen Sie das **[Handbuch mit Best Practices für AEM Screens-Projekte](https://docs.adobe.com/content/help/de-DE/experience-manager-screens/using/about-guide.html)**, in dem auf allgemeine Schwierigkeiten bei der Implementierung eines AEM Screens-Projekts hingewiesen wird. Der Inhalt konzentriert sich in erster Linie auf Projektrollen und Zuständigkeiten, RACI-Diagramme für verschiedene Rollen, AEM-Plattformkonfigurationen sowie Support und Überwachung.
