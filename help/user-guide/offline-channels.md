@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: bd572743-652f-4fc5-8b75-a3c4c74536f4
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9da83030c5ad90f446befc7a488fac6c9435ea76
 
 ---
@@ -32,11 +32,11 @@ Der Workflow für den Prozess ist wie folgt:
 1. Laden Sie die ZIP-Datei herunter und extrahieren Sie sie lokal
 1. Anzeigen einer lokaler Kopie des Inhalts
 
-## Update-Handler    {#update-handlers}
+## Update-Handler  {#update-handlers}
 
 ***ContentSync*** verwendet Update-Handler, um alle erforderlichen Seiten und Assets für ein bestimmtes Projekt zu analysieren und zu sammeln. AEM Screens verwendet die folgenden Update-Handler:
 
-### Allgemeine Optionen    {#common-options}
+### Allgemeine Optionen  {#common-options}
 
 * *type*: Der zu verwendende Update-Handler-Typ
 * *path*: Pfad zur Ressource
@@ -83,9 +83,9 @@ Befolgen Sie die folgenden Schritte, um die ContentSync-Konfiguration zu testen:
 1. Klicken Sie auf „Vollständig herunterladen“
 1. Entpacken Sie die ZIP-Datei
 1. Starten Sie einen lokalen Server im extrahierten Ordner
-1. Öffnen Sie Ihre Startseite und überprüfen Sie Ihren Applikationsstatus
+1. Öffnen Sie Ihre Startseite und überprüfen Sie Ihren Anwendungsstatus
 
-## Aktivieren der Offline-Konfiguration für einen Kanal    {#enabling-offline-config-for-a-channel}
+## Aktivieren der Offline-Konfiguration für einen Kanal  {#enabling-offline-config-for-a-channel}
 
 Befolgen Sie die folgenden Schritte, um die Offline-Konfiguration für einen Kanal zu aktivieren:
 
@@ -114,4 +114,4 @@ Befolgen Sie die folgenden Schritte, um die Offline-Konfiguration für einen Kan
    ![chlimage_1-26](assets/chlimage_1-26.png)
 
 >[!NOTE]
-> Weitere Informationen über die Vorlage für benutzerdefinierte Offline-Ressourcen-Handler und die Mindestanforderungen `pom.xml` für dieses spezifische Projekt finden Sie unter [Vorlage für benutzerdefinierte Handler](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) in **Entwickeln einer benutzerdefinierten Komponente für AEM Screens**.
+> Weitere Informationen zur Vorlage für benutzerdefinierte Offline-Ressourcen-Handler und zu den Mindestanforderungen in der Datei `pom.xml` für dieses Projekt finden Sie unter [Vorlage für benutzerdefinierte Handler](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) in **Entwickeln einer benutzerdefinierten Komponente für AEM Screens**.
