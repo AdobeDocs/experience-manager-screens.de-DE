@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
+source-git-commit: 358c22018bf933e5b5418f202eb70b1a39a49783
 
 ---
 
@@ -52,20 +52,20 @@ Bevor Sie mit der Konfiguration von Context-Hub-Konfigurationen für ein AEM Scr
 
 Sie können den Datenspeicher als lokales E/A-Ereignis oder als lokales Datenbankereignis einrichten.
 
-Im folgenden Beispiel für Datenauslöser auf Asset-Ebene wird ein lokales Ereignis für die Datenbank dargestellt, das einen Datenspeicher wie ein Excel-Blatt einrichtet, mit dem Sie ContextHub-Konfigurationen und Segmentpfade zu AEM Screens Kanal verwenden können.
+Im folgenden Beispiel für Datenauslöser auf Asset-Ebene wird ein lokales Datenbankereignis gezeigt, das einen Datenspeicher wie beispielsweise ein Excel-Blatt einrichtet, das die Verwendung von ContextHub-Konfigurationen und Segmentpfaden zum AEM Screens-Kanal ermöglicht.
 
-Nachdem Sie das Google-Blatt korrekt eingerichtet haben, z. B. wie unten dargestellt:
+Unten sehen Sie ein Beispiel für ein korrekt eingerichtetes Google-Tabellenblatt:
 
 ![image](/help/user-guide/assets/context-hub/context-hub1.png)
 
-Die folgende Überprüfung wird beim Prüfen der Verbindung durch Eingabe der beiden Werte *Google Sheet ID* und *API-Schlüssel* im folgenden Format Ansicht:
+Die folgende Validierung wird angezeigt, wenn Sie Ihre Verbindung prüfen, indem Sie die beiden Werte *Google-Tabellenblatt-ID* und *API-Schlüssel* im folgenden Format eingeben:
 
 `https://sheets.googleapis.com/v4/spreadsheets/<your sheet id>/values/Sheet1?key=<your API key>`
 
 ![image](/help/user-guide/assets/context-hub/context-hub2.png)
 
 >[!NOTE]
-> Im folgenden Beispiel werden die Google-Blätter als Datenspeicher dargestellt, der eine Asset-Änderung auslöst, wenn der Wert größer als 100 oder kleiner als 50 ist.
+> Im folgenden Beispiel werden Google-Tabellenblätter als Datenspeicher gezeigt, der eine Asset-Änderung auslöst, wenn der Wert größer als 100 oder kleiner als 50 ist.
 
 ## Schritt 2: Einrichten von Store-Konfigurationen {#step-setting-store-configurations}
 
@@ -75,30 +75,30 @@ Die folgende Überprüfung wird beim Prüfen der Verbindung durch Eingabe der be
 
    ![image](/help/user-guide/assets/context-hub/context-hub3.png)
 
-1. **Erstellen einer neuen ContextHub-Store-Konfiguration**
+1. **Erstellen einer neuen ContextHub-Speicherkonfiguration**
 
-   1. Navigieren Sie zum Container &quot;Configuration&quot;mit dem Namen **screens**.
+   1. Navigieren Sie zum Konfigurations-Containers mit dem Namen **screens**.
 
-   1. Click **Create** > **Create Configuration Container** and enter the title as **ContextHubDemo**.
+   1. Klicken Sie auf **Erstellen** > **Konfigurations-Container erstellen** und geben Sie als Titel **ContextHubDemo** ein.
 
       ![image](/help/user-guide/assets/context-hub/context-hub4.png)
 
-   1. **Navigieren Sie** zu **ContextHubDemo** > **Create** **ContentHub Configuration** und klicken Sie auf **Save**.
+   1. **Navigieren** Sie zu **ContextHubDemo** > **Erstellen** **ContextHub-Konfiguration** und klicken Sie auf **Speichern**.
 
       >[!NOTE]
-      > Nachdem Sie auf **Speichern** geklickt haben, werden Sie im Bildschirm &quot; **ContextHub-Konfiguration** &quot;angezeigt.
+      > Nachdem Sie auf **Speichern** geklickt haben, befinden Sie sich auf dem Bildschirm **ContextHub-Konfiguration**.
 
-   1. Klicken Sie im Bildschirm &quot; **ContextHub-Konfiguration** &quot;auf **Erstellen** > Konfiguration des **ContentHub-Speichers.**
+   1. Klicken Sie im Bildschirm **ContextHub-Konfiguration** auf **Erstellen** > **ContentHub-Speicherkonfiguration**.
 
       ![image](/help/user-guide/assets/context-hub/context-hub5.png)
 
-   1. Enter the **Title** as **Google Sheets**, **Store Name** as **googlesheets**, and **Store Type** as **contexthub.generic-jsonp** and click **Next**.
+   1. Geben Sie unter **Titel** den Wert **Google Tabellen**, unter **Speichername** den Wert **googlesheets** und unter **Speichertyp** den Wert **contexthub.generic-jsonp** ein und klicken Sie auf **Weiter**.
       ![image](/help/user-guide/assets/context-hub/context-hub6.png)
 
-   1. Geben Sie Ihre spezifische json-Konfiguration ein. Sie können beispielsweise die folgende JSON-Datei für Demozwecke verwenden und auf **Speichern** klicken. Die Store-Konfiguration wird in der ContextHub-Konfiguration als **Google-Blätter** bezeichnet.
+   1. Geben Sie Ihre spezifische json-Konfiguration ein. Sie können beispielsweise die folgende JSON-Datei für Demozwecke verwenden und auf **Speichern** klicken. Die Speicherkonfiguration wird dann in der ContextHub-Konfiguration als **Google Tabellen** angegeben.
 
       >[!IMPORTANT]
-      >Make sure to replace the code with your *&lt;Sheet ID>* and *&lt;API Key>*, that you fetched while setting up the Google Sheets.
+      >Stellen Sie sicher, dass Sie den Code durch Ihre *&lt;Tabellenblatt-ID>* und Ihren *&lt;API-Schlüssel>* ersetzen, den Sie beim Einrichten von Google Tabellen abgerufen haben.
 
       ```
        {
@@ -121,7 +121,7 @@ Die folgende Überprüfung wird beim Prüfen der Verbindung durch Eingabe der be
 Ersetzen Sie den Code durch Ihre *&lt;Tabellenblatt-ID>* und Ihren *&lt;API-Schlüssel>*, den Sie beim Einrichten von Google Tabellen abgerufen haben.
 
       >[!CAUTION]
-      Wenn Sie Google Sheets Store-Konfigurationen außerhalb des globalen Ordners erstellen (z. B. in Ihrem eigenen Projektordner), funktioniert das Targeting nicht standardmäßig.
+      Wenn Sie Google Tabellen-Speicherkonfigurationen außerhalb des globalen Ordners erstellen (z. B. in Ihrem eigenen Projektordner), funktioniert das Targeting nicht standardmäßig.
 
 1. **Einrichten der Store-Segmentierung**
 
@@ -139,7 +139,7 @@ Sie müssen den Prozess der Definition des JSON überspringen und es leer lassen
 
 1. **Erstellen von Segmenten in Zielgruppen**
 
-   1. Navigate from your AEM instance to **Personalization** > **Audiences** > **screens**.
+   1. Navigieren Sie von Ihrer AEM-Instanz zu **Personalisierung** > **Zielgruppen** > **Screens**.
 
    1. Klicken Sie auf **Erstellen** > **ContextHub-Segment erstellen.** Das Dialogfeld **Neues ContextHub-Segment** wird geöffnet.
 
@@ -221,7 +221,7 @@ Nachdem Sie einen Datenspeicher eingerichtet und Ihre Aktivität (Marke und Bere
 
 1. **Bearbeiten der Segmente**
 
-   1. Navigate from your AEM instance to **Personalization** > **Audiences** > **screens**.
+   1. Navigieren Sie von Ihrer AEM-Instanz zu **Personalisierung** > **Zielgruppen** > **Screens**.
 
    1. Select the segment **Higherthan50**, and click **Edit** from the action bar.
 
@@ -270,9 +270,7 @@ Gehen Sie wie folgt vor, um Targeting in Ihren Kanälen zu aktivieren.
 
 1. Wählen Sie die Registerkarte **Personalisierung**, um die ContextHub-Konfigurationen einzurichten.
 
-   1. Wählen Sie unter **ContextHub-Pfad** den Wert **libs** > **settings** > **cloudsettings** > **default** > **ContextHub Konfigurationen** aus und klicken Sie auf **Auswählen**.
-
-   1. Wählen Sie unter **Segmentpfad** den Wert **conf** > **We.Retail** > **settings** > **wcm** > **segments** aus und klicken Sie auf **Auswählen**.
+   1. Legen Sie den **ContextHub-Pfad** auf `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` und **Segmentpfad** auf fest `/conf/screens/settings/wcm/segments` und klicken Sie auf **Speichern**.
 
    1. Klicken Sie auf **Speichern und schließen**.
 
