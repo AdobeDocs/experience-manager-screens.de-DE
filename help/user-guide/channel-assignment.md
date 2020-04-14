@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: bde770227dfbe72e96254d27ba14e7469eed1b5c
+source-git-commit: 7d0925076ecf2038c666b0d53669e5d84c66eedf
 
 ---
 
@@ -52,9 +52,9 @@ Gehen Sie wie folgt vor, um einer Anzeige einen Kanal zuzuweisen:
 
    ![image](/help/user-guide/assets/channel-assign1.png)
 
-   You can configure the following properties from the **Channel Assignment** dialog box in the section below.
+   Sie können die Eigenschaften im Dialogfeld &quot;Zuweisung von **Kanälen** &quot;im Abschnitt unten verstehen und konfigurieren.
 
-### Grundlegendes zu Kanal-Eigenschaften {#channel-properties}
+### Grundlegendes zu Kanal-Eigenschaften bei der Zuweisung von Kanälen {#channel-properties}
 
 #### Kanal referenzieren {#ref-channel}
 
@@ -84,14 +84,17 @@ Mit „Priorität“ können Zuweisungen geordnet werden, falls mehrere die Wied
 
 #### Unterbrechungsmethode {#interruption-method-channel}
 
+>[WICHTIG]
+> Diese Option ist nur mit AEM 6.4 Feature Pack 8 oder AEM 6.5 Feature Pack 4 verfügbar.
+
 Als Autor von Inhalten sollten Sie festlegen können, wann ein Kanal unterbrochen wird, damit Sie festlegen können, dass nicht kritische Inhalte abgeschnitten werden sollen. Sie haben jedoch die Möglichkeit, wichtige Inhalte vollständig abspielen zu lassen, bevor die Wiedergabe aufgrund der Zeitplanung abgebrochen wird.
 Die folgenden Optionen stehen zum Festlegen der Unterbrechungsmethode im Dialogfeld &quot; **Kanal-Zuweisung** &quot;zur Verfügung:
 
-* **Sofort**: Wenn der Zeitplan aktiviert oder ein Update empfangen wird, wird die Wiedergabe unterbrochen und der neue Inhalt sofort aktualisiert oder abgespielt
-* **Am Ende des aktuellen Elements**: Wenn ein neuer Zeitplan aktiviert oder ein Update empfangen wird, warten wir, bis das aktuelle Element in der Sequenz vollständig abgespielt wird, und erst danach wird der neue Inhalt aktualisiert oder abgespielt
+* **Sofort**: Wenn der Zeitplan aktiviert oder ein Update empfangen wird, können Sie die Wiedergabe abbrechen und den neuen Inhalt sofort aktualisieren oder abspielen
+* **Am Ende des aktuellen Elements**: Wenn ein neuer Zeitplan aktiviert wird oder ein Update empfangen wird, haben Sie die Möglichkeit zu warten, bis die Wiedergabe des aktuellen Elements in der Sequenz abgeschlossen ist, und erst danach aktualisieren oder abspielen Sie den neuen Inhalt
    >[!NOTE]
    >Dies ist die ausgewählte Standardoption.
-* **Am Ende der Sequenz**: Wenn ein neuer Zeitplan aktiviert oder ein Update empfangen wird, warten wir, bis die gesamte Sequenz ihr Ende erreicht hat. Kurz bevor wir zum ersten Element zurückkehren, wird der neue Inhalt aktualisiert oder abgespielt
+* **Am Ende der Sequenz**: Wenn ein neuer Zeitplan aktiviert oder ein Update empfangen wird, haben Sie die Möglichkeit, zu warten, bis die gesamte Sequenz ihr Ende erreicht. Kurz vor der gewünschten Sequenz laufen Sie zurück zum ersten Element, aktualisieren Sie den neuen Inhalt oder spielen Sie ihn ab
 
 #### Zeitplan {#schedule-channel}
 
