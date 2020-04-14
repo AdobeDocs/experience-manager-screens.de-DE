@@ -10,8 +10,8 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
-translation-type: ht
-source-git-commit: 9e7c4ec77265c1b6927a19e0d9d39770b64db0fb
+translation-type: tm+mt
+source-git-commit: bde770227dfbe72e96254d27ba14e7469eed1b5c
 
 ---
 
@@ -50,43 +50,57 @@ Gehen Sie wie folgt vor, um einer Anzeige einen Kanal zuzuweisen:
 
    Tippen/klicken Sie auf **Dashboard** und klicken Sie auf **+Kanal zuweisen** im Bedienfeld **ZUGEWIESENE KANÄLE**, um das Dialogfeld **Kanalzuweisung** zu öffnen.
 
-   ![screen_shot_2018-08-23at25938pm](assets/screen_shot_2018-08-23at25938pm.png)
+   ![image](/help/user-guide/assets/channel-assign1.png)
 
-   Sie können im Dialogfeld **Kanalzuweisung** die folgenden Eigenschaften konfigurieren:
+   You can configure the following properties from the **Channel Assignment** dialog box in the section below.
 
-   **Kanalrolle**:
+### Grundlegendes zu Kanal-Eigenschaften {#channel-properties}
 
-   In „Kanalrolle“ wird der Kontext der Anzeige definiert. Die Rolle kann durch verschiedene Aktionen festgelegt werden und ist unabhängig vom eigentlichen Kanal, der der Rolle entspricht.
+#### Kanal referenzieren {#ref-channel}
 
-   **Kanal referenzieren**:
+Diese Option ermöglicht es Ihnen, einen Verweis zum gewünschten Kanal bereitzustellen, entweder in Form des Namens oder des Pfads des Kanals.
 
-   Diese Option ermöglicht es Ihnen, einen Verweis zum gewünschten Kanal bereitzustellen, entweder in Form des Namens oder des Pfads des Kanals.
+* **nach Pfad**: Sie stellen einen expliziten Verweis durch Angabe des absoluten Pfads des Kanals bereit.
 
-   * **nach Pfad**: Sie stellen einen expliziten Verweis durch Angabe des absoluten Pfads des Kanals bereit.
-   * **nach Name**: Sie geben den Namen des Kanals ein, der entsprechend dem Kontext zu einem tatsächlichen Kanal führt. Mit dieser Funktion können Sie eine lokale Version eines Kanals erstellen, um standortspezifischen Inhalt dynamisch aufzulösen. Beispiel: ein Kanal mit dem Namen *Tagesangebote*, bei dem der eigentliche Inhalt in zwei Städten zwar unterschiedlich ist, aber bei allen Anzeigen dieselbe Kanalrolle vorhanden ist.
-   **Priorität:**
+* **nach Name**: Sie geben den Namen des Kanals ein, der entsprechend dem Kontext zu einem tatsächlichen Kanal führt. Mit dieser Funktion können Sie eine lokale Version eines Kanals erstellen, um standortspezifischen Inhalt dynamisch aufzulösen. Beispiel: ein Kanal mit dem Namen *Tagesangebote*, bei dem der eigentliche Inhalt in zwei Städten zwar unterschiedlich ist, aber bei allen Anzeigen dieselbe Kanalrolle vorhanden ist.
 
-   Mit „Priorität“ können Zuweisungen geordnet werden, falls mehrere die Wiedergabekriterien erfüllen. Höhere Werte haben stets Vorrang vor niedrigeren Werten. Wenn es beispielsweise die beiden Kanäle A und B gibt und A eine Priorität von 1 und B eine Priorität von 2 hat, wird Kanal B angezeigt, da er eine höhere Priorität als A hat.
+#### Kanalrolle {#role-channel}
 
-   Die Priorität eines Kanals wird als Zahl (1 für Minimum) im Dialogfeld **Kanalzuweisung** festgelegt, wie oben angegeben. Darüber hinaus werden die zugewiesenen Kanäle nach absteigender Priorität sortiert.
+In „Kanalrolle“ wird der Kontext der Anzeige definiert. Die Rolle kann durch verschiedene Aktionen festgelegt werden und ist unabhängig vom eigentlichen Kanal, der der Rolle entspricht.
 
-   **Unterstützte Ereignisse**:
+#### Priorität {#priority-channel}
 
-   * **Erster Ladevorgang**: Lädt den Kanal, wenn der Player gestartet wird. Dies kann in Kombination mit einem Zeitplan mehreren Kanälen zugewiesen werden.
-   * **Bildschirm bei Untätigkeit**: Lädt, wenn der Bildschirm inaktiv ist. Dies kann in Kombination mit einem Zeitplan mehreren Kanälen zugewiesen werden.
-   * **Timer**: Muss eingestellt werden, wenn ein Zeitplan vorhanden ist
-   * **Benutzerinteraktion**: Der Player wechselt in den angegebenen Kanal, wenn in einem inaktiven Kanal auf dem Bildschirm (Touch) eine Benutzerinteraktion stattfindet, und wird geladen, wenn der Bildschirm berührt wird.
-   **Zeitplan**:
+Mit „Priorität“ können Zuweisungen geordnet werden, falls mehrere die Wiedergabekriterien erfüllen. Höhere Werte haben stets Vorrang vor niedrigeren Werten. Wenn es beispielsweise die beiden Kanäle A und B gibt und A eine Priorität von 1 und B eine Priorität von 2 hat, wird Kanal B angezeigt, da er eine höhere Priorität als A hat.
 
-   Hiermit können Sie in einer Beschreibung in Textform angeben, wann der Kanal angezeigt werden soll. Sie können damit auch ein Startdatum (**aktiv ab**) und ein Enddatum (**aktiv bis**) definieren, zwischen denen der Kanal angezeigt werden soll. Die Syntax für den Planausdruck basiert auf later.js-Text und der Cron-Syntax:
+>[!NOTE]
+>Die Priorität eines Kanals wird als Zahl (1 für Minimum) im Dialogfeld **Kanalzuweisung** festgelegt, wie oben angegeben. Darüber hinaus werden die zugewiesenen Kanäle nach absteigender Priorität sortiert.
 
-   * [https://bunkat.github.io/later/parsers.html#text](https://bunkat.github.io/later/parsers.html#text)
-   * [https://bunkat.github.io/later/parsers.html#cron](https://bunkat.github.io/later/parsers.html#cron)
-   **Attraktions-QuickInfo anzeigen**:
+#### Unterstützte Ereignisse {#supported-events-channel}
 
-   Mit der Option „Attraktions-QuickInfo anzeigen“ wird definiert, ob die Attraktions-QuickInfo (*Zum Beginnen irgendwo tippen*) angezeigt wird, während der Kanal ausgeführt wird.
+* **Erster Ladevorgang**: Lädt den Kanal, wenn der Player gestartet wird. Dies kann in Kombination mit einem Zeitplan mehreren Kanälen zugewiesen werden.
+* **Bildschirm bei Untätigkeit**: Lädt, wenn der Bildschirm inaktiv ist. Dies kann in Kombination mit einem Zeitplan mehreren Kanälen zugewiesen werden.
+* **Timer**: Muss eingestellt werden, wenn ein Zeitplan vorhanden ist
+* **Benutzerinteraktion**: Der Player wechselt in den angegebenen Kanal, wenn in einem inaktiven Kanal auf dem Bildschirm (Touch) eine Benutzerinteraktion stattfindet, und wird geladen, wenn der Bildschirm berührt wird.
 
-1. Klicken Sie auf **Speichern**, um den erstellten Kanal einer Anzeige zuzuweisen.
+#### Unterbrechungsmethode {#interruption-method-channel}
+
+Als Autor von Inhalten sollten Sie festlegen können, wann ein Kanal unterbrochen wird, damit Sie festlegen können, dass nicht kritische Inhalte abgeschnitten werden sollen. Sie haben jedoch die Möglichkeit, wichtige Inhalte vollständig abspielen zu lassen, bevor die Wiedergabe aufgrund der Zeitplanung abgebrochen wird.
+Die folgenden Optionen stehen zum Festlegen der Unterbrechungsmethode im Dialogfeld &quot; **Kanal-Zuweisung** &quot;zur Verfügung:
+
+* **Sofort**: Wenn der Zeitplan aktiviert oder ein Update empfangen wird, wird die Wiedergabe unterbrochen und der neue Inhalt sofort aktualisiert oder abgespielt
+* **Am Ende des aktuellen Elements**: Wenn ein neuer Zeitplan aktiviert oder ein Update empfangen wird, warten wir, bis das aktuelle Element in der Sequenz vollständig abgespielt wird, und erst danach wird der neue Inhalt aktualisiert oder abgespielt
+   >[!NOTE]
+   >Dies ist die ausgewählte Standardoption.
+* **Am Ende der Sequenz**: Wenn ein neuer Zeitplan aktiviert oder ein Update empfangen wird, warten wir, bis die gesamte Sequenz ihr Ende erreicht hat. Kurz bevor wir zum ersten Element zurückkehren, wird der neue Inhalt aktualisiert oder abgespielt
+
+#### Zeitplan {#schedule-channel}
+
+Hiermit können Sie in einer Beschreibung in Textform angeben, wann der Kanal angezeigt werden soll. Sie können damit auch ein Startdatum (**aktiv ab**) und ein Enddatum (**aktiv bis**) definieren, zwischen denen der Kanal angezeigt werden soll.
+
+**Attraktions-QuickInfo anzeigen**:
+
+Mit der Option „Attraktions-QuickInfo anzeigen“ wird definiert, ob die Attraktions-QuickInfo (*Zum Beginnen irgendwo tippen*) angezeigt wird, während der Kanal ausgeführt wird.
+
 
 ### Dayparting  {#dayparting}
 
@@ -158,4 +172,10 @@ Diese Beispiele veranschaulichen die Verwendung von Dayparting durch einen Laden
 |---|---|---|---|
 | A | Winter | 1 | 01. Dezember 2017–31. Dezember 2017 |
 | B | Weihnachten | 2 | 24. Dezember 2017–31. Dezember 2017 |
+
+>[!IMPORTANT]
+> Weitere Informationen zu Dayparting finden Sie in den folgenden Abschnitten:
+>* [Umgang mit sich wiederholenden Assets](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
+>* [Umgang mit sich wiederholenden Assets in einem Kanal](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
+
 
