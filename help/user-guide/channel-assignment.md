@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 7d0925076ecf2038c666b0d53669e5d84c66eedf
+source-git-commit: 1537ef1b86b19a6a474290b0302032e4fe343d1d
 
 ---
 
@@ -88,12 +88,13 @@ Mit „Priorität“ können Zuweisungen geordnet werden, falls mehrere die Wied
 > Diese Option ist nur mit AEM 6.4 Feature Pack 8 oder AEM 6.5 Feature Pack 4 verfügbar.
 
 Als Autor von Inhalten sollten Sie festlegen können, wann ein Kanal unterbrochen wird, damit Sie festlegen können, dass nicht kritische Inhalte abgeschnitten werden sollen. Sie haben jedoch die Möglichkeit, wichtige Inhalte vollständig abspielen zu lassen, bevor die Wiedergabe aufgrund der Zeitplanung abgebrochen wird.
-Die folgenden Optionen stehen zum Festlegen der Unterbrechungsmethode im Dialogfeld &quot; **Kanal-Zuweisung** &quot;zur Verfügung:
+
+Wählen Sie eine der folgenden Optionen aus, die zum Festlegen der Unterbrechungsmethode im Dialogfeld &quot; **Kanal-Zuweisung** &quot;verfügbar sind:
 
 * **Sofort**: Wenn der Zeitplan aktiviert oder ein Update empfangen wird, können Sie die Wiedergabe abbrechen und den neuen Inhalt sofort aktualisieren oder abspielen
 * **Am Ende des aktuellen Elements**: Wenn ein neuer Zeitplan aktiviert wird oder ein Update empfangen wird, haben Sie die Möglichkeit zu warten, bis die Wiedergabe des aktuellen Elements in der Sequenz abgeschlossen ist, und erst danach aktualisieren oder abspielen Sie den neuen Inhalt
    >[!NOTE]
-   >Dies ist die ausgewählte Standardoption.
+   >Standardmäßig ist diese Option aktiviert.
 * **Am Ende der Sequenz**: Wenn ein neuer Zeitplan aktiviert oder ein Update empfangen wird, haben Sie die Möglichkeit, zu warten, bis die gesamte Sequenz ihr Ende erreicht. Kurz vor der gewünschten Sequenz laufen Sie zurück zum ersten Element, aktualisieren Sie den neuen Inhalt oder spielen Sie ihn ab
 
 #### Zeitplan {#schedule-channel}
