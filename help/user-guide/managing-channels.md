@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 67368b950e508eaf88d78c60d9b0e3228b30c11c
+source-git-commit: f3460fe4095907ad65e411fcb6433bfb1c2c2d3c
 
 ---
 
@@ -131,6 +131,28 @@ Im Bedienfeld „Kanalinformationen“ werden die Kanaleigenschaften zusammen mi
 Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view properties, edit the content, or to update cache (offline content) for the channel.
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
+
+#### Anzeigen des Manifests {#view-manifest}
+
+Sie können das Manifest vom Kanal-Dashboard aus Ansicht werden.
+
+>[WICHTIG]
+> Diese Option ist nur mit AEM 6.4 Feature Pack 8 oder AEM 6.5 Feature Pack 4 verfügbar.
+
+Führen Sie die folgenden Schritte aus, um diese Option im Kanal-Dashboard zu aktivieren:
+1. **Kanal auf Offline festlegen**
+   1. Select the channel and select **Properties** from the action bar
+   1. Navigieren Sie zur Registerkarte &quot; **Kanal** &quot;und deaktivieren Sie die Option &quot; **Entwicklermodus&quot;(Kanal muss online sein)** .
+   1. Klicken Sie auf **Speichern und schließen**
+1. **Offline-Inhalt aktualisieren**
+   1. Select the channel and select **Dashboard** from the action bar
+   1. Navigieren Sie zum Bedienfeld **KANAL-Informationen** und klicken Sie auf *...*
+   1. Klicken Sie auf Offline-Inhalt **aktualisieren**
+
+Jetzt sollten Sie die Option &quot; **Ansicht Manifest** &quot;aus dem Bereich &quot; **KANAL-Informationen** &quot;im Kanal-Dashboard sehen können.
+
+![image1](assets/channel-one.png)
+
 
 ### Online- und Offline-Kanäle {#online-and-offline-channels}
 
