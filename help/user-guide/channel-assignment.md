@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 1537ef1b86b19a6a474290b0302032e4fe343d1d
+source-git-commit: fb95f79ea21d8b1234e13a9ef0d5aec74669c5a4
 
 ---
 
@@ -96,6 +96,9 @@ Wählen Sie eine der folgenden Optionen aus, die zum Festlegen der Unterbrechung
    >[!NOTE]
    >Standardmäßig ist diese Option aktiviert.
 * **Am Ende der Sequenz**: Wenn ein neuer Zeitplan aktiviert oder ein Update empfangen wird, haben Sie die Möglichkeit, zu warten, bis die gesamte Sequenz ihr Ende erreicht. Kurz vor der gewünschten Sequenz laufen Sie zurück zum ersten Element, aktualisieren Sie den neuen Inhalt oder spielen Sie ihn ab
+
+   >[!NOTE]
+   >Die Verwendung der zweiten oder dritten Option kann dazu führen, dass die für die Zuweisung festgelegten Zeiträume geringfügig verschoben werden, da der Player vor dem Aktualisieren auf das Ende des Elements oder der Sequenz (nach der angegebenen Zeit) wartet. Die Verzögerung hängt von der Wiedergabedauer des Elements ab.
 
 #### Zeitplan {#schedule-channel}
 
