@@ -10,8 +10,8 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: 67368b950e508eaf88d78c60d9b0e3228b30c11c
 
 ---
 
@@ -24,7 +24,7 @@ Auf dieser Seite wird gezeigt, wie Kanäle für Screens erstellt und verwaltet w
 
 **Voraussetzungen**:
 
-* [Konfigurieren und Bereitstellen von Screens](configuring-screens-introduction.md) 
+* [Konfigurieren und Bereitstellen von Screens](configuring-screens-introduction.md)
 * [Erstellen und Verwalten von Screens-Projekten](creating-a-screens-project.md)
 
 ## Erstellen von neuen Kanälen {#creating-a-new-channel}
@@ -60,7 +60,7 @@ Beim Verwenden des Assistenten stehen unter anderem die folgenden Vorlagenoption
 >
 >Die Splitscreen-Kanäle teilen die Anzeige in mehrere Bereiche, sodass Sie mehrere Erlebnisse gleichzeitig nebeneinander wiedergeben können. Die Erlebnisse können entweder statische Assets/Text oder eingebettete Sequenzen sein.
 
-Im folgenden Beispiel wird das Erstellen eines Sequenzkanals (*ChannelOne*) für ein Screens-Projekt (*Demoproject*) gezeigt.
+The following example shows the creation of a Sequence Channel (*ChannelOne*) for a Screens project (*DemoProject*).
 
 ![demochannel](assets/demochannel.gif)
 
@@ -68,9 +68,8 @@ Im folgenden Beispiel wird das Erstellen eines Sequenzkanals (*ChannelOne*) für
 >
 >Sie können unterschiedliche Bereiche mithilfe der Vorlagenoptionen erstellen, etwa die oben genannten 1x2-, 2x2- oder 2:3-Splitscreen-Kanäle.
 
-***Wichtig***:
-
-Nachdem Sie Inhalte erstellt und dem Kanal hinzugefügt haben, müssen Sie als Nächstes einen Ort und dann eine Anzeige erstellen. Außerdem müssen Sie diesen Kanal einer Anzeige zuweisen. Weitere Informationen finden Sie über die am Ende des Abschnitts genannten Ressourcen.
+>[!IMPORTANT]
+> Nachdem Sie Inhalte erstellt und dem Kanal hinzugefügt haben, müssen Sie als Nächstes einen Ort und dann eine Anzeige erstellen. Außerdem müssen Sie diesen Kanal einer Anzeige zuweisen. Weitere Informationen finden Sie über die am Ende des Abschnitts genannten Ressourcen.
 
 ## Arbeiten mit Kanälen {#working-with-channels}
 
@@ -78,7 +77,7 @@ Sie können Änderungen vornehmen, Eigenschaften und Dashboard anzeigen sowie ei
 
 >[!NOTE]
 >
->Klicken Sie auf das Symbol auf der linken Seite, um ein Element auszuwählen. Beispiel: Klicken Sie auf das Symbol für den Kanal und führen Sie die Schritte aus, die in der folgenden Abbildung dargestellt sind.
+>Wählen Sie den Kanal aus, wie in der Abbildung unten dargestellt.
 
 ![screen_shot_2019-07-24at103723am](assets/screen_shot_2019-07-24at103723am.png)
 
@@ -86,7 +85,7 @@ Sie können Änderungen vornehmen, Eigenschaften und Dashboard anzeigen sowie ei
 
 Um Inhalt in einem Kanal hinzuzufügen oder zu bearbeiten, gehen Sie wie folgt vor:
 
-1. Klicken Sie auf den Kanal, den Sie bearbeiten möchten (wie in der obigen Abbildung gezeigt).
+1. Wählen Sie den zu bearbeitenden Kanal aus (wie in der Abbildung oben gezeigt).
 1. Klicken Sie in der oberen linken Ecke der Aktionsleiste auf **Bearbeiten**, um die Kanaleigenschaften zu bearbeiten. Der Editor wird geöffnet. Sie haben die Möglichkeit, Ihrem Kanal Assets/Komponenten hinzuzufügen, die Sie veröffentlichen möchten.
 
 >[!NOTE]
@@ -95,7 +94,9 @@ Um Inhalt in einem Kanal hinzuzufügen oder zu bearbeiten, gehen Sie wie folgt v
 
 ![demochannel1](assets/demochannel1.gif)
 
-**Hochladen von Videos in den Kanal** Gehen Sie wie folgt vor, um Videos in Ihren Kanal hochzuladen:
+**Hochladen von Videos in den Kanal**
+
+Gehen Sie wie folgt vor, um Videos in Ihren Kanal hochzuladen:
 
 1. Wählen Sie den Kanal aus, in den Sie das Video hochladen möchten.
 1. Klicken Sie in der Aktionsleiste auf **Bearbeiten**, um den Editor zu öffnen.
@@ -118,8 +119,8 @@ Um die Eigenschaften eines Kanals anzuzeigen oder zu bearbeiten, gehen Sie wie f
 
 Um das Dashboard eines Kanals anzuzeigen, gehen Sie wie folgt vor:
 
-1. Klicken Sie auf den Kanal, den Sie bearbeiten möchten.
-1. Klicken Sie in der Aktionsleiste auf **Dashboard**, um das Dashboard anzuzeigen. Das Bedienfeld **KANALINFORMATIONEN**,**ZUGEWIESENE ANZEIGEN** und **AUSSTEHENDE LAUNCHES** wird geöffnet, wie in der folgenden Abbildung dargestellt:
+1. Wählen Sie den zu bearbeitenden Kanal aus.
+1. Click **Dashboard** from the action bar to view the dashboard. Das Bedienfeld **KANALINFORMATIONEN**,**ZUGEWIESENE ANZEIGEN** und **AUSSTEHENDE LAUNCHES** wird geöffnet, wie in der folgenden Abbildung dargestellt:
 
 ![dashboard](assets/dashboard.gif)
 
@@ -127,7 +128,7 @@ Um das Dashboard eines Kanals anzuzeigen, gehen Sie wie folgt vor:
 
 Im Bedienfeld „Kanalinformationen“ werden die Kanaleigenschaften zusammen mit der Kanalvorschau beschrieben. Darüber hinaus finden Sie dort Informationen dazu, ob der Kanal offline oder online ist.
 
-Klicken Sie in der in Aktionsleiste **Kanalinformationen** auf (**...**), um Eigenschaften anzuzeigen, Inhalt zu bearbeiten oder den Cache (Offline-Inhalt) für den Kanal zu aktualisieren.
+Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view properties, edit the content, or to update cache (offline content) for the channel.
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
 
@@ -143,13 +144,13 @@ Ein ***Online-Kanal*** zeigt den aktualisierten Inhalt in der Echtzeitumgebung a
 
 Gehen Sie wie folgt vor, um den Kanal online zu schalten:
 
-1. Navigieren Sie über **TestProject** &gt; **Channels** &gt; **TestChannel** zum Kanal.
+1. Navigieren Sie über **TestProject** > **Channels** > **TestChannel** zum Kanal.
 
    Wählen Sie den Kanal aus.
 
    ![screen_shot_2019-08-01at31406pm](assets/screen_shot_2019-08-01at31406pm.png)
 
-   Klicken Sie in der Aktionsleiste auf **Dashboard**, um den Status des Players anzuzeigen. Im Bedienfeld „ KANALINFORMATIONEN“ wird angezeigt, ob der Kanal online oder offline ist.
+   Klicken Sie in der Aktionsleiste auf **Dashboard**, um den Status des Players anzuzeigen. Im Fenster **KANALINFORMATIONEN** wird angezeigt, ob der Kanal online oder offline ist.
 
    ![screen_shot_2019-08-01at31458pm](assets/screen_shot_2019-08-01at31458pm.png)
 
