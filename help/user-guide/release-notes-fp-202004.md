@@ -4,7 +4,7 @@ seo-title: Versionshinweise für Feature Pack 202004
 description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 2020, das am 15. April 2020 veröffentlicht wurde.
 seo-description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 2020, das am 15. April 2020 veröffentlicht wurde.
 translation-type: tm+mt
-source-git-commit: d6635c0d6bb4e3126fda6b39e933272f0693b576
+source-git-commit: 6c833984748c89cc271e70450c7f51abda2fa7c7
 
 ---
 
@@ -25,12 +25,15 @@ Das Release-Datum für AEM Screens Feature Pack 2004 ist der 15. April 2020.
 
 * **Optionen für die Wiedergabeunterbrechungsstrategie**
 
-   Als Autor können Sie jetzt angeben, wann ein Kanal unterbrochen wird oder nicht, damit der Autor entscheiden kann, nicht kritische Inhalte abzuschneiden, aber Sie haben die Möglichkeit, wichtige Inhalte vollständig abspielen zu lassen, bevor die Wiedergabe aufgrund der Zeitplanung abgebrochen wird.
+   Als Autor von Inhalten sollten Sie festlegen können, wann ein Kanal unterbrochen wird, damit Sie festlegen können, dass nicht kritische Inhalte abgeschnitten werden sollen. Sie haben jedoch die Möglichkeit, wichtige Inhalte vollständig abspielen zu lassen, bevor die Wiedergabe aufgrund der Zeitplanung abgebrochen wird.
 
+   Weitere Informationen zu den Optionen, die im Dialogfeld &quot; **[Kanal-Zuweisung](/help/user-guide/channel-assignment.md#interruption-method-channel)**&quot;zur Implementierung dieser Funktion in Ihr AEM Screens-Projekt verfügbar sind, finden Sie im Abschnitt **Unterbrechungsmethode**.
 
-* **Launches**
+* **Bildschirmstarts**
 
    Der Benutzererlebnisfluss für den Inhaltsautor wurde verbessert und die Anzahl der Klicks zur Verwendung künftiger Veröffentlichungen verringert.
+
+   Weitere Informationen finden Sie unter **[Inhaltsaktualisierung mit Screens-Start](launches.md)**.
 
 * **Kanal-Dashboard**
 
@@ -39,11 +42,15 @@ Das Release-Datum für AEM Screens Feature Pack 2004 ist der 15. April 2020.
 
 * **Manifest anzeigen**
 
-   Sie können das Manifest vom Kanal-Dashboard aus Ansicht werden.
+   Sie können die Manifestdatei jetzt aus dem Kanal-Dashboard Ansicht werden.
+
+   Siehe **[Anzeigen des Manifests](/help/user-guide/managing-channels.md#view-manifest)**.
 
 * **Textüberlagerung**
 
-   Beim Hinzufügen von Test zur Textüberlagerungsfunktion ist die Schriftgröße jetzt viel genauer und aktualisiert.
+   Beim Hinzufügen von Test zur Textüberlagerungsfunktion ist die Schriftgröße präzise und verbessert.
+
+   Auf &quot; **[Textüberlagerung](text-overlay.md)**&quot;verweisen Sie, um in einem Sequenztitel-Kanal ein überzeugendes Erlebnis zu erstellen, indem Sie einen Titel oder eine Beschreibung angeben, die über einem Bild überlagert ist.
 
 * **Verbesserungen bei der Befehlssynchronisierung**
 
