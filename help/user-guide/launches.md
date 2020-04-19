@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 7e3610aef5950bf92423147a39053dea64ab71da
+source-git-commit: 9cc4b31ecd66530a85a7a526e306faf1ec371b2e
 
 ---
 
@@ -179,43 +179,43 @@ Nachdem Sie den Launch erstellt haben, müssen Sie die Launch-Eigenschaften bear
 
 Gehen Sie wie folgt vor, um die Eigenschaften für den Launch zu bearbeiten:
 
-1. Navigieren Sie zum Kanal (**FutureLaunch**) und wählen Sie den Kanal aus, wie in der Abbildung unten dargestellt. Öffnen Sie die Leiste **Referenzen** in der linken Seitenleiste.
+1. Navigieren Sie zum Kanal **FutureLaunch**, *(d. h. dem ausstehenden Start)* , und wählen Sie den Kanal aus, wie in der folgenden Abbildung dargestellt.
 
-   >[!NOTE]
-   >
-   >Wählen Sie in der linken Leiste die Option **Inhaltsstruktur** aus, um den von Ihnen erstellten Launch zu öffnen.
+   ![image](/help/user-guide/assets/launches-images/launches-17.png)
 
-   ![screen_shot_2019-06-25at25852pm](assets/screen_shot_2019-06-25at25852pm.png)
+1. Klicken Sie in der Aktionsleiste auf **Dashboard** und Sie sehen das Fenster **AUSSTEHENDE LAUNCHES** im Dashboard Kanal.
 
-1. Navigieren Sie zu **Launches** und wählen Sie den von Ihnen erstellten Launch (**SummerPromotions**) aus. Klicken Sie auf **Eigenschaften bearbeiten**.
+   ![image](/help/user-guide/assets/launches-images/launches-18.png)
 
-   ![screen_shot_2019-06-25at30008pm](assets/screen_shot_2019-06-25at30008pm.png)
+1. Wählen Sie den Start aus und klicken Sie auf eine der gewünschten Aktionen im Bereich **AUSSTEHENDE LAUNCHES** .
 
-1. Das Dialogfeld für den Launch **SummerPromotions** wird geöffnet. Füllen Sie die folgenden Felder aus:
+   ![image](/help/user-guide/assets/launches-images/launches-19.png)
+
+1. Sie können beispielsweise auf **Starteigenschaften** klicken, um die Eigenschaften für den Start **SummerPromotions** zu bearbeiten.
+
+   ![image](/help/user-guide/assets/launches-images/launches-20.png)
+
+1. Sie können den **Luanch-Titel** bearbeiten und die folgenden Felder ausfüllen:
 
    * Wählen Sie das **Launch-Datum** aus
    * Aktivieren Sie **Produktionsbereit**
    * Wählen Sie **Genehmigte Seiten bewerben** aus **Umfang** aus
-   >[!NOTE]
-   >
-   >Verstehen der Launch-Einträge unter **Automatische Promotion**:
+   **Verstehen der Launch-Einträge unter Automatische Promotion:**
 
-   >    * **Launch-Datum** bezieht sich auf das Live-Datum, d. h. das Datum (und die Uhrzeit), zu dem der Inhalt im Screens-Player gemäß der Zeitzone des Players wiedergegeben wird.
-   >    * **Produktionsbereit** ermöglicht die Promotion von Kanälen und bedeutet, dass der Launch verwendet werden kann.
-   >    * **Umfang** bezieht sich auf die Kanäle, die während eines Launches beworben werden können.
-
-
+   * **Launch-Datum** bezieht sich auf das Live-Datum, d. h. das Datum (und die Uhrzeit), zu dem der Inhalt im Screens-Player gemäß der Zeitzone des Players wiedergegeben wird.
+   * **Produktionsbereit** ermöglicht die Promotion von Kanälen und bedeutet, dass der Launch verwendet werden kann.
+   * **Umfang** bezieht sich auf die Kanäle, die während eines Launches beworben werden können.
    Die folgenden drei Optionen stehen zur Einrichtung des Umfangs zur Verfügung:
-   1. **Vollständigen Launch bewerben**: Alle Kanäle des Launches werden am festgelegten Live-Datum beworben.
-   1. **Geänderte Seiten bewerben**: Es werden nur bearbeitete Launch-Ressourcen beworben. Es wird empfohlen, diese Option zu verwenden, wenn keine Launch-Überprüfung erforderlich ist. Dadurch können Änderungen in den Launch-Kanälen beworben werden.
-   1. **Genehmigte Seiten bewerben**: Nur genehmigte Seiten werden am festgelegten Live-Datum beworben.
-   ![screen_shot_2019-06-26at113805am](assets/screen_shot_2019-06-26at113805am.png)
 
-   >[!CAUTION]
-   >
-   >Bei der Promotion des Launches wird die Zeitzone des Players/Geräts und nicht die des Servers berücksichtigt.
+   * **Vollständigen Launch bewerben**: Alle Kanäle des Launches werden am festgelegten Live-Datum beworben.
+   * **Geänderte Seiten bewerben**: Es werden nur bearbeitete Launch-Ressourcen beworben. Es wird empfohlen, diese Option zu verwenden, wenn keine Launch-Überprüfung erforderlich ist. Dadurch können Änderungen in den Launch-Kanälen beworben werden.
+   * **Genehmigte Seiten bewerben**: Nur genehmigte Seiten werden am festgelegten Live-Datum beworben.
+
+      >[!CAUTION]
+      >
+      >Bei der Promotion des Launches wird die Zeitzone des Players/Geräts und nicht die des Servers berücksichtigt.
+
+
 
 1. Klicken Sie auf **Speichern und schließen**, um zurück zum Kanal **FutureLaunch** zu navigieren.
-
-   ![screen_shot_2019-06-26at114332am](assets/screen_shot_2019-06-26at114332am.png)
 
