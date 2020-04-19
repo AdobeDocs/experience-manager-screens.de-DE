@@ -1,6 +1,6 @@
 ---
-title: Launches
-seo-title: Launches
+title: Inhaltsaktualisierung mit Screenstart
+seo-title: Inhaltsaktualisierung mit Screenstart
 description: Autoren von Inhalten können zukünftige Versionen von Kanälen erstellen, die als Launch bezeichnet werden. Wenn Sie das Live-Datum für diesen Launch festlegen, können Inhalte auf Geräten oder Playern live geschaltet werden.
 seo-description: Autoren von Inhalten können zukünftige Versionen von Kanälen erstellen, die als Launch bezeichnet werden. Wenn Sie das Live-Datum für diesen Launch festlegen, können Inhalte auf Geräten oder Playern live geschaltet werden.
 uuid: fb13117c-b99b-48bd-adb6-040dbd13af16
@@ -10,29 +10,29 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
-translation-type: ht
-source-git-commit: 7250f7a2150debc12b7cc7acc4193f6d4bd5aa7b
+translation-type: tm+mt
+source-git-commit: 6c833984748c89cc271e70450c7f51abda2fa7c7
 
 ---
 
 
-# Launches {#launches}
+# Inhaltsaktualisierung mit Screenstart {#launches}
 
-Autoren von Inhalten können zukünftige Versionen von Kanälen erstellen, die als **Launch** bezeichnet werden. Wenn Sie das Live-Datum für diesen Launch festlegen, können Inhalte auf Geräten oder Playern live geschaltet werden.
+Content authors can create future version of the channel(s), known as **Screens Launch** and further setting live date for this launch allows content to be live in devices or players.
 
-Mithilfe von Launches können Autoren die einzelnen Kanäle im Launch in der Vorschau anzeigen und sollten eine Anfrage zur Überprüfung starten können. Die Gruppe der Genehmigenden erhält eine Benachrichtigung und kann die Anfrage genehmigen oder ablehnen. Wenn das Live-Datum erreicht ist, wird der Inhalt auf den Geräten abgespielt.
+Mithilfe künftiger Veröffentlichungen können Autoren jeden Kanal des Starts Vorschau werden und sollten eine Überprüfungsanfrage starten können. Die Gruppe der Genehmigenden erhält eine Benachrichtigung und kann die Anfrage genehmigen oder ablehnen. Wenn das Live-Datum erreicht ist, wird der Inhalt auf den Geräten abgespielt.
 
 Wenn der Autor z. B. zukünftige Versionen von c1, c2 (Kanäle) erstellen möchte, wird ein Launch erstellt und ein Live-Datum festgelegt (z. B. 10. November, 08:00 Uhr). Alle weiteren Aktualisierungen des Inhalts werden zur Überprüfung gesendet. Nach der Genehmigung und am Live-Datum (10. November, 8:00 Uhr) wird der Inhalt dieses Launches auf den Geräten oder Playern wiedergegeben.
 
 ## Voraussetzungen {#requirements}
 
-Bevor Sie mit der Implementierung von Launches in einem AEM Screens-Projekt beginnen, sollten Sie sich mit dem Konzept der Übergangsphase und ihrer Relevanz vertraut machen.
+Bevor Sie mit der Implementierung der zukünftigen Veröffentlichung in einem AEM Screens-Projekt fortfahren, sollten Sie sich mit dem Konzept der Übergangsphase und ihrer Relevanz vertraut machen.
 
 Im folgenden Abschnitt werden die Übergangsphase und weitere Schritte zur standardmäßigen Konfiguration beschrieben. Sie können auch eine Beispieltestkonfiguration herunterladen, um deren Verwendung zu verstehen.
 
 ### Verstehen der Übergangsphase {#understanding-grace-period}
 
-Mit der folgenden Einrichtung kann der Administrator die in Launches erforderliche ***Übergangsphase ***konfigurieren.
+The following setup allows the admin to configure the ***Grace Period***, required in future publish.
 
 Die **Übergangsphase** umfasst:
 
@@ -60,7 +60,7 @@ Laden Sie die folgenden Testkonfigurationen herunter:
 
 Wenn Sie die oben beschriebene Konfiguration ändern möchten, gehen Sie wie folgt vor:
 
-* Erstellen Sie die Datei ***sling:OsgiConfig/ nt:file in /apps/system/config ***mit dem Namen**com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config **und Inhalt
+* Erstellen Sie die Datei ***sling:OsgiConfig/ nt:file in /apps/system/config*** mit dem Namen **com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config** und Inhalt
 
    *launches.eventhandler.updatelastmodification=B&quot;false&quot;
 launches.eventhandler.launch.promotion.graceperiod=[&quot;/content/screens(/.*):600&quot;]launches.eventhandler.threadpool.maxsize=I&quot;5&quot;
@@ -70,14 +70,14 @@ launches.eventhandler.threadpool.priority=&quot;MIN&quot;*
 
 Das bedeutet, dass die Promotion mit diesem Versatz beginnt, wenn Sie für einen Launch der Ressourcen unter */content/screens* ein Live-Datum festlegen. Wenn das Live-Datum beispielsweise auf 24. November, 9.00 Uhr und die Übergangsphase auf 600 Sekunden eingestellt ist, beginnt der Promotion-Auftrag am 24. November, 08:50 Uhr.
 
-## Verwenden von Launches {#using-launches}
+## Screenstart verwenden {#using-launches}
 
-Gehen Sie wie folgt vor, um Launches in Ihr AEM Screens-Projekt zu implementieren. Dieser Abschnitt behandelt folgende Themen:
+Führen Sie den folgenden Abschnitt aus, um Starts in Ihrem AEM Screens-Projekt zu implementieren. Dieser Abschnitt behandelt folgende Themen:
 
-1. **Erstellen eines Launches**
-1. **Bearbeiten eines Launches zum Festlegen des Live-Datums und des Umfangs**
+1. **Erstellen eines Screenstarts**
+1. **Bearbeiten eines Bildschirmstarts zum Festlegen von Live-Datum und -Gültigkeitsbereich**
 
-### Erstellen eines Launches {#creating-a-launch}
+### Erstellen einer zukünftigen Veröffentlichung {#creating-a-launch}
 
 Gehen Sie wie folgt vor, um zukünftige Veröffentlichungsfunktionen in Ihr AEM Screens-Projekt zu implementieren:
 
