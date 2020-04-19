@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 6c833984748c89cc271e70450c7f51abda2fa7c7
+source-git-commit: 74f6b7c3ab5f725b5cc278f5ae3e80e1271b6860
 
 ---
 
@@ -79,9 +79,9 @@ Führen Sie den folgenden Abschnitt aus, um Starts in Ihrem AEM Screens-Projekt 
 
 ### Erstellen einer zukünftigen Veröffentlichung {#creating-a-launch}
 
-Gehen Sie wie folgt vor, um zukünftige Veröffentlichungsfunktionen in Ihr AEM Screens-Projekt zu implementieren:
+Führen Sie die folgenden Schritte aus, um die Funktionen für Startvorgänge in Ihr AEM Screens-Projekt zu implementieren:
 
-1. Navigieren Sie zum Kanal in Ihrem AEM Screens-Projekt, z. B. **LaunchesDemo** > **Kanäle** > **FutureLaunch** wie unten dargestellt.
+1. Navigate to a sequence channel in your AEM Screens project, for example **LaunchesDemo** --> **Channels** --> **FutureLaunch**, as shown below.
 
    >[!CAUTION]
    >
@@ -89,21 +89,22 @@ Gehen Sie wie folgt vor, um zukünftige Veröffentlichungsfunktionen in Ihr AEM 
 
    ![screen_shot_2019-06-25at15052pm](assets/screen_shot_2019-06-25at15052pm.png)
 
-1. Wählen Sie den Kanal **FutureLaunch** aus und klicken Sie auf **Erstellen**. Wählen Sie **Launch** aus dem Dropdown-Menü aus.
+1. Select the channel **FutureLaunch** and click **Create Launch** from the action bar.
 
-   ![screen_shot_2019-06-25at15459pm](assets/screen_shot_2019-06-25at15459pm.png)
+1. Der Assistent **Launch erstellen** wird geöffnet. Sie können entweder den Kanal auswählen, der bereits im Assistenten angezeigt wird, oder auf **+ Hinzufügen Seiten** klicken, um den Kanal Bildschirme auszuwählen, für den Sie den Start erstellen möchten.
 
-1. Der Assistent **Launch erstellen** wird geöffnet. Klicken Sie auf **+Seiten hinzufügen**, um die AEM Screens-Kanäle auszuwählen, für die Sie den Launch erstellen möchten.
+   >[!NOTE]
+   >Im folgenden Beispiel wird das Erstellen eines Starts für den vorhandenen Kanal im Assistenten veranschaulicht.
 
-   ![screen_shot_2019-06-11at93710am](assets/screen_shot_2019-06-11at93710am.png)
 
-1. Navigieren Sie zum Kanal und klicken Sie auf **Auswählen**.
+   ![screen_shot_2019-06-11at93710am](/help/user-guide/assets/launches-images/launches-a.png)
 
-   ![screen_shot_2019-06-25at20030pm](assets/screen_shot_2019-06-25at20030pm.png)
+1. Select the channel and click **Next** from the action bar.
 
-1. Nachdem Sie die Seite ausgewählt haben, klicken Sie auf **Weiter**, um im Assistenten **Launch erstellen** einen Schritt weiter zu gehen.
+   >[!NOTE]
+   >**Die Option &quot;Unterseiten** einschließen&quot;ist standardmäßig aktiviert.
 
-   ![screen_shot_2019-06-25at20128pm](assets/screen_shot_2019-06-25at20128pm.png)
+   ![Bild](/help/user-guide/assets/launches-images/launches-b.png)
 
 1. Geben Sie unter **Launch-Titel** den Wert **SummerPromotions** ein. Sie müssen für **Launch-Datum** keinen Wert festlegen, wie in der folgenden Abbildung dargestellt. Klicken Sie auf **Erstellen**.
 
@@ -114,7 +115,7 @@ Gehen Sie wie folgt vor, um zukünftige Veröffentlichungsfunktionen in Ihr AEM 
    >
    >Durch *Deaktivieren* der Option **Quellseiten-Live-Daten übernehmen** können die Kanäle ohne Live-Beziehung in den Launch kopiert werden. Wenn also Änderungen am ursprünglichen Kanal vorgenommen werden, werden diese Änderungen nicht auf die Launch-Kanäle angewendet.
 
-   ![screen_shot_2019-06-25at20215pm](assets/screen_shot_2019-06-25at20215pm.png)
+   ![Bild](/help/user-guide/assets/launches-images/launches-c.png)
 
    >[!NOTE]
    >
@@ -124,9 +125,7 @@ Gehen Sie wie folgt vor, um zukünftige Veröffentlichungsfunktionen in Ihr AEM 
 
    ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
 
-   Durch Klicken auf **Fertig** können Sie zurück zu Ihrem Projekt **LaunchesDemo** navigieren.
-
-   ![screen_shot_2019-06-25at20434pm](assets/screen_shot_2019-06-25at20434pm.png)
+   Clicking **Done** allows you to navigate back to your **FutureLaunch** channel.
 
 ### Bearbeiten der Launch-Eigenschaften zum Festlegen des Live-Datums und des Umfangs {#editing-the-launch-properties-to-set-the-live-date-and-scope}
 
