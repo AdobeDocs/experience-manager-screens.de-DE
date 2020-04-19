@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 74f6b7c3ab5f725b5cc278f5ae3e80e1271b6860
+source-git-commit: 7e3610aef5950bf92423147a39053dea64ab71da
 
 ---
 
@@ -77,27 +77,30 @@ Führen Sie den folgenden Abschnitt aus, um Starts in Ihrem AEM Screens-Projekt 
 1. **Erstellen eines Screenstarts**
 1. **Bearbeiten eines Bildschirmstarts zum Festlegen von Live-Datum und -Gültigkeitsbereich**
 
-### Erstellen einer zukünftigen Veröffentlichung {#creating-a-launch}
+### Creating a Screens Launch {#creating-a-launch}
 
 Führen Sie die folgenden Schritte aus, um die Funktionen für Startvorgänge in Ihr AEM Screens-Projekt zu implementieren:
 
-1. Navigate to a sequence channel in your AEM Screens project, for example **LaunchesDemo** --> **Channels** --> **FutureLaunch**, as shown below.
+1. Create a sequence channel in your AEM Screens project, for example **LaunchesDemo** --> **Channels** --> **FutureLaunch**, as shown below.
 
    >[!CAUTION]
    >
    >Sie müssen einen Launch aus einem bereits vorhandenen Kanal in Ihrem AEM Screens-Projekt erstellen.
 
-   ![screen_shot_2019-06-25at15052pm](assets/screen_shot_2019-06-25at15052pm.png)
+   ![Bild](/help/user-guide/assets/launches-images/launches-11.png)
 
 1. Select the channel **FutureLaunch** and click **Create Launch** from the action bar.
 
-1. Der Assistent **Launch erstellen** wird geöffnet. Sie können entweder den Kanal auswählen, der bereits im Assistenten angezeigt wird, oder auf **+ Hinzufügen Seiten** klicken, um den Kanal Bildschirme auszuwählen, für den Sie den Start erstellen möchten.
+   ![Bild](/help/user-guide/assets/launches-images/launches-12.png)
 
-   >[!NOTE]
-   >Im folgenden Beispiel wird das Erstellen eines Starts für den vorhandenen Kanal im Assistenten veranschaulicht.
+1. Der Assistent **Launch erstellen** wird geöffnet. Sie können entweder den Kanal auswählen, der bereits im Assistenten angezeigt wird, oder auf **+ Hinzufügen Kanal** klicken, um den Kanal hinzuzufügen, für den Sie den Start erstellen möchten.
 
 
-   ![screen_shot_2019-06-11at93710am](/help/user-guide/assets/launches-images/launches-a.png)
+#### Verwenden des vorhandenen Kanals {#existing-channel-launch}
+
+1. Wählen Sie den Kanal aus, der bereits im Assistenten zum **Erstellen des Startvorgangs** vorhanden ist, und klicken Sie auf **Weiter**.
+
+   ![image](/help/user-guide/assets/launches-images/launches-b.png)
 
 1. Select the channel and click **Next** from the action bar.
 
@@ -126,6 +129,49 @@ Führen Sie die folgenden Schritte aus, um die Funktionen für Startvorgänge in
    ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
 
    Clicking **Done** allows you to navigate back to your **FutureLaunch** channel.
+
+   ![Bild](/help/user-guide/assets/launches-images/launches-16.png)
+
+
+#### Verwenden der Option &quot;Hinzufügen Kanal&quot; {#add-channel-launch}
+
+1. Klicken Sie auf **+ Hinzufügen Kanal** , um den Kanal hinzuzufügen, für den Sie den Start erstellen möchten.
+
+   ![image](/help/user-guide/assets/launches-images/launches-13.png)
+
+   >[!NOTE]
+   >Die **Option &quot;Auswählen** &quot;wird deaktiviert, wenn Sie versuchen, mehrere Kanal oder einen Ordner zum Hinzufügen des Launches auszuwählen.
+
+1. Navigieren Sie zu dem Kanal, für den Sie den Start erstellen möchten, und klicken Sie auf **Auswählen**.
+
+   ![image](/help/user-guide/assets/launches-images/launches-14.png)
+
+1. Jetzt können Sie den hinzugefügten Kanal auswählen, um einen Start für zu erstellen, und auf **Weiter** klicken.
+
+   ![image](/help/user-guide/assets/launches-images/launches-15.png)
+
+1. Geben Sie unter **Launch-Titel** den Wert **SummerPromotions** ein. Sie müssen für **Launch-Datum** keinen Wert festlegen, wie in der folgenden Abbildung dargestellt. Klicken Sie auf **Erstellen**.
+
+   >[!NOTE]
+   >
+   >Wenn Sie die Option **Quellseiten-Live-Daten übernehmen** *aktivieren*, können die Kanäle im Launch als Live Copies erstellt werden. Wenn Änderungen am ursprünglichen Kanal vorgenommen werden, werden diese Änderungen automatisch auf die Launch-Kanäle angewendet.
+   >
+   >
+   >Durch *Deaktivieren* der Option **Quellseiten-Live-Daten übernehmen** können die Kanäle ohne Live-Beziehung in den Launch kopiert werden. Wenn also Änderungen am ursprünglichen Kanal vorgenommen werden, werden diese Änderungen nicht auf die Launch-Kanäle angewendet.
+
+   ![Bild](/help/user-guide/assets/launches-images/launches-c.png)
+
+   >[!NOTE]
+   >
+   >Sie können das Live-Launch-Datum in diesem Schritt festlegen oder es später einrichten, während Sie die Eigenschaften des Launches bearbeiten, nachdem er bereits erstellt wurde.
+
+1. Sie sehen, dass Ihr Launch erstellt wurde. Sie können entweder auf **Öffnen** klicken, um die Seiten im Editor anzuzeigen, oder auf **Fertig**, um zu Ihrem Projekt zurückzukehren.
+
+   ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
+
+   Clicking **Done** allows you to navigate back to your **FutureLaunch** channel.
+
+   ![Bild](/help/user-guide/assets/launches-images/launches-16.png)
 
 ### Bearbeiten der Launch-Eigenschaften zum Festlegen des Live-Datums und des Umfangs {#editing-the-launch-properties-to-set-the-live-date-and-scope}
 
