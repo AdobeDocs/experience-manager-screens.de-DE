@@ -2,9 +2,9 @@
 cloud: experience-cloud
 product: experience manager
 audience: end-user
-user-guide-title: Adobe Experience Manager Screens Help
+user-guide-title: Adobe Experience Manager Screens-Hilfe
 translation-type: tm+mt
-source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
+source-git-commit: 6c833984748c89cc271e70450c7f51abda2fa7c7
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
 + [Einführung in Screens](aem-screens-introduction.md)
 + Übersicht und Schnellstartanleitung {#overview}
    + [Schnellstartanleitung](kickstart-for-aem-screens.md)
-   + [Leitfaden zu Best Practices für Screens](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)
+   + [Leitfaden zu Best Practices für Screens](https://docs.adobe.com/content/help/de-DE/experience-manager-screens/using/about-guide.html)
    + [Schlüsselbegriffe](screens-glossary.md)
 + Netzwerkgrundlagen für digitale Beschilderung {#digital-signage-network}
    + [Teil 1: Projektrollen und Zuständigkeiten](project-roles-responsibilities.md)
@@ -72,7 +72,7 @@ source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
    + Verwalten von Inhaltsaktualisierungen {#content-updates}
       + [On-Demand-Inhaltsaktualisierungen](on-demand-content.md)
       + [Aktualisierungen von Content-as-a-Service](content-update-as-a-service.md)
-      + [Inhaltsaktualisierungen mit Launches](launches.md)
+      + [Inhaltsaktualisierung mit Screenstart](launches.md)
    + Nutzungsszenarios {#use-case-examples}
       + [Notfallkanäle](emergency-channel.md)
       + [Temperaturaktivierung für ein Reiseangebot](local-temperature-activation.md)
@@ -91,7 +91,7 @@ source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
    + [Einbetten einer REACT-Anwendung mit AEM SPA Editor und Integration mit AEM Screens Analytics](embedding-react-app.md)
    + [Konfigurieren von ContextHub in AEM Screens](configuring-context-hub.md)
    + [Erstellen benutzerdefinierter Vorlagen für Mehrzonen-Layouts ](creating-custom-templates-multizone-layouts.md)
-   + [Anwenden von benutzerdefiniertem Branding und Formatierung für Textüberlagerungen](custom-branding-text-overlays.md)
+   + [Anwenden von benutzerdefiniertem Branding und Styling für Textüberlagerungen](custom-branding-text-overlays.md)
 + Problembehebung und häufig gestellte Fragen {#troubleshooting}
    + [Häufig gestellte Fragen zu AEM Screens](aem-screens-faqs.md)
    + [Problembehebung in der Gerätesteuerung](monitoring-screens.md)
