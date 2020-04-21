@@ -2,8 +2,8 @@
 title: Inhaltserstellung mit Datenauslösern
 seo-title: Inhaltserstellung mit Datenauslösern
 description: Auf dieser Seite erfahren Sie, wie Sie mit Datenauslösern Inhalte erstellen.
-translation-type: ht
-source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
+translation-type: tm+mt
+source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
 
 ---
 
@@ -31,7 +31,7 @@ Nachdem Sie die vorherigen Schritte durchgeführt haben, können Sie Targeting i
 
 ## Überblick über die Inhaltserstellung mit Datenauslösern {#author-targeting}
 
->[!VIDEO](https://video.tv.adobe.com/v/31921?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/31921)
 
 ## Aktivieren von Targeting in einem AEM Screens-Kanal {#enabling-targeting}
 
@@ -43,7 +43,7 @@ Gehen Sie wie folgt vor, um Targeting in Ihren Kanälen zu aktivieren.
 
    ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
-1. Wählen Sie die Registerkarte **Personalisierung**, um die ContextHub-Konfigurationen einzurichten.
+1. Wählen Sie auf der Registerkarte &quot; **Personalisierung** &quot;die ContextHub-Konfigurationen aus und wählen Sie den Pfad &quot;ContextHub&quot;und &quot;Segmente&quot;.
 
    1. Wählen Sie unter **ContextHub-Pfad** den Wert **libs** > **settings** > **cloudsettings** > **default** > **ContextHub Konfigurationen** aus und klicken Sie auf **Auswählen**.
 
