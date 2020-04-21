@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 358c22018bf933e5b5418f202eb70b1a39a49783
+source-git-commit: 2a36ecd81d250f449e3fa870309674bf2dc771d0
 
 ---
 
@@ -67,7 +67,7 @@ Die folgende Validierung wird angezeigt, wenn Sie Ihre Verbindung prüfen, indem
 >[!NOTE]
 > Im folgenden Beispiel werden Google-Tabellenblätter als Datenspeicher gezeigt, der eine Asset-Änderung auslöst, wenn der Wert größer als 100 oder kleiner als 50 ist.
 
-## Schritt 2: Einrichten von Store-Konfigurationen {#step-setting-store-configurations}
+## Schritt 2: Einrichten von Speicherkonfigurationen {#step-setting-store-configurations}
 
 1. **Navigieren zu ContextHub**
 
@@ -93,7 +93,12 @@ Die folgende Validierung wird angezeigt, wenn Sie Ihre Verbindung prüfen, indem
       ![image](/help/user-guide/assets/context-hub/context-hub5.png)
 
    1. Geben Sie unter **Titel** den Wert **Google Tabellen**, unter **Speichername** den Wert **googlesheets** und unter **Speichertyp** den Wert **contexthub.generic-jsonp** ein und klicken Sie auf **Weiter**.
+
       ![image](/help/user-guide/assets/context-hub/context-hub6.png)
+
+      >[!NOTE]
+      >
+      >Geben Sie in AEM 6.4 den **Konfigurationstitel** als **googlesheets** und den **Store-Typ** als **contexthub.generic-jsonp** ein.
 
    1. Geben Sie Ihre spezifische json-Konfiguration ein. Sie können beispielsweise die folgende JSON-Datei für Demozwecke verwenden und auf **Speichern** klicken. Die Speicherkonfiguration wird dann in der ContextHub-Konfiguration als **Google Tabellen** angegeben.
 
@@ -123,19 +128,19 @@ Ersetzen Sie den Code durch Ihre *&lt;Tabellenblatt-ID>* und Ihren *&lt;API-Schl
       >[!CAUTION]
       Wenn Sie Google Tabellen-Speicherkonfigurationen außerhalb des globalen Ordners erstellen (z. B. in Ihrem eigenen Projektordner), funktioniert das Targeting nicht standardmäßig.
 
-1. **Einrichten der Store-Segmentierung**
+1. **Einrichten der Speichersegmentierung**
 
-   1. Navigieren Sie zur **ContentHub Store-Konfiguration.** und erstellen Sie eine weitere Store-Konfiguration im Container für die Bildschirmkonfiguration und legen Sie den **Titel** als **segmentation-contexthub**, **Store-Name** als **Segmentierung** und **Store-Typ** **** alsaem.segmentationfest.
+   1. Navigieren Sie zu **ContextHub-Speicherkonfiguration …** und erstellen Sie eine weitere Speicherkonfiguration im Screens-Konfigurations-Container und legen Sie den **Titel** als **segmentation-contexthub**, den **Speichernamen** als **Segmentierung** und den **Speichertyp** als **alsaem.segmentation** fest.
 
       ![image](/help/user-guide/assets/context-hub/context-hub7.png)
 
-   1. Click **Next** and then **Save**.
+   1. Klicken Sie auf **Weiter** und dann auf **Speichern**.
 
       >[!NOTE]
-Sie müssen den Prozess der Definition des JSON überspringen und es leer lassen.
+Sie müssen die Definition der JSON-Datei überspringen und diese leer lassen.
 
 
-## Schritt 3: Einrichten von Segmenten in der Audience {#setting-up-audience}
+## Schritt 3: Einrichten von Segmenten in der Zielgruppe {#setting-up-audience}
 
 1. **Erstellen von Segmenten in Zielgruppen**
 
@@ -143,22 +148,22 @@ Sie müssen den Prozess der Definition des JSON überspringen und es leer lassen
 
    1. Klicken Sie auf **Erstellen** > **ContextHub-Segment erstellen.** Das Dialogfeld **Neues ContextHub-Segment** wird geöffnet.
 
-   1. Enter the **Title** as **Higherthan50** and click **Create**. Similarly, create another segment titled as **Lowerthan50**.
+   1. Geben Sie unter **Titel** den Wert **Higherthan50** ein und klicken Sie auf **Erstellen**. Erstellen Sie auf ähnliche Weise ein weiteres Segment mit der Bezeichnung **Lowerthan50**.
 
       ![image](/help/user-guide/assets/context-hub/context-hub11.png)
 
-   1. Select the segment **Higherthan50** and click **Properties** from the action bar.
+   1. Wählen Sie das Segment **Higherthan50** aus und klicken Sie in der Aktionsleiste auf **Eigenschaften**.
       ![image](/help/user-guide/assets/context-hub/context-hub12.png)
 
-   1. Wählen Sie die Registerkarte **Personalisierung** aus den **Segmenteigenschaften**. Stellen Sie den **ContextHub-Pfad** auf `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` und den **Segmentpfad** auf ein `/conf/screens/settings/wcm/segments` und klicken Sie auf **Speichern**, wie in der folgenden Abbildung dargestellt.
+   1. Wählen Sie die Registerkarte **Personalisierung** aus den **Segmenteigenschaften** aus. Stellen Sie den **ContextHub-Pfad** auf `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` und den **Segmentpfad** auf `/conf/screens/settings/wcm/segments` ein und klicken Sie auf **Speichern**, wie in der folgenden Abbildung dargestellt.
 
       ![image](/help/user-guide/assets/context-hub/context-hub13.png)
 
-   1. Stellen Sie auf ähnliche Weise auch das Segment **ContextHub Path** und den **Segmentpfad** für **Weniger als 50** ein.
+   1. Stellen Sie auf ähnliche Weise auch den **ContextHub-Pfad** und den **Segmentpfad** für das Segment **Lowerthan50** ein.
 
 ## Schritt 4: Einrichten von Marke und Bereich {#setting-brand-area}
 
-Gehen Sie wie folgt vor, um eine Marke in Ihren Aktivitäten und Bereichen unter der Marke zu erstellen:
+Gehen Sie wie folgt vor, um eine Marke in Ihren Aktivitäten und einen Bereich unter der Marke zu erstellen:
 
 1. **Erstellen einer Marke in „Aktivitäten“**
 
@@ -166,16 +171,16 @@ Gehen Sie wie folgt vor, um eine Marke in Ihren Aktivitäten und Bereichen unter
 
    1. Klicken Sie auf **Erstellen** > **Marke erstellen**.
 
-   1. Select **Brand** from the **Create Page** wizard and click **Next**.
+   1. Wählen Sie im Assistenten **Seite erstellen** die Option **Marke** aus und klicken Sie auf **Weiter**.
 
-   1. Enter the **Title** as **ScreensBrand** and click **Create**. Ihre Marke wird jetzt wie unten dargestellt erstellt.
+   1. Geben Sie unter **Titel** den Wert **ScreensBrand** ein und klicken Sie auf **Erstellen**. Ihre Marke wird jetzt wie unten dargestellt erstellt.
 
       ![image](/help/user-guide/assets/context-hub/context-hub8.png)
 
 
       >[!CAUTION]
       Bekanntes Problem:
-Um einen Bereich hinzuzufügen, entfernen Sie die Master aus der URL, z. B.
+Um einen Bereich hinzuzufügen, entfernen Sie den Master aus der URL, z. B.
       `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`.
 
 1. **Erstellen eines Bereichs in Ihrer Marke**
@@ -186,10 +191,10 @@ Um einen Bereich hinzuzufügen, entfernen Sie die Master aus der URL, z. B.
 
       ![image](/help/user-guide/assets/context-hub/context-hub9.png)
 
-   1. Select **Area** from the **Create Page** wizard and click **Next**.
+   1. Wählen Sie im Assistenten **Seite erstellen** die Option **Bereich** aus und klicken Sie auf **Weiter**.
 
-   1. Enter the **Title** as **ScreensValue** and click **Create**.
-Ein Bereich wird in Ihrer Marke erstellt.
+   1. Geben Sie unter **Titel** den Wert **ScreensValue** ein und klicken Sie auf **Erstellen**.
+Es wird ein Bereich in Ihrer Marke erstellt.
 
 ## Schritt 5: Erstellen der Segmente in einer Aktivität {#step-setting-up-audience-segmentation}
 
@@ -197,33 +202,33 @@ Nachdem Sie einen Datenspeicher eingerichtet und Ihre Aktivität (Marke und Bere
 
 1. **Erstellen von Segmenten in Aktivitäten**
 
-   1. Navigate from your AEM instance to **Personalization** > **Activities** > **ScreensBrand** >**ScreensValue**.
+   1. Navigieren Sie von Ihrer AEM-Instanz aus zu **Personalisierung** > **Aktivitäten** > **ScreensBrand** > **ScreensValue**.
 
-   1. Click **Create** > **Create Activity.** Der Assistent zum **Konfigurieren der Aktivität** wird geöffnet.
+   1. Klicken Sie auf **Erstellen** > **Aktivität erstellen.** Der **Assistent zum Konfigurieren der Aktivität** wird geöffnet.
 
-   1. Geben Sie den **Titel** als **ValueCheck50** und **Name** als **valueCheck50** ein. Wählen Sie die **Targeting-Engine** als **ContextHub (AEM)** aus der Dropdownliste und klicken Sie auf **Weiter**.
+   1. Geben Sie den **Titel** als **ValueCheck50** und den **Namen** als **valueCheck50** ein. Wählen Sie die **Targeting-Engine** als **ContextHub (AEM)** aus der Dropdown-Liste aus und klicken Sie auf **Weiter**.
 
       ![image](/help/user-guide/assets/context-hub/context-hub14.png)
 
-   1. Klicken Sie **Hinzufügen Erlebnis** im Assistenten zur **Konfiguration der Aktivität**.
+   1. Klicken Sie im **Assistent zum Konfigurieren der Aktivität** auf **Erlebnis hinzufügen**.
 
-   1. Wählen Sie in den **Audiencen** das **Higherthan50** aus und klicken Sie auf **Hinzufügen Erlebnis** und geben Sie den **Titel** als **höher als50** Name50 **** **** alshigherthan50 ein. Klicken Sie auf **OK**.
+   1. Wählen Sie **Higherthan50** aus den **Zielgruppen** aus. Klicken Sie auf **Erlebnis hinzufügen** und geben Sie den **Titel** als **higherthan50** und den **Namen** als **higherthan50** ein. Klicken Sie auf **OK**.
 
-   1. Wählen Sie in den **Audiencen** den Wert **Weniger als 50** und klicken Sie auf **Hinzufügen Erlebnis** und geben Sie den **Titel** als **50** Nameals50 **ein50** ****. Klicken Sie auf **OK**.
+   1. Wählen Sie **Lowerthan50** aus den **Zielgruppen** aus. Klicken Sie auf **Erlebnis hinzufügen** und geben Sie den **Titel** als **lowerthan50** und den **Namen** als **lowerthan50** ein. Klicken Sie auf **OK**.
 
       ![image](/help/user-guide/assets/context-hub/context-hub15.png)
 
-   1. Click **Next** and then **Save**. **Die ValueCheck50** -Aktivität wird jetzt erstellt und konfiguriert.
+   1. Klicken Sie auf **Weiter** und dann auf **Speichern**. Die Aktivität **ValueCheck50** wird jetzt erstellt und konfiguriert.
 
       ![image](/help/user-guide/assets/context-hub/context-hub16.png)
 
-## Schritt 5: Bearbeiten der Segmente in Audiencen{#editing-audience-segmentation}
+## Schritt 5: Bearbeiten der Segmente in Zielgruppen{#editing-audience-segmentation}
 
 1. **Bearbeiten der Segmente**
 
    1. Navigieren Sie von Ihrer AEM-Instanz zu **Personalisierung** > **Zielgruppen** > **Screens**.
 
-   1. Select the segment **Higherthan50**, and click **Edit** from the action bar.
+   1. Wählen Sie das Segment **Higherthan50** aus und klicken Sie in der Aktionsleiste auf **Bearbeiten**.
 
    1. Ziehen Sie die Komponente **Vergleich: Eigenschaft - Wert** in den Editor.
 
@@ -232,11 +237,11 @@ Nachdem Sie einen Datenspeicher eingerichtet und Ihre Aktivität (Marke und Bere
    1. Wählen Sie **googlesheets/value/1/0** aus der Dropdown-Liste in **Eigenschaftsname** aus.
 
       >[!NOTE]
-Die **googlesheets/Wert/1/0** bezieht sich auf die Zeile 2 und die Spalte, wie in den Google-Blättern in der folgenden Abbildung dargestellt:
+**googlesheets/Wert/1/0** bezieht sich auf die Zeile 2 und die Spalte, wie in den Google-Tabellenblättern in der folgenden Abbildung angegeben:
 
       ![image](/help/user-guide/assets/context-hub/context-hub17.png)
 
-   1. Select the **Operator** as **greater-than** from the drop-down menu.
+   1. Wählen Sie unter **Operator** den Wert **größer als** aus dem Dropdown-Menü aus.
 
    1. Geben Sie den **Wert** als **70** ein.
 
@@ -244,7 +249,7 @@ Die **googlesheets/Wert/1/0** bezieht sich auf die Zeile 2 und die Spalte, wie i
       AEM validiert Ihre Daten aus dem Google-Tabellenblatt, indem Ihr Segment grün anzeigt wird.
 
       ![image](/help/user-guide/assets/context-hub/context-hub18.png)
-   Bearbeiten Sie die Eigenschaftswerte auf **Weniger als 50**.
+   Geben Sie die Eigenschaftswerte als **Lowerthan50** an.
 
    1. Ziehen Sie die Komponente **Vergleich: Eigenschaft - Wert** in den Editor.
 
@@ -252,19 +257,19 @@ Die **googlesheets/Wert/1/0** bezieht sich auf die Zeile 2 und die Spalte, wie i
 
    1. Wählen Sie **googlesheets/value/1/0** aus der Dropdown-Liste in **Eigenschaftsname** aus.
 
-   1. Select the **Operator** as **less-than** from the drop-down menu.
+   1. Wählen Sie unter **Operator** den Wert **kleiner als** aus dem Dropdown-Menü aus.
 
    1. Geben Sie den **Wert** als **50** ein.
 
 
 
-## Enabling Targeting in Channels {#step-enabling-targeting-in-channels}
+## Aktivieren von Targeting in Kanälen {#step-enabling-targeting-in-channels}
 
 Gehen Sie wie folgt vor, um Targeting in Ihren Kanälen zu aktivieren.
 
-1. Navigieren Sie zu einem der AEM Screens-Kanäle. The following steps demonstrate how to enable targeting by using **DataDrivenChannel** created in an AEM Screens Channel.
+1. Navigieren Sie zu einem der AEM Screens-Kanäle. Die folgenden Schritte zeigen, wie Sie das Targeting mit **DataDrivenChannel** aktivieren, das in einem AEM Screens-Kanal erstellt wurde.
 
-1. Select the channel **TargetChannel** and click **Properties** from the action bar.
+1. Wählen Sie den Kanal **TargetChannel** aus und klicken Sie in der Aktionsleiste auf **Eigenschaften**.
 
    ![image](/help/user-guide/assets/context-hub/context-hub19.png)
 
@@ -279,7 +284,7 @@ Gehen Sie wie folgt vor, um Targeting in Ihren Kanälen zu aktivieren.
 
       ![image](/help/user-guide/assets/context-hub/context-hub20.png)
 
-   1. Navigate and select the **TargetChannel** channel and click **Edit** from the action bar.
+   1. Navigieren Sie zu und wählen Sie **TargetChannel** aus und klicken Sie in der Aktionsleiste auf **Bearbeiten**.
 
       >[!NOTE]
       Wenn Sie alles korrekt eingerichtet haben, sehen Sie die Option **Targeting** in der Dropdown-Liste des Editors, wie in der Abbildung unten gezeigt.
