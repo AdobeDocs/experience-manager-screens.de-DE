@@ -9,7 +9,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 64e4d6ae-3fd3-41ec-84e1-cc2cac7b2519
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8356d5eb9449fd31d293c030620588e47fa6513e
 
 ---
@@ -19,9 +19,9 @@ source-git-commit: 8356d5eb9449fd31d293c030620588e47fa6513e
 
 Im folgenden Abschnitt wird erläutert, wie Sie Projekte mithilfe von ACLs separieren können, sodass jede Person bzw. jedes Team ein eigenes Projekt erhält.
 
-Als AEM-Administrator möchten Sie sicherstellen, dass die Teammitglieder eines Projekts sich nicht in andere Projekte einmischen und jedem Benutzer gemäß den Projektanforderungen spezifische Rollen zugewiesen werden.
+Als AEM-Administrator möchten Sie sicherstellen, dass für ein bestimmtes Projekt zuständige Team-Mitglieder nicht in andere Projekte eingreifen und dass den Benutzern je nach den Projektanforderungen spezifische Rollen zugewiesen werden.
 
-## Einrichten von Berechtigungen    {#setting-up-permissions}
+## Einrichten von Berechtigungen      {#setting-up-permissions}
 
 Die folgenden Schritte fassen die Vorgehensweise zum Einrichten von ACLs für ein Projekt zusammen:
 
@@ -76,7 +76,7 @@ Die folgende Tabelle fasst den Pfad mit den Berechtigungen auf Projektebene zusa
 >
 >In einigen Fällen können Sie separate Autorenfunktionen (wie das Verwalten von Assets und das Erstellen von Kanälen) von den Administratorfunktionen (wie dem Registrieren von Playern) trennen. Erstellen Sie bei solchen Szenarien zwei Gruppen, fügen Sie die Gruppe „authors“ zu „contributors“ hinzu und fügen Sie die Gruppe „admin“ sowohl zu „contributors“ als auch zu „user-administrators“ hinzu.
 
-### Erstellen von Gruppen    {#creating-groups}
+### Erstellen von Gruppen      {#creating-groups}
 
 Bei der Erstellung eines neuen Projekts sollten auch Standardbenutzergruppen erstellt werden, denen eine Reihe von Berechtigungen zugewiesen ist. Sie sollten die Berechtigungen auf die typischen Rollen erweitern, über die wir bei AEM Screens verfügen.
 
@@ -131,7 +131,7 @@ Die folgende Tabelle fasst bei einem AEM Screens-Projekt die Gruppen mit Beschre
     </ul> </td>
   </tr>
   <tr>
-   <td>Bildschirme<br /> für Player- <em>Bildschirme-&lt;Projekt&gt;-Geräte</em></td>
+   <td>Screens Player<br /> <em>screens-&lt;Projekt&gt;-devices</em></td>
    <td>Gruppiert alle Player und alle Player/Geräte sind automatisch Mitglied von „contributors“</td>
    <td><p> Mitglied von „contributors“</p> </td>
   </tr>
