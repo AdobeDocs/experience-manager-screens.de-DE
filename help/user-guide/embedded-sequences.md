@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: fc13d713-af30-4a54-8408-920f78fd2b2f
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1222b1fcfedcc68c360c69867d3db4044ce8e7d8
 
 ---
@@ -31,7 +31,7 @@ Sie haben die Möglichkeit, die folgenden Komponenten zu Ihrem Sequenzkanal hinz
 >
 >Weitere Informationen zum Verwenden anderer Komponenten in Ihrem Screens-Projekt finden Sie unter [Hinzufügen von Komponenten zu einem Kanal](adding-components-to-a-channel.md).
 
-### Hinzufügen einer eingebetteten Sequenz     {#adding-an-embedded-sequence}
+### Hinzufügen einer eingebetteten Sequenz       {#adding-an-embedded-sequence}
 
 Sie können Ihrem Kanal eine eingebettete Sequenz hinzufügen. Bei einer eingebetteten Sequenz handelt es sich um einen weiteren Kanal mit Assets wie Bildern oder Videos. Durch Hinzufügen einer eingebetteten Sequenz können Benutzer die Sequenz über den ***Kanalpfad*** in einen Kanal aufnehmen.
 
