@@ -11,64 +11,66 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 9cc4b31ecd66530a85a7a526e306faf1ec371b2e
+source-git-commit: 14a45b58862477ec6be082ab1c059f991b086755
 
 ---
 
 
 # Inhaltsaktualisierung mit Screenstart {#launches}
 
-Content authors can create future version of the channel(s), known as **Screens Launch** and further setting live date for this launch allows content to be live in devices or players.
+Autoren von Inhalten können zukünftige Versionen des Kanals/der  erstellen, die als **Bildschirmstart** bezeichnet werden, und das Live-Datum für diesen Start weiter festlegen. Dadurch kann der Inhalt am angegebenen Live-Datum auf Geräten oder Playern live geschaltet werden.
 
-Mithilfe künftiger Veröffentlichungen können Autoren jeden Kanal des Starts Vorschau werden und sollten eine Überprüfungsanfrage starten können. Die Gruppe der Genehmigenden erhält eine Benachrichtigung und kann die Anfrage genehmigen oder ablehnen. Wenn das Live-Datum erreicht ist, wird der Inhalt auf den Geräten abgespielt.
+With the help of **Screens Launches**, authors can preview each channel in the launch and should be able to initiate a request for review. Die Gruppe der Genehmigenden erhält eine Benachrichtigung und kann die Anfrage genehmigen oder ablehnen. Wenn das Live-Datum erreicht ist, wird der Inhalt auf den Geräten abgespielt.
 
 Wenn der Autor z. B. zukünftige Versionen von c1, c2 (Kanäle) erstellen möchte, wird ein Launch erstellt und ein Live-Datum festgelegt (z. B. 10. November, 08:00 Uhr). Alle weiteren Aktualisierungen des Inhalts werden zur Überprüfung gesendet. Nach der Genehmigung und am Live-Datum (10. November, 8:00 Uhr) wird der Inhalt dieses Launches auf den Geräten oder Playern wiedergegeben.
 
 ## Voraussetzungen {#requirements}
 
-Bevor Sie mit der Implementierung der zukünftigen Veröffentlichung in einem AEM Screens-Projekt fortfahren, sollten Sie sich mit dem Konzept der Übergangsphase und ihrer Relevanz vertraut machen.
+Bevor Sie den Beginn &quot;Screens Launches&quot;in einem AEM Screens-Projekt nutzen, sollten Sie sich mit dem Konzept der Übergangsphase und ihrer Relevanz vertraut machen.
 
-Im folgenden Abschnitt werden die Übergangsphase und weitere Schritte zur standardmäßigen Konfiguration beschrieben. Sie können auch eine Beispieltestkonfiguration herunterladen, um deren Verwendung zu verstehen.
+Das Ausführen eines Erlebnisses am festgelegten Live-Datum auf dem Player umfasst Folgendes:
+
+* Förderung des Launch (in der Regel einige Sekunden)
+
+* Veröffentlichen der Ressourcen für Instanzen im Veröffentlichungsmodus (in der Regel einige Minuten, je nach Größe der Kanal oder Assets, die veröffentlicht werden müssen))
+
+* Zeit, die der Abschluss der Offline-Aktualisierung dauert (in der Regel einige Minuten)
+
+* Zeit, die die Player zum Herunterladen des Inhalts aus der Veröffentlichungsinstanz benötigen (in der Regel dauert es je nach Bandbreite und Größe der herunterzuladenden Assets Minuten)
+
+* alle Zeitunterschiede zwischen Server und Player
 
 ### Verstehen der Übergangsphase {#understanding-grace-period}
 
-The following setup allows the admin to configure the ***Grace Period***, required in future publish.
+Damit der Player den Beginn beim Abspielen des Inhalts am festgelegten Live-Datum ausführen kann, müssen die zuvor genannten Aktivitäten vor dem Live-Datum Beginn werden.
 
-Die **Übergangsphase** umfasst:
-
-* Promotion des Launches
-* Veröffentlichen der Ressourcen zur Veröffentlichung von Instanzen
-* Zeit, die die Geräte zum Herunterladen des Inhalts von der Veröffentlichungsinstanz benötigen, sowie etwaige Zeitunterschiede zwischen Server und Player
+Wenn das Livedatum 24. *Nov., 9.00 Uhr* und die Übergangsphase *24 Stunden* beträgt, wird die obige Aktionssequenz am (Livedatum - Übergangsphase), d. h. am 23. November, um 9.00 Uhr morgens, Beginn. Dadurch erhalten Sie 24 Stunden Zeit, um alle oben genannten Aktionen durchzuführen, und der Inhalt erreicht die Spieler. Spieler werden verstehen, dass es sich um einen Startinhalt handelt, sodass der Inhalt nicht sofort abgespielt wird. Player speichern diesen Inhalt jedoch als zukünftige Version und werden genau am festgelegten Live-Datum in der Zeitzone des Players abgespielt.
 
 Angenommen, der Server befindet sich in PST und die Geräte in EST. Die maximale Zeitdifferenz beträgt in diesem Fall 3 Stunden. Es wird davon ausgegangen, dass die Promotion 1 Minute und die Veröffentlichung von der Autoren- auf der Veröffentlichungsinstanz 10 Minuten dauert und der Player die Ressourcen in der Regel in 10-15 Minuten herunterladen kann. Dann ist Übergangsphase = Zeitunterschied (3 Stunden) + Zeit für die Promotion des Launches (1 Min.) + Zeit für die Veröffentlichung des Launches (10 Min.) + Zeit zum Herunterladen auf den Player (10-15 Min.) + Puffer (z. B. 30 Min.) = 3 Stunden 56 Min. = 14160 Sekunden. Wann immer wir also einen Launch live planen, beginnt die Promotion um diesen Zeitversatz früher. In der obigen Gleichung nehmen die meisten Elemente nicht viel Zeit in Anspruch. Wenn wir den maximalen Zeitunterschied zwischen dem Server und einem Player kennen, können wir einen guten Schätzwert für diesen Versatz verwenden.
 
-### Konfigurieren der standardmäßigen Übergangsphase {#configuring-out-of-the-box-grace-period}
-
-Standardmäßig ist die Übergangsphase für einen Launch auf 24 Stunden festgelegt. Das bedeutet, dass die Promotion mit diesem Versatz beginnt, wenn wir für einen Launch der Ressourcen unter */content/screens* ein Live-Datum festlegen. Wenn das Live-Datum beispielsweise auf 24. November, 9:00 Uhr und die Übergangsphase auf 24 Stunden eingestellt ist, beginnt der Promotion-Auftrag am 23. November, 09:00 Uhr.
-
-### Herunterladen von Konfigurationen {#downloading-configurations}
-
-Laden Sie die folgenden Testkonfigurationen herunter:
-
-[Datei laden](assets/launches_event_handlerconfig-10.zip)
-
 >[!NOTE]
->
->Die oben genannte Konfiguration hat in dieser Testkonfiguration 600 Sekunden als Übergangsphase.
+>Out-of-the-box, the grace period for screens launches is set to 24 hours which means that when we set live date for any launch for the resources under */content/screens*, the promotion will start with this offset.
 
-#### Aktualisieren der Konfigurationen {#updating-the-configurations}
+### Updating out-of-the-box Grace Period {#updating-out-of-the-box-grace-period}
 
-Wenn Sie die oben beschriebene Konfiguration ändern möchten, gehen Sie wie folgt vor:
+In diesem Abschnitt wird beschrieben, wie Sie eine vordefinierte Übergangsphase auf 10 Minuten aktualisieren können:
 
-* Erstellen Sie die Datei ***sling:OsgiConfig/ nt:file in /apps/system/config*** mit dem Namen **com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config** und Inhalt
+1. Navigieren Sie zu CRXDE Lite und dann zu `/libs/system/config.author/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config`.
+2. Klicken Sie mit der rechten Maustaste und kopieren Sie die Datei.
+3. Navigieren Sie zum Ordner, klicken Sie mit der rechten Maustaste `/apps/system/config` und fügen Sie ihn ein.
+4. Klicken Sie auf die Dublette, `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` um die Datei im Editor in CRXDE Lite zu öffnen. Es muss die Übergangsphase für den Pfad */Inhalt/Bildschirme/* als 86400 angezeigt werden. Ändern Sie diesen Wert in **600**.
 
-   *launches.eventhandler.updatelastmodification=B&quot;false&quot;
-launches.eventhandler.launch.promotion.graceperiod=[&quot;/content/screens(/.*):600&quot;]launches.eventhandler.threadpool.maxsize=I&quot;5&quot;
-launches.eventhandler.threadpool.priority=&quot;MIN&quot;*
+Der Inhalt in der Textdatei sollte nun wie folgt aussehen:
 
-* `launches.eventhandler.launch.promotion.graceperiod=["/content/screens(/.&#42;):600"`, damit können Sie eine Übergangsphase von 600 Sekunden im Pfad */content/screens* einstellen.
+```java
+launches.eventhandler.launch.promotion.graceperiod=[ \
+   "/content/screens(/.*):600", \
+   ]
+```
 
-Das bedeutet, dass die Promotion mit diesem Versatz beginnt, wenn Sie für einen Launch der Ressourcen unter */content/screens* ein Live-Datum festlegen. Wenn das Live-Datum beispielsweise auf 24. November, 9.00 Uhr und die Übergangsphase auf 600 Sekunden eingestellt ist, beginnt der Promotion-Auftrag am 24. November, 08:50 Uhr.
+Da Sie die Übergangsphase im obigen Beispiel auf 10 Minuten festgelegt haben, wird die Promotion mit diesem Offset Beginn, wenn Sie für jeden Start der Ressourcen unter */content/screens* ein Live-Datum festlegen.
+
+Wenn das Livedatum beispielsweise auf 24. November, 9.00 Uhr und die Übergangsphase auf 600 Sekunden festgelegt ist, wird der Promotion-Auftrag am 24. November um 8.50 Uhr Beginn.
 
 ## Screenstart verwenden {#using-launches}
 
