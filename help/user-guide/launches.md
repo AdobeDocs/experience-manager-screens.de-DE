@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 0f30c01ee936d48a215e0a42eb983daea7fbe731
+source-git-commit: 076aeecd353ebf89893fd01ab28192b9145c844a
 
 ---
 
@@ -78,7 +78,7 @@ Wenn das Livedatum beispielsweise auf 24. November, 9.00 Uhr und die Übergangsp
 
 ## Screenstart verwenden {#using-launches}
 
-Gehen Sie wie folgt vor, um Screens Launch in Ihr AEM Screens-Projekt zu implementieren.
+In diesem Abschnitt wird die Implementierung von Screens Launch in Ihrem AEM Screens-Projekt erläutert.
 
 ### Creating a Screens Launch {#creating-a-launch}
 
@@ -104,8 +104,6 @@ Gehen Sie wie folgt vor, um die Bildschirmstartfunktion in Ihr AEM Screens-Proje
 
    >[!NOTE]
    >Mit der Option **+ Hinzufügen Kanal** können Sie einen weiteren Kanal hinzufügen, für den Sie den Start erstellen möchten.
-
-   ![image](/help/user-guide/assets/launches-images/launches-13.png)
 
    Um die Option **Hinzufügen Kanal** zu verwenden, navigieren Sie zu dem Kanal, für den Sie den Start erstellen möchten, und klicken Sie auf **Auswählen**.
 
@@ -173,13 +171,13 @@ Gehen Sie wie folgt vor, um die Eigenschaften für den Launch zu bearbeiten:
 
    ![image](/help/user-guide/assets/launches-images/launches-19.png)
 
-#### Bearbeiten des Bildschirmstarts auf Hinzufügen oder Entfernen von Kanälen {#editing-the-screens-launch-to-add-or-remove-channels}
+### Bearbeiten des Bildschirmstarts auf Hinzufügen oder Entfernen von Kanälen {#editing-the-screens-launch-to-add-or-remove-channels}
 
-Nachdem Sie den Startvorgang erstellt haben, können Sie dem vorhandenen Startvorgang Kanal hinzufügen oder entfernen, indem Sie die **Startaktion** bearbeiten.
+Nachdem Sie den Startvorgang erstellt haben, können Sie dem vorhandenen Startvorgang Kanal hinzufügen oder entfernen, indem Sie die Option &quot;Startvorgang **bearbeiten&quot;verwenden** .
 
 Klicken Sie abschließend auf **Speichern** , um zu **FutureLaunch** Kanal zurückzukehren.
 
-#### Bildschirmstart manuell bewerben{#promote-the-screens-launch-manually}
+### Bildschirmstart manuell bewerben{#promote-the-screens-launch-manually}
 
 Sie können den Start manuell bewerben, indem Sie die Option &quot; **Startvorgang** bewerben&quot;im Bedienfeld &quot; **AUSSTEHENDE LAUNCHES** &quot;verwenden.
 
@@ -196,11 +194,10 @@ Sie können die Ressourcen, die Sie als Teil dieser manuellen Promotion bewerben
 1. Klicken Sie im Assistenten zum **Promote-Start auf** Weiter **** .
 1. Klicken Sie auf **Promote** , um den Start zu bewerben.
 
+### Löschen des Bildschirmangebots {#deleting-the-screens-launch}
 
-#### Löschen des Bildschirmangebots {#deleting-the-screens-launch}
-
-Sie können den Startvorgang mit der Aktion &quot; **Startvorgang** löschen&quot;löschen.
+Sie können den Startvorgang mit der Option &quot;Startvorgang **löschen** &quot;aus dem Bedienfeld &quot; **AUSSTEHENDE LAUNCHES** &quot;löschen.
 
 >[VORSICHT]
->Durch diese Aktion werden auch alle untergeordneten verschachtelten Launches gelöscht.
+>Durch diese Aktion werden auch alle untergeordneten Elemente (verschachtelte Launches) gelöscht.
 
