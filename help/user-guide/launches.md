@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 076aeecd353ebf89893fd01ab28192b9145c844a
+source-git-commit: b26af144f01b48ffaffb77d0218b5549a5b7d2f5
 
 ---
 
@@ -177,7 +177,7 @@ Nachdem Sie den Startvorgang erstellt haben, können Sie dem vorhandenen Startvo
 
 Klicken Sie abschließend auf **Speichern** , um zu **FutureLaunch** Kanal zurückzukehren.
 
-### Bildschirmstart manuell bewerben{#promote-the-screens-launch-manually}
+### Manuelles Fördern des Bildschirms{#promote-the-screens-launch-manually}
 
 Sie können den Start manuell bewerben, indem Sie die Option &quot; **Startvorgang** bewerben&quot;im Bedienfeld &quot; **AUSSTEHENDE LAUNCHES** &quot;verwenden.
 
