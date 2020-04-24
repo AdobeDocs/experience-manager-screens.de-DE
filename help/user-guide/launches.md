@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 14a45b58862477ec6be082ab1c059f991b086755
+source-git-commit: 654b4eb6ac5cab74df3044fd82d367bf26588364
 
 ---
 
@@ -74,10 +74,7 @@ Wenn das Livedatum beispielsweise auf 24. November, 9.00 Uhr und die Übergangsp
 
 ## Screenstart verwenden {#using-launches}
 
-Führen Sie den folgenden Abschnitt aus, um Starts in Ihrem AEM Screens-Projekt zu implementieren. Dieser Abschnitt behandelt folgende Themen:
-
-1. **Erstellen eines Screenstarts**
-1. **Bearbeiten eines Bildschirmstarts zum Festlegen von Live-Datum und -Gültigkeitsbereich**
+Führen Sie den folgenden Abschnitt aus, um Starts in Ihrem AEM Screens-Projekt zu implementieren.
 
 ### Creating a Screens Launch {#creating-a-launch}
 
@@ -97,60 +94,19 @@ Führen Sie die folgenden Schritte aus, um die Funktionen für Startvorgänge in
 
 1. Der Assistent **Launch erstellen** wird geöffnet. Sie können entweder den Kanal auswählen, der bereits im Assistenten angezeigt wird, oder auf **+ Hinzufügen Kanal** klicken, um den Kanal hinzuzufügen, für den Sie den Start erstellen möchten.
 
-
-#### Verwenden des vorhandenen Kanals {#existing-channel-launch}
-
-1. Wählen Sie den Kanal aus, der bereits im Assistenten zum **Erstellen des Startvorgangs** vorhanden ist, und klicken Sie auf **Weiter**.
+1. Klicken Sie im Assistenten &quot;Start **erstellen&quot;auf** Weiter **** . Die Option &quot; **Unterseiten** einschließen&quot;ist standardmäßig aktiviert.
 
    ![image](/help/user-guide/assets/launches-images/launches-b.png)
 
-1. Select the channel and click **Next** from the action bar.
-
    >[!NOTE]
-   >**Die Option &quot;Unterseiten** einschließen&quot;ist standardmäßig aktiviert.
-
-   ![Bild](/help/user-guide/assets/launches-images/launches-b.png)
-
-1. Geben Sie unter **Launch-Titel** den Wert **SummerPromotions** ein. Sie müssen für **Launch-Datum** keinen Wert festlegen, wie in der folgenden Abbildung dargestellt. Klicken Sie auf **Erstellen**.
-
-   >[!NOTE]
-   >
-   >Wenn Sie die Option **Quellseiten-Live-Daten übernehmen** *aktivieren*, können die Kanäle im Launch als Live Copies erstellt werden. Wenn Änderungen am ursprünglichen Kanal vorgenommen werden, werden diese Änderungen automatisch auf die Launch-Kanäle angewendet.
-   >
-   >
-   >Durch *Deaktivieren* der Option **Quellseiten-Live-Daten übernehmen** können die Kanäle ohne Live-Beziehung in den Launch kopiert werden. Wenn also Änderungen am ursprünglichen Kanal vorgenommen werden, werden diese Änderungen nicht auf die Launch-Kanäle angewendet.
-
-   ![Bild](/help/user-guide/assets/launches-images/launches-c.png)
-
-   >[!NOTE]
-   >
-   >Sie können das Live-Launch-Datum in diesem Schritt festlegen oder es später einrichten, während Sie die Eigenschaften des Launches bearbeiten, nachdem er bereits erstellt wurde.
-
-1. Sie sehen, dass Ihr Launch erstellt wurde. Sie können entweder auf **Öffnen** klicken, um die Seiten im Editor anzuzeigen, oder auf **Fertig**, um zu Ihrem Projekt zurückzukehren.
-
-   ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
-
-   Clicking **Done** allows you to navigate back to your **FutureLaunch** channel.
-
-   ![Bild](/help/user-guide/assets/launches-images/launches-16.png)
-
-
-#### Verwenden der Option &quot;Hinzufügen Kanal&quot; {#add-channel-launch}
-
-1. Klicken Sie auf **+ Hinzufügen Kanal** , um den Kanal hinzuzufügen, für den Sie den Start erstellen möchten.
+   >Mit der Option **+ Hinzufügen Kanal** können Sie den Kanal hinzufügen, für den Sie den Start erstellen möchten.
 
    ![image](/help/user-guide/assets/launches-images/launches-13.png)
 
-   >[!NOTE]
-   >Die **Option &quot;Auswählen** &quot;wird deaktiviert, wenn Sie versuchen, mehrere Kanal oder einen Ordner zum Hinzufügen des Launches auszuwählen.
+   >1. Navigieren Sie zu dem Kanal, für den Sie den Start erstellen möchten, und klicken Sie auf **Auswählen**. Die **Option &quot;Auswählen** &quot;wird deaktiviert, wenn Sie versuchen, mehrere Kanal oder einen Ordner zum Hinzufügen des Launches auszuwählen.
+   >
+   >![image](/help/user-guide/assets/launches-images/launches-14.png)
 
-1. Navigieren Sie zu dem Kanal, für den Sie den Start erstellen möchten, und klicken Sie auf **Auswählen**.
-
-   ![image](/help/user-guide/assets/launches-images/launches-14.png)
-
-1. Jetzt können Sie den hinzugefügten Kanal auswählen, um einen Start für zu erstellen, und auf **Weiter** klicken.
-
-   ![image](/help/user-guide/assets/launches-images/launches-15.png)
 
 1. Geben Sie unter **Launch-Titel** den Wert **SummerPromotions** ein. Sie müssen für **Launch-Datum** keinen Wert festlegen, wie in der folgenden Abbildung dargestellt. Klicken Sie auf **Erstellen**.
 
@@ -175,7 +131,8 @@ Führen Sie die folgenden Schritte aus, um die Funktionen für Startvorgänge in
 
    ![Bild](/help/user-guide/assets/launches-images/launches-16.png)
 
-### Bearbeiten der Launch-Eigenschaften zum Festlegen des Live-Datums und des Umfangs {#editing-the-launch-properties-to-set-the-live-date-and-scope}
+
+### Editing the Launch Properties to Set the Live Date and Scope {#editing-the-launch-properties-to-set-the-live-date-and-scope}
 
 Nachdem Sie den Launch erstellt haben, müssen Sie die Launch-Eigenschaften bearbeiten, um das Live-Datum und den Umfang des Launches festzulegen.
 
@@ -189,35 +146,23 @@ Gehen Sie wie folgt vor, um die Eigenschaften für den Launch zu bearbeiten:
 
    ![image](/help/user-guide/assets/launches-images/launches-18.png)
 
-1. Wählen Sie den Start aus und klicken Sie auf eine der gewünschten Aktionen im Bereich **AUSSTEHENDE LAUNCHES** .
+1. Wählen Sie den Start aus und klicken Sie im Bedienfeld &quot; **AUSSTEHENDE LAUNCHES&quot;auf** Eigenschaften **starten** .
 
    ![image](/help/user-guide/assets/launches-images/launches-19.png)
 
-1. Sie können beispielsweise auf **Starteigenschaften** klicken, um die Eigenschaften für den Start **SummerPromotions** zu bearbeiten.
+#### Bearbeiten des Bildschirmstarts auf Hinzufügen oder Entfernen von Kanälen {#editing-the-screens-launch-to-add-or-remove-channels}
 
-   ![image](/help/user-guide/assets/launches-images/launches-20.png)
+Nachdem Sie den Startvorgang erstellt haben, können Sie dem vorhandenen Startvorgang Kanal hinzufügen oder entfernen, indem Sie die **Startaktion** bearbeiten.
 
-1. Sie können den **Luanch-Titel** bearbeiten und die folgenden Felder ausfüllen:
+Klicken Sie abschließend auf **Speichern &amp; Schließen** , um zurück zum **FutureLaunch** -Kanal zu navigieren.
 
-   * Wählen Sie das **Launch-Datum** aus
-   * Aktivieren Sie **Produktionsbereit**
-   * Wählen Sie **Genehmigte Seiten bewerben** aus **Umfang** aus
-   **Verstehen der Launch-Einträge unter Automatische Promotion:**
+#### Bildschirmstart manuell bewerben{#promote-the-screens-launch-manually}
 
-   * **Launch-Datum** bezieht sich auf das Live-Datum, d. h. das Datum (und die Uhrzeit), zu dem der Inhalt im Screens-Player gemäß der Zeitzone des Players wiedergegeben wird.
-   * **Produktionsbereit** ermöglicht die Promotion von Kanälen und bedeutet, dass der Launch verwendet werden kann.
-   * **Umfang** bezieht sich auf die Kanäle, die während eines Launches beworben werden können.
-   Die folgenden drei Optionen stehen zur Einrichtung des Umfangs zur Verfügung:
+Sie können den Start manuell mit der Aktion **Launch** bewerben.
 
-   * **Vollständigen Launch bewerben**: Alle Kanäle des Launches werden am festgelegten Live-Datum beworben.
-   * **Geänderte Seiten bewerben**: Es werden nur bearbeitete Launch-Ressourcen beworben. Es wird empfohlen, diese Option zu verwenden, wenn keine Launch-Überprüfung erforderlich ist. Dadurch können Änderungen in den Launch-Kanälen beworben werden.
-   * **Genehmigte Seiten bewerben**: Nur genehmigte Seiten werden am festgelegten Live-Datum beworben.
+Sie können die Ressourcen, die Sie als Teil dieser manuellen Promotion bewerben möchten, im Assistenten für **Startwerbung** auswählen.
 
-      >[!CAUTION]
-      >
-      >Bei der Promotion des Launches wird die Zeitzone des Players/Geräts und nicht die des Servers berücksichtigt.
+#### Löschen des Bildschirmangebots {#deleting-the-screens-launch}
 
-
-
-1. Klicken Sie auf **Speichern und schließen**, um zurück zum Kanal **FutureLaunch** zu navigieren.
+Sie können den Startvorgang mit der Aktion &quot; **Startvorgang** löschen&quot;löschen.
 
