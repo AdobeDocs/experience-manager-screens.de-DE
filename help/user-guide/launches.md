@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 654b4eb6ac5cab74df3044fd82d367bf26588364
+source-git-commit: 0f30c01ee936d48a215e0a42eb983daea7fbe731
 
 ---
 
@@ -20,13 +20,15 @@ source-git-commit: 654b4eb6ac5cab74df3044fd82d367bf26588364
 
 Autoren von Inhalten können zukünftige Versionen des Kanals/der  erstellen, die als **Bildschirmstart** bezeichnet werden, und das Live-Datum für diesen Start weiter festlegen. Dadurch kann der Inhalt am angegebenen Live-Datum auf Geräten oder Playern live geschaltet werden.
 
-With the help of **Screens Launches**, authors can preview each channel in the launch and should be able to initiate a request for review. Die Gruppe der Genehmigenden erhält eine Benachrichtigung und kann die Anfrage genehmigen oder ablehnen. Wenn das Live-Datum erreicht ist, wird der Inhalt auf den Geräten abgespielt.
+With the help of ***Screens Launch***, authors can preview each channel in the launch and should be able to initiate a request for review. Die Gruppe der Genehmigenden erhält eine Benachrichtigung und kann die Anfrage genehmigen oder ablehnen. Wenn das Live-Datum erreicht ist, wird der Inhalt auf den Geräten abgespielt.
 
-Wenn der Autor z. B. zukünftige Versionen von c1, c2 (Kanäle) erstellen möchte, wird ein Launch erstellt und ein Live-Datum festgelegt (z. B. 10. November, 08:00 Uhr). Alle weiteren Aktualisierungen des Inhalts werden zur Überprüfung gesendet. Nach der Genehmigung und am Live-Datum (10. November, 8:00 Uhr) wird der Inhalt dieses Launches auf den Geräten oder Playern wiedergegeben.
+Wenn der Autor z. B. zukünftige Versionen von c1, c2 (Kanäle) erstellen möchte, wird ein Launch erstellt und ein Live-Datum festgelegt (z. B. 10. November, 08:00 Uhr). Alle weiteren Aktualisierungen des Inhalts werden zur Überprüfung gesendet.
+
+Nach der Genehmigung und am Live-Datum (10. November, 8:00 Uhr) wird der Inhalt dieses Launches auf den Geräten oder Playern wiedergegeben.
 
 ## Voraussetzungen {#requirements}
 
-Bevor Sie den Beginn &quot;Screens Launches&quot;in einem AEM Screens-Projekt nutzen, sollten Sie sich mit dem Konzept der Übergangsphase und ihrer Relevanz vertraut machen.
+Before you start leveraging *Screens Launch* in an AEM Screens project, make sure you understand the concept of Grace Period and its relevance.
 
 Das Ausführen eines Erlebnisses am festgelegten Live-Datum auf dem Player umfasst Folgendes:
 
@@ -36,29 +38,31 @@ Das Ausführen eines Erlebnisses am festgelegten Live-Datum auf dem Player umfas
 
 * Zeit, die der Abschluss der Offline-Aktualisierung dauert (in der Regel einige Minuten)
 
-* Zeit, die die Player zum Herunterladen des Inhalts aus der Veröffentlichungsinstanz benötigen (in der Regel dauert es je nach Bandbreite und Größe der herunterzuladenden Assets Minuten)
+* Zeit, die die Player zum Herunterladen des Inhalts aus der Veröffentlichungsinstanz benötigen (in der Regel dauert es Minuten, je nach Bandbreite und Größe der herunterzuladenden Assets)
 
 * alle Zeitunterschiede zwischen Server und Player
 
 ### Verstehen der Übergangsphase {#understanding-grace-period}
 
-Damit der Player den Beginn beim Abspielen des Inhalts am festgelegten Live-Datum ausführen kann, müssen die zuvor genannten Aktivitäten vor dem Live-Datum Beginn werden.
+Damit der Player den Inhalt am festgelegten Live-Datum abspielen kann, müssen die vorherigen Aktivitäten vor dem Live-Datum Beginn werden.
 
 Wenn das Livedatum 24. *Nov., 9.00 Uhr* und die Übergangsphase *24 Stunden* beträgt, wird die obige Aktionssequenz am (Livedatum - Übergangsphase), d. h. am 23. November, um 9.00 Uhr morgens, Beginn. Dadurch erhalten Sie 24 Stunden Zeit, um alle oben genannten Aktionen durchzuführen, und der Inhalt erreicht die Spieler. Spieler werden verstehen, dass es sich um einen Startinhalt handelt, sodass der Inhalt nicht sofort abgespielt wird. Player speichern diesen Inhalt jedoch als zukünftige Version und werden genau am festgelegten Live-Datum in der Zeitzone des Players abgespielt.
 
-Angenommen, der Server befindet sich in PST und die Geräte in EST. Die maximale Zeitdifferenz beträgt in diesem Fall 3 Stunden. Es wird davon ausgegangen, dass die Promotion 1 Minute und die Veröffentlichung von der Autoren- auf der Veröffentlichungsinstanz 10 Minuten dauert und der Player die Ressourcen in der Regel in 10-15 Minuten herunterladen kann. Dann ist Übergangsphase = Zeitunterschied (3 Stunden) + Zeit für die Promotion des Launches (1 Min.) + Zeit für die Veröffentlichung des Launches (10 Min.) + Zeit zum Herunterladen auf den Player (10-15 Min.) + Puffer (z. B. 30 Min.) = 3 Stunden 56 Min. = 14160 Sekunden. Wann immer wir also einen Launch live planen, beginnt die Promotion um diesen Zeitversatz früher. In der obigen Gleichung nehmen die meisten Elemente nicht viel Zeit in Anspruch. Wenn wir den maximalen Zeitunterschied zwischen dem Server und einem Player kennen, können wir einen guten Schätzwert für diesen Versatz verwenden.
+Angenommen, der Server befindet sich in PST und die Geräte in EST. Die maximale Zeitdifferenz beträgt in diesem Fall 3 Stunden. Es wird davon ausgegangen, dass die Promotion 1 Minute und die Veröffentlichung von der Autoren- auf der Veröffentlichungsinstanz 10 Minuten dauert und der Player die Ressourcen in der Regel in 10-15 Minuten herunterladen kann. Dann ist Übergangsphase = Zeitunterschied (3 Stunden) + Zeit für die Promotion des Launches (1 Min.) + Zeit für die Veröffentlichung des Launches (10 Min.) + Zeit zum Herunterladen auf den Player (10-15 Min.) + Puffer (z. B. 30 Min.) = 3 Stunden 56 Min. = 14160 Sekunden.
+
+Wenn wir also jeden Start live planen, wird die Promotion frühzeitig mit diesem Offset Beginn. In der obigen Gleichung, die meisten der Elemente nicht viel Zeit, können wir eine vernünftige Schätzung für diesen Offset, sobald wir wissen, die maximale Zeit Unterschied zwischen dem Server und jedem Player.
 
 >[!NOTE]
->Out-of-the-box, the grace period for screens launches is set to 24 hours which means that when we set live date for any launch for the resources under */content/screens*, the promotion will start with this offset.
+>Out-of-the-box, the grace period for Screens Launch is set to 24 hours which means that when we set live date for any launch for the resources under */content/screens*, the promotion will start with this offset.
 
 ### Updating out-of-the-box Grace Period {#updating-out-of-the-box-grace-period}
 
-In diesem Abschnitt wird beschrieben, wie Sie eine vordefinierte Übergangsphase auf 10 Minuten aktualisieren können:
+In diesem Abschnitt wird beschrieben, wie Sie eine vordefinierte Übergangsphase auf 10 Minuten aktualisieren können.
 
 1. Navigieren Sie zu CRXDE Lite und dann zu `/libs/system/config.author/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config`.
 2. Klicken Sie mit der rechten Maustaste und kopieren Sie die Datei.
 3. Navigieren Sie zum Ordner, klicken Sie mit der rechten Maustaste `/apps/system/config` und fügen Sie ihn ein.
-4. Klicken Sie auf die Dublette, `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` um die Datei im Editor in CRXDE Lite zu öffnen. Es muss die Übergangsphase für den Pfad */Inhalt/Bildschirme/* als 86400 angezeigt werden. Ändern Sie diesen Wert in **600**.
+4. Klicken Sie auf die Dublette, `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` um die Datei im Editor in CRXDE Lite zu öffnen. Es muss die Übergangsphase für den Pfad */Inhalt/Bildschirme/* als **86400** anzeigen. Ändern Sie diesen Wert in **600**.
 
 Der Inhalt in der Textdatei sollte nun wie folgt aussehen:
 
@@ -68,17 +72,17 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
    ]
 ```
 
-Da Sie die Übergangsphase im obigen Beispiel auf 10 Minuten festgelegt haben, wird die Promotion mit diesem Offset Beginn, wenn Sie für jeden Start der Ressourcen unter */content/screens* ein Live-Datum festlegen.
+Da Sie die Übergangsphase im vorherigen Beispiel auf 10 Minuten festgelegt haben, wird die Promotion bei jedem Start der Ressourcen unter */content/screens* mit diesem Offset Beginn.
 
 Wenn das Livedatum beispielsweise auf 24. November, 9.00 Uhr und die Übergangsphase auf 600 Sekunden festgelegt ist, wird der Promotion-Auftrag am 24. November um 8.50 Uhr Beginn.
 
 ## Screenstart verwenden {#using-launches}
 
-Führen Sie den folgenden Abschnitt aus, um Starts in Ihrem AEM Screens-Projekt zu implementieren.
+Gehen Sie wie folgt vor, um Screens Launch in Ihr AEM Screens-Projekt zu implementieren.
 
 ### Creating a Screens Launch {#creating-a-launch}
 
-Führen Sie die folgenden Schritte aus, um die Funktionen für Startvorgänge in Ihr AEM Screens-Projekt zu implementieren:
+Gehen Sie wie folgt vor, um die Bildschirmstartfunktion in Ihr AEM Screens-Projekt zu implementieren:
 
 1. Create a sequence channel in your AEM Screens project, for example **LaunchesDemo** --> **Channels** --> **FutureLaunch**, as shown below.
 
@@ -96,16 +100,20 @@ Führen Sie die folgenden Schritte aus, um die Funktionen für Startvorgänge in
 
 1. Klicken Sie im Assistenten &quot;Start **erstellen&quot;auf** Weiter **** . Die Option &quot; **Unterseiten** einschließen&quot;ist standardmäßig aktiviert.
 
-   ![image](/help/user-guide/assets/launches-images/launches-b.png)
+   ![image](/help/user-guide/assets/launches-images/launches-d.png)
 
    >[!NOTE]
-   >Mit der Option **+ Hinzufügen Kanal** können Sie den Kanal hinzufügen, für den Sie den Start erstellen möchten.
+   >Mit der Option **+ Hinzufügen Kanal** können Sie einen weiteren Kanal hinzufügen, für den Sie den Start erstellen möchten.
 
    ![image](/help/user-guide/assets/launches-images/launches-13.png)
 
-   >1. Navigieren Sie zu dem Kanal, für den Sie den Start erstellen möchten, und klicken Sie auf **Auswählen**. Die **Option &quot;Auswählen** &quot;wird deaktiviert, wenn Sie versuchen, mehrere Kanal oder einen Ordner zum Hinzufügen des Launches auszuwählen.
-   >
-   >![image](/help/user-guide/assets/launches-images/launches-14.png)
+   Um die Option **Hinzufügen Kanal** zu verwenden, navigieren Sie zu dem Kanal, für den Sie den Start erstellen möchten, und klicken Sie auf **Auswählen**.
+
+   Die **Option &quot;Auswählen** &quot;wird deaktiviert, wenn Sie versuchen, mehrere Kanal oder einen Ordner zum Hinzufügen des Launches auszuwählen.
+
+   ![image](/help/user-guide/assets/launches-images/launches-14.png)
+
+   Once you have selected the channel/channels, click **Next**.
 
 
 1. Geben Sie unter **Launch-Titel** den Wert **SummerPromotions** ein. Sie müssen für **Launch-Datum** keinen Wert festlegen, wie in der folgenden Abbildung dargestellt. Klicken Sie auf **Erstellen**.
@@ -123,6 +131,16 @@ Führen Sie die folgenden Schritte aus, um die Funktionen für Startvorgänge in
    >
    >Sie können das Live-Launch-Datum in diesem Schritt festlegen oder es später einrichten, während Sie die Eigenschaften des Launches bearbeiten, nachdem er bereits erstellt wurde.
 
+   **Einführung in den Promotion-Bereich**
+
+   * **Vollständigen Launch bewerben**: Alle Kanäle des Launches werden am festgelegten Live-Datum beworben.
+   * **Modifizierte Seiten** bewerben: Nur modifizierte Startressourcen werden gefördert. Es wird empfohlen, diese Option zu verwenden, wenn keine Launch-Überprüfung erforderlich ist.
+   * **Genehmigte Seiten** bewerben: Für diese Option muss der Arbeitsablauf für die Genehmigung zum Starten auf den Kanälen ausgeführt werden. Nur genehmigte Seiten werden am festgelegten Live-Datum beworben.
+
+      >[!CAUTION]
+      >
+      >Das Startdatum bezieht sich auf die Zeitzone des Spielers/Geräts und nicht auf die des Servers.
+
 1. Sie sehen, dass Ihr Launch erstellt wurde. Sie können entweder auf **Öffnen** klicken, um die Seiten im Editor anzuzeigen, oder auf **Fertig**, um zu Ihrem Projekt zurückzukehren.
 
    ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
@@ -134,7 +152,12 @@ Führen Sie die folgenden Schritte aus, um die Funktionen für Startvorgänge in
 
 ### Editing the Launch Properties to Set the Live Date and Scope {#editing-the-launch-properties-to-set-the-live-date-and-scope}
 
-Nachdem Sie den Launch erstellt haben, müssen Sie die Launch-Eigenschaften bearbeiten, um das Live-Datum und den Umfang des Launches festzulegen.
+Nachdem der Start erstellt wurde, können Sie die Eigenschaften wie das Live-Datum, den Starttitel und den Promotion-Bereich mithilfe der **Starteigenschaften** aktualisieren.
+
+* **Startdatum** bezieht sich auf das Live-Datum, d. h. das Datum oder die Uhrzeit der Wiedergabe des Inhalts im Bildschirmplayer gemäß der Zeitzone des Players.
+* **&quot;Produktionsbereit**&quot;, ermöglicht die Veröffentlichung der Kanal nach der Promotion, sodass diese sofort einsatzbereit sind, sodass Sie dies nicht ändern müssen.
+* **Scope** bestimmt, welche Kanal während der Werbeaktion beworben werden.
+
 
 Gehen Sie wie folgt vor, um die Eigenschaften für den Launch zu bearbeiten:
 
@@ -154,15 +177,30 @@ Gehen Sie wie folgt vor, um die Eigenschaften für den Launch zu bearbeiten:
 
 Nachdem Sie den Startvorgang erstellt haben, können Sie dem vorhandenen Startvorgang Kanal hinzufügen oder entfernen, indem Sie die **Startaktion** bearbeiten.
 
-Klicken Sie abschließend auf **Speichern &amp; Schließen** , um zurück zum **FutureLaunch** -Kanal zu navigieren.
+Klicken Sie abschließend auf **Speichern** , um zu **FutureLaunch** Kanal zurückzukehren.
 
 #### Bildschirmstart manuell bewerben{#promote-the-screens-launch-manually}
 
-Sie können den Start manuell mit der Aktion **Launch** bewerben.
+Sie können den Start manuell bewerben, indem Sie die Option &quot; **Startvorgang** bewerben&quot;im Bedienfeld &quot; **AUSSTEHENDE LAUNCHES** &quot;verwenden.
 
 Sie können die Ressourcen, die Sie als Teil dieser manuellen Promotion bewerben möchten, im Assistenten für **Startwerbung** auswählen.
+
+![image](/help/user-guide/assets/launches-images/launches-e.png)
+
+1. Sie können die Option zum Löschen des Starts nach der Produktion aktivieren oder deaktivieren.
+1. Sie können den **Umfang** des Startvorgangs mit den folgenden Optionen festlegen:
+   1. **Vollständigen Launch bewerben**: Alle Kanäle des Launches werden am festgelegten Live-Datum beworben.
+   1. **Modifizierte Seiten** bewerben: Nur modifizierte Startressourcen werden gefördert. Es wird empfohlen, diese Option zu verwenden, wenn keine Launch-Überprüfung erforderlich ist.
+   1. **Genehmigte Seiten** bewerben: Für diese Option muss der Arbeitsablauf für die Genehmigung zum Starten auf den Kanälen ausgeführt werden. Nur genehmigte Seiten werden am festgelegten Live-Datum beworben.
+   1. **Aktuelle Seite** fördern: Für diese Option muss der Arbeitsablauf für die Genehmigung zum Starten nur für die aktuelle Seite ausgeführt werden.
+1. Klicken Sie im Assistenten zum **Promote-Start auf** Weiter **** .
+1. Klicken Sie auf **Promote** , um den Start zu bewerben.
+
 
 #### Löschen des Bildschirmangebots {#deleting-the-screens-launch}
 
 Sie können den Startvorgang mit der Aktion &quot; **Startvorgang** löschen&quot;löschen.
+
+>[VORSICHT]
+>Durch diese Aktion werden auch alle untergeordneten verschachtelten Launches gelöscht.
 
