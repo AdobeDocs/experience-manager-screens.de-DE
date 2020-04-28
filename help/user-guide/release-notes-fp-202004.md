@@ -1,10 +1,10 @@
 ---
 title: Versionshinweise für Feature Pack 202004
 seo-title: Versionshinweise für Feature Pack 202004
-description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 2020, das am 20. April 2020 veröffentlicht wurde.
-seo-description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 2020, das am 20. April 2020 veröffentlicht wurde.
+description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 2020, das am 28. April 2020 veröffentlicht wurde.
+seo-description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 2020, das am 28. April 2020 veröffentlicht wurde.
 translation-type: tm+mt
-source-git-commit: 0fe7d661c41675fc722b35a278dcbd510dca9084
+source-git-commit: c539da7fd63d2a797393cd271fdfd4404399198c
 
 ---
 
@@ -19,7 +19,7 @@ AEM Screens hat AEM 6.4 Feature Pack 8 und AEM 6.5 Feature Pack 4 mit folgenden 
 
 ## Veröffentlichungsdatum {#release-date}
 
-Das Release-Datum für AEM Screens Feature Pack 2004 ist der 20. April 2020.
+Das Release-Datum für AEM Screens Feature Pack 2004 ist der 28. April 2020.
 
 ### Neuerungen {#what-s-new}
 
