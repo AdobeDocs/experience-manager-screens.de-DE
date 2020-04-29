@@ -1,10 +1,10 @@
 ---
 title: Versionshinweise für Feature Pack 202004
 seo-title: Versionshinweise für Feature Pack 202004
-description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 2020, das am 28. April 2020 veröffentlicht wurde.
-seo-description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 2020, das am 28. April 2020 veröffentlicht wurde.
+description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 2020, das am 20. April 2020 veröffentlicht wurde.
+seo-description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 2020, das am 20. April 2020 veröffentlicht wurde.
 translation-type: tm+mt
-source-git-commit: c539da7fd63d2a797393cd271fdfd4404399198c
+source-git-commit: 8784ba269e510c3933c2573df43950fde79bf899
 
 ---
 
@@ -15,11 +15,19 @@ source-git-commit: c539da7fd63d2a797393cd271fdfd4404399198c
 >
 >Es wird empfohlen, ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM) durchzuführen. Screens bietet Wartungs-Support für die AEM 6.3 Screens-Plattform.
 
-AEM Screens hat AEM 6.4 Feature Pack 8 und AEM 6.5 Feature Pack 4 mit folgenden Details veröffentlicht.
+## Verfügbarkeit {#availability}
+
+AEM Screens veröffentlicht AEM 6.4 Feature Pack 8 und AEM 6.5 Feature Pack 4.
+
+Sie können das neueste Feature Pack für AEM Screens 6.4.8 oder AEM Screens 6.5.4 Release von einem *ausstehenden Link* herunterladen.
+
+>[!NOTE]
+>Informationen dazu, wie Pakete das Importieren und Exportieren von Repository-Inhalten ermöglichen und wie Sie über Package Manager oder Package Share auf die Pakete zugreifen und/oder diese verwalten können, finden Sie unter [Arbeiten mit Paketen](https://docs.adobe.com/help/en/experience-manager-65/administering/contentmanagement/package-manager.html) .
+
 
 ## Veröffentlichungsdatum {#release-date}
 
-Das Release-Datum für AEM Screens Feature Pack 2004 ist der 28. April 2020.
+Das Release-Datum für AEM Screens Feature Pack 2004 ist der 20. April 2020.
 
 ### Neuerungen {#what-s-new}
 
