@@ -4,7 +4,7 @@ seo-title: Versionshinweise für Feature Pack 202004
 description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 2020, das am 20. April 2020 veröffentlicht wurde.
 seo-description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 2020, das am 20. April 2020 veröffentlicht wurde.
 translation-type: tm+mt
-source-git-commit: 8784ba269e510c3933c2573df43950fde79bf899
+source-git-commit: 968c84b3f30c6ac4ba244b5ec0a3b9bf8e666609
 
 ---
 
@@ -45,7 +45,7 @@ Das Release-Datum für AEM Screens Feature Pack 2004 ist der 20. April 2020.
 
 * **Kanal-Dashboard**
 
-   Anleitungen im Dialogfeld Kanal Dashboard und Offline aktualisieren, um zu lesen... &quot;Offlineinhalt aktualisieren&quot;ersetzt das Wort &quot;Cache aktualisieren&quot;
+   Spiegelt Aktualisierungen der Anweisungen im Kanal-Dashboard im Bereich &quot; **KANAL-Informationen** &quot;wider.
 
 
 * **Manifest anzeigen**
@@ -64,6 +64,8 @@ Das Release-Datum für AEM Screens Feature Pack 2004 ist der 20. April 2020.
 
    Mit diesem Feature Pack werden Verbesserungen der Befehlszeilensynchronisierungsverzögerung zwischen Asset-Änderungen übernommen.
 
+   Weitere Informationen finden Sie unter **[Befehlssynchronisierung](using-command-sync.md)**.
+
 ### Veröffentlichte AEM Screens-Player {#released-aem-screens-players}
 
 Die folgenden AEM Screens Player sind für AEM Screens, die AEM 6.4 Feature Pack 8 und AEM 6.5 Feature Pack 4 veröffentlicht werden, verfügbar:
@@ -74,4 +76,4 @@ Die folgenden AEM Screens Player sind für AEM Screens, die AEM 6.4 Feature Pack
 
 #### AEM Screens-Player-Downloads {#aem-screens-player-downloads}
 
-Navigieren Sie zu [**AEM Screens-Player-Downloads **](https://download.macromedia.com/screens/), um den neusten AEM Screens-Player herunterzuladen und mehr über die Fehlerbehebungen zu erfahren.
+Navigieren Sie zu **[AEM Screens-Player-Downloads](https://download.macromedia.com/screens/)**, um den neusten AEM Screens-Player herunterzuladen und mehr über die Fehlerbehebungen zu erfahren.
