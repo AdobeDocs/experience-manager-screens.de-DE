@@ -9,8 +9,8 @@ content-type: reference
 topic-tags: developing
 discoiquuid: 24eb937f-ab51-4883-8236-8ebe6243f6e3
 targetaudience: target-audience new
-translation-type: ht
-source-git-commit: 81fbba033cbf1d87e1e99d91244f4bf0b712d339
+translation-type: tm+mt
+source-git-commit: a60de02a19004dd4d971612496f65285ded55716
 
 ---
 
@@ -539,7 +539,7 @@ Der folgende Code stellt die Mindestanforderungen in der Datei `pom.xml` für di
 
 Das folgende Video zeigt die fertige Komponente und wie sie einem Sequenzkanal hinzugefügt werden kann. Der Kanal wird dann einer Standortsanzeige hinzugefügt und letztendlich einem Screens-Player zugewiesen.
 
->[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9)
 
 ## Fertiger Code {#finished-code}
 
