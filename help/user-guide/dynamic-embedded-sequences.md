@@ -9,7 +9,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b39c76fc7af4fb46596d4a995fe011d00b212d7c
 
 ---
@@ -268,7 +268,7 @@ Die folgende Ausgabe bestätigt Ihren Kanalinhalt im AEM Screens-Player, je nach
 
 **Szenario 1**:
 
-If you assign the display path as **Demo** --> **Locations** --> **Region A** --> **Store 1** --> **Store1Display**, the following content will display on your AEM Screens player.
+Wenn Sie den Anzeigepfad als **Demo** > **Standorte** > **Region A** > **Store 1** > **Store1Display** zuweisen, wird der folgende Inhalt im AEM Screens-Player angezeigt.
 
 ![channeldisplay1](assets/channeldisplay1.gif)
 
@@ -352,8 +352,8 @@ Führen Sie die folgenden Schritte aus, um Gruppen und Benutzer zu erstellen und
    **Für Global-Autor:**
 
    1. Navigieren Sie zur Registerkarte **Berechtigungen**
-   1. Navigieren Sie zu ***/content/screens/demo*** und prüfen Sie alle Berechtigungen.
-   1. Navigieren Sie zu ***/content/screens/demo/locations*** und prüfen Sie alle Berechtigungen.
+   1. Navigieren Sie zu ***/content/screens/demo*** und aktivieren Sie alle Berechtigungen.
+   1. Navigieren Sie zu ***/content/screens/demo/locations*** und aktivieren Sie alle Berechtigungen.
    1. Navigieren Sie zu ***/content/screens/demo/locations/region-a*** und aktivieren Sie alle Berechtigungen. Überprüfen Sie auf ähnliche Weise die Berechtigungen für **region-b**.
    Die Schritte sind in der folgenden Abbildung dargestellt:
    ![screen_shot_2018-09-18at115752am](assets/screen_shot_2018-09-18at115752am.png)
@@ -368,7 +368,7 @@ Führen Sie die folgenden Schritte aus, um Gruppen und Benutzer zu erstellen und
    1. Navigieren Sie zu ***/content/screens/demo*** und aktivieren Sie nur die **Leseberechtigungen**.
    1. Navigieren Sie zu ***/content/screens/demo/locations*** und aktivieren Sie nur die **Leseberechtigungen**.
    1. Navigieren Sie zu ***/content/screens/demo/channels*** und deaktivieren Sie die Berechtigungen für den Kanal **Global**.
-   1. Navigieren Sie zu ***/content/screens/demo/locations***/***region-a*** und prüfen Sie alle Berechtigungen. Überprüfen Sie auf ähnliche Weise die Berechtigungen für **region-b**.
+   1. Navigieren Sie zu ***/content/screens/demo/locations***/***region-a*** und aktivieren Sie alle Berechtigungen. Überprüfen Sie auf ähnliche Weise die Berechtigungen für **region-b**.
    Die Schritte sind in der folgenden Abbildung dargestellt:
 
    ![screen_shot_2018-09-18at125158pm](assets/screen_shot_2018-09-18at125158pm.png)
