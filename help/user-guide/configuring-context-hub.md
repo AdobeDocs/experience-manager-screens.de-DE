@@ -10,8 +10,11 @@ topic-tags: developing
 content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
-translation-type: ht
-source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
+translation-type: tm+mt
+source-git-commit: 4a70228068a6effb68d46b7e31726e2be84c08cc
+workflow-type: tm+mt
+source-wordcount: '1531'
+ht-degree: 94%
 
 ---
 
@@ -91,6 +94,20 @@ Die folgende Validierung wird angezeigt, wenn Sie Ihre Verbindung prüfen, indem
    1. Klicken Sie im Bildschirm **ContextHub-Konfiguration** auf **Erstellen** > **ContentHub-Speicherkonfiguration**.
 
       ![image](/help/user-guide/assets/context-hub/context-hub5.png)
+
+      >[!CAUTION]
+      >Als Teil von AEM 6.5 Feature Pack 4 oder AEM 6.4 Feature Pack 8 sollten Kunden `/conf/screens/settings/cloudsettings` auf `sling:Folder`aktualisieren.
+      >Führen Sie dazu folgende Schritte durch:
+      >
+      >1. Navigieren Sie zu CRXDE Lite und dann zu `/conf/screens/settings/cloudsettings`.
+      >1. Überprüfen Sie, ob `cloudsettings jcr:primaryType` sich in `sling:Folder`. Wenn die Variable `jcr:primaryType` nicht in `sling:folder`ist, fahren Sie mit den nächsten Schritten fort.
+      > 1. Klicken Sie mit der rechten Maustaste auf `/conf/screens/settings` , erstellen Sie einen neuen Knoten mit dem *Namen* als **cloudsettings1** und *Type* als **sling:Folder** und speichern Sie die Änderungen.
+      >1. Verschieben Sie alle Knoten unter `/conf/screens/settings/cloudsettings` nach `cloudsettings1`.
+      >1. Löschen `cloudsettings` und speichern.
+      >1. Benennen Sie `cloudsettings1` die Datei um `cloudsettings` und speichern Sie sie.
+      >1. Beachten Sie jetzt, dass /conf/screens/settings/cloudsettings `jcr:primaryType` as `sling:Folder`.
+Führen Sie diese Schritte vor oder nach der Aktualisierung im Autorenmodus und im Veröffentlichungsmodus aus.
+
 
    1. Geben Sie unter **Titel** den Wert **Google Tabellen**, unter **Speichername** den Wert **googlesheets** und unter **Speichertyp** den Wert **contexthub.generic-jsonp** ein und klicken Sie auf **Weiter**.
 
