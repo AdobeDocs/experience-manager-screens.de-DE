@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: b6fdb5a0-5601-4443-a3f4-85cc90c49914
 noindex: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 651627223e1b9bd0f650b010d2b92f004b9e2ea2
 
 ---
@@ -23,7 +23,7 @@ In diesem Abschnitt werden folgende Themen behandelt:
 * **Überblick**
 * **Verwenden von Textüberlagerung**
 * **Verstehen der Eigenschaften von Textüberlagerung**
-* **Verwenden von ContextHub-Werten in Textüberlagerungen**
+* **Verwenden von ContextHub-Werten in Textüberlagerung**
 
 >[!CAUTION]
 >
@@ -47,7 +47,7 @@ Bevor Sie mit der Implementierung der Funktion beginnen, stellen Sie sicher, das
 
 * Erstellen Sie ein AEM Screens-Projekt (in diesem Beispiel **TextOverlayDemo**)
 
-* Create a sequence channel titled as **TextSample** under **Channels** folder
+* Erstellen eines Sequenzkanals als **TextSample** im Ordner **Kanäle**
 
 * Fügen Sie Inhalte zu Ihrem Kanal **TextSample** hinzu
 
@@ -85,25 +85,25 @@ Sie können dem Textfeld einen Text hinzufügen und typografische Hervorhebungen
 >
 >Für einen richtigen Einsatz der Tools müssen Sie die gewünschte Position in Pixel mit „px“ als Suffix angeben (z. B. „200px“). Das Ergebnis dieses Ausdrucks ist 200 Pixel vom Anfangspunkt entfernt.
 
-## Verwenden von ContextHub-Werten in Textüberlagerungen {#using-text-overlay-context-hub}
+## Verwenden von ContextHub-Werten in Textüberlagerung {#using-text-overlay-context-hub}
 
-Im folgenden Abschnitt wird die Verwendung von Werten aus einem Datenspeicher beschrieben, z. B. Google-Blätter in der Komponente für Textüberlagerungen.
+Im folgenden Abschnitt wird die Verwendung von Werten aus einem Datenspeicher beschrieben, z. B. Google-Tabellen in der Komponente für Textüberlagerung.
 
 **Voraussetzungen**
 
 Sie müssen ContextHub-Konfigurationen für Ihr AEM Screens-Projekt einrichten.
 
-Informationen zum Einrichten und Verwalten datengesteuerter Asset-Änderungen mithilfe eines Datenspeichers finden Sie unter ContextHub [konfigurieren in AEM Screens](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/developing/configuring-context-hub.html).
+Informationen zum Einrichten und Verwalten datengesteuerter Asset-Änderungen mithilfe eines Datenspeichers finden Sie unter [Konfigurieren von ContextHub in AEM Screens](https://docs.adobe.com/content/help/de-DE/experience-manager-screens/user-guide/developing/configuring-context-hub.html).
 
-Nachdem Sie die erforderlichen Konfigurationen für Ihr Projekt eingerichtet haben, führen Sie die folgenden Schritte aus, um Werte aus den Google-Bogen zu verwenden:
+Nachdem Sie die erforderlichen Konfigurationen für Ihr Projekt eingerichtet haben, führen Sie die folgenden Schritte aus, um Werte aus den Google-Tabellen zu verwenden:
 
-1. Navigieren Sie zu **TextOverlayDemo** —> **Kanal** —> **TextSample** und klicken Sie in der Aktionsleiste auf **Eigenschaften** .
+1. Navigieren Sie zu **TextOverlayDemo** > **Kanäle** > **TextSample** und klicken Sie in der Aktionsleiste auf **Eigenschaften**.
 
 1. Wählen Sie die Registerkarte **Personalisierung**, um die ContextHub-Konfigurationen einzurichten.
 
    1. Wählen Sie unter **ContextHub-Pfad** den Wert **libs** > **settings** > **cloudsettings** > **default** > **ContextHub Konfigurationen** aus und klicken Sie auf **Auswählen**.
 
-   1. Select the **Segments Path** as **conf** > **screens** > **settings** > **wcm** > **segments** and click **Select**.
+   1. Wählen Sie unter **Segmentpfad** den Wert **conf** > **screens** > **settings** > **wcm** > **segments** aus und klicken Sie auf **Auswählen**.
 
    1. Klicken Sie auf **Speichern und schließen**.
 
@@ -117,31 +117,31 @@ Nachdem Sie die erforderlichen Konfigurationen für Ihr Projekt eingerichtet hab
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
-1. Hinzufügen Sie eine Bild- und Textüberlagerungskomponente an Ihr Bild, wie im Abschnitt [Verwenden von Textüberlagerung](/help/user-guide/text-overlay.md#using-text-overlay) auf dieser Seite beschrieben.
+1. Fügen Sie eine Bild- und eine Textüberlagerungskomponente zu Ihrem Bild hinzu, wie im Abschnitt [Verwenden von Textüberlagerung](/help/user-guide/text-overlay.md#using-text-overlay) auf dieser Seite beschrieben.
 
 1. Klicken Sie auf **Konfigurieren** (Schraubenschlüsselsymbol), um das Dialogfeld **Bild** zu öffnen.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay4.png)
 
-1. Navigieren Sie zur Registerkarte **ContextHub** im Dialogfeld &quot; **Bild** &quot;. Klicken Sie auf **Hinzufügen**.
+1. Navigieren Sie zur Registerkarte **ContextHub** im Dialogfeld **Bild**. Klicken Sie auf **Hinzufügen**.
 
    >[!NOTE]
    >Wenn Sie Ihre ContextHub-Konfigurationen nicht eingerichtet haben, wird diese Option für Ihr Projekt deaktiviert.
 
-1. Geben Sie **Wert** in das Feld **Platzhalter** ein, wählen Sie die Zeile aus, die Sie aus Ihrem Google-Blatt in der **ContextHub-Variable** abrufen möchten (in diesem Fall wird der Wert aus Zeile 2 und Spalte 1 aus den Google-Bogen abgerufen), und geben Sie den **Standardwert** wie in der Abbildung unten dargestellt als **20** ein. Klicken Sie auf das Häkchen, sobald Sie fertig sind.
+1. Geben Sie **Wert** in das Feld **Platzhalter** ein, wählen Sie die Zeile aus, die Sie aus Ihrer Google-Tabelle in der **ContextHub-Variable** abrufen möchten (in diesem Fall wird der Wert aus Zeile 2 und Spalte 1 aus den Google-Tabellen abgerufen), und geben Sie den **Standardwert** wie in der Abbildung unten dargestellt als **20** ein. Klicken Sie auf das Häkchen, sobald Sie fertig sind.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 
    >[!NOTE]
-   >Für Ihre Referenz zeigt die folgende Abbildung den Wert, der aus den Google-Blättern abgerufen wird:
+   >Für Ihre Referenz zeigt das folgende Bild den Wert an, der aus den Google-Tabellen abgerufen wird:
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay6.png)
 
-1. Gehen Sie im Dialogfeld &quot;Bild&quot;zurück zur Registerkarte &quot; **Textüberlagerung** &quot;und fügen Sie den Text &quot; *Aktuelle Temperatur&quot;{Wert}* hinzu, wie in der Abbildung unten dargestellt.
+1. Gehen Sie im Dialogfeld „Bild“ zurück zur Registerkarte **Textüberlagerung** und fügen Sie den Text *Aktuelle Temperatur {Wert}* hinzu, wie in der nachstehenden Abbildung dargestellt.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay7.png)
 
-1. Klicken Sie auf **Vorschau** , um die gewünschte Ausgabe Ansicht.
+1. Klicken Sie auf **Vorschau**, um die gewünschte Ausgabe anzuzeigen.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay10.png)
 
