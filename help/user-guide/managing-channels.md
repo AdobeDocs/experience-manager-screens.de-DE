@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f3460fe4095907ad65e411fcb6433bfb1c2c2d3c
 
 ---
@@ -40,14 +40,14 @@ Wenn Sie Ihr Projekt für Screens erstellen, gehen Sie wie folgt vor, um einen n
 
 1. Klicken Sie auf **Erstellen**. Der Kanal wird erstellt und Ihrem Kanalordner hinzugefügt.
 
-### Kanaltypen    {#channel-types}
+### Kanaltypen      {#channel-types}
 
 Beim Verwenden des Assistenten stehen unter anderem die folgenden Vorlagenoptionen zur Verfügung:
 
 | **Vorlagenoption** | **Beschreibung** |
 |---|---|
 | Kanal-Ordner | Ermöglicht die Erstellung eines Ordners zum Speichern von Kanalsammlungen |
-| Sequenz-Kanal | Ermöglicht die Erstellung eines Kanals zum sequenziellen Wiedergeben der Komponenten (einzeln in einer Diashow). |
+| Sequenzkanal | Ermöglicht die Erstellung eines Kanals zum sequenziellen Wiedergeben der Komponenten (einzeln in einer Diashow). |
 | Anwendungskanal | Ermöglicht die Präsentation benutzerdefinierter Webanwendungen im Screens-Player |
 | 1x1-Splitscreen-Kanal | Ermöglicht das Anzeigen der Komponente in einer Zone. |
 | 1x2-Splitscreen-Kanal | Ermöglicht das Anzeigen der Assets in zwei Bereichen (horizontal geteilt). |
@@ -60,7 +60,7 @@ Beim Verwenden des Assistenten stehen unter anderem die folgenden Vorlagenoption
 >
 >Die Splitscreen-Kanäle teilen die Anzeige in mehrere Bereiche, sodass Sie mehrere Erlebnisse gleichzeitig nebeneinander wiedergeben können. Die Erlebnisse können entweder statische Assets/Text oder eingebettete Sequenzen sein.
 
-The following example shows the creation of a Sequence Channel (*ChannelOne*) for a Screens project (*DemoProject*).
+Im folgenden Beispiel wird das Erstellen eines Sequenzkanals (*ChannelOne*) für ein Screens-Projekt (*DemoProject*) gezeigt.
 
 ![demochannel](assets/demochannel.gif)
 
@@ -77,7 +77,7 @@ Sie können Änderungen vornehmen, Eigenschaften und Dashboard anzeigen sowie ei
 
 >[!NOTE]
 >
->Wählen Sie den Kanal aus, wie in der Abbildung unten dargestellt.
+>Wählen Sie den Kanal aus, wie in der nachstehenden Abbildung dargestellt.
 
 ![screen_shot_2019-07-24at103723am](assets/screen_shot_2019-07-24at103723am.png)
 
@@ -85,12 +85,12 @@ Sie können Änderungen vornehmen, Eigenschaften und Dashboard anzeigen sowie ei
 
 Um Inhalt in einem Kanal hinzuzufügen oder zu bearbeiten, gehen Sie wie folgt vor:
 
-1. Wählen Sie den zu bearbeitenden Kanal aus (wie in der Abbildung oben gezeigt).
+1. Klicken Sie auf den Kanal, den Sie bearbeiten möchten (wie in der obigen Abbildung gezeigt).
 1. Klicken Sie in der oberen linken Ecke der Aktionsleiste auf **Bearbeiten**, um die Kanaleigenschaften zu bearbeiten. Der Editor wird geöffnet. Sie haben die Möglichkeit, Ihrem Kanal Assets/Komponenten hinzuzufügen, die Sie veröffentlichen möchten.
 
 >[!NOTE]
 >
->Sie können Ihrem Kanal Komponenten hinzufügen. Weitere Infos finden Sie unter **[Hinzufügen von Komponenten zu Kanälen](adding-components-to-a-channel.md)**.
+>Sie können Ihrem Kanal Komponenten hinzufügen. Weitere Informationen finden Sie unter **[Hinzufügen von Komponenten zu Kanälen](adding-components-to-a-channel.md)**.
 
 ![demochannel1](assets/demochannel1.gif)
 
@@ -120,7 +120,7 @@ Um die Eigenschaften eines Kanals anzuzeigen oder zu bearbeiten, gehen Sie wie f
 Um das Dashboard eines Kanals anzuzeigen, gehen Sie wie folgt vor:
 
 1. Wählen Sie den zu bearbeitenden Kanal aus.
-1. Click **Dashboard** from the action bar to view the dashboard. Das Bedienfeld **KANALINFORMATIONEN**,**ZUGEWIESENE ANZEIGEN** und **AUSSTEHENDE LAUNCHES** wird geöffnet, wie in der folgenden Abbildung dargestellt:
+1. Klicken Sie in der Aktionsleiste auf **Dashboard**, um das Dashboard anzuzeigen. Das Bedienfeld **KANALINFORMATIONEN**,**ZUGEWIESENE ANZEIGEN** und **AUSSTEHENDE LAUNCHES** wird geöffnet, wie in der folgenden Abbildung dargestellt:
 
 ![dashboard](assets/dashboard.gif)
 
@@ -128,28 +128,28 @@ Um das Dashboard eines Kanals anzuzeigen, gehen Sie wie folgt vor:
 
 Im Bedienfeld „Kanalinformationen“ werden die Kanaleigenschaften zusammen mit der Kanalvorschau beschrieben. Darüber hinaus finden Sie dort Informationen dazu, ob der Kanal offline oder online ist.
 
-Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view properties, edit the content, or to update cache (offline content) for the channel.
+Klicken Sie in der in Aktionsleiste **KANALINFORMATIONEN** auf (**...**), um Eigenschaften anzuzeigen, Inhalt zu bearbeiten oder den Cache (Offline-Inhalt) für den Kanal zu aktualisieren.
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
 
 #### Anzeigen des Manifests {#view-manifest}
 
-Sie können das Manifest vom Kanal-Dashboard aus Ansicht werden.
+Sie können das Manifest vom Kanal-Dashboard aus anzeigen.
 
 >[WICHTIG]
 > Diese Option ist nur mit AEM 6.4 Feature Pack 8 oder AEM 6.5 Feature Pack 4 verfügbar.
 
 Führen Sie die folgenden Schritte aus, um diese Option im Kanal-Dashboard zu aktivieren:
-1. **Kanal auf Offline festlegen**
-   1. Select the channel and select **Properties** from the action bar
-   1. Navigieren Sie zur Registerkarte &quot; **Kanal** &quot;und deaktivieren Sie die Option &quot; **Entwicklermodus&quot;(Kanal muss online sein)** .
-   1. Klicken Sie auf **Speichern und schließen**
+1. **Kanal auf „Offline“ festlegen**
+   1. Wählen Sie den Kanal aus und wählen Sie in der Aktionsleiste **Eigenschaften** aus.
+   1. Navigieren Sie zur Registerkarte **Kanal** und deaktivieren Sie die Option **Entwicklermodus (Kanal muss online sein)**.
+   1. Klicken Sie auf **Speichern und schließen**.
 1. **Offline-Inhalt aktualisieren**
-   1. Select the channel and select **Dashboard** from the action bar
-   1. Navigieren Sie zum Bedienfeld **KANAL-Informationen** und klicken Sie auf *...*
-   1. Klicken Sie auf Offline-Inhalt **aktualisieren**
+   1. Wählen Sie den Kanal aus und wählen Sie in der Aktionsleiste **Dashboard** aus.
+   1. Navigieren Sie zum Dialogfeld **KANALINFORMATIONEN** und klicken Sie auf *...*
+   1. Klicken Sie auf **Offline-Inhalt aktualisieren**.
 
-Jetzt sollten Sie die Option &quot; **Ansicht Manifest** &quot;aus dem Bereich &quot; **KANAL-Informationen** &quot;im Kanal-Dashboard sehen können.
+Jetzt sollten Sie im Kanal-Dashboard im Dialogfeld **KANALINFORMATIONEN** die Option **Manifest anzeigen** sehen können.
 
 ![image1](assets/channel-one.png)
 
