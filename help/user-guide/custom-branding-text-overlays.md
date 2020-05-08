@@ -59,6 +59,7 @@ Gehen Sie wie folgt vor, um benutzerdefiniertes Branding und Styling für Textü
        background-color: rgba(255, 255, 255, .6);
      }
    ```
+
    ![image](/help/user-guide/assets/custom-brand/custom-brand4.png)
 
 1. Kopieren Sie den Pfad zu Ihrem Projekt. In diesem Beispiel wird der Pfad `/apps/settings/wcm/designs/customstyle` verwendet.
