@@ -11,10 +11,10 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: e33175a8c4282d89ed77fc430b1a48eb8470585f
+source-git-commit: bf4b499bc42a2c5f7f05a257bf7c8ed6c7b58b89
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 93%
+source-wordcount: '797'
+ht-degree: 86%
 
 ---
 
@@ -126,7 +126,10 @@ Wenn Sie möchten, dass in den Bereichen eine Abfolge von Bildern oder Inhalten 
 
 Wenn Sie Mehrzonen-Layouts implementiert haben, wird die folgende Ausgabe angezeigt, wie in der folgenden Abbildung dargestellt.
 
-Die folgende Ausgabe auf der Screens Player-Anzeige zeigt den Inhalt in drei verschiedenen Bereichen an. Der linke und der rechte Bereich (beide verwenden eine eingebettete Sequenz als Komponente) zeigt eine Bildsequenz an. Der Bereich darunter zeigt ein statisches Bild an.
+Klicken Sie im Kanal-Editor auf die **Vorschau** , um die folgende Ausgabe, die den Inhalt in zwei verschiedenen Zonen anzeigt, Ansicht. Die linke und die rechte Zone (beide verwenden eine eingebettete Sequenz als Komponente).
+
+>[!NOTE]
+>Wenn Sie versuchen, den Inhalt im Bildschirmplayer Ansicht, klicken Sie im Kanal-Dashboard auf &quot;Offline-Inhalte **** aktualisieren&quot;.
 
 ![new2-1](/help/user-guide/assets/multi-zone/screens-multi1.gif)
 
