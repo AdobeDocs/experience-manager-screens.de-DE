@@ -11,10 +11,10 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: bf4b499bc42a2c5f7f05a257bf7c8ed6c7b58b89
+source-git-commit: afe069d0cd297d0e2280ffb6093e0b0d129c675d
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 86%
+source-wordcount: '789'
+ht-degree: 83%
 
 ---
 
@@ -69,13 +69,10 @@ Sie können einzelne Assets wie ein Bild oder ein Video in allen drei verschiede
 
    1. Navigieren Sie zu **Bereiche** > **Kanäle**>**MultiZone**.
    1. Wählen Sie den Kanal **Multizone** aus und klicken Sie in der Aktionsleiste auf **Bearbeiten**, um den Editor zu öffnen.
-   ![screen_shot_2018-12-07at14917pm](assets/screen_shot_2018-12-07at14917pm.png)
 
 1. **Hinzufügen von Bildern zum Kanal**
 
-   Um ein einzelnes Bild oder Video in allen drei Bereichen abzuspielen, ziehen Sie das Bild einfach in den Kanaleditor, wie unten dargestellt.
-
-   ![new1-1](assets/new1-1.gif)
+   Um ein einzelnes Bild oder Video in allen drei Bereichen abzuspielen, ziehen Sie das Bild einfach per Drag &amp; Drop in den Kanal-Editor.
 
 ### Verwenden sequenzieller Inhalte in einem oder mehreren Bereichen {#using-sequenced-content-in-one-or-more-zones}
 
