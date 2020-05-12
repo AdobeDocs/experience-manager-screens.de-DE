@@ -11,10 +11,10 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: 9e267326da9c8163d85402425e6b46886e4d19f9
+source-git-commit: 2e590d7a73dea9a0445962c2f65cdfa7fef3994d
 workflow-type: tm+mt
-source-wordcount: '1176'
-ht-degree: 47%
+source-wordcount: '1189'
+ht-degree: 46%
 
 ---
 
@@ -91,7 +91,9 @@ Wenn Sie möchten, dass in den Zonen eine Bildsequenz und ein Video in zwei vers
    1. Select **Sequence Channel** from the **Create** wizard to create a channel titled as **Zone1**.
    1. Wählen Sie **Zone1** aus und klicken Sie in der Aktionsleiste auf **Bearbeiten**, um den Editor zu öffnen.
    1. Ziehen Sie einige Bilder in diesen Kanal.
-   Erstellen Sie auf ähnliche Weise einen weiteren Sequenzkanal mit dem Namen **Zone2** im Ordner **EmbeddedChannels**.
+   1. Erstellen Sie auf ähnliche Weise einen weiteren Sequenzkanal mit dem Namen **Zone2** im Ordner **EmbeddedChannels**.
+   1. Ziehen Sie ein Video auf diesen Kanal und legen Sie es dort ab.
+   Die folgende Abbildung zeigt die Kanäle **Zone1** und **Zone2**:
 
    ![screen_shot_2018-12-19at125930pm](assets/screen_shot_2018-12-19at125930pm.png)
 
@@ -99,7 +101,7 @@ Wenn Sie möchten, dass in den Zonen eine Bildsequenz und ein Video in zwei vers
 
    ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img4.png)
 
-   Hinzufügen Sie ein Video zum Editor des Kanals der **Zone2** -Sequenz, wie in der folgenden Abbildung dargestellt:
+   Das Video, das zum Editor des **Zone2** -Sequenz-Kanals hinzugefügt wurde, wird unten gezeigt:
 
    ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img5.png)
 
@@ -107,7 +109,7 @@ Wenn Sie möchten, dass in den Zonen eine Bildsequenz und ein Video in zwei vers
 
    1. Navigieren Sie zu **Bereiche** > **Kanäle** > **MultiZone**.
    1. Klicken Sie in der Aktionsleiste auf **Bearbeiten**, um den Editor zu öffnen.
-   1. Ziehen Sie die Komponente &quot; **Eingebettete Sequenz** &quot;auf zwei Bereiche.
+   1. Ziehen Sie die Komponente &quot; **Eingebettete Sequenz** &quot;auf beide Bereiche.
    1. Wählen Sie die eingebettete Sequenz in einem der Bereiche aus.
    1. Klicken Sie auf das Symbol **Konfigurieren** (Schraubenschlüssel), um eine der eingebetteten Sequenzen im Editor zu konfigurieren.
    1. Wählen Sie als Kanalpfad **Bereiche** > **Kanäle** > **EmbeddedChannels** > **Zone1** aus, wie in der Abbildung unten dargestellt.
