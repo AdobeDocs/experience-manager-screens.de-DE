@@ -5,8 +5,11 @@ description: Auf dieser Seite erhalten Sie Antworten auf häufig gestellte Frage
 seo-description: Auf dieser Seite erhalten Sie Antworten auf häufig gestellte Fragen zu AEM Screens-Projekten.
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
-translation-type: ht
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+translation-type: tm+mt
+source-git-commit: c615481f606a369fb9d4bafde74cbf00458f05fa
+workflow-type: tm+mt
+source-wordcount: '1271'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +22,7 @@ Im folgenden Abschnitt finden Sie Antworten auf verschiedene häufig gestellte F
 
 ### 1. Was ist der Unterschied zwischen einem Online- und einem Offline-Kanal? {#what-is-the-difference-between-an-online-and-an-offline-channel}
 
-Ein ***Online-Kanal ***zeigt den aktualisierten Inhalt in der Echtzeitumgebung an, während ein***Offline-Kanal*** den im Cache gespeicherten Inhalt wiedergibt.
+Ein ***Online-Kanal*** zeigt den aktualisierten Inhalt in der Echtzeitumgebung an, während ein ***Offline-Kanal*** den im Cache gespeicherten Inhalt wiedergibt.
 
 ### 2. Wie schalte ich einen Kanal online? {#how-do-i-make-a-channel-online}
 
@@ -102,16 +105,16 @@ Im Entwicklermodus kann der Chrome OS-Player als Chrome-Browser-Plug-in install
 
 1. Klicken Sie [hier](https://download.macromedia.com/screens/), um den neuesten Chrome-Player herunterzuladen.
 1. Entpacken Sie die Datei und speichern Sie sie auf der Festplatte.
-1. Öffnen Sie den Chrome-Browser, klicken Sie oben rechts auf das Menü mit den 3 Punkten und wählen Sie **Weitere Tools** > **Erweiterungen** aus oder navigieren Sie direkt zu ***chrome://extensions ***.
+1. Öffnen Sie den Chrome-Browser und wählen Sie im Menü die Option **Erweiterungen** oder navigieren Sie direkt zu ***chrome://extensions***.
 1. Aktivieren Sie oben rechts den **Entwicklermodus**.
 1. Klicken Sie oben links auf **Entpackte Erweiterung laden** und laden Sie den entpackten Chrome-Player.
 1. Überprüfen Sie, ob in der Liste der Erweiterungen das Plug-in **AEM Screens Chrome Player** aufgeführt wird.
-1. Öffnen Sie eine neue Registerkarte und klicken Sie oben links auf das Symbol **Apps** oder navigieren Sie direkt zu ***chrome://apps ***.
+1. Öffnen Sie eine neue Registerkarte und klicken Sie oben links auf das Symbol **Apps** oder navigieren Sie direkt zu ***chrome://apps***.
 1. Klicken Sie auf das Plug-in **AEM Screens**, um den Chrome-Player zu starten. Standardmäßig wird der Player im Vollbildmodus gestartet. Drücken Sie **Esc**, um den Vollbildmodus zu beenden.
 
 ### 2. Wie kann ich ein Problem beheben, wenn der Screens-Player bei einer Veröffentlichungsinstanz, die einen benutzerdefinierten Fehler-Handler aufweist, nicht authentifiziert werden kann? {#how-to-troubleshoot-if-screens-player-is-unable-to-authenticate-through-publish-instance-with-custom-error-handler}
 
-Wenn der AEM Screens-Player beim Starten einen 404-Fehler erhält, stellt er eine Anfrage an ***/content/screens/svc.ping.json ***. Der Player initiiert eine Authentifizierungsanforderung, um sich bei der Veröffentlichungsinstanz zu authentifizieren. Wenn es in der Veröffentlichungsinstanz einen benutzerdefinierten Fehler-Handler gibt, sorgen Sie dafür, dass Sie in***/content/screens/svc.ping.json*** den 404-Status-Code für einen anonymen Benutzer zurückgeben.
+Wenn der AEM Screens-Player beim Starten einen 404-Fehler erhält, stellt er eine Anfrage an ***/content/screens/svc.ping.json***. Der Player initiiert eine Authentifizierungsanforderung, um sich bei der Veröffentlichungsinstanz zu authentifizieren. Wenn es in der Veröffentlichungsinstanz einen benutzerdefinierten Fehler-Handler gibt, sorgen Sie dafür, dass Sie in ***/content/screens/svc.ping.json*** den 404-Status-Code für einen anonymen Benutzer zurückgeben.
 
 ### 3. Wie lässt sich der Gerätebildschirm in einem Android-Player dauerhaft einschalten? {#how-to-set-the-device-screen-stay-on-in-an-android-player}
 
