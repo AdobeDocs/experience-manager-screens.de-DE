@@ -11,10 +11,10 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: ae05d169dce9d02562159524f9bf43e88a29e43f
+source-git-commit: 9e267326da9c8163d85402425e6b46886e4d19f9
 workflow-type: tm+mt
-source-wordcount: '1175'
-ht-degree: 54%
+source-wordcount: '1176'
+ht-degree: 47%
 
 ---
 
@@ -35,18 +35,18 @@ Die folgende Seite beschreibt die Verwendung des Mehrzonen-Layouts und behandelt
 
 Abhängig von den Projektanforderungen sind ggf. mehrere Bereiche in einem Kanal erforderlich, die dann zusammen als Einheit bearbeitet werden. Beispiel: eine Produktsequenz mit entsprechendem Social-Media-Feed, die in drei separaten Bereichen in einem Kanal läuft.
 
-## Erstellen eines Mehrzonen-Layouts {#creating-multi-zone-layout}
-
-Beim Erstellen eines Kanals können Sie mithilfe verschiedener Vorlagen Bereiche in Ihrem Kanal erstellen. Sie können ein einzelnes Bild, Video oder einen eingebetteten Kanal hinzufügen, sodass mehrere Assets in einer Sequenz angezeigt werden können.
 
 ### Voraussetzungen {#prerequisites}
 
-Bevor Sie mit der Implementierung dieser Funktion beginnen, stellen Sie sicher, dass Sie ein Projekt als Voraussetzung für die Implementierung des Mehrzonen-Layouts vorbereitet haben. Beispiel:
+Bevor Sie Beginn mit der Implementierung dieser Funktion haben, vergewissern Sie sich bitte, dass Sie die Konzeptkenntnisse zu Folgendem haben:
 
-* Erstellen eines AEM Screens-Projekts mit dem Titel **Bereiche**
-* Erstellen einer Anzeige unter **Standorte** mit dem Namen **MultiZoneDisplay**.
+* [Erstellen eines AEM Screens-Projekts](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html)
+* [Erstellen einer Anzeige](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html)
+* [Zuweisen eines Kanals zu einer Anzeige](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/channel-assignment.html)
 
-Erstellen Sie einen Kanal mit dem Titel **MultiZone** im Projekt **Bereiche**. Führen Sie dazu folgende Schritte durch:
+## Erstellen eines Mehrzonen-Layouts {#creating-multi-zone-layout}
+
+Beim Erstellen eines Kanals können Sie mithilfe verschiedener Vorlagen Bereiche in Ihrem Kanal erstellen. Sie können ein einzelnes Bild, Video oder einen eingebetteten Kanal hinzufügen, sodass mehrere Assets in einer Sequenz angezeigt werden können.
 
 **Erstellen des Kanals**
 
@@ -72,13 +72,11 @@ Sie können einzelne Assets wie ein Bild oder ein Video in allen drei verschiede
 
    Um ein einzelnes Bild oder Video in zwei Zonen abzuspielen, ziehen Sie einfach per Drag &amp; Drop ein Kanal in jeden Bereich des Editors, wie in der folgenden Abbildung dargestellt:
 
-   MultiZone-img3
-
    ![image](/help/user-guide/assets/multi-zone/multizone-img3.png)
 
 ### Verwenden sequenzieller Inhalte in einem oder mehreren Bereichen {#using-sequenced-content-in-one-or-more-zones}
 
-Wenn Sie möchten, dass die Zonen eine Abfolge von Bildern oder Inhalten und ein statisches Bild in zwei verschiedenen Zonen anzeigen, führen Sie die folgenden Schritte aus, um Einzelheiten zu erfahren.
+Wenn Sie möchten, dass in den Zonen eine Bildsequenz und ein Video in zwei verschiedenen Zonen angezeigt werden, führen Sie die folgenden Schritte aus, um Details anzuzeigen.
 
 1. **Erstellen eines Kanalordners**
 
@@ -101,7 +99,7 @@ Wenn Sie möchten, dass die Zonen eine Abfolge von Bildern oder Inhalten und ein
 
    ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img4.png)
 
-   Das Video, das zum Editor des **Zone2** -Sequenz-Kanals hinzugefügt wurde, wird unten gezeigt:
+   Hinzufügen Sie ein Video zum Editor des Kanals der **Zone2** -Sequenz, wie in der folgenden Abbildung dargestellt:
 
    ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img5.png)
 
@@ -110,18 +108,14 @@ Wenn Sie möchten, dass die Zonen eine Abfolge von Bildern oder Inhalten und ein
    1. Navigieren Sie zu **Bereiche** > **Kanäle** > **MultiZone**.
    1. Klicken Sie in der Aktionsleiste auf **Bearbeiten**, um den Editor zu öffnen.
    1. Ziehen Sie die Komponente &quot; **Eingebettete Sequenz** &quot;auf zwei Bereiche.
-
-1. **Inhalt zu allen drei Bereichen hinzufügen**
-
-   1. Navigieren Sie zu **Bereiche** > **Kanäle** > **MultiZone**.
    1. Wählen Sie die eingebettete Sequenz in einem der Bereiche aus.
    1. Klicken Sie auf das Symbol **Konfigurieren** (Schraubenschlüssel), um eine der eingebetteten Sequenzen im Editor zu konfigurieren.
    1. Wählen Sie als Kanalpfad **Bereiche** > **Kanäle** > **EmbeddedChannels** > **Zone1** aus, wie in der Abbildung unten dargestellt.
-   Fügen Sie auf ähnliche Weise die **Zone2** einer anderen eingebetteten Sequenzkomponente im Editor hinzu.
+   1. Fügen Sie auf ähnliche Weise die **Zone2** einer anderen eingebetteten Sequenzkomponente im Editor hinzu.
 
-   ![image](/help/user-guide/assets/multi-zone/multizone-3.png)
+      ![image](/help/user-guide/assets/multi-zone/multizone-3.png)
 
-### Erstellen von Position und Anzeige {#creating-location}
+### Erstellen eines Orts und eines Displays {#creating-location}
 
 Sie müssen einen Speicherort und eine Anzeige erstellen, um den Inhalt im Bildschirmplayer Ansicht. Gehen Sie wie folgt vor, um eine Position und eine Anzeige zu erstellen.
 
@@ -152,12 +146,14 @@ Sie müssen die Kanal der Anzeige zuweisen, um den Inhalt Ansicht. Gehen Sie wie
    1. Klicken Sie auf **Speichern**.
 
       ![image](/help/user-guide/assets/multi-zone/multizone-img9.png)
-   1. Ebenso müssen Sie die anderen beiden eingebetteten Kanal (**Zone1** und **Zone2**) dieser Anzeige mit Schritt (2) zuweisen.
+   1. Entsprechend müssen Sie die anderen beiden eingebetteten Kanal (**Zone1** und **Zone2**) dieser Anzeige zuweisen.
    1. Nachdem Sie alle drei Kanal der **Lobby** -Anzeige zugewiesen haben, sollten Sie die zugewiesenen Kanal aus dem Display-Dashboard Ansicht haben.
 
       ![image](/help/user-guide/assets/multi-zone/multizone-img8.png)
-   >[!IWichtig]
-   > Nachdem Sie der Anzeige den Kanal &quot;main&quot;(in diesem Fall &quot; **MultiZone**&quot;) zugewiesen haben, müssen die beiden anderen eingebetteten Kanal **Zone1** und **Zone2** ebenfalls derselben Anzeige zugewiesen werden.
+
+
+      >[!IWichtig]
+      > Nachdem Sie der Anzeige den Kanal &quot;main&quot;(in diesem Fall &quot; **MultiZone**&quot;) zugewiesen haben, müssen die beiden anderen eingebetteten Kanal **Zone1** und **Zone2** ebenfalls derselben Anzeige zugewiesen werden.
 
 ### Registrieren des Geräts {#registering-device}
 
@@ -171,19 +167,20 @@ Nachdem Sie einen Speicherort und eine Anzeige eingerichtet haben, führen Sie d
       >[!NOTE]
       > Der Titel des Geräts muss mit dem Gerätetoken (**Token** -Feld) übereinstimmen, das auf der Registerkarte &quot; **Geräteregistrierung** &quot;angezeigt wird.
    1. Wenn der Titel mit dem Gerätetoken übereinstimmt, wählen Sie das Gerät aus und klicken Sie in der Aktionsleiste auf &quot;Gerät **registrieren&quot;** .
-   1. Wenn der Registrierungscode mit dem Code auf der Registerkarte &quot;Bildschirmplayer-Registrierung&quot;übereinstimmt, klicken Sie in der Aktionsleiste auf &quot; **Validieren** &quot;.
+   1. Wenn der Registrierungscode mit dem Code auf der Registerkarte &quot;Bildschirmplayer- **Geräteregistrierung** &quot;übereinstimmt, klicken Sie in der Aktionsleiste auf &quot; **Validieren** &quot;.
       ![image](/help/user-guide/assets/multi-zone/multizone-img6.png)
    1. Enter the **Title** as **Chrome-Device1** and click **Register**.
    1. Wählen Sie &quot; **Anzeige** zuweisen&quot;und dann den Pfad zur Gerätekonfiguration.
+   >[!NOTE]
+   >Wenn Sie versuchen, den Inhalt im Bildschirmplayer Ansicht, klicken Sie im Kanal-Dashboard auf &quot;Offline-Inhalte **** aktualisieren&quot;.
 
 #### Anzeigen des Ergebnisses {#viewing-the-result}
 
-Wenn Sie Mehrzonen-Layouts implementiert haben, wird die folgende Ausgabe angezeigt, wie in der folgenden Abbildung dargestellt.
+Nachdem Sie die Layouts mit den vorhergehenden Schritten für mehrere Zonen implementiert haben, wird die folgende Ausgabe angezeigt.
 
 Überprüfen Sie den Bildschirmplayer, um die Ausgabe, die den Inhalt in zwei verschiedenen Bereichen anzeigt, Ansicht. Die linke und die rechte Zone (beide verwenden eine eingebettete Sequenz als Komponente).
 
->[!NOTE]
->Wenn Sie versuchen, den Inhalt im Bildschirmplayer Ansicht, klicken Sie im Kanal-Dashboard auf &quot;Offline-Inhalte **** aktualisieren&quot;.
+Der linke Bereich ist ein Sequenzbereich und der rechte Kanal enthält ein Video.
 
 ![new2-1](/help/user-guide/assets/multi-zone/Multi-gif.gif)
 
