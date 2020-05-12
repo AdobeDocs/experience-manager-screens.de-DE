@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: c615481f606a369fb9d4bafde74cbf00458f05fa
+source-git-commit: ae05d169dce9d02562159524f9bf43e88a29e43f
 workflow-type: tm+mt
 source-wordcount: '1175'
 ht-degree: 54%
@@ -151,7 +151,7 @@ Sie müssen die Kanal der Anzeige zuweisen, um den Inhalt Ansicht. Gehen Sie wie
    1. Set the **Supported Events** as **Initial Load**, **Idle Screen**, and **Timer**.
    1. Klicken Sie auf **Speichern**.
 
-      ![image](/help/user-guide/assets/multi-zone/multizone-img7.png)
+      ![image](/help/user-guide/assets/multi-zone/multizone-img9.png)
    1. Ebenso müssen Sie die anderen beiden eingebetteten Kanal (**Zone1** und **Zone2**) dieser Anzeige mit Schritt (2) zuweisen.
    1. Nachdem Sie alle drei Kanal der **Lobby** -Anzeige zugewiesen haben, sollten Sie die zugewiesenen Kanal aus dem Display-Dashboard Ansicht haben.
 
