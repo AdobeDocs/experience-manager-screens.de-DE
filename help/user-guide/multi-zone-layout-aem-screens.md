@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: 2e590d7a73dea9a0445962c2f65cdfa7fef3994d
+source-git-commit: 052cf1ccde6f18ec72307b14ffbac63be61127b0
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 46%
@@ -176,7 +176,7 @@ Nachdem Sie einen Speicherort und eine Anzeige eingerichtet haben, führen Sie d
    >[!NOTE]
    >Wenn Sie versuchen, den Inhalt im Bildschirmplayer Ansicht, klicken Sie im Kanal-Dashboard auf &quot;Offline-Inhalte **** aktualisieren&quot;.
 
-#### Anzeigen des Ergebnisses {#viewing-the-result}
+### Anzeigen des Ergebnisses {#viewing-the-result}
 
 Nachdem Sie die Layouts mit den vorhergehenden Schritten für mehrere Zonen implementiert haben, wird die folgende Ausgabe angezeigt.
 
