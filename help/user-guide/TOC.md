@@ -3,8 +3,11 @@ cloud: experience-cloud
 product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens-Hilfe
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 968c84b3f30c6ac4ba244b5ec0a3b9bf8e666609
+workflow-type: ht
+source-wordcount: '379'
+ht-degree: 100%
 
 ---
 
@@ -72,7 +75,7 @@ source-git-commit: 968c84b3f30c6ac4ba244b5ec0a3b9bf8e666609
    + Verwalten von Inhaltsaktualisierungen {#content-updates}
       + [On-Demand-Inhaltsaktualisierungen](on-demand-content.md)
       + [Aktualisierungen von Content-as-a-Service](content-update-as-a-service.md)
-      + [Inhaltsaktualisierung mit Screenstart](launches.md)
+      + [Inhaltsaktualisierung mit Screens Launch](launches.md)
    + Nutzungsszenarios {#use-case-examples}
       + [Notfallkanäle](emergency-channel.md)
       + [Temperaturaktivierung für ein Reiseangebot](local-temperature-activation.md)
