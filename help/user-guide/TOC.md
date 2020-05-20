@@ -3,11 +3,11 @@ cloud: experience-cloud
 product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens-Hilfe
-translation-type: ht
-source-git-commit: 968c84b3f30c6ac4ba244b5ec0a3b9bf8e666609
-workflow-type: ht
-source-wordcount: '379'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 28966ccd0febf28494cb218407fec942a79c1cf4
+workflow-type: tm+mt
+source-wordcount: '383'
+ht-degree: 98%
 
 ---
 
@@ -32,6 +32,7 @@ ht-degree: 100%
    + [Verbinden des Screens-Players](working-with-screens-player.md)
    + [Geräteregistrierung](device-registration.md)
    + [Einrichten von ACLs](setting-up-acls.md)
+   + [Checkliste für die Sicherheit von AEM Screens](security-checklist.md)
    + [Umstellung von ContentSync auf SmartSync](smartsync.md)
    + [Importer für neue Projekte aus Datei](project-importer.md)
    + [Replizieren von Datenauslösern auf Veröffentlichungsservern](replicating-data-triggers.md)
