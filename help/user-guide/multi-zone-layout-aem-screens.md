@@ -10,11 +10,11 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
-translation-type: ht
-source-git-commit: 052cf1ccde6f18ec72307b14ffbac63be61127b0
-workflow-type: ht
-source-wordcount: '1189'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: a246671ddf7fee333d01c09ca61daee91df737e4
+workflow-type: tm+mt
+source-wordcount: '1198'
+ht-degree: 92%
 
 ---
 
@@ -38,7 +38,7 @@ Abhängig von den Projektanforderungen sind ggf. mehrere Bereiche in einem Kanal
 
 ### Voraussetzungen {#prerequisites}
 
-Bevor Sie mit der Implementierung dieser Funktion beginnen, vergewissern Sie sich, dass Sie mit folgenden Themen vertraut sind:
+Bevor Sie Beginn mit der Implementierung dieser Funktion haben, vergewissern Sie sich bitte, dass Sie über die Konzeptkenntnisse zu folgenden Themen verfügen:
 
 * [Erstellen eines AEM Screens-Projekts](https://docs.adobe.com/content/help/de-DE/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html)
 * [Erstellen einer Anzeige](https://docs.adobe.com/content/help/de-DE/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html)
@@ -61,7 +61,7 @@ Beim Erstellen eines Kanals können Sie mithilfe verschiedener Vorlagen Bereiche
 
 ### Verwenden einzelner Assets in einem oder mehreren Bereichen {#using-single-assets-in-one-or-more-zones}
 
-Sie können einzelne Assets wie ein Bild oder ein Video in allen drei verschiedenen Bereichen verwenden. Gehen Sie zur Implementierung wie folgt vor:
+Sie können einzelne Assets wie ein Bild oder ein Video in allen einzelnen Zonen verwenden. Gehen Sie zur Implementierung wie folgt vor:
 
 1. **Hinzufügen von Inhalten zum Kanal**
 
@@ -76,7 +76,7 @@ Sie können einzelne Assets wie ein Bild oder ein Video in allen drei verschiede
 
 ### Verwenden sequenzieller Inhalte in einem oder mehreren Bereichen {#using-sequenced-content-in-one-or-more-zones}
 
-Wenn Sie möchten, dass in einem der Bereiche ein Bildsequenz und im anderen ein Video angezeigt wird, führen Sie die folgenden Schritte aus, um mehr zu erfahren.
+Wenn Sie möchten, dass in den Zonen eine Abfolge von Bildern und Videos in den verschiedenen Zonen angezeigt wird, führen Sie die folgenden Schritte aus, um Details anzuzeigen.
 
 1. **Erstellen eines Kanalordners**
 
@@ -135,7 +135,7 @@ Sie müssen einen Standort und eine Anzeige erstellen, um den Inhalt im Screens-
    1. Wählen Sie im Assistenten **Erstellen** die Option **Anzeige** aus und klicken Sie auf **Weiter**.
    1. Geben Sie unter **Titel** den Wert **Lobby** ein und klicken Sie auf **Erstellen**.
 
-### Zuweisen eines Kanals zur Anzeige {#channel-channel}
+### Assigning Channels to the Display {#channel-channel}
 
 Sie müssen der Anzeige Kanäle zuweisen, damit Sie den Inhalt anzeigen können. Gehen Sie wie folgt vor, um einer Anzeige einen Kanal zuzuweisen.
 
@@ -174,7 +174,7 @@ Nachdem Sie einen Standort und eine Anzeige eingerichtet haben, gehen Sie wie fo
    1. Geben Sie unter **Titel** den Wert **Chrome-Device1** ein und klicken Sie auf **Registrieren**.
    1. Wählen Sie **Anzeige zuweisen** und dann den Pfad zur Gerätekonfiguration.
    >[!NOTE]
-   >Wenn Sie den Inhalt im Screens-Player anzeigen möchten, klicken Sie im Kanal-Dashboard auf **Offline-Inhalt aktualisieren**.
+   >Wenn Sie versuchen, den Inhalt im Bildschirmplayer Ansicht, klicken Sie im Dashboard &quot;Kanal&quot;für jeden der der Anzeige zugewiesenen Kanal auf &quot;Offline-Inhalt **** aktualisieren&quot;.
 
 ### Anzeigen des Ergebnisses {#viewing-the-result}
 
