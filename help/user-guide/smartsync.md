@@ -9,15 +9,18 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 822dfbc1-3584-4509-a35c-1d68e5f84509
 docset: aem65
-translation-type: ht
-source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
+translation-type: tm+mt
+source-git-commit: 112aa2a89578243bad49e61839d781e0f29893b4
+workflow-type: tm+mt
+source-wordcount: '465'
+ht-degree: 94%
 
 ---
 
 
 # Umstellung von ContentSync auf SmartSync {#transitioning-from-contentsync-to-smartsync}
 
-In diesem Abschnitt erhalten Sie einen Überblick über die Funktion SmartSync und dazu, wie sie Lade- und Speichervorgänge auf Servern und Netzwerk-Traffic minimiert, um Kosten zu senken.
+In diesem Abschnitt erhalten Sie einen Überblick über die SmartSync-Funktion und darüber, wie damit die Serverlast/Datenspeicherung und der Netzwerkverkehr minimiert werden, um Kosten zu reduzieren.
 
 ## Überblick {#overview}
 
@@ -74,11 +77,11 @@ Gehen Sie wie folgt vor, um von ContentSync zu SmartSync zu wechseln:
    >
    >Der gesamte Inhalts-Cache muss vor der erstmaligen Verwendung von SmartSync gelöscht werden.
 
-1. Navigieren Sie zur **Konfiguration der Adobe Experience Manager-Web-Konsole** über AEM-Instanz &gt; Hammersymbol &gt; **Vorgänge** &gt; **Web-Konsole**.
+1. Navigieren Sie zur **Konfiguration der Adobe Experience Manager-Web-Konsole** über AEM-Instanz > Hammersymbol > **Vorgänge** > **Web-Konsole**.
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 
-1. Die Konfiguration der Adobe Experience Manager-Web-Konsole wird geöffnet. Suchen Sie nach *offlinecontentservices*.
+1. Die Konfiguration der Adobe Experience Manager-Web-Konsole wird geöffnet. Suchen Sie nach *Offlinecontentservice*.
 
    Zum Durchsuchen der Eigenschaft **Screens-Offline-Inhaltsdienst** drücken Sie **Befehlstaste+F** unter **Mac** und **Strg+F** unter **Windows**.
 
