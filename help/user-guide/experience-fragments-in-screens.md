@@ -10,11 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
-translation-type: ht
-source-git-commit: 112aa2a89578243bad49e61839d781e0f29893b4
-workflow-type: ht
-source-wordcount: '1102'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
+workflow-type: tm+mt
+source-wordcount: '1100'
+ht-degree: 95%
 
 ---
 
@@ -25,9 +25,9 @@ Auf dieser Seite werden die folgenden Themen behandelt:
 
 * **Überblick**
 * **Verwenden von Experience Fragments in AEM Screens**
-* **Übertragen der Änderungen von der Master-Seite**
+* **Änderungen an der Seite propagieren**
 
-## Überblick {#overview}
+## Übersicht {#overview}
 
 Ein ***Experience Fragment*** ist eine Gruppe aus einer oder mehreren Komponenten (einschließlich Inhalt und Layout), die innerhalb von Seiten referenziert werden können. Experience Fragments können beliebige Komponenten enthalten, beispielsweise eine oder mehrere Komponenten mit beliebigen Elementen innerhalb eines Absatzsystems, das für das Gesamterlebnis referenziert oder von einem dritten Endpunkt angefordert wird.
 
@@ -79,6 +79,7 @@ Gehen Sie wie folgt vor, um den Inhalt von **We.Retail** in Ihrem **TestChannel*
 
    1. Wählen Sie das Fragment aus, das Sie in den Kanal aufnehmen möchten.
    1. Klicken Sie auf das letzte Symbol rechts, um das Dialogfeld **In Experience Fragment konvertieren** zu öffnen.
+
    ![screen_shot_2019-07-29at105314am](assets/screen_shot_2019-07-29at105314am.png)
 
 1. **Erstellen eines Experience Fragments**
@@ -91,12 +92,14 @@ Gehen Sie wie folgt vor, um den Inhalt von **We.Retail** in Ihrem **TestChannel*
    1. Geben Sie unter **Fragmenttitel** den Wert **ScreensFragment** ein.
 
    1. Klicken Sie auf das Häkchen, um die Erstellung eines neuen Experience Fragments abzuschließen.
+
    ![screen_shot_2019-07-29at105918am](assets/screen_shot_2019-07-29at105918am.png)
 
 1. **Erstellen einer Live Copy des Experience Fragments**
 
    1. Navigieren Sie zur AEM-Homepage.
    1. Wählen Sie **Experience Fragments** aus, markieren Sie **ScreensFragment** und klicken Sie auf **Variante als Live Copy**, wie in der folgenden Abbildung dargestellt:
+
    ![screen_shot_2019-07-29at110443am](assets/screen_shot_2019-07-29at110443am.png)
 
    c. Wählen Sie im Assistenten **Live Copy erstellen“** die Option „ScreensFragment“ aus und klicken Sie auf **Weiter**.
@@ -118,6 +121,7 @@ Gehen Sie wie folgt vor, um den Inhalt von **We.Retail** in Ihrem **TestChannel*
    1. Navigieren Sie zum **ScreensFragment** (das Sie in den vorherigen Schritten erstellt haben) und klicken Sie in der Aktionsleiste auf **Eigenschaften**.
 
    1. Wählen Sie die Registerkarte **Offline-Konfiguration** aus, wie in der Abbildung unten dargestellt.
+
    Sie können Ihrem Experience Fragment die **Client-seitigen Bibliotheken** (Java und CSS) und **statischen Dateien** hinzufügen.
 
    Das folgende Beispiel zeigt das Hinzufügen Client-seitiger Bibliotheken und Schriften als Teil statischer Dateien zu Ihrem Experience Fragment.  ![fragment](assets/fragment.gif)
@@ -129,6 +133,7 @@ Gehen Sie wie folgt vor, um den Inhalt von **We.Retail** in Ihrem **TestChannel*
 
    1. Klicken Sie in der Seitenleiste auf das Komponentensymbol.
    1. Ziehen Sie das **Experience Fragment** in Ihren Kanal.
+
    ![screen_shot_2019-07-29at123115pm](assets/screen_shot_2019-07-29at123115pm.png)
 
    e. Wählen Sie die Komponente **Experience Fragment** aus und klicken Sie auf das Symbol oben links (Schraubenschlüssel), um das Dialogfeld **Experience Fragment** zu öffnen.
@@ -163,7 +168,7 @@ Nach Abschluss der vorherigen Schritte können Sie Ihr Experience Fragment in **
 Sie sehen den Inhalt der **Sites**-Seite (Live Copy des Experience Fragments) in Ihrem Kanal, wie in der folgenden Abbildung dargestellt:\
 ![screen_shot_2018-06-08at120739pm](assets/screen_shot_2018-06-08at120739pm.png)
 
-## Übertragen der Änderungen von der Master-Seite {#propagating-changes-from-the-master-page}
+## Änderungen an der Seite propagieren {#propagating-changes-from-the-master-page}
 
 ***Live Copy*** bezieht sich auf die Kopie (der Quelle), die durch Synchronisierungsaktionen aufrechterhalten wird, wie in den Rollout-Konfigurationen definiert.
 
@@ -173,9 +178,9 @@ Da es sich bei dem von uns erstellten Experience Fragment um eine Live Copy der 
 >
 >Weitere Informationen zur Live Copy finden Sie unter „Wiederverwenden von Inhalten: Multi Site Manager und Live Copy“.
 
-Gehen Sie wie folgt vor, um Änderungen vom Master-Kanal zum Zielkanal zu übertragen:
+Gehen Sie wie folgt vor, um Änderungen vom Master-Kanal an den Ziel-Kanal zu übertragen:
 
-1. Wählen Sie auf der **Sites**-Seite (Master) das Experience Fragment aus und klicken Sie auf das Stiftsymbol, um die Elemente im Experience Fragment zu bearbeiten.
+1. Select the Experience Fragment from the **Sites** (master) page and click the pencil icon to edit the items in the Experience Fragment.
 
    ![screen_shot_2018-06-08at122655pm](assets/screen_shot_2018-06-08at122655pm.png)
 
