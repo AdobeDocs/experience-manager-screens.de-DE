@@ -9,18 +9,18 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 822dfbc1-3584-4509-a35c-1d68e5f84509
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7832176cfb1e4647a49852ce382862978dddbfe2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '465'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
 # Umstellung von ContentSync auf SmartSync {#transitioning-from-contentsync-to-smartsync}
 
-In diesem Abschnitt erhalten Sie einen Überblick über die SmartSync-Funktion und darüber, wie damit die Serverlast/Datenspeicherung und der Netzwerkverkehr minimiert werden, um Kosten zu reduzieren.
+In diesem Abschnitt erhalten Sie einen Überblick über die Funktion SmartSync und dazu, wie sie Lade- und Speichervorgänge auf Servern und Netzwerk-Traffic minimiert, um Kosten zu senken.
 
 ## Überblick {#overview}
 
@@ -81,7 +81,7 @@ Gehen Sie wie folgt vor, um von ContentSync zu SmartSync zu wechseln:
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 
-1. Die **Konfiguration der Adobe Experience Manager-Web-Konsole** wird geöffnet. Suchen Sie nach *Offlinecontentservice*.
+1. Die **Konfiguration der Adobe Experience Manager-Web-Konsole** wird geöffnet. Suchen Sie nach *offlinecontentservice*.
 
    Zum Durchsuchen der Eigenschaft **Screens-Offline-Inhaltsdienst** drücken Sie **Befehlstaste+F** unter **Mac** und **Strg+F** unter **Windows**.
 
