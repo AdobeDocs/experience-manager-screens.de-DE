@@ -3,8 +3,11 @@ title: Projektrollen und Zuständigkeiten in AEM Screens
 seo-title: Projektrollen und Zuständigkeiten in AEM Screens
 description: Auf dieser Seite werden die Projektrollen und Zuständigkeiten in AEM Screens beschrieben.
 seo-description: Auf dieser Seite werden die Projektrollen und Zuständigkeiten in AEM Screens beschrieben.
-translation-type: ht
-source-git-commit: 50d36d89b8dcc746a043e5e72ffc0148d99854ad
+translation-type: tm+mt
+source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
+workflow-type: tm+mt
+source-wordcount: '1263'
+ht-degree: 99%
 
 ---
 
@@ -96,7 +99,7 @@ Zur Sicherstellung einer erfolgreichen Bereitstellung von Digital Signage ist es
 >[!NOTE]
 >
 > Auch wenn der Schwerpunkt dieses Handbuchs auf *Tag 1* und *Tag 2* liegt, müssen bei einem erfolgreichen Digital Signage-Projekt alle drei Schritte beachtet werden.
-In einem zusätzlichen Video zu **[Projektverwaltung und -implementierung](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** erfahren Sie mehr über die Projektvorbereitung, die Projektinitiierung und den Projektfortschritt.
+In einem zusätzlichen Video zu **[Projektverwaltung und -implementierung](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)**erfahren Sie mehr über die Projektvorbereitung, die Projektinitiierung und den Projektfortschritt.
 
 ## RACI-Diagramm {#raci-chart}
 
@@ -167,7 +170,7 @@ Die folgende Tabelle fasst die Überlegungen zu **Tag 1: Projektimplementierung
 | Einigung über Rollen und Zuständigkeiten | RA | RA | RA | RA |
 | Einzelhandelsdesign inklusive Verkabelung | - | - | - | - |
 | Auswahl der Player-Hardware | RAC | - | - | - |
-| Verwaltung der Mastergeräte | RA | I | - | - |
+| Gerätemanagement des Master | RA | I | - | - |
 | Bestellung, Aufbewahrung und Konfiguration von Geräten | RA | CI | I | - |
 | Definition von Supportprozessen | RA | I | RA | C |
 
