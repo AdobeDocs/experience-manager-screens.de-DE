@@ -10,11 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 112aa2a89578243bad49e61839d781e0f29893b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1102'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ Gehen Sie wie folgt vor, um den Inhalt von **We.Retail** in Ihrem **TestChannel*
 
 1. **Navigieren zu einer Sites-Seite in We.Retail**
 
-   1. Navigate to Sites and select **We.Retail In-Store** -> **Channels** ->**Idle Channel - Night** and select this page to use this as an experience fragment for your Screens channel.
+   1. Navigieren Sie zu „Sites“ und wählen Sie **We.Retail In-Store** -> **Kanäle** ->**Leerkanal – Nacht** und anschließend diese Seite aus, um diese als Experience Fragment für Ihren Screens-Kanal zu verwenden.
 
    1. Klicken Sie in der Aktionsleiste auf **Bearbeiten**, um die Seite zu öffnen, die Sie als Experience Fragment für Ihren Screens-Kanal verwenden möchten.
 
