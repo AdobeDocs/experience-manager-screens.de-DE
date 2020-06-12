@@ -2,7 +2,7 @@
 title: Direct Internet Access
 description: Direct Internet Access
 translation-type: tm+mt
-source-git-commit: 3527dd38898399e692e114edb492825b18b28f86
+source-git-commit: 31a6b202cae200e43e87db1df4e60f6f9d75c1bf
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 0%
@@ -54,7 +54,7 @@ Für die Einsatzfälle, in denen mehr Interaktionen mit Sensoren oder anderen Tr
 
 Die folgende Tabelle gibt einen Überblick über die wichtigsten Daten zu Netzwerkverbindungen:
 
-![](/help/assets/direct-access-1.png)
+![](/help/assets/download-times-direct.png)
 
 >[!NOTE]
 >Die Informationen ermöglichen es Ihnen, den Verbrauch der einzelnen Geräte im Netzwerk zu Ansichten, die eine Internetquelle anfordern und herunterladen. Jede dieser Anforderungen ergibt also die Downloadzeit und verlängert sie.
