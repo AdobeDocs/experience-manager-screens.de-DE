@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Direct Internet Access {#direct-internet-access}
 
-Das Setup für den direkten Internetzugang enthält einen Einstiegspunkt für den Internetzugang, um die AEM Cloud-Dienste zu erreichen, mit denen AEM Screens eine Verbindung herstellen muss.
+Das Direct Internet Access SetUp enthält einen Einstiegspunkt für den Internetzugang, um die AEM cloud services zu erreichen, zu denen AEM Screens eine Verbindung herstellen müssen.
 
-Die Standardports für AEM Screens-Kommunikation sind:
+Die Standardkommunikation über Ports für AEM Screens lautet:
 * `http (TCP Port 80)`Oder
 * `ssl-secured https (TCP Port 443)`
 
@@ -25,7 +25,7 @@ Die Anschlüsse können je nach Konfiguration Ihrer dedizierten AEM-Konfiguratio
 Die Konfiguration beinhaltet auch einen Internetzugang von jedem Internet-Dienstleister und es ist eine Internetverbindung. Die meisten ISPs bieten einen Internet-Router, der das Internet-Modem, den Netzwerk-Switch, den WIFI-Access-Point, die Firewall und andere Netzwerkfunktionen (je nach Hersteller und Modell) abdeckt.
 
 >[!NOTE]
->**Tipps zur Fehlerbehebung **>Wenn AEM Screens nicht ordnungsgemäß verbunden ist und den erwarteten Inhalt anzeigt:
+>**Tipps zur Fehlerbehebung **>Wenn AEM Screens keine ordnungsgemäße Verbindung herstellen und den erwarteten Inhalt anzeigen:
 >
 >1. Prüfen Sie Ihre Internet Router Firewall, wenn es irgendwelche Einschränkungen in Bezug auf `TCP/IP Port 80/443`.
 >1. Stellen Sie sicher, dass alle erforderlichen Anschlüsse zulässig sind, und versuchen Sie es erneut.
@@ -37,18 +37,18 @@ Die Netzwerkeinstellungen für Direct Access können logisch in zwei Blöcke get
 
 ### WAN/Internetverbindung {#wan-connection}
 
-Die Leistung der Internetverbindung hat neben der bereits beschriebenen Netzwerkerreichbarkeit genügend Bandbreite zur Verfügung gestellt, um AEM Screens angenehm und reibungslos zu bedienen. Im Einzelnen hängt &quot;ausreichend&quot;von der Anzahl der angeschlossenen AEM-Bildschirme und der Nutzung anderer Verbraucher im Netzwerk ab, wie Smartphones, Tablets, Kassierer, Computer oder WIFI-Netzwerke.
+Die Leistung der Internetverbindung hat, neben der bereits beschriebenen Netzwerkerreichbarkeit, eine ausreichende Bandbreite zur Verfügung gestellt, um AEM Screens angenehm und reibungslos zu bedienen. Im Einzelnen hängt &quot;ausreichend&quot;von der Anzahl der angeschlossenen AEM-Bildschirme und der Nutzung anderer Verbraucher im Netzwerk ab, wie Smartphones, Tablets, Kassierer, Computer oder WIFI-Netzwerke.
 Denken Sie daran, dass alle Geräte einen gleichzeitigen Zugriff auf die Internetverbindung haben und dass die Bandbreite in der Regel linear sinkt, während dem Netzwerk mehr Benutzer/Computer hinzugefügt werden.
 
 ### LAN-Verbindung {#lan-connection}
 
-Die Leistung des LANs hat neben der bereits beschriebenen Netzwerkerreichbarkeit eine ausreichende Bandbreite für den reibungslosen Betrieb von AEM Screens zur Verfügung gestellt. In diesen Tagen ist das LAN-Netzwerk in der Regel mindestens 100 MBit/s Netzwerk, sodass es genügend Bandbreite geben sollte, um viele Geräte mit guter Leistung mit dem System zu verbinden.
+Die Leistung des LAN hat, neben der bereits beschriebenen Netzwerkerreichbarkeit, ausreichend Bandbreite zur Verfügung zu stellen, um AEM Screens angenehm und reibungslos zu bedienen. In diesen Tagen ist das LAN-Netzwerk in der Regel mindestens 100 MBit/s Netzwerk, sodass es genügend Bandbreite geben sollte, um viele Geräte mit guter Leistung mit dem System zu verbinden.
 Falls eine WIFI-Lösung zur Verbindung des Bildschirms mit dem Internetlink vorgesehen ist, wird empfohlen, moderne WIFI-Standards wie IEEE 802.11g als Minimum zu verwenden. Dieser Standard unterstützt Verbindungen bis zu 54 Mbit. Alle *neueren* Standards wie 802.11h-n sind von besserer Qualität. Wenn ein WIFI-Repeater benötigt wird, empfehlen wir dringend Mesh WIFI Access-Point Technologien wie Google Nest Mesh WIFI oder Ähnliches.
 Andere WiFi-Wiederholungstechnologien führen schließlich zu einem massiven Bandbreitenverlust im gesamten Netzwerk.
 
 ## Herunterladen von Medien und Assets {#download}
 
-AEM Screens bietet Digital Signage-Benutzern einen großen Vorteil. Es lädt alle erforderlichen Mediendateien wie Bilder und Videos herunter und speichert sie lokal. Aufgrund dieses Konzepts kommt es zu einem großen Netzwerk-Traffic, wenn neue Inhalte auf einem bestimmten Bildschirm angezeigt werden.
+AEM Screens bieten Digital Signage-Benutzern einen großen Vorteil. Es lädt alle erforderlichen Mediendateien wie Bilder und Videos herunter und speichert sie lokal. Aufgrund dieses Konzepts kommt es zu einem großen Netzwerk-Traffic, wenn neue Inhalte auf einem bestimmten Bildschirm angezeigt werden.
 Bei normalem Betrieb, z. B. wenn die Wiedergabeliste definiert ist, die sich tagsüber nicht sehr häufig ändert, ist dies ein netzwerkunabhängiger Vorgang, sobald alle Dateien auf dem Player gespeichert wurden.
 Für die Einsatzfälle, in denen mehr Interaktionen mit Sensoren oder anderen Triggern bestehen und Inhalt sehr dynamisch ist, ist eine schnelle und zuverlässige Netzwerkverbindung unverzichtbar, um eine optimale Kundenerfahrung zu gewährleisten.
 
