@@ -3,11 +3,11 @@ title: Sicherheits-Checkliste für AEM Screens
 seo-title: Sicherheits-Checkliste für AEM Screens
 description: Auf dieser Seite wird die Sicherheits-Checkliste für AEM Screens beschrieben.
 seo-description: Auf dieser Seite wird die Sicherheits-Checkliste für AEM Screens beschrieben.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dd1198dbfb502287ae72c3ccef297606aef069a2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '473'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
