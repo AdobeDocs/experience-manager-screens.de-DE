@@ -4,11 +4,11 @@ seo-title: Installieren des Screens-Players
 description: Installieren des Screens-Players
 seo-description: Installieren des Screens-Players
 contentOwner: jsyal
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: be491e88b7938f24ae1f375b2fded4052404aaa1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '178'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Auf dieser Seite wird die Installation des AEM Screens-Players beschrieben.
 
 ## Verfügbarer Screens-Player {#available-players}
 
-Der AEM Screens Player ist für Android, Chrome OS und Windows verfügbar.
+Der AEM Screens-Player ist für Android, Chrome OS und Windows verfügbar.
 
 Um einen **AEM Screens-Player** herunterzuladen, rufen Sie die Seite [AEM 6.5 Player-Downloads](https://download.macromedia.com/screens/) auf.
 
