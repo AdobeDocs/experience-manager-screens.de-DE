@@ -1,14 +1,14 @@
 ---
 user-guide-title: Handbuch mit Best Practices für AEM Screens-Projekte
 solution-title: AEM Screens
-getting-started-title: Anleitung zu Best Practices für AEM Screens
+getting-started-title: Handbuch mit Best Practices für AEM Screens
 product: experience manager
 audience: end-user
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bf40f06a782ba0ac665697900570d5c905dd4ddc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '104'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
