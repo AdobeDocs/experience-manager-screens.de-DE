@@ -20,13 +20,13 @@ Die Einrichtung des Unternehmensnetzwerks kann logisch in zwei Blöcke getrennt 
 
 ### WAN/Internetverbindung {#wan-connection}
 
-Die Leistung der Internetverbindung hat neben der bereits beschriebenen Netzwerkerreichbarkeit genügend Bandbreite zur Verfügung gestellt, um AEM Screens angenehm und reibungslos zu bedienen.
+Die Leistung der Internetverbindung hat, neben der bereits beschriebenen Netzwerkerreichbarkeit, eine ausreichende Bandbreite zur Verfügung gestellt, um AEM Screens angenehm und reibungslos zu bedienen.
 Im Einzelnen hängt &quot;ausreichend&quot;von der Anzahl der angeschlossenen AEM-Bildschirme und der Nutzung anderer Verbraucher im Netzwerk ab, wie Smartphones, Tablets, Kassierer, Computer oder WIFI-Netzwerke.
 Denken Sie daran, dass alle Geräte über einen gleichzeitigen Zugriff auf die Internetverbindung verfügen und dass die Bandbreite in der Regel linear sinkt, während Sie dem Netzwerk mehr Benutzer/Computer hinzufügen.
 
 ### LAN-Verbindung {#lan-connection}
 
-Die Leistung des LANs hat neben der bereits beschriebenen Netzwerkerreichbarkeit eine ausreichende Bandbreite für den reibungslosen Betrieb von AEM Screens zur Verfügung gestellt. In diesen Tagen ist das LAN-Netzwerk in Unternehmen in der Regel mindestens 1000 MBit/s Netzwerk, sodass es genügend Bandbreite geben sollte, um viele Geräte mit guter Leistung mit dem System zu verbinden. Bei Verwendung einer anderen aktiven Netzwerkkomponente müssen alle diese den Anforderungen an die Netzwerkbandbreite entsprechen. Beispielsweise sollten die Netzwerkkomponenten mindestens dem 1000Mbit/s-Standard entsprechen und der Bandbreite entsprechen, die von der Internet Access/Router-Spezifikation bereitgestellt wird.
+Die Leistung des LAN hat, neben der bereits beschriebenen Netzwerkerreichbarkeit, ausreichend Bandbreite zur Verfügung zu stellen, um AEM Screens angenehm und reibungslos zu bedienen. In diesen Tagen ist das LAN-Netzwerk in Unternehmen in der Regel mindestens 1000 MBit/s Netzwerk, sodass es genügend Bandbreite geben sollte, um viele Geräte mit guter Leistung mit dem System zu verbinden. Bei Verwendung einer anderen aktiven Netzwerkkomponente müssen alle diese den Anforderungen an die Netzwerkbandbreite entsprechen. Beispielsweise sollten die Netzwerkkomponenten mindestens dem 1000Mbit/s-Standard entsprechen und der Bandbreite entsprechen, die von der Internet Access/Router-Spezifikation bereitgestellt wird.
 
 ### Sonstige Unternehmensnetzspezifikationen {#other-networks}
 
@@ -37,7 +37,7 @@ Andere WiFi-Wiederholungstechnologien führen schließlich zu einem massiven Ban
 
 ## Herunterladen von Medien und Assets {#download}
 
-AEM Screens bietet Digital Signage-Benutzern einen großen Vorteil. Es lädt alle erforderlichen Mediendateien wie Bilder und Video herunter und speichert sie lokal. Aufgrund dieses Konzepts kommt es zu einem großen Netzwerk-Traffic, wenn neue Inhalte auf einem bestimmten Bildschirm angezeigt werden.
+AEM Screens bieten Digital Signage-Benutzern einen großen Vorteil. Es lädt alle erforderlichen Mediendateien wie Bilder und Video herunter und speichert sie lokal. Aufgrund dieses Konzepts kommt es zu einem großen Netzwerk-Traffic, wenn neue Inhalte auf einem bestimmten Bildschirm angezeigt werden.
 Für den normalen Betrieb, z.B. wenn Sie eine Playlist definiert haben, die nicht sehr oft während des Tages geändert wird, wird hier ein Netzwerkunabhängiger Vorgang durchgeführt, sobald alle Angebote auf dem Player gespeichert wurden. Für solche Anwendungsfälle, bei denen es mehr Interaktionen mit Sensoren oder anderen Triggern gibt und der Inhalt sehr dynamisch ist, ist eine schnelle und zuverlässige Netzwerkverbindung unverzichtbar für eine sofortige Bildschirmreaktion, um ein bestmögliches Kundenerlebnis zu gewährleisten.
 
 In den folgenden Tabellen finden Sie einen guten Überblick darüber, welche wichtigen Daten zur Netzwerkverbindung für die zu erwartende Leistung und mögliche Auslaufzeiten erforderlich sind.
