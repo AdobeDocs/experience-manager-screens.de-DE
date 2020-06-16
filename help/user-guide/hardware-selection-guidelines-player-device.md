@@ -1,18 +1,18 @@
 ---
-title: Richtlinien zur Hardwareauswahl für Player-Geräte
-description: Richtlinien zur Hardwareauswahl für Player-Geräte
-translation-type: tm+mt
+title: Richtlinien zur Hardware-Auswahl für Player-Geräte
+description: Richtlinien zur Hardware-Auswahl für Player-Geräte
+translation-type: ht
 source-git-commit: 7fdd812c71c995424a27db18264ef2db420d5717
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '220'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 
-# Richtlinien zur Hardware-Auswahl für das Player-Gerät {#hardware-selection}
+# Richtlinien zur Hardware-Auswahl für Player-Geräte {#hardware-selection}
 
-Der folgende Abschnitt enthält die Richtlinien zur Hardwareauswahl für einen AEM Screens-Player.
+Der folgende Abschnitt enthält Richtlinien zur Hardware-Auswahl für einen AEM Screens-Player.
 
 ## Wichtige Überlegungen {#important-considerations}
 
@@ -23,7 +23,7 @@ Der folgende Abschnitt enthält die Richtlinien zur Hardwareauswahl für einen A
 * Überprüfen Sie stets Strombedarf und Stromkonditionierung.
 * Prüfen Sie sorgfältig die für die Anwendung erforderlichen Leistungsanforderungen und E/A-Anschlüsse.
 
-## Hardwarekonfigurationen {#hardware-configurations}
+## Hardware-Konfigurationen {#hardware-configurations}
 
 In der folgenden Tabelle sind die Hardware-Konfigurationen mit typischen Anwendungsbeispielen für ein AEM Screens-Projekt zusammengefasst:
 
