@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
+source-git-commit: 0e426a61ef3230bbf75b88ae7235d4495a49759f
 workflow-type: tm+mt
 source-wordcount: '1907'
 ht-degree: 99%
@@ -132,7 +132,7 @@ Bei jeder Veröffentlichungsinstanz:
 1. Aktualisieren Sie die Topologie-Connector-URLs: Fügen Sie URLs aller beteiligten Veröffentlichungsinstanzen hinzu, d. h.:
    * `https://localhost:4503/libs/sling/topology/connector`
    * `https://localhost:4504/libs/sling/topology/connector`
-1. Zulässige Liste für Topologieanschluss: an IPs oder Subnetze anpassen, die Instanzen im Zusammenhang mit der teilweisen Veröffentlichung abdecken
+1. **Whitelist-Liste** zum Thema &quot;Topology Connector&quot;: an IPs oder Subnetze anpassen, die Instanzen im Zusammenhang mit der teilweisen Veröffentlichung abdecken
 1. Aktivieren Sie **Auto-Stop Local-Loops**
 
 Die Konfiguration sollte für jede Veröffentlichungsinstanz identisch sein; „Auto-Stop Local-Loops“ verhindert eine Endlosschleife.
