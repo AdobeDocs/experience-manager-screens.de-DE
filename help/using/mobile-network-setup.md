@@ -2,9 +2,9 @@
 title: Mobilnetzwerk-Einrichtung
 description: Die Seite beschreibt die Einrichtung des Mobilnetzwerks
 translation-type: tm+mt
-source-git-commit: 88ba9ab26c4ecc3f829f53244117041a9a1fd2b3
+source-git-commit: e24fa2fbec09cbe863a3615e722ae61b57da5012
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '916'
 ht-degree: 1%
 
 ---
@@ -12,11 +12,13 @@ ht-degree: 1%
 
 # Mobilnetzwerk-Einrichtung {#mobile-network-setup}
 
-Adobe AEM Screens Player kann auch über mobile/zelluläre Netzwerke mit mindestens einem 3G-Netzwerk verbunden werden.
-Innerhalb der AEM Screens wird der benötigte Inhalt physisch auf den Player-Controller/Computer heruntergeladen und ordnungsgemäß im zugrunde liegenden Betriebssystem gespeichert. Dadurch wirkt sich die angegebene Bandbreite nur auf die anfänglichen Downloadzeiten aus und beeinflusst die Performance der Display-Systeme überhaupt nicht.
-Anschluss von AEM Screens-Playern mit einer Mobilfunkverbindung 3/4/5G an Ihren Mobile Service-Datenanbieter. Der Vorteil dieses Setups besteht darin, dass der Mobile Router an einem optimierten Ort platziert werden kann, um eine bestmögliche Netzabdeckung zu gewährleisten. Dies ist in der Regel in einer erhöhten und offenen Position mit so wenig umliegenden Beton- oder Metallkonstruktionen wie möglich.
-Dieses Setup ermöglicht AEM-Bildschirmbenutzern eine große Flexibilität, da keine Festnetzverbindung zum Verbinden von AEM Screens erforderlich ist.
+AEM Screens Player können auch über mobile oder zelluläre Netzwerke verbunden werden, die mindestens ein 3G-Netzwerk laufen.
 
+Innerhalb der AEM Screens werden die erforderlichen Inhalte physisch auf den Player-Controller oder Computer heruntergeladen und ordnungsgemäß im zugrunde liegenden Betriebssystem gespeichert. Dadurch wirkt sich die angegebene Bandbreite nur auf die anfänglichen Downloadzeiten aus und beeinflusst nicht die Leistung von Displays.
+
+Anschluss von AEM Screens-Playern mit einer Mobilfunkverbindung 3/4/5G an Ihren Mobile Service-Datenanbieter. Der Vorteil dieses Setup ist, dass der Mobile Router an einem optimierten Ort platziert werden kann, um die bestmögliche Netzwerkabdeckung sicherzustellen. Dies ist in der Regel in einer erhöhten und offenen Position mit so wenig umliegenden Beton- oder Metallkonstruktionen wie möglich.
+
+Dieses Setup ermöglicht AEM-Bildschirmbenutzern eine große Flexibilität, da zum Verbinden von AEM Screens keine Festnetzverbindung erforderlich ist.
 
 ![](/help/using/assets/mobile-network-1.png)
 
@@ -25,7 +27,6 @@ Dieses Setup ermöglicht AEM-Bildschirmbenutzern eine große Flexibilität, da k
 >
 >1. Prüfen Sie Ihre Internet Router Firewall, wenn es irgendwelche Einschränkungen in Bezug auf `TCP/IP Port 80/443`.
 >1. Stellen Sie sicher, dass alle erforderlichen Anschlüsse zulässig sind, und versuchen Sie es erneut.
-
 
 
 
