@@ -2,9 +2,9 @@
 title: Direct Internet Access
 description: Direct Internet Access
 translation-type: tm+mt
-source-git-commit: 6a0460fd6c62fd6408d3c7665b626818929351d9
+source-git-commit: 88ba9ab26c4ecc3f829f53244117041a9a1fd2b3
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Die Anschlüsse können je nach Konfiguration Ihrer dedizierten AEM-Konfiguratio
 Die Konfiguration beinhaltet auch einen Internetzugang von jedem Internet-Dienstleister (ISP) und seine Internetverbindung. Die meisten ISPs bieten einen Internet-Router, der das Internet-Modem, den Netzwerk-Switch, den WIFI-Access-Point, die Firewall und andere Netzwerkfunktionen (je nach Hersteller und Modell) abdeckt.
 
 >[!NOTE]
->**Tipps zur Fehlerbehebung **>Wenn AEM Screens keine ordnungsgemäße Verbindung herstellen und den erwarteten Inhalt anzeigen:
+>**Tipps zur Fehlerbehebung **>Wenn AEM Screens keine ordnungsgemäße Verbindung herstellen und nicht den erwarteten Inhalt anzeigen:
 >
 >1. Prüfen Sie Ihre Internet Router Firewall, wenn es irgendwelche Einschränkungen in Bezug auf `TCP/IP Port 80/443`.
 >1. Stellen Sie sicher, dass alle erforderlichen Anschlüsse zulässig sind, und versuchen Sie es erneut.
