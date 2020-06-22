@@ -1,16 +1,16 @@
 ---
-title: Mobilnetzwerk-Einrichtung
-description: Die Seite beschreibt die Einrichtung des Mobilnetzwerks
+title: Direktes Mobilfunknetz
+description: Auf der Seite wird die Einrichtung des Direct Mobile-Netzwerks beschrieben.
 translation-type: tm+mt
-source-git-commit: e24fa2fbec09cbe863a3615e722ae61b57da5012
+source-git-commit: 0b1106b3cf7f83857f83e43f773a0d19556cfec5
 workflow-type: tm+mt
-source-wordcount: '916'
-ht-degree: 1%
+source-wordcount: '951'
+ht-degree: 0%
 
 ---
 
 
-# Mobilnetzwerk-Einrichtung {#mobile-network-setup}
+# Direktes Mobilfunknetz {#mobile-network-setup}
 
 AEM Screens Player können auch über mobile oder zelluläre Netzwerke verbunden werden, die mindestens ein 3G-Netzwerk laufen.
 
@@ -20,29 +20,45 @@ Anschluss von AEM Screens-Playern mit einer Mobilfunkverbindung 3/4/5G an Ihren 
 
 Dieses Setup ermöglicht AEM-Bildschirmbenutzern eine große Flexibilität, da zum Verbinden von AEM Screens keine Festnetzverbindung erforderlich ist.
 
-![](/help/using/assets/mobile-network-1.png)
+![](/help/using/assets/direct-mobile-1.png)
 
->[!NOTE]
->**Tipps zur Fehlerbehebung **>Wenn AEM Screens keine ordnungsgemäße Verbindung herstellen und nicht den erwarteten Inhalt anzeigen:
->
->1. Prüfen Sie Ihre Internet Router Firewall, wenn es irgendwelche Einschränkungen in Bezug auf `TCP/IP Port 80/443`.
->1. Stellen Sie sicher, dass alle erforderlichen Anschlüsse zulässig sind, und versuchen Sie es erneut.
+## Anschließen von AEM Screens Player an das Direct Mobile-Netzwerk {#connecting-aem-screens-players}
+
+Gehen Sie wie folgt vor, um eine Verbindung mit AEM-Screen-Playern in dieser Konfiguration herzustellen:
+
+1. Vergewissern Sie sich, dass alle AEM-Screen-Player mit dem Router-Netzwerk verbunden sind.
+
+1. Testen Sie die Internetverbindung, indem Sie eine URL in Ihrem Systembrowser aufrufen.
+
+   >[!NOTE]
+   >Wenn Sie eine Fehlermeldung erhalten, überprüfen Sie die Netzwerkeinstellungen. Es gibt im Grunde zwei Optionen für eine ordnungsgemäße Netzwerkverbindung:
+   >* DHCP
+   >* Manuelle IP-Konfiguration
+
+
+1. Stellen Sie sicher, dass die Netzwerkadaptereinstellung mit der Router-Einstellung übereinstimmt.
+1. Überprüfen Sie, ob der Router ordnungsgemäß mit dem ISP Wide Area Network (Internet Link) verbunden ist. Dies kann in der Regel auch mit einer Signal-LED auf Standard Routern identifiziert werden.
+1. Wenn alle oben genannten Elemente korrekt konfiguriert sind und weiterhin eine Fehlermeldung angezeigt wird, überprüfen Sie Ihre aktiven Netzwerkkomponenten wie Switches oder zusätzliche Router, falls eine Port-Einschränkung vorliegt.
+1. Falls der URL-Aufruf erfolgreich war, können Sie die AEM Screens weiter installieren und entsprechend registrieren. Beginn-AEM Screens.
+
+   >[!NOTE]
+   >**Tipps zur Fehlerbehebung**
+   >Wenn AEM Screens keine ordnungsgemäße Verbindung herstellen und nicht den erwarteten Inhalt anzeigen:
+   >
+   >1. Prüfen Sie Ihre Internet Router Firewall, wenn es irgendwelche Einschränkungen in Bezug auf `TCP/IP Port 80/443`.
+   >1. Stellen Sie sicher, dass alle erforderlichen Anschlüsse zulässig sind.
 
 
 
 ## Voraussetzungen für die Einrichtung des mobilen Netzwerks {#requirements-direct}
 
-Das Netzwerk-Setup, wie unter 5.5 beschrieben, kann logisch in drei Blöcke getrennt werden. Der WAN/Outer World/Internet Connection Block (hier mobile Datenverbindung), das interne LAN/Local Area Network und optionale Unterabschnitte des LAN durch Active Network Components getrennt.
-Um eine bestmögliche Leistung zu gewährleisten, muss sichergestellt werden, dass beide Abschnitte den empfohlenen Mindeststandards entsprechen.
-Was bedeutet &quot;gute Leistung&quot;in der Umgebung &quot;AEM Screens&quot;?
-AEM Screens bieten Digital Signage-Benutzern einen großen Vorteil. Es lädt alle erforderlichen Mediendateien wie Bilder und Video herunter und speichert sie lokal. Aufgrund dieses Konzepts kommt es zu einem großen Netzwerk-Traffic, wenn neue Inhalte auf einem bestimmten Bildschirm angezeigt werden.
-Für den normalen Betrieb, z.B. wenn Sie eine Playlist definiert haben, die nicht sehr oft während des Tages geändert wird, wird hier ein Netzwerkunabhängiger Vorgang durchgeführt, sobald alle Angebote auf dem Player gespeichert wurden.
-Für solche Anwendungsfälle, bei denen es mehr Interaktionen mit Sensoren oder anderen Triggern gibt und der Inhalt sehr dynamisch ist, ist eine schnelle und zuverlässige Netzwerkverbindung unverzichtbar für eine sofortige Bildschirmreaktion, um ein bestmögliches Kundenerlebnis zu gewährleisten.
-In den folgenden Tabellen finden Sie einen guten Überblick darüber, welche wichtigen Daten zur Netzwerkverbindung für die zu erwartende Leistung und mögliche Auslaufzeiten erforderlich sind.
-Alle Informationen müssen als der Verbrauch jedes Geräts im Netzwerk gesehen werden, das eine Internetquelle anfordert und herunterlädt. Jede dieser Anforderungen addiert sich also und verlängert die Downloadzeit.
+Das Netzwerk-Setup kann logisch in zwei Blöcke getrennt werden:
 
+* Mobile Internetverbindung
 
-### WAN/Internetverbindung {#wan-connection}
+* Local Area Network
+
+### Mobile Internetverbindung {#mobile-internet-connection}
 
 Die Leistung der Internetverbindung hat, neben der bereits beschriebenen Netzwerkerreichbarkeit, eine ausreichende Bandbreite zur Verfügung gestellt, um AEM Screens angenehm und reibungslos zu bedienen. Im Einzelnen hängt &quot;ausreichend&quot;von der Anzahl der angeschlossenen AEM-Bildschirme und der Nutzung anderer Verbraucher im Netzwerk ab, wie Smartphones, Tablets, Kassierer, Computer oder WLAN-Netze.
 Denken Sie daran, dass alle Geräte über einen gleichzeitigen Zugriff auf die Internetverbindung verfügen und dass die Bandbreite in der Regel linear sinkt, während Sie dem Netzwerk mehr Benutzer/Computer hinzufügen.
@@ -57,8 +73,19 @@ Achtung: Beim ersten Hochladen von Mediendateien, z. B. bei der Integration neue
 Als Thumb-Regel sollte ein 4G-Netzwerk mit &quot;guter&quot;Abdeckung und unbegrenzten Daten mit den gebräuchlichsten Installationen in diesem Netzwerk-Setup übereinstimmen.
 
 
-### LAN-Verbindung {#lan-connection}
+### Local Area Network {#lan-connection}
 
-Die Leistung des LAN hat, neben der bereits beschriebenen Netzwerkerreichbarkeit, ausreichend Bandbreite zur Verfügung zu stellen, um AEM Screens angenehm und reibungslos zu bedienen. In diesen Tagen ist das LAN-Netzwerk in der Regel mindestens 100 MBit/s Netzwerk, sodass es genügend Bandbreite geben sollte, um viele Geräte mit guter Leistung mit dem System zu verbinden. Bei Verwendung einer anderen aktiven Netzwerkkomponente müssen alle diese den Anforderungen an die Netzwerkbandbreite entsprechen. Beispielsweise sollten die Netzwerkkomponenten mindestens dem 100-Mbit/s-Standard entsprechen und der Bandbreite entsprechen, die in der Internet Access/Router-Spezifikation angegeben ist.
-Falls eine WiFI-Lösung für die Verbindung des Bildschirms mit dem Internet-Link vorgesehen ist, wird empfohlen, moderne WIFI-Standards wie IEEE 802.11g als Minimum zu verwenden. Dieser Standard unterstützt Verbindungen bis zu 54 Mbit. Alle &quot;neueren&quot; Standards wie 802.11h-n sind von besserer Qualität. Wenn ein Wifi-Repeater benötigt wird, empfehlen wir dringend Mesh WiFi Access-Point Technologien wie Google Nest Mesh Wifi oder Ähnliches.
-Andere WiFi-Wiederholungstechnologien führen schließlich zu einem massiven Bandbreitenverlust im gesamten Netzwerk.
+Die Leistung des LAN hat, neben der bereits beschriebenen Netzwerkerreichbarkeit, ausreichend Bandwith zur Verfügung zu stellen, um AEM Screens angenehm und reibungslos zu bedienen. In diesen Tagen ist das LAN-Netzwerk in der Regel mindestens 100MBit/s Netzwerk, sodass es ausreichend Bandwith, um viele Geräte mit guter Leistung an das System angeschlossen werden sollte. Bei Verwendung einer anderen aktiven Netzwerkkomponente müssen alle diese mit den Anforderungen an den Netzwerkbandbreite übereinstimmen. Beispielsweise sollten die Netzwerkkomponenten mindestens dem 100Mbit/s-Standard entsprechen und dem in der Internet Access/Router-Spezifikation angegebenen Bandwith entsprechen.
+
+## Herunterladen von Medien und Assets {#download}
+
+AEM Screens bieten Digital Signage-Benutzern einen großen Vorteil. Es lädt alle erforderlichen Mediendateien wie Bilder und Video herunter und speichert sie lokal. Aufgrund dieses Konzepts kommt es zu einem großen Netzwerk-Traffic, wenn neue Inhalte auf einem bestimmten Bildschirm angezeigt werden.
+Für den normalen Betrieb, z.B. wenn Sie eine Playlist definiert haben, die nicht sehr oft während des Tages geändert wird, wird hier ein Netzwerkunabhängiger Vorgang durchgeführt, sobald alle Angebote auf dem Player gespeichert wurden.
+Für solche Anwendungsfälle, bei denen es mehr Interaktionen mit Sensoren oder anderen Triggern gibt und der Inhalt sehr dynamisch ist, ist eine schnelle und zuverlässige Netzwerkverbindung unverzichtbar für eine sofortige Bildschirmreaktion, um ein bestmögliches Kundenerlebnis zu gewährleisten.
+Die folgenden Tabellen bieten einen guten Überblick darüber, welche wichtigen Daten zur Netzwerkverbindung für die zu erwartende Leistung und für potenzielle Wartezeiten erforderlich sind.
+Alle Informationen müssen als der Verbrauch jedes Geräts im Netzwerk gesehen werden, das eine Internetquelle anfordert und herunterlädt. Jede dieser Anforderungen addiert sich also und verlängert die Downloadzeit.
+
+![](/help/using/assets/download-times-mobile.png)
+
+
+
