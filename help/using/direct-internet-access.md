@@ -2,7 +2,7 @@
 title: Direct Internet Access
 description: Direct Internet Access
 translation-type: tm+mt
-source-git-commit: 31a6b202cae200e43e87db1df4e60f6f9d75c1bf
+source-git-commit: 6a0460fd6c62fd6408d3c7665b626818929351d9
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Die Anschlüsse können je nach Konfiguration Ihrer dedizierten AEM-Konfiguratio
 
 ![](/help/assets/direct-access-2.png)
 
-Die Konfiguration beinhaltet auch einen Internetzugang von jedem Internet-Dienstleister und es ist eine Internetverbindung. Die meisten ISPs bieten einen Internet-Router, der das Internet-Modem, den Netzwerk-Switch, den WIFI-Access-Point, die Firewall und andere Netzwerkfunktionen (je nach Hersteller und Modell) abdeckt.
+Die Konfiguration beinhaltet auch einen Internetzugang von jedem Internet-Dienstleister (ISP) und seine Internetverbindung. Die meisten ISPs bieten einen Internet-Router, der das Internet-Modem, den Netzwerk-Switch, den WIFI-Access-Point, die Firewall und andere Netzwerkfunktionen (je nach Hersteller und Modell) abdeckt.
 
 >[!NOTE]
 >**Tipps zur Fehlerbehebung **>Wenn AEM Screens keine ordnungsgemäße Verbindung herstellen und den erwarteten Inhalt anzeigen:
