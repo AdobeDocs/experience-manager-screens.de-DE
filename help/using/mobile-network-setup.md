@@ -2,9 +2,9 @@
 title: Mobilnetzwerk-Einrichtung
 description: Die Seite beschreibt die Einrichtung des Mobilnetzwerks
 translation-type: tm+mt
-source-git-commit: 6a0460fd6c62fd6408d3c7665b626818929351d9
+source-git-commit: 88ba9ab26c4ecc3f829f53244117041a9a1fd2b3
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '915'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,18 @@ Anschluss von AEM Screens-Playern mit einer Mobilfunkverbindung 3/4/5G an Ihren 
 Dieses Setup ermöglicht AEM-Bildschirmbenutzern eine große Flexibilität, da keine Festnetzverbindung zum Verbinden von AEM Screens erforderlich ist.
 
 
-## Anforderungen für die Einrichtung eines Direct Access-Netzwerks {#requirements-direct}
+![](/help/using/assets/mobile-network-1.png)
+
+>[!NOTE]
+>**Tipps zur Fehlerbehebung **>Wenn AEM Screens keine ordnungsgemäße Verbindung herstellen und nicht den erwarteten Inhalt anzeigen:
+>
+>1. Prüfen Sie Ihre Internet Router Firewall, wenn es irgendwelche Einschränkungen in Bezug auf `TCP/IP Port 80/443`.
+>1. Stellen Sie sicher, dass alle erforderlichen Anschlüsse zulässig sind, und versuchen Sie es erneut.
+
+
+
+
+## Voraussetzungen für die Einrichtung des mobilen Netzwerks {#requirements-direct}
 
 Das Netzwerk-Setup, wie unter 5.5 beschrieben, kann logisch in drei Blöcke getrennt werden. Der WAN/Outer World/Internet Connection Block (hier mobile Datenverbindung), das interne LAN/Local Area Network und optionale Unterabschnitte des LAN durch Active Network Components getrennt.
 Um eine bestmögliche Leistung zu gewährleisten, muss sichergestellt werden, dass beide Abschnitte den empfohlenen Mindeststandards entsprechen.
