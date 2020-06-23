@@ -2,7 +2,7 @@
 title: Direct Internet Access
 description: Direct Internet Access
 translation-type: tm+mt
-source-git-commit: e24fa2fbec09cbe863a3615e722ae61b57da5012
+source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 0%
@@ -71,7 +71,7 @@ Die Leistung der Internetverbindung ist neben der Reichweite des Netzwerks auch 
 Die Leistung des Local Area Network (LAN), neben der Netzwerkerreichbarkeit, bietet ausreichend Bandbreite, um AEM Screens angenehm und reibungslos zu bedienen.
 
 Das LAN-Netzwerk entspricht in der Regel mindestens einem 100 MBit/s Netzwerk, sodass genügend Bandbreite vorhanden ist, um viele Geräte mit guter Leistung mit dem System zu verbinden.
-Falls eine WIFI-Lösung zur Anbindung von AEM Screens an den Internetlink vorgesehen ist, wird empfohlen, moderne WIFI-Standards wie IEEE 802.11g als Minimum zu verwenden. Dieser Standard unterstützt Verbindungen bis zu 54 Mbit. Alle *neueren* Standards wie 802.11h-n sind von besserer Qualität.
+Falls eine WIFI-Lösung zur Anbindung von AEM Screens an den Internetlink vorgesehen ist, wird empfohlen, moderne WIFI-Standards wie IEEE 802.11g als Minimum zu verwenden. Dieser Standard unterstützt Verbindungen bis zu 54 Mbit/s. Alle *neueren* Standards wie 802.11h-n sind von besserer Qualität.
 
 >[!NOTE]
 >Wenn ein WIFI-Repeater benötigt wird, empfehlen wir dringend Mesh WIFI Access-Point Technologien wie Google Nest Mesh WIFI oder Ähnliches. Andere WiFi-Wiederholungstechnologien führen schließlich zu einem massiven Bandbreitenverlust im gesamten Netzwerk.
