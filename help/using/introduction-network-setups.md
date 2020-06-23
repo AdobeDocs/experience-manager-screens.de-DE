@@ -4,10 +4,10 @@ seo-title: Einführung in Standard-Netzwerkkonfigurationen
 description: Auf der Seite werden die Standard-Netzwerkeinstellungen beschrieben.
 seo-description: Auf der Seite werden die Standard-Netzwerkeinstellungen beschrieben.
 translation-type: tm+mt
-source-git-commit: ae7da9c48188c3f7567d05d0e9a5a6b72383d539
+source-git-commit: 0be82fcc46166ec0613bd658a0caeab83bd72551
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 37%
+source-wordcount: '462'
+ht-degree: 36%
 
 ---
 
@@ -33,10 +33,10 @@ Um ein Netzwerk-Setup zu implementieren, müssen Sie die folgenden Szenarien mit
 
 Prinzipiell wird zwischen drei Grundtypen von Netzwerkkonfigurationen unterschieden:
 
-1. [Direkter Internet-Zugriff](/help/using/direct-internet-access.md)
-1. [Direktes Mobilfunknetz](/help/using/mobile-network-setup.md)
-1. [Mobiles Netzwerk mit mobilem DatenRouter und aktiven Netzwerkkomponenten](/help/using/mobile-network-setup-router.md)
-1. [Geschlossenes Unternehmensnetzwerk](/help/using/enclosed-corporate-network.md)
+1. [Direct Internet Network (Wired/Wireless)](/help/using/direct-internet-network.md)
+1. [Direktes Mobilfunknetz](/help/using/mobile-network.md)
+1. [Mobiles Netzwerk mit mobilem DatenRouter und aktiven Netzwerkkomponenten](/help/using/mobile-network-router.md)
+1. [Engeschlossenes Unternehmensnetzwerk (Wired/Wireless)](/help/using/enclosed-corporate-network.md)
 
 In der folgenden Tabelle sind die verschiedenen Arten von Netzwerken mit Vor- und Nachteilen aufgeführt:
 
