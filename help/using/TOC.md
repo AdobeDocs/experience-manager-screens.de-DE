@@ -5,7 +5,7 @@ getting-started-title: Handbuch mit Best Practices für AEM Screens
 product: experience manager
 audience: end-user
 translation-type: tm+mt
-source-git-commit: 6690af1a6d453fc9ca8a76bc0d5220450f222fc6
+source-git-commit: 14334261ae572f31754b5dba230b53717cd46626
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 80%
@@ -36,7 +36,7 @@ ht-degree: 80%
 + Implementierungshinweise {#deployment-brief}
    + [AEM-Plattformkonfigurationen](aem-platform-configurations.md)
    + [Projekttaxonomie und -implementierung](project-taxonomy-implementation.md)
-   + Verwalten des Netzwerkverkehrs {#manage-network-traffic}
+   + Netzwerk-Traffic-Management {#manage-network-traffic}
       + [Direct Internet Network (Wired/Wireless)](/help/using/direct-internet-network.md)
       + [Direktes Mobilfunknetz](/help/using/mobile-network.md)
       + [Mobiles Netzwerk mit mobilem DatenRouter und aktiven Netzwerkkomponenten](/help/using/mobile-network-router.md)
