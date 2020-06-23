@@ -2,9 +2,9 @@
 title: Mobiles Netzwerk mit mobilem DatenRouter und aktiven Netzwerkkomponenten
 description: Auf der Seite werden Mobile Network mit Mobile Data Router und Active Network Components beschrieben.
 translation-type: tm+mt
-source-git-commit: 5460e384e96553d9f0478113368e31cf266479a4
+source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1095'
 ht-degree: 0%
 
 ---
@@ -14,12 +14,12 @@ ht-degree: 0%
 
 Adobe AEM Screens Player kann auch über mobile/zelluläre Netzwerke mit mindestens einem 3G-Netzwerk verbunden werden.
 Innerhalb der AEM Screens wird der benötigte Inhalt physisch auf den Player-Controller/Computer heruntergeladen und ordnungsgemäß im zugrunde liegenden Betriebssystem gespeichert. Dadurch wirkt sich die angegebene Bandbreite nur auf die anfänglichen Downloadzeiten aus und beeinflusst die Performance der Display-Systeme überhaupt nicht.
-Anschluss von AEM Screens-Playern mit einer Mobilfunkverbindung 3/4/5G an Ihren Mobile Service-Datenanbieter. Der Vorteil dieses Setups besteht darin, dass der Mobile Router an einem optimierten Ort platziert werden kann, um eine bestmögliche Netzabdeckung zu gewährleisten. Dies wird in einer erhöhten und offenen Position mit so wenig umliegenden Beton- oder Metallkonstruktionen wie möglich verwendet.
+Anschluss von AEM Screens-Playern mit einer Mobilfunkverbindung 3/4/5G an Ihren Mobile Service-Datenanbieter. Der Vorteil dieses Setups besteht darin, dass der Mobile Router an einem optimierten Ort platziert werden kann, um eine bestmögliche Netzabdeckung zu gewährleisten. Dies ist in der Regel in einer erhöhten und offenen Position mit so wenig umliegenden Beton- oder Metallkonstruktionen wie möglich.
 Dieses Setup ermöglicht AEM-Bildschirmbenutzern eine große Flexibilität, da keine Festnetzverbindung zum Verbinden von AEM Screens erforderlich ist.
 
 ![](/help/using/assets/mobile-network-1.png)
 
-## Anschließen von AEM Screens Player an das Direct Mobile-Netzwerk {#connecting-aem-screens-players}
+## AEM Screens Player mit Mobile Data Router und Active Network Components verbinden {#connecting-aem-screens-players}
 
 Gehen Sie wie folgt vor, um eine Verbindung mit AEM-Screen-Playern in dieser Konfiguration herzustellen:
 
@@ -49,7 +49,7 @@ iv. Wenn alle oben genannten Elemente korrekt konfiguriert sind und weiterhin ei
 
 
 
-## Voraussetzungen für die Einrichtung des mobilen Netzwerks {#requirements-direct}
+## Voraussetzungen für die Einrichtung eines mobilen Netzwerks mit dem MobildatenRouter und aktiven Netzwerkkomponenten {#requirements-direct}
 
 Das Netzwerk-Setup kann logisch in zwei Blöcke getrennt werden:
 
@@ -59,32 +59,49 @@ Das Netzwerk-Setup kann logisch in zwei Blöcke getrennt werden:
 
 ### Mobile Internetverbindung {#mobile-internet-connection}
 
-Die Leistung der Internetverbindung hat, neben der bereits beschriebenen Netzwerkerreichbarkeit, ausreichend Bandwith zur Verfügung zu stellen, um AEM Screens angenehm und reibungslos zu bedienen. Im Einzelnen hängt &quot;ausreichend&quot;von der Anzahl der angeschlossenen AEM-Bildschirme und der Nutzung anderer Verbraucher im Netzwerk ab, wie Smartphones, Tablets, Kassierer, Computer oder WLAN-Netze.
-Denken Sie daran, dass alle Geräte einen gleichzeitigen Zugriff auf die Internetverbindung haben und Bandwith in der Regel linear abnimmt, während es mehr Benutzer/Computer zum Netzwerk hinzufügt.
-Neben der spezifischen theoretischen Netzwerkverbindung muss sichergestellt werden, dass die Reichweite des mobilen Routers mindestens &quot;gut&quot; ist (siehe Handbuch für den mobilen Router). Auch der zugrunde liegende Monatsplan muss ausreichend Datenkapazität und ausreichend Bandbreite abdecken, um alle angeschlossenen Clients im angeschlossenen LAN zu bedienen.
-Die Datennetzwerke bieten Standardbandwith mit ca. bis:
-* 3Go 42Mbit/s ・ 4Go 150Mbit/s ・ 5Go 1000Mbit/sec-10000Mbit/secUnter Berücksichtigung, welches Data Network verwendet werden sollte, wird empfohlen, die folgenden Fragen zu beantworten:
-・ Wie viele Clients sind mit dem Router verbunden?
-・ Wie viele Inhaltsänderungen erwarte ich und wie hoch sind diese durchschnittlichen Dateigrößen?
-Als Folgemaßnahme muss die erforderliche Datenpackage mindestens sein:
-   `Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
-Stellen Sie sicher, dass genügend Puffer vorhanden ist.
-Achtung: Beim ersten Hochladen von Mediendateien, z. B. bei der Integration neuer Player, sind eine höhere Datenmenge und eine höhere Downloadzeit zu erwarten, die sich in den obigen Annahmen widerspiegeln.
+Die Leistung der Internetverbindung hat, neben der bereits beschriebenen Netzwerkerreichbarkeit, eine ausreichende Bandbreite zur Verfügung gestellt, um AEM Screens angenehm und reibungslos zu bedienen. Im Einzelnen hängt &quot;ausreichend&quot;von der Anzahl der angeschlossenen AEM-Bildschirme und der Nutzung anderer Verbraucher im Netzwerk ab, wie Smartphones, Tablets, Kassierer, Computer oder WIFI-Netzwerke.
+Denken Sie daran, dass alle Geräte einen gleichzeitigen Zugriff auf die Internetverbindung haben und dass die Bandbreite in der Regel linear sinkt, während dem Netzwerk mehr Benutzer/Computer hinzugefügt werden.
+Neben der spezifischen theoretischen Netzwerkverbindung muss sichergestellt werden, dass die Reichweite des mobilen Routers mindestens &quot;gut&quot; ist (siehe Handbuch für den mobilen Router). Auch der zugrunde liegende Monatsplan muss genügend Datenkapazität und genügend Bandbreite für alle angeschlossenen Clients im angeschlossenen LAN abdecken.
+Die Datennetze bieten Standardbandbreite mit:
+
+**3G**
+* 42 Mbit/s
+
+**4G**
+* 150 Mbit/s
+
+**5G**
+* 1000 Mbit/s - 10000 Mbit/s
+
+Es wird empfohlen, die folgenden Fragen zu beantworten, während geprüft wird, welches Datennetzwerk verwendet werden sollte:
+
+* Wie viele Clients sind mit dem Router verbunden?
+
+* Wie viele Inhaltsänderungen werden erwartet und wie hoch sind diese durchschnittlichen Dateigrößen?
+
+>[!NOTE]
+>Die erforderliche Datenpackage muss mindestens sein:
+`Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
+
+>[!IMPORTANT]
+>Beim ersten Hochladen von Mediendateien, bei dem neue Player integriert werden, sind eine höhere Datenmenge und eine höhere Downloadzeit zu erwarten, die sich in den obigen Annahmen widerspiegeln. Ein 4G-Netzwerk mit *guter* Abdeckung und unbegrenzten Daten sollte mit den gebräuchlichsten Installationen in dieser Netzwerkeinrichtung übereinstimmen.
 
 
 ### Local Area Network {#lan-connection}
 
-Die Leistung des LAN hat, neben der bereits beschriebenen Netzwerkerreichbarkeit, ausreichend Bandwith zur Verfügung zu stellen, um AEM Screens angenehm und reibungslos zu bedienen. In diesen Tagen ist das LAN-Netzwerk in der Regel mindestens 100MBit/s Netzwerk, sodass es ausreichend Bandwith, um viele Geräte mit guter Leistung an das System angeschlossen werden sollte. Bei Verwendung einer anderen aktiven Netzwerkkomponente müssen alle diese mit den Anforderungen an den Netzwerkbandbreite übereinstimmen. Beispielsweise sollten die Netzwerkkomponenten mindestens dem 100Mbit/s-Standard entsprechen und dem in der Internet Access/Router-Spezifikation angegebenen Bandwith entsprechen.
-Falls eine WiFI-Lösung für die Verbindung des Bildschirms mit dem Internet-Link vorgesehen ist, wird empfohlen, als Minimum moderne WIFI-Standards wie IEEE 802.11g zu verwenden. Dieser Standard unterstützt Verbindungen bis zu 54 Mbit. Alle &quot;neueren&quot; Standards wie 802.11h-n sind von besserer Qualität. Wenn ein Wifi-Repeater erforderlich ist, empfehlen wir dringend Mesh WiFi Accesspoint Technologie wie Google Nest Mesh Wifi oder Ähnliches.
-Andere WiFi-Wiederholungstechnologien führen schließlich zu einem massiven Verlust von Bandwith im gesamten Netzwerk.
+Die Leistung des LAN hat, neben der bereits beschriebenen Netzwerkerreichbarkeit, ausreichend Bandbreite zur Verfügung zu stellen, um AEM Screens angenehm und reibungslos zu bedienen. In diesen Tagen ist das LAN-Netzwerk in der Regel mindestens 100 Mbit/s Netzwerk, sodass es genügend Bandbreite geben sollte, um viele Geräte mit guter Leistung mit dem System zu verbinden. Bei Verwendung einer anderen aktiven Netzwerkkomponente müssen alle diese den Anforderungen an die Netzwerkbandbreite entsprechen. Beispielsweise sollten die Netzwerkkomponenten mindestens dem 100-Mbit/s-Standard entsprechen und der Bandbreite entsprechen, die in der Internet Access/Router-Spezifikation angegeben ist.
+Falls eine WiFI-Lösung für die Verbindung des Bildschirms mit dem Internet-Link vorgesehen ist, wird empfohlen, moderne WIFI-Standards wie IEEE 802.11g als Minimum zu verwenden. Dieser Standard unterstützt Verbindungen bis zu 54 Mbit/s. Alle &quot;neueren&quot; Standards wie 802.11h-n sind von besserer Qualität. Wenn ein WIFI-Repeater benötigt wird, empfehlen wir dringend Mesh WiFi Access-Point Technologien wie Google Nest Mesh WIFI oder Ähnliches.
+Andere WiFi-Wiederholungstechnologien führen schließlich zu einem massiven Bandbreitenverlust im gesamten Netzwerk.
 
 ## Herunterladen von Medien und Assets {#download}
 
 AEM Screens bieten Digital Signage-Benutzern einen großen Vorteil. Es lädt alle erforderlichen Mediendateien wie Bilder und Video herunter und speichert sie lokal. Aufgrund dieses Konzepts kommt es zu einem großen Netzwerk-Traffic, wenn neue Inhalte auf einem bestimmten Bildschirm angezeigt werden.
 Für den normalen Betrieb, z.B. wenn Sie eine Playlist definiert haben, die nicht sehr oft während des Tages geändert wird, wird hier ein Netzwerkunabhängiger Vorgang durchgeführt, sobald alle Angebote auf dem Player gespeichert wurden.
 Für solche Anwendungsfälle, bei denen es mehr Interaktionen mit Sensoren oder anderen Triggern gibt und der Inhalt sehr dynamisch ist, ist eine schnelle und zuverlässige Netzwerkverbindung unverzichtbar für eine sofortige Bildschirmreaktion, um ein bestmögliches Kundenerlebnis zu gewährleisten.
-In den folgenden Tabellen finden Sie einen guten Überblick darüber, welche wichtigen Daten zur Netzwerkverbindung für die zu erwartende Leistung und mögliche Auslaufzeiten erforderlich sind.
-Alle Informationen müssen als der Verbrauch jedes Geräts im Netzwerk gesehen werden, das eine Internetquelle anfordert und herunterlädt. Jede dieser Anforderungen addiert sich also und verlängert die Downloadzeit.
+Die folgenden Tabellen bieten einen guten Überblick darüber, welche wichtigen Daten zur Netzwerkverbindung für die zu erwartende Leistung und für potenzielle Wartezeiten erforderlich sind.
+
+>[!NOTE]
+>Alle Informationen beziehen sich auf den Verbrauch jedes Geräts im Netzwerk, das eine Internetquelle anfordert und herunterlädt. Jede dieser Anforderungen erhöht die Downloadzeit und verlängert sie.
 
 ![](/help/using/assets/mobile-router-download.png)
 
