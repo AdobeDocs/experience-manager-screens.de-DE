@@ -2,21 +2,21 @@
 title: Geschlossenes Unternehmensnetzwerk
 description: Geschlossenes Unternehmensnetzwerk
 translation-type: tm+mt
-source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
+source-git-commit: 70dddffd46ebf1bd83b25515be548bc442e45fea
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 1%
+source-wordcount: '569'
+ht-degree: 59%
 
 ---
 
 
 # Geschlossene Unternehmensnetzwerke {#enclosed-corporate-networks}
 
-Das Engeschlossene Unternehmensnetzwerk-SetUp ist für kleinere, größere und unternehmensinterne Unternehmen geeignet. Es kann theoretisch komplexer sein, aber das logische Setup ist in der folgenden Abbildung dargestellt.
+Die Konfiguration für geschlossene Unternehmensnetzwerke ist in kleineren, mittleren und großen Unternehmen gleichermaßen anwendbar. Es kann theoretisch komplexer sein, aber das logische Setup ist in der folgenden Abbildung dargestellt.
 
 ![](/help/using/assets/enclosed-network-1.png)
 
-## Anforderungen für die Einrichtung von geschlossenen Unternehmensnetzwerken {#requirements-enclosed-networks}
+## Voraussetzungen für die Einrichtung von geschlossenen Unternehmensnetzwerken {#requirements-enclosed-networks}
 
 Die Einrichtung des Unternehmensnetzwerks &quot;Engeschlossene Unternehmensnetzwerke&quot;kann logisch in zwei Blöcke getrennt werden:
 
@@ -35,24 +35,25 @@ Die Leistung der Internetverbindung ist nicht nur die Reichweite des Netzwerks, 
 
 Die Leistung des Local Area Network (LAN) ist neben der Netzwerkerreichbarkeit auch die Bereitstellung ausreichender Bandbreite für den reibungslosen Betrieb von AEM Screens.
 
-In diesen Tagen ist das LAN-Netzwerk innerhalb der Unternehmen in der Regel mindestens 1000 MBit/s Netzwerk, sodass es ausreichend Bandbreite, um viele Geräte mit guter Leistung mit dem System verbinden. Bei Verwendung anderer aktiver Netzwerkkomponenten müssen alle diese den Anforderungen an die Netzwerkbandbreite entsprechen.
+Aktuelle in Unternehmen eingesetzte LAN-Netzwerke unterstützen in der Regel Übertragungsraten von mindestens 1000 MBit/s und sollten daher auch bei der Anbindung einer Vielzahl von Geräten an das System eine für eine angemessene Leistung ausreichende Bandbreite liefern. Bei Verwendung anderer aktiver Netzwerkkomponenten müssen alle diese den Anforderungen an die Netzwerkbandbreite entsprechen.
 
 Beispielsweise sollten die Netzwerkkomponenten mindestens dem 1000-Mbit/s-Standard entsprechen und der Bandbreite entsprechen, die von der Internet Access/Router-Spezifikation bereitgestellt wird.
 
-### Sonstige Unternehmensnetzspezifikationen {#other-networks}
+### Andere Spezifika von Unternehmensnetzwerken {#other-networks}
 
-In der Regel haben Unternehmensnetzwerke eine Vielzahl von Geräten angeschlossen, könnten in verschiedene Teilnetzwerke aufgeteilt werden und haben redundante oder Multiplexing-Internetverbindungen, um eine ausreichende Leistung für viele tausend gleichzeitige Zugriffe zu bieten.
-Das obige Schema ist vereinfacht und passt in den meisten Fällen zu der Umgebung, die für den Kunden zur Verfügung steht.
-Falls eine WiFI-Lösung für die Verbindung des Bildschirms mit dem Internet-Link vorgesehen ist, wird empfohlen, moderne WIFI-Standards wie IEEE 802.11g als Minimum zu verwenden. Dieser Standard unterstützt Verbindungen bis zu 54 Mbit/s. Alle &quot;neueren&quot; Standards wie 802.11h-n sind von besserer Qualität. Wenn ein WIFI-Repeater benötigt wird, empfehlen wir dringend Mesh WIFI Access-Point Technologien wie Google Nest Mesh WIFI oder Ähnliches.
-Andere WiFi-Wiederholungstechnologien führen schließlich zu einem massiven Bandbreitenverlust im gesamten Netzwerk.
+Unternehmensnetzwerke stellen in der Regel die Anbindung für etliche Geräte bereit, sind unter Umständen in diverse Subnetze unterteilt und bringen möglicherweise redundante oder durch Multiplexing gestützte Internet-Verbindungen zum Einsatz, um die für mehrere Tausend gleichzeitige Zugriffe nötige Leistung zu gewährleisten.
+Das oben beschriebene Schema ist vereinfacht und in den meisten Fällen auf die dem Client zur Verfügung stehende Umgebung anwendbar.
+Sofern eine WLAN-Lösung für die Internet-Anbindung der Bildschirme vorgesehen ist, sollten moderne WLAN-Standards verwendet werden. Empfohlen wird hierfür mindestens IEEE 802.11g. Dieser Standard unterstützt Verbindungen bis zu 54 Mbit/s. Eine bessere Qualität liefern jedoch „neuere“ Standards wie etwa 802.11h-n. Ist ein WLAN-Repeater erforderlich, wird für die Zugangspunkte dringend der Einsatz von Mesh-WLAN-Technologie empfohlen, z. B. Google Nest Wifi oder vergleichbare Mesh-WLAN-Lösungen.
+Andere WLAN-Repeater-Technologien sind mit massiven Bandbreiteneinbußen verbunden.
 
 ## Herunterladen von Medien und Assets {#download}
 
-AEM Screens bieten Digital Signage-Benutzern einen großen Vorteil. Es lädt alle erforderlichen Mediendateien wie Bilder und Video herunter und speichert sie lokal. Aufgrund dieses Konzepts kommt es zu einem großen Netzwerk-Traffic, wenn neue Inhalte auf einem bestimmten Bildschirm angezeigt werden.
-Für den normalen Betrieb, z.B. wenn Sie eine Playlist definiert haben, die nicht sehr oft während des Tages geändert wird, wird hier ein Netzwerkunabhängiger Vorgang durchgeführt, sobald alle Angebote auf dem Player gespeichert wurden. Für solche Anwendungsfälle, bei denen es mehr Interaktionen mit Sensoren oder anderen Triggern gibt und der Inhalt sehr dynamisch ist, ist eine schnelle und zuverlässige Netzwerkverbindung unverzichtbar für eine sofortige Bildschirmreaktion, um ein bestmögliches Kundenerlebnis zu gewährleisten.
+AEM Screens bietet Anwendern von Digital Signage einen entscheidenden Vorteil dahingehend, dass die Lösung alle erforderlichen Mediendateien (z. B. Bilder und Videos) herunterlädt und lokal speichert. Durch dieses Konzept ist der Großteil des Netzwerk-Traffics auf Phasen konzentriert, in denen neue Inhalte für die Anzeige auf einem bestimmten Bildschirm übertragen werden.
+So kann der Normalbetrieb, also beispielsweise Fälle, in denen bei einer Wiedergabeliste für den Tagesverlauf nur wenige Änderungen definiert sind, nahezu unabhängig vom Netzwerk ablaufen, sobald alle Dateien auf dem Player gespeichert wurden. Anwendungsfälle, in denen umfangreicher mit Sensoren oder anderen Auslösern interagiert wird und hochgradig dynamische Inhalte zum Einsatz kommen, erfordern dagegen unbedingt eine schnelle und zuverlässige Netzwerkverbindung, da nur so eine verzögerungsfreie Reaktion am Bildschirm und damit das bestmögliche Kundenerlebnis gewährleistet werden kann.
 
 Die folgenden Tabellen bieten einen guten Überblick darüber, welche wichtigen Daten zur Netzwerkverbindung für die zu erwartende Leistung und für potenzielle Wartezeiten erforderlich sind.
 
-Alle Informationen müssen als der Verbrauch jedes Geräts im Netzwerk gesehen werden, das eine Internetquelle anfordert und herunterlädt. Jede dieser Anforderungen addiert sich also und verlängert die Downloadzeit.
+>[!NOTE]
+>Die Daten beziehen sich allesamt darauf, wie viel Bandbreite jedes einzelne mit dem Netzwerk verbundene Gerät beim Anfragen und Herunterladen einer Internet-Quelle beansprucht. Jede dieser Anforderungen erhöht die Downloadzeit und verlängert sie.
 
 ![](/help/using/assets/enclosed-network-download.png)
