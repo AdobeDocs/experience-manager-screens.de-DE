@@ -2,15 +2,15 @@
 title: Geschlossenes Unternehmensnetzwerk
 description: Geschlossenes Unternehmensnetzwerk
 translation-type: tm+mt
-source-git-commit: 70dddffd46ebf1bd83b25515be548bc442e45fea
+source-git-commit: 0be82fcc46166ec0613bd658a0caeab83bd72551
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 59%
+source-wordcount: '571'
+ht-degree: 58%
 
 ---
 
 
-# Geschlossene Unternehmensnetzwerke {#enclosed-corporate-networks}
+# Vernetzte Unternehmensnetze (Drahtlos/Drahtlos) {#enclosed-corporate-networks}
 
 Die Konfiguration für geschlossene Unternehmensnetzwerke ist in kleineren, mittleren und großen Unternehmen gleichermaßen anwendbar. Es kann theoretisch komplexer sein, aber das logische Setup ist in der folgenden Abbildung dargestellt.
 
