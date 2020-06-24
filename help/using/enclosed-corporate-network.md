@@ -2,10 +2,10 @@
 title: Geschlossenes Unternehmensnetzwerk
 description: Geschlossenes Unternehmensnetzwerk
 translation-type: tm+mt
-source-git-commit: 0be82fcc46166ec0613bd658a0caeab83bd72551
+source-git-commit: 8e62b3fc4ce324e02aaec6fca9df79b1aaf94d72
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 58%
+source-wordcount: '566'
+ht-degree: 44%
 
 ---
 
@@ -41,9 +41,10 @@ Beispielsweise sollten die Netzwerkkomponenten mindestens dem 1000-Mbit/s-Standa
 
 ### Andere Spezifika von Unternehmensnetzwerken {#other-networks}
 
-Unternehmensnetzwerke stellen in der Regel die Anbindung für etliche Geräte bereit, sind unter Umständen in diverse Subnetze unterteilt und bringen möglicherweise redundante oder durch Multiplexing gestützte Internet-Verbindungen zum Einsatz, um die für mehrere Tausend gleichzeitige Zugriffe nötige Leistung zu gewährleisten.
-Das oben beschriebene Schema ist vereinfacht und in den meisten Fällen auf die dem Client zur Verfügung stehende Umgebung anwendbar.
-Sofern eine WLAN-Lösung für die Internet-Anbindung der Bildschirme vorgesehen ist, sollten moderne WLAN-Standards verwendet werden. Empfohlen wird hierfür mindestens IEEE 802.11g. Dieser Standard unterstützt Verbindungen bis zu 54 Mbit/s. Eine bessere Qualität liefern jedoch „neuere“ Standards wie etwa 802.11h-n. Ist ein WLAN-Repeater erforderlich, wird für die Zugangspunkte dringend der Einsatz von Mesh-WLAN-Technologie empfohlen, z. B. Google Nest Wifi oder vergleichbare Mesh-WLAN-Lösungen.
+In der Regel haben Unternehmensnetzwerke eine Vielzahl von Geräten angeschlossen, könnten in verschiedene Subnetzwerke aufgeteilt werden und über redundante oder Multiplexing-Internetverbindungen verfügen, um eine ausreichende Leistung für viele tausend gleichzeitige Zugriffe zu bieten.
+Dieses Schema ist vereinfacht und passt in den meisten Fällen zu der Umgebung, die für den Client verfügbar ist.
+
+In case that an WIFI solution is envisaged to connect screen to the internet Link it is recommended to use modern WIFI standards like `IEEE 802.11g` as a minimum. Dieser Standard unterstützt Verbindungen bis zu 54 Mbit/s. Eine bessere Qualität liefern jedoch *neuere* Standards wie etwa `802.11h-n` Ist ein WLAN-Repeater erforderlich, wird für die Zugangspunkte dringend der Einsatz von Mesh-WLAN-Technologie empfohlen, z. B. Google Nest Wifi oder vergleichbare Mesh-WLAN-Lösungen.
 Andere WLAN-Repeater-Technologien sind mit massiven Bandbreiteneinbußen verbunden.
 
 ## Herunterladen von Medien und Assets {#download}
