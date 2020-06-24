@@ -1,13 +1,11 @@
 ---
 title: Einführung in Standard-Netzwerkkonfigurationen
-seo-title: Einführung in Standard-Netzwerkkonfigurationen
 description: Auf der Seite werden die Standard-Netzwerkeinstellungen beschrieben.
-seo-description: Auf der Seite werden die Standard-Netzwerkeinstellungen beschrieben.
 translation-type: tm+mt
-source-git-commit: 77cf87cbce39a00528b2690d9689861b91e61fc5
+source-git-commit: 8e62b3fc4ce324e02aaec6fca9df79b1aaf94d72
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 13%
+source-wordcount: '446'
+ht-degree: 12%
 
 ---
 
