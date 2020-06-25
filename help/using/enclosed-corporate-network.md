@@ -2,10 +2,10 @@
 title: Geschlossenes Unternehmensnetzwerk
 description: Geschlossenes Unternehmensnetzwerk
 translation-type: tm+mt
-source-git-commit: eaeea4933be708beca0628438e6cef6142a0490f
+source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 7%
+source-wordcount: '708'
+ht-degree: 6%
 
 ---
 
@@ -43,7 +43,7 @@ Gehen Sie wie folgt vor, um eine ordnungsgemäße Verbindung der AEM-Bildschirmp
    >1. Stellen Sie sicher, dass alle erforderlichen Anschlüsse zulässig sind.
 
 
-## Voraussetzungen für die Einrichtung von geschlossenen Unternehmensnetzwerken {#requirements-enclosed-networks}
+## Einrichten von geschlossenen Unternehmensnetzwerken {#requirements-enclosed-networks}
 
 Die Einrichtung des Unternehmensnetzwerks &quot;Engeschlossene Unternehmensnetzwerke&quot;kann logisch in zwei Blöcke getrennt werden:
 
