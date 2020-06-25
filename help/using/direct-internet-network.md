@@ -2,7 +2,7 @@
 title: Direkter Internet-Zugriff
 description: Direkter Internet-Zugriff
 translation-type: tm+mt
-source-git-commit: 6afb71bd969ccfde91c2172ceb2d2f76645c7df1
+source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
 workflow-type: tm+mt
 source-wordcount: '688'
 ht-degree: 8%
@@ -16,6 +16,7 @@ Das Direct Internet Network enthält einen Einstiegspunkt für den Internetzugan
 
 AEM Screens verwendet für die Kommunikation standardmäßig die folgenden Ports:
 * `http (TCP Port 80)`
+
    <br>Oder</br>
 
 * `ssl-secured https (TCP Port 443)`
@@ -24,7 +25,7 @@ Die Anschlüsse können je nach Konfiguration der dedizierten AEM-Konfiguration 
 
 ![](/help/assets/direct-access-2.png)
 
-Die Konfiguration beinhaltet auch einen Internetzugang von jedem Internet-Dienstleister (ISP) und seine Internetverbindung. Die meisten ISPs bieten einen Internet-Router, der das Internet-Modem, den Netzwerk-Switch, den WIFI-Access Point, die Firewall und andere Netzwerkfunktionalitäten abdeckt (je nach Hersteller und Modell).
+Die Konfiguration beinhaltet auch einen Internetzugang von jedem Internet-Dienstleister (ISP) und seine Internetverbindung. Die meisten ISPs bieten einen Internet-Router, der das Internet-Modem, den Netzwerk-Switch, Wi-Fi-Access Point, Firewall und andere Netzwerkfunktionen (je nach Hersteller und Modell) abdeckt.
 
 ## Anschließen des AEM Screens Player an den direkten Internetzugang {#connecting-aem-screens-players}
 
@@ -64,7 +65,7 @@ Das direkte Internet-Netzwerk ist logisch in zwei Blöcke unterteilt:
 
 Die Leistung der Internetverbindung ist nicht nur die Reichweite des Netzwerks, sondern auch die Bereitstellung ausreichender Bandbreite für den Betrieb von AEM Screens.
 
-*Ausreichend* hängt von der Anzahl der angeschlossenen AEM-Bildschirme und der Nutzung anderer Verbraucher im Netzwerk ab, wie Smartphones, Tablets, Kassierer, Computer oder WIFI-Gastnetzwerke.
+*Ausreichend* hängt von der Anzahl der angeschlossenen AEM-Bildschirme und von der Nutzung anderer Verbraucher im Netzwerk ab, z. B. Smartphones, Tablets, Kassierer, Computer oder WLAN-Gastnetzwerke.
 
 >[!NOTE]
 >Alle oben genannten Geräte haben einen gleichzeitigen Zugriff auf die Internetverbindung und die Bandbreite sinkt linear, wenn Sie mehr Benutzer oder Computer zum Netzwerk hinzufügen.
@@ -74,10 +75,10 @@ Die Leistung der Internetverbindung ist nicht nur die Reichweite des Netzwerks, 
 Die Leistung des Local Area Network (LAN) bietet neben der Erreichbarkeit des Netzwerks genügend Bandbreite für den Betrieb von AEM Screens.
 
 Das LAN-Netzwerk entspricht in der Regel mindestens einem 100-Mbit/s-Netzwerk, sodass genügend Bandbreite vorhanden ist, um viele Geräte mit guter Leistung mit dem System zu verbinden.
-In case that a WIFI solution is envisaged to connect AEM Screens to the Internet Link it is recommended to use modern WIFI standards like `IEEE 802.11g` as a minimum. Dieser Standard unterstützt Verbindungen bis zu 54 Mbit/s. Eine bessere Qualität liefern jedoch *neuere* Standards wie etwa `802.11h-n`
+In case that a Wi-Fi solution is envisaged to connect AEM Screens to the Internet Link it is recommended to use modern Wi-Fi standards like `IEEE 802.11g` as a minimum. Dieser Standard unterstützt Verbindungen bis zu 54 Mbit/s. Eine bessere Qualität liefern jedoch *neuere* Standards wie etwa `802.11h-n`
 
 >[!NOTE]
->Wenn ein WIFI-Repeater erforderlich ist, wird dringend empfohlen, einen Mesh WIFI-Access-Point wie Google Nest Mesh WIFI oder Ähnliches. Andere WiFi-wiederholende Technologien führen zu einem massiven Bandbreitenverlust im gesamten Netzwerk.
+>Wenn ein Wi-Fi-Repeater erforderlich ist, wird dringend empfohlen, einen Mesh Wi-Fi-Zugangspunkt wie Google Nest Mesh Wi-Fi oder Ähnliches. Andere Wi-Fi-Wiederholungstechnologien führen zu einem massiven Bandbreitenverlust im gesamten Netzwerk.
 
 ## Herunterladen von Medien und Assets {#download}
 
