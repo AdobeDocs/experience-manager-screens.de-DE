@@ -2,10 +2,10 @@
 title: Direkter Internet-Zugriff
 description: Direkter Internet-Zugriff
 translation-type: tm+mt
-source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
+source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 8%
+source-wordcount: '686'
+ht-degree: 7%
 
 ---
 
@@ -53,7 +53,7 @@ Gehen Sie wie folgt vor, um eine ordnungsgemäße Verbindung der AEM-Bildschirmp
    >1. Stellen Sie sicher, dass alle erforderlichen Anschlüsse zulässig sind.
 
 
-## Voraussetzungen für die Einrichtung eines Netzwerks für direkten Internet-Zugriff {#requirements-direct}
+## Einrichten des Direct Access-Netzwerks {#requirements-direct}
 
 Das direkte Internet-Netzwerk ist logisch in zwei Blöcke unterteilt:
 
