@@ -2,10 +2,10 @@
 title: Mobiles Netzwerk mit mobilem DatenRouter und aktiven Netzwerkkomponenten
 description: Auf der Seite werden Mobile Network mit Mobile Data Router und Active Network Components beschrieben.
 translation-type: tm+mt
-source-git-commit: 8e62b3fc4ce324e02aaec6fca9df79b1aaf94d72
+source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
 workflow-type: tm+mt
-source-wordcount: '1029'
-ht-degree: 19%
+source-wordcount: '1025'
+ht-degree: 14%
 
 ---
 
@@ -14,25 +14,25 @@ ht-degree: 19%
 
 Adobe AEM Screens Player kann auch über mobile oder mobile Netzwerke, die mindestens ein 3G-Netzwerk laufen, angeschlossen werden.
 
-Innerhalb der AEM Screens werden die erforderlichen Inhalte physisch auf den Player-Controller oder Computer heruntergeladen und ordnungsgemäß im zugrunde liegenden Betriebssystem gespeichert. Die angegebene Bandbreite wirkt sich daher nur auf die anfänglichen Downloadzeiten aus und beeinflusst die Leistung der Display-Systeme überhaupt nicht.
+Innerhalb von AEM Screens werden die erforderlichen Inhalte physisch auf den Player-Controller oder Computer heruntergeladen und ordnungsgemäß im zugrunde liegenden Betriebssystem gespeichert. Die angegebene Bandbreite wirkt sich daher nur auf die anfänglichen Downloadzeiten aus und beeinflusst die Leistung der Display-Systeme überhaupt nicht.
 
 Der Vorteil dieses Setups besteht darin, dass der Mobile Router an einem optimierten Ort platziert werden kann, um eine bestmögliche Netzabdeckung zu gewährleisten. Dies ist in der Regel in einer erhöhten und offenen Position mit so wenig umliegenden Beton- oder Metallkonstruktionen wie möglich.
 Dieses Setup ermöglicht AEM-Bildschirmbenutzern Flexibilität, da keine Festnetzverbindung für die Verbindung mit AEM Screens erforderlich ist.
 
-Das folgende Diagramm zeigt die Konfiguration des Mobilnetzwerks mit dem Mobile Data Router und der Active Network Components und enthält einen Internetzugriff für alle AEM Screens-Controller über einen eigenen 3/4/5G-Datenlink.
+Das folgende Diagramm zeigt die Konfiguration von Mobile Network mit Mobile Data Router und Active Network Components und enthält einen Internetzugriff für jeden AEM Screens Controller über einen eigenen 3/4/5G-Datenlink.
 
 ![](/help/using/assets/mobile-network-1.png)
 
 ## AEM Screens Player mit Mobile Data Router und Active Network Components verbinden {#connecting-aem-screens-players}
 
-Gehen Sie wie folgt vor, um eine Verbindung mit AEM-Screen-Playern in dieser Konfiguration herzustellen:
+Gehen Sie wie folgt vor, um eine ordnungsgemäße Verbindung der AEM-Bildschirmplayer in dieser Konfiguration sicherzustellen:
 
 Die Konfiguration beinhaltet einen Internetzugang eines AEM Screens Controllers über einen eigenen 3/4/5G Datenlink.
 
 1. Vergewissern Sie sich, dass der Mobile Data Router ordnungsgemäß mit dem zellulären Datennetzwerk verbunden ist, wie im Betriebssystem angegeben, und jeder AEM-Screen-Player mit dem Router-Netzwerk verbunden ist.
 1. Testen Sie die Internetverbindung, indem Sie im Systembrowser eine URL aufrufen.
    >[!NOTE]
-   >Wenn Sie eine Fehlermeldung erhalten, überprüfen Sie die Netzwerkeinstellungen. Es gibt im Grunde zwei Optionen für eine ordnungsgemäße Netzwerkverbindung:
+   >Wenn Sie einen Fehler erhalten, überprüfen Sie die Netzwerkeinstellungen. Es gibt im Grunde zwei Optionen für eine ordnungsgemäße Netzwerkverbindung:
    >* DHCP
    >* Manuelle IP-Konfiguration
 
@@ -40,14 +40,13 @@ Die Konfiguration beinhaltet einen Internetzugang eines AEM Screens Controllers 
 1. Stellen Sie sicher, dass die Netzwerkadaptereinstellung mit der Router-Einstellung übereinstimmt.
 
 1. Überprüfen Sie, ob der Router ordnungsgemäß mit dem ISP Wide Area Network (Internet Link) verbunden ist. Dies kann auch mithilfe einer Signal-LED auf Standard Routern festgestellt werden.
-1. Falls der URL-Aufruf erfolgreich war, können Sie die AEM Screens weiter installieren und entsprechend registrieren. Beginn-AEM Screens.
+1. Falls der URL-Aufruf erfolgreich ist, können Sie die Installation der AEM Screens fortsetzen und sich registrieren. Beginn-AEM Screens.
 
    >[!NOTE]
    >**Tipp zur Fehlerbehebung**
-   >Wenn AEM Screens keine ordnungsgemäße Verbindung herstellen und nicht den erwarteten Inhalt anzeigen:
+   >Wenn AEM Screens keine ordnungsgemäße Verbindung herstellen und der erwartete Inhalt nicht angezeigt wird:
    >
-   >1. Prüfen Sie, ob in der Firewall Ihres Internet-Routers Zugriffsbeschränkungen für `TCP/IP Port 80/443` eingerichtet sind.
-   >1. Stellen Sie sicher, dass alle erforderlichen Anschlüsse zulässig sind.
+   >1. Check in your Internet Router firewall if there are any restrictions regarding `TCP/IP Port 80/443`.
 
 
 
@@ -61,21 +60,19 @@ Das Netzwerk-Setup kann logisch in zwei Blöcke getrennt werden:
 
 ### Mobile Internetverbindung {#mobile-internet-connection}
 
-Die Internet-Verbindung muss ausreichend Bandbreite zur Verfügung stellen, damit neben der zuvor erwähnten Erreichbarkeit des Netzwerks auch ein ebenso flüssiger wie reibungsloser Betrieb von AEM Screens gewährleistet werden kann.
+Die Leistung der Internetverbindung hat, neben der bereits beschriebenen Netzwerkerreichbarkeit, eine ausreichende Bandbreite zur Verfügung gestellt, um AEM Screens angenehm und reibungslos zu bedienen.
 
-*Ausreichend* hängt von der Anzahl der angeschlossenen AEM-Bildschirme und der Nutzung anderer Verbraucher im Netzwerk ab, wie Smartphones, Tablets, Kassierer, Computer oder WIFI-Netzwerke.
+*Ausreichend* hängt von der Anzahl der angeschlossenen AEM-Bildschirme und der Nutzung anderer Verbraucher im Netzwerk ab, wie Smartphones, Tablets, Kassierer, Computer oder WLAN-Gastnetzwerke.
 Beachten Sie, dass alle Geräte gleichzeitig auf die Internet-Verbindung zugreifen und dass die Bandbreite mit der Zahl an weiteren Nutzern/Computern, die dem Netzwerk hinzugefügt werden, in der Regel linear abnimmt.
 Neben der spezifischen theoretischen Netzwerkverbindung muss sichergestellt werden, dass die Abdeckung des MobilRouters zumindest &quot;gut&quot; ist. Auch der zugrunde liegende Monatsplan muss genügend Datenkapazität und genügend Bandbreite für alle angeschlossenen Clients im angeschlossenen LAN abdecken.
-Die Datennetze bieten Standardbandbreite mit:
 
-**3G**
-* 42 Mbit/s
+In der folgenden Tabelle sind die Datennetzwerke mit ihrer Standardbandbreite aufgeführt:
 
-**4G**
-* 150 Mbit/s
-
-**5G**
-* 1000 Mbit/s - 10000 Mbit/s
+| Datennetzwerk | Bandbreite |
+|--- |--- |
+| 3G | 42 Mbit/s |
+| 4G | 150 Mbit/s |
+| 5G | 1000 - 10000 Mbit/s |
 
 Es wird empfohlen, die folgenden Fragen zu beantworten, während geprüft wird, welches Datennetzwerk verwendet werden sollte:
 
@@ -97,7 +94,7 @@ Das LAN muss ausreichend Bandbreite zur Verfügung stellen, damit neben der zuvo
 
 Beispielsweise sollten die Netzwerkkomponenten mindestens dem 100-Mbit/s-Standard entsprechen und der Bandbreite entsprechen, die von der Internet Access/Router-Spezifikation bereitgestellt wird.
 
-Falls eine WIFI-Lösung zur Verbindung des Bildschirms mit dem Internet-Link vorgesehen ist, wird empfohlen, moderne WIFI-Standards wie IEEE 802.11g als Minimum zu verwenden. Dieser Standard unterstützt Verbindungen bis zu 54 Mbit/s. Eine bessere Qualität liefern jedoch *neuere* Standards wie etwa 802.11h-n. Ist ein WLAN-Repeater erforderlich, wird für die Zugangspunkte dringend der Einsatz von Mesh-WLAN-Technologie empfohlen, z. B. Google Nest Wifi oder vergleichbare Mesh-WLAN-Lösungen.
+Falls eine Wi-Fi-Lösung vorgesehen ist, um den Bildschirm mit dem Internet-Link zu verbinden, wird empfohlen, moderne Wi-Fi-Standards wie IEEE 802.11g als Minimum zu verwenden. Dieser Standard unterstützt Verbindungen bis zu 54 Mbit/s. Eine bessere Qualität liefern jedoch *neuere* Standards wie etwa 802.11h-n. Wenn ein Wi-Fi-Repeater erforderlich ist, empfehlen wir dringend Mesh Wi-Fi Access-Point Technologien wie Google Nest Mesh Wi-Fi oder Ähnliches.
 
 ## Herunterladen von Medien und Assets {#download}
 
