@@ -2,9 +2,9 @@
 title: Mobiles Netzwerk mit mobilem DatenRouter und aktiven Netzwerkkomponenten
 description: Auf der Seite werden Mobile Network mit Mobile Data Router und Active Network Components beschrieben.
 translation-type: tm+mt
-source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
+source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1023'
 ht-degree: 14%
 
 ---
@@ -50,7 +50,7 @@ Die Konfiguration beinhaltet einen Internetzugang eines AEM Screens Controllers 
 
 
 
-## Voraussetzungen für die Einrichtung eines mobilen Netzwerks mit dem MobildatenRouter und aktiven Netzwerkkomponenten {#requirements-direct}
+## Einrichten eines mobilen Netzwerks mit dem MobildatenRouter und aktiven Netzwerkkomponenten {#requirements-direct}
 
 Das Netzwerk-Setup kann logisch in zwei Blöcke getrennt werden:
 
