@@ -3,11 +3,11 @@ title: Projektrollen und Zuständigkeiten in AEM Screens
 seo-title: Projektrollen und Zuständigkeiten in AEM Screens
 description: Auf dieser Seite werden die Projektrollen und Zuständigkeiten in AEM Screens beschrieben.
 seo-description: Auf dieser Seite werden die Projektrollen und Zuständigkeiten in AEM Screens beschrieben.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1263'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -170,7 +170,7 @@ Die folgende Tabelle fasst die Überlegungen zu **Tag 1: Projektimplementierung
 | Einigung über Rollen und Zuständigkeiten | RA | RA | RA | RA |
 | Einzelhandelsdesign inklusive Verkabelung | - | - | - | - |
 | Auswahl der Player-Hardware | RAC | - | - | - |
-| Gerätemanagement des Master | RA | I | - | - |
+| Verwaltung von Master-Geräten | RA | I | - | - |
 | Bestellung, Aufbewahrung und Konfiguration von Geräten | RA | CI | I | - |
 | Definition von Supportprozessen | RA | I | RA | C |
 
