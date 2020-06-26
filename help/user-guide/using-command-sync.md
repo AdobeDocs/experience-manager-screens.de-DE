@@ -3,11 +3,11 @@ title: Verwenden der Befehlssynchronisierung
 seo-title: Verwenden der Befehlssynchronisierung
 description: Auf dieser Seite erfahren Sie, wie Sie die Befehlssynchronisierung verwenden.
 seo-description: Auf dieser Seite erfahren Sie, wie Sie die Befehlssynchronisierung verwenden.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '777'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -86,9 +86,9 @@ Bevor Sie die Funktion zur Befehlssynchronisierung verwenden, stellen Sie sicher
    ![image1](assets/command-sync/command-sync9-1.png)
 
 
-### Setting up a master {#setting-up-master}
+### Einrichten eines Master-Geräts {#setting-up-master}
 
-1. Navigieren Sie zum Anzeige-Dashboard über **CommandSyncDemo** > **Standorte** > **Lobby** > **LobbyDisplay** und klicken Sie in der Aktionsleiste auf **Dashboard**.
+1. Rufen Sie das Anzeigen-Dashboard auf, indem Sie zu **CommandSyncDemo** > **Standorte** > **Lobby** > **LobbyDisplay** navigieren und in der Aktionsleiste auf **Dashboard** klicken.
 Im Bedienfeld **GERÄTE** werden die beiden Geräte (Chrome- und Windows-Player) angezeigt, wie in der folgenden Abbildung dargestellt.
    ![image1](assets/command-sync/command-sync10-1.png)
 
