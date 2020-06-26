@@ -2,9 +2,9 @@
 title: Direkter Internet-Zugriff
 description: Direkter Internet-Zugriff
 translation-type: tm+mt
-source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
+source-git-commit: da1fb07fef33bca771693f8bd4cc7bce256d808e
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '697'
 ht-degree: 7%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 7%
 Das Direct Internet Network enthält einen Einstiegspunkt für den Internetzugang, um die AEM cloud services zu erreichen, mit denen AEM Screens eine Verbindung herstellen müssen.
 
 AEM Screens verwendet für die Kommunikation standardmäßig die folgenden Ports:
-* `http (TCP Port 80)`
+* `ssl-secured https (TCP Port 443)`
 
    <br>Oder</br>
 
-* `ssl-secured https (TCP Port 443)`
+* `http (TCP Port 80)`, wenn Ihr bestimmter Anwendungsfall nicht diese Sicherheitsstufe erfordert.
 
 Die Anschlüsse können je nach Konfiguration der dedizierten AEM-Konfiguration variieren. In diesem SetUp sind alle Geräte direkt mit Ihrem Internet-Router verbunden, wie in der folgenden Abbildung dargestellt.
 
