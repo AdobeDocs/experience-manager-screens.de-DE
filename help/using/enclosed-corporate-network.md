@@ -2,9 +2,9 @@
 title: Geschlossenes Unternehmensnetzwerk
 description: Geschlossenes Unternehmensnetzwerk
 translation-type: tm+mt
-source-git-commit: 768c40545907ab473d61a56367940cfbbf8f2dc9
+source-git-commit: 143036005bcaecf17e6b57f4e71a5e8a1b0cfe52
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '709'
 ht-degree: 6%
 
 ---
@@ -52,7 +52,7 @@ Die Einrichtung des Unternehmensnetzwerks &quot;Engeschlossene Unternehmensnetzw
 
 ### Breites Netzwerk {#wan-connection}
 
-Die Leistung der Internetverbindung ist neben der Netzwerkanbindung auch die Bereitstellung ausreichender Bandbreite für den reibungslosen Betrieb von AEM Screens.
+Die Leistung der Internetverbindung muss neben der Reichweite des Netzwerks auch eine ausreichende Bandbreite bereitstellen, um die Inhaltsaktualisierungen von AEM Screens reibungslos zu bedienen.
 *Eine ausreichende Bandbreite* hängt von der Anzahl der angeschlossenen AEM-Bildschirme und von der Nutzung anderer Verbraucher im Netzwerk ab, z. B. Smartphones, Tablets, Kassierer, Computer oder WLAN-Gastnetzwerke.
 
 >[!NOTE]
@@ -60,11 +60,11 @@ Die Leistung der Internetverbindung ist neben der Netzwerkanbindung auch die Ber
 
 ### Local Area Network {#lan-connection}
 
-Die Leistung des Local Area Network (LAN) besteht neben der Netzwerkerreichbarkeit darin, ausreichend Bandbreite bereitzustellen, um AEM Screens reibungslos zu bedienen.
+Die Leistung des Local Area Network (LAN) muss neben der Netzwerkerreichbarkeit auch eine ausreichende Bandbreite bereitstellen, um die Inhaltsaktualisierungen von AEM Screens reibungslos zu verwalten.
 
 Das LAN-Netzwerk in Unternehmen ist in der Regel mindestens 1000 MBit/s Netzwerk, sodass es genügend Bandbreite gibt, um viele Geräte mit guter Leistung mit dem System zu verbinden. Bei Verwendung anderer aktiver Netzwerkkomponenten müssen alle diese den Anforderungen an die Netzwerkbandbreite entsprechen.
 
-Beispielsweise sollten die Netzwerkkomponenten mindestens dem Standard von 1000 Mbit/s entsprechen und der Bandbreite entsprechen, die in der Internet-Zugriffs-/Router-Spezifikation angegeben ist.
+Beispielsweise sollten die Netzwerkkomponenten mindestens dem 100-Mbit/s-Standard entsprechen und der Bandbreite entsprechen, die in der Internet-Zugriffs-/Router-Spezifikation angegeben ist.
 
 ### Andere Spezifika von Unternehmensnetzwerken {#other-networks}
 
