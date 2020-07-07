@@ -1,51 +1,51 @@
 ---
-title: Verwalten des Netzwerkverkehrs
-description: Auf der Seite werden Standard-Netzwerkeinstellungen und die Verwaltung des Netzwerkverkehrs beschrieben.
+title: Verwalten des Netzwerk-Traffics
+description: Auf dieser Seite werden die Standard-Netzwerkkonfigurationen sowie die Verwaltung des Netzwerk-Traffics beschrieben.
 translation-type: tm+mt
 source-git-commit: 173ce977549ed64e3750bb751a8fe1b27e277aa2
 workflow-type: tm+mt
 source-wordcount: '559'
-ht-degree: 4%
+ht-degree: 96%
 
 ---
 
 
-# Verwalten des Netzwerkverkehrs {#managing-network-traffic}
+# Verwalten des Netzwerk-Traffics {#managing-network-traffic}
 
-Eine Netzwerkkonfiguration kann auf diversen Strukturen basieren. In diesem Abschnitt werden die gebräuchlichsten Netzwerkkonfigurationen und die am häufigsten verwendeten generalisierten Ansätze innerhalb einer Organisation beschrieben.
+Eine Netzwerkkonfiguration kann auf diversen Strukturen basieren. Dieser Abschnitt erläutert die gängigsten Netzwerkkonfigurationen und beschreibt in verallgemeinerter Form die innerhalb eines Unternehmens verwendeten Ansätze.
 
-In diesem Handbuch wird eine Einführung in Proxy-Server und die verschiedenen Netzwerkstrukturen, die in verschiedenen Organisationen eingerichtet werden, vorgestellt.
+Dieses Handbuch bietet zunächst eine Einführung in Proxy-Server, um dann auf die diversen Netzwerkstrukturen einzugehen, die in unterschiedlichen Unternehmen eingerichtet werden.
 
 >[!NOTE]
 >
->**Netzwerkanforderungen für AEM Screens**
+>**Netzwerkanforderungen von AEM Screens**
 >
->Die AEM Screens kommunizieren direkt mit dem AEM als Cloud Service. Daher ist es erforderlich, eine stabile Verbindung zwischen den beiden Knoten herzustellen. Firewalls sind für den kommerziellen Internetzugang absolut zwingend erforderlich. Als Kunde müssen Sie wissen, welche Kommunikationshäfen in diesen Firewalls und anderen IT-Security-bezogenen Netzwerkkomponenten geöffnet werden müssen.
+>AEM Screens kommuniziert direkt mit AEM as a Cloud Service. Zwischen den beiden Knoten muss daher eine stabile Verbindung gewährleistet sein. Da Firewalls für den Zugriff auf das kommerzielle Internet absolut unabdingbar sind, müssen Sie verstehen, für welche Ports Sie in Firewalls und anderen für die IT-Sicherheit implementierten Netzwerkkomponenten die Kommunikation zulassen müssen.
 
-## Übersicht über Proxyserver {#proxy-servers}
+## Übersicht über Proxy-Server {#proxy-servers}
 
-Eine Internetverbindung beruht auf der Verwendung eines Proxyservers. Ein Proxy-Server ist ein dedizierter Computer oder ein Software-System, das auf einem Computer ausgeführt wird, der als Vermittler zwischen einem Endpunktgerät wie einem Computer und einem anderen Server fungiert, von dem aus ein Benutzer oder Client einen Dienst anfordert. Der Proxyserver kann sich auf demselben Computer wie ein Firewall-Server befinden oder auf einem separaten Server vorhanden sein, der Anfragen über die Firewall weiterleitet.
+Über Proxy-Server wird der Aufbau einer Verbindung zum Internet ermöglicht. Ein Proxy-Server ist ein dediziertes Computer- oder Software-System, das auf einem Computer ausgeführt wird, der als Vermittler zwischen einem Endpunktgerät (z. B. einem Computer) und einem anderen Server fungiert, von dem aus ein Benutzer oder Client einen Dienst anfordert. Der Proxy-Server kann sich auf demselben Computer befinden wie ein Firewall-Server oder auf einem separaten Server, der Anfragen über die Firewall weiterleitet.
 
-Ein Vorteil eines Proxyservers besteht darin, dass sein Cache allen Benutzern zur Verfügung stehen kann. Wenn eine oder mehrere Websites häufig angefordert werden, befinden sich diese wahrscheinlich im Cache des Proxys, was die Reaktionszeit des Benutzers weiter verbessert. Ein Proxy kann auch seine Interaktionen protokollieren, die zur Fehlerbehebung verwendet werden können.
+Ein Vorteil eines Proxyservers besteht darin, dass sein Cache allen Benutzern zur Verfügung stehen kann. Wenn eine oder mehrere Websites häufig aufgerufen werden, ist es wahrscheinlich, dass diese im Cache des Proxys gespeichert werden, wodurch sich die Reaktionszeit für Benutzer weiter verkürzt. Ein Proxy kann zudem die durch ihn verarbeiteten Interaktionen protokollieren, was bei der Fehlerbehebung hilfreich sein kann.
 
-Wenn ein Proxyserver eine Anforderung für eine Internetressource erhält (z. B. eine Webseite oder während der Verbindung mit einem AEM Publisher), wird der lokale Cache der zuvor aufgerufenen URLs überprüft. Wenn die Seite gefunden wird, wird sie an den Benutzer zurückgegeben, ohne die Anforderung an das Internet weiterzuleiten. Wenn sich die Seite nicht im Cache befindet, ruft der Proxyserver (als Client) für den Benutzer auf und ruft die Seite vom Server im Internet ab. Wenn der Inhalt zurückgegeben wird, bezieht der Proxyserver ihn mit der ursprünglichen Anforderung und leitet ihn an den Benutzer weiter.
+Erhält ein Proxy-Server eine Anfrage für eine Internet-Ressource (z. B. für eine Web-Seite oder infolge der Verbindung mit einem AEM-Publisher), prüft er die im lokalen Cache gespeicherten, zu einem früheren Zeitpunkt aufgerufenen URLs. Wenn die Seite darin gefunden wird, wird sie an den Benutzer zurückgegeben, ohne die Anfrage an das Internet weiterzuleiten. Ist die Seite nicht im Cache gespeichert, fungiert der Proxy-Server als Client, der für den Benutzer die Seite vom Server im Internet abruft. Wenn der Inhalt zurückgegeben wird, bezieht der Proxyserver ihn mit der ursprünglichen Anforderung und leitet ihn an den Benutzer weiter.
 
-## Understanding the Standard Network Setups {#network-setups}
+## Grundlagen zu Standard-Netzwerkkonfigurationen {#network-setups}
 
-Um ein Netzwerk-Setup zu implementieren, müssen Sie die folgenden Szenarien mit ihren Stärken und Implementierungsdetails verwenden.
+Bei der Implementierung einer Netzwerkkonfiguration gilt es, die nachfolgenden Szenarien zu prüfen und ihre Stärken und Eigenheiten abzuwägen.
 
-In diesem Leitfaden werden vier verschiedene Arten von Netzwerkkonfigurationen innerhalb einer Organisation hervorgehoben:
+Dieses Handbuch erläutert vier Varianten von Netzwerkkonfigurationen, die innerhalb eines Unternehmens eingerichtet werden können:
 
-* **[Direct Internet Network (Wired/Wireless)](/help/using/direct-internet-network.md)**
-* **[Direktes Mobilfunknetz](/help/using/mobile-network.md)**
-* **[Mobiles Netzwerk mit mobilem DatenRouter und aktiven Netzwerkkomponenten](/help/using/mobile-network-router.md)**
-* **[Engeschlossenes Unternehmensnetzwerk (Wired/Wireless)](/help/using/enclosed-corporate-network.md)**
+* **[Netzwerk für direkten Internet-Zugriff (kabelgebunden/kabellos)](/help/using/direct-internet-network.md)**
+* **[Netzwerk für Direktanbindung an Mobilfunknetze](/help/using/mobile-network.md)**
+* **[Mobiles Netzwerk mit mobilem WLAN-Router und aktiven Netzwerkkomponenten](/help/using/mobile-network-router.md)**
+* **[Geschlossenes Unternehmensnetzwerk (kabelgebunden/kabellos)](/help/using/enclosed-corporate-network.md)**
 
-In der folgenden Tabelle sind die verschiedenen Arten von Netzwerken mit Vor- und Nachteilen aufgeführt:
+Im Folgenden sind die Vor- und Nachteile der einzelnen Netzwerkkonfigurationen aufgeführt:
 
-| Netzwerkeinrichtung | Vorteile | Nachteile |
+| Netzwerkkonfiguration | Vorteile | Nachteile |
 |--- |--- |--- |
-| **Direct Internet Network (Wired/Wireless)** | Einfach und direkt nach<br>SetUpGute Wahl für mittlere oder größere<br>InstallationenDedicated Network kann<br>EncapsulatedWenige<br>Fehlerpunkte relativ<br>UnkostengünstigGute Skalierbarkeit | Obligatorischer Internet-Datenplan |
-| **Direktes Mobilfunknetz** | Einfache<br>EinrichtungGute Wahl für mittlere oder größere<br>InstallationenGute<br>SkalierbarkeitEingekapselte Bildschirme | Verbindliche Internetverbindung |
-| **Mobiles Netzwerk mit mobilem DatenRouter und aktiven Netzwerkkomponenten** | Einfache<br>EinrichtungGute Wahl für mittlere oder größere<br>InstallationenDedicated Network kann<br>EncapsulatedWenige<br>FehlerquellenRelativ<br>unkostengünstige SkalierbarkeitGute Skalierbarkeit | Obligatorischer Internet-Datenplan |
-| **Engeschlossenes Unternehmensnetzwerk (Wired/Wireless)** | Hohe Flexibilität und<br>SkalierbarkeitHohe Sicherheit dank verschiedener<br>VerteidigungslinienEncapsulated<br>NetworksEinfache Überwachung und<br>WartungZuverlässig | Kompliziert und<br>teuerEmpfohlen für Netzwerkspezialisten oder Systemintegratoren |
+| **Netzwerk für direkten Internet-Zugriff (kabelgebunden/kabellos)** | Unkomplizierte Einrichtung<br>Gut geeignet für mittlere oder größere Installationen<br>Kapselung von dediziertem Netzwerk möglich<br>Wenige potenzielle Quellen für Ausfälle<br>Vergleichsweise kostengünstig<br>Gute Skalierbarkeit | Erfordert Daten-Abo für Internet-Zugang |
+| **Netzwerk für Direktanbindung an Mobilfunknetze** | Einfache Einrichtung<br>Gut geeignet für mittlere oder größere Installationen<br>Gute Skalierbarkeit<br>Kapselung der Bildschirme | Erfordert Verbindung zum Internet |
+| **Mobiles Netzwerk mit mobilem WLAN-Router und aktiven Netzwerkkomponenten** | Einfache Einrichtung<br>Gut geeignet für mittlere oder größere Installationen<br>Kapselung von dediziertem Netzwerk möglich<br>Wenige potenzielle Quellen für Ausfälle<br>Vergleichsweise kostengünstig<br>Gute Skalierbarkeit | Erfordert Daten-Abo für Internet-Zugang |
+| **Geschlossenes Unternehmensnetzwerk (kabelgebunden/kabellos)** | Hohe Flexibilität und Skalierbarkeit<br>Starke Sicherheit durch mehrere Absicherungsstufen<br>Kapselung der Netzwerke<br>Einfache Überwachung und Wartung<br>Zuverlässig | Kompliziert und kostenintensiv<br>Empfohlen für Netzwerkspezialisten oder Systemintegratoren |
