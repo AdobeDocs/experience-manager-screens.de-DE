@@ -5,93 +5,93 @@ translation-type: tm+mt
 source-git-commit: da1fb07fef33bca771693f8bd4cc7bce256d808e
 workflow-type: tm+mt
 source-wordcount: '697'
-ht-degree: 7%
+ht-degree: 94%
 
 ---
 
 
-# Direct Internet Network (Wired/Wireless) {#direct-internet-access}
+# Netzwerk für direkten Internet-Zugriff (kabelgebunden/kabellos) {#direct-internet-access}
 
-Das Direct Internet Network enthält einen Einstiegspunkt für den Internetzugang, um die AEM cloud services zu erreichen, mit denen AEM Screens eine Verbindung herstellen müssen.
+Das Netzwerk für direkten Internet-Zugriff beinhaltet einen Internet-Zugangspunkt, über den die Erreichbarkeit der AEM Cloud Services gewährleistet wird, mit denen AEM Screens eine Verbindung herstellen muss.
 
 AEM Screens verwendet für die Kommunikation standardmäßig die folgenden Ports:
 * `ssl-secured https (TCP Port 443)`
 
-   <br>Oder</br>
+   <br> oder </br>
 
 * `http (TCP Port 80)`, wenn Ihr bestimmter Anwendungsfall nicht diese Sicherheitsstufe erfordert.
 
-Die Anschlüsse können je nach Konfiguration der dedizierten AEM-Konfiguration variieren. In diesem SetUp sind alle Geräte direkt mit Ihrem Internet-Router verbunden, wie in der folgenden Abbildung dargestellt.
+Abhängig von Ihrer jeweiligen AEM-Konfiguration weichen die Ports bei Ihnen möglicherweise davon ab. In dieser Konfiguration sind alle Geräte direkt mit Ihrem Internet-Router verbunden, wie in der nachfolgenden Abbildung dargestellt.
 
 ![](/help/assets/direct-access-2.png)
 
-Die Konfiguration beinhaltet auch einen Internetzugang von jedem Internet-Dienstleister (ISP) und seine Internetverbindung. Die meisten ISPs bieten einen Internet-Router, der das Internet-Modem, den Netzwerk-Switch, Wi-Fi-Access Point, Firewall und andere Netzwerkfunktionen (je nach Hersteller und Modell) abdeckt.
+Ferner beinhaltet die Konfiguration einen von einem Internet-Dienstanbieter (Internet Service Provider, ISP) bezogenen Internet-Zugang und die zugehörige Verbindung zum Internet. Die meisten ISPs bieten Internet-Router, die Internet-Modem, Netzwerk-Switch, WLAN-Zugangspunkt, Firewall und andere Netzwerkfunktionen vereinen (je nach Hersteller und Modell).
 
-## Anschließen des AEM Screens Player an den direkten Internetzugang {#connecting-aem-screens-players}
+## Anbinden von AEM Screens-Playern an ein Netzwerk für direkten Internet-Zugriff{#connecting-aem-screens-players}
 
-Gehen Sie wie folgt vor, um eine ordnungsgemäße Verbindung der AEM-Bildschirmplayer in dieser Konfiguration sicherzustellen:
+Gehen Sie für eine in dieser Konfiguration ordnungsgemäße Anbindung der AEM Screens-Player wie folgt vor:
 
 1. Vergewissern Sie sich, dass alle AEM-Screen-Player mit dem Router-Netzwerk verbunden sind.
 1. Testen Sie die Internetverbindung, indem Sie eine URL in Ihrem Systembrowser aufrufen.
 
    >[!NOTE]
-   >Wenn Sie einen Fehler erhalten, überprüfen Sie die Netzwerkeinstellungen. Es gibt im Grunde zwei Optionen für eine ordnungsgemäße Netzwerkverbindung:
+   >Wenn eine Fehlermeldung angezeigt wird, überprüfen Sie die Netzwerkeinstellungen. Grundsätzlich bestehen für eine ordnungsgemäße Netzwerkverbindung zwei Optionen:
    >* DHCP
    >* Manuelle IP-Konfiguration
 
 
-1. Stellen Sie sicher, dass die Netzwerkadaptereinstellung mit den Router-Einstellungen übereinstimmt, und überprüfen Sie, ob die maximale Anzahl an IP-Adressen in Ihrem Netzwerk nicht erreicht wird.
+1. Stellen Sie sicher, dass die Einstellung des Netzwerkadapters mit der des Routers übereinstimmt, und prüfen Sie, ob bereits die maximal zulässige Anzahl an in Ihrem Netzwerk verwendeten IP-Adressen erreicht wurde.
 
-1. Überprüfen Sie, ob der Router ordnungsgemäß mit dem ISP Wide Area Network (Internet Link) verbunden ist. Dies lässt sich auch mit einer Signal-LED auf Standard Routern identifizieren.
-1. Falls der URL-Aufruf erfolgreich ist, können Sie die Installation der AEM Screens fortsetzen und sich registrieren. Beginn-AEM Screens.
+1. Überprüfen Sie, ob der Router ordnungsgemäß mit dem Wide Area Network (also der Internet-Verbindung) des Internet-Dienstanbieters verbunden ist. Auf Standard-Routern signalisiert dies in der Regel auch eine LED.
+1. Im Falle eines erfolgreichen URL-Aufrufs können Sie mit der Installation der für AEM Screens verwendeten Bildschirme fortfahren, die Registrierung abschließen und AEM Screens starten.
 
    >[!NOTE]
    >**Tipp zur Fehlerbehebung**
-   >Wenn AEM Screens keine ordnungsgemäße Verbindung herstellen und der erwartete Inhalt nicht angezeigt wird:
+   >Gehen Sie wie folgt vor, wenn bei AEM Screens Verbindungsprobleme auftreten und die erwarteten Inhalte nicht angezeigt werden:
    >
-   >1. Check in your Internet Router firewall if there are any restrictions regarding `TCP/IP Port 80/443`.
-   >1. Stellen Sie sicher, dass alle erforderlichen Anschlüsse zulässig sind.
+   >1. Prüfen Sie, ob in der Firewall Ihres Internet-Routers Zugriffsbeschränkungen für `TCP/IP Port 80/443` eingerichtet sind.
+   >1. Stellen Sie sicher, dass alle erforderlichen Ports zugelassen werden.
 
 
-## Einrichten des Direct Access-Netzwerks {#requirements-direct}
+## Einrichten eines Netzwerks für direkten Zugriff {#requirements-direct}
 
-Das direkte Internet-Netzwerk ist logisch in zwei Blöcke unterteilt:
+Das Netzwerk für direkten Zugriff ist logisch in zwei Blöcke unterteilt:
 
-* Breites Netzwerk
+* WAN (Wide Area Network)
 
-* Local Area Network
+* LAN (Local Area Network)
 
-### Breites Netzwerk {#wan-connection}
+### WAN (Wide Area Network) {#wan-connection}
 
-Die Leistung der Internetverbindung ist nicht nur die Reichweite des Netzwerks, sondern auch die Bereitstellung ausreichender Bandbreite für den Betrieb von AEM Screens.
+Die Internet-Verbindung muss ausreichend Bandbreite zur Verfügung stellen, damit neben der Erreichbarkeit des Netzwerks auch der Betrieb von AEM Screens gewährleistet werden kann.
 
-*Ausreichend* hängt von der Anzahl der angeschlossenen AEM-Bildschirme und von der Nutzung anderer Verbraucher im Netzwerk ab, z. B. Smartphones, Tablets, Kassierer, Computer oder WLAN-Gastnetzwerke.
-
->[!NOTE]
->Alle oben genannten Geräte haben einen gleichzeitigen Zugriff auf die Internetverbindung und die Bandbreite sinkt linear, wenn Sie mehr Benutzer oder Computer zum Netzwerk hinzufügen.
-
-### Local Area Network {#lan-connection}
-
-Die Leistung des Local Area Network (LAN) bietet neben der Erreichbarkeit des Netzwerks genügend Bandbreite für den Betrieb von AEM Screens.
-
-Das LAN-Netzwerk entspricht in der Regel mindestens einem 100-Mbit/s-Netzwerk, sodass genügend Bandbreite vorhanden ist, um viele Geräte mit guter Leistung mit dem System zu verbinden.
-In case that a Wi-Fi solution is envisaged to connect AEM Screens to the Internet Link it is recommended to use modern Wi-Fi standards like `IEEE 802.11g` as a minimum. Dieser Standard unterstützt Verbindungen bis zu 54 Mbit/s. Eine bessere Qualität liefern jedoch *neuere* Standards wie etwa `802.11h-n`
+Was *ausreichend* bedeutet, hängt von der Anzahl der an AEM Screens angebundenen Bildschirme sowie vom Bandbreitenbedarf anderer verbundener Netzwerknutzer wie Smartphones, Tablets, Kassensystemen, Computern oder Gast-WLANs ab.
 
 >[!NOTE]
->Wenn ein Wi-Fi-Repeater erforderlich ist, wird dringend empfohlen, einen Mesh Wi-Fi-Zugangspunkt wie Google Nest Mesh Wi-Fi oder Ähnliches. Andere Wi-Fi-Wiederholungstechnologien führen zu einem massiven Bandbreitenverlust im gesamten Netzwerk.
+>Alle oben genannten Geräte greifen gleichzeitig auf die Internet-Verbindung zu. Dementsprechend nimmt die Bandbreite mit der Zahl an weiteren Nutzern oder Computern, die dem Netzwerk hinzugefügt werden, linear ab.
+
+### LAN (Local Area Network) {#lan-connection}
+
+Die LAN-Verbindung stellt ausreichend Bandbreite zur Verfügung, um neben der Erreichbarkeit des Netzwerks auch den Betrieb von AEM Screens zu gewährleisten.
+
+LAN-Netzwerke unterstützen in der Regel Übertragungsraten von mindestens 100 MBit/s und liefern daher auch bei der Anbindung einer Vielzahl von Geräten an das System eine für eine angemessene Leistung ausreichende Bandbreite.
+Sofern eine WLAN-Lösung für die Internet-Anbindung von AEM Screens vorgesehen ist, sollten moderne WLAN-Standards verwendet werden. Empfohlen wird hierfür mindestens `IEEE 802.11g`. Dieser Standard unterstützt Verbindungen mit bis zu 54 MBit/s. Eine bessere Qualität liefern jedoch *neuere* Standards wie etwa `802.11h-n`.
+
+>[!NOTE]
+>Ist ein WLAN-Repeater erforderlich, wird dringend empfohlen, einen Mesh-WLAN-Zugangspunkt zu verwenden, z. B. Google Nest Wifi oder vergleichbare Mesh-WLAN-Lösungen. Andere WLAN-Repeater-Technologien sind mit massiven Bandbreiteneinbußen verbunden.
 
 ## Herunterladen von Medien und Assets {#download}
 
-AEM Screens bietet Anwendern von Digital Signage einen entscheidenden Vorteil dahingehend, Es lädt alle erforderlichen Mediendateien wie Bilder und Videos herunter und speichert sie lokal. Der große Netzwerkverkehr tritt auf, wenn auf einer bestimmten Anzeige neue Inhalte angezeigt werden.
+AEM Screens bietet Anwendern von Digital Signage einen entscheidenden Vorteil dahingehend, dass die Lösung alle erforderlichen Mediendateien (z. B. Bilder und Videos) herunterlädt und lokal speichert. Der Großteil des Netzwerk-Traffics ist dadurch auf Phasen konzentriert, in denen neue Inhalte für die Anzeige auf einem bestimmten Bildschirm übertragen werden.
 
-Bei normalen Vorgängen beispielsweise wird eine definierte Playlist, die im Laufe des Tages häufig aktualisiert wird, als Angebot ein netzwerkunabhängiger Vorgang ausgeführt, sobald alle Dateien im Player gespeichert wurden.
+So kann der Normalbetrieb, also beispielsweise Fälle, in denen bei einer Wiedergabeliste für den Tagesverlauf häufige Updates definiert sind, nahezu unabhängig vom Netzwerk ablaufen, sobald alle Dateien auf dem Player gespeichert wurden.
 
-In Szenarien, in denen es mehr Interaktionen mit Sensoren oder Triggern und dynamischen Inhalten gibt, ist eine schnelle und zuverlässige Netzwerkverbindung unverzichtbar, um eine sofortige Bildschirmreaktion zu gewährleisten und eine bestmögliche Kundenerfahrung zu gewährleisten.
+Szenarien, in denen umfangreicher mit Sensoren oder Auslösern sowie dynamischen Inhalten interagiert wird, erfordern dagegen unbedingt eine schnelle und zuverlässige Netzwerkverbindung, da nur so eine verzögerungsfreie Reaktion am Bildschirm und damit das bestmögliche Kundenerlebnis gewährleistet werden kann.
 
 Nachfolgend sind die wichtigsten Daten bezüglich Netzwerkverbindungen aufgeführt.
 
 >[!NOTE]
->Die Informationen ermöglichen es Ihnen, den Verbrauch der einzelnen Geräte im Netzwerk zu Ansichten, die eine Internetquelle anfordern und herunterladen. Jede dieser Anforderungen erhöht die Downloadzeit und verlängert sie.
+>Diese Daten zeigen auf, wie viel Bandbreite jedes einzelne mit dem Netzwerk verbundene Gerät beim Anfragen und Herunterladen einer Internet-Quelle beansprucht. Mit jeder weiteren solchen Anfrage summiert sich die Bandbreitennutzung, durch die sich wiederum die Download-Zeit verlängert.
 
 ![](/help/assets/download-times-direct.png)
 
