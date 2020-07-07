@@ -1,90 +1,90 @@
 ---
 title: Geschlossenes Unternehmensnetzwerk
-description: Geschlossenes Unternehmensnetzwerk
+description: 'Geschlossenes Unternehmensnetzwerk  '
 translation-type: tm+mt
 source-git-commit: 143036005bcaecf17e6b57f4e71a5e8a1b0cfe52
 workflow-type: tm+mt
 source-wordcount: '709'
-ht-degree: 6%
+ht-degree: 89%
 
 ---
 
 
-# Geschlossenes Unternehmensnetzwerk (Wired/Wireless) {#enclosed-corporate-networks}
+# Geschlossenes Unternehmensnetzwerk   (kabelgebunden/kabellos) {#enclosed-corporate-networks}
 
-Die Engeschlossene Unternehmensnetzwerkeinrichtung gilt für kleinere, größere und unternehmenseigene Unternehmen. Es kann theoretisch komplexer sein, und das logische Setup ist in der folgenden Abbildung dargestellt.
+Die Konfiguration für geschlossene Unternehmensnetzwerke ist in kleineren, mittleren und großen Unternehmen gleichermaßen anwendbar. Es kann theoretisch komplexer sein, und das logische Setup ist in der folgenden Abbildung dargestellt.
 
 ![](/help/using/assets/enclosed-network-1.png)
 
 
-## Anschließen des AEM Screens Player an den direkten Internetzugang {#connecting-aem-screens-players}
+## Anbinden von AEM Screens-Playern an ein Netzwerk für direkten Internet-Zugriff{#connecting-aem-screens-players}
 
-Gehen Sie wie folgt vor, um eine ordnungsgemäße Verbindung der AEM-Bildschirmplayer in dieser Konfiguration sicherzustellen:
+Gehen Sie für eine in dieser Konfiguration ordnungsgemäße Anbindung der AEM Screens-Player wie folgt vor:
 
-1. Vergewissern Sie sich, dass alle AEM-Screen-Player mit dem Router-Netzwerk verbunden sind.
+1. Stellen Sie sicher, dass alle AEM Screens-Player mit dem Router-Netzwerk verbunden sind.
 1. Testen Sie die Internetverbindung, indem Sie eine URL in Ihrem Systembrowser aufrufen.
 
    >[!NOTE]
-   >Wenn Sie einen Fehler erhalten, überprüfen Sie die Netzwerkeinstellungen. Es gibt im Grunde zwei Optionen für eine ordnungsgemäße Netzwerkverbindung:
+   >Wenn eine Fehlermeldung angezeigt wird, überprüfen Sie die Netzwerkeinstellungen. Grundsätzlich bestehen für eine ordnungsgemäße Netzwerkverbindung zwei Optionen:
    >* DHCP
    >* Manuelle IP-Konfiguration
 
 
-1. Stellen Sie sicher, dass die Netzwerkadaptereinstellung mit den Router-Einstellungen übereinstimmt, und überprüfen Sie, ob die maximale Anzahl an IP-Adressen in Ihrem Netzwerk nicht erreicht wird.
+1. Stellen Sie sicher, dass die Einstellung des Netzwerkadapters mit der des Routers übereinstimmt, und prüfen Sie, ob bereits die maximal zulässige Anzahl an in Ihrem Netzwerk verwendeten IP-Adressen erreicht wurde.
 
-1. Überprüfen Sie, ob der Router ordnungsgemäß mit dem ISP Wide Area Network (Internet Link) verbunden ist. Dies lässt sich auch mit einer Signal-LED auf Standard Routern identifizieren.
-1. Falls der URL-Aufruf erfolgreich ist, können Sie die Installation der AEM Screens fortsetzen und sich registrieren. Beginn-AEM Screens.
+1. Überprüfen Sie, ob der Router ordnungsgemäß mit dem Wide Area Network (also der Internet-Verbindung) des Internet-Dienstanbieters verbunden ist. Auf Standard-Routern signalisiert dies in der Regel auch eine LED.
+1. Im Falle eines erfolgreichen URL-Aufrufs können Sie mit der Installation der für AEM Screens verwendeten Bildschirme fortfahren, die Registrierung abschließen und AEM Screens starten.
 
    >[!NOTE]
    >**Tipp zur Fehlerbehebung**
-   >Wenn AEM Screens keine ordnungsgemäße Verbindung herstellen und der erwartete Inhalt nicht angezeigt wird:
+   >Gehen Sie wie folgt vor, wenn bei AEM Screens Verbindungsprobleme auftreten und die erwarteten Inhalte nicht angezeigt werden:
    >
-   >1. Check in your Internet Router firewall if there are any restrictions regarding `TCP/IP Port 80/443`.
-   >1. Stellen Sie sicher, dass alle erforderlichen Anschlüsse zulässig sind.
+   >1. Prüfen Sie, ob in der Firewall Ihres Internet-Routers Zugriffsbeschränkungen für `TCP/IP Port 80/443` eingerichtet sind.
+   >1. Stellen Sie sicher, dass alle erforderlichen Ports zugelassen werden.
 
 
 ## Einrichten von geschlossenen Unternehmensnetzwerken {#requirements-enclosed-networks}
 
-Die Einrichtung des Unternehmensnetzwerks &quot;Engeschlossene Unternehmensnetzwerke&quot;kann logisch in zwei Blöcke getrennt werden:
+Die Konfiguration für geschlossene Unternehmensnetzwerke kann logisch in zwei Blöcke unterteilt werden:
 
 * WAN (Wide Area Network)
-* Internes Local Area Network (LAN).
+* Internes LAN (Local Area Network)
 
-### Breites Netzwerk {#wan-connection}
+### WAN (Wide Area Network) {#wan-connection}
 
 Die Leistung der Internetverbindung muss neben der Reichweite des Netzwerks auch eine ausreichende Bandbreite bereitstellen, um die Inhaltsaktualisierungen von AEM Screens reibungslos zu bedienen.
-*Eine ausreichende Bandbreite* hängt von der Anzahl der angeschlossenen AEM-Bildschirme und von der Nutzung anderer Verbraucher im Netzwerk ab, z. B. Smartphones, Tablets, Kassierer, Computer oder WLAN-Gastnetzwerke.
+Was *ausreichend* bedeutet, hängt von der Anzahl der an AEM Screens angebundenen Bildschirme sowie vom Bandbreitenbedarf anderer verbundener Netzwerknutzer wie Smartphones, Tablets, Kassensystemen, Computern oder Gast-WLANs ab.
 
 >[!NOTE]
->Alle Geräte haben einen gleichzeitigen Zugriff auf die Internetverbindung und die Bandbreite verringert sich linear, wenn Sie mehr Benutzer oder Computer zum Netzwerk hinzufügen.
+>Alle Geräte greifen gleichzeitig auf die Internet-Verbindung zu. Dementsprechend nimmt die Bandbreite mit der Zahl an weiteren Nutzern oder Computern, die dem Netzwerk hinzugefügt werden, linear ab.
 
-### Local Area Network {#lan-connection}
+### LAN (Local Area Network) {#lan-connection}
 
 Die Leistung des Local Area Network (LAN) muss neben der Netzwerkerreichbarkeit auch eine ausreichende Bandbreite bereitstellen, um die Inhaltsaktualisierungen von AEM Screens reibungslos zu verwalten.
 
-Das LAN-Netzwerk in Unternehmen ist in der Regel mindestens 1000 MBit/s Netzwerk, sodass es genügend Bandbreite gibt, um viele Geräte mit guter Leistung mit dem System zu verbinden. Bei Verwendung anderer aktiver Netzwerkkomponenten müssen alle diese den Anforderungen an die Netzwerkbandbreite entsprechen.
+In Unternehmen eingesetzte LAN-Netzwerke unterstützen in der Regel Übertragungsraten von mindestens 1000 MBit/s, was auch bei der Anbindung einer Vielzahl von Geräten an das System eine für eine angemessene Leistung ausreichende Bandbreite liefert. Sind aktive Netzwerkkomponenten anderer Art im Einsatz, müssen diese allesamt die Anforderungen an die Netzwerkbandbreite erfüllen.
 
-Beispielsweise sollten die Netzwerkkomponenten mindestens dem 100-Mbit/s-Standard entsprechen und der Bandbreite entsprechen, die in der Internet-Zugriffs-/Router-Spezifikation angegeben ist.
+Beispielsweise sollten entsprechende Netzwerkkomponenten mindestens auf den 100 MBit/s-Standard ausgelegt sein und mit den Bandbreitenspezifikationen des Internet-Zugangs/-Routers übereinstimmen.
 
 ### Andere Spezifika von Unternehmensnetzwerken {#other-networks}
 
-Unternehmensnetzwerke haben eine Reihe von Geräten angeschlossen, sind in verschiedene Subnetzwerke unterteilt und verfügen über redundante oder Multiplexing-Internetverbindungen, um eine ausreichende Leistung für viele tausend gleichzeitige Zugriffe zu bieten.
-Dieses Schema ist vereinfacht und passt in den meisten Fällen zu den Umgebung, die für den Client verfügbar sind.
+Unternehmensnetzwerke stellen die Anbindung für eine Vielzahl von Geräten bereit, sind in diverse Subnetze unterteilt und bringen redundante oder durch Multiplexing gestützte Internet-Verbindungen zum Einsatz, um die für mehrere Tausend gleichzeitige Zugriffe nötige Leistung zu gewährleisten.
+Dieses Schema ist vereinfacht und in den meisten Fällen auf die dem Client zur Verfügung stehenden Umgebungen anwendbar.
 
-In case that a Wi-Fi solution is envisaged to connect Screens to the Internet Link it is recommended to use modern Wi-Fi standards like `IEEE 802.11g` as a minimum. Dieser Standard unterstützt Verbindungen mit bis zu 54 Mbit/s. Eine bessere Qualität liefern jedoch *neuere* Standards wie etwa `802.11h-n` Wenn ein Wi-Fi-Repeater erforderlich ist, empfehlen wir dringend Mesh Wi-Fi Access Point Technologien wie Google Nest Mesh Wi-Fi oder Ähnliches.
-Andere Wi-Fi-Wiederholungstechnologien führen zu einem massiven Bandbreitenverlust im gesamten Netzwerk.
+Sofern eine WLAN-Lösung für die Internet-Anbindung von Screens vorgesehen ist, sollten moderne WLAN-Standards verwendet werden. Empfohlen wird hierfür mindestens `IEEE 802.11g`. Dieser Standard unterstützt Verbindungen mit bis zu 54 MBit/s. Eine bessere Qualität liefern jedoch *neuere* Standards wie etwa `802.11h-n`. Ist ein WLAN-Repeater erforderlich, wird für die Zugangspunkte dringend der Einsatz von Mesh-WLAN-Technologie empfohlen, z. B. Google Nest Wifi oder vergleichbare Mesh-WLAN-Lösungen.
+Andere WLAN-Repeater-Technologien sind mit massiven Bandbreiteneinbußen verbunden.
 
 ## Herunterladen von Medien und Assets {#download}
 
-AEM Screens bietet Anwendern von Digital Signage einen entscheidenden Vorteil dahingehend, Es lädt alle erforderlichen Mediendateien wie Bilder und Videos herunter und speichert sie lokal. Der große Netzwerkverkehr tritt auf, wenn auf einer bestimmten Anzeige neue Inhalte angezeigt werden.
+AEM Screens bietet Anwendern von Digital Signage einen entscheidenden Vorteil dahingehend, dass die Lösung alle erforderlichen Mediendateien (z. B. Bilder und Videos) herunterlädt und lokal speichert. Der Großteil des Netzwerk-Traffics ist dadurch auf Phasen konzentriert, in denen neue Inhalte für die Anzeige auf einem bestimmten Bildschirm übertragen werden.
 
-Bei normalen Vorgängen beispielsweise wird eine definierte Playlist, die im Laufe des Tages häufig aktualisiert wird, als Angebot ein netzwerkunabhängiger Vorgang ausgeführt, sobald alle Dateien im Player gespeichert wurden.
+So kann der Normalbetrieb, also beispielsweise Fälle, in denen bei einer Wiedergabeliste für den Tagesverlauf häufige Updates definiert sind, nahezu unabhängig vom Netzwerk ablaufen, sobald alle Dateien auf dem Player gespeichert wurden.
 
-In Szenarien, in denen es mehr Interaktionen mit Sensoren oder Triggern und dynamischen Inhalten gibt, ist eine schnelle und zuverlässige Netzwerkverbindung unverzichtbar, um eine sofortige Bildschirmreaktion zu gewährleisten und eine bestmögliche Kundenerfahrung zu gewährleisten.
+Szenarien, in denen umfangreicher mit Sensoren oder Auslösern sowie dynamischen Inhalten interagiert wird, erfordern dagegen unbedingt eine schnelle und zuverlässige Netzwerkverbindung, da nur so eine verzögerungsfreie Reaktion am Bildschirm und damit das bestmögliche Kundenerlebnis gewährleistet werden kann.
 
 Nachfolgend sind die wichtigsten Daten bezüglich Netzwerkverbindungen aufgeführt.
 
 >[!NOTE]
->Die Informationen ermöglichen es Ihnen, den Verbrauch der einzelnen Geräte im Netzwerk zu Ansichten, die eine Internetquelle anfordern und herunterladen. Jede dieser Anforderungen erhöht die Downloadzeit und verlängert sie.
+>Diese Daten zeigen auf, wie viel Bandbreite jedes einzelne mit dem Netzwerk verbundene Gerät beim Anfragen und Herunterladen einer Internet-Quelle beansprucht. Mit jeder weiteren solchen Anfrage summiert sich die Bandbreitennutzung, durch die sich wiederum die Download-Zeit verlängert.
 
 ![](/help/using/assets/enclosed-network-download.png)
