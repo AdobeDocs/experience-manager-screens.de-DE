@@ -4,11 +4,11 @@ solution-title: AEM Screens
 getting-started-title: Handbuch mit Best Practices für AEM Screens
 product: experience manager
 audience: end-user
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0a7aa7ea477cd1acbe8adfe31760be1bc4236c17
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '133'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -36,12 +36,12 @@ ht-degree: 78%
 + Implementierungshinweise {#deployment-brief}
    + [AEM-Plattformkonfigurationen](aem-platform-configurations.md)
    + [Projekttaxonomie und -implementierung](project-taxonomy-implementation.md)
-   + Netzwerk-Traffic-Management {#manage-network-traffic}
-      + [Verwalten des Netzwerkverkehrs](/help/using/managing-network-traffic.md)
-      + [Direct Internet Network (Wired/Wireless)](/help/using/direct-internet-network.md)
-      + [Direktes Mobilfunknetz](/help/using/mobile-network.md)
-      + [Mobiles Netzwerk mit mobilem DatenRouter und aktiven Netzwerkkomponenten](/help/using/mobile-network-router.md)
-      + [Engeschlossenes Unternehmensnetzwerk (Wired/Wireless)](/help/using/enclosed-corporate-network.md)
+   + Verwaltung des Netzwerk-Traffics {#manage-network-traffic}
+      + [Verwalten des Nertzwerk-Traffics](/help/using/managing-network-traffic.md)
+      + [Netzwerk für direkten Internet-Zugriff (kabelgebunden/kabellos) ](/help/using/direct-internet-network.md)
+      + [Netzwerk für Direktanbindung an Mobilfunknetze](/help/using/mobile-network.md)
+      + [Mobiles Netzwerk mit mobilem WLAN-Router und aktiven Netzwerkkomponenten](/help/using/mobile-network-router.md)
+      + [Geschlossenes Unternehmensnetzwerk (kabelgebunden/kabellos)](/help/using/enclosed-corporate-network.md)
    + [Gerätekonfigurationen](device-configurations.md)
    + [Tests und Qualitätssicherung](testing-quality-assurance.md)
    + [Interaktionsstrategie für Anbieter](vendor-engagement.md)
