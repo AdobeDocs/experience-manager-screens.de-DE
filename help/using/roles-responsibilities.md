@@ -3,9 +3,9 @@ title: Projektrollen und Zuständigkeiten in AEM Screens
 seo-title: Projektrollen und Zuständigkeiten in AEM Screens
 description: Auf dieser Seite werden die Projektrollen und Zuständigkeiten in AEM Screens beschrieben.
 seo-description: Auf dieser Seite werden die Projektrollen und Zuständigkeiten in AEM Screens beschrieben.
-translation-type: ht
-source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 100%
 
@@ -23,6 +23,7 @@ Im folgenden Diagramm werden die Rollen dargestellt, auf die wir im Handbuch imm
 ![](/help/assets/project-roles-revised.png)
 
 >[!NOTE]
+>
 > Viele der Rollen können interner oder externer Art sein, je nachdem, wie die einzelnen Projekte eingerichtet wurden.
 
 ## Definieren von Rollen {#roles}
@@ -83,7 +84,7 @@ Projektmanager verwalten in der Regel die gesamte Implementierung für Ihre AEM 
 
 >[!NOTE]
 >
-> Ausführliche Informationen zu den verschiedenen Rollen und Zuständigkeiten sowie zur Zielgruppe für ein Digital Signage-Projekt finden Sie unter **[Projektrollen und Zuständigkeiten](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
+>Ausführliche Informationen zu den verschiedenen Rollen und Zuständigkeiten sowie zur Zielgruppe für ein Digital Signage-Projekt finden Sie unter **[Projektrollen und Zuständigkeiten](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
 
 
 ## Projektschritte {#project-stages}
@@ -98,7 +99,7 @@ Zur Sicherstellung einer erfolgreichen Bereitstellung von Digital Signage ist es
 
 >[!NOTE]
 >
-> Auch wenn der Schwerpunkt dieses Handbuchs auf *Tag 1* und *Tag 2* liegt, müssen bei einem erfolgreichen Digital Signage-Projekt alle drei Schritte beachtet werden.
+>Auch wenn der Schwerpunkt dieses Handbuchs auf *Tag 1* und *Tag 2* liegt, müssen bei einem erfolgreichen Digital Signage-Projekt alle drei Schritte beachtet werden.
 In einem zusätzlichen Video zu **[Projektverwaltung und -implementierung](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)**erfahren Sie mehr über die Projektvorbereitung, die Projektinitiierung und den Projektfortschritt.
 
 ## RACI-Diagramm {#raci-chart}
@@ -107,7 +108,7 @@ Im Folgenden finden Sie ein Beispiel für ein RACI-Diagramm unter Verwendung der
 
 >[!NOTE]
 >
-> Dieses Diagramm muss nicht genau befolgt werden, sondern dient als Beispiel für häufige Aufgaben und Überlegungen bei AEM Screens-Projekten.
+>Dieses Diagramm muss nicht genau befolgt werden, sondern dient als Beispiel für häufige Aufgaben und Überlegungen bei AEM Screens-Projekten.
 
 ### RACI-Definitionen {#raci-definitions}
 
@@ -176,7 +177,7 @@ Die folgende Tabelle fasst die Überlegungen zu **Tag 1: Projektimplementierung
 
 >[!NOTE]
 >
-> Rollen ändern sich an Tag 2 (Post-Launch-Support).
+>Rollen ändern sich an Tag 2 (Post-Launch-Support).
 
 * **Autor**: Content Management + Strategie
 
