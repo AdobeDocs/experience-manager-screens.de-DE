@@ -3,8 +3,11 @@ title: Aktivierung auf Asset-Ebene
 seo-title: Aktivierung auf Asset-Ebene
 description: Auf dieser Seite erfahren Sie, wie Sie ein bestimmtes Asset in einem Kanal für einen geplanten Zeitraum in der lokalen Zeitzone des Players aktivieren können.
 seo-description: Auf dieser Seite erfahren Sie, wie Sie ein bestimmtes Asset in einem Kanal für einen geplanten Zeitraum in der lokalen Zeitzone des Players aktivieren können.
-translation-type: ht
-source-git-commit: af244dc18aa4eb526978ab9ced60e8b818f6201e
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '1452'
+ht-degree: 100%
 
 ---
 
@@ -103,6 +106,7 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 
 
 >[!NOTE]
+>
 >Sie können das _24-Stunden-Format_ (d. h. 14:00 Uhr) oder die *am/pm*-Notation (d. h. 2:00 pm) verwenden.
 
 ### Wochenaufteilung {#week-parting}
@@ -126,6 +130,7 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 | Mo.–Do. | Das Asset im Kanal wird von montags bis donnerstags wiedergegeben. |
 
 >[!NOTE]
+>
 >Sie können auch die _volle_ Bezeichnung (d. h. Montag,Mittwoch,Freitag) anstelle der _Abkürzung_ (d. h. Mo.,Mi.,Fr.) verwenden.
 
 
