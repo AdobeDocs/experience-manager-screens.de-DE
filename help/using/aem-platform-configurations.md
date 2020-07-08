@@ -3,8 +3,11 @@ title: AEM-Plattformkonfigurationen
 seo-title: AEM-Plattformkonfigurationen
 description: Auf dieser Seite werden AEM-Plattformkonfigurationen beschrieben.
 seo-description: Auf dieser Seite werden AEM-Plattformkonfigurationen beschrieben.
-translation-type: ht
-source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '522'
+ht-degree: 100%
 
 ---
 
@@ -26,11 +29,11 @@ Informationen zum Einrichten von author-publish finden Sie unter [Konfigurieren 
 
 >[!NOTE]
 >
-> Wenn es nur einen Autor und eine Veröffentlichung gibt, müssen Sie lediglich auf der Seite [Konfigurieren von Author und Publish in AEM Screens](https://helpx.adobe.com/experience-manager/6-5/screens/using/author-and-publish.html) die Schritte unter **Einrichten von Replikationsagenten für Author** ausführen.
+>Wenn es nur einen Autor und eine Veröffentlichung gibt, müssen Sie lediglich auf der Seite [Konfigurieren von Author und Publish in AEM Screens](https://helpx.adobe.com/experience-manager/6-5/screens/using/author-and-publish.html) die Schritte unter **Einrichten von Replikationsagenten für Author** ausführen.
 
 ## Dispatcherkonfigurationen {#dispatcher-configurations}
 
-Der Dispatcher ist ein Tool von Adobe Experience Manager für das Zwischenspeichern und/oder den Lastenausgleich. Mit dem Dispatcher von AEM können Sie außerdem Ihren AEM-Server vor Angriffen schützen. Daher können Sie die Sicherheit Ihrer AEM-Instanz verbessern, indem Sie den Dispatcher in Verbindung mit einem Webserver der Unternehmensklasse verwenden.
+Dispatcher ist ein Tool von Adobe Experience Manager für das Zwischenspeichern und/oder den Lastenausgleich. Mit dem Dispatcher von AEM können Sie außerdem Ihren AEM-Server vor Angriffen schützen. Daher können Sie die Sicherheit Ihrer AEM-Instanz verbessern, indem Sie den Dispatcher in Verbindung mit einem Webserver der Unternehmensklasse verwenden.
 
 Weitere Informationen dazu finden Sie unter **[Dispatcherkonfigurationen für AEM Screens](https://helpx.adobe.com/experience-manager/6-5/screens/using/dispatcher-configurations-aem-screens.html)**; hier finden Sie Richtlinien zum Konfigurieren des Dispatchers für ein AEM Screens-Projekt.
 
@@ -63,7 +66,8 @@ WCM-Komponenten) oder Toolkits von Drittanbietern (z. B. SAP Hybris).
 Installieren Sie dieselben Softwarepakete in Ihren lokalen Entwicklungsumgebungen. Weisen Sie Ihren Klienten an, dieselbe Konfiguration auf allen QA-, Staging- und Produktionsservern zu verwenden. Nicht übereinstimmende Serverkonfigurationen verursachen Probleme bei Bereitstellung und Tests.
 
 >[!NOTE]
-> Informationen zum Installieren des neuesten Feature Pack für AEM Screens finden Sie in den [Versionshinweisen](https://helpx.adobe.com/experience-manager/6-5/screens/user-guide.html?topic=/experience-manager/6-5/screens/morehelp/release-notes.ug.js).
+>
+>Informationen zum Installieren des neuesten Feature Pack für AEM Screens finden Sie in den [Versionshinweisen](https://helpx.adobe.com/experience-manager/6-5/screens/user-guide.html?topic=/experience-manager/6-5/screens/morehelp/release-notes.ug.js).
 
 ## Einrichten von ACLs {#setting-up-acls}
 
