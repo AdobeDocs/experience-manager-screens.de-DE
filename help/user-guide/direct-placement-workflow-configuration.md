@@ -3,8 +3,11 @@ title: 'Konfigurieren des Workflows für die direkte Platzierung '
 seo-title: Konfigurieren des Workflows für die direkte Platzierung
 description: Auf dieser Seite wird die Konfiguration des Workflows für die direkte Platzierung beschrieben.
 seo-description: Auf dieser Seite wird die Konfiguration des Workflows für die direkte Platzierung beschrieben.
-translation-type: ht
-source-git-commit: 19baf90409eab4c72fb38e992c272338b0098d89
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 100%
 
 ---
 
@@ -25,12 +28,14 @@ Die Konfiguration des Workflows für die direkte Platzierung ordnet einen Kanal 
 Alternativ kann der Inhaltsautor manuell auf **Offline-Inhalt aktualisieren** klicken.
 
 >[!NOTE]
-> Informationen zur Verwendung von Massen-Offline-Updates finden Sie unter [Inhaltsaktualisierung als Dienst](/help/user-guide/content-update-as-a-service.md).
+>
+>Informationen zur Verwendung von Massen-Offline-Updates finden Sie unter [Inhaltsaktualisierung als Dienst](/help/user-guide/content-update-as-a-service.md).
 
 ## Konfigurieren des Workflows für die direkte Platzierung {#configuring-workflow}
 
 >[!IMPORTANT]
-> Installieren Sie das [Demopaket](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip), bevor Sie mit der Konfiguration beginnen. Nachdem Sie das Paket installiert haben, sollten Sie es über Ihre AEM-Instanz > „Tools“ (Symbol) > **Workflow** > **Workflow-Modelle** anzeigen und darauf zugreifen können.
+>
+>Installieren Sie das [Demopaket](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip), bevor Sie mit der Konfiguration beginnen. Nachdem Sie das Paket installiert haben, sollten Sie es über Ihre AEM-Instanz > „Tools“ (Symbol) > **Workflow** > **Workflow-Modelle** anzeigen und darauf zugreifen können.
 
 So konfigurieren Sie den Workflow für die direkte Platzierung:
 
