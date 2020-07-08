@@ -10,8 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
-translation-type: ht
-source-git-commit: f3460fe4095907ad65e411fcb6433bfb1c2c2d3c
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '1400'
+ht-degree: 100%
 
 ---
 
@@ -69,6 +72,7 @@ Im folgenden Beispiel wird das Erstellen eines Sequenzkanals (*ChannelOne*) für
 >Sie können unterschiedliche Bereiche mithilfe der Vorlagenoptionen erstellen, etwa die oben genannten 1x2-, 2x2- oder 2:3-Splitscreen-Kanäle.
 
 >[!IMPORTANT]
+>
 > Nachdem Sie Inhalte erstellt und dem Kanal hinzugefügt haben, müssen Sie als Nächstes einen Ort und dann eine Anzeige erstellen. Außerdem müssen Sie diesen Kanal einer Anzeige zuweisen. Weitere Informationen finden Sie über die am Ende des Abschnitts genannten Ressourcen.
 
 ## Arbeiten mit Kanälen {#working-with-channels}
@@ -250,6 +254,7 @@ Die zugeordneten Anzeigen werden im Fenster **Zugewiesene Anzeigen** aufgelistet
 >
 >* [Erstellen und Verwalten von Standorten](managing-locations.md)
 >* [Erstellen und Verwalten von Anzeigen](managing-displays.md)
+
 >
 
 
