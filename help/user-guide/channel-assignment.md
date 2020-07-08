@@ -10,8 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
-translation-type: ht
-source-git-commit: fb95f79ea21d8b1234e13a9ef0d5aec74669c5a4
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '1227'
+ht-degree: 100%
 
 ---
 
@@ -181,7 +184,9 @@ Diese Beispiele veranschaulichen die Verwendung von Dayparting durch einen Laden
 | B | Weihnachten | 2 | 24. Dezember 2017–31. Dezember 2017 |
 
 >[!IMPORTANT]
+>
 > Weitere Informationen zu Dayparting finden Sie in den folgenden Abschnitten:
+>
 >* [Umgang mit sich wiederholenden Assets](https://docs.adobe.com/content/help/de-DE/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
 >* [Umgang mit sich wiederholenden Assets in einem Kanal](https://docs.adobe.com/content/help/de-DE/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
 
