@@ -4,9 +4,9 @@ seo-title: Anwenden von benutzerdefiniertem Branding und Styling für Textüberl
 description: Auf dieser Seite erfahren Sie, wie Sie benutzerdefiniertes Branding und Styling für Textüberlagerungen anwenden.
 seo-description: Auf dieser Seite erfahren Sie, wie Sie benutzerdefiniertes Branding und Styling für Textüberlagerungen anwenden.
 contentOwner: Jyotika Syal
-translation-type: ht
-source-git-commit: 04639198c5220e01af5945b8032c5fd86dc27499
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 100%
 
@@ -82,6 +82,7 @@ Gehen Sie wie folgt vor, um benutzerdefiniertes Branding und Styling für Textü
 1. Klicken Sie auf **Speichern und schließen**, um den Design-Pfad zu aktualisieren.
 
 >[!IMPORTANT]
+>
 > Sie können die vorhandenen Screens-Vorlagen überlagern, um Ihre eigenen Designs standardmäßig einzufügen oder eine eigene Vorlage zu erstellen. Weitere Informationen finden Sie in den folgenden Schritten.
 
 1. So überlagern Sie die vorhandenen Screens-Vorlagen, um Ihre eigenen Designs standardmäßig einzufügen:
