@@ -11,10 +11,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 0e426a61ef3230bbf75b88ae7235d4495a49759f
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
-source-wordcount: '1907'
-ht-degree: 99%
+source-wordcount: '1893'
+ht-degree: 100%
 
 ---
 
@@ -132,7 +132,7 @@ Bei jeder Veröffentlichungsinstanz:
 1. Aktualisieren Sie die Topologie-Connector-URLs: Fügen Sie URLs aller beteiligten Veröffentlichungsinstanzen hinzu, d. h.:
    * `https://localhost:4503/libs/sling/topology/connector`
    * `https://localhost:4504/libs/sling/topology/connector`
-1. **Whitelist-Liste** zum Thema &quot;Topology Connector&quot;: an IPs oder Subnetze anpassen, die Instanzen im Zusammenhang mit der teilweisen Veröffentlichung abdecken
+1. **Whitelist der Topologie-Connectoren**: Passen Sie diese entsprechend den IP-Adressen oder Subnetzen an, die die beteiligten Veröffentlichungsinstanzen abdecken.
 1. Aktivieren Sie **Auto-Stop Local-Loops**
 
 Die Konfiguration sollte für jede Veröffentlichungsinstanz identisch sein; „Auto-Stop Local-Loops“ verhindert eine Endlosschleife.
@@ -156,8 +156,9 @@ Bei jeder Veröffentlichungsinstanz:
 Da jede Veröffentlichungsinstanz standardmäßig über eindeutige Verschlüsselungsschlüssel verfügt, müssen Sie diesen Schritt für jede Veröffentlichungsinstanz ausführen und den eindeutigen Schlüssel für die nächste Konfiguration speichern.
 
 >[!NOTE]
->Das Passwort sollte mit geschweiften Klammern beginnen und enden.
->Beispiel:{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}
+>
+>Das Passwort sollte mit geschweiften Klammern beginnen und enden. Beispiel:
+>`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
 
 #### Schritt 4: Aktivieren des ActiveMQ Artemis-Clusters {#step-activate-activemq-artemis-cluster}
 
@@ -290,7 +291,7 @@ Gehen Sie wie folgt vor, um das Verhalten von Autoren- und Veröffentlichungsins
 1. Wiederholen Sie diese Schritte mit einer anderen Veröffentlichungsinstanz.
 
 
-#### Schritt 5: Verweisen des Geräts auf eine Veröffentlichungsinstanz im Admininistrator-Panel {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
+#### Schritt 5: Verweisen des Geräts auf eine Veröffentlichungsinstanz im Admininistrator-Bedienfeld {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
 1. Um die Administrator-Benutzeroberfläche vom Screens-Player aus zu öffnen, halten Sie die linke obere Ecke gedrückt, um das Menü „Admin“ auf Ihrem Touch-optimierten AEM Screens-Player zu öffnen. Alternativ können Sie eine Maus verwenden.
 1. Klicken Sie im seitlichen Bereich auf die Option **Konfiguration**.
