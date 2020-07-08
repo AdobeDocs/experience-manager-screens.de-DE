@@ -2,7 +2,7 @@
 title: Mobiles Netzwerk mit mobilem WLAN-Router und aktiven Netzwerkkomponenten
 description: Auf dieser Seite wird das mobile Netzwerk mit mobilem WLAN-Router und aktiven Netzwerkkomponenten beschrieben.
 translation-type: tm+mt
-source-git-commit: ec8af4e49694937a79ccbd78d51569f1031ca251
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 75%
@@ -81,10 +81,12 @@ Bei der Wahl des Datennetzwerks empfiehlt es sich, die folgenden Fragen abzuwäg
 * Wie häufig werden Inhalte voraussichtlich geändert und welche Größe weisen die entsprechenden Dateien im Schnitt auf?
 
 >[!NOTE]
+>
 >Die mindestens vom Datenabo abzudeckende Kapazität beträgt: 
 `Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
 
 >[!IMPORTANT]
+>
 >Für den erstmaligen Upload der Mediendateien, z. B. bei der Integration neuer Player, muss ein höheres Datenvolumen und eine längere Download-Zeit einkalkuliert und in den oben ausgeführten Schätzungen berücksichtigt werden. Ein 4G-Netz mit *guter* Abdeckung und unbegrenztem Datenvolumen sollte für die im Rahmen dieser Netzwerkkonfiguration gängigsten Installationen jedoch ausreichen.
 
 
@@ -104,6 +106,7 @@ Anwendungsfälle, in denen umfangreicher mit Sensoren oder anderen Auslösern in
 Nachfolgend finden Sie eine Aufschlüsselung der wichtigsten Daten zur Netzwerkverbindung und wie sich diese auf die zu erwartende Leistung und potenzielle Wartezeiten auswirken.
 
 >[!NOTE]
+>
 >Die Daten beziehen sich allesamt darauf, wie viel Bandbreite jedes einzelne mit dem Netzwerk verbundene Gerät beim Anfragen und Herunterladen einer Internet-Quelle beansprucht. Mit jeder weiteren solchen Anfrage summiert sich die Bandbreitennutzung, durch die sich wiederum die Download-Zeit verlängert.
 
 ![](/help/using/assets/mobile-router-download.png)
