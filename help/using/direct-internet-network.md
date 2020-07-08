@@ -2,7 +2,7 @@
 title: Direkter Internet-Zugriff
 description: Direkter Internet-Zugriff
 translation-type: tm+mt
-source-git-commit: da1fb07fef33bca771693f8bd4cc7bce256d808e
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 94%
@@ -68,6 +68,7 @@ Die Internet-Verbindung muss ausreichend Bandbreite zur Verfügung stellen, dami
 Was *ausreichend* bedeutet, hängt von der Anzahl der an AEM Screens angebundenen Bildschirme sowie vom Bandbreitenbedarf anderer verbundener Netzwerknutzer wie Smartphones, Tablets, Kassensystemen, Computern oder Gast-WLANs ab.
 
 >[!NOTE]
+>
 >Alle oben genannten Geräte greifen gleichzeitig auf die Internet-Verbindung zu. Dementsprechend nimmt die Bandbreite mit der Zahl an weiteren Nutzern oder Computern, die dem Netzwerk hinzugefügt werden, linear ab.
 
 ### LAN (Local Area Network) {#lan-connection}
@@ -78,6 +79,7 @@ LAN-Netzwerke unterstützen in der Regel Übertragungsraten von mindestens 100 
 Sofern eine WLAN-Lösung für die Internet-Anbindung von AEM Screens vorgesehen ist, sollten moderne WLAN-Standards verwendet werden. Empfohlen wird hierfür mindestens `IEEE 802.11g`. Dieser Standard unterstützt Verbindungen mit bis zu 54 MBit/s. Eine bessere Qualität liefern jedoch *neuere* Standards wie etwa `802.11h-n`.
 
 >[!NOTE]
+>
 >Ist ein WLAN-Repeater erforderlich, wird dringend empfohlen, einen Mesh-WLAN-Zugangspunkt zu verwenden, z. B. Google Nest Wifi oder vergleichbare Mesh-WLAN-Lösungen. Andere WLAN-Repeater-Technologien sind mit massiven Bandbreiteneinbußen verbunden.
 
 ## Herunterladen von Medien und Assets {#download}
@@ -91,6 +93,7 @@ Szenarien, in denen umfangreicher mit Sensoren oder Auslösern sowie dynamischen
 Nachfolgend sind die wichtigsten Daten bezüglich Netzwerkverbindungen aufgeführt.
 
 >[!NOTE]
+>
 >Diese Daten zeigen auf, wie viel Bandbreite jedes einzelne mit dem Netzwerk verbundene Gerät beim Anfragen und Herunterladen einer Internet-Quelle beansprucht. Mit jeder weiteren solchen Anfrage summiert sich die Bandbreitennutzung, durch die sich wiederum die Download-Zeit verlängert.
 
 ![](/help/assets/download-times-direct.png)
