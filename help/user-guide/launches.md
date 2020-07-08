@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
-translation-type: ht
-source-git-commit: b26af144f01b48ffaffb77d0218b5549a5b7d2f5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
 source-wordcount: '1617'
 ht-degree: 100%
 
@@ -56,6 +56,7 @@ Angenommen, der Server befindet sich in PST und die Geräte in EST. Die maximale
 Wann immer wir also einen Launch live planen, beginnt die Promotion um diesen Zeitversatz früher. In der obigen Gleichung nehmen die meisten Elemente nicht viel Zeit in Anspruch. Wenn wir den maximalen Zeitunterschied zwischen dem Server und einem Player kennen, können wir einen guten Schätzwert für diesen Versatz verwenden.
 
 >[!NOTE]
+>
 >Standardmäßig ist die Übergangsphase für Screens Launch auf 24 Stunden festgelegt. Das bedeutet, dass die Promotion mit diesem Versatz beginnt, wenn wir für einen Launch der Ressourcen unter */content/screens* ein Live-Datum festlegen.
 
 ### Aktualisieren der standardmäßigen Übergangsphase {#updating-out-of-the-box-grace-period}
