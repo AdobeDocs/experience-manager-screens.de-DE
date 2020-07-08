@@ -3,9 +3,9 @@ title: Verwenden der Befehlssynchronisierung
 seo-title: Verwenden der Befehlssynchronisierung
 description: Auf dieser Seite erfahren Sie, wie Sie die Befehlssynchronisierung verwenden.
 seo-description: Auf dieser Seite erfahren Sie, wie Sie die Befehlssynchronisierung verwenden.
-translation-type: ht
-source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 100%
 
@@ -17,6 +17,7 @@ ht-degree: 100%
 Auf der folgenden Seite wird die Verwendung der Befehlssynchronisierung beschrieben. Mithilfe der Befehlssynchronisierung kann die Wiedergabe über verschiedene Player hinweg synchronisiert werden. Die Player können unterschiedliche Inhalte wiedergeben, aber jedes Asset muss dieselbe Dauer haben.
 
 >[!IMPORTANT]
+>
 >Diese Funktion unterstützt keine eingebetteten Sequenzen, dynamischen eingebetteten Sequenzen, Anwendungskanäle oder Übergänge.
 
 ## Überblick {#overview}
@@ -32,6 +33,7 @@ Der *Master* sendet einen Befehl an alle registrierten Clients, wenn er im Begri
 Im folgenden Abschnitt wird beschrieben, wie Sie die Befehlssynchronisierung in einem AEM Screens-Projekt verwenden können.
 
 >[!NOTE]
+>
 >Für die synchronisierte Wiedergabe ist es erforderlich, dass alle Hardwaregeräte über dieselben Spezifikationen und vorzugsweise über dasselbe Betriebssystem verfügen. Eine Synchronisierung zwischen verschiedenen Hardware- und Betriebssystemen wird nicht empfohlen.
 
 ### Einrichten des Projekts {#setting-up}
@@ -101,7 +103,8 @@ Im Bedienfeld **GERÄTE** werden die beiden Geräte (Chrome- und Windows-Player)
    ![image1](assets/command-sync/command-sync12-1.png)
 
 >[!NOTE]
-> Sie können mehrere Geräte als Master einrichten.
+>
+>Sie können mehrere Geräte als Master einrichten.
 
 ### Synchronisieren mit dem Master {#sync-up-master}
 
@@ -124,6 +127,7 @@ Wählen Sie dazu das andere Gerät (in diesem Fall den Windows-Player) im Bedien
 Nachdem Sie ein oder mehrere Geräte mit einem Master synchronisiert haben, können Sie die Synchronisierung mit diesem Gerät aufheben.
 
 >[!NOTE]
+>
 >Wenn Sie die Synchronisierung eines Master-Geräts aufheben, wird auch die Verknüpfung aller mit diesem Master-Gerät verbundenen Client-Geräte aufgehoben.
 
 Gehen Sie wie folgt vor, um die Synchronisierung mit dem Master-Gerät aufzuheben:
