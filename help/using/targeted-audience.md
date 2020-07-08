@@ -3,8 +3,11 @@ title: 'Zielgruppe '
 seo-title: Zielgruppe für AEM Screens
 description: Auf dieser Seite wird die Zielgruppe für das Handbuch mit Best Practices für AEM Screens beschrieben.
 seo-description: Auf dieser Seite wird die Zielgruppe für das Handbuch mit Best Practices für AEM Screens beschrieben.
-translation-type: ht
-source-git-commit: 55999ae9ead7ab8986f4dcb69b0bbaa46933c9ec
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '520'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +23,8 @@ Im folgenden Diagramm werden die Rollen dargestellt, auf die wir im Handbuch imm
 ![](/help/assets/roles-used.png)
 
 >[!NOTE]
-> Viele der Rollen können interner oder externer Art sein, je nachdem, wie die einzelnen Projekte eingerichtet wurden.
+>
+>Viele der Rollen können interner oder externer Art sein, je nachdem, wie die einzelnen Projekte eingerichtet wurden.
 
 ## Definieren von Rollen {#roles}
 
@@ -66,4 +70,4 @@ Projektmanager verwalten in der Regel die gesamte Implementierung für Ihre AEM 
 
 >[!NOTE]
 >
-> Ausführliche Informationen zu den verschiedenen Rollen und Zuständigkeiten sowie zur Zielgruppe für ein Digital Signage-Projekt finden Sie unter **[Projektrollen und Zuständigkeiten](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
+>Ausführliche Informationen zu den verschiedenen Rollen und Zuständigkeiten sowie zur Zielgruppe für ein Digital Signage-Projekt finden Sie unter **[Projektrollen und Zuständigkeiten](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
