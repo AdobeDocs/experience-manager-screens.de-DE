@@ -10,8 +10,11 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
-translation-type: ht
-source-git-commit: d6006c553b53dc7dfb52a03cfeb1a50e8e8de792
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '1809'
+ht-degree: 100%
 
 ---
 
@@ -70,6 +73,7 @@ Die folgende Abbildung zeigt das Projekt **Channel Level Activation** mit den Ka
    >
    >
 * [Verwalten eines Kanals](managing-channels.md)
+
 >
 
 
@@ -99,6 +103,7 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
    1. Navigieren Sie zu **Channel Level Activation** > **Standorte** > **Region**.
    1. Wählen Sie **Region** aus und klicken Sie in der Aktionsleiste auf **+ Erstellen**.
    1. Wählen Sie im Assistenten die Option **Anzeigen** aus und erstellen Sie eine Anzeige mit dem Titel **RegionDisplay.**
+
    ![screen_shot_2018-11-27at112216am](assets/screen_shot_2018-11-27at112216am.png)
 
 1. **Zuweisen anzuzeigender Kanäle**
@@ -113,6 +118,7 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
    1. Wählen Sie als **Priorität** den Wert **1** aus.
    1. Wählen Sie unter **Unterstützte Ereignisse** die Optionen **Erster Ladevorgang** und **Bildschirm bei Untätigkeit** aus.
    1. Klicken Sie auf **Speichern**.
+
    ![screen_shot_2018-11-27at124626pm](assets/screen_shot_2018-11-27at124626pm.png)
 
    >[!NOTE]
@@ -130,6 +136,7 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
    1. Wählen Sie unter **Unterstützte Ereignisse** die Optionen **Erster Ladevorgang**, **Bildschirm bei Untätigkeit** und **Timer** aus, wie in der Abbildung unten gezeigt.
    1. Wählen Sie als Datum für **aktiv ab** den 27. November 2018, 23:59 Uhr und für **aktiv bis** den 28. November 2018, 00:05 Uhr aus.
    1. Klicken Sie auf **Speichern**.
+
    >[!CAUTION]
    Sie müssen die Priorität für den Kanal **TargetedSinglePlay** höher festlegen als für den Kanal **MainAdSegment**.
 
@@ -184,7 +191,8 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 | am 1. Januar nach 14:00 Uhr auch am 2. Januar, auch am 3. Januar vor 3:00 Uhr | Das Asset im Kanal wird ab dem 1. Januar um 14:00 Uhr und weiterhin den ganzen Tag am 2. Januar bis um 3:00 Uhr am 3. Januar wiedergegeben. |
 | am 1./2. Januar nach 14:00 Uhr auch am 2./3. Januar vor 3:00 Uhr | Das Asset im Kanal wird ab dem 1. Januar um 14:00 Uhr bis zum 2. Januar um 3:00 Uhr wiedergegeben. Dann wird es erneut am 2. Januar um 14:00 Uhr bis zum 2. Januar um 3:00 Uhr wiedergegeben. |
 
->[!NOTE]Sie können das _24-Stunden-Format_ (d. h. 14:00 Uhr) oder die *am/pm*-Notation (d. h. 2:00 pm) verwenden.
+>[!NOTE]
+Sie können das _24-Stunden-Format_ (d. h. 14:00 Uhr) oder die *am/pm*-Notation (d. h. 2:00 pm) verwenden.
 
 ### Wochenaufteilung {#week-parting}
 
@@ -209,7 +217,8 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 | nach 12:15 Uhr und vor 12:45 Uhr | Das Asset im Kanal wird täglich 30 Minuten lang nach 12:15 Uhr wiedergegeben. |
 | vor 12:15 Uhr auch nach 12:45 Uhr | Der Kanal wird täglich vor 12:15 Uhr und danach auch nach 12:45 Uhr wiedergegeben |
 
->[!NOTE]Sie können das _24-Stunden-Format_ (d. h. 14:00 Uhr) oder die *am/pm*-Notation (d. h. 2:00 pm) verwenden.
+>[!NOTE]
+Sie können das _24-Stunden-Format_ (d. h. 14:00 Uhr) oder die *am/pm*-Notation (d. h. 2:00 pm) verwenden.
 
 
 ### Monatsaufteilung {#month-parting}
