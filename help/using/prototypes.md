@@ -3,8 +3,11 @@ title: Prototypen
 seo-title: Prototypen
 description: Auf dieser Seite werden Prototypen für ein AEM Screens-Projekt beschrieben.
 seo-description: Auf dieser Seite werden Prototypen für ein AEM Screens-Projekt beschrieben.
-translation-type: ht
-source-git-commit: 750ee1552065932e65c6709037a6a3feaa4e342c
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '282'
+ht-degree: 100%
 
 ---
 
@@ -30,4 +33,5 @@ Es wurden verschiedene Nutzungsszenarien erarbeitet, die als Referenz oder Ausga
 >[!NOTE]
 >
 > Überprüfen Sie in der UX-Designphase, ob das UI-Design durch die extrahierten Daten ausreichend unterstützt wird.
+>
 > So ist es beispielsweise wahrscheinlich, dass nicht alle Entscheidungsträger mit der Datenstruktur ihrer Produktdatenbank vertraut sind. Sie wählen möglicherweise Deskriptoren für ihre UX-Lösung aus, die in der Datenschicht keine primären Felder sind. Eine frühzeitige Erkennung von Stellen, an denen Daten möglicherweise anders gehandhabt werden müssen, und eine Übermittlung dieser Informationen an den Kunden verhindern spätere Missverständnisse. Wenn der Kunde beschließt, die UI-Beschriftung nach Beginn der Entwicklung zu erweitern oder zu ändern, ist zusätzliche Arbeit erforderlich, um die Änderungen zu berücksichtigen.
