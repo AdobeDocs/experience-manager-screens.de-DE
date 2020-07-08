@@ -1,9 +1,9 @@
 ---
 title: Netzwerk für Direktanbindung an Mobilfunknetze
 description: Auf dieser Seite wird die Konfiguration von Netzwerken für die Direktanbindung an Mobilfunknetze beschrieben.
-translation-type: ht
-source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 100%
 
@@ -69,9 +69,11 @@ Die mindestens vom Daten-Abo abzudeckende Kapazität beträgt:
 
 
 >[!IMPORTANT]
+>
 >Für den erstmaligen Upload der Mediendateien, z. B. bei der Integration neuer Player, muss ein höheres Datenvolumen und eine längere Download-Zeit einkalkuliert und in den oben ausgeführten Schätzungen berücksichtigt werden. Ein 4G-Netz mit *guter* Abdeckung und *unbegrenztem* Datenvolumen sollte für die im Rahmen dieser Netzwerkkonfiguration gängigsten Installationen jedoch ausreichen.
 
 >[!NOTE]
+>
 >Ein Abonnement mit Datenübertragung mindestens nach 3G-Standard und guter Netzabdeckung sollte für einen AEM Screens-Player eine akzeptable Download-Leistung liefern. Bei nur mäßiger Abdeckung an einem bestimmten Standort sollte in Betracht gezogen werden, die gesamte Netzwerkkonfiguration auf ein [mobiles Netzwerk mit mobilem WLAN-Router und aktiven Netzwerkkomponenten ](/help/using/mobile-network-router.md) umzustellen.
 
 
@@ -92,6 +94,7 @@ Szenarien, in denen umfangreicher mit Sensoren oder Auslösern sowie dynamischen
 Nachfolgend sind die wichtigsten Daten bezüglich Netzwerkverbindungen aufgeführt.
 
 >[!NOTE]
+>
 >Die Daten beziehen sich allesamt darauf, wie viel Bandbreite jedes einzelne mit dem Netzwerk verbundene Gerät beim Anfragen und Herunterladen einer Internet-Quelle beansprucht. Mit jeder weiteren solchen Anfrage summiert sich die Bandbreitennutzung, durch die sich wiederum die Download-Zeit verlängert.
 
 ![](/help/using/assets/download-times-mobile.png)
