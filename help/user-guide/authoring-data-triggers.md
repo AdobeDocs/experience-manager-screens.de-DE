@@ -2,8 +2,11 @@
 title: Inhaltserstellung mit Datenauslösern
 seo-title: Inhaltserstellung mit Datenauslösern
 description: Auf dieser Seite erfahren Sie, wie Sie mit Datenauslösern Inhalte erstellen.
-translation-type: ht
-source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '375'
+ht-degree: 100%
 
 ---
 
@@ -13,14 +16,16 @@ source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
 In diesem Abschnitt wird erläutert, wie Sie Targeting in Ihren Kanälen aktivieren.
 
 >[!IMPORTANT]
-> Die Mindestversion, die Datenauslöser in einem AEM Screens-Kanal unterstützt, ist AEM 6.5.3 Feature Pack 3.
+>
+>Die Mindestversion, die Datenauslöser in einem AEM Screens-Kanal unterstützt, ist AEM 6.5.3 Feature Pack 3.
 
 ## Voraussetzungen {#prereqs}
 
 Bevor Sie die folgenden Schritte ausführen, um Targeting in Kanälen zu aktivieren, müssen Sie die [Schlüsselbegriffe für das Konfigurieren in AEM Screens](configuring-context-hub.md) kennen, die zum Verständnis von ContextHub und Targeting in AEM Screens erforderlich sind.
 
 >[!IMPORTANT]
-> Sie sollten ContextHub-Konfigurationen verstehen und einzurichten können, bevor Sie das Targeting in einem AEM Screens-Kanal aktivieren.
+>
+>Sie sollten ContextHub-Konfigurationen verstehen und einzurichten können, bevor Sie das Targeting in einem AEM Screens-Kanal aktivieren.
 
 Weitere Informationen finden Sie unter den folgenden Links:
 
@@ -31,7 +36,7 @@ Nachdem Sie die vorherigen Schritte durchgeführt haben, können Sie Targeting i
 
 ## Überblick über die Inhaltserstellung mit Datenauslösern {#author-targeting}
 
->[!VIDEO](https://video.tv.adobe.com/v/31921?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/31921)
 
 ## Aktivieren von Targeting in einem AEM Screens-Kanal {#enabling-targeting}
 
