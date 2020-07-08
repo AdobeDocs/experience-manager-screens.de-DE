@@ -4,8 +4,11 @@ seo-title: Bildwiedergabedauer auf Projektebene
 description: 'Mit dieser Funktion können Sie die Dauer der Bildwiedergabe auf der Projektebene festlegen. '
 seo-description: 'Mit dieser Funktion können Sie die Dauer der Bildwiedergabe auf der Projektebene festlegen. '
 contentOwner: jsyal
-translation-type: ht
-source-git-commit: ae1f7cab650f811ae03f0a2f3dfa49ec855997ee
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '351'
+ht-degree: 100%
 
 ---
 
@@ -40,6 +43,7 @@ Im folgenden Abschnitt wird beschrieben, wie Sie die Wiedergabedauer von Inhalte
 
 
 >[!NOTE]
+>
 >Wenn Sie die Wiedergabedauer auf Bild- oder Kanalebene aktualisieren möchten, lesen Sie die Informationen unter [Bildwiedergabedauer auf Kanalebene](channel-level-image-playback.md).
 
 Gehen Sie wie folgt vor, um zu erfahren, wie Sie die Wiedergabedauer auf Projektebene aktualisieren:
