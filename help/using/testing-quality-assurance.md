@@ -3,8 +3,11 @@ title: Tests und Qualitätssicherung
 seo-title: Tests und Qualitätssicherung für AEM Screens
 description: Auf dieser Seite werden die Best Practices für Tests und die Qualitätssicherung von AEM Screens beschrieben.
 seo-description: Auf dieser Seite werden die Best Practices für Tests und die Qualitätssicherung von AEM Screens beschrieben.
-translation-type: ht
-source-git-commit: d5eb9fadffcc41ede9b1f9399c5edbeac3363954
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '361'
+ht-degree: 93%
 
 ---
 
@@ -21,7 +24,8 @@ In dem Schritt sollten vollständige Prüfsysteme eingerichtet und gründlich ge
 Es sollte eine Checkliste erstellt werden, in der alle zuvor definierten KPIs aufgeführt und anhand der entsprechenden Lieferziele gemessen werden.
 
 >[!NOTE]
-> Dieser Schritt sollte auch zur Erstellung eines Installations- und Benutzerhandbuchs genutzt werden, das später mit dem Gerät ausgeliefert und für künftige Referenzzwecke vor Ort aufbewahrt werden kann.
+>
+>Dieser Schritt sollte auch zur Erstellung eines Installations- und Benutzerhandbuchs genutzt werden, das später mit dem Gerät ausgeliefert und für künftige Referenzzwecke vor Ort aufbewahrt werden kann.
 
 Folgende Elemente sollten berücksichtigt werden:
 
@@ -62,6 +66,7 @@ Mit diesem Modul können Sie:
 Ausführliche Informationen zur ***Gerätesteuerung*** finden Sie im Abschnitt [Problembehandlung in der Gerätesteuerung](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) des **AEM Screens-Benutzerhandbuchs**.
 
 >[!CAUTION]
+>
 > Verwenden Sie die Gerätesteuerung nicht für Folgendes:
 >
 > 1. Neue Versionen der Player-Anwendung installieren
@@ -72,9 +77,10 @@ Ausführliche Informationen zur ***Gerätesteuerung*** finden Sie im Abschnitt [
 
 
 >[!NOTE]
+>
 > Adobe empfiehlt, für alle Bereitstellungen dedizierte Drittanbieter-Geräteverwaltungsplattformen zu verwenden.
 
-Die gewählte Plattform hängt von einer Reihe von Faktoren ab, darunter dem ***Zielbetriebssystem***, den ***Projektanforderungen*** und der ***Anzahl der Endgeräte***.
+The specific platform chosen depends on a number of factors including the ***target operating system***, ***project requirements*** and ***number of end points***.
 
 Beispiele:
 
