@@ -4,8 +4,11 @@ seo-title: Übernahmekanal für die einmalige Verwendung
 description: In diesem Nutzungsszenario erfahren Sie, wie Sie einen Übernahmekanal für die einmalige Verwendung erstellen.
 seo-description: In diesem Nutzungsszenario erfahren Sie, wie Sie einen Übernahmekanal für die einmalige Verwendung erstellen.
 contentOwner: jsyal
-translation-type: ht
-source-git-commit: d64eb2ca3efc4d15be119c9b8efd9ff2b8f8daf4
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '629'
+ht-degree: 100%
 
 ---
 
@@ -86,6 +89,7 @@ Gehen Sie wie folgt vor, um ein Projekt einzurichten:
 
    * **Kanalpfad**: Wählen Sie den Pfad zum Kanal „TakeOver“ aus
    * **Priorität**: Legen Sie die Priorität dieses Kanals höher als die von **MainAdChannel** fest. Die in diesem Beispiel eingestellte Priorität ist beispielsweise „8“.
+
       >[!NOTE]
       >Die Priorität kann ein beliebiger Wert sein, der höher als die Priorität des normalerweise wiedergegebenen Kanals ist.
    * **Unterstützte Ereignisse**: Wählen Sie **Bildschirm bei Untätigkeit** und **Timer** aus.
@@ -102,4 +106,5 @@ Der in diesem Beispiel erwähnte Text im **Zeitplan** ist *am 31. Dezember nach 
       ![Asset](assets/single-takeover9.png)
 
 >[!NOTE]
+>
 >Es empfiehlt sich, den Übernahmekanal für die einmalige Verwendung nach der Wiedergabe zu löschen.
