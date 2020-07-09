@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '1033'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -14,10 +14,10 @@ ht-degree: 75%
 
 AEM Screens-Player können auch über Mobilfunknetze angebunden werden, sofern die Datenübertragung mindestens nach 3G-Standard erfolgt.
 
-Innerhalb von AEM Screens werden die erforderlichen Inhalte physisch auf den Player-Controller oder Computer heruntergeladen und dem zugrunde liegenden Betriebssystem entsprechend ordnungsgemäß gespeichert. Die angegebene Bandbreite wirkt sich daher nur auf die anfänglichen Downloadzeiten sowie auf Inhaltsaktualisierungen aus und beeinflusst nicht die Leistung der regelmäßigen Wiedergabe von Displays.
+Innerhalb von AEM Screens werden die erforderlichen Inhalte physisch auf den Player-Controller oder Computer heruntergeladen und dem zugrunde liegenden Betriebssystem entsprechend ordnungsgemäß gespeichert. Die angegebene Bandbreite wirkt sich daher nur auf die anfänglichen Download-Zeiten sowie auf Inhaltsaktualisierungen aus und beeinflusst nicht die Leistung der regelmäßigen Wiedergabe auf Anzeigen.
 
-Der Vorteil dieses Setups besteht darin, dass der Mobile Router an einem optimierten Ort platziert werden kann, um eine bestmögliche Netzabdeckung zu gewährleisten. Das ist in der Regel in einer erhöhten und offenen Position mit so wenig umliegenden Beton- oder Metallkonstruktionen wie möglich.
-Dieses Setup ermöglicht AEM-Bildschirmbenutzern Flexibilität, da keine Festnetzverbindung für die Verbindung mit AEM Screens erforderlich ist. Dies ist besonders interessant für kurzlebige oder mobile Setups.
+Der Vorteil dieser Konfiguration besteht darin, dass der mobile WLAN-Router flexibel an einem Ort platziert werden kann, an dem eine optimale Netzabdeckung gewährleistet ist. In der Regel ist dies an höher gelegenen, offenen Stellen der Fall, die so wenig wie möglich von Beton- oder Metallkonstruktionen umgeben sind.
+Mit dieser Konfiguration sind Anwender der AEM Screens-Bildschirme flexibler, da für die Anbindung an AEM Screens kein Festnetz benötigt wird. Dies ist besonders interessant für kurzlebige oder mobile Setups.
 
 Die Konfiguration für das mobile Netzwerk mit mobilem WLAN-Router und aktiven Netzwerkkomponenten umfasst für jeden AEM Screens-Controller einen Internet-Zugang, der mittels Direktzugriff auf das Internet über eine eigene 3G-, 4G- oder 5G- Datenverbindung umgesetzt wird (wie im nachfolgenden Diagramm dargestellt).
 
@@ -27,10 +27,10 @@ Die Konfiguration für das mobile Netzwerk mit mobilem WLAN-Router und aktiven N
 
 Gehen Sie für eine in dieser Konfiguration ordnungsgemäße Anbindung der AEM Screens-Player wie folgt vor:
 
-Die Konfiguration weist jedem AEM Screens-Controller einen Internetzugang über einen eigenen 3/4/5G-Datenlink zu.
+Die Konfiguration weist jedem AEM Screens-Controller einen Internet-Zugang über eine eigene 3G-, 4G- oder 5G-Datenverbindung zu.
 
 1. Stellen Sie sicher, dass der mobile WLAN-Router entsprechend den Angaben im Betriebssystem ordnungsgemäß mit dem Mobilfunknetz verbunden ist und alle AEM Screens-Player an das Router-Netzwerk angebunden sind.
-1. Testen Sie die Internetverbindung, indem Sie im Systembrowser eine URL aufrufen.
+1. Testen Sie die Internet-Verbindung, indem Sie in Ihrem System-Browser eine URL aufrufen.
    >[!NOTE]
    >Wenn eine Fehlermeldung angezeigt wird, überprüfen Sie die Netzwerkeinstellungen. Grundsätzlich bestehen für eine ordnungsgemäße Netzwerkverbindung zwei Optionen:
    >* DHCP
@@ -60,11 +60,11 @@ Die Netzwerkkonfiguration kann logisch in zwei Blöcke unterteilt werden:
 
 ### Mobile Internet-Verbindung {#mobile-internet-connection}
 
-Die Leistung der Internetverbindung muss neben der bereits beschriebenen Netzwerkerreichbarkeit ausreichend Bandbreite bereitstellen, um AEM Screens-Content-Downloads reibungslos durchführen zu können.
+Die Internet-Verbindung muss ausreichend Bandbreite zur Verfügung stellen, damit neben der bereits beschriebenen Erreichbarkeit des Netzwerks auch reibungslose Downloads von AEM Screens-Inhalten gewährleistet werden können.
 
-*Ausreichend* hängt von der Anzahl der angeschlossenen AEM-Bildschirmgeräte und von der Nutzung anderer Verbraucher im Netzwerk ab, z. B. Smartphones, Tablets, Kassierer, Computer oder WLAN-Gastnetzwerke.
-Denken Sie daran, dass alle Geräte einen gleichzeitigen Zugriff auf die Internetverbindung haben und dass die Bandbreite in der Regel linear sinkt, während dem Netzwerk mehr Benutzer/Computer hinzugefügt werden.
-Neben der spezifischen theoretischen Netzwerkverbindung muss sichergestellt werden, dass die Reichweite des MobilRouters mindestens &quot;gut&quot; ist. Ferner muss das im Rahmen des zugrunde liegenden Abonnements gebuchte monatliche Datenvolumen eine für alle an das Netzwerk angebundenen Clients ausreichende Kapazität und Bandbreite zur Verfügung stellen.
+Was *ausreichend* bedeutet, hängt von der Anzahl der an AEM Screens angebundenen Geräte sowie vom Bandbreitenbedarf anderer verbundener Netzwerknutzer wie Smartphones, Tablets, Kassensystemen, Computern oder Gast-WLANs ab.
+Beachten Sie, dass alle Geräte gleichzeitig auf die Internet-Verbindung zugreifen und dass die Bandbreite mit der Zahl an weiteren Nutzern/Computern, die dem Netzwerk hinzugefügt werden, in der Regel linear abnimmt.
+Neben einer über die jeweilige Netzwerkverbindung theoretisch ausreichenden Bandbreite muss außerdem eine mindestens „gute“ Netzabdeckung des mobilen WLAN-Routers sichergestellt sein. Ferner muss das im Rahmen des zugrunde liegenden Abonnements gebuchte monatliche Datenvolumen eine für alle an das Netzwerk angebundenen Clients ausreichende Kapazität und Bandbreite zur Verfügung stellen.
 
 Nachfolgend sind die Datennetzwerke einschließlich der ihnen zugehörigen Standardbandbreite aufgeführt:
 
@@ -92,7 +92,7 @@ Bei der Wahl des Datennetzwerks empfiehlt es sich, die folgenden Fragen abzuwäg
 
 ### LAN (Local Area Network) {#lan-connection}
 
-Die Leistung des LAN muss neben der bereits beschriebenen Netzwerkerreichbarkeit ausreichend Bandbreite bereitstellen, um AEM Screens-Downloads reibungslos zu bedienen. LAN-Netzwerke unterstützen in der Regel Übertragungsraten von mindestens 100 MBit/s und sollten daher auch bei der Anbindung einer Vielzahl von Geräten an das System eine für eine angemessene Leistung ausreichende Bandbreite liefern. Sind aktive Netzwerkkomponenten anderer Art im Einsatz, müssen diese allesamt die Anforderungen an die Netzwerkbandbreite erfüllen.
+Die LAN-Verbindung muss ausreichend Bandbreite zur Verfügung stellen, damit neben der bereits beschriebenen Erreichbarkeit des Netzwerks auch reibungslose Downloads von AEM Screens-Inhalten gewährleistet werden können. LAN-Netzwerke unterstützen in der Regel Übertragungsraten von mindestens 100 MBit/s und sollten daher auch bei der Anbindung einer Vielzahl von Geräten an das System eine für eine angemessene Leistung ausreichende Bandbreite liefern. Sind aktive Netzwerkkomponenten anderer Art im Einsatz, müssen diese allesamt die Anforderungen an die Netzwerkbandbreite erfüllen.
 
 Beispielsweise sollten entsprechende Netzwerkkomponenten mindestens auf den 100 MBit/s-Standard ausgelegt sein und mit den Bandbreitenspezifikationen des Internet-Zugangs/-Routers übereinstimmen.
 
