@@ -1,18 +1,18 @@
 ---
 title: Geschlossenes Unternehmensnetzwerk
-description: 'Geschlossenes Unternehmensnetzwerk  '
+description: 'Geschlossenes Unternehmensnetzwerk   '
 translation-type: tm+mt
 source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '709'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 
-# Geschlossenes Unternehmensnetzwerk   (kabelgebunden/kabellos) {#enclosed-corporate-networks}
+# Geschlossenes Unternehmensnetzwerk    (kabelgebunden/kabellos) {#enclosed-corporate-networks}
 
-Die Konfiguration für geschlossene Unternehmensnetzwerke ist in kleineren, mittleren und großen Unternehmen gleichermaßen anwendbar. Es kann theoretisch komplexer sein, und das logische Setup ist in der folgenden Abbildung dargestellt.
+Die Konfiguration für geschlossene Unternehmensnetzwerke ist in kleineren, mittleren und großen Unternehmen gleichermaßen anwendbar. Aus logischer Sicht ist diese Konfiguration so aufgebaut, wie in der nachfolgenden Abbildung dargestellt. Theoretisch kann sie aber auch komplexer ausfallen.
 
 ![](/help/using/assets/enclosed-network-1.png)
 
@@ -22,7 +22,7 @@ Die Konfiguration für geschlossene Unternehmensnetzwerke ist in kleineren, mitt
 Gehen Sie für eine in dieser Konfiguration ordnungsgemäße Anbindung der AEM Screens-Player wie folgt vor:
 
 1. Stellen Sie sicher, dass alle AEM Screens-Player mit dem Router-Netzwerk verbunden sind.
-1. Testen Sie die Internetverbindung, indem Sie eine URL in Ihrem Systembrowser aufrufen.
+1. Testen Sie die Internet-Verbindung, indem Sie in Ihrem System-Browser eine URL aufrufen.
 
    >[!NOTE]
    >Wenn eine Fehlermeldung angezeigt wird, überprüfen Sie die Netzwerkeinstellungen. Grundsätzlich bestehen für eine ordnungsgemäße Netzwerkverbindung zwei Optionen:
@@ -52,7 +52,7 @@ Die Konfiguration für geschlossene Unternehmensnetzwerke kann logisch in zwei B
 
 ### WAN (Wide Area Network) {#wan-connection}
 
-Die Leistung der Internetverbindung muss neben der Reichweite des Netzwerks auch eine ausreichende Bandbreite bereitstellen, um die Inhaltsaktualisierungen von AEM Screens reibungslos zu bedienen.
+Die Internet-Verbindung muss ausreichend Bandbreite zur Verfügung stellen, damit neben der Erreichbarkeit des Netzwerks auch reibungslose Aktualisierungen von AEM Screens-Inhalten gewährleistet werden können.
 Was *ausreichend* bedeutet, hängt von der Anzahl der an AEM Screens angebundenen Bildschirme sowie vom Bandbreitenbedarf anderer verbundener Netzwerknutzer wie Smartphones, Tablets, Kassensystemen, Computern oder Gast-WLANs ab.
 
 >[!NOTE]
@@ -61,7 +61,7 @@ Was *ausreichend* bedeutet, hängt von der Anzahl der an AEM Screens angebundene
 
 ### LAN (Local Area Network) {#lan-connection}
 
-Die Leistung des Local Area Network (LAN) muss neben der Netzwerkerreichbarkeit auch eine ausreichende Bandbreite bereitstellen, um die Inhaltsaktualisierungen von AEM Screens reibungslos zu verwalten.
+Die LAN-Verbindung muss ausreichend Bandbreite zur Verfügung stellen, damit neben der Erreichbarkeit des Netzwerks auch eine reibungslose Aktualisierung von AEM Screens-Inhalten gewährleistet werden kann.
 
 In Unternehmen eingesetzte LAN-Netzwerke unterstützen in der Regel Übertragungsraten von mindestens 1000 MBit/s, was auch bei der Anbindung einer Vielzahl von Geräten an das System eine für eine angemessene Leistung ausreichende Bandbreite liefert. Sind aktive Netzwerkkomponenten anderer Art im Einsatz, müssen diese allesamt die Anforderungen an die Netzwerkbandbreite erfüllen.
 
