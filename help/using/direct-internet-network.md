@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '697'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -31,8 +31,8 @@ Ferner beinhaltet die Konfiguration einen von einem Internet-Dienstanbieter (Int
 
 Gehen Sie für eine in dieser Konfiguration ordnungsgemäße Anbindung der AEM Screens-Player wie folgt vor:
 
-1. Vergewissern Sie sich, dass alle AEM-Screen-Player mit dem Router-Netzwerk verbunden sind.
-1. Testen Sie die Internetverbindung, indem Sie eine URL in Ihrem Systembrowser aufrufen.
+1. Stellen Sie sicher, dass alle AEM Screens-Player mit dem Netzwerk des Routers verbunden sind.
+1. Testen Sie die Internet-Verbindung, indem Sie in Ihrem System-Browser eine URL aufrufen.
 
    >[!NOTE]
    >Wenn eine Fehlermeldung angezeigt wird, überprüfen Sie die Netzwerkeinstellungen. Grundsätzlich bestehen für eine ordnungsgemäße Netzwerkverbindung zwei Optionen:
