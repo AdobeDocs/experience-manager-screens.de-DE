@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 173ce977549ed64e3750bb751a8fe1b27e277aa2
 workflow-type: tm+mt
 source-wordcount: '559'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ Dieses Handbuch bietet zunächst eine Einführung in Proxy-Server, um dann auf d
 
 Über Proxy-Server wird der Aufbau einer Verbindung zum Internet ermöglicht. Ein Proxy-Server ist ein dediziertes Computer- oder Software-System, das auf einem Computer ausgeführt wird, der als Vermittler zwischen einem Endpunktgerät (z. B. einem Computer) und einem anderen Server fungiert, von dem aus ein Benutzer oder Client einen Dienst anfordert. Der Proxy-Server kann sich auf demselben Computer befinden wie ein Firewall-Server oder auf einem separaten Server, der Anfragen über die Firewall weiterleitet.
 
-Ein Vorteil eines Proxyservers besteht darin, dass sein Cache allen Benutzern zur Verfügung stehen kann. Wenn eine oder mehrere Websites häufig aufgerufen werden, ist es wahrscheinlich, dass diese im Cache des Proxys gespeichert werden, wodurch sich die Reaktionszeit für Benutzer weiter verkürzt. Ein Proxy kann zudem die durch ihn verarbeiteten Interaktionen protokollieren, was bei der Fehlerbehebung hilfreich sein kann.
+Ein Vorteil eines Proxy-Servers besteht darin, dass sein Cache allen Benutzern zur Verfügung stehen kann. Wenn eine oder mehrere Websites häufig aufgerufen werden, ist es wahrscheinlich, dass diese im Cache des Proxys gespeichert werden, wodurch sich die Reaktionszeit für Benutzer weiter verkürzt. Ein Proxy kann zudem die durch ihn verarbeiteten Interaktionen protokollieren, was bei der Fehlerbehebung hilfreich sein kann.
 
-Erhält ein Proxy-Server eine Anfrage für eine Internet-Ressource (z. B. für eine Web-Seite oder infolge der Verbindung mit einem AEM-Publisher), prüft er die im lokalen Cache gespeicherten, zu einem früheren Zeitpunkt aufgerufenen URLs. Wenn die Seite darin gefunden wird, wird sie an den Benutzer zurückgegeben, ohne die Anfrage an das Internet weiterzuleiten. Ist die Seite nicht im Cache gespeichert, fungiert der Proxy-Server als Client, der für den Benutzer die Seite vom Server im Internet abruft. Wenn der Inhalt zurückgegeben wird, bezieht der Proxyserver ihn mit der ursprünglichen Anforderung und leitet ihn an den Benutzer weiter.
+Erhält ein Proxy-Server eine Anfrage für eine Internet-Ressource (z. B. für eine Web-Seite oder infolge der Verbindung mit einem AEM-Publisher), prüft er die im lokalen Cache gespeicherten, zu einem früheren Zeitpunkt aufgerufenen URLs. Wenn die Seite darin gefunden wird, wird sie an den Benutzer zurückgegeben, ohne die Anfrage an das Internet weiterzuleiten. Ist die Seite nicht im Cache gespeichert, fungiert der Proxy-Server als Client, der für den Benutzer die Seite vom Server im Internet abruft. Wenn der Inhalt zurückgegeben wird, ordnet ihn der Proxy-Server der ursprünglichen Anfrage zu und leitet ihn an den Benutzer weiter.
 
 ## Grundlagen zu Standard-Netzwerkkonfigurationen {#network-setups}
 
