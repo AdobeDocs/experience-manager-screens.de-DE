@@ -9,8 +9,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
-translation-type: ht
-source-git-commit: 428e1dbaa1a252d2aa9bcbb02264a0076b95291b
+translation-type: tm+mt
+source-git-commit: 8d904ae752181844f62f95cfcd1f5657957b1780
+workflow-type: tm+mt
+source-wordcount: '1065'
+ht-degree: 89%
 
 ---
 
@@ -21,7 +24,7 @@ Im AEM Screens-Player können Sie den Inhalt für einen Kanal und andere Einstel
 
 >[!NOTE]
 >
->Drücken Sie ***Ctrl + Befehl + F**, um den Vollbildmodus für AEM Screens-Player unter OS X zu beenden.*
+>Drücken Sie ***Ctrl + Befehl + F***, um den Vollbildmodus für AEM Screens-Player unter OS X zu beenden.
 
 Wenn Sie einen Kanal einer Anzeige zuweisen, wird im AEM Screens-Player der Inhalt angezeigt. Sie können die Einstellungen für den Player über die Voreinstellungen für die Administrator-Benutzeroberfläche (im Dashboard) oder im Player selbst konfigurieren.
 
@@ -29,7 +32,7 @@ Wenn Sie einen Kanal einer Anzeige zuweisen, wird im AEM Screens-Player der Inha
 
 Sie können die Voreinstellungen für Ihr Gerät im Geräte-Dashboard konfigurieren, auf das Sie über Ihre AEM-Autoreninstanz zugreifen können.
 
-1. Navigieren Sie ausgehend von Ihrem Projekt zum Geräte-Dashboard, z. B. über ***Testprojekt*** &gt; ***Geräte***.
+1. Navigieren Sie ausgehend von Ihrem Projekt zum Geräte-Dashboard, z. B. über ***Testprojekt*** > ***Geräte***.
 
    Wählen Sie in der Aktionsleiste die Optionen **Geräte** und **Geräte-Manager** aus.
 
@@ -55,19 +58,33 @@ Um die Administrator-Benutzeroberfläche vom Screens-Player aus zu öffnen, halt
 
 ![chlimage_1-3](assets/chlimage_1-3.gif)
 
-Wenn Sie im Seitenmenü die Option **Konfiguration** wählen, können Sie auch die Zurücksetzungsoptionen **Firmware**, **Voreinstellungen** oder **Auf Werkseinstellungen** auswählen.
+#### Zugriff auf die Optionen im Konfigurationsmenü {#configuration-options}
 
-Darüber hinaus können Sie in **Max. Anzahl der beizubehalt. Prot.dateien** die maximale Zahl der Protokolldateien festlegen, die für einen AEM Screens-Player bewahrt werden. Weitere Informationen dazu finden Sie im folgenden Screenshot.
+Sie können Ihre Konfigurationen aktualisieren, wenn Sie im Seitenmenü die Option **Konfiguration** auswählen, wie in der folgenden Abbildung gezeigt:
+
+![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
+
+Im Menü &quot;Konfiguration&quot;können Sie die folgenden Einstellungen ändern:
+
+* Reset **Firmware**, **Preferences**, or **To Factory** from this dialog box.
+
+* Specify the number of maximum log files to keep for an AEM Screens player in **Max No. der beizubehalt. Prot.dateien** die maximale Zahl der Protokolldateien festlegen, die für einen AEM Screens-Player bewahrt werden.
+
+* Aktivieren oder deaktivieren Sie das **Admin-Menü**, den **Kanal-Switcher** und die **Aktivität-Benutzeroberfläche** für den Bildschirmplayer.
+
+   Wenn die Benutzeroberfläche **für die** Aktivität im Menü &quot; **Konfiguration** &quot;aktiviert ist, zeigt der AEM Screens-Player die *synchronisierten* Meldungen oben rechts im Player an, wie in der folgenden Abbildung dargestellt.
+
+   ![image](/help/user-guide/assets/activity_ui.png)
 
 >[!NOTE]
 >
 >Die Option **Firmware aktualisieren** funktioniert nur in Cordova, z. B. in Android-Playern.
 
-![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
-
 >[!NOTE]
 >
 >In Produktionsbereitstellungen wird empfohlen, die **Administrator-Benutzeroberfläche** zu deaktivieren.
+
+#### Zugriff auf die Menüoptionen im Inhaltscache {#content-cache-options}
 
 Sie können den Cache für Kanäle und Anwendungen über die Administrator-Benutzeroberfläche im AEM Screens-Player löschen.
 
