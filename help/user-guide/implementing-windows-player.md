@@ -10,8 +10,11 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
-translation-type: ht
-source-git-commit: 9e7c4ec77265c1b6927a19e0d9d39770b64db0fb
+translation-type: tm+mt
+source-git-commit: db3429d93833ec22ba60732c45da274830692b39
+workflow-type: tm+mt
+source-wordcount: '878'
+ht-degree: 100%
 
 ---
 
@@ -24,11 +27,11 @@ Dieser Abschnitt beschreibt, wie der Windows 10 Player für AEM Screens konfigur
 
 Installieren Sie Windows Player für AEM Screens, um den Windows Player für AEM Screens zu implementieren.
 
-Rufen Sie die Seite [**AEM 6.4 Player-Downloads **](https://download.macromedia.com/screens/)auf.
+Rufen Sie die Seite [**AEM 6.5 Player-Downloads **](https://download.macromedia.com/screens/)auf.
 
 ### Ad-hoc-Methode {#ad-hoc-method}
 
-Mit der Ad-hoc-Methode können Sie den aktuellen Windows Player (*.exe*) installieren. Rufen Sie die Seite [**AEM 6.4 Player-Downloads **](https://download.macromedia.com/screens/)auf.
+Mit der Ad-hoc-Methode können Sie den aktuellen Windows Player (*.exe*) installieren. Rufen Sie die Seite [**AEM 6.5 Player-Downloads **](https://download.macromedia.com/screens/)auf.
 
 Nachdem Sie die Anwendung heruntergeladen haben, führen Sie die Schritte im Player aus, um die Ad-hoc-Installation abzuschließen:
 
