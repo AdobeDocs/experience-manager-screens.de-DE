@@ -10,8 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
-translation-type: ht
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+translation-type: tm+mt
+source-git-commit: db3429d93833ec22ba60732c45da274830692b39
+workflow-type: tm+mt
+source-wordcount: '678'
+ht-degree: 100%
 
 ---
 
@@ -26,11 +29,11 @@ Außerdem ist **Watchdog** eine Lösung zur Wiederherstellung des Players nach A
 
 Installieren Sie Android-Player für AEM Screens, um den Android-Player für AEM Screens zu implementieren.
 
-Rufen Sie die Seite [**AEM 6.4 Player-Downloads **](https://download.macromedia.com/screens/)auf.
+Rufen Sie die Seite [**AEM 6.5 Player-Downloads **](https://download.macromedia.com/screens/)auf.
 
 ### Ad-hoc-Methode {#ad-hoc-method}
 
-Mit der Ad-hoc-Methode können Sie den aktuellen Android-Player (*.exe*) installieren. Rufen Sie die Seite [**AEM 6.4 Player-Downloads **](https://download.macromedia.com/screens/)auf.
+Mit der Ad-hoc-Methode können Sie den aktuellen Android-Player (*.exe*) installieren. Rufen Sie die Seite [**AEM 6.5 Player-Downloads **](https://download.macromedia.com/screens/)auf.
 
 Nachdem Sie die Anwendung heruntergeladen haben, führen Sie die Schritte im Player aus, um die Ad-hoc-Installation abzuschließen:
 
@@ -68,7 +71,7 @@ Gehen Sie wie folgt vor, um die Android-apk mithilfe von Herstellerschlüsseln z
 1. &lt;Pfad> /apksigner sign --key platform.pk8 --cert platform.x509.pem aemscreensplayer.apk
 1. Suchen Sie den Pfad zum Zipalign-Tool in Android SDK
 1. &lt;Pfad> /zipalign -fv 4 aemscreensplayer.apk aemscreensaligned.apk
-1. Installieren Sie ***aemscreensaligned.apk ***mithilfe von adb install auf dem Gerät
+1. Installieren Sie ***aemscreensaligned.apk*** mithilfe von adb install auf dem Gerät
 
 ## Implementierung von Android Watchdog {#android-watchdog-implementation}
 
