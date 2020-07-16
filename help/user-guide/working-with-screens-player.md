@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
 translation-type: tm+mt
-source-git-commit: 8d904ae752181844f62f95cfcd1f5657957b1780
+source-git-commit: 5aea3e032cc5279de7f3abab679825aa2794a89e
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1066'
 ht-degree: 89%
 
 ---
@@ -72,7 +72,7 @@ Im Menü &quot;Konfiguration&quot;können Sie die folgenden Einstellungen änder
 
 * Aktivieren oder deaktivieren Sie das **Admin-Menü**, den **Kanal-Switcher** und die **Aktivität-Benutzeroberfläche** für den Bildschirmplayer.
 
-   Wenn die Benutzeroberfläche **für die** Aktivität im Menü &quot; **Konfiguration** &quot;aktiviert ist, zeigt der AEM Screens-Player die *synchronisierten* Meldungen oben rechts im Player an, wie in der folgenden Abbildung dargestellt.
+   Wenn die Benutzeroberfläche **für die** Aktivität im Menü &quot; **Konfiguration** &quot;aktiviert ist, zeigt der AEM Screens-Player die Benachrichtigungen *zur* Player-Aktivität oben rechts im Player an, wie in der folgenden Abbildung dargestellt.
 
    ![image](/help/user-guide/assets/activity_ui.png)
 
