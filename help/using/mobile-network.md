@@ -1,9 +1,9 @@
 ---
 title: Netzwerk für Direktanbindung an Mobilfunknetze
 description: Auf dieser Seite wird die Konfiguration von Netzwerken für die Direktanbindung an Mobilfunknetze beschrieben.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '826'
 ht-degree: 100%
 
