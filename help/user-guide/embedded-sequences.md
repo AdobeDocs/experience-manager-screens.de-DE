@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: fc13d713-af30-4a54-8408-920f78fd2b2f
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '833'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Sie haben die Möglichkeit, die folgenden Komponenten zu Ihrem Sequenzkanal hinz
 >
 >Weitere Informationen zum Verwenden anderer Komponenten in Ihrem Screens-Projekt finden Sie unter [Hinzufügen von Komponenten zu einem Kanal](adding-components-to-a-channel.md).
 
-### Hinzufügen einer eingebetteten Sequenz       {#adding-an-embedded-sequence}
+### Hinzufügen einer eingebetteten Sequenz        {#adding-an-embedded-sequence}
 
 Sie können Ihrem Kanal eine eingebettete Sequenz hinzufügen. Bei einer eingebetteten Sequenz handelt es sich um einen weiteren Kanal mit Assets wie Bildern oder Videos. Durch Hinzufügen einer eingebetteten Sequenz können Benutzer die Sequenz über den ***Kanalpfad*** in einen Kanal aufnehmen.
 
@@ -67,14 +67,17 @@ Standardmäßig ist diese auf **normal** eingestellt. Ist der Wert auf **normal*
 >1. Navigieren Sie zur Anzeige und wählen Sie die Anzeige aus dem Ordner **Standorte** aus.
 >1. Klicken Sie in der Aktionsleiste auf **Dashboard**, um zum Anzeigen-Dashboard zu navigieren.
 >1. Wählen Sie im Bedienfeld **ZUGEWIESENE KANÄLE UND ZEITPLÄNE** die Option **+ Kanäle zugewiesen** aus, um das Dialogfeld **Kanalzuweisung** zu öffnen.
+
    >
    >
 1. Wählen Sie den Pfad des Kanals (den Sie in der eingebetteten Sequenz verwenden) im **Kanalpfad** aus.
 >1. Stellen Sie sicher, dass die **Priorität** niedriger als die des Hauptkanals ist.
+
    >
    >
 1. Sie dürfen keine **unterstützten Ereignisse** auswählen.
 >1. Klicken Sie nach Abschluss des Vorgangs auf **Speichern**.
+
 >
 
 
