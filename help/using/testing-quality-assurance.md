@@ -3,11 +3,11 @@ title: Tests und Qualitätssicherung
 seo-title: Tests und Qualitätssicherung für AEM Screens
 description: Auf dieser Seite werden die Best Practices für Tests und die Qualitätssicherung von AEM Screens beschrieben.
 seo-description: Auf dieser Seite werden die Best Practices für Tests und die Qualitätssicherung von AEM Screens beschrieben.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '361'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ Ausführliche Informationen zur ***Gerätesteuerung*** finden Sie im Abschnitt [
 >
 > Adobe empfiehlt, für alle Bereitstellungen dedizierte Drittanbieter-Geräteverwaltungsplattformen zu verwenden.
 
-The specific platform chosen depends on a number of factors including the ***target operating system***, ***project requirements*** and ***number of end points***.
+Die gewählte Plattform hängt von einer Reihe von Faktoren ab, darunter dem ***Zielbetriebssystem***, den ***Projektanforderungen*** und der ***Anzahl der Endgeräte***.
 
 Beispiele:
 
