@@ -3,9 +3,9 @@ title: AEM-Plattformkonfigurationen
 seo-title: AEM-Plattformkonfigurationen
 description: Auf dieser Seite werden AEM-Plattformkonfigurationen beschrieben.
 seo-description: Auf dieser Seite werden AEM-Plattformkonfigurationen beschrieben.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '522'
 ht-degree: 100%
 
