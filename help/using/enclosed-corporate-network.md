@@ -1,6 +1,6 @@
 ---
 title: Geschlossenes Unternehmensnetzwerk
-description: 'Geschlossenes Unternehmensnetzwerk   '
+description: 'Geschlossenes Unternehmensnetzwerk    '
 translation-type: tm+mt
 source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
@@ -10,7 +10,7 @@ ht-degree: 100%
 ---
 
 
-# Geschlossenes Unternehmensnetzwerk    (kabelgebunden/kabellos) {#enclosed-corporate-networks}
+# Geschlossenes Unternehmensnetzwerk     (kabelgebunden/kabellos) {#enclosed-corporate-networks}
 
 Die Konfiguration für geschlossene Unternehmensnetzwerke ist in kleineren, mittleren und großen Unternehmen gleichermaßen anwendbar. Aus logischer Sicht ist diese Konfiguration so aufgebaut, wie in der nachfolgenden Abbildung dargestellt. Theoretisch kann sie aber auch komplexer ausfallen.
 
