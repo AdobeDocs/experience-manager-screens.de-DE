@@ -3,9 +3,9 @@ title: Replizieren von Datenauslösern auf Veröffentlichungsservern
 seo-title: Replizieren von Datenauslösern auf Veröffentlichungsserver
 description: Replizieren von Datenauslösern auf Veröffentlichungsserver.
 seo-description: Replizieren von Datenauslösern auf Veröffentlichungsserver.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '526'
 ht-degree: 100%
 
