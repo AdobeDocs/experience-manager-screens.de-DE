@@ -3,9 +3,9 @@ title: 'Zielgruppe '
 seo-title: Zielgruppe für AEM Screens
 description: Auf dieser Seite wird die Zielgruppe für das Handbuch mit Best Practices für AEM Screens beschrieben.
 seo-description: Auf dieser Seite wird die Zielgruppe für das Handbuch mit Best Practices für AEM Screens beschrieben.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '520'
 ht-degree: 100%
 
