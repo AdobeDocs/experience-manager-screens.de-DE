@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: db3429d93833ec22ba60732c45da274830692b39
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '678'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ Nachdem Sie die Anwendung heruntergeladen haben, führen Sie die Schritte im Pla
 
 Aufgrund der Architektur von Android erfordert der Neustart des Geräts, dass die Anwendung über Systemrechte verfügt. Hierzu müssen Sie die apk mithilfe der Signierungsschlüssel des Herstellers signieren. Andernfalls startet Watchdog die Player-Anwendung neu und nicht das Gerät.
 
-### Signieren von Android-apks mithilfe von Herstellerschlüsseln      {#signage-of-android-apks-using-manufacturer-keys}
+### Signieren von Android-apks mithilfe von Herstellerschlüsseln       {#signage-of-android-apks-using-manufacturer-keys}
 
 Zum Zugreifen auf die berechtigten APIs von Android, wie zum Beispiel *PowerManager* oder *HDMIControlServices*, müssen Sie die Android-apk mithilfe der Herstellerschlüssel signieren.
 
