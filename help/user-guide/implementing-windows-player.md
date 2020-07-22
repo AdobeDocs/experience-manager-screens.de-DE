@@ -10,9 +10,9 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: db3429d93833ec22ba60732c45da274830692b39
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '878'
 ht-degree: 100%
 
@@ -63,7 +63,7 @@ So konfigurieren Sie den Windows 10-Player:
 1. Suchen Sie die Konfigurationsdatei unter ***%appdata%\com.adobe.aem.screens.player\config.json***.
 1. Aktualisieren Sie die JSON-Konfigurationsdatei mit den nachstehenden Informationen und kopieren Sie sie dann bei allen Systemen, auf denen der Player vorhanden ist, in den gleichen Ordner.
 
-### Richtlinienattribute      {#policy-attributes}
+### Richtlinienattribute       {#policy-attributes}
 
 In der folgenden Tabelle finden Sie eine Zusammenfassung der Richtlinienattribute mit einer beispielhaften JSON-Richtliniendatei als Referenz:
 
@@ -76,7 +76,7 @@ In der folgenden Tabelle finden Sie eine Zusammenfassung der Richtlinienattribut
 | enableOSD | Aktivierung der Kanalschalter-Benutzeroberfläche, damit Benutzer zwischen Kanälen auf dem Gerät wechseln können. Stellen Sie den Wert ggf. auf „false“ ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und produktiv verwendet wird. |
 | enableActivityUI | Aktivierung zum Anzeigen des Fortschritts von Aktivitäten wie Downloads und Synchronisierungen. Aktivieren Sie den Wert zwecks Fehlerbehebung und deaktivieren Sie ihn, sobald die Benutzeroberfläche vollständig konfiguriert ist und produktiv verwendet wird. |
 
-#### Beispielhafte JSON-Richtliniendatei      {#example-policy-json-file}
+#### Beispielhafte JSON-Richtliniendatei       {#example-policy-json-file}
 
 ```
 {
