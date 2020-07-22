@@ -9,11 +9,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5aea3e032cc5279de7f3abab679825aa2794a89e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1066'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Im AEM Screens-Player können Sie den Inhalt für einen Kanal und andere Einstel
 
 Wenn Sie einen Kanal einer Anzeige zuweisen, wird im AEM Screens-Player der Inhalt angezeigt. Sie können die Einstellungen für den Player über die Voreinstellungen für die Administrator-Benutzeroberfläche (im Dashboard) oder im Player selbst konfigurieren.
 
-## Verwenden des Geräte-Dashboards    {#using-the-device-dashboard}
+## Verwenden des Geräte-Dashboards     {#using-the-device-dashboard}
 
 Sie können die Voreinstellungen für Ihr Gerät im Geräte-Dashboard konfigurieren, auf das Sie über Ihre AEM-Autoreninstanz zugreifen können.
 
@@ -64,15 +64,15 @@ Sie können Ihre Konfigurationen aktualisieren, wenn Sie im Seitenmenü die Opti
 
 ![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
 
-Im Menü &quot;Konfiguration&quot;können Sie die folgenden Einstellungen ändern:
+Im Menü „Konfiguration“ können Sie die folgenden Einstellungen ändern:
 
-* Reset **Firmware**, **Preferences**, or **To Factory** from this dialog box.
+* Setzen Sie die **Firmware** oder **Voreinstellungen** zurück oder wählen Sie die Option **Auf Werkseinstellungen** zurücksetzen aus.
 
-* Specify the number of maximum log files to keep for an AEM Screens player in **Max No. der beizubehalt. Prot.dateien** die maximale Zahl der Protokolldateien festlegen, die für einen AEM Screens-Player bewahrt werden.
+* Legen Sie in **Max. Anzahl der beizubehalt. Prot.dateien** die maximale Zahl der Protokolldateien fest, die für einen AEM Screens-Player bewahrt werden.
 
-* Aktivieren oder deaktivieren Sie das **Admin-Menü**, den **Kanal-Switcher** und die **Aktivität-Benutzeroberfläche** für den Bildschirmplayer.
+* Aktivieren oder deaktivieren Sie das **Admin-Menü**, den **Kanalschalter** und die **Aktivitäts-Benutzeroberfläche** für den Screens-Player.
 
-   Wenn die Benutzeroberfläche **für die** Aktivität im Menü &quot; **Konfiguration** &quot;aktiviert ist, zeigt der AEM Screens-Player die Benachrichtigungen *zur* Player-Aktivität oben rechts im Player an, wie in der folgenden Abbildung dargestellt.
+   Wenn die **Aktivitäts-Benutzeroberfläche** im Menü **Konfiguration** aktiviert ist, zeigt der AEM Screens-Player die *Benachrichtigungen zur Player-Aktivität* oben rechts im Player an, wie in der folgenden Abbildung dargestellt.
 
    ![image](/help/user-guide/assets/activity_ui.png)
 
@@ -84,7 +84,7 @@ Im Menü &quot;Konfiguration&quot;können Sie die folgenden Einstellungen änder
 >
 >In Produktionsbereitstellungen wird empfohlen, die **Administrator-Benutzeroberfläche** zu deaktivieren.
 
-#### Zugriff auf die Menüoptionen im Inhaltscache {#content-cache-options}
+#### Zugriff auf die Menüoptionen im Inhalts-Cache {#content-cache-options}
 
 Sie können den Cache für Kanäle und Anwendungen über die Administrator-Benutzeroberfläche im AEM Screens-Player löschen.
 
@@ -110,7 +110,7 @@ Um den Kanalschalter vom Player aus aufzurufen, halten Sie die untere linke Ecke
 >
 >(Siehe *Ändern der Voreinstellungen im AEM Screens-Player* wie im Abschnitt weiter unten beschrieben).
 
-### Verwalten von Voreinstellungen im AEM Screens-Player   {#managing-preferences-from-the-aem-screens-player}
+### Verwalten von Voreinstellungen im AEM Screens-Player    {#managing-preferences-from-the-aem-screens-player}
 
 Sie können die Einstellungen für die Administrator-Benutzeroberfläche und den Kanalschalter auch im Player selbst ändern.
 
