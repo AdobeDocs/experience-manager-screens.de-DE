@@ -10,11 +10,11 @@ topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f30bfdba-8db6-482b-8d0c-2818fc58e2b1
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 11d9100b2aeb361a8b1aaaf2806272809f35a938
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '768'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -81,6 +81,6 @@ Weitere Informationen zu Adobe Experience Manager 6.5 finden Sie in den folgende
 
    Befolgen Sie das **[Handbuch mit Best Practices für AEM Screens-Projekte](https://docs.adobe.com/content/help/de-DE/experience-manager-screens/using/about-guide.html)**, in dem auf allgemeine Schwierigkeiten bei der Implementierung eines AEM Screens-Projekts hingewiesen wird. Der Inhalt konzentriert sich in erster Linie auf Projektrollen und Zuständigkeiten, RACI-Diagramme für verschiedene Rollen, AEM-Plattformkonfigurationen sowie Support und Überwachung.
 
-* **Neues Kundensupport-Erlebnis**
+* **Neues Erlebnis bei der Kundenunterstützung**
 
-   Folgen Sie **[der Hilfe](https://docs.adobe.com/content/help/en/customer-one/using/home.htmlhome.html#)**zum Kunden, um mehr über die Admin Console Support Tickets zu erfahren.
+   Folgen Sie der **[Hilfe zu Customer One for Enterprise](https://docs.adobe.com/content/help/de-DE/customer-one/using/home.htmlhome.html#)**, um mehr über Support-Tickets für die Admin Console zu erfahren.
