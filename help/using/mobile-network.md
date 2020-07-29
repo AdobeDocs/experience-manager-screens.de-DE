@@ -1,24 +1,24 @@
 ---
 title: Netzwerk für Direktanbindung an Mobilfunknetze
 description: Auf dieser Seite wird die Konfiguration von Netzwerken für die Direktanbindung an Mobilfunknetze beschrieben.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 23bb59c719c675baa84c579f624adccc80377661
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '861'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
 
 # Netzwerk für Direktanbindung an Mobilfunknetze{#mobile-network-setup}
 
-AEM Screens Player können auch über mobile oder zelluläre Netzwerke verbunden werden, die mindestens ein 3G-Netzwerk laufen.
+AEM Screens-Player können auch über Mobilfunknetze angebunden werden, sofern die Datenübertragung mindestens nach 3G-Standard erfolgt.
 
-Innerhalb von AEM Screens werden die erforderlichen Inhalte physisch auf den Player-Controller oder Computer heruntergeladen und dem zugrunde liegenden Betriebssystem entsprechend ordnungsgemäß gespeichert. Die angegebene Bandbreite wirkt sich daher nur auf die anfänglichen Downloadzeiten sowie auf Inhaltsaktualisierungen aus und beeinflusst nicht die Leistung der regelmäßigen Wiedergabe von Displays.
+Innerhalb von AEM Screens werden die erforderlichen Inhalte physisch auf den Player-Controller oder Computer heruntergeladen und dem zugrunde liegenden Betriebssystem entsprechend ordnungsgemäß gespeichert. Die angegebene Bandbreite wirkt sich daher nur auf die anfänglichen Download-Zeiten sowie auf Inhaltsaktualisierungen aus und beeinflusst nicht die Leistung der regelmäßigen Wiedergabe auf Anzeigen.
 
-Der Vorteil der Verbindung von AEM Screens mit dem Mobilnetzbetreiber über Cellular 3/4/5G besteht darin, dass der Mobilnetzler an einem optimierten Ort platziert werden kann, um eine bestmögliche Netzabdeckung zu gewährleisten. In der Regel ist dies an höher gelegenen, offenen Stellen der Fall, die so wenig wie möglich von Beton- oder Metallkonstruktionen umgeben sind.
+Die Anbindung von AEM Screens-Playern via 3G, 4G oder 5G an Ihren Mobilfunknetzanbieter bietet den Vorteil, dass der mobile WLAN-Router flexibel an einem Ort platziert werden kann, an dem eine optimale Netzabdeckung gewährleistet ist. In der Regel ist dies an höher gelegenen, offenen Stellen der Fall, die so wenig wie möglich von Beton- oder Metallkonstruktionen umgeben sind.
 
-Diese Einrichtung ermöglicht AEM-Bildschirmbenutzern eine große Flexibilität, da keine Festnetzverbindung erforderlich ist, um eine Verbindung zu AEM Screens herzustellen. Dies ist besonders interessant für kurzlebige oder mobile Setups.
+Diese Konfiguration bietet Anwendern von AEM Screens besonders große Flexibilität, da für die Anbindung an AEM Screens keine Festnetzleitungen benötigt werden. Dies ist besonders interessant für kurzlebige oder mobile Setups.
 
 Die Konfiguration für die Direktanbindung an Mobilfunknetze umfasst ein einzelnes Segment für die Netzwerkverbindung sowie die Verbindung der einzelnen Player mit dem Mobilfunknetz, wie im nachfolgenden Diagramm dargestellt.
 
@@ -70,7 +70,7 @@ Die mindestens vom Daten-Abo abzudeckende Kapazität beträgt:
 
 >[!IMPORTANT]
 >
->Beim ersten Hochladen von Mediendateien, z. B. bei der Integration neuer Player, sind eine höhere Datenmenge und eine höhere Downloadzeit zu erwarten, die sich in den obigen Annahmen widerspiegeln. A 4G network with *good* coverage and *unlimited* data should match the most common installations in this Network Setup.
+>Für den erstmaligen Upload der Mediendateien, z. B. bei der Integration neuer Player, muss ein höheres Datenvolumen und eine längere Download-Zeit einkalkuliert und in den oben ausgeführten Schätzungen berücksichtigt werden. Ein 4G-Netz mit *guter* Abdeckung und unbegrenztem Datenvolumen sollte für die im Rahmen dieser Netzwerkkonfiguration gängigsten Installationen jedoch ausreichen.**
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ Die mindestens vom Daten-Abo abzudeckende Kapazität beträgt:
 
 ### LAN (Local Area Network) {#lan-connection}
 
-Die Leistungsanforderungen des Local Area Network (LAN) bestehen neben der Netzwerkanbindung darin, ausreichend Bandbreite für einen reibungslosen Betrieb von AEM Screens bereitzustellen. Für die LAN-Netzwerkgeschwindigkeiten wird empfohlen, mit mindestens 100 Mbit/s Netzwerken Beginn, sodass genügend Bandbreite vorhanden ist, um viele Geräte mit guter Systemleistung zu verbinden.
+Die LAN-Verbindung muss ausreichend Bandbreite zur Verfügung stellen, damit neben der Erreichbarkeit des Netzwerks auch ein reibungsloser Betrieb von AEM Screens gewährleistet werden kann. Für die LAN-Netzwerkgeschwindigkeit werden mindestens 100 MBit/s empfohlen, sodass ausreichend Bandbreite verfügbar ist, um viele Geräte bei stabiler System-Performance zu verbinden.
 
 Sind aktive Netzwerkkomponenten anderer Art im Einsatz, müssen diese allesamt die Anforderungen an die Netzwerkbandbreite erfüllen. Beispielsweise sollten entsprechende Netzwerkkomponenten mindestens auf den 100 MBit/s-Standard ausgelegt sein und mit den Bandbreitenspezifikationen des Internet-Zugangs bzw. -Routers übereinstimmen. Andernfalls wird die Gesamtbandbreite durch das schwächste Glied in der Netzwerkkette begrenzt.
 
