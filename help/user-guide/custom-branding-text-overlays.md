@@ -4,9 +4,9 @@ seo-title: Anwenden von benutzerdefiniertem Branding und Styling für Textüberl
 description: Auf dieser Seite erfahren Sie, wie Sie benutzerdefiniertes Branding und Styling für Textüberlagerungen anwenden.
 seo-description: Auf dieser Seite erfahren Sie, wie Sie benutzerdefiniertes Branding und Styling für Textüberlagerungen anwenden.
 contentOwner: Jyotika Syal
-translation-type: ht
-source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 100%
 
@@ -41,26 +41,26 @@ Gehen Sie wie folgt vor, um benutzerdefiniertes Branding und Styling für Textü
 1. Erstellen Sie die Datei *static.css* und legen Sie die folgenden CSS-Regeln fest. Dies wird auch als Beispiel in der Abbildung unter den CSS-Regeln gezeigt.
 
    ```shell
-     //global styles
-     cq-Screens-textOverlay {
-     padding: 1em;
-     font-size: 3rem;
-     line-height: 1em;
-      }
-     //authoring overrides
-    .aem-AuthorLayer-Edit .cq-Screens-textOverlay {
-     display: none;
-     padding: 0;
-     font-size: 1rem;
+    //global styles
+    cq-Screens-textOverlay {
+    padding: 1em;
+    font-size: 3rem;
+    line-height: 1em;
      }
-      // light text variant
-     .cq-Screens-textOverlay-color--light {
-      background-color: rgba(0, 0, 0, .6);
-      }
-      // dark text variant
-      .cq-Screens-textOverlay-color--dark {
-       background-color: rgba(255, 255, 255, .6);
+    //authoring overrides
+   .aem-AuthorLayer-Edit .cq-Screens-textOverlay {
+    display: none;
+    padding: 0;
+    font-size: 1rem;
+    }
+     // light text variant
+    .cq-Screens-textOverlay-color--light {
+     background-color: rgba(0, 0, 0, .6);
      }
+     // dark text variant
+     .cq-Screens-textOverlay-color--dark {
+      background-color: rgba(255, 255, 255, .6);
+    }
    ```
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand4.png)
@@ -83,7 +83,7 @@ Gehen Sie wie folgt vor, um benutzerdefiniertes Branding und Styling für Textü
 
 >[!IMPORTANT]
 >
-> Sie können die vorhandenen Screens-Vorlagen überlagern, um Ihre eigenen Designs standardmäßig einzufügen oder eine eigene Vorlage zu erstellen. Weitere Informationen finden Sie in den folgenden Schritten.
+>Sie können die vorhandenen Screens-Vorlagen überlagern, um Ihre eigenen Designs standardmäßig einzufügen oder eine eigene Vorlage zu erstellen. Weitere Informationen finden Sie in den folgenden Schritten.
 
 1. So überlagern Sie die vorhandenen Screens-Vorlagen, um Ihre eigenen Designs standardmäßig einzufügen:
 
