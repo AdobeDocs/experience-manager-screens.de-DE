@@ -1,47 +1,31 @@
 ---
 title: Kanalzuweisung
 seo-title: Kanalzuweisung
-description: Auf dieser Seite erhalten Sie Informationen zur Kanalzuweisung und zu Dayparting.
-seo-description: Auf dieser Seite erhalten Sie Informationen zur Kanalzuweisung und zu Dayparting.
-uuid: fe429485-dcc9-4507-864c-b04393cedeee
-contentOwner: Jyotika syal
-content-type: reference
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-topic-tags: authoring
-discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
-docset: aem65
-translation-type: ht
-source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: ht
-source-wordcount: '1227'
-ht-degree: 100%
+description: Folgen Sie dieser Seite, um mehr über die Zuweisung von Kanälen und die Tagesaufteilung zu erfahren.
+translation-type: tm+mt
+source-git-commit: c46cd26f5067468aadf80a822fffce1d5f0b5d9a
+workflow-type: tm+mt
+source-wordcount: '1335'
+ht-degree: 74%
 
 ---
 
 
 # Kanalzuweisung {#channel-assignment}
 
-In diesem Abschnitt werden folgende Themen behandelt:
+Nachdem Sie eine Anzeige definiert haben, müssen Sie einem Display einen Kanal zuweisen.
 
-* **Zuweisen von Kanälen**
-* **Eigenschaften des Dialogfelds „Kanalzuweisung“**
-* **Dayparting**
+Diese Seite zeigt, wie Sie Ihrem Display einen Kanal zuweisen.
 
-Nachdem Sie eine Anzeige definiert haben, müssen Sie ihr einen Kanal zuweisen.
+>[!NOTE]
+>Sie können einer Anzeige mehrere Kanal zuweisen.
 
-Auf dieser Seite wird beschrieben, wie Sie Ihren Anzeigen einen Kanal zuweisen.
-
-**Voraussetzungen**:
-
-* [Konfigurieren und Bereitstellen von Screens](configuring-screens-introduction.md)
-* [Erstellen und Verwalten von Screens-Projekten](creating-a-screens-project.md)
-* [Erstellen und Verwalten von Kanälen](managing-channels.md)
-* [Erstellen und Verwalten von Standorten](managing-locations.md)
-* [Erstellen und Verwalten von Anzeigen](managing-displays.md)
-
-## Zuweisen eines Kanals {#assign-a-channel}
+## Zuweisen von Kanälen {#assign-a-channel}
 
 Gehen Sie wie folgt vor, um einer Anzeige einen Kanal zuzuweisen:
+
+>[!IWichtig]
+>Das folgende Dialogfeld für die Zuweisung von Kanälen unterscheidet sich von der Version Adobe Experience 6.5.5 Screens Feature Pack und höher. Weitere Informationen finden Sie unter Zuweisen von [Kanälen](/help/user-guide/channel-assignment.md#assign-a-channel-new-release) .
 
 1. Navigieren Sie zur gewünschten Anzeige, z. B. **DemoProject** > **Standorte** > **SanJose** > **StoreDisplay**.
 
@@ -55,7 +39,29 @@ Gehen Sie wie folgt vor, um einer Anzeige einen Kanal zuzuweisen:
 
    ![image](/help/user-guide/assets/channel-assign1.png)
 
-   Sie können die Eigenschaften im Dialogfeld **Kanalzuweisung** im nachstehenden Abschnitt verstehen und konfigurieren.
+   You can configure the properties from the **Channel Assignment** dialog box from the section below. Weitere Informationen zu den Eigenschaften von Kanälen finden Sie im Abschnitt [Kanal-Eigenschaften](#channel-properties) .
+
+## Zuweisen eines Kanals für AEM 6.5.5 Screens Feature Pack-Version {#assign-a-channel-new-release}
+
+Gehen Sie wie folgt vor, um einer Anzeige einen Kanal zuzuweisen:
+
+1. Navigieren Sie zur gewünschten Anzeige, z. B. **DemoProject** > **Standorte** > **SanJose** > **StoreDisplay**.
+
+
+1. Tap/click **Assign Channel** from the action bar
+
+   Oder
+
+   Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNNELS &amp; SCHEDULES** panel to open the **Channel Assignment** dialog box.
+
+1. Wählen Sie unter &quot;Einstellung&quot;den Kanal nach Pfad oder Namen aus, geben Sie die Rolle &quot;Kanal&quot;, &quot;Priorität&quot;und &quot;Unterstützte Ereignis&quot;ein.
+
+   >[!NOTE]
+   >Weitere Informationen zu den Eigenschaften von Kanälen finden Sie im Abschnitt [Kanal-Eigenschaften](#channel-properties) .
+
+1. Wählen Sie unter **Zeitpläne** die Option **Referenz-Zeitzone**, **Aktivierung-Fenster** und **Zeitplan** für Wiederholungen aus.
+
+1. Klicken Sie auf **Speichern** , nachdem Sie Ihre Voreinstellungen konfiguriert haben.
 
 ### Verstehen der Kanal-Eigenschaften bei Kanalzuweisung {#channel-properties}
 
@@ -111,18 +117,17 @@ Hiermit können Sie in einer Beschreibung in Textform angeben, wann der Kanal an
 
 Mit der Option „Attraktions-QuickInfo anzeigen“ wird definiert, ob die Attraktions-QuickInfo (*Zum Beginnen irgendwo tippen*) angezeigt wird, während der Kanal ausgeführt wird.
 
+### Tagesaufteilung {#dayparting}
 
-### Dayparting     {#dayparting}
+Schedules when combined with **Day-parting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
 
-Durch die Kombination von Zeitplänen mit **Dayparting** können Sie einen globalen Zeitplan mit mehreren Kanälen festlegen, die zu bestimmten Tageszeiten ausgeführt werden. Diese Einstellung kann dann für alle Anzeigen wiederverwendet werden.
+Bei Dayparting wird ein Tag in Zeitfenster unterteilt und festgelegt, welcher Inhalt zum gewünschten Zeitpunkt dargestellt wird. Mit AEM Screens können Sie Kanäle in Form von Tagesaufteilung innerhalb eines Tages, einer Woche oder eines Monats planen, wie es die Anforderungen vorsehen.
 
-Bei Dayparting wird ein Tag in Zeitfenster unterteilt und festgelegt, welcher Inhalt zum gewünschten Zeitpunkt dargestellt wird. Mit AEM Screens können Sie den Dayparting-Zeitplan von Kanälen nach Bedarf für Tage, Wochen oder Monate festlegen.
-
-Im Folgenden wird in drei Szenarien beschrieben, wie Dayparting mit Kanälen verwendet werden kann:
+Die folgenden Beispiele erläutern die Tagesaufteilung in Kanälen in drei verschiedenen Szenarien:
 
 #### Anzeigen von Inhalten an einem einzigen Tag unterteilt in mehrere Zeitfenster     {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
-Im folgenden Beispiel wird veranschaulicht, wie ein Restaurant Dayparting verwendet, um sein Angebot für Frühstück, Mittagessen und Abendessen zu präsentieren.
+Dieses Beispiel zeigt, wie ein Restaurant mit Tagesaufteilung sein Frühstück-, Mittag- und Abendmenü präsentiert.
 
 Wir unterteilen jeden Tag in drei Zeitfenster, sodass der Kanalinhalt gemäß der Tageszeit angezeigt wird:
 
@@ -161,9 +166,9 @@ In diesem Beispiel wird gezeigt, wie Dayparting in einem Casino umgesetzt wird, 
 
 #### Anzeigen von Inhalten für einen bestimmten Monat oder mehrere Monate {#playing-content-for-a-particular-month-months}
 
-Dieses Beispiel veranschaulicht Dayparting für einen Laden, der seine Sommerkollektion von Juni bis August und die Herbstkollektion von September bis Ende Oktober präsentiert.
+Dieses Beispiel zeigt die Tagesaufteilung für einen Store, in dem die Sommersammlung von Juni bis August und die Herbstsammlung von September bis Ende Oktober angezeigt werden.
 
-Hier wird Dayparting auf monatlicher Basis erstellt, sodass der Kanalinhalt an den angegebenen Monaten im Jahr angezeigt wird.
+Hier erstellen Sie eine Tagesaufteilung nach Monaten, sodass der Kanal-Inhalt gemäß den angegebenen Jahresmonaten abgespielt wird.
 
 | **Kanal** | **Rolle** | **Priorität** | **Zeitplan** |
 |---|---|---|---|
@@ -176,16 +181,17 @@ Hier wird Dayparting auf monatlicher Basis erstellt, sodass der Kanalinhalt an d
 
 #### Anzeigen von Inhalt für Kanäle derselben Priorität           {#playing-content-for-channels-with-same-priority}
 
-Diese Beispiele veranschaulichen die Verwendung von Dayparting durch einen Laden, der seine Winterkollektion mit demselben Zeitplan im Dezember präsentiert. Doch da die Priorität von Kanal B in dieser Woche 2 beträgt, wird der Inhalt von Kanal B anstelle des Inhalts von Kanal A gezeigt.
+Diese Beispiele zeigen die Tagesaufteilung für einen Store, der seine Wintersammlung mit demselben Zeitplan im Dezember anzeigt. Doch da die Priorität von Kanal B in dieser Woche 2 beträgt, wird der Inhalt von Kanal B anstelle des Inhalts von Kanal A gezeigt.
 
 | **Kanal** | **Rolle** | **Priorität** | **Zeitplan** |
 |---|---|---|---|
 | A | Winter | 1 | 01. Dezember 2017–31. Dezember 2017 |
 | B | Weihnachten | 2 | 24. Dezember 2017–31. Dezember 2017 |
 
+
 >[!IMPORTANT]
 >
-> Weitere Informationen zu Dayparting finden Sie in den folgenden Abschnitten:
+> Weitere Informationen zur Tagesaufteilung finden Sie in den folgenden Abschnitten:
 >
 >* [Umgang mit sich wiederholenden Assets](https://docs.adobe.com/content/help/de-DE/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
 >* [Umgang mit sich wiederholenden Assets in einem Kanal](https://docs.adobe.com/content/help/de-DE/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
