@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
-translation-type: ht
-source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: ht
-source-wordcount: '1400'
+translation-type: tm+mt
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
+workflow-type: tm+mt
+source-wordcount: '1399'
 ht-degree: 100%
 
 ---
@@ -140,8 +140,9 @@ Klicken Sie in der in Aktionsleiste **KANALINFORMATIONEN** auf (**...**), um Eig
 
 Sie können das Manifest vom Kanal-Dashboard aus anzeigen.
 
->[WICHTIG]
-> Diese Option ist nur mit AEM 6.4 Feature Pack 8 oder AEM 6.5 Feature Pack 4 verfügbar.
+>[!IMPORTANT]
+>
+>Diese Option ist nur mit AEM 6.4 Feature Pack 8 oder AEM 6.5 Feature Pack 4 verfügbar.
 
 Führen Sie die folgenden Schritte aus, um diese Option im Kanal-Dashboard zu aktivieren:
 1. **Kanal auf „Offline“ festlegen**
