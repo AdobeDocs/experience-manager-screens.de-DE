@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
-translation-type: ht
-source-git-commit: a246671ddf7fee333d01c09ca61daee91df737e4
-workflow-type: ht
-source-wordcount: '1198'
+translation-type: tm+mt
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
+workflow-type: tm+mt
+source-wordcount: '1197'
 ht-degree: 100%
 
 ---
@@ -83,6 +83,7 @@ Wenn Sie möchten, dass eine Bildsequenz und ein Video in verschiedenen Bereiche
    1. Navigieren Sie zu **Bereiche** > **MultiZone** > **Kanäle** und klicken Sie in der Aktionsleiste auf **Erstellen**.
    1. Wählen Sie im Assistenten **Erstellen** die Option **Kanalordner** aus und klicken Sie auf **Weiter**.
    1. Geben Sie **EmbeddedChannels** als Titel ein und klicken Sie auf **Erstellen**.
+
    ![screen_shot_2018-12-19at125428pm](assets/screen_shot_2018-12-19at125428pm.png)
 
 1. **Hinzufügen von zwei weiteren Kanälen zum Kanalordner**
@@ -93,6 +94,7 @@ Wenn Sie möchten, dass eine Bildsequenz und ein Video in verschiedenen Bereiche
    1. Ziehen Sie einige Bilder in diesen Kanal.
    1. Erstellen Sie auf ähnliche Weise einen weiteren Sequenzkanal mit dem Namen **Zone2** im Ordner **EmbeddedChannels**.
    1. Ziehen Sie einige Bilder per Drag-and-Drop in diesen Kanal.
+
    Die folgende Abbildung zeigt die Kanäle **Zone1** und **Zone2**:
 
    ![screen_shot_2018-12-19at125930pm](assets/screen_shot_2018-12-19at125930pm.png)
@@ -154,7 +156,8 @@ Sie müssen der Anzeige Kanäle zuweisen, damit Sie den Inhalt anzeigen können.
       ![image](/help/user-guide/assets/multi-zone/multizone-img8.png)
 
 
-      >[!IWichtig]
+      >[!IMPORTANT]
+      >
       > Nachdem Sie den Hauptkanal (in diesem Fall **MultiZone**) der Anzeige zugewiesen haben, müssen Sie die anderen beiden eingebetteten Kanäle **Zone1** und **Zone2** derselben Anzeige zuweisen.
 
 ### Registrieren des Geräts {#registering-device}
@@ -166,6 +169,7 @@ Nachdem Sie einen Standort und eine Anzeige eingerichtet haben, gehen Sie wie fo
    1. Navigieren Sie zum Ordner **Zonen** > **Geräte**.
    1. Wählen Sie den Ordner **Geräte** aus und klicken Sie in der Aktionsleiste auf **Geräte-Manager**.
    1. Klicken Sie auf **Geräteregistrierung** und wählen Sie in der Liste das ausstehende Gerät aus.
+
       >[!NOTE]
       > Der Titel des Geräts muss mit dem Geräte-Token (Feld **Token**) übereinstimmen, das auf der Registerkarte **Geräteregistrierung** angezeigt wird.
    1. Wenn der Titel mit dem Geräte-Token übereinstimmt, wählen Sie das Gerät aus und klicken Sie in der Aktionsleiste auf **Gerät registrieren**.
@@ -173,6 +177,7 @@ Nachdem Sie einen Standort und eine Anzeige eingerichtet haben, gehen Sie wie fo
       ![image](/help/user-guide/assets/multi-zone/multizone-img6.png)
    1. Geben Sie unter **Titel** den Wert **Chrome-Device1** ein und klicken Sie auf **Registrieren**.
    1. Wählen Sie **Anzeige zuweisen** und dann den Pfad zur Gerätekonfiguration.
+
    >[!NOTE]
    >Wenn Sie versuchen, den Inhalt im Screens-Player anzuzeigen, klicken Sie unbedingt für jeden der Anzeige zugewiesenen Kanal im Kanal-Dashboard auf **Offline-Inhalt aktualisieren**.
 
