@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
-translation-type: ht
-source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: ht
-source-wordcount: '1617'
+translation-type: tm+mt
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
+workflow-type: tm+mt
+source-wordcount: '1616'
 ht-degree: 100%
 
 ---
@@ -202,6 +202,7 @@ Sie können die Ressourcen, die Sie im Rahmen dieser manuellen Promotion bewerbe
 
 Sie können den Launch löschen, indem Sie im Bedienfeld **AUSSTEHENDE LAUNCHES** die Option **Launch löschen** wählen.
 
->[VORSICHT]
+>[!CAUTION]
+>
 >Durch diese Aktion werden auch alle untergeordneten Elemente (verschachtelten Launches) ebenfalls gelöscht.
 
