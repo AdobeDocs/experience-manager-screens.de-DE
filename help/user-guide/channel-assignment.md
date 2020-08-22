@@ -3,9 +3,9 @@ title: Kanalzuweisung
 seo-title: Kanalzuweisung
 description: Folgen Sie dieser Seite, um mehr über die Zuweisung von Kanälen und die Tagesaufteilung zu erfahren.
 translation-type: tm+mt
-source-git-commit: c46cd26f5067468aadf80a822fffce1d5f0b5d9a
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1333'
 ht-degree: 74%
 
 ---
@@ -24,7 +24,8 @@ Diese Seite zeigt, wie Sie Ihrem Display einen Kanal zuweisen.
 
 Gehen Sie wie folgt vor, um einer Anzeige einen Kanal zuzuweisen:
 
->[!IWichtig]
+>[!IMPORTANT]
+>
 >Das folgende Dialogfeld für die Zuweisung von Kanälen unterscheidet sich von der Version Adobe Experience 6.5.5 Screens Feature Pack und höher. Weitere Informationen finden Sie unter Zuweisen von [Kanälen](/help/user-guide/channel-assignment.md#assign-a-channel-new-release) .
 
 1. Navigieren Sie zur gewünschten Anzeige, z. B. **DemoProject** > **Standorte** > **SanJose** > **StoreDisplay**.
@@ -93,7 +94,8 @@ Mit „Priorität“ können Zuweisungen geordnet werden, falls mehrere die Wied
 
 #### Unterbrechungsmethode {#interruption-method-channel}
 
->[WICHTIG]
+>[!IMPORTANT]
+>
 > Diese Option ist nur mit AEM 6.4 Feature Pack 8 oder AEM 6.5 Feature Pack 4 verfügbar.
 
 Als Autor von Inhalten sollten Sie festlegen können, wann ein Kanal unterbrochen wird, damit nicht kritische Inhalte abgeschnitten werden können, wichtige Inhalte jedoch vollständig abgespielt werden, bevor die Wiedergabe aufgrund der Zeitplanung abgebrochen wird.
