@@ -3,10 +3,10 @@ title: Replizieren von Datenauslösern auf Veröffentlichungsservern
 seo-title: Replizieren von Datenauslösern auf Veröffentlichungsserver
 description: Replizieren von Datenauslösern auf Veröffentlichungsserver.
 seo-description: Replizieren von Datenauslösern auf Veröffentlichungsserver.
-translation-type: ht
-source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: ht
-source-wordcount: '526'
+translation-type: tm+mt
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
+workflow-type: tm+mt
+source-wordcount: '524'
 ht-degree: 100%
 
 ---
@@ -34,14 +34,16 @@ Gehen Sie wie folgt vor, um die Datenauslöser auf den Veröffentlichungsserver 
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers1.png)
 
-   >[!NHinweis]
+   >[!NOTE]
+   >
    >Alternativ können Sie mit `http://localhost:4502/libs/granite/distribution/content/distribution-agent.html?agentName=publish` direkt zum Bildschirm navigieren, um die Verbindung zu konfigurieren und zu testen.
 
 1. Klicken Sie in der Aktionsleiste auf **Verbindung testen**, um die Kommunikation des Autors mit der Veröffentlichungsinstanz zu überprüfen, wie in der folgenden Abbildung dargestellt.
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers2.png)
 
-   >[!NHinweis]
+   >[!NOTE]
+   >
    >Wenn der Test fehlschlägt, müssen Sie die Konfiguration des Replikationsagenten zwischen der Autoreninstanz und der Veröffentlichungsinstanz korrigieren. Weitere Informationen finden Sie unter [Fehlerbehebung bei der Testverbindung](/help/user-guide/replicating-data-triggers.md#troubleshoot-test).
 
 1. Wählen Sie in der Struktur des Bildschirms **Verteilungsagent** die Option **Hinzufügen** aus und wählen Sie den Konfigurationspfad für Ihr Projekt aus, z. B. `/conf/screens/settings/cloudsettings/configuration`.
