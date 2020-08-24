@@ -3,17 +3,20 @@ title: Kanalzuweisung
 seo-title: Kanalzuweisung
 description: Folgen Sie dieser Seite, um mehr über die Zuweisung von Kanälen und die Tagesaufteilung zu erfahren.
 translation-type: tm+mt
-source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
+source-git-commit: 963262bb4b7b26aa1e9fbf1be2362c7029818789
 workflow-type: tm+mt
-source-wordcount: '1333'
-ht-degree: 74%
+source-wordcount: '1218'
+ht-degree: 79%
 
 ---
 
 
 # Kanalzuweisung {#channel-assignment}
 
-Nachdem Sie eine Anzeige definiert haben, müssen Sie einem Display einen Kanal zuweisen.
+>[!IMPORTANT]
+>In diesem Abschnitt wird die Zuweisung und Planung von Kanälen für Feature Packs, die älter als AEM 6.5.5 Screens sind, erläutert.
+
+Nachdem Sie eine Anzeige eingerichtet haben, müssen Sie einem Display einen Kanal zuweisen, um den Inhalt Ansicht.
 
 Diese Seite zeigt, wie Sie Ihrem Display einen Kanal zuweisen.
 
@@ -23,10 +26,6 @@ Diese Seite zeigt, wie Sie Ihrem Display einen Kanal zuweisen.
 ## Zuweisen von Kanälen {#assign-a-channel}
 
 Gehen Sie wie folgt vor, um einer Anzeige einen Kanal zuzuweisen:
-
->[!IMPORTANT]
->
->Das folgende Dialogfeld für die Zuweisung von Kanälen unterscheidet sich von der Version Adobe Experience 6.5.5 Screens Feature Pack und höher. Weitere Informationen finden Sie unter Zuweisen von [Kanälen](/help/user-guide/channel-assignment.md#assign-a-channel-new-release) .
 
 1. Navigieren Sie zur gewünschten Anzeige, z. B. **DemoProject** > **Standorte** > **SanJose** > **StoreDisplay**.
 
@@ -42,31 +41,10 @@ Gehen Sie wie folgt vor, um einer Anzeige einen Kanal zuzuweisen:
 
    You can configure the properties from the **Channel Assignment** dialog box from the section below. Weitere Informationen zu den Eigenschaften von Kanälen finden Sie im Abschnitt [Kanal-Eigenschaften](#channel-properties) .
 
-## Zuweisen eines Kanals für AEM 6.5.5 Screens Feature Pack-Version {#assign-a-channel-new-release}
 
-Gehen Sie wie folgt vor, um einer Anzeige einen Kanal zuzuweisen:
+## Verstehen der Kanal-Eigenschaften bei Kanalzuweisung {#channel-properties}
 
-1. Navigieren Sie zur gewünschten Anzeige, z. B. **DemoProject** > **Standorte** > **SanJose** > **StoreDisplay**.
-
-
-1. Tap/click **Assign Channel** from the action bar
-
-   Oder
-
-   Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNNELS &amp; SCHEDULES** panel to open the **Channel Assignment** dialog box.
-
-1. Wählen Sie unter &quot;Einstellung&quot;den Kanal nach Pfad oder Namen aus, geben Sie die Rolle &quot;Kanal&quot;, &quot;Priorität&quot;und &quot;Unterstützte Ereignis&quot;ein.
-
-   >[!NOTE]
-   >Weitere Informationen zu den Eigenschaften von Kanälen finden Sie im Abschnitt [Kanal-Eigenschaften](#channel-properties) .
-
-1. Wählen Sie unter **Zeitpläne** die Option **Referenz-Zeitzone**, **Aktivierung-Fenster** und **Zeitplan** für Wiederholungen aus.
-
-1. Klicken Sie auf **Speichern** , nachdem Sie Ihre Voreinstellungen konfiguriert haben.
-
-### Verstehen der Kanal-Eigenschaften bei Kanalzuweisung {#channel-properties}
-
-#### Kanal referenzieren {#ref-channel}
+### Kanal referenzieren {#ref-channel}
 
 Diese Option ermöglicht es Ihnen, einen Verweis zum gewünschten Kanal bereitzustellen, entweder in Form des Namens oder des Pfads des Kanals.
 
@@ -74,25 +52,25 @@ Diese Option ermöglicht es Ihnen, einen Verweis zum gewünschten Kanal bereitzu
 
 * **nach Name**: Sie geben den Namen des Kanals ein, der entsprechend dem Kontext zu einem tatsächlichen Kanal führt. Mit dieser Funktion können Sie eine lokale Version eines Kanals erstellen, um standortspezifischen Inhalt dynamisch aufzulösen. Beispiel: ein Kanal mit dem Namen *Tagesangebote*, bei dem der eigentliche Inhalt in zwei Städten zwar unterschiedlich ist, aber bei allen Anzeigen dieselbe Kanalrolle vorhanden ist.
 
-#### Kanalrolle {#role-channel}
+### Kanalrolle {#role-channel}
 
 In „Kanalrolle“ wird der Kontext der Anzeige definiert. Die Rolle kann durch verschiedene Aktionen festgelegt werden und ist unabhängig vom eigentlichen Kanal, der der Rolle entspricht.
 
-#### Priorität {#priority-channel}
+### Priorität {#priority-channel}
 
 Mit „Priorität“ können Zuweisungen geordnet werden, falls mehrere die Wiedergabekriterien erfüllen. Höhere Werte haben stets Vorrang vor niedrigeren Werten. Wenn es beispielsweise die beiden Kanäle A und B gibt und A eine Priorität von 1 und B eine Priorität von 2 hat, wird Kanal B angezeigt, da er eine höhere Priorität als A hat.
 
 >[!NOTE]
 >Die Priorität eines Kanals wird als Zahl (1 für Minimum) im Dialogfeld **Kanalzuweisung** festgelegt, wie oben angegeben. Darüber hinaus werden die zugewiesenen Kanäle nach absteigender Priorität sortiert.
 
-#### Unterstützte Ereignisse {#supported-events-channel}
+### Unterstützte Ereignisse {#supported-events-channel}
 
 * **Erster Ladevorgang**: Lädt den Kanal, wenn der Player gestartet wird. Dies kann in Kombination mit einem Zeitplan mehreren Kanälen zugewiesen werden.
 * **Bildschirm bei Untätigkeit**: Lädt, wenn der Bildschirm inaktiv ist. Dies kann in Kombination mit einem Zeitplan mehreren Kanälen zugewiesen werden.
 * **Timer**: Muss eingestellt werden, wenn ein Zeitplan vorhanden ist
 * **Benutzerinteraktion**: Der Player wechselt in den angegebenen Kanal, wenn in einem inaktiven Kanal auf dem Bildschirm (Touch) eine Benutzerinteraktion stattfindet, und wird geladen, wenn der Bildschirm berührt wird.
 
-#### Unterbrechungsmethode {#interruption-method-channel}
+### Unterbrechungsmethode {#interruption-method-channel}
 
 >[!IMPORTANT]
 >
@@ -111,7 +89,7 @@ Wählen Sie eine der folgenden Optionen aus, die zum Festlegen der Unterbrechung
    >[!NOTE]
    >Die Verwendung der zweiten oder dritten Option kann dazu führen, dass die für die Zuweisung festgelegten Zeiträume geringfügig verschoben werden, da der Player vor dem Aktualisieren auf das Ende des Elements oder der Sequenz (nach der angegebenen Zeit) wartet. Die Verzögerung hängt von der Wiedergabedauer des Elements ab.
 
-#### Zeitplan {#schedule-channel}
+### Zeitplan {#schedule-channel}
 
 Hiermit können Sie in einer Beschreibung in Textform angeben, wann der Kanal angezeigt werden soll. Sie können damit auch ein Startdatum (**aktiv ab**) und ein Enddatum (**aktiv bis**) definieren, zwischen denen der Kanal angezeigt werden soll.
 
@@ -191,7 +169,7 @@ Diese Beispiele zeigen die Tagesaufteilung für einen Store, der seine Wintersam
 | B | Weihnachten | 2 | 24. Dezember 2017–31. Dezember 2017 |
 
 
->[!IMPORTANT]
+>[!NOTE]
 >
 > Weitere Informationen zur Tagesaufteilung finden Sie in den folgenden Abschnitten:
 >
