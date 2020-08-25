@@ -3,10 +3,10 @@ title: Zuweisung von Kanälen - neueste RP
 seo-title: Zuweisung von Kanälen - neueste RP
 description: Folgen Sie dieser Seite, um mehr über die Zuweisung von Kanälen und die Tagesaufteilung zu erfahren.
 translation-type: tm+mt
-source-git-commit: c022e583a52d68e20d7916a8f02341905bb957b6
+source-git-commit: 0300af2ef44756dddbb27f3da15c52bc877b93ea
 workflow-type: tm+mt
-source-wordcount: '1495'
-ht-degree: 48%
+source-wordcount: '1548'
+ht-degree: 45%
 
 ---
 
@@ -73,7 +73,7 @@ Nachdem Sie das Projekt abgeschlossen haben, müssen Sie den Kanal einer Anzeige
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-1. Unter &quot; **Einstellungen** &quot;können Sie den Kanal nach Pfad oder Namen auswählen, die Rolle des Kanals, die Priorität, die unterstützten Ereignis und die Unterbrechungsmethoden eingeben. Darüber hinaus können Sie die QuickInfo-Option für Attraktionen in diesem Dialogfeld aktivieren.
+1. Unter **Einstellungen** können Sie den Kanal nach Pfad oder Namen auswählen, die **Kanal-Rolle**, **Priorität**, **unterstützte Ereignis** und **Unterbrechungsmethoden** eingeben. Darüber hinaus können Sie die QuickInfo **für** Zugreifen in diesem Dialogfeld aktivieren.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
@@ -96,7 +96,9 @@ Informationen zum Registrieren eines Geräts auf einem AEM Screens-Player finden
 
 Sie werden die folgende Ausgabe auf Ihrem Player-Ansicht:
 
-### Verstehen der Kanal-Eigenschaften bei Kanalzuweisung {#channel-properties}
+![new1](assets/channel-assignment/channel-assign-output.gif)
+
+### Understanding Channel Properties from Channel Assignment Dialog Box {#channel-properties}
 
 Die folgenden Eigenschaften werden über die Option **Einstellungen** im Dialogfeld &quot; **Kanal-Zuweisung** &quot;festgelegt.
 
@@ -185,18 +187,27 @@ Die folgenden Beispiele erklären DayParting in Kanälen in drei verschiedenen S
 
 Dieses Beispiel zeigt, wie ein Restaurant mit DayParting täglich sein Frühstück-, Mittag- und Abendmenü präsentiert.
 
-Wir unterteilen jeden Tag in drei Zeitfenster, sodass der Kanalinhalt gemäß der Tageszeit angezeigt wird. Die Variable legt die folgenden Eigenschaften des Zeitplans für Wiederholung fest, um den Inhalt gemäß diesem Verwendungsfall wiederzugeben.
+Hier unterteilen wir jeden Tag in verschiedene Zeiträume, sodass der Kanal-Inhalt gemäß der angegebenen Tageszeit abgespielt wird. Legen Sie die folgenden Eigenschaften des Zeitplans für Wiederholung fest, um den Inhalt gemäß diesem Verwendungsfall wiederzugeben.
 
 | **Name** | **Wiederholen** | **Anfang** | **Ende** |
 |---|---|---|---|
 | Frühstück | Täglich | 06:00 | 11:00 Uhr |
-| Frühstück | Täglich | 11:02 | 15:00 |
-| Frühstück | Täglich | 15:01 | 20:00 |
+| Mittagessen | Täglich | 11:02 | 15:00 |
+| Abendessen | Täglich | 15:01 | 20:00 |
 
 #### Anzeigen von Inhalten an einem bestimmten Wochentag {#playing-content-on-a-particular-day-of-the-week}
 
-Dieses Beispiel zeigt die DayParting in einem Casino, wo täglich von 20:00 Uhr bis 22:00 Uhr Live-Ereignis stattfindet und Spezialitäten für das Abendessen nach 22:00 Uhr bis 13:00 Uhr zur Verfügung stehen.
+Dieses Beispiel zeigt die DayParting in einem Casino implementiert, in dem Live-Ereignis an jedem Wochenende von 20:00 bis 22:00 Uhr stattfindet und Spezialitäten für das Abendmenü nach 22:00 Uhr bis 13:00 Uhr zur Verfügung stehen.
 
+| **Name** | **Wiederholen** | **Anfang** | **Ende** |
+|---|---|---|---|
+| Wochenende | Wöchentlich | 20:00 | 22:00 |
+| Spezial | Täglich | 22:00 | 01:00 |
+
+**Wochenende**
+
+
+**Spezial**
 
 #### Anzeigen von Inhalten für einen bestimmten Monat oder mehrere Monate {#playing-content-for-a-particular-month-months}
 
@@ -213,6 +224,11 @@ Hier erstellen Sie die DayParting-Funktion wie pro Monat, sodass der Kanal-Inhal
 
 Dieses Beispiel zeigt die DayParting-Funktion für einen Store, der seine Wintersammlung mit demselben Zeitplan im Dezember anzeigt. Doch da die Priorität von Kanal B in dieser Woche 2 beträgt, wird der Inhalt von Kanal B anstelle des Inhalts von Kanal A gezeigt.
 
+## Timeline View {#timeline-view}
+
+Nachdem Sie einen Kanal einer Anzeige zugewiesen und einen Wiederholungsplan eingerichtet haben, können Sie die Zeitschiene im Bedienfeld &quot; **ZUGEWIESENE KANAL &amp; ZEITPLAN** &quot;Ansicht haben.
+
+Gehen Sie wie folgt vor, um zur Ansicht der Zeitschiene zu navigieren:
 
 
 
