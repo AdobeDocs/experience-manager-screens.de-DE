@@ -3,10 +3,10 @@ title: Zuweisung von Kanälen - neueste RP
 seo-title: Zuweisung von Kanälen - neueste RP
 description: Folgen Sie dieser Seite, um mehr über die Zuweisung von Kanälen und die Tagesaufteilung zu erfahren.
 translation-type: tm+mt
-source-git-commit: 963262bb4b7b26aa1e9fbf1be2362c7029818789
+source-git-commit: 1c6a7342288a5d78dbea91d29ff8e5d6c8fec486
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 79%
+source-wordcount: '895'
+ht-degree: 64%
 
 ---
 
@@ -23,20 +23,59 @@ Diese Seite zeigt, wie Sie Ihrem Display einen Kanal zuweisen.
 >[!NOTE]
 >Sie können einer Anzeige mehrere Kanal zuweisen.
 
+
 ## Zuweisen von Kanälen {#assign-a-channel-new-release}
 
-Gehen Sie wie folgt vor, um einer Anzeige einen Kanal zuzuweisen:
+Gehen Sie wie folgt vor, um ein AEM Screens-Projekt zu erstellen und einem Display einen Kanal zuzuweisen.
 
-1. Navigieren Sie zur gewünschten Anzeige, z. B. **DemoProject** > **Standorte** > **SanJose** > **StoreDisplay**.
+### Erstellen eines AEM Screens-Projekts und von Kanälen {#creating-project}
 
+Gehen Sie wie folgt vor, um ein Projekt und einen Kanal einzurichten:
 
-1. Tap/click **Assign Channel** from the action bar
+1. Create an AEM Screens Project titled as **DemoScreens**.
+
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp1.png)
+
+   >[!NOTE]
+   >Informationen zum Erstellen eines AEM Screens-Projekts finden Sie unter [Erstellen und Verwalten von Projekten](creating-a-screens-project.md) .
+
+1. Erstellen Sie einen Sequenzordner mit dem Titel **Cafeteria** im Kanal **Kanal** .
+
+1. Select the channel and click **Edit** from the action bar to add content to your channel.
+
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp2.png)
+
+   Beispielsweise werden im **Cafeteria** -Kanal jetzt folgende Bilder angezeigt:
+
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp3.png)
+
+1. Erstellen Sie eine Location mit dem Titel **SanJose** und eine Anzeige mit dem Namen **Lobby**.
+
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp4.png)
+
+### Assigning Channel to a Display {#assigning-channel-to-display}
+
+Nachdem Sie das Projekt abgeschlossen haben, müssen Sie den Kanal einer Anzeige zuweisen, um den Inhalt Ansicht.
+
+1. Navigate to the required display, for example, **DemoScreens** --> **Locations** --> **SanJose** --> **Lobby**.
+
+1. Tap/click **Assign Channel** from the action bar.
+
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    Oder
 
-   Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNNELS &amp; SCHEDULES** panel to open the **Channel Assignment** dialog box.
+   Tippen/klicken Sie auf **Dashboard** und klicken Sie im Bedienfeld &quot; **ZUGEWIESENE KANAL &amp; GEPLANTE** &quot;auf **+Kanal** zuweisen.
 
-1. Wählen Sie unter &quot;Einstellung&quot;den Kanal nach Pfad oder Namen aus, geben Sie die Rolle &quot;Kanal&quot;, &quot;Priorität&quot;und &quot;Unterstützte Ereignis&quot;ein.
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
+
+1. The **Channel Assignment** dialog box opens.
+
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
+
+1. Unter &quot; **Einstellungen** &quot;können Sie den Kanal nach Pfad oder Namen auswählen, die Rolle des Kanals, die Priorität, die unterstützten Ereignis und die Unterbrechungsmethoden eingeben. Darüber hinaus können Sie die QuickInfo-Option für Attraktionen in diesem Dialogfeld aktivieren.
+
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
    >Weitere Informationen zu den Eigenschaften von Kanälen finden Sie im Abschnitt [Kanal-Eigenschaften](#channel-properties) .
@@ -45,7 +84,9 @@ Gehen Sie wie folgt vor, um einer Anzeige einen Kanal zuzuweisen:
 
 1. Klicken Sie auf **Speichern** , nachdem Sie Ihre Voreinstellungen konfiguriert haben.
 
-## Verstehen der Kanal-Eigenschaften bei Kanalzuweisung {#channel-properties}
+### Viewing the Content in Chrome Player {#viewing-content-output}
+
+### Verstehen der Kanal-Eigenschaften bei Kanalzuweisung {#channel-properties}
 
 ### Kanal referenzieren {#ref-channel}
 
