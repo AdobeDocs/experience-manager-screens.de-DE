@@ -3,10 +3,10 @@ title: Zuweisung von Kanälen - neueste RP
 seo-title: Zuweisung von Kanälen - neueste RP
 description: Folgen Sie dieser Seite, um mehr über die Zuweisung von Kanälen und die Tagesaufteilung zu erfahren.
 translation-type: tm+mt
-source-git-commit: 1c6a7342288a5d78dbea91d29ff8e5d6c8fec486
+source-git-commit: c022e583a52d68e20d7916a8f02341905bb957b6
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 64%
+source-wordcount: '1495'
+ht-degree: 48%
 
 ---
 
@@ -80,41 +80,55 @@ Nachdem Sie das Projekt abgeschlossen haben, müssen Sie den Kanal einer Anzeige
    >[!NOTE]
    >Weitere Informationen zu den Eigenschaften von Kanälen finden Sie im Abschnitt [Kanal-Eigenschaften](#channel-properties) .
 
-1. Wählen Sie unter **Zeitpläne** die Option **Referenz-Zeitzone**, **Aktivierung-Fenster** und **Zeitplan** für Wiederholungen aus.
+1. Wählen Sie unter **Zeitpläne** die Option **Referenz-Zeitzone**, **Aktivierung-Fenster** und **Zeitplan**für Wiederholungen aus.
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
+
+   >[!NOTE]
+   >Weitere Informationen zu den Eigenschaften von Kanälen finden Sie im Abschnitt [Kanal-Eigenschaften](#channel-properties) .
 
 1. Klicken Sie auf **Speichern** , nachdem Sie Ihre Voreinstellungen konfiguriert haben.
 
 ### Viewing the Content in Chrome Player {#viewing-content-output}
 
+Dieses Beispiel zeigt die Ausgabe auf einem Chrome Player. Nachdem Sie den Kanal Ihrem Display zugewiesen haben, müssen Sie das Gerät für einen Player registrieren.
+
+Informationen zum Registrieren eines Geräts auf einem AEM Screens-Player finden Sie unter [Geräteregistrierung](device-registration.md) .
+
+Sie werden die folgende Ausgabe auf Ihrem Player-Ansicht:
+
 ### Verstehen der Kanal-Eigenschaften bei Kanalzuweisung {#channel-properties}
 
-### Kanal referenzieren {#ref-channel}
+Die folgenden Eigenschaften werden über die Option **Einstellungen** im Dialogfeld &quot; **Kanal-Zuweisung** &quot;festgelegt.
 
-Diese Option ermöglicht es Ihnen, einen Verweis zum gewünschten Kanal bereitzustellen, entweder in Form des Namens oder des Pfads des Kanals.
+![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
+
+#### Kanal auswählen {#select-channel}
+
+Wenn Sie einen Kanal auswählen, können Sie einen Verweis auf den gewünschten Kanal entweder nach dem Kanal oder nach dem Kanal-Pfad angeben.
 
 * **nach Pfad**: Sie stellen einen expliziten Verweis durch Angabe des absoluten Pfads des Kanals bereit.
 
 * **nach Name**: Sie geben den Namen des Kanals ein, der entsprechend dem Kontext zu einem tatsächlichen Kanal führt. Mit dieser Funktion können Sie eine lokale Version eines Kanals erstellen, um standortspezifischen Inhalt dynamisch aufzulösen. Beispiel: ein Kanal mit dem Namen *Tagesangebote*, bei dem der eigentliche Inhalt in zwei Städten zwar unterschiedlich ist, aber bei allen Anzeigen dieselbe Kanalrolle vorhanden ist.
 
-### Kanalrolle {#role-channel}
+#### Kanalrolle {#role-channel}
 
 In „Kanalrolle“ wird der Kontext der Anzeige definiert. Die Rolle kann durch verschiedene Aktionen festgelegt werden und ist unabhängig vom eigentlichen Kanal, der der Rolle entspricht.
 
-### Priorität {#priority-channel}
+#### Priorität {#priority-channel}
 
 Mit „Priorität“ können Zuweisungen geordnet werden, falls mehrere die Wiedergabekriterien erfüllen. Höhere Werte haben stets Vorrang vor niedrigeren Werten. Wenn es beispielsweise die beiden Kanäle A und B gibt und A eine Priorität von 1 und B eine Priorität von 2 hat, wird Kanal B angezeigt, da er eine höhere Priorität als A hat.
 
 >[!NOTE]
 >Die Priorität eines Kanals wird als Zahl (1 für Minimum) im Dialogfeld **Kanalzuweisung** festgelegt, wie oben angegeben. Darüber hinaus werden die zugewiesenen Kanäle nach absteigender Priorität sortiert.
 
-### Unterstützte Ereignisse {#supported-events-channel}
+#### Unterstützte Ereignisse {#supported-events-channel}
 
 * **Erster Ladevorgang**: Lädt den Kanal, wenn der Player gestartet wird. Dies kann in Kombination mit einem Zeitplan mehreren Kanälen zugewiesen werden.
 * **Bildschirm bei Untätigkeit**: Lädt, wenn der Bildschirm inaktiv ist. Dies kann in Kombination mit einem Zeitplan mehreren Kanälen zugewiesen werden.
 * **Timer**: Muss eingestellt werden, wenn ein Zeitplan vorhanden ist
 * **Benutzerinteraktion**: Der Player wechselt in den angegebenen Kanal, wenn in einem inaktiven Kanal auf dem Bildschirm (Touch) eine Benutzerinteraktion stattfindet, und wird geladen, wenn der Bildschirm berührt wird.
 
-### Unterbrechungsmethode {#interruption-method-channel}
+#### Unterbrechungsmethode {#interruption-method-channel}
 
 >[!IMPORTANT]
 >
@@ -132,3 +146,73 @@ Wählen Sie eine der folgenden Optionen aus, die zum Festlegen der Unterbrechung
 
    >[!NOTE]
    >Die Verwendung der zweiten oder dritten Option kann dazu führen, dass die für die Zuweisung festgelegten Zeiträume geringfügig verschoben werden, da der Player vor dem Aktualisieren auf das Ende des Elements oder der Sequenz (nach der angegebenen Zeit) wartet. Die Verzögerung hängt von der Wiedergabedauer des Elements ab.
+
+
+Die folgenden Eigenschaften werden über die Option &quot; **Plan** &quot;im Dialogfeld &quot; **Kanal-Zuweisung** &quot;festgelegt.
+
+#### Referenzzeitzone {#reference-timezone}
+
+Mit der Referenz-Zeitzone können Sie die Zeitzone für die Inhaltsanzeige auswählen.
+
+#### Aktivierungsfenster {#activation-window}
+
+Im Fenster &quot;Aktivierung&quot;können Sie ein **Beginn-Datum** und ein **Enddatum** zur Inhaltsanzeige auswählen.
+
+#### Intervallzeitplan {#recurrence-schedule}
+
+Mit dem Zeitplan für die Wiederholung können Sie einen Zeitplan für Ihre Inhalte festlegen. Klicken Sie auf **+ Hinzufügen Plan** , um Ihrem Kanal einen Zeitplan für eine Wiederholung hinzuzufügen.
+
+>[!NOTE]
+>Sie können Ihrem Kanal mehrere wiederkehrende Zeitpläne hinzufügen.
+>Recurrence Schedules introduces *DayParting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+
+Sie können die folgenden Optionen festlegen:
+
+* **Name**: Titel des Zeitplans für die Wiederholung.
+* **Wiederholen**: Wählen Sie aus, ob der Plan **täglich**, **wöchentlich**, **monatlich** oder **jährlich** ausgeführt werden soll.
+* **Beginn**: Die Zeitdauer des Beginns für Ihren Zeitplan.
+* **Ende**: Die Endzeit Ihres Zeitplans. Sie können die Einstellung folgendermaßen festlegen:
+* **Zeit**: Der Zeitplan endet zu einem bestimmten Zeitpunkt.
+* **Dauer**: Der Zeitplan läuft für eine bestimmte Dauer in Stunden oder Minuten.
+
+### DayParting {#dayparting}
+
+Bei Dayparting wird ein Tag in Zeitfenster unterteilt und festgelegt, welcher Inhalt zum gewünschten Zeitpunkt dargestellt wird. Mit AEM Screens können Sie Kanal in Form von DayParting innerhalb eines Tages, einer Woche oder eines Monats nach Bedarf planen.
+
+Die folgenden Beispiele erklären DayParting in Kanälen in drei verschiedenen Szenarien:
+
+#### Anzeigen von Inhalten an einem einzigen Tag unterteilt in mehrere Zeitfenster     {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
+
+Dieses Beispiel zeigt, wie ein Restaurant mit DayParting täglich sein Frühstück-, Mittag- und Abendmenü präsentiert.
+
+Wir unterteilen jeden Tag in drei Zeitfenster, sodass der Kanalinhalt gemäß der Tageszeit angezeigt wird. Die Variable legt die folgenden Eigenschaften des Zeitplans für Wiederholung fest, um den Inhalt gemäß diesem Verwendungsfall wiederzugeben.
+
+| **Name** | **Wiederholen** | **Anfang** | **Ende** |
+|---|---|---|---|
+| Frühstück | Täglich | 06:00 | 11:00 Uhr |
+| Frühstück | Täglich | 11:02 | 15:00 |
+| Frühstück | Täglich | 15:01 | 20:00 |
+
+#### Anzeigen von Inhalten an einem bestimmten Wochentag {#playing-content-on-a-particular-day-of-the-week}
+
+Dieses Beispiel zeigt die DayParting in einem Casino, wo täglich von 20:00 Uhr bis 22:00 Uhr Live-Ereignis stattfindet und Spezialitäten für das Abendessen nach 22:00 Uhr bis 13:00 Uhr zur Verfügung stehen.
+
+
+#### Anzeigen von Inhalten für einen bestimmten Monat oder mehrere Monate {#playing-content-for-a-particular-month-months}
+
+Dieses Beispiel zeigt die DayParting-Funktion für einen Store, in dem die Sommersammlung von Juni bis August und die Herbstsammlung von September bis Ende Oktober angezeigt werden.
+
+Hier erstellen Sie die DayParting-Funktion wie pro Monat, sodass der Kanal-Inhalt gemäß den angegebenen Jahresmonaten abgespielt wird.
+
+
+>[!NOTE]
+>
+>Darüber hinaus können Sie für jeden Kanal die ***Priorität*** festlegen. Wenn beispielsweise zwei Kanäle für denselben Tag und dieselbe Uhrzeit oder für denselben Monat festgelegt sind, wird der Kanal mit höherer Priorität zuerst gezeigt. Der Mindestwert für die Priorität beträgt 0.
+
+#### Anzeigen von Inhalt für Kanäle derselben Priorität           {#playing-content-for-channels-with-same-priority}
+
+Dieses Beispiel zeigt die DayParting-Funktion für einen Store, der seine Wintersammlung mit demselben Zeitplan im Dezember anzeigt. Doch da die Priorität von Kanal B in dieser Woche 2 beträgt, wird der Inhalt von Kanal B anstelle des Inhalts von Kanal A gezeigt.
+
+
+
+
