@@ -3,10 +3,10 @@ title: Kanalzuweisung
 seo-title: Kanalzuweisung
 description: Folgen Sie dieser Seite, um mehr über die Zuweisung von Kanälen und die Tagesaufteilung zu erfahren.
 translation-type: tm+mt
-source-git-commit: ae823357be22c45150b0687252cbd58b8022508b
+source-git-commit: 39da8293fb64321fdb28acaa67be579483ba4f0d
 workflow-type: tm+mt
 source-wordcount: '1215'
-ht-degree: 79%
+ht-degree: 76%
 
 ---
 
@@ -97,9 +97,9 @@ Hiermit können Sie in einer Beschreibung in Textform angeben, wann der Kanal an
 
 Mit der Option „Attraktions-QuickInfo anzeigen“ wird definiert, ob die Attraktions-QuickInfo (*Zum Beginnen irgendwo tippen*) angezeigt wird, während der Kanal ausgeführt wird.
 
-### Tagesaufteilung {#dayparting}
+### DayParting {#dayparting}
 
-Schedules when combined with **Day-parting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+Schedules when combined with **DayParting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
 
 Bei Dayparting wird ein Tag in Zeitfenster unterteilt und festgelegt, welcher Inhalt zum gewünschten Zeitpunkt dargestellt wird. Mit AEM Screens können Sie Kanäle in Form von Tagesaufteilung innerhalb eines Tages, einer Woche oder eines Monats planen, wie es die Anforderungen vorsehen.
 
@@ -119,7 +119,7 @@ Wir unterteilen jeden Tag in drei Zeitfenster, sodass der Kanalinhalt gemäß de
 
 #### Anzeigen von Inhalten an einem bestimmten Wochentag {#playing-content-on-a-particular-day-of-the-week}
 
-In diesem Beispiel wird gezeigt, wie Dayparting in einem Casino umgesetzt wird, wo an jedem Wochenende von 20:00 Uhr bis 22:00 Uhr eine Live-Veranstaltung stattfindet und von 22:00 Uhr bis 1:00 Uhr in der Abendkarte spezielle Gerichte angeboten werden.
+Dieses Beispiel zeigt die dayParting in einem Casino, wo Live-Ereignis an jedem Wochenende von 20:00 bis 22:00 Uhr stattfindet und Spezialitäten nach 22:00 Uhr bis 13:00 Uhr für das Abendessen zur Verfügung stehen.
 
 <table>
  <tbody>
@@ -146,7 +146,7 @@ In diesem Beispiel wird gezeigt, wie Dayparting in einem Casino umgesetzt wird, 
 
 #### Anzeigen von Inhalten für einen bestimmten Monat oder mehrere Monate {#playing-content-for-a-particular-month-months}
 
-Dieses Beispiel zeigt die Tagesaufteilung für einen Store, in dem die Sommersammlung von Juni bis August und die Herbstsammlung von September bis Ende Oktober angezeigt werden.
+Dieses Beispiel zeigt die DayParting-Funktion für einen Store, in dem die Sommersammlung von Juni bis August und die Herbstsammlung von September bis Ende Oktober angezeigt werden.
 
 Hier erstellen Sie eine Tagesaufteilung nach Monaten, sodass der Kanal-Inhalt gemäß den angegebenen Jahresmonaten abgespielt wird.
 
@@ -161,7 +161,7 @@ Hier erstellen Sie eine Tagesaufteilung nach Monaten, sodass der Kanal-Inhalt ge
 
 #### Anzeigen von Inhalt für Kanäle derselben Priorität           {#playing-content-for-channels-with-same-priority}
 
-Diese Beispiele zeigen die Tagesaufteilung für einen Store, der seine Wintersammlung mit demselben Zeitplan im Dezember anzeigt. Doch da die Priorität von Kanal B in dieser Woche 2 beträgt, wird der Inhalt von Kanal B anstelle des Inhalts von Kanal A gezeigt.
+Dieses Beispiel zeigt die DayParting-Funktion für einen Store, der seine Wintersammlung mit demselben Zeitplan im Dezember anzeigt. Doch da die Priorität von Kanal B in dieser Woche 2 beträgt, wird der Inhalt von Kanal B anstelle des Inhalts von Kanal A gezeigt.
 
 | **Kanal** | **Rolle** | **Priorität** | **Zeitplan** |
 |---|---|---|---|
@@ -171,7 +171,7 @@ Diese Beispiele zeigen die Tagesaufteilung für einen Store, der seine Wintersam
 
 >[!NOTE]
 >
-> Weitere Informationen zur Tagesaufteilung finden Sie in den folgenden Abschnitten:
+> Weitere Informationen zu DayParting finden Sie in den folgenden Abschnitten:
 >
 >* [Umgang mit sich wiederholenden Assets](https://docs.adobe.com/content/help/de-DE/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
 >* [Umgang mit sich wiederholenden Assets in einem Kanal](https://docs.adobe.com/content/help/de-DE/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
