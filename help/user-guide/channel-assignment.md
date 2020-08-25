@@ -3,9 +3,9 @@ title: Kanalzuweisung
 seo-title: Kanalzuweisung
 description: Folgen Sie dieser Seite, um mehr über die Zuweisung von Kanälen und die Tagesaufteilung zu erfahren.
 translation-type: tm+mt
-source-git-commit: 963262bb4b7b26aa1e9fbf1be2362c7029818789
+source-git-commit: ae823357be22c45150b0687252cbd58b8022508b
 workflow-type: tm+mt
-source-wordcount: '1218'
+source-wordcount: '1215'
 ht-degree: 79%
 
 ---
@@ -29,7 +29,7 @@ Gehen Sie wie folgt vor, um einer Anzeige einen Kanal zuzuweisen:
 
 1. Navigieren Sie zur gewünschten Anzeige, z. B. **DemoProject** > **Standorte** > **SanJose** > **StoreDisplay**.
 
-   ![screen_shot_2018-08-23at25359pm](assets/screen_shot_2018-08-23at25359pm.png)
+   ![image](assets/screen_shot_2018-08-23at25359pm.png)
 
 1. Tippen/klicken Sie in der Aktionsleiste auf **Kanal zuweisen**.
 
