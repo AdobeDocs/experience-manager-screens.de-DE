@@ -2,10 +2,10 @@
 title: Spracherkennung in AEM Screens
 description: Auf der Seite werden die Spracherkennungsfunktionen in AEM Screens beschrieben.
 translation-type: tm+mt
-source-git-commit: cbf50b5c530b51d2926d9fdacef25dabcd28d605
+source-git-commit: b7d7d4ec200d3eb7cd7bac4253c8664e5bd4de81
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 11%
+source-wordcount: '847'
+ht-degree: 12%
 
 ---
 
@@ -81,7 +81,7 @@ Gehen Sie wie folgt vor, um Ihrem Kanal Tags hinzuzufügen:
 
 1. Navigieren Sie zur Registerkarte &quot; **Grundlagen** &quot;und wählen Sie im Feld &quot; **Tags** &quot;ein bereits vorhandenes Tag aus oder erstellen Sie ein neues.
 
-   Sie können entweder ein neues Tag erstellen, indem Sie einen neuen Namen für das Tag eingeben, wie in der folgenden Abbildung gezeigt:
+   Sie können entweder ein neues Tag erstellen, indem Sie einen neuen Namen für das Tag eingeben und die `return` Eingabetaste drücken, wie in der folgenden Abbildung gezeigt:
 
    ![image](assets/voice-recognition/vr-6.png)
 
@@ -122,9 +122,11 @@ Gehen Sie wie folgt vor, um Tags zu erstellen:
 
 1. Legen Sie beim Zuweisen des Kanals für jeden Kanal die folgenden Eigenschaften fest.
 
-   * Allgemein
-   * HotDrinks
-   * ColdDrinks
+   | **Kanalname** | **Priorität** | **Unterstützte Ereignisse** |
+   |---|---|---|
+   | Allgemein | 2 | Initial Load, Idle Screen, Timer |
+   | HotDrinks | 1 | Benutzerinteraktion |
+   | ColdDrinks | 1 | Benutzerinteraktion |
 
    >[!NOTE]
    >
