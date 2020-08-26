@@ -2,9 +2,9 @@
 title: Spracherkennung in AEM Screens
 description: Auf der Seite werden die Spracherkennungsfunktionen in AEM Screens beschrieben.
 translation-type: tm+mt
-source-git-commit: b7d7d4ec200d3eb7cd7bac4253c8664e5bd4de81
+source-git-commit: a1322709f4c9b682233364f72553b40585b46031
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '846'
 ht-degree: 12%
 
 ---
@@ -12,8 +12,10 @@ ht-degree: 12%
 
 # Spracherkennung in AEM Screens {#voice-recognition}
 
->[WICHTIG]
+>[!IMPORTANT]
+>
 >**Wichtige Datenschutzinformationen**
+>
 >Bei Verwendung der Spracherkennungsfunktion befolgen Sie alle geltenden rechtlichen und ethischen Richtlinien für Ihre Region (einschließlich, aber nicht darauf beschränkt, Endbenutzern einen sichtbaren Hinweis darauf zu geben, dass der Player die Spracherkennung verwendet). Adobe Inc. empfängt, speichert oder verarbeitet keine der sprachbezogenen Informationen. Die AEM Screens-Player verwenden die Standard-Web-Sprache-API, die in der Browsing-Engine integriert ist. Hinter den Kulissen wird eine Wellenform Ihrer Sprache zur Konvertierung von Sprache in Text an die Server von Google gesendet, und dieser Text wird vom Player mit den konfigurierten Suchbegriffen abgeglichen.
 >
 >Weitere Informationen finden Sie im Whitepaper zum Datenschutz von [Google über die Web-Sprach-API](https://www.google.com/chrome/privacy/whitepaper.html#speech) .
