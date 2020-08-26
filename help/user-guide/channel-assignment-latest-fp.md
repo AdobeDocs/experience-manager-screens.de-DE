@@ -3,9 +3,9 @@ title: Zuweisung von Kanälen - neueste RP
 seo-title: Zuweisung von Kanälen - neueste RP
 description: Folgen Sie dieser Seite, um mehr über die Zuweisung von Kanälen und die Tagesaufteilung zu erfahren.
 translation-type: tm+mt
-source-git-commit: 0300af2ef44756dddbb27f3da15c52bc877b93ea
+source-git-commit: b29b67374f29148ef661de356f479e9aa5e40cfd
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1551'
 ht-degree: 45%
 
 ---
@@ -187,7 +187,7 @@ Die folgenden Beispiele erklären DayParting in Kanälen in drei verschiedenen S
 
 Dieses Beispiel zeigt, wie ein Restaurant mit DayParting täglich sein Frühstück-, Mittag- und Abendmenü präsentiert.
 
-Hier unterteilen wir jeden Tag in verschiedene Zeiträume, sodass der Kanal-Inhalt gemäß der angegebenen Tageszeit abgespielt wird. Legen Sie die folgenden Eigenschaften des Zeitplans für Wiederholung fest, um den Inhalt gemäß diesem Verwendungsfall wiederzugeben.
+Hier unterteilen wir jeden Tag in verschiedene Zeiträume, sodass der Kanal-Inhalt gemäß der angegebenen Tageszeit abgespielt wird. Legen Sie die folgenden Eigenschaften des Zeitplans für die Wiederkehrung fest, damit der Kanal den Inhalt gemäß diesem Verwendungsfall wiedergeben kann.
 
 | **Name** | **Wiederholen** | **Anfang** | **Ende** |
 |---|---|---|---|
