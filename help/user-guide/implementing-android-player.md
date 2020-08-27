@@ -10,11 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
-translation-type: ht
-source-git-commit: db3429d93833ec22ba60732c45da274830692b39
-workflow-type: ht
-source-wordcount: '678'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 319a80a7fe3d68cbc16108eb302def390b445838
+workflow-type: tm+mt
+source-wordcount: '740'
+ht-degree: 92%
 
 ---
 
@@ -29,11 +29,28 @@ Außerdem ist **Watchdog** eine Lösung zur Wiederherstellung des Players nach A
 
 Installieren Sie Android-Player für AEM Screens, um den Android-Player für AEM Screens zu implementieren.
 
-Rufen Sie die Seite [**AEM 6.5 Player-Downloads **](https://download.macromedia.com/screens/)auf.
+Rufen Sie die Seite [**AEM 6.5 Player-Downloads**](https://download.macromedia.com/screens/) auf.
+
+### Einrichten der Umgebung für AEM Screens 6.5.5 Feature Pack und höher {#fp-environment-setup}
+
+Wenn Sie AEM Screens 6.5.5 Feature Pack verwenden, müssen Sie eine Umgebung für den Android-Player einrichten.
+
+Führen Sie dazu folgende Schritte durch:
+
+1. Navigate to **Adobe Experience Manager Web Console
+Configuration** using `http://localhost:4502/system/console/configMgr`.
+
+1. Suchen Sie nach *Adobe Granite Token Authentication Handler*.
+
+1. Legen Sie das **Attribut SameSite für die Cookies** login-token von **Lax** auf **None**fest.
+   ![image](/help/user-guide/assets/granite-updates.png)
+
+1. Klicken Sie auf **Speichern**.
+
 
 ### Ad-hoc-Methode {#ad-hoc-method}
 
-Mit der Ad-hoc-Methode können Sie den aktuellen Android-Player (*.exe*) installieren. Rufen Sie die Seite [**AEM 6.5 Player-Downloads **](https://download.macromedia.com/screens/)auf.
+Mit der Ad-hoc-Methode können Sie den aktuellen Android-Player (*.exe*) installieren. Rufen Sie die Seite [**AEM 6.5 Player-Downloads**](https://download.macromedia.com/screens/) auf.
 
 Nachdem Sie die Anwendung heruntergeladen haben, führen Sie die Schritte im Player aus, um die Ad-hoc-Installation abzuschließen:
 
