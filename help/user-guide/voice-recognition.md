@@ -2,9 +2,9 @@
 title: Spracherkennung in AEM Screens
 description: Auf der Seite werden die Spracherkennungsfunktionen in AEM Screens beschrieben.
 translation-type: tm+mt
-source-git-commit: f5d80f3765993277c552b64685d12244658915bb
+source-git-commit: 8a44e92408ff02b3d0b9e0a0e55de73c54a1afcd
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1570'
 ht-degree: 12%
 
 ---
@@ -279,7 +279,12 @@ Nach Abschluss der obigen Schritte können Sie Ihr Chrome-Gerät registrieren, u
 
 Dieses Beispiel zeigt die Ausgabe auf einem Chrome Player.
 
-Der **Main** -Kanal spielt seinen Inhalt ab, aber wenn Sie Wörter mit Stichwörtern **heiß** und **kalt** zusammen verwenden, wie *ich möchte, dass das Menü für warme und kalte Getränke* angezeigt wird, spielen die Kanal Beginn den Inhalt des **SplitScreen** -Kanals.
+Der **Main** -Kanal spielt seinen Inhalt ab, aber wenn Sie Wörter mit Stichwörtern **heiß** und **kalt** zusammen verwenden, wie *ich möchte, dass das Menü für warme und kalte Getränke* angezeigt wird, spielen die Kanal Beginn den Inhalt des **SplitScreen** -Kanals. Wenn Sie *zum Hauptmenü* zurückkehren, wird der Kanal wieder angezeigt.
+
+![newimage](assets/voice-recognition/vr-video-2.gif)
+
+
+
 
 
 
