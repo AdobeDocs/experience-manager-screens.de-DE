@@ -2,10 +2,10 @@
 title: Spracherkennung in AEM Screens
 description: Auf der Seite werden die Spracherkennungsfunktionen in AEM Screens beschrieben.
 translation-type: tm+mt
-source-git-commit: 1063f1ab19344ceacfba6b53ad5cf32901c3843d
+source-git-commit: 99e775cf2aca779c3223e96d05f1e0c9784a9821
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 10%
+source-wordcount: '1581'
+ht-degree: 12%
 
 ---
 
@@ -21,7 +21,6 @@ ht-degree: 10%
 >Weitere Informationen finden Sie im Whitepaper zum Datenschutz von [Google über die Web-Sprach-API](https://www.google.com/chrome/privacy/whitepaper.html#speech) .
 
 
-## Übersicht {#overview}
 
 Die Spracherkennungsfunktion ermöglicht die Inhaltsänderung in einem AEM Screens-Kanal, der durch Sprachinteraktionen gesteuert wird.
 
@@ -39,14 +38,12 @@ Um die Spracherkennung in Ihrem AEM Screens-Projekt zu implementieren, müssen S
 
 Im folgenden Abschnitt wird beschrieben, wie Sie die Spracherkennungsfunktion in einem AEM Screens-Projekt aktivieren und verwenden können.
 
-### Einrichten des Projekts {#setting-up}
-
 Sie können Ihr Projekt entweder mit den beiden folgenden Vorlagen einrichten:
 
 * [Sequenzkanal](#sequence-channel)
 * [Kanal &quot;Teilungsbildschirme&quot;](#split-channel)
 
-#### Verwenden von Sequence Kanal als Vorlage {#sequence-channel}
+## Verwenden von Sequence Kanal als Vorlage {#sequence-channel}
 
 Bevor Sie die Spracherkennungsfunktion verwenden, stellen Sie sicher, dass Sie über ein Projekt und einen Kanal mit Inhalten verfügen, die für Ihr Projekt eingerichtet wurden.
 
@@ -73,33 +70,6 @@ Bevor Sie die Spracherkennungsfunktion verwenden, stellen Sie sicher, dass Sie �
    **HotDrinks**:
 
    ![image](assets/voice-recognition/vr-2.png)
-
-#### Verwenden des Kanals &quot;Bildschirme teilen&quot;als Vorlage {#split-channel}
-
-Bevor Sie die Spracherkennungsfunktion verwenden, stellen Sie sicher, dass Sie über ein Projekt und einen Kanal mit Inhalten verfügen, die für Ihr Projekt eingerichtet wurden.
-
-1. Im folgenden Beispiel wird ein Demoprojekt mit dem Namen **VoiceDemo** und drei Kanälen **Main**, **ColdDrinks** und **HotDrinks**, **SplitChannel** gezeigt, wie in der folgenden Abbildung dargestellt.
-
-
-
-   >[!NOTE]
-   >
-   >Informationen zum Erstellen eines Kanals oder Hinzufügen von Inhalten zu einem Kanal finden Sie unter [Erstellen und Verwalten von Kanälen](/help/user-guide/managing-channels.md)
-
-1. Navigieren Sie zu jedem Kanal und fügen Sie Inhalt hinzu. Navigieren Sie beispielsweise zu **VoiceDemo** —> **Kanal** —> **Main** und wählen Sie den Kanal aus. Klicken Sie in der Aktionsleiste auf &quot; **Bearbeiten** &quot;, um den Editor zu öffnen und den gewünschten Inhalt (Bilder/Videos) hinzuzufügen. Fügen Sie auf ähnliche Weise Inhalt zu **ColdDrinks** - und **HotDrinks** -Kanälen hinzu.
-
-   Die Kanäle enthalten jetzt Assets (Bilder), wie in den folgenden Abbildungen dargestellt.
-
-   **Allgemein**:
-
-
-
-   **ColdDrinks**:
-
-
-   **HotDrinks**:
-
-1. Navigieren Sie zu **SplitChannel** und fügen Sie Inhalte hinzu. Ziehen Sie zwei eingebettete Sequenzen per Drag &amp; Drop und fügen Sie dem Kanal &quot; **ColdDrinks** &quot;und &quot; **HotDrinks** &quot;Pfad hinzu, wie in der Abbildung unten dargestellt.
 
 
 ### Setting up Tags for Channels {#setting-tags}
@@ -132,7 +102,7 @@ Fügen Sie entsprechend dem Kanal **HotDrinks** das Tag **hot** hinzu.
 
 Wenn Sie einen Kanal für geteilte Bildschirme als Vorlage verwenden, stellen Sie sicher, dass Sie die beiden Tags (**hot** und **old**) zu den Eigenschaften Ihres Kanals hinzufügen.
 
-#### Erstellen von Tags {#creating-tags}
+### Erstellen von Tags {#creating-tags}
 
 Gehen Sie wie folgt vor, um Tags zu erstellen:
 
@@ -191,8 +161,6 @@ Nach Abschluss der obigen Schritte können Sie Ihr Chrome-Gerät registrieren, u
 
 Dieses Beispiel zeigt die Ausgabe auf einem Chrome Player.
 
-#### Für sequenziellen Kanal {#sequential-output}
-
 Der **Main** Kanal spielt seinen Inhalt, aber wenn Sie Wörter mit Suchbegriff **heiß** , wie *ich möchte ein warmes Getränk*, den Kanal Beginn spielen den Inhalt des **HotDrinks** Kanal.
 
 Ebenso, wenn Sie Wörter mit einem Suchbegriff **kalt** , wie *ich gerne hätte etwas kalt*, der Kanal Beginn spielen den Inhalt des **ColdDrinks** Kanal.
@@ -200,12 +168,117 @@ Ebenso, wenn Sie Wörter mit einem Suchbegriff **kalt** , wie *ich gerne hätte 
 ![newimage](assets/voice-recognition/voice-video.gif)
 
 
-#### Kanal für geteilte Bildschirme {#split-screen-output}
+## Verwenden des Kanals &quot;Bildschirme teilen&quot;als Vorlage {#split-channel}
+
+Bevor Sie die Spracherkennungsfunktion verwenden, stellen Sie sicher, dass Sie über ein Projekt und einen Kanal mit Inhalten verfügen, die für Ihr Projekt eingerichtet wurden.
+
+1. Im folgenden Beispiel werden ein Demoprojekt mit dem Namen **VoiceDemo** und drei Kanal **Main**, **ColdDrinks** und **HotDrinks** sowie ein 1x2 Split Screen Kanal **SplitScreen** gezeigt, wie in der folgenden Abbildung dargestellt.
+
+   ![image](assets/voice-recognition/vr-emb-1.png)
+
+   >[!NOTE]
+   >
+   >Informationen zum Erstellen eines Kanals oder Hinzufügen von Inhalten zu einem Kanal finden Sie unter [Erstellen und Verwalten von Kanälen](/help/user-guide/managing-channels.md)
+
+1. Navigieren Sie zu jedem Kanal und fügen Sie Inhalt hinzu. Navigieren Sie beispielsweise zu **VoiceDemo** —> **Kanal** —> **Main** und wählen Sie den Kanal aus. Klicken Sie in der Aktionsleiste auf &quot; **Bearbeiten** &quot;, um den Editor zu öffnen und den gewünschten Inhalt (Bilder/Videos) hinzuzufügen. Fügen Sie auf ähnliche Weise Inhalt zu **ColdDrinks** - und **HotDrinks** -Kanälen hinzu.
+
+   Die Kanäle enthalten jetzt Assets (Bilder), wie in den folgenden Abbildungen dargestellt.
+
+   **Allgemein**:
+
+   ![image](assets/voice-recognition/vr-emb-3.png)
 
 
-Der **Main** Kanal spielt seinen Inhalt, aber wenn Sie Wörter mit Suchbegriff **heiß** , wie *ich möchte ein warmes Getränk*, den Kanal Beginn spielen den Inhalt des **HotDrinks** Kanal.
+   **ColdDrinks**:
+   ![image](assets/voice-recognition/vr-3.png)
 
-Ebenso, wenn Sie Wörter mit einem Suchbegriff **kalt** , wie *ich gerne hätte etwas kalt*, der Kanal Beginn spielen den Inhalt des **ColdDrinks** Kanal.
+   **HotDrinks**:
+
+   ![image](assets/voice-recognition/vr-2.png)
+
+1. Navigieren Sie zu **SplitScreen** , ziehen Sie zwei eingebettete Sequenzen per Drag &amp; Drop und fügen Sie Pfade zum Kanal **ColdDrinks** und **HotDrinks** hinzu, wie in der Abbildung unten dargestellt.
+   ![image](assets/voice-recognition/vr-emb-6.png)
+
+
+### Setting up Tags for Channels {#setting-tags-split}
+
+Nachdem Sie Ihren Kanälen Inhalte hinzugefügt haben, müssen Sie zu jedem der Kanal navigieren und entsprechende Tags hinzufügen, die die Spracherkennung auslösen würden.
+
+Gehen Sie wie folgt vor, um Ihrem Kanal Tags hinzuzufügen:
+
+1. Navigieren Sie zu jedem Kanal und fügen Sie Inhalt hinzu. Navigieren Sie beispielsweise zu **VoiceDemo** —> **Kanal** —> **Main** und wählen Sie den Kanal aus.
+
+1. Klicken Sie in der Aktionsleiste auf **Eigenschaften**.
+
+   ![image](assets/voice-recognition/vr-5.png)
+
+1. Navigieren Sie zur Registerkarte &quot; **Grundlagen** &quot;und wählen Sie im Feld &quot; **Tags** &quot;ein bereits vorhandenes Tag aus oder erstellen Sie ein neues.
+
+   Sie können entweder ein neues Tag erstellen, indem Sie einen neuen Namen für das Tag eingeben und die `return` Eingabetaste drücken, wie in der folgenden Abbildung gezeigt:
+
+   ![image](assets/voice-recognition/vr-6.png)
+
+   Oder
+
+   Sie können Tags aus Ihrer AEM-Instanz im Voraus für Ihr Projekt erstellen und auch diese auswählen. Nachdem Sie die unter [Erstellen von Tags](#creating-tags)erläuterten Schritte ausgeführt haben, können Sie das Tag an der gewünschten Stelle auswählen und dem Kanal hinzufügen, wie in der folgenden Abbildung dargestellt:
+
+   ![image](assets/voice-recognition/vr-tag1.png)
+
+1. Fügen Sie entsprechend dem Kanal **HotDrinks** das Tag **hot** hinzu.
+
+1. hinzufügen Sie die Tags (**hot** und **old**) mit den Eigenschaften des **SplitScreen-Kanals** .
+
+   ![image](assets/voice-recognition/vr-emb-7.png)
+
+
+1. Klicken Sie auf **Speichern &amp; Schließen** , sobald Sie fertig sind.
+
+### Zuweisen von Kanal zu einer Anzeige und Aktivieren der Spracherkennung {#channel-assignment-split}
+
+1. Erstellen Sie eine Anzeige im Ordner **Standorte**, wie in der Abbildung unten dargestellt.
+
+   ![image](assets/voice-recognition/vr-loc.png)
+
+   >[!NOTE]
+   >Informationen zum Zuweisen eines Kanals zu einer Anzeige finden Sie unter [Erstellen und Verwalten von Anzeigen](/help/user-guide/managing-displays.md).
+
+1. Weisen Sie die Kanal **Main**, **ColdDrinks**, **HotDrinks** und **SplitScreen** Ihrem **Lobby** -Display zu.
+
+1. Legen Sie beim Zuweisen des Kanals für jeden Kanal die folgenden Eigenschaften fest.
+
+   | **Kanalname** | **Priorität** | **Unterstützte Ereignisse** |
+   |---|---|---|
+   | Allgemein | 2 | Initial Load, Idle Screen, Timer |
+   | HotDrinks | 1 | Benutzerinteraktion |
+   | ColdDrinks | 1 | Benutzerinteraktion |
+   | SplitScreen | 1 | Benutzerinteraktion |
+
+   >[!NOTE]
+   >
+   >Informationen zum Zuweisen eines Kanals zu einer Anzeige finden Sie unter [Erstellen und Verwalten von Anzeigen](/help/user-guide/managing-displays.md).
+
+1. Nachdem Sie einer Anzeige Kanal zugewiesen haben, navigieren Sie zur **Lobby** -Anzeige und wählen Sie die Anzeige aus. Wählen Sie in der Aktionsleiste &quot; **Eigenschaften** &quot;aus.
+
+1. Navigieren Sie zur Registerkarte **Anzeige** und aktivieren Sie die Option **Sprachaktivierung** unter **Inhalt**.
+
+   ![image](assets/voice-recognition/vr-disp.png)
+
+   >[!IMPORTANT]
+   >Die Spracherkennungsfunktion muss auf der Anzeige aktiviert werden.
+
+
+### Anzeigen des Inhalts im Chrome Player {#viewing-content-split}
+
+Nach Abschluss der obigen Schritte können Sie Ihr Chrome-Gerät registrieren, um die Ausgabe Ansicht.
+
+>[!NOTE]
+>Informationen zum Registrieren eines Geräts auf einem AEM Screens-Player finden Sie unter [Geräteregistrierung](device-registration.md) .
+
+Dieses Beispiel zeigt die Ausgabe auf einem Chrome Player.
+
+Der **Main** Kanal spielt seinen Inhalt, aber wenn Sie Wörter mit Stichwörtern **heiß** und **kalt** zusammen verwenden, wie *ich möchte, dass das Menü für warme und kalte Getränke* sehen, die Kanal Beginn spielen den Inhalt des **SplitScreens** Kanals.
+
+
 
 
 
