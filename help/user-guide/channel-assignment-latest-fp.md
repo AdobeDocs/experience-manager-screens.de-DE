@@ -3,9 +3,9 @@ title: Zuweisung von Kanälen - neueste RP
 seo-title: Zuweisung von Kanälen - neueste RP
 description: Folgen Sie dieser Seite, um mehr über die Zuweisung von Kanälen und die Tagesaufteilung zu erfahren.
 translation-type: tm+mt
-source-git-commit: b29b67374f29148ef661de356f479e9aa5e40cfd
+source-git-commit: 2c469a8c74f496fbd9da796a5f471636e71ffc8c
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1480'
 ht-degree: 45%
 
 ---
@@ -80,8 +80,8 @@ Nachdem Sie das Projekt abgeschlossen haben, müssen Sie den Kanal einer Anzeige
    >[!NOTE]
    >Weitere Informationen zu den Eigenschaften von Kanälen finden Sie im Abschnitt [Kanal-Eigenschaften](#channel-properties) .
 
-1. Wählen Sie unter **Zeitpläne** die Option **Referenz-Zeitzone**, **Aktivierung-Fenster** und **Zeitplan**für Wiederholungen aus.
-   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
+1. Wählen Sie unter der Option **Plan** die **Referenz-Zeitzone**, das Fenster **Aktivierung** und den Zeitplan **für die**Wiederholung aus.
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >Weitere Informationen zu den Eigenschaften von Kanälen finden Sie im Abschnitt [Kanal-Eigenschaften](#channel-properties) .
@@ -152,6 +152,7 @@ Wählen Sie eine der folgenden Optionen aus, die zum Festlegen der Unterbrechung
 
 Die folgenden Eigenschaften werden über die Option &quot; **Plan** &quot;im Dialogfeld &quot; **Kanal-Zuweisung** &quot;festgelegt.
 
+
 #### Referenzzeitzone {#reference-timezone}
 
 Mit der Referenz-Zeitzone können Sie die Zeitzone für die Inhaltsanzeige auswählen.
@@ -163,6 +164,9 @@ Im Fenster &quot;Aktivierung&quot;können Sie ein **Beginn-Datum** und ein **End
 #### Intervallzeitplan {#recurrence-schedule}
 
 Mit dem Zeitplan für die Wiederholung können Sie einen Zeitplan für Ihre Inhalte festlegen. Klicken Sie auf **+ Hinzufügen Plan** , um Ihrem Kanal einen Zeitplan für eine Wiederholung hinzuzufügen.
+
+![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
+
 
 >[!NOTE]
 >Sie können Ihrem Kanal mehrere wiederkehrende Zeitpläne hinzufügen.
@@ -204,25 +208,9 @@ Dieses Beispiel zeigt die DayParting in einem Casino implementiert, in dem Live-
 | Wochenende | Wöchentlich | 20:00 | 22:00 |
 | Spezial | Täglich | 22:00 | 01:00 |
 
-**Wochenende**
-
-
-**Spezial**
-
-#### Anzeigen von Inhalten für einen bestimmten Monat oder mehrere Monate {#playing-content-for-a-particular-month-months}
-
-Dieses Beispiel zeigt die DayParting-Funktion für einen Store, in dem die Sommersammlung von Juni bis August und die Herbstsammlung von September bis Ende Oktober angezeigt werden.
-
-Hier erstellen Sie die DayParting-Funktion wie pro Monat, sodass der Kanal-Inhalt gemäß den angegebenen Jahresmonaten abgespielt wird.
-
-
 >[!NOTE]
 >
 >Darüber hinaus können Sie für jeden Kanal die ***Priorität*** festlegen. Wenn beispielsweise zwei Kanäle für denselben Tag und dieselbe Uhrzeit oder für denselben Monat festgelegt sind, wird der Kanal mit höherer Priorität zuerst gezeigt. Der Mindestwert für die Priorität beträgt 0.
-
-#### Anzeigen von Inhalt für Kanäle derselben Priorität           {#playing-content-for-channels-with-same-priority}
-
-Dieses Beispiel zeigt die DayParting-Funktion für einen Store, der seine Wintersammlung mit demselben Zeitplan im Dezember anzeigt. Doch da die Priorität von Kanal B in dieser Woche 2 beträgt, wird der Inhalt von Kanal B anstelle des Inhalts von Kanal A gezeigt.
 
 ## Timeline View {#timeline-view}
 
@@ -230,5 +218,16 @@ Nachdem Sie einen Kanal einer Anzeige zugewiesen und einen Wiederholungsplan ein
 
 Gehen Sie wie folgt vor, um zur Ansicht der Zeitschiene zu navigieren:
 
+1. Navigate to the required display, for example, **DemoScreens** --> **Locations** --> **SanJose** --> **Lobby**.
+
+1. Tap/click **Assign Channel** from the action bar.
+
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
+
+   Oder
+
+   Tippen/klicken Sie auf **Dashboard** und klicken Sie im Bedienfeld &quot; **ZUGEWIESENE KANAL und GEPLANTE** &quot;auf **Zeitschiene** .
+
+1. Ausstehende Bilder (zu korrigieren)
 
 
