@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
-translation-type: ht
-source-git-commit: bca6dc0f6a022a4a9005053320e5047b9321270d
-workflow-type: ht
-source-wordcount: '766'
+translation-type: tm+mt
+source-git-commit: acc0278631a4be2c90de7cc43d3b40a358ffa93e
+workflow-type: tm+mt
+source-wordcount: '750'
 ht-degree: 100%
 
 ---
@@ -72,25 +72,24 @@ Die folgenden wichtigen Punkte bieten Hilfestellung beim Konfigurieren von AEM-S
 
 1. Navigieren Sie zur **Konfiguration der Adobe Experience Manager-Web-Konsole** über AEM-Instanz > Hammersymbol > **Vorgänge** > **Web-Konsole**.
 
-   ![screen_shot_2019-07-31at91253am](assets/screen_shot_2019-07-31at91253am.png)
+   ![image](assets/config/empty-ref1.png)
 
 1. Die **Konfiguration der Adobe Experience Manager-Web-Konsole** wird geöffnet. Suchen Sie nach „sling referrer“.
 
    Um nach der Eigenschaft „sling referrer“ zu suchen, drücken Sie **Befehl+F** für **Mac** und **Strg+F** für **Windows**.
 
-   ![screen_shot_2019-07-31at91728am](assets/screen_shot_2019-07-31at91728am.png)
-
 1. Markieren Sie die Option **Leere erlauben**, wie in der folgenden Abbildung dargestellt.
 
-   ![screen_shot_2019-07-31at91807am](assets/screen_shot_2019-07-31at91807am.png)
+   ![image](assets/config/empty-ref2.png)
 
 1. Klicken Sie auf **Speichern**, um den Apache Sling Referrer-Filter „Leere erlauben“ zu aktivieren.
+
 
 #### Apache Felix Jetty-basierter HTTP-Dienst {#allow-apache-felix-service}
 
 1. Navigieren Sie zur **Konfiguration der Adobe Experience Manager-Web-Konsole** über AEM-Instanz > Hammersymbol > **Vorgänge** > **Web-Konsole**.
 
-   ![screen_shot_2019-07-31at91253am](assets/screen_shot_2019-07-31at91253am.png)
+   ![image](assets/config/empty-ref1.png)
 
 1. Die **Konfiguration der Adobe Experience Manager-Web-Konsole** wird geöffnet. Suchen Sie nach „Apache Felix Jetty-basierter HTTP-Dienst“.
 
@@ -98,7 +97,7 @@ Die folgenden wichtigen Punkte bieten Hilfestellung beim Konfigurieren von AEM-S
 
 1. Markieren Sie die Option **HTTP AKTIVIEREN**, wie in der folgenden Abbildung dargestellt.
 
-   ![screen_shot_2019-07-31at91807am](assets/http-image.png)
+   ![image](assets/config/config-1.png)
 
 1. Klicken Sie auf **Speichern**, um den *HTTP*-Dienst zu aktivieren.
 
