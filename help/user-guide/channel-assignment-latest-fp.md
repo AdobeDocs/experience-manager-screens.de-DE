@@ -3,9 +3,9 @@ title: Zuweisung von Kanälen - neueste RP
 seo-title: Zuweisung von Kanälen - neueste RP
 description: Folgen Sie dieser Seite, um mehr über die Zuweisung von Kanälen und die Tagesaufteilung zu erfahren.
 translation-type: tm+mt
-source-git-commit: 2c469a8c74f496fbd9da796a5f471636e71ffc8c
+source-git-commit: f5d80f3765993277c552b64685d12244658915bb
 workflow-type: tm+mt
-source-wordcount: '1480'
+source-wordcount: '1488'
 ht-degree: 45%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 45%
 
 Nachdem Sie eine Anzeige eingerichtet haben, müssen Sie einem Display einen Kanal zuweisen, um den Inhalt Ansicht.
 
-Diese Seite zeigt, wie Sie Ihrem Display einen Kanal zuweisen.
+Diese Seite zeigt Ihnen, wie Sie Ihrer Anzeige einen Kanal zuweisen, wie Sie die Eigenschaften des Kanals und DayParting verstehen.
 
 >[!NOTE]
 >Sie können einer Anzeige mehrere Kanal zuweisen.
@@ -55,7 +55,7 @@ Gehen Sie wie folgt vor, um ein Projekt und einen Kanal einzurichten:
 
 ### Assigning Channel to a Display {#assigning-channel-to-display}
 
-Nachdem Sie das Projekt abgeschlossen haben, müssen Sie den Kanal einer Anzeige zuweisen, um den Inhalt Ansicht.
+Nachdem das Projekt eingerichtet wurde, müssen Sie den Kanal einer Anzeige zuweisen, um den Inhalt Ansicht.
 
 1. Navigate to the required display, for example, **DemoScreens** --> **Locations** --> **SanJose** --> **Lobby**.
 
@@ -65,7 +65,7 @@ Nachdem Sie das Projekt abgeschlossen haben, müssen Sie den Kanal einer Anzeige
 
    Oder
 
-   Tippen/klicken Sie auf **Dashboard** und klicken Sie im Bedienfeld &quot; **ZUGEWIESENE KANAL &amp; GEPLANTE** &quot;auf **+Kanal** zuweisen.
+   Tippen/klicken Sie in der Aktionsleiste auf **Dashboard** und klicken Sie auf **+Kanal** zuweisen im Bedienfeld **ZUGEWIESENE KANAL &amp; GEPLANTE** .
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
@@ -73,7 +73,7 @@ Nachdem Sie das Projekt abgeschlossen haben, müssen Sie den Kanal einer Anzeige
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-1. Unter **Einstellungen** können Sie den Kanal nach Pfad oder Namen auswählen, die **Kanal-Rolle**, **Priorität**, **unterstützte Ereignis** und **Unterbrechungsmethoden** eingeben. Darüber hinaus können Sie die QuickInfo **für** Zugreifen in diesem Dialogfeld aktivieren.
+1. Wählen Sie unter &quot; **Einstellungen** &quot;den Kanal **nach Pfad** oder **nach Namen** aus, geben Sie die Optionen **Kanal Rolle**, **Priorität**********,Unterstützte EreignisundUnterbrechungsmethoden ein. Darüber hinaus können Sie die QuickInfo der Attraktion in diesem Dialogfeld aktivieren.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
@@ -98,13 +98,31 @@ Sie werden die folgende Ausgabe auf Ihrem Player-Ansicht:
 
 ![new1](assets/channel-assignment/channel-assign-output.gif)
 
-### Understanding Channel Properties from Channel Assignment Dialog Box {#channel-properties}
+## Timeline View {#timeline-view}
+
+Nachdem Sie einen Kanal einer Anzeige zugewiesen und einen Wiederholungsplan eingerichtet haben, können Sie die Zeitschiene im Bedienfeld &quot; **ZUGEWIESENE KANAL &amp; ZEITPLAN** &quot;Ansicht haben.
+
+Gehen Sie wie folgt vor, um zur Ansicht der Zeitschiene zu navigieren:
+
+1. Navigate to the required display, for example, **DemoScreens** --> **Locations** --> **SanJose** --> **Lobby**.
+
+1. Tap/click **Assign Channel** from the action bar.
+
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
+
+   Oder
+
+   Tippen/klicken Sie auf **Dashboard** und klicken Sie im Bedienfeld &quot; **ZUGEWIESENE KANAL und GEPLANTE** &quot;auf **Zeitschiene** .
+
+1. Ausstehende Bilder (zu korrigieren)
+
+## Understanding Channel Properties from Channel Assignment Dialog Box {#channel-properties}
 
 Die folgenden Eigenschaften werden über die Option **Einstellungen** im Dialogfeld &quot; **Kanal-Zuweisung** &quot;festgelegt.
 
 ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-#### Kanal auswählen {#select-channel}
+### Kanal auswählen {#select-channel}
 
 Wenn Sie einen Kanal auswählen, können Sie einen Verweis auf den gewünschten Kanal entweder nach dem Kanal oder nach dem Kanal-Pfad angeben.
 
@@ -112,25 +130,25 @@ Wenn Sie einen Kanal auswählen, können Sie einen Verweis auf den gewünschten 
 
 * **nach Name**: Sie geben den Namen des Kanals ein, der entsprechend dem Kontext zu einem tatsächlichen Kanal führt. Mit dieser Funktion können Sie eine lokale Version eines Kanals erstellen, um standortspezifischen Inhalt dynamisch aufzulösen. Beispiel: ein Kanal mit dem Namen *Tagesangebote*, bei dem der eigentliche Inhalt in zwei Städten zwar unterschiedlich ist, aber bei allen Anzeigen dieselbe Kanalrolle vorhanden ist.
 
-#### Kanalrolle {#role-channel}
+### Kanalrolle {#role-channel}
 
 In „Kanalrolle“ wird der Kontext der Anzeige definiert. Die Rolle kann durch verschiedene Aktionen festgelegt werden und ist unabhängig vom eigentlichen Kanal, der der Rolle entspricht.
 
-#### Priorität {#priority-channel}
+### Priorität {#priority-channel}
 
 Mit „Priorität“ können Zuweisungen geordnet werden, falls mehrere die Wiedergabekriterien erfüllen. Höhere Werte haben stets Vorrang vor niedrigeren Werten. Wenn es beispielsweise die beiden Kanäle A und B gibt und A eine Priorität von 1 und B eine Priorität von 2 hat, wird Kanal B angezeigt, da er eine höhere Priorität als A hat.
 
 >[!NOTE]
 >Die Priorität eines Kanals wird als Zahl (1 für Minimum) im Dialogfeld **Kanalzuweisung** festgelegt, wie oben angegeben. Darüber hinaus werden die zugewiesenen Kanäle nach absteigender Priorität sortiert.
 
-#### Unterstützte Ereignisse {#supported-events-channel}
+### Unterstützte Ereignisse {#supported-events-channel}
 
 * **Erster Ladevorgang**: Lädt den Kanal, wenn der Player gestartet wird. Dies kann in Kombination mit einem Zeitplan mehreren Kanälen zugewiesen werden.
 * **Bildschirm bei Untätigkeit**: Lädt, wenn der Bildschirm inaktiv ist. Dies kann in Kombination mit einem Zeitplan mehreren Kanälen zugewiesen werden.
 * **Timer**: Muss eingestellt werden, wenn ein Zeitplan vorhanden ist
 * **Benutzerinteraktion**: Der Player wechselt in den angegebenen Kanal, wenn in einem inaktiven Kanal auf dem Bildschirm (Touch) eine Benutzerinteraktion stattfindet, und wird geladen, wenn der Bildschirm berührt wird.
 
-#### Unterbrechungsmethode {#interruption-method-channel}
+### Unterbrechungsmethode {#interruption-method-channel}
 
 >[!IMPORTANT]
 >
@@ -152,16 +170,15 @@ Wählen Sie eine der folgenden Optionen aus, die zum Festlegen der Unterbrechung
 
 Die folgenden Eigenschaften werden über die Option &quot; **Plan** &quot;im Dialogfeld &quot; **Kanal-Zuweisung** &quot;festgelegt.
 
-
-#### Referenzzeitzone {#reference-timezone}
+### Referenzzeitzone {#reference-timezone}
 
 Mit der Referenz-Zeitzone können Sie die Zeitzone für die Inhaltsanzeige auswählen.
 
-#### Aktivierungsfenster {#activation-window}
+### Aktivierungsfenster {#activation-window}
 
 Im Fenster &quot;Aktivierung&quot;können Sie ein **Beginn-Datum** und ein **Enddatum** zur Inhaltsanzeige auswählen.
 
-#### Intervallzeitplan {#recurrence-schedule}
+### Intervallzeitplan {#recurrence-schedule}
 
 Mit dem Zeitplan für die Wiederholung können Sie einen Zeitplan für Ihre Inhalte festlegen. Klicken Sie auf **+ Hinzufügen Plan** , um Ihrem Kanal einen Zeitplan für eine Wiederholung hinzuzufügen.
 
@@ -211,23 +228,4 @@ Dieses Beispiel zeigt die DayParting in einem Casino implementiert, in dem Live-
 >[!NOTE]
 >
 >Darüber hinaus können Sie für jeden Kanal die ***Priorität*** festlegen. Wenn beispielsweise zwei Kanäle für denselben Tag und dieselbe Uhrzeit oder für denselben Monat festgelegt sind, wird der Kanal mit höherer Priorität zuerst gezeigt. Der Mindestwert für die Priorität beträgt 0.
-
-## Timeline View {#timeline-view}
-
-Nachdem Sie einen Kanal einer Anzeige zugewiesen und einen Wiederholungsplan eingerichtet haben, können Sie die Zeitschiene im Bedienfeld &quot; **ZUGEWIESENE KANAL &amp; ZEITPLAN** &quot;Ansicht haben.
-
-Gehen Sie wie folgt vor, um zur Ansicht der Zeitschiene zu navigieren:
-
-1. Navigate to the required display, for example, **DemoScreens** --> **Locations** --> **SanJose** --> **Lobby**.
-
-1. Tap/click **Assign Channel** from the action bar.
-
-   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
-
-   Oder
-
-   Tippen/klicken Sie auf **Dashboard** und klicken Sie im Bedienfeld &quot; **ZUGEWIESENE KANAL und GEPLANTE** &quot;auf **Zeitschiene** .
-
-1. Ausstehende Bilder (zu korrigieren)
-
 
