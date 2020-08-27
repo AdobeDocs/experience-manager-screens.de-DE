@@ -2,10 +2,10 @@
 title: Versionshinweise für Feature Pack 202008
 description: Auf der Seite werden die Versionshinweise für Feature Pack 2008 beschrieben.
 translation-type: tm+mt
-source-git-commit: 7f9f72f31d866f142bc9bf11d021583905ee82ea
+source-git-commit: a1c49a0fcee96dede79e4cad6a2444473baa57a5
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 35%
+source-wordcount: '299'
+ht-degree: 32%
 
 ---
 
@@ -57,6 +57,9 @@ Die folgenden AEM Screens Player sind für AEM Screens veröffentlicht AEM 6.5 F
 * ChromeOS
 * Windows
 * Android
+
+>[!IMPORTANT]
+>Wenn Sie AEM Service Pack 6.5.5 installiert haben, treten möglicherweise Replikationsprobleme in Ihren Screens-Playern auf. Installieren Sie [cq-ui-wcm-commons-content-1.1.154](/help/user-guide/assets/cq-ui-wcm-commons-content-1.1.154.zip) , um das Problem zu beheben.
 
 #### AEM Screens-Player-Downloads {#aem-screens-player-downloads}
 
