@@ -10,11 +10,11 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
-translation-type: ht
-source-git-commit: db3429d93833ec22ba60732c45da274830692b39
-workflow-type: ht
-source-wordcount: '878'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: a1c49a0fcee96dede79e4cad6a2444473baa57a5
+workflow-type: tm+mt
+source-wordcount: '941'
+ht-degree: 94%
 
 ---
 
@@ -27,11 +27,11 @@ Dieser Abschnitt beschreibt, wie der Windows 10 Player für AEM Screens konfigur
 
 Installieren Sie Windows Player für AEM Screens, um den Windows Player für AEM Screens zu implementieren.
 
-Rufen Sie die Seite [**AEM 6.5 Player-Downloads **](https://download.macromedia.com/screens/)auf.
+Rufen Sie die Seite [**AEM 6.5 Player-Downloads**](https://download.macromedia.com/screens/) auf.
 
 ### Ad-hoc-Methode {#ad-hoc-method}
 
-Mit der Ad-hoc-Methode können Sie den aktuellen Windows Player (*.exe*) installieren. Rufen Sie die Seite [**AEM 6.5 Player-Downloads **](https://download.macromedia.com/screens/)auf.
+Mit der Ad-hoc-Methode können Sie den aktuellen Windows Player (*.exe*) installieren. Rufen Sie die Seite [**AEM 6.5 Player-Downloads**](https://download.macromedia.com/screens/) auf.
 
 Nachdem Sie die Anwendung heruntergeladen haben, führen Sie die Schritte im Player aus, um die Ad-hoc-Installation abzuschließen:
 
@@ -105,7 +105,7 @@ Gehen Sie wie folgt vor, um den Kiosk-Modus zu aktivieren:
 
 1. Aktivieren Sie das Shell-Startprogramm.
 
-   Weitere Informationen finden Sie im Abschnitt ***Shell-Startprogramm konfigurieren*** auf der Seite **[Shell-Startprogramm](https://docs.microsoft.com/de-de/windows-hardware/customize/enterprise/shell-launcher)**des Microsoft Windows-Supports.
+   Weitere Informationen finden Sie im Abschnitt ***Shell-Startprogramm konfigurieren*** auf der Seite **[Shell-Startprogramm](https://docs.microsoft.com/de-de/windows-hardware/customize/enterprise/shell-launcher)** des Microsoft Windows-Supports.
 
 1. Erstellen Sie einen Benutzer ohne Administratorrechte (falls Sie noch keinen haben), der für Kiosk verwendet werden soll. Dabei kann es sich um einen lokalen Benutzer oder einen Domänenbenutzer handeln.
 1. Installieren Sie den Windows Player für diesen Kiosk-Benutzer von der Seite [AEM Screens-Player-Downloads](https://download.macromedia.com/screens/).
@@ -115,6 +115,22 @@ Gehen Sie wie folgt vor, um den Kiosk-Modus zu aktivieren:
 
 1. Führen Sie das PowerShell-Skript als Administrator aus.
 1. Starten Sie neu und melden Sie sich als Kiosk-Benutzer an. Die Player-Anwendung sollte sofort starten.
+
+### Einrichten der Umgebung für AEM Screens 6.5.5 Feature Pack und höher {#fp-environment-setup}
+
+Wenn Sie AEM Screens 6.5.5 Feature Pack verwenden, müssen Sie eine Umgebung für Windows Player einrichten.
+
+Führen Sie dazu folgende Schritte durch:
+
+1. Navigate to to **Adobe Experience Manager Web Console
+Configuration** using `http://localhost:4502/system/console/configMgr`.
+
+1. Suchen Sie nach *Adobe Granite Token Authentication Handler*.
+
+1. Legen Sie das **Attribut SameSite für die Cookies** login-token von **Lax** auf **None**fest.
+   ![image](/help/user-guide/assets/granite-updates.png)
+
+1. Klicken Sie auf **Speichern**.
 
 ### Fehlerbehebung {#troubleshooting}
 
