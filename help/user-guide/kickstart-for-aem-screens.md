@@ -2,52 +2,56 @@
 title: Schnellstartanleitung
 seo-title: Schnellstartanleitung
 description: Befolgen Sie die Anweisungen auf dieser Seite, um ein Demoprojekt für AEM Screens zu erstellen. Ein Demoprojekt unterstützt Sie beim Erstellen eines digitalen Beschilderungserlebnisses – von der Installation und Konfiguration eines neuen Projekts bis hin zum Anzeigen von Inhalten mit dem AEM Screens-Player.
-seo-description: Befolgen Sie die Anweisungen auf dieser Seite, um ein Demoprojekt für AEM Screens zu erstellen. Ein Demoprojekt unterstützt Sie beim Erstellen eines digitalen Beschilderungserlebnisses – von der Installation und Konfiguration eines neuen Projekts bis hin zum Anzeigen von Inhalten mit dem AEM Screens-Player.
-uuid: 587b6611-07a3-44b4-b888-9edf2ef4e12c
-contentOwner: Jyotika syal
-content-type: reference
-topic-tags: introduction
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-discoiquuid: 5ce1e0b9-1926-49dc-b4dd-44b649a3e710
-docset: aem65
-translation-type: ht
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+translation-type: tm+mt
+source-git-commit: 8ffa53c6ffb24ff80adfdce33a69a9d80e03bb75
+workflow-type: tm+mt
+source-wordcount: '1630'
+ht-degree: 98%
 
 ---
 
 
 # Schnellstartanleitung     {#kickstart-guide}
 
-Dieser Abschnitt ist eine Schnellstartanleitung für AEM Screens, in dem eine Reihe grundlegender Aktionen vorgestellt werden. Er erläutert, wie Sie ein einfaches Erlebnis für digitale Beschilderung mit Inhalten/Assets erstellen und in einem Screens-Player veröffentlichen. Detaillierte Informationen zu allen Komponenten für die Screens-Entwicklung finden Sie in den Ressourcen am Ende der Seite.
+Dieser Abschnitt ist eine Schnellstartanleitung für AEM Screens, in dem eine Reihe grundlegender Aktionen vorgestellt werden. Er erläutert, wie Sie ein einfaches Erlebnis für digitale Beschilderung mit Inhalten/Assets erstellen und in einem Screens-Player veröffentlichen.
 
 ## Erstellen eines Erlebnisses für digitale Beschilderungen in fünf Minuten {#creating-a-digital-signage-experience-in-minutes}
 
 Mit den nachfolgenden Schritten können Sie ein Beispielprojekt für Screens erstellen und Inhalte im Screens-Player veröffentlichen.
 
-1. Um einen **AEM Screens-Player** herunterzuladen, klicken Sie [hier](https://download.macromedia.com/screens/).
+Um einen **AEM Screens-Player** herunterzuladen, klicken Sie [hier](https://download.macromedia.com/screens/).
 
-   AEM Screens ist auch in **Google Play** verfügbar.
 
-   Informationen zur Implementierung des Players für Chrome OS finden Sie unter [Chrome Management Console](implementing-chrome-os-player.md).
+Informationen zur Implementierung des Players für Chrome OS finden Sie unter [Chrome Management Console](implementing-chrome-os-player.md).
 
-   Weitere Einzelheiten finden Sie unter [Installieren und Konfigurieren von Screens](configuring-screens-introduction.md).
+Weitere Informationen zum Installieren und Konfigurieren der Bildschirmplayer auf Ihren Geräten finden Sie unter Bildschirme [installieren und konfigurieren](configuring-screens-introduction.md) .
 
-   >[!NOTE]
-   >
-   >**OSGi-Einstellungen** 
-   >
-   >
-   >Sie müssen den leeren Referrer aktivieren, um dem Gerät das Bereitstellen von Daten auf dem Server zu erlauben. Wenn die Eigenschaft für den leeren Referrer deaktiviert ist, kann das Gerät keine Screenshots zurückgeben. Derzeit sind einige dieser Funktionen nur verfügbar, wenn der Apache Sling Referrer-Filter „Allow Empty“ in der OSGi-Konfiguration aktiviert ist. Im Dashboard wird ggf. eine Warnung angezeigt, dass einige dieser Funktionen aufgrund der Sicherheitseinstellungen nicht funktionieren.
-   >
-   >
-   >Führen Sie die nachfolgenden Schritte aus, um den ***Apache Sling Referrer-Filter „Allow Empty“***zu aktivieren:
-   >
-   >
-   >
-   >    1. Navigieren Sie zur **Konfiguration der Adobe Experience Manager-Web-Konsole**: `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
-   >    1. Aktivieren Sie die Option **allow.empty**.
-   >    1. Klicken Sie auf **Speichern**.
+>[!NOTE]
+>**OSGi-Einstellungen**
+>Sie müssen den leeren Referrer aktivieren, um dem Gerät das Bereitstellen von Daten auf dem Server zu erlauben. Wenn die Eigenschaft für den leeren Referrer deaktiviert ist, kann das Gerät keine Screenshots zurückgeben. Derzeit sind einige dieser Funktionen nur verfügbar, wenn der Apache Sling Referrer-Filter „Allow Empty“ in der OSGi-Konfiguration aktiviert ist. Im Dashboard wird ggf. eine Warnung angezeigt, dass einige dieser Funktionen aufgrund der Sicherheitseinstellungen nicht funktionieren.
+>
+>
+>Führen Sie die nachfolgenden Schritte aus, um den ***Apache Sling Referrer-Filter „Allow Empty“*** zu aktivieren:
 
+
+## Zulassen von leeren Referrer-Anforderungen {#allow-empty-referrer-requests}
+
+1. Navigieren Sie zur **Konfiguration der Adobe Experience Manager-Web-Konsole** über AEM-Instanz > Hammersymbol > **Vorgänge** > **Web-Konsole**.
+
+   ![image](assets/config/empty-ref1.png)
+
+1. Die **Konfiguration der Adobe Experience Manager-Web-Konsole** wird geöffnet. Suchen Sie nach „sling referrer“.
+
+   Um nach der Eigenschaft „sling referrer“ zu suchen, drücken Sie **Befehl+F** für **Mac** und **Strg+F** für **Windows**.
+
+1. Markieren Sie die Option **Leere erlauben**, wie in der folgenden Abbildung dargestellt.
+
+   ![image](assets/config/empty-ref2.png)
+
+1. Klicken Sie auf **Speichern**, um den Apache Sling Referrer-Filter „Leere erlauben“ zu aktivieren.
+
+
+## Tutorial {#tutorial}
 
 1. **Erstellen eines neuen Projekts**
 
@@ -57,6 +61,7 @@ Mit den nachfolgenden Schritten können Sie ein Beispielprojekt für Screens ers
    1. Wählen Sie im Assistenten **Screens-Projekt erstellen** die Option **Screens** aus und klicken Sie auf **Weiter**.
 
    1. Geben Sie als Titel *Test_Project* ein und klicken Sie auf **Erstellen**.
+
    ![chlimage_1-4](assets/chlimage_1-4.png)
 
    Wenn das Projekt erstellt wurde, kehren Sie zur Screens-Projektkonsole zurück. Sie können Ihr Projekt jetzt auswählen. Ein Projekt umfasst fünf Ordnertypen: **Anwendungen**, **Kanäle**, **Geräte**, **Standorte** und **Zeitpläne**, wie in der nachfolgenden Abbildung gezeigt.
@@ -81,6 +86,7 @@ Mit den nachfolgenden Schritten können Sie ein Beispielprojekt für Screens ers
    1. Wählen Sie den **Sequenzkanal** aus und klicken Sie auf **Weiter**.
 
    1. Geben Sie als **Name** und **Titel** *TestChannel* ein und klicken Sie auf **Erstellen**.
+
    ![chlimage_1-6](assets/chlimage_1-6.png)
 
    Der *TestChannel* wird erstellt und zum Ordner „Kanäle“ hinzugefügt, wie in der nachfolgenden Abbildung gezeigt.
@@ -101,6 +107,7 @@ Mit den nachfolgenden Schritten können Sie ein Beispielprojekt für Screens ers
 
    1. Klicken Sie auf der linken Seite der Aktionsleiste auf das Symbol zum Ein-/Ausblenden des seitlichen Bedienfelds, um die Assets und Komponenten zu öffnen.
    1. Wählen Sie die Ihrem Kanal hinzuzufügenden Komponenten per Drag-and-Drop aus.
+
    ![chlimage_1-8](assets/chlimage_1-8.png)
 
    In diesem Beispiel zeigt der Editor ein Bild, das dem Kanal hinzugefügt wurde.
@@ -111,7 +118,7 @@ Mit den nachfolgenden Schritten können Sie ein Beispielprojekt für Screens ers
 
    Wenn der Kanal konfiguriert wurde, müssen Sie den Standort erstellen.
 
-   ***Standorte *** gliedern die verschiedenen Digital Signage-Erlebnisse und enthalten die Konfigurationen der einzelnen Anzeigen, abhängig vom jeweiligen Standort.
+   ***Standorte*** gliedern die verschiedenen Digital Signage-Erlebnisse und enthalten die Konfigurationen der einzelnen Anzeigen, abhängig vom jeweiligen Standort.
 
    Gehen Sie wie folgt vor, um einen neuen Standort für Ihr Projekt zu erstellen:
 
@@ -121,6 +128,7 @@ Mit den nachfolgenden Schritten können Sie ein Beispielprojekt für Screens ers
    1. Wählen Sie im Assistenten **Standort** aus und klicken Sie auf **Weiter**.
 
    1. Geben Sie den **Namen** und **Titel** für Ihren Standort ein (geben Sie als Titel *TestLocation* ein) und klicken Sie auf **Erstellen**.
+
    ![chlimage_1-10](assets/chlimage_1-10.png)
 
    Der Standort *TestLocation* wird erstellt und dem Ordner **Standorte** hinzugefügt.
@@ -131,7 +139,7 @@ Mit den nachfolgenden Schritten können Sie ein Beispielprojekt für Screens ers
 
    Nachdem Sie einen Standort konfiguriert haben, müssen Sie eine neue Anzeige für diesen erstellen.
 
-   ***Anzeigen ***repräsentieren das digitale Erlebnis, das auf einem oder mehreren Bildschirmen dargestellt wird.
+   ***Anzeigen*** repräsentieren das digitale Erlebnis, das auf einem oder mehreren Bildschirmen dargestellt wird.
 
    1. Navigieren Sie zum Standort, an dem Ihre Anzeige erstellt werden soll (*Test_Project* > **Standorte** > *TestLocation)*, wie in der Abbildung oben gezeigt, und wählen Sie *TestLocation* aus.
 
@@ -147,6 +155,7 @@ Mit den nachfolgenden Schritten können Sie ein Beispielprojekt für Screens ers
       1. Wählen Sie für **Anzahl der Geräte horizontal** die Option „1“ aus.
       1. Wählen Sie für **Anzahl der Geräte vertikal** die Option „1“ aus.
    1. Klicken Sie auf **Erstellen**.
+
    Eine neue Anzeige (*TestDisplay*) wird Ihrem Standort (*TestLocation*) hinzugefügt, wie in der nachfolgenden Abbildung gezeigt.
 
    ![chlimage_1-12](assets/chlimage_1-12.png)
@@ -167,6 +176,7 @@ Mit den nachfolgenden Schritten können Sie ein Beispielprojekt für Screens ers
    1. Geben Sie auf der Eigenschaftenseite *ZeitplanVormittag* als **Name** und **Titel** ein.
 
    1. Wenn Sie auf **Erstellen** klicken, wird der Zeitplan zum Ordner **Zeitpläne** hinzugefügt, wie in der nachfolgend Abbildung gezeigt.
+
    ![chlimage_1-13](assets/chlimage_1-13.png)
 
    Wählen Sie darüber hinaus den Zeitplan (*ZeitplanVormittag*) aus und klicken Sie in der Aktionsleiste auf **Dashboard**, um das Dashboard für Zeitpläne anzuzeigen. Mit dem Dashboard können Sie die Eigenschaften des Zeitplans anzeigen/ändern, Kanäle zuweisen und zugewiesene Anzeigen anzeigen.
@@ -196,6 +206,7 @@ Mit den nachfolgenden Schritten können Sie ein Beispielprojekt für Screens ers
    1. Geben Sie den **Zeitplan** ein und wählen Sie unter **aktiv ab** und **aktiv bis** jeweils ein Datum aus.
 
    1. Klicken Sie auf **Speichern**.
+
    Der Kanal wird erstellt und dem Bedienfeld hinzugefügt.
 
    ![chlimage_1-15](assets/chlimage_1-15.png)
@@ -211,6 +222,7 @@ Mit den nachfolgenden Schritten können Sie ein Beispielprojekt für Screens ers
    1. Wählen Sie den Pfad aus, unter dem Sie den Zeitplan erstellt haben (hier *Test_Project* > **Zeitpläne** > *ZeitplanVormittag*).
 
    1. Klicken Sie auf **Speichern**, um den Zeitplan Ihrem Kanal hinzuzufügen.
+
    ![chlimage_1-16](assets/chlimage_1-16.png)
 
 1. **Registrieren von Geräten**
@@ -229,6 +241,7 @@ Mit den nachfolgenden Schritten können Sie ein Beispielprojekt für Screens ers
 
    1. Klicken Sie in der Aktionsleiste auf **Geräte-Manager**.
    1. Klicken Sie auf **Geräteregistrierung**. Daraufhin werden die ausstehenden Geräte angezeigt, wie in der nachfolgenden Abbildung dargestellt.
+
    ![chlimage_1-17](assets/chlimage_1-17.png)
 
    Wählen Sie das zu registrierende Gerät aus und klicken Sie auf **Gerät registrieren**.
@@ -267,6 +280,7 @@ Mit den nachfolgenden Schritten können Sie ein Beispielprojekt für Screens ers
 
    1. Klicken Sie auf **Zuweisen**.
    1. Klicken Sie auf **Beenden**, um den Vorgang abzuschließen. Das Gerät ist jetzt zugewiesen.
+
    ![chlimage_1-22](assets/chlimage_1-22.png)
 
    Das Dashboard der Anzeige wird geöffnet und zeigt alle Informationen zu den zugewiesenen Kanälen und Zeitplänen sowie die Details der Gerätekonfiguration an.
