@@ -3,9 +3,9 @@ title: Zuweisung von Kanälen - neueste RP
 seo-title: Zuweisung von Kanälen - neueste RP
 description: Folgen Sie dieser Seite, um mehr über die Zuweisung von Kanälen und die Tagesaufteilung zu erfahren.
 translation-type: tm+mt
-source-git-commit: f5d80f3765993277c552b64685d12244658915bb
+source-git-commit: c326c9e83b8c7edcda535b0c775c62c50dd3a29f
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1491'
 ht-degree: 45%
 
 ---
@@ -170,6 +170,8 @@ Wählen Sie eine der folgenden Optionen aus, die zum Festlegen der Unterbrechung
 
 Die folgenden Eigenschaften werden über die Option &quot; **Plan** &quot;im Dialogfeld &quot; **Kanal-Zuweisung** &quot;festgelegt.
 
+![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
+
 ### Referenzzeitzone {#reference-timezone}
 
 Mit der Referenz-Zeitzone können Sie die Zeitzone für die Inhaltsanzeige auswählen.
@@ -182,9 +184,6 @@ Im Fenster &quot;Aktivierung&quot;können Sie ein **Beginn-Datum** und ein **End
 
 Mit dem Zeitplan für die Wiederholung können Sie einen Zeitplan für Ihre Inhalte festlegen. Klicken Sie auf **+ Hinzufügen Plan** , um Ihrem Kanal einen Zeitplan für eine Wiederholung hinzuzufügen.
 
-![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
-
-
 >[!NOTE]
 >Sie können Ihrem Kanal mehrere wiederkehrende Zeitpläne hinzufügen.
 >Recurrence Schedules introduces *DayParting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
@@ -194,9 +193,9 @@ Sie können die folgenden Optionen festlegen:
 * **Name**: Titel des Zeitplans für die Wiederholung.
 * **Wiederholen**: Wählen Sie aus, ob der Plan **täglich**, **wöchentlich**, **monatlich** oder **jährlich** ausgeführt werden soll.
 * **Beginn**: Die Zeitdauer des Beginns für Ihren Zeitplan.
-* **Ende**: Die Endzeit Ihres Zeitplans. Sie können die Einstellung folgendermaßen festlegen:
-* **Zeit**: Der Zeitplan endet zu einem bestimmten Zeitpunkt.
-* **Dauer**: Der Zeitplan läuft für eine bestimmte Dauer in Stunden oder Minuten.
+* **Ende**: Die Endzeit Ihres Zeitplans. Sie können die Einstellung nach Zeit oder Dauer festlegen.
+   * **Zeit**: Der Zeitplan endet zu einem bestimmten Zeitpunkt.
+   * **Dauer**: Der Zeitplan läuft für eine bestimmte Dauer in Stunden oder Minuten.
 
 ### DayParting {#dayparting}
 
