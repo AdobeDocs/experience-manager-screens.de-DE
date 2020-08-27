@@ -2,9 +2,9 @@
 title: Spracherkennung in AEM Screens
 description: Auf der Seite werden die Spracherkennungsfunktionen in AEM Screens beschrieben.
 translation-type: tm+mt
-source-git-commit: 99e775cf2aca779c3223e96d05f1e0c9784a9821
+source-git-commit: eb85269cfeccd837fdf1f752618013fefeddbfd7
 workflow-type: tm+mt
-source-wordcount: '1581'
+source-wordcount: '1554'
 ht-degree: 12%
 
 ---
@@ -96,11 +96,10 @@ Gehen Sie wie folgt vor, um Ihrem Kanal Tags hinzuzufügen:
 
    ![image](assets/voice-recognition/vr-tag1.png)
 
+1. Fügen Sie entsprechend dem Kanal **HotDrinks** das Tag **hot** hinzu.
+
 1. Klicken Sie auf **Speichern &amp; Schließen** , sobald Sie fertig sind.
 
-Fügen Sie entsprechend dem Kanal **HotDrinks** das Tag **hot** hinzu.
-
-Wenn Sie einen Kanal für geteilte Bildschirme als Vorlage verwenden, stellen Sie sicher, dass Sie die beiden Tags (**hot** und **old**) zu den Eigenschaften Ihres Kanals hinzufügen.
 
 ### Erstellen von Tags {#creating-tags}
 
@@ -276,7 +275,7 @@ Nach Abschluss der obigen Schritte können Sie Ihr Chrome-Gerät registrieren, u
 
 Dieses Beispiel zeigt die Ausgabe auf einem Chrome Player.
 
-Der **Main** Kanal spielt seinen Inhalt, aber wenn Sie Wörter mit Stichwörtern **heiß** und **kalt** zusammen verwenden, wie *ich möchte, dass das Menü für warme und kalte Getränke* sehen, die Kanal Beginn spielen den Inhalt des **SplitScreens** Kanals.
+Der **Main** -Kanal spielt seinen Inhalt ab, aber wenn Sie Wörter mit Stichwörtern **heiß** und **kalt** zusammen verwenden, wie *ich möchte, dass das Menü für warme und kalte Getränke* angezeigt wird, spielen die Kanal Beginn den Inhalt des **SplitScreen** -Kanals.
 
 
 
