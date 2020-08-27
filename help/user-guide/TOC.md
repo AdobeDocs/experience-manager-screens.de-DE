@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Adobe Experience Manager Screens-Hilfe
 user-guide-description: Learn to use AEM Screens to publish interactive digital experiences involving different types of screens.
 translation-type: tm+mt
-source-git-commit: a80447bd399086f23ce654108a0b58fb324d90de
+source-git-commit: eb85269cfeccd837fdf1f752618013fefeddbfd7
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '399'
 ht-degree: 97%
 
 ---
@@ -105,6 +105,7 @@ ht-degree: 97%
    + [Problembehebung in der Gerätesteuerung](monitoring-screens.md)
    + [Konfiguration der Videowiedergabe](troubleshoot-videos.md)
 + Versionshinweise {#release-notes}
+   + [Versionshinweise für Feature Pack 202008](release-notes-fp-202008.md)
    + [Versionshinweise für Feature Pack 202004](release-notes-fp-202004.md)
    + [Versionshinweise für Feature Pack 202001](release-notes-fp-202001.md)
    + [Versionshinweise für Feature Pack 201909](release-notes-fp-201909.md)
