@@ -2,9 +2,9 @@
 title: Spracherkennung in AEM Screens
 description: Auf der Seite werden die Spracherkennungsfunktionen in AEM Screens beschrieben.
 translation-type: tm+mt
-source-git-commit: eb85269cfeccd837fdf1f752618013fefeddbfd7
+source-git-commit: 7f9f72f31d866f142bc9bf11d021583905ee82ea
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1555'
 ht-degree: 12%
 
 ---
@@ -32,7 +32,7 @@ Ein Inhaltsautor kann eine Anzeige so konfigurieren, dass Sprachaktivierung mög
 ## Implementierung der Spracherkennung {#implementing}
 
 >[!IMPORTANT]
-> Die Spracherkennungsfunktion ist nur auf Chrome- und Electron-Playern verfügbar.
+> Die Spracherkennungsfunktion ist nur für Chrome OS- und Electron-Player verfügbar.
 
 Um die Spracherkennung in Ihrem AEM Screens-Projekt zu implementieren, müssen Sie die Spracherkennung für die Anzeige aktivieren und jeden Kanal mit einem eindeutigen Tag verknüpfen, um eine Kanal-Transition auszulösen.
 
@@ -106,14 +106,19 @@ Gehen Sie wie folgt vor, um Ihrem Kanal Tags hinzuzufügen:
 Gehen Sie wie folgt vor, um Tags zu erstellen:
 
 1. Navigieren Sie zu Ihrer AEM Instanz.
+
 1. Klicken Sie auf Tools —> **Tagging**.
    ![image](assets/voice-recognition/vr-7.png)
+
 1. Click **Create** --> **Create Namespace**.
    ![image](assets/voice-recognition/vr-tag3.png)
-1. Geben Sie den Namen Ihres Projekts ein, z. B.: **VoiceDemo** und klicken Sie auf **Erstellen**.
+
+1. Geben Sie den Namen Ihres Projekts ein, z. B. **VoiceDemo** , und klicken Sie auf **Erstellen**.
    ![image](assets/voice-recognition/vr-tag2.png)
+
 1. Select the **VoiceDemo** project and click **Create Tag** from the action bar.
    ![image](assets/voice-recognition/vr-tag4.png)
+
 1. Geben Sie den Namen Ihres Tags ein und klicken Sie auf **Senden**.
    ![image](assets/voice-recognition/vr-tag5.png)
 
