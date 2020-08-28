@@ -2,9 +2,9 @@
 title: Spracherkennung in AEM Screens
 description: Auf der Seite werden die Spracherkennungsfunktionen in AEM Screens beschrieben.
 translation-type: tm+mt
-source-git-commit: 8a44e92408ff02b3d0b9e0a0e55de73c54a1afcd
+source-git-commit: 4e64227cf63fc801c2f6fdfbc44b23df0a4d0bb0
 workflow-type: tm+mt
-source-wordcount: '1570'
+source-wordcount: '1559'
 ht-degree: 12%
 
 ---
@@ -16,13 +16,12 @@ ht-degree: 12%
 >
 >**Wichtige Datenschutzinformationen**
 >
->Bei Verwendung der Spracherkennungsfunktion befolgen Sie alle geltenden rechtlichen und ethischen Richtlinien für Ihre Region (einschließlich, aber nicht darauf beschränkt, Endbenutzern einen sichtbaren Hinweis darauf zu geben, dass der Player die Spracherkennung verwendet). Adobe Inc. empfängt, speichert oder verarbeitet keine der sprachbezogenen Informationen. Die AEM Screens-Player verwenden die Standard-Web-Sprache-API, die in der Browsing-Engine integriert ist. Hinter den Kulissen wird eine Wellenform Ihrer Sprache zur Konvertierung von Sprache in Text an die Server von Google gesendet, und dieser Text wird vom Player mit den konfigurierten Suchbegriffen abgeglichen.
+>Bei Verwendung der Spracherkennungsfunktion folgen Sie allen geltenden rechtlichen und ethischen Richtlinien für Ihre Region (einschließlich, aber nicht darauf beschränkt, Endbenutzern einen sichtbaren Hinweis darauf zu geben, dass der Player die Spracherkennung verwendet). Adobe Inc. empfängt, speichert oder verarbeitet keine der sprachbezogenen Informationen. Die AEM Screens-Player verwenden die Standard-Web-Sprache-API, die in der Browsing-Engine integriert ist. Hinter den Kulissen sendet diese API eine Wellenform Ihrer Sprache an die Server von Google zur Konvertierung von Sprache in Text, und dieser Text wird vom Player mit den konfigurierten Suchbegriffen abgeglichen.
 >
 >Weitere Informationen finden Sie im Whitepaper zum Datenschutz von [Google über die Web-Sprach-API](https://www.google.com/chrome/privacy/whitepaper.html#speech) .
 
 
-
-Die Spracherkennungsfunktion ermöglicht die Inhaltsänderung in einem AEM Screens-Kanal, der durch Sprachinteraktionen gesteuert wird.
+Die Spracherkennungsfunktion ermöglicht die Inhaltsänderung in einem AEM Screens-Kanal, der durch Sprachinteraktion gesteuert wird.
 
 Ein Inhaltsautor kann eine Anzeige so konfigurieren, dass Sprachaktivierung möglich ist. Diese Funktion soll Kunden die Möglichkeit geben, Sprache als Methode der Interaktion mit ihren Displays zu verwenden. Einige ähnliche Anwendungsfälle umfassen das Auffinden von Produktempfehlungen in Geschäften, das Bestellen von Menüpunkten in Restaurants und Restaurants. Diese Funktion verbessert die Barrierefreiheit für Benutzer und kann die Kundenerfahrung erheblich verbessern.
 
@@ -32,18 +31,13 @@ Ein Inhaltsautor kann eine Anzeige so konfigurieren, dass Sprachaktivierung mög
 ## Implementierung der Spracherkennung {#implementing}
 
 >[!IMPORTANT]
-> Die Spracherkennungsfunktion ist nur für Chrome OS- und Electron-Player verfügbar.
+> Die Spracherkennungsfunktion ist nur für Chrome OS- und Windows-Player verfügbar.
 
 Um die Spracherkennung in Ihrem AEM Screens-Projekt zu implementieren, müssen Sie die Spracherkennung für die Anzeige aktivieren und jeden Kanal mit einem eindeutigen Tag verknüpfen, um eine Kanal-Transition auszulösen.
 
 Im folgenden Abschnitt wird beschrieben, wie Sie die Spracherkennungsfunktion in einem AEM Screens-Projekt aktivieren und verwenden können.
 
-Sie können Ihr Projekt entweder mit den beiden folgenden Vorlagen einrichten:
-
-* [Sequenzkanal](#sequence-channel)
-* [Kanal &quot;Teilungsbildschirme&quot;](#split-channel)
-
-## Verwenden von Sequence Kanal als Vorlage {#sequence-channel}
+## Verwendungsfall 1: Anzeigen von Inhalten im Vollbild-Kanal-Switch {#sequence-channel}
 
 Bevor Sie die Spracherkennungsfunktion verwenden, stellen Sie sicher, dass Sie über ein Projekt und einen Kanal mit Inhalten verfügen, die für Ihr Projekt eingerichtet wurden.
 
@@ -171,7 +165,7 @@ Ebenso, wenn Sie Wörter mit einem Suchbegriff **kalt** , wie *ich gerne hätte 
 ![newimage](assets/voice-recognition/voice-video.gif)
 
 
-## Verwenden des Kanals &quot;Bildschirme teilen&quot;als Vorlage {#split-channel}
+## Anwendungsfall 2: Anzeigen von Inhalten im geteilten Bildschirm-Kanal-Switch {#split-channel}
 
 Bevor Sie die Spracherkennungsfunktion verwenden, stellen Sie sicher, dass Sie über ein Projekt und einen Kanal mit Inhalten verfügen, die für Ihr Projekt eingerichtet wurden.
 
