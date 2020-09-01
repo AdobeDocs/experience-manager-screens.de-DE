@@ -2,19 +2,11 @@
 title: Was ist AEM Screens?
 seo-title: Was ist AEM Screens?
 description: Diese Seite bietet eine Einführung in AEM Screens, ist eine Lösung für digitale Displays, mit der Sie dynamische und interaktive digitale Erlebnisse und Interaktionen unter Verwendung einer digitalen Marketingplattform auf unterschiedlichen Bildschirmen veröffentlichen können. Zudem erhalten Sie Informationen zur Screens-Architektur und zu den unterschiedlichen Rollen, die an der Projektentwicklung beteiligt sind.
-seo-description: Diese Seite bietet eine Einführung in AEM Screens, ist eine Lösung für digitale Displays, mit der Sie dynamische und interaktive digitale Erlebnisse und Interaktionen unter Verwendung einer digitalen Marketingplattform auf unterschiedlichen Bildschirmen veröffentlichen können. Zudem erhalten Sie Informationen zur Screens-Architektur und zu den unterschiedlichen Rollen, die an der Projektentwicklung beteiligt sind.
-uuid: 25e20ed0-6089-44fb-ac65-2ad48111d18b
-contentOwner: User
-content-type: reference
-topic-tags: introduction
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-discoiquuid: f30bfdba-8db6-482b-8d0c-2818fc58e2b1
-docset: aem65
-translation-type: ht
-source-git-commit: 11d9100b2aeb361a8b1aaaf2806272809f35a938
-workflow-type: ht
-source-wordcount: '768'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
+workflow-type: tm+mt
+source-wordcount: '577'
+ht-degree: 92%
 
 ---
 
@@ -29,7 +21,7 @@ Nutzen Sie den [Schnellstart für AEM Screens](kickstart-for-aem-screens.md) fü
 
 **AEM Screens** setzt auf der soliden Basis von ***AEM Sites*** auf und ermöglicht es Marketing-Experten und IT-Fachleuten, Erlebnisse auf mehreren digitalen Bildschirmen zu erstellen und zu verwalten, die im Ladengeschäft/vor Ort eine Marke bewerben und die Nachfrage ankurbeln können. Durch die Integration von AEM Screens mit Sites können Sie bereits vorhandene Inhalte wiederverwenden und eine kohärente und konsistente Kundenlösung bereitstellen. Dadurch entsteht ein optimierter Arbeitsablauf, mit dem digitale Erlebnisse entwickelt werden können, die äußerst kostengünstig und optimal nutzbar sind. Zusätzlich können Sie damit die Markenwahrnehmung stärken und Entscheidungen beeinflussen, was zusätzliche Käufe und Interaktionen zur Folge hat.
 
-AEM Screens ist eine leistungsstarke Web-basierte Lösung, mit der Sie digitale Menüs, Produktempfehlungen und ansprechende Hintergrundbilder erstellen können. Damit können Sie die Kundeninteraktion steigern und einheitliche, nützliche Markenerlebnisse an physischen Orten, wie Geschäften, Hotels, Banken, Gesundheits- und Bildungseinrichtungen und vielen mehr, bereitstellen – und das alles über dieselbe AEM-Plattform. Screens kann für eine große Anzahl einzigartiger Anwendungen eingesetzt werden, wie etwa für interaktive Anzeigen, Orientierungssysteme und Branding. Zusätzlich kann je nach Domäne eine bestimmte Atmosphäre für Kunden und Mitarbeiter geschaffen werden.
+AEM Screens ist eine leistungsstarke Web-basierte Lösung, mit der Sie digitale Menüs, Produktempfehlungen und ansprechende Hintergrundbilder erstellen können. Damit können Sie die Kundeninteraktion steigern und einheitliche, nützliche Markenerlebnisse an physischen Orten, wie Geschäften, Hotels, Banken, Gesundheits- und Bildungseinrichtungen und vielen mehr, bereitstellen – und das alles über dieselbe AEM-Plattform. Bildschirme bieten eine Vielzahl einzigartiger Anwendungen wie interaktive Displays, Wegfindung, Branding und das Hinzufügen von Ambiente zu Ihrer Umgebung für Kunden und Mitarbeiter, je nachdem, wo diese bereitgestellt werden.
 
 Das Erstellen und Verwalten einer Anwendung mithilfe von AEM Screens ist einfach und intuitiv. Eine *Anwendung* hostet die Webseiten, die von Kunden oder Implementierungspartnern für AEM Screens erstellt wurden. In *Speicherorten* wird die vordefinierte Hierarchie verwaltet. Hier sind auch die *Displays* enthalten. Jedes Display verfügt über ein Dashboard, in dem unterschiedliche angeschlossene Geräte und Bildschirme angezeigt werden. Inhalte für AEM Screens werden in *Kanälen* verwaltet. Mit dem AEM Screens-Player lassen sich in Kanälen vorhandene Inhalte auf Displays darstellen.
 
@@ -57,19 +49,6 @@ In der folgenden Abbildung werden die beteiligten Personen und ihre Rollen für 
 
 ![chlimage_1-30](assets/chlimage_1-30.png)
 
->[!NOTE]
->
->*Wenn Sie darüber hinaus verschiedene Aufgabenbereiche der jeweiligen Rollen anzeigen möchten, klicken Sie auf die oben genannten Personen.*
-
-## Erforderliche Kenntnisse {#pre-requisite-knowledge}
-
-Bevor Sie mit der Arbeit an einem Projekt für digitale Beschilderungen unter Einsatz von AEM Screens beginnen, benötigen Sie Wissen über Adobe Experience Manager (AEM) – am besten vor Beginn der Arbeit an einem AEM Screens-Projekt.
-
-Weitere Informationen zu Adobe Experience Manager 6.5 finden Sie in den folgenden Tutorials und Ressourcen:
-
-* **Erste Schritte mit Adobe Experience Manager**: Entdecken Sie Artikel zu den ersten Schritten und Videoschulungen für Adobe Experience Manager.
-* **AEM 6.5-Tutorials und -Videos**: Eine Sammlung von Tutorials und Videos, in denen die mit der Veröffentlichung von AEM 6.5 herausgebrachten neuen und aktualisierten Funktionen für AEM Sites, Assets, Forms, Screens und Foundation erläutert werden.
-* **Grundlegende AEM-Konzepte**: Ein Überblick über die grundlegenden Konzepte der AEM-Struktur sowie der damit verbundenen Entwicklung, einschließlich Informationen zu JCR, Sling, OSGi, dem Dispatcher, Workflows und MSM.
 
 ## Zusätzliche Ressourcen {#additional-resources}
 
@@ -83,4 +62,4 @@ Weitere Informationen zu Adobe Experience Manager 6.5 finden Sie in den folgende
 
 * **Neues Erlebnis bei der Kundenunterstützung**
 
-   Folgen Sie der **[Hilfe zu Customer One for Enterprise](https://docs.adobe.com/content/help/de-DE/customer-one/using/home.htmlhome.html#)**, um mehr über Support-Tickets für die Admin Console zu erfahren.
+   Follow **[Customer One for Enterprise Help](https://docs.adobe.com/content/help/de-DE/customer-one/using/home.htmlhome.html#)** to learn more about Admin Console Support tickets.
