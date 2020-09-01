@@ -1,17 +1,13 @@
 ---
 title: Glossar
-seo-title: Glossar
+seo-title: 'Glossar  '
 description: Auf dieser Seite werden die wichtigsten Begriffe im Zusammenhang mit AEM Screens erläutert.
 seo-description: Auf dieser Seite werden die wichtigsten Begriffe im Zusammenhang mit AEM Screens erläutert.
-uuid: 0db1c907-dc82-4f06-84eb-084e7bcfbe4c
-contentOwner: User
-content-type: reference
-topic-tags: introduction
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-discoiquuid: 09d6104e-903b-4cff-a4e2-1469653352c3
-docset: aem65
-translation-type: ht
-source-git-commit: a61375feb5ba0da16f6f81d4b577fce578ac120e
+translation-type: tm+mt
+source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
+workflow-type: tm+mt
+source-wordcount: '428'
+ht-degree: 87%
 
 ---
 
@@ -19,6 +15,8 @@ source-git-commit: a61375feb5ba0da16f6f81d4b577fce578ac120e
 # Glossar   {#glossary}
 
 **Anwendungskanal** Ein Anwendungskanal gibt eine vom Entwickler erstellte Anwendung wieder, die interaktive Inhalte anzeigt.
+
+**Attraktive Schleife** Eine Attraktions-Schleife wird als *Home* - oder *Leerlaufzustand* definiert, wenn die Anzeige zwei oder mehr Status hat, in denen sie bestehen kann. Seine Rolle besteht darin, Kunden zur Anzeige zu *locken* und sie zu ermutigen, sich zu engagieren, in der Regel durch Berühren des Bildschirms, aber auch durch Interaktion mit einem Produkt.
 
 **Gerät** Ein Gerät bietet die Möglichkeit, die Player-Software auszuführen, um eine visuelle Ausgabe zu generieren. Mit einem Gerät kann gesteuert werden, ob ein zugeschnittener, skalierter bzw. übersetzter Teil allgemeiner Inhalte oder Erlebnisse angezeigt wird. Die Bildschirmkonfiguration ist mit einer Anzeige verknüpft. Sie kann jedoch bei einem technischen Defekt ersetzt werden.
 
