@@ -2,10 +2,10 @@
 title: Spracherkennung in AEM Screens
 description: Auf der Seite werden die Spracherkennungsfunktionen in AEM Screens beschrieben.
 translation-type: tm+mt
-source-git-commit: 4e64227cf63fc801c2f6fdfbc44b23df0a4d0bb0
+source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
 workflow-type: tm+mt
-source-wordcount: '1559'
-ht-degree: 12%
+source-wordcount: '1103'
+ht-degree: 40%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 12%
 
 Die Spracherkennungsfunktion ermöglicht die Inhaltsänderung in einem AEM Screens-Kanal, der durch Sprachinteraktion gesteuert wird.
 
-Ein Inhaltsautor kann eine Anzeige so konfigurieren, dass Sprachaktivierung möglich ist. Diese Funktion soll Kunden die Möglichkeit geben, Sprache als Methode der Interaktion mit ihren Displays zu verwenden. Einige ähnliche Anwendungsfälle umfassen das Auffinden von Produktempfehlungen in Geschäften, das Bestellen von Menüpunkten in Restaurants und Restaurants. Diese Funktion verbessert die Barrierefreiheit für Benutzer und kann die Kundenerfahrung erheblich verbessern.
+Ein Inhaltsautor kann eine Anzeige so konfigurieren, dass sie sprachaktiviert ist. Diese Funktion soll Kunden die Möglichkeit geben, Sprache als Methode der Interaktion mit ihren Displays zu verwenden. Einige ähnliche Anwendungsfälle umfassen das Auffinden von Produktempfehlungen in Geschäften, das Bestellen von Menüpunkten in Restaurants und Restaurants. Diese Funktion verbessert die Barrierefreiheit für Benutzer und kann die Kundenerfahrung erheblich verbessern.
 
 >[!NOTE]
->Die Player-Hardware muss Spracheingaben wie ein Mikrofon unterstützen.
+>Die Player-Hardware muss Spracheingabe-Geräte wie Mikrofone unterstützen.
 
-## Implementierung der Spracherkennung {#implementing}
+## Implementieren der Spracherkennung {#implementing}
 
 >[!IMPORTANT]
 > Die Spracherkennungsfunktion ist nur für Chrome OS- und Windows-Player verfügbar.
@@ -37,11 +37,11 @@ Um die Spracherkennung in Ihrem AEM Screens-Projekt zu implementieren, müssen S
 
 Im folgenden Abschnitt wird beschrieben, wie Sie die Spracherkennungsfunktion in einem AEM Screens-Projekt aktivieren und verwenden können.
 
-## Verwendungsfall 1: Anzeigen von Inhalten im Vollbild-Kanal-Switch {#sequence-channel}
+## Anzeigen von Inhalten im Vollbildmodus oder in einem geteilten Kanal-Switch {#sequence-channel}
 
-Bevor Sie die Spracherkennungsfunktion verwenden, stellen Sie sicher, dass Sie über ein Projekt und einen Kanal mit Inhalten verfügen, die für Ihr Projekt eingerichtet wurden.
+Bevor Sie die Funktion zur Spracherkennung verwenden, stellen Sie sicher, dass Sie ein Projekt und einen Kanal mit Inhalten für Ihr Projekt eingerichtet haben.
 
-1. Das folgende Beispiel zeigt ein Demoprojekt mit dem Namen **VoiceDemo** und drei Kanal **Main**, **ColdDrinks** und **HotDrinks**.
+1. Im folgenden Beispiel sehen Sie ein Demoprojekt mit dem Namen **VoiceDemo** und drei Kanälen **Main**, **ColdDrinks** und **HotDrinks**.
 
    ![image](assets/voice-recognition/vr-1.png)
 
@@ -49,11 +49,17 @@ Bevor Sie die Spracherkennungsfunktion verwenden, stellen Sie sicher, dass Sie �
    >
    >Informationen zum Erstellen eines Kanals oder Hinzufügen von Inhalten zu einem Kanal finden Sie unter [Erstellen und Verwalten von Kanälen](/help/user-guide/managing-channels.md)
 
-1. Navigieren Sie zu jedem Kanal und fügen Sie Inhalt hinzu. Navigieren Sie beispielsweise zu **VoiceDemo** —> **Kanal** —> **Main** und wählen Sie den Kanal aus. Klicken Sie in der Aktionsleiste auf &quot; **Bearbeiten** &quot;, um den Editor zu öffnen und den gewünschten Inhalt (Bilder/Videos) hinzuzufügen. Fügen Sie auf ähnliche Weise Inhalt zu **ColdDrinks** - und **HotDrinks** -Kanälen hinzu.
+   Oder
+
+   Sie können drei Sequenz-Kanal **Main**, **ColdDrinks** und **HotDrinks** sowie einen zusätzlichen 1x2 Split Screen-Kanal **SplitScreen** erstellen, wie in der Abbildung unten dargestellt.
+
+   ![image](assets/voice-recognition/vr-emb-1.png)
+
+1. Navigieren Sie zu jedem Kanal und fügen Sie Inhalt hinzu. Navigieren Sie beispielsweise zu **VoiceDemo** > **Kanäle** > **Main** und wählen Sie den Kanal aus. Klicken Sie in der Aktionsleiste auf **Bearbeiten**, um den Editor zu öffnen und den gewünschten Inhalt (Bilder/Videos) hinzuzufügen. Fügen Sie auf ähnliche Weise den Kanälen **ColdDrinks** und **HotDrinks** Inhalt hinzu.
 
    Die Kanäle enthalten jetzt Assets (Bilder), wie in den folgenden Abbildungen dargestellt.
 
-   **Allgemein**:
+   **Main**:
 
    ![image](assets/voice-recognition/vr-4.png)
 
@@ -65,20 +71,23 @@ Bevor Sie die Spracherkennungsfunktion verwenden, stellen Sie sicher, dass Sie �
 
    ![image](assets/voice-recognition/vr-2.png)
 
+   Wenn Sie dem Projekt den Kanal &quot;Geteilte Bildschirme&quot;hinzugefügt haben, navigieren Sie zu &quot; **SplitScreen** &quot;und ziehen Sie zwei eingebettete Sequenzen per Drag &amp; Drop und fügen Sie Pfade zu den Kanälen &quot; **ColdDrinks** &quot;und &quot; **HotDrinks** &quot;hinzu, wie in der Abbildung unten dargestellt.
+   ![image](assets/voice-recognition/vr-emb-6.png)
 
-### Setting up Tags for Channels {#setting-tags}
 
-Nachdem Sie Ihren Kanälen Inhalte hinzugefügt haben, müssen Sie zu jedem der Kanal navigieren und entsprechende Tags hinzufügen, die die Spracherkennung auslösen würden.
+### Festlegen von Tags für Kanäle {#setting-tags}
+
+Nachdem Sie Ihren Kanälen Inhalte hinzugefügt haben, müssen Sie zu jedem Kanal navigieren und entsprechende Tags hinzufügen, die die Spracherkennung auslösen würden.
 
 Gehen Sie wie folgt vor, um Ihrem Kanal Tags hinzuzufügen:
 
-1. Navigieren Sie zu jedem Kanal und fügen Sie Inhalt hinzu. Navigieren Sie beispielsweise zu **VoiceDemo** —> **Kanal** —> **Main** und wählen Sie den Kanal aus.
+1. Navigieren Sie zu jedem Kanal und fügen Sie Inhalt hinzu. Navigieren Sie beispielsweise zu **VoiceDemo** > **Kanäle** > **Main** und wählen Sie den Kanal aus.
 
 1. Klicken Sie in der Aktionsleiste auf **Eigenschaften**.
 
    ![image](assets/voice-recognition/vr-5.png)
 
-1. Navigieren Sie zur Registerkarte &quot; **Grundlagen** &quot;und wählen Sie im Feld &quot; **Tags** &quot;ein bereits vorhandenes Tag aus oder erstellen Sie ein neues.
+1. Navigieren Sie zur Registerkarte **Grundlagen** und wählen Sie ein bereits vorhandenes Tag aus dem Feld **Tags** aus oder erstellen Sie ein neues.
 
    Sie können entweder ein neues Tag erstellen, indem Sie einen neuen Namen für das Tag eingeben und die `return` Eingabetaste drücken, wie in der folgenden Abbildung gezeigt:
 
@@ -92,7 +101,11 @@ Gehen Sie wie folgt vor, um Ihrem Kanal Tags hinzuzufügen:
 
 1. Fügen Sie entsprechend dem Kanal **HotDrinks** das Tag **hot** hinzu.
 
-1. Klicken Sie auf **Speichern &amp; Schließen** , sobald Sie fertig sind.
+1. Wenn Sie einen Split Screen-Kanal verwenden, fügen Sie beide Tags (**hot** and **old**) zu den Eigenschaften des **SplitScreen** -Kanals hinzu.
+
+   ![image](assets/voice-recognition/vr-emb-7.png)
+
+1. Klicken Sie auf **Speichern und schließen**, sobald Sie fertig sind.
 
 
 ### Erstellen von Tags {#creating-tags}
@@ -126,7 +139,10 @@ Jetzt können Sie diese Tags in Ihrem AEM Screens-Projekt verwenden.
    >[!NOTE]
    >Informationen zum Zuweisen eines Kanals zu einer Anzeige finden Sie unter [Erstellen und Verwalten von Anzeigen](/help/user-guide/managing-displays.md).
 
-1. Weisen Sie die Kanal **Main**, **ColdDrinks** und **HotDrinks** Ihrem **LobbyDisplay** zu.
+1. Weisen Sie die Kanäle **Main**, **ColdDrinks** und **HotDrinks** Ihrer Anzeige **LobbyDisplay** zu.
+
+   >[!NOTE]
+   >Wenn Sie einen Kanal für einen geteilten Bildschirm erstellt haben, weisen Sie dem Bildschirm den Kanal **SplitScreen** zu.
 
 1. Legen Sie beim Zuweisen des Kanals für jeden Kanal die folgenden Eigenschaften fest.
 
@@ -140,23 +156,23 @@ Jetzt können Sie diese Tags in Ihrem AEM Screens-Projekt verwenden.
    >
    >Informationen zum Zuweisen eines Kanals zu einer Anzeige finden Sie unter [Erstellen und Verwalten von Anzeigen](/help/user-guide/managing-displays.md).
 
-1. Nachdem Sie einer Anzeige Kanal zugewiesen haben, navigieren Sie zum **LobbyDisplay** und wählen Sie die Anzeige aus. Wählen Sie in der Aktionsleiste &quot; **Eigenschaften** &quot;aus.
+1. Nachdem Sie einer Anzeige Kanäle zugewiesen haben, navigieren Sie zu **LobbyDisplay** und wählen Sie die Anzeige aus. Wählen Sie in der Aktionsleiste **Eigenschaften** aus.
 
-1. Navigieren Sie zur Registerkarte **Anzeige** und aktivieren Sie die Option **Sprachaktivierung** unter **Inhalt**.
+1. Navigieren Sie zur Registerkarte **Anzeige** und aktivieren Sie die Option **Sprachaktiviert** unter **Inhalt**.
 
    ![image](assets/voice-recognition/vr-disp.png)
 
    >[!IMPORTANT]
-   >Die Spracherkennungsfunktion muss auf der Anzeige aktiviert werden.
+   >Die Spracherkennungsfunktion muss von der Anzeige aus aktiviert werden.
 
-### Anzeigen des Inhalts im Chrome Player {#viewing-content}
+### Anzeigen von Inhalten im Chrome-Player {#viewing-content}
 
 Nach Abschluss der obigen Schritte können Sie Ihr Chrome-Gerät registrieren, um die Ausgabe Ansicht.
 
 >[!NOTE]
->Informationen zum Registrieren eines Geräts auf einem AEM Screens-Player finden Sie unter [Geräteregistrierung](device-registration.md) .
+>Informationen zum Registrieren eines Geräts auf einem AEM Screens-Player finden Sie unter [Geräteregistrierung](device-registration.md).
 
-Dieses Beispiel zeigt die Ausgabe auf einem Chrome Player.
+In diesem Beispiel wird die Ausgabe auf einem Chrome-Player beschrieben.
 
 Der **Main** Kanal spielt seinen Inhalt, aber wenn Sie Wörter mit Suchbegriff **heiß** , wie *ich möchte ein warmes Getränk*, den Kanal Beginn spielen den Inhalt des **HotDrinks** Kanal.
 
@@ -164,114 +180,7 @@ Ebenso, wenn Sie Wörter mit einem Suchbegriff **kalt** , wie *ich gerne hätte 
 
 ![newimage](assets/voice-recognition/voice-video.gif)
 
-
-## Anwendungsfall 2: Anzeigen von Inhalten im geteilten Bildschirm-Kanal-Switch {#split-channel}
-
-Bevor Sie die Spracherkennungsfunktion verwenden, stellen Sie sicher, dass Sie über ein Projekt und einen Kanal mit Inhalten verfügen, die für Ihr Projekt eingerichtet wurden.
-
-1. Im folgenden Beispiel werden ein Demoprojekt mit dem Namen **VoiceDemo** und drei Kanal **Main**, **ColdDrinks** und **HotDrinks** sowie ein 1x2 Split Screen Kanal **SplitScreen** gezeigt, wie in der folgenden Abbildung dargestellt.
-
-   ![image](assets/voice-recognition/vr-emb-1.png)
-
-   >[!NOTE]
-   >
-   >Informationen zum Erstellen eines Kanals oder Hinzufügen von Inhalten zu einem Kanal finden Sie unter [Erstellen und Verwalten von Kanälen](/help/user-guide/managing-channels.md)
-
-1. Navigieren Sie zu jedem Kanal und fügen Sie Inhalt hinzu. Navigieren Sie beispielsweise zu **VoiceDemo** —> **Kanal** —> **Main** und wählen Sie den Kanal aus. Klicken Sie in der Aktionsleiste auf &quot; **Bearbeiten** &quot;, um den Editor zu öffnen und den gewünschten Inhalt (Bilder/Videos) hinzuzufügen. Fügen Sie auf ähnliche Weise Inhalt zu **ColdDrinks** - und **HotDrinks** -Kanälen hinzu.
-
-   Die Kanäle enthalten jetzt Assets (Bilder), wie in den folgenden Abbildungen dargestellt.
-
-   **Allgemein**:
-
-   ![image](assets/voice-recognition/vr-emb-3.png)
-
-
-   **ColdDrinks**:
-   ![image](assets/voice-recognition/vr-3.png)
-
-   **HotDrinks**:
-
-   ![image](assets/voice-recognition/vr-2.png)
-
-1. Navigieren Sie zu **SplitScreen** , ziehen Sie zwei eingebettete Sequenzen per Drag &amp; Drop und fügen Sie Pfade zum Kanal **ColdDrinks** und **HotDrinks** hinzu, wie in der Abbildung unten dargestellt.
-   ![image](assets/voice-recognition/vr-emb-6.png)
-
-
-### Setting up Tags for Channels {#setting-tags-split}
-
-Nachdem Sie Ihren Kanälen Inhalte hinzugefügt haben, müssen Sie zu jedem der Kanal navigieren und entsprechende Tags hinzufügen, die die Spracherkennung auslösen würden.
-
-Gehen Sie wie folgt vor, um Ihrem Kanal Tags hinzuzufügen:
-
-1. Navigieren Sie zu jedem Kanal und fügen Sie Inhalt hinzu. Navigieren Sie beispielsweise zu **VoiceDemo** —> **Kanal** —> **Main** und wählen Sie den Kanal aus.
-
-1. Klicken Sie in der Aktionsleiste auf **Eigenschaften**.
-
-   ![image](assets/voice-recognition/vr-5.png)
-
-1. Navigieren Sie zur Registerkarte &quot; **Grundlagen** &quot;und wählen Sie im Feld &quot; **Tags** &quot;ein bereits vorhandenes Tag aus oder erstellen Sie ein neues.
-
-   Sie können entweder ein neues Tag erstellen, indem Sie einen neuen Namen für das Tag eingeben und die `return` Eingabetaste drücken, wie in der folgenden Abbildung gezeigt:
-
-   ![image](assets/voice-recognition/vr-6.png)
-
-   Oder
-
-   Sie können Tags aus Ihrer AEM-Instanz im Voraus für Ihr Projekt erstellen und auch diese auswählen. Nachdem Sie die unter [Erstellen von Tags](#creating-tags)erläuterten Schritte ausgeführt haben, können Sie das Tag an der gewünschten Stelle auswählen und dem Kanal hinzufügen, wie in der folgenden Abbildung dargestellt:
-
-   ![image](assets/voice-recognition/vr-tag1.png)
-
-1. Fügen Sie entsprechend dem Kanal **HotDrinks** das Tag **hot** hinzu.
-
-1. hinzufügen Sie die Tags (**hot** und **old**) mit den Eigenschaften des **SplitScreen-Kanals** .
-
-   ![image](assets/voice-recognition/vr-emb-7.png)
-
-
-1. Klicken Sie auf **Speichern &amp; Schließen** , sobald Sie fertig sind.
-
-### Zuweisen von Kanal zu einer Anzeige und Aktivieren der Spracherkennung {#channel-assignment-split}
-
-1. Erstellen Sie eine Anzeige im Ordner **Standorte**, wie in der Abbildung unten dargestellt.
-
-   ![image](assets/voice-recognition/vr-loc.png)
-
-   >[!NOTE]
-   >Informationen zum Zuweisen eines Kanals zu einer Anzeige finden Sie unter [Erstellen und Verwalten von Anzeigen](/help/user-guide/managing-displays.md).
-
-1. Weisen Sie die Kanal **Main**, **ColdDrinks**, **HotDrinks** und **SplitScreen** Ihrem **Lobby** -Display zu.
-
-1. Legen Sie beim Zuweisen des Kanals für jeden Kanal die folgenden Eigenschaften fest.
-
-   | **Kanalname** | **Priorität** | **Unterstützte Ereignisse** |
-   |---|---|---|
-   | Allgemein | 2 | Initial Load, Idle Screen, Timer |
-   | HotDrinks | 1 | Benutzerinteraktion |
-   | ColdDrinks | 1 | Benutzerinteraktion |
-   | SplitScreen | 1 | Benutzerinteraktion |
-
-   >[!NOTE]
-   >
-   >Informationen zum Zuweisen eines Kanals zu einer Anzeige finden Sie unter [Erstellen und Verwalten von Anzeigen](/help/user-guide/managing-displays.md).
-
-1. Nachdem Sie einer Anzeige Kanal zugewiesen haben, navigieren Sie zur **Lobby** -Anzeige und wählen Sie die Anzeige aus. Wählen Sie in der Aktionsleiste &quot; **Eigenschaften** &quot;aus.
-
-1. Navigieren Sie zur Registerkarte **Anzeige** und aktivieren Sie die Option **Sprachaktivierung** unter **Inhalt**.
-
-   ![image](assets/voice-recognition/vr-disp.png)
-
-   >[!IMPORTANT]
-   >Die Spracherkennungsfunktion muss auf der Anzeige aktiviert werden.
-
-
-### Anzeigen des Inhalts im Chrome Player {#viewing-content-split}
-
-Nach Abschluss der obigen Schritte können Sie Ihr Chrome-Gerät registrieren, um die Ausgabe Ansicht.
-
->[!NOTE]
->Informationen zum Registrieren eines Geräts auf einem AEM Screens-Player finden Sie unter [Geräteregistrierung](device-registration.md) .
-
-Dieses Beispiel zeigt die Ausgabe auf einem Chrome Player.
+In diesem Beispiel wird die Ausgabe auf einem Chrome-Player beschrieben.
 
 Der **Main** -Kanal spielt seinen Inhalt ab, aber wenn Sie Wörter mit Stichwörtern **heiß** und **kalt** zusammen verwenden, wie *ich möchte, dass das Menü für warme und kalte Getränke* angezeigt wird, spielen die Kanal Beginn den Inhalt des **SplitScreen** -Kanals. Wenn Sie *zum Hauptmenü* zurückkehren, wird der Kanal wieder angezeigt.
 
