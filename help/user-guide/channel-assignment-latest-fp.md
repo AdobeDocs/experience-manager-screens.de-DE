@@ -1,12 +1,12 @@
 ---
-title: Zuweisung von Kanälen - neueste RP
-seo-title: Zuweisung von Kanälen - neueste RP
-description: Folgen Sie dieser Seite, um mehr über die Zuweisung von Kanälen und die Tagesaufteilung zu erfahren.
+title: Kanalzuweisung – Neuestes Feature Pack
+seo-title: Kanalzuweisung – Neuestes Feature Pack
+description: Auf dieser Seite erhalten Sie Informationen zur Kanalzuweisung und zu Dayparting.
 translation-type: tm+mt
-source-git-commit: c326c9e83b8c7edcda535b0c775c62c50dd3a29f
+source-git-commit: 4ce9bd954a30282d94e30a6868d269b4df0a0f5e
 workflow-type: tm+mt
-source-wordcount: '1491'
-ht-degree: 45%
+source-wordcount: '1477'
+ht-degree: 76%
 
 ---
 
@@ -16,85 +16,85 @@ ht-degree: 45%
 >[!IMPORTANT]
 >In diesem Abschnitt werden die Zuweisung und Planung von Kanälen für Kanal AEM 6.5.5 Screens Feature Pack und höher erläutert.
 
-Nachdem Sie eine Anzeige eingerichtet haben, müssen Sie einem Display einen Kanal zuweisen, um den Inhalt Ansicht.
+Nachdem Sie eine Anzeige eingerichtet haben, müssen Sie der Anzeige einen Kanal zuweisen, um Ihren Inhalt anzuzeigen.
 
-Diese Seite zeigt Ihnen, wie Sie Ihrer Anzeige einen Kanal zuweisen, wie Sie die Eigenschaften des Kanals und DayParting verstehen.
+Diese Seite zeigt, wie Sie Ihrer Anzeige einen Kanal zuweisen, wie Sie die Eigenschaften des Kanals und die Tagesaufteilung verstehen.
 
 >[!NOTE]
->Sie können einer Anzeige mehrere Kanal zuweisen.
+>Sie können einer Anzeige mehrere Kanäle zuweisen.
 
 
 ## Zuweisen von Kanälen {#assign-a-channel-new-release}
 
-Gehen Sie wie folgt vor, um ein AEM Screens-Projekt zu erstellen und einem Display einen Kanal zuzuweisen.
+Gehen Sie wie folgt vor, um ein AEM Screens-Projekt zu erstellen und einer Anzeige einen Kanal zuzuweisen.
 
 ### Erstellen eines AEM Screens-Projekts und von Kanälen {#creating-project}
 
 Gehen Sie wie folgt vor, um ein Projekt und einen Kanal einzurichten:
 
-1. Create an AEM Screens Project titled as **DemoScreens**.
+1. Erstellen Sie ein AEM Screens-Projekt mit dem Titel **DemoScreens**.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp1.png)
 
    >[!NOTE]
-   >Informationen zum Erstellen eines AEM Screens-Projekts finden Sie unter [Erstellen und Verwalten von Projekten](creating-a-screens-project.md) .
+   >Informationen zum Erstellen eines AEM Screens-Projekts finden Sie unter [Erstellen und Verwalten von Projekten](creating-a-screens-project.md).
 
-1. Erstellen Sie einen Sequenzordner mit dem Titel **Cafeteria** im Kanal **Kanal** .
+1. Erstellen Sie einen Sequenzkanal mit dem Namen **Cafeteria** im Ordner **Kanäle**.
 
-1. Select the channel and click **Edit** from the action bar to add content to your channel.
+1. Wählen Sie den Kanal aus und klicken Sie in der Aktionsleiste auf **Bearbeiten**, um dem Kanal Inhalte hinzuzufügen.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp2.png)
 
-   Beispielsweise werden im **Cafeteria** -Kanal jetzt folgende Bilder angezeigt:
+   Beispielsweise werden im Kanal **Cafeteria** jetzt folgende Bilder angezeigt:
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp3.png)
 
-1. Erstellen Sie eine Location mit dem Titel **SanJose** und eine Anzeige mit dem Namen **Lobby**.
+1. Erstellen Sie einen Standort mit dem Titel **SanJose** und eine Anzeige mit dem Namen **Lobby**.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp4.png)
 
-### Assigning Channel to a Display {#assigning-channel-to-display}
+### Zuweisen eines Kanals zu einer Anzeige {#assigning-channel-to-display}
 
 Nachdem das Projekt eingerichtet wurde, müssen Sie den Kanal einer Anzeige zuweisen, um den Inhalt Ansicht.
 
-1. Navigate to the required display, for example, **DemoScreens** --> **Locations** --> **SanJose** --> **Lobby**.
+1. Navigieren Sie zur gewünschten Anzeige, z. B. **DemoScreens** > **Standorte** > **SanJose** > **Lobby**.
 
-1. Tap/click **Assign Channel** from the action bar.
+1. Tippen/klicken Sie in der Aktionsleiste auf **Kanal zuweisen**.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    Oder
 
-   Tippen/klicken Sie in der Aktionsleiste auf **Dashboard** und klicken Sie auf **+Kanal** zuweisen im Bedienfeld **ZUGEWIESENE KANAL &amp; GEPLANTE** .
+   Tap/click **Dashboard** from the action bar and click **+Assign Channel** from the **ASSIGNED CHANNELS &amp; SCHEDULES** panel.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
-1. The **Channel Assignment** dialog box opens.
+1. Daraufhin wird das Dialogfeld **Kanalzuweisung** geöffnet.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-1. Wählen Sie unter &quot; **Einstellungen** &quot;den Kanal **nach Pfad** oder **nach Namen** aus, geben Sie die Optionen **Kanal Rolle**, **Priorität**********,Unterstützte EreignisundUnterbrechungsmethoden ein. Darüber hinaus können Sie die QuickInfo der Attraktion in diesem Dialogfeld aktivieren.
+1. From the **Settings** option, you can choose the channel **by path** or **by name**, enter the **Channel Role**, **Priority**, **Supported Events**, and **Interruption Methods**. Darüber hinaus können Sie die für Attraktions-QuickInfos in diesem Dialogfeld aktivieren.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
-   >Weitere Informationen zu den Eigenschaften von Kanälen finden Sie im Abschnitt [Kanal-Eigenschaften](#channel-properties) .
+   >Refer to [Channel Properties](#channel-properties) section to learn more about channel assignment properties.
 
-1. Wählen Sie unter der Option **Plan** die **Referenz-Zeitzone**, das Fenster **Aktivierung** und den Zeitplan **für die**Wiederholung aus.
+1. From the **Schedule** option select the **Activation Window** and **Recurrence Schedule**.
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
-   >Weitere Informationen zu den Eigenschaften von Kanälen finden Sie im Abschnitt [Kanal-Eigenschaften](#channel-properties) .
+   >Refer to [Channel Properties](#channel-properties) section to learn more about channel assignment properties.
 
-1. Klicken Sie auf **Speichern** , nachdem Sie Ihre Voreinstellungen konfiguriert haben.
+1. Klicken Sie auf **Speichern**, nachdem Sie Ihre Voreinstellungen konfiguriert haben.
 
-### Viewing the Content in Chrome Player {#viewing-content-output}
+### Anzeigen von Inhalten im Chrome-Player {#viewing-content-output}
 
-Dieses Beispiel zeigt die Ausgabe auf einem Chrome Player. Nachdem Sie den Kanal Ihrem Display zugewiesen haben, müssen Sie das Gerät für einen Player registrieren.
+In diesem Beispiel wird die Ausgabe auf einem Chrome-Player beschrieben. Nachdem Sie den Kanal Ihrer Anzeige zugewiesen haben, müssen Sie das Gerät bei einem Player registrieren.
 
-Informationen zum Registrieren eines Geräts auf einem AEM Screens-Player finden Sie unter [Geräteregistrierung](device-registration.md) .
+Informationen zum Registrieren eines Geräts auf einem AEM Screens-Player finden Sie unter [Geräteregistrierung](device-registration.md).
 
-Sie werden die folgende Ausgabe auf Ihrem Player-Ansicht:
+Sie werden die folgende Ausgabe auf Ihrem Player sehen:
 
 ![new1](assets/channel-assignment/channel-assign-output.gif)
 
@@ -104,27 +104,27 @@ Nachdem Sie einen Kanal einer Anzeige zugewiesen und einen Wiederholungsplan ein
 
 Gehen Sie wie folgt vor, um zur Ansicht der Zeitschiene zu navigieren:
 
-1. Navigate to the required display, for example, **DemoScreens** --> **Locations** --> **SanJose** --> **Lobby**.
+1. Navigieren Sie zur gewünschten Anzeige, z. B. **DemoScreens** > **Standorte** > **SanJose** > **Lobby**.
 
-1. Tap/click **Assign Channel** from the action bar.
+1. Tippen/klicken Sie in der Aktionsleiste auf **Kanal zuweisen**.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    Oder
 
-   Tippen/klicken Sie auf **Dashboard** und klicken Sie im Bedienfeld &quot; **ZUGEWIESENE KANAL und GEPLANTE** &quot;auf **Zeitschiene** .
+   Tap/click **Dashboard** and click **Timeline** from the **ASSIGNED CHANNELS &amp; SCHEDULES** panel.
 
 1. Ausstehende Bilder (zu korrigieren)
 
 ## Understanding Channel Properties from Channel Assignment Dialog Box {#channel-properties}
 
-Die folgenden Eigenschaften werden über die Option **Einstellungen** im Dialogfeld &quot; **Kanal-Zuweisung** &quot;festgelegt.
+Die folgenden Eigenschaften werden über die Option **Einstellungen** im Dialogfeld **Kanalzuweisung** festgelegt.
 
 ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
 ### Kanal auswählen {#select-channel}
 
-Wenn Sie einen Kanal auswählen, können Sie einen Verweis auf den gewünschten Kanal entweder nach dem Kanal oder nach dem Kanal-Pfad angeben.
+Mit der Auswahl eines Kanals können Sie einen Verweis zum gewünschten Kanal bereitstellen, entweder in Form des Namens oder des Pfads des Kanals.
 
 * **nach Pfad**: Sie stellen einen expliziten Verweis durch Angabe des absoluten Pfads des Kanals bereit.
 
@@ -168,61 +168,57 @@ Wählen Sie eine der folgenden Optionen aus, die zum Festlegen der Unterbrechung
    >Die Verwendung der zweiten oder dritten Option kann dazu führen, dass die für die Zuweisung festgelegten Zeiträume geringfügig verschoben werden, da der Player vor dem Aktualisieren auf das Ende des Elements oder der Sequenz (nach der angegebenen Zeit) wartet. Die Verzögerung hängt von der Wiedergabedauer des Elements ab.
 
 
-Die folgenden Eigenschaften werden über die Option &quot; **Plan** &quot;im Dialogfeld &quot; **Kanal-Zuweisung** &quot;festgelegt.
+Die folgenden Eigenschaften werden über die Option **Zeitplan** im Dialogfeld **Kanalzuweisung** festgelegt.
 
 ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
-### Referenzzeitzone {#reference-timezone}
-
-Mit der Referenz-Zeitzone können Sie die Zeitzone für die Inhaltsanzeige auswählen.
-
 ### Aktivierungsfenster {#activation-window}
 
-Im Fenster &quot;Aktivierung&quot;können Sie ein **Beginn-Datum** und ein **Enddatum** zur Inhaltsanzeige auswählen.
+Im Aktivierungsfenster können Sie ein **Anfangsdatum** und ein **Enddatum** für die Inhaltsanzeige auswählen.
 
 ### Intervallzeitplan {#recurrence-schedule}
 
-Mit dem Zeitplan für die Wiederholung können Sie einen Zeitplan für Ihre Inhalte festlegen. Klicken Sie auf **+ Hinzufügen Plan** , um Ihrem Kanal einen Zeitplan für eine Wiederholung hinzuzufügen.
+Mit dem Intervallzeitplan können Sie einen Zeitplan für Ihre Inhalte festlegen. Klicken Sie auf **+ Zeitplan hinzufügen**, um Ihrem Kanal einen Intervallzeitplan hinzuzufügen.
 
 >[!NOTE]
->Sie können Ihrem Kanal mehrere wiederkehrende Zeitpläne hinzufügen.
->Recurrence Schedules introduces *DayParting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+>Sie können Ihrem Kanal mehrere Intervallzeitpläne hinzufügen.
+>Recurrence Schedules introduces *day-parting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
 
 Sie können die folgenden Optionen festlegen:
 
-* **Name**: Titel des Zeitplans für die Wiederholung.
+* **Name**: Titel des Intervallzeitplans.
 * **Wiederholen**: Wählen Sie aus, ob der Plan **täglich**, **wöchentlich**, **monatlich** oder **jährlich** ausgeführt werden soll.
-* **Beginn**: Die Zeitdauer des Beginns für Ihren Zeitplan.
+* **Anfang**: Die Startzeit Ihres Zeitplans.
 * **Ende**: Die Endzeit Ihres Zeitplans. Sie können die Einstellung nach Zeit oder Dauer festlegen.
-   * **Zeit**: Der Zeitplan endet zu einem bestimmten Zeitpunkt.
-   * **Dauer**: Der Zeitplan läuft für eine bestimmte Dauer in Stunden oder Minuten.
+   * **Zeit**: Der Zeitplan endet zu einer bestimmten Zeit.
+   * **Dauer**: Der Zeitplan wird für eine bestimmte Zeitdauer in Stunden oder Minuten ausgeführt.
 
-### DayParting {#dayparting}
+### Tagesaufteilung {#dayparting}
 
-Bei Dayparting wird ein Tag in Zeitfenster unterteilt und festgelegt, welcher Inhalt zum gewünschten Zeitpunkt dargestellt wird. Mit AEM Screens können Sie Kanal in Form von DayParting innerhalb eines Tages, einer Woche oder eines Monats nach Bedarf planen.
+Die Tagesaufteilung bezeichnet das Aufteilen eines Tages in Zeitnischen und das Festlegen, welche Inhalte zur gewünschten Zeit abgespielt werden. Mit AEM Screens können Sie den Dayparting-Zeitplan von Kanälen nach Bedarf für Tage, Wochen oder Monate festlegen.
 
-Die folgenden Beispiele erklären DayParting in Kanälen in drei verschiedenen Szenarien:
+Im Folgenden wird in drei Szenarien beschrieben, wie Dayparting mit Kanälen verwendet werden kann:
 
-#### Anzeigen von Inhalten an einem einzigen Tag unterteilt in mehrere Zeitfenster     {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
+#### Anzeigen von Inhalten an einem einzigen Tag unterteilt in mehrere Zeitfenster       {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
-Dieses Beispiel zeigt, wie ein Restaurant mit DayParting täglich sein Frühstück-, Mittag- und Abendmenü präsentiert.
+Dieses Beispiel zeigt, wie ein Restaurant täglich mit Tagesaufteilung sein Frühstück-, Mittag- und Abendmenü präsentiert.
 
 Hier unterteilen wir jeden Tag in verschiedene Zeiträume, sodass der Kanal-Inhalt gemäß der angegebenen Tageszeit abgespielt wird. Legen Sie die folgenden Eigenschaften des Zeitplans für die Wiederkehrung fest, damit der Kanal den Inhalt gemäß diesem Verwendungsfall wiedergeben kann.
 
-| **Name** | **Wiederholen** | **Anfang** | **Ende** |
+| **Name** | **Wiederholungen** | **Anfang** | **Ende** |
 |---|---|---|---|
-| Frühstück | Täglich | 06:00 | 11:00 Uhr |
-| Mittagessen | Täglich | 11:02 | 15:00 |
-| Abendessen | Täglich | 15:01 | 20:00 |
+| Frühstück | Täglich | 06:00 Uhr | 11:00 Uhr |
+| Mittagessen | Täglich | 11:00 Uhr | 15:00 Uhr |
+| Abendessen | Täglich | 15:00 Uhr | 20:00 Uhr |
 
 #### Anzeigen von Inhalten an einem bestimmten Wochentag {#playing-content-on-a-particular-day-of-the-week}
 
-Dieses Beispiel zeigt die DayParting in einem Casino implementiert, in dem Live-Ereignis an jedem Wochenende von 20:00 bis 22:00 Uhr stattfindet und Spezialitäten für das Abendmenü nach 22:00 Uhr bis 13:00 Uhr zur Verfügung stehen.
+Dieses Beispiel zeigt die Tagesaufteilung, die in einem Casino implementiert ist, in dem täglich von 20:00 bis 22:00 Uhr Live-Ereignis stattfindet, und Spezialitäten für das Abendmenü nach 22:00 Uhr bis 13:00 Uhr verfügbar sind.
 
-| **Name** | **Wiederholen** | **Anfang** | **Ende** |
+| **Name** | **Wiederholungen** | **Anfang** | **Ende** |
 |---|---|---|---|
-| Wochenende | Wöchentlich | 20:00 | 22:00 |
-| Spezial | Täglich | 22:00 | 01:00 |
+| Wochenende | Wöchentlich: Samstag, Sonntag | 20:00 Uhr | 22:00 |
+| Sonderaktionen | Täglich: Montag bis Freitag | 22:00 | 1:00 Uhr |
 
 >[!NOTE]
 >
