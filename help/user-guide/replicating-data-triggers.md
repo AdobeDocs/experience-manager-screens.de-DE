@@ -1,18 +1,18 @@
 ---
-title: Replizieren von Datenauslösern auf Veröffentlichungsservern
-seo-title: Replizieren von Datenauslösern auf Veröffentlichungsserver
-description: Replizieren von Datenauslösern auf Veröffentlichungsserver.
-seo-description: Replizieren von Datenauslösern auf Veröffentlichungsserver.
-translation-type: tm+mt
+title: Replizieren von Datenauslösern auf Veröffentlichungs-Servern
+seo-title: Replizieren von Datenauslösern auf Veröffentlichungs-Server
+description: Replizieren von Datenauslösern auf Veröffentlichungs-Server.
+seo-description: Replizieren von Datenauslösern auf Veröffentlichungs-Server.
+translation-type: ht
 source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
 ht-degree: 100%
 
 ---
 
 
-# Replizieren von Datenauslösern auf Veröffentlichungsservern {#replicating-data-triggers}
+# Replizieren von Datenauslösern auf Veröffentlichungs-Servern {#replicating-data-triggers}
 
 Wenn Sie ContextHub und die AEM-Targeting-Engine verwenden, um Content basierend auf Datenauslösern in einem Autor-/Veröffentlichungsinstanz anzupassen, werden die ContextHub- und Personalisierung-bezogenen Konfigurationen nicht automatisch in den Kanälen repliziert, wenn sie veröffentlicht werden.
 
@@ -24,9 +24,9 @@ Das läuft im Wesentlichen auf das manuelle Veröffentlichen folgender Elemente 
 1. Personalisierungszielgruppen
 1. Personalisierungsaktivitäten
 
-## Schritte zum Replizieren von Datenauslösern auf den Veröffentlichungsserver {#replicating-data-triggers-publish}
+## Schritte zum Replizieren von Datenauslösern auf den Veröffentlichungs-Server {#replicating-data-triggers-publish}
 
-Gehen Sie wie folgt vor, um die Datenauslöser auf den Veröffentlichungsserver zu replizieren.
+Gehen Sie wie folgt vor, um die Datenauslöser auf den Veröffentlichungs-Server zu replizieren.
 
 ### Schritt 1: Replizieren von ContextHub-Konfigurationen {#replicating-contexthub-configurations}
 
@@ -94,7 +94,7 @@ Wenn die Testverbindung beim Replizieren der ContextHub-Konfigurationen fehlschl
 
 1. Navigieren Sie zu Werkzeuge > **Bereitstellung** > **Verteilung** > **Veröffentlichungsagent**.
 
-1. Klicken Sie in der Aktionsleiste auf **Bearbeiten** und stellen Sie sicher, dass die Endpunkt-URL im Feld **Importer Endpoints** auch auf die URL des Veröffentlichungsservers im Verteilungsagenten verweist.
+1. Klicken Sie in der Aktionsleiste auf **Bearbeiten** und stellen Sie sicher, dass die Endpunkt-URL im Feld **Importer Endpoints** auch auf die URL des Veröffentlichungs-Servers im Verteilungsagenten verweist.
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
 1. Wenn Sie nicht die standardmäßigen Administratorberechtigungen verwenden, müssen Sie den Verteilungsagenten mit einem anderen Benutzernamen und einem anderen Kennwort konfigurieren.
