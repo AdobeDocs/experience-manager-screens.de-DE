@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1616'
 ht-degree: 100%
 
@@ -204,5 +204,5 @@ Sie können den Launch löschen, indem Sie im Bedienfeld **AUSSTEHENDE LAUNCHES*
 
 >[!CAUTION]
 >
->Durch diese Aktion werden auch alle untergeordneten Elemente (verschachtelten Launches) ebenfalls gelöscht.
+>Durch diese Aktion werden auch alle untergeordneten Elemente (verschachtelten Launches) gelöscht.
 
