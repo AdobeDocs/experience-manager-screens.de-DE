@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Adobe Experience Manager Screens-Hilfe
 user-guide-description: Learn to use AEM Screens to publish interactive digital experiences involving different types of screens.
 translation-type: tm+mt
-source-git-commit: eb85269cfeccd837fdf1f752618013fefeddbfd7
+source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
 workflow-type: tm+mt
 source-wordcount: '399'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 97%
    + [Sicherheitscheckliste für AEM Screens](security-checklist.md)
    + [Umstellung von ContentSync auf SmartSync](smartsync.md)
    + [Importer für neue Projekte aus Datei](project-importer.md)
-   + [Replizieren von Datenauslösern auf Veröffentlichungsservern](replicating-data-triggers.md)
+   + [Replizieren von Datenauslösern auf Veröffentlichungs-Servern](replicating-data-triggers.md)
    + Kundenspezifische Aspekte {#installing-client}
       + [Chrome OS-Player](implementing-chrome-os-player.md)
       + [Verwenden von Chrome-Player als Erweiterung zur Problembehebung](using-chrome-player-as-an-extension.md)
@@ -56,9 +56,9 @@ ht-degree: 97%
       + [Erstellen und Verwalten von Standorten](managing-locations.md)
       + [Erstellen und Verwalten von Zeitplänen](managing-schedules.md)
       + [Verwalten von Geräten](managing-devices.md)
-      + Zuweisen der Kanäle{#assigning-channels} 
+      + Zuweisen von Kanälen{#assigning-channels} 
          + [Kanalzuweisung](channel-assignment-latest-fp.md)
-         + [Zuweisung von Kanälen: Ältere AEM Screens Feature Packs](channel-assignment.md)
+         + [Kanalzuweisung: Ältere AEM Screens Feature Packs](channel-assignment.md)
    + Verwenden der wichtigsten Produktfunktionen {#product-features}
       + [Textüberlagerung](text-overlay.md)
       + [Massen-Offline-Update](bulk-offline-update.md)
@@ -76,6 +76,7 @@ ht-degree: 97%
       + [Dauer der Massenwiedergabe von Bildern auf der Kanalebene](channel-level-image-playback.md)
       + [Befehlssynchronisierung](using-command-sync.md)
       + [Inhaltserstellung mit Datenauslösern](authoring-data-triggers.md)
+      + [Spracherkennung](voice-recognition.md)
    + Verwalten von Inhaltsaktualisierungen {#content-updates}
       + [On-Demand-Inhaltsaktualisierungen](on-demand-content.md)
       + [Aktualisierungen von Content-as-a-Service](content-update-as-a-service.md)
@@ -89,7 +90,6 @@ ht-degree: 97%
       + [Übergang von mehreren zu einzelnen Zonen](multizone-to-singlezone.md)
       + [Übernahmekanal für die einmalige Verwendung](single-use-takeover-channel.md)
       + [Übernahmekanal für die unbefristete Verwendung](perpetual-takeover-channel.md)
-      + [Spracherkennung](voice-recognition.md)
 + Entwickler- und API-Ressourcen {#developing}
    + [REST-APIs](rest-api.md)
    + [Entwickeln einer benutzerdefinierten Komponente für AEM Screens](developing-custom-component-tutorial-develop.md)
