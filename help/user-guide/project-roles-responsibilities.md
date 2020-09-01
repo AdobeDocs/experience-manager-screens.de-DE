@@ -2,27 +2,22 @@
 title: '„Teil 1: Projektrollen und Zuständigkeiten“'
 seo-title: '„Teil 1: Projektrollen und Zuständigkeiten“'
 description: In diesem Tutorial erfahren Sie mehr über die Rollen, Verantwortlichkeiten und Zeitpläne, die in den Vertriebs- und Projektlebenszyklen eines Projekts für digitale Beschilderung erforderlich sind.
-seo-description: In diesem Tutorial erfahren Sie mehr über die Rollen, Verantwortlichkeiten und Zeitpläne, die in den Vertriebs- und Projektlebenszyklen eines Projekts für digitale Beschilderung erforderlich sind.
-uuid: 871e75c1-9922-4292-8156-aa3ee8a87617
-contentOwner: jsyal
-content-type: reference
-topic-tags: digital-signage-networks-basics
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-discoiquuid: 860beb87-3686-488e-9bca-a590e78a751c
-docset: aem65
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
+workflow-type: tm+mt
+source-wordcount: '471'
+ht-degree: 76%
 
 ---
 
 
 # Teil 1: Projektrollen und Zuständigkeiten {#part-project-roles-and-responsibilities}
 
-Diese Seite enthält Teil 1 einer 5-teiligen Serie, der Team-Mitgliedern dabei hilft, Rollen, Zuständigkeiten und Zeitpläne besser zu verstehen, die in den Vertriebs- und Projektlebenszyklen eines Projekts für digitale Beschilderung zum Einsatz kommen.
+Diese Seite hebt Teil 1 einer fünfteiligen Reihe hervor, die Teammitgliedern dabei hilft, Rollen, Verantwortlichkeiten und Zeitlinien besser zu verstehen, die während des Verkaufs- und Projektlebenszyklus für ein Projekt mit digitaler Signatur erforderlich sind.
 
 ## Überblick {#overview}
 
-Dieses Tutorial behandelt allgemeine Informationen zu den Projektrollen und Zuständigkeiten für Adobe, AEM-Implementoren und A/V-Integratoren. Sie können zu nachfolgenden Folgen navigieren, um einen umfassenden Überblick darüber zu erhalten, wie Sie AEM Screens-Chancen erfolgreich entwickeln und Bereitstellungen für langfristigen Erfolg positionieren können.
+Das folgende Lernprogramm umfasst Projektrollen und Zuständigkeiten für Adobe, AEM Implementoren und A/V-Integratoren auf hoher Ebene. Sie können zu nachfolgenden Folgen navigieren, um einen umfassenden Überblick darüber zu erhalten, wie Sie AEM Screens-Chancen erfolgreich entwickeln und Bereitstellungen für langfristigen Erfolg positionieren können.
 
 Es gibt drei Hauptgruppen, die am Bereitstellungsprozess beteiligt sind:
 
@@ -36,7 +31,7 @@ Es gibt drei Hauptgruppen, die am Bereitstellungsprozess beteiligt sind:
 
 ## Zusammenfassung der an einem Projekt für digitale Beschilderung beteiligten Rollen {#summary-of-roles-involved-in-a-digital-signage-project}
 
-Die Festlegung von Anwendungsparameters für das Nutzungsszenario in Zusammenarbeit mit Adobe, AEM-Implementor und A/V-Integrator bestimmt den Umfang der Software-Entwicklung. Dadurch wird ein stufenweiser Ansatz gewährleistet, bei dem Leistungs-Benchmarks und Erfolgsmetriken im gesamten Projekt ermittelt werden.
+Die Festlegung von Anwendungsfallparametern in Partnerschaft mit Adobe, AEM Implementor und A/V Integrator wird die Softwareentwicklung fördern. Dadurch wird ein stufenweiser Ansatz gewährleistet, bei dem Leistungs-Benchmarks und Erfolgsmetriken im gesamten Projekt ermittelt werden.
 
 ### Adobe {#adobe}
 
@@ -60,12 +55,12 @@ In diesem Tutorial können Sie genau verstehen, wie sich die einzelnen Parteien 
 
 ### Teil 1: Projektrollen und Zuständigkeiten
 
->[!VIDEO](https://video.tv.adobe.com/v/28375?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/28375)
 
 *Erfahren Sie mehr über die Rollen und Zuständigkeiten von Adobe, A/V-Integratoren und AEM-Implementoren.*
 
 ## Der nächste Schritt {#the-next-step}
 
-Wenn Sie die Projektrollen und Verantwortlichkeiten bei der Implementierung eines Projekts für digitale Beschilderung verstanden haben, absolvieren Sie das nächste Tutorial, das sich eingehend mit Themen wie Tests und Erwägungen vor dem Vertrieb befasst, während der Umfang des Projekts bei der Entwicklung von AEM Screens-Chancen festgelegt wird.
+Sobald Sie die Projektrollen und Verantwortlichkeiten bei der Implementierung eines digitalen Signaturprojekts kennen, führen Sie das nächste Lernprogramm durch, das sich tief in Themen wie Tests und Vorverkaufsaspekte eintaucht, wie das Projekt bei der Entwicklung von AEM Screens-Möglichkeiten beschrieben wird.
 
 Navigieren Sie zu **[Teil 2: Überlegungen zum Projektumfang](project-considerations.md)**, um weitere Informationen zu erhalten.
