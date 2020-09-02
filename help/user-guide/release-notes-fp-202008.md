@@ -2,10 +2,10 @@
 title: Versionshinweise für Feature Pack 202008
 description: Auf der Seite werden die Versionshinweise für Feature Pack 2008 beschrieben.
 translation-type: tm+mt
-source-git-commit: 8c8b6ec0171d021370e7476b3aff5cdd212ebb32
+source-git-commit: 7e3830eed45fd74a334c97dfd49b1913c455c5b8
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 33%
+source-wordcount: '328'
+ht-degree: 38%
 
 ---
 
@@ -24,7 +24,7 @@ You can download the latest feature pack for AEM Screens 6.5.5 Release from the 
 
 ## Veröffentlichungsdatum {#release-date}
 
-Das Veröffentlichungsdatum für AEM Screens Feature Pack 2008 ist der 31. August 2020.
+Das Release Date for AEM Screens Feature Pack 2008 ist der 03. September 2020.
 
 ### Neuerungen {#what-is-new}
 
@@ -42,11 +42,19 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 2008 ist der 31. Augus
 
 * **Spracherkennungsfähigkeiten für AEM Screens**
 
-   Die Spracherkennungsfunktion ermöglicht die Inhaltsänderung in einem AEM Screens-Kanal, der durch Sprachinteraktionen gesteuert wird.
+   Die Spracherkennungsfunktion ermöglicht Inhaltsänderungen in einem AEM Screens-Kanal via Sprachinteraktionen.
 
-   Ein Inhaltsautor kann eine Anzeige so konfigurieren, dass Sprachaktivierung möglich ist. Diese Funktion soll Kunden die Möglichkeit geben, Sprache als Methode der Interaktion mit ihren Displays zu verwenden.
+   Ein Inhaltsautor kann eine Anzeige so konfigurieren, dass sie sprachaktiviert ist. Diese Funktion soll Kunden die Möglichkeit geben, Sprache als Methode der Interaktion mit ihren Displays zu verwenden.
 
    Weitere Informationen finden Sie unter [Spracherkennung](voice-recognition.md) .
+
+### Bekannte Probleme und Fehlerbehebungen {#known-issues}
+
+Wenn Sie AEM Screens 6.5.5 Feature Pack verwenden, müssen Sie eine Umgebung für Windows oder Android Player einrichten.
+
+* Weitere Informationen finden Sie unter [Implementieren von Windows 10 Player](implementing-windows-player.md#fp-environment-setup) .
+
+* Weitere Informationen finden Sie unter [Implementieren von Android Player](implementing-android-player.md#fp-environment-setup) .
 
 ### Veröffentlichte AEM Screens-Player {#released-aem-screens-players}
 
