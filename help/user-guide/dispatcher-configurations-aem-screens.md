@@ -4,10 +4,10 @@ seo-title: Dispatcher-Konfigurationen für AEM Screens
 description: Auf dieser Seite werden Richtlinien zum Konfigurieren von Dispatcher für ein AEM Screens-Projekt hervorgehoben.
 seo-description: Auf dieser Seite werden Richtlinien zum Konfigurieren von Dispatcher für ein AEM Screens-Projekt hervorgehoben.
 translation-type: tm+mt
-source-git-commit: 8e8413221d0f79f8e46e15d0f00a710296883739
+source-git-commit: 37025002d02603ab8a5c571086524be858389557
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 79%
+source-wordcount: '251'
+ht-degree: 71%
 
 ---
 
@@ -33,6 +33,21 @@ Weitere Informationen finden Sie unter [Konfigurieren von Dispatcher](https://do
 ## Konfigurieren von Dispatcher {#configuring-dispatcher}
 
 Gehen Sie wie folgt vor, um Dispatcher für ein AEM Screens-Projekt zu konfigurieren.
+
+### Aktivieren von fixierbaren Sitzungen {#enable-sticky-session}
+
+Wenn jemand mehr als eine Instanz im Veröffentlichungsmodus mit Dispatcher verwenden möchte, muss er die Datei &quot;dispatcher.any&quot;in seinem Dispatcher aktualisieren.
+
+```xml
+/stickyConnections {
+  /paths
+  {
+    "/content/screens"
+    "/home/users/screens"
+    "/libs/granite/csrf/token.json"
+  }
+}
+```
 
 ### Schritt 1: Konfigurieren von Client-Kopfzeilen {#step-configuring-client-headers}
 
@@ -76,7 +91,7 @@ Screens Player verwenden authentifizierte Sitzung, sodass der Dispatcher keine d
 Um den Cache für die Assets zu aktivieren, damit die Assets aus dem Dispatcher-Cache bereitgestellt werden, müssen Sie:
 
 * hinzufügen `/allowAuthorization 1` im `/cache` Abschnitt
-* hinzufügen Sie die folgenden Regeln in `/rule`einen Abschnitt von `/cache`
+* hinzufügen die folgenden Regeln in `/rules` Abschnitt `/cache`
 
 ```xml
 /0000
