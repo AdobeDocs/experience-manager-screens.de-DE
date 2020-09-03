@@ -1,12 +1,12 @@
 ---
 title: Kanalzuweisung – Neuestes Feature Pack
 seo-title: Kanalzuweisung – Neuestes Feature Pack
-description: Auf dieser Seite erhalten Sie Informationen zur Kanalzuweisung und zu Dayparting.
+description: Folgen Sie dieser Seite, um mehr über die Zuweisung von Kanälen und die Tagesaufteilung zu erfahren.
 translation-type: tm+mt
-source-git-commit: 4ce9bd954a30282d94e30a6868d269b4df0a0f5e
+source-git-commit: 87dac70f6cf349d8c67f153b813d605f4da378d1
 workflow-type: tm+mt
-source-wordcount: '1477'
-ht-degree: 76%
+source-wordcount: '1472'
+ht-degree: 79%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 76%
 
 Nachdem Sie eine Anzeige eingerichtet haben, müssen Sie der Anzeige einen Kanal zuweisen, um Ihren Inhalt anzuzeigen.
 
-Diese Seite zeigt, wie Sie Ihrer Anzeige einen Kanal zuweisen, wie Sie die Eigenschaften des Kanals und die Tagesaufteilung verstehen.
+Diese Seite zeigt Ihnen, wie Sie Ihrer Anzeige einen Kanal zuweisen, wie Sie die Eigenschaften des Kanals und DayParting verstehen.
 
 >[!NOTE]
 >Sie können einer Anzeige mehrere Kanäle zuweisen.
@@ -108,13 +108,11 @@ Gehen Sie wie folgt vor, um zur Ansicht der Zeitschiene zu navigieren:
 
 1. Tippen/klicken Sie in der Aktionsleiste auf **Kanal zuweisen**.
 
-   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
-
    Oder
 
    Tap/click **Dashboard** and click **Timeline** from the **ASSIGNED CHANNELS &amp; SCHEDULES** panel.
 
-1. Ausstehende Bilder (zu korrigieren)
+   ![image](/help/user-guide/assets/channel-assignment/timeline-1.png)
 
 ## Understanding Channel Properties from Channel Assignment Dialog Box {#channel-properties}
 
@@ -182,7 +180,7 @@ Mit dem Intervallzeitplan können Sie einen Zeitplan für Ihre Inhalte festlegen
 
 >[!NOTE]
 >Sie können Ihrem Kanal mehrere Intervallzeitpläne hinzufügen.
->Recurrence Schedules introduces *day-parting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+>Mit den Intervallzeitplänen wird *Dayparting* eingeführt, wodurch Sie einen globalen Zeitplan mit mehreren Kanälen festlegen können, die zu bestimmten Tageszeiten ausgeführt werden. Diese Einstellung kann dann für alle Anzeigen wiederverwendet werden.
 
 Sie können die folgenden Optionen festlegen:
 
@@ -193,15 +191,15 @@ Sie können die folgenden Optionen festlegen:
    * **Zeit**: Der Zeitplan endet zu einer bestimmten Zeit.
    * **Dauer**: Der Zeitplan wird für eine bestimmte Zeitdauer in Stunden oder Minuten ausgeführt.
 
-### Tagesaufteilung {#dayparting}
+### Dayparting {#dayparting}
 
-Die Tagesaufteilung bezeichnet das Aufteilen eines Tages in Zeitnischen und das Festlegen, welche Inhalte zur gewünschten Zeit abgespielt werden. Mit AEM Screens können Sie den Dayparting-Zeitplan von Kanälen nach Bedarf für Tage, Wochen oder Monate festlegen.
+Bei Dayparting wird ein Tag in Zeitfenster unterteilt und festgelegt, welcher Inhalt zum gewünschten Zeitpunkt dargestellt wird. Mit AEM Screens können Sie den Dayparting-Zeitplan von Kanälen nach Bedarf für Tage, Wochen oder Monate festlegen.
 
 Im Folgenden wird in drei Szenarien beschrieben, wie Dayparting mit Kanälen verwendet werden kann:
 
 #### Anzeigen von Inhalten an einem einzigen Tag unterteilt in mehrere Zeitfenster       {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
-Dieses Beispiel zeigt, wie ein Restaurant täglich mit Tagesaufteilung sein Frühstück-, Mittag- und Abendmenü präsentiert.
+Dieses Beispiel zeigt, wie ein Restaurant mit DayParting täglich sein Frühstück-, Mittag- und Abendmenü präsentiert.
 
 Hier unterteilen wir jeden Tag in verschiedene Zeiträume, sodass der Kanal-Inhalt gemäß der angegebenen Tageszeit abgespielt wird. Legen Sie die folgenden Eigenschaften des Zeitplans für die Wiederkehrung fest, damit der Kanal den Inhalt gemäß diesem Verwendungsfall wiedergeben kann.
 
@@ -213,7 +211,7 @@ Hier unterteilen wir jeden Tag in verschiedene Zeiträume, sodass der Kanal-Inha
 
 #### Anzeigen von Inhalten an einem bestimmten Wochentag {#playing-content-on-a-particular-day-of-the-week}
 
-Dieses Beispiel zeigt die Tagesaufteilung, die in einem Casino implementiert ist, in dem täglich von 20:00 bis 22:00 Uhr Live-Ereignis stattfindet, und Spezialitäten für das Abendmenü nach 22:00 Uhr bis 13:00 Uhr verfügbar sind.
+Dieses Beispiel zeigt die DayParting in einem Casino implementiert, in dem Live-Ereignis an jedem Wochenende von 20:00 bis 22:00 Uhr stattfindet und Spezialitäten für das Abendmenü nach 22:00 Uhr bis 13:00 Uhr zur Verfügung stehen.
 
 | **Name** | **Wiederholungen** | **Anfang** | **Ende** |
 |---|---|---|---|
