@@ -4,9 +4,9 @@ seo-title: Konfigurieren von Autoren- und Veröffentlichungsinstanz in AEM Scre
 description: Die AEM Screens-Architektur ähnelt einer traditionellen AEM Sites-Architektur. Inhalte werden in einer AEM-Autoreninstanz erstellt und dann vorwärts an mehrere Veröffentlichungsinstanzen repliziert. Auf dieser Seite erfahren Sie, wie Sie Autoren- und Veröffentlichungsinstanz für AEM Screens konfigurieren.
 seo-description: Die AEM Screens-Architektur ähnelt einer traditionellen AEM Sites-Architektur. Inhalte werden in einer AEM-Autoreninstanz erstellt und dann vorwärts an mehrere Veröffentlichungsinstanzen repliziert. Auf dieser Seite erfahren Sie, wie Sie Autoren- und Veröffentlichungsinstanz für AEM Screens konfigurieren.
 translation-type: tm+mt
-source-git-commit: 37025002d02603ab8a5c571086524be858389557
+source-git-commit: 80697595b7fc3d12c9f148a3998335d1d7cefb14
 workflow-type: tm+mt
-source-wordcount: '1922'
+source-wordcount: '1921'
 ht-degree: 98%
 
 ---
@@ -32,7 +32,8 @@ Bevor Sie mit Autoren- und Veröffentlichungs-Servern beginnen, sollten Sie mit 
 >
 >Diese AEM Screens-Funktion ist nur verfügbar, wenn Sie das Feature Pack 2 für AEM 6.4 Screens installiert haben. Wenden Sie sich an den Adobe-Support, um Zugriff auf dieses Feature Pack zu erhalten. Wenn Sie die entsprechenden Berechtigungen erhalten haben, können Sie es von Package Share herunterladen.
 
->[!IWichtig]
+>[!IMPORTANT]
+>
 >Wenn Sie mehr als eine Instanz im Veröffentlichungsmodus mit Dispatcher verwenden möchten, müssen Sie die Datei &quot;dispatcher.any&quot;im Dispatcher aktualisieren. Weitere Informationen finden Sie unter [Aktivieren von fixierbaren Sitzungen](dispatcher-configurations-aem-screens.md#enable-sticky-session) .
 
 ## Konfigurieren von Autoren- und Veröffentlichungsinstanz {#configuring-author-and-publish-instances}
