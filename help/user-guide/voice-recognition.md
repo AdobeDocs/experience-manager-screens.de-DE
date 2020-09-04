@@ -2,10 +2,10 @@
 title: Spracherkennung in AEM Screens
 description: Auf der Seite werden die Spracherkennungsfunktionen in AEM Screens beschrieben.
 translation-type: tm+mt
-source-git-commit: a9e13dca2ed8ac667356780db25cbe7e0c81c1c5
+source-git-commit: e355d648846034c4762ef8fdcb3e218d868044b6
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 38%
+source-wordcount: '1124'
+ht-degree: 35%
 
 ---
 
@@ -39,7 +39,7 @@ Im folgenden Abschnitt wird beschrieben, wie Sie die Spracherkennungsfunktion in
 
 ## Anzeigen von Inhalten im Vollbildmodus oder in einem geteilten Kanal-Switch {#sequence-channel}
 
-Bevor Sie die Funktion zur Spracherkennung verwenden, stellen Sie sicher, dass Sie ein Projekt und einen Kanal mit Inhalten für Ihr Projekt eingerichtet haben.
+Bevor Sie die Spracherkennungsfunktion verwenden, stellen Sie sicher, dass ein Projekt und ein Kanal mit Inhalten für Ihr Projekt eingerichtet wurden.
 
 1. Im folgenden Beispiel sehen Sie ein Demoprojekt mit dem Namen **VoiceDemo** und drei Kanälen **Main**, **ColdDrinks** und **HotDrinks**.
 
