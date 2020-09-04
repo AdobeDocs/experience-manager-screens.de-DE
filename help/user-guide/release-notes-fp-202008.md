@@ -2,10 +2,10 @@
 title: Versionshinweise für Feature Pack 202008
 description: Auf der Seite werden die Versionshinweise für Feature Pack 2008 beschrieben.
 translation-type: tm+mt
-source-git-commit: 583e9e6bb591cc9cf5ec60a60e10ccba480a7e14
+source-git-commit: f13adf375631e3b7d7d03324458d91d9d55b0f80
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 37%
+source-wordcount: '333'
+ht-degree: 36%
 
 ---
 
@@ -68,4 +68,4 @@ Die folgenden AEM Screens Player sind für AEM Screens veröffentlicht AEM 6.5 F
 
 #### AEM Screens-Player-Downloads {#aem-screens-player-downloads}
 
-Navigieren Sie zu **[AEM Screens-Player-Downloads](https://download.macromedia.com/screens/)**, um den neusten AEM Screens-Player herunterzuladen und mehr über die Fehlerbehebungen zu erfahren.
+Navigieren Sie zu **[AEM Screens-Player-Downloads](https://download.macromedia.com/screens/index.html)**, um den neusten AEM Screens-Player herunterzuladen und mehr über die Fehlerbehebungen zu erfahren.
