@@ -5,11 +5,11 @@ description: Auf dieser Seite erhalten Sie Antworten auf häufig gestellte Frage
 seo-description: Auf dieser Seite erhalten Sie Antworten auf häufig gestellte Fragen zu AEM Screens-Projekten.
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
-translation-type: ht
-source-git-commit: c615481f606a369fb9d4bafde74cbf00458f05fa
-workflow-type: ht
-source-wordcount: '1271'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 4d937ff4cbf05c61c8e38a0d09bb789c12a7a226
+workflow-type: tm+mt
+source-wordcount: '1294'
+ht-degree: 98%
 
 ---
 
@@ -89,13 +89,13 @@ Das Problem kann auftreten, wenn der Player das DNS des AEM Screens-Servers nich
 
 Ein plattformübergreifender Android-Watchdog, der reine Android-APIs nutzt, ist bereits Bestandteil des APK. Es ist keine zusätzliche Software erforderlich, aber je nach verwendetem Gerät müssen Sie das APK neu signieren, um Systemberechtigungen für einen vollständigen Betriebszyklus zu erhalten (Powermanager-API). Falls es nicht mit den Herstellerschlüsseln neu signiert wird, wird das APK beendet und die Anwendung neu gestartet, jedoch ohne Betriebszyklus.
 
-Weitere Informationen zur Implementierung des Android-Players finden Sie unter [**Implementieren des Android-Players **](implementing-android-player.md).
+Weitere Informationen zur Implementierung des Android-Players finden Sie unter [**Implementieren des Android-Players**](implementing-android-player.md).
 
 ### 5. Welche Remote-Überwachungs- und Warnmeldungs-Tools (Software) von Drittanbietern empfiehlt Adobe/AMS zur Überwachung einzelner Geräte?  {#what-third-party-remote-monitoring-and-alerting-tools-software-does-adobe-ams-recommend-for-monitoring-each-device}
 
 Je nachdem, welches Ergebnis Sie von der Überwachung und den Warnmeldungen wünschen, benachrichtigt Sie der AEM Screens-Benachrichtigungsdienst, wenn ein Gerät länger nicht mehr gepingt hat. Geeignete Tools von Drittanbietern hängen vom jeweiligen Betriebssystem, seinen Funktionen und den spezifischen Anforderungen des Kunden ab.
 
-Wenn Sie weitere Informationen dazu benötigen, wie Sie Geräteaktivität überwachen können, konsultieren Sie [**AEM Screens-Benachrichtigungsdienst **](screens-notifications-service.md).
+Wenn Sie weitere Informationen dazu benötigen, wie Sie Geräteaktivität überwachen können, konsultieren Sie [**AEM Screens-Benachrichtigungsdienst**](screens-notifications-service.md).
 
 ## AEM Screens-Player {#aem-screens-player}
 
@@ -124,6 +124,10 @@ Führen Sie folgende Schritte durch, um „Stay Awake“ in einem beliebigen And
 1. Tippen Sie 7-mal auf die Build-Nummer, um **Entwickleroptionen** in den **Einstellungen** zu aktivieren.
 1. Navigieren Sie zu den **Entwickleroptionen**.
 1. Aktivieren Sie **Stay Awake**.
+
+### 4. Wie wird der Fenstermodus für den Windows-Player aktiviert?
+
+Es gibt keinen Fenstermodus im Windows-Player. Der Vollbildmodus ist immer aktiviert.
 
 ## Allgemeine Tipps zur Problembehebung {#general-troubleshooting-tips}
 
