@@ -2,7 +2,7 @@
 title: Versionshinweise für Feature Pack 202008
 description: Auf der Seite werden die Versionshinweise für Feature Pack 2008 beschrieben.
 translation-type: tm+mt
-source-git-commit: 421174dba8a5a7c39bffcaa2dddb54939eeba3bc
+source-git-commit: 583e9e6bb591cc9cf5ec60a60e10ccba480a7e14
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 37%
@@ -20,7 +20,7 @@ ht-degree: 37%
 
 AEM Screens veröffentlicht AEM 6.5 Feature Pack 5.
 
-You can download the latest feature pack for AEM Screens 6.5.5 Release from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html) using your Adobe ID. Navigieren Sie zur Registerkarte **Adobe Experience Manager** und suchen Sie nach **Screens**, um das neueste Feature Pack herunterzuladen.
+You can download the latest feature pack for AEM Screens 6.5.5 Release from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) using your Adobe ID. Navigieren Sie zur Registerkarte **Adobe Experience Manager** und suchen Sie nach **Screens**, um das neueste Feature Pack herunterzuladen.
 
 ## Veröffentlichungsdatum {#release-date}
 
