@@ -3,9 +3,9 @@ title: Schnellstartanleitung
 seo-title: Schnellstartanleitung
 description: Befolgen Sie die Anweisungen auf dieser Seite, um ein Demoprojekt für AEM Screens zu erstellen. Ein Demoprojekt unterstützt Sie beim Erstellen eines digitalen Beschilderungserlebnisses – von der Installation und Konfiguration eines neuen Projekts bis hin zum Anzeigen von Inhalten mit dem AEM Screens-Player.
 translation-type: tm+mt
-source-git-commit: 63e828543a8543cc8ced678221369fe1e0431f60
+source-git-commit: c1a8317b835e000478591e4caa94b92f32a123d2
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1259'
 ht-degree: 59%
 
 ---
@@ -168,7 +168,8 @@ Nachdem das Projekt fertig eingerichtet wurde, müssen Sie den Kanal einer Anzei
 
 1. Wählen Sie unter &quot; **Einstellungen** &quot;den Kanal **nach Pfad** und die **unterstützten Ereignis** als **Startbildschirm** und **Leerlaufbildschirm**.
 
-   >[HINWEIS]
+   >[!NOTE]
+   >
    >Die **Kanal-Rolle**, **Priorität** und **Unterbrechungsmethoden** werden standardmäßig ausgefüllt. See [Channel Properties](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) section to learn more about channel assignment properties.
 
    ![image](assets/kickstart/demo-assign3.png)
