@@ -3,9 +3,9 @@ title: Schnellstartanleitung
 seo-title: Schnellstartanleitung
 description: Befolgen Sie die Anweisungen auf dieser Seite, um ein Demoprojekt für AEM Screens zu erstellen. Ein Demoprojekt unterstützt Sie beim Erstellen eines digitalen Beschilderungserlebnisses – von der Installation und Konfiguration eines neuen Projekts bis hin zum Anzeigen von Inhalten mit dem AEM Screens-Player.
 translation-type: tm+mt
-source-git-commit: 78ddd2b45f39d69b66f740910327eef475bcdcac
+source-git-commit: 988872003c1d01c90ccdb38fa77c99019b9a6966
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '985'
 ht-degree: 64%
 
 ---
@@ -18,7 +18,7 @@ Dieser Abschnitt ist ein Kurzanleitung zu AEM Screens und zeigt, wie ein AEM Scr
 >[!NOTE]
 >Bevor Sie mit der Arbeit an den Projektdetails beginnen, stellen Sie sicher, dass Sie das neueste Feature Pack installiert haben. Das neueste Feature Pack für AEM Screens 6.5.5 steht auf dem [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) zum Download zur Verfügung (Adobe ID erforderlich). 
 
-## Erstellen eines Erlebnisses für digitale Beschilderungen in fünf Minuten {#creating-a-digital-signage-experience-in-minutes}
+## Voraussetzungen {#prerequisites}
 
 Gehen Sie wie folgt vor, um ein Beispielprojekt für AEM Screens zu erstellen und Inhalte im Screens Player zu veröffentlichen.
 
@@ -48,7 +48,7 @@ Gehen Sie wie folgt vor, um ein Beispielprojekt für AEM Screens zu erstellen un
 1. Klicken Sie auf **Speichern**, um den Apache Sling Referrer-Filter „Leere erlauben“ zu aktivieren.
 
 
-## Tutorial {#tutorial}
+## Erstellen eines Erlebnisses für digitale Beschilderungen in fünf Minuten {#creating-a-digital-signage-experience-in-minutes}
 
 ### Erstellen eines AEM Screens-Projekts {#creating-project}
 
@@ -134,11 +134,19 @@ Nachdem Sie einen Standort konfiguriert haben, müssen Sie eine neue Anzeige fü
 
 1. Klicken Sie in der Aktionsleiste auf **Erstellen**.
 
+   ![image](assets/kickstart/demo-disp1.png)
+
 1. Wählen Sie im Assistenten **Erstellen** die Option **Anzeige** aus und klicken Sie auf **Weiter**.
+
+   ![image](assets/kickstart/demo-disp2.png)
 
 1. Enter the **Title** as **LobbyDisplay** and click **Create**.
 
+   ![image](assets/kickstart/demo-disp3.png)
+
 A new display titled as **TestDisplay** is now added to your location **TestLocation**, as shown in the figure below.
+
+![image](assets/kickstart/demo-disp4.png)
 
 ### Zuweisen von Kanälen {#assigning-channel}
 
