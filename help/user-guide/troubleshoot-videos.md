@@ -9,8 +9,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
-translation-type: ht
-source-git-commit: 6abe309a8beb264f1505b6f39d786acc035bad05
+translation-type: tm+mt
+source-git-commit: 6d86710a5d0a4fd1cf6c0dc46961d231b0128f95
+workflow-type: tm+mt
+source-wordcount: '830'
+ht-degree: 95%
 
 ---
 
@@ -42,7 +45,7 @@ Wenn keine Ausgabe verfügbar ist, überprüfen Sie, ob ffmpeg im Betriebssystem
 
 ## Video-Assets {#video-assets}
 
-Wenn unter dem Video kein Quellattribut angezeigt wird, wurde das Video möglicherweise nicht transkodiert. Wenn das Video ordnungsgemäß transkodiert wurde, wird es im Dashboard angezeigt (siehe nachfolgende Abbildung).
+Wenn Sie kein Quellattribut unter Video sehen, wird das Video möglicherweise nicht transkodiert. Wenn das Video korrekt transkodiert ist, wird es im Dashboard angezeigt, wie in der Abbildung unten dargestellt.
 
 Vergewissern Sie sich, dass ffmpeg installiert ist, und prüfen Sie die Videoprofile.
 
@@ -78,9 +81,9 @@ Prüfen Sie die Liste der Profile über die Design-Seite, wenn die Videokomponen
 
 1. Wählen Sie das Video aus und öffnen Sie das Dialogfeld **Bearbeiten**. Öffnen Sie die Registerkarte **Profile**.
 
-   Wählen Sie unterschiedliche Profile aus. (Es sollte wenigstens das Profil „Hohe Qualität H.264“ vorhanden sein.)
+   >[!HINWEIS
+   >Wählen Sie unterschiedliche Profile aus. (Es sollte wenigstens das Profil „Hohe Qualität H.264“ vorhanden sein.)
 
-   ![chlimage_1-7](assets/chlimage_1-7.png)
 
 ### Prüfen des Videos im Web-Player {#checking-the-video-in-the-web-player}
 
@@ -140,11 +143,10 @@ Führen Sie die folgenden Schritte durch, um eine absolute Strategie einzurichte
 1. Öffnen Sie das Konfigurations-Dialogfeld.
 1. Bearbeiten Sie die **Strategie** und fügen Sie „absolut“ hinzu.
 
-![chlimage_1-8](assets/chlimage_1-8.png)
+   ![chlimage_1-8](assets/chlimage_1-8.png)
 
->[!NOTE]
->
->Die Betriebssysteme der Player müssen über dieselbe Uhr verfügen.
+   >[!NOTE]
+   >Die Betriebssysteme der Player müssen über dieselbe Uhr verfügen.
 
 **Synchronisieren der Uhren unter OS X** Gehen Sie wie folgt vor, um die Uhren unter OS X zu synchronisieren:
 
