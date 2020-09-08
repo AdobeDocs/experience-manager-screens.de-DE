@@ -3,9 +3,9 @@ title: Schnellstartanleitung
 seo-title: Schnellstartanleitung
 description: Befolgen Sie die Anweisungen auf dieser Seite, um ein Demoprojekt für AEM Screens zu erstellen. Ein Demoprojekt unterstützt Sie beim Erstellen eines digitalen Beschilderungserlebnisses – von der Installation und Konfiguration eines neuen Projekts bis hin zum Anzeigen von Inhalten mit dem AEM Screens-Player.
 translation-type: tm+mt
-source-git-commit: 6f95322e35861ef4b552c89320847d97f9644a4b
+source-git-commit: 12d84eba2b9001600f783cd4f994af43d2c16739
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1317'
 ht-degree: 54%
 
 ---
@@ -81,9 +81,9 @@ Gehen Sie wie folgt vor, um einen neuen Kanal für Ihr Projekt zu erstellen:
 
    ![image](assets/kickstart/demo-4.png)
 
-Der *TestChannel* wird erstellt und zum Ordner „Kanäle“ hinzugefügt, wie in der nachfolgenden Abbildung gezeigt.
+   Der *TestChannel* wird erstellt und zum Ordner „Kanäle“ hinzugefügt, wie in der nachfolgenden Abbildung gezeigt.
 
-![image](assets/kickstart/demo-5.png)
+   ![image](assets/kickstart/demo-5.png)
 
 ### Hinzufügen von Inhalten zu Kanälen {#adding-content}
 
@@ -144,9 +144,9 @@ Nachdem Sie einen Standort konfiguriert haben, müssen Sie eine neue Anzeige fü
 
    ![image](assets/kickstart/demo-disp3.png)
 
-A new display titled as **TestDisplay** is now added to your location **TestLocation**, as shown in the figure below.
+   A new display titled as **TestDisplay** is now added to your location **TestLocation**, as shown in the figure below.
 
-![image](assets/kickstart/demo-disp4.png)
+   ![image](assets/kickstart/demo-disp4.png)
 
 ### Zuweisen von Kanälen {#assigning-channel}
 
@@ -182,7 +182,7 @@ Nachdem das Projekt fertig eingerichtet wurde, müssen Sie den Kanal einer Anzei
 
 1. Klicken Sie auf **Speichern**, nachdem Sie Ihre Voreinstellungen konfiguriert haben.
 
-### Registrieren eines Geräts und Zuweisen eines Geräts zu einer Anzeige{#registering-device}
+### Registrieren eines Geräts und Zuweisen eines Geräts zu einer Anzeige {#registering-device}
 
 Sie müssen Ihr Gerät mithilfe des AEM-Dashboards registrieren.
 
@@ -244,7 +244,7 @@ Sobald Ihr ChromeOS-Player aktiviert ist, führen Sie die folgenden Schritte aus
 
 Alle Assets in Ihrem Kanal werden jetzt auf Ihrem Chrome-Gerät abgespielt.
 
-Herzlichen Glückwunsch, dass Sie jetzt Inhalte auf einem AEM Screens-Kanal spielen!
+Herzlichen Glückwunsch, dass Sie jetzt Inhalte in einem AEM Screens-Kanal spielen!
 
 ![image](assets/kickstart/demo-video-screens.gif)
 
