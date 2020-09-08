@@ -3,10 +3,10 @@ title: Schnellstartanleitung
 seo-title: Schnellstartanleitung
 description: Befolgen Sie die Anweisungen auf dieser Seite, um ein Demoprojekt für AEM Screens zu erstellen. Ein Demoprojekt unterstützt Sie beim Erstellen eines digitalen Beschilderungserlebnisses – von der Installation und Konfiguration eines neuen Projekts bis hin zum Anzeigen von Inhalten mit dem AEM Screens-Player.
 translation-type: tm+mt
-source-git-commit: 78aab8e8ad8ad9e3a3caf20fef044f507b5298a0
+source-git-commit: 78ddd2b45f39d69b66f740910327eef475bcdcac
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 63%
+source-wordcount: '981'
+ht-degree: 64%
 
 ---
 
@@ -91,9 +91,9 @@ Wenn Sie einen Kanal erstellt haben, müssen Sie diesem Inhalte hinzufügen, die
 
 Gehen Sie wie folgt vor, um dem Kanal (*TestChannel*) Ihres Projekts Inhalte hinzuzufügen:
 
-1. Navigieren Sie zum erstellten *DemoProject* und wählen Sie den Ordner **Kanal** aus.
+1. Navigieren Sie zum erstellten **DemoProject** und wählen Sie den Ordner **Kanal** aus.
 
-1. Klicken Sie in der Aktionsleiste auf **Bearbeiten** (siehe Abbildung unten). Der Editor für den *Testkanal* wird geöffnet.
+1. Klicken Sie in der Aktionsleiste auf **Bearbeiten** (siehe Abbildung unten). Der Editor für den **Testkanal** wird geöffnet.
 
    ![image](assets/kickstart/demo-6.png)
 
@@ -112,7 +112,7 @@ Sobald Sie Ihren Kanal eingerichtet haben, müssen Sie einen Speicherort erstell
 
 Gehen Sie wie folgt vor, um einen neuen Standort für Ihr Projekt zu erstellen:
 
-1. Navigate to the *DemoProject* you created and select the **Locations** folder.
+1. Navigate to the **DemoProject** you created and select the **Locations** folder.
 
 1. Click **+ Create** from the action bar.
 
@@ -120,7 +120,7 @@ Gehen Sie wie folgt vor, um einen neuen Standort für Ihr Projekt zu erstellen:
 
 1. Enter the **Name** for your location (enter the title as *TestLocation*) and click **Create**.
 
-Der Standort *TestLocation* wird erstellt und dem Ordner **Standorte** hinzugefügt.
+Der Standort **TestLocation** wird erstellt und dem Ordner **Standorte** hinzugefügt.
 
 
 ### Erstellen einer Anzeige für einen Ort {#creating-display}
@@ -136,51 +136,41 @@ Nachdem Sie einen Standort konfiguriert haben, müssen Sie eine neue Anzeige fü
 
 1. Wählen Sie im Assistenten **Erstellen** die Option **Anzeige** aus und klicken Sie auf **Weiter**.
 
-1. Geben Sie den **Titel** ein (*LobbyDisplay*).
+1. Enter the **Title** as **LobbyDisplay** and click **Create**.
 
-1. Klicken Sie auf **Erstellen**.
-
-Eine neue Anzeige (*TestDisplay*) wird Ihrem Standort (*TestLocation*) hinzugefügt, wie in der nachfolgenden Abbildung gezeigt.
+A new display titled as **TestDisplay** is now added to your location **TestLocation**, as shown in the figure below.
 
 ### Zuweisen von Kanälen {#assigning-channel}
 
-1. Navigieren Sie über *Test_Project* > **Standorte** > *TestLocation* > *TestDisplay* zur Anzeige.
+Nachdem das Projekt fertig eingerichtet wurde, müssen Sie den Kanal einer Anzeige zuweisen, um den Inhalt anzuzeigen.
 
-1. Select *TestDisplay* and tap/click **Assign Channel** from the action bar, *Or*,
+1. Navigate to the required display, for example, **DemoScreens** --> **Locations** --> **TestLocation** --> **LobbyDisplay**.
 
-1. Alternativ dazu können Sie auf **Dashboard** klicken und oben rechts im Bedienfeld **ZUGEWIESENE KANÄLE UND ZEITPLÄNE** die Option **+Kanal zuweisen** auswählen, wie in der nachfolgenden Abbildung gezeigt. Daraufhin wird das Dialogfeld **Kanalzuweisung** geöffnet.
+1. Tippen/klicken Sie in der Aktionsleiste auf **Kanal zuweisen**.
 
-1. Wählen Sie als Vorgehensweise für **Kanal referenzieren** die Option **Pfad** aus
+   Oder
 
-1. Geben Sie als **Kanalrolle** den Wert *LiveStream* ein.
+   Tippen/klicken Sie in der Aktionsleiste auf **Dashboard** und klicken Sie im Bedienfeld **ZUGEWIESENE KANÄLE UND ZEITPLÄNE** auf **+Kanal zuweisen**.
 
-1. Wählen Sie den **Kanalpfad** (*Test_Project* > *Kanäle* > *TestChannel*) unter **Kanal** aus.
+1. Daraufhin wird das Dialogfeld **Kanalzuweisung** geöffnet.
 
-1. Wählen Sie als **Priorität** für den Kanal *1* aus.
-
-1. Wählen Sie unter **Unterstützte Ereignisse** die Optionen **Erster Ladevorgang** und **Bildschirm bei Untätigkeit** aus.
-
-1. Geben Sie den **Zeitplan** ein und wählen Sie unter **aktiv ab** und **aktiv bis** jeweils ein Datum aus.
-
-1. Klicken Sie auf **Speichern**.
-
-Der Kanal wird erstellt und dem Bedienfeld hinzugefügt.
+1. Unter **Einstellungen** können Sie den Kanal **nach Pfad** oder **nach Namen** auswählen, die **Kanalrolle**, **Priorität**, die **unterstützten Ereignisse** und die **Unterbrechungsmethoden** eingeben. Darüber hinaus können Sie die Attraktions-QuickInfos in diesem Dialogfeld aktivieren.
 
 
+   >[!NOTE]
+   >Weitere Informationen zu den Kanalzuweisungseigenschaften finden Sie im Abschnitt [Kanaleigenschaften](/help/user-guide/channel-assignment-latest-fp.md#channel-properties).
+
+1. Wählen Sie unter **Zeitplan** die Optionen **Aktivierungsfenster** und **Intervallzeitplan** aus.
+
+1. Klicken Sie auf **Speichern**, nachdem Sie Ihre Voreinstellungen konfiguriert haben.
 
 ### Registrieren von Geräten {#registering-device}
 
 Sie müssen Ihr Gerät mithilfe des AEM-Dashboards registrieren.
 
->[!NOTE]
->Sie können den Screens-Player über die heruntergeladene AEM Screens-App oder mithilfe des Webbrowsers öffnen.
+### Anzeigen von Inhalten im Chrome-Player {#viewing-content-output}
+
+In diesem Beispiel wird die Ausgabe auf einem Chrome-Player beschrieben. Nachdem Sie den Kanal Ihrer Anzeige zugewiesen haben, müssen Sie das Gerät bei einem Player registrieren.
 
 
 
-### Viewing the content in AEM Screens Player {#viewing-the-content-in-screens-player}
-
-Nachdem Sie die oben genannten Konfigurationen hinzugefügt haben, sollte der Player automatisch den standardmäßigen Kanal für die Anzeige auf Ihrem Gerät anzeigen.
-
-
-
-Weitere Informationen zum AEM Screens-Player finden Sie unter [AEM Screens-Player](working-with-screens-player.md).
