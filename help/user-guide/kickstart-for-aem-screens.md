@@ -3,10 +3,10 @@ title: Schnellstartanleitung
 seo-title: Schnellstartanleitung
 description: Befolgen Sie die Anweisungen auf dieser Seite, um ein Demoprojekt für AEM Screens zu erstellen. Ein Demoprojekt unterstützt Sie beim Erstellen eines digitalen Beschilderungserlebnisses – von der Installation und Konfiguration eines neuen Projekts bis hin zum Anzeigen von Inhalten mit dem AEM Screens-Player.
 translation-type: tm+mt
-source-git-commit: 988872003c1d01c90ccdb38fa77c99019b9a6966
+source-git-commit: 63e828543a8543cc8ced678221369fe1e0431f60
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 64%
+source-wordcount: '1260'
+ht-degree: 59%
 
 ---
 
@@ -152,29 +152,70 @@ A new display titled as **TestDisplay** is now added to your location **TestLoca
 
 Nachdem das Projekt fertig eingerichtet wurde, müssen Sie den Kanal einer Anzeige zuweisen, um den Inhalt anzuzeigen.
 
-1. Navigate to the required display, for example, **DemoScreens** --> **Locations** --> **TestLocation** --> **LobbyDisplay**.
+1. Navigieren Sie zur gewünschten Anzeige unter **DemoScreens** —> **Speicherorte** —> **TestLocation** —> **LobbyDisplay**.
 
 1. Tippen/klicken Sie in der Aktionsleiste auf **Kanal zuweisen**.
+
+   ![image](assets/kickstart/demo-assign1.png)
 
    Oder
 
    Tippen/klicken Sie in der Aktionsleiste auf **Dashboard** und klicken Sie im Bedienfeld **ZUGEWIESENE KANÄLE UND ZEITPLÄNE** auf **+Kanal zuweisen**.
 
+   ![image](assets/kickstart/demo-assign2.png)
+
 1. Daraufhin wird das Dialogfeld **Kanalzuweisung** geöffnet.
 
-1. Unter **Einstellungen** können Sie den Kanal **nach Pfad** oder **nach Namen** auswählen, die **Kanalrolle**, **Priorität**, die **unterstützten Ereignisse** und die **Unterbrechungsmethoden** eingeben. Darüber hinaus können Sie die Attraktions-QuickInfos in diesem Dialogfeld aktivieren.
+1. Wählen Sie unter &quot; **Einstellungen** &quot;den Kanal **nach Pfad** und die **unterstützten Ereignis** als **Startbildschirm** und **Leerlaufbildschirm**.
 
+   >[HINWEIS]
+   >Die **Kanal-Rolle**, **Priorität** und **Unterbrechungsmethoden** werden standardmäßig ausgefüllt. See [Channel Properties](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) section to learn more about channel assignment properties.
+
+   ![image](assets/kickstart/demo-assign3.png)
+
+   Darüber hinaus können Sie auch das Fenster &quot; **Aktivierung&quot;** und den Zeitplan für die **Wiederholung** auswählen.
 
    >[!NOTE]
-   >Weitere Informationen zu den Kanalzuweisungseigenschaften finden Sie im Abschnitt [Kanaleigenschaften](/help/user-guide/channel-assignment-latest-fp.md#channel-properties).
-
-1. Wählen Sie unter **Zeitplan** die Optionen **Aktivierungsfenster** und **Intervallzeitplan** aus.
+   >The *Recurrence Schedule* allows you to set a recurring schedule for your channel. Sie richten mehrere Intervallzeitpläne für einen Kanal ein.
+   >Weitere Informationen finden Sie unter [Intervallzeitplan](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule).
 
 1. Klicken Sie auf **Speichern**, nachdem Sie Ihre Voreinstellungen konfiguriert haben.
 
-### Registrieren von Geräten {#registering-device}
+### Registrieren eines Geräts und Zuweisen eines Geräts zu einer Anzeige{#registering-device}
 
 Sie müssen Ihr Gerät mithilfe des AEM-Dashboards registrieren.
+
+>[!IMPORTANT]
+>Im Entwicklermodus kann der Chrome OS-Player als Chrome-Browser-Plug-in installiert werden, ohne dass ein echtes Chrome-Player-Gerät erforderlich ist. Gehen Sie zur Installation wie folgt vor:
+>
+>1. Klicken Sie [hier](https://download.macromedia.com/screens/), um den neuesten Chrome-Player herunterzuladen.
+>1. Entpacken Sie die Datei und speichern Sie sie auf der Festplatte.
+>1. Öffnen Sie den Chrome-Browser und wählen Sie im Menü die Option **Erweiterungen** oder navigieren Sie direkt zu ***chrome://extensions***.
+>1. Aktivieren Sie oben rechts den **Entwicklermodus**.
+>1. Klicken Sie oben links auf **Entpackte Erweiterung laden** und laden Sie den entpackten Chrome-Player.
+>1. Überprüfen Sie, ob in der Liste der Erweiterungen das Plug-in **AEM Screens Chrome Player** aufgeführt wird.
+>1. Öffnen Sie eine neue Registerkarte und klicken Sie oben links auf das Symbol **Apps** oder navigieren Sie direkt zu ***chrome://apps***.
+>1. Klicken Sie auf das Plug-in **AEM Screens**, um den Chrome-Player zu starten. Standardmäßig wird der Player im Vollbildmodus gestartet. Drücken Sie **Esc**, um den Vollbildmodus zu beenden.
+
+
+Sobald Ihr ChromeOS-Player aktiviert ist, führen Sie die folgenden Schritte aus, um ein Chrome-Gerät zu registrieren.
+
+1. Navigieren Sie von Ihrer AEM zum Ordner &quot; **Geräte** &quot;Ihres Projekts.
+
+1. Tap/click the **Device Manager** from the action bar.
+
+1. Tap/click the **Device Registration** from the top right.
+
+1. Select the required device and tap/click **Register Device**.
+
+1. Warten Sie, bis das Gerät seinen Registrierungscode sendet, und überprüfen Sie gleichzeitig den **Registrierungscode** von Ihrem Chrome-Gerät.
+
+1. If the **Registration Code** is the same on both machines, tap/click **Validate** in AEM.
+
+1. Legen Sie den gewünschten Namen für das Gerät fest und klicken Sie auf **Registrieren**.
+
+1. Tippen/klicken Sie auf **Beenden**, um den Registrierungsprozess abzuschließen.
+
 
 ### Anzeigen von Inhalten im Chrome-Player {#viewing-content-output}
 
