@@ -9,8 +9,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: f8e2e7a3-f3a1-4c35-b055-166752c3fb86
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: b06ebef5d22daed81e8705c0928501505fd3d297
+workflow-type: tm+mt
+source-wordcount: '773'
+ht-degree: 95%
 
 ---
 
@@ -25,7 +28,7 @@ Auf dieser Seite wird gezeigt, wie Anzeigen für Screens erstellt und verwaltet 
 
 **Voraussetzungen**:
 
-* [Konfigurieren und Bereitstellen von Screens](configuring-screens-introduction.md) 
+* [Konfigurieren und Bereitstellen von Screens](configuring-screens-introduction.md)
 * [Erstellen und Verwalten von Screens-Projekten](creating-a-screens-project.md)
 * [Erstellen und Verwalten von Kanälen](managing-channels.md)
 * [Erstellen und Verwalten von Standorten](managing-locations.md)
@@ -110,33 +113,28 @@ Das Anzeigen-Dashboard bietet verschiedene Bedienfelder zum Verwalten von Anzeig
 
 Im Bedienfeld **ANZEIGEINFORMATIONEN** werden die Anzeigeeigenschaften angezeigt.
 
-Klicken Sie in der oberen rechten Ecke im Bedienfeld „ANZEIGEINFORMATIONEN“ auf (**...**), um die Eigenschaften der Anzeige anzuzeigen und die Anzeige in der Vorschau zu betrachten.
+Klicken Sie in der oberen rechten Ecke im Fenster **ANZEIGEINFORMATIONEN** auf (**...**), um die Eigenschaften der Anzeige anzuzeigen und die Anzeige in der Vorschau zu betrachten.
 
-![chlimage_1-10](assets/chlimage_1-10.png)
 
 #### Anzeigen von Eigenschaften {#viewing-properties}
 
 Klicken Sie auf **Eigenschaften**, um die Eigenschaften Ihrer Anzeige anzuzeigen oder zu ändern.
 
-Außerdem können Sie den Ereignis-Timer-Wert für Ihren interaktiven Kanal auf der Registerkarte **Anzeige** in der Eigenschaft „Leerlauf-Zeitüberschreitung“ einstellen. Der Standardwert ist auf *300 Sekunden* eingestellt.
+Additionally, you can adjust the event timer value for your interactive channel in **Idle timeout** property under **Display** tab. Der Standardwert ist auf *300 Sekunden* eingestellt.
 
 Verwenden Sie **CRXDE Lite**, um auf die Eigenschaft **idleTimeout** zuzugreifen: `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels`.
 
-![chlimage_1-1](assets/chlimage_1-1.gif)
 
 ### Bedienfeld „Zugewiesene Kanäle“ {#assigned-channels-panel}
 
 Das Bedienfeld **ZUGEWIESENE KANÄLE** zeigt die zugewiesenen Kanäle des Geräts an.
 
-![chlimage_1-11](assets/chlimage_1-11.png)
 
 ### Bedienfeld „Geräte“ {#devices-panel}
 
 Das Bedienfeld **GERÄTE** bietet Informationen zu den Gerätekonfigurationen.
 
-Klicken Sie in der oberen rechten Ecke des Bedienfelds „GERÄTE“ auf (**...**), um Gerätekonfigurationen hinzuzufügen und Geräte zu aktualisieren.
-
-![chlimage_1-12](assets/chlimage_1-12.png)
+Click on the (**...**) in the top right corner in the **DEVICES** panel to add device configs and update devices.
 
 Außerdem können Sie auf die Gerätekonfiguration klicken, um Eigenschaften anzuzeigen, ein Gerät zuzuweisen oder ein Gerät komplett zu löschen.
 
