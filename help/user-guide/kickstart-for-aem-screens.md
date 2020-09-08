@@ -3,10 +3,10 @@ title: Schnellstartanleitung
 seo-title: Schnellstartanleitung
 description: Befolgen Sie die Anweisungen auf dieser Seite, um ein Demoprojekt für AEM Screens zu erstellen. Ein Demoprojekt unterstützt Sie beim Erstellen eines digitalen Beschilderungserlebnisses – von der Installation und Konfiguration eines neuen Projekts bis hin zum Anzeigen von Inhalten mit dem AEM Screens-Player.
 translation-type: tm+mt
-source-git-commit: f2fef18cc73825b3f062a79c560097e8fd00ac9f
+source-git-commit: 78aab8e8ad8ad9e3a3caf20fef044f507b5298a0
 workflow-type: tm+mt
-source-wordcount: '1080'
-ht-degree: 73%
+source-wordcount: '985'
+ht-degree: 63%
 
 ---
 
@@ -50,7 +50,7 @@ Gehen Sie wie folgt vor, um ein Beispielprojekt für AEM Screens zu erstellen un
 
 ## Tutorial {#tutorial}
 
-### Creating a new AEM Screens Project {#creating-project}
+### Erstellen eines AEM Screens-Projekts {#creating-project}
 
 Der erste Schritt ist die Erstellung eines neuen AEM Screens-Projekts.
 
@@ -64,7 +64,7 @@ Der erste Schritt ist die Erstellung eines neuen AEM Screens-Projekts.
    >Nachdem Sie das Projekt erstellt haben, gelangen Sie zurück zur Startseite &quot;Bildschirmprojekt&quot;. Sie können Ihr Projekt jetzt auswählen. In einem Projekt gibt es fünf verschiedene Ordner mit dem Titel **Anwendungen**, **Kanal**, **Geräte**, **Speicherorte** und **Zeitpläne**.
 
 
-### Erstellen eines neuen Kanals {#creating-channel}
+### Erstellen eines Kanals {#creating-channel}
 
 Wenn Sie ein Projekt konfiguriert haben, müssen Sie einen neuen Kanal zum Verwalten der Inhalte erstellen.
 
@@ -91,73 +91,62 @@ Wenn Sie einen Kanal erstellt haben, müssen Sie diesem Inhalte hinzufügen, die
 
 Gehen Sie wie folgt vor, um dem Kanal (*TestChannel*) Ihres Projekts Inhalte hinzuzufügen:
 
-1. Navigieren Sie zum erstellten *Test_Project* und wählen Sie den Ordner **Kanäle** aus.
+1. Navigieren Sie zum erstellten *DemoProject* und wählen Sie den Ordner **Kanal** aus.
 
 1. Klicken Sie in der Aktionsleiste auf **Bearbeiten** (siehe Abbildung unten). Der Editor für den *Testkanal* wird geöffnet.
+
+   ![image](assets/kickstart/demo-6.png)
 
 1. Klicken Sie auf der linken Seite der Aktionsleiste auf das Symbol zum Ein-/Ausblenden des seitlichen Bedienfelds, um die Assets und Komponenten zu öffnen.
 
 1. Wählen Sie die Ihrem Kanal hinzuzufügenden Komponenten per Drag-and-Drop aus.
 
-   ![chlimage_1-8](assets/chlimage_1-8.png)
+   ![image](assets/kickstart/demo-7.png)
 
-In diesem Beispiel zeigt der Editor ein Bild, das dem Kanal hinzugefügt wurde.
+### Erstellen eines Standorts {#creating-location}
 
-![chlimage_1-9](assets/chlimage_1-9.png)
+Sobald Sie Ihren Kanal eingerichtet haben, müssen Sie einen Speicherort erstellen.
 
-### Erstellen eines neuen Standorts {#creating-location}
-
-Wenn der Kanal konfiguriert wurde, müssen Sie den Standort erstellen.
-
-***Orte*** , an denen Sie Ihre verschiedenen digitalen Schilder unterteilen, enthalten die Konfigurationen der Bildschirme, je nachdem, wo sich die verschiedenen Bildschirme befinden.
+>[!NOTE]
+>***Locations*** compartmentalize your various digital signage experiences and contains the configurations of the displays according to where the various screens are.
 
 Gehen Sie wie folgt vor, um einen neuen Standort für Ihr Projekt zu erstellen:
 
-1. Navigieren Sie zum erstellten *Test_Project* und wählen Sie den Ordner **Standorte** aus.
+1. Navigate to the *DemoProject* you created and select the **Locations** folder.
 
-1. Klicken Sie neben dem Plussymbol in der Aktionsleiste auf **Erstellen** (siehe Abbildung unten). Ein Assistent wird geöffnet.
+1. Click **+ Create** from the action bar.
+
 1. Wählen Sie im Assistenten **Standort** aus und klicken Sie auf **Weiter**.
 
-1. Geben Sie den **Namen** und **Titel** für Ihren Standort ein (geben Sie als Titel *TestLocation* ein) und klicken Sie auf **Erstellen**.
-
-   ![chlimage_1-10](assets/chlimage_1-10.png)
+1. Enter the **Name** for your location (enter the title as *TestLocation*) and click **Create**.
 
 Der Standort *TestLocation* wird erstellt und dem Ordner **Standorte** hinzugefügt.
 
-![chlimage_1-11](assets/chlimage_1-11.png)
 
-### Erstellen einer neuen Anzeige für TestLocation {#creating-display}
+### Erstellen einer Anzeige für einen Ort {#creating-display}
 
 Nachdem Sie einen Standort konfiguriert haben, müssen Sie eine neue Anzeige für diesen erstellen.
 
-***Anzeigen*** repräsentieren das digitale Erlebnis, das auf einem oder mehreren Bildschirmen dargestellt wird.
+>[!NOTE]
+>***Anzeigen*** repräsentieren das digitale Erlebnis, das auf einem oder mehreren Bildschirmen dargestellt wird.
 
-1. Navigieren Sie zum Standort, an dem Ihre Anzeige erstellt werden soll (*Test_Project* > **Standorte** > *TestLocation)*, wie in der Abbildung oben gezeigt, und wählen Sie *TestLocation* aus.
+1. Navigate to the **TestLocation** and select it.
 
 1. Klicken Sie in der Aktionsleiste auf **Erstellen**.
+
 1. Wählen Sie im Assistenten **Erstellen** die Option **Anzeige** aus und klicken Sie auf **Weiter**.
 
-1. Geben Sie einen **Namen** und **Titel** für den Standort der Anzeige ein (geben Sie als Titel *TestDisplay* ein).
+1. Geben Sie den **Titel** ein (*LobbyDisplay*).
 
-1. Wählen Sie auf der Registerkarte **Anzeige** die Details für das Layout aus.
-
-   1. Wählen Sie unter **Auflösung** die Option **Full HD** aus.
-
-   1. Wählen Sie für **Anzahl der Geräte horizontal** die Option „1“ aus.
-
-   1. Wählen Sie für **Anzahl der Geräte vertikal** die Option „1“ aus.
-
-   1. Klicken Sie auf **Erstellen**.
+1. Klicken Sie auf **Erstellen**.
 
 Eine neue Anzeige (*TestDisplay*) wird Ihrem Standort (*TestLocation*) hinzugefügt, wie in der nachfolgenden Abbildung gezeigt.
-
-![chlimage_1-12](assets/chlimage_1-12.png)
 
 ### Zuweisen von Kanälen {#assigning-channel}
 
 1. Navigieren Sie über *Test_Project* > **Standorte** > *TestLocation* > *TestDisplay* zur Anzeige.
 
-1. Wählen Sie *TestDisplay* aus und tippen/klicken Sie in der Aktionsleiste auf „Kanal zuweisen“.**
+1. Select *TestDisplay* and tap/click **Assign Channel** from the action bar, *Or*,
 
 1. Alternativ dazu können Sie auf **Dashboard** klicken und oben rechts im Bedienfeld **ZUGEWIESENE KANÄLE UND ZEITPLÄNE** die Option **+Kanal zuweisen** auswählen, wie in der nachfolgenden Abbildung gezeigt. Daraufhin wird das Dialogfeld **Kanalzuweisung** geöffnet.
 
@@ -177,7 +166,7 @@ Eine neue Anzeige (*TestDisplay*) wird Ihrem Standort (*TestLocation*) hinzugef�
 
 Der Kanal wird erstellt und dem Bedienfeld hinzugefügt.
 
-![chlimage_1-15](assets/chlimage_1-15.png)
+
 
 ### Registrieren von Geräten {#registering-device}
 
@@ -192,6 +181,6 @@ Sie müssen Ihr Gerät mithilfe des AEM-Dashboards registrieren.
 
 Nachdem Sie die oben genannten Konfigurationen hinzugefügt haben, sollte der Player automatisch den standardmäßigen Kanal für die Anzeige auf Ihrem Gerät anzeigen.
 
-![chlimage_1-23](assets/chlimage_1-23.png)
+
 
 Weitere Informationen zum AEM Screens-Player finden Sie unter [AEM Screens-Player](working-with-screens-player.md).
