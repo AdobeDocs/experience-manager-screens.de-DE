@@ -9,11 +9,11 @@ content-type: reference
 topic-tags: developing
 discoiquuid: 24eb937f-ab51-4883-8236-8ebe6243f6e3
 targetaudience: target-audience new
-translation-type: ht
-source-git-commit: a60de02a19004dd4d971612496f65285ded55716
-workflow-type: ht
-source-wordcount: '2185'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '2186'
+ht-degree: 99%
 
 ---
 
@@ -61,6 +61,7 @@ Der Quell-Code eines Screens-Projekts wird normalerweise als Maven-Projekt mit m
 
    1. **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip**
    1. **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip**
+
    ![Screens We.Retail Run Ui.Apps and Ui.Content packages installed via CRX Package Manager](assets/crx-packages.png)
 
    Pakete Ui.Apps und Ui.Content für das Screens-Projekt „We.Retail Run“ über CRX Package Manager installiert
@@ -84,6 +85,7 @@ Der Quell-Code eines Screens-Projekts wird normalerweise als Maven-Projekt mit m
    * `/conf/we-retail-run`
    * `/content/dam/we-retail-run`
    * `/content/screens/we-retail-run`
+
    Dieses Paket enthält den für das Projekt benötigten Startinhalt und die für das Projekt erforderliche Konfigurationsstruktur. **`/conf/we-retail-run`** enthält alle Konfigurationen für das Projekt „We.Retail Run“. **`/content/dam/we-retail-run`** umfasst das Starten digitaler Assets für das Projekt. **`/content/screens/we-retail-run`** enthält die Screens-Inhaltsstruktur. Der Inhalt unter allen diesen Pfaden wird hauptsächlich in AEM aktualisiert. Um die Konsistenz zwischen Umgebungen (Lokal, Entwicklung, Test und Produktion) zu fördern, wird häufig eine grundlegende Inhaltsstruktur in der Quell-Code-Verwaltung gespeichert.
 
 1. **Navigieren Sie zum Projekt „AEM Screens“ > „We.Retail Run“:**
@@ -98,7 +100,7 @@ Die Komponente „Hello World“ ist eine einfache Komponente, mit der ein Benut
 
 AEM Screens weist einige interessante Einschränkungen auf, die nicht unbedingt für herkömmliche Komponenten von WCM-Sites gelten.
 
-* Die meisten Screens-Komponenten müssen im Vollbildmodus auf den Zielgeräten für digitale Beschilderung ausgeführt werden
+* Die meisten Bildschirmkomponenten müssen im Vollbildmodus auf Digitalsignaturgeräten der Zielgruppe ausgeführt werden
 * Die meisten Bildschirmkomponenten müssen in die Sequenzkanäle eingebettet werden, um Diashows zu erstellen
 * Bei der Inhaltserstellung sollte es möglich sein, einzelne Komponenten in einem Sequenzkanal zu bearbeiten, sodass das Rendern im Vollbildmodus nicht in Frage kommt
 
@@ -140,6 +142,7 @@ AEM Screens weist einige interessante Einschränkungen auf, die nicht unbedingt 
 
    1. **Produktion**: Vorschau- oder Veröffentlichungsmodus (wcmmode=disabled)
    1. **Bearbeiten**: für alle anderen Inhaltserstellungsmodi, d.h. Bearbeiten, Design, Strukturvorlage, Entwickler ...
+
    `helloworld.html` fungiert als Schalter, der überprüft, welcher Inhaltserstellungsmodus gerade aktiv ist, und zu einem anderen HTL-Skript umleitet. Eine gängige Konvention, die von Screens-Komponenten verwendet wird, besteht darin, ein `edit.html`-Skript für den Bearbeitungsmodus und ein `production.html`-Skript für den Produktionsmodus zu verwenden.
 
 1. Erstellen Sie unter `/apps/weretail-run/components/content/helloworld` eine Datei mit dem Namen `production.html.`
@@ -198,6 +201,7 @@ AEM Screens weist einige interessante Einschränkungen auf, die nicht unbedingt 
 
    1. Kopieren Sie das Dialgofeld aus `/libs/screens/core/components/content/image/cq:dialog`
    1. Fügen Sie das Dialogfeld hier ein: `/apps/weretail-run/components/content/helloworld`
+
    ![copy-image-dialog](assets/copy-image-dialog.gif)
 
 1. **Aktualisieren Sie das Dialogfeld „Hello World“, um eine Registerkarte für die Meldung einzuschließen.**
@@ -287,6 +291,7 @@ AEM Screens-Komponenten werden im Bearbeitungsmodus anders als im Vorschaumodus/
    * `allowProxy` | Boolesch | `true`
 
    * `categories`| Zeichenfolge[] | `cq.screens.components`
+
    ![Properties for /apps/weretail-run/components/content/helloworld/clientlibs/shared](assets/2018-05-03_at_1026pm.png)
 
    Eigenschaften für /apps/weretail-run/components/content/helloworld/clientlibs/shared
@@ -407,6 +412,7 @@ Die Komponente „Hello World“ ist für die Verwendung in einem Sequenzkanal v
 1. Klicken Sie auf die Schaltfläche **Erstellen**
 
    1. Wahlen Sie **Entität erstellen** aus
+
    ![2018-04-30_at_5_18pm](assets/2018-04-30_at_5_18pm.png)
 
 1. Im Assistenten „Erstellen“:
@@ -416,6 +422,7 @@ Die Komponente „Hello World“ ist für die Verwendung in einem Sequenzkanal v
    1. Eigenschaftenschritt
    * Registerkarte „Einfach“ > „Titel“ = **Idle Channel**
    * Registerkarte „Kanal“ > aktivieren Sie **Online-Kanal erstellen**
+
    ![idle-channel](assets/idle-channel.gif)
 
 1. Öffnen Sie die Seiteneigenschaften für den inaktiven Kanal (Idle Channel). Aktualisieren Sie das Feld „Design“, um auf `/apps/settings/wcm/designs/we-retail-run,`die im vorherigen Abschnitt erstellte Design-Seite zu verweisen.
@@ -431,6 +438,7 @@ Die Komponente „Hello World“ ist für die Verwendung in einem Sequenzkanal v
    1. Klicken Sie auf das **Schraubenschlüsselsymbol** in der Parsys, um die zulässigen Komponenten zu konfigurieren
 
    1. Wählen Sie die Gruppe **Screens** und die Gruppe **We.Retail Run - Inhalt** aus.
+
    ![2018-04-30_at_5_43pm](assets/2018-04-30_at_5_43pm.png)
 
 1. Schalten Sie den Seitenmodus in **Bearbeiten** um. Die Komponente „Hello World“ kann jetzt der Seite hinzugefügt und mit anderen Komponenten des Sequenzkanals kombiniert werden.
@@ -542,7 +550,7 @@ Der folgende Code stellt die Mindestanforderungen in der Datei `pom.xml` für di
 
 Das folgende Video zeigt die fertige Komponente und wie sie einem Sequenzkanal hinzugefügt werden kann. Der Kanal wird dann einer Standortsanzeige hinzugefügt und letztendlich einem Screens-Player zugewiesen.
 
->[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9)
 
 ## Fertiger Code {#finished-code}
 
