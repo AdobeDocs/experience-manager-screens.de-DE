@@ -11,10 +11,10 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2ab8496cebb81864a8354ad5dcb8d72bc1e44c13
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 89%
+source-wordcount: '768'
+ht-degree: 90%
 
 ---
 
@@ -40,12 +40,11 @@ Setzen Sie das **Attribut SameSite für die Cookies** login-token von **Lax** au
 
 Führen Sie dazu folgende Schritte durch:
 
-1. Navigate to **Adobe Experience Manager Web Console
-Configuration** using `http://localhost:4502/system/console/configMgr`.
+1. Navigieren Sie zu **Konfiguration der Adobe Experience Manager-Web-Konsole** über `http://localhost:4502/system/console/configMgr`.
 
 1. Suchen Sie nach *Adobe Granite Token Authentication Handler*.
 
-1. Legen Sie das **Attribut SameSite für die Cookies** login-token von **Lax** auf **None**fest.
+1. Legen Sie das **Attribut „SameSite“ für die Anmelde-Token-Cookies** von **Lax** auf **Keine** fest.
    ![image](/help/user-guide/assets/granite-updates.png)
 
 1. Klicken Sie auf **Speichern**.
@@ -72,9 +71,9 @@ Nachdem Sie die Anwendung heruntergeladen haben, führen Sie die Schritte im Pla
 
 Aufgrund der Architektur von Android erfordert der Neustart des Geräts, dass die Anwendung über Systemrechte verfügt. Hierzu müssen Sie die apk mithilfe der Signierungsschlüssel des Herstellers signieren. Andernfalls startet Watchdog die Player-Anwendung neu und nicht das Gerät.
 
-### Signieren von Android-apks mithilfe von Herstellerschlüsseln       {#signage-of-android-apks-using-manufacturer-keys}
+### Signieren von Android-apks mithilfe von Herstellerschlüsseln         {#signage-of-android-apks-using-manufacturer-keys}
 
-Zum Zugreifen auf die berechtigten APIs von Android, wie zum Beispiel *PowerManager* oder *HDMIControlServices*, müssen Sie die Android-apk mithilfe der Herstellerschlüssel signieren.
+To access some of the privileged APIs of Android such as *PowerManager* or *HDMIControlServices*, you need to sign the android apk using the manufacturer&#39;s keys.
 
 >[!CAUTION]
 >
