@@ -9,8 +9,11 @@ topic-tags: administering
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 112404de-5a5a-4b37-b87c-d02029933c8a
 docset: aem65
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '1026'
+ht-degree: 85%
 
 ---
 
@@ -78,14 +81,14 @@ Auf diese Weise können Autoren das Gerät weiter verwalten, z. B. Geräteaktua
 
 In vielen Fällen soll ein Befehl an ein Gerät nur einmal gesendet werden. In einer Veröffentlichungsarchitektur mit Load-Balancing ist jedoch nicht bekannt, mit welcher Veröffentlichungsinstanz das Gerät eine Verbindung herstellt.
 
-Daher sendet die Autoreninstanz die Nachricht an alle Veröffentlichungsinstanzen. Es soll jedoch nur eine einzige Nachricht an das Gerät weitergeleitet werden. Um eine korrekte Benachrichtigung sicherzustellen, muss zwischen den Veröffentlichungsinstanzen kommuniziert werden. Dies wird mit *Apache ActiveMQ Artemis erreicht. *Jede Veröffentlichungsinstanz wird mit dem Oak-basierten Sling-Erkennungsdienst in einer locker gekoppelten Topologie platziert; ActiveMQ wird so konfiguriert, dass jede Veröffentlichungsinstanz kommunizieren und eine einzelne Nachrichtenwarteschlange erstellen kann. Das Screens-Gerät fragt über den Load-Balancer die Veröffentlichungs-Farm ab und übernimmt den Befehl an der Spitze der Warteschlange.
+Daher sendet die Autoreninstanz die Nachricht an alle Veröffentlichungsinstanzen. Es soll jedoch nur eine einzige Nachricht an das Gerät weitergeleitet werden. Um eine korrekte Benachrichtigung sicherzustellen, muss zwischen den Veröffentlichungsinstanzen kommuniziert werden. This is achieved using *Apache ActiveMQ Artemis*. Jede Instanz im Veröffentlichungsmodus wird mithilfe des Oak-basierten Sling Discovery-Dienstes in eine locker gekoppelte Topologie platziert und ActiveMQ ist so konfiguriert, dass jede Instanz im Veröffentlichungsmodus kommunizieren und eine einzige Meldungswarteschlange erstellen kann. Das Screens-Gerät fragt über den Load-Balancer die Veröffentlichungs-Farm ab und übernimmt den Befehl an der Spitze der Warteschlange.
 
 ### Rückwärtsreplikation {#reverse-replication}
 
 In vielen Fällen wird nach einem Befehl eine bestimmte Antwort vom Screens-Gerät erwartet, die an die Autoreninstanz weitergeleitet wird. Dafür wird AEM-***Rückwärtsreplikation*** verwendet.
 
 * Erstellen Sie für jede Veröffentlichungsinstanz einen Agenten für Rückwärtsreplikation, ähnlich wie bei den standardmäßigen Replikationsagenten und den Screens-Replikationsagenten.
-* Eine Workflow-Starter-Konfiguration überwacht die in der Veröffentlichungsinstanz geänderten Knoten und löst dann einen Workflow aus, um die Antwort des Geräts im Ausgang der Veröffentlichungsinstanz zu platzieren.
+* Eine Workflow-Starter-Konfiguration überwacht die in der Veröffentlichungsinstanz geänderten Knoten und löst dann einen Workflow aus, um die Antwort des Geräts im Postausgang der Veröffentlichungsinstanz zu platzieren.
 * Eine Rückwärtsreplikation wird in diesem Kontext nur für binäre Daten (wie Protokolldateien und Screenshots) verwendet, die von den Geräten bereitgestellt werden. Nicht-binäre Daten werden per Abruf abgerufen.
 * Bei einer von der AEM-Autoreninstanz abgerufenen Rückwärtsreplikation wird die Antwort abgerufen und in der Autoreninstanz gespeichert.
 
@@ -93,7 +96,7 @@ In vielen Fällen wird nach einem Befehl eine bestimmte Antwort vom Screens-Ger�
 
 Die Autoreninstanz muss die Geräte abfragen können, um einen Takt zu erhalten und den Integritätsstatus eines verbundenen Geräts zu kennen.
 
-Geräte pingen den Load-Balancer und werden an eine Veröffentlichungsinstanz weitergeleitet. Der Status des Geräts wird dann von der Veröffentlichungsinstanz über eine Publish-API veröffentlicht, die für alle aktiven Geräte unter **api/screens-dcc/devices/stati** und für einzelne Geräte unter **api/screens-dcc/devices/&lt;Geräte-ID&gt;/status.json** bereitgestellt wird.
+Geräte pingen den Load-Balancer und werden an eine Veröffentlichungsinstanz weitergeleitet. The status of the device is then exposed by the publish instance through a Publish API served @ **api/screens-dcc/devices/static** for all active devices and **api/screens-dcc/devices/&lt;device_id>/status.json** for a single device.
 
 Die Autoreninstanz fragt alle Veröffentlichungsinstanzen ab und führt die Antworten zum Gerätestatus in einem Status zusammen. Der geplante Auftrag, der die Autoreninstanz abfragt, lautet `com.adobe.cq.screens.impl.jobs.DistributedDevicesStatiUpdateJob` und kann auf Basis eines Cron-Ausdrucks konfiguriert werden.
 
@@ -101,7 +104,7 @@ Die Autoreninstanz fragt alle Veröffentlichungsinstanzen ab und führt die Antw
 
 Der Ursprung der Registrierung liegt weiterhin in der AEM-Autoreninstanz. Das AEM Screens-Gerät verweist auf die Autoreninstanz und die Registrierung ist abgeschlossen.
 
-Nachdem ein Gerät in der Authoring-Umgebung registriert wurde, werden die Gerätekonfiguration und die Kanal-/Zeitplanzuweisungen an die AEM-Veröffentlichungsinstanzen repliziert. Anschließend wird die Konfiguration des AEM Screens-Geräts aktualisiert, um auf den Load-Balancer vor der AEM-Veröffentlichungs-Farm zu verweisen. Es soll sich dabei um eine einmalige Einrichtung handeln. Nachdem das Screens-Gerät erfolgreich eine Verbindung zur Publishing-Umgebung hergestellt hat, kann es weiter Befehle aus der Authoring-Umgebung erhalten, ohne dass es jemals direkt mit der Authoring-Umgebung verbunden werden muss.
+Nachdem ein Gerät in der Authoring-Umgebung registriert wurde, werden die Gerätekonfiguration und die Kanal-/Zeitplanzuweisungen an die AEM-Veröffentlichungsinstanzen repliziert. Anschließend wird die Konfiguration des AEM Screens-Geräts aktualisiert, um auf den Load-Balancer vor der AEM-Veröffentlichungs-Farm zu verweisen. Es handelt sich dabei um eine einmalige Einrichtung, bei der das Bildschirmgerät nach erfolgreicher Verbindung mit der Umgebung zum Veröffentlichen weiterhin Befehle von der Autorensoftware empfangen kann und keine direkte Verbindung mit der Autorensoftware erforderlich ist.
 
 ![screen_shot_2019-02-25at15218pm](assets/screen_shot_2019-02-25at15218pm.png)
 
