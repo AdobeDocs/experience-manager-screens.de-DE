@@ -9,8 +9,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
-translation-type: ht
-source-git-commit: b39c76fc7af4fb46596d4a995fe011d00b212d7c
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '2535'
+ht-degree: 99%
 
 ---
 
@@ -56,7 +59,7 @@ Das folgende Beispiel zeigt eine Lösung mit Konzentration auf die folgenden Sch
 
 >[!NOTE]
 >
->Weitere Infos zur Kanalzuweisung finden Sie unter **[Kanalzuweisung](channel-assignment.md)**im Abschnitt zur Inhaltserstellung der AEM Screens-Dokumentation.
+>Weitere Infos zur Kanalzuweisung finden Sie unter **[Kanalzuweisung](channel-assignment.md)** im Abschnitt zur Inhaltserstellung der AEM Screens-Dokumentation.
 
 ## Verwenden dynamischer eingebetteter Sequenzen {#using-dynamic-embedded-sequence-2}
 
@@ -87,6 +90,7 @@ Sie können die folgenden Ressourcen (Bilder) herunterladen (und zu Assets hinzu
 >
 >* **[Erstellen und Verwalten von Projekten](creating-a-screens-project.md)**
 >* **[Verwalten eines Kanals](managing-channels.md)**
+
 >
 
 
@@ -116,15 +120,15 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
    ![screen_shot_2018-09-13at23212pm](assets/screen_shot_2018-09-13at23212pm.png)
 
    >[!NOTE]
-   >
    >Informationen zum Erstellen eines Standorts finden Sie unter **[Erstellen und Verwalten von Standorten](managing-locations.md)**.
 
 1. **Erstellen Sie unter jedem Standortordner zwei Standorte und einen Kanal.**
 
    1. Navigieren Sie zu **Demo** > **Standorte** > **Region A**.
    1. Wählen Sie **Region A** aus und klicken Sie in der Aktionsleiste auf **+ Erstellen**.
-   1. Wählen Sie **Standort** im Assistenten und unter **Titel** die Option **Store 1** aus. Erstellen Sie auf ähnliche Weise einen weiteren Standort im Assistenten mit dem Titel **Store 2** mit **Titel** als **Store 2**. Sie können das Feld **Name** leer lassen, während Sie **Store 1** und **Store 2** erstellen.
-   1. Wiederholen Sie Schritt (b) und wählen Sie jetzt **Sequenzkanal** im Assistenten aus. Geben Sie den **Titel** als **Region A** und den **Namen** als „region“ für diesen Kanal ein.
+   1. Wählen Sie **Standort** im Assistenten und unter **Titel** die Option **Store 1** aus. Erstellen Sie auf ähnliche Weise einen weiteren Standort im Assistenten mit dem Titel **Store 2** mit **Titel** als **Store 2**. You can leave the **Name** field empty while creating **Store 1** and **Store 2**.
+   1. Wiederholen Sie Schritt (b) und wählen Sie jetzt **Sequenzkanal** im Assistenten aus. Enter the **Title** as **Region A** and **Name** as **region** for this channel.
+
    >[!CAUTION]
    >
    >Geben Sie bei der Erstellung des Kanals **Region A** den **Titel** als **Region A** und den **Namen** als **Region** ein.
@@ -145,10 +149,10 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
    1. Wählen Sie **Store 1** aus und klicken Sie in der Aktionsleiste auf **+ Erstellen**.
    1. Wählen Sie im Assistenten die Option **Anzeige** aus und erstellen Sie **Store1Display**.
    1. Wiederholen Sie Schritt (b) und wählen Sie jetzt **Sequenzkanal** im Assistenten aus. Wählen Sie unter **Titel** den Wert **Store1Channel** und unter **Name** den Wert **store**.
+
    >[!CAUTION]
    >
    >Bei der Erstellung eines Sequenzkanals ist es wichtig, dass der **Titel** des Kanals Ihren Anforderungen entspricht. Der **Name** sollte jedoch in allen lokalen Kanälen gleich sein.
-   >
    >In diesem Beispiel verwenden die Kanäle unter **Region A** und **Region B** denselben **Namen** (**region**) und die Kanäle unter **Store 1**, **Store 2**, **Store 3** und **Store 4** verwenden denselben **Namen** (**store**).
 
    ![screen_shot_2018-09-19at120206pm](assets/screen_shot_2018-09-19at120206pm.png)
@@ -156,7 +160,6 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
    Erstellen Sie eine Anzeige als **Store2Display** und einen Kanal **Store2Channel** unter **Store 2** (mit dem Namen **store**).
 
    >[!NOTE]
-   >
    >Achten Sie darauf, dass Sie denselben Namen für die Kanäle verwenden können, die in **Store 1** und **Store 2** als **store** erstellt wurden.
 
    ![screen_shot_2018-09-19at120329pm](assets/screen_shot_2018-09-19at120329pm.png)
@@ -176,7 +179,6 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
    Navigieren Sie zu **Demo** > **Standorte** > **Region A** > **Region A** und klicken Sie in der Aktionsleiste auf **Bearbeiten**. Ziehen Sie die Assets, die Sie hinzufügen möchten, in Ihren Kanal.
 
    >[!NOTE]
-   >
    >Sie können die Datei ***Resources.zip*** im Abschnitt **Ressourcen** verwenden, um die Bilder als Assets für Ihren Kanalinhalt zu verwenden.
 
    ![screen_shot_2018-09-12at12438pm](assets/screen_shot_2018-09-12at12438pm.png)
@@ -209,6 +211,7 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
    1. Geben Sie als **Kanalrolle** den Wert **GlobalAdSegment** ein.
    1. Wählen Sie unter **Unterstützte Ereignisse** die Optionen **Erster Ladevorgang**, **Bildschirm bei Untätigkeit** und **Benutzerinteraktion** aus.
    1. Klicken Sie auf **Speichern**.
+
    **Kanal nach Rolle für die Region zuweisen:**
 
    1. Klicken Sie auf **+ Kanal zuweisen** im Bedienfeld **ZUGEWIESENE KANÄLE**, um das Dialogfeld **Kanalzuweisung** zu öffnen.
@@ -216,6 +219,7 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
    1. Geben Sie unter **Kanalname** den Wert **region** ein.
    1. Geben Sie als **Kanalrolle** den Wert **RegionAdSegment** ein.
    1. Klicken Sie auf **Speichern**.
+
    **Kanal nach Rolle für den Store zuweisen:**
 
    1. Klicken Sie auf **+ Kanal zuweisen** im Bedienfeld **ZUGEWIESENE KANÄLE**, um das Dialogfeld **Kanalzuweisung** zu öffnen.
@@ -223,6 +227,7 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
    1. Geben Sie den **Kanalnamen** als **store** ein.
    1. Geben Sie als **Kanalrolle** den Wert **StoreAdSegment** ein.
    1. Klicken Sie auf **Speichern**.
+
    Die folgende Abbildung zeigt die zugewiesenen Kanäle nach Pfad und Rolle.
 
    ![screen_shot_2018-09-12at21429pm](assets/screen_shot_2018-09-12at21429pm.png)
@@ -312,6 +317,7 @@ Führen Sie die folgenden Schritte aus, um Gruppen und Benutzer zu erstellen und
    1. Klicken Sie auf **Tools** > **Sicherheit** > **Gruppen**.
    1. Klicken Sie auf **Gruppe erstellen** und geben Sie **Global-Autor** in **ID** ein.
    1. Klicken Sie auf **Speichern und schließen**.
+
    Erstellen Sie auf ähnliche Weise zwei weitere Gruppen wie **Region-Autor** und **Store-Autor**.
 
    ![screen_shot_2018-09-17at34008pm](assets/screen_shot_2018-09-17at34008pm.png)
@@ -324,10 +330,10 @@ Führen Sie die folgenden Schritte aus, um Gruppen und Benutzer zu erstellen und
    1. Geben Sie ein **Kennwort** ein und bestätigen Sie das Kennwort für diesen Benutzer.
    1. Klicken Sie auf die Registerkarte **Gruppen** und geben Sie den Gruppennamen in **Gruppe auswählen** ein. Geben Sie beispielsweise **Global-Autor** ein, um dieser Gruppe **Global-Benutzer** hinzuzufügen.
    1. Klicken Sie auf **Speichern und schließen**.
+
    Erstellen Sie auf ähnliche Weise zwei weitere Benutzer wie **Region-Benutzer** und **Store-Benutzer** und fügen Sie sie **Region-Autor** bzw. **Store-Autor** hinzu.
 
    >[!NOTE]
-   >
    >Es empfiehlt sich, Benutzer einer Gruppe hinzuzufügen und dann den einzelnen Benutzergruppen Berechtigungen zuzuweisen.
 
    ![screen_shot_2018-09-17at34412pm](assets/screen_shot_2018-09-17at34412pm.png)
@@ -345,6 +351,7 @@ Führen Sie die folgenden Schritte aus, um Gruppen und Benutzer zu erstellen und
    1. Navigieren Sie zu *Useradmin* und ändern Sie mithilfe dieser Benutzeroberfläche die Berechtigungen für die verschiedenen Gruppen.
    1. Suchen Sie nach **Global-Autor** und klicken Sie auf die Registerkarte **Berechtigungen**, wie in der Abbildung unten dargestellt.
    1. Ebenso können Sie auf die Berechtigungen für **Region-Autor** und **Store-Autor** zugreifen.
+
    ![screen_shot_2018-09-18at73523am](assets/screen_shot_2018-09-18at73523am.png)
 
 1. **Berechtigungen für jede Gruppe ändern**
@@ -355,6 +362,7 @@ Führen Sie die folgenden Schritte aus, um Gruppen und Benutzer zu erstellen und
    1. Navigieren Sie zu ***/content/screens/demo*** und aktivieren Sie alle Berechtigungen.
    1. Navigieren Sie zu ***/content/screens/demo/locations*** und aktivieren Sie alle Berechtigungen.
    1. Navigieren Sie zu ***/content/screens/demo/locations/region-a*** und aktivieren Sie alle Berechtigungen. Überprüfen Sie auf ähnliche Weise die Berechtigungen für **region-b**.
+
    Die Schritte sind in der folgenden Abbildung dargestellt:
    ![screen_shot_2018-09-18at115752am](assets/screen_shot_2018-09-18at115752am.png)
 
@@ -369,6 +377,7 @@ Führen Sie die folgenden Schritte aus, um Gruppen und Benutzer zu erstellen und
    1. Navigieren Sie zu ***/content/screens/demo/locations*** und aktivieren Sie nur die **Leseberechtigungen**.
    1. Navigieren Sie zu ***/content/screens/demo/channels*** und deaktivieren Sie die Berechtigungen für den Kanal **Global**.
    1. Navigieren Sie zu ***/content/screens/demo/locations***/***region-a*** und aktivieren Sie alle Berechtigungen. Überprüfen Sie auf ähnliche Weise die Berechtigungen für **region-b**.
+
    Die Schritte sind in der folgenden Abbildung dargestellt:
 
    ![screen_shot_2018-09-18at125158pm](assets/screen_shot_2018-09-18at125158pm.png)
@@ -385,6 +394,7 @@ Führen Sie die folgenden Schritte aus, um Gruppen und Benutzer zu erstellen und
    1. Navigieren Sie zu ***/content/screens/demo/channels*** und deaktivieren Sie die Berechtigungen für den Kanal **Global**.
    1. Navigieren Sie zu ***/content/screens/demo/locations/region-a*** und aktivieren Sie nur die **Leseberechtigungen**. Ebenso sollten Sie nur die **Leseberechtigungen** für **region-b** aktivieren.
    1. Navigieren Sie zu ***/content/screens/demo/locations***/***region-a /store-1*** und aktivieren Sie alle Berechtigungen. Prüfen Sie auf ähnliche Weise die Berechtigungen für **store-2, store-3** und **store-4**.
+
    Die Schritte sind in der folgenden Abbildung dargestellt:
 
    ![screen_shot_2018-09-18at12415pm](assets/screen_shot_2018-09-18at12415pm.png)
