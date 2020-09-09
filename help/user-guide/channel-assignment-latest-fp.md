@@ -3,10 +3,10 @@ title: Kanalzuweisung – Neuestes Feature Pack
 seo-title: Kanalzuweisung – Neuestes Feature Pack
 description: Folgen Sie dieser Seite, um mehr über die Zuweisung von Kanälen und die Tagesaufteilung zu erfahren.
 translation-type: tm+mt
-source-git-commit: 421174dba8a5a7c39bffcaa2dddb54939eeba3bc
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '1471'
-ht-degree: 78%
+ht-degree: 93%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 78%
 # Kanalzuweisung {#channel-assignment}
 
 >[!IMPORTANT]
->In diesem Abschnitt werden die Zuweisung und Planung von Kanälen für Kanal AEM 6.5.5 Screens Feature Pack und höher erläutert.
+>In diesem Abschnitt werden Kanalzuweisung und -zeitplanung für das AEM Screens 6.5.5 Feature Pack (und höher) beschrieben.
 
 Nachdem Sie eine Anzeige eingerichtet haben, müssen Sie der Anzeige einen Kanal zuweisen, um Ihren Inhalt anzuzeigen.
 
@@ -55,7 +55,7 @@ Gehen Sie wie folgt vor, um ein Projekt und einen Kanal einzurichten:
 
 ### Zuweisen eines Kanals zu einer Anzeige {#assigning-channel-to-display}
 
-Nachdem das Projekt eingerichtet wurde, müssen Sie den Kanal einer Anzeige zuweisen, um den Inhalt Ansicht.
+Nachdem das Projekt fertig eingerichtet wurde, müssen Sie den Kanal einer Anzeige zuweisen, um den Inhalt anzuzeigen.
 
 1. Navigieren Sie zur gewünschten Anzeige, z. B. **DemoScreens** > **Standorte** > **SanJose** > **Lobby**.
 
@@ -65,7 +65,7 @@ Nachdem das Projekt eingerichtet wurde, müssen Sie den Kanal einer Anzeige zuwe
 
    Oder
 
-   Tap/click **Dashboard** from the action bar and click **+Assign Channel** from the **ASSIGNED CHANNELS &amp; SCHEDULES** panel.
+   Tippen/klicken Sie in der Aktionsleiste auf **Dashboard** und klicken Sie im Bedienfeld **ZUGEWIESENE KANÄLE UND ZEITPLÄNE** auf **+Kanal zuweisen**.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
@@ -73,18 +73,18 @@ Nachdem das Projekt eingerichtet wurde, müssen Sie den Kanal einer Anzeige zuwe
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-1. From the **Settings** option, you can choose the channel **by path** or **by name**, enter the **Channel Role**, **Priority**, **Supported Events**, and **Interruption Methods**. Darüber hinaus können Sie die für Attraktions-QuickInfos in diesem Dialogfeld aktivieren.
+1. Unter **Einstellungen** können Sie den Kanal **nach Pfad** oder **nach Namen** auswählen, die **Kanalrolle**, die **Priorität**, die **unterstützten Ereignisse** und die **Unterbrechungsmethoden** eingeben. Darüber hinaus können Sie die Attraktions-QuickInfos in diesem Dialogfeld aktivieren.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
-   >Refer to [Channel Properties](#channel-properties) section to learn more about channel assignment properties.
+   >Weitere Informationen zu den Kanalzuweisungseigenschaften finden Sie im Abschnitt [Kanaleigenschaften](#channel-properties).
 
-1. From the **Schedule** option select the **Activation Window** and **Recurrence Schedule**.
+1. Wählen Sie unter **Zeitplan** die Optionen **Aktivierungsfenster** und **Intervallzeitplan** aus.
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
-   >Refer to [Channel Properties](#channel-properties) section to learn more about channel assignment properties.
+   >Weitere Informationen zu den Kanalzuweisungseigenschaften finden Sie im Abschnitt [Kanaleigenschaften](#channel-properties).
 
 1. Klicken Sie auf **Speichern**, nachdem Sie Ihre Voreinstellungen konfiguriert haben.
 
@@ -98,11 +98,11 @@ Sie werden die folgende Ausgabe auf Ihrem Player sehen:
 
 ![new1](assets/channel-assignment/channel-assign-output.gif)
 
-## Timeline View {#timeline-view}
+## Timeline-Ansicht{#timeline-view}
 
-Nachdem Sie einen Kanal einer Anzeige zugewiesen und einen Wiederholungsplan eingerichtet haben, können Sie die Zeitschiene im Bedienfeld &quot; **ZUGEWIESENE KANAL &amp; ZEITPLAN** &quot;Ansicht haben.
+Nachdem Sie einen Kanal einer Anzeige zugewiesen und einen Intervallzeitplan eingerichtet haben, können Sie die Timeline im Bedienfeld **ZUGEWIESENE KANÄLE &amp; ZEITPLÄNE** anzeigen.
 
-Gehen Sie wie folgt vor, um zur Ansicht der Zeitschiene zu navigieren:
+Führen Sie die folgenden Schritte aus, um zur Timeline-Ansicht zu navigieren:
 
 1. Navigieren Sie zur gewünschten Anzeige, z. B. **DemoScreens** > **Standorte** > **SanJose** > **Lobby**.
 
@@ -110,11 +110,11 @@ Gehen Sie wie folgt vor, um zur Ansicht der Zeitschiene zu navigieren:
 
    Oder
 
-   Tap/click **Dashboard** and click **Timeline** from the **ASSIGNED CHANNELS &amp; SCHEDULES** panel.
+   Tippen/klicken Sie auf **Dashboard** und klicken Sie im Bedienfeld **ZUGEWIESENE KANÄLE UND ZEITPLÄNE** auf **Timeline**.
 
    ![image](/help/user-guide/assets/channel-assignment/timeline-1.png)
 
-## Understanding Channel Properties from Channel Assignment Dialog Box {#channel-properties}
+## Verstehen der Kanaleigenschaften im Dialogfeld „Kanalzuweisung“ {#channel-properties}
 
 Die folgenden Eigenschaften werden über die Option **Einstellungen** im Dialogfeld **Kanalzuweisung** festgelegt.
 
@@ -149,7 +149,6 @@ Mit „Priorität“ können Zuweisungen geordnet werden, falls mehrere die Wied
 ### Unterbrechungsmethode {#interruption-method-channel}
 
 >[!IMPORTANT]
->
 > Diese Option ist nur mit AEM 6.4 Feature Pack 8 oder AEM 6.5 Feature Pack 4 verfügbar.
 
 Als Autor von Inhalten sollten Sie festlegen können, wann ein Kanal unterbrochen wird, damit nicht kritische Inhalte abgeschnitten werden können, wichtige Inhalte jedoch vollständig abgespielt werden, bevor die Wiedergabe aufgrund der Zeitplanung abgebrochen wird.
@@ -201,7 +200,7 @@ Im Folgenden wird in drei Szenarien beschrieben, wie Dayparting mit Kanälen ver
 
 Dieses Beispiel zeigt, wie ein Restaurant mit DayParting täglich sein Frühstück-, Mittag- und Abendmenü präsentiert.
 
-Hier unterteilen wir jeden Tag in verschiedene Zeiträume, sodass der Kanal-Inhalt gemäß der angegebenen Tageszeit abgespielt wird. Legen Sie die folgenden Eigenschaften des Zeitplans für die Wiederkehrung fest, damit der Kanal den Inhalt gemäß diesem Verwendungsfall wiedergeben kann.
+Wir unterteilen jeden Tag in verschiedene Zeitfenster, sodass der Kanalinhalt gemäß der Tageszeit angezeigt wird. Legen Sie die folgenden Eigenschaften des Intervallzeitplans für Ihren Kanal fest, um den Inhalt gemäß diesem Verwendungsfall wiederzugeben.
 
 | **Name** | **Wiederholungen** | **Anfang** | **Ende** |
 |---|---|---|---|
@@ -215,8 +214,8 @@ Dieses Beispiel zeigt die DayParting in einem Casino implementiert, in dem Live-
 
 | **Name** | **Wiederholungen** | **Anfang** | **Ende** |
 |---|---|---|---|
-| Wochenende | Wöchentlich: Samstag, Sonntag | 20:00 Uhr | 22:00 |
-| Sonderaktionen | Täglich: Montag bis Freitag | 22:00 | 1:00 Uhr |
+| Wochenende | Wöchentlich: Samstag, Sonntag | 20:00 Uhr | 22:00 Uhr |
+| Sonderangebote | Täglich: Montag bis Freitag | 22:00 Uhr | 01:00 Uhr |
 
 >[!NOTE]
 >
