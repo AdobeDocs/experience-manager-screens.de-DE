@@ -2,11 +2,11 @@
 title: Kanalzuweisung
 seo-title: Kanalzuweisung
 description: Auf dieser Seite erhalten Sie Informationen zur Kanalzuweisung und zu Dayparting.
-translation-type: ht
-source-git-commit: 39da8293fb64321fdb28acaa67be579483ba4f0d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
 source-wordcount: '1215'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,7 @@ Gehen Sie wie folgt vor, um einer Anzeige einen Kanal zuzuweisen:
 
    Oder
 
-   Tippen/klicken Sie auf **Dashboard** und klicken Sie auf **+Kanal zuweisen** im Bedienfeld **ZUGEWIESENE KANÄLE**, um das Dialogfeld **Kanalzuweisung** zu öffnen.
+   Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNELS** panel to open the **Channel Assignment** dialog box.
 
    ![image](/help/user-guide/assets/channel-assign1.png)
 
@@ -105,7 +105,7 @@ Bei Dayparting wird ein Tag in Zeitfenster unterteilt und festgelegt, welcher In
 
 Im Folgenden wird in drei Szenarien beschrieben, wie Dayparting mit Kanälen verwendet werden kann:
 
-#### Anzeigen von Inhalten an einem einzigen Tag unterteilt in mehrere Zeitfenster       {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
+#### Anzeigen von Inhalten an einem einzigen Tag unterteilt in mehrere Zeitfenster         {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
 Im folgenden Beispiel wird veranschaulicht, wie ein Restaurant Dayparting verwendet, um sein Angebot für Frühstück, Mittagessen und Abendessen zu präsentieren.
 
