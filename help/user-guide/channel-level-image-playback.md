@@ -10,13 +10,16 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: df3cf999-0c8d-4754-8b58-5c6ced2c8ca5
 docset: aem65
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '360'
+ht-degree: 98%
 
 ---
 
 
-# Dauer der Massenwiedergabe von Bildern auf der Kanalebene{#channel-level-bulk-image-playback-duration}
+# Dauer der Massenwiedergabe von Bildern auf der Kanalebene {#channel-level-bulk-image-playback-duration}
 
 ## Überblick {#overview}
 
@@ -26,11 +29,11 @@ Nachdem Sie einen Sequenzkanal erstellt und Bilder hinzugefügt haben, gilt für
 
 Bevor Sie mit der Implementierung dieser Funktion beginnen, stellen Sie sicher, dass Sie ein Projekt als Voraussetzung für die Implementierung dieser Funktion eingerichtet haben. Beispiel:
 
-1. Erstellen eines AEM Screens-Projekts (in diesem Beispiel **ChannelLevelPlayback**)
+1. Create an AEM Screens project example, **ChannelLevelPlayback**.
 
-1. Erstellen eines Sequenzkanals als **PlaybackChannel** im Ordner **Kanäle**
+1. Erstellen eines Sequenzkanals als **PlaybackChannel** im Ordner **Kanäle.**
 
-1. Hinzufügen von Inhalten zum **PlaybackChannel**
+1. Hinzufügen von Inhalten zum **PlaybackChannel**.
 
 ## Bearbeiten der Bildwiedergabedauer auf Kanalebene {#editing-channel-level-image-playback-duration-assignment}
 
@@ -59,7 +62,6 @@ Gehen Sie wie folgt vor, um zu erfahren, wie Sie die Wiedergabedauer auf Kanaleb
 1. Das Dialogfeld **Seite** wird geöffnet.
 
    >[!NOTE]
-   >
    >Standardmäßig sind die Bilder in einem Kanal auf eine Wiedergabedauer von 8 Sekunden eingestellt.
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
