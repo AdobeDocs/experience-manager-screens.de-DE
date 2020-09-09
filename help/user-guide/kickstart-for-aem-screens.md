@@ -3,15 +3,15 @@ title: Schnellstartanleitung
 seo-title: Schnellstartanleitung
 description: Befolgen Sie die Anweisungen auf dieser Seite, um ein Demoprojekt für AEM Screens zu erstellen. Ein Demoprojekt unterstützt Sie beim Erstellen eines digitalen Beschilderungserlebnisses – von der Installation und Konfiguration eines neuen Projekts bis hin zum Anzeigen von Inhalten mit dem AEM Screens-Player.
 translation-type: tm+mt
-source-git-commit: 12d84eba2b9001600f783cd4f994af43d2c16739
+source-git-commit: d49ceecab42762425d779d50a31291091088ee19
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 54%
+source-wordcount: '1320'
+ht-degree: 53%
 
 ---
 
 
-# Schnellstartanleitung      {#kickstart-guide}
+# Schnellstartanleitung       {#kickstart-guide}
 
 Dieser Abschnitt ist ein Kurzanleitung zu AEM Screens und zeigt, wie ein AEM Screens-Projekt eingerichtet und ausgeführt wird. Es führt Sie durch die Einrichtung einer grundlegenden digitalen Signatur, das Hinzufügen von Inhalten wie Assets und/oder Videos zu jedem Kanal und die weitere Veröffentlichung der Inhalte in einem AEM Screens-Player.
 
@@ -187,7 +187,7 @@ Nachdem das Projekt fertig eingerichtet wurde, müssen Sie den Kanal einer Anzei
 Sie müssen Ihr Gerät mithilfe des AEM-Dashboards registrieren.
 
 >[!IMPORTANT]
->Im Entwicklermodus kann der Chrome OS-Player als Chrome-Browser-Plug-in installiert werden, ohne dass ein echtes Chrome-Player-Gerät erforderlich ist. Gehen Sie zur Installation wie folgt vor:
+>Chrome OS Player kann als Chrome Browser-Plugin im Entwicklermodus installiert werden, ohne dass ein richtiges Chrome-Player-Gerät erforderlich ist. Gehen Sie zur Installation wie folgt vor:
 >
 >1. Klicken Sie [hier](https://download.macromedia.com/screens/), um den neuesten Chrome-Player herunterzuladen.
 >1. Entpacken Sie die Datei und speichern Sie sie auf der Festplatte.
@@ -199,7 +199,7 @@ Sie müssen Ihr Gerät mithilfe des AEM-Dashboards registrieren.
 >1. Klicken Sie auf das Plug-in **AEM Screens**, um den Chrome-Player zu starten. Standardmäßig wird der Player im Vollbildmodus gestartet. Drücken Sie **Esc**, um den Vollbildmodus zu beenden.
 
 
-Sobald Ihr ChromeOS-Player aktiviert ist, führen Sie die folgenden Schritte aus, um ein Chrome-Gerät zu registrieren.
+Sobald Ihr Chrome OS-Player aktiviert ist, führen Sie die folgenden Schritte aus, um ein Chrome-Gerät zu registrieren.
 
 1. Navigieren Sie von Ihrer AEM zum Ordner &quot; **Geräte** &quot;Ihres Projekts.
 
@@ -242,7 +242,7 @@ Sobald Ihr ChromeOS-Player aktiviert ist, führen Sie die folgenden Schritte aus
 
 ### Anzeigen von Inhalten im Chrome-Player {#viewing-content-output}
 
-Alle Assets in Ihrem Kanal werden jetzt auf Ihrem Chrome-Gerät abgespielt.
+Alle Assets in Ihrem Kanal werden jetzt auf Ihrem Chrome OS-Player wiedergegeben.
 
 Herzlichen Glückwunsch, dass Sie jetzt Inhalte in einem AEM Screens-Kanal spielen!
 
