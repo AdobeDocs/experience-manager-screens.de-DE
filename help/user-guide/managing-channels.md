@@ -11,17 +11,17 @@ topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: f2b5b2cb35a43990ed74b259d8da3837118a65ae
 workflow-type: tm+mt
-source-wordcount: '1399'
-ht-degree: 100%
+source-wordcount: '1343'
+ht-degree: 93%
 
 ---
 
 
 # Erstellen und Verwalten von Kanälen{#creating-and-managing-channels} 
 
-Ein Kanal zeigt eine Sequenz von Inhalten, Anzeigebildern und Videos an, kann aber auch eine Website oder eine Single Page Application anzeigen.
+Ein Kanal zeigt eine Inhaltssequenz an und zeigt Bilder und Videos an, kann aber auch eine Website oder eine Einzelseitenanwendung anzeigen.
 
 Auf dieser Seite wird gezeigt, wie Kanäle für Screens erstellt und verwaltet werden.
 
@@ -32,16 +32,25 @@ Auf dieser Seite wird gezeigt, wie Kanäle für Screens erstellt und verwaltet w
 
 ## Erstellen von neuen Kanälen {#creating-a-new-channel}
 
-Wenn Sie Ihr Projekt für Screens erstellen, gehen Sie wie folgt vor, um einen neuen Kanal für ein Screens-Projekt zu erstellen:
+Nachdem Sie Ihr Projekt für AEM Screens erstellt haben, führen Sie die folgenden Schritte aus, um einen neuen Kanal für Ihr Projekt zu erstellen:
 
 1. Wählen Sie den Adobe Experience Manager-Link (oben links) und dann Screens aus. Sie haben auch die Möglichkeit, direkt zur folgenden URL zu wechseln: `https://localhost:4502/screens.html/content/screens`.
-1. Navigieren Sie zum Screens-Projekt und klicken Sie auf **Kanäle**.
-1. Klicken Sie neben dem Pluszeichen in der Aktionsleiste auf **Erstellen**. Ein Assistent wird angezeigt (*Weitere Informationen finden Sie unter „Kanaltypen“*).
 
-1. Wählen Sie die Vorlage aus dem Assistenten aus und klicken Sie auf **Weiter**.
-1. Geben Sie die Eigenschaften für **Titel und Tags**, **Weitere Titel und Beschreibungen**, **Einschaltzeit/Ausschaltzeit** und **Vanity-URL** ein.
+1. Navigate to your Screens project and select **Channels** folder.
 
-1. Klicken Sie auf **Erstellen**. Der Kanal wird erstellt und Ihrem Kanalordner hinzugefügt.
+1. Klicken Sie in der Aktionsleiste auf **Erstellen**.
+
+   ![demochannel](assets/create-channel1.png)
+
+1. Select the **Sequence Channel** template from the **Create** wizard and click **Next**.
+
+   ![demochannel](assets/create-channel2.png)
+
+1. Enter the Title as **ScreensChannel** and click **Create**.
+
+   ![demochannel](assets/create-project4.png)
+
+1. Dem Ordner &quot; **Kanal** &quot;wird nun ein Sequenzordner hinzugefügt.
 
 ### Kanaltypen         {#channel-types}
 
@@ -62,14 +71,6 @@ Beim Verwenden des Assistenten stehen unter anderem die folgenden Vorlagenoption
 >[!NOTE]
 >
 >Die Splitscreen-Kanäle teilen die Anzeige in mehrere Bereiche, sodass Sie mehrere Erlebnisse gleichzeitig nebeneinander wiedergeben können. Die Erlebnisse können entweder statische Assets/Text oder eingebettete Sequenzen sein.
-
-Im folgenden Beispiel wird das Erstellen eines Sequenzkanals (*ChannelOne*) für ein Screens-Projekt (*DemoProject*) gezeigt.
-
-![demochannel](assets/demochannel.gif)
-
->[!NOTE]
->
->Sie können unterschiedliche Bereiche mithilfe der Vorlagenoptionen erstellen, etwa die oben genannten 1x2-, 2x2- oder 2:3-Splitscreen-Kanäle.
 
 >[!IMPORTANT]
 >
