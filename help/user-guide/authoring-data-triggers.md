@@ -2,9 +2,9 @@
 title: Inhaltserstellung mit Datenauslösern
 seo-title: Inhaltserstellung mit Datenauslösern
 description: Auf dieser Seite erfahren Sie, wie Sie mit Datenauslösern Inhalte erstellen.
-translation-type: ht
-source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ Nachdem Sie die vorherigen Schritte durchgeführt haben, können Sie Targeting i
 
 ## Überblick über die Inhaltserstellung mit Datenauslösern {#author-targeting}
 
->[!VIDEO](https://video.tv.adobe.com/v/31921?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/31921)
 
 ## Aktivieren von Targeting in einem AEM Screens-Kanal {#enabling-targeting}
 
@@ -80,4 +80,3 @@ Nachdem Sie ContextHub für Ihr AEM Screens-Projekt konfiguriert haben, können 
 1. **[Zielgerichtete Aktivierung des Einzelhandelsinventars](retail-inventory-activation.md)**
 1. **[Temperaturaktivierung für ein Reiseangebot](local-temperature-activation.md)**
 1. **[Aktivierung der Gastgewerbereservierung](hospitality-reservation-activation.md)**
-
