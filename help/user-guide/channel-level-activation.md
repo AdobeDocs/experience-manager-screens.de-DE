@@ -10,11 +10,11 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
-translation-type: ht
-source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
-workflow-type: ht
-source-wordcount: '1809'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '1802'
+ht-degree: 98%
 
 ---
 
@@ -29,9 +29,9 @@ In diesem Abschnitt werden die folgenden Themen behandelt:
 * Aktivierungsfenster
 * Verwenden der Aktivierung auf der Kanalebene als Wiedergabe eines einzelnen Ereignisses
 * Umgang mit sich wiederholenden Assets in einem Kanal
-   * Tagesaufteilung
-   * Wochenaufteilung
-   * Monatsaufteilung
+   * Dayparting
+   * WeekParting
+   * MonthParting
    * Kombination von Aufteilungen
 * Verwenden der Aktivierung auf der Kanalebene als Wiedergabe eines einzelnen Ereignisses
 
@@ -154,13 +154,11 @@ Sobald Sie die Einrichtung für Kanäle und die Anzeige abgeschlossen haben, sta
 Der Player zeigt den Inhalt von **MainAdChannel** an und genau um 23:59 Uhr (wie im Zeitplan festgelegt) zeigt der Kanal **TargetedSinglePlay** seinen Inhalt bis 00:05 Uhr an. Anschließend wird die Wiedergabe des **MainAdChannel** fortgesetzt.
 
 >[!NOTE]
-Weitere Informationen zum AEM Screens-Player finden Sie in den folgenden Ressourcen:
-* [AEM Screens-Player-Downloads](https://download.macromedia.com/screens/)
-* [Arbeiten mit dem AEM Screens-Player](working-with-screens-player.md)
+Weitere Informationen zu AEM Player finden Sie in den folgenden Ressourcen:
+[AEM Screens Player-Downloads](https://download.macromedia.com/screens/)[Arbeiten mit AEM Screens Player](working-with-screens-player.md)
 
 
-
-## Umgang mit sich wiederholenden Assets in einem Kanal{#handling-recurrence-in-assets}
+## Umgang mit sich wiederholenden Assets in einem Kanal {#handling-recurrence-in-assets}
 
 Sie können eine Wiederholung von Assets in einem Kanal Ihren Anforderungen entsprechend in bestimmten Intervallen auf Tages-, Wochen- oder Monatsbasis planen.
 
@@ -194,7 +192,7 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 >[!NOTE]
 Sie können das _24-Stunden-Format_ (d. h. 14:00 Uhr) oder die *am/pm*-Notation (d. h. 2:00 pm) verwenden.
 
-### Wochenaufteilung {#week-parting}
+### WeekParting {#week-parting}
 
 1. Wählen Sie den Kanal aus und klicken Sie in der Aktionsleiste auf **Dashboard**, um das Kanal-Dashboard zu öffnen.
 
@@ -205,7 +203,7 @@ Sie können die Felder **Aktiv ab** und **Aktiv bis** überspringen oder einbezi
 
 1. Geben Sie den Ausdruck in den **Zeitplan** ein. Ihr Asset wird daraufhin für das jeweilige Tages- und Uhrzeitintervall angezeigt.
 
-#### Beispielausdrücke für die Wochenaufteilung {#example-two}
+#### Ausdrücke für WeekParting {#example-two}
 
 Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hinzufügen können, während Sie einer Anzeige einen Kanal zuweisen.
 
@@ -221,7 +219,7 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 Sie können das _24-Stunden-Format_ (d. h. 14:00 Uhr) oder die *am/pm*-Notation (d. h. 2:00 pm) verwenden.
 
 
-### Monatsaufteilung {#month-parting}
+### MonthParting {#month-parting}
 
 1. Wählen Sie den Kanal aus und klicken Sie in der Aktionsleiste auf **Dashboard**, um das Kanal-Dashboard zu öffnen.
 
@@ -232,7 +230,7 @@ Sie können die Felder **Aktiv ab** und **Aktiv bis** überspringen oder einbezi
 
 1. Geben Sie den Ausdruck in den **Zeitplan** ein. Ihr Asset wird daraufhin für das jeweilige Tages- und Uhrzeitintervall angezeigt.
 
-#### Beispielausdrücke für die Monatsaufteilung {#example-three}
+#### Ausdrücke für MonthParting {#example-three}
 
 Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hinzufügen können, während Sie einer Anzeige einen Kanal zuweisen.
 
