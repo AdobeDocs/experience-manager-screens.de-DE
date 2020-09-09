@@ -10,8 +10,11 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: a90e3950-c95a-4aff-8cb3-9229c660a815
 docset: aem65
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '603'
+ht-degree: 91%
 
 ---
 
@@ -56,11 +59,11 @@ Gehen Sie wie folgt vor, um den Workflow zu erstellen und zu verwenden:
 
 Gehen Sie wie folgt vor, um einen Workflow für Ihr Video zu erstellen:
 
-1. Navigieren Sie zu Ihrer AEM-Instanz und klicken Sie in der Seitenleiste auf „Tools“. Wählen Sie **Workflow** &gt; **Modelle** aus, um ein neues Modell zu erstellen.
+1. Navigieren Sie zu Ihrer AEM-Instanz und klicken Sie in der Seitenleiste auf „Tools“. Wählen Sie **Workflow** > **Modelle** aus, um ein neues Modell zu erstellen.
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
-1. Klicken Sie auf **Modelle** &gt; **Erstellen** &gt; **Modell erstellen**. Geben Sie den **Titel** (als **VideoRendition**) und den **Namen** in **Workflow-Modell hinzufügen** ein. Klicken Sie auf **Fertig**, um das Workflow-Modell hinzuzufügen.
+1. Klicken Sie auf **Modelle** > **Erstellen** > **Modell erstellen**. Geben Sie den **Titel** (als **VideoRendition**) und den **Namen** in **Workflow-Modell hinzufügen** ein. Klicken Sie auf **Fertig**, um das Workflow-Modell hinzuzufügen.
 
    ![screen_shot_2018-10-17at90747pm](assets/screen_shot_2018-10-17at90747pm.png)
 
@@ -68,7 +71,7 @@ Gehen Sie wie folgt vor, um einen Workflow für Ihr Video zu erstellen:
 
    ![screen_shot_2018-10-17at91256pm](assets/screen_shot_2018-10-17at91256pm.png)
 
-1. Ziehen Sie die Komponente „Befehlszeile“ in Ihren Workflow.
+1. Drag and drop the **Command Line** component to your workflow.
 
    ![screen_shot_2018-10-22at14846pm](assets/screen_shot_2018-10-22at14846pm.png)
 
@@ -78,17 +81,17 @@ Gehen Sie wie folgt vor, um einen Workflow für Ihr Video zu erstellen:
 
 1. Wählen Sie die Registerkarte **Argumente** aus, um die Felder im Dialogfeld **Befehlszeile – Schritteigenschaften** einzugeben.
 
-   Geben Sie das Format in den **Mime-Typen** (als ***video/mp4***) und den Befehl als (/usr/local/Cellar/ffmpeg -i ${filename} -vf "pad=1920:height=1080:x=0:y=0:color=black" cq5dam.video.fullhd-hp.mp4) ein, um den Workflow in Feld **Befehle** zu starten.
+   Geben Sie das Format in den **Mime-Typen** (als ***video/mp4***) und den Befehl als (/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920:height=1080:x=0:y=0:color=black&quot; cq5dam.video.fullhd-hp.mp4) ein, um den Workflow in Feld **Befehle** zu starten.
 
    Einzelheiten zu **Mime-Typen** und **Befehlen** finden Sie in der unten stehenden Anmerkung.
 
    ![screen_shot_2018-10-18at105300am](assets/screen_shot_2018-10-18at105300am.png)
 
-1. Wählen Sie den Workflow (**VideoRenditions**) aus und klicken Sie in der Aktionsleiste auf **Workflow starten**, um das Dialogfeld **Workflow ausführen** zu öffnen.
+1. Select the workflow (**VideoRenditions**) and click **Start Workflow** from the action bar to open the **Run Workflow** dialog box.
 
    ![screen_shot_2018-10-18at105335am](assets/screen_shot_2018-10-18at105335am.png)
 
-1. Wählen Sie den Pfad Ihres Assets in der **Nutzlast** (als ***/content/dam/huseinpeyda-crossroads01_512kb 2.mp4***) aus, geben Sie den Titel (als ***RunVideo***) ein und klicken Sie auf **Ausführen**.
+1. Select the path of your asset in the **Payload** (as ***/content/dam/huseinpeyda-crossroads01_512kb 2.mp4***) and enter the **Title** as ***RunVideo*** and click **Run**.
 
    ![screen_shot_2018-10-18at112043am](assets/screen_shot_2018-10-18at112043am.png)
 
@@ -96,7 +99,7 @@ Gehen Sie wie folgt vor, um einen Workflow für Ihr Video zu erstellen:
 
 Gehen Sie wie folgt vor, um den Workflow in Ihrem AEM Screens-Projekt zu verwenden:
 
-1. Navigieren Sie zu einem AEM Screens-Projekt (**TestVideoRendition** &gt; **Kanäle** &gt;**VideoRendition**).
+1. Navigieren Sie zu einem AEM Screens-Projekt (**TestVideoRendition** > **Kanäle** >**VideoRendition**).
 
    ![screen_shot_2018-10-17at100715pm](assets/screen_shot_2018-10-17at100715pm.png)
 
