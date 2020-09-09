@@ -9,8 +9,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 00ea321c-3f79-4aa5-83cc-3fa2fe9e35d9
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '396'
+ht-degree: 89%
 
 ---
 
@@ -22,7 +25,7 @@ Rufen Sie AEM Screens auf, indem Sie den Adobe Experience Manager-Link (oben lin
 Sie können auch direkt zu dieser Adresse gehen: `http://localhost:4502/screens.html/content/screens`
 ![chlimage_1-14](assets/chlimage_1-14.png)
 
-Bei Projekten kann es sich um verschiedene Marken, Bereitstellungen, Kunden usw. handeln.
+Unterschiedliche Projekte können verschiedene Marken, Implementierungen, Kunden usw. sein.
 
 ![screen_shot_2018-08-23at105748am](assets/screen_shot_2018-08-23at105748am.png)
 
@@ -30,14 +33,14 @@ Bei Projekten kann es sich um verschiedene Marken, Bereitstellungen, Kunden usw.
 >
 >**Navigationstipp:**
 >
->Sie können auch die Cursortasten verwenden, um durch die verschiedenen Ordner in AEM zu navigieren. Sobald Sie eine bestimmte Entität ausgewählt haben, können Sie die Leertaste drücken, um Eigenschaften für den betreffenden Ordner zu bearbeiten oder anzuzeigen.
+>Sie können auch die Cursortasten verwenden, um durch die verschiedenen Ordner in AEM zu navigieren. Sobald Sie eine bestimmte Entität ausgewählt haben, drücken Sie die Leertaste, um die Eigenschaften oder Ansichten für diesen Ordner zu bearbeiten.
 
 ## Erstellen eines neuen Screens-Projekts     {#creating-a-new-screens-project}
 
 Gehen Sie wie folgt vor, um ein neues Screens-Projekt zu erstellen:
 
 1. Wählen Sie vom AEM-Dashboard aus die Option **Screens**.
-1. Klicken Sie auf „Erstellen“ **&gt;** „Projekt erstellen“ und der Assistent **Screens-Projekt erstellen** wird geöffnet.
+1. Click **Create** --> **Create Project** and **Create Screens Project** wizard will open.
 
 1. Wählen Sie die Vorlage **Screens** aus und klicken Sie auf **Weiter**.
 
