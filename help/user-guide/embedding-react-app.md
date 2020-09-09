@@ -9,11 +9,11 @@ topic-tags: developing
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: e4ecc179-e421-4687-854c-14d31bed031d
 docset: aem65
-translation-type: ht
-source-git-commit: bca6dc0f6a022a4a9005053320e5047b9321270d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
 source-wordcount: '720'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -61,7 +61,7 @@ Bearbeiten von Inhalten in der REACT-App:
 
 ### Hinzufügen der interaktiven REACT-App zu AEM Screens {#adding-the-interactive-react-app-to-aem-screens}
 
-Gehen Sie wie folgt vor, um die interaktive REACT-App AEM Screens hinzuzufügen:
+Gehen Sie wie folgt vor, um die interaktive REACT-App zu AEM Screens hinzuzufügen:
 
 1. Erstellen Sie ein neues AEM Screens-Projekt. Weitere Infos finden Sie unter [Erstellen und Verwalten von Projekten](creating-a-screens-project.md).
 
