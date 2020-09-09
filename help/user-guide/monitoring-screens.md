@@ -10,8 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 3f130808-71e8-4710-8181-021d953660f8
 docset: aem65
-translation-type: ht
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '801'
+ht-degree: 96%
 
 ---
 
@@ -28,7 +31,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 Führen Sie die folgenden Schritte aus, um zum Geräte-Dashboard zu navigieren:
 
-1. Navigieren Sie ausgehend von Ihrem Projekt zum Geräte-Dashboard, z. B. über ***Testprojekt ***>***Geräte***.
+1. Navigieren Sie ausgehend von Ihrem Projekt zum Geräte-Dashboard, z. B. über ***Testprojekt*** > ***Geräte***.
 
    Wählen Sie in der Aktionsleiste die Optionen **Geräte** und **Geräte-Manager** aus.
 
@@ -80,7 +83,7 @@ Klicken Sie auf **Eigenschaften**, um das Dialogfeld **Geräteeigenschaften** an
 
 >[!NOTE]
 >
->Weitere Informationen zu den Ereignissen, die den automatischen oder manuellen Aktualisierungen des Geräts zugeordnet sind, finden Sie im Abschnitt ***Automatische oder manuelle Aktualisierungen über das Geräte-Dashboard ***unter[Verwalten von Kanälen](managing-channels.md).
+>Weitere Informationen zu den Ereignissen, die den automatischen oder manuellen Aktualisierungen des Geräts zugeordnet sind, finden Sie im Abschnitt ***Automatische oder manuelle Aktualisierungen über das Geräte-Dashboard*** unter [Verwalten von Kanälen](managing-channels.md).
 
 ![screen_shot_2019-09-05at14112pm](assets/screen_shot_2019-09-05at14112pm.png)
 
@@ -97,7 +100,6 @@ Klicken Sie oben rechts im Bedienfeld „Player-Screenshot“ auf die Punkte (**
 Im Bedienfeld **VOREINSTELLUNGEN** können Benutzer die Voreinstellungen des Geräts für **Administrator-Benutzeroberfläche**, **Kanalschalter** und **Remote-Debugging** ändern.
 
 >[!NOTE]
->
 >Weitere Informationen zu dieser Option finden Sie unter [AEM Screens-Player](working-with-screens-player.md).
 
 ![screen_shot_2019-09-05at14250pm](assets/screen_shot_2019-09-05at14250pm.png)
@@ -113,25 +115,21 @@ Klicken Sie in der rechten oberen Ecke auf **Einstellungen**, um die Gerätevore
 ![screen_shot_2019-09-05at14511pm](assets/screen_shot_2019-09-05at14511pm.png)
 
 >[!NOTE]
->
 >Sie können eine der folgenden Protokollebenen auswählen:
->
 >* **Deaktivieren**
 >* **Debug**
 >* **Info**
 >* **Warnung**
 >* **Fehler**
->
-
 
 
 ![screen_shot_2019-09-05at15645pm](assets/screen_shot_2019-09-05at15645pm.png)
 
-## Durchführen der Fehlerbehebung für die OSGi-Einstellungen {#troubleshoot-osgi-settings}
+## Troubleshoot OSGi Settings {#troubleshoot-osgi-settings}
 
 Sie müssen den leeren Referrer aktivieren, um dem Gerät das Bereitstellen von Daten auf dem Server zu erlauben. Wenn die Eigenschaft für den leeren Referrer deaktiviert ist, kann das Gerät keine Screenshots zurückgeben.
 
-Derzeit sind einige dieser Funktionen nur verfügbar, wenn der *Apache Sling Referrer-Filter „Allow Empty“* in der OSGi-Konfiguration aktiviert ist. Im Dashboard wird ggf. eine Warnung angezeigt, dass einige dieser Funktionen aufgrund der Sicherheitseinstellungen nicht funktionieren.
+Currently some of these features are only available if the *Apache Sling Referrer Filter Allow Empty* is enabled in the OSGi configuration. Im Dashboard wird ggf. eine Warnung angezeigt, dass einige dieser Funktionen aufgrund der Sicherheitseinstellungen nicht funktionieren.
 
 Führen Sie die nachfolgenden Schritte aus, um den Apache Sling Referrer-Filter „Allow Empty“ zu aktivieren
 
