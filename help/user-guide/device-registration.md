@@ -10,8 +10,11 @@ content-type: reference
 topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
-translation-type: ht
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '562'
+ht-degree: 100%
 
 ---
 
@@ -34,6 +37,7 @@ Der Prozess zur Geräteregistrierung erfolgt auf 2 separaten Geräten:
 >1. Halten Sie die linke obere Ecke gedrückt, um den Admin-Bereich zu öffnen.
 >1. Navigieren Sie im linken Aktionsmenü zu **Konfiguration**, geben Sie die Standortadresse der AEM-Instanz unter **Server** ein und klicken Sie auf **Speichern**.
 >1. Klicken Sie im linken Aktionsmenü auf den Link **Registrierung** und führen Sie die folgenden Schritte aus, um die Geräteregistrierung abzuschließen.
+
 >
 
 
