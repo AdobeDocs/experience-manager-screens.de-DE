@@ -10,8 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
-translation-type: ht
-source-git-commit: cec2a2f8b056bf713e56a9fab08d88e29263820b
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '1464'
+ht-degree: 95%
 
 ---
 
@@ -49,7 +52,7 @@ Im folgenden Beispiel sehen Sie, wie einem AEM Screens-Projekt eine Livefyre-Kom
 1. Klicken Sie in der Aktionsleiste auf **Bearbeiten**, um den Editor zu öffnen.
 1. Wählen Sie den Modus **Design** aus.
 1. Wählen Sie rechts den kompletten Designeditor aus und klicken Sie auf das Einstellungssymbol, um das Dialogfeld **ParSys-Design** zu öffnen.
-1. Sie können die Komponenten auswählen, die dem AEM Screens-Projekt hinzugefügt werden sollen. Im folgenden Beispiel wird das Hinzufügen der Komponente **Livefyre** zu einem AEM Screens-Projekt veranschaulicht.
+1. Sie können die Komponenten auswählen, die dem AEM Screens-Projekt hinzugefügt werden sollen. The following example shows the addition of **Livefyre** component to an AEM Screens project.
 
 ![adding_components](assets/adding_components.gif)
 
@@ -73,10 +76,10 @@ Die Komponente „Anwendung“ verfügt über die folgenden Eigenschaften:
 
 | **Eigenschaft** | **Beschreibung** |
 |---|---|
-| ***Anwendungspfad *** | Damit wird der absolute Pfad zur Anwendung festgelegt. |
+| ***Anwendungspfad*** | Damit wird der absolute Pfad zur Anwendung festgelegt. |
 | ***Dauer (ms)*** | Damit wird die Dauer der Anwendung festgelegt. Standardmäßig ist die Dauer auf den Wert „-1“ eingestellt. Dies bedeutet, dass das Element auf unbestimmte Zeit ausgeführt wird (bei einer Single Page Application). Wird unter „Dauer“ ein Wert über 0 festgelegt, wird das Element für die angegebene Dauer angezeigt. Anschließend wird zum nächsten Element gewechselt. |
 
-Im folgenden Beispiel sehen Sie, wie die Komponente „Anwendung“ hinzugefügt wird, einschließlich einer Vorschau ihrer Eigenschaften:
+Das folgende Beispiel zeigt, wie eine Anwendungskomponente zusammen mit der Vorschau ihrer Eigenschaften einbettet wird:
 
 ![adding_componentsapplication](assets/adding_componentsapplication.gif)
 
@@ -201,15 +204,15 @@ Weitere Informationen zum Erstellen eines Experience Fragments und dessen Verwen
 | **Eigenschaft** | **Beschreibung** |
 |---|---|
 | **Experience Fragment** |
-| ***Experience Fragment *** | Wählen Sie das Experience Fragment aus. |
-| ***Dauer *** | Wählen Sie die Gesamtdauer des Experience Fragment aus, das im Kanal wiedergegeben wird. |
+| ***Experience Fragment*** | Wählen Sie das Experience Fragment aus. |
+| ***Dauer*** | Wählen Sie die Gesamtdauer des Experience Fragment aus, das im Kanal wiedergegeben wird. |
 | **Offline-Konfiguration** |
-| ***Client-seitige Bibliotheken *** | JavaScript- und CSS-Dateien. |
-| ***Statische Dateien *** | Statische Dateien, die Sie als Offline-Konfigurationen Ihrem Experience Fragment hinzufügen können. |
+| ***Client-seitige Bibliotheken*** | JavaScript- und CSS-Dateien. |
+| ***Statische Dateien*** | Statische Dateien, die Sie als Offline-Konfigurationen Ihrem Experience Fragment hinzufügen können. |
 
 >[!NOTE]
 >
->Die **Client-seitigen Bibliotheken** und **statischen Dateien**, die Sie aus dieser Komponente hinzufügen, werden zusätzlich zu den bereits konfigurierten **Client-seitigen Bibliotheken** und statischen Dateien bereitgestellt, die über die **Eigenschaften** des Experience Fragment hinzugefügt werden.
+>The **Client-side Libraries** and the **Static Files** that you add from this component will be in addition to already configured **Client-side Libraries** and the Static Files that are added from the experience fragment&#39;s **Properties**.
 
 ### Bild {#image}
 
@@ -220,15 +223,15 @@ Das Bild-Asset besitzt die drei Registerkarten **Bild**, **Erreichbarkeit** und 
 | **Eigenschaft** | **Beschreibung** |
 |---|---|
 | **Bild** |
-| ***Bild-Asset *** | Damit wird das Bild-Asset festgelegt. |
-| ***Titel *** | Hierbei handelt es sich um den Titel des Bildes. |
-| ***Verknüpfung zu *** | Damit wird dem Bild ein Link hinzugefügt. |
-| ***Beschreibung *** | Hierbei handelt es sich um eine kurze Beschreibung des Bildes. |
-| ***Größe *** | Hierbei handelt es sich um die Größe des Bildes. |
+| ***Bild-Asset*** | Damit wird das Bild-Asset festgelegt. |
+| ***Titel*** | Hierbei handelt es sich um den Titel des Bildes. |
+| ***Verknüpfung zu*** | Damit wird dem Bild ein Link hinzugefügt. |
+| ***Beschreibung*** | Hierbei handelt es sich um eine kurze Beschreibung des Bildes. |
+| ***Größe*** | Hierbei handelt es sich um die Größe des Bildes. |
 | **Erreichbarkeit** |
-| ***Alternativtext *** | Hierbei handelt es sich um Alternativtext für das Bild. |
+| ***Alternativtext*** | Hierbei handelt es sich um Alternativtext für das Bild. |
 | **Sequenz** |
-| ***Dauer *** | Standardmäßig ist die Dauer auf *8000 ms* eingestellt. Wenn Sie die Wiedergabedauer des Bildes ändern möchten, aktualisieren Sie das Feld **Dauer**. |
+| ***Dauer*** | Standardmäßig ist die Dauer auf *8000 ms* eingestellt. Wenn Sie die Wiedergabedauer des Bildes ändern möchten, aktualisieren Sie das Feld **Dauer**. |
 
 ### Übergang {#transition}
 
