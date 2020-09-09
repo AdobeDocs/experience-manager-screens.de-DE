@@ -10,11 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
-translation-type: ht
-source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
 source-wordcount: '694'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -208,7 +208,7 @@ Die folgende Tabelle fasst das Standarddatenmodell für Ereignisse zusammen. Es 
    <td>optional</td> 
    <td>Zeichenfolge</td> 
    <td> </td> 
-   <td>URL der Web-Eigenschaft oder des mobilen Schemas – muss eine vollständig qualifizierte URL enthalten</td> 
+   <td>URL der Webeigenschaft oder des mobilen Schemas - muss vollständig qualifizierte URL enthalten</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -268,7 +268,7 @@ Die folgende Tabelle fasst das Standarddatenmodell für Ereignisse zusammen. Es 
    <td> </td> 
    <td>Gerät</td> 
    <td>source.device</td> 
-   <td>erforderlich mit Ausnahmen</td> 
+   <td>erforderlich, ohne Ausnahmen</td> 
    <td>Zeichenfolge</td> 
    <td> </td> 
    <td>Player-Name</td> 
@@ -277,7 +277,7 @@ Die folgende Tabelle fasst das Standarddatenmodell für Ereignisse zusammen. Es 
    <td> </td> 
    <td>Betriebssystemversion</td> 
    <td>source.os_version</td> 
-   <td>erforderlich mit Ausnahmen</td> 
+   <td>erforderlich, ohne Ausnahmen</td> 
    <td>Zeichenfolge</td> 
    <td> </td> 
    <td>BS-Version</td> 
