@@ -11,10 +11,10 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: acc0278631a4be2c90de7cc43d3b40a358ffa93e
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 100%
+source-wordcount: '751'
+ht-degree: 92%
 
 ---
 
@@ -47,7 +47,7 @@ Gehen Sie wie folgt vor, um zu prüfen, ob diese beiden wichtigen Konfiguratione
    ![Assets](assets/health-check1.png)
 
 
-2. Klicken Sie auf **Ausgewählte Statusprüfungen ausführen**, um die Überprüfung für zwei oben aufgelistete Eigenschaften auszuführen.
+2. Click on **Execute selected health checks** to run the validation for two properties listed above.
 
    Wenn beide Filter aktiviert sind, zeigt der **Screens Configuration Health Service** das **Ergebnis** als **OK** an (beide Konfigurationen sind aktiviert).
 
@@ -108,7 +108,7 @@ AEM Screens erfordert die TOUCH-Benutzeroberfläche und funktioniert nicht mit d
 1. Navigieren Sie zu *&lt;IhreAutoreninstanz>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*
 1. Stellen Sie sicher, dass der **standardmäßige Authoring-Oberflächenmodus** auf **TOUCH** gesetzt ist, wie in der folgenden Abbildung gezeigt.
 
-Alternativ können Sie dieselbe Einstellung auch mit *&lt;IhreAutoreninstanz>*>*Werkzeuge (Hammersymbol)* > **Vorgänge** > **Web-Konsole** vornehmen und nach **WCM Authoring UI Mode Service** suchen.
+Alternatively, you can also perform the same setting using yourAuthorInstance *->* tools (hammer icon) -> **Operations** -> **Web Console** and search for **WCM Authoring UI Mode Service**.
 
 ![screen_shot_2018-12-04at22425pm](assets/screen_shot_2018-12-04at22425pm.png)
 
@@ -118,7 +118,7 @@ Alternativ können Sie dieselbe Einstellung auch mit *&lt;IhreAutoreninstanz>*>*
 
 #### AEM im NOSAMPLECONTENT-Ausführungsmodus {#aem-in-nosamplecontent-runmode}
 
-Beim Ausführen von AEM in einer Produktionsumgebung wird der Ausführungsmodus **NOSAMPLECONTENT** verwendet. Entfernen Sie die Kopfzeile *X-Frame-Options=SAMEORIGIN* (im Abschnitt für zusätzliche Antwortkopfzeilen) aus
+Beim Ausführen von AEM in einer Produktionsumgebung wird der Ausführungsmodus **NOSAMPLECONTENT** verwendet. Remove the *X-Frame-Options=SAMEORIGIN* header (in the additional response header section) from
 
 `https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`.
 
@@ -136,7 +136,7 @@ Gehen Sie wie folgt vor, um ***DeviceServiceImpl*** zu konfigurieren:
 
 1. Navigieren Sie zur **Konfiguration der Adobe Experience Manager-Web-Konsole** über AEM-Instanz > Hammersymbol > **Vorgänge** > **Web-Konsole**.
 
-1. Die Konfiguration der Adobe Experience Manager-Web-Konsole wird geöffnet. Suchen Sie nach „deviceservice“. Um nach der Eigenschaft zu suchen, drücken Sie **Befehl+F** für **Mac** und **Strg+F** für **Windows**.
+1. Die Konfiguration der Adobe Experience Manager-Web-Konsole wird geöffnet. Search for *deviceservice*. Um nach der Eigenschaft zu suchen, drücken Sie **Befehl+F** für **Mac** und **Strg+F** für **Windows**.
 
 ![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
 
