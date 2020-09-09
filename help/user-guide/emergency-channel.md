@@ -9,8 +9,11 @@ topic-tags: use-case-examples
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: dbb4fae6-f3fb-496a-9bd6-1151e2862b5b
 docset: aem65
-translation-type: ht
-source-git-commit: 2708464222321fd138c986f19d8572c71f1dae75
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '812'
+ht-degree: 100%
 
 ---
 
@@ -41,7 +44,6 @@ Gehen Sie wie folgt vor, um einen Notfallkanal einzurichten:
 1. Erstellen Sie ein AEM Screens-Projekt mit dem Namen **EmergencyChannel**, wie unten dargestellt.
 
    >[!NOTE]
-   >
    >Weitere Informationen zum Erstellen und Verwalten von Projekten in AEM Screens finden Sie unter „Erstellen eines Projekts“.
 
    ![screen_shot_2019-02-21at35809pm](assets/screen_shot_2019-02-21at35809pm.png)
@@ -51,12 +53,14 @@ Gehen Sie wie folgt vor, um einen Notfallkanal einzurichten:
    1. Wählen Sie den Ordner **Kanäle** aus und klicken Sie auf **Erstellen**, um den Assistenten zum Erstellen eines Kanals zu öffnen.
 
    1. Wählen Sie im Assistenten die Option **Sequenzkanal** aus und erstellen Sie den Kanal mit dem Titel **MainAdChannel**.
+
    ![screen_shot_2019-02-21at35932pm](assets/screen_shot_2019-02-21at35932pm.png)
 
 1. **Hinzufügen von Inhalten zu Sequenzkanälen**
 
    1. Wählen Sie den Kanal (**MainAdChannel**) aus.
    1. Klicken Sie in der Aktionsleiste auf **Bearbeiten**, um den Editor zu öffnen. Ziehen Sie einige Assets in Ihren Kanal.
+
    ![screen_shot_2019-02-21at40053pm](assets/screen_shot_2019-02-21at40053pm.png)
 
 1. **Erstellen eines Notfallkanals**
@@ -64,6 +68,7 @@ Gehen Sie wie folgt vor, um einen Notfallkanal einzurichten:
    1. Wählen Sie den Ordner **Kanäle** aus.
    1. Klicken Sie auf **Erstellen**, um den Assistenten zum Erstellen eines Kanals zu öffnen.
    1. Wählen Sie im Assistenten die Option **Sequenzkanal** aus und erstellen Sie den Kanal mit dem Titel **EmergencyChannel**.
+
    >[!NOTE]
    >
    >Normalerweise wird Ihr Notfallkanal Ihrem bereits bestehenden Produktionsprojekt hinzugefügt.
@@ -74,12 +79,14 @@ Gehen Sie wie folgt vor, um einen Notfallkanal einzurichten:
 
    1. Wählen Sie den Kanal (**Notfallkanal**) aus.
    1. Klicken Sie in der Aktionsleiste auf **Bearbeiten**, um den Editor zu öffnen. Ziehen Sie das Asset, das Sie im Notfall ausführen möchten, in Ihren Kanal.
+
    ![screen_shot_2019-02-21at40516pm](assets/screen_shot_2019-02-21at40516pm.png)
 
 1. **Erstellen eines Standorts**
 
    1. Navigieren Sie zum Ordner **Standorte**.
    1. Klicken Sie in der Aktionsleiste auf **Erstellen** und erstellen Sie im Assistenten einen Standort mit dem Titel **Store**.
+
    ![screen_shot_2019-02-22at121638pm](assets/screen_shot_2019-02-22at121638pm.png)
 
 1. **Erstellen von Anzeigen für Ihren Standort**
@@ -92,6 +99,7 @@ Gehen Sie wie folgt vor, um einen Notfallkanal einzurichten:
 
    1. Navigieren Sie zum Ordner **Zeitpläne**.
    1. Klicken Sie in der Aktionsleiste auf **Erstellen**. Führen Sie den Assistenten aus, um einen Zeitplan mit dem Titel **StoreSchedule** zu erstellen.
+
    ![screen_shot_2019-02-22at122845pm](assets/screen_shot_2019-02-22at122845pm.png)
 
 1. Weisen Sie dem Zeitplan beide Anzeigen zu und legen Sie Prioritäten fest
@@ -106,6 +114,7 @@ Gehen Sie wie folgt vor, um einen Notfallkanal einzurichten:
       1. Legen Sie die **Priorität** auf „2“ fest
       1. Wählen Sie unter „Unterstützte Ereignisse“ die Optionen **Erster Ladevorgang** und **Bildschirm bei Untätigkeit**.
       1. Klicken Sie auf **Speichern**.
+
       In ähnlicher Weise müssen Sie dieselben Schritte wiederholen, um den **EmergencyChannel** zuzuweisen und seine **Priorität** festzulegen.
    >[!NOTE]
    >
@@ -123,6 +132,7 @@ Gehen Sie wie folgt vor, um einen Notfallkanal einzurichten:
    1. Wählen Sie unter „Unterstützte Ereignisse“ die Optionen **Erster Ladevorgang**, **Bildschirm bei Untätigkeit** und **Benutzerinteraktion**.
 
    1. Klicken Sie auf **Speichern**.
+
    ![screen_shot_2019-03-04at104741am](assets/screen_shot_2019-03-04at104741am.png)
 
    Sie können die zugewiesenen Kanäle im Dashboard **StoreSchedule** anzeigen.
@@ -139,6 +149,7 @@ Gehen Sie wie folgt vor, um einen Notfallkanal einzurichten:
    1. Wählen Sie den Pfad zum Zeitplan aus (hier z. B. **EmergencyChannel** > **Zeitpläne** >**StoreSchedule**).
 
    1. Klicken Sie auf **Speichern**.
+
    Sie können den der Anzeige zugewiesenen Zeitplan im Dashboard **StoreSchedule** anzeigen.
    ![screen_shot_2019-03-04at122003pm](assets/screen_shot_2019-03-04at122003pm.png)
 
