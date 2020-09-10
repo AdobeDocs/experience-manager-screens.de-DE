@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 4a1fb81fa343983093590c36ccb6a4fd110cdad2
 workflow-type: tm+mt
 source-wordcount: '248'
-ht-degree: 72%
+ht-degree: 91%
 
 ---
 
@@ -86,12 +86,12 @@ Fügen Sie ***/filter*** Folgendes hinzu, um Screens-Filter zu konfigurieren.
 
 Deaktivieren Sie die Dispatcher-Zwischenspeicherung für ***/content/screens path***.
 
-Screens Player verwenden authentifizierte Sitzung, sodass der Dispatcher keine der Bildschirmanforderungen von Playern zwischenspeichert `channels/assets`.
+Screens-Player verwenden die authentifizierte Sitzung, sodass der Dispatcher keine der Anforderungen von Screens-Playern für `channels/assets` im Cache zwischenspeichert.
 
 Um den Cache für die Assets zu aktivieren, damit die Assets aus dem Dispatcher-Cache bereitgestellt werden, müssen Sie:
 
-* hinzufügen `/allowAuthorization 1` im `/cache` Abschnitt
-* hinzufügen die folgenden Regeln in `/rules` Abschnitt `/cache`
+* `/allowAuthorization 1` im Abschnitt `/cache` hinzufügen,
+* die folgenden Regeln zum Abschnitt `/rules` von `/cache` hinzufügen.
 
 ```xml
 /0000
