@@ -1,22 +1,22 @@
 ---
 title: Glossar
-seo-title: 'Glossar  '
+seo-title: Glossar
 description: Auf dieser Seite werden die wichtigsten Begriffe im Zusammenhang mit AEM Screens erläutert.
 seo-description: Auf dieser Seite werden die wichtigsten Begriffe im Zusammenhang mit AEM Screens erläutert.
 translation-type: tm+mt
 source-git-commit: 421174dba8a5a7c39bffcaa2dddb54939eeba3bc
 workflow-type: tm+mt
 source-wordcount: '469'
-ht-degree: 84%
+ht-degree: 95%
 
 ---
 
 
-# Glossar   {#glossary}
+# Glossar  {#glossary}
 
 **Anwendungskanal** Ein Anwendungskanal gibt eine vom Entwickler erstellte Anwendung wieder, die interaktive Inhalte anzeigt.
 
-**Attraktive Schleife** Eine Attraktions-Schleife wird als *Home* - oder *Leerlaufzustand* definiert, wenn die Anzeige zwei oder mehr Status hat, in denen sie bestehen kann. Seine Rolle besteht darin, Kunden zur Anzeige zu *locken* und sie zu ermutigen, sich zu engagieren, in der Regel durch Berühren des Bildschirms, aber auch durch Interaktion mit einem Produkt.
+**Attraktionsschleife** Eine Attraktionsschleife wird als *Ausgangs*- oder *Ruhezustand* definiert, wenn die Anzeige zwei oder mehr Zustände hat, in denen sie existieren kann. Ihre Aufgabe ist es, Kunden zur Anzeige zu *locken* und sie zur Interaktion anzuregen, normalerweise durch Berühren des Bildschirms, aber auch durch Interaktion mit einem Produkt.
 
 **DayParting** DayParting bezieht sich auf die Aufteilung eines Tages in Zeitfenster und die Angabe, welche Inhalte zur gewünschten Zeit abgespielt werden. Mit AEM Screens können Sie den Dayparting-Zeitplan von Kanälen nach Bedarf für Tage, Wochen oder Monate festlegen.
 
