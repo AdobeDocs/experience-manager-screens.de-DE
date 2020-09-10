@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 2ab8496cebb81864a8354ad5dcb8d72bc1e44c13
 workflow-type: tm+mt
 source-wordcount: '978'
-ht-degree: 90%
+ht-degree: 93%
 
 ---
 
@@ -41,12 +41,11 @@ Setzen Sie das **Attribut SameSite für die Cookies** login-token von **Lax** au
 
 Führen Sie dazu folgende Schritte durch:
 
-1. Navigate to **Adobe Experience Manager Web Console
-Configuration** using `http://localhost:4502/system/console/configMgr`.
+1. Navigieren Sie zu **Konfiguration der Adobe Experience Manager-Web-Konsole** über `http://localhost:4502/system/console/configMgr`.
 
 1. Suchen Sie nach *Adobe Granite Token Authentication Handler*.
 
-1. Legen Sie das **Attribut SameSite für die Cookies** login-token von **Lax** auf **None**fest.
+1. Legen Sie das **Attribut „SameSite“ für die Anmelde-Token-Cookies** von **Lax** auf **Keine** fest.
    ![image](/help/user-guide/assets/granite-updates.png)
 
 1. Klicken Sie auf **Speichern**.
@@ -85,7 +84,7 @@ So konfigurieren Sie den Windows 10-Player:
 1. Suchen Sie die Konfigurationsdatei unter ***%appdata%\com.adobe.aem.screens.player\config.json***.
 1. Aktualisieren Sie die JSON-Konfigurationsdatei mit den nachstehenden Informationen und kopieren Sie sie dann bei allen Systemen, auf denen der Player vorhanden ist, in den gleichen Ordner.
 
-### Richtlinienattribute       {#policy-attributes}
+### Richtlinienattribute         {#policy-attributes}
 
 In der folgenden Tabelle finden Sie eine Zusammenfassung der Richtlinienattribute mit einer beispielhaften JSON-Richtliniendatei als Referenz:
 
@@ -98,7 +97,7 @@ In der folgenden Tabelle finden Sie eine Zusammenfassung der Richtlinienattribut
 | enableOSD | Aktivierung der Kanalschalter-Benutzeroberfläche, damit Benutzer zwischen Kanälen auf dem Gerät wechseln können. Stellen Sie den Wert ggf. auf „false“ ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und produktiv verwendet wird. |
 | enableActivityUI | Aktivierung zum Anzeigen des Fortschritts von Aktivitäten wie Downloads und Synchronisierungen. Aktivieren Sie den Wert zwecks Fehlerbehebung und deaktivieren Sie ihn, sobald die Benutzeroberfläche vollständig konfiguriert ist und produktiv verwendet wird. |
 
-#### Beispielhafte JSON-Richtliniendatei       {#example-policy-json-file}
+#### Beispielhafte JSON-Richtliniendatei         {#example-policy-json-file}
 
 ```
 {
