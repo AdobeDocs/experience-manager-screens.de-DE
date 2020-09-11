@@ -3,9 +3,9 @@ title: Sicherheits-Checkliste für AEM Screens
 seo-title: Sicherheits-Checkliste für AEM Screens
 description: Auf dieser Seite wird die Sicherheits-Checkliste für AEM Screens beschrieben.
 seo-description: Auf dieser Seite wird die Sicherheits-Checkliste für AEM Screens beschrieben.
-translation-type: ht
-source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 100%
 
@@ -15,7 +15,6 @@ ht-degree: 100%
 # Überlegungen zur Systemsicherheit für AEM Screens {#security-checklist}
 
 >[!IMPORTANT]
->
 >Dies ist eine interne Git-Ressource.
 
 Auf dieser Seite werden die Überlegungen zur Systemsicherheit für AEM Screens erläutert.
