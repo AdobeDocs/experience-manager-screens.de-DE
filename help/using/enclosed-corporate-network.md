@@ -2,7 +2,7 @@
 title: Geschlossenes Unternehmensnetzwerk
 description: 'Geschlossenes Unternehmensnetzwerk    '
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 100%
@@ -86,7 +86,6 @@ Szenarien, in denen umfangreicher mit Sensoren oder Auslösern sowie dynamischen
 Nachfolgend sind die wichtigsten Daten bezüglich Netzwerkverbindungen aufgeführt.
 
 >[!NOTE]
->
 >Diese Daten zeigen auf, wie viel Bandbreite jedes einzelne mit dem Netzwerk verbundene Gerät beim Anfragen und Herunterladen einer Internet-Quelle beansprucht. Mit jeder weiteren solchen Anfrage summiert sich die Bandbreitennutzung, durch die sich wiederum die Download-Zeit verlängert.
 
 ![](/help/using/assets/enclosed-network-download.png)
