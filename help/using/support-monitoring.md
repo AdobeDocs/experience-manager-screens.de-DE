@@ -3,8 +3,11 @@ title: Support-Überwachung
 seo-title: Support-Überwachung für AEM Screens
 description: Auf dieser Seite werden die Best Practices für die Support-Überwachung von AEM Screens beschrieben.
 seo-description: Auf dieser Seite werden die Best Practices für die Support-Überwachung von AEM Screens beschrieben.
-translation-type: ht
-source-git-commit: 3c91e0ec80b29bebcc066f45a1eef1fd74e00a13
+translation-type: tm+mt
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '225'
+ht-degree: 93%
 
 ---
 
@@ -27,7 +30,8 @@ Per Inhaltsüberwachung können Sie Fehler in Zusammenhang mit Inhalten beheben,
    * Überprüfen Sie die *Vorschau*, um zu ermitteln, ob der Kanal einen schwarzen Bildschirm anzeigt.
    * Registrieren Sie auf Ihrem Notebook einen *lokalen Chrome-Player* (als Erweiterung) für das Display, um zu sehen, ob ein schwarzer Bildschirm angezeigt wird.
    * Klicken Sie mit der rechten Maustaste und überprüfen Sie die *entsprechenden Protokolle*.
-   Wenn das nicht beim lokalen Player, sondern nur auf dem Gerät geschieht:
+
+   Wenn dies nicht auf dem lokalen Player, sondern nur auf dem Gerät geschieht:
 
    * Überprüfen Sie den (verwendeten) *Medientyp*, bei dem möglicherweise Probleme auf dem Gerät auftreten, und prüfen Sie, ob der Inhalt erfolgreich lokal heruntergeladen wurde (Administrator-UI: clear channel cache).
    * Schließen Sie alle *Geräteprotokolle* zur schnellen Fehlerbehebung in das Ticket ein.
