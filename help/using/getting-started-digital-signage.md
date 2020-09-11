@@ -3,8 +3,11 @@ title: Grundlagen von Digital Signage für [!UICONTROL AEM Screens]
 seo-title: Grundlagen von Digital Signage für [!UICONTROL AEM Screens]
 description: In diesem Handbuch werden die Grundlagen eines Digital Signage-Projekts beschrieben.
 seo-description: In diesem Handbuch werden die Grundlagen eines Digital Signage-Projekts beschrieben.
-translation-type: ht
-source-git-commit: 30c724ea897fd2da5300bb5cad285d460af5de40
+translation-type: tm+mt
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '428'
+ht-degree: 96%
 
 ---
 
@@ -75,7 +78,7 @@ Ein Definieren der Schlüsselelemente ist vor Implementierung eines Digital Sign
       * Senden/Empfangen von seriellen Befehlen (Schließen von Kontakt, PLC usw.)
       * Eingehende Daten werden auf dem Bildschirm angezeigt (RSS) oder lösen Inhalt aus
       * RFID/NFC/Bluetooth/iBeacon
-      * Externe Dienste (Wetter, Verkehr usw.)
+      * Externe Dienste (Wetter, Verkehr)
 
 1. **Umgebung**
 
@@ -94,5 +97,5 @@ Ein Definieren der Schlüsselelemente ist vor Implementierung eines Digital Sign
    * Werden detaillierte Installationsanleitungen/Benutzerhandbücher benötigt?
    * Wird das Gerät vor dem Versand konfiguriert (programmiert)?
    * Müssen die einzelnen Seriennummern zu Verfolgungszwecken erfasst werden?
-   * Gibt es Bedarf an einer Stromversorgungsreserve (unterbrechungsfreie Stromversorgung)?
+   * Gibt es Reserveanforderungen an die Stromversorgung (ununterbrochene Stromversorgung)?
    * Wie werden Systemaktualisierungen implementiert? Und wie werden Geräte remote überwacht? Ist eine MDM-Lösung erforderlich?
