@@ -3,9 +3,9 @@ title: AEM-Plattformkonfigurationen
 seo-title: AEM-Plattformkonfigurationen
 description: Auf dieser Seite werden AEM-Plattformkonfigurationen beschrieben.
 seo-description: Auf dieser Seite werden AEM-Plattformkonfigurationen beschrieben.
-translation-type: ht
-source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 100%
 
@@ -48,7 +48,7 @@ Installieren Sie FFmpeg gemäß den Schritten für das entsprechende Betriebssys
    > Beachten Sie, dass -strict -2 die letzten Parameter in der Parameterliste sein müssen. Außerdem müssen Sie in AEM 6.4 die Knoten unter */libs/settings/dam/video* nach */conf/global/settings/dam/video* kopieren, wie in [Videoausgaben](https://helpx.adobe.com/experience-manager/6-5/screens/using/generating-renditions.html) dargestellt.
 1. Prüfen Sie, ob Videokonvertierungen stattfinden und Ausgaben erstellt werden.
 
-## Kennwortbeschränkungen {#password-restrictions}
+## Kennworteinschränkungen {#password-restrictions}
 
 Die Kennwortrichtlinie von AEM muss bei der AMS-Instanz deaktiviert werden. Dies kann alternativ in der Webkonsole mithilfe des Screens-Gerätediensts *com.adobe.cq.screens.device.impl.DeviceService* konfiguriert werden.
 Weitere Informationen dazu finden Sie im Abschnitt **Kennwortbeschränkungen** unter [Konfigurieren von Author und Publish in AEM Screens](https://helpx.adobe.com/experience-manager/6-5/screens/using/author-and-publish.html).
