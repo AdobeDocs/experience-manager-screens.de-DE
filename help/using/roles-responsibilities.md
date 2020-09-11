@@ -3,11 +3,11 @@ title: Projektrollen und Zuständigkeiten in AEM Screens
 seo-title: Projektrollen und Zuständigkeiten in AEM Screens
 description: Auf dieser Seite werden die Projektrollen und Zuständigkeiten in AEM Screens beschrieben.
 seo-description: Auf dieser Seite werden die Projektrollen und Zuständigkeiten in AEM Screens beschrieben.
-translation-type: ht
-source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
 source-wordcount: '1263'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -100,7 +100,7 @@ Zur Sicherstellung einer erfolgreichen Bereitstellung von Digital Signage ist es
 >[!NOTE]
 >
 >Auch wenn der Schwerpunkt dieses Handbuchs auf *Tag 1* und *Tag 2* liegt, müssen bei einem erfolgreichen Digital Signage-Projekt alle drei Schritte beachtet werden.
-In einem zusätzlichen Video zu **[Projektverwaltung und -implementierung](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)**erfahren Sie mehr über die Projektvorbereitung, die Projektinitiierung und den Projektfortschritt.
+In einem zusätzlichen Video zu **[Projektverwaltung und -implementierung](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** erfahren Sie mehr über die Projektvorbereitung, die Projektinitiierung und den Projektfortschritt.
 
 ## RACI-Diagramm {#raci-chart}
 
@@ -149,9 +149,9 @@ Die folgende Tabelle fasst die Überlegungen zu **Tag 0: Projektimplementierung
 | AEM Screens – Projekteinrichtung | I | RA | C | I |
 | Analytics-Implementierung | I | RA | C | - |
 | Tests und Implementierung | RA | C | RA | I |
-| Serverkonfiguration | I | RA | I | I |
+| Server-Konfiguration | I | RA | I | I |
 | Inhaltsaktualisierungsplan | I | RA | C | C |
-| Plan für den Übergang von der Pilotphase in die Produktion | RA | RA | I | I |
+| Plan für die Transition von Piloten zur Produktion | RA | RA | I | I |
 | Wissenstransfer | RA | RA | I | I |
 
 Die folgende Tabelle fasst die Überlegungen zu **Tag 0: Projektimplementierung (Einzelhändlervorbereitung)** zusammen:
