@@ -3,8 +3,11 @@ title: Journey Map
 seo-title: Journey Map für AEM Screens
 description: Auf dieser Seite wird die Journey Map für AEM Screens beschrieben.
 seo-description: Auf dieser Seite wird die Journey Map für AEM Screens beschrieben.
-translation-type: ht
-source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
+translation-type: tm+mt
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '294'
+ht-degree: 91%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
 >
 >Typische Verantwortliche für diese Aktivität sind Marketing-/Geschäftsstrategen.
 
-Eine Journey Map zur User Experience (UX) liefert Informationen dazu, wie und warum Benutzer die vom Netzwerk bereitgestellten digitalen Inhalte nutzen.
+Eine User Experience Journey-Map soll Aufschluss darüber geben, wie und warum die Benutzer die vom Netzwerk bereitgestellten digitalen Inhalte nutzen werden.
 
 ## Einrichten der UX Journey Map {#building-map}
 
@@ -28,5 +31,4 @@ In dieser Projektphase können Sie Optionen und Abhängigkeiten für dynamische 
 Es wird empfohlen, Projektleitern und zentralen Verantwortlichen zu ermöglichen, mit der physischen Platzierung digitaler Elemente entlang verschiedener Teile der Store Journey sowie mit den tatsächlichen digitalen Erfahrungen, die sich bereitstellen lassen, zu experimentieren.
 
 >[!NOTE]
->
 > Beginnen Sie in der Pilotphase mit der Erfassung von Analysen. So können Sie Geschäftsteams dabei helfen, anhand der spezifischen Metriken, die sie erreichen möchten, den Erfolg der Lösung zu überprüfen. Die Ergebnisse aus dem Pilotprojekt helfen dem Geschäftsteam dabei zu ermitteln, welche Verbesserungen vorgenommen werden müssen.
