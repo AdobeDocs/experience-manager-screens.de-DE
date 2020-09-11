@@ -3,8 +3,11 @@ title: Überlegungen zum Projektumfang
 seo-title: Überlegungen zum Projektumfang
 description: Auf dieser Seite werden Erwägungen zum Projektumfang beschrieben.
 seo-description: Auf dieser Seite werden Erwägungen zum Projektumfang beschrieben.
-translation-type: ht
-source-git-commit: 55999ae9ead7ab8986f4dcb69b0bbaa46933c9ec
+translation-type: tm+mt
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '301'
+ht-degree: 95%
 
 ---
 
@@ -12,7 +15,6 @@ source-git-commit: 55999ae9ead7ab8986f4dcb69b0bbaa46933c9ec
 # Überlegungen zum Projektumfang {#pre-sales-considerations}
 
 >[!NOTE]
->
 >Typische Verantwortliche für diese Aktivität sind Marketing-/Geschäftsstrategen.
 
 Dieser Schritt umfasst alle Pre-Sales- und Erkundungsmaßnahmen, die zur vollständigen Definition des Projektumfangs erforderlich sind. Die an Tag 0 erledigten Aufgaben setzen den Ton für den Rest des Projekts und beeinflussen den Gesamterfolg der erstellten Anwendung.
@@ -32,4 +34,4 @@ Zu den wichtigsten Lieferzielen in diesem Schritt zählen:
 >
 >Ermitteln Sie so früh wie möglich Art und Herkunft der Daten, die für die Anwendung benötigt werden. Auch wenn bei der Implementierung eine tiefgehendere Untersuchung durchgeführt wird, sollten Sie sich an *Tag 0* Zeit nehmen, um herauszufinden, welche Daten der Kunde verwenden möchte, wo diese Daten derzeit gespeichert sind und wie sie von der erstellten Anwendung aufgerufen werden können. Benachrichtigungen an das Entwicklungsteam über kommende Herausforderungen tragen zu einer reibungsloseren Implementierung bei.
 
-Weitere Informationen dazu finden Sie in der Videoschulung [Überlegungen zum Projektumfang](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-considerations.html).
+Refer to video tutorial on [Considerations as Projects are Scoped](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-considerations.html) for more information.
