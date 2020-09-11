@@ -3,8 +3,11 @@ title: Post-Launch-Support
 seo-title: Post-Launch-Support für AEM Screens
 description: Auf dieser Seite werden Best Practices beim Post-Lauch-Support für AEM Screens beschrieben.
 seo-description: Auf dieser Seite werden Best Practices beim Post-Lauch-Support für AEM Screens beschrieben.
-translation-type: ht
-source-git-commit: a0469c775c7fb8ce64fa0642c25feb50a1e1b84f
+translation-type: tm+mt
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 76%
 
 ---
 
@@ -27,7 +30,7 @@ Für langfristigen Erfolg muss in Zusammenarbeit mit dem A/V-Integrator außerde
 >[!NOTE]
 >
 > Sie müssen frühzeitig in Betriebsbudgets integrierte operative Parameter festlegen und die Zuständigkeiten mit dem AEM-Implementor und A/V-Integrator abstimmen.
-Ist die Implementierung eines Werbenetzwerks mit vielen Stakeholdern an ein monetarisiertes Netzwerk gebunden? Das kann im Vergleich zu einem Corporate Communications-Netzwerk deutlich kürzere Auflösungszeiten erfordern. 
+Ist der Einsatz eines Werbenetzwerks mit vielen Interessengruppen an ein monetarisiertes Netzwerk gebunden? Dies kann viel kürzere Auflösungszeiträume im Vergleich zu einem Corporate Communications Netzwerk erfordern. 
 Weist die Anwendung für die Führungsebene des Endkunden eine hohe Sichtbarkeit auf? Sites mit hoher Sichtbarkeit können einen anderen Umgang erfordern.
 Ist die Anwendung für Geschäftsabläufe wie Menüboards in Fast-Food-Ketten essentiell? In dem Fall benötigt der Endkunde möglicherweise Vor-Ort-Auflösungen mit sehr kurzen Reaktionszeiten sowie Redundanz bei der Wiedergabehardware.
 
@@ -35,17 +38,17 @@ Ist die Anwendung für Geschäftsabläufe wie Menüboards in Fast-Food-Ketten es
 
 Folgende Überlegungen und Fragen helfen Ihnen bei der Definition von Post-Launch-Support:
 
-1. Ist die Implementierung eines Werbenetzwerks mit vielen Stakeholdern an ein monetarisiertes Netzwerk gebunden? Das kann im Vergleich zu einem Corporate Communications-Netzwerk deutlich kürzere Auflösungszeiten erfordern.
+1. Ist der Einsatz eines Werbenetzwerks mit vielen Interessengruppen an ein monetarisiertes Netzwerk gebunden? Dies kann viel kürzere Auflösungszeiträume im Vergleich zu einem Corporate Communications Netzwerk erfordern.
  
    >[!NOTE]
    >
-   > Dies erfordert wesentlich kürzere Auflösungszeiten im Vergleich zu einem Corporate Communications-Netzwerk.
+   > Dies erfordert wesentlich kürzere Auflösungszeiträume im Vergleich zu einem Corporate Communications-Netzwerk.
 
 1. Weist die Anwendung für die Führungsebene des Endkunden eine hohe Sichtbarkeit auf?
 
    >[!NOTE]
    >
-   > Dies erfordert wesentlich kürzere Auflösungszeiten im Vergleich zu einem Corporate Communications-Netzwerk. Sites mit hoher Sichtbarkeit erfordern möglicherweise einen anderen Umgang.
+   > Dies erfordert wesentlich kürzere Auflösungszeiträume im Vergleich zu einem Corporate Communications-Netzwerk. Sites mit hoher Sichtbarkeit können verschiedene Behandlungen verdienen.
 
 1. Ist die Anwendung für Geschäftsabläufe wie Menüboards in Fast-Food-Ketten essentiell?
 
@@ -59,4 +62,4 @@ Folgende Überlegungen und Fragen helfen Ihnen bei der Definition von Post-Launc
 
 1. Welche Ihrer Verkaufsstandorte erfordern eine Überwachung rund um die Uhr?
 
-1. Sind die Displays integraler Bestandteil Ihrer Geschäfte? (d. h. Autokonfigurator, Verkaufswarnungen)
+1. Sind die Displays integraler Bestandteil Ihrer Geschäfte? (d. h. Fahrzeugkonfiguration, Verkaufswarnungen)
