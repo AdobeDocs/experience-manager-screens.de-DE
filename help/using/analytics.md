@@ -1,10 +1,13 @@
 ---
-title: Analytics mit AEM Screens
-seo-title: Analytics mit AEM Screens
-description: Auf dieser Seite wird Analytics mit AEM Screens beschrieben.
-seo-description: Auf dieser Seite wird Analytics mit AEM Screens beschrieben.
-translation-type: ht
-source-git-commit: f01b69b860a3862e2b46f11b2d9b95dede742d9c
+title: Analytics mit AEM Screens
+seo-title: Analytics mit AEM Screens
+description: Die Seite beschreibt Analytics mit AEM Screens
+seo-description: Die Seite beschreibt die Analysen mit AEM Screens
+translation-type: tm+mt
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '297'
+ht-degree: 87%
 
 ---
 
@@ -24,5 +27,5 @@ Der erste umfasst **Feedbackschleifen und maschinelles Lernen**, während der zw
 Im Nutzungsszenario Feedbackschleife geht es nicht um visuelle Berichte oder Dashboards, sondern um eine Definition von Regeln, die AEM zur Inhaltsänderung ausführen kann. Durch Nutzung und Verarbeitung aller Screens-Player-Ereignisdaten aus einem bestimmten Zeitraum können wir eine Regel definieren, die die Effektivität von image1 im Vergleich zu image2 bewertet. Durch Kombination von Verkaufsdaten mit Wiedergabedaten kann AEM ermitteln, dass image1 einen wesentlich größeren Einfluss auf den Umsatz hat, und alle Player automatisch anweisen, image1 zu verwenden.
 
 Das zweite Nutzungsszenario bei Verwendung von Analytics besteht in der Verarbeitung von Wiedergabeereignissen und Nutzungsdaten für den menschlichen Gebrauch (in Form von Berichten und Dashboards).
-Mit diesen Daten können wir für ein interaktives Erlebnis eine Heatmap erstellen, um mithilfe unserer Anwendung die bevorzugte Journey Map zu bestimmen. Außerdem können wir ein Dashboard einrichten, das eine grafische Interpretation der Anzahl der Interaktionen von Verbrauchern mit unserer Anwendung erlaubt.
+Wir können diese Daten verwenden, um eine Heatmap eines interaktiven Erlebnisses zu erstellen, um die bevorzugte Reisekarte durch unsere Anwendung zu bestimmen. Außerdem können wir ein Dashboard einrichten, das eine grafische Interpretation der Anzahl der Interaktionen von Verbrauchern mit unserer Anwendung erlaubt.
 
