@@ -3,9 +3,9 @@ title: Tests und Qualitätssicherung
 seo-title: Tests und Qualitätssicherung für AEM Screens
 description: Auf dieser Seite werden die Best Practices für Tests und die Qualitätssicherung von AEM Screens beschrieben.
 seo-description: Auf dieser Seite werden die Best Practices für Tests und die Qualitätssicherung von AEM Screens beschrieben.
-translation-type: ht
-source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 100%
 
@@ -15,7 +15,6 @@ ht-degree: 100%
 # Tests und Qualitätssicherung {#testing-quality}
 
 >[!NOTE]
->
 >Typische Verantwortliche für diese Aktivität sind A/V-Integratoren.
 
 Da wir uns der realen Implementierung des Netzwerks für digitale Beschilderung nähern, sollten wir einen Test- und QA-Plan erstellen, der alle Elemente des Netzwerks einschließlich der Hardwarekomponenten, Softwarekomponenten und Netzwerkkomponenten umfasst.
@@ -52,7 +51,6 @@ Folgende Überlegungen in Bezug auf die Software werden empfohlen:
 
 ## 3. Aspekte der Geräteverwaltung {#device-management-considerations}
 
-
 AEM Screens enthält ein Gerätesteuerungsmodul, das die Verwaltung von Endgeräten mit der Screens Player-Anwendung ermöglicht.
 
 Dies bezieht sich auf alle *Player*-Hardwaregeräte, auf denen die Screens Player-Anwendung installiert ist und die für eine AEM-Instanz registriert sind.
@@ -68,7 +66,6 @@ Ausführliche Informationen zur ***Gerätesteuerung*** finden Sie im Abschnitt [
 >[!CAUTION]
 >
 > Verwenden Sie die Gerätesteuerung nicht für Folgendes:
->
 > 1. Neue Versionen der Player-Anwendung installieren
 > 1. Ressourcen auf Systemebene überwachen
 > 1. Fehler auf der Systemebene beheben
