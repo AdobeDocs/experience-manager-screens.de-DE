@@ -2,7 +2,7 @@
 title: Verwalten des Netzwerk-Traffics
 description: Auf dieser Seite werden die Standard-Netzwerkkonfigurationen sowie die Verwaltung des Netzwerk-Traffics beschrieben.
 translation-type: tm+mt
-source-git-commit: 173ce977549ed64e3750bb751a8fe1b27e277aa2
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 100%
@@ -17,9 +17,7 @@ Eine Netzwerkkonfiguration kann auf diversen Strukturen basieren. Dieser Abschni
 Dieses Handbuch bietet zunächst eine Einführung in Proxy-Server, um dann auf die diversen Netzwerkstrukturen einzugehen, die in unterschiedlichen Unternehmen eingerichtet werden.
 
 >[!NOTE]
->
 >**Netzwerkanforderungen von AEM Screens**
->
 >AEM Screens kommuniziert direkt mit AEM as a Cloud Service. Zwischen den beiden Knoten muss daher eine stabile Verbindung gewährleistet sein. Da Firewalls für den Zugriff auf das kommerzielle Internet absolut unabdingbar sind, müssen Sie verstehen, für welche Ports Sie in Firewalls und anderen für die IT-Sicherheit implementierten Netzwerkkomponenten die Kommunikation zulassen müssen.
 
 ## Übersicht über Proxy-Server {#proxy-servers}
