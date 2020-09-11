@@ -3,8 +3,11 @@ title: Umgebungen für [!UICONTROL AEM Screens]
 seo-title: Umgebungen für [!UICONTROL AEM Screens]
 description: Auf dieser Seite werden die Umgebungen für ein AEM Screens-Projekt beschrieben.
 seo-description: Auf dieser Seite werden die Umgebungen für ein AEM Screens-Projekt erläutert.
-translation-type: ht
-source-git-commit: 0d91aa653508969cf1f4ccfba23a570e22e6414c
+translation-type: tm+mt
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 88%
 
 ---
 
@@ -25,7 +28,7 @@ Beachten Sie folgende Richtlinien zur Einrichtung der Umgebung für Ihr AEM Scr
    * **Screens Feature Pack**
    * **AEM Cumulative Fix Pack**
 
-1. Ermitteln Sie alle erforderlichen Entwicklungspakete (z. B. zentrale WCM-Komponenten) oder Toolkits von Drittanbietern (z. B. SAP Hybris).
+1. Identifizieren Sie alle erforderlichen Entwicklungspakete (z. B. WCM-Kernkomponenten) oder Tool-Kits von Drittanbietern (z. B. SAP Hybris).
 
 1. Installieren Sie dieselben Softwarepakete in Ihren lokalen Entwicklungsumgebungen.
 
