@@ -3,8 +3,11 @@ title: Tag 2 – Support und Wartung
 seo-title: Tag 2 – Support und Wartung für AEM Screens
 description: Auf dieser Seite wird „Tag 2 – Support und Wartung“ beschrieben.
 seo-description: Auf dieser Seite wird „Tag 2 – Support und Wartung“ beschrieben.
-translation-type: ht
-source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
+translation-type: tm+mt
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '155'
+ht-degree: 87%
 
 ---
 
@@ -21,7 +24,7 @@ Folgen Sie den Richtlinien zu Support und Wartung für Tag 2 der Projektentwick
    * **Screens Feature Pack**
    * **AEM Cumulative Fix Pack**
 
-1. Ermitteln Sie alle erforderlichen Entwicklungspakete (z. B. zentrale WCM-Komponenten) oder Toolkits von Drittanbietern (z. B. SAP Hybris).
+1. Identifizieren Sie alle erforderlichen Entwicklungspakete (z. B. WCM-Kernkomponenten) oder Tool-Kits von Drittanbietern (z. B. SAP Hybris).
 
 1. Installieren Sie dieselben Softwarepakete in Ihren lokalen Entwicklungsumgebungen.
 
