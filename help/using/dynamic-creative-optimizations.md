@@ -3,8 +3,11 @@ title: Datenauslöser
 seo-title: Datenauslöser
 description: Auf dieser Seite werden Datenauslöser beschrieben.
 seo-description: Auf dieser Seite werden Datenauslöser beschrieben.
-translation-type: ht
-source-git-commit: f01b69b860a3862e2b46f11b2d9b95dede742d9c
+translation-type: tm+mt
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '268'
+ht-degree: 95%
 
 ---
 
