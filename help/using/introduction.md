@@ -3,18 +3,18 @@ title: Einführung in [!UICONTROL AEM Screens]
 seo-title: Handbuch mit Best Practices für [!UICONTROL AEM Screens]-Projekte
 description: Diese Seite enthält einen Einführungsabschnitt zu AEM Screens.
 seo-description: Diese Seite enthält eine Einführung zu AEM Screens.
-translation-type: ht
-source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
 source-wordcount: '688'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
 
 # Einführung in AEM Screens {#introduction}
 
-**AEM (Adobe Experience Manager) Screens** ist eine Digital Signage-Lösung, mit der Sie im Rahmen einer umfassenden kanalübergreifenden digitalen Marketingstrategie dynamische und interaktive digitale Erlebnisse auf verschiedenen lokalen Anzeigebildschirmen einrichten, veröffentlichen und abspielen können.
+**AEM (Adobe Experience Manager) Screens** ist eine Digital Signage Solution, mit der Sie dynamische und interaktive digitale Erlebnisse erstellen, veröffentlichen und abspielen können, die verschiedene Darstellungsbildschirme in Verbindung mit einer umfassenden Digital-Marketing-Strategie für mobile Kanal beinhalten.
 
 Mit AEM Screens können Sie Folgendes erstellen:
 
@@ -53,12 +53,11 @@ AEM Screens ist eine einheitliche Authoring-/Wiedergabeplattform für die Bereit
 
 * **Segmentierung von Medienschleifen**: Durch Konfiguration einzelner Player-Geräte mit eigenen Schleifensegmenten wird sichergestellt, dass lokalisierte Inhalte innerhalb des übergeordneten digitalen Erlebnisses einfach erstellt, veröffentlicht und wiedergegeben werden können. Medien-Assets, die in integrierten Sequenzkanälen enthalten sind, werden dem vorherigen Schleifensegment hinzugefügt und bieten die Möglichkeit, für jede Standortgruppe ein Medienschleifensegment als Ziel festzulegen.
 
-* **Interaktive Erlebnisse**: Mit AEM und dem SPA Editor kann in einem Screens-Kanal eine Touch-fähige Kiosk-Anwendung erzeugt und bereitgestellt werden. Empfohlen wird die Anwendung konsistenter Omnichannel-Designeigenschaften, eines Inaktivitäts-Timers zum Zurücksetzen des Erlebnisses und eines klaren Handlungsaufrufs dazu, welche Aufgaben die Anwendung ausführen kann. Die Landingpage sollte aus zentralen digitalen Elementen bestehen, die dazu dienen, Wert zu vermitteln sowie Benutzer an den Bildschirm zu locken und zur Interaktion einzuladen.
+* **Interaktive Erlebnisse**: Mit AEM und dem SPA Editor kann in einem Screens-Kanal eine Touch-fähige Kiosk-Anwendung erzeugt und bereitgestellt werden. Es empfiehlt sich, konsistente Designeigenschaften für Omniture Kanal, einen Inaktivitätszeitgeber zum Zurücksetzen des Erlebnisses und einen klaren Aktionsaufruf für die Aufgaben anzuwenden, die die Anwendung ausführen kann. Die Landingpage sollte aus zentralen digitalen Elementen bestehen, die dazu dienen, Wert zu vermitteln sowie Benutzer an den Bildschirm zu locken und zur Interaktion einzuladen.
 
 AEM Screens bietet ein Framework zum Bereitstellen von Inhalten auf physischen Geräten. Inhalte werden in Screens Kanälen zugewiesen, die Medieninhalte oder Touchscreen-Anwendungen enthalten können. In diesem Framework kann eine AEM Sites-Anwendung als Inhalt über einen Kanal bereitgestellt werden.
 
 Bevor eine AEM Sites-Anwendung in Screens in einem Kanal abgelegt werden kann, muss sie für die Abmessungen des Anzeigegeräts formatiert werden.
 
 >[!NOTE]
->
 >Viele Komponenten von AEM Sites sind nicht mit AEM Screens kompatibel. AEM Screens ist mit vielen vordefinierten Komponenten ausgestattet, sodass Sie digitale Erlebnisse auch ohne Anpassungen kreieren können. Wenn es die Projektanforderungen zulassen, sollten Sie nach Möglichkeit integrierte AEM Screens-Funktionen verwenden.
