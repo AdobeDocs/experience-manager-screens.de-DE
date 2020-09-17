@@ -10,11 +10,11 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2ab8496cebb81864a8354ad5dcb8d72bc1e44c13
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '978'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -30,14 +30,14 @@ Installieren Sie Windows Player für AEM Screens, um den Windows Player für AEM
 Rufen Sie die Seite [**AEM 6.5 Player-Downloads**](https://download.macromedia.com/screens/) auf.
 
 >[!NOTE]
->Es gibt keinen Fenstermodus im Windows-Player. Der Vollbildmodus ist immer aktiviert.
+>Der Windows-Player verfügt über keinen Fenstermodus. Der Vollbildmodus ist immer aktiviert.
 
-### Einrichten der Umgebung für AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
+### Einrichten der Umgebung für das AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
 
 >[!NOTE]
->Sie müssen eine Umgebung für Windows Player einrichten, wenn Sie AEM Screens 6.5.5 Service Pack verwenden.
+>Wenn Sie das AEM Screens 6.5.5 Service Pack verwenden, müssen Sie eine Umgebung für den Windows-Player einrichten.
 
-Setzen Sie das **Attribut SameSite für die Cookies** login-token von **Lax** auf **None** aus **Adobe Experience Manager Web ConsoleConfiguration** in allen AEM Autor- und Veröffentlichungsinstanzen.
+Setzen Sie in der **Konfiguration der Adobe Experience Manager-Web-Konsole** das **SameSite-Attribut für die Anmeldungs-Token-Cookies** auf allen AEM-Autoren- und Veröffentlichungsinstanzen von **Lax** auf **Keine**.
 
 Führen Sie dazu folgende Schritte durch:
 
@@ -84,7 +84,7 @@ So konfigurieren Sie den Windows 10-Player:
 1. Suchen Sie die Konfigurationsdatei unter ***%appdata%\com.adobe.aem.screens.player\config.json***.
 1. Aktualisieren Sie die JSON-Konfigurationsdatei mit den nachstehenden Informationen und kopieren Sie sie dann bei allen Systemen, auf denen der Player vorhanden ist, in den gleichen Ordner.
 
-### Richtlinienattribute         {#policy-attributes}
+### Richtlinienattribute           {#policy-attributes}
 
 In der folgenden Tabelle finden Sie eine Zusammenfassung der Richtlinienattribute mit einer beispielhaften JSON-Richtliniendatei als Referenz:
 
@@ -97,7 +97,7 @@ In der folgenden Tabelle finden Sie eine Zusammenfassung der Richtlinienattribut
 | enableOSD | Aktivierung der Kanalschalter-Benutzeroberfläche, damit Benutzer zwischen Kanälen auf dem Gerät wechseln können. Stellen Sie den Wert ggf. auf „false“ ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und produktiv verwendet wird. |
 | enableActivityUI | Aktivierung zum Anzeigen des Fortschritts von Aktivitäten wie Downloads und Synchronisierungen. Aktivieren Sie den Wert zwecks Fehlerbehebung und deaktivieren Sie ihn, sobald die Benutzeroberfläche vollständig konfiguriert ist und produktiv verwendet wird. |
 
-#### Beispielhafte JSON-Richtliniendatei         {#example-policy-json-file}
+#### Beispielhafte JSON-Richtliniendatei           {#example-policy-json-file}
 
 ```
 {
