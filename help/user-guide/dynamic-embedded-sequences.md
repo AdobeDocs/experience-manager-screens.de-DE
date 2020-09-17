@@ -9,11 +9,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2535'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -126,8 +126,8 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
 
    1. Navigieren Sie zu **Demo** > **Standorte** > **Region A**.
    1. Wählen Sie **Region A** aus und klicken Sie in der Aktionsleiste auf **+ Erstellen**.
-   1. Wählen Sie **Standort** im Assistenten und unter **Titel** die Option **Store 1** aus. Erstellen Sie auf ähnliche Weise einen weiteren Standort im Assistenten mit dem Titel **Store 2** mit **Titel** als **Store 2**. You can leave the **Name** field empty while creating **Store 1** and **Store 2**.
-   1. Wiederholen Sie Schritt (b) und wählen Sie jetzt **Sequenzkanal** im Assistenten aus. Enter the **Title** as **Region A** and **Name** as **region** for this channel.
+   1. Wählen Sie **Standort** im Assistenten und unter **Titel** die Option **Store 1** aus. Erstellen Sie auf ähnliche Weise einen weiteren Standort im Assistenten mit dem Titel **Store 2** mit **Titel** als **Store 2**. Sie können das Feld **Name** leer lassen, während Sie **Store 1** und **Store 2** erstellen.
+   1. Wiederholen Sie Schritt (b) und wählen Sie jetzt **Sequenzkanal** im Assistenten aus. Geben Sie den **Titel** als **Region A** und den **Namen** als **region** für diesen Kanal ein.
 
    >[!CAUTION]
    >
