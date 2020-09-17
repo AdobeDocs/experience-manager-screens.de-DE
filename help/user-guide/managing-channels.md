@@ -10,18 +10,18 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f2b5b2cb35a43990ed74b259d8da3837118a65ae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1343'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
 # Erstellen und Verwalten von Kanälen{#creating-and-managing-channels} 
 
-Ein Kanal zeigt eine Inhaltssequenz an und zeigt Bilder und Videos an, kann aber auch eine Website oder eine Einzelseitenanwendung anzeigen.
+Ein Kanal zeigt eine Sequenz von Inhalten, Anzeigebildern und Videos an, kann aber auch eine Website oder eine Single Page Application anzeigen.
 
 Auf dieser Seite wird gezeigt, wie Kanäle für Screens erstellt und verwaltet werden.
 
@@ -32,27 +32,27 @@ Auf dieser Seite wird gezeigt, wie Kanäle für Screens erstellt und verwaltet w
 
 ## Erstellen von neuen Kanälen {#creating-a-new-channel}
 
-Nachdem Sie Ihr Projekt für AEM Screens erstellt haben, führen Sie die folgenden Schritte aus, um einen neuen Kanal für Ihr Projekt zu erstellen:
+Wenn Sie Ihr Projekt für AEM Screens erstellen, gehen Sie wie folgt vor, um einen neuen Kanal für Ihr Projekt zu erstellen:
 
 1. Wählen Sie den Adobe Experience Manager-Link (oben links) und dann Screens aus. Sie haben auch die Möglichkeit, direkt zur folgenden URL zu wechseln: `https://localhost:4502/screens.html/content/screens`.
 
-1. Navigate to your Screens project and select **Channels** folder.
+1. Navigieren Sie zu Ihrem Screens-Projekt und wählen Sie den Ordner **Kanäle**.
 
 1. Klicken Sie in der Aktionsleiste auf **Erstellen**.
 
    ![demochannel](assets/create-channel1.png)
 
-1. Select the **Sequence Channel** template from the **Create** wizard and click **Next**.
+1. Wählen Sie im Assistenten für **Erstellen** die Vorlage **Sequenzkanal** aus und klicken Sie auf **Weiter**.
 
    ![demochannel](assets/create-channel2.png)
 
-1. Enter the Title as **ScreensChannel** and click **Create**.
+1. Geben Sie unter „Titel“ den Wert **ScreensChannel** ein und klicken Sie auf **Erstellen**.
 
    ![demochannel](assets/create-project4.png)
 
-1. Dem Ordner &quot; **Kanal** &quot;wird nun ein Sequenzordner hinzugefügt.
+1. Dem Ordner **Kanäle** wird nun ein Sequenzkanal hinzugefügt.
 
-### Kanaltypen         {#channel-types}
+### Kanaltypen           {#channel-types}
 
 Beim Verwenden des Assistenten stehen unter anderem die folgenden Vorlagenoptionen zur Verfügung:
 
