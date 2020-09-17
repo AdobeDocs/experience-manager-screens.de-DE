@@ -5,11 +5,11 @@ description: Auf dieser Seite erhalten Sie Antworten auf häufig gestellte Frage
 seo-description: Auf dieser Seite erhalten Sie Antworten auf häufig gestellte Fragen zu AEM Screens-Projekten.
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4d937ff4cbf05c61c8e38a0d09bb789c12a7a226
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1294'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -127,7 +127,7 @@ Führen Sie folgende Schritte durch, um „Stay Awake“ in einem beliebigen And
 
 ### 4. Wie wird der Fenstermodus für den Windows-Player aktiviert?
 
-Es gibt keinen Fenstermodus im Windows-Player. Der Vollbildmodus ist immer aktiviert.
+Der Windows-Player verfügt über keinen Fenstermodus. Der Vollbildmodus ist immer aktiviert.
 
 ## Allgemeine Tipps zur Problembehebung {#general-troubleshooting-tips}
 
