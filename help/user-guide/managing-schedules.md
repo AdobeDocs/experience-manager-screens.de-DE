@@ -1,26 +1,26 @@
 ---
 title: Erstellen und Verwalten von Zeitplänen
 seo-title: Verwalten von Zeitplänen
-description: Folgen Sie dieser Seite, um mehr über Zeitpläne zu erfahren. So können Sie Kanal in wiederverwendbare Gruppen unterteilen, sodass Sie ihre Zuweisung nicht einzeln für jede Anzeige wiederholen müssen, auf der Sie Ihre Inhalte anzeigen möchten.
-seo-description: Folgen Sie dieser Seite, um mehr über Zeitpläne zu erfahren. So können Sie Kanal in wiederverwendbare Gruppen unterteilen, sodass Sie ihre Zuweisung nicht einzeln für jede Anzeige wiederholen müssen, auf der Sie Ihre Inhalte anzeigen möchten.
+description: Auf dieser Seite erfahren Sie Wissenswertes über Zeitpläne. Mit dieser Funktion können Sie Kanäle in wiederverwendbare Gruppen einteilen, sodass Sie nicht für jede einzelne Anzeige, in der Sie einen bestimmten Inhalt zeigen möchten, eine neue Zuweisung vornehmen müssen.
+seo-description: Auf dieser Seite erfahren Sie Wissenswertes über Zeitpläne. Mit dieser Funktion können Sie Kanäle in wiederverwendbare Gruppen einteilen, sodass Sie nicht für jede einzelne Anzeige, in der Sie einen bestimmten Inhalt zeigen möchten, eine neue Zuweisung vornehmen müssen.
 uuid: c05328a0-620a-4597-b7b3-f4433e78d4e9
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 75ed3c42-4be9-42ae-9d76-e0343af81516
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6d86710a5d0a4fd1cf6c0dc46961d231b0128f95
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '422'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
 
 # Erstellen und Verwalten von Zeitplänen {#creating-and-managing-schedules}
 
-**Mit Zeitplänen** können Sie in AEM Screens Kanal in wiederverwendbare Gruppen unterteilen, sodass Sie ihre Zuweisung nicht einzeln für jede Anzeige wiederholen müssen, auf der Sie Ihre Inhalte anzeigen möchten.
+Mit der Funktion **Zeitpläne** in AEM Screens können Sie Kanäle zu wiederverwendbaren Gruppen zusammenfassen, sodass Sie nicht für jede einzelne Anzeige, in der Sie einen bestimmten Inhalt zeigen möchten, eine neue Zuweisung vornehmen müssen.
 
 Durch die Kombination von Zeitplänen mit ***Dayparting*** können Sie einen globalen Zeitplan mit mehreren Kanälen festlegen, die zu bestimmten Tageszeiten ausgeführt werden. Diese Einstellung kann dann für alle Anzeigen wiederverwendet werden.
 
