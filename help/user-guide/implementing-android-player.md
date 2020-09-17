@@ -10,11 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '768'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -31,12 +31,12 @@ Installieren Sie Android-Player für AEM Screens, um den Android-Player für AEM
 
 Rufen Sie die Seite [**AEM 6.5 Player-Downloads**](https://download.macromedia.com/screens/) auf.
 
-### Einrichten der Umgebung für AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
+### Einrichten der Umgebung für das AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
 
 >[!NOTE]
->Wenn Sie AEM Screens 6.5.5 Service Pack verwenden, müssen Sie eine Umgebung für den Android-Player einrichten.
+>Wenn Sie das AEM Screens 6.5.5 Service Pack verwenden, müssen Sie eine Umgebung für den Android-Player einrichten.
 
-Setzen Sie das **Attribut SameSite für die Cookies** login-token von **Lax** auf **None** aus **Adobe Experience Manager Web ConsoleConfiguration** in allen AEM Autor- und Veröffentlichungsinstanzen.
+Setzen Sie in der **Konfiguration der Adobe Experience Manager-Web-Konsole** das **SameSite-Attribut für die Anmeldungs-Token-Cookies** auf allen AEM-Autoren- und Veröffentlichungsinstanzen von **Lax** auf **Keine**.
 
 Führen Sie dazu folgende Schritte durch:
 
@@ -71,9 +71,9 @@ Nachdem Sie die Anwendung heruntergeladen haben, führen Sie die Schritte im Pla
 
 Aufgrund der Architektur von Android erfordert der Neustart des Geräts, dass die Anwendung über Systemrechte verfügt. Hierzu müssen Sie die apk mithilfe der Signierungsschlüssel des Herstellers signieren. Andernfalls startet Watchdog die Player-Anwendung neu und nicht das Gerät.
 
-### Signieren von Android-apks mithilfe von Herstellerschlüsseln         {#signage-of-android-apks-using-manufacturer-keys}
+### Signieren von Android-apks mithilfe von Herstellerschlüsseln           {#signage-of-android-apks-using-manufacturer-keys}
 
-To access some of the privileged APIs of Android such as *PowerManager* or *HDMIControlServices*, you need to sign the android apk using the manufacturer&#39;s keys.
+Zum Zugreifen auf die berechtigten APIs von Android, wie zum Beispiel *PowerManager* oder *HDMIControlServices*, müssen Sie die Android-apk mithilfe der Herstellerschlüssel signieren.
 
 >[!CAUTION]
 >
