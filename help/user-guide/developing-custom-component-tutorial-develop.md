@@ -9,11 +9,11 @@ content-type: reference
 topic-tags: developing
 discoiquuid: 24eb937f-ab51-4883-8236-8ebe6243f6e3
 targetaudience: target-audience new
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2186'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ Der Quell-Code eines Screens-Projekts wird normalerweise als Maven-Projekt mit m
    1. **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip**
    1. **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip**
 
-   ![Screens We.Retail Run Ui.Apps and Ui.Content packages installed via CRX Package Manager](assets/crx-packages.png)
+   ![Pakete Ui.Apps und Ui.Content für das Screens-Projekt „We.Retail Run“ über CRX Package Manager installiert](assets/crx-packages.png)
 
    Pakete Ui.Apps und Ui.Content für das Screens-Projekt „We.Retail Run“ über CRX Package Manager installiert
 
@@ -74,7 +74,7 @@ Der Quell-Code eines Screens-Projekts wird normalerweise als Maven-Projekt mit m
    >
    >In diesem Tutorial wird kein Java-Code geschrieben. Wenn eine komplexere Geschäftslogik erforderlich ist, kann Backend-Java mit dem Core Java-Bundle erstellt und bereitgestellt werden.
 
-   ![Representation of the ui.apps code in CRXDE Lite](assets/uipps-contents.png)
+   ![Darstellung des ui.apps-Codes in CRXDE Lite](assets/uipps-contents.png)
 
    Darstellung des ui.apps-Codes in CRXDE Lite
 
@@ -100,7 +100,7 @@ Die Komponente „Hello World“ ist eine einfache Komponente, mit der ein Benut
 
 AEM Screens weist einige interessante Einschränkungen auf, die nicht unbedingt für herkömmliche Komponenten von WCM-Sites gelten.
 
-* Die meisten Bildschirmkomponenten müssen im Vollbildmodus auf Digitalsignaturgeräten der Zielgruppe ausgeführt werden
+* Die meisten Screens-Komponenten müssen im Vollbildmodus auf den Digital-Signage-Zielgeräten ausgeführt werden
 * Die meisten Bildschirmkomponenten müssen in die Sequenzkanäle eingebettet werden, um Diashows zu erstellen
 * Bei der Inhaltserstellung sollte es möglich sein, einzelne Komponenten in einem Sequenzkanal zu bearbeiten, sodass das Rendern im Vollbildmodus nicht in Frage kommt
 
@@ -114,7 +114,7 @@ AEM Screens weist einige interessante Einschränkungen auf, die nicht unbedingt 
        componentGroup="We.Retail Run - Content"
    ```
 
-   ![Properties for /apps/weretail-run/components/content/helloworld](assets/2018-04-28_at_4_23pm.png)
+   ![Eigenschaften für /apps/weretail-run/components/content/helloworld](assets/2018-04-28_at_4_23pm.png)
 
    Eigenschaften für /apps/weretail-run/components/content/helloworld
 
@@ -266,7 +266,7 @@ AEM Screens weist einige interessante Einschränkungen auf, die nicht unbedingt 
 
    Das Textfeld für die Meldung wird in einer Eigenschaft mit dem Namen `message` gespeichert und das numerische Feld für die Dauer wird in einer Eigenschaft mit dem Namen `duration` gespeichert. Diese beiden Eigenschaften werden in `/apps/weretail-run/components/content/helloworld/production.html` von HTL als `${properties.message}` und `${properties.duration}` referenziert.
 
-   ![Hello World - completed dialog](assets/2018-04-29_at_5_21pm.png)
+   ![Hello World – fertiges Dialogfeld](assets/2018-04-29_at_5_21pm.png)
 
    Hello World – fertiges Dialogfeld
 
@@ -292,7 +292,7 @@ AEM Screens-Komponenten werden im Bearbeitungsmodus anders als im Vorschaumodus/
 
    * `categories`| Zeichenfolge[] | `cq.screens.components`
 
-   ![Properties for /apps/weretail-run/components/content/helloworld/clientlibs/shared](assets/2018-05-03_at_1026pm.png)
+   ![Eigenschaften für /apps/weretail-run/components/content/helloworld/clientlibs/shared](assets/2018-05-03_at_1026pm.png)
 
    Eigenschaften für /apps/weretail-run/components/content/helloworld/clientlibs/shared
 
@@ -338,7 +338,7 @@ AEM Screens-Komponenten werden im Bearbeitungsmodus anders als im Vorschaumodus/
 
 1. Kopieren Sie den Client-Bibliotheksordner `shared` und fügen Sie ihn ein, um eine neue Client-Bibliothek mit dem Namen `production` zu erstellen.
 
-   ![Copy the shared client library to create a new production client library](assets/copy-clientlib.gif)
+   ![Kopieren Sie die freigegebene Client-Bibliothek, um eine neue Produktions-Client-Bibliothek zu erstellen](assets/copy-clientlib.gif)
 
    Kopieren Sie die freigegebene Client-Bibliothek, um eine neue Produktions-Client-Bibliothek zu erstellen
 
@@ -346,7 +346,7 @@ AEM Screens-Komponenten werden im Bearbeitungsmodus anders als im Vorschaumodus/
 
    Dadurch wird sichergestellt, dass die Stile nur im Vorschau-/Produktionsmodus geladen werden.
 
-   ![Properties for /apps/weretail-run/components/content/helloworld/clientlibs/production](assets/2018-04-30_at_5_04pm.png)
+   ![Eigenschaften für /apps/weretail-run/components/content/helloworld/clientlibs/production](assets/2018-04-30_at_5_04pm.png)
 
    Eigenschaften für /apps/weretail-run/components/content/helloworld/clientlibs/production
 
@@ -399,7 +399,7 @@ Unter „We.Retail Run“ wird eine Design-Seite erstellt, die alle für das Pro
    | sling:resourceType | Zeichenfolge | wcm/core/components/designer |
    | cq:doctype | Zeichenfolge | html_5 |
 
-   ![Design Page at /apps/settings/wcm/designs/we-retail-run](assets/2018-05-07_at_1219pm.png)
+   ![Design-Seite unter /apps/settings/wcm/designs/we-retail-run](assets/2018-05-07_at_1219pm.png)
 
    Design-Seite unter /apps/settings/wcm/designs/we-retail-run
 
@@ -447,7 +447,7 @@ Die Komponente „Hello World“ ist für die Verwendung in einem Sequenzkanal v
 
 1. Navigieren Sie in **CRXDE-Lite** `http://localhost:4502/crx/de/index.jsp#/apps/settings/wcm/designs/we-retail-run/jcr%3Acontent/sequencechannel/par` zu `/apps/settings/wcm/designs/we-retail-run/jcr:content/sequencechannel/par`. Beachten Sie, dass die Eigenschaft `components` jetzt `group:Screens`, `group:We.Retail Run - Content` beinhaltet.
 
-   ![Design configuration under /apps/settings/wcm/designs/we-retail-run](assets/2018-05-07_at_1_14pm.png)
+   ![Design-Konfiguration unter /apps/settings/wcm/designs/we-retail-run](assets/2018-05-07_at_1_14pm.png)
 
    Design-Konfiguration unter /apps/settings/wcm/designs/we-retail-run
 
@@ -550,7 +550,7 @@ Der folgende Code stellt die Mindestanforderungen in der Datei `pom.xml` für di
 
 Das folgende Video zeigt die fertige Komponente und wie sie einem Sequenzkanal hinzugefügt werden kann. Der Kanal wird dann einer Standortsanzeige hinzugefügt und letztendlich einem Screens-Player zugewiesen.
 
->[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9)
+>[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9&captions=ger)
 
 ## Fertiger Code {#finished-code}
 
