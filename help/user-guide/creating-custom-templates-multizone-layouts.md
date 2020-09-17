@@ -4,11 +4,11 @@ seo-title: Erstellen benutzerdefinierter Vorlagen für Mehrzonen-Layouts
 description: Auf dieser Seite erfahren Sie, wie Sie benutzerdefinierte Vorlagen für Mehrzonen-Layouts erstellen.
 seo-description: Auf dieser Seite erfahren Sie, wie Sie benutzerdefinierte Vorlagen für Mehrzonen-Layouts erstellen.
 contentOwner: Jyotika Syal
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '947'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -108,7 +108,7 @@ Gehen Sie wie folgt vor, um ein Left20-LandscapeHD3Zone-Layout für ein AEM Scre
 
 1. Navigieren Sie zu `/apps/settings/wcm/designs/custom-template-designs` und erstellen Sie eine Datei mit dem Namen „static.css“.
 
-1. Copy the content to `static.css` file:
+1. Kopieren Sie den Inhalt in die Datei `static.css`:
 
    ```shell
        /*my-custom-layout styles*/
