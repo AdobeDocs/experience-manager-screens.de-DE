@@ -10,11 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: b1a0e00e-0368-42c9-8bcd-5f00b4d0990c
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '684'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -75,7 +75,7 @@ Navigieren Sie zur **Konfiguration der Adobe Experience Manager-Web-Konsole**, u
 
 >[!CAUTION]
 >
->Before you configure the properties, please contact your Adobe Relationship Manager to create a ticket to obtain an **Analytics API Key** and **Analytics Project** for use with AEM Screens.
+>Wenden Sie sich vor der Konfiguration der Eigenschaften an Ihren Adobe Relationship Manager, damit dieser ein Ticket erstellt und Sie einen **Analytics-API-Schlüssel** sowie ein **Analytics-Projekt** zur Verwendung mit AEM Screens erhalten.
 
 ![]()
 
@@ -83,7 +83,7 @@ Navigieren Sie zur **Konfiguration der Adobe Experience Manager-Web-Konsole**, u
 
 >[!CAUTION]
 >
->Before you configure the properties, please contact your Adobe Relationship Manager to create a ticket to obtain an **Analytics API Key** and **Analytics Project** for use with AEM Screens.
+>Wenden Sie sich vor der Konfiguration der Eigenschaften an Ihren Adobe Relationship Manager, damit dieser ein Ticket erstellt und Sie einen **Analytics-API-Schlüssel** sowie ein **Analytics-Projekt** zur Verwendung mit AEM Screens erhalten.
 
 In der folgenden Tabelle werden die Eigenschaften mit ihrer Beschreibung zur Konfiguration von Adobe Analytics für AEM Screens aufgeführt:
 
@@ -123,7 +123,7 @@ In der folgenden Tabelle werden die Eigenschaften mit ihrer Beschreibung zur Kon
 
 #### Verwenden des Adobe Analytics-Dienstes in AEM Screens {#using-adobe-analytics-service-in-aem-screens}
 
-Dieses Szenario ruft die Analytics-API über REST-Aufrufe eines Analytics-Dienstes in den Firmware- und Instrumentenkernkomponenten auf, um explizit für einen bestimmten Anwendungsfall spezifische Ereignis zu erstellen und zu senden und gleichzeitig die Erweiterbarkeit zu ermöglichen, bei der eine benutzerdefinierte Nachricht von einem benutzerdefinierten entwickelten Kanal an Analytics gesendet werden kann.
+In diesem Szenario wird die Analytics-API über REST-Aufrufe aus einem Analytics-Dienst in den Screens-Kernkomponenten „Firmware“ und „Instrumente“ aufgerufen, um explizit Ereignisse zu erstellen und zu senden, die für ein bestimmtes Nutzungsszenario spezifisch sind. Gleichzeitig ist eine Erweiterung möglich, bei der sich benutzerdefinierte Nachrichten von einem benutzerdefinierten Kanal an Analytics senden lassen.
 
 Analytics-Ereignisse werden in indexedDB offline gespeichert und später aufgeteilt und an die Cloud gesendet.
 
