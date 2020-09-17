@@ -1,11 +1,11 @@
 ---
 title: Spracherkennung in AEM Screens
 description: Auf der Seite werden die Spracherkennungsfunktionen in AEM Screens beschrieben.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e355d648846034c4762ef8fdcb3e218d868044b6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1124'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Im folgenden Abschnitt wird beschrieben, wie Sie die Spracherkennungsfunktion in
 
 ## Anzeigen von Inhalten im Vollbild- oder Splitscreen-Kanalschalter {#sequence-channel}
 
-Bevor Sie die Spracherkennungsfunktion verwenden, stellen Sie sicher, dass ein Projekt und ein Kanal mit Inhalten für Ihr Projekt eingerichtet wurden.
+Bevor Sie die Funktion zur Spracherkennung verwenden, stellen Sie sicher, dass Sie ein Projekt und einen Kanal mit Inhalten für Ihr Projekt eingerichtet haben.
 
 1. Im folgenden Beispiel sehen Sie ein Demoprojekt mit dem Namen **VoiceDemo** und drei Kanälen **Main**, **ColdDrinks** und **HotDrinks**.
 
@@ -51,7 +51,7 @@ Bevor Sie die Spracherkennungsfunktion verwenden, stellen Sie sicher, dass ein P
 
    Oder
 
-   You can create three sequence channels **Main**, **ColdDrinks**, and **HotDrinks**, and one additional 1x2 Split Screens channel **SplitScreen** as shown in the figure below.
+   Sie können drei Sequenzkanäle **Main**, **ColdDrinks** und **HotDrinks** sowie einen zusätzlichen 1x2-Splitscreen-Kanal **SplitScreen** erstellen, wie in der Abbildung unten dargestellt.
 
    ![image](assets/voice-recognition/vr-emb-1.png)
 
@@ -95,13 +95,13 @@ Gehen Sie wie folgt vor, um Ihrem Kanal Tags hinzuzufügen:
 
    Oder
 
-   Sie können Tags auch zuvor aus Ihrer AEM für Ihr Projekt erstellen und diese auswählen. Nachdem Sie die unter [Erstellen von Tags](#creating-tags) erläuterten Schritte ausgeführt haben, können Sie das Tag an der gewünschten Stelle auswählen und dem Kanal hinzufügen, wie in der folgenden Abbildung dargestellt:
+   Sie können vorab Tags aus Ihrer AEM-Instanz für Ihr Projekt erstellen und diese ebenfalls auswählen. Nachdem Sie die unter [Erstellen von Tags](#creating-tags) erläuterten Schritte ausgeführt haben, können Sie das Tag an der gewünschten Stelle auswählen und dem Kanal hinzufügen, wie in der folgenden Abbildung dargestellt:
 
    ![image](assets/voice-recognition/vr-tag1.png)
 
 1. Fügen Sie dem Kanal **HotDrinks** in ähnlicher Weise ein Tag mit dem Namen **heiß** hinzu.
 
-1. Wenn Sie einen Kanal für geteilte Bildschirme verwenden, fügen Sie beide Tags (**hot** und **old**) wie in der Abbildung unten dargestellt zu den Eigenschaften des **SplitScreen** -Kanals hinzu.
+1. Wenn Sie einen Splitscreen-Kanal verwenden, fügen Sie beide Tags (**hot** und **cold**) wie in der Abbildung unten dargestellt zu den Eigenschaften des Kanals **SplitScreen** hinzu.
 
    ![image](assets/voice-recognition/vr-emb-7.png)
 
@@ -114,7 +114,7 @@ Gehen Sie wie folgt vor, um Tags zu erstellen:
 
 1. Navigieren Sie zu Ihrer AEM-Instanz.
 
-1. Click on tools icon --> **Tagging**.
+1. Klicken Sie auf das Symbol „Tools“ > **Tagging**.
    ![image](assets/voice-recognition/vr-7.png)
 
 1. Klicken Sie auf **Erstellen** > **Namespace erstellen**.
@@ -139,7 +139,7 @@ Jetzt können Sie diese Tags in Ihrem AEM Screens-Projekt verwenden.
    >[!NOTE]
    >Informationen zum Zuweisen eines Kanals zu einer Anzeige finden Sie unter [Erstellen und Verwalten von Anzeigen](/help/user-guide/managing-displays.md).
 
-1. Weisen Sie die Kanäle **Main**, **ColdDrinks** und **HotDrinks** Ihrer Anzeige **LobbyDisplay** zu. Wenn Sie außerdem den **SplitScreen** -Kanal für Ihr Projekt verwenden, stellen Sie sicher, dass Sie ihn auch der Anzeige zuweisen.
+1. Weisen Sie die Kanäle **Main**, **ColdDrinks** und **HotDrinks** Ihrer Anzeige **LobbyDisplay** zu. Wenn Sie außerdem den Kanal **SplitScreen** für Ihr Projekt verwenden, stellen Sie sicher, dass Sie ihn auch der Anzeige zuweisen.
 
    >[!NOTE]
    >Wenn Sie einen Splitscreen-Kanal erstellt haben, weisen Sie Ihrer Anzeige den **SplitScreen**-Kanal zu.
@@ -173,13 +173,13 @@ Sobald die vorhergehenden Schritte abgeschlossen sind, können Sie Ihr Chrome-Ge
 >[!NOTE]
 >Informationen zum Registrieren eines Geräts auf einem AEM Screens-Player finden Sie unter [Geräteregistrierung](device-registration.md).
 
-**Gewünschte Ausgabe für Sequence Kanal**
+**Gewünschte Ausgabe für den Sequenz-Kanal**
 
 Der Kanal **Main** gibt seinen Inhalt wieder. Wenn Sie jedoch Wörter mit dem Keyword **heiß** verwenden, wie beispielsweise *ich möchte ein heißes Getränk*, beginnt der Kanal, den Inhalt des Kanals **HotDrinks** wiederzugeben.
 
-Similarly, if you use word with a keyword **cold** such as *I would like to haves something cold*, the channel starts playing the contents of the **ColdDrinks** channel.
+Wenn Sie Wörter mit dem Keyword **kalt** verwenden, wie beispielsweise *Ich möchte etwas Kaltes*, beginnt der Kanal, den Inhalt des Kanals **ColdDrinks** wiederzugeben.
 
-**Gewünschte Ausgabe für Kanal &quot;Geteilte Bildschirme&quot;**
+**Gewünschte Ausgabe für den Splitscreen-Kanal**
 
 Der Kanal **Main** gibt seinen Inhalt wieder. Wenn Sie jedoch Wörter mit dem Keyword **heiß** und dem Keyword **kalt** zusammen verwenden, wie beispielsweise *Kann ich die Karte für warme und kalte Getränke sehen*, beginnt der Kanal, die Inhalte des **SplitScreen**-Kanals wiederzugeben. Wenn Sie *Zurück zum Hauptmenü* sagen, schaltet die Anzeige zurück zum Hauptkanal (Main).
 
