@@ -10,11 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1100'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ Gehen Sie wie folgt vor, um den Inhalt von **We.Retail** in Ihrem **TestChannel*
    1. Wählen Sie unter **Aktion** die Option **Neues Experience Fragment erstellen** aus.
 
    1. Wählen Sie den **übergeordneten Pfad** aus.
-   1. Wählen Sie die **Vorlage** aus. Wählen Sie hier die Vorlage .**Experience Fragment - Screens-Variante** aus.
+   1. Wählen Sie die **Vorlage** aus. Wählen Sie hier die Vorlage .**Experience Fragment – Screens-Variante** aus.
 
    1. Geben Sie unter **Fragmenttitel** den Wert **ScreensFragment** ein.
 
@@ -101,7 +101,7 @@ Gehen Sie wie folgt vor, um den Inhalt von **We.Retail** in Ihrem **TestChannel*
 
    ![screen_shot_2019-07-29at110443am](assets/screen_shot_2019-07-29at110443am.png)
 
-   c. Select the **ScreensFragment** from **Create Live Copy** wizard and click **Next**.
+   c. Wählen Sie die Option **ScreensFragment** im Assistenten **Live Copy erstellen** aus und klicken Sie auf **Weiter**.
 
    d. Geben Sie unter **Titel** und unter **Namen** den Wert **Screens** ein.
 
