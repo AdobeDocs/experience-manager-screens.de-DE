@@ -9,11 +9,11 @@ topic-tags: developing
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: e4ecc179-e421-4687-854c-14d31bed031d
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '720'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -70,13 +70,13 @@ Gehen Sie wie folgt vor, um die interaktive REACT-App zu AEM Screens hinzuzufüg
    >Erstellen Sie einen **Sequenzkanal**, während Sie einen Kanal im Ordner **Kanäle** Ihres Screens-Projekts erstellen.
    >
    >
-   >Weitere Infos finden Sie unter [Erstellen und Verwalten von Kanälen](managing-channels.md).
+   >Weitere Informationen finden Sie unter [Erstellen und Verwalten von Kanälen](managing-channels.md).
 
    ![screen_shot_2019-02-15at100330am](assets/screen_shot_2019-02-15at100330am.png)
 
 1. Bearbeiten Sie einen beliebigen Sequenzkanal und ziehen Sie eine eingebettete Seitenkomponente per Drag-and-Drop.
 
-   Weitere Infos finden Sie unter [Hinzufügen von Komponenten zu Kanälen](adding-components-to-a-channel.md).
+   Weitere Informationen finden Sie unter [Hinzufügen von Komponenten zu Kanälen](adding-components-to-a-channel.md).
 
    >[!NOTE]
    >
