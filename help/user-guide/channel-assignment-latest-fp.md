@@ -1,12 +1,12 @@
 ---
 title: Kanalzuweisung – Neuestes Feature Pack
 seo-title: Kanalzuweisung – Neuestes Feature Pack
-description: Folgen Sie dieser Seite, um mehr über die Zuweisung von Kanälen und die Tagesaufteilung zu erfahren.
-translation-type: tm+mt
+description: Auf dieser Seite erhalten Sie Informationen zur Kanalzuweisung und zu Dayparting.
+translation-type: ht
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1471'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 93%
 
 Nachdem Sie eine Anzeige eingerichtet haben, müssen Sie der Anzeige einen Kanal zuweisen, um Ihren Inhalt anzuzeigen.
 
-Diese Seite zeigt Ihnen, wie Sie Ihrer Anzeige einen Kanal zuweisen, wie Sie die Eigenschaften des Kanals und DayParting verstehen.
+Auf dieser Seite wird beschrieben, wie Sie Ihrer Anzeige einen Kanal zuweisen. Außerdem werden Kanaleigenschaften und Dayparting erklärt.
 
 >[!NOTE]
 >Sie können einer Anzeige mehrere Kanäle zuweisen.
@@ -192,13 +192,13 @@ Sie können die folgenden Optionen festlegen:
 
 ### Dayparting {#dayparting}
 
-DayParting bezieht sich auf die Aufteilung eines Tages in Zeitnischen und die Angabe, welche Inhalte zur gewünschten Zeit abgespielt werden. Mit AEM Screens können Sie den Dayparting-Zeitplan von Kanälen nach Bedarf für Tage, Wochen oder Monate festlegen.
+Bei Dayparting wird ein Tag in Zeitfenster unterteilt und festgelegt, welcher Inhalt zum gewünschten Zeitpunkt dargestellt wird. Mit AEM Screens können Sie den Dayparting-Zeitplan von Kanälen nach Bedarf für Tage, Wochen oder Monate festlegen.
 
 Im Folgenden wird in drei Szenarien beschrieben, wie Dayparting mit Kanälen verwendet werden kann:
 
-#### Anzeigen von Inhalten an einem einzigen Tag unterteilt in mehrere Zeitfenster       {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
+#### Anzeigen von Inhalten an einem einzigen Tag unterteilt in mehrere Zeitfenster         {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
-Dieses Beispiel zeigt, wie ein Restaurant mit DayParting täglich sein Frühstück-, Mittag- und Abendmenü präsentiert.
+Im folgenden Beispiel wird veranschaulicht, wie ein Restaurant Dayparting verwendet, um täglich sein Angebot für Frühstück, Mittagessen und Abendessen zu präsentieren.
 
 Wir unterteilen jeden Tag in verschiedene Zeitfenster, sodass der Kanalinhalt gemäß der Tageszeit angezeigt wird. Legen Sie die folgenden Eigenschaften des Intervallzeitplans für Ihren Kanal fest, um den Inhalt gemäß diesem Verwendungsfall wiederzugeben.
 
@@ -210,7 +210,7 @@ Wir unterteilen jeden Tag in verschiedene Zeitfenster, sodass der Kanalinhalt ge
 
 #### Anzeigen von Inhalten an einem bestimmten Wochentag {#playing-content-on-a-particular-day-of-the-week}
 
-Dieses Beispiel zeigt die DayParting in einem Casino implementiert, in dem Live-Ereignis an jedem Wochenende von 20:00 bis 22:00 Uhr stattfindet und Spezialitäten für das Abendmenü nach 22:00 Uhr bis 13:00 Uhr zur Verfügung stehen.
+In diesem Beispiel wird gezeigt, wie Dayparting in einem Casino umgesetzt wird, wo an jedem Wochenende von 20:00 Uhr bis 22:00 Uhr eine Live-Veranstaltung stattfindet und von 22:00 Uhr bis 1:00 Uhr in der Abendkarte spezielle Gerichte angeboten werden.
 
 | **Name** | **Wiederholungen** | **Anfang** | **Ende** |
 |---|---|---|---|
