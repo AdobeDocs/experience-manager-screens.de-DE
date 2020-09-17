@@ -9,11 +9,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: f8e2e7a3-f3a1-4c35-b055-166752c3fb86
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b06ebef5d22daed81e8705c0928501505fd3d297
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '773'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -120,7 +120,7 @@ Klicken Sie in der oberen rechten Ecke im Fenster **ANZEIGEINFORMATIONEN** auf (
 
 Klicken Sie auf **Eigenschaften**, um die Eigenschaften Ihrer Anzeige anzuzeigen oder zu ändern.
 
-Additionally, you can adjust the event timer value for your interactive channel in **Idle timeout** property under **Display** tab. Der Standardwert ist auf *300 Sekunden* eingestellt.
+Außerdem können Sie den Ereignis-Timer-Wert für Ihren interaktiven Kanal auf der Registerkarte **Anzeige** in der Eigenschaft **Leerlauf-Zeitüberschreitung** einstellen. Der Standardwert ist auf *300 Sekunden* eingestellt.
 
 Verwenden Sie **CRXDE Lite**, um auf die Eigenschaft **idleTimeout** zuzugreifen: `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels`.
 
@@ -134,7 +134,7 @@ Das Bedienfeld **ZUGEWIESENE KANÄLE** zeigt die zugewiesenen Kanäle des Gerät
 
 Das Bedienfeld **GERÄTE** bietet Informationen zu den Gerätekonfigurationen.
 
-Click on the (**...**) in the top right corner in the **DEVICES** panel to add device configs and update devices.
+Klicken Sie in der oberen rechten Ecke des Bedienfelds **GERÄTE** auf (**...**), um Gerätekonfigurationen hinzuzufügen und Geräte zu aktualisieren.
 
 Außerdem können Sie auf die Gerätekonfiguration klicken, um Eigenschaften anzuzeigen, ein Gerät zuzuweisen oder ein Gerät komplett zu löschen.
 
