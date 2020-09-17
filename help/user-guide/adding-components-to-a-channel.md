@@ -10,11 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1464'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ ht-degree: 95%
 
 Komponenten sind die grundlegenden Elemente des AEM (Adobe Experience Manager)-Erlebnisses. Sie können verschiedene Komponenten nutzen und Kanälen in AEM Screens-Projekten hinzufügen.
 
-## Komponenten in AEM Screens      {#components-in-aem-screens}
+## Komponenten in AEM Screens        {#components-in-aem-screens}
 
 AEM Screens bietet verschiedene AEM-Komponenten, die sich in Screens-Projekten verwenden lassen.
 
-### Anzeigen von AEM Screens-Komponenten      {#viewing-aem-screens-components}
+### Anzeigen von AEM Screens-Komponenten        {#viewing-aem-screens-components}
 
 Beim Erstellen eines AEM Screens-Projekts wird eine Liste der Standardkomponenten angezeigt, die dem Projekt hinzugefügt werden können.
 
@@ -52,7 +52,7 @@ Im folgenden Beispiel sehen Sie, wie einem AEM Screens-Projekt eine Livefyre-Kom
 1. Klicken Sie in der Aktionsleiste auf **Bearbeiten**, um den Editor zu öffnen.
 1. Wählen Sie den Modus **Design** aus.
 1. Wählen Sie rechts den kompletten Designeditor aus und klicken Sie auf das Einstellungssymbol, um das Dialogfeld **ParSys-Design** zu öffnen.
-1. Sie können die Komponenten auswählen, die dem AEM Screens-Projekt hinzugefügt werden sollen. The following example shows the addition of **Livefyre** component to an AEM Screens project.
+1. Sie können die Komponenten auswählen, die dem AEM Screens-Projekt hinzugefügt werden sollen. Im folgenden Beispiel sehen Sie, wie einem AEM Screens-Projekt eine **Livefyre**-Komponente hinzugefügt wird.
 
 ![adding_components](assets/adding_components.gif)
 
@@ -60,7 +60,7 @@ Im folgenden Beispiel sehen Sie, wie einem AEM Screens-Projekt eine Livefyre-Kom
 >
 >Auf die gleiche Weise können Sie dem Projekt eine beliebige Anzahl anderer neuer Komponenten hinzufügen, die mit AEM Screens kompatibel sind.
 
-## Grundlegendes zu AEM Screens-Komponenten      {#understanding-aem-screen-components}
+## Grundlegendes zu AEM Screens-Komponenten        {#understanding-aem-screen-components}
 
 Im folgenden Abschnitt werden die AEM Screens-Komponenten beschrieben, die Sie für Projekte nutzen können.
 
@@ -79,7 +79,7 @@ Die Komponente „Anwendung“ verfügt über die folgenden Eigenschaften:
 | ***Anwendungspfad*** | Damit wird der absolute Pfad zur Anwendung festgelegt. |
 | ***Dauer (ms)*** | Damit wird die Dauer der Anwendung festgelegt. Standardmäßig ist die Dauer auf den Wert „-1“ eingestellt. Dies bedeutet, dass das Element auf unbestimmte Zeit ausgeführt wird (bei einer Single Page Application). Wird unter „Dauer“ ein Wert über 0 festgelegt, wird das Element für die angegebene Dauer angezeigt. Anschließend wird zum nächsten Element gewechselt. |
 
-Das folgende Beispiel zeigt, wie eine Anwendungskomponente zusammen mit der Vorschau ihrer Eigenschaften einbettet wird:
+Im folgenden Beispiel sehen Sie, wie die Komponente „Anwendung“ hinzugefügt wird, einschließlich einer Vorschau ihrer Eigenschaften:
 
 ![adding_componentsapplication](assets/adding_componentsapplication.gif)
 
@@ -87,7 +87,7 @@ Das folgende Beispiel zeigt, wie eine Anwendungskomponente zusammen mit der Vors
 >
 >Im Beispiel oben sehen Sie, wie Eigenschaften aller nachfolgenden Komponenten aufgerufen werden können.
 
-### Kanal      {#channel}
+### Kanal        {#channel}
 
 Mit der Komponente **Kanal** können Sie Projekten einen vollständigen Kanal hinzufügen.
 
@@ -212,7 +212,7 @@ Weitere Informationen zum Erstellen eines Experience Fragments und dessen Verwen
 
 >[!NOTE]
 >
->The **Client-side Libraries** and the **Static Files** that you add from this component will be in addition to already configured **Client-side Libraries** and the Static Files that are added from the experience fragment&#39;s **Properties**.
+>Die **Client-seitigen Bibliotheken** und **statischen Dateien**, die Sie aus dieser Komponente hinzufügen, werden zusätzlich zu den bereits konfigurierten **Client-seitigen Bibliotheken** und statischen Dateien bereitgestellt, die über die **Eigenschaften** des Experience Fragment hinzugefügt werden.
 
 ### Bild {#image}
 
@@ -251,7 +251,7 @@ Wählen Sie das Übergangssymbol aus und klicken Sie auf **Konfigurieren** (das 
 >
 >Standardmäßig ist die Sequenz auf 600 ms eingestellt. Sie können die Übergangssequenz auf einen anderen Wert aktualisieren, indem Sie die Registerkarte **Sequenz** nutzen.
 
-![transition](assets/transition.gif)
+![Übergang](assets/transition.gif)
 
 Die Komponente „Übergang“ verfügt über die folgenden Eigenschaften:
 
