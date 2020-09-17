@@ -10,11 +10,11 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1802'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -154,8 +154,9 @@ Sobald Sie die Einrichtung für Kanäle und die Anzeige abgeschlossen haben, sta
 Der Player zeigt den Inhalt von **MainAdChannel** an und genau um 23:59 Uhr (wie im Zeitplan festgelegt) zeigt der Kanal **TargetedSinglePlay** seinen Inhalt bis 00:05 Uhr an. Anschließend wird die Wiedergabe des **MainAdChannel** fortgesetzt.
 
 >[!NOTE]
-Weitere Informationen zu AEM Player finden Sie in den folgenden Ressourcen:
-[AEM Screens Player-Downloads](https://download.macromedia.com/screens/)[Arbeiten mit AEM Screens Player](working-with-screens-player.md)
+Weitere Informationen zu AEM Screens-Player finden Sie in den folgenden Ressourcen:
+[AEM Screens-Player-Downloads](https://download.macromedia.com/screens/)
+[Arbeiten mit dem AEM Screens-Player](working-with-screens-player.md)
 
 
 ## Umgang mit sich wiederholenden Assets in einem Kanal {#handling-recurrence-in-assets}
@@ -203,7 +204,7 @@ Sie können die Felder **Aktiv ab** und **Aktiv bis** überspringen oder einbezi
 
 1. Geben Sie den Ausdruck in den **Zeitplan** ein. Ihr Asset wird daraufhin für das jeweilige Tages- und Uhrzeitintervall angezeigt.
 
-#### Ausdrücke für WeekParting {#example-two}
+#### Beispielhafte Ausdrücke für WeekParting {#example-two}
 
 Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hinzufügen können, während Sie einer Anzeige einen Kanal zuweisen.
 
@@ -230,7 +231,7 @@ Sie können die Felder **Aktiv ab** und **Aktiv bis** überspringen oder einbezi
 
 1. Geben Sie den Ausdruck in den **Zeitplan** ein. Ihr Asset wird daraufhin für das jeweilige Tages- und Uhrzeitintervall angezeigt.
 
-#### Ausdrücke für MonthParting {#example-three}
+#### Beispielhafte Ausdrücke für MonthParting {#example-three}
 
 Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hinzufügen können, während Sie einer Anzeige einen Kanal zuweisen.
 
