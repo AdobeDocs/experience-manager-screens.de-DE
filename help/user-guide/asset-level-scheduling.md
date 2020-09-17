@@ -3,11 +3,11 @@ title: Aktivierung auf Asset-Ebene
 seo-title: Aktivierung auf Asset-Ebene
 description: Auf dieser Seite erfahren Sie, wie Sie ein bestimmtes Asset in einem Kanal für einen geplanten Zeitraum in der lokalen Zeitzone des Players aktivieren können.
 seo-description: Auf dieser Seite erfahren Sie, wie Sie ein bestimmtes Asset in einem Kanal für einen geplanten Zeitraum in der lokalen Zeitzone des Players aktivieren können.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1445'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -120,7 +120,7 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 
 1. Geben Sie den Ausdruck in den **Zeitplan** ein. Ihr Asset wird daraufhin für das jeweilige Tages- und Uhrzeitintervall angezeigt.
 
-#### Ausdrücke für WeekParting {#example-two}
+#### Beispielhafte Ausdrücke für WeekParting {#example-two}
 
 Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hinzufügen können, während Sie einer Anzeige einen Kanal zuweisen.
 
@@ -145,7 +145,7 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 
 1. Geben Sie den Ausdruck in den **Zeitplan** ein. Ihr Asset wird daraufhin für das jeweilige Tages- und Uhrzeitintervall angezeigt.
 
-#### Ausdrücke für MonthParting {#example-three}
+#### Beispielhafte Ausdrücke für MonthParting {#example-three}
 
 Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hinzufügen können, während Sie einer Anzeige einen Kanal zuweisen.
 
