@@ -2,9 +2,9 @@
 title: Inhaltserstellung mit Datenauslösern
 seo-title: Inhaltserstellung mit Datenauslösern
 description: Auf dieser Seite erfahren Sie, wie Sie mit Datenauslösern Inhalte erstellen.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '375'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ Nachdem Sie die vorherigen Schritte durchgeführt haben, können Sie Targeting i
 
 ## Überblick über die Inhaltserstellung mit Datenauslösern {#author-targeting}
 
->[!VIDEO](https://video.tv.adobe.com/v/31921)
+>[!VIDEO](https://video.tv.adobe.com/v/31921?captions=ger)
 
 ## Aktivieren von Targeting in einem AEM Screens-Kanal {#enabling-targeting}
 
