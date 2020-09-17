@@ -4,11 +4,11 @@ seo-title: Anwenden von benutzerdefiniertem Branding und Styling für Textüberl
 description: Auf dieser Seite erfahren Sie, wie Sie benutzerdefiniertes Branding und Styling für Textüberlagerungen anwenden.
 seo-description: Auf dieser Seite erfahren Sie, wie Sie benutzerdefiniertes Branding und Styling für Textüberlagerungen anwenden.
 contentOwner: Jyotika Syal
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '627'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Gehen Sie wie folgt vor, um benutzerdefiniertes Branding und Styling für Textü
    >[!NOTE]
    >Informationen zum Hinzufügen einer Textüberlagerung zu einem Asset in einem Kanaleditor finden Sie unter [Textüberlagerung](/help/user-guide/text-overlay.md).
 
-1. Navigate to CRXDE Lite from your AEM instance --> tools --> **CRXDE Lite**.
+1. Navigieren Sie von Ihrer AEM-Instanz zu Tools > **CRXDE Lite**.
 
 1. Erstellen Sie ein benutzerdefiniertes Design in `/apps/settings/wcm/designs/<your-project>/`. Navigieren Sie in diesem Beispiel zu `/apps/settings/wcm/designs/customstyle/`
 
@@ -99,7 +99,7 @@ Gehen Sie wie folgt vor, um benutzerdefiniertes Branding und Styling für Textü
 
 Aktualisieren Sie die ACLs für diese Designs, damit sie vom Player heruntergeladen werden können.
 
-1. Navigate to user admin and choose the `screens-<project>-devices group` and give it read permission to the custom design path.
+1. Navigieren Sie zu „useradmin“, wählen Sie die `screens-<project>-devices group` aus und erteilen Sie Leseberechtigung für den benutzerdefinierten Design-Pfad.
 
 1. Erteilen Sie der Gruppe `screens-<project>-administrators` Lese- und Änderungsberechtigung für diesen Pfad.
 
