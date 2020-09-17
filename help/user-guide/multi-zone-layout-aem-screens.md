@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1197'
 ht-degree: 100%
 
@@ -65,7 +65,7 @@ Sie können einzelne Assets wie ein Bild oder ein Video in allen Bereichen verwe
 
 1. **Hinzufügen von Inhalten zum Kanal**
 
-   1. Navigieren Sie zu **Bereiche** > **Kanäle**>**MultiZone**.
+   1. Navigieren Sie zu **Bereiche** > **Kanäle** > **MultiZone**.
    1. Wählen Sie den Kanal **Multizone** aus und klicken Sie in der Aktionsleiste auf **Bearbeiten**, um den Editor zu öffnen.
 
 1. **Hinzufügen von Bildern zum Kanal**
