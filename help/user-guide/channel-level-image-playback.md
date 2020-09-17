@@ -10,11 +10,11 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: df3cf999-0c8d-4754-8b58-5c6ced2c8ca5
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '360'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -29,9 +29,9 @@ Nachdem Sie einen Sequenzkanal erstellt und Bilder hinzugefügt haben, gilt für
 
 Bevor Sie mit der Implementierung dieser Funktion beginnen, stellen Sie sicher, dass Sie ein Projekt als Voraussetzung für die Implementierung dieser Funktion eingerichtet haben. Beispiel:
 
-1. Create an AEM Screens project example, **ChannelLevelPlayback**.
+1. Erstellen eines AEM Screens-Projekts (in diesem Beispiel **ChannelLevelPlayback**).
 
-1. Erstellen eines Sequenzkanals als **PlaybackChannel** im Ordner **Kanäle.**
+1. Erstellen eines Sequenzkanals als **PlaybackChannel** im Ordner **Kanäle**.
 
 1. Hinzufügen von Inhalten zum **PlaybackChannel**.
 
