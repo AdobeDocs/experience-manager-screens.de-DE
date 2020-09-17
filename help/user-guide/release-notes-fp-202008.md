@@ -1,11 +1,11 @@
 ---
 title: Versionshinweise für Feature Pack 202008
 description: Auf der Seite werden die Versionshinweise für Feature Pack 202008 beschrieben.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f13adf375631e3b7d7d03324458d91d9d55b0f80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '333'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Das neueste Feature Pack für AEM Screens 6.5.5 steht auf dem [Software Distrib
 
 ## Veröffentlichungsdatum {#release-date}
 
-Das Release Date for AEM Screens Feature Pack 2008 ist der 03. September 2020.
+Das Veröffentlichungsdatum für AEM Screens Feature Pack 202008 ist Donnerstag, 3. September 2020.
 
 ### Neue Funktionen {#what-is-new}
 
@@ -50,13 +50,13 @@ Das Release Date for AEM Screens Feature Pack 2008 ist der 03. September 2020.
 
 ### Bekannte Probleme und Fehlerbehebungen {#known-issues}
 
-Sie müssen eine Umgebung für Windows oder Android Player einrichten, wenn Sie AEM Screens 6.5.5 Service Pack verwenden.
+Wenn Sie das AEM Screens 6.5.5 Service Pack verwenden, müssen Sie eine Umgebung für den Windows- oder Android-Player einrichten.
 
-Setzen Sie das **Attribut SameSite für die Cookies** login-token von **Lax** auf **None** aus **Adobe Experience Manager Web ConsoleConfiguration** in allen AEM Autor- und Veröffentlichungsinstanzen.
+Setzen Sie in der **Konfiguration der Adobe Experience Manager-Web-Konsole** das **SameSite-Attribut für die Anmeldungs-Token-Cookies** auf allen AEM-Autoren- und Veröffentlichungsinstanzen von **Lax** auf **Keine**.
 
-* Weitere Informationen finden Sie unter [Implementieren von Windows 10 Player](implementing-windows-player.md#fp-environment-setup) .
+* Weitere Informationen finden Sie unter [Implementieren von Windows 10 Player](implementing-windows-player.md#fp-environment-setup).
 
-* Weitere Informationen finden Sie unter [Implementieren von Android Player](implementing-android-player.md#fp-environment-setup) .
+* Weitere Informationen finden Sie unter [Implementieren des Android Players](implementing-android-player.md#fp-environment-setup).
 
 ### Veröffentlichte AEM Screens-Player {#released-aem-screens-players}
 
