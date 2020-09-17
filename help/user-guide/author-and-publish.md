@@ -3,11 +3,11 @@ title: Konfigurieren von Autoren- und Veröffentlichungsinstanz in AEM Screens
 seo-title: Konfigurieren von Autoren- und Veröffentlichungsinstanz in AEM Screens
 description: Die AEM Screens-Architektur ähnelt einer traditionellen AEM Sites-Architektur. Inhalte werden in einer AEM-Autoreninstanz erstellt und dann vorwärts an mehrere Veröffentlichungsinstanzen repliziert. Auf dieser Seite erfahren Sie, wie Sie Autoren- und Veröffentlichungsinstanz für AEM Screens konfigurieren.
 seo-description: Die AEM Screens-Architektur ähnelt einer traditionellen AEM Sites-Architektur. Inhalte werden in einer AEM-Autoreninstanz erstellt und dann vorwärts an mehrere Veröffentlichungsinstanzen repliziert. Auf dieser Seite erfahren Sie, wie Sie Autoren- und Veröffentlichungsinstanz für AEM Screens konfigurieren.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1910'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Bevor Sie mit Autoren- und Veröffentlichungs-Servern beginnen, sollten Sie mit 
 
 >[!IMPORTANT]
 >
->Wenn Sie mehr als eine Instanz im Veröffentlichungsmodus mit Dispatcher verwenden möchten, müssen Sie die Datei &quot;dispatcher.any&quot;im Dispatcher aktualisieren. Weitere Informationen finden Sie unter [Aktivieren von fixierbaren Sitzungen](dispatcher-configurations-aem-screens.md#enable-sticky-session) .
+>Wenn Sie mehr als eine Veröffentlichungsinstanz mit Dispatcher verwenden möchten, müssen Sie die Datei „dispatcher.any“ im Dispatcher aktualisieren. Weitere Informationen finden Sie unter [Aktivieren von fixierbaren Sitzungen](dispatcher-configurations-aem-screens.md#enable-sticky-session).
 
 ## Konfigurieren von Autoren- und Veröffentlichungsinstanz {#configuring-author-and-publish-instances}
 
@@ -145,7 +145,7 @@ Der Cluster-Benutzer und das Kennwort müssen bei allen Veröffentlichungsinstan
 
 Bei jeder Veröffentlichungsinstanz:
 
-1. In the OSGi Console navigate to **MAIN** --> **Crypto Support** (`https://&lt;host&gt;:&lt;port&gt;/system/console/crypto`).
+1. Navigieren Sie in der OSGi-Konsole zu **MAIN** > **Crypto Support** (`https://&lt;host&gt;:&lt;port&gt;/system/console/crypto`).
 1. Geben Sie in **Nur Text** das gewünschte Kennwort ein (nur Text; für alle Instanzen gleich).
 1. Klicken Sie auf **Schützen**.
 1. Kopieren Sie den Wert **Geschützter Text** in den Notizblock oder Text-Editor. Dieser Wert wird in der OSGi-Konfiguration für ActiveMQ verwendet.
@@ -161,7 +161,7 @@ Da jede Veröffentlichungsinstanz standardmäßig über eindeutige Verschlüssel
 
 Bei jeder Veröffentlichungsinstanz:
 
-1. Navigate to the OSGi Config manager `https://&lt;host&gt;:&lt;port&gt;/system/console/configMgr`
+1. Navigieren Sie zum OSGi-Konfigurations-Manager `https://&lt;host&gt;:&lt;port&gt;/system/console/configMgr`
 1. Wählen Sie die Konfiguration **Apache ActiveMQ Artemis JMS Provider**
 1. Aktualisieren Sie Folgendes:
 
@@ -179,11 +179,11 @@ Gehen Sie bei jeder Veröffentlichungsinstanz wie folgt vor:
 
    1. **Ziel**: /com.adobe.cq.screens/devTestTopic
    1. **Text**: Hallo Welt
-   1. Ansicht der &quot;error.log&quot;jeder Instanz, um zu sehen, dass die Meldung über den Cluster gesendet und empfangen wurde
+   1. Zeigen Sie für jede Instanz das Fehlerprotokoll (error.log) an, um zu prüfen, ob die Nachricht im ganzen Cluster gesendet und empfangen wurde.
 
 >[!NOTE]
 >
->Die Navigation zur OSGi-Konsole kann einige Sekunden nach dem Speichern der Konfiguration im vorherigen Schritt dauern. Sie können das Fehlerprotokoll (error.log) auch auf weitere Details prüfen.
+>Das Navigieren zur OSGi-Konsole kann nach dem Speichern der Konfiguration im vorherigen Schritt einige Sekunden dauern. Sie können das Fehlerprotokoll (error.log) auch auf weitere Details prüfen.
 
 Beispiel: Das folgende Bild zeigt eine erfolgreiche Konfiguration von ActiveMQ Artemis Server.
 
@@ -201,7 +201,7 @@ Führen Sie für jede Veröffentlichungsinstanz folgende Schritte aus:
 
 ### Konfigurieren der Autoren- und Veröffentlichungsinstanz {#configuring-author-and-publish-instance}
 
-Nachdem Sie die Veröffentlichungstopologie eingerichtet haben, müssen Sie die Instanz im Autorenmodus und die Instanz im Veröffentlichungsmodus konfigurieren, um die praktischen Ergebnisse der Implementierung Ansicht:
+Nach dem Einrichten der Veröffentlichungstopologie müssen Sie die Autoren- und Veröffentlichungsinstanzen konfigurieren, um die praktischen Ergebnisse der Implementierung anzuzeigen:
 
 >[!NOTE]
 >
@@ -224,12 +224,12 @@ Nachdem Sie die Veröffentlichungstopologie eingerichtet haben, müssen Sie die 
 1. Wählen Sie **Gerät registrieren**.
 1. Klicken Sie auf **Geräteregistrierung**, um das Gerät anzuzeigen.
 1. Wählen Sie das zu registrierende Gerät aus und klicken Sie auf **Gerät registrieren**.
-1. Verify the registration code and click **Validate**.
+1. Prüfen Sie den Registrierungs-Code und klicken Sie auf **Überprüfen**.
 1. Geben Sie einen Titel für Ihr Gerät ein und klicken Sie auf **Registrieren**.
 
 #### Schritt 3: Zuweisen des Geräts zur Anzeige {#step-assigning-the-device-to-display}
 
-1. Click **Assign Display** from the dialog box from the preceding step.
+1. Klicken Sie im Dialogfeld aus dem vorherigen Schritt auf **Anzeige zuweisen**.
 1. Wählen Sie im Ordner **Standorte** den Anzeigepfad für Ihren Kanal aus.
 1. Klicken Sie auf **Zuweisen**.
 1. Klicken Sie auf **Beenden**, um den Vorgang abzuschließen. Das Gerät ist jetzt zugewiesen.
@@ -240,7 +240,7 @@ Wenn Sie den Player überprüfen, sehen Sie den Inhalt, den Sie in Ihrem Kanal h
 
 **Überprüfen des Geräts**
 
-Ermitteln Sie zunächst die Geräte-ID, bevor Sie die Schritte unten ausführen. To verify, search for the device id in CRXDE Lite, with the path as */home/users/screens/we-retail/devices*.
+Ermitteln Sie zunächst die Geräte-ID, bevor Sie die Schritte unten ausführen. Suchen Sie dazu in CRXDE Lite mit */home/users/screens/we-retail/devices* als Pfad nach der Geräte-ID.
 
 Gehen Sie wie folgt vor, um den Gerätebenutzer zu replizieren:
 
@@ -304,6 +304,6 @@ Alternativ können Sie über die Geräteverwaltungskonsole die Server-URL aktual
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
-Mit der Funktion **Veröffentlichung verwalten** können Sie Inhaltsaktualisierungen vom Autor an das Gerät senden, um sie zu veröffentlichen. Sie können Inhalte für Ihr gesamtes AEM Screens-Projekt oder nur für einen Ihrer Kanal, Standorte, Geräte, Anwendungen oder Zeitpläne veröffentlichen oder die Veröffentlichung rückgängig machen. Weitere Informationen zu dieser Funktion finden Sie unter [On-Demand-Inhaltsaktualisierungen](on-demand-content.md).
+Mit der Funktion **Veröffentlichung verwalten** können Sie Inhaltsaktualisierungen vom Autor an das Gerät senden, um sie zu veröffentlichen. Sie können Inhalte für Ihr gesamtes AEM Screens-Projekt oder nur für einzelne Kanäle, Standorte, Geräte, Anwendungen oder einen Zeitplan veröffentlichen oder die Veröffentlichung aufheben. Weitere Informationen zu dieser Funktion finden Sie unter [On-Demand-Inhaltsaktualisierungen](on-demand-content.md).
 
 
