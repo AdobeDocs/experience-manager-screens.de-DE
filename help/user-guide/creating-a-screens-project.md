@@ -9,11 +9,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 00ea321c-3f79-4aa5-83cc-3fa2fe9e35d9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3d3bd3575152ce14032e00127490054d68f45655
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '341'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -27,17 +27,17 @@ Sie haben auch die Möglichkeit, direkt zur folgenden URL zu wechseln: `http://l
 
 >[!NOTE]
 >**Navigationstipp:**
->Sie können auch die Cursortasten verwenden, um durch die verschiedenen Ordner in AEM zu navigieren. Sobald Sie eine bestimmte Entität ausgewählt haben, drücken Sie die Leertaste, um die Eigenschaften oder Ansichten für diesen Ordner zu bearbeiten.
+>Sie können auch die Pfeiltasten verwenden, um durch die verschiedenen Ordner in AEM zu navigieren. Sobald Sie eine bestimmte Entität ausgewählt haben, können Sie die Leertaste drücken, um Eigenschaften für den betreffenden Ordner zu bearbeiten oder anzuzeigen.
 
-## Erstellen eines neuen Screens-Projekts     {#creating-a-new-screens-project}
+## Erstellen eines neuen Screens-Projekts       {#creating-a-new-screens-project}
 
 Gehen Sie wie folgt vor, um ein neues Screens-Projekt zu erstellen:
 
-1. Wählen Sie **Bildschirme** aus Ihrer AEM.
+1. Wählen Sie **Screens** in Ihrer AEM-Instanz aus.
 
-1. Click **Create Screens Project**.
+1. Klicken Sie auf **Screens-Projekt erstellen**.
 
-1. Enter the title as **TestScreens** and click **Save**.
+1. Geben Sie **TestScreens** als Titel ein und klicken Sie auf **Speichern**.
 
 Das Projekt wird erstellt und Sie gelangen zurück zur Screens-Projektkonsole. Sie können Ihr Projekt jetzt auswählen.
 
@@ -53,14 +53,14 @@ In einem Projekt gibt es fünf Arten von Ordnern, wie in der folgenden Abbildung
 
 >[!NOTE]
 >
->Standardmäßig enthält diese anfängliche Struktur die Master-Seiten für **Zeitpläne**, **Standorte**, **Anwendungen**, **Kanäle** und **Geräte**, doch dies kann bei Bedarf manuell geändert werden. Sie können die Optionen entfernen, wenn die verfügbaren Optionen für Ihr Projekt nicht relevant sind.
+>Standardmäßig enthält diese anfängliche Struktur die primären Seiten für **Zeitpläne**, **Standorte**, **Anwendungen**, **Kanäle** und **Geräte**, doch dies kann bei Bedarf manuell geändert werden. Sie können die Optionen entfernen, wenn die verfügbaren Optionen für Ihr Projekt nicht relevant sind.
 
 
 ## Anzeigen von Eigenschaften {#viewing-properties}
 
-Nachdem Sie das Screens-Projekt erstellt haben, wählen Sie das Projekt aus und klicken Sie in der Aktionsleiste auf **Eigenschaften** , um die Eigenschaften des Projekts zu bearbeiten.
+Nachdem Sie das Screens-Projekt erstellt haben, wählen Sie das Projekt aus und klicken Sie in der Aktionsleiste auf **Eigenschaften**, um die Eigenschaften des Projekts zu bearbeiten.
 
-The following options allow you to edit/change properties of your **TestScreens**.
+Mit den folgenden Optionen können Sie die Eigenschaften Ihres **TestScreens** bearbeiten/ändern.
 
 ![image](assets/create-project2.png)
 
@@ -76,7 +76,7 @@ Erstellen eines kundenspezifischen Ordners:
 1. Klicken Sie auf **Weiter**.
 1. Geben Sie die Eigenschaften ein und klicken Sie auf **Erstellen**.
 
-The following steps show the creation of an applications folder to your **Applications** master page in **TestScreens**.
+Die folgenden Schritte zeigen, wie Sie einen Anwendungsordner für Ihre primäre Seite für **Anwendungen** in **TestScreens** erstellen.
 
 ![player2-1](assets/create-project3.gif)
 
