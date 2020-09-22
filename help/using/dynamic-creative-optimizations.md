@@ -3,11 +3,11 @@ title: Datenauslöser
 seo-title: Datenauslöser
 description: Auf dieser Seite werden Datenauslöser beschrieben.
 seo-description: Auf dieser Seite werden Datenauslöser beschrieben.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '268'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 95%
 
 **Dynamic Creative Optimization** oder DCO dient dem Erstellen von Digital Signage-Erlebnissen, die den individuellen Bedingungen eines bestimmten Standorts zu einer bestimmten Zeit sowie eines bestimmten Benutzers gerecht werden.
 
-Dies wird auch als clientseitige Reduzierung von Inhalten bezeichnet.
+Dies wird auch als Client-seitige Reduzierung von Inhalten bezeichnet.
 
 Das Hauptmotiv dafür ist, dass alle Player-Geräte bzw. Endpunkte mithilfe von Datensätzen anhand verschiedener Faktoren automatisch ermitteln können, welche Inhalte am besten zur Wiedergabe geeignet sind.
 
