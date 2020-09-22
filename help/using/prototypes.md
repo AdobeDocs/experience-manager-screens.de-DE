@@ -3,9 +3,9 @@ title: Prototypen
 seo-title: Prototypen
 description: Auf dieser Seite werden Prototypen für ein AEM Screens-Projekt beschrieben.
 seo-description: Auf dieser Seite werden Prototypen für ein AEM Screens-Projekt beschrieben.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '282'
 ht-degree: 100%
 
