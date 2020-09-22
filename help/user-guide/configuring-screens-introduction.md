@@ -10,11 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 83ce95e5dc530c5792ec9a00dcb758a424202a7a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '752'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -136,7 +136,7 @@ Gehen Sie wie folgt vor, um ***DeviceServiceImpl*** zu konfigurieren:
 
 1. Navigieren Sie zur **Konfiguration der Adobe Experience Manager-Web-Konsole** über AEM-Instanz > Hammersymbol > **Vorgänge** > **Web-Konsole**.
 
-1. Die **Konfiguration der Adobe Experience Manager-Web-Konsole** wird geöffnet. Suchen Sie nach *deviceservice*. For searching the property, press **Command+F** for macOS and **Control+F** for Microsoft Windows.
+1. Die **Konfiguration der Adobe Experience Manager-Web-Konsole** wird geöffnet. Suchen Sie nach *deviceservice*. Um nach der Eigenschaft zu suchen, drücken Sie **Befehl+F** unter macOS und **Strg+F** unter Microsoft Windows.
 
 ![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
 
@@ -150,7 +150,7 @@ Stellen Sie die ***Java-Kodierung*** auf Unicode ein. *Dfile.encoding=Cp1252* 
 
 >[!NOTE]
 >**Empfehlung:**
->Für AEM Screens Server in Produktionsumgebungen wird HTTPS empfohlen.
+>Für AEM Screens-Server in Produktionsumgebungen wird HTTPS empfohlen.
 
 
 
