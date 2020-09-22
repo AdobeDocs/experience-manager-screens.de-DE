@@ -3,11 +3,11 @@ title: Journey Map
 seo-title: Journey Map für AEM Screens
 description: Auf dieser Seite wird die Journey Map für AEM Screens beschrieben.
 seo-description: Auf dieser Seite wird die Journey Map für AEM Screens beschrieben.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '294'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 91%
 >
 >Typische Verantwortliche für diese Aktivität sind Marketing-/Geschäftsstrategen.
 
-Eine User Experience Journey-Map soll Aufschluss darüber geben, wie und warum die Benutzer die vom Netzwerk bereitgestellten digitalen Inhalte nutzen werden.
+Eine Journey Map zum Benutzererlebnis liefert Informationen dazu, wie und warum Benutzer die vom Netzwerk bereitgestellten digitalen Inhalte nutzen.
 
 ## Einrichten der UX Journey Map {#building-map}
 
