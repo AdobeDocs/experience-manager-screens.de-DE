@@ -3,11 +3,11 @@ title: Übergang zur Plattform
 seo-title: Übergang zur Plattform für AEM Screens
 description: Auf dieser Seite wird der Übergang zur Plattform beschrieben.
 seo-description: Auf dieser Seite wird der Übergang zur Plattform beschrieben.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '193'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Beispiele würden Nutzungsszenarien beinhalten:
 * **Experience Fragments** zum Erstellen von Inhaltsgruppierungen
 * **Content Fragments** zum Erstellen von Textvarianten
 * **ContextHub** zum Erstellen externer Datenspeicher, SPAs für interaktive Erlebnisse
-* **OSGi-Dienste** für Netzwerkwarnungen
+* **OSGi-Services** für Netzwerkwarnungen
 * **Asset-Link** für Creative Cloud-Sourcing
 * **Netzwerkordner** für die Asset-Zuordnung
 * **Textüberlagerung** für Echtzeitdaten
