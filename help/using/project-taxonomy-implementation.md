@@ -3,9 +3,9 @@ title: Projekttaxonomie
 seo-title: 'Projekttaxonomie '
 description: Auf dieser Seite wird die Projekttaxonomie beschrieben.
 seo-description: Auf dieser Seite wird die Projekttaxonomie beschrieben.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '331'
 ht-degree: 100%
 
