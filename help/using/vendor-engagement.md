@@ -3,11 +3,11 @@ title: Anbieterinteraktion
 seo-title: Anbieterinteraktion für AEM Screens
 description: Auf dieser Seite werden die Best Practices für Anbieterinteraktion bei AEM Screens beschrieben.
 seo-description: Auf dieser Seite werden die Best Practices für Anbieterinteraktion bei AEM Screens beschrieben.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '142'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -23,6 +23,6 @@ Bei dieser Aktivität müssen alle zentralen Anbieter, die für die Einrichtung 
 
 * Definieren Sie Funktionen und Aufgaben für die einzelnen Anbieter mit Blick auf die von ihnen unterstützte Produktkategorie.
 
-* Confirm delivery *leadtimes* for all deliverables and create a deployment plan that accommodates for all leadtimes working backwards from the desired install date(s) of the first required installations.
+* Bestätigen Sie *Lieferzeiten* für alle Lieferziele und erstellen Sie einen Implementierungsplan, der alle Lieferzeiten berücksichtigt – und zwar von den gewünschten Installationsdaten der ersten erforderlichen Installationen rückwärts.
 
 Nach Erledigung aller vorherigen Schritte sollten wir nun einen umfassenden *Bereitstellungsplan für Tag 1* ausführen können.
