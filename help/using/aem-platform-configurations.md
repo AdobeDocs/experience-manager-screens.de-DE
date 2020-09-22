@@ -3,9 +3,9 @@ title: AEM-Plattformkonfigurationen
 seo-title: AEM-Plattformkonfigurationen
 description: Auf dieser Seite werden AEM-Plattformkonfigurationen beschrieben.
 seo-description: Auf dieser Seite werden AEM-Plattformkonfigurationen beschrieben.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '522'
 ht-degree: 100%
 
@@ -31,11 +31,11 @@ Informationen zum Einrichten von author-publish finden Sie unter [Konfigurieren 
 >
 >Wenn es nur einen Autor und eine Veröffentlichung gibt, müssen Sie lediglich auf der Seite [Konfigurieren von Author und Publish in AEM Screens](https://helpx.adobe.com/experience-manager/6-5/screens/using/author-and-publish.html) die Schritte unter **Einrichten von Replikationsagenten für Author** ausführen.
 
-## Dispatcherkonfigurationen {#dispatcher-configurations}
+## Dispatcher-Konfigurationen {#dispatcher-configurations}
 
 Dispatcher ist ein Tool von Adobe Experience Manager für das Zwischenspeichern und/oder den Lastenausgleich. Mit dem Dispatcher von AEM können Sie außerdem Ihren AEM-Server vor Angriffen schützen. Daher können Sie die Sicherheit Ihrer AEM-Instanz verbessern, indem Sie den Dispatcher in Verbindung mit einem Webserver der Unternehmensklasse verwenden.
 
-Weitere Informationen dazu finden Sie unter **[Dispatcherkonfigurationen für AEM Screens](https://helpx.adobe.com/experience-manager/6-5/screens/using/dispatcher-configurations-aem-screens.html)**; hier finden Sie Richtlinien zum Konfigurieren des Dispatchers für ein AEM Screens-Projekt.
+Weitere Informationen dazu finden Sie unter **[Dispatcher-Konfigurationen für AEM Screens](https://helpx.adobe.com/experience-manager/6-5/screens/using/dispatcher-configurations-aem-screens.html)**; hier finden Sie Richtlinien zum Konfigurieren des Dispatchers für ein AEM Screens-Projekt.
 
 ## Installieren von FFmpeg- und Videoausgaben {#installing-ffmpeg}
 
