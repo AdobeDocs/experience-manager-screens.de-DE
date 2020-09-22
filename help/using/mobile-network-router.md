@@ -1,11 +1,11 @@
 ---
 title: Mobiles Netzwerk mit mobilem WLAN-Router und aktiven Netzwerkkomponenten
 description: Auf dieser Seite wird das mobile Netzwerk mit mobilem WLAN-Router und aktiven Netzwerkkomponenten beschrieben.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1035'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Die Konfiguration weist jedem AEM Screens-Controller einen Internet-Zugang über
 
    >[!NOTE]
    >**Tipp zur Fehlerbehebung**
-   >Wenn AEM Screens nicht ordnungsgemäß eine Verbindung herstellt und der erwartete Inhalt nicht angezeigt wird, dann checken Sie Ihre Internet-Router-Firewall ein, falls Einschränkungen in Bezug auf `TCP/IP Port 80/443`diese bestehen.
+   >Wenn AEM Screens nicht ordnungsgemäß eine Verbindung herstellt und der erwartete Inhalt nicht angezeigt wird, prüfen Sie in der Firewall des Internet-Routers, ob Einschränkungen für `TCP/IP Port 80/443` bestehen.
 
 
 ## Einrichten eines mobilen Netzwerks mit mobilem WLAN-Router und aktiven Netzwerkkomponenten {#requirements-direct}
@@ -98,7 +98,7 @@ Sofern eine WLAN-Lösung für die Internet-Anbindung der Bildschirme vorgesehen 
 ## Herunterladen von Medien und Assets {#download}
 
 AEM Screens bietet Anwendern von Digital Signage einen entscheidenden Vorteil dahingehend, dass die Lösung alle erforderlichen Mediendateien (z. B. Bilder und Videos) herunterlädt und lokal speichert. Durch dieses Konzept ist der Großteil des Netzwerk-Traffics auf Phasen konzentriert, in denen neue Inhalte für die Anzeige auf einem bestimmten Bildschirm übertragen werden.
-Bei normalem Betrieb, z. B. wenn Sie eine Playlist definiert haben, die nicht häufig aktualisiert wird, wird ein Netzwerkunabhängiger Vorgang ausgeführt, sobald alle Angebote im Player gespeichert wurden.
+So kann der Normalbetrieb, also beispielsweise Fälle, in denen bei einer Wiedergabeliste für den Tagesverlauf nur wenige Updates definiert sind, nahezu unabhängig vom Netzwerk ablaufen, sobald alle Dateien auf dem Player gespeichert wurden.
 Anwendungsfälle, in denen umfangreicher mit Sensoren oder anderen Auslösern interagiert wird und hochgradig dynamische Inhalte zum Einsatz kommen, erfordern dagegen unbedingt eine schnelle und zuverlässige Netzwerkverbindung, da nur so eine verzögerungsfreie Reaktion am Bildschirm und damit das bestmögliche Kundenerlebnis gewährleistet werden kann.
 Nachfolgend finden Sie eine Aufschlüsselung der wichtigsten Daten zur Netzwerkverbindung und wie sich diese auf die zu erwartende Leistung und potenzielle Wartezeiten auswirken.
 
