@@ -5,11 +5,11 @@ description: Auf dieser Seite erhalten Sie Antworten auf häufig gestellte Frage
 seo-description: Auf dieser Seite erhalten Sie Antworten auf häufig gestellte Fragen zu AEM Screens-Projekten.
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
-translation-type: ht
-source-git-commit: 4d937ff4cbf05c61c8e38a0d09bb789c12a7a226
-workflow-type: ht
-source-wordcount: '1294'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: fc923553c3813e6fd659df641f2e4363f0907827
+workflow-type: tm+mt
+source-wordcount: '1483'
+ht-degree: 87%
 
 ---
 
@@ -125,9 +125,23 @@ Führen Sie folgende Schritte durch, um „Stay Awake“ in einem beliebigen And
 1. Navigieren Sie zu den **Entwickleroptionen**.
 1. Aktivieren Sie **Stay Awake**.
 
-### 4. Wie wird der Fenstermodus für den Windows-Player aktiviert?
+### 4. Wie wird der Fenstermodus für den Windows-Player aktiviert?{#enable-player}
 
 Der Windows-Player verfügt über keinen Fenstermodus. Der Vollbildmodus ist immer aktiviert.
+
+### 5. Wie kann eine Fehlerbehebung durchgeführt werden, wenn ein Screens-Player ständig Anfragen bei der Anmeldung sendet?{#requests-login}
+
+Gehen Sie wie folgt vor, um eine Fehlerbehebung bei einem AEM Screens-Player durchzuführen, der kontinuierlich Anforderungen an `/content/screens/svc.json` und sendet `/libs/granite/core/content/login.validate/j_security_check`:
+
+1. Wenn der AEM Screens Player Beginn ist, fordert er `/content/screens/svc.json`den Player an, wenn der Player einen 404-Statuscode in der Antwort erhält, eine Authentifizierungsanforderung zu starten, die anhand der Instanz im Veröffentlichungsmodus authentifiziert werden `/libs/granite/core/content/login.validate/j_security_check` soll. If there is a custom error handler in publish instance, make sure that you return the 404 status code for anonymous user on `/content/screens/svc.json` or `/content/screens/svc.ping.json`.
+
+1. Überprüfen Sie, ob Ihre Dispatcher-Konfiguration diese Anforderungen im `/filters` Abschnitt zulässt. Weitere Informationen finden Sie unter [Konfigurieren von Bildschirmen-Filtern](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters) .
+
+1. Überprüfen Sie, ob der Dispatcher die Regeln umschreibt, indem er einen der Bildschirmpfade in einen anderen Pfad umschreibt.
+
+1. Überprüfen Sie, ob Sie `/etc/map` Regeln für die *Autor* - oder *Veröffentlichungsinstanz* haben, und ob die Bildschirmpfade mit einem anderen Pfad übereinstimmen `sling:match` und intern zu einem anderen Pfad umgeleitet werden. Die Auflösung der exakten URL in /`system/console/jcrresolver` hilft dabei herauszufinden, ob die *Veröffentlichungsinstanz* diese URLs in einen anderen Pfad umschreibt.
+
+1. Überprüfen Sie, ob Apache Sling Resource Resolver Factory-Konfigurationen vorliegen, die interne Umschreibungen verursachen.
 
 ## Allgemeine Tipps zur Problembehebung {#general-troubleshooting-tips}
 
