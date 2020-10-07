@@ -6,9 +6,9 @@ seo-description: Auf dieser Seite erhalten Sie Antworten auf häufig gestellte F
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 7f897f969e7ca9c9c478b885cf716303bbbe5049
+source-git-commit: 273b537728077a309ca3bfa928ae5fc729957305
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1473'
 ht-degree: 87%
 
 ---
@@ -133,9 +133,9 @@ Der Windows-Player verfügt über keinen Fenstermodus. Der Vollbildmodus ist imm
 
 Gehen Sie wie folgt vor, um eine Fehlerbehebung bei einem AEM Screens-Player durchzuführen, der kontinuierlich Anforderungen an `/content/screens/svc.json` und sendet `/libs/granite/core/content/login.validate/j_security_check`:
 
-1. Wenn der AEM Screens Player Beginn ist, fordert er `/content/screens/svc.json`den Player an, wenn der Player einen 404-Statuscode in der Antwort erhält, eine Authentifizierungsanforderung zu starten, die `/libs/granite/core/content/login.validate/j_security_check` für die *Veröffentlichungsinstanz* authentifiziert werden soll. If there is a custom error handler in publish instance, make sure that you return the 404 status code for anonymous user on `/content/screens/svc.json` or `/content/screens/svc.ping.json`.
+1. Wenn AEM Screens Player Beginn, fordert es an `/content/screens/svc.json`. Wenn der Player einen 404-Statuscode in der Antwort erhält, wird eine Authentifizierungsanfrage mit `/libs/granite/core/content/login.validate/j_security_check` der *Veröffentlichungsinstanz* initiiert. If there is a custom error handler in the *publish* instance, make sure to return the 404 status code for anonymous user on `/content/screens/svc.json` or `/content/screens/svc.ping.json`.
 
-1. Überprüfen Sie, ob Ihre Dispatcher-Konfiguration diese Anforderungen im `/filters` Abschnitt zulässt.
+1. Überprüfen Sie, ob Ihre Dispatcher-Konfiguration diese Anforderungen in der `/filters`.
 Weitere Informationen finden Sie unter [Konfigurieren von Bildschirmen-Filtern](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters) .
 
 1. Überprüfen Sie, ob der Dispatcher die Regeln umschreibt, indem er einen der Bildschirmpfade in einen anderen Pfad umschreibt.
