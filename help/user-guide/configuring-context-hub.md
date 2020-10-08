@@ -10,9 +10,9 @@ topic-tags: developing
 content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
-translation-type: ht
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
+workflow-type: tm+mt
 source-wordcount: '1531'
 ht-degree: 100%
 
@@ -68,6 +68,7 @@ Die folgende Validierung wird angezeigt, wenn Sie Ihre Verbindung prüfen, indem
 ![image](/help/user-guide/assets/context-hub/context-hub2.png)
 
 >[!NOTE]
+>
 >Im folgenden Beispiel werden Google-Tabellenblätter als Datenspeicher gezeigt, der eine Asset-Änderung auslöst, wenn der Wert größer als 100 oder kleiner als 50 ist.
 
 ## Schritt 2: Einrichten von Speicherkonfigurationen {#step-setting-store-configurations}
@@ -96,19 +97,22 @@ Die folgende Validierung wird angezeigt, wenn Sie Ihre Verbindung prüfen, indem
       ![image](/help/user-guide/assets/context-hub/context-hub5.png)
 
       >[!CAUTION]
+      >
       >Als Teil von AEM 6.5 Feature Pack 4 oder AEM 6.4 Feature Pack 8 sollten Kunden `/conf/screens/settings/cloudsettings` in `sling:Folder` ändern.
-      > 
+      >
       >Führen Sie dazu folgende Schritte durch:
       >
       >1. Navigieren Sie zu CRXDE Lite und dann zu `/conf/screens/settings/cloudsettings`.
       >1. Überprüfen Sie, ob `cloudsettings jcr:primaryType` sich in `sling:Folder` befindet. Wenn die Variable `jcr:primaryType` sich nicht in `sling:folder` befindet, fahren Sie mit den nächsten Schritten fort.
-      > 1. Klicken Sie mit der rechten Maustaste auf `/conf/screens/settings`, erstellen Sie einen neuen Knoten, für den Sie unter *Name* den Wert **cloudsettings1** und unter *Typ* den Wert **sling:Folder** eingeben, und speichern Sie die Änderungen.
+      >1. Klicken Sie mit der rechten Maustaste auf `/conf/screens/settings`, erstellen Sie einen neuen Knoten, für den Sie unter *Name* den Wert **cloudsettings1** und unter *Typ* den Wert **sling:Folder** eingeben, und speichern Sie die Änderungen.
       >1. Verschieben Sie alle Knoten unter `/conf/screens/settings/cloudsettings` nach `cloudsettings1`.
       >1. Löschen Sie `cloudsettings` und speichern Sie.
       >1. Benennen Sie `cloudsettings1` in `cloudsettings` um und speichern Sie sie.
       >1. Beachten Sie, dass /conf/screens/settings/cloudsettings jetzt `jcr:primaryType` als `sling:Folder` hat.
-Führen Sie diese Schritte vor oder nach dem Upgrade im Autorenmodus und im Veröffentlichungsmodus aus.
 
+
+      >
+      >Führen Sie diese Schritte vor oder nach dem Upgrade im Autorenmodus und im Veröffentlichungsmodus aus.
 
    1. Geben Sie unter **Titel** den Wert **Google Tabellen**, unter **Speichername** den Wert **googlesheets** und unter **Speichertyp** den Wert **contexthub.generic-jsonp** ein und klicken Sie auf **Weiter**.
 
@@ -116,8 +120,6 @@ Führen Sie diese Schritte vor oder nach dem Upgrade im Autorenmodus und im Ver�
       >Wenn Sie Adobe Experience Manager (AEM) 6.4 verwenden, geben Sie den **Konfigurationstitel** als **googlesheets** und den **Store-Typ** als **contexthub.generic-jsonp** ein.
 
       ![image](/help/user-guide/assets/context-hub/context-hub6.png)
-
-
 
    1. Geben Sie Ihre spezifische json-Konfiguration ein. Sie können beispielsweise die folgende JSON-Datei für Demozwecke verwenden und auf **Speichern** klicken. Die Speicherkonfiguration wird dann in der ContextHub-Konfiguration als **Google Tabellen** angegeben.
 
@@ -142,10 +144,11 @@ Führen Sie diese Schritte vor oder nach dem Upgrade im Autorenmodus und im Ver�
 
       >[!NOTE]
       Im obigen Beispiel-Code definiert **pollInterval** die Häufigkeit, mit der die Werte aktualisiert werden (in ms).
-Ersetzen Sie den Code durch Ihre *&lt;Tabellenblatt-ID>* und Ihren *&lt;API-Schlüssel>*, den Sie beim Einrichten von Google Tabellen abgerufen haben.
+      Ersetzen Sie den Code durch Ihre *&lt;Tabellenblatt-ID>* und Ihren *&lt;API-Schlüssel>*, den Sie beim Einrichten von Google Tabellen abgerufen haben.
 
       >[!CAUTION]
       Wenn Sie Google Tabellen-Speicherkonfigurationen außerhalb des globalen Ordners erstellen (z. B. in Ihrem eigenen Projektordner), funktioniert das Targeting nicht standardmäßig.
+
 
 1. **Einrichten der Speichersegmentierung**
 
