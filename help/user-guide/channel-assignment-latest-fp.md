@@ -2,9 +2,9 @@
 title: Kanalzuweisung – Neuestes Feature Pack
 seo-title: Kanalzuweisung – Neuestes Feature Pack
 description: Auf dieser Seite erhalten Sie Informationen zur Kanalzuweisung und zu Dayparting.
-translation-type: ht
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
+workflow-type: tm+mt
 source-wordcount: '1471'
 ht-degree: 100%
 
@@ -14,6 +14,7 @@ ht-degree: 100%
 # Kanalzuweisung {#channel-assignment}
 
 >[!IMPORTANT]
+>
 >In diesem Abschnitt werden Kanalzuweisung und -zeitplanung für das AEM Screens 6.5.5 Feature Pack (und höher) beschrieben.
 
 Nachdem Sie eine Anzeige eingerichtet haben, müssen Sie der Anzeige einen Kanal zuweisen, um Ihren Inhalt anzuzeigen.
@@ -21,6 +22,7 @@ Nachdem Sie eine Anzeige eingerichtet haben, müssen Sie der Anzeige einen Kanal
 Auf dieser Seite wird beschrieben, wie Sie Ihrer Anzeige einen Kanal zuweisen. Außerdem werden Kanaleigenschaften und Dayparting erklärt.
 
 >[!NOTE]
+>
 >Sie können einer Anzeige mehrere Kanäle zuweisen.
 
 
@@ -78,12 +80,14 @@ Nachdem das Projekt fertig eingerichtet wurde, müssen Sie den Kanal einer Anzei
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
+   >
    >Weitere Informationen zu den Kanalzuweisungseigenschaften finden Sie im Abschnitt [Kanaleigenschaften](#channel-properties).
 
 1. Wählen Sie unter **Zeitplan** die Optionen **Aktivierungsfenster** und **Intervallzeitplan** aus.
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
+   >
    >Weitere Informationen zu den Kanalzuweisungseigenschaften finden Sie im Abschnitt [Kanaleigenschaften](#channel-properties).
 
 1. Klicken Sie auf **Speichern**, nachdem Sie Ihre Voreinstellungen konfiguriert haben.
@@ -137,6 +141,7 @@ In „Kanalrolle“ wird der Kontext der Anzeige definiert. Die Rolle kann durch
 Mit „Priorität“ können Zuweisungen geordnet werden, falls mehrere die Wiedergabekriterien erfüllen. Höhere Werte haben stets Vorrang vor niedrigeren Werten. Wenn es beispielsweise die beiden Kanäle A und B gibt und A eine Priorität von 1 und B eine Priorität von 2 hat, wird Kanal B angezeigt, da er eine höhere Priorität als A hat.
 
 >[!NOTE]
+>
 >Die Priorität eines Kanals wird als Zahl (1 für Minimum) im Dialogfeld **Kanalzuweisung** festgelegt, wie oben angegeben. Darüber hinaus werden die zugewiesenen Kanäle nach absteigender Priorität sortiert.
 
 ### Unterstützte Ereignisse {#supported-events-channel}
@@ -157,13 +162,14 @@ Wählen Sie eine der folgenden Optionen aus, die zum Festlegen der Unterbrechung
 
 * **Sofort**: Wenn der Zeitplan aktiviert oder eine Aktualisierung empfangen wird, können Sie die Wiedergabe abbrechen und den neuen Inhalt sofort aktualisieren oder wiedergeben.
 * **Am Ende des aktuellen Elements**: Wenn ein neuer Zeitplan aktiviert wird oder eine Aktualisierung empfangen wird, haben Sie die Möglichkeit zu warten, bis die Wiedergabe des aktuellen Elements in der Sequenz abgeschlossen ist. Danach aktualisieren Sie den neuen Inhalt und geben ihn wieder.
+
    >[!NOTE]
    >Standardmäßig ist diese Option aktiviert.
+
 * **Am Ende der Sequenz**: Wenn ein neuer Zeitplan aktiviert oder eine Aktualisierung empfangen wird, haben Sie die Möglichkeit zu warten, bis die gesamte Sequenz ihr Ende erreicht. Kurz vor der gewünschten Sequenz kehren Sie zurück zum ersten Element, aktualisieren den neuen Inhalt oder spielen diesen ab.
 
    >[!NOTE]
    >Die Verwendung der zweiten oder dritten Option kann dazu führen, dass die für die Zuweisung festgelegten Zeiträume geringfügig verschoben werden, da der Player vor dem Aktualisieren auf das Ende des Elements oder der Sequenz (nach der angegebenen Zeit) wartet. Die Verzögerung hängt von der Wiedergabedauer des Elements ab.
-
 
 Die folgenden Eigenschaften werden über die Option **Zeitplan** im Dialogfeld **Kanalzuweisung** festgelegt.
 
@@ -220,4 +226,3 @@ In diesem Beispiel wird gezeigt, wie Dayparting in einem Casino umgesetzt wird, 
 >[!NOTE]
 >
 >Darüber hinaus können Sie für jeden Kanal die ***Priorität*** festlegen. Wenn beispielsweise zwei Kanäle für denselben Tag und dieselbe Uhrzeit oder für denselben Monat festgelegt sind, wird der Kanal mit höherer Priorität zuerst gezeigt. Der Mindestwert für die Priorität beträgt 0.
-
