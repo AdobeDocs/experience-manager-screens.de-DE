@@ -3,9 +3,9 @@ title: Projektrollen und Zuständigkeiten in AEM Screens
 seo-title: Projektrollen und Zuständigkeiten in AEM Screens
 description: Auf dieser Seite werden die Projektrollen und Zuständigkeiten in AEM Screens beschrieben.
 seo-description: Auf dieser Seite werden die Projektrollen und Zuständigkeiten in AEM Screens beschrieben.
-translation-type: ht
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
+workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 100%
 
@@ -92,15 +92,14 @@ Projektmanager verwalten in der Regel die gesamte Implementierung für Ihre AEM 
 Zur Sicherstellung einer erfolgreichen Bereitstellung von Digital Signage ist es üblich, ein Projekt in drei Schritte zu unterteilen.  Diese Schritte werden häufig als **Tage** bezeichnet. Es handelt sich dabei nicht um Tage im wörtlichen Sinne, sondern um Bezeichnungen für die verschiedenen Hauptschritte eines Projekts.
 
 1. Der erste Schritt wird als *Tag 0* bezeichnet. Dieser Schritt umfasst alle Pre-Sales- und Erkundungsbemühungen, die zur vollständigen Definition des Projektumfangs erforderlich sind.
-
 1. Der zweite Schritt, *Tag 1*, bezieht sich auf alle Aktivitäten, die Teil der Implementierung sind.
-
 1. Der dritte und letzte Schritt, *Tag 2* bezieht sich auf alle laufenden Operationen und unterstützenden Elemente, die Teil der Gesamtlösung sind.
 
 >[!NOTE]
 >
 >Auch wenn der Schwerpunkt dieses Handbuchs auf *Tag 1* und *Tag 2* liegt, müssen bei einem erfolgreichen Digital Signage-Projekt alle drei Schritte beachtet werden.
-In einem zusätzlichen Video zu **[Projektverwaltung und -implementierung](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** erfahren Sie mehr über die Projektvorbereitung, die Projektinitiierung und den Projektfortschritt.
+>
+>In einem zusätzlichen Video zu **[Projektverwaltung und -implementierung](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** erfahren Sie mehr über die Projektvorbereitung, die Projektinitiierung und den Projektfortschritt.
 
 ## RACI-Diagramm {#raci-chart}
 
