@@ -3,9 +3,9 @@ title: Post-Launch-Support
 seo-title: Post-Launch-Support für AEM Screens
 description: Auf dieser Seite werden Best Practices beim Post-Lauch-Support für AEM Screens beschrieben.
 seo-description: Auf dieser Seite werden Best Practices beim Post-Lauch-Support für AEM Screens beschrieben.
-translation-type: ht
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
+workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 100%
 
@@ -29,10 +29,12 @@ Für langfristigen Erfolg muss in Zusammenarbeit mit dem A/V-Integrator außerde
 
 >[!NOTE]
 >
-> Sie müssen frühzeitig in Betriebsbudgets integrierte operative Parameter festlegen und die Zuständigkeiten mit dem AEM-Implementor und A/V-Integrator abstimmen.
-Ist die Implementierung eines Werbenetzwerks mit vielen Verantwortlichen an ein monetarisiertes Netzwerk gebunden? Das kann im Vergleich zu einem Corporate Communications-Netzwerk deutlich kürzere Auflösungszeiten erfordern. 
-Weist die Anwendung für die Führungsebene des Endkunden eine hohe Sichtbarkeit auf? Sites mit hoher Sichtbarkeit können einen anderen Umgang erfordern.
-Ist die Anwendung für Geschäftsabläufe wie Menüboards in Fast-Food-Ketten essentiell? In dem Fall benötigt der Endkunde möglicherweise Vor-Ort-Auflösungen mit sehr kurzen Reaktionszeiten sowie Redundanz bei der Wiedergabehardware.
+>Sie müssen frühzeitig in Betriebsbudgets integrierte operative Parameter festlegen und die Zuständigkeiten mit dem AEM-Implementor und A/V-Integrator abstimmen.
+>
+>* Ist die Implementierung eines Werbenetzwerks mit vielen Verantwortlichen an ein monetarisiertes Netzwerk gebunden? Das kann im Vergleich zu einem Corporate Communications-Netzwerk deutlich kürzere Auflösungszeiten erfordern.
+>* Weist die Anwendung für die Führungsebene des Endkunden eine hohe Sichtbarkeit auf? Sites mit hoher Sichtbarkeit können einen anderen Umgang erfordern.
+>* Ist die Anwendung für Geschäftsabläufe wie Menüboards in Fast-Food-Ketten essentiell? In dem Fall benötigt der Endkunde möglicherweise Vor-Ort-Auflösungen mit sehr kurzen Reaktionszeiten sowie Redundanz bei der Wiedergabehardware.
+
 
 ## Überlegungen und Post-Launch-Fragen {#considerations-queries}
 
