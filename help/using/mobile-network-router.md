@@ -1,9 +1,9 @@
 ---
 title: Mobiles Netzwerk mit mobilem WLAN-Router und aktiven Netzwerkkomponenten
 description: Auf dieser Seite wird das mobile Netzwerk mit mobilem WLAN-Router und aktiven Netzwerkkomponenten beschrieben.
-translation-type: ht
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
+workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 100%
 
@@ -80,7 +80,9 @@ Bei der Wahl des Datennetzwerks empfiehlt es sich, die folgenden Fragen abzuwäg
 >[!NOTE]
 >
 >Die mindestens vom Datenabo abzudeckende Kapazität beträgt: 
-`Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
+
+>
+>`Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
 
 >[!IMPORTANT]
 >
@@ -107,6 +109,3 @@ Nachfolgend finden Sie eine Aufschlüsselung der wichtigsten Daten zur Netzwerkv
 >Die Daten beziehen sich allesamt darauf, wie viel Bandbreite jedes einzelne mit dem Netzwerk verbundene Gerät beim Anfragen und Herunterladen einer Internet-Quelle beansprucht. Mit jeder weiteren solchen Anfrage summiert sich die Bandbreitennutzung, durch die sich wiederum die Download-Zeit verlängert.
 
 ![](/help/using/assets/mobile-router-download.png)
-
-
-
