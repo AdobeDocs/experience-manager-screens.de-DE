@@ -5,9 +5,9 @@ description: Auf dieser Seite erfahren Sie, wie Sie auf Ihre Screens-Projekte Ü
 seo-description: Auf dieser Seite erfahren Sie, wie Sie auf Ihre Screens-Projekte Übergänge anwenden können.
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
-translation-type: ht
-source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
+workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Gehen Sie wie folgt vor, um Ihrem AEM Screens-Projekt eine Übergangskomponente 
 >
 >**Voraussetzungen**
 >
-> Erstellen Sie ein AEM Screens-Projekt namens **Testprojekt** mit einem Kanal namens **Testübergang**. Richten Sie außerdem einen Standort und eine Anzeige ein, um die Ausgabe anzuzeigen.
+>Erstellen Sie ein AEM Screens-Projekt namens **Testprojekt** mit einem Kanal namens **Testübergang**. Richten Sie außerdem einen Standort und eine Anzeige ein, um die Ausgabe anzuzeigen.
 
 1. Navigieren Sie zum Kanal **Testübergang** und klicken Sie in der Aktionsleiste auf **Bearbeiten**.
 
