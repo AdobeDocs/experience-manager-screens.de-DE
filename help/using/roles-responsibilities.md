@@ -3,9 +3,9 @@ title: Projektrollen und Zuständigkeiten in AEM Screens
 seo-title: Projektrollen und Zuständigkeiten in AEM Screens
 description: Auf dieser Seite werden die Projektrollen und Zuständigkeiten in AEM Screens beschrieben.
 seo-description: Auf dieser Seite werden die Projektrollen und Zuständigkeiten in AEM Screens beschrieben.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1263'
 ht-degree: 100%
 
@@ -97,7 +97,7 @@ Zur Sicherstellung einer erfolgreichen Bereitstellung von Digital Signage ist es
 
 >[!NOTE]
 >
->Auch wenn der Schwerpunkt dieses Handbuchs auf *Tag 1* und *Tag 2* liegt, müssen bei einem erfolgreichen Digital Signage-Projekt alle drei Schritte beachtet werden.
+>Auch wenn der Schwerpunkt dieses Handbuchs auf *Tag 1* und *Tag 2* liegt, müssen bei einem erfolgreichen Digital-Signage-Projekt alle drei Schritte beachtet werden.
 >
 >In einem zusätzlichen Video zu **[Projektverwaltung und -implementierung](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** erfahren Sie mehr über die Projektvorbereitung, die Projektinitiierung und den Projektfortschritt.
 
