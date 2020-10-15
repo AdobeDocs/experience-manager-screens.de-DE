@@ -2,9 +2,9 @@
 title: Kanalzuweisung – Neuestes Feature Pack
 seo-title: Kanalzuweisung – Neuestes Feature Pack
 description: Auf dieser Seite erhalten Sie Informationen zur Kanalzuweisung und zu Dayparting.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1471'
 ht-degree: 100%
 
@@ -202,7 +202,7 @@ Bei Dayparting wird ein Tag in Zeitfenster unterteilt und festgelegt, welcher In
 
 Im Folgenden wird in drei Szenarien beschrieben, wie Dayparting mit Kanälen verwendet werden kann:
 
-#### Anzeigen von Inhalten an einem einzigen Tag unterteilt in mehrere Zeitfenster         {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
+#### Anzeigen von Inhalten an einem einzigen Tag unterteilt in mehrere Zeitfenster          {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
 Im folgenden Beispiel wird veranschaulicht, wie ein Restaurant Dayparting verwendet, um täglich sein Angebot für Frühstück, Mittagessen und Abendessen zu präsentieren.
 
