@@ -10,8 +10,11 @@ content-type: reference
 topic-tags: administering
 discoiquuid: f1df8d05-bb61-4bc9-aea1-c6af9e3519b4
 docset: aem65
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 121aee4c8bf08e30898cc25d274ef4fc6bded5aa
+workflow-type: tm+mt
+source-wordcount: '698'
+ht-degree: 100%
 
 ---
 
@@ -49,17 +52,17 @@ Im Folgenden wird das Datenmodell für den Projekt-Importer beschrieben:
 
 | **Eigenschaft** | **Beschreibung** |
 |---|---|
-| ***path {string *}** | Der Ressourcenpfad für den Standort |
-| ***[./jcr:title]{string *}** | Der Name der zu verwendenden Vorlage (d. h. Standort für *screens/core/templates/location*) |
+| ***path {string*}** | Der Ressourcenpfad für den Standort |
+| ***[./jcr:title] {string*}** | Der Name der zu verwendenden Vorlage (d. h. Standort für *screens/core/templates/location*) |
 | ***template {string}*** | Optionaler Titel für die Seite |
-| ***[./jcr:description]{string}*** | Optionale Beschreibung für die Seite |
+| ***[./jcr:description] {string}*** | Optionale Beschreibung für die Seite |
 
 Für die Tabellendatei (CSV/XLS) sind daher die folgenden Spalten erforderlich:
 
 * **path {string}** Der Pfad für den zu importierenden Standort, wobei der Stammordner des Pfades der Ordner für das Projekt ist (d. h. */foo* wird in */content/screens/&lt;Projekt>/locations/foo* importiert)
 
 * **template {string}** Die Vorlage, die für den neuen Standort verwendet werden soll, im Moment ist nur der Wert „location“ erlaubt, aber dies wird in Zukunft auf alle Screens-Vorlagen ausgedehnt („display“, „sequencechannel“ usw.)
-* **[./*]**{string} Jede optionale Eigenschaft, die für den Standort festgelegt wird (d. h. ./jcr:title, ./jcr:description, ./foo, ./bar). Die aktuelle Version ermöglicht derzeit keine Filterung
+* **[./*]** {string} Jede optionale Eigenschaft, die für den Standort festgelegt wird (d. h. ./jcr:title, ./jcr:description, ./foo, ./bar). Die aktuelle Version ermöglicht derzeit keine Filterung
 
 >[!NOTE]
 >
@@ -75,6 +78,7 @@ Im folgenden Abschnitt wird beschrieben, wie der Projekt-Importer in einem AEM S
 >
 >* Andere Dateien als CSV/XLS/XLSX-Erweiterungen werden in der aktuellen Version nicht unterstützt.
 >* Für importierte Dateien gibt es keine Filterung der Eigenschaften und es wird alles importiert, was mit „./“ beginnt.
+
 >
 
 
