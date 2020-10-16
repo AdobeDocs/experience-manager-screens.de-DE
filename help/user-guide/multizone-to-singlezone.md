@@ -3,8 +3,11 @@ title: 'Nutzungsszenario: Übergang von mehreren zu einzelnen Zonen'
 description: 'Auf dieser Seite erfahren Sie mehr über das Nutzungsszenario: Übergang von mehreren zu einzelnen Zonen.'
 seo-description: 'Nutzungsszenario: Übergang von mehreren zu einzelnen Zonen.'
 contentOwner: Jyotika Syal
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6f770734941635a0cd404986c259022137355af3
+workflow-type: tm+mt
+source-wordcount: '401'
+ht-degree: 100%
 
 ---
 
@@ -43,6 +46,7 @@ Gehen Sie wie folgt vor, um ein Projekt einzurichten:
    1. Wählen Sie den Ordner **Kanäle** aus und klicken Sie in der Aktionsleiste auf **Erstellen**, um den Assistenten zum Erstellen eines Kanals zu öffnen.
    1. Wählen Sie im Assistenten die Option **Splitscreen-Kanal mit L-Balken links** aus und erstellen Sie den Kanal mit dem Namen **MultiZoneLayout**.
    1. Fügen Sie dem Kanal Inhalt hinzu. Ziehen Sie die Assets in die einzelnen Zonen. Das folgende Beispiel zeigt einen **MultiZoneLayout**-Kanal, der aus einem Video, einem Bild und einem Textbanner (in einer eingebetteten Sequenz) besteht, wie unten dargestellt.
+
    ![Asset](assets/mz-to-sz2.png)
 
    >[!NOTE]
@@ -76,7 +80,7 @@ Sie können die gewünschte Ausgabe auf dem Player oder durch Klicken auf die **
 
 Die Ausgabe zeigt an, wie ein Mehrzonen-Layout für *10000 ms* wiedergegeben wird, zu einem Einzelzonen-Layout mit einer Wiedergabedauer von *3000 ms* wechselt und dann wieder zurück zum Mehrzonen-Layout wechselt.
 
->[!VIDEO](https://video.tv.adobe.com/v/30366?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/30366)
 
 >[!NOTE]
 >
