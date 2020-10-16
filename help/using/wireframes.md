@@ -3,9 +3,9 @@ title: Wireframes
 seo-title: Wireframes für AEM Screens
 description: Auf dieser Seite werden Wireframes für ein AEM Screens-Projekt beschrieben.
 seo-description: Auf dieser Seite werden Wireframes für ein AEM Screens-Projekt beschrieben.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 100%
 
