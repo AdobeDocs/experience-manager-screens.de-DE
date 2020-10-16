@@ -3,8 +3,11 @@ title: Empfohlener Ansatz
 seo-title: Empfohlener Ansatz für ein AEM Screens-Projekt
 description: Auf dieser Seite wird der empfohlene Ansatz für ein AEM Screens-Projekt beschrieben.
 seo-description: Auf dieser Seite wird der empfohlene Ansatz für ein AEM Screens-Projekt beschrieben.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c8be1ed0c3949091b3a10825167da4df16d68fc0
+workflow-type: tm+mt
+source-wordcount: '456'
+ht-degree: 100%
 
 ---
 
