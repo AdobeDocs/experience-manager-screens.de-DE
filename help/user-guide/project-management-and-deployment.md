@@ -10,8 +10,11 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: cd1483af-8118-46ac-a2ad-42d89c05bdca
 docset: aem65
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+workflow-type: tm+mt
+source-wordcount: '722'
+ht-degree: 100%
 
 ---
 
@@ -38,7 +41,7 @@ Zur Sicherstellung einer erfolgreichen Bereitstellung digitaler Beschilderung is
 
 ### Aktivitäten am Tag 0 {#day-zero-activities}
 
-Der erste Schritt wird als ***Tag 0 bezeichnet***. Dieser Schritt umfasst alle Pre-Sales- und Erkundungsbemühungen, die zur vollständigen Definition des Projektumfangs erforderlich sind. Der zweite Schritt, Tag 1, bezieht sich auf alle Aktivitäten, die Teil der Bereitstellung sind. Tag 2 bezieht sich auf alle laufenden Operationen und unterstützenden Elemente, die Teil der Gesamtlösung sind.
+Der erste Schritt wird als ***Tag 0*** bezeichnet. Dieser Schritt umfasst alle Pre-Sales- und Erkundungsbemühungen, die zur vollständigen Definition des Projektumfangs erforderlich sind. Der zweite Schritt, Tag 1, bezieht sich auf alle Aktivitäten, die Teil der Bereitstellung sind. Tag 2 bezieht sich auf alle laufenden Operationen und unterstützenden Elemente, die Teil der Gesamtlösung sind.
 
 Zu den Aktivitäten am Tag 0 gehören Pre-Sales, Kundenerkennung, Analyse der Anwendungsanforderungen und Definition des Projektumfangs. Diese Phase kann auch die erste Einbeziehung und Definition der Projektanforderungen für das Projekt-Management zur Vorbereitung der Bereitstellung umfassen.
 
@@ -55,7 +58,7 @@ Tag 0 besteht aus acht wichtigen Schritten, die alle Aspekte des Projekt-Manage
 
 ### Aktivitäten am Tag 1 {#day-one-activities}
 
-Der zweite Schritt, ***Tag 1***, bezieht sich auf alle Aktivitäten, die Teil der Bereitstellung sind. Ein weiteres wichtiges technisches Dokument für ein erfolgreiches Projekt ist das Gantt-Diagramm für die Bereitstellung.
+Der zweite Schritt, ***Tag 1***, bezieht sich auf alle Aktivitäten, die Teil der Implementierung sind. Ein weiteres wichtiges technisches Dokument für ein erfolgreiches Projekt ist das Gantt-Diagramm für die Bereitstellung.
 
 Wenn eine Vertriebschance in ein Projekt übergeht, wird ein Auftakt-Meeting geplant, um Folgendes zu bestätigen:
 
@@ -77,9 +80,9 @@ Dieses Meeting besteht hauptsächlich aus A/V-Integratoren aus den Bereichen Kun
 
 In diesem Tutorial erfahren Sie mehr über Projekt-Management und Bereitstellungsvorbereitung und die Definition von Schlüsselfaktoren, für die der A/V-Integrator im Zusammenhang mit Projekt-Management und Bereitstellungsvorbereitung verantwortlich ist.
 
-### Projekt-Management und Bereitstellung
+###  Projekt-Management und Bereitstellung
 
->[!VIDEO](https://video.tv.adobe.com/v/28408?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/28408)
 
 *Erfahren Sie mehr über Projekt-Management und die Bereitstellungsvorbereitung (Projektvorbereitung, Projektstart, Projektfortschritt).*
 
