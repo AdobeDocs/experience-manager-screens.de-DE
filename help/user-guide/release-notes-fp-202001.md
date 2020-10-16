@@ -3,8 +3,11 @@ title: Versionshinweise für Feature Pack 202001
 seo-title: Versionshinweise für Feature Pack 202001
 description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 202001, das am 31. Januar 2020 veröffentlicht wurde.
 seo-description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 202001, das am 31. Januar 2020 veröffentlicht wurde.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 0136d1615f59d99c6bb5dfed09df363bf8ec475e
+workflow-type: tm+mt
+source-wordcount: '282'
+ht-degree: 90%
 
 ---
 
@@ -33,7 +36,8 @@ Weitere Informationen zur Befehlssynchronisierung und zum Festlegen von Master u
 
    Weitere Informationen zum Framework für Statusprüfungen finden Sie unter [Framework für Statusprüfungen ](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
 
-* **Aktualisierungen bei Standardübergangstypen** Die Eigenschaften der Übergangskomponente wie **Typ** sind jetzt standardmäßig auf **Ausblenden** und eine **Dauer** von **1600 ms** eingestellt.
+* **Aktualisierungen der Standardtypen** der TransitionDie Eigenschaften der Transition, z. B. 
+**Der Typ** ist jetzt standardmäßig auf **Fade** und die **Dauer** auf **1600 ms** eingestellt.
 
    Weitere Informationen finden Sie im Anwendungsbeispiel [Anwenden von Übergängen](/help/user-guide/applying-transitions.md).
 
@@ -48,4 +52,4 @@ Die folgenden AEM Screens-Player sind für AEM 6.4 Feature Pack 7 und AEM 6.5 Fe
 
 #### AEM Screens-Player-Downloads {#aem-screens-player-downloads}
 
-Navigieren Sie zu [**AEM Screens-Player-Downloads **](https://download.macromedia.com/screens/), um den neusten AEM Screens-Player herunterzuladen und mehr über die Fehlerbehebungen zu erfahren.
+Navigieren Sie zu [**AEM Screens-Player-Downloads**](https://download.macromedia.com/screens/), um den neusten AEM Screens-Player herunterzuladen und mehr über die Fehlerbehebungen zu erfahren.
