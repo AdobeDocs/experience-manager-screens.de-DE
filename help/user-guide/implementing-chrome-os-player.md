@@ -9,8 +9,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+workflow-type: tm+mt
+source-wordcount: '657'
+ht-degree: 100%
 
 ---
 
@@ -31,7 +34,7 @@ Führen Sie die nachfolgenden Schritte aus, um die Chrome Management Console ein
 >
 >Es wird empfohlen, eine Geräteverwaltungslösung wie die Chrome Management Console für die Bereitstellung und Verwaltung von Chrome OS-Geräten zu verwenden. In diesem Dokument wird die Implementierung mithilfe der Chrome Management Console beschrieben, es gibt jedoch auch andere Anbieter, die Produkte mit ähnlicher Funktionalität anbieten. Wenden Sie sich an den Anbieter Ihrer Geräteverwaltungssoftware.
 
-### Aktivieren des Kiosk-Modus    {#enabling-kiosk-mode}
+### Aktivieren des Kiosk-Modus {#enabling-kiosk-mode}
 
 Gehen Sie wie folgt vor, um den Kiosk-Modus zu aktivieren:
 
@@ -39,7 +42,7 @@ Gehen Sie wie folgt vor, um den Kiosk-Modus zu aktivieren:
 
    ![screen_shot_2017-12-08at20303pm](assets/screen_shot_2017-12-08at20303pm.png)
 
-1. Navigieren Sie zu **Geräteverwaltung** &gt; **Chrome Management** &gt; **Geräteeinstellungen**.
+1. Navigieren Sie zu **Geräteverwaltung** > **Chrome Management** > **Geräteeinstellungen**.
 1. Scrollen Sie nach unten zur Option **Kiosk-Einstellungen** und klicken Sie dann auf **Kiosk-Anwendungen verwalten**.
 
    ![kiosk](assets/kiosk.png)
@@ -57,7 +60,7 @@ Gehen Sie wie folgt vor, um den Kiosk-Modus zu aktivieren:
 #### Überprüfen des Remote-Geräte-Status {#checking-remote-device-status}
 
 1. Melden Sie sich bei der Chrome Developer Console an.
-1. Navigieren Sie zu **Geräteverwaltung** &gt; **Chrome-Geräte** und wählen Sie das zu kontrollierende Gerät aus.
+1. Navigieren Sie zu **Geräteverwaltung** > **Chrome-Geräte** und wählen Sie das zu kontrollierende Gerät aus.
 1. Klicken Sie auf **Systemaktivität und Fehlerbehebung**.
 1. Überprüfen Sie die Eigenschaften **Gerät neu starten** und **Bildschirmaufnahme** des Geräts. Sie können auch die Status- und Konsistenzinformationen des Geräts überprüfen.
 
@@ -72,7 +75,7 @@ AEM Screens-Player ist eine Kiosk-fähige Anwendung, die auch eine Fernkonfigura
 Gehen Sie wie folgt vor, um verschiedene Player-Optionen zu konfigurieren:
 
 1. Melden Sie sich bei der Chrome Management Console an.
-1. Klicken Sie auf **Geräteverwaltung** &gt; **Chrome Management** &gt; **App-Verwaltung**. Der AEM Screens-Player wird in der Liste angezeigt.
+1. Klicken Sie auf **Geräteverwaltung** > **Chrome Management** > **App-Verwaltung**. Der AEM Screens-Player wird in der Liste angezeigt.
 1. Klicken Sie auf die Anwendung **AEM Screens Player**.
 1. Klicken Sie auf **Kiosk-Einstellungen** und wählen Sie Ihr Unternehmen aus (*wenn eine Testumgebung verwendet wird*).
 1. Klicken Sie auf **Konfigurationsdatei hochladen** und laden Sie die Konfigurationsrichtlinie hoch (*Json-Datei*).
