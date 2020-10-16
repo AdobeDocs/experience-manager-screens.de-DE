@@ -4,9 +4,9 @@ seo-title: Unbefristeter Übernahmekanal
 description: In diesem Nutzungsszenario erfahren Sie, wie Sie einen unbefristeten Übernahmekanal erstellen.
 seo-description: In diesem Nutzungsszenario erfahren Sie, wie Sie ein Projekt einrichten, in dem ein unbefristeter Übernahmekanal erstellt wird, der an einem bestimmten Tag und zu einer bestimmten Zeit kontinuierlich wiedergegeben wird.
 contentOwner: jsyal
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 100%
 
