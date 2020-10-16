@@ -5,8 +5,11 @@ description: Auf dieser Seite erhalten Sie Informationen zur Inhaltsaktualisieru
 seo-description: Auf dieser Seite erhalten Sie Informationen zur Inhaltsaktualisierung als Dienst.
 uuid: c73126ca-18d0-45b4-bdde-a3653082bfc4
 contentOwner: Jyotika syal
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
+workflow-type: tm+mt
+source-wordcount: '356'
+ht-degree: 100%
 
 ---
 
