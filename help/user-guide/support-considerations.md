@@ -10,8 +10,11 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 59430d38-b441-4488-934e-74a55122b063
 docset: aem65
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+workflow-type: tm+mt
+source-wordcount: '634'
+ht-degree: 100%
 
 ---
 
@@ -28,6 +31,7 @@ Diese Seite enthält den letzten Teil einer 5-teiligen Serie, der Team-Mitgliede
 >
 >* Projektbereitstellung vor Ort
 >* Überprüfung von Gerätekonnektivität und -betrieb durch den Installationstechniker und das NOC (Network Operations Center)
+
 >
 >
 Vor Beginn von Tag 2 sollte die Planung für laufende Lebenszyklusbudgets abgeschlossen werden.
@@ -59,7 +63,7 @@ In diesem abschließenden Teil eines 5-teiligen Tutorials wird erläutert, wie d
 
 ### Projektüberlegungen
 
->[!VIDEO](https://video.tv.adobe.com/v/28383?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/28383)
 
 *Erfahren Sie, wie sich Probleme mit Hardware, Software und Konnektivität beheben lassen. Erfahren Sie mehr zu Kostenschätzungen und Bedingungen für Vor-Ort-Support.*
 
