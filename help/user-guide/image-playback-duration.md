@@ -4,8 +4,11 @@ seo-title: Bildwiedergabedauer
 description: Auf dieser Seite erfahren Sie mehr über die Bildwiedergabedauer.
 seo-description: Auf dieser Seite erfahren Sie mehr über die Bildwiedergabedauer.
 contentOwner: jsyal
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 69a40e437fa9b19e283bcf1a1322d18e17990a49
+workflow-type: tm+mt
+source-wordcount: '341'
+ht-degree: 100%
 
 ---
 
