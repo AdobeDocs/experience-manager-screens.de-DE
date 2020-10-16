@@ -9,8 +9,11 @@ content-type: reference
 topic-tags: developing
 discoiquuid: 46bdc191-5056-41a4-9804-8f7c4a035abf
 targetaudience: target-audience new
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ec8324ead3789a6cd5dde35a932c89e916709f70
+workflow-type: tm+mt
+source-wordcount: '1852'
+ht-degree: 100%
 
 ---
 
@@ -62,7 +65,8 @@ Der Quell-Code eines Screens-Projekts wird normalerweise als Maven-Projekt mit m
 
    1. **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip**
    1. **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip**
-   ![Screens We.Retail Run Ui.Apps and Ui.Content packages installed via CRX Package Manager](assets/crx-packages.png)
+
+   ![Pakete Ui.Apps und Ui.Content für das Screens-Projekt „We.Retail Run“ über CRX Package Manager installiert](assets/crx-packages.png)
 
    Pakete Ui.Apps und Ui.Content für das Screens-Projekt „We.Retail Run“ über CRX Package Manager installiert
 
@@ -126,6 +130,7 @@ Die Poster-Komponente wird im Vollbildmodus im Vorschau-/Produktionsmodus wieder
 
    1. Kopieren Sie das Dialgofeld aus `/libs/wcm/foundation/components/image/cq:dialog`
    1. Fügen Sie das Dialogfeld hier ein: `/apps/weretail-run/components/content/poster`
+
    ![Copied dialog from /libs/wcm/foundation/components/image/cq:dialog to /apps/weretail-run/components/content/poster](assets/2018-05-03_at_4_13pm.png)
 
    Kopiertes Dialogfeld von /libs/wcm/foundation/components/image/cq:dialog nach /apps/weretail-run/components/content/poster
@@ -329,6 +334,7 @@ AEM Screens-Komponenten werden im Bearbeitungsmodus anders als im Vorschaumodus/
 
    * `allowProxy` | Boolesch | `true`
    * `categories` | Zeichenfolge[] | `cq.screens.components`
+
    ![Properties for /apps/weretail-run/components/content/poster/clientlibs/shared](assets/2018-05-03_at_1026pm-1.png)
 
    Eigenschaften für /apps/weretail-run/components/content/poster/clientlibs/shared
@@ -506,7 +512,7 @@ Die Poster-Komponente ist für die Verwendung in einem Sequenzkanal vorgesehen. 
 
 Das folgende Video zeigt die fertige Komponente und wie sie einem Sequenzkanal hinzugefügt werden kann. Der Kanal wird dann einer Standortsanzeige hinzugefügt und letztendlich einem Screens-Player zugewiesen.
 
->[!VIDEO](https://video.tv.adobe.com/v/22414?quaity=9&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/22414?quaity=9)
 
 ## Fertiger Code {#finished-code}
 
