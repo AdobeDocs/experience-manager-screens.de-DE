@@ -3,9 +3,9 @@ title: Post-Launch-Support
 seo-title: Post-Launch-Support für AEM Screens
 description: Auf dieser Seite werden Best Practices beim Post-Lauch-Support für AEM Screens beschrieben.
 seo-description: Auf dieser Seite werden Best Practices beim Post-Lauch-Support für AEM Screens beschrieben.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 100%
 
