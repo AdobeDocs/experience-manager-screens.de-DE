@@ -10,13 +10,16 @@ content-type: reference
 topic-tags: use-case-examples
 discoiquuid: ef3e5dce-e36a-45d3-ad5e-db01430477c6
 docset: aem65
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+workflow-type: tm+mt
+source-wordcount: '473'
+ht-degree: 100%
 
 ---
 
 
-# Aktivierung der Gastgewerbereservierung {#hospitality-reservation-activation}
+#  Aktivierung der Gastgewerbereservierung {#hospitality-reservation-activation}
 
 Das folgende Nutzungsszenario veranschaulicht die Verwendung der Aktivierung von Reservierungen im Gastgewerbe anhand der in Google Tabellen angegebenen Werten.
 
@@ -28,7 +31,7 @@ Wenn der Wert von **Restaurant1** > **Restaurant2** ist, wird **AdTarget** der W
 
 ## Voraussetzungen {#preconditions}
 
-Bevor Sie mit der Implementierung der Reservierungsaktivierung beginnen, müssen Sie lernen, wie Sie in einem AEM Screens-Projekt ***Datenspeicher ***und***Zielgruppensegmentierung*** einrichten und ***Targeting für Kanäle aktivieren ***.
+Bevor Sie mit der Implementierung der Reservierungsaktivierung beginnen, müssen Sie lernen, wie Sie in einem AEM Screens-Projekt ***Datenspeicher*** und ***Zielgruppensegmentierung*** einrichten und ***Targeting für Kanäle aktivieren***.
 
 Genaue Informationen dazu finden Sie unter [Konfigurieren von ContextHub in AEM Screens](configuring-context-hub.md).
 
@@ -44,7 +47,7 @@ Gehen Sie wie folgt vor, um das Nutzungsszenario für die reservierungsgesteuert
 
 1. **Konfigurieren der Segmente in Zielgruppen gemäß den Anforderungen**
 
-   1. Navigieren Sie zu den Segmenten in Ihrer Zielgruppe (siehe ***Schritt 2: Einrichten der Zielgruppensegmentierung ***auf der Seite**[Konfigurieren von ContextHub in AEM Screens](configuring-context-hub.md)**, um mehr zu erfahren).
+   1. Navigieren Sie zu den Segmenten in Ihrer Zielgruppe (siehe ***Schritt 2: Einrichten der Zielgruppensegmentierung*** auf der Seite **[Konfigurieren von ContextHub in AEM Screens](configuring-context-hub.md)**, um mehr zu erfahren).
 
    1. Wählen Sie **Tabellen A1 1** aus und klicken Sie auf **Bearbeiten**.
 
@@ -81,5 +84,6 @@ Gehen Sie wie folgt vor, um das Nutzungsszenario für die reservierungsgesteuert
 
    1. Klicken Sie auf **Vorschau.** Öffnen Sie außerdem Google Tabellen und aktualisieren Sie den Wert.
    1. Aktualisieren Sie den Wert in den Spalten **Restaurant1** und **Restaurant2**. Wenn **Restaurant1** > **Restaurant2** ist, sollten Sie ein Bild eines *Steak-Gerichts* sehen. Andernfalls wird ein Bild mit *thailändischem Essen* auf Ihrem Bildschirm angezeigt.
+
    ![result5](assets/result5.gif)
 
