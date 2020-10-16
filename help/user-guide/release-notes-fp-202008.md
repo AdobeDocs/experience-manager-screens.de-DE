@@ -1,9 +1,9 @@
 ---
 title: Versionshinweise für Feature Pack 202008
 description: Auf der Seite werden die Versionshinweise für Feature Pack 202008 beschrieben.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f13adf375631e3b7d7d03324458d91d9d55b0f80
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 100%
 
