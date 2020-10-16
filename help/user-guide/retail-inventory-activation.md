@@ -10,8 +10,11 @@ content-type: reference
 topic-tags: use-case-examples
 discoiquuid: 70147920-5bdb-401c-884e-51d268d40585
 docset: aem65
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
+workflow-type: tm+mt
+source-wordcount: '691'
+ht-degree: 100%
 
 ---
 
@@ -40,6 +43,7 @@ Gehen Sie wie folgt vor, um das Anwendungsbeispiel zur Aktivierung des Einzelhan
 
    1. Navigieren Sie zur Google Tabelle „ContextHubDemo“.
    1. Fügen Sie drei Spalten (Rot, Grün und Blau) mit entsprechenden Werten für drei verschiedene Pullover hinzu.
+
    ![screen_shot_2019-05-06at101755am](assets/screen_shot_2019-05-06at101755am.png)
 
 1. **Konfigurieren der Zielgruppen gemäß den Anforderungen**
@@ -67,6 +71,7 @@ Gehen Sie wie folgt vor, um das Anwendungsbeispiel zur Aktivierung des Einzelhan
    1. Wählen Sie als **Datentyp** die Option **Zahl**.
 
    1. Wählen Sie **googlesheets/value/1/0** aus der Dropdown-Liste in **Name der zweiten Eigenschaft**.
+
    ![screen_shot_2019-05-06at102600am](assets/screen_shot_2019-05-06at102600am.png)
 
    Bearbeiten und fügen Sie auf gleiche Weise Vergleichseigenschaftsregeln zum Segment **Für_Blau** hinzu, wie in der folgenden Abbildung dargestellt:
@@ -92,8 +97,7 @@ Gehen Sie wie folgt vor, um das Anwendungsbeispiel zur Aktivierung des Einzelhan
    ![screen_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
 
    >[!NOTE]
-   >
-   >Sie müssen sowohl die **Marke** als auch den **Bereich** auswählen, damit die Aktivitäten beim Starten des Targeting-Prozesses korrekt aufgeführt werden.
+   Sie müssen sowohl die **Marke** als auch den **Bereich** auswählen, damit die Aktivitäten beim Starten des Targeting-Prozesses korrekt aufgeführt werden.
 
 1. **Hinzufügen eines Standardbilds**
 
@@ -101,11 +105,11 @@ Gehen Sie wie folgt vor, um das Anwendungsbeispiel zur Aktivierung des Einzelhan
    1. Wählen Sie **Marke** und **Aktivität** aus dem Dropdown-Menü und klicken Sie auf **Targeting starten**.
 
    1. Klicken Sie auf **Targeting starten**.
+
    ![screen_shot_2019-05-06at121253pm](assets/screen_shot_2019-05-06at121253pm.png)
 
    >[!NOTE]
-   >
-   >Bevor Sie mit dem Targeting beginnen, müssen Sie die Segmente (**Für_Grün**, **Für_Rot** und **Für_Blau**) hinzufügen, indem Sie auf **+ Erlebnis-Targeting hinzufügen** klicken (wie in der folgenden Abbildung dargestellt).
+   Bevor Sie mit dem Targeting beginnen, müssen Sie die Segmente (**Für_Grün**, **Für_Rot** und **Für_Blau**) hinzufügen, indem Sie auf **+ Erlebnis-Targeting hinzufügen** klicken (wie in der folgenden Abbildung dargestellt).
 
    ![screen_shot_2019-05-06at123554pm](assets/screen_shot_2019-05-06at123554pm.png)
 
@@ -117,5 +121,6 @@ Gehen Sie wie folgt vor, um das Anwendungsbeispiel zur Aktivierung des Einzelhan
 
    1. Klicken Sie auf **Vorschau**. Öffnen Sie außerdem Ihre Google Tabelle und aktualisieren Sie den Wert.
    1. Ändern Sie den Wert für die drei verschiedenen Spalten und Sie werden sehen, dass das Anzeigebild entsprechend dem höchsten Wert im Bestand aktualisiert wird.
+
    ![retail_result](assets/retail_result.gif)
 
