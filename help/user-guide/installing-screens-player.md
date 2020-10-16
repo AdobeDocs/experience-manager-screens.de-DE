@@ -4,9 +4,9 @@ seo-title: Installieren des Screens-Players
 description: Installieren des Screens-Players
 seo-description: Installieren des Screens-Players
 contentOwner: jsyal
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: be491e88b7938f24ae1f375b2fded4052404aaa1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 100%
 
