@@ -3,9 +3,9 @@ title: Glossar
 seo-title: Glossar
 description: Auf dieser Seite werden die wichtigsten Begriffe im Zusammenhang mit AEM Screens erläutert.
 seo-description: Auf dieser Seite werden die wichtigsten Begriffe im Zusammenhang mit AEM Screens erläutert.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 421174dba8a5a7c39bffcaa2dddb54939eeba3bc
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 100%
 
