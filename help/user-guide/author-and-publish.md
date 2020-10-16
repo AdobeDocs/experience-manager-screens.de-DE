@@ -3,9 +3,9 @@ title: Konfigurieren von Autoren- und Veröffentlichungsinstanz in AEM Screens
 seo-title: Konfigurieren von Autoren- und Veröffentlichungsinstanz in AEM Screens
 description: Die AEM Screens-Architektur ähnelt einer traditionellen AEM Sites-Architektur. Inhalte werden in einer AEM-Autoreninstanz erstellt und dann vorwärts an mehrere Veröffentlichungsinstanzen repliziert. Auf dieser Seite erfahren Sie, wie Sie Autoren- und Veröffentlichungsinstanz für AEM Screens konfigurieren.
 seo-description: Die AEM Screens-Architektur ähnelt einer traditionellen AEM Sites-Architektur. Inhalte werden in einer AEM-Autoreninstanz erstellt und dann vorwärts an mehrere Veröffentlichungsinstanzen repliziert. Auf dieser Seite erfahren Sie, wie Sie Autoren- und Veröffentlichungsinstanz für AEM Screens konfigurieren.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1910'
 ht-degree: 100%
 
@@ -56,7 +56,7 @@ Zur Erstellung von Replikationsagenten müssen Sie wissen, wie man einen standar
 
 Für Screens sind drei Replikationsagenten erforderlich:
 
-1. **Standardmäßiger Replikationsagent ***(angegeben als***Standard Replication Agent**)
+1. **Standardmäßiger Replikationsagent ***(angegeben als*** Standard Replication Agent**)
 1. **Screens-Replikationsagent**
 1. **Agent für Rückwärtsreplikation**
 
