@@ -3,8 +3,11 @@ title: Business Content-Strategie für [!UICONTROL AEM Screens]
 seo-title: Business Content-Strategie für [!UICONTROL AEM Screens]
 description: In diesem Handbuch wird die Strategie für Business Content beschrieben.
 seo-description: In diesem Handbuch wird eine Strategie für Business Content beschrieben.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 55999ae9ead7ab8986f4dcb69b0bbaa46933c9ec
+workflow-type: tm+mt
+source-wordcount: '443'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +20,7 @@ source-git-commit: 55999ae9ead7ab8986f4dcb69b0bbaa46933c9ec
 
 Content ist ein wichtiger Faktor zur Förderung von Interaktion. Darum muss in der Pre-Sales-Phase eine Business Content-Strategie definiert werden, in der berücksichtigt wird, wie die Anwendung Hardware-, Software- und Konnektivitätsressourcen nutzen wird, um den Kunden Ihres Klienten den gewünschten Nutzen zu liefern.
 
-Eine klar definierte Strategie für Business Content ermöglicht die Erstellung, Verteilung und Verfolgung der Nutzung von Inhalten für die Buyer's Journey und die Marketing-Touchpoints im Verkaufstrichter. Dass jeder Kunde zum richtigen Zeitpunkt die richtige Botschaft erhält, ist dabei von entscheidender Bedeutung.
+Eine klar definierte Strategie für Business Content ermöglicht die Erstellung, Verteilung und Verfolgung der Nutzung von Inhalten für die Buyer&#39;s Journey und die Marketing-Touchpoints im Verkaufstrichter. Dass jeder Kunde zum richtigen Zeitpunkt die richtige Botschaft erhält, ist dabei von entscheidender Bedeutung.
 
 Überlegen Sie, wie Screens bei dieser Aufgabe helfen kann, und legen Sie KPIs fest, um den Erfolg der Anwendung bei der Bereitstellung des Inhalts zu messen.
 
