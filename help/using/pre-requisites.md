@@ -3,8 +3,11 @@ title: Voraussetzungen für [!UICONTROL AEM Screens]
 seo-title: Voraussetzungen für [!UICONTROL AEM Screens]-Projekte
 description: In dem Handbuch werden die Voraussetzungen für den Start eines AEM Screens-Projekts beschrieben.
 seo-description: In dem Handbuch werden die Voraussetzungen für den Start eines AEM Screens-Projekts beschrieben.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 599eb98dff8040fd169499fca2894530fd8a42e8
+workflow-type: tm+mt
+source-wordcount: '616'
+ht-degree: 100%
 
 ---
 
@@ -25,7 +28,7 @@ Weitere Informationen zu Adobe Experience Manager 6.5 finden Sie in den folgende
 
 * **[Erste Schritte für Autoren](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/first-steps.html)**: In diesem Abschnitt finden Sie einen Überblick über die wichtigsten Funktionen, die Sie nutzen, wenn Sie mit der Inhaltserstellung in Adobe Experience Manager (AEM) beginnen.
 
-* **[Zentrale AEM-Konzepte](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/the-basics.html)**: Ein Überblick über die grundlegenden Konzepte der AEM-Struktur sowie der damit verbundenen Entwicklung, einschließlich Informationen zu JCR, Sling, OSGi, dem Dispatcher, Workflows und MSM.
+* **[Grundlegende AEM-Konzepte](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/the-basics.html)**: Ein Überblick über die grundlegenden Konzepte der AEM-Struktur sowie der damit verbundenen Entwicklung, einschließlich Informationen zu JCR, Sling, OSGi, dem Dispatcher, Workflows und MSM.
 
 ## Kennenlernen der Produktfunktionen und Rollen in AEM Screens {#product-features}
 
