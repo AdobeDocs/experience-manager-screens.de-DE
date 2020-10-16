@@ -10,8 +10,11 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 157185f9-c5e3-4a5b-badc-9becb26f1b27
 docset: aem65
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+workflow-type: tm+mt
+source-wordcount: '565'
+ht-degree: 100%
 
 ---
 
@@ -63,9 +66,9 @@ Sehen Sie sich das folgende Tutorial an, um sich mit Tests, Machbarkeitsstudien,
 
 Wenn Sie alle diese Schritte als Teil des übergeordneten Projektplans betrachten, können Sie Erwartungen besser steuern und natürliche Punkte identifizieren, mit denen sich die Investitionen in eine AEM Screens-Implementierung bewerten lassen.
 
-### Tests, Machbarkeitsstudien, Pilotprogramme und Rollouts
+###  Tests, Machbarkeitsstudien, Pilotprogramme und Rollouts
 
->[!VIDEO](https://video.tv.adobe.com/v/28405?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/28405)
 
 *Erfahren Sie, welche Schlüsselbegriffe in einem übergeordneten Projektplan eine Rolle spielen, wie z.B. Projektzyklus, Maßnahmen bei Hardware-Tests, Machbarkeitsstudien, Pilotprogramme und Rollouts.*
 
