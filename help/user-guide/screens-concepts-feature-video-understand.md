@@ -11,8 +11,11 @@ content-type: reference
 discoiquuid: e7218bb3-be19-46e3-8be7-ee3912bb1f2b
 docset: aem65
 targetaudience: target-audience new
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+workflow-type: tm+mt
+source-wordcount: '273'
+ht-degree: 100%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ## Screens-Terminologie und -Konzepte {#terminology-and-concepts}
 
->[!VIDEO](https://video.tv.adobe.com/v/21353?quality=9&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/21353?quality=9)
 
 
 ## Authoring-Kanäle und Zeitpläne – Teil 1 {#channels-and-schedules-part-2}
@@ -36,11 +39,11 @@ Um einen AEM Screens-Player herunterzuladen, klicken Sie [hier](https://download
 
 Im folgenden Video werden die Erstellung eines neuen Kanals, das Verfassen neuer Inhalte und das Hinzufügen eines Kanals zu einem wiederverwendbaren Zeitplan beschrieben. Das Video folgt in etwa der ersten Hälfte der [Screens-Schnellstartanleitung](kickstart-for-aem-screens.md).
 
->[!VIDEO](https://video.tv.adobe.com/v/21387?quality=9&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/21387?quality=9)
 
 ## Zuweisung von Anzeigen und Geräteregistrierung – Teil 2 {#display-and-device-pt2}
 
 Das folgende Video veranschaulicht die Erstellung eines Standorts, einer Anzeige und einer Gerätekonfiguration. Außerdem werden die Schritte zum Registrieren eines Geräts und zum Zuweisen des Geräts zu einer Anzeige erläutert. Das Video folgt in etwa der zweiten Hälfte der [Screens-Schnellstartanleitung](kickstart-for-aem-screens.md).
 
->[!VIDEO](https://video.tv.adobe.com/v/21411?quality=9&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/21411?quality=9)
 
