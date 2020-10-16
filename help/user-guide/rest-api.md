@@ -9,8 +9,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: c07b6e4f-c0a4-4151-a543-76dabd6d5146
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 100%
 
 ---
 
