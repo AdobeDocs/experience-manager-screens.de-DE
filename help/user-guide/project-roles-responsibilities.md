@@ -2,9 +2,9 @@
 title: '„Teil 1: Projektrollen und Zuständigkeiten“'
 seo-title: '„Teil 1: Projektrollen und Zuständigkeiten“'
 description: In diesem Tutorial erfahren Sie mehr über die Rollen, Verantwortlichkeiten und Zeitpläne, die in den Vertriebs- und Projektlebenszyklen eines Projekts für digitale Beschilderung erforderlich sind.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 100%
 
@@ -55,7 +55,7 @@ In diesem Tutorial können Sie genau verstehen, wie sich die einzelnen Parteien 
 
 ### Teil 1: Projektrollen und Zuständigkeiten
 
->[!VIDEO](https://video.tv.adobe.com/v/28375?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/28375)
 
 *Erfahren Sie mehr über die Rollen und Zuständigkeiten von Adobe, A/V-Integratoren und AEM-Implementoren.*
 
