@@ -9,8 +9,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 84085a03-1798-4f1d-858c-6014a3f6aff6
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+workflow-type: tm+mt
+source-wordcount: '722'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 Auf dieser Seite wird beschrieben, wie Live Copies von Kanälen erstellt und verwaltet werden.
 
-Eine ***Live Copy ***ist eine Kopie spezifischer Site-Inhalte, für die eine Live-Beziehung zur ursprünglichen Quelle beibehalten wird. Durch diese Live-Beziehung kann die Live Copy Inhalts- und Seiteneigenschaften der Quelle übernehmen.
+Eine ***Live Copy*** ist eine Kopie spezifischer Site-Inhalte, für die eine Live-Beziehung zur ursprünglichen Quelle beibehalten wird. Durch diese Live-Beziehung kann die Live Copy Inhalts- und Seiteneigenschaften der Quelle übernehmen.
 
 Auf dieser Seite wird beschrieben, wie eine Live Copy eines Kanals erstellt wird, Eigenschaften angezeigt werden, der Status überprüft und Änderungen von einem Kanal auf dessen Live Copy übertragen werden.
 
@@ -41,7 +44,7 @@ Gehen Sie wie folgt vor, um eine Live Copy eines Kanals in Ihrem Projektordner z
 
 Sie haben auch die Möglichkeit, die folgenden Schritte für die visuelle Darstellung auszuführen, um eine neue Live Copy eines Kanals zu erstellen.
 
-Im folgenden Beispiel wird gezeigt, wie eine Live Copy (***IdleLiveCopy ***) für***Idle Channel*** (inaktiver Kanal) mit dem Zielordner ***Kanäle ***erstellt wird.
+Im folgenden Beispiel wird gezeigt, wie eine Live Copy (***IdleLiveCopy***) für ***Idle Channel*** (inaktiver Kanal) mit dem Zielordner ***Kanäle*** erstellt wird.
 
 ![chlimage_1-2](assets/chlimage_1-2.gif)
 
@@ -103,7 +106,7 @@ Wenn Sie Änderungen am ursprünglichen Kanal vornehmen, müssen Sie diese Ände
 
 Führen Sie die folgenden Schritte aus, um sicherzustellen, dass Ihre Änderungen vom ursprünglichen Kanal auf den Live Copy-Kanal übertragen werden:
 
-1. Wählen Sie den ursprünglichen Kanal (***Idle Channel ***(inaktiver Kanal)) aus und klicken Sie in der Aktionsleiste auf**Bearbeiten **.
+1. Wählen Sie den ursprünglichen Kanal (***Idle Channel*** (inaktiver Kanal)) aus und klicken Sie in der Aktionsleiste auf **Bearbeiten**.
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
@@ -111,7 +114,7 @@ Führen Sie die folgenden Schritte aus, um sicherzustellen, dass Ihre Änderunge
 
    ![chlimage_1-26](assets/chlimage_1-26.png)
 
-1. Wählen Sie die Live Copy des Kanals (***IdleLiveCopy ***) aus und klicken Sie in der Aktionsleiste auf**Bearbeiten **. Beachten Sie, dass das von Ihnen gelöschte Bild noch in der Live Copy sichtbar ist.
+1. Wählen Sie die Live Copy des Kanals (***IdleLiveCopy***) aus und klicken Sie in der Aktionsleiste auf **Bearbeiten**. Beachten Sie, dass das von Ihnen gelöschte Bild noch in der Live Copy sichtbar ist.
 
    Um die Änderungen zu übertragen, müssen Sie den Kanal synchronisieren.
 
