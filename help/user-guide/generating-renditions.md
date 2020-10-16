@@ -9,8 +9,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 40a182fd-7772-4ef7-b4fd-29ef99390b4a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+workflow-type: tm+mt
+source-wordcount: '425'
+ht-degree: 100%
 
 ---
 
@@ -43,7 +46,7 @@ Gehen Sie wie folgt vor, um automatisch Full HD-Ausgabeformate zu generieren:
 
    ![screen_shot_2018-02-01at124454pm](assets/screen_shot_2018-02-01at124454pm.png)
 
-1. Wählen Sie die Registerkarte **Prozess** aus, um die Prozessargumente zu bearbeiten. Geben Sie in der Liste unter **Argumente** die Full HD-Profile wie folgt ein: ***profile:fullhd-bp,profile:fullhd-hp ***. Klicken Sie dann auf**OK **.
+1. Wählen Sie die Registerkarte **Prozess** aus, um die Prozessargumente zu bearbeiten. Geben Sie in der Liste unter **Argumente** die Full HD-Profile wie folgt ein: ***profile:fullhd-bp,profile:fullhd-hp***. Klicken Sie dann auf **OK**.
 
    ![screen_shot_2018-02-02at103340am](assets/screen_shot_2018-02-02at103340am.png)
 
