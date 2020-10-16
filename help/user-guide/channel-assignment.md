@@ -2,9 +2,9 @@
 title: Kanalzuweisung
 seo-title: Kanalzuweisung
 description: Auf dieser Seite erhalten Sie Informationen zur Kanalzuweisung und zu Dayparting.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1215'
 ht-degree: 100%
 
