@@ -3,8 +3,11 @@ title: UX-Abhängigkeiten für [!UICONTROL AEM Screens]
 seo-title: UX-Abhängigkeiten für [!UICONTROL AEM Screens]
 description: In diesem Handbuch werden UX-Abhängigkeiten für [!UICONTROL AEM Screens] beschrieben.
 seo-description: In diesem Handbuch werden UX-Abhängigkeiten für [!UICONTROL AEM Screens] beschrieben.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f73d7d10f88be953d7800c3fafe084960800a61b
+workflow-type: tm+mt
+source-wordcount: '151'
+ht-degree: 100%
 
 ---
 
