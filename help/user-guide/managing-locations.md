@@ -9,8 +9,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 70bdf384-6c27-403b-a6ab-fdec68016428
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+workflow-type: tm+mt
+source-wordcount: '260'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +26,7 @@ Diese Seite zeigt, wie Standorte für Screens erstellt und verwaltet werden.
 
 **Voraussetzungen**:
 
-* [Konfigurieren und Bereitstellen von Screens](configuring-screens-introduction.md) 
+* [Konfigurieren und Bereitstellen von Screens](configuring-screens-introduction.md)
 * [Erstellen und Verwalten von Screens-Projekten](creating-a-screens-project.md)
 * [Erstellen und Verwalten von Kanälen](managing-channels.md)
 
