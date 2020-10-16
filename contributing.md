@@ -1,6 +1,9 @@
 ---
 source-git-commit: e98a317a58f0061968544535d8baae24308a88bb
-translation-type: ht
+workflow-type: tm+mt
+translation-type: tm+mt
+source-wordcount: '533'
+ht-degree: 100%
 
 ---
 # Beitragen zur Adobe Experience Manager Screens-Dokumentation
@@ -47,7 +50,7 @@ Für Pull-Anforderungen muss eine [Lizenzvereinbarung für Mitwirkende (CLA) unt
 
 Im folgenden Video erhalten Sie einen schnellen Überblick darüber, wie Probleme erstellt und Anforderungen abgerufen werden.
 
->[!VIDEO](https://video.tv.adobe.com/v/27069?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/27069)
 
 ### Beiträge von Adobe-Mitarbeitern
 
