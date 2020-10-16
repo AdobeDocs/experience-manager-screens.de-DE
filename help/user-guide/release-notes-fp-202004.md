@@ -3,9 +3,9 @@ title: Versionshinweise für Feature Pack 202004
 seo-title: Versionshinweise für Feature Pack 202004
 description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 202004, das am 20. April 2020 veröffentlicht wurde.
 seo-description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 202004, das am 20. April 2020 veröffentlicht wurde.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d22a8ad78a8276b736a4d7455792996234d23ca3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 202004 ist der 20. Ap
 
    Als Autor von Inhalten sollten Sie festlegen können, wann ein Kanal unterbrochen wird, damit nicht kritische Inhalte abgeschnitten werden können, wichtige Inhalte jedoch vollständig abgespielt werden, bevor die Wiedergabe aufgrund der Zeitplanung abgebrochen wird.
 
-   Weitere Informationen zu den Optionen, die im Dialogfeld **[Kanalzuweisung](/help/user-guide/channel-assignment.md#interruption-method-channel)**zur Implementierung dieser Funktion in Ihr AEM Screens-Projekt verfügbar sind, finden Sie im Abschnitt **Unterbrechungsmethode**.
+   Weitere Informationen zu den Optionen, die im Dialogfeld **[Kanalzuweisung](/help/user-guide/channel-assignment.md#interruption-method-channel)** zur Implementierung dieser Funktion in Ihr AEM Screens-Projekt verfügbar sind, finden Sie im Abschnitt **Unterbrechungsmethode**.
 
 * **Screens Launches**
 
@@ -57,7 +57,7 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 202004 ist der 20. Ap
 
    Beim Hinzufügen von Text zur Textüberlagerungsfunktion ist die Schriftgröße präzise und verbessert.
 
-   Unter **[Textüberlagerung](text-overlay.md)**finden Sie Informationen dazu, wie Sie in einem Sequenzkanal ein überzeugendes Erlebnis erstellen, indem Sie einen Titel oder eine Beschreibung angeben, die einem Bild überlagert ist.
+   Unter **[Textüberlagerung](text-overlay.md)** finden Sie Informationen dazu, wie Sie in einem Sequenzkanal ein überzeugendes Erlebnis erstellen, indem Sie einen Titel oder eine Beschreibung angeben, die einem Bild überlagert ist.
 
 * **Verbesserungen bei der Befehlssynchronisierung**
 
