@@ -1,9 +1,9 @@
 ---
 title: Spracherkennung in AEM Screens
 description: Auf der Seite werden die Spracherkennungsfunktionen in AEM Screens beschrieben.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e355d648846034c4762ef8fdcb3e218d868044b6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1124'
 ht-degree: 100%
 
