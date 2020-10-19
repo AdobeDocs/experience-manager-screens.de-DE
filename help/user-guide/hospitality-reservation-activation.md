@@ -19,7 +19,7 @@ ht-degree: 100%
 ---
 
 
-#  Aktivierung der Gastgewerbereservierung {#hospitality-reservation-activation}
+# Aktivierung der Gastgewerbereservierung {#hospitality-reservation-activation}
 
 Das folgende Nutzungsszenario veranschaulicht die Verwendung der Aktivierung von Reservierungen im Gastgewerbe anhand der in Google Tabellen angegebenen Werten.
 
