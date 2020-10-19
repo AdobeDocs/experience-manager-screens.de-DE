@@ -80,7 +80,7 @@ Dieses Meeting besteht hauptsächlich aus A/V-Integratoren aus den Bereichen Kun
 
 In diesem Tutorial erfahren Sie mehr über Projekt-Management und Bereitstellungsvorbereitung und die Definition von Schlüsselfaktoren, für die der A/V-Integrator im Zusammenhang mit Projekt-Management und Bereitstellungsvorbereitung verantwortlich ist.
 
-###  Projekt-Management und Bereitstellung
+### Projekt-Management und Bereitstellung
 
 >[!VIDEO](https://video.tv.adobe.com/v/28408)
 
