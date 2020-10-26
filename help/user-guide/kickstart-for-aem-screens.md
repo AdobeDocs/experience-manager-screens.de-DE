@@ -3,20 +3,20 @@ title: Schnellstartanleitung
 seo-title: Schnellstartanleitung
 description: Befolgen Sie die Anweisungen auf dieser Seite, um ein Demoprojekt für AEM Screens zu erstellen. Ein Demoprojekt unterstützt Sie beim Erstellen eines Digital-Signage-Erlebnisses – von der Installation und Konfiguration eines neuen Projekts bis hin zum Anzeigen von Inhalten mit dem AEM Screens-Player.
 translation-type: tm+mt
-source-git-commit: d49ceecab42762425d779d50a31291091088ee19
+source-git-commit: 77c81b84631b090333db0095986f634fa99c8223
 workflow-type: tm+mt
-source-wordcount: '1320'
-ht-degree: 100%
+source-wordcount: '1317'
+ht-degree: 84%
 
 ---
 
 
 # Schnellstartanleitung         {#kickstart-guide}
 
-Dieser Abschnitt ist eine Schnellstartanleitung für AEM Screens und zeigt, wie ein AEM Screens-Projekt eingerichtet und ausgeführt wird. Er führt Sie durch die Einrichtung eines einfachen Digital-Signage-Erlebnisses, das Hinzufügen von Inhalten wie Assets und/oder Videos zu jedem Kanal und die weitere Veröffentlichung der Inhalte in einem AEM Screens-Player.
+Der Kurzstart zu AEM Screens zeigt, wie ein AEM Screens-Projekt eingerichtet und ausgeführt werden kann. Er führt Sie durch die Einrichtung eines einfachen Digital-Signage-Erlebnisses, das Hinzufügen von Inhalten wie Assets und/oder Videos zu jedem Kanal und die weitere Veröffentlichung der Inhalte in einem AEM Screens-Player.
 
 >[!NOTE]
->Bevor Sie mit der Arbeit an den Projektdetails beginnen, stellen Sie sicher, dass Sie das neueste Feature Pack installiert haben. Das neueste Feature Pack für AEM Screens 6.5.5 steht auf dem [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) zum Download zur Verfügung (Adobe ID erforderlich). 
+>Bevor Sie mit der Arbeit an den Projektdetails beginnen, stellen Sie sicher, dass Sie das neueste Feature Pack für AEM Screens installiert haben. You can download the latest feature pack from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) using your Adobe ID.
 
 ## Voraussetzungen {#prerequisites}
 
@@ -27,7 +27,7 @@ Gehen Sie wie folgt vor, um ein Beispielprojekt für AEM Screens zu erstellen un
 
 >[!IMPORTANT]
 >**OSGi-Konfigurationseinstellungen**
->Sie müssen den leeren Referrer aktivieren, um dem Gerät das Bereitstellen von Daten auf dem Server zu erlauben. Wenn die Eigenschaft für den leeren Referrer deaktiviert ist, kann das Gerät keine Screenshots zurückgeben. Derzeit sind einige dieser Funktionen nur verfügbar, wenn der Apache Sling Referrer-Filter „Allow Empty“ in der OSGi-Konfiguration aktiviert ist. Im Dashboard wird ggf. eine Warnung angezeigt, dass einige dieser Funktionen aufgrund der Sicherheitseinstellungen nicht funktionieren.
+>Sie müssen den leeren Werber aktivieren, damit das Gerät Daten an den Server senden kann. Wenn die Eigenschaft für den leeren Referrer deaktiviert ist, kann das Gerät keine Screenshots zurückgeben. Derzeit sind einige dieser Funktionen nur verfügbar, wenn der Apache Sling Referrer-Filter „Allow Empty“ in der OSGi-Konfiguration aktiviert ist. Im Dashboard wird ggf. eine Warnung angezeigt, dass einige dieser Funktionen aufgrund der Sicherheitseinstellungen nicht funktionieren.
 >Führen Sie die nachfolgenden Schritte aus, um den ***Apache Sling Referrer-Filter „Allow Empty“*** zu aktivieren:
 
 
@@ -47,12 +47,11 @@ Gehen Sie wie folgt vor, um ein Beispielprojekt für AEM Screens zu erstellen un
 
 1. Klicken Sie auf **Speichern**, um den Apache Sling Referrer-Filter „Leere erlauben“ zu aktivieren.
 
-
 ## Erstellen eines Digital-Signage-Erlebnisses in fünf Minuten {#creating-a-digital-signage-experience-in-minutes}
 
 ### Erstellen eines AEM Screens-Projekts {#creating-project}
 
-Der erste Schritt ist die Erstellung eines neuen AEM Screens-Projekts.
+Der erste Schritt besteht darin, ein AEM Screens-Projekt zu erstellen.
 
 1. Navigieren Sie zu Ihrer Adobe Experience Manager-Instanz und klicken Sie auf **Screens**. Sie haben auch die Möglichkeit, direkt zur folgenden URL zu wechseln: `https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens`.
 
@@ -63,35 +62,34 @@ Der erste Schritt ist die Erstellung eines neuen AEM Screens-Projekts.
    >[!NOTE]
    >Nachdem Sie das Projekt erstellt haben, gelangen Sie zurück zur Screens-Projekt-Startseite. Sie können Ihr Projekt jetzt auswählen. In einem Projekt gibt es fünf verschiedene Ordner mit dem Titel **Anwendungen**, **Kanäle**, **Geräte**, **Standorte** und **Zeitpläne**.
 
-
 ### Erstellen eines Kanals {#creating-channel}
 
-Wenn Sie ein Projekt konfiguriert haben, müssen Sie einen neuen Kanal zum Verwalten der Inhalte erstellen.
+Nachdem Sie Ihr AEM Screens-Projekt erstellt haben, müssen Sie einen neuen Kanal erstellen, in dem Sie die Inhalte verwalten.
 
 Gehen Sie wie folgt vor, um einen neuen Kanal für Ihr Projekt zu erstellen:
 
-1. Nachdem Sie ein Projekt erstellt haben, wählen Sie das Projekt **DemoScreens** aus und wählen Sie den Ordner **Kanäle**, wie in der folgenden Abbildung dargestellt. Klicken Sie in der Aktionsleiste auf **+ Erstellen**.
+1. Once you create a project, select the **DemoScreens** project and select the **Channels** folder, as shown in the figure below. Klicken Sie in der Aktionsleiste auf **+ Erstellen**.
 
    ![image](assets/kickstart/demo-2.png)
 
 1. Wählen Sie im Assistenten die Vorlage **Sequenzkanal** aus und klicken Sie auf **Weiter**.
    ![image](assets/kickstart/demo-3.png)
 
-1. Geben Sie **TestChannel** als *Titel* ein und klicken Sie auf **Erstellen**.
+1. Geben Sie **TestChannel** als **Titel** ein und klicken Sie auf **Erstellen**.
 
    ![image](assets/kickstart/demo-4.png)
 
-   Der *TestChannel* wird erstellt und dem Ordner „Kanäle“ hinzugefügt, wie in der nachfolgenden Abbildung gezeigt.
+   The **TestChannel** is now added to your channels folder, as shown in the figure below.
 
    ![image](assets/kickstart/demo-5.png)
 
 ### Hinzufügen von Inhalten zu Kanälen {#adding-content}
 
-Wenn Sie einen Kanal erstellt haben, müssen Sie diesem Inhalte hinzufügen, die vom Screens-Player angezeigt werden.
+Sobald Sie Ihren Kanal eingerichtet haben, müssen Sie dem Kanal Inhalte hinzufügen, die von AEM Screens Player angezeigt werden.
 
-Gehen Sie wie folgt vor, um dem Kanal (*TestChannel*) Ihres Projekts Inhalte hinzuzufügen:
+Gehen Sie wie folgt vor, um dem Kanal (**TestChannel**) Ihres Projekts Inhalte hinzuzufügen:
 
-1. Navigieren Sie zum erstellten **DemoProject** und wählen Sie den Ordner **Kanal** aus.
+1. Navigate to the **DemoProject** you created and select the **TestChannel** from the **Channels** folder.
 
 1. Klicken Sie in der Aktionsleiste auf **Bearbeiten** (siehe Abbildung unten). Der Editor für den **Testkanal** wird geöffnet.
 
@@ -118,7 +116,7 @@ Gehen Sie wie folgt vor, um einen neuen Standort für Ihr Projekt zu erstellen:
 
 1. Wählen Sie im Assistenten **Standort** aus und klicken Sie auf **Weiter**.
 
-1. Geben Sie den **Namen** und Titel für Ihren Standort ein (geben Sie als Titel *TestLocation* ein) und klicken Sie auf **Erstellen**.
+1. Geben Sie den **Namen** und Titel für Ihren Standort ein (geben Sie als Titel **TestLocation** ein) und klicken Sie auf **Erstellen**.
 
 Der Standort **TestLocation** wird erstellt und dem Ordner **Standorte** hinzugefügt.
 
@@ -128,7 +126,7 @@ Der Standort **TestLocation** wird erstellt und dem Ordner **Standorte** hinzu
 Nachdem Sie einen Standort konfiguriert haben, müssen Sie eine neue Anzeige für diesen erstellen.
 
 >[!NOTE]
->***Anzeigen*** repräsentieren das digitale Erlebnis, das auf einem oder mehreren Bildschirmen dargestellt wird.
+>***Display*** represents the digital experience that run on one or multiple screens.
 
 1. Navigieren Sie zur **TestLocation** und wählen Sie sie aus.
 
@@ -213,7 +211,7 @@ Sobald Ihr Chrome OS-Player eingerichtet ist, führen Sie die folgenden Schritte
 
    ![image](assets/kickstart/demo-register2.png)
 
-1. Warten Sie, bis das Gerät seinen Registrierungs-Code sendet, und überprüfen Sie gleichzeitig von Ihrem Chrome-Gerät aus den **Registrierungs-Code**.
+1. Wait for the device to send its registration code and simultaneously check the **Registration Code** from your Chrome device.
    ![image](assets/kickstart/demo-register3.png)
 
 1. Wenn der **Registrierungs-Code** auf beiden Geräten identisch ist, tippen/klicken Sie in AEM auf die Option **Bestätigen**.
@@ -234,9 +232,7 @@ Sobald Ihr Chrome OS-Player eingerichtet ist, führen Sie die folgenden Schritte
 
    ![image](assets/kickstart/demo-register8.png)
 
-1. Tippen/klicken Sie auf **Beenden**, um den Registrierungsprozess abzuschließen.
-
-1. Sie Ihr registriertes Gerät jetzt über das Anzeigen-Dashboard anzeigen können.
+1. Tippen/klicken Sie auf **Beenden**, um den Registrierungsprozess abzuschließen. Sie Ihr registriertes Gerät jetzt über das Anzeigen-Dashboard anzeigen können.
 
    ![image](assets/kickstart/demo-register9.png)
 
@@ -247,9 +243,3 @@ Alle Assets in Ihrem Kanal werden jetzt auf Ihrem Chrome OS-Player wiedergegeben
 Herzlichen Glückwunsch! Jetzt spielen Sie Inhalte in einem AEM Screens-Kanal ab!
 
 ![image](assets/kickstart/demo-video-screens.gif)
-
-
-
-
-
-
