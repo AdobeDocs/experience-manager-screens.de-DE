@@ -12,9 +12,9 @@ tutorials-title: Tutorials
 tutorials-url: https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-screens.de-DE
 translation-type: tm+mt
-source-git-commit: 6a65a187622ff95dce0a81b0a17d97893daf6625
+source-git-commit: 5be539930b26902d696c14b06c8c3700fdc8ccf8
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '82'
 ht-degree: 100%
 
 ---
@@ -23,13 +23,3 @@ ht-degree: 100%
 # Metadaten für die interne Verwendung
 
 Die metadata.md-Datei enthält Metadaten auf Repo-Ebene, die über die TOC.md-Dateien des Benutzerhandbuchs zu Repo weitergegeben werden. Wenn Sie den Inhalt von metadata.md für ein beliebiges Benutzerhandbuch ändern möchten, tun Sie dies in einer TOC.md-Datei.
-
-| metadata | Funktion |
-|--- |--- |
-| solution-title | Wird in der Artikelkopfzeile als Link verwendet |
-| solution-hub-url | Öffnet die helpx-Hub-Seite |
-| solution-icon | Zeigt das Lösungssymbol neben Lösungstitel an. Noch nicht implementiert |
-| getting-started-url | Link zur helpx-Seite „Erste Schritte“ |
-| tutorials-url | Link zu Videotutorials – entweder helpx-Tutorials oder KT-Tutorials |
-| mini-toc-levels | Legt die Anzahl der Überschriftenebenen fest, die in der rechten Leiste angezeigt werden. Standard ist 2 |
-| git-repo | Gibt den Speicherort des Master-Repo für die interne Verwendung an. |
