@@ -2,9 +2,9 @@
 title: Zehn Player
 description: Diese Seite beschreibt die Installation und die Arbeit von Tizen Player.
 translation-type: tm+mt
-source-git-commit: 8f8973c4fda8d40f919e199be3df15ba42f0a6c6
+source-git-commit: 835da341fcee8e4abb3375c43a0a130d3f79d859
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '223'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ Gehen Sie wie folgt vor, um den lokalen Server einzurichten und die extrahierten
 1. Rufen Sie die IP-Adresse Ihres lokalen Computers ab.
 
    >[!NOTE]
-   >Sie können die IP-Adresse vom Terminal Ihres Computers abrufen, indem Sie die folgenden Befehle eingeben:
+   >Sie können die IP-Adresse mithilfe der folgenden Befehle vom Terminal Ihres Computers abrufen:
    >* **Mac**: `ifconfig`
    >* **Windows**: `ipconfig`
 
