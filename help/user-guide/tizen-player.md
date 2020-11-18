@@ -2,9 +2,9 @@
 title: Zehn Player
 description: Diese Seite beschreibt die Installation und die Arbeit von Tizen Player.
 translation-type: tm+mt
-source-git-commit: b439cfab068dcbbfab602ad8d31aaa2781bde805
+source-git-commit: baefade9fa013bc77ed1f112d0ad2098c992dde5
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '191'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,9 @@ Gehen Sie wie folgt vor, um Tizen Player für AEM Screens zu implementieren:
 1. Rufen Sie die IP-Adresse Ihres lokalen Computers ab.
 
    >[!NOTE]
-   >Geben Sie für **Mac** und **Windows** Befehl `ifconfig` im Terminal ein.
+   >Geben Sie im Terminal Ihres Computers die folgenden Befehle ein:
+   >**Mac** verwenden, Befehl `ifconfig`
+   >**Windows**, Befehl verwenden `ipconfig`
 
 1. Navigieren Sie im Terminal zum selben Ordner des entpackten Installationsordners und überprüfen Sie, ob der localhost funktioniert.
 
