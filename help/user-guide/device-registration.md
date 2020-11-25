@@ -37,7 +37,6 @@ Der Prozess zur Geräteregistrierung erfolgt auf 2 separaten Geräten:
 >1. Halten Sie die linke obere Ecke gedrückt, um den Admin-Bereich zu öffnen.
 >1. Navigieren Sie im linken Aktionsmenü zu **Konfiguration**, geben Sie die Standortadresse der AEM-Instanz unter **Server** ein und klicken Sie auf **Speichern**.
 >1. Klicken Sie im linken Aktionsmenü auf den Link **Registrierung** und führen Sie die folgenden Schritte aus, um die Geräteregistrierung abzuschließen.
-
 >
 
 

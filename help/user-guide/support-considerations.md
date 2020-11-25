@@ -31,10 +31,8 @@ Diese Seite enthält den letzten Teil einer 5-teiligen Serie, der Team-Mitgliede
 >
 >* Projektbereitstellung vor Ort
 >* Überprüfung von Gerätekonnektivität und -betrieb durch den Installationstechniker und das NOC (Network Operations Center)
-
 >
->
-Vor Beginn von Tag 2 sollte die Planung für laufende Lebenszyklusbudgets abgeschlossen werden.
+>Vor Beginn von Tag 2 sollte die Planung für laufende Lebenszyklusbudgets abgeschlossen werden.
 
 Die Planung umfasst:
 
