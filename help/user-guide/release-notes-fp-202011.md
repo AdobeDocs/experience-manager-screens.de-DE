@@ -2,10 +2,10 @@
 title: Versionshinweise für Feature Pack 202011
 description: Auf der Seite werden die Versionshinweise für Feature Pack 202011 beschrieben.
 translation-type: tm+mt
-source-git-commit: 3f1bb40a6916820b256630c7efef36798ac5fa5a
+source-git-commit: 53aa385b7f767a88ad19b834ecf971f6c9aa0f84
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 52%
+source-wordcount: '260'
+ht-degree: 51%
 
 ---
 
@@ -30,13 +30,13 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 2011 ist der 30. Novem
 * **Inhaltszuweisungsbericht**
 
    Die Funktion &quot;Inhaltszuweisungsbericht&quot;ermöglicht es einem AEM Screens-Administrator oder einem Autor, einen *Inhaltszuweisungsbericht* zu exportieren, der im Tabellenformat vorliegen könnte.
-Weitere Informationen finden Sie unter **Inhaltszuweisungsbericht**.
+Weitere Informationen finden Sie unter [Inhaltszuweisungsbericht](/help/user-guide/content-assignment-report.md).
 
 
 * **Zehn Player**
 
    Ein neuer Player namens Tizen Player wurde mit dem neuesten Feature Pack für AEM Screens 6.5.6 eingeführt.
-Weitere Informationen finden Sie unter **Implementieren des Zehn-Players**.
+Weitere Informationen finden Sie unter [Implementieren des Zehn-Players](/help/user-guide/tizen-player.md).
 
 * **Suchfunktionen im Geräte-Manager**
 
@@ -46,17 +46,15 @@ Weitere Informationen finden Sie unter **Implementieren des Zehn-Players**.
 
    Das standardmäßige Ping-Intervall ist jetzt für diese Version auf 30 Sekunden eingestellt.
 
-### Bekannte Probleme und Fehlerbehebungen {#known-issues}
-
-
-
 ### Veröffentlichte AEM Screens-Player {#released-aem-screens-players}
 
-Die folgenden AEM Screens-Spieler werden für AEM Screens veröffentlicht
+Die folgenden AEM Screens Player sind für AEM 6.5 Feature Pack 6 erhältlich:
 
 * Chrome OS
 * Windows
 * Android
+* Zehn
+* Linux
 
 #### AEM Screens-Player-Downloads {#aem-screens-player-downloads}
 
