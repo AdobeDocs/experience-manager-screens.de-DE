@@ -71,15 +71,15 @@ Die folgende Tabelle fasst den Pfad mit den Berechtigungen auf Projektebene zusa
 | `/apps/<project>` | READ | Stellt Zugriff auf Projektdateien bereit (falls anwendbar) |
 | `/content/dam/<project>` | ALL | Stellt Zugriff für die Speicherung von Assets zum Projekt bereit, wie zum Beispiel von Bildern oder Videos in DAM |
 | `/content/screens/<project>` | ALL | Hebt den Zugriff auf alle anderen Projekte unter /content/screens auf. |
-| `/content/screens/svc` | READ | Stellt den Zugriff auf den Registrierungsservice bereit |
-| `/libs/screens` | READ | Stellt den Zugriff auf DCC bereit |
+| `/content/screens/svc` | LESEN | Stellt den Zugriff auf den Registrierungsservice bereit |
+| `/libs/screens` | LESEN | Stellt den Zugriff auf DCC bereit |
 | `/var/contentsync/content/screens/` | ALL | Ermöglicht die Aktualisierung von Offlineinhalten |
 
 >[!NOTE]
 >
 >In einigen Fällen können Sie separate Autorenfunktionen (wie das Verwalten von Assets und das Erstellen von Kanälen) von den Administratorfunktionen (wie dem Registrieren von Playern) trennen. Erstellen Sie bei solchen Szenarien zwei Gruppen, fügen Sie die Gruppe „authors“ zu „contributors“ hinzu und fügen Sie die Gruppe „admin“ sowohl zu „contributors“ als auch zu „user-administrators“ hinzu.
 
-### Erstellen von Gruppen      {#creating-groups}
+### Erstellen von Gruppen       {#creating-groups}
 
 Bei der Erstellung eines neuen Projekts sollten auch Standardbenutzergruppen erstellt werden, denen eine Reihe von Berechtigungen zugewiesen ist. Sie sollten die Berechtigungen auf die typischen Rollen erweitern, über die wir bei AEM Screens verfügen.
 
