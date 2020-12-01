@@ -27,7 +27,7 @@ Komponenten sind die grundlegenden Elemente des AEM (Adobe Experience Manager)-E
 
 AEM Screens bietet verschiedene AEM-Komponenten, die sich in Screens-Projekten verwenden lassen.
 
-### Anzeigen von AEM Screens-Komponenten        {#viewing-aem-screens-components}
+### Anzeigen von AEM Screens-Komponenten         {#viewing-aem-screens-components}
 
 Beim Erstellen eines AEM Screens-Projekts wird eine Liste der Standardkomponenten angezeigt, die dem Projekt hinzugefügt werden können.
 
@@ -60,7 +60,7 @@ Im folgenden Beispiel sehen Sie, wie einem AEM Screens-Projekt eine Livefyre-Kom
 >
 >Auf die gleiche Weise können Sie dem Projekt eine beliebige Anzahl anderer neuer Komponenten hinzufügen, die mit AEM Screens kompatibel sind.
 
-## Grundlegendes zu AEM Screens-Komponenten        {#understanding-aem-screen-components}
+## Grundlegendes zu AEM Screens-Komponenten         {#understanding-aem-screen-components}
 
 Im folgenden Abschnitt werden die AEM Screens-Komponenten beschrieben, die Sie für Projekte nutzen können.
 
@@ -87,7 +87,7 @@ Im folgenden Beispiel sehen Sie, wie die Komponente „Anwendung“ hinzugefügt
 >
 >Im Beispiel oben sehen Sie, wie Eigenschaften aller nachfolgenden Komponenten aufgerufen werden können.
 
-### Kanal        {#channel}
+### Kanal         {#channel}
 
 Mit der Komponente **Kanal** können Sie Projekten einen vollständigen Kanal hinzufügen.
 
@@ -204,7 +204,7 @@ Weitere Informationen zum Erstellen eines Experience Fragments und dessen Verwen
 | **Eigenschaft** | **Beschreibung** |
 |---|---|
 | **Experience Fragment** |
-| ***Experience Fragment*** | Wählen Sie das Experience Fragment aus. |
+| ***Erlebnisfragment*** | Wählen Sie das Experience Fragment aus. |
 | ***Dauer*** | Wählen Sie die Gesamtdauer des Experience Fragment aus, das im Kanal wiedergegeben wird. |
 | **Offline-Konfiguration** |
 | ***Client-seitige Bibliotheken*** | JavaScript- und CSS-Dateien. |
