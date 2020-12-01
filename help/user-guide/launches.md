@@ -98,7 +98,7 @@ Gehen Sie gemäß nachstehendem Abschnitt vor, um Screens Launch-Funktionen in I
 
 1. Wählen Sie den Kanal **FutureLaunch** aus und klicken Sie in der Aktionsleiste auf **Launch erstellen**.
 
-   ![Image](/help/user-guide/assets/launches-images/launches-12.png)
+   ![Bild](/help/user-guide/assets/launches-images/launches-12.png)
 
 1. Der Assistent **Launch erstellen** wird geöffnet. Sie können entweder den Kanal auswählen, der bereits im Assistenten angezeigt wird, oder auf **+ Kanäle hinzufügen** klicken, um den Kanal hinzuzufügen, für den Sie den Launch erstellen möchten.
 
@@ -127,7 +127,7 @@ Gehen Sie gemäß nachstehendem Abschnitt vor, um Screens Launch-Funktionen in I
    >
    >Durch *Deaktivieren* der Option **Quellseiten-Live-Daten übernehmen** können die Kanäle ohne Live-Beziehung in den Launch kopiert werden. Wenn also Änderungen am ursprünglichen Kanal vorgenommen werden, werden diese Änderungen nicht auf die Launch-Kanäle angewendet.
 
-   ![Image](/help/user-guide/assets/launches-images/launches-c.png)
+   ![Bild](/help/user-guide/assets/launches-images/launches-c.png)
 
    >[!NOTE]
    >
@@ -149,7 +149,7 @@ Gehen Sie gemäß nachstehendem Abschnitt vor, um Screens Launch-Funktionen in I
 
    Durch Klicken auf **Fertig** können Sie zurück zu Ihrem Kanal **FutureLaunch** navigieren.
 
-   ![Image](/help/user-guide/assets/launches-images/launches-16.png)
+   ![Bild](/help/user-guide/assets/launches-images/launches-16.png)
 
 
 ### Bearbeiten der Launch-Eigenschaften zum Festlegen des Live-Datums und des Umfangs {#editing-the-launch-properties-to-set-the-live-date-and-scope}
