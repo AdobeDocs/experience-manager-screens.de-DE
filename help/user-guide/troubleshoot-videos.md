@@ -71,7 +71,7 @@ Vergewissern Sie sich, dass ffmpeg installiert ist, und prüfen Sie die Videopro
    >
    >Stellen Sie sicher, dass Sie lange genug warten, bis das Video transkodiert wurde (es sollte das Tag „neu“ aufweisen statt „in Bearbeitung“), bevor Sie es zu einem Kanal hinzufügen.
 
-### Testen des Profils mit einer Videokomponente       {#checking-profile-with-a-video-component}
+### Testen des Profils mit einer Videokomponente        {#checking-profile-with-a-video-component}
 
 Prüfen Sie die Liste der Profile über die Design-Seite, wenn die Videokomponente nicht korrekt konfiguriert ist.
 
