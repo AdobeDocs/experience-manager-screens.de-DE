@@ -6,10 +6,10 @@ seo-description: Auf dieser Seite erhalten Sie Antworten auf häufig gestellte F
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 63e3b9d7ad1519b575726dca492e5b5bd64c222d
+source-git-commit: a2bfbfcbeaffd663378297a6eb155f38b64c8402
 workflow-type: tm+mt
-source-wordcount: '1542'
-ht-degree: 95%
+source-wordcount: '1705'
+ht-degree: 86%
 
 ---
 
@@ -17,6 +17,21 @@ ht-degree: 95%
 # Häufig gestellte Fragen zu AEM Screens {#aem-screens-faqs}
 
 Im folgenden Abschnitt finden Sie Antworten auf verschiedene häufig gestellte Fragen zu AEM Screens-Projekten.
+
+## Problem mit leeren Bildschirmen {#blank-screen}
+
+>[!NOTE]
+>Die aufgelisteten obligatorischen Prüfungen, die von primärem Support oder vom Kundensupport getestet werden sollten, bevor ein Problem auftritt:
+
+### 1. Was sollten die Schritte zur Fehlerbehebung bei der ersten Hilfe für Kunden sein, die mit einem schwarzen Bildschirm oder nicht wiedergegebenen Inhalten konfrontiert sind? {#troubleshooting-blank-screen}
+
+* Überprüfen Sie, ob die Vorschau des Kanals funktioniert.
+* Überprüfen Sie, ob die Display-Vorschau funktioniert.
+* Versuchen Sie, den Player als Browsererweiterung auf Ihrem Laptop auf demselben Display zu registrieren und überprüfen Sie, ob dies funktioniert.
+* Navigieren Sie mit dem Player auf Ihrem System zu `http://localhost:24502`. Überprüfen Sie, ob der gesamte Inhalt korrekt heruntergeladen wurde.
+* Überprüfen Sie, ob die entsprechenden Ausgabeformate erstellt wurden und die richtige Darstellung wiedergegeben wird.
+* Überprüfen Sie, ob der geplante Inhalt korrekt ist. Überprüfen Sie, ob die im Player eingestellte Zeit korrekt ist.
+* Überprüfen Sie die Player-Konsolenprotokolle und prüfen Sie, ob Fehler vorliegen. Klicken Sie mit der rechten Maustaste und überprüfen Sie die Konsolenprotokolle. Wenn Sie den Windows-Player verwenden, drücken Sie `CTRL + ALT +I`, um die dev-Konsole zur Ansicht der Protokolle aufzurufen.
 
 ## Kanalverwaltung {#channel-management}
 
