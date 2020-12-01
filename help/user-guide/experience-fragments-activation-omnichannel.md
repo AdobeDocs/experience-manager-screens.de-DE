@@ -27,17 +27,17 @@ Im folgenden Anwendungsfall können Sie ein Demoprojekt implementieren, von dem 
 
 >[!NOTE]
 >**Voraussetzungen
->Sie müssen über Vorkenntnisse zu den Grundlagen von Erlebnisfragmenten und zur Verwendung von Erlebnisfragmenten in einem AEM Screens-Projekt verfügen. See [Using Experience Fragments](/help/user-guide/experience-fragments-in-screens.md)
+>Sie müssen über Vorkenntnisse zu den Grundlagen von Erlebnisfragmenten und zur Verwendung von Erlebnisfragmenten in einem AEM Screens-Projekt verfügen. Siehe [Erlebnisfragmente verwenden](/help/user-guide/experience-fragments-in-screens.md)
 
-### Setting up the Demo Project {#demo-project-setup}
+### Einrichten des Demoprojekts {#demo-project-setup}
 
-Erstellen Sie ein Projekt mit dem Titel **DemoProject** und einen Sequenzcode mit dem Kanal **TestChannel** in Ihrem AEM Screens, wie in der folgenden Abbildung dargestellt.
+Erstellen Sie ein Projekt mit dem Titel **DemoProject** und einen Sequenz-Kanal mit dem Titel **TestChannel** in Ihrem AEM Screens, wie in der folgenden Abbildung dargestellt.
 
 ### Implementieren des Erlebnisfragments in einem AEM Screens-Projekt {#experience-fragments-implementation}
 
-Nachdem Sie ein Erlebnisfragment erstellt und in Ihrem AEM Screens-Projekt genutzt haben, können Sie **DemoProject** jetzt das Erlebnisfragment entsprechend Ihren Anforderungen erweitern.
+Nachdem Sie ein Erlebnisfragment erstellt und in Ihrem AEM Screens-Projekt verwendet haben, können Sie **DemoProject** jetzt das Erlebnisfragment entsprechend Ihren Anforderungen erweitern.
 
-### Textgröße erhöhen {#increasing-text-size}
+### Erhöhen der Textgröße {#increasing-text-size}
 
 
 
