@@ -33,18 +33,18 @@ Datengesteuerte Ereignisse werden in vier Kategorien unterteilt:
 * Umsetzbare Datenausgabe
 * Präsentationsbezogene Datenausgabe
 
-#### Betriebsbezogene Dateneingabe    {#data-in-operational}
+#### Betriebsbezogene Dateneingabe     {#data-in-operational}
 
 Hier ist eine weitere Kategorisierung in Kanalinterrupt und Platzhalter möglich.
 
-#### Präsentationsbezogene Dateneingabe    {#data-in-presentation}
+#### Präsentationsbezogene Dateneingabe     {#data-in-presentation}
 
 Daten laufen in einem temporären Kanal und nach einem Auslöser wird ein Asset in einem Kanal geändert.
 
-#### Umsetzbare Datenausgabe    {#data-out-actionable}
+#### Umsetzbare Datenausgabe     {#data-out-actionable}
 
 Ein Befehl wird an den LCD-Bildschirm zum Ein- und Ausschalten des Bildschirms gesendet. Ein Beispiel wäre die Helligkeit oder Lautstärke des Bildschirms.
 
-#### Präsentationsbezogene Datenausgabe    {#data-out-presentational}
+#### Präsentationsbezogene Datenausgabe     {#data-out-presentational}
 
 Ein Diagramm aggregiert Informationen in einer Feedbackschleife. Ereignisse werden mithilfe von Analysen bewertet und kommuniziert.
