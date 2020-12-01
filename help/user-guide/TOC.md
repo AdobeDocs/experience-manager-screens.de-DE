@@ -6,10 +6,10 @@ user-guide-title: Adobe Experience Manager Screens-Hilfe
 breadcrumb-title: AEM Screens-Anleitung
 user-guide-description: Erfahren Sie, wie Sie mit einer Digital Signage-Lösung dynamische und interaktive digitale Erlebnisse und Interaktionen veröffentlichen können.
 translation-type: tm+mt
-source-git-commit: 20c6e15dbee0f2e50b42155d84fac7d6f372170e
+source-git-commit: 2d46d9f4d76739826fae0e75c1387d7a80bce69c
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 100%
+source-wordcount: '431'
+ht-degree: 99%
 
 ---
 
@@ -43,6 +43,7 @@ ht-degree: 100%
       + [Verwenden von Chrome-Player als Erweiterung zur Problembehebung](using-chrome-player-as-an-extension.md)
       + [Android-Player](implementing-android-player.md)
       + [Windows-Player](implementing-windows-player.md)
+      + [Zehn Player](tizen-player.md)
    + Autoren- und Veröffentlichungsinstanz {#author-publish}
       + [Architektonischer Überblick zur Autoren- und Veröffentlichungsinstanz](author-publish-architecture-overview.md)
       + [Konfigurieren von Autoren- und Veröffentlichungsinstanz](author-and-publish.md)
@@ -78,6 +79,7 @@ ht-degree: 100%
       + [Befehlssynchronisierung](using-command-sync.md)
       + [Inhaltserstellung mit Datenauslösern](authoring-data-triggers.md)
       + [Spracherkennung](voice-recognition.md)
+      + [Inhaltszuweisungsbericht](content-assignment-report.md)
    + Verwalten von Inhaltsaktualisierungen {#content-updates}
       + [On-Demand-Inhaltsaktualisierungen](on-demand-content.md)
       + [Aktualisierungen von Content-as-a-Service](content-update-as-a-service.md)
@@ -106,6 +108,7 @@ ht-degree: 100%
    + [Problembehebung in der Gerätesteuerung](monitoring-screens.md)
    + [Konfiguration der Videowiedergabe](troubleshoot-videos.md)
 + Versionshinweise {#release-notes}
+   + [Versionshinweise für Feature Pack 202011](release-notes-fp-202011.md)
    + [Versionshinweise für Feature Pack 202008](release-notes-fp-202008.md)
    + [Versionshinweise für Feature Pack 202004](release-notes-fp-202004.md)
    + [Versionshinweise für Feature Pack 202001](release-notes-fp-202001.md)
