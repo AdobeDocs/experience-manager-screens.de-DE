@@ -16,7 +16,7 @@ ht-degree: 84%
 Der Kurzstart zu AEM Screens zeigt, wie ein AEM Screens-Projekt eingerichtet und ausgeführt werden kann. Er führt Sie durch die Einrichtung eines einfachen Digital-Signage-Erlebnisses, das Hinzufügen von Inhalten wie Assets und/oder Videos zu jedem Kanal und die weitere Veröffentlichung der Inhalte in einem AEM Screens-Player.
 
 >[!NOTE]
->Bevor Sie mit der Arbeit an den Projektdetails beginnen, stellen Sie sicher, dass Sie das neueste Feature Pack für AEM Screens installiert haben. You can download the latest feature pack from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) using your Adobe ID.
+>Bevor Sie mit der Arbeit an den Projektdetails beginnen, stellen Sie sicher, dass Sie das neueste Feature Pack für AEM Screens installiert haben. Sie können das neueste Feature Pack über das [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) mit Ihrem Adobe ID herunterladen.
 
 ## Voraussetzungen {#prerequisites}
 
@@ -68,7 +68,7 @@ Nachdem Sie Ihr AEM Screens-Projekt erstellt haben, müssen Sie einen neuen Kana
 
 Gehen Sie wie folgt vor, um einen neuen Kanal für Ihr Projekt zu erstellen:
 
-1. Once you create a project, select the **DemoScreens** project and select the **Channels** folder, as shown in the figure below. Klicken Sie in der Aktionsleiste auf **+ Erstellen**.
+1. Nachdem Sie ein Projekt erstellt haben, wählen Sie das Projekt **DemoScreens** aus und wählen Sie den Ordner **Kanal** aus, wie in der Abbildung unten dargestellt. Klicken Sie in der Aktionsleiste auf **+ Erstellen**.
 
    ![image](assets/kickstart/demo-2.png)
 
@@ -79,7 +79,7 @@ Gehen Sie wie folgt vor, um einen neuen Kanal für Ihr Projekt zu erstellen:
 
    ![image](assets/kickstart/demo-4.png)
 
-   The **TestChannel** is now added to your channels folder, as shown in the figure below.
+   Der Ordner **TestChannel** wird nun Ihrem Kanal hinzugefügt, wie in der folgenden Abbildung dargestellt.
 
    ![image](assets/kickstart/demo-5.png)
 
@@ -89,7 +89,7 @@ Sobald Sie Ihren Kanal eingerichtet haben, müssen Sie dem Kanal Inhalte hinzuf�
 
 Gehen Sie wie folgt vor, um dem Kanal (**TestChannel**) Ihres Projekts Inhalte hinzuzufügen:
 
-1. Navigate to the **DemoProject** you created and select the **TestChannel** from the **Channels** folder.
+1. Navigieren Sie zum erstellten **DemoProject** und wählen Sie den Ordner **TestChannel** aus dem Ordner **Kanal**.
 
 1. Klicken Sie in der Aktionsleiste auf **Bearbeiten** (siehe Abbildung unten). Der Editor für den **Testkanal** wird geöffnet.
 
@@ -126,7 +126,7 @@ Der Standort **TestLocation** wird erstellt und dem Ordner **Standorte** hinzu
 Nachdem Sie einen Standort konfiguriert haben, müssen Sie eine neue Anzeige für diesen erstellen.
 
 >[!NOTE]
->***Display*** represents the digital experience that run on one or multiple screens.
+>***Display*** stellt das digitale Erlebnis dar, das auf einem oder mehreren Bildschirmen ausgeführt wird.
 
 1. Navigieren Sie zur **TestLocation** und wählen Sie sie aus.
 
@@ -211,7 +211,7 @@ Sobald Ihr Chrome OS-Player eingerichtet ist, führen Sie die folgenden Schritte
 
    ![image](assets/kickstart/demo-register2.png)
 
-1. Wait for the device to send its registration code and simultaneously check the **Registration Code** from your Chrome device.
+1. Warten Sie, bis das Gerät seinen Registrierungscode sendet und prüfen Sie gleichzeitig den **Registrierungscode** von Ihrem Chrome-Gerät aus.
    ![image](assets/kickstart/demo-register3.png)
 
 1. Wenn der **Registrierungs-Code** auf beiden Geräten identisch ist, tippen/klicken Sie in AEM auf die Option **Bestätigen**.
