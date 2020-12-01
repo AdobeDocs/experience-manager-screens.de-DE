@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 3f1bb40a6916820b256630c7efef36798ac5fa5a
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 51%
+ht-degree: 52%
 
 ---
 
@@ -29,14 +29,14 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 2011 ist der 30. Novem
 
 * **Inhaltszuweisungsbericht**
 
-   Die Funktion &quot;Bericht zur Inhaltszuweisung&quot;ermöglicht es einem AEM Screens-Administrator oder einem Autor, einen *Inhaltszuweisungsbericht* im Tabellenformat zu exportieren.
-Refer to **Content Assignment Report** for more details.
+   Die Funktion &quot;Inhaltszuweisungsbericht&quot;ermöglicht es einem AEM Screens-Administrator oder einem Autor, einen *Inhaltszuweisungsbericht* zu exportieren, der im Tabellenformat vorliegen könnte.
+Weitere Informationen finden Sie unter **Inhaltszuweisungsbericht**.
 
 
 * **Zehn Player**
 
    Ein neuer Player namens Tizen Player wurde mit dem neuesten Feature Pack für AEM Screens 6.5.6 eingeführt.
-Refer to **Implementing Tizen Player** for more details.
+Weitere Informationen finden Sie unter **Implementieren des Zehn-Players**.
 
 * **Suchfunktionen im Geräte-Manager**
 
