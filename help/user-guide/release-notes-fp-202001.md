@@ -36,8 +36,9 @@ Weitere Informationen zur Befehlssynchronisierung und zum Festlegen von Master u
 
    Weitere Informationen zum Framework für Statusprüfungen finden Sie unter [Framework für Statusprüfungen ](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
 
-* **Aktualisierungen der Standardtypen** der TransitionDie Eigenschaften der Transition, z. B. 
-**Der Typ** ist jetzt standardmäßig auf **Fade** und die **Dauer** auf **1600 ms** eingestellt.
+* **Aktualisierungen der Standardtypen**
+der TransitionEigenschaften der Transition, z. B. 
+**&quot;** Typeis&quot;ist jetzt standardmäßig auf &quot; **** Fadeand&quot;und &quot; **** Durationas&quot; **1600 ms** eingestellt.
 
    Weitere Informationen finden Sie im Anwendungsbeispiel [Anwenden von Übergängen](/help/user-guide/applying-transitions.md).
 
