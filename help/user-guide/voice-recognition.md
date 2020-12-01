@@ -150,8 +150,8 @@ Jetzt können Sie diese Tags in Ihrem AEM Screens-Projekt verwenden.
    |---|---|---|
    | Main | 2 | Erster Ladevorgang, Bildschirm bei Untätigkeit, Timer |
    | HotDrinks | 1 | Benutzerinteraktion |
-   | ColdDrinks | 1 | Benutzerinteraktion |
-   | SplitScreen | 1 | Benutzerinteraktion |
+   | ColdDrinks | 3 | Benutzerinteraktion |
+   | SplitScreen | 3 | Benutzerinteraktion |
 
    >[!NOTE]
    >
