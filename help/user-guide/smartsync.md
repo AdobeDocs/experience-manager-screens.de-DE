@@ -63,7 +63,7 @@ Die Funktion SmartSync bietet eine Reihe von Vorteilen für AEM Screens-Projekte
 |---|---|
 | Android | 3.3.72 |
 | ChromeOS | 1.0.136 |
-| Windows | 1.0.136 |
+| Windows | 1,0,136 |
 
 Gehen Sie wie folgt vor, um von ContentSync zu SmartSync zu wechseln:
 
