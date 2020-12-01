@@ -7,16 +7,16 @@ translation-type: tm+mt
 source-git-commit: 6c2c7e4f757666160b79018d1195a79b99a4202d
 workflow-type: tm+mt
 source-wordcount: '1326'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
-# Erstellen und Verwalten von Kanälen{#creating-and-managing-channels} 
+# Erstellen und Verwalten von Kanälen {#creating-and-managing-channels}
 
-Ein Kanal zeigt eine Inhaltssequenz (Bilder und Videos) an und zeigt auch eine Website oder eine Einzelseitenanwendung an.
+Ein Kanal zeigt eine Sequenz von Inhalten (Bilder und Videos) oder eine Website oder Single Page Application an.
 
-Diese Seite zeigt das Erstellen und Verwalten von Kanälen für AEM Screens.
+Auf dieser Seite wird gezeigt, wie Kanäle für AEM Screens erstellt und verwaltet werden.
 
 **Voraussetzungen**:
 
@@ -27,7 +27,7 @@ Diese Seite zeigt das Erstellen und Verwalten von Kanälen für AEM Screens.
 
 Wenn Sie Ihr Projekt für AEM Screens erstellen, gehen Sie wie folgt vor, um einen neuen Kanal für Ihr Projekt zu erstellen:
 
-1. Wählen Sie den Adobe Experience Manager-Link (oben links) und dann Screens aus. Sie haben auch die Möglichkeit, direkt zur folgenden URL zu wechseln: `https://localhost:4502/screens.html/content/screens`.
+1. Wählen Sie den Link zu Adobe Experience Manager (oben links) und dann Screens aus. Sie haben auch die Möglichkeit, direkt zur folgenden URL zu wechseln: `https://localhost:4502/screens.html/content/screens`.
 
 1. Navigieren Sie zu Ihrem Screens-Projekt und wählen Sie den Ordner **Kanäle**.
 
@@ -45,15 +45,15 @@ Wenn Sie Ihr Projekt für AEM Screens erstellen, gehen Sie wie folgt vor, um ein
 
 1. Dem Ordner **Kanäle** wird nun ein Sequenzkanal hinzugefügt.
 
-### Kanaltypen           {#channel-types}
+### Kanaltypen {#channel-types}
 
 Beim Verwenden des Assistenten stehen unter anderem die folgenden Vorlagenoptionen zur Verfügung:
 
 | **Vorlagenoption** | **Beschreibung** |
 |---|---|
-| Kanal-Ordner | Ermöglicht die Erstellung eines Ordners zum Speichern von Kanalsammlungen |
+| Kanal-Ordner | Ermöglicht die Erstellung eines Ordners zum Speichern von Kanalsammlungen. |
 | Sequenzkanal | Ermöglicht die Erstellung eines Kanals zum sequenziellen Wiedergeben der Komponenten (einzeln in einer Diashow). |
-| Anwendungskanal | Ermöglicht die Präsentation benutzerdefinierter Webanwendungen im Screens-Player |
+| Anwendungskanal | Ermöglicht die Präsentation benutzerdefinierter Webanwendungen im Screens-Player. |
 | 1x1-Splitscreen-Kanal | Ermöglicht das Anzeigen der Komponente in einer Zone. |
 | 1x2-Splitscreen-Kanal | Ermöglicht das Anzeigen der Assets in zwei Bereichen (horizontal geteilt). |
 | 2x1-Splitscreen-Kanal | Ermöglicht das Anzeigen der Assets in zwei Bereichen (vertikal geteilt). |
@@ -113,7 +113,7 @@ Um die Eigenschaften eines Kanals anzuzeigen oder zu bearbeiten, gehen Sie wie f
 Um das Dashboard eines Kanals anzuzeigen, gehen Sie wie folgt vor:
 
 1. Wählen Sie den zu bearbeitenden Kanal aus.
-1. Klicken Sie in der Aktionsleiste auf **Dashboard**, um das Dashboard anzuzeigen. Das Bedienfeld **KANALINFORMATIONEN**,**ZUGEWIESENE ANZEIGEN** und **AUSSTEHENDE LAUNCHES** wird geöffnet, wie in der folgenden Abbildung dargestellt:
+1. Klicken Sie in der Aktionsleiste auf **Dashboard**, um das Dashboard anzuzeigen. Das Bedienfeld **KANALINFORMATIONEN**, **ZUGEWIESENE ANZEIGEN** und **AUSSTEHENDE LAUNCHES** wird geöffnet, wie in der folgenden Abbildung dargestellt:
 
 ![dashboard](assets/dashboard.gif)
 
@@ -143,7 +143,7 @@ Führen Sie die folgenden Schritte aus, um diese Option im Kanal-Dashboard zu ak
    1. Navigieren Sie zum Dialogfeld **KANALINFORMATIONEN** und klicken Sie auf *...*
    1. Klicken Sie auf **Offline-Inhalt aktualisieren**.
 
-You should see the **View Manifest** option from the **CHANNEL INFORMATION** panel in the Channel dashboard.
+Jetzt sollten Sie im Kanal-Dashboard im Dialogfeld **KANALINFORMATIONEN** die Option **Manifest anzeigen** sehen.
 
 ![image1](assets/channel-one.png)
 
@@ -151,7 +151,7 @@ You should see the **View Manifest** option from the **CHANNEL INFORMATION** pan
 ### Online- und Offline-Kanäle {#online-and-offline-channels}
 
 >[!NOTE]
->Wenn Sie einen Kanal erstellen, ist dieser standardmäßig offline.
+>Wenn Sie einen Kanal erstellen, ist der Kanal standardmäßig offline.
 
 Wenn Sie einen Kanal erstellen, kann er entweder als Online- oder als Offline-Kanal definiert werden.
 
@@ -237,7 +237,7 @@ Die zugeordneten Anzeigen werden im Fenster **Zugewiesene Anzeigen** aufgelistet
 ![chlimage_1-27](assets/chlimage_1-27.png)
 
 >[!NOTE]
->Informationen zum Erstellen einer Anzeige an einem Speicherort finden Sie unter:
+>Weitere Informationen zum Erstellen einer Anzeige an einem Standort finden Sie unter:
 >
 >* [Erstellen und Verwalten von Standorten](managing-locations.md)
 >* [Erstellen und Verwalten von Anzeigen](managing-displays.md)
