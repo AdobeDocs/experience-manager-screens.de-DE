@@ -6,10 +6,10 @@ seo-description: Auf dieser Seite erhalten Sie Antworten auf häufig gestellte F
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 124b766f2bbf5988a104250acb6dde7f4d7189bf
+source-git-commit: 63e3b9d7ad1519b575726dca492e5b5bd64c222d
 workflow-type: tm+mt
-source-wordcount: '1473'
-ht-degree: 100%
+source-wordcount: '1542'
+ht-degree: 95%
 
 ---
 
@@ -162,4 +162,12 @@ So deaktivieren Sie Livefyre, um Protokollfehler zu vermeiden:
    * Navigieren Sie in CRXDE Lite zu `/etc/importers/polling/livefyre-poller/jcr:content`
    * Fügen Sie eine neue *aktivierte* Eigenschaft vom Typ *Boolesch* hinzu
    * Setzen Sie die **aktivierte Eigenschaft** auf **false**
+
+### 2. Wie Hinzufügen Sie Informationen zum Oak Index? {#add-oak-index-info}
+
+AEM Screens erstellt Indexdefinitionen für die vom Produkt verwendeten Abfragen.
+Wenn es im *Abfrage Traversal WARNs* gibt, erstellen Sie einen benutzerdefinierten Index für Ihre Abfrage. `error.log` Weitere Informationen finden Sie unter [Konfigurieren der Indizes](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=en#configuring-the-indexes).
+
+Sie können auch auf eine zusätzliche Ressource unter [Oak Documentation](https://jackrabbit.apache.org/oak/docs/query/lucene.html) verweisen.
+
 
