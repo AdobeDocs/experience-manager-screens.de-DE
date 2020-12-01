@@ -110,7 +110,7 @@ Um den Kanalschalter vom Player aus aufzurufen, halten Sie die untere linke Ecke
 >
 >(Siehe *Ändern der Voreinstellungen im AEM Screens-Player* wie im Abschnitt weiter unten beschrieben).
 
-### Verwalten von Voreinstellungen im AEM Screens-Player    {#managing-preferences-from-the-aem-screens-player}
+### Verwalten von Voreinstellungen im AEM Screens-Player     {#managing-preferences-from-the-aem-screens-player}
 
 Sie können die Einstellungen für die Administrator-Benutzeroberfläche und den Kanalschalter auch im Player selbst ändern.
 
