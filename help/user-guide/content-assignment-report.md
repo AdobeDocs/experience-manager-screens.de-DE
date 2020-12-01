@@ -12,7 +12,7 @@ ht-degree: 3%
 
 # Inhaltszuweisungsbericht {#content-assignment-report}
 
-Die Funktion &quot;Bericht zur Inhaltszuweisung&quot;ermöglicht es einem AEM Screens-Administrator oder einem Autor, einen *Inhaltszuweisungsbericht* in ein Tabellenformat zu exportieren.
+Die Funktion &quot;Inhaltszuweisungsbericht&quot;ermöglicht es einem AEM Screens-Administrator oder einem Autor, einen *Inhaltszuweisungsbericht* in ein Tabellenformat zu exportieren.
 
 ## Verwenden des Inhaltszuweisungsberichts {#using-content-assignment-report}
 
@@ -20,34 +20,34 @@ Der Bericht &quot;Inhaltszuweisung&quot;ermöglicht es einem AEM Screens-Autor o
 
 Der Bericht &quot;Inhaltszuweisung&quot;ermöglicht nicht nur eine Vorschau aller Kanal, Assets, Anzeigen und Geräte im ausgewählten AEM Screens-Projekt, sondern stellt auch eine hohe Projektstruktur bereit.
 
-### Verwenden des Berichts &quot;Inhaltszuweisung&quot; {#downloading-content-assignment-report-fp}
+### Verwenden des Inhaltszuweisungsberichts {#downloading-content-assignment-report-fp}
 
 #### Einrichten des Projekts {#setting-up-project}
 
 Gehen Sie wie folgt vor, um den Bericht &quot;Inhaltszuweisung&quot;aus einem AEM Screens-Projekt herunterzuladen:
 
-1. Create an AEM Screens titled as **DemoScreens**.
+1. Erstellen Sie ein AEM Screens mit dem Titel **DemoScreens**.
 
    ![image](/help/user-guide/assets/content-assignment-report/car-1.png)
 
-1. Erstellen Sie zwei Sequenz-Kanal in **DemoScreens** , z. B. **ChannelOne** und **ChannelTwo**.
+1. Erstellen Sie in **DemoScreens** zwei Sequenz-Kanal, wie **ChannelOne** und **ChannelTwo**.
 
    ![image](/help/user-guide/assets/content-assignment-report/car-2.png)
 
-1. Select **ChannelOne** and click **Edit** from the action bar. hinzufügen einige Assets (Bilder/Videos) zu diesem Kanal. Fügen Sie auf ähnliche Weise Assets zu **ChannelTwo** hinzu.
+1. Wählen Sie **ChannelOne** und klicken Sie in der Aktionsleiste auf **Bearbeiten**. hinzufügen einige Assets (Bilder/Videos) zu diesem Kanal. Fügen Sie entsprechend Assets zu **ChannelTwo** hinzu.
 
 1. Navigieren Sie zum Ordner Speicherorte von **DemoScreens** —> **Speicherorte** und erstellen Sie drei verschiedene Speicherorte mit dem Titel **SanJose**, **Dublin** und **SanFrancisco**.
 
    ![image](/help/user-guide/assets/content-assignment-report/car-3.png)
 
-1. Navigieren Sie zu den einzelnen Orten und erstellen Sie eine Anzeige für jeden Ort, z. B. **SanJoseMain** unter **SanJose** -Standort, **DublinMain** unter **Dublin** -Standort und **SanFranciscoMain** **** unterSanFrancisco-Standort.
+1. Navigieren Sie zu den einzelnen Speicherorten und erstellen Sie eine Anzeige für jeden Standort, z. B. **SanJoseMain** unter **SanJose**, **DublinMain** unter **Dublin** und **SanFranciscoMain** unter **SanFrancisco**-Speicherort.
 
 1. Weisen Sie jedem Display ein Gerät zu.
 
    >[!NOTE]
-   >To learn about assigning a channel to a display, refer to [Channel Assignment](/help/user-guide/channel-assignment.md).
+   >Weitere Informationen zum Zuweisen eines Kanals zu einer Anzeige finden Sie unter [Zuweisen eines Kanals](/help/user-guide/channel-assignment.md).
 
-#### Herunterladen des Berichts &quot;Inhaltszuweisung&quot; {#downloading-content-assignment-report}
+#### Herunterladen des Inhaltszuweisungsberichts {#downloading-content-assignment-report}
 
 Nachdem Sie Ihr AEM Screens-Projekt eingerichtet haben und den einzelnen Orten, wie in den vorherigen Schritten gezeigt, Anzeigen zugewiesen haben, können Sie den Bericht &quot;Inhaltszuweisung&quot;herunterladen.
 
@@ -56,14 +56,14 @@ Nachdem Sie Ihr AEM Screens-Projekt eingerichtet haben und den einzelnen Orten, 
 
 Befolgen Sie die unten stehenden Anweisungen, um den Bericht &quot;Inhaltszuweisung&quot;herunterzuladen:
 
-1. Navigate to your AEM Screens project and select the project **DemoScreens**.
+1. Navigieren Sie zu Ihrem AEM Screens-Projekt und wählen Sie das Projekt **DemoScreens** aus.
 
-1. Klicken Sie in der Aktionsleiste auf **Inhaltszuweisungsbericht** . Ein Excel-Blatt sollte auf Ihren lokalen Computer heruntergeladen werden.
+1. Klicken Sie in der Aktionsleiste auf **Inhaltszuweisungsbericht**. Ein Excel-Blatt sollte auf Ihren lokalen Computer heruntergeladen werden.
 
    ![image](/help/user-guide/assets/content-assignment-report/can-download.png)
 
    >[!NOTE]
-   >Die heruntergeladene Tabelle besteht aus vier Spalten wie **Kanal**, **Assets**, **Displays** und **Devices** , die zur weiteren Untersuchung dieser vier Entitäten für Ihr AEM Screens-Projekt verwendet werden können.
+   >Die heruntergeladene Tabelle besteht aus vier Spalten, wie **Kanal**, **Elemente**, **Anzeigen** und **Geräte**, die zur weiteren Untersuchung dieser vier Entitäten für Ihr AEM Screens-Projekt verwendet werden können.
 
 
 
