@@ -11,10 +11,10 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 6d6ab276f5b4c0cb34a18fe3cb848ae226a97e1c
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 100%
+source-wordcount: '761'
+ht-degree: 73%
 
 ---
 
@@ -120,6 +120,29 @@ Wenn Sie das Gerät nicht einer Anzeige zugewiesen haben, führen Sie die folgen
    Außerdem können Sie das Anzeigen-Dashboard anzeigen, wenn Sie auf **Beenden** klicken.
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
+
+### Suchen eines Geräts vom Geräte-Manager {#search-device}
+
+Nachdem Sie Geräte für Ihren Player registriert haben, können Sie alle Geräte über die Benutzeroberfläche des Geräte-Managers Ansicht haben.
+
+1. Navigieren Sie zum AEM Screens-Projekt zur Benutzeroberfläche des Geräte-Managers, z. B. **DemoScreens** —> **Geräte**.
+
+1. Wählen Sie den Ordner **Geräte** und klicken Sie in der Aktionsleiste auf **Geräte-Manager**.
+
+1. Die Liste der registrierten Geräte wird angezeigt.
+
+1. Wenn Sie eine lange Liste registrierter Geräte haben, können Sie jetzt über das Suchsymbol in der Aktionsleiste suchen oder einfach auf `/` (Schrägstrich) klicken, um die Suchfunktion aufzurufen.
+
+#### Einschränkungen der Suchfunktion {#limitations}
+
+* Benutzer können jedes Wort in der Geräte-ID oder im Gerätenamen suchen. Stellen Sie sicher, dass die Gerätenamen in mehreren Wörtern wie &quot;Boston Store Lobby&quot;statt &quot;BostonStoreLobby&quot;gespeichert werden.
+
+* Im ersten Fall erlaubt es, nach jedem Wort &quot;Boston&quot;, &quot;Store&quot;, &quot;Lobby&quot; zu suchen, im letzteren Fall aber die Suche &quot;Boston&quot; zeigt die Ergebnisse nicht.
+
+* Platzhalter, `*` wird für die Suche unterstützt. Wenn Sie alle Geräte mit Namen suchen möchten, die mit **boston** beginnen, können Sie **boston*** verwenden.
+
+1. Wenn der Gerätename **BostonStoreLobby** lautet und nach **boston** gesucht wird, wird das Ergebnis nicht zurückgegeben, aber **boston*** gibt das Ergebnis zurück.
+
 
 ## Einschränkungen bei der Geräteregistrierung {#limitations-on-device-registration}
 
