@@ -90,7 +90,6 @@ Die folgende Validierung wird angezeigt, wenn Sie Ihre Verbindung prüfen, indem
    1. **Navigieren** Sie zu **ContextHubDemo** > **Erstellen** **ContextHub-Konfiguration** und klicken Sie auf **Speichern**.
 
       >[!NOTE]
-      >
       > Nachdem Sie auf **Speichern** geklickt haben, befinden Sie sich auf dem Bildschirm **ContextHub-Konfiguration**.
 
    1. Klicken Sie im Bildschirm **ContextHub-Konfiguration** auf **Erstellen** > **ContentHub-Speicherkonfiguration**.
@@ -110,13 +109,13 @@ Die folgende Validierung wird angezeigt, wenn Sie Ihre Verbindung prüfen, indem
       >1. Löschen Sie `cloudsettings` und speichern Sie.
       >1. Benennen Sie `cloudsettings1` in `cloudsettings` um und speichern Sie sie.
       >1. Beachten Sie, dass /conf/screens/settings/cloudsettings jetzt `jcr:primaryType` als `sling:Folder` hat.
+
       >
       >Führen Sie diese Schritte vor oder nach dem Upgrade im Autorenmodus und im Veröffentlichungsmodus aus.
 
    1. Geben Sie unter **Titel** den Wert **Google Tabellen**, unter **Speichername** den Wert **googlesheets** und unter **Speichertyp** den Wert **contexthub.generic-jsonp** ein und klicken Sie auf **Weiter**.
 
       >[!CAUTION]
-      >
       >Wenn Sie Adobe Experience Manager (AEM) 6.4 verwenden, geben Sie den **Konfigurationstitel** als **googlesheets** und den **Store-Typ** als **contexthub.generic-jsonp** ein.
 
       ![image](/help/user-guide/assets/context-hub/context-hub6.png)
@@ -124,7 +123,6 @@ Die folgende Validierung wird angezeigt, wenn Sie Ihre Verbindung prüfen, indem
    1. Geben Sie Ihre spezifische json-Konfiguration ein. Sie können beispielsweise die folgende JSON-Datei für Demozwecke verwenden und auf **Speichern** klicken. Die Speicherkonfiguration wird dann in der ContextHub-Konfiguration als **Google Tabellen** angegeben.
 
       >[!IMPORTANT]
-      >
       >Stellen Sie sicher, dass Sie den Code durch Ihre *&lt;Tabellenblatt-ID>* und Ihren *&lt;API-Schlüssel>* ersetzen, den Sie beim Einrichten von Google Tabellen abgerufen haben.
 
       ```
@@ -144,13 +142,11 @@ Die folgende Validierung wird angezeigt, wenn Sie Ihre Verbindung prüfen, indem
       ```
 
       >[!NOTE]
-      >
-      >Im obigen Beispiel-Code definiert **pollInterval** die Häufigkeit, mit der die Werte aktualisiert werden (in ms).
-      >Ersetzen Sie den Code durch Ihre *&lt;Tabellenblatt-ID>* und Ihren *&lt;API-Schlüssel>*, den Sie beim Einrichten von Google Tabellen abgerufen haben.
+      Im obigen Beispiel-Code definiert **pollInterval** die Häufigkeit, mit der die Werte aktualisiert werden (in ms).
+      Ersetzen Sie den Code durch Ihre *&lt;Tabellenblatt-ID>* und Ihren *&lt;API-Schlüssel>*, den Sie beim Einrichten von Google Tabellen abgerufen haben.
 
       >[!CAUTION]
-      >
-      >Wenn Sie Google Tabellen-Speicherkonfigurationen außerhalb des globalen Ordners erstellen (z. B. in Ihrem eigenen Projektordner), funktioniert das Targeting nicht standardmäßig.
+      Wenn Sie Google Tabellen-Speicherkonfigurationen außerhalb des globalen Ordners erstellen (z. B. in Ihrem eigenen Projektordner), funktioniert das Targeting nicht standardmäßig.
 
 
 1. **Einrichten der Speichersegmentierung**
@@ -162,8 +158,7 @@ Die folgende Validierung wird angezeigt, wenn Sie Ihre Verbindung prüfen, indem
    1. Klicken Sie auf **Weiter** und dann auf **Speichern**.
 
       >[!NOTE]
-      >
-      >Sie müssen die Definition der JSON-Datei überspringen und diese leer lassen.
+Sie müssen die Definition der JSON-Datei überspringen und diese leer lassen.
 
 
 ## Schritt 3: Einrichten von Segmenten in der Zielgruppe {#setting-up-audience}
@@ -205,9 +200,7 @@ Gehen Sie wie folgt vor, um eine Marke in Ihren Aktivitäten und einen Bereich u
 
 
       >[!CAUTION]
-      >
-      >Bekanntes Problem:
-
+      Bekanntes Problem:
 Um einen Bereich hinzuzufügen, entfernen Sie den Master aus der URL, z. B.
       `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`.
 
@@ -265,8 +258,7 @@ Nachdem Sie einen Datenspeicher eingerichtet und Ihre Aktivität (Marke und Bere
    1. Wählen Sie **googlesheets/value/1/0** aus der Dropdown-Liste in **Eigenschaftsname** aus.
 
       >[!NOTE]
-      >
-      >**googlesheets/Wert/1/0** bezieht sich auf die Zeile 2 und die Spalte, wie in den Google-Tabellenblättern in der folgenden Abbildung angegeben:
+**googlesheets/Wert/1/0** bezieht sich auf die Zeile 2 und die Spalte, wie in den Google-Tabellenblättern in der folgenden Abbildung angegeben:
 
       ![image](/help/user-guide/assets/context-hub/context-hub17.png)
 
@@ -275,8 +267,7 @@ Nachdem Sie einen Datenspeicher eingerichtet und Ihre Aktivität (Marke und Bere
    1. Geben Sie den **Wert** als **70** ein.
 
       >[!NOTE]
-      >
-      >AEM validiert Ihre Daten aus dem Google-Tabellenblatt, indem Ihr Segment grün anzeigt wird.
+      AEM validiert Ihre Daten aus dem Google-Tabellenblatt, indem Ihr Segment grün anzeigt wird.
 
       ![image](/help/user-guide/assets/context-hub/context-hub18.png)
    Geben Sie die Eigenschaftswerte als **Lowerthan50** an.
@@ -310,16 +301,14 @@ Gehen Sie wie folgt vor, um Targeting in Ihren Kanälen zu aktivieren.
    1. Klicken Sie auf **Speichern und schließen**.
 
       >[!NOTE]
-      >
-      >Verwenden Sie den ContextHub- und den Segmentpfad, in dem Sie Ihre Kontexthub-Konfigurationen und -Segmente anfänglich gespeichert haben.
+      Verwenden Sie den ContextHub- und den Segmentpfad, in dem Sie Ihre Kontexthub-Konfigurationen und -Segmente anfänglich gespeichert haben.
 
       ![image](/help/user-guide/assets/context-hub/context-hub20.png)
 
    1. Navigieren Sie zu und wählen Sie **TargetChannel** aus und klicken Sie in der Aktionsleiste auf **Bearbeiten**.
 
       >[!NOTE]
-      >
-      >Wenn Sie alles korrekt eingerichtet haben, sehen Sie die Option **Targeting** in der Dropdown-Liste des Editors, wie in der Abbildung unten gezeigt.
+      Wenn Sie alles korrekt eingerichtet haben, sehen Sie die Option **Targeting** in der Dropdown-Liste des Editors, wie in der Abbildung unten gezeigt.
 
       ![image](/help/user-guide/assets/context-hub/context-hub21.png)
 
