@@ -2,10 +2,10 @@
 title: Versionshinweise für Feature Pack 202011
 description: Auf der Seite werden die Versionshinweise für Feature Pack 202011 beschrieben.
 translation-type: tm+mt
-source-git-commit: e334501e768dd00caec1962df6062a81bb49eb5c
+source-git-commit: 7380862d0d5d77a155f9c135028c7548127a645a
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 42%
+source-wordcount: '275'
+ht-degree: 43%
 
 ---
 
@@ -29,7 +29,7 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 2011 ist der 30. Novem
 
 * **Inhaltszuweisungsbericht**
 
-   Die Funktion &quot;Inhaltszuweisungsbericht&quot;ermöglicht es einem AEM Screens-Administrator oder einem Autor, einen *Inhaltszuweisungsbericht* zu exportieren, der im Tabellenformat vorliegen könnte.
+   Die Funktion &quot;Inhaltszuweisungsbericht&quot;ermöglicht es einem AEM Screens-Administrator oder einem Autor, einen *Inhaltszuweisungsbericht* in ein Tabellenformat zu exportieren.
 Weitere Informationen finden Sie unter [Inhaltszuweisungsbericht](/help/user-guide/content-assignment-report.md).
 
 
