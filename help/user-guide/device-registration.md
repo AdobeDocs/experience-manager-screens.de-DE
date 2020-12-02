@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 translation-type: tm+mt
-source-git-commit: e334501e768dd00caec1962df6062a81bb49eb5c
+source-git-commit: 6731c984122083ff340eda690452729c0b846fb5
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 72%
@@ -155,7 +155,7 @@ Nachdem Sie Geräte für Ihren Player registriert haben, können Sie alle Gerät
 
 * Platzhalter, `*` wird für die Suche unterstützt. Wenn Sie alle Geräte mit Namen finden möchten, die mit *boston* beginnen, können Sie *boston** verwenden.
 
-1. Wenn der Gerätename *BostonStoreLobby* lautet und nach *boston* gesucht wird, wird das Ergebnis nicht zurückgegeben, sondern *boston** in Ihren Suchkriterien verwendet wird, wird das Ergebnis zurückgegeben.
+* Wenn der Gerätename *BostonStoreLobby* lautet und nach *boston* gesucht wird, wird das Ergebnis nicht zurückgegeben, sondern *boston** in Ihren Suchkriterien verwendet wird, wird das Ergebnis zurückgegeben.
 
 ## Einschränkungen bei der Geräteregistrierung {#limitations-on-device-registration}
 
