@@ -32,6 +32,7 @@ Die Konfiguration weist jedem AEM Screens-Controller einen Internet-Zugang über
 1. Stellen Sie sicher, dass der mobile WLAN-Router entsprechend den Angaben im Betriebssystem ordnungsgemäß mit dem Mobilfunknetz verbunden ist und alle AEM Screens-Player an das Router-Netzwerk angebunden sind.
 1. Testen Sie die Internet-Verbindung, indem Sie in Ihrem System-Browser eine URL aufrufen.
    >[!NOTE]
+   >
    >Wenn eine Fehlermeldung angezeigt wird, überprüfen Sie die Netzwerkeinstellungen. Grundsätzlich bestehen für eine ordnungsgemäße Netzwerkverbindung zwei Optionen:
    >* DHCP
    >* Manuelle IP-Konfiguration
@@ -43,6 +44,7 @@ Die Konfiguration weist jedem AEM Screens-Controller einen Internet-Zugang über
 1. Im Falle eines erfolgreichen URL-Aufrufs können Sie mit der Installation der für AEM Screens verwendeten Bildschirme fortfahren, die Registrierung abschließen und AEM Screens starten.
 
    >[!NOTE]
+   >
    >**Tipp zur Fehlerbehebung**
    >Wenn AEM Screens nicht ordnungsgemäß eine Verbindung herstellt und der erwartete Inhalt nicht angezeigt wird, prüfen Sie in der Firewall des Internet-Routers, ob Einschränkungen für `TCP/IP Port 80/443` bestehen.
 
@@ -80,7 +82,6 @@ Bei der Wahl des Datennetzwerks empfiehlt es sich, die folgenden Fragen abzuwäg
 >[!NOTE]
 >
 >Die mindestens vom Daten-Package abzudeckende Kapazität beträgt: 
-
 >
 >`Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
 

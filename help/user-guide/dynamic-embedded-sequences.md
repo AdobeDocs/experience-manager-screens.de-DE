@@ -90,7 +90,6 @@ Sie können die folgenden Ressourcen (Bilder) herunterladen (und zu Assets hinzu
 >
 >* **[Erstellen und Verwalten von Projekten](creating-a-screens-project.md)**
 >* **[Verwalten eines Kanals](managing-channels.md)**
-
 >
 
 
@@ -120,6 +119,7 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
    ![screen_shot_2018-09-13at23212pm](assets/screen_shot_2018-09-13at23212pm.png)
 
    >[!NOTE]
+   >
    >Informationen zum Erstellen eines Standorts finden Sie unter **[Erstellen und Verwalten von Standorten](managing-locations.md)**.
 
 1. **Erstellen Sie unter jedem Standortordner zwei Standorte und einen Kanal.**
@@ -160,6 +160,7 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
    Erstellen Sie eine Anzeige als **Store2Display** und einen Kanal **Store2Channel** unter **Store 2** (mit dem Namen **store**).
 
    >[!NOTE]
+   >
    >Achten Sie darauf, dass Sie denselben Namen für die Kanäle verwenden können, die in **Store 1** und **Store 2** als **store** erstellt wurden.
 
    ![screen_shot_2018-09-19at120329pm](assets/screen_shot_2018-09-19at120329pm.png)
@@ -179,6 +180,7 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
    Navigieren Sie zu **Demo** > **Standorte** > **Region A** > **Region A** und klicken Sie in der Aktionsleiste auf **Bearbeiten**. Ziehen Sie die Assets, die Sie hinzufügen möchten, in Ihren Kanal.
 
    >[!NOTE]
+   >
    >Sie können die Datei ***Resources.zip*** im Abschnitt **Ressourcen** verwenden, um die Bilder als Assets für Ihren Kanalinhalt zu verwenden.
 
    ![screen_shot_2018-09-12at12438pm](assets/screen_shot_2018-09-12at12438pm.png)
@@ -334,6 +336,7 @@ Führen Sie die folgenden Schritte aus, um Gruppen und Benutzer zu erstellen und
    Erstellen Sie auf ähnliche Weise zwei weitere Benutzer wie **Region-Benutzer** und **Store-Benutzer** und fügen Sie sie **Region-Autor** bzw. **Store-Autor** hinzu.
 
    >[!NOTE]
+   >
    >Es empfiehlt sich, Benutzer einer Gruppe hinzuzufügen und dann den einzelnen Benutzergruppen Berechtigungen zuzuweisen.
 
    ![screen_shot_2018-09-17at34412pm](assets/screen_shot_2018-09-17at34412pm.png)
