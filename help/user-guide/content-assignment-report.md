@@ -2,9 +2,9 @@
 title: Inhaltszuweisungsbericht
 description: Diese Seite beschreibt das Herunterladen und Verwenden des Inhaltszuweisungsberichts.
 translation-type: tm+mt
-source-git-commit: 13c25bda83004380dad8d8970d6be25ee83e51ac
+source-git-commit: 6d6ab276f5b4c0cb34a18fe3cb848ae226a97e1c
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '332'
 ht-degree: 8%
 
 ---
@@ -45,10 +45,14 @@ Befolgen Sie die unten stehenden Anweisungen, um den Bericht &quot;Inhaltszuweis
 
 1. Navigieren Sie zu Ihrem AEM Screens-Projekt und wählen Sie das Projekt **DemoScreens** aus.
 
-1. Klicken Sie in der Aktionsleiste auf **Inhaltszuweisungsbericht**. Ein Excel-Blatt sollte auf Ihren lokalen Computer heruntergeladen werden.
+1. Klicken Sie in der Aktionsleiste auf **Inhaltszuweisungsbericht**.
 
    ![image](/help/user-guide/assets/content-assignment-report/can-download.png)
 
    >[!NOTE]
    >Die heruntergeladene Tabelle besteht aus vier Spalten, wie **Kanal**, **Elemente**, **Anzeigen** und **Geräte**, die zur weiteren Untersuchung dieser vier Entitäten für Ihr AEM Screens-Projekt verwendet werden können.
+
+1. Ein Excel-Blatt wird auf Ihren lokalen Computer mit dem Präfix identischen Namen wie Ihr AEM Screens-Projektname heruntergeladen. Wenn Ihr Projektname beispielsweise **DemoScreens** lautet, lautet der heruntergeladene Dateiname **demoscreens-content-assign-report.xlxs**.
+
+   ![image](/help/user-guide/assets/content-assignment-report/car-download1.png)
 
