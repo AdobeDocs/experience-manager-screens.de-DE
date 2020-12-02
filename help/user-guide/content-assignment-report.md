@@ -2,10 +2,10 @@
 title: Inhaltszuweisungsbericht
 description: Diese Seite beschreibt das Herunterladen und Verwenden des Inhaltszuweisungsberichts.
 translation-type: tm+mt
-source-git-commit: b93baeeb26e48b906ee1ddfc034112f8b73615af
+source-git-commit: 13c25bda83004380dad8d8970d6be25ee83e51ac
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 3%
+source-wordcount: '307'
+ht-degree: 8%
 
 ---
 
@@ -20,34 +20,21 @@ Der Bericht &quot;Inhaltszuweisung&quot;ermöglicht es einem AEM Screens-Autor o
 
 Der Bericht &quot;Inhaltszuweisung&quot;ermöglicht nicht nur eine Vorschau aller Kanal, Assets, Anzeigen und Geräte im ausgewählten AEM Screens-Projekt, sondern stellt auch eine hohe Projektstruktur bereit.
 
-### Verwenden des Inhaltszuweisungsberichts {#downloading-content-assignment-report-fp}
 
-#### Einrichten des Projekts {#setting-up-project}
+### Voraussetzungen {#pre-reqs}
 
-Gehen Sie wie folgt vor, um den Bericht &quot;Inhaltszuweisung&quot;aus einem AEM Screens-Projekt herunterzuladen:
+Bevor Sie den Bericht &quot;Inhaltszuweisung&quot;herunterladen, stellen Sie sicher, dass Sie ein AEM Screens-Projekt mit Kanälen, Speicherorten und Geräten eingerichtet haben.
+Weitere Informationen finden Sie in den folgenden Ressourcen:
 
-1. Erstellen Sie ein AEM Screens mit dem Titel **DemoScreens**.
+1. [Erstellen und Verwalten von Projekten](/help/user-guide/creating-a-screens-project.md)
+1. [Erstellen und Verwalten von Kanälen](/help/user-guide/managing-channels.md)
+1. [Erstellen und Verwalten von Standorten](/help/user-guide/managing-locations.md)
+1. [Erstellen und Verwalten von Anzeigen](/help/user-guide/managing-displays.md)
+1. [Geräte erstellen](/help/user-guide/managing-devices.md)
+1. [Zuweisen von Kanälen](/help/user-guide/channel-assignment-latest-fp.md)
 
-   ![image](/help/user-guide/assets/content-assignment-report/car-1.png)
 
-1. Erstellen Sie in **DemoScreens** zwei Sequenz-Kanal, wie **ChannelOne** und **ChannelTwo**.
-
-   ![image](/help/user-guide/assets/content-assignment-report/car-2.png)
-
-1. Wählen Sie **ChannelOne** und klicken Sie in der Aktionsleiste auf **Bearbeiten**. hinzufügen einige Assets (Bilder/Videos) zu diesem Kanal. Fügen Sie entsprechend Assets zu **ChannelTwo** hinzu.
-
-1. Navigieren Sie zum Ordner Speicherorte von **DemoScreens** —> **Speicherorte** und erstellen Sie drei verschiedene Speicherorte mit dem Titel **SanJose**, **Dublin** und **SanFrancisco**.
-
-   ![image](/help/user-guide/assets/content-assignment-report/car-3.png)
-
-1. Navigieren Sie zu den einzelnen Speicherorten und erstellen Sie eine Anzeige für jeden Standort, z. B. **SanJoseMain** unter **SanJose**, **DublinMain** unter **Dublin** und **SanFranciscoMain** unter **SanFrancisco**-Speicherort.
-
-1. Weisen Sie jedem Display ein Gerät zu.
-
-   >[!NOTE]
-   >Weitere Informationen zum Zuweisen eines Kanals zu einer Anzeige finden Sie unter [Zuweisen eines Kanals](/help/user-guide/channel-assignment.md).
-
-#### Herunterladen des Inhaltszuweisungsberichts {#downloading-content-assignment-report}
+## Herunterladen des Inhaltszuweisungsberichts {#downloading-content-assignment-report-fp}
 
 Nachdem Sie Ihr AEM Screens-Projekt eingerichtet haben und den einzelnen Orten, wie in den vorherigen Schritten gezeigt, Anzeigen zugewiesen haben, können Sie den Bericht &quot;Inhaltszuweisung&quot;herunterladen.
 
@@ -64,8 +51,4 @@ Befolgen Sie die unten stehenden Anweisungen, um den Bericht &quot;Inhaltszuweis
 
    >[!NOTE]
    >Die heruntergeladene Tabelle besteht aus vier Spalten, wie **Kanal**, **Elemente**, **Anzeigen** und **Geräte**, die zur weiteren Untersuchung dieser vier Entitäten für Ihr AEM Screens-Projekt verwendet werden können.
-
-
-
-
 
