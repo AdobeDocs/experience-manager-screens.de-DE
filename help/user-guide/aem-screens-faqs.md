@@ -6,9 +6,9 @@ seo-description: Auf dieser Seite erhalten Sie Antworten auf häufig gestellte F
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: a2bfbfcbeaffd663378297a6eb155f38b64c8402
+source-git-commit: 359c15d16c83e5d3cecee0bbe2ef7e68a815e660
 workflow-type: tm+mt
-source-wordcount: '1705'
+source-wordcount: '1706'
 ht-degree: 86%
 
 ---
@@ -21,17 +21,17 @@ Im folgenden Abschnitt finden Sie Antworten auf verschiedene häufig gestellte F
 ## Problem mit leeren Bildschirmen {#blank-screen}
 
 >[!NOTE]
->Die aufgelisteten obligatorischen Prüfungen, die von primärem Support oder vom Kundensupport getestet werden sollten, bevor ein Problem auftritt:
+>Die aufgelisteten obligatorischen Prüfungen, die vom primären Support oder vom Kundensupport getestet werden sollten, bevor ein Problem auftritt.
 
 ### 1. Was sollten die Schritte zur Fehlerbehebung bei der ersten Hilfe für Kunden sein, die mit einem schwarzen Bildschirm oder nicht wiedergegebenen Inhalten konfrontiert sind? {#troubleshooting-blank-screen}
 
 * Überprüfen Sie, ob die Vorschau des Kanals funktioniert.
 * Überprüfen Sie, ob die Display-Vorschau funktioniert.
-* Versuchen Sie, den Player als Browsererweiterung auf Ihrem Laptop auf demselben Display zu registrieren und überprüfen Sie, ob dies funktioniert.
+* Versuchen Sie, den Player als Browsererweiterung auf Ihrem System für dieselbe Anzeige zu registrieren und überprüfen Sie, ob dies funktioniert.
 * Navigieren Sie mit dem Player auf Ihrem System zu `http://localhost:24502`. Überprüfen Sie, ob der gesamte Inhalt korrekt heruntergeladen wurde.
 * Überprüfen Sie, ob die entsprechenden Ausgabeformate erstellt wurden und die richtige Darstellung wiedergegeben wird.
 * Überprüfen Sie, ob der geplante Inhalt korrekt ist. Überprüfen Sie, ob die im Player eingestellte Zeit korrekt ist.
-* Überprüfen Sie die Player-Konsolenprotokolle und prüfen Sie, ob Fehler vorliegen. Klicken Sie mit der rechten Maustaste und überprüfen Sie die Konsolenprotokolle. Wenn Sie den Windows-Player verwenden, drücken Sie `CTRL + ALT +I`, um die dev-Konsole zur Ansicht der Protokolle aufzurufen.
+* Inspect protokolliert die Player-Konsole und prüft auf Fehler. Klicken Sie mit der rechten Maustaste und überprüfen Sie die Konsolenprotokolle. Wenn Sie den Windows-Player verwenden, drücken Sie `CTRL + ALT +I`, um die dev-Konsole zur Ansicht der Protokolle aufzurufen.
 
 ## Kanalverwaltung {#channel-management}
 
@@ -181,7 +181,7 @@ So deaktivieren Sie Livefyre, um Protokollfehler zu vermeiden:
 ### 2. Wie Hinzufügen Sie Informationen zum Oak Index? {#add-oak-index-info}
 
 AEM Screens erstellt Indexdefinitionen für die vom Produkt verwendeten Abfragen.
-Wenn es im *Abfrage Traversal WARNs* gibt, erstellen Sie einen benutzerdefinierten Index für Ihre Abfrage. `error.log` Weitere Informationen finden Sie unter [Konfigurieren der Indizes](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=en#configuring-the-indexes).
+Wenn es im `error.log` Abfrage Traversal WARNs *gibt, erstellen Sie einen benutzerdefinierten Index für Ihre Abfrage.* Weitere Informationen finden Sie unter [Konfigurieren der Indizes](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=en#configuring-the-indexes).
 
 Sie können auch auf eine zusätzliche Ressource unter [Oak Documentation](https://jackrabbit.apache.org/oak/docs/query/lucene.html) verweisen.
 
