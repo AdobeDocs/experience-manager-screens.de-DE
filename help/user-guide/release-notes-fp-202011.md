@@ -2,10 +2,10 @@
 title: Versionshinweise für Feature Pack 202011
 description: Auf der Seite werden die Versionshinweise für Feature Pack 202011 beschrieben.
 translation-type: tm+mt
-source-git-commit: 53aa385b7f767a88ad19b834ecf971f6c9aa0f84
+source-git-commit: e334501e768dd00caec1962df6062a81bb49eb5c
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 51%
+source-wordcount: '277'
+ht-degree: 42%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 51%
 
 Das AEM 6.5 Feature Pack 6 wurde für AEM Screens veröffentlicht.
 
-Das neueste Feature Pack für AEM Screens 6.5.6 steht auf dem [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) zum Download zur Verfügung (Adobe ID erforderlich). Navigieren Sie zur Registerkarte **Adobe Experience Manager** und suchen Sie nach **Screens**, um das neueste Feature Pack herunterzuladen.
+Das neueste Feature Pack für AEM Screens 6.5.6 steht auf dem [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) zum Download zur Verfügung (Adobe ID erforderlich). Navigieren Sie zum Register **Adobe Experience Manager** und suchen Sie nach **Bildschirmen**, um das neueste Feature Pack mit dem Titel **AEM 6.5 Bildschirme FP6** zu erhalten.
 
 ## Veröffentlichungsdatum {#release-date}
 
@@ -41,10 +41,11 @@ Weitere Informationen finden Sie unter [Implementieren des Zehn-Players](/help/u
 * **Suchfunktionen im Geräte-Manager**
 
    Eine neue Suchfunktion ist jetzt in der Benutzeroberfläche des Geräte-Managers mit dem neuesten Funktionspaket für AEM Screens 6.5.6 verfügbar.
+Weitere Informationen finden Sie unter [Suchen eines Geräts im Geräte-Manager](/help/user-guide/device-registration.md#search-device).
 
 * **Standard-Ping-Intervall**
 
-   Das standardmäßige Ping-Intervall ist jetzt für diese Version auf 30 Sekunden eingestellt.
+   Das standardmäßige Ping-Intervall ist in dieser Version jetzt auf 30 Sekunden eingestellt.
 
 ### Veröffentlichte AEM Screens-Player {#released-aem-screens-players}
 
