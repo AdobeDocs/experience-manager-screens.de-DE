@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: e2096260d06cc2db17d690ecbc39e8dc4f1b5aa7
+source-git-commit: 2b72d9a83735beb327f519a66e8b3c0e8bf04409
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1134'
 ht-degree: 74%
 
 ---
@@ -36,11 +36,11 @@ Rufen Sie die Seite [**AEM 6.5 Player-Downloads**](https://download.macromedia.c
 >[!NOTE]
 >Wenn Sie das AEM Screens 6.5.5 Service Pack verwenden, müssen Sie eine Umgebung für den Android-Player einrichten.
 
-Setzen Sie in der **Konfiguration der Adobe Experience Manager-Web-Konsole** das **SameSite-Attribut für die Anmeldungs-Token-Cookies** auf allen AEM-Autoren- und Veröffentlichungsinstanzen von **Lax** auf **Keine**.
+Legen Sie das **Attribut „SameSite“ für die Anmelde-Token-Cookies** in der **Konfiguration der Adobe Experience Manager-Web-Konsole** in allen AEM-Autoren- und Veröffentlichungsinstanzen von **Lax** auf **Keine** fest.
 
 Führen Sie dazu folgende Schritte durch:
 
-1. Navigieren Sie zu **Konfiguration der Adobe Experience Manager-Web-Konsole** über `http://localhost:4502/system/console/configMgr`.
+1. Navigieren Sie zur **Konfiguration der Adobe Experience Manager-Web-Konsole** über `http://localhost:4502/system/console/configMgr`.
 
 1. Suchen Sie nach *Adobe Granite Token Authentication Handler*.
 
@@ -59,7 +59,7 @@ Nachdem Sie die Anwendung heruntergeladen haben, führen Sie die Schritte im Pla
 1. Halten Sie die linke obere Ecke gedrückt, um den Admin-Bereich zu öffnen.
 1. Navigieren Sie im linken Aktionsmenü zu **Konfiguration**, geben Sie den Standort (die Adresse) der AEM-Instanz ein, zu der Sie eine Verbindung aufbauen möchten, und klicken Sie auf **Speichern**.
 
-1. Navigieren Sie im linken Aktionsmenü zum Link **Geräteregistrierung******, um den Status des Prozesses zur Geräteregistrierung zu prüfen.
+1. Navigieren Sie im linken Aktionsmenü zum Link **Geräteregistrierung**, um den Status des Prozesses zur Geräteregistrierung zu prüfen **.**
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ Nachdem Sie die Anwendung heruntergeladen haben, führen Sie die Schritte im Pla
 
 Aufgrund der Architektur von Android erfordert der Neustart des Geräts, dass die Anwendung über Systemrechte verfügt. Hierzu müssen Sie die apk mithilfe der Signierungsschlüssel des Herstellers signieren. Andernfalls startet Watchdog die Player-Anwendung neu und nicht das Gerät.
 
-### Signieren von Android-apks mithilfe von Herstellerschlüsseln           {#signage-of-android-apks-using-manufacturer-keys}
+### Signieren von Android-apks mithilfe von Herstellerschlüsseln {#signage-of-android-apks-using-manufacturer-keys}
 
 Zum Zugreifen auf die berechtigten APIs von Android, wie zum Beispiel *PowerManager* oder *HDMIControlServices*, müssen Sie die Android-apk mithilfe der Herstellerschlüssel signieren.
 
@@ -92,7 +92,7 @@ Gehen Sie wie folgt vor, um die Android-apk mithilfe von Herstellerschlüsseln z
 1. &lt;Pfad> /zipalign -fv 4 aemscreensplayer.apk aemscreensaligned.apk
 1. Installieren Sie ***aemscreensaligned.apk*** mithilfe von adb install auf dem Gerät
 
-## Implementierung von Android Watchdog {#android-watchdog-implementation}
+## Einführung zu Android Watchdog-Diensten {#android-watchdog-services}
 
 Der Android Watchdog-übergreifende Dienst wird mithilfe von *AlarmManager* als Cordova-Plug-in implementiert.
 
