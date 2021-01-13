@@ -1,11 +1,11 @@
 ---
 title: Versionshinweise für Feature Pack 202011
 description: Auf der Seite werden die Versionshinweise für Feature Pack 202011 beschrieben.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7380862d0d5d77a155f9c135028c7548127a645a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '275'
-ht-degree: 43%
+ht-degree: 100%
 
 ---
 
@@ -19,42 +19,42 @@ ht-degree: 43%
 
 Das AEM 6.5 Feature Pack 6 wurde für AEM Screens veröffentlicht.
 
-Das neueste Feature Pack für AEM Screens 6.5.6 steht auf dem [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) zum Download zur Verfügung (Adobe ID erforderlich). Navigieren Sie zum Register **Adobe Experience Manager** und suchen Sie nach **Bildschirmen**, um das neueste Feature Pack mit dem Titel **AEM 6.5 Bildschirme FP6** zu erhalten.
+Das neueste Feature Pack für AEM Screens 6.5.6 steht auf dem [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) zum Download zur Verfügung (Adobe ID erforderlich). Navigieren Sie zur Registerkarte **Adobe Experience Manager** und suchen Sie nach **Screens**, um das neueste Feature Pack mit dem Namen **AEM 6.5 Screens FP6** herunterzuladen.
 
 ## Veröffentlichungsdatum {#release-date}
 
-Das Veröffentlichungsdatum für AEM Screens Feature Pack 2011 ist der 30. November 2020.
+Das Veröffentlichungsdatum für AEM Screens Feature Pack 202011 ist der 30. November 2020.
 
 ### Neue Funktionen {#what-is-new}
 
 * **Inhaltszuweisungsbericht**
 
-   Die Funktion &quot;Inhaltszuweisungsbericht&quot;ermöglicht es einem AEM Screens-Administrator oder einem Autor, einen *Inhaltszuweisungsbericht* in ein Tabellenformat zu exportieren.
+   Mit der Funktion „Inhaltszuweisungsbericht“ kann ein AEM Screens-Administrator oder ein Autor einen *Inhaltszuweisungsbericht* in ein Tabellenformat exportieren.
 Weitere Informationen finden Sie unter [Inhaltszuweisungsbericht](/help/user-guide/content-assignment-report.md).
 
 
-* **Zehn Player**
+* **Tizen-Player**
 
-   Ein neuer Player namens Tizen Player wurde mit dem neuesten Feature Pack für AEM Screens 6.5.6 eingeführt.
-Weitere Informationen finden Sie unter [Implementieren des Zehn-Players](/help/user-guide/tizen-player.md).
+   Mit dem neuesten Feature Pack für AEM Screens 6.5.6 wurde ein neuer Player eingeführt, der als Tizen-Player bezeichnet wird.
+Weitere Informationen finden Sie unter [Implementieren des Tizen-Players](/help/user-guide/tizen-player.md).
 
-* **Suchfunktionen im Geräte-Manager**
+* **Suchfunktionen über den Geräte-Manager**
 
-   Eine neue Suchfunktion ist jetzt in der Benutzeroberfläche des Geräte-Managers mit dem neuesten Funktionspaket für AEM Screens 6.5.6 verfügbar.
-Weitere Informationen finden Sie unter [Suchen eines Geräts im Geräte-Manager](/help/user-guide/device-registration.md#search-device).
+   Über die Benutzeroberfläche des Geräte-Managers ist jetzt eine neue Suchfunktion mit dem neuesten Feature Pack für AEM Screens 6.5.6 verfügbar.
+Weitere Informationen finden Sie unter [Suchen eines Geräts über den Geräte-Manager](/help/user-guide/device-registration.md#search-device).
 
-* **Standard-Ping-Intervall**
+* **Standardmäßiges Ping-Intervall**
 
-   Das standardmäßige Ping-Intervall ist in dieser Version jetzt auf 30 Sekunden eingestellt.
+   Das standardmäßige Ping-Intervall ist in dieser Version jetzt auf 30 Sekunden festgelegt.
 
 ### Veröffentlichte AEM Screens-Player {#released-aem-screens-players}
 
-Die folgenden AEM Screens Player sind für AEM 6.5 Feature Pack 6 erhältlich:
+Die folgenden AEM Screens-Player sind für AEM 6.5 Feature Pack 6 verfügbar:
 
 * Chrome OS
 * Windows
 * Android
-* Zehn
+* Tizen
 * Linux
 
 #### AEM Screens-Player-Downloads {#aem-screens-player-downloads}
