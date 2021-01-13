@@ -4,18 +4,18 @@ seo-title: Anwenden von benutzerdefiniertem Branding und Styling für Textüberl
 description: Auf dieser Seite erfahren Sie, wie Sie benutzerdefiniertes Branding und Styling für Textüberlagerungen anwenden.
 seo-description: Auf dieser Seite erfahren Sie, wie Sie benutzerdefiniertes Branding und Styling für Textüberlagerungen anwenden.
 contentOwner: Jyotika Syal
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 099000dea848810c7ab12a32f0235ca478c0d5dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '626'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
 # Benutzerdefiniertes Branding und Styling für Textüberlagerungen {#creating-custom-branding-styling}
 
-Auf dieser Seite erfahren Sie, wie Sie benutzerdefinierte Branding- und Stile für Textüberlagerungen anwenden, die auf Ihre Assets in einem AEM Screens-Kanal angewendet werden.
+Auf dieser Seite erfahren Sie, wie Sie benutzerdefiniertes Branding und Styling für Textüberlagerungen anwenden, die auf Ihre Assets in einem AEM Screens-Kanal angewendet werden.
 
 ## Erstellen von benutzerdefiniertem Branding und Styling für Textüberlagerungen {#steps-custom-branding}
 
@@ -128,7 +128,7 @@ Gehen Sie wie folgt vor, um die Textüberlagerung mit dem aktualisierten Design 
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand11.png)
 
-   Jetzt können Sie Ihre Marke und Ihren benutzerdefinierten Stil für Textüberlagerungen aktualisieren, die zu Ihren Assets hinzugefügt wurden.
+   Jetzt können Sie Ihre Marke und Ihr benutzerdefiniertes Styling für Textüberlagerungen aktualisieren, die Ihren Assets hinzugefügt wurden.
 
 
 
