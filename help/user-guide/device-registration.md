@@ -10,11 +10,11 @@ content-type: reference
 topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6731c984122083ff340eda690452729c0b846fb5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '785'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -121,19 +121,19 @@ Wenn Sie das Gerät nicht einer Anzeige zugewiesen haben, führen Sie die folgen
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
-### Suchen eines Geräts im Geräte-Manager {#search-device}
+### Suchen eines Geräts über den Geräte-Manager {#search-device}
 
-Nachdem Sie Geräte für Ihren Player registriert haben, können Sie alle Geräte über die Benutzeroberfläche des Geräte-Managers Ansicht haben.
+Sobald Sie Geräte für Ihren Player registriert haben, können Sie alle Geräte über die Benutzeroberfläche des Geräte-Managers anzeigen.
 
-1. Navigieren Sie zum AEM Screens-Projekt zur Benutzeroberfläche des Geräte-Managers, z. B. **DemoScreens** —> **Geräte**.
+1. Navigieren Sie in Ihrem AEM Screens-Projekt zur Benutzeroberfläche des Geräte-Managers, z. B. **DemoScreens** > **Geräte**.
 
-1. Wählen Sie den Ordner **Geräte** und klicken Sie in der Aktionsleiste auf **Geräte-Manager**.
+1. Wählen Sie den Ordner **Devices** (Geräte) aus und klicken Sie in der Aktionsleiste auf **Geräte-Manager**.
 
    ![image](/help/user-guide/assets/device-manager/device-manager-1.png)
 
 1. Die Liste der registrierten Geräte wird angezeigt.
 
-1. Wenn Sie über eine lange Liste registrierter Geräte verfügen, können Sie jetzt über das Suchsymbol in der Aktionsleiste suchen
+1. Wenn die Liste der registrierten Geräte sehr lang ist, können Sie nun über das Suchsymbol in der Aktionsleiste suchen.
 
    ![image](/help/user-guide/assets/device-manager/device-manager-2.png)
 
@@ -144,18 +144,18 @@ Nachdem Sie Geräte für Ihren Player registriert haben, können Sie alle Gerät
    ![image](/help/user-guide/assets/device-manager/device-manager-3.png)
 
 
-#### Einschränkungen der Suchfunktion {#limitations}
+#### Einschränkungen bei der Suchfunktion {#limitations}
 
-* Benutzer können jedes Wort, das in *Geräte-ID* oder *Gerätename* vorhanden ist, suchen.
+* Benutzer können nach jedem Wort suchen, das in der *Geräte-ID* oder dem *Gerätenamen* vorkommt.
 
    >[!NOTE]
-   >Es wird empfohlen, die Gerätenamen in mehreren Wörtern wie *Boston Store Lobby* und nicht in einer *BostonStoreLobby* zu erstellen.
+   >Es wird empfohlen, die Gerätenamen in mehreren Wörtern zu erstellen, z. B. *Boston Store Lobby* und nicht *BostonStoreLobby*.
 
-* Wenn Sie Gerätenamen wie *Boston Store Lobby* erstellen, können Sie nach allen Wörtern *boston*, *store* oder *lobby* suchen, aber wenn der Gerätename als *BostonStoreLobby* bezeichnet wird,/>Boston *zeigt die Ergebnisse nicht an.*
+* Wenn Sie Gerätenamen wie *Boston Store Lobby* erstellen, können Sie nach jedem beliebigen Wort wie *boston*, *store* oder *lobby* suchen. Wenn der Gerätename jedoch *BostonStoreLobby* lautet, werden bei der Suche nach *boston* keine Ergebnisse angezeigt.
 
-* Platzhalter, `*` wird für die Suche unterstützt. Wenn Sie alle Geräte mit Namen finden möchten, die mit *boston* beginnen, können Sie *boston** verwenden.
+* Der Platzhalter `*` wird für die Suche unterstützt. Wenn Sie alle Geräte mit Namen finden möchten, die mit *boston* beginnen, können Sie *boston** verwenden.
 
-* Wenn der Gerätename *BostonStoreLobby* lautet und nach *boston* gesucht wird, wird das Ergebnis nicht zurückgegeben, sondern *boston** in Ihren Suchkriterien verwendet wird, wird das Ergebnis zurückgegeben.
+* Wenn der Gerätename *BostonStoreLobby* lautet und die Suche nach *boston* kein Ergebnis liefert, können Sie stattdessen *boston** in Ihren Suchkriterien verwenden, um das Ergebnis zu erhalten.
 
 ## Einschränkungen bei der Geräteregistrierung {#limitations-on-device-registration}
 
