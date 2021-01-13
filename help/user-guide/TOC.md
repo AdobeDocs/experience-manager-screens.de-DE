@@ -5,11 +5,11 @@ audience: end-user
 user-guide-title: Adobe Experience Manager Screens-Hilfe
 breadcrumb-title: AEM Screens-Anleitung
 user-guide-description: Erfahren Sie, wie Sie mit einer Digital Signage-Lösung dynamische und interaktive digitale Erlebnisse und Interaktionen veröffentlichen können.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2d46d9f4d76739826fae0e75c1387d7a80bce69c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '431'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 99%
       + [Verwenden von Chrome-Player als Erweiterung zur Problembehebung](using-chrome-player-as-an-extension.md)
       + [Android-Player](implementing-android-player.md)
       + [Windows-Player](implementing-windows-player.md)
-      + [Zehn Player](tizen-player.md)
+      + [Tizen-Player](tizen-player.md)
    + Autoren- und Veröffentlichungsinstanz {#author-publish}
       + [Architektonischer Überblick zur Autoren- und Veröffentlichungsinstanz](author-publish-architecture-overview.md)
       + [Konfigurieren von Autoren- und Veröffentlichungsinstanz](author-and-publish.md)
@@ -58,7 +58,7 @@ ht-degree: 99%
       + [Erstellen und Verwalten von Standorten](managing-locations.md)
       + [Erstellen und Verwalten von Zeitplänen](managing-schedules.md)
       + [Verwalten von Geräten](managing-devices.md)
-      + Zuweisen von Kanälen{#assigning-channels} 
+      + Zuweisen von Kanälen {#assigning-channels}
          + [Kanalzuweisung](channel-assignment-latest-fp.md)
          + [Kanalzuweisung: Ältere AEM Screens Feature Packs](channel-assignment.md)
    + Verwenden der wichtigsten Produktfunktionen {#product-features}
