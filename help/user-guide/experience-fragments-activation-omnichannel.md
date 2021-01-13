@@ -1,41 +1,41 @@
 ---
-title: Aktivierung zu Erlebnisfragmenten
-seo-title: Aktivierung zu Erlebnisfragmenten
-description: In diesem Verwendungsfallbeispiel erfahren Sie mehr über die Aktivierung zu Erlebnisfragmenten.
-seo-description: In diesem Verwendungsfallbeispiel erfahren Sie mehr über die Aktivierung zu Erlebnisfragmenten.
-translation-type: tm+mt
+title: Aktivierung von Experience Fragments
+seo-title: Aktivierung von Experience Fragments
+description: In diesem Nutzungsszenario erfahren Sie mehr über die Aktivierung von Experience Fragments.
+seo-description: In diesem Nutzungsszenario erfahren Sie mehr über die Aktivierung von Experience Fragments.
+translation-type: ht
 source-git-commit: 7876c5eed8d23bbe566645feefd8eefb9aeac3f3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '200'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
 
-# Aktivierung zu Erlebnisfragmenten: OmniChannel-Erlebnis {#experience-fragments-activation}
+# Aktivierung von Experience Fragments: Omni-Channel-Erlebnis {#experience-fragments-activation}
 
 ## Nutzungsszenario – Beschreibung {#use-case-description}
 
-Ein Erlebnisfragment ist eine Gruppe von Komponenten, einschließlich Inhalt und Layout, auf die auf Seiten verwiesen wird.
+Ein Experience Fragment ist eine Gruppe aus einer oder mehreren Komponenten (einschließlich Inhalt und Layout), die innerhalb von Seiten referenziert werden.
 
-Im folgenden Anwendungsfall können Sie ein Demoprojekt implementieren, von dem aus das Erlebnisfragment in ein AEM Screens-Projekt eingesetzt wird. Die wichtigsten Highlights dieses Anwendungsfalls sind:
+Im folgenden Nutzungsszenario können Sie ein Demoprojekt implementieren, von dem aus das Experience Fragment für ein AEM Screens-Projekt genutzt wird. Die wichtigsten Highlights dieses Nutzungsszenarios sind:
 
-* Textgröße erhöhen
-* Bilder spiegeln
-* Entfernen einer Benutzeroberfläche, z. B. einer Schaltfläche
-* Vererbung
+* Erhöhen der Textgröße
+* Spiegeln der Bilder
+* Entfernen einer Benutzeroberfläche wie z. B. einer Schaltfläche
+* Grundlegendes zur Vererbung
 
 >[!NOTE]
 >**Voraussetzungen
->Sie müssen über Vorkenntnisse zu den Grundlagen von Erlebnisfragmenten und zur Verwendung von Erlebnisfragmenten in einem AEM Screens-Projekt verfügen. Siehe [Erlebnisfragmente verwenden](/help/user-guide/experience-fragments-in-screens.md)
+>Sie müssen über Vorkenntnisse zu den Grundlagen von Experience Fragments und zur Verwendung von Experience Fragments in einem AEM Screens-Projekt verfügen. Weitere Informationen finden Sie unter [Verwenden von Experience Fragments](/help/user-guide/experience-fragments-in-screens.md).
 
 ### Einrichten des Demoprojekts {#demo-project-setup}
 
-Erstellen Sie ein Projekt mit dem Titel **DemoProject** und einen Sequenz-Kanal mit dem Titel **TestChannel** in Ihrem AEM Screens, wie in der folgenden Abbildung dargestellt.
+Erstellen Sie ein Projekt mit dem Titel **DemoProject** und einen Sequenz-Kanal mit dem Titel **TestChannel** in AEM Screens, wie in der folgenden Abbildung dargestellt.
 
-### Implementieren des Erlebnisfragments in einem AEM Screens-Projekt {#experience-fragments-implementation}
+### Implementieren des Experience Fragments in einem AEM Screens-Projekt {#experience-fragments-implementation}
 
-Nachdem Sie ein Erlebnisfragment erstellt und in Ihrem AEM Screens-Projekt verwendet haben, können Sie **DemoProject** jetzt das Erlebnisfragment entsprechend Ihren Anforderungen erweitern.
+Nachdem Sie ein Experience Fragment erstellt und in Ihrem AEM Screens-Projekt **DemoProject** verwendet haben, können Sie das Experience Fragment jetzt entsprechend Ihren Anforderungen erweitern.
 
 ### Erhöhen der Textgröße {#increasing-text-size}
 
