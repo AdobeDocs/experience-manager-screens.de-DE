@@ -5,11 +5,11 @@ description: Auf dieser Seite erhalten Sie Antworten auf häufig gestellte Frage
 seo-description: Auf dieser Seite erhalten Sie Antworten auf häufig gestellte Fragen zu AEM Screens-Projekten.
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 359c15d16c83e5d3cecee0bbe2ef7e68a815e660
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1706'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -18,20 +18,20 @@ ht-degree: 86%
 
 Im folgenden Abschnitt finden Sie Antworten auf verschiedene häufig gestellte Fragen zu AEM Screens-Projekten.
 
-## Problem mit leeren Bildschirmen {#blank-screen}
+## Problem mit leerem Bildschirm {#blank-screen}
 
 >[!NOTE]
->Die aufgelisteten obligatorischen Prüfungen, die vom primären Support oder vom Kundensupport getestet werden sollten, bevor ein Problem auftritt.
+>Die aufgelisteten obligatorischen Prüfungen, die vom primären Support oder vom kundenseitigen Support durchgeführt werden sollten, bevor ein Problem gemeldet wird.
 
-### 1. Was sollten die Schritte zur Fehlerbehebung bei der ersten Hilfe für Kunden sein, die mit einem schwarzen Bildschirm oder nicht wiedergegebenen Inhalten konfrontiert sind? {#troubleshooting-blank-screen}
+### 1. Was sollten die Erste-Hilfe-Schritte zur Fehlerbehebung sein, wenn ein Kunde mit einem schwarzen Bildschirm oder nicht wiedergegebenen Inhalten konfrontiert wird? {#troubleshooting-blank-screen}
 
-* Überprüfen Sie, ob die Vorschau des Kanals funktioniert.
-* Überprüfen Sie, ob die Display-Vorschau funktioniert.
-* Versuchen Sie, den Player als Browsererweiterung auf Ihrem System für dieselbe Anzeige zu registrieren und überprüfen Sie, ob dies funktioniert.
-* Navigieren Sie mit dem Player auf Ihrem System zu `http://localhost:24502`. Überprüfen Sie, ob der gesamte Inhalt korrekt heruntergeladen wurde.
-* Überprüfen Sie, ob die entsprechenden Ausgabeformate erstellt wurden und die richtige Darstellung wiedergegeben wird.
-* Überprüfen Sie, ob der geplante Inhalt korrekt ist. Überprüfen Sie, ob die im Player eingestellte Zeit korrekt ist.
-* Inspect protokolliert die Player-Konsole und prüft auf Fehler. Klicken Sie mit der rechten Maustaste und überprüfen Sie die Konsolenprotokolle. Wenn Sie den Windows-Player verwenden, drücken Sie `CTRL + ALT +I`, um die dev-Konsole zur Ansicht der Protokolle aufzurufen.
+* Überprüfen Sie, ob die Kanalvorschau funktioniert.
+* Überprüfen Sie, ob die Anzeigenvorschau funktioniert.
+* Versuchen Sie, den Player als Browser-Erweiterung auf Ihrem System für dieselbe Anzeige zu registrieren und überprüfen Sie, ob dies funktioniert.
+* Wenn der Player auf Ihrem System läuft, navigieren Sie zu `http://localhost:24502`. Überprüfen Sie, ob der gesamte Inhalt korrekt heruntergeladen wurde.
+* Überprüfen Sie, ob die entsprechenden Ausgabedarstellungen erstellt wurden und die richtige Ausgabedarstellung wiedergegeben wird.
+* Überprüfen Sie, ob es geplante Inhalte gibt und ob die Zeiten korrekt sind. Überprüfen Sie, ob die im Player eingestellte Zeit korrekt ist.
+* Überprüfen Sie die Protokolle der Player-Konsole und überprüfen Sie sie auf Fehler. Klicken Sie mit der rechten Maustaste und überprüfen Sie die Konsolenprotokolle. Wenn Sie den Windows-Player verwenden, drücken Sie `CTRL + ALT +I`, um die Entwicklungskonsole aufzurufen und die Protokolle anzuzeigen.
 
 ## Kanalverwaltung {#channel-management}
 
@@ -140,11 +140,11 @@ Führen Sie folgende Schritte durch, um „Stay Awake“ in einem beliebigen And
 1. Navigieren Sie zu den **Entwickleroptionen**.
 1. Aktivieren Sie **Stay Awake**.
 
-### 4. Wie wird der Fenstermodus für den Windows-Player aktiviert?{#enable-player}
+### 4. Wie wird der Fenstermodus für den Windows-Player aktiviert? {#enable-player}
 
 Der Windows-Player verfügt über keinen Fenstermodus. Der Vollbildmodus ist immer aktiviert.
 
-### 5. Wie kann eine Fehlerbehebung durchgeführt werden, wenn ein AEM Screens-Player ständig Login-Anfragen sendet?{#requests-login}
+### 5. Wie kann eine Fehlerbehebung durchgeführt werden, wenn ein AEM Screens-Player ständig Login-Anfragen sendet? {#requests-login}
 
 Gehen Sie wie folgt vor, um eine Fehlerbehebung bei einem AEM Screens-Player durchzuführen, der fortlaufend Anfragen an `/content/screens/svc.json` und `/libs/granite/core/content/login.validate/j_security_check` sendet:
 
@@ -154,7 +154,7 @@ Gehen Sie wie folgt vor, um eine Fehlerbehebung bei einem AEM Screens-Player dur
 
    Weitere Informationen finden Sie unter [Konfigurieren von Screens-Filtern](https://docs.adobe.com/content/help/de-DE/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters).
 
-1. Überprüfen Sie, ob die Umschreibungsregeln des Dispatchers einen Bildschirmpfad in einen anderen Pfad umschreiben. 
+1. Überprüfen Sie, ob die Umschreibungsregeln des Dispatchers einen Bildschirmpfad in einen anderen Pfad umschreiben.
 
 1. Überprüfen Sie, ob Sie `/etc/map`-Regeln in der *Autoren*- oder *Veröffentlichungsinstanz* verwenden und ob die Bildschirmpfade mit `sling:match` übereinstimmen und interen zu einem anderen Pfad umgeleitet werden. Die Auflösung der exakten URL in `/system/console/jcrresolver` hilft dabei herauszufinden, ob die *Veröffentlichungsinstanz* diese URLs in einen anderen Pfad umschreibt.
 
@@ -178,11 +178,11 @@ So deaktivieren Sie Livefyre, um Protokollfehler zu vermeiden:
    * Fügen Sie eine neue *aktivierte* Eigenschaft vom Typ *Boolesch* hinzu
    * Setzen Sie die **aktivierte Eigenschaft** auf **false**
 
-### 2. Wie Hinzufügen Sie Informationen zum Oak Index? {#add-oak-index-info}
+### 2. Wie fügt man Oak-Index-Informationen hinzu? {#add-oak-index-info}
 
 AEM Screens erstellt Indexdefinitionen für die vom Produkt verwendeten Abfragen.
-Wenn es im `error.log` Abfrage Traversal WARNs *gibt, erstellen Sie einen benutzerdefinierten Index für Ihre Abfrage.* Weitere Informationen finden Sie unter [Konfigurieren der Indizes](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=en#configuring-the-indexes).
+Wenn es im `error.log` *abfrageübergreifende Warnhinweise (WARN)* gibt, erstellen Sie einen benutzerdefinierten Index für Ihre Abfrage. Weitere Informationen finden Sie unter [Konfigurieren der Indizes](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=de#configuring-the-indexes).
 
-Sie können auch auf eine zusätzliche Ressource unter [Oak Documentation](https://jackrabbit.apache.org/oak/docs/query/lucene.html) verweisen.
+Sie können auch auf eine zusätzliche Ressource in der [Oak-Dokumentation](https://jackrabbit.apache.org/oak/docs/query/lucene.html) zurückgreifen.
 
 
