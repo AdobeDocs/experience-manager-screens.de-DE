@@ -1,47 +1,47 @@
 ---
 title: Inhaltszuweisungsbericht
-description: Diese Seite beschreibt das Herunterladen und Verwenden des Inhaltszuweisungsberichts.
-translation-type: tm+mt
+description: Auf dieser Seite wird das Herunterladen und Verwenden des Inhaltszuweisungsberichts beschrieben.
+translation-type: ht
 source-git-commit: 6d6ab276f5b4c0cb34a18fe3cb848ae226a97e1c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '332'
-ht-degree: 8%
+ht-degree: 100%
 
 ---
 
 
 # Inhaltszuweisungsbericht {#content-assignment-report}
 
-Die Funktion &quot;Inhaltszuweisungsbericht&quot;ermöglicht es einem AEM Screens-Administrator oder einem Autor, einen *Inhaltszuweisungsbericht* in ein Tabellenformat zu exportieren.
+Mit der Funktion „Inhaltszuweisungsbericht“ kann ein AEM Screens-Administrator oder ein Autor einen *Inhaltszuweisungsbericht* in ein Tabellenformat exportieren.
 
 ## Verwenden des Inhaltszuweisungsberichts {#using-content-assignment-report}
 
-Der Bericht &quot;Inhaltszuweisung&quot;ermöglicht es einem AEM Screens-Autor oder einem Administrator, den Bericht herunterzuladen, der alle Assets wie Bilder oder Videos in allen Kanälen enthält, die in einem AEM Screens-Projekt erstellt wurden. Darüber hinaus enthält es die Informationen zu allen Kanälen, die allen angegebenen Anzeigen zugewiesen sind, und ab sofort alle Geräte, die ihren jeweiligen Displays zugeordnet sind.
+Mit dem Inhaltszuweisungsbericht kann ein Autor oder Administrator in AEM Screens den Bericht herunterladen, der alle Assets wie Bilder und Videos in allen Kanälen enthält, die in einem AEM Screens-Projekt erstellt wurden. Darüber hinaus enthält er die Informationen zu allen Kanälen, die allen vorgesehenen Anzeigen zugewiesen sind, und damit auch alle Geräte, die ihren jeweiligen Anzeigen zugeordnet sind.
 
-Der Bericht &quot;Inhaltszuweisung&quot;ermöglicht nicht nur eine Vorschau aller Kanal, Assets, Anzeigen und Geräte im ausgewählten AEM Screens-Projekt, sondern stellt auch eine hohe Projektstruktur bereit.
+Der Inhaltszuweisungsbericht ermöglicht nicht nur eine Vorschau aller Kanäle, Assets, Anzeigen und Geräte im ausgewählten AEM Screens-Projekt, sondern bietet auch eine allgemeine Struktur Ihres Projekts.
 
 
 ### Voraussetzungen {#pre-reqs}
 
-Bevor Sie den Bericht &quot;Inhaltszuweisung&quot;herunterladen, stellen Sie sicher, dass Sie ein AEM Screens-Projekt mit Kanälen, Speicherorten und Geräten eingerichtet haben.
+Stellen Sie vor dem Herunterladen des Inhaltszuweisungsberichts sicher, dass Sie ein AEM Screens-Projekt mit Kanälen, Standorten und Geräten eingerichtet haben.
 Weitere Informationen finden Sie in den folgenden Ressourcen:
 
 1. [Erstellen und Verwalten von Projekten](/help/user-guide/creating-a-screens-project.md)
 1. [Erstellen und Verwalten von Kanälen](/help/user-guide/managing-channels.md)
 1. [Erstellen und Verwalten von Standorten](/help/user-guide/managing-locations.md)
 1. [Erstellen und Verwalten von Anzeigen](/help/user-guide/managing-displays.md)
-1. [Geräte erstellen](/help/user-guide/managing-devices.md)
+1. [Erstellen von Geräten](/help/user-guide/managing-devices.md)
 1. [Zuweisen von Kanälen](/help/user-guide/channel-assignment-latest-fp.md)
 
 
 ## Herunterladen des Inhaltszuweisungsberichts {#downloading-content-assignment-report-fp}
 
-Nachdem Sie Ihr AEM Screens-Projekt eingerichtet haben und den einzelnen Orten, wie in den vorherigen Schritten gezeigt, Anzeigen zugewiesen haben, können Sie den Bericht &quot;Inhaltszuweisung&quot;herunterladen.
+Nachdem Sie Ihr AEM Screens-Projekt eingerichtet und jedem Standort Anzeigen zugewiesen haben, wie in den vorherigen Schritten gezeigt, können Sie den Inhaltszuweisungsbericht herunterladen.
 
 >[!NOTE]
->Die Funktion &quot;Inhaltszuweisungsbericht&quot;kann nur auf Projektebene aufgerufen werden.
+>Auf die Funktion „Inhaltszuweisungsbericht“ kann nur auf Projektebene zugegriffen werden.
 
-Befolgen Sie die unten stehenden Anweisungen, um den Bericht &quot;Inhaltszuweisung&quot;herunterzuladen:
+Folgen Sie den nachstehenden Anweisungen, um den Inhaltszuweisungsbericht herunterzuladen:
 
 1. Navigieren Sie zu Ihrem AEM Screens-Projekt und wählen Sie das Projekt **DemoScreens** aus.
 
@@ -50,9 +50,9 @@ Befolgen Sie die unten stehenden Anweisungen, um den Bericht &quot;Inhaltszuweis
    ![image](/help/user-guide/assets/content-assignment-report/can-download.png)
 
    >[!NOTE]
-   >Die heruntergeladene Tabelle besteht aus vier Spalten, wie **Kanal**, **Elemente**, **Anzeigen** und **Geräte**, die zur weiteren Untersuchung dieser vier Entitäten für Ihr AEM Screens-Projekt verwendet werden können.
+   >Die heruntergeladene Tabelle besteht aus vier Spalten, **Channels** (Kanäle), **Assets**, **Displays** (Anzeigen) und **Devices** (Geräte), mit denen diese vier Entitäten Ihres AEM Screens-Projekts weiter untersucht werden können.
 
-1. Ein Excel-Blatt wird auf Ihren lokalen Computer mit dem Präfix identischen Namen wie Ihr AEM Screens-Projektname heruntergeladen. Wenn Ihr Projektname beispielsweise **DemoScreens** lautet, lautet der heruntergeladene Dateiname **demoscreens-content-assign-report.xlxs**.
+1. Eine Excel-Tabelle wird auf Ihr lokales Gerät heruntergeladen, wobei der Name Ihres AEM Screens-Projekts vorangestellt ist. Wenn Ihr Projektname beispielsweise **DemoScreens** lautet, lautet der Name der heruntergeladenen Datei **demoscreens-content-assign-report.xlxs**.
 
    ![image](/help/user-guide/assets/content-assignment-report/car-download1.png)
 
