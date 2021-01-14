@@ -2,10 +2,10 @@
 title: Tizen-Player
 description: Auf dieser Seite wird die Installation und Funktionsweise des Tizen-Players beschrieben.
 translation-type: tm+mt
-source-git-commit: 1ec3e3541755550f719dbe53e83326d9796de14f
+source-git-commit: dc2fedaa5726e1013e1b51f429ba19e4a709de28
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 28%
+source-wordcount: '675'
+ht-degree: 27%
 
 ---
 
@@ -77,29 +77,40 @@ Führen Sie die folgenden Schritte aus, um eine Massenbereitstellung durchzufüh
 
 ### Aktivieren des Tizen-Geräts für den Samsung Remote Management Service (RMS) {#enroll-tizen-device-rms}
 
-Führen Sie die folgenden Schritte aus, um das Tizen-Gerät beim Samsung Remote Management Service (RMS) anzumelden und URL Launcher remote zu konfigurieren:
+Gehen Sie wie folgt vor, um das Tizen-Gerät beim Samsung Remote Management Service (RMS) zu registrieren und den URL Launcher remote zu konfigurieren:
 
 >[!NOTE]
 >Überprüfen Sie die Netzwerkeinstellungen und den Monitor.
 
-1. Drücken Sie auf Menü auf Ihrem Remote-System und gehen Sie dann System und drücken Sie die Eingabetaste auf Play Via.
+1. Navigieren Sie zu **Menü** -> **Netzwerk** -> **Servernetzwerkeinstellungen** und drücken Sie **Eingabetaste**.
 
    >[!NOTE]
-   >Überprüfen Sie, ob der Bildschirm auf &quot;Über URL-Launcher abspielen&quot;eingerichtet ist.
-1. Navigieren Sie zu **Menü** -> **Netzwerk** -> **Servernetzwerkeinstellungen** und drücken Sie **Eingabetaste**.
+   >Überprüfen Sie, ob der Bildschirm auf &quot;Über URL-Starter abspielen&quot;eingerichtet ist.
 
 1. Navigieren Sie zur Serveradresse und geben Sie den Zugriff auf die MagicInfo-URL ein und drücken Sie Fertig.
 
-1. Navigieren Sie zur Registerkarte &quot;Gerät&quot;, sobald Sie sich bei MIS angemeldet haben.
-1. Suchen Sie nach dem Gerät, das Sie gerade konfiguriert haben, indem Sie die IP-Adresse und/oder die Mac-Adresse ansehen.
-1. Sobald ein Gerät gefunden wurde, klicken Sie auf das Kontrollkästchen und wählen Sie Genehmigen
-1. Vergewissern Sie sich, dass der Bildschirm auf &quot;Über URL-Starter abspielen&quot;eingerichtet ist.
-1. Drücken Sie auf dem Remote-Rechner die Taste Menu (Menü) und gehen Sie zum System und drücken Sie dann die Eingabetaste auf Play Via (Wiedergabe über
-1. Navigieren Sie zu Menü -> Netzwerk -> Server Network Settings und drücken Sie die Eingabetaste.
-1. Wechseln Sie zur Serveradresse und geben Sie den Zugriff auf die MagicInfo-URL ein und drücken Sie die Eingabetaste Fertig
 1. TLS je nach Fall verwenden oder nicht verwenden
-1. Wechseln Sie zum Anschluss und wählen Sie die Anschlussnummer vom Server aus.
-1. Treten Sie auf Speichern, sobald die Optionen bereit sind.
+   1. Wechseln Sie zum Anschluss und wählen Sie die Anschlussnummer vom Server aus.
+   1. Treten Sie auf Speichern, sobald die Optionen bereit sind.
+
+1. Navigieren Sie zur Registerkarte &quot;Gerät&quot;, sobald Sie sich bei MIS angemeldet haben.
+   1. Suchen Sie nach dem Gerät, das Sie gerade konfiguriert haben, indem Sie die IP-Adresse und/oder die Mac-Adresse ansehen.
+   1. Sobald ein Gerät gefunden wurde, klicken Sie auf das Kontrollkästchen und wählen Sie Genehmigen.
+
+1. Wenn Sie auf die Schaltfläche Genehmigt geklickt haben, wird das folgende Popup angezeigt
+   1. Füllen Sie die erforderlichen Informationen aus
+   1. Gerätegruppe auswählen
+   1. Klicken Sie auf OK, um den Genehmigungsprozess abzuschließen.
+
+1. Sobald das Gerät genehmigt wurde, sollte es wie folgt auf der Liste des Geräts angezeigt werden.
+   1. Klicken Sie auf die Schaltfläche &quot;Informationen&quot;im Feld &quot;i&quot;.
+
+1. Das Popup für Geräteinformationen erscheint wie folgt und klicken Sie auf die Schaltfläche &quot;Bearbeiten&quot;.
+
+1. Die Optionen zum Bearbeiten des Geräts werden wie folgt angezeigt und wählen Sie die Registerkarte &quot;Einstellungen&quot;.
+
+1. Suchen Sie den Abschnitt &quot;URL-Starter&quot;und geben Sie die URL ein, die als Host für den Wgt dient, und `SSSP config file`, um eine SSSP-Anwendung zu installieren.
+
 
 
 
