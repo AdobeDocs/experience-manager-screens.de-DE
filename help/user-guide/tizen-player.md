@@ -2,10 +2,10 @@
 title: Tizen-Player
 description: Auf dieser Seite wird die Installation und Funktionsweise des Tizen-Players beschrieben.
 translation-type: tm+mt
-source-git-commit: 092be09ec9477c9ff7561347d8f05641a90a9b40
+source-git-commit: 6f93922bf94b9f0f752c0953c7bed35b5d056e4b
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 21%
+source-wordcount: '926'
+ht-degree: 18%
 
 ---
 
@@ -68,23 +68,22 @@ Führen Sie die folgenden Schritte auf dem Samsung-Gerät aus, um die Installati
 
 1. Klicken Sie auf die Schaltfläche **MENU** aus der Remote-Umgebung des Geräts und blättern Sie von der linken Navigationsleiste nach unten zu **System**.
 
-1. Blättern Sie nach unten und wählen Sie die Option **Über URL-Starter abspielen**.
+1. Blättern Sie nach unten und wählen Sie die Option **Wiedergabe über** und ändern Sie sie in **URL-Starter**.
    ![image](/help/user-guide/assets/tizen/rms-2.png)
 
-1. Drücken Sie die Taste **Home** von Ihrer Remote-Site.
+1. Sobald der URL-Starter festgelegt ist, drücken Sie die Taste **Home** von Ihrer Remote-Site.
 
-1. Geben Sie die IP-Adresse Ihres localhost-Servers ein.
-
-1. Wählen Sie **Remote** im **Entwicklermodus** aus.
-
-1. Klicken Sie auf der Fernbedienung des Geräts auf die Schaltfläche **Home** und wählen Sie **URL-Starter** aus.
+1. Navigieren Sie zu den **URL-Startereinstellungen** und geben Sie die IP-Adresse des localhost-Servers ein.
 
 1. Der AEM Screens-Player sollte jetzt automatisch auf Ihrem Samsung-Gerät installiert und gestartet werden.
+
+   >[!NOTE]
+   >Sowohl das Tizen-Gerät als auch der `http`-Server sollten in der Lage sein, eine Verbindung zueinander herzustellen, d.h. der Server sollte mit dem Tizen-Player erreichbar sein.
 
 ## Massenbereitstellung des ZIP-Players {#bulk-provisioning-tizen-player}
 
 >[!NOTE]
->Es kann eine mühsame Anstrengung sein, die Adresse Ihres AEM-Servers manuell in die Admin-Benutzeroberfläche jedes einzelnen Geräts für eine große Anzahl von Geräten einzugeben. Es wird empfohlen, die Samsung Remote Management (RMS)-Lösung für die Bereitstellung und Verwaltung der Lösung zu verwenden. Weitere Informationen finden Sie unter [Aktivieren des Tizen-Geräts beim Samsung Remote Management Service (RMS)](#enroll-tizen-device-rm).
+>Es kann eine mühsame Anstrengung sein, die Adresse Ihres AEM-Servers manuell in die Admin-Benutzeroberfläche jedes einzelnen Geräts für eine große Anzahl von Geräten einzugeben. Es wird empfohlen, die Samsung Remote Management (RMS)-Lösung für die Bereitstellung und Verwaltung größerer Lösungen zu verwenden. Weitere Informationen finden Sie unter [Aktivieren des Tizen-Geräts beim Samsung Remote Management Service (RMS)](#enroll-tizen-device-rm).
 
 Führen Sie die folgenden Schritte aus, um eine Massenbereitstellung durchzuführen, damit die Anwendung beim Starten auf Ihre AEM Autoreninstanz verweist:
 
@@ -111,9 +110,9 @@ Gehen Sie wie folgt vor, um das Tizen-Gerät beim Samsung Remote Management Serv
    >Überprüfen Sie, ob der Bildschirm auf &quot;Über URL-Starter abspielen&quot;eingerichtet ist.
    >![image](/help/user-guide/assets/tizen/rms-2.png)
 
-1. Navigieren Sie zur Serveradresse und geben Sie den Zugriff auf die MagicInfo-URL ein und drücken Sie Fertig.
+1. Navigieren Sie zur Serveradresse und geben Sie den Zugriff auf die MagicInfo-URL ein und drücken Sie die Taste **Fertig**.
 
-1. Richten Sie ggf. TLS ein. Navigieren Sie zum Anschluss und wählen Sie die Anschlussnummer vom Server aus. Klicken Sie auf **Speichern**.
+1. Richten Sie ggf. TLS ein. Navigieren Sie zum Anschluss, wählen Sie die Anschlussnummer vom Server aus und klicken Sie auf **Speichern**.
 
 1. Navigieren Sie zur Registerkarte **Gerät** und suchen Sie nach dem Gerät, das Sie gerade konfiguriert haben. Sobald ein Gerät gefunden wurde, klicken Sie auf das Kontrollkästchen und wählen Sie **Genehmigen**.
 
