@@ -2,10 +2,10 @@
 title: Tizen-Player
 description: Auf dieser Seite wird die Installation und Funktionsweise des Tizen-Players beschrieben.
 translation-type: tm+mt
-source-git-commit: 6f93922bf94b9f0f752c0953c7bed35b5d056e4b
+source-git-commit: 0c8ca6c509208d19d2ea23e5bff712aaf780d2fe
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 18%
+source-wordcount: '930'
+ht-degree: 12%
 
 ---
 
@@ -30,6 +30,9 @@ Gehen Sie wie folgt vor, um diese inkompatiblen Clients auszuschließen, wenn Si
 
 1. Upgrade auf Adobe Experience Manager (AEM) Service Pack 6.5.8.
 
+   >[!NOTE]
+   >Wenn Sie AEM 6.5.8 installieren, können Sie die Schritte 2 und 3 überspringen.
+
 1. Navigieren Sie in AEM zu `/system/console/bundles` und klicken Sie auf die Schaltfläche `install/update`.
 
 1. Installieren Sie die JAR-Datei `crx-auth-token`. Nach der Installation dieser JAR-Datei müssen Sie möglicherweise den Vorgang beenden und AEM neu starten, da es sich um eine Authentifizierung handelt.
@@ -38,27 +41,23 @@ Gehen Sie wie folgt vor, um diese inkompatiblen Clients auszuschließen, wenn Si
 
 1. Es sollte eine neue Option *Benutzeragenten angezeigt werden, die von demselben Site-Attribut* ausgenommen werden sollen. Füllen Sie diesen mit einem Regex entsprechend dem Benutzeragent/den Benutzeragenten, der/die nicht mit dem Attribut *SameSite=None* kompatibel ist/sind.
    >[!NOTE]
-   >Siehe [SameSite=None: Bekannte inkompatible Clients](https://www.chromium.org/updates/same-site/incompatible-clients) finden Sie weitere Informationen. Für den Zehn-Player verwenden Sie den regex: `(.*)Tizen (4|5)(.*)`.
+   >Siehe [SameSite=None: Bekannte inkompatible Clients](https://www.chromium.org/updates/same-site/incompatible-clients) finden Sie weitere Informationen. Für den Zehn-Player verwenden Sie den regex: `(.*)Tizen(.*)`.
 
 1. Registrieren Sie den Tizen Player gegen Ihre AEM 6.5.5 und höher Instanz und es sollte sich registrieren und Inhalte normal anzeigen.
 
 
 ## Einrichten des lokalen Servers und Extrahieren der ZIP-Dateien {#setting-local-server}
 
-Gehen Sie wie folgt vor, um den lokalen Server einzurichten und die extrahierten Dateien zu kopieren:
-
-1. Rufen Sie die IP-Adresse Ihres lokalen Geräts ab.
-   >[!NOTE]
-   >In der offiziellen Dokumentation erfahren Sie, wie Sie den lokalen Server auf Ihrer Plattform aktivieren.
-
-1. Navigieren Sie vom Terminal zum selben Verzeichnis des entpackten Installationsordners und überprüfen Sie, ob der lokale Host funktioniert.
-
-1. Der Tizen-Player lädt das Installationsprogramm vom lokalen Server herunter.
+Führen Sie dazu folgende Schritte durch:
 
 1. Kopieren Sie die beiden extrahierten Dateien wie `AEMScreensPlayer.wgt` und `sssp_config.xml` in den Stammordner Ihres lokalen Apache-Webservers.
 
    >[!NOTE]
    >Die `AEMScreensPlayer.wgt`ist die eigentliche Tizen Player-Anwendung und `sssp_config.xml` enthält Informationen zu dieser Karte, die Ihnen bei der Installation auf dem Tizen-Gerät hilft.
+
+1. Rufen Sie die IP oder URL Ihres lokalen HTTP-Servers ab (und den Pfad zu dem Ordner, der die extrahierten Dateien enthält, in Schritt 2, wenn er in einen Unterordner und nicht in einen Stammordner extrahiert wird)
+
+1. Der Tizen-Player lädt das Installationsprogramm vom lokalen Server herunter.
 
 ### Konfigurieren von Aktualisierungen auf dem Samsung-Gerät {#config-updates}
 
@@ -73,7 +72,9 @@ Führen Sie die folgenden Schritte auf dem Samsung-Gerät aus, um die Installati
 
 1. Sobald der URL-Starter festgelegt ist, drücken Sie die Taste **Home** von Ihrer Remote-Site.
 
-1. Navigieren Sie zu den **URL-Startereinstellungen** und geben Sie die IP-Adresse des localhost-Servers ein.
+1. Navigieren Sie zu den **URL-Startereinstellungen** und geben Sie die IP-Adresse des localhost-Servers ein und klicken Sie auf **Fertig**.
+   >[!NOTE]
+   >Der Tizen-Player sollte eine Verbindung zum HTTP-Server herstellen können.
 
 1. Der AEM Screens-Player sollte jetzt automatisch auf Ihrem Samsung-Gerät installiert und gestartet werden.
 
@@ -115,6 +116,8 @@ Gehen Sie wie folgt vor, um das Tizen-Gerät beim Samsung Remote Management Serv
 1. Richten Sie ggf. TLS ein. Navigieren Sie zum Anschluss, wählen Sie die Anschlussnummer vom Server aus und klicken Sie auf **Speichern**.
 
 1. Navigieren Sie zur Registerkarte **Gerät** und suchen Sie nach dem Gerät, das Sie gerade konfiguriert haben. Sobald ein Gerät gefunden wurde, klicken Sie auf das Kontrollkästchen und wählen Sie **Genehmigen**.
+
+   >![image](/help/user-guide/assets/tizen/rms-3.png)
 
 1. Füllen Sie die erforderlichen Informationen aus und wählen Sie eine Gerätegruppe aus. Klicken Sie auf **OK**, um den Genehmigungsprozess abzuschließen.
 
