@@ -2,9 +2,9 @@
 title: Tizen-Player
 description: Auf dieser Seite wird die Installation und Funktionsweise des Tizen-Players beschrieben.
 translation-type: tm+mt
-source-git-commit: dc2fedaa5726e1013e1b51f429ba19e4a709de28
+source-git-commit: c1e7187ad3841cde08377d6daf700885d17706ba
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '691'
 ht-degree: 27%
 
 ---
@@ -77,7 +77,7 @@ Führen Sie die folgenden Schritte aus, um eine Massenbereitstellung durchzufüh
 
 ### Aktivieren des Tizen-Geräts für den Samsung Remote Management Service (RMS) {#enroll-tizen-device-rms}
 
-Gehen Sie wie folgt vor, um das Tizen-Gerät beim Samsung Remote Management Service (RMS) zu registrieren und den URL Launcher remote zu konfigurieren:
+Gehen Sie wie folgt vor, um das Tizen-Gerät beim Samsung Remote Management Service (RMS) anzumelden und den URL Launcher remote zu konfigurieren:
 
 >[!NOTE]
 >Überprüfen Sie die Netzwerkeinstellungen und den Monitor.
@@ -107,9 +107,13 @@ Gehen Sie wie folgt vor, um das Tizen-Gerät beim Samsung Remote Management Serv
 
 1. Das Popup für Geräteinformationen erscheint wie folgt und klicken Sie auf die Schaltfläche &quot;Bearbeiten&quot;.
 
-1. Die Optionen zum Bearbeiten des Geräts werden wie folgt angezeigt und wählen Sie die Registerkarte &quot;Einstellungen&quot;.
+1. Bearbeiten Sie die Geräteoptionen und wählen Sie die Registerkarte **Setup**.
 
-1. Suchen Sie den Abschnitt &quot;URL-Starter&quot;und geben Sie die URL ein, die als Host für den Wgt dient, und `SSSP config file`, um eine SSSP-Anwendung zu installieren.
+1. Navigieren Sie zum Abschnitt **URL-Starter** und geben Sie die URL ein, die als Host für die WGT dient, und `SSSP config file`, um eine `SSSP`-Anwendung zu installieren, wie in der folgenden Abbildung dargestellt.
+
+   ![image](/help/user-guide/assets/tizen/rms-9.png)
+
+1. Klicken Sie auf **Speichern**, damit die Änderungen auf dem Anzeigebildschirm wirksam werden.
 
 
 
