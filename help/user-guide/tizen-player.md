@@ -2,9 +2,9 @@
 title: Tizen-Player
 description: Auf dieser Seite wird die Installation und Funktionsweise des Tizen-Players beschrieben.
 translation-type: tm+mt
-source-git-commit: 46b7cf83d827d4b7ac1d4b37269085f312882de1
+source-git-commit: aaaba2ed94fc950fec9264fef441bebf761576be
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '905'
 ht-degree: 11%
 
 ---
@@ -102,10 +102,6 @@ Gehen Sie wie folgt vor, um das Tizen-Gerät beim Samsung Remote Management Serv
 >Überprüfen Sie die Netzwerkeinstellungen und den Monitor.
 
 1. Navigieren Sie zu **Menü** -> **Netzwerk** -> **Servernetzwerkeinstellungen** und drücken Sie **Eingabetaste**.
-
-   >[!NOTE]
-   >Überprüfen Sie, ob der Bildschirm auf &quot;Über URL-Starter abspielen&quot;eingerichtet ist.
-   >![image](/help/user-guide/assets/tizen/rms-2.png)
 
 1. Navigieren Sie zur Serveradresse und geben Sie den Zugriff auf die MagicInfo-URL ein und drücken Sie die Taste **Fertig**.
 
