@@ -10,11 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2b72d9a83735beb327f519a66e8b3c0e8bf04409
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1134'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 74%
 
 In diesem Abschnitt wird die Konfiguration des Android-Players beschrieben. Er enthält Informationen zur Konfigurationsdatei und präsentiert die verfügbaren Optionen und Empfehlungen zu den zum Entwickeln und Testen zu verwendenden Einstellungen.
 
-Außerdem ist **Watchdog** eine Lösung zur Wiederherstellung des Players nach Abstürzen. Eine Anwendung muss sich selbst beim Watchdog-Dienst registrieren und dann regelmäßig Nachrichten zur Bestätigung ihrer Aktivität an den Dienst senden. Falls der Watchdog-Dienst innerhalb der geforderten Zeit keine Keep-Alive-Nachricht erhält, versucht der Dienst das Gerät neu zu starten, um eine saubere Wiederherstellung durchzuführen (bei ausreichenden Rechten) oder die Anwendung neu zu starten.
+Außerdem ist **Watchdog** eine Lösung zur Wiederherstellung des Players nach Abstürzen. Eine App muss sich selbst beim Watchdog-Dienst registrieren und dann regelmäßig Nachrichten zur Bestätigung ihrer Aktivität an den Service senden. Falls der Watchdog-Dienst innerhalb der geforderten Zeit keine Keep-Alive-Nachricht erhält, versucht der Dienst das Gerät neu zu starten, um eine saubere Wiederherstellung durchzuführen (bei ausreichenden Rechten) oder die Anwendung neu zu starten.
 
 ## Installieren des Android-Players {#installing-android-player}
 
@@ -36,7 +36,7 @@ Rufen Sie die Seite [**AEM 6.5 Player-Downloads**](https://download.macromedia.c
 >[!NOTE]
 >Wenn Sie das AEM Screens 6.5.5 Service Pack verwenden, müssen Sie eine Umgebung für den Android-Player einrichten.
 
-Legen Sie das **Attribut „SameSite“ für die Anmelde-Token-Cookies** in der **Konfiguration der Adobe Experience Manager-Web-Konsole** in allen AEM-Autoren- und Veröffentlichungsinstanzen von **Lax** auf **Keine** fest.
+Legen Sie das **Attribut „SameSite“ für die Anmelde-Token-Cookies** in der **Konfiguration der Adobe Experience Manager-Web-Konsole** in allen AEM-Autoren- und Veröffentlichungsinstanzen von **Lax** (Gering) auf **None** (Keine) fest.
 
 Führen Sie dazu folgende Schritte durch:
 
@@ -44,7 +44,7 @@ Führen Sie dazu folgende Schritte durch:
 
 1. Suchen Sie nach *Adobe Granite Token Authentication Handler*.
 
-1. Legen Sie das **Attribut „SameSite“ für die Anmelde-Token-Cookies** von **Lax** auf **Keine** fest.
+1. Legen Sie das **Attribut „SameSite“ für die Anmelde-Token-Cookies** von **Lax** (Gering) auf **None** (Keine) fest.
    ![image](/help/user-guide/assets/granite-updates.png)
 
 1. Klicken Sie auf **Speichern**.
@@ -69,9 +69,9 @@ Nachdem Sie die Anwendung heruntergeladen haben, führen Sie die Schritte im Pla
 
 ## Implementieren von Android Watchdog {#implementing-android-watchdog}
 
-Aufgrund der Architektur von Android erfordert der Neustart des Geräts, dass die Anwendung über Systemrechte verfügt. Hierzu müssen Sie die apk mithilfe der Signierungsschlüssel des Herstellers signieren. Andernfalls startet Watchdog die Player-Anwendung neu und nicht das Gerät.
+Aufgrund der Architektur von Android erfordert der Neustart des Geräts, dass die Anwendung über Systemrechte verfügt. Hierzu müssen Sie die APK mithilfe der Signierungsschlüssel des Herstellers signieren. Andernfalls startet Watchdog die Player-App neu, statt das Gerät neu zu starten.
 
-### Signieren von Android-apks mithilfe von Herstellerschlüsseln {#signage-of-android-apks-using-manufacturer-keys}
+### Signieren von Android-APKs mithilfe von Herstellerschlüsseln {#signage-of-android-apks-using-manufacturer-keys}
 
 Zum Zugreifen auf die berechtigten APIs von Android, wie zum Beispiel *PowerManager* oder *HDMIControlServices*, müssen Sie die Android-apk mithilfe der Herstellerschlüssel signieren.
 
@@ -87,16 +87,16 @@ Gehen Sie wie folgt vor, um die Android-apk mithilfe von Herstellerschlüsseln z
 1. Rufen Sie die Plattformschlüssel des Herstellers ab, um eine *pk8*- und eine *pem*-Datei zu erhalten
 
 1. Suchen Sie nach dem apksigner-Tool in Android SDK mithilfe von find ~/Library/Android/sdk/build-tools -name &quot;apksigner&quot;
-1. &lt;Pfad> /apksigner sign --key platform.pk8 --cert platform.x509.pem aemscreensplayer.apk
+1. &lt;pathto> /apksigner sign --key platform.pk8 --cert platform.x509.pem aemscreensplayer.apk
 1. Suchen Sie den Pfad zum Zipalign-Tool in Android SDK
-1. &lt;Pfad> /zipalign -fv 4 aemscreensplayer.apk aemscreensaligned.apk
+1. &lt;pathto> /zipalign -fv 4 aemscreensplayer.apk aemscreensaligned.apk
 1. Installieren Sie ***aemscreensaligned.apk*** mithilfe von adb install auf dem Gerät
 
-## Einführung zu Android Watchdog-Diensten {#android-watchdog-services}
+## Einführung zu Android Watchdog-Services {#android-watchdog-services}
 
 Der Android Watchdog-übergreifende Dienst wird mithilfe von *AlarmManager* als Cordova-Plug-in implementiert.
 
-Das folgende Diagramm zeigt die Implementierung des Watchdog-Diensts:
+Das folgende Diagramm zeigt die Implementierung des Watchdog-Service:
 
 ![chlimage_1-31](assets/chlimage_1-31.png)
 
@@ -110,28 +110,28 @@ Das folgende Diagramm zeigt die Implementierung des Watchdog-Diensts:
 
 **3. Anwendungsabsturz** Im Fall eines Absturzes wird der pendingIntent für den Neustart, der beim AlarmManager registriert ist, nicht mehr zurückgesetzt. Daher führt er (je nach den zum Zeitpunkt der Initialisierung des Cordova-Plug-ins verfügbaren Berechtigungen) einen Neustart der App durch.
 
-## Massenbereitstellung von Android Player {#bulk-provision-android-player}
+## Massenbereitstellung von Android-Player {#bulk-provision-android-player}
 
-Wenn der Android-Player stapelweise ausgeführt wird, muss der Player auf eine AEM Instanz verweisen und andere Eigenschaften konfigurieren, ohne diese manuell in der Admin-Benutzeroberfläche einzugeben.
+Wenn der Android-Player in Massen bereitgestellt wird, muss der Player auf eine AEM-Instanz verweisen und andere Eigenschaften konfigurieren, ohne dass diese manuell in der Admin-Benutzeroberfläche eingegeben werden müssen.
 
 >[!NOTE]
->Diese Funktion ist im Android Player 42.0.372 verfügbar.
+>Diese Funktion ist ab der Android-Player-Version 42.0.372 verfügbar.
 
 Gehen Sie wie folgt vor, um die Massenbereitstellung im Android-Player zuzulassen:
 
 1. Erstellen Sie eine JSON-Konfigurationsdatei mit dem Namen `player-config.default.json`.
-Lesen Sie dazu eine [Beispiel-JSON-Richtlinie](#example-json) sowie eine Tabelle, die die Verwendung der verschiedenen [Richtlinienattribute](#policy-attributes) beschreibt.
+Nutzen Sie dazu eine [Beispiel-JSON-Richtlinie](#example-json) sowie eine Tabelle, die die Verwendung der verschiedenen [Richtlinienattribute](#policy-attributes) beschreibt.
 
-1. Verwenden Sie einen MDM- oder ADB- oder Android Studio-Dateiexplorer, um diese JSON-Richtliniendatei im Ordner *sdcard* auf dem Android-Gerät abzulegen.
+1. Verwenden Sie einen MDM- oder ADB- oder Android Studio-Datei-Explorer, um diese JSON-Richtliniendatei im Ordner *sdcard* auf dem Android-Gerät abzulegen.
 
-1. Nachdem die Datei bereitgestellt wurde, installieren Sie die Player-Anwendung mit dem MDM.
+1. Nachdem die Datei bereitgestellt wurde, installieren Sie die Player-App mit dem MDM.
 
-1. Wenn die Player-Anwendung gestartet wird, liest sie diese Konfigurationsdatei und verweist auf den entsprechenden AEM Server, auf dem sie registriert und anschließend kontrolliert werden kann.
+1. Wenn die Player-App gestartet wird, liest sie diese Konfigurationsdatei und verweist auf den entsprechenden AEM-Server, auf dem sie registriert und anschließend gesteuert werden kann.
 
    >[!NOTE]
-   >Diese Datei ist *schreibgeschützt*, wenn die Anwendung zum ersten Mal gestartet wird und kann nicht für nachfolgende Konfigurationen verwendet werden. Wenn der Player vor dem Ablegen der Konfigurationsdatei gestartet wird, deinstallieren Sie die Anwendung einfach und installieren Sie sie erneut auf dem Gerät.
+   >Diese Datei ist *schreibgeschützt*, wenn die App zum ersten Mal gestartet wird, und kann nicht für nachfolgende Konfigurationen verwendet werden. Wenn der Player vor dem Ablegen der Konfigurationsdatei gestartet wird, deinstallieren Sie die App und installieren Sie sie erneut auf dem Gerät.
 
-### Richtlinienattribute            {#policy-attributes}
+### Richtlinienattribute {#policy-attributes}
 
 In der folgenden Tabelle finden Sie eine Zusammenfassung der Richtlinienattribute mit einer beispielhaften JSON-Richtliniendatei als Referenz:
 
@@ -140,10 +140,10 @@ In der folgenden Tabelle finden Sie eine Zusammenfassung der Richtlinienattribut
 | *server* | Die URL zum Adobe Experience Manager-Server. |
 | *resolution* | Die Auflösung des Geräts. |
 | *rebootSchedule* | Der Zeitplan für den Neustart gilt für alle Plattformen. |
-| *enableAdminUI* | Aktivierung der Administrator-Benutzeroberfläche zum Konfigurieren des Geräts vor Ort. Auf *false* setzen, sobald es vollständig konfiguriert ist und in der Produktion ist. |
-| *enableOSD* | Aktivierung der Kanalschalter-Benutzeroberfläche, damit Benutzer zwischen Kanälen auf dem Gerät wechseln können. Erwägen Sie die Einstellung auf *false*, sobald sie vollständig konfiguriert ist und sich in der Produktion befindet. |
+| *enableAdminUI* | Aktivierung der Administrator-Benutzeroberfläche zum Konfigurieren des Geräts vor Ort. Stellen Sie diesen Wert auf *false* ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und in der Produktion verwendet wird. |
+| *enableOSD* | Aktivierung der Kanalschalter-Benutzeroberfläche, damit Benutzer zwischen Kanälen auf dem Gerät wechseln können. Stellen Sie den Wert ggf. auf *false* ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und in der Produktion verwendet wird |
 | *enableActivityUI* | Aktivierung zum Anzeigen des Fortschritts von Aktivitäten wie Downloads und Synchronisierungen. Aktivieren Sie den Wert zwecks Fehlerbehebung und deaktivieren Sie ihn, sobald die Benutzeroberfläche vollständig konfiguriert ist und produktiv verwendet wird. |
-| *enableNativeVideo* | Aktivieren Sie diese Option, um die native Hardwarebeschleunigung für die Videowiedergabe zu verwenden (nur Android). |
+| *enableNativeVideo* | Aktivieren Sie diese Option, um die native Hardware-Beschleunigung für die Videowiedergabe zu verwenden (nur Android). |
 
 ### Beispiel für eine JSON-Richtlinie {#example-json}
 
@@ -170,4 +170,4 @@ In der folgenden Tabelle finden Sie eine Zusammenfassung der Richtlinienattribut
 ```
 
 >[!NOTE]
->Alle Android-Geräte haben einen Ordner *sdcard*, unabhängig davon, ob eine tatsächliche *sdcard* eingefügt wurde oder nicht. Diese Datei befindet sich bei Bereitstellung auf derselben Ebene wie der Ordner Downloads. Einige MDMs wie Samsung Knox verweisen möglicherweise auf diesen Ordner *sdcard* als *Interne Datenspeicherung*.
+>Alle Android-Geräte haben einen Ordner *sdcard*, unabhängig davon, ob tatsächlich eine *sdcard* eingelegt wurde oder nicht. Diese Datei befindet sich bei Bereitstellung auf derselben Ebene wie der Ordner „Downloads“. Einige MDMs wie Samsung Knox verweisen möglicherweise auf diesen Ordner *sdcard* als *Interner Datenspeicher*.
