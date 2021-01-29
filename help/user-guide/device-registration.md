@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
-translation-type: ht
-source-git-commit: 6731c984122083ff340eda690452729c0b846fb5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 85d50951caa27b62b1e05fc808de96ffb4e526b5
+workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 100%
 
@@ -37,6 +37,7 @@ Der Prozess zur Geräteregistrierung erfolgt auf 2 separaten Geräten:
 >1. Halten Sie die linke obere Ecke gedrückt, um den Admin-Bereich zu öffnen.
 >1. Navigieren Sie im linken Aktionsmenü zu **Konfiguration**, geben Sie die Standortadresse der AEM-Instanz unter **Server** ein und klicken Sie auf **Speichern**.
 >1. Klicken Sie im linken Aktionsmenü auf den Link **Registrierung** und führen Sie die folgenden Schritte aus, um die Geräteregistrierung abzuschließen.
+
 >
 
 
@@ -120,7 +121,7 @@ Wenn Sie das Gerät nicht einer Anzeige zugewiesen haben, führen Sie die folgen
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
-### Suchen eines Geräts über den Geräte-Manager {#search-device}
+## Suchen eines Geräts über den Geräte-Manager {#search-device}
 
 Sobald Sie Geräte für Ihren Player registriert haben, können Sie alle Geräte über die Benutzeroberfläche des Geräte-Managers anzeigen.
 
@@ -143,12 +144,11 @@ Sobald Sie Geräte für Ihren Player registriert haben, können Sie alle Geräte
    ![image](/help/user-guide/assets/device-manager/device-manager-3.png)
 
 
-#### Einschränkungen bei der Suchfunktion {#limitations}
+### Einschränkungen bei der Suchfunktion {#limitations}
 
 * Benutzer können nach jedem Wort suchen, das in der *Geräte-ID* oder dem *Gerätenamen* vorkommt.
 
    >[!NOTE]
-   >
    >Es wird empfohlen, die Gerätenamen in mehreren Wörtern zu erstellen, z. B. *Boston Store Lobby* und nicht *BostonStoreLobby*.
 
 * Wenn Sie Gerätenamen wie *Boston Store Lobby* erstellen, können Sie nach jedem beliebigen Wort wie *boston*, *store* oder *lobby* suchen. Wenn der Gerätename jedoch *BostonStoreLobby* lautet, werden bei der Suche nach *boston* keine Ergebnisse angezeigt.
