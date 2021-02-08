@@ -4,10 +4,10 @@ seo-title: Dispatcher-Konfigurationen für AEM Screens
 description: Auf dieser Seite werden Richtlinien zum Konfigurieren von Dispatcher für ein AEM Screens-Projekt hervorgehoben.
 seo-description: Auf dieser Seite werden Richtlinien zum Konfigurieren von Dispatcher für ein AEM Screens-Projekt hervorgehoben.
 translation-type: tm+mt
-source-git-commit: 230e513ff24647e934ed850ecade60b19f4ab331
+source-git-commit: 43aca405707625fe5a132beaed82dbb9a4513129
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 60%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -49,7 +49,9 @@ Wenn Sie mehrere Instanzen im Veröffentlichungsmodus verwenden möchten, die vo
  }
 ```
 
-Wenn eine Instanz im Veröffentlichungsmodus von einem Dispatcher frontiert ist, hilft die Aktivierung der Stickiness am Dispatcher nicht, da der Lastenausgleich jede Anforderung an den Dispatcher senden kann. In diesem Fall sollten Sie die Stickiness auf der Lastenausgleichsebene aktivieren.
+Wenn eine Instanz im Veröffentlichungsmodus von einem Dispatcher frontiert ist, hilft die Aktivierung der Stickiness am Dispatcher nicht, da der Lastenausgleich jede Anforderung an den Dispatcher senden kann. In diesem Fall klicken Sie auf **Aktivieren** im Feld **Stickiness**, um es auf der Ebene des Lastenausgleichs zu aktivieren, wie in der folgenden Abbildung gezeigt:
+
+![image](/help/user-guide/assets/dispatcher/dispatcher-enable.png)
 
 Wenn Sie z. B. AWS ALB verwenden, lesen Sie die [Zielpopulationen für Ihren Application Load Balancers](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html), um die Stickiness auf ALB-Ebene zu aktivieren. Die Stickiness 1 Tag lang aktivieren.
 
