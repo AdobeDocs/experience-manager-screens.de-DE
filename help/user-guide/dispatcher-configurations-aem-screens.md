@@ -4,10 +4,10 @@ seo-title: Dispatcher-Konfigurationen für AEM Screens
 description: Auf dieser Seite werden Richtlinien zum Konfigurieren von Dispatcher für ein AEM Screens-Projekt hervorgehoben.
 seo-description: Auf dieser Seite werden Richtlinien zum Konfigurieren von Dispatcher für ein AEM Screens-Projekt hervorgehoben.
 translation-type: tm+mt
-source-git-commit: 4a1fb81fa343983093590c36ccb6a4fd110cdad2
+source-git-commit: 230e513ff24647e934ed850ecade60b19f4ab331
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 100%
+source-wordcount: '380'
+ht-degree: 60%
 
 ---
 
@@ -32,22 +32,26 @@ Weitere Informationen finden Sie unter [Konfigurieren von Dispatcher](https://do
 
 ## Konfigurieren von Dispatcher {#configuring-dispatcher}
 
+AEM Screens-Player/-Geräte verwenden authentifizierte Sitzungen, um auf die Ressourcen in den Veröffentlichungsinstanzen zuzugreifen. Wenn Sie also mehrere Instanzen im Veröffentlichungsmodus haben, sollten die Anforderungen immer an dieselbe Instanz im Veröffentlichungsmodus gesendet werden, damit die authentifizierte Sitzung für alle Anforderungen von AEM Screens-Playern/Geräten gültig ist.
+
 Gehen Sie wie folgt vor, um Dispatcher für ein AEM Screens-Projekt zu konfigurieren.
 
 ### Aktivieren von fixierbaren Sitzungen {#enable-sticky-session}
 
-Wenn Sie mehr als eine Veröffentlichungsinstanz mit Dispatcher verwenden möchten, müssen Sie die Datei `dispatcher.any` aktualisieren.
+Wenn Sie mehrere Instanzen im Veröffentlichungsmodus verwenden möchten, die von einem Dispatcher vorgestellt werden, müssen Sie die `dispatcher.any`-Datei aktualisieren, um die Stickiness zu aktivieren
 
 ```xml
 /stickyConnections {
   /paths
   {
-    "/content/screens"
-    "/home/users/screens"
-    "/libs/granite/csrf/token.json"
+    "/"
   }
-}
+ }
 ```
+
+Wenn eine Instanz im Veröffentlichungsmodus von einem Dispatcher frontiert ist, hilft die Aktivierung der Stickiness am Dispatcher nicht, da der Lastenausgleich jede Anforderung an den Dispatcher senden kann. In diesem Fall sollten Sie die Stickiness auf der Lastenausgleichsebene aktivieren.
+
+Wenn Sie z. B. AWS ALB verwenden, lesen Sie die [Zielpopulationen für Ihren Application Load Balancers](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html), um die Stickiness auf ALB-Ebene zu aktivieren. Die Stickiness 1 Tag lang aktivieren.
 
 ### Schritt 1: Konfigurieren von Client-Kopfzeilen {#step-configuring-client-headers}
 
