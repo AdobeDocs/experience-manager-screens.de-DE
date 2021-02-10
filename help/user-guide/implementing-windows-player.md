@@ -11,10 +11,10 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2ab8496cebb81864a8354ad5dcb8d72bc1e44c13
+source-git-commit: d25c45d6362a5f8ffac84e07dacb30c0b7c64493
 workflow-type: tm+mt
-source-wordcount: '978'
-ht-degree: 100%
+source-wordcount: '995'
+ht-degree: 98%
 
 ---
 
@@ -45,7 +45,7 @@ Führen Sie dazu folgende Schritte durch:
 
 1. Suchen Sie nach *Adobe Granite Token Authentication Handler*.
 
-1. Legen Sie das **Attribut „SameSite“ für die Anmelde-Token-Cookies** von **Lax** auf **Keine** fest.
+1. Legen Sie das **Attribut „SameSite“ für die Anmelde-Token-Cookies** von **Lax** (Gering) auf **None** (Keine) fest.
    ![image](/help/user-guide/assets/granite-updates.png)
 
 1. Klicken Sie auf **Speichern**.
@@ -58,7 +58,7 @@ Nachdem Sie die Anwendung heruntergeladen haben, führen Sie die Schritte im Pla
 
 1. Halten Sie die linke obere Ecke gedrückt, um den Admin-Bereich zu öffnen.
 1. Navigieren Sie im linken Aktionsmenü zu **Konfiguration**, geben Sie den Standort (die Adresse) der AEM-Instanz ein, zu der Sie eine Verbindung aufbauen möchten, und klicken Sie auf **Speichern**.
-1. Navigieren Sie im linken Aktionsmenü zum Link **Geräteregistrierung******, um den Status des Prozesses zur Geräteregistrierung zu prüfen.
+1. Navigieren Sie im linken Aktionsmenü zum Link **Geräteregistrierung**, um den Status des Prozesses zur Geräteregistrierung zu prüfen **.**
 
 >[!NOTE]
 >
@@ -69,6 +69,25 @@ Nachdem Sie die Anwendung heruntergeladen haben, führen Sie die Schritte im Pla
 ### Massen-Server-Konfiguration: Registrieren mehrerer Windows 10 Player mit einer Konfiguration {#bulk-server-configuration-registering-multiple-windows-players-with-one-configuration}
 
 Nachdem Sie den Windows Player installiert haben, können Sie mehrere Player mit einer Konfiguration registrieren.
+
+## Installation mit CLI (PowerShell) {#install-powershell}
+
+1. Erstellen Sie einen benutzerdefinierten Speicherort **dediziert** für den Bildschirmplayer, z. B.:
+   `C:\Users\User\screens-player`)
+1. Installieren
+   `aem-screens-player-electron-xxx-signed.exe /S /D=C:\Users\User\screens-player`
+1. Öffnen Sie
+   `Start-Process C:\Users\User\screens-player\AEMScreensPlayer.exe`
+
+**Beispiel**
+
+```shell
+C:\Users\User\Downloads> mkdir screens-player
+
+C:\Users\User\Downloads> .\aem-screens-player-electron-xxx-signed.exe /S /D=C:\Users\User\Downloads\screens-player
+
+C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AEMScreensPlayer.exe
+```
 
 >[!NOTE]
 >
@@ -93,8 +112,8 @@ In der folgenden Tabelle finden Sie eine Zusammenfassung der Richtlinienattribut
 | server | Die URL zum Adobe Experience Manager(AEM)-Server. |
 | resolution | Die Auflösung des Geräts. |
 | rebootSchedule | Der Plan zum Neustarten des Players. |
-| enableAdminUI | Aktivierung der Administrator-Benutzeroberfläche zum Konfigurieren des Geräts vor Ort. Stellen Sie diesen Wert auf „false“ ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und produktiv verwendet wird. |
-| enableOSD | Aktivierung der Kanalschalter-Benutzeroberfläche, damit Benutzer zwischen Kanälen auf dem Gerät wechseln können. Stellen Sie den Wert ggf. auf „false“ ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und produktiv verwendet wird. |
+| enableAdminUI | Aktivierung der Administrator-Benutzeroberfläche zum Konfigurieren des Geräts vor Ort. Stellen Sie diesen Wert auf false ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und in der Produktion verwendet wird. |
+| enableOSD | Aktivierung der Kanalschalter-Benutzeroberfläche, damit Benutzer zwischen Kanälen auf dem Gerät wechseln können. Stellen Sie den Wert ggf. auf false ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und in der Produktion verwendet wird |
 | enableActivityUI | Aktivierung zum Anzeigen des Fortschritts von Aktivitäten wie Downloads und Synchronisierungen. Aktivieren Sie den Wert zwecks Fehlerbehebung und deaktivieren Sie ihn, sobald die Benutzeroberfläche vollständig konfiguriert ist und produktiv verwendet wird. |
 
 #### Beispielhafte JSON-Richtliniendatei            {#example-policy-json-file}
