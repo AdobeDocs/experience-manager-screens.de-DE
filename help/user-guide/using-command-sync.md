@@ -4,10 +4,10 @@ seo-title: Verwenden der Befehlssynchronisierung
 description: Auf dieser Seite erfahren Sie, wie Sie die Befehlssynchronisierung verwenden.
 seo-description: Auf dieser Seite erfahren Sie, wie Sie die Befehlssynchronisierung verwenden.
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: d25c45d6362a5f8ffac84e07dacb30c0b7c64493
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 100%
+source-wordcount: '794'
+ht-degree: 94%
 
 ---
 
@@ -52,10 +52,10 @@ Bevor Sie die Funktion zur Befehlssynchronisierung verwenden, stellen Sie sicher
 
    ![image1](assets/command-sync/command-sync2-1.png)
 
-1. Erstellen Sie eine Anzeige im Ordner **Standorte**, wie in der Abbildung unten dargestellt.
+1. Erstellen Sie einen Speicherort **Lobby** und anschließend eine Anzeige mit dem Titel **LobbyDisplay** im Ordner **Speicherorte**, wie in der Abbildung unten dargestellt.
    ![image1](assets/command-sync/command-sync3-1.png)
 
-1. Weisen Sie den Kanal **ChannelLobby** Ihrem **LobbyDisplay** zu.
+1. Weisen Sie den Kanal **ChannelLobby** Ihrem **LobbyDisplay** zu. Sie können jetzt den zugewiesenen Kanal vom Display-Dashboard aus der Ansicht an die Anzeige übertragen.
    ![image1](assets/command-sync/command-sync4-1.png)
 
    >[!NOTE]
@@ -68,7 +68,7 @@ Bevor Sie die Funktion zur Befehlssynchronisierung verwenden, stellen Sie sicher
 
    >[!NOTE]
    >
-   >Informationen zum Zuweisen eines Kanals zu einer Anzeige finden Sie unter [Erstellen und Verwalten von Anzeigen](/help/user-guide/managing-displays.md)
+   >Informationen zum Registrieren eines Geräts finden Sie unter [Geräteregistrierung](/help/user-guide/device-registration.md)
 
 1. Zu Demozwecken werden in diesem Beispiel ein Chrome-Gerät und ein Windows-Player als zwei separate Geräte dargestellt. Beide Geräte verweisen auf dieselbe Anzeige.
    ![image1](assets/command-sync6.png)
