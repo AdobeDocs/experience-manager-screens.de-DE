@@ -3,11 +3,11 @@ title: Konfigurieren von Autoren- und Veröffentlichungsinstanz in AEM Screens
 seo-title: Konfigurieren von Autoren- und Veröffentlichungsinstanz in AEM Screens
 description: Die AEM Screens-Architektur ähnelt einer traditionellen AEM Sites-Architektur. Inhalte werden in einer AEM-Autoreninstanz erstellt und dann vorwärts an mehrere Veröffentlichungsinstanzen repliziert. Auf dieser Seite erfahren Sie, wie Sie Autoren- und Veröffentlichungsinstanz für AEM Screens konfigurieren.
 seo-description: Die AEM Screens-Architektur ähnelt einer traditionellen AEM Sites-Architektur. Inhalte werden in einer AEM-Autoreninstanz erstellt und dann vorwärts an mehrere Veröffentlichungsinstanzen repliziert. Auf dieser Seite erfahren Sie, wie Sie Autoren- und Veröffentlichungsinstanz für AEM Screens konfigurieren.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c72c6df436d744cb31c39a43a7b954e7fe317496
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1905'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -165,8 +165,8 @@ Bei jeder Veröffentlichungsinstanz:
 1. Wählen Sie die Konfiguration **Apache ActiveMQ Artemis JMS Provider**
 1. Aktualisieren Sie Folgendes:
 
-   * ***Cluster-Kennwort***: Verwenden Sie verschlüsselten Wert aus vorherigen Schritten pro Instanz.
-   * ***Themen***:  `{name: 'commands', address: 'com.adobe.cq.screens.commands', maxConsumers: 50}`
+   * ***Cluster-Passwort***: Verwenden Sie einen verschlüsselten Wert aus dem vorherigen Schritt pro Instanz
+   * ***Themen***: `{name: 'commands', address: 'com.adobe.cq.screens.commands', maxConsumers: 50}`
 
 #### Überprüfen des ActiveMQ Artemis-Clusters {#verify-activemq-artemis-cluster}
 
