@@ -3,16 +3,16 @@ title: Dispatcher-Konfigurationen für AEM Screens
 seo-title: Dispatcher-Konfigurationen für AEM Screens
 description: Auf dieser Seite werden Richtlinien zum Konfigurieren von Dispatcher für ein AEM Screens-Projekt hervorgehoben.
 seo-description: Auf dieser Seite werden Richtlinien zum Konfigurieren von Dispatcher für ein AEM Screens-Projekt hervorgehoben.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 43aca405707625fe5a132beaed82dbb9a4513129
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '391'
+ht-degree: 100%
 
 ---
 
 
-# Dispatcher-Konfigurationen für AEM Screens{#dispatcher-configurations-for-aem-screens}
+# Dispatcher-Konfigurationen für AEM Screens {#dispatcher-configurations-for-aem-screens}
 
 Dispatcher ist ein Tool von Adobe Experience Manager für das Zwischenspeichern und/oder den Lastenausgleich.
 
@@ -28,17 +28,17 @@ Die folgende Seite enthält die Richtlinien zum Konfigurieren von Dispatcher fü
 
 Bevor Sie Dispatcher für ein AEM Screens-Projekt konfigurieren, müssen Sie über Vorkenntnisse in Dispatcher verfügen.
 
-Weitere Informationen finden Sie unter [Konfigurieren von Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html).
+Weitere Informationen finden Sie unter [Konfigurieren von Dispatcher](https://docs.adobe.com/content/help/de-DE/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html).
 
 ## Konfigurieren von Dispatcher {#configuring-dispatcher}
 
-AEM Screens-Player/-Geräte verwenden authentifizierte Sitzungen, um auf die Ressourcen in den Veröffentlichungsinstanzen zuzugreifen. Wenn Sie also mehrere Instanzen im Veröffentlichungsmodus haben, sollten die Anforderungen immer an dieselbe Instanz im Veröffentlichungsmodus gesendet werden, damit die authentifizierte Sitzung für alle Anforderungen von AEM Screens-Playern/Geräten gültig ist.
+AEM Screens-Player/-Geräte verwenden ebenfalls authentifizierte Sitzungen, um auf die Ressourcen in den Veröffentlichungsinstanzen zuzugreifen. Wenn Sie also über mehrere Veröffentlichungsinstanzen verfügen, sollten die Anfragen immer an dieselbe Veröffentlichungsinstanz gesendet werden, damit die authentifizierte Sitzung für alle Anfragen von den AEM Screens-Playern/Geräten gültig ist.
 
 Gehen Sie wie folgt vor, um Dispatcher für ein AEM Screens-Projekt zu konfigurieren.
 
 ### Aktivieren von fixierbaren Sitzungen {#enable-sticky-session}
 
-Wenn Sie mehrere Instanzen im Veröffentlichungsmodus verwenden möchten, die von einem Dispatcher vorgestellt werden, müssen Sie die `dispatcher.any`-Datei aktualisieren, um die Stickiness zu aktivieren
+Wenn Sie mehrere Veröffentlichungsinstanzen mit nur einem Dispatcher verwenden möchten, müssen Sie die Datei `dispatcher.any` so aktualisieren, dass das Sticky-Verhalten aktiviert ist.
 
 ```xml
 /stickyConnections {
@@ -49,11 +49,11 @@ Wenn Sie mehrere Instanzen im Veröffentlichungsmodus verwenden möchten, die vo
  }
 ```
 
-Wenn eine Instanz im Veröffentlichungsmodus von einem Dispatcher frontiert ist, hilft die Aktivierung der Stickiness am Dispatcher nicht, da der Lastenausgleich jede Anforderung an den Dispatcher senden kann. In diesem Fall klicken Sie auf **Aktivieren** im Feld **Stickiness**, um es auf der Ebene des Lastenausgleichs zu aktivieren, wie in der folgenden Abbildung gezeigt:
+Wenn Sie eine Veröffentlichungsinstanz mit einem Dispatcher verwenden, ist die Aktivierung des Sticky-Verhaltens am Dispatcher nicht nötig, da der Load-Balancer jede Anfrage an den Dispatcher senden kann. In diesem Fall klicken Sie im Feld **Sticky-Verhalten** auf **Aktivieren**, um es auf der Ebene des Load-Balancers zu aktivieren, wie in der folgenden Abbildung gezeigt:
 
 ![image](/help/user-guide/assets/dispatcher/dispatcher-enable.png)
 
-Wenn Sie z. B. AWS ALB verwenden, lesen Sie die [Zielpopulationen für Ihren Application Load Balancers](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html), um die Stickiness auf ALB-Ebene zu aktivieren. Die Stickiness 1 Tag lang aktivieren.
+Wenn Sie z. B. AWS ALB verwenden, finden Sie unter [Zielgruppen für Ihre Application Load Balancer](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html) Informationen dazu, wie Sie das Sticky-Verhalten auf ALB-Ebene aktivieren. Aktivieren Sie das Sticky-Verhalten für 1 Tag.
 
 ### Schritt 1: Konfigurieren von Client-Kopfzeilen {#step-configuring-client-headers}
 
