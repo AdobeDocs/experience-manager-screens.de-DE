@@ -3,11 +3,11 @@ title: Verwenden der Befehlssynchronisierung
 seo-title: Verwenden der Befehlssynchronisierung
 description: Auf dieser Seite erfahren Sie, wie Sie die Befehlssynchronisierung verwenden.
 seo-description: Auf dieser Seite erfahren Sie, wie Sie die Befehlssynchronisierung verwenden.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d25c45d6362a5f8ffac84e07dacb30c0b7c64493
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '794'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -52,10 +52,10 @@ Bevor Sie die Funktion zur Befehlssynchronisierung verwenden, stellen Sie sicher
 
    ![image1](assets/command-sync/command-sync2-1.png)
 
-1. Erstellen Sie einen Speicherort **Lobby** und anschließend eine Anzeige mit dem Titel **LobbyDisplay** im Ordner **Speicherorte**, wie in der Abbildung unten dargestellt.
+1. Erstellen Sie einen Speicherort **Lobby** und anschließend eine Anzeige mit dem Titel **LobbyDisplay** im Ordner **Speicherorte**, wie in der Abbildung unten gezeigt.
    ![image1](assets/command-sync/command-sync3-1.png)
 
-1. Weisen Sie den Kanal **ChannelLobby** Ihrem **LobbyDisplay** zu. Sie können jetzt den zugewiesenen Kanal vom Display-Dashboard aus der Ansicht an die Anzeige übertragen.
+1. Weisen Sie den Kanal **ChannelLobby** Ihrem **LobbyDisplay** zu. Sie können jetzt den der Anzeige zugewiesenen Kanal im Anzeige-Dashboard anzeigen.
    ![image1](assets/command-sync/command-sync4-1.png)
 
    >[!NOTE]
