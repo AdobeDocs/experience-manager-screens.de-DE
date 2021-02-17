@@ -10,11 +10,11 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d25c45d6362a5f8ffac84e07dacb30c0b7c64493
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '995'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -72,11 +72,11 @@ Nachdem Sie den Windows Player installiert haben, können Sie mehrere Player mit
 
 ## Installation mit CLI (PowerShell) {#install-powershell}
 
-1. Erstellen Sie einen benutzerdefinierten Speicherort **dediziert** für den Bildschirmplayer, z. B.:
+1. Erstellen Sie einen benutzerdefinierten Speicherort **dediziert** für den Screens-Player, z. B.:
    `C:\Users\User\screens-player`)
 1. Installieren
    `aem-screens-player-electron-xxx-signed.exe /S /D=C:\Users\User\screens-player`
-1. Öffnen Sie
+1. Öffnen
    `Start-Process C:\Users\User\screens-player\AEMScreensPlayer.exe`
 
 **Beispiel**
@@ -103,20 +103,20 @@ So konfigurieren Sie den Windows 10-Player:
 1. Suchen Sie die Konfigurationsdatei unter ***%appdata%\com.adobe.aem.screens.player\config.json***.
 1. Aktualisieren Sie die JSON-Konfigurationsdatei mit den nachstehenden Informationen und kopieren Sie sie dann bei allen Systemen, auf denen der Player vorhanden ist, in den gleichen Ordner.
 
-### Richtlinienattribute           {#policy-attributes}
+### Richtlinienattribute {#policy-attributes}
 
 In der folgenden Tabelle finden Sie eine Zusammenfassung der Richtlinienattribute mit einer beispielhaften JSON-Richtliniendatei als Referenz:
 
 | **Richtlinienname** | **Zweck** |
 |---|---|
-| server | Die URL zum Adobe Experience Manager(AEM)-Server. |
+| server | Die URL zum Adobe Experience Manager (AEM)-Server. |
 | resolution | Die Auflösung des Geräts. |
 | rebootSchedule | Der Plan zum Neustarten des Players. |
-| enableAdminUI | Aktivierung der Administrator-Benutzeroberfläche zum Konfigurieren des Geräts vor Ort. Stellen Sie diesen Wert auf false ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und in der Produktion verwendet wird. |
-| enableOSD | Aktivierung der Kanalschalter-Benutzeroberfläche, damit Benutzer zwischen Kanälen auf dem Gerät wechseln können. Stellen Sie den Wert ggf. auf false ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und in der Produktion verwendet wird |
+| enableAdminUI | Aktivierung der Administrator-Benutzeroberfläche zum Konfigurieren des Geräts vor Ort. Stellen Sie diesen Wert auf „false“ ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und in der Produktion verwendet wird. |
+| enableOSD | Aktivierung der Kanalschalter-Benutzeroberfläche, damit Benutzer zwischen Kanälen auf dem Gerät wechseln können. Stellen Sie den Wert ggf. auf „false“ ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und in der Produktion verwendet wird |
 | enableActivityUI | Aktivierung zum Anzeigen des Fortschritts von Aktivitäten wie Downloads und Synchronisierungen. Aktivieren Sie den Wert zwecks Fehlerbehebung und deaktivieren Sie ihn, sobald die Benutzeroberfläche vollständig konfiguriert ist und produktiv verwendet wird. |
 
-#### Beispielhafte JSON-Richtliniendatei            {#example-policy-json-file}
+#### Beispielhafte JSON-Richtliniendatei {#example-policy-json-file}
 
 ```
 {
