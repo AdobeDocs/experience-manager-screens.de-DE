@@ -6,7 +6,7 @@ seo-description: Auf dieser Seite erhalten Sie Antworten auf häufig gestellte F
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 7869e462417b93dab568e1a8e6b5c608832ba5bd
+source-git-commit: 3c78dd2f2f5cff421917eb5d657d8fd6fb2e3229
 workflow-type: tm+mt
 source-wordcount: '1819'
 ht-degree: 93%
@@ -33,7 +33,7 @@ Im folgenden Abschnitt finden Sie Antworten auf verschiedene häufig gestellte F
 * Überprüfen Sie, ob es geplante Inhalte gibt und ob die Zeiten korrekt sind. Überprüfen Sie, ob die im Player eingestellte Zeit korrekt ist.
 * Überprüfen Sie die Protokolle der Player-Konsole und überprüfen Sie sie auf Fehler. Klicken Sie mit der rechten Maustaste und überprüfen Sie die Konsolenprotokolle. Wenn Sie den Windows-Player verwenden, drücken Sie `CTRL + ALT +I`, um die Entwicklungskonsole aufzurufen und die Protokolle anzuzeigen.
 
-### 2. Wie lässt sich das Problem mit leeren Bildschirmen in AEM Screens beheben, indem Sie einen Standard-Kanal oder einen Plan erstellen?
+### 2. Wie lässt sich das Problem mit dem grauen Bildschirm in AEM Screens beheben, indem Sie einen Standard-Kanal oder einen Plan erstellen?
 
 Um die leeren oder grauen Bildschirme im Feld zu vermeiden, erstellen Sie einen standardmäßigen globalen Kanal oder Plan, der jeder Anzeige mit der geringsten Priorität 1 zugewiesen wird. Sollte bei Inhaltsaktualisierungen (aufgrund von Netzwerk, Player, Server oder Replikation) etwas schiefgehen, da die Player diesen Inhalt bereits auf der Festplatte zwischengespeichert haben, sollte diese gut abgespielt werden und die grauen Bildschirme vermieden werden.
 
