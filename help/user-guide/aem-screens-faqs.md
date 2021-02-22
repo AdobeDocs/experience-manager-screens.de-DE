@@ -5,11 +5,11 @@ description: Auf dieser Seite erhalten Sie Antworten auf häufig gestellte Frage
 seo-description: Auf dieser Seite erhalten Sie Antworten auf häufig gestellte Fragen zu AEM Screens-Projekten.
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
-translation-type: ht
-source-git-commit: 359c15d16c83e5d3cecee0bbe2ef7e68a815e660
-workflow-type: ht
-source-wordcount: '1706'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 7869e462417b93dab568e1a8e6b5c608832ba5bd
+workflow-type: tm+mt
+source-wordcount: '1819'
+ht-degree: 93%
 
 ---
 
@@ -32,6 +32,12 @@ Im folgenden Abschnitt finden Sie Antworten auf verschiedene häufig gestellte F
 * Überprüfen Sie, ob die entsprechenden Ausgabedarstellungen erstellt wurden und die richtige Ausgabedarstellung wiedergegeben wird.
 * Überprüfen Sie, ob es geplante Inhalte gibt und ob die Zeiten korrekt sind. Überprüfen Sie, ob die im Player eingestellte Zeit korrekt ist.
 * Überprüfen Sie die Protokolle der Player-Konsole und überprüfen Sie sie auf Fehler. Klicken Sie mit der rechten Maustaste und überprüfen Sie die Konsolenprotokolle. Wenn Sie den Windows-Player verwenden, drücken Sie `CTRL + ALT +I`, um die Entwicklungskonsole aufzurufen und die Protokolle anzuzeigen.
+
+### 2. Wie lässt sich das Problem mit leeren Bildschirmen in AEM Screens beheben, indem Sie einen Standard-Kanal oder einen Plan erstellen?
+
+Um die leeren oder grauen Bildschirme im Feld zu vermeiden, erstellen Sie einen standardmäßigen globalen Kanal oder Plan, der jeder Anzeige mit der geringsten Priorität 1 zugewiesen wird. Sollte bei Inhaltsaktualisierungen (aufgrund von Netzwerk, Player, Server oder Replikation) etwas schiefgehen, da die Player diesen Inhalt bereits auf der Festplatte zwischengespeichert haben, sollte diese gut abgespielt werden und die grauen Bildschirme vermieden werden.
+
+Alle anderen Inhalte wie Kanäle oder Zeitpläne haben Priorität größer als 1, sodass der andere Inhalt Priorität hat und der globale Kanal oder Planinhalt (mit Priorität 1) nur als Fallback-Option abgespielt wird.
 
 ## Kanalverwaltung {#channel-management}
 
@@ -140,7 +146,7 @@ Führen Sie folgende Schritte durch, um „Stay Awake“ in einem beliebigen And
 1. Navigieren Sie zu den **Entwickleroptionen**.
 1. Aktivieren Sie **Stay Awake**.
 
-### 4. Wie wird der Fenstermodus für den Windows-Player aktiviert? {#enable-player}
+### 4. Wie wird der Fenstermodus für den Windows-Player aktiviert?{#enable-player}
 
 Der Windows-Player verfügt über keinen Fenstermodus. Der Vollbildmodus ist immer aktiviert.
 
