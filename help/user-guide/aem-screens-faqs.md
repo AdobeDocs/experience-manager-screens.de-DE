@@ -6,9 +6,9 @@ seo-description: Auf dieser Seite erhalten Sie Antworten auf häufig gestellte F
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 70e94631a808c81fae79de396d3ead8094c903e1
+source-git-commit: 7f9eacb456b26d9b7efb595397fff2f64335be8c
 workflow-type: tm+mt
-source-wordcount: '1898'
+source-wordcount: '1900'
 ht-degree: 89%
 
 ---
@@ -166,9 +166,9 @@ Gehen Sie wie folgt vor, um eine Fehlerbehebung bei einem AEM Screens-Player dur
 
 1. Überprüfen Sie, ob die Apache Sling Resource Resolver Factory-Konfiguration interne Umschreibungen verursacht.
 
-### Wie können Sie die Details des Displays und Geräts von der Player-API abrufen?
+### 6. Wie können Sie die Details des Displays und Geräts von der Player-API abrufen?
 
-Sie haben zwei Möglichkeiten, die Details zu erhalten:
+Die Details zum Display und Gerät erhalten Sie über:
 
 * **eine interne JS-API**
 * **ein ContextHub-Store**: Drei ContextHub-Stores sind in definiert,  `/libs/screens/clientlibs/contexthub` um Kanal, Geräte- und Anzeigeinformationen anzuzeigen.
