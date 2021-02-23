@@ -6,10 +6,10 @@ seo-description: Auf dieser Seite erhalten Sie Antworten auf häufig gestellte F
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 3c78dd2f2f5cff421917eb5d657d8fd6fb2e3229
+source-git-commit: 70e94631a808c81fae79de396d3ead8094c903e1
 workflow-type: tm+mt
-source-wordcount: '1819'
-ht-degree: 93%
+source-wordcount: '1898'
+ht-degree: 89%
 
 ---
 
@@ -165,6 +165,24 @@ Gehen Sie wie folgt vor, um eine Fehlerbehebung bei einem AEM Screens-Player dur
 1. Überprüfen Sie, ob Sie `/etc/map`-Regeln in der *Autoren*- oder *Veröffentlichungsinstanz* verwenden und ob die Bildschirmpfade mit `sling:match` übereinstimmen und interen zu einem anderen Pfad umgeleitet werden. Die Auflösung der exakten URL in `/system/console/jcrresolver` hilft dabei herauszufinden, ob die *Veröffentlichungsinstanz* diese URLs in einen anderen Pfad umschreibt.
 
 1. Überprüfen Sie, ob die Apache Sling Resource Resolver Factory-Konfiguration interne Umschreibungen verursacht.
+
+### Wie können Sie die Details des Displays und Geräts von der Player-API abrufen?
+
+Sie haben zwei Möglichkeiten, die Details zu erhalten:
+
+* **eine interne JS-API**
+* **ein ContextHub-Store**: Drei ContextHub-Stores sind in definiert,  `/libs/screens/clientlibs/contexthub` um Kanal, Geräte- und Anzeigeinformationen anzuzeigen.
+
+   Gehen Sie wie folgt vor, um diese ContentHub-Speicherwerte zu verwenden:
+
+   * Bearbeiten Sie die Eigenschaften des Kanals und legen Sie auf der Registerkarte &quot;Personalisierung&quot;den ContextHub-Pfad auf den oben genannten Wert fest.
+   * Im Kanal JS können Sie Folgendes verwenden:
+
+      ```shell
+         ContextHub.getStore('screens-device');
+         ContextHub.getStore('screens-display');
+         ContextHub.getStore('screens-channels');
+      ```
 
 ## Allgemeine Tipps zur Problembehebung {#general-troubleshooting-tips}
 
