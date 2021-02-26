@@ -11,10 +11,10 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 8f64009e121a0ff9936006abc8fc63479b502a48
+source-git-commit: 529bcaf7ded850b8f7fec95d2f85e84c5d79a66a
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 100%
+source-wordcount: '997'
+ht-degree: 97%
 
 ---
 
@@ -65,6 +65,10 @@ Nachdem Sie die Anwendung heruntergeladen haben, führen Sie die Schritte im Pla
 >Wenn der **Status** **REGISTRIERT** ist, wird das Feld **Geräte-ID** ausgefüllt.
 >
 >Wenn der **Status** **UNREGISTRIERT** ist, können Sie das Gerät mithilfe des **Tokens** registrieren.
+
+## Ändern der Standardoptionen in Windows Installer {#changing-default-options}
+
+In diesem Abschnitt erfahren Sie, wie Sie die Standardoptionen in Windows Installer und die Liste der verfügbaren Anpassungen ändern.
 
 ## Installation mit CLI (PowerShell) {#install-powershell}
 
