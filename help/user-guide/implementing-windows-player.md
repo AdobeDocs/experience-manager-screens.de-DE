@@ -10,10 +10,10 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
-translation-type: ht
-source-git-commit: d25c45d6362a5f8ffac84e07dacb30c0b7c64493
-workflow-type: ht
-source-wordcount: '995'
+translation-type: tm+mt
+source-git-commit: 8f64009e121a0ff9936006abc8fc63479b502a48
+workflow-type: tm+mt
+source-wordcount: '970'
 ht-degree: 100%
 
 ---
@@ -66,10 +66,6 @@ Nachdem Sie die Anwendung heruntergeladen haben, führen Sie die Schritte im Pla
 >
 >Wenn der **Status** **UNREGISTRIERT** ist, können Sie das Gerät mithilfe des **Tokens** registrieren.
 
-### Massen-Server-Konfiguration: Registrieren mehrerer Windows 10 Player mit einer Konfiguration {#bulk-server-configuration-registering-multiple-windows-players-with-one-configuration}
-
-Nachdem Sie den Windows Player installiert haben, können Sie mehrere Player mit einer Konfiguration registrieren.
-
 ## Installation mit CLI (PowerShell) {#install-powershell}
 
 1. Erstellen Sie einen benutzerdefinierten Speicherort **dediziert** für den Screens-Player, z. B.:
@@ -116,7 +112,7 @@ In der folgenden Tabelle finden Sie eine Zusammenfassung der Richtlinienattribut
 | enableOSD | Aktivierung der Kanalschalter-Benutzeroberfläche, damit Benutzer zwischen Kanälen auf dem Gerät wechseln können. Stellen Sie den Wert ggf. auf „false“ ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und in der Produktion verwendet wird |
 | enableActivityUI | Aktivierung zum Anzeigen des Fortschritts von Aktivitäten wie Downloads und Synchronisierungen. Aktivieren Sie den Wert zwecks Fehlerbehebung und deaktivieren Sie ihn, sobald die Benutzeroberfläche vollständig konfiguriert ist und produktiv verwendet wird. |
 
-#### Beispielhafte JSON-Richtliniendatei {#example-policy-json-file}
+#### Beispielhafte JSON-Richtliniendatei  {#example-policy-json-file}
 
 ```
 {
