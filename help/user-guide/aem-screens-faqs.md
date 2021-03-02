@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: 7f9eacb456b26d9b7efb595397fff2f64335be8c
 workflow-type: tm+mt
 source-wordcount: '1900'
-ht-degree: 89%
+ht-degree: 91%
 
 ---
 
@@ -37,7 +37,7 @@ Im folgenden Abschnitt finden Sie Antworten auf verschiedene häufig gestellte F
 
 Um die leeren oder grauen Bildschirme im Feld zu vermeiden, erstellen Sie einen standardmäßigen globalen Kanal oder Plan, der jeder Anzeige mit der geringsten Priorität 1 zugewiesen wird. Sollte bei Inhaltsaktualisierungen (aufgrund von Netzwerk, Player, Server oder Replikation) etwas schiefgehen, da die Player diesen Inhalt bereits auf der Festplatte zwischengespeichert haben, sollte diese gut abgespielt werden und die grauen Bildschirme vermieden werden.
 
-Alle anderen Inhalte wie Kanäle oder Zeitpläne haben Priorität größer als 1, sodass der andere Inhalt Priorität hat und der globale Kanal oder Planinhalt (mit Priorität 1) nur als Fallback-Option abgespielt wird.
+Alle anderen Inhalte, wie Kanäle oder Zeitpläne, haben eine Priorität größer als 1, sodass der andere Inhalt Priorität hat und der globale Kanal- oder Zeitplaninhalt (mit Priorität 1) nur als Fallback-Option wiedergegeben wird.
 
 ## Kanalverwaltung {#channel-management}
 
@@ -146,7 +146,7 @@ Führen Sie folgende Schritte durch, um „Stay Awake“ in einem beliebigen And
 1. Navigieren Sie zu den **Entwickleroptionen**.
 1. Aktivieren Sie **Stay Awake**.
 
-### 4. Wie wird der Fenstermodus für den Windows-Player aktiviert?{#enable-player}
+### 4. Wie wird der Fenstermodus für den Windows-Player aktiviert? {#enable-player}
 
 Der Windows-Player verfügt über keinen Fenstermodus. Der Vollbildmodus ist immer aktiviert.
 
