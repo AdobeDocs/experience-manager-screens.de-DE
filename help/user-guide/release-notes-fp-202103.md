@@ -2,10 +2,10 @@
 title: Versionshinweise für Feature Pack 202103
 description: Auf der Seite werden die Versionshinweise für das Feature Pack 202103 hervorgehoben.
 translation-type: tm+mt
-source-git-commit: 5f8938bfd092197391aefcd2d730d47fa06c214d
+source-git-commit: 56432654d0895b892223677c8a03f10181864271
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 44%
+source-wordcount: '421'
+ht-degree: 40%
 
 ---
 
@@ -46,6 +46,15 @@ Das Release Date for AEM Screens Feature Pack 202103 ist der 08. März 2021.
 * Die Migration von SmartSync würde den Player beschädigen, wenn der Cache nicht ungültig wäre.
 
 * Offline-Caches wurden nicht erstellt, wenn die Zuweisung *OfflineConfig* enthielt.
+
+* Aktualisierungen von Zehn-Player-Problemen, da die Werber-Richtlinie strikte Herkunft-wenn-Cross-Herkunft nicht unterstützt wird.
+
+* Die Änderung des Zeitplans &quot;Wiederholungen&quot;des zugewiesenen Kanals hat die Benutzeroberfläche beschädigt.
+
+* Das Aktualisieren von Offlineinhalten schlug mit Ausnahme der Abfrage fehl.
+
+* Die Migration von SmartSync hat den Player beschädigt, wenn der Cache nicht ungültig wurde
+
 
 ### Veröffentlichte AEM Screens-Player {#released-aem-screens-players}
 
