@@ -3,9 +3,9 @@ title: Verwenden von MDM oder EMM zur Bereitstellung von Android Player als Mass
 seo-title: Massenbereitstellung von Android Player mit EMM oder MDM
 description: Auf dieser Seite erfahren Sie mehr über die Massenbereitstellung von Android Player mit EMM oder MDM
 translation-type: tm+mt
-source-git-commit: f94eac66b6372e9f3e4cfc28693c4ba61d1b9ab1
+source-git-commit: 5f8938bfd092197391aefcd2d730d47fa06c214d
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Massenbereitstellung von Android Player mit Enterprise Mobility Management {#bulk-provisioning}
 
-Bei der Massenbereitstellung des Android-Players wird es mühsam, jeden einzelnen Player manuell mit AEM zu registrieren. Es wird dringend empfohlen, eine EMM-Lösung (Enterprise Mobility Management) wie VMWare Airwatch, MobileIron oder Samsung Knox zu verwenden, um Ihre Bereitstellung remote bereitzustellen und zu verwalten. AEM Screens Android Player unterstützt den Industriestandard EMM Appconfig, um eine Remote-Bereitstellung zu ermöglichen. Bitte befolgen Sie die unten stehenden Schritte, um Ihre Spieler stapelweise zur Verfügung zu stellen.
+Bei der Massenbereitstellung des Android-Players wird es mühsam, jeden einzelnen Player manuell mit AEM zu registrieren. Es wird dringend empfohlen, eine EMM-Lösung (Enterprise Mobility Management) wie VMWare Airwatch, MobileIron oder Samsung Knox zu verwenden, um Ihre Bereitstellung remote bereitzustellen und zu verwalten. AEM Screens Android Player unterstützt den Industriestandard EMM Appconfig, um eine Remote-Bereitstellung zu ermöglichen.
 
 ## Implementierung der Massenbereitstellung von Android Player mithilfe von Enterprise Mobility Management {#implementation}
 
