@@ -2,10 +2,10 @@
 title: Versionshinweise für Feature Pack 202103
 description: Auf der Seite werden die Versionshinweise für das Feature Pack 202103 hervorgehoben.
 translation-type: tm+mt
-source-git-commit: f94eac66b6372e9f3e4cfc28693c4ba61d1b9ab1
+source-git-commit: 5f8938bfd092197391aefcd2d730d47fa06c214d
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 54%
+source-wordcount: '379'
+ht-degree: 44%
 
 ---
 
@@ -30,6 +30,10 @@ Das Release Date for AEM Screens Feature Pack 202103 ist der 08. März 2021.
 * **AEM Screens Massenregistrierung und -zuweisung**
 
    Massen Registrieren Tausende von Spielern manuell ist sehr schwerfällig und erhöht Zeit und Kosten. Um diesen Vorgang zu vereinfachen, können Sie mit der Massenregistrierungsfunktion einen vorab freigegebenen Schlüssel in AEM angeben, der entweder über eine Konfigurationsdatei oder eine MDM-Lösung (Mobile Device Management) für einen Player bereitgestellt werden kann.
+
+* **Massenbereitstellung von Android Player mit Enterprise Mobility Management**
+
+   Bei der Massenbereitstellung des Android-Players wird es mühsam, jeden einzelnen Player manuell mit AEM zu registrieren. Es wird dringend empfohlen, eine EMM-Lösung (Enterprise Mobility Management) wie VMWare Airwatch, MobileIron oder Samsung Knox zu verwenden, um Ihre Bereitstellung remote bereitzustellen und zu verwalten. AEM Screens Android Player unterstützt den Industriestandard EMM Appconfig, um eine Remote-Bereitstellung zu ermöglichen.
 
 * **Seite in einem AEM Screens-Kanal sperren**
 
