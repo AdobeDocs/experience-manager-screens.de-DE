@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 529bcaf7ded850b8f7fec95d2f85e84c5d79a66a
+source-git-commit: ab67806751e8c57249c9ad656e931ca1339ab6d4
 workflow-type: tm+mt
 source-wordcount: '997'
 ht-degree: 97%
@@ -89,13 +89,11 @@ C:\Users\User\Downloads> .\aem-screens-player-electron-xxx-signed.exe /S /D=C:\U
 C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AEMScreensPlayer.exe
 ```
 
->[!NOTE]
->
->**Massenregistrierung von Windows Playern**
->
->Beim Implementieren von Windows-Playern müssen Sie nicht jeden einzelnen Player manuell konfigurieren. Stattdessen können Sie auch die getestete und zur Bereitstellung bereite JSON-Konfigurationsdatei aktualisieren.
->
->Die Konfiguration stellt sicher, dass alle Player denselben in der Konfigurationsdatei angegebenen Server anpingen. Trotzdem müssen Sie noch jeden einzelnen Player manuell registrieren.
+## Massenregistrierung von Windows Playern {#bulk-registration}
+
+Beim Implementieren von Windows-Playern müssen Sie nicht jeden einzelnen Player manuell konfigurieren. Stattdessen können Sie auch die getestete und zur Bereitstellung bereite JSON-Konfigurationsdatei aktualisieren.
+
+Die Konfiguration stellt sicher, dass alle Player denselben in der Konfigurationsdatei angegebenen Server anpingen. Trotzdem müssen Sie noch jeden einzelnen Player manuell registrieren.
 
 So konfigurieren Sie den Windows 10-Player:
 
