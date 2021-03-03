@@ -2,9 +2,9 @@
 title: Versionshinweise für Feature Pack 202103
 description: Auf der Seite werden die Versionshinweise für das Feature Pack 202103 hervorgehoben.
 translation-type: tm+mt
-source-git-commit: 56432654d0895b892223677c8a03f10181864271
+source-git-commit: 34f93df3fa212eaae713b0c8686d95beeb0c7b67
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '355'
 ht-degree: 40%
 
 ---
@@ -33,11 +33,8 @@ Das Release Date for AEM Screens Feature Pack 202103 ist der 08. März 2021.
 
 * **Massenbereitstellung von Android Player mit Enterprise Mobility Management**
 
-   Bei der Massenbereitstellung des Android-Players wird es mühsam, jeden einzelnen Player manuell mit AEM zu registrieren. Es wird dringend empfohlen, eine EMM-Lösung (Enterprise Mobility Management) wie VMWare Airwatch, MobileIron oder Samsung Knox zu verwenden, um Ihre Bereitstellung remote bereitzustellen und zu verwalten. AEM Screens Android Player unterstützt den Industriestandard EMM Appconfig, um eine Remote-Bereitstellung zu ermöglichen.
+   Bei der Massenbereitstellung des Android-Players wird es mühsam, jeden einzelnen Player manuell mit AEM zu registrieren. Es wird dringend empfohlen, eine EMM-Lösung (Enterprise Mobility Management) wie VMWare Airwatch, MobileIron oder Samsung Knox zu verwenden, um Ihre Bereitstellung remote bereitzustellen und zu verwalten. AEM Screens Android Player unterstützt den Branchenstandard EMM AppConfig, um die Bereitstellung per Remote-Zugriff zu ermöglichen.
 
-* **Seite in einem AEM Screens-Kanal sperren**
-
-   AEM Screens unterstützt jetzt *Sperren einer Seite*, wie bereits in AEM Sites implementiert. Mit Adobe Experience Manager (AEM) können Sie eine Seite sperren, sodass niemand anders den Inhalt ändern kann. Dies ist hilfreich, wenn Sie eine Vielzahl von Bearbeitungen an einer bestimmten Seite vornehmen oder wenn Sie eine Seite für eine kurze Zeit einfrieren möchten.
 
 ### Fehlerbehebungen {#bug-fixes}
 
