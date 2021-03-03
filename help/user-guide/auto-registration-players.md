@@ -3,9 +3,9 @@ title: Automatische Registrierung von Spielern
 seo-title: Automatische Registrierung von Spielern
 description: Folgen Sie dieser Seite, um mehr über die automatische Registrierung von Spielern mit AMS/On-Prem-Bildschirmen zu erfahren.
 translation-type: tm+mt
-source-git-commit: 56432654d0895b892223677c8a03f10181864271
+source-git-commit: 793507b266b99051544b377e4a7effb92dc6feb6
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ Bulk Registering Tausenden von Playern manuell kann sehr schwerfällig werden un
 Gehen Sie wie folgt vor, um die automatische Registrierung von Playern zu implementieren:
 
 1. Melden Sie sich bei Ihrer AEM an, wählen Sie Ihr AEM-Screenprojekt aus und klicken Sie in der Aktionsleiste auf **Eigenschaften**.
-1. Klicken Sie auf die Registerkarte **Erweitert**, um den Abschnitt **Geräteregistrierung** Ansicht, wie unten dargestellt.
-
-   ![image](/help/user-guide/assets/auto-registration/auto-register1.png)
+1. Wählen Sie die Registerkarte **Erweitert**, um den Abschnitt **Geräteregistrierung** Ansicht.
 
 1. Geben Sie im Feld **Massenregistrierungscode** einen Code für die automatische Registrierung und in der optionalen Standardanzeige unter **Standardmäßige Anzeigenzuweisung** einen Code für die automatische Registrierung an, der dem Player zugewiesen werden soll, der automatisch registriert ist.
    >[!NOTE]
    >Geben Sie einen Code Ihrer Wahl ein und wählen Sie bei Bedarf eine Standardanzeige aus.
+
+   ![image](/help/user-guide/assets/auto-registration/auto-register1.png)
 1. Stellen Sie Ihren Playern die entsprechende Server-URL und den Registrierungscode mit einer MDM- oder Konfigurations-JSON-Datei zur Verfügung.
 
    >[!NOTE]
@@ -42,7 +42,7 @@ Befolgen Sie den folgenden Abschnitt, um einige der Best Practices für die Sich
 
 * Um sicherzustellen, dass der Registrierungscode nicht beschädigt wird, konfigurieren Sie den Code in AEM, bevor Sie die Massenregistrierung starten. Wenn Sie fertig sind, löschen Sie bitte dieses Feld und speichern Sie AEM.
 
-* Sie können konfigurieren, dass der Pfad `/bin/screens/`Registrierung nur von bekannten IP-Bereichen aus aufgerufen werden kann, wenn dies möglich ist.
+* Sie können den Pfad `/bin/screens/registration` so konfigurieren, dass er nur aus bekannten IP-Bereichen zugänglich ist, wenn möglich.
 
 * Erwägen Sie die Verwendung eines MDM, um dem Player die Konfiguration bereitzustellen.
 
