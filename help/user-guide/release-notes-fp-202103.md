@@ -2,9 +2,9 @@
 title: Versionshinweise für Feature Pack 202103
 description: Auf der Seite werden die Versionshinweise für das Feature Pack 202103 hervorgehoben.
 translation-type: tm+mt
-source-git-commit: c3a068eca75142ee3e089a63559249a8b64784e2
+source-git-commit: f94eac66b6372e9f3e4cfc28693c4ba61d1b9ab1
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '310'
 ht-degree: 54%
 
 ---
@@ -51,6 +51,7 @@ Die folgenden AEM Screens-Player sind für AEM 6.5 Feature Pack 7 verfügbar:
 * Windows
 * Android
 * Tizen
+* Linux
 
 #### AEM Screens-Player-Downloads {#aem-screens-player-downloads}
 
