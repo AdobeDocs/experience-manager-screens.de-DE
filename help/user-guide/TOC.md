@@ -6,10 +6,10 @@ user-guide-title: Adobe Experience Manager Screens-Hilfe
 breadcrumb-title: AEM Screens-Anleitung
 user-guide-description: Erfahren Sie, wie Sie mit einer Digital Signage-Lösung dynamische und interaktive digitale Erlebnisse und Interaktionen veröffentlichen können.
 translation-type: tm+mt
-source-git-commit: 2d46d9f4d76739826fae0e75c1387d7a80bce69c
+source-git-commit: b84946900a22cd063990836f1c65709f8d1368bd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '449'
+ht-degree: 97%
 
 ---
 
@@ -44,6 +44,8 @@ ht-degree: 0%
       + [Android-Player](implementing-android-player.md)
       + [Windows-Player](implementing-windows-player.md)
       + [Tizen-Player](tizen-player.md)
+      + [Automatische Registrierung von Spielern](auto-registration-players.md)
+      + [Massenbereitstellung von Android Player mit Enterprise Mobility Management](using-emm-bulkprovision-android-player.md)
    + Autoren- und Veröffentlichungsinstanz {#author-publish}
       + [Architektonischer Überblick zur Autoren- und Veröffentlichungsinstanz](author-publish-architecture-overview.md)
       + [Konfigurieren von Autoren- und Veröffentlichungsinstanz](author-and-publish.md)
@@ -108,6 +110,7 @@ ht-degree: 0%
    + [Problembehebung in der Gerätesteuerung](monitoring-screens.md)
    + [Konfiguration der Videowiedergabe](troubleshoot-videos.md)
 + Versionshinweise {#release-notes}
+   + [Versionshinweise für Feature Pack 202103](release-notes-fp-202103.md)
    + [Versionshinweise für Feature Pack 202011](release-notes-fp-202011.md)
    + [Versionshinweise für Feature Pack 202008](release-notes-fp-202008.md)
    + [Versionshinweise für Feature Pack 202004](release-notes-fp-202004.md)
