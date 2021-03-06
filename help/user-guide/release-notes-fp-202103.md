@@ -2,9 +2,9 @@
 title: Versionshinweise für Feature Pack 202103
 description: Auf der Seite werden die Versionshinweise für das Feature Pack 202103 hervorgehoben.
 translation-type: tm+mt
-source-git-commit: 76d03e1b0232c5d6eca0a3088453982c5c142f1f
+source-git-commit: 3701c6f72ceadb5b61cd608503a95af11d631c49
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '390'
 ht-degree: 36%
 
 ---
@@ -29,7 +29,7 @@ Das Release Date for AEM Screens Feature Pack 202103 ist der 05. März 2021.
 
 * **AEM Screens Automatische Registrierung von Spielern**
 
-   Massen Registrieren Tausende von Spielern manuell ist sehr schwerfällig und erhöht Zeit und Kosten. Um diesen Vorgang zu vereinfachen, können Sie mit der Massenregistrierungsfunktion einen vorab freigegebenen Schlüssel in AEM angeben, der entweder über eine Konfigurationsdatei oder eine MDM-Lösung (Mobile Device Management) für einen Player bereitgestellt werden kann.
+   Massen Registrieren Tausende von Spielern manuell ist sehr schwerfällig und erhöht Zeit und Kosten. Um diesen Vorgang zu vereinfachen, können Sie mit der Funktion zur automatischen Registrierung von Playern einen vorab freigegebenen Schlüssel in AEM angeben, der entweder über eine Konfigurationsdatei oder eine MDM-Lösung (Mobile Device Management) für einen Player bereitgestellt werden kann.
 
    Weitere Informationen finden Sie unter [Automatische Registrierung von Spielern](/help/user-guide/auto-registration-players.md).
 
