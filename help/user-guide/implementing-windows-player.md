@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: ab67806751e8c57249c9ad656e931ca1339ab6d4
 workflow-type: tm+mt
 source-wordcount: '997'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -66,9 +66,9 @@ Nachdem Sie die Anwendung heruntergeladen haben, führen Sie die Schritte im Pla
 >
 >Wenn der **Status** **UNREGISTRIERT** ist, können Sie das Gerät mithilfe des **Tokens** registrieren.
 
-## Ändern der Standardoptionen in Windows Installer {#changing-default-options}
+## Ändern der Standardoptionen im Windows-Installationsprogramm {#changing-default-options}
 
-In diesem Abschnitt erfahren Sie, wie Sie die Standardoptionen in Windows Installer und die Liste der verfügbaren Anpassungen ändern.
+In diesem Abschnitt erfahren Sie, wie Sie die Standardoptionen im Windows-Installationsprogramm und die Liste der verfügbaren Anpassungen ändern.
 
 ## Installation mit CLI (PowerShell) {#install-powershell}
 
