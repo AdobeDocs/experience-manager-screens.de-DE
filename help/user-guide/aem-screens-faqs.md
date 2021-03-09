@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: 7f9eacb456b26d9b7efb595397fff2f64335be8c
 workflow-type: tm+mt
 source-wordcount: '1900'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -33,9 +33,9 @@ Im folgenden Abschnitt finden Sie Antworten auf verschiedene häufig gestellte F
 * Überprüfen Sie, ob es geplante Inhalte gibt und ob die Zeiten korrekt sind. Überprüfen Sie, ob die im Player eingestellte Zeit korrekt ist.
 * Überprüfen Sie die Protokolle der Player-Konsole und überprüfen Sie sie auf Fehler. Klicken Sie mit der rechten Maustaste und überprüfen Sie die Konsolenprotokolle. Wenn Sie den Windows-Player verwenden, drücken Sie `CTRL + ALT +I`, um die Entwicklungskonsole aufzurufen und die Protokolle anzuzeigen.
 
-### 2. Wie lässt sich das Problem mit dem grauen Bildschirm in AEM Screens beheben, indem Sie einen Standard-Kanal oder einen Plan erstellen?
+### 2. Wie lässt sich das Problem mit grauen Bildschirmen in AEM Screens beim Erstellen eines Standardkanals oder -zeitplans beheben?
 
-Um die leeren oder grauen Bildschirme im Feld zu vermeiden, erstellen Sie einen standardmäßigen globalen Kanal oder Plan, der jeder Anzeige mit der geringsten Priorität 1 zugewiesen wird. Sollte bei Inhaltsaktualisierungen (aufgrund von Netzwerk, Player, Server oder Replikation) etwas schiefgehen, da die Player diesen Inhalt bereits auf der Festplatte zwischengespeichert haben, sollte diese gut abgespielt werden und die grauen Bildschirme vermieden werden.
+Um die leeren oder grauen Bildschirme im Feld zu vermeiden, erstellen Sie einen globalen Standardkanal oder -zeitplan, der jeder Anzeige mit der geringsten Priorität 1 zugewiesen ist. Falls bei Inhaltsaktualisierungen ein Fehler auftritt (aufgrund von Netzwerk, Player, Server oder Replikation), sollte der Inhalt fehlerfrei und ohne graue Bildschirme wiedergegeben werden, da der Inhalt bereits auf der Festplatte des Players zwischengespeichert ist.
 
 Alle anderen Inhalte, wie Kanäle oder Zeitpläne, haben eine Priorität größer als 1, sodass der andere Inhalt Priorität hat und der globale Kanal- oder Zeitplaninhalt (mit Priorität 1) nur als Fallback-Option wiedergegeben wird.
 
@@ -146,7 +146,7 @@ Führen Sie folgende Schritte durch, um „Stay Awake“ in einem beliebigen And
 1. Navigieren Sie zu den **Entwickleroptionen**.
 1. Aktivieren Sie **Stay Awake**.
 
-### 4. Wie wird der Fenstermodus für den Windows-Player aktiviert? {#enable-player}
+### 4. Wie wird der Fenstermodus für den Windows-Player aktiviert?{#enable-player}
 
 Der Windows-Player verfügt über keinen Fenstermodus. Der Vollbildmodus ist immer aktiviert.
 
@@ -166,17 +166,17 @@ Gehen Sie wie folgt vor, um eine Fehlerbehebung bei einem AEM Screens-Player dur
 
 1. Überprüfen Sie, ob die Apache Sling Resource Resolver Factory-Konfiguration interne Umschreibungen verursacht.
 
-### 6. Wie können Sie die Details des Displays und Geräts von der Player-API abrufen?
+### 6. Wie können Details zu Anzeige und Gerät von der Player-API abgerufen werden?
 
-Die Details zum Display und Gerät erhalten Sie über:
+Die Details zu Anzeige und Gerät erhalten Sie über:
 
 * **eine interne JS-API**
-* **ein ContextHub-Store**: Drei ContextHub-Stores sind in definiert,  `/libs/screens/clientlibs/contexthub` um Kanal, Geräte- und Anzeigeinformationen anzuzeigen.
+* **einen ContextHub-Store**: Drei ContextHub-Stores sind in `/libs/screens/clientlibs/contexthub` definiert, um Informationen zu Kanal, Geräte und Anzeige anzuzeigen.
 
    Gehen Sie wie folgt vor, um diese ContentHub-Speicherwerte zu verwenden:
 
-   * Bearbeiten Sie die Eigenschaften des Kanals und legen Sie auf der Registerkarte &quot;Personalisierung&quot;den ContextHub-Pfad auf den oben genannten Wert fest.
-   * Im Kanal JS können Sie Folgendes verwenden:
+   * Bearbeiten Sie die Eigenschaften des Kanals und legen Sie auf der Registerkarte „Personalisierung“ den ContextHub-Pfad auf den Wert fest (wie oben erläutert)
+   * Im Kanal-JS können Sie Folgendes verwenden:
 
       ```shell
          ContextHub.getStore('screens-device');
