@@ -11,10 +11,10 @@ topic-tags: administering
 discoiquuid: b1a0e00e-0368-42c9-8bcd-5f00b4d0990c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 052ceaf3f3fa321ea0df3e40ecf6296222db71e7
+source-git-commit: 8191f227a3f0fd861e1bcbcf919b93f1f40b7c7b
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 96%
+source-wordcount: '702'
+ht-degree: 94%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->Wenden Sie sich an den Adobe-Support, um Zugriff auf diese Feature Packs zu erhalten. Wenn Sie die entsprechenden Berechtigungen erhalten haben, können Sie es von Package Share herunterladen.
+>Wenden Sie sich an den Adobe-Support, um Zugriff auf diese Feature Packs zu erhalten. Sie können das neueste Feature Pack für AEM Screens über das [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) mit Ihrem Adobe ID herunterladen.
 
 In diesem Abschnitt werden folgende Themen behandelt:
 
