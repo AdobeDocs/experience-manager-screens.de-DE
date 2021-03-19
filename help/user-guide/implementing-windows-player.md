@@ -10,9 +10,9 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ab67806751e8c57249c9ad656e931ca1339ab6d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '997'
 ht-degree: 100%
 
@@ -89,7 +89,7 @@ C:\Users\User\Downloads> .\aem-screens-player-electron-xxx-signed.exe /S /D=C:\U
 C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AEMScreensPlayer.exe
 ```
 
-## Massenregistrierung von Windows Playern {#bulk-registration}
+## Massenregistrierung von Windows-Playern {#bulk-registration}
 
 Beim Implementieren von Windows-Playern müssen Sie nicht jeden einzelnen Player manuell konfigurieren. Stattdessen können Sie auch die getestete und zur Bereitstellung bereite JSON-Konfigurationsdatei aktualisieren.
 
@@ -114,7 +114,7 @@ In der folgenden Tabelle finden Sie eine Zusammenfassung der Richtlinienattribut
 | enableOSD | Aktivierung der Kanalschalter-Benutzeroberfläche, damit Benutzer zwischen Kanälen auf dem Gerät wechseln können. Stellen Sie den Wert ggf. auf „false“ ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und in der Produktion verwendet wird |
 | enableActivityUI | Aktivierung zum Anzeigen des Fortschritts von Aktivitäten wie Downloads und Synchronisierungen. Aktivieren Sie den Wert zwecks Fehlerbehebung und deaktivieren Sie ihn, sobald die Benutzeroberfläche vollständig konfiguriert ist und produktiv verwendet wird. |
 
-#### Beispielhafte JSON-Richtliniendatei  {#example-policy-json-file}
+#### Beispielhafte JSON-Richtliniendatei {#example-policy-json-file}
 
 ```
 {
