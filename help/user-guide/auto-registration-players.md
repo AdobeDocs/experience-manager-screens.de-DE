@@ -1,46 +1,46 @@
 ---
-title: Automatische Registrierung von Spielern
-seo-title: Automatische Registrierung von Spielern
-description: Folgen Sie dieser Seite, um mehr über die automatische Registrierung von Spielern mit AMS/On-Prem-Bildschirmen zu erfahren.
-translation-type: tm+mt
+title: Automatische Registrierung von Playern
+seo-title: Automatische Registrierung von Playern
+description: Auf dieser Seite erfahren Sie mehr über die automatische Registrierung von Playern mit AMS/On-Premise Screens.
+translation-type: ht
 source-git-commit: 793507b266b99051544b377e4a7effb92dc6feb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '339'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# Automatische Registrierung von Spielern {#auto-registration}
+# Automatische Registrierung von Playern {#auto-registration}
 
-Bulk Registering Tausenden von Playern manuell kann sehr schwerfällig werden und zusätzliche Zeit und Kosten. Um diesen Vorgang zu vereinfachen, können Sie mit der Massenregistrierungsfunktion einen vorab freigegebenen Schlüssel in AEM angeben, der entweder über eine Konfigurationsdatei oder eine MDM-Lösung (Mobile Device Management) für einen Player bereitgestellt werden kann.
+Die manuelle Massenregistrierung von Tausenden von Playern kann sehr mühsam sein und zusätzliche Zeitanforderungen und Kosten verursachen. Um diesen Prozess zu vereinfachen, können Sie mit der Massenregistrierungsfunktion einen vorinstallierten Schlüssel in AEM angeben, der entweder über eine Konfigurationsdatei oder eine MDM-Lösung (Mobile Device Management) für einen Player bereitgestellt werden kann.
 
-## Implementierung der automatischen Registrierung von Spielern {#bulk-registering-implementation}
+## Implementieren der automatischen Registrierung von Playern {#bulk-registering-implementation}
 
-Gehen Sie wie folgt vor, um die automatische Registrierung von Playern zu implementieren:
+Führen Sie die folgenden Schritte aus, um die automatische Registrierung von Playern zu implementieren:
 
-1. Melden Sie sich bei Ihrer AEM an, wählen Sie Ihr AEM-Screenprojekt aus und klicken Sie in der Aktionsleiste auf **Eigenschaften**.
-1. Wählen Sie die Registerkarte **Erweitert**, um den Abschnitt **Geräteregistrierung** Ansicht.
+1. Melden Sie sich bei Ihrer AEM-Instanz an, wählen Sie Ihr AEM Screens-Projekt aus und klicken Sie in der Aktionsleiste auf **Eigenschaften**.
+1. Wählen Sie die Registerkarte **Erweitert** aus, um den Abschnitt **Geräteregistrierung** anzuzeigen.
 
-1. Geben Sie im Feld **Massenregistrierungscode** einen Code für die automatische Registrierung und in der optionalen Standardanzeige unter **Standardmäßige Anzeigenzuweisung** einen Code für die automatische Registrierung an, der dem Player zugewiesen werden soll, der automatisch registriert ist.
+1. Geben Sie im Feld **Bulk registration code** (Massenregistrierungs-Code) einen Code für die automatische Registrierung und in **Default display assignment** (Standardmäßige Anzeigenzuweisung) eine optionale Standardanzeige an, die dem Player zugewiesen werden soll, der automatisch registriert wird.
    >[!NOTE]
    >Geben Sie einen Code Ihrer Wahl ein und wählen Sie bei Bedarf eine Standardanzeige aus.
 
    ![image](/help/user-guide/assets/auto-registration/auto-register1.png)
-1. Stellen Sie Ihren Playern die entsprechende Server-URL und den Registrierungscode mit einer MDM- oder Konfigurations-JSON-Datei zur Verfügung.
+1. Stellen Sie Ihren Playern die entsprechende Server-URL und den Registrierungs-Code mithilfe einer MDM- oder Konfigurations-JSON-Datei zur Verfügung.
 
    >[!NOTE]
-   >Weitere Informationen finden Sie auf der Implementierungsseite für den jeweiligen Player für Ihr Betriebssystem. Sie können die Admin-Benutzeroberfläche auch zur Eingabe des Registrierungscodes verwenden.
+   >Weitere Informationen finden Sie auf der Implementierungsseite des jeweiligen Players für Ihr Betriebssystem. Sie können die Admin-Benutzeroberfläche auch zur Eingabe des Registrierungs-Codes verwenden.
 
-1. Wenn das `registrationKey`-Attribut mit dem in AEM konfigurierten Attribut übereinstimmt, registriert sich der Player automatisch, und wenn eine Standardanzeige konfiguriert ist, wird dieser Inhalt heruntergeladen und abgespielt.
+1. Wenn das `registrationKey`-Attribut mit dem in AEM konfigurierten Attribut übereinstimmt, registriert sich der Player automatisch. Wenn eine Standardanzeige konfiguriert ist, wird dieser Inhalt heruntergeladen und wiedergegeben.
 
    ![image](/help/user-guide/assets/auto-registration/auto-register2.png)
 
 ## Best Practices für die Sicherheit {#security-best-practices}
 
-Befolgen Sie den folgenden Abschnitt, um einige der Best Practices für die Sicherheit zu erwägen:
+Im folgenden Abschnitt finden Sie einige der Best Practices für die Sicherheit:
 
-* Um sicherzustellen, dass der Registrierungscode nicht beschädigt wird, konfigurieren Sie den Code in AEM, bevor Sie die Massenregistrierung starten. Wenn Sie fertig sind, löschen Sie bitte dieses Feld und speichern Sie AEM.
+* Um sicherzustellen, dass der Registrierungs-Code nicht kompromittiert wird, konfigurieren Sie den Code in AEM kurz vor dem Start der Massenregistrierung und löschen Sie das Feld, wenn Sie fertig sind.
 
 * Sie können den Pfad `/bin/screens/registration` so konfigurieren, dass er nur aus bekannten IP-Bereichen zugänglich ist, wenn möglich.
 
@@ -49,4 +49,4 @@ Befolgen Sie den folgenden Abschnitt, um einige der Best Practices für die Sich
 * Verwenden Sie immer `HTTPS` und nicht `HTTP` für die Player-Kommunikation mit AEM.
 
    >[!NOTE]
-   >Die Standardzuweisung zur Anzeige funktioniert derzeit nur bei der Massenregistrierung und nicht bei der manuellen Registrierung ohne Registrierungscode.
+   >Die standardmäßige Anzeigenzuweisung funktioniert derzeit nur für die Massenregistrierung und nicht für die manuelle Registrierung ohne Registrierungs-Code.
