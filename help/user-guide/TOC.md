@@ -5,11 +5,11 @@ audience: end-user
 user-guide-title: Adobe Experience Manager Screens-Hilfe
 breadcrumb-title: AEM Screens-Anleitung
 user-guide-description: Erfahren Sie, wie Sie mit einer Digital Signage-Lösung dynamische und interaktive digitale Erlebnisse und Interaktionen veröffentlichen können.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dae7744bd8efb99a16807f0651cbcaff5514b73b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '449'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -42,10 +42,10 @@ ht-degree: 97%
       + [Chrome OS-Player](implementing-chrome-os-player.md)
       + [Verwenden von Chrome-Player als Erweiterung zur Problembehebung](using-chrome-player-as-an-extension.md)
       + [Android-Player](implementing-android-player.md)
-      + [Massenbereitstellung von Android Player mit Enterprise Mobility Management](using-emm-bulkprovision-android-player.md)
+      + [Massenbereitstellung von Android-Playern mit Enterprise Mobility Management](using-emm-bulkprovision-android-player.md)
       + [Windows-Player](implementing-windows-player.md)
       + [Tizen-Player](tizen-player.md)
-      + [Automatische Registrierung von Spielern](auto-registration-players.md)
+      + [Automatische Registrierung von Playern](auto-registration-players.md)
    + Autoren- und Veröffentlichungsinstanz {#author-publish}
       + [Architektonischer Überblick zur Autoren- und Veröffentlichungsinstanz](author-publish-architecture-overview.md)
       + [Konfigurieren von Autoren- und Veröffentlichungsinstanz](author-and-publish.md)
