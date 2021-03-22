@@ -11,10 +11,10 @@ topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: ca5c43534bca0e7832a5c9f73388b8e535ce057e
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 100%
+source-wordcount: '1127'
+ht-degree: 94%
 
 ---
 
@@ -70,7 +70,7 @@ Gehen Sie wie folgt vor, um den Inhalt von **We.Retail** in Ihrem **TestChannel*
 
 1. **Navigieren zu einer Sites-Seite in We.Retail**
 
-   1. Navigieren Sie zu „Sites“ und wählen Sie **We.Retail In-Store** -> **Kanäle** ->**Leerkanal – Nacht** und anschließend diese Seite aus, um diese als Experience Fragment für Ihren Screens-Kanal zu verwenden.
+   1. Navigieren Sie zu Sites und wählen Sie **We.Retail** -> **United States** -> **English** -> **Equipment** und wählen Sie diese Seite aus, um dies als Erlebnisfragment für Ihren Screens-Kanal zu verwenden.
 
    1. Klicken Sie in der Aktionsleiste auf **Bearbeiten**, um die Seite zu öffnen, die Sie als Experience Fragment für Ihren Screens-Kanal verwenden möchten.
 
@@ -86,13 +86,15 @@ Gehen Sie wie folgt vor, um den Inhalt von **We.Retail** in Ihrem **TestChannel*
    1. Wählen Sie unter **Aktion** die Option **Neues Experience Fragment erstellen** aus.
 
    1. Wählen Sie den **übergeordneten Pfad** aus.
-   1. Wählen Sie die **Vorlage** aus. Wählen Sie hier die Vorlage .**Experience Fragment – Screens-Variante** aus.
+   1. Wählen Sie die **Vorlage** aus. Wählen Sie hier die Vorlage **Erlebnisfragment - Bildschirmvariation** (Wert im Feld `/libs/settings/screens/experience-fragments/templates/experience-fragment-template-screens`).
 
    1. Geben Sie unter **Fragmenttitel** den Wert **ScreensFragment** ein.
 
    1. Klicken Sie auf das Häkchen, um die Erstellung eines neuen Experience Fragments abzuschließen.
 
    ![screen_shot_2019-07-29at105918am](assets/screen_shot_2019-07-29at105918am.png)
+
+   Hinweis: Um eine Option einfacher auszuwählen, klicken Sie auf das Häkchen rechts neben den Feldern, um das Auswahldialogfeld zu öffnen.
 
 1. **Erstellen einer Live Copy des Experience Fragments**
 
