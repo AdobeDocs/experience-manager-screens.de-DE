@@ -1,11 +1,14 @@
 ---
 title: Inhaltszuweisungsbericht
 description: Auf dieser Seite wird das Herunterladen und Verwenden des Inhaltszuweisungsberichts beschrieben.
-translation-type: ht
-source-git-commit: 6d6ab276f5b4c0cb34a18fe3cb848ae226a97e1c
-workflow-type: ht
-source-wordcount: '332'
-ht-degree: 100%
+feature: Inhaltserstellung in Screens
+role: Entwickler
+level: Zwischenschaltung
+translation-type: tm+mt
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
+workflow-type: tm+mt
+source-wordcount: '336'
+ht-degree: 99%
 
 ---
 
