@@ -10,11 +10,14 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 59430d38-b441-4488-934e-74a55122b063
 docset: aem65
+feature: Überblick
+role: Geschäftspraktiker, Datenarchitektin
+level: Anfänger
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 100%
+source-wordcount: '640'
+ht-degree: 99%
 
 ---
 
@@ -31,8 +34,10 @@ Diese Seite enthält den letzten Teil einer 5-teiligen Serie, der Team-Mitgliede
 >
 >* Projektbereitstellung vor Ort
 >* Überprüfung von Gerätekonnektivität und -betrieb durch den Installationstechniker und das NOC (Network Operations Center)
+
 >
->Vor Beginn von Tag 2 sollte die Planung für laufende Lebenszyklusbudgets abgeschlossen werden.
+>
+Vor Beginn von Tag 2 sollte die Planung für laufende Lebenszyklusbudgets abgeschlossen werden.
 
 Die Planung umfasst:
 
