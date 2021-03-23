@@ -3,16 +3,19 @@ title: Glossar
 seo-title: Glossar
 description: Auf dieser Seite werden die wichtigsten Begriffe im Zusammenhang mit AEM Screens erläutert.
 seo-description: Auf dieser Seite werden die wichtigsten Begriffe im Zusammenhang mit AEM Screens erläutert.
+feature: Überblick
+role: Geschäftspraktiker
+level: Anfänger
 translation-type: tm+mt
-source-git-commit: 421174dba8a5a7c39bffcaa2dddb54939eeba3bc
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 100%
+source-wordcount: '473'
+ht-degree: 99%
 
 ---
 
 
-# Glossar    {#glossary}
+# Glossar {#glossary}
 
 **Anwendungskanal** Ein Anwendungskanal gibt eine vom Entwickler erstellte Anwendung wieder, die interaktive Inhalte anzeigt.
 
