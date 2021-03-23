@@ -1,14 +1,17 @@
 ---
 title: Installieren des Screens-Players
 seo-title: Installieren des Screens-Players
-description: Installieren des Screens-Players
+description: Auf dieser Seite erfahren Sie mehr über die Installation des verfügbaren AEM Screens Players.
 seo-description: Installieren des Screens-Players
 contentOwner: jsyal
+feature: Verwalten von Screens
+role: 'Administrator  '
+level: Zwischenschaltung
 translation-type: tm+mt
-source-git-commit: be491e88b7938f24ae1f375b2fded4052404aaa1
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 100%
+source-wordcount: '192'
+ht-degree: 92%
 
 ---
 
