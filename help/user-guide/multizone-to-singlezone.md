@@ -3,11 +3,14 @@ title: 'Nutzungsszenario: Übergang von mehreren zu einzelnen Zonen'
 description: 'Auf dieser Seite erfahren Sie mehr über das Nutzungsszenario: Übergang von mehreren zu einzelnen Zonen.'
 seo-description: 'Nutzungsszenario: Übergang von mehreren zu einzelnen Zonen.'
 contentOwner: Jyotika Syal
+feature: Inhaltserstellung in Screens
+role: Entwickler, Geschäftspraktiker
+level: Zwischenschaltung
 translation-type: tm+mt
-source-git-commit: 6f770734941635a0cd404986c259022137355af3
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 100%
+source-wordcount: '407'
+ht-degree: 99%
 
 ---
 
