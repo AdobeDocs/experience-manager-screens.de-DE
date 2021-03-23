@@ -1,11 +1,14 @@
 ---
 title: Spracherkennung in AEM Screens
 description: Auf der Seite werden die Spracherkennungsfunktionen in AEM Screens beschrieben.
+feature: Inhaltserstellung in Screens
+role: Administrator, Entwickler
+level: Zwischenschaltung
 translation-type: tm+mt
-source-git-commit: e355d648846034c4762ef8fdcb3e218d868044b6
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '1124'
-ht-degree: 100%
+source-wordcount: '1129'
+ht-degree: 99%
 
 ---
 
@@ -150,8 +153,8 @@ Jetzt können Sie diese Tags in Ihrem AEM Screens-Projekt verwenden.
    |---|---|---|
    | Main | 2 | Erster Ladevorgang, Bildschirm bei Untätigkeit, Timer |
    | HotDrinks | 1 | Benutzerinteraktion |
-   | ColdDrinks | 3 | Benutzerinteraktion |
-   | SplitScreen | 3 | Benutzerinteraktion |
+   | ColdDrinks | 1 | Benutzerinteraktion |
+   | SplitScreen | 1 | Benutzerinteraktion |
 
    >[!NOTE]
    >
