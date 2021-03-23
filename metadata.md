@@ -2,19 +2,13 @@
 cloud: experience-cloud
 solution-title: AEM Screens
 solution: Experience Manager, Experience Manager Screens
-type: Documentation
+type: Dokumentation
 index: y
-solution-hub-url: https://docs.adobe.com/content/help/de-DE/experience-manager-screens/user-guide/aem-screens-introduction.html
-solution-image: help/assets/experience-cloud-logo-24.png
-getting-started-title: Benutzerhandbuch und Best Practices für AEM Screens
-getting-started-url: https://docs.adobe.com/content/help/de-DE/experience-manager-screens/user-guide/aem-screens-introduction.html
-tutorials-title: Tutorials
-tutorials-url: https://docs.adobe.com/content/help/de-DE/experience-manager-screens/using/about-guide.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-screens.de-DE
-translation-type: ht
-source-git-commit: 5be539930b26902d696c14b06c8c3700fdc8ccf8
-workflow-type: ht
-source-wordcount: '82'
+translation-type: tm+mt
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+workflow-type: tm+mt
+source-wordcount: '45'
 ht-degree: 100%
 
 ---
