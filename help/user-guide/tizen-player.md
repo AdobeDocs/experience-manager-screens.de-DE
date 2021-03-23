@@ -1,11 +1,14 @@
 ---
 title: Tizen-Player
 description: Auf dieser Seite wird die Installation und Funktionsweise des Tizen-Players beschrieben.
-translation-type: ht
-source-git-commit: 2ace2f926900304377afcd6187462545a60784d3
-workflow-type: ht
-source-wordcount: '905'
-ht-degree: 100%
+feature: Verwaltungsbildschirme, Player
+role: 'Administrator  '
+level: Zwischenschaltung
+translation-type: tm+mt
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+workflow-type: tm+mt
+source-wordcount: '910'
+ht-degree: 99%
 
 ---
 
