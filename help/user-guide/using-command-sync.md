@@ -3,11 +3,14 @@ title: Verwenden der Befehlssynchronisierung
 seo-title: Verwenden der Befehlssynchronisierung
 description: Auf dieser Seite erfahren Sie, wie Sie die Befehlssynchronisierung verwenden.
 seo-description: Auf dieser Seite erfahren Sie, wie Sie die Befehlssynchronisierung verwenden.
-translation-type: ht
-source-git-commit: d25c45d6362a5f8ffac84e07dacb30c0b7c64493
-workflow-type: ht
-source-wordcount: '794'
-ht-degree: 100%
+feature: Inhaltserstellung in Screens
+role: Administrator, Entwickler
+level: Zwischenschaltung
+translation-type: tm+mt
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+workflow-type: tm+mt
+source-wordcount: '799'
+ht-degree: 99%
 
 ---
 
