@@ -3,11 +3,14 @@ title: Dispatcher-Konfigurationen für AEM Screens
 seo-title: Dispatcher-Konfigurationen für AEM Screens
 description: Auf dieser Seite werden Richtlinien zum Konfigurieren von Dispatcher für ein AEM Screens-Projekt hervorgehoben.
 seo-description: Auf dieser Seite werden Richtlinien zum Konfigurieren von Dispatcher für ein AEM Screens-Projekt hervorgehoben.
-translation-type: ht
-source-git-commit: 43aca405707625fe5a132beaed82dbb9a4513129
-workflow-type: ht
-source-wordcount: '391'
-ht-degree: 100%
+feature: Verwalten von Screens
+role: Entwickler, Geschäftspraktiker
+level: Zwischenschaltung
+translation-type: tm+mt
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+workflow-type: tm+mt
+source-wordcount: '397'
+ht-degree: 98%
 
 ---
 
