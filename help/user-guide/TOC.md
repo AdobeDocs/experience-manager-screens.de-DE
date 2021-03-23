@@ -7,9 +7,9 @@ breadcrumb-title: AEM Screens-Anleitung
 user-guide-description: Erfahren Sie, wie Sie mit einer Digital Signage-Lösung dynamische und interaktive digitale Erlebnisse und Interaktionen veröffentlichen können.
 feature-set: Experience Manager Screens
 translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 5daa0cdcecc3ddb9c93033754a505ff54d59f886
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '440'
 ht-degree: 100%
 
 ---
@@ -43,7 +43,6 @@ ht-degree: 100%
       + [Chrome OS-Player](implementing-chrome-os-player.md)
       + [Verwenden von Chrome-Player als Erweiterung zur Problembehebung](using-chrome-player-as-an-extension.md)
       + [Android-Player](implementing-android-player.md)
-      + [Massenbereitstellung von Android-Playern mit Enterprise Mobility Management](using-emm-bulkprovision-android-player.md)
       + [Windows-Player](implementing-windows-player.md)
       + [Tizen-Player](tizen-player.md)
       + [Automatische Registrierung von Playern](auto-registration-players.md)
