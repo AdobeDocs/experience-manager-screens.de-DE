@@ -1,7 +1,7 @@
 ---
 title: Konfiguration der Videowiedergabe und Problembehebung
 seo-title: Beheben von Videoproblemen
-description: null
+description: Auf dieser Seite erfahren Sie, wie Sie Videos, die in Ihrem Kanal abgespielt werden, debuggen und Fehler beheben.
 seo-description: Auf dieser Seite erfahren Sie, wie Sie Videoprobleme beheben. Wenn Sie ein Video zu DAM hochladen und zu Ihrem Kanal hinzufügen, kann möglicherweise das Problem auftreten, dass das Video im Screens-Player nicht wiedergegeben wird. In diesem Abschnitt werden das Debugging und die Problembehebung für die Videowiedergabe in Ihrem Kanal erläutert.
 uuid: 825b2440-5626-40d5-8c93-7689c24474d4
 contentOwner: Jyotika Syal
@@ -9,11 +9,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
+feature: Kanal, interaktiv
+role: Entwickler
+level: Zwischenschaltung
 translation-type: tm+mt
-source-git-commit: 8a2ed4e0a27175d43abfadda63232c3577d5387b
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 100%
+source-wordcount: '848'
+ht-degree: 97%
 
 ---
 
