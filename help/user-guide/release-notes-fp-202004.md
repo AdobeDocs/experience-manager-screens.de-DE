@@ -3,11 +3,14 @@ title: Versionshinweise für Feature Pack 202004
 seo-title: Versionshinweise für Feature Pack 202004
 description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 202004, das am 20. April 2020 veröffentlicht wurde.
 seo-description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 202004, das am 20. April 2020 veröffentlicht wurde.
+feature: Feature Pack 
+role: Entwickler
+level: Zwischenschaltung
 translation-type: tm+mt
-source-git-commit: d22a8ad78a8276b736a4d7455792996234d23ca3
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 100%
+source-wordcount: '396'
+ht-degree: 99%
 
 ---
 
