@@ -1,11 +1,14 @@
 ---
 title: Versionshinweise für Feature Pack 202011
-description: Auf der Seite werden die Versionshinweise für Feature Pack 202011 beschrieben.
-translation-type: ht
-source-git-commit: 7380862d0d5d77a155f9c135028c7548127a645a
-workflow-type: ht
-source-wordcount: '275'
-ht-degree: 100%
+description: '"Auf dieser Seite finden Sie Informationen zum AEM Screens Feature Pack 2020, das am 30. November 2020 veröffentlicht wurde."'
+feature: Feature Pack 
+role: Entwickler
+level: Zwischenschaltung
+translation-type: tm+mt
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 94%
 
 ---
 
