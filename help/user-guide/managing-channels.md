@@ -3,11 +3,14 @@ title: Erstellen und Verwalten von Kanälen
 seo-title: Verwalten von Kanälen
 description: Folgen Sie dieser Seite, um sich über das Erstellen und Verwalten von Kanälen zu informieren. Außerdem wird auf dieser Seite das Kanal-Dashboard und die Bearbeitung von Inhalt für einen Kanal erklärt.
 seo-description: Folgen Sie dieser Seite, um sich über das Erstellen und Verwalten von Kanälen zu informieren. Außerdem wird auf dieser Seite das Kanal-Dashboard und die Bearbeitung von Inhalt für einen Kanal erklärt.
-translation-type: ht
-source-git-commit: 6c2c7e4f757666160b79018d1195a79b99a4202d
-workflow-type: ht
-source-wordcount: '1326'
-ht-degree: 100%
+feature: Inhaltserstellung in Screens
+role: Administrator, Entwickler
+level: Zwischenschaltung
+translation-type: tm+mt
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+workflow-type: tm+mt
+source-wordcount: '1331'
+ht-degree: 99%
 
 ---
 
@@ -84,7 +87,6 @@ Um Inhalt in einem Kanal hinzuzufügen oder zu bearbeiten, gehen Sie wie folgt v
 1. Klicken Sie in der oberen linken Ecke der Aktionsleiste auf **Bearbeiten**, um die Kanaleigenschaften zu bearbeiten. Der Editor wird geöffnet. Sie haben die Möglichkeit, Ihrem Kanal Assets/Komponenten hinzuzufügen, die Sie veröffentlichen möchten.
 
 >[!NOTE]
->
 >Sie können Ihrem Kanal Komponenten hinzufügen. Weitere Informationen finden Sie unter **[Hinzufügen von Komponenten zu Kanälen](adding-components-to-a-channel.md)**.
 
 ![demochannel1](assets/demochannel1.gif)
@@ -98,7 +100,6 @@ Gehen Sie wie folgt vor, um Videos in Ihren Kanal hochzuladen:
 1. Wählen Sie unter „Assets“ die Option **Videos** und verschieben Sie die betreffenden Videos per Drag-and-Drop.
 
 >[!NOTE]
->
 >Wenn Sie beim Hochladen von Videos in Ihren Kanal auf Probleme stoßen, lesen Sie [Fehlerbehebung beim Arbeiten mit Videos](troubleshoot-videos.md).
 
 ### Anzeigen von Eigenschaften {#viewing-properties}
@@ -132,7 +133,6 @@ Klicken Sie in der in Aktionsleiste **KANALINFORMATIONEN** auf (**...**), um Eig
 Sie können das Manifest vom Kanal-Dashboard aus anzeigen.
 
 >[!IMPORTANT]
->
 >Diese Option ist nur mit AEM 6.4 Feature Pack 8 oder AEM 6.5 Feature Pack 4 verfügbar.
 
 Führen Sie die folgenden Schritte aus, um diese Option im Kanal-Dashboard zu aktivieren:
@@ -154,7 +154,6 @@ Jetzt sollten Sie im Kanal-Dashboard im Dialogfeld **KANALINFORMATIONEN** die Op
 ### Online- und Offline-Kanäle {#online-and-offline-channels}
 
 >[!NOTE]
->
 >Wenn Sie einen Kanal erstellen, ist der Kanal standardmäßig offline.
 
 Wenn Sie einen Kanal erstellen, kann er entweder als Online- oder als Offline-Kanal definiert werden.
@@ -188,7 +187,6 @@ Gehen Sie wie folgt vor, um den Kanal online zu schalten:
    ![screen_shot_2019-08-01at31821pm](assets/screen_shot_2019-08-01at31821pm.png)
 
 >[!NOTE]
->
 >Wenn Sie den Kanal erneut als offline konfigurieren möchten, deaktivieren Sie die Option „Entwicklermodus“ auf der Registerkarte **Eigenschaften** (wie in Schritt 3 gezeigt) und klicken Sie anschließend im Bedienfeld **KANALINFORMATIONEN** auf **Offline-Inhalt aktualisieren**, wie in der folgenden Abbildung dargestellt.
 
 ![dashboard2](assets/dashboard2.gif)
@@ -242,11 +240,11 @@ Die zugeordneten Anzeigen werden im Fenster **Zugewiesene Anzeigen** aufgelistet
 ![chlimage_1-27](assets/chlimage_1-27.png)
 
 >[!NOTE]
->
 >Weitere Informationen zum Erstellen einer Anzeige an einem Standort finden Sie unter:
 >
 >* [Erstellen und Verwalten von Standorten](managing-locations.md)
 >* [Erstellen und Verwalten von Anzeigen](managing-displays.md)
+
 >
 
 
