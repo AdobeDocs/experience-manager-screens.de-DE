@@ -2,11 +2,14 @@
 title: Automatische Registrierung von Playern
 seo-title: Automatische Registrierung von Playern
 description: Auf dieser Seite erfahren Sie mehr über die automatische Registrierung von Playern mit AMS/On-Premise Screens.
-translation-type: ht
-source-git-commit: 793507b266b99051544b377e4a7effb92dc6feb6
-workflow-type: ht
-source-wordcount: '339'
-ht-degree: 100%
+feature: Verwaltungsbildschirme, Player
+role: 'Administrator  '
+level: Zwischenschaltung
+translation-type: tm+mt
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+workflow-type: tm+mt
+source-wordcount: '344'
+ht-degree: 98%
 
 ---
 
