@@ -5,7 +5,7 @@ feature: Feature Pack 
 role: Entwickler
 level: Zwischenschaltung
 translation-type: tm+mt
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
+source-git-commit: aa1338fad19893e56ead4bb466e4f32a90116b65
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 96%
@@ -41,7 +41,7 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 202103 ist der 5. Mär
 
    Bei der Massenbereitstellung von Android-Playern ist es mühsam, jeden einzelnen Player manuell bei AEM zu registrieren. Es wird dringend empfohlen, eine EMM-Lösung (Enterprise Mobility Management) wie VMWare Airwatch, MobileIron oder Samsung Knox für die Remote-Bereitstellung und -Verwaltung Ihrer Bereitstellung zu verwenden. Der AEM Screens-Android-Player unterstützt den Branchenstandard EMM AppConfig, um eine Remote-Bereitstellung zu ermöglichen.
 
-   Weitere Informationen finden Sie unter [Massenbereitstellung von Android-Playern mit Enterprise Mobility Management](/help/user-guide/using-emm-bulkprovision-android-player.md).
+   Weitere Informationen finden Sie unter [Massenbereitstellung von Android-Playern mit Enterprise Mobility Management](/help/user-guide/implementing-android-player.md#implementation).
 
 
 ### Fehlerbehebungen {#bug-fixes}
