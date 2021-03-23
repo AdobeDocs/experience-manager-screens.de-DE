@@ -10,11 +10,14 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
-translation-type: ht
-source-git-commit: 2b72d9a83735beb327f519a66e8b3c0e8bf04409
-workflow-type: ht
-source-wordcount: '1134'
-ht-degree: 100%
+feature: Verwaltungsbildschirme, Android Player
+role: 'Administrator  '
+level: Zwischenschaltung
+translation-type: tm+mt
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+workflow-type: tm+mt
+source-wordcount: '1140'
+ht-degree: 99%
 
 ---
 
@@ -131,7 +134,7 @@ Nutzen Sie dazu eine [Beispiel-JSON-Richtlinie](#example-json) sowie eine Tabell
    >[!NOTE]
    >Diese Datei ist *schreibgeschützt*, wenn die App zum ersten Mal gestartet wird, und kann nicht für nachfolgende Konfigurationen verwendet werden. Wenn der Player vor dem Ablegen der Konfigurationsdatei gestartet wird, deinstallieren Sie die App und installieren Sie sie erneut auf dem Gerät.
 
-### Richtlinienattribute {#policy-attributes}
+### Richtlinienattribute  {#policy-attributes}
 
 In der folgenden Tabelle finden Sie eine Zusammenfassung der Richtlinienattribute mit einer beispielhaften JSON-Richtliniendatei als Referenz:
 
