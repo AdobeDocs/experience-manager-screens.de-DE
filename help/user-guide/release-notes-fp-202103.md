@@ -1,11 +1,14 @@
 ---
 title: Versionshinweise für Feature Pack 202103
-description: Auf der Seite finden Sie die Versionshinweise für Feature Pack 202103.
-translation-type: ht
-source-git-commit: dfbf904c1f23f7e41a9d65a270c5ca667ddcdb31
-workflow-type: ht
-source-wordcount: '389'
-ht-degree: 100%
+description: '"Auf dieser Seite finden Sie Informationen zum AEM Screens Feature Pack 202103, das am 05. März 2021 veröffentlicht wurde."'
+feature: Feature Pack 
+role: Entwickler
+level: Zwischenschaltung
+translation-type: tm+mt
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
+workflow-type: tm+mt
+source-wordcount: '398'
+ht-degree: 96%
 
 ---
 
