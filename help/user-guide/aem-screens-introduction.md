@@ -1,12 +1,15 @@
 ---
 title: Was ist AEM Screens?
 seo-title: Was ist AEM Screens?
-description: Diese Seite bietet eine Einführung in AEM Screens, ist eine Lösung für digitale Displays, mit der Sie dynamische und interaktive digitale Erlebnisse und Interaktionen unter Verwendung einer digitalen Marketingplattform auf unterschiedlichen Bildschirmen veröffentlichen können. Zudem erhalten Sie Informationen zur Screens-Architektur und zu den unterschiedlichen Rollen, die an der Projektentwicklung beteiligt sind.
+description: '"AEM Screens - eine Digital Signage-Lösung, mit der Sie dynamische und interaktive digitale Erlebnisse und Interaktionen mit verschiedenen Bildschirmtypen in Verbindung mit einer umfassenden digitalen Marketingplattform veröffentlichen können."'
+feature: Übersicht, Digital Signage
+role: Geschäftspraktiker
+level: Anfänger
 translation-type: tm+mt
-source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 100%
+source-wordcount: '560'
+ht-degree: 93%
 
 ---
 
