@@ -17,12 +17,12 @@ translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
 source-wordcount: '707'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
 
-# Adobe Analytics-Integration mit AEM Screens{#adobe-analytics-integration-with-aem-screens}
+# Adobe Analytics-Integration mit AEM Screens {#adobe-analytics-integration-with-aem-screens}
 
 >[!CAUTION]
 >
@@ -30,7 +30,7 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->Wenden Sie sich an den Adobe-Support, um Zugriff auf diese Feature Packs zu erhalten. Sie können das neueste Feature Pack für AEM Screens über das [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) mit Ihrem Adobe ID herunterladen.
+>Wenden Sie sich an den Adobe-Support, um Zugriff auf diese Feature Packs zu erhalten. Das neueste Feature Pack für AEM Screens steht auf dem [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) zum Download zur Verfügung (Adobe ID erforderlich).
 
 In diesem Abschnitt werden folgende Themen behandelt:
 
