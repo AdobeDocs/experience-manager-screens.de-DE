@@ -11,13 +11,13 @@ topic-tags: administering
 discoiquuid: f1df8d05-bb61-4bc9-aea1-c6af9e3519b4
 docset: aem65
 feature: Verwalten von Screens
-role: 'Administrator  '
-level: Zwischenschaltung
-translation-type: tm+mt
+role: Administrator
+level: Fortgeschrittene
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '702'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -65,11 +65,11 @@ Für die Tabellendatei (CSV/XLS) sind daher die folgenden Spalten erforderlich:
 * **path {string}** Der Pfad für den zu importierenden Standort, wobei der Stammordner des Pfades der Ordner für das Projekt ist (d. h. */foo* wird in */content/screens/&lt;Projekt>/locations/foo* importiert)
 
 * **template {string}** Die Vorlage, die für den neuen Standort verwendet werden soll, im Moment ist nur der Wert „location“ erlaubt, aber dies wird in Zukunft auf alle Screens-Vorlagen ausgedehnt („display“, „sequencechannel“ usw.)
-* **[./*]** {string} Jede optionale Eigenschaft, die für den Standort festgelegt wird (d. h. ./jcr:title, ./jcr:description, ./foo, ./bar). Die aktuelle Version ermöglicht derzeit keine Filterung
+* **[./*] {string}** Jede optionale Eigenschaft, die für den Standort festgelegt wird (d. h. ./jcr:title, ./jcr:description, ./foo, ./bar). Die aktuelle Version ermöglicht derzeit keine Filterung
 
 >[!NOTE]
 >
->Sämtliche Spalten, die nicht den oben genannten Bedingungen entsprechen, werden einfach ignoriert. Wenn Sie beispielsweise eine andere Spalte als **path**,**template**,**title** oder **description** in Ihrer Datei (CSV/XLS) definiert haben, werden diese Felder ignoriert und der **Projekt-Importer** überprüft diese zusätzlichen Felder nicht, um Ihr Projekt in Ihr AEM Screens-Projekt zu importieren.
+>Sämtliche Spalten, die nicht den oben genannten Bedingungen entsprechen, werden einfach ignoriert. Wenn Sie beispielsweise eine andere Spalte als **path**, **template**, **title** oder **description** in Ihrer Datei (CSV/XLS) definiert haben, werden diese Felder ignoriert und der **Projekt-Importer** überprüft diese zusätzlichen Felder nicht, um Ihr Projekt in Ihr AEM Screens-Projekt zu importieren.
 
 ## Verwenden des Projekt-Importers {#using-project-importer}
 
