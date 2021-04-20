@@ -5,12 +5,12 @@ description: Auf dieser Seite erfahren Sie, wie Sie die Befehlssynchronisierung 
 seo-description: Auf dieser Seite erfahren Sie, wie Sie die Befehlssynchronisierung verwenden.
 feature: Inhaltserstellung in Screens
 role: Administrator, Entwickler
-level: Zwischenschaltung
-translation-type: tm+mt
+level: Fortgeschrittene
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '799'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
