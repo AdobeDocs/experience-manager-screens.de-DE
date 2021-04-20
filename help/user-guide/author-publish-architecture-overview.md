@@ -11,17 +11,17 @@ discoiquuid: 112404de-5a5a-4b37-b87c-d02029933c8a
 docset: aem65
 feature: Verwalten von Screens
 role: Administrator, Entwickler
-level: Zwischenschaltung
-translation-type: tm+mt
+level: Fortgeschrittene
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1031'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Architektonischer Überblick zur Autoren- und Veröffentlichungsinstanz{#author-and-publish-architectural-overview}
+# Architektonischer Überblick zur Autoren- und Veröffentlichungsinstanz {#author-and-publish-architectural-overview}
 
 Auf dieser Seite werden folgende Themen vorgestellt:
 
