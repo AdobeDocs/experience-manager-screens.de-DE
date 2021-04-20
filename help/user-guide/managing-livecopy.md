@@ -11,12 +11,12 @@ topic-tags: authoring
 discoiquuid: 84085a03-1798-4f1d-858c-6014a3f6aff6
 feature: Inhaltserstellung in Screens
 role: Administrator, Entwickler
-level: Zwischenschaltung
-translation-type: tm+mt
+level: Fortgeschrittene
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '727'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Um den Inhalt einer Live Copy anzuzeigen, gehen Sie wie folgt vor:
    >
    >Wenn Sie Inhalte für einen Live Copy-Kanal anzeigen, sehen Sie im Menü ein zusätzliches Element als **Live Copy-Status**. Weitere Informationen finden Sie im folgenden Abschnitt.
 
-### Anzeigen der Eigenschaften einer Live Copy      {#viewing-properties-of-a-live-copy}
+### Anzeigen der Eigenschaften einer Live Copy {#viewing-properties-of-a-live-copy}
 
 Außerdem können Sie die Eigenschaften Ihres Live Copy-Kanals anzeigen.
 
