@@ -10,19 +10,19 @@ content-type: reference
 topic-tags: release-notes
 discoiquuid: 08ace4d8-bccf-4783-a664-a28bbae7ecc3
 noindex: true
-feature: Feature Pack 
+feature: Feature Pack
 role: Entwickler
-level: Zwischenschaltung
-translation-type: tm+mt
+level: Fortgeschrittene
+translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '279'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Versionshinweise für Feature Pack 201812{#release-notes-for-feature-pack}
+# Versionshinweise für Feature Pack 201812 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
