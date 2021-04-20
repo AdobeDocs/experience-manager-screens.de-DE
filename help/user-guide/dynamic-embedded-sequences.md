@@ -11,12 +11,12 @@ topic-tags: authoring
 discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
 feature: Inhaltserstellung in Screens
 role: Administrator, Entwickler
-level: Zwischenschaltung
-translation-type: tm+mt
+level: Fortgeschrittene
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2540'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -253,10 +253,10 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
 
 1. **Zuweisen eines Zeitplans zu jeder Anzeige**
 
-   1. Navigieren Sie zur jeweiligen Anzeige, z. B. **Demo** > **Standorte** > **Region A** >**Store 1** >**Store1Display**.
+   1. Navigieren Sie zur jeweiligen Anzeige, z. B. **Demo** > **Standorte** > **Region A** > **Store 1** > **Store1Display**.
    1. Klicken Sie in der Aktionsleiste auf **Dashboard**, um das Anzeigen-Dashboard zu öffnen.
    1. Klicken Sie auf **...** im Bedienfeld **ZUGEWIESENE KANÄLE UND ZEITPLÄNE** und klicken Sie auf **+Zeitplan zuweisen**.
-   1. Wählen Sie den Pfad zum Zeitplan aus (hier z. B. **Demo** > **Zeitpläne** >**AdSchedule**).
+   1. Wählen Sie den Pfad zum Zeitplan aus (hier z. B. **Demo** > **Zeitpläne** > **AdSchedule**).
    1. Klicken Sie auf **Speichern**.
 
 ## Anzeigen der Ergebnisse {#viewing-the-results}
