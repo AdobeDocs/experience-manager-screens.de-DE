@@ -10,14 +10,14 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
-feature: Authoring-Bildschirme, Aktivierung auf Kanal-Ebene
+feature: Inhaltserstellung in Screens, Aktivierung auf Kanalebene
 role: Administrator, Entwickler
-level: Zwischenschaltung
-translation-type: tm+mt
+level: Fortgeschrittene
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1810'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -158,8 +158,8 @@ Der Player zeigt den Inhalt von **MainAdChannel** an und genau um 23:59 Uhr (wie
 
 >[!NOTE]
 Weitere Informationen zum AEM Screens-Player finden Sie in den folgenden Ressourcen:
-
-[AEM Screens-Player-Downloads](https://download.macromedia.com/screens/)[Arbeiten mit dem AEM Screens-Player](working-with-screens-player.md)
+[AEM Screens-Player-Downloads](https://download.macromedia.com/screens/)
+[Arbeiten mit dem AEM Screens-Player](working-with-screens-player.md)
 
 
 ## Umgang mit sich wiederholenden Assets in einem Kanal {#handling-recurrence-in-assets}
@@ -211,7 +211,7 @@ Sie können das _24-Stunden-Format_ (d. h. 14:00 Uhr) oder die *am/pm*-Notation
 
 Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hinzufügen können, während Sie einer Anzeige einen Kanal zuweisen.
 
-| **Ausdruck** | **Dolmetschen** |
+| **Ausdruck** | **Interpretation** |
 |---|---|
 | Mo., Di., Mi. oder Mo.–Mi. | Das Asset im Kanal wird von Montag bis Mittwoch wiedergegeben. |
 | vor 8:00 Uhr | Das Asset im Kanal wird täglich vor 8:00 Uhr wiedergegeben. |
@@ -238,7 +238,7 @@ Sie können das _24-Stunden-Format_ (d. h. 14:00 Uhr) oder die *am/pm*-Notation
 
 Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hinzufügen können, während Sie einer Anzeige einen Kanal zuweisen.
 
-| **Ausdruck** | **Dolmetschen** |
+| **Ausdruck** | **Interpretation** |
 |---|---|
 | Februar, Mai, August, November | Das Asset im Kanal wird im Februar, Mai, August, November wiedergegeben. |
 
@@ -263,7 +263,7 @@ Sie können das _24-Stunden-Format_ (d. h. 14:00 Uhr) oder die *am/pm*-Notation
 
 Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hinzufügen können, während Sie einer Anzeige einen Kanal zuweisen.
 
-| **Ausdruck** | **Dolmetschen** |
+| **Ausdruck** | **Interpretation** |
 |---|---|
 | nach 6:00 und vor 18:00 Uhr am Mo.,Mi. im Jan-Mrz | Das Asset im Kanal wird montags bis mittwochs von Januar bis Ende März zwischen 6 Uhr und 18 Uhr und mittwochs wiedergegeben. |
 | am 1. Januar nach 14:00 Uhr auch am 2. Januar, auch am 3. Januar vor 3:00 Uhr | Das Asset im Kanal wird ab dem 1. Januar um 14:00 Uhr und weiterhin den ganzen Tag am 2. Januar bis um 3:00 Uhr am 3. Januar wiedergegeben. |
