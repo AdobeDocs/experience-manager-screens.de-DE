@@ -10,14 +10,14 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 3f130808-71e8-4710-8181-021d953660f8
 docset: aem65
-feature: Digitalsignatur, Inhalt, Player
+feature: Digital Signage, Inhalt, Player
 role: Entwickler
-level: Zwischenschaltung
-translation-type: tm+mt
+level: Fortgeschrittene
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '807'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 
 Über das Geräte-Dashboard können Sie die Leistung Ihrer Screens-Player-Aktivität und Ihres Geräts überwachen und Fehler beheben. Auf dieser Seite finden Sie Informationen zur Überwachung und Fehlerbehebung bei erkannten Leistungsproblemen des Screens-Players und der zugeordneten Geräte.
 
-## Durchführen der Überwachung und Fehlerbehebung über das Geräte-Kontrollzentrum        {#monitor-and-troubleshoot-from-device-control-center}
+## Durchführen der Überwachung und Fehlerbehebung über das Geräte-Kontrollzentrum {#monitor-and-troubleshoot-from-device-control-center}
 
 Über das Geräte-Dashboard können Sie die Aktivität überwachen und damit Fehler Ihres Screens-Players beheben.
 
