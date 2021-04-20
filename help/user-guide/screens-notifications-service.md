@@ -11,17 +11,17 @@ topic-tags: authoring
 discoiquuid: 8879e510-4f0e-46da-87d2-77c5aaacb26e
 feature: Inhaltserstellung in Screens
 role: Administrator, Entwickler
-level: Zwischenschaltung
-translation-type: tm+mt
+level: Fortgeschrittene
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '561'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# AEM Screens-Benachrichtigungsdienst{#aem-screens-notifications-service}
+# AEM Screens-Benachrichtigungsdienst {#aem-screens-notifications-service}
 
 <!--removed from metadata: admitteddomains: @adobe.com;@caesars.com-->
 
