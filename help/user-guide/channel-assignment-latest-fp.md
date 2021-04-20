@@ -2,14 +2,14 @@
 title: Kanalzuweisung – Neuestes Feature Pack
 seo-title: Kanalzuweisung – Neuestes Feature Pack
 description: Auf dieser Seite erhalten Sie Informationen zur Kanalzuweisung und zu Dayparting.
-feature: Authoring-Bildschirme, Zuweisen von Kanälen
+feature: Inhaltserstellung in Screens, Kanalzuweisung
 role: Administrator, Entwickler
-level: Zwischenschaltung
-translation-type: tm+mt
+level: Fortgeschrittene
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1478'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -105,7 +105,7 @@ Sie werden die folgende Ausgabe auf Ihrem Player sehen:
 
 ![new1](assets/channel-assignment/channel-assign-output.gif)
 
-## Timeline-Ansicht{#timeline-view}
+## Timeline-Ansicht {#timeline-view}
 
 Nachdem Sie einen Kanal einer Anzeige zugewiesen und einen Intervallzeitplan eingerichtet haben, können Sie die Timeline im Bedienfeld **ZUGEWIESENE KANÄLE &amp; ZEITPLÄNE** anzeigen.
 
@@ -205,7 +205,7 @@ Bei Dayparting wird ein Tag in Zeitfenster unterteilt und festgelegt, welcher In
 
 Im Folgenden wird in drei Szenarien beschrieben, wie Dayparting mit Kanälen verwendet werden kann:
 
-#### Anzeigen von Inhalten an einem einzigen Tag unterteilt in mehrere Zeitfenster          {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
+#### Anzeigen von Inhalten an einem einzigen Tag unterteilt in mehrere Zeitfenster {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
 Im folgenden Beispiel wird veranschaulicht, wie ein Restaurant Dayparting verwendet, um täglich sein Angebot für Frühstück, Mittagessen und Abendessen zu präsentieren.
 
