@@ -7,9 +7,9 @@ getting-started-description: AEM Screens Best Practices Guide provides guidance 
 feature-set: Experience Manager Screens
 product: experience manager
 audience: end-user
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '138'
 ht-degree: 100%
 
@@ -20,8 +20,8 @@ ht-degree: 100%
 
 + [Informationen zu diesem Handbuch](about-guide.md)
 + Überblick {#overview}
-   + [Einführung in AEM Screens ](introduction.md)
-   + [Projektrollen und Zuständigkeiten ](roles-responsibilities.md)
+   + [Einführung in AEM Screens](introduction.md)
+   + [Projektrollen und Zuständigkeiten](roles-responsibilities.md)
    + [Voraussetzungen](pre-requisites.md)
    + [Schlüsselelemente eines Digital Signage-Projekts](getting-started-digital-signage.md)
    + [Empfohlener Ansatz](recommended-approach.md)
@@ -41,7 +41,7 @@ ht-degree: 100%
    + [Projekttaxonomie und -implementierung](project-taxonomy-implementation.md)
    + Verwaltung des Netzwerk-Traffics {#manage-network-traffic}
       + [Verwalten des Nertzwerk-Traffics](/help/using/managing-network-traffic.md)
-      + [Netzwerk für direkten Internet-Zugriff (kabelgebunden/kabellos) ](/help/using/direct-internet-network.md)
+      + [Netzwerk für direkten Internet-Zugriff (kabelgebunden/kabellos)](/help/using/direct-internet-network.md)
       + [Netzwerk für Direktanbindung an Mobilfunknetze](/help/using/mobile-network.md)
       + [Mobiles Netzwerk mit mobilem WLAN-Router und aktiven Netzwerkkomponenten](/help/using/mobile-network-router.md)
       + [Geschlossenes Unternehmensnetzwerk (kabelgebunden/kabellos)](/help/using/enclosed-corporate-network.md)
