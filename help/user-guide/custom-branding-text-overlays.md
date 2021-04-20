@@ -6,12 +6,12 @@ seo-description: Auf dieser Seite erfahren Sie, wie Sie benutzerdefiniertes Bran
 contentOwner: Jyotika Syal
 feature: Entwicklung in Screens
 role: Entwickler
-level: Zwischenschaltung
-translation-type: tm+mt
+level: Fortgeschrittene
+translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '630'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
