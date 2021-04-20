@@ -3,9 +3,9 @@ title: Sicherheitscheckliste
 seo-title: Sicherheitscheckliste
 description: Auf dieser Seite werden die wichtigsten Sicherheitsbereiche beschrieben. Außerdem wird eine Checkliste mit Fragen und Überlegungen bereitgestellt.
 seo-description: Die Seite beschreibt die Sicherheits-Checkliste
-feature: Verwalten von Screens
+feature: Administering Screens
 role: Administrator
-level: Fortgeschrittene
+level: Intermediate
 translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: ht

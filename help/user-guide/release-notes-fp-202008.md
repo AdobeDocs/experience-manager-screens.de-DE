@@ -2,8 +2,8 @@
 title: Versionshinweise für Feature Pack 202008
 description: „Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 202008, das am Donnerstag, 3. September 2020 veröffentlicht wurde.“
 feature: Feature Pack
-role: Entwickler
-level: Fortgeschrittene
+role: Developer
+level: Intermediate
 translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: ht

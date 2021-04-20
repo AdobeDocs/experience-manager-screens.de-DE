@@ -2,9 +2,9 @@
 title: '„Teil 1: Projektrollen und Zuständigkeiten“'
 seo-title: '„Teil 1: Projektrollen und Zuständigkeiten“'
 description: In diesem Tutorial erfahren Sie mehr über die Rollen, Verantwortlichkeiten und Zeitpläne, die in den Vertriebs- und Projektlebenszyklen eines Projekts für digitale Beschilderung erforderlich sind.
-feature: Überblick
-role: Geschäftspraktiker, Datenarchitekt
-level: Anfänger
+feature: Overview
+role: Business Practitioner, Data Architect
+level: Beginner
 translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: ht

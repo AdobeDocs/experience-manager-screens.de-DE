@@ -1,9 +1,9 @@
 ---
 title: Inhaltszuweisungsbericht
 description: Auf dieser Seite wird das Herunterladen und Verwenden des Inhaltszuweisungsberichts beschrieben.
-feature: Inhaltserstellung in Screens
-role: Entwickler
-level: Fortgeschrittene
+feature: Authoring Screens
+role: Developer
+level: Intermediate
 translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: ht

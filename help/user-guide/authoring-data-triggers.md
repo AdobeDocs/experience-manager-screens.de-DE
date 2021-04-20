@@ -2,9 +2,9 @@
 title: Inhaltserstellung mit Datenauslösern
 seo-title: Inhaltserstellung mit Datenauslösern
 description: Auf dieser Seite erfahren Sie, wie Sie mit Datenauslösern Inhalte erstellen.
-feature: Inhaltserstellung in Screens
-role: Administrator, Entwickler
-level: Fortgeschrittene
+feature: Authoring Screens
+role: Administrator, Developer
+level: Intermediate
 translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: ht

@@ -2,9 +2,9 @@
 title: Kanalzuweisung
 seo-title: Kanalzuweisung
 description: Auf dieser Seite erhalten Sie Informationen zur Kanalzuweisung und zu Dayparting.
-feature: Inhaltserstellung in Screens, Kanalzuweisung
-role: Administrator, Entwickler
-level: Fortgeschrittene
+feature: Authoring Screens, Channel Assignment
+role: Administrator, Developer
+level: Intermediate
 translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: ht

@@ -4,9 +4,9 @@ seo-title: Erstellen benutzerdefinierter Vorlagen für Mehrzonen-Layouts
 description: Auf dieser Seite erfahren Sie, wie Sie benutzerdefinierte Vorlagen für Mehrzonen-Layouts erstellen.
 seo-description: Auf dieser Seite erfahren Sie, wie Sie benutzerdefinierte Vorlagen für Mehrzonen-Layouts erstellen.
 contentOwner: Jyotika Syal
-feature: Entwicklung in Screens
-role: Entwickler
-level: Fortgeschrittene
+feature: Developing Screens
+role: Developer
+level: Intermediate
 translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: ht

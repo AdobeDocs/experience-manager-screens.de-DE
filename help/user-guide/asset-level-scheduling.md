@@ -3,9 +3,9 @@ title: Aktivierung auf Asset-Ebene
 seo-title: Aktivierung auf Asset-Ebene
 description: Auf dieser Seite erfahren Sie, wie Sie ein bestimmtes Asset in einem Kanal für einen geplanten Zeitraum in der lokalen Zeitzone des Players aktivieren können.
 seo-description: Auf dieser Seite erfahren Sie, wie Sie ein bestimmtes Asset in einem Kanal für einen geplanten Zeitraum in der lokalen Zeitzone des Players aktivieren können.
-feature: Inhaltserstellung in Screens, Aktivierung auf Asset-Ebene
-role: Administrator, Entwickler
-level: Fortgeschrittene
+feature: Authoring Screens, Asset Level Activation
+role: Administrator, Developer
+level: Intermediate
 translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: ht

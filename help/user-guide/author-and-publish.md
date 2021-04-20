@@ -3,9 +3,9 @@ title: Konfigurieren von Autoren- und Veröffentlichungsinstanz in AEM Screens
 seo-title: Konfigurieren von Autoren- und Veröffentlichungsinstanz in AEM Screens
 description: Die AEM Screens-Architektur ähnelt einer traditionellen AEM Sites-Architektur. Inhalte werden in einer AEM-Autoreninstanz erstellt und dann vorwärts an mehrere Veröffentlichungsinstanzen repliziert. Auf dieser Seite erfahren Sie, wie Sie Autoren- und Veröffentlichungsinstanz für AEM Screens konfigurieren.
 seo-description: Die AEM Screens-Architektur ähnelt einer traditionellen AEM Sites-Architektur. Inhalte werden in einer AEM-Autoreninstanz erstellt und dann vorwärts an mehrere Veröffentlichungsinstanzen repliziert. Auf dieser Seite erfahren Sie, wie Sie Autoren- und Veröffentlichungsinstanz für AEM Screens konfigurieren.
-feature: Verwalten von Screens
-role: Administrator, Entwickler
-level: Fortgeschrittene
+feature: Administering Screens
+role: Administrator, Developer
+level: Intermediate
 translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: ht

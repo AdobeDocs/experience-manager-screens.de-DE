@@ -5,9 +5,9 @@ description: 'Auf dieser Seite erfahren Sie mehr über On-Demand-Inhaltsaktualis
 seo-description: 'Auf dieser Seite erfahren Sie mehr über On-Demand-Inhaltsaktualisierungen.  '
 uuid: 18b9d175-ff26-42db-86aa-5ea978909f71
 contentOwner: Jyotika Syal
-feature: Inhaltserstellung in Screens
-role: Entwickler
-level: Fortgeschrittene
+feature: Authoring Screens
+role: Developer
+level: Intermediate
 translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: ht

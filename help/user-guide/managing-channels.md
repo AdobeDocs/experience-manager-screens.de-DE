@@ -3,9 +3,9 @@ title: Erstellen und Verwalten von Kanälen
 seo-title: Verwalten von Kanälen
 description: Folgen Sie dieser Seite, um sich über das Erstellen und Verwalten von Kanälen zu informieren. Außerdem wird auf dieser Seite das Kanal-Dashboard und die Bearbeitung von Inhalt für einen Kanal erklärt.
 seo-description: Folgen Sie dieser Seite, um sich über das Erstellen und Verwalten von Kanälen zu informieren. Außerdem wird auf dieser Seite das Kanal-Dashboard und die Bearbeitung von Inhalt für einen Kanal erklärt.
-feature: Inhaltserstellung in Screens
-role: Administrator, Entwickler
-level: Fortgeschrittene
+feature: Authoring Screens
+role: Administrator, Developer
+level: Intermediate
 translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: ht

@@ -3,9 +3,9 @@ title: Verwenden von Chrome-Player als Erweiterung
 seo-title: Verwenden von Chrome-Player als Erweiterung
 description: Auf dieser Seite erfahren Sie, wie Sie den Chrome-Player als Browser-Erweiterung installieren.
 seo-description: 'null'
-feature: Verwalten von Screens
+feature: Administering Screens
 role: Administrator
-level: Fortgeschrittene
+level: Intermediate
 translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: ht

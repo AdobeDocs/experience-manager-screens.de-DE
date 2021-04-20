@@ -4,9 +4,9 @@ seo-title: Anwenden von benutzerdefiniertem Branding und Styling für Textüberl
 description: Auf dieser Seite erfahren Sie, wie Sie benutzerdefiniertes Branding und Styling für Textüberlagerungen anwenden.
 seo-description: Auf dieser Seite erfahren Sie, wie Sie benutzerdefiniertes Branding und Styling für Textüberlagerungen anwenden.
 contentOwner: Jyotika Syal
-feature: Entwicklung in Screens
-role: Entwickler
-level: Fortgeschrittene
+feature: Developing Screens
+role: Developer
+level: Intermediate
 translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: ht

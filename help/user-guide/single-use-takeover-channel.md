@@ -4,9 +4,9 @@ seo-title: Übernahmekanal für die einmalige Verwendung
 description: In diesem Nutzungsszenario erfahren Sie, wie Sie einen Übernahmekanal für die einmalige Verwendung erstellen.
 seo-description: In diesem Nutzungsszenario erfahren Sie, wie Sie einen Übernahmekanal für die einmalige Verwendung erstellen.
 contentOwner: jsyal
-feature: Inhaltserstellung in Screens
-role: Administrator, Entwickler
-level: Fortgeschrittene
+feature: Authoring Screens
+role: Administrator, Developer
+level: Intermediate
 translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: ht

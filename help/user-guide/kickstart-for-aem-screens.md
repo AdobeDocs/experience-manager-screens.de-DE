@@ -2,9 +2,9 @@
 title: Schnellstartanleitung
 seo-title: Schnellstartanleitung
 description: Befolgen Sie die Anweisungen auf dieser Seite, um ein Demoprojekt für AEM Screens zu erstellen. Ein Demoprojekt unterstützt Sie beim Erstellen eines Digital-Signage-Erlebnisses – von der Installation und Konfiguration eines neuen Projekts bis hin zum Anzeigen von Inhalten mit dem AEM Screens-Player.
-feature: Übersicht, Digital Signage
-role: Geschäftspraktiker
-level: Anfänger
+feature: Overview, Digital Signage
+role: Business Practitioner
+level: Beginner
 translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: ht

@@ -1,9 +1,9 @@
 ---
 title: Spracherkennung in AEM Screens
 description: Auf der Seite werden die Spracherkennungsfunktionen in AEM Screens beschrieben.
-feature: Inhaltserstellung in Screens
-role: Administrator, Entwickler
-level: Fortgeschrittene
+feature: Authoring Screens
+role: Administrator, Developer
+level: Intermediate
 translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: ht
