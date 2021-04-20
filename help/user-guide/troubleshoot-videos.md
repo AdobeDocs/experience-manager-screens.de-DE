@@ -1,7 +1,7 @@
 ---
 title: Konfiguration der Videowiedergabe und Problembehebung
 seo-title: Beheben von Videoproblemen
-description: Auf dieser Seite erfahren Sie, wie Sie Videos, die in Ihrem Kanal abgespielt werden, debuggen und Fehler beheben.
+description: Auf dieser Seite werden das Debugging und die Problembehebung für die Videowiedergabe in Ihrem Kanal beschrieben.
 seo-description: Auf dieser Seite erfahren Sie, wie Sie Videoprobleme beheben. Wenn Sie ein Video zu DAM hochladen und zu Ihrem Kanal hinzufügen, kann möglicherweise das Problem auftreten, dass das Video im Screens-Player nicht wiedergegeben wird. In diesem Abschnitt werden das Debugging und die Problembehebung für die Videowiedergabe in Ihrem Kanal erläutert.
 uuid: 825b2440-5626-40d5-8c93-7689c24474d4
 contentOwner: Jyotika Syal
@@ -9,14 +9,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
-feature: Kanal, interaktiv
+feature: Kanäle, interaktiv
 role: Entwickler
-level: Zwischenschaltung
-translation-type: tm+mt
+level: Fortgeschrittene
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '848'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Wenn Sie ein Video zu DAM hochladen und zu Ihrem Kanal hinzufügen, kann möglic
 
 In den folgenden Abschnitten werden das Debugging und die Problembehebung für die Videowiedergabe in Ihrem Kanal beschrieben.
 
-## DAM-Ausgaben       {#dam-renditions}
+## DAM-Ausgaben {#dam-renditions}
 
 Wenn Sie das Video in den Kanal hochgeladen haben, sollte AEM damit beginnen, einige Ausgaben dafür zu erzeugen. Sie können Ihre Videos unter „Assets“ anzeigen.
 
@@ -74,7 +74,7 @@ Vergewissern Sie sich, dass ffmpeg installiert ist, und prüfen Sie die Videopro
    >
    >Stellen Sie sicher, dass Sie lange genug warten, bis das Video transkodiert wurde (es sollte das Tag „neu“ aufweisen statt „in Bearbeitung“), bevor Sie es zu einem Kanal hinzufügen.
 
-### Testen des Profils mit einer Videokomponente        {#checking-profile-with-a-video-component}
+### Testen des Profils mit einer Videokomponente {#checking-profile-with-a-video-component}
 
 Prüfen Sie die Liste der Profile über die Design-Seite, wenn die Videokomponente nicht korrekt konfiguriert ist.
 
@@ -89,7 +89,7 @@ Prüfen Sie die Liste der Profile über die Design-Seite, wenn die Videokomponen
 
 ### Prüfen des Videos im Web-Player {#checking-the-video-in-the-web-player}
 
-Mit dem **Web-Player**`http://localhost:4502/content/mobileapps/cq-screens-player/firmware.html/content/screens/we-retail/locations/demo/flagship/single/device0` können Sie die Wiedergabe in Browsern (Chrome und Safari) testen. Chrome wird auf Android-Geräten genutzt, Safari ist der Browser unter OSX und iOS.
+Mit dem **Web-Player** `http://localhost:4502/content/mobileapps/cq-screens-player/firmware.html/content/screens/we-retail/locations/demo/flagship/single/device0` können Sie die Wiedergabe in Browsern (Chrome und Safari) testen. Chrome wird auf Android-Geräten genutzt, Safari ist der Browser unter OSX und iOS.
 
 Wenn das Video in Safari nicht läuft, funktioniert es auch nicht bei den OSX- und iOS-Playern. Das liegt wahrscheinlich an einem Kodierungsfehler. Das Video muss also neu kodiert werden.
 
