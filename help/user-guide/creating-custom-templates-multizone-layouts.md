@@ -6,12 +6,12 @@ seo-description: Auf dieser Seite erfahren Sie, wie Sie benutzerdefinierte Vorla
 contentOwner: Jyotika Syal
 feature: Entwicklung in Screens
 role: Entwickler
-level: Zwischenschaltung
-translation-type: tm+mt
+level: Fortgeschrittene
+translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '951'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Es gibt zwei wichtige Aspekte, die Sie beachten müssen, bevor Sie eine benutzer
    >[!IMPORTANT]
    >Die im benutzerdefinierten Layout definierten Zonen passen möglicherweise nicht zum Seitenverhältnis des gesamten Layouts. Mit der in diesem Dokument verwendeten Namenskonvention wird das Seitenverhältnis des benutzerdefinierten Layouts als Ganzes angegeben.
 
-## Anwendungsbeispiel Layout „Left20-LandscapeHD3Zone“{#custom-template-one}
+## Anwendungsbeispiel Layout „Left20-LandscapeHD3Zone“ {#custom-template-one}
 
 Gehen Sie wie folgt vor, um die benutzerdefinierte Vorlage *Left20-LandscapeHD3Zone* mit der folgenden Konfiguration zu erstellen:
 
