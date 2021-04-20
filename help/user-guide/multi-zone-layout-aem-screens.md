@@ -12,12 +12,12 @@ discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 feature: Inhaltserstellung in Screens
 role: Administrator, Entwickler
-level: Zwischenschaltung
-translation-type: tm+mt
+level: Fortgeschrittene
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1202'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Die folgende Seite beschreibt die Verwendung des Mehrzonen-Layouts und behandelt
 
 ## Überblick {#overview}
 
-***Mehrzonen-Layout ermöglicht es Ihnen, Inhalte für mehrere Bereiche zu erstellen und eine Vielzahl von Assets wie Videos, Bilder und Text zu verwenden, die in einem einzigen Bildschirm kombiniert werden können.*** Sie können Bilder, Videos und Text einblenden, sodass alles miteinander verschmelzen und ein intuitives digitales Erlebnis schaffen kann.
+***Mehrzonen-Layout*** ermöglicht es Ihnen, Inhalte für mehrere Bereiche zu erstellen und eine Vielzahl von Assets wie Videos, Bilder und Text zu verwenden, die in einem einzigen Bildschirm kombiniert werden können. Sie können Bilder, Videos und Text einblenden, sodass alles miteinander verschmelzen und ein intuitives digitales Erlebnis schaffen kann.
 
 Abhängig von den Projektanforderungen sind ggf. mehrere Bereiche in einem Kanal erforderlich, die dann zusammen als Einheit bearbeitet werden. Beispiel: eine Produktsequenz mit entsprechendem Social-Media-Feed, die in drei separaten Bereichen in einem Kanal läuft.
 
