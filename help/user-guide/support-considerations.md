@@ -11,18 +11,18 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 59430d38-b441-4488-934e-74a55122b063
 docset: aem65
 feature: Überblick
-role: Geschäftspraktiker, Datenarchitektin
+role: Geschäftspraktiker, Datenarchitekt
 level: Anfänger
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '640'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Teil 5: Support-Aspekte{#part-support-considerations}
+# Teil 5: Support-Aspekte {#part-support-considerations}
 
 Diese Seite enthält den letzten Teil einer 5-teiligen Serie, der Team-Mitgliedern dabei hilft, Probleme mit Hardware, Software und Konnektivität zu beheben. In diesem Schritt werden Kostenschätzungen und Bedingungen für den Vor-Ort-Support untersucht. Zudem wird erläutert, wie sich SLA-Parameter, Betriebsbudgets und NOC-Handoffs verwalten lassen.
 
