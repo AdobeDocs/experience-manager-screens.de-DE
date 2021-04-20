@@ -11,12 +11,12 @@ discoiquuid: dbb4fae6-f3fb-496a-9bd6-1151e2862b5b
 docset: aem65
 feature: Inhaltserstellung in Screens
 role: Administrator, Entwickler
-level: Zwischenschaltung
-translation-type: tm+mt
+level: Fortgeschrittene
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '817'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -149,7 +149,7 @@ Gehen Sie wie folgt vor, um einen Notfallkanal einzurichten:
    1. Klicken Sie in der Aktionsleiste auf **Dashboard**, um das Anzeigen-Dashboard zu öffnen.
    1. Klicken Sie auf **...** im Bedienfeld **ZUGEWIESENE KANÄLE UND ZEITPLÄNE** und klicken Sie auf **+Zeitplan zuweisen**.
 
-   1. Wählen Sie den Pfad zum Zeitplan aus (hier z. B. **EmergencyChannel** > **Zeitpläne** >**StoreSchedule**).
+   1. Wählen Sie den Pfad zum Zeitplan aus (hier z. B. **EmergencyChannel** > **Zeitpläne** > **StoreSchedule**).
 
    1. Klicken Sie auf **Speichern**.
 
