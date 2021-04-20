@@ -5,12 +5,12 @@ seo-description: 'Nutzungsszenario: Übergang von mehreren zu einzelnen Zonen.'
 contentOwner: Jyotika Syal
 feature: Inhaltserstellung in Screens
 role: Entwickler, Geschäftspraktiker
-level: Zwischenschaltung
-translation-type: tm+mt
+level: Fortgeschrittene
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '407'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
