@@ -12,25 +12,25 @@ discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
 feature: Inhaltserstellung in Screens
 role: Administrator, Entwickler
-level: Zwischenschaltung
-translation-type: tm+mt
+level: Fortgeschrittene
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1469'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Hinzufügen von Komponenten zu Kanälen{#adding-components-to-a-channel}
+# Hinzufügen von Komponenten zu Kanälen {#adding-components-to-a-channel}
 
 Komponenten sind die grundlegenden Elemente des AEM (Adobe Experience Manager)-Erlebnisses. Sie können verschiedene Komponenten nutzen und Kanälen in AEM Screens-Projekten hinzufügen.
 
-## Komponenten in AEM Screens        {#components-in-aem-screens}
+## Komponenten in AEM Screens {#components-in-aem-screens}
 
 AEM Screens bietet verschiedene AEM-Komponenten, die sich in Screens-Projekten verwenden lassen.
 
-### Anzeigen von AEM Screens-Komponenten         {#viewing-aem-screens-components}
+### Anzeigen von AEM Screens-Komponenten {#viewing-aem-screens-components}
 
 Beim Erstellen eines AEM Screens-Projekts wird eine Liste der Standardkomponenten angezeigt, die dem Projekt hinzugefügt werden können.
 
@@ -63,7 +63,7 @@ Im folgenden Beispiel sehen Sie, wie einem AEM Screens-Projekt eine Livefyre-Kom
 >
 >Auf die gleiche Weise können Sie dem Projekt eine beliebige Anzahl anderer neuer Komponenten hinzufügen, die mit AEM Screens kompatibel sind.
 
-## Grundlegendes zu AEM Screens-Komponenten         {#understanding-aem-screen-components}
+## Grundlegendes zu AEM Screens-Komponenten {#understanding-aem-screen-components}
 
 Im folgenden Abschnitt werden die AEM Screens-Komponenten beschrieben, die Sie für Projekte nutzen können.
 
@@ -90,7 +90,7 @@ Im folgenden Beispiel sehen Sie, wie die Komponente „Anwendung“ hinzugefügt
 >
 >Im Beispiel oben sehen Sie, wie Eigenschaften aller nachfolgenden Komponenten aufgerufen werden können.
 
-### Kanal         {#channel}
+### Kanal {#channel}
 
 Mit der Komponente **Kanal** können Sie Projekten einen vollständigen Kanal hinzufügen.
 
@@ -169,7 +169,7 @@ Die Komponente „Eingebettete Sequenz“ verfügt über die folgenden Seiteneig
 
 ### Dynamische eingebettete Sequenz {#dynamic-embedded-sequence}
 
-Mit der Komponente „Dynamische eingebettete Sequenz“ können Sie, abhängig von der Kanalrolle, wie oben beschrieben eine Sequenz hinzufügen. 
+Mit der Komponente „Dynamische eingebettete Sequenz“ können Sie, abhängig von der Kanalrolle, wie oben beschrieben eine Sequenz hinzufügen.
 
 Ausführliche Informationen zu eingebetteten Sequenzen finden Sie in „Inhaltserstellung in Screens“ unter [Eingebettete Sequenzen](embedded-sequences.md).
 
@@ -207,7 +207,7 @@ Weitere Informationen zum Erstellen eines Experience Fragments und dessen Verwen
 | **Eigenschaft** | **Beschreibung** |
 |---|---|
 | **Experience Fragment** |
-| ***Erlebnisfragment*** | Wählen Sie das Experience Fragment aus. |
+| ***Experience Fragment*** | Wählen Sie das Experience Fragment aus. |
 | ***Dauer*** | Wählen Sie die Gesamtdauer des Experience Fragment aus, das im Kanal wiedergegeben wird. |
 | **Offline-Konfiguration** |
 | ***Client-seitige Bibliotheken*** | JavaScript- und CSS-Dateien. |
