@@ -11,12 +11,12 @@ discoiquuid: e4ecc179-e421-4687-854c-14d31bed031d
 docset: aem65
 feature: Entwicklung in Screens
 role: Entwickler
-level: Zwischenschaltung
-translation-type: tm+mt
+level: Fortgeschrittene
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '724'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
