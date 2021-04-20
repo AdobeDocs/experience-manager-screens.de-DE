@@ -10,14 +10,14 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
-feature: Authoring-Bildschirme, Erlebnisfragmente
+feature: Inhaltserstellung in Screens, Experience Fragments
 role: Administrator, Entwickler
-level: Zwischenschaltung
-translation-type: tm+mt
+level: Fortgeschrittene
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1134'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -73,7 +73,7 @@ Gehen Sie wie folgt vor, um den Inhalt von **We.Retail** in Ihrem **TestChannel*
 
 1. **Navigieren zu einer Sites-Seite in We.Retail**
 
-   1. Navigieren Sie zu Sites und wählen Sie **We.Retail** -> **United States** -> **English** -> **Equipment** und wählen Sie diese Seite aus, um dies als Erlebnisfragment für Ihren Screens-Kanal zu verwenden.
+   1. Navigieren Sie zu „Sites“ und wählen Sie **We.Retail** > **USA** > **Englisch** > **Ausrüstung** aus. Wählen Sie diese Seite aus, um sie als Experience Fragment für Ihren Screens-Kanal zu verwenden.
 
    1. Klicken Sie in der Aktionsleiste auf **Bearbeiten**, um die Seite zu öffnen, die Sie als Experience Fragment für Ihren Screens-Kanal verwenden möchten.
 
@@ -89,7 +89,7 @@ Gehen Sie wie folgt vor, um den Inhalt von **We.Retail** in Ihrem **TestChannel*
    1. Wählen Sie unter **Aktion** die Option **Neues Experience Fragment erstellen** aus.
 
    1. Wählen Sie den **übergeordneten Pfad** aus.
-   1. Wählen Sie die **Vorlage** aus. Wählen Sie hier die Vorlage **Erlebnisfragment - Bildschirmvariation** (Wert im Feld `/libs/settings/screens/experience-fragments/templates/experience-fragment-template-screens`).
+   1. Wählen Sie die **Vorlage** aus. Wählen Sie hier die Vorlage **Experience Fragment - Screens-Variante** aus (Wert im Feld `/libs/settings/screens/experience-fragments/templates/experience-fragment-template-screens`).
 
    1. Geben Sie unter **Fragmenttitel** den Wert **ScreensFragment** ein.
 
