@@ -3,14 +3,14 @@ title: Aktivierung auf Asset-Ebene
 seo-title: Aktivierung auf Asset-Ebene
 description: Auf dieser Seite erfahren Sie, wie Sie ein bestimmtes Asset in einem Kanal für einen geplanten Zeitraum in der lokalen Zeitzone des Players aktivieren können.
 seo-description: Auf dieser Seite erfahren Sie, wie Sie ein bestimmtes Asset in einem Kanal für einen geplanten Zeitraum in der lokalen Zeitzone des Players aktivieren können.
-feature: Authoring-Bildschirme, Aktivierung auf Asset-Ebene
+feature: Inhaltserstellung in Screens, Aktivierung auf Asset-Ebene
 role: Administrator, Entwickler
-level: Zwischenschaltung
-translation-type: tm+mt
+level: Fortgeschrittene
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1453'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -127,7 +127,7 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 
 Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hinzufügen können, während Sie einer Anzeige einen Kanal zuweisen.
 
-| **Ausdruck** | **Dolmetschen** |
+| **Ausdruck** | **Interpretation** |
 |---|---|
 | Mo.,Mi.,Fr. | Das Asset im Kanal wird montags, mittwochs und freitags wiedergegeben. |
 | Mo.–Do. | Das Asset im Kanal wird von montags bis donnerstags wiedergegeben. |
@@ -152,7 +152,7 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 
 Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hinzufügen können, während Sie einer Anzeige einen Kanal zuweisen.
 
-| **Ausdruck** | **Dolmetschen** |
+| **Ausdruck** | **Interpretation** |
 |---|---|
 | Februar, Mai, August, November | Das Asset im Kanal wird im Februar, Mai, August und November wiedergegeben. |
 | Februar–Juli | Das Asset im Kanal wird von Februar bis Ende Juli wiedergegeben. |
@@ -175,7 +175,7 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 
 Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hinzufügen können, während Sie einer Anzeige einen Kanal zuweisen.
 
-| **Ausdruck** | **Dolmetschen** |
+| **Ausdruck** | **Interpretation** |
 |---|---|
 | nach 6:00 und vor 18:00 Uhr am Mo.,Mi. im Jan-Mrz | Das Asset im Kanal wird montags bis mittwochs von Januar bis Ende März zwischen 6 Uhr und 18 Uhr und mittwochs wiedergegeben. |
 | am 1. Januar nach 14:00 Uhr auch am 2. Januar, auch am 3. Januar vor 3:00 Uhr | Das Asset im Kanal wird ab dem 1. Januar um 14:00 Uhr und weiterhin den ganzen Tag am 2. Januar bis um 3:00 Uhr am 3. Januar wiedergegeben. |
