@@ -12,12 +12,12 @@ discoiquuid: a90e3950-c95a-4aff-8cb3-9229c660a815
 docset: aem65
 feature: Inhaltserstellung in Screens
 role: Administrator, Entwickler
-level: Zwischenschaltung
-translation-type: tm+mt
+level: Fortgeschrittene
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '608'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Das Video wird als Objekt horizontal von Pixel 1 bis Pixel 1280 und vertikal von
 Bevor Sie einen Workflow für Videos erstellen, müssen Sie die folgenden Voraussetzungen erfüllen:
 
 1. Laden Sie ein Video in den Ordner **Assets** in Ihrer AEM-Instanz.
-1. Erstellen Sie ein AEM Screens-Projekt (z. B. **TestVideoRendering**) und einen Kanal mit dem Namen (**VideoRendering**), wie in der folgenden Abbildung dargestellt:
+1. Erstellen Sie ein AEM Screens-Projekt (z. B. **TestVideoRendition**) und einen Kanal mit dem Namen (**VideoRendering**), wie in der folgenden Abbildung dargestellt:
 
 ![screen_shot_2018-10-17at85307pm](assets/screen_shot_2018-10-17at85307pm.png)
 
@@ -102,7 +102,7 @@ Gehen Sie wie folgt vor, um einen Workflow für Ihr Video zu erstellen:
 
 Gehen Sie wie folgt vor, um den Workflow in Ihrem AEM Screens-Projekt zu verwenden:
 
-1. Navigieren Sie zu einem AEM Screens-Projekt (**TestVideoRendition** > **Kanäle** >**VideoRendition**).
+1. Navigieren Sie zu einem AEM Screens-Projekt (**TestVideoRendition** > **Kanäle** > **VideoRendition**).
 
    ![screen_shot_2018-10-17at100715pm](assets/screen_shot_2018-10-17at100715pm.png)
 
