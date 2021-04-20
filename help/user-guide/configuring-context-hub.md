@@ -12,12 +12,12 @@ discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 feature: Entwicklung in Screens
 role: Entwickler
-level: Zwischenschaltung
-translation-type: tm+mt
+level: Fortgeschrittene
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1535'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -230,7 +230,7 @@ Nachdem Sie einen Datenspeicher eingerichtet und Ihre Aktivität (Marke und Bere
 
    1. Klicken Sie auf **Erstellen** > **Aktivität erstellen.** Der **Assistent zum Konfigurieren der Aktivität** wird geöffnet.
 
-   1. Geben Sie den **Titel** als **ValueCheck50** und den **Namen** als **valueCheck50** ein. Wählen Sie die **Targeting-Engine** als **ContextHub (AEM)** aus der Dropdown-Liste aus und klicken Sie auf **Weiter**.
+   1. Geben Sie den **Titel** als **ValueCheck50** und den **Namen** als **valuecheck50** ein. Wählen Sie die **Targeting-Engine** als **ContextHub (AEM)** aus der Dropdown-Liste aus und klicken Sie auf **Weiter**.
 
       ![image](/help/user-guide/assets/context-hub/context-hub14.png)
 
@@ -246,7 +246,7 @@ Nachdem Sie einen Datenspeicher eingerichtet und Ihre Aktivität (Marke und Bere
 
       ![image](/help/user-guide/assets/context-hub/context-hub16.png)
 
-## Schritt 5: Bearbeiten der Segmente in Zielgruppen{#editing-audience-segmentation}
+## Schritt 5: Bearbeiten der Segmente in Zielgruppen {#editing-audience-segmentation}
 
 1. **Bearbeiten der Segmente**
 
