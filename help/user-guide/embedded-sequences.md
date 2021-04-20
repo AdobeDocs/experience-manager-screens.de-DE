@@ -12,12 +12,12 @@ discoiquuid: fc13d713-af30-4a54-8408-920f78fd2b2f
 docset: aem65
 feature: Inhaltserstellung in Screens
 role: Administrator, Entwickler
-level: Zwischenschaltung
-translation-type: tm+mt
+level: Fortgeschrittene
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '839'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Sie haben die Möglichkeit, die folgenden Komponenten zu Ihrem Sequenzkanal hinz
 >
 >Weitere Informationen zum Verwenden anderer Komponenten in Ihrem Screens-Projekt finden Sie unter [Hinzufügen von Komponenten zu einem Kanal](adding-components-to-a-channel.md).
 
-### Hinzufügen einer eingebetteten Sequenz          {#adding-an-embedded-sequence}
+### Hinzufügen einer eingebetteten Sequenz {#adding-an-embedded-sequence}
 
 Sie können Ihrem Kanal eine eingebettete Sequenz hinzufügen. Bei einer eingebetteten Sequenz handelt es sich um einen weiteren Kanal mit Assets wie Bildern oder Videos. Durch Hinzufügen einer eingebetteten Sequenz können Benutzer die Sequenz über den ***Kanalpfad*** in einen Kanal aufnehmen.
 
