@@ -10,14 +10,14 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
-feature: Verwaltungsbildschirme, Android Player
-role: 'Administrator  '
-level: Zwischenschaltung
-translation-type: tm+mt
+feature: Verwalten von Screens, Android-Player
+role: Administrator
+level: Fortgeschrittene
+translation-type: ht
 source-git-commit: 6978d9d13f2b7f723812561554fdb0a606ddb4fc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1441'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -134,7 +134,7 @@ Nutzen Sie dazu eine [Beispiel-JSON-Richtlinie](#example-json) sowie eine Tabell
    >[!NOTE]
    >Diese Datei ist *schreibgeschützt*, wenn die App zum ersten Mal gestartet wird, und kann nicht für nachfolgende Konfigurationen verwendet werden. Wenn der Player vor dem Ablegen der Konfigurationsdatei gestartet wird, deinstallieren Sie die App und installieren Sie sie erneut auf dem Gerät.
 
-### Richtlinienattribute  {#policy-attributes}
+### Richtlinienattribute {#policy-attributes}
 
 In der folgenden Tabelle finden Sie eine Zusammenfassung der Richtlinienattribute mit einer beispielhaften JSON-Richtliniendatei als Referenz:
 
@@ -186,8 +186,8 @@ Gehen Sie wie folgt vor, um die Massenbereitstellung im Android-Player zuzulasse
 1. Stellen Sie sicher, dass Ihr Android-Gerät die Google Play-Services unterstützt.
 1. Registrieren Sie Ihre Android-Player-Geräte bei Ihrer bevorzugten EMM-Lösung, die AppConfig unterstützt.
 1. Melden Sie sich bei Ihrer EMM-Konsole an und rufen Sie das AEM Screens Player-Programm von Google Play ab.
-1. Wählen Sie verwaltete Konfiguration oder zugehörige Option.
-1. Sie sollten nun eine Liste von Player-Optionen sehen, die konfiguriert werden können, wie z. B. Server- und Massenregistrierungscode.
+1. Wählen Sie die verwaltete Konfiguration oder die zugehörige Option aus.
+1. Sie sollten nun eine Liste der Player-Optionen sehen, die konfiguriert werden können, wie z. B. Server und Massenregistrierungs-Code.
 1. Konfigurieren Sie diese Parameter, speichern Sie sie und stellen Sie die Richtlinie auf den Geräten bereit.
 
    >[!NOTE]
