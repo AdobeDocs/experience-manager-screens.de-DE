@@ -3,19 +3,19 @@ title: Versionshinweise für Feature Pack 202001
 seo-title: Versionshinweise für Feature Pack 202001
 description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 202001, das am 31. Januar 2020 veröffentlicht wurde.
 seo-description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 202001, das am 31. Januar 2020 veröffentlicht wurde.
-feature: Feature Pack 
+feature: Feature Pack
 role: Entwickler
-level: Zwischenschaltung
-translation-type: tm+mt
+level: Fortgeschrittene
+translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '286'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 
-# Versionshinweise für Feature Pack 202001{#release-notes-for-feature-pack}
+# Versionshinweise für Feature Pack 202001 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
@@ -30,18 +30,16 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 202001 ist Mittwoch, 3
 ### Neuerungen {#what-s-new}
 
 * **Befehlssynchronisierung für die Asset-Wiedergabe**
-
-
 Mithilfe der Befehlssynchronisierung kann die Wiedergabe über verschiedene Player hinweg synchronisiert werden. Die Player können unterschiedliche Inhalte wiedergeben, aber jedes Asset muss dieselbe Dauer haben.
 Weitere Informationen zur Befehlssynchronisierung und zum Festlegen von Master und Clients finden Sie unter [Verwenden der Befehlssynchronisierung](using-command-sync.md).
 
 * **Framework für Statusprüfungen zum Anzeigen des Status von HTTPS und Erlauben eines leeren Referrers** Mit dem Framework für Statusprüfungen können Benutzer vor Ausführung eines AEM Screens-Projekts prüfen, ob zwei erforderliche Konfigurationen („Leere Referrer-Anforderungen erlauben“ und „Apache Felix Jetty-basierter HTTP-Dienst“) eingerichtet wurden.
 
-   Weitere Informationen zum Framework für Statusprüfungen finden Sie unter [Framework für Statusprüfungen ](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
+   Weitere Informationen zum Framework für Statusprüfungen finden Sie unter [Framework für Statusprüfungen](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
 
-* **Aktualisierungen der Standardtypen**
-der TransitionEigenschaften der Transition, z. B. 
-**&quot;** Typeis&quot;ist jetzt standardmäßig auf &quot; **** Fadeand&quot;und &quot; **** Durationas&quot; **1600 ms** eingestellt.
+* **Aktualisierungen der standardmäßigen Übergangstypen**
+Standardmäßig sind die Eigenschaften der Übergangskomponente wie 
+**Typ** jetzt auf **Ausblenden** und die **Dauer** auf **1600 ms** eingestellt.
 
    Weitere Informationen finden Sie im Anwendungsbeispiel [Anwenden von Übergängen](/help/user-guide/applying-transitions.md).
 
