@@ -1,16 +1,16 @@
 ---
 title: Replizieren von Datenauslösern auf Veröffentlichungs-Servern
 seo-title: Replizieren von Datenauslösern auf Veröffentlichungs-Server
-description: Folgen Sie dieser Seite, um zu erfahren, wie Sie Daten-Trigger auf den Veröffentlichungsserver replizieren.
+description: Auf dieser Seite erfahren Sie, wie Sie Datenauslöser auf dem Veröffentlichungs-Server replizieren können.
 seo-description: Replizieren von Datenauslösern auf Veröffentlichungs-Server.
-feature: Verwaltungsbildschirme, Data Trigger
+feature: Verwalten von Screens, Datenauslöser
 role: Entwickler
-level: Zwischenschaltung
-translation-type: tm+mt
+level: Fortgeschrittene
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '538'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
