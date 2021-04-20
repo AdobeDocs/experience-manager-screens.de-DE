@@ -11,12 +11,12 @@ discoiquuid: 24eb937f-ab51-4883-8236-8ebe6243f6e3
 targetaudience: target-audience new
 feature: Entwicklung in Screens
 role: Entwickler
-level: Zwischenschaltung
-translation-type: tm+mt
+level: Fortgeschrittene
+translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2190'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -428,7 +428,7 @@ Die Komponente „Hello World“ ist für die Verwendung in einem Sequenzkanal v
 
    ![idle-channel](assets/idle-channel.gif)
 
-1. Öffnen Sie die Seiteneigenschaften für den inaktiven Kanal (Idle Channel). Aktualisieren Sie das Feld „Design“, um auf `/apps/settings/wcm/designs/we-retail-run,`die im vorherigen Abschnitt erstellte Design-Seite zu verweisen.
+1. Öffnen Sie die Seiteneigenschaften für den inaktiven Kanal (Idle Channel). Aktualisieren Sie das Feld „Design“, um auf `/apps/settings/wcm/designs/we-retail-run,` die im vorherigen Abschnitt erstellte Design-Seite zu verweisen.
 
    ![Design config /apps/settings/wcm/designs/we-retail-run](assets/2018-05-07_at_1240pm.png)
 
