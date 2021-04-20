@@ -11,12 +11,12 @@ topic-tags: authoring
 discoiquuid: 00ea321c-3f79-4aa5-83cc-3fa2fe9e35d9
 feature: Inhaltserstellung in Screens
 role: Administrator, Entwickler
-level: Zwischenschaltung
-translation-type: tm+mt
+level: Fortgeschrittene
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '346'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Sie haben auch die Möglichkeit, direkt zur folgenden URL zu wechseln: `http://l
 >**Navigationstipp:**
 >Sie können auch die Pfeiltasten verwenden, um durch die verschiedenen Ordner in AEM zu navigieren. Sobald Sie eine bestimmte Entität ausgewählt haben, können Sie die Leertaste drücken, um Eigenschaften für den betreffenden Ordner zu bearbeiten oder anzuzeigen.
 
-## Erstellen eines neuen Screens-Projekts       {#creating-a-new-screens-project}
+## Erstellen eines neuen Screens-Projekts {#creating-a-new-screens-project}
 
 Gehen Sie wie folgt vor, um ein neues Screens-Projekt zu erstellen:
 
