@@ -11,13 +11,13 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: cd1483af-8118-46ac-a2ad-42d89c05bdca
 docset: aem65
 feature: Überblick
-role: Geschäftspraktiker, Datenarchitektin
+role: Geschäftspraktiker, Datenarchitekt
 level: Anfänger
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '728'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
