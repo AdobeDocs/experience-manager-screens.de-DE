@@ -11,12 +11,12 @@ topic-tags: authoring
 discoiquuid: 8dc08e29-a377-4e84-84ee-442470c19019
 feature: Inhaltserstellung in Screens
 role: Administrator, Entwickler
-level: Zwischenschaltung
-translation-type: tm+mt
+level: Fortgeschrittene
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '273'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Die Gerätekonsole erlaubt es Ihnen, auf den Geräte-Manager zuzugreifen, um Ihr
 >
 >Vor dem Zuweisen müssen Sie das Gerät registrieren. Weitere Informationen finden Sie unter [Geräteregistrierung](device-registration.md).
 
-## Gerätezuweisung      {#device-assignment}
+## Gerätezuweisung {#device-assignment}
 
 Gehen Sie wie folgt vor, um ein Gerät einer Anzeige zuzuweisen:
 
@@ -76,5 +76,5 @@ Gehen Sie wie folgt vor, um ein Gerät einer Anzeige zuzuweisen:
 
 Wenn Sie damit vertraut sind, wie ein Kanal einer Anzeige zugewiesen wird, sehen Sie sich die folgenden Ressourcen an:
 
-* [Überwachung und Fehlerbehebung](monitoring-screens.md) 
+* [Überwachung und Fehlerbehebung](monitoring-screens.md)
 
