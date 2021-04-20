@@ -11,13 +11,13 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 157185f9-c5e3-4a5b-badc-9becb26f1b27
 docset: aem65
 feature: Überblick
-role: Geschäftspraktiker, Datenarchitektin
+role: Geschäftspraktiker, Datenarchitekt
 level: Anfänger
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Dieses Tutorial behandelt folgende Punkte, die für die erfolgreiche Implementie
 
 Beispielsweise könnten zu den Verantwortlichen für ein Programm für digitale Beschilderung in einer Einzelhandelsumgebung gehören: In-Store Marketing, Store Environment oder Visual Merchandising, Store Operations, IT Security, IT Support, die Produktkategorie Merchant sowie deren Anbieter, die die Lösung ggf. mitfinanzieren.
 
-## Zusammenfassung der wichtigsten Begriffe, die in einem übergeordneten Projektplan verwendet werden{#summary-of-key-terms-involved-in-an-overall-project-plan}
+## Zusammenfassung der wichtigsten Begriffe, die in einem übergeordneten Projektplan verwendet werden {#summary-of-key-terms-involved-in-an-overall-project-plan}
 
 Im folgenden Abschnitt erhalten Sie einen Überblick über die Schlüsselbegriffe, die in einem übergeordneten Projektplan von Bedeutung sind, wie z.B. Projektzyklus, Maßnahmen bei Hardware-Tests, Machbarkeitsstudien, Pilotprogramme und Rollouts.
 
