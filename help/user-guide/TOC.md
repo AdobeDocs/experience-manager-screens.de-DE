@@ -69,7 +69,7 @@ ht-degree: 100%
       + [AEM Screens-Benachrichtigungsdienst](screens-notifications-service.md)
       + [Verwenden von Experience Fragments](experience-fragments-in-screens.md)
       + [Aktivierung auf Asset-Ebene](asset-level-scheduling.md)
-      + [Aktivierung auf Kanalebene ](channel-level-activation.md)
+      + [Aktivierung auf Kanalebene](channel-level-activation.md)
       + [Erstellen und Verwalten einer Live Copy](managing-livecopy.md)
       + [Erstellen eines Workflows für den Videoabstand](creating-a-video-padding-workflow.md)
       + [Hinzufügen von Komponenten zu Kanälen](adding-components-to-a-channel.md)
@@ -103,7 +103,7 @@ ht-degree: 100%
    + [Erstellen von Komponenten](creating-components.md)
    + [Einbetten einer REACT-Anwendung mit AEM SPA Editor und Integration mit AEM Screens Analytics](embedding-react-app.md)
    + [Konfigurieren von ContextHub in AEM Screens](configuring-context-hub.md)
-   + [Erstellen benutzerdefinierter Vorlagen für Mehrzonen-Layouts ](creating-custom-templates-multizone-layouts.md)
+   + [Erstellen benutzerdefinierter Vorlagen für Mehrzonen-Layouts](creating-custom-templates-multizone-layouts.md)
    + [Anwenden von benutzerdefiniertem Branding und Styling für Textüberlagerungen](custom-branding-text-overlays.md)
 + Problembehebung und häufig gestellte Fragen {#troubleshooting}
    + [Häufig gestellte Fragen zu AEM Screens](aem-screens-faqs.md)
