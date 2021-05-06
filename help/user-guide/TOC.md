@@ -5,11 +5,11 @@ audience: end-user
 user-guide-title: Adobe Experience Manager Screens-Hilfe
 breadcrumb-title: AEM Screens-Anleitung
 user-guide-description: Erfahren Sie, wie Sie mit einer Digital Signage-Lösung dynamische und interaktive digitale Erlebnisse und Interaktionen veröffentlichen können.
-translation-type: ht
-source-git-commit: fe83efff8f4078c45ee03ec24c83544ae30816ab
-workflow-type: ht
-source-wordcount: '440'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: e0e6a865bcdec88d8c9096d66b5ac3ce5227dbc3
+workflow-type: tm+mt
+source-wordcount: '445'
+ht-degree: 98%
 
 ---
 
@@ -104,6 +104,7 @@ ht-degree: 100%
    + [Konfigurieren von ContextHub in AEM Screens](configuring-context-hub.md)
    + [Erstellen benutzerdefinierter Vorlagen für Mehrzonen-Layouts](creating-custom-templates-multizone-layouts.md)
    + [Anwenden von benutzerdefiniertem Branding und Styling für Textüberlagerungen](custom-branding-text-overlays.md)
+   + [Automatisieren von Kanal-Updates mit Workflow](automate-channel-updates-workflow.md)
 + Problembehebung und häufig gestellte Fragen {#troubleshooting}
    + [Häufig gestellte Fragen zu AEM Screens](aem-screens-faqs.md)
    + [Problembehebung in der Gerätesteuerung](monitoring-screens.md)
