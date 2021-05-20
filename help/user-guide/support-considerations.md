@@ -10,17 +10,16 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 59430d38-b441-4488-934e-74a55122b063
 docset: aem65
-feature: Overview
+feature: Überblick
 role: Business Practitioner, Data Architect
 level: Beginner
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '640'
+exl-id: d1472137-c15f-44fb-89c3-d251a06c392b
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '635'
 ht-degree: 100%
 
 ---
-
 
 # Teil 5: Support-Aspekte {#part-support-considerations}
 
@@ -34,8 +33,10 @@ Diese Seite enthält den letzten Teil einer 5-teiligen Serie, der Team-Mitgliede
 >
 >* Projektbereitstellung vor Ort
 >* Überprüfung von Gerätekonnektivität und -betrieb durch den Installationstechniker und das NOC (Network Operations Center)
+
 >
->Vor Beginn von Tag 2 sollte die Planung für laufende Lebenszyklusbudgets abgeschlossen werden.
+>
+Vor Beginn von Tag 2 sollte die Planung für laufende Lebenszyklusbudgets abgeschlossen werden.
 
 Die Planung umfasst:
 
@@ -71,4 +72,3 @@ In diesem abschließenden Teil eines 5-teiligen Tutorials wird erläutert, wie d
 ## Zusammenfassung {#conclusion}
 
 In dieser 5-teiligen Serie geht es um wichtige Aspekte, die für den Erfolg Ihres Projekts entscheidend sind. Einzelheiten zur Implementierung finden Sie in anderen Abschnitten des AEM Screens-Benutzerhandbuchs.
-
