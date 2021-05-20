@@ -4,14 +4,13 @@ description: „Auf dieser Seite finden Sie Informationen zu AEM Screens Feature
 feature: Feature Pack
 role: Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: aa1338fad19893e56ead4bb466e4f32a90116b65
-workflow-type: ht
-source-wordcount: '398'
+exl-id: a8741cc7-de4f-4e5a-b69e-852a43597123
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '396'
 ht-degree: 100%
 
 ---
-
 
 # Versionshinweise für Feature Pack 202103 {#release-notes-for-feature-pack}
 
