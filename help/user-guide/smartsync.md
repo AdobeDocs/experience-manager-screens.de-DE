@@ -9,17 +9,16 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 822dfbc1-3584-4509-a35c-1d68e5f84509
 docset: aem65
-feature: Administering Screens
+feature: Verwalten von Screens
 role: Administrator
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '469'
+exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '467'
 ht-degree: 100%
 
 ---
-
 
 # Umstellung von ContentSync auf SmartSync {#transitioning-from-contentsync-to-smartsync}
 
@@ -66,7 +65,7 @@ Die Funktion SmartSync bietet eine Reihe von Vorteilen für AEM Screens-Projekte
 |---|---|
 | Android | 3.3.72 |
 | ChromeOS | 1.0.136 |
-| Windows | 1.0.136 |
+| Windows | 1,0,136 |
 
 Gehen Sie wie folgt vor, um von ContentSync zu SmartSync zu wechseln:
 
