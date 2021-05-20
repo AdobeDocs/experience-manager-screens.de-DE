@@ -3,17 +3,16 @@ title: Sicherheitscheckliste
 seo-title: Sicherheitscheckliste
 description: Auf dieser Seite werden die wichtigsten Sicherheitsbereiche beschrieben. Außerdem wird eine Checkliste mit Fragen und Überlegungen bereitgestellt.
 seo-description: Die Seite beschreibt die Sicherheits-Checkliste
-feature: Administering Screens
+feature: Verwalten von Screens
 role: Administrator
 level: Intermediate
-translation-type: ht
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: ht
-source-wordcount: '490'
+exl-id: 3d2835c8-d844-46fd-b35a-30feaced9dd8
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '488'
 ht-degree: 100%
 
 ---
-
 
 # Sicherheitscheckliste für AEM Screens {#security-checklist}
 
