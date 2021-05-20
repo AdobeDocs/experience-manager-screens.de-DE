@@ -9,17 +9,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
-feature: Channels, Interactive
+feature: Kanäle, interaktiv
 role: Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '848'
+exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '846'
 ht-degree: 100%
 
 ---
-
 
 # Konfiguration der Videowiedergabe und Problembehebung {#video-playback-configuration-and-troubleshooting}
 
@@ -74,7 +73,7 @@ Vergewissern Sie sich, dass ffmpeg installiert ist, und prüfen Sie die Videopro
    >
    >Stellen Sie sicher, dass Sie lange genug warten, bis das Video transkodiert wurde (es sollte das Tag „neu“ aufweisen statt „in Bearbeitung“), bevor Sie es zu einem Kanal hinzufügen.
 
-### Testen des Profils mit einer Videokomponente {#checking-profile-with-a-video-component}
+### Testen des Profils mit einer Videokomponente  {#checking-profile-with-a-video-component}
 
 Prüfen Sie die Liste der Profile über die Design-Seite, wenn die Videokomponente nicht korrekt konfiguriert ist.
 
@@ -158,4 +157,3 @@ Führen Sie die folgenden Schritte durch, um eine absolute Strategie einzurichte
 1. Starten Sie alle Player (mind. zwei).
 
 Es kann eine Weile dauern, bis die Player eine neue synchronisierte Sequenz beginnen.
-
