@@ -13,14 +13,13 @@ docset: aem65
 feature: Feature Pack
 role: Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '388'
+exl-id: 6a05a014-aedf-4261-849d-abf1ce070964
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '386'
 ht-degree: 100%
 
 ---
-
 
 # Versionshinweise für Feature Pack 201907 {#release-notes-for-feature-pack}
 
