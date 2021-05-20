@@ -3,14 +3,13 @@ title: UX-Abhängigkeiten für [!UICONTROL AEM Screens]
 seo-title: UX-Abhängigkeiten für [!UICONTROL AEM Screens]
 description: In diesem Handbuch werden UX-Abhängigkeiten für [!UICONTROL AEM Screens] beschrieben.
 seo-description: In diesem Handbuch werden UX-Abhängigkeiten für [!UICONTROL AEM Screens] beschrieben.
-translation-type: tm+mt
-source-git-commit: f73d7d10f88be953d7800c3fafe084960800a61b
+exl-id: 05a4a7a7-0a97-47a1-b371-056ab31f4ed5
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 100%
 
 ---
-
 
 # UX-Abhängigkeiten {#ux-dependencies}
 
@@ -41,5 +40,3 @@ Bei der Definition der Hardware-Inhaltsstrategie sollten folgende Fragen berück
 1. Sind mehrere Geräte für eine Anzeige erforderlich (z. B. mehrere Zonen, extra große Boards)?
 
 1. Wie sieht es mit Umgebungsaspekten wie Helligkeit, Temperatur und Jahreszeit aus?
-
-
