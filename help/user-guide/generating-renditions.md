@@ -9,23 +9,22 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 40a182fd-7772-4ef7-b4fd-29ef99390b4a
-feature: Authoring Screens
+feature: Inhaltserstellung in Screens
 role: Administrator, Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '430'
+exl-id: 752c74d7-5d6d-4363-97ef-b96e97d2f6b1
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '427'
 ht-degree: 100%
 
 ---
-
 
 # Videoausgabeformate {#video-renditions}
 
 Es ist möglich, manuelle und automatische Full HD-Ausgabeformate zu generieren. Im folgenden Abschnitt wird der Workflow zum Hinzufügen von Ausgabeformaten zu Assets beschrieben.
 
-## Automatisches Generieren von Full HD-Ausgabeformaten {#automatically-generating-full-hd-renditions}
+## Automatisches Generieren von Full HD-Ausgabeformaten  {#automatically-generating-full-hd-renditions}
 
 >[!NOTE]
 >
@@ -94,4 +93,3 @@ Gehen Sie wie folgt vor, um manuell Full HD-Wiedergaben zu generieren:
 1. Wenn Sie die Seitenleiste **Wiedergaben** öffnen, sehen Sie die neuen Full HD-Wiedergaben.
 
    ![step8_-_open_therenditionssiderail](assets/step8_-_open_therenditionssiderail.png)
-
