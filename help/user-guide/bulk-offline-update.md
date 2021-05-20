@@ -10,17 +10,16 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 5d4ca652-d918-4b2b-b239-a2be9255ef0d
 noindex: true
-feature: Authoring Screens
+feature: Inhaltserstellung in Screens
 role: Administrator, Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '362'
+exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '359'
 ht-degree: 100%
 
 ---
-
 
 # Massen-Offline-Update {#bulk-offline-update}
 
@@ -80,4 +79,3 @@ Gehen Sie wie folgt vor, um das Massen-Offline-Update für ein AEM Screens-Proje
    **Zeitplanfrequenz** Geben Sie einen Zeitpunkt an, z. B. 17.00 Uhr, zu dem dieser Dienst Offline-Inhalte aktualisieren soll.
 
 1. Klicken Sie auf **Speichern**, um Ihre Einstellungen zu speichern. Ihre Inhalte werden zum festgelegten Zeitpunkt aktualisiert.
-
