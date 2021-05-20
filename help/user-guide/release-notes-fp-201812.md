@@ -13,14 +13,13 @@ noindex: true
 feature: Feature Pack
 role: Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: ht
-source-wordcount: '279'
+exl-id: 3b127311-32d1-402c-97a1-e799e9f3f95e
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '277'
 ht-degree: 100%
 
 ---
-
 
 # Versionshinweise für Feature Pack 201812 {#release-notes-for-feature-pack}
 
