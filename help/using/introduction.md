@@ -3,14 +3,13 @@ title: Einführung in [!UICONTROL AEM Screens]
 seo-title: Handbuch mit Best Practices für [!UICONTROL AEM Screens]-Projekte
 description: Diese Seite enthält einen Einführungsabschnitt zu AEM Screens.
 seo-description: Diese Seite enthält eine Einführung zu AEM Screens.
-translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+exl-id: 11781e0b-0aca-4d08-aaad-87a7aaf28c24
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
 workflow-type: tm+mt
 source-wordcount: '688'
 ht-degree: 100%
 
 ---
-
 
 # Einführung in AEM Screens {#introduction}
 
