@@ -3,7 +3,6 @@ title: 'Konfigurieren des Workflows für die direkte Platzierung '
 seo-title: Konfigurieren des Workflows für die direkte Platzierung
 description: Auf dieser Seite wird die Konfiguration des Workflows für die direkte Platzierung beschrieben.
 seo-description: Auf dieser Seite wird die Konfiguration des Workflows für die direkte Platzierung beschrieben.
-translation-type: tm+mt
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '214'
