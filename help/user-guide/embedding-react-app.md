@@ -9,17 +9,16 @@ topic-tags: developing
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: e4ecc179-e421-4687-854c-14d31bed031d
 docset: aem65
-feature: Developing Screens
+feature: Entwicklung in Screens
 role: Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '724'
+exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '722'
 ht-degree: 100%
 
 ---
-
 
 # Einbetten einer REACT-Anwendung mit dem AEM SPA Editor und Integration mit AEM Screens Analytics {#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}
 
@@ -139,4 +138,3 @@ Gehen Sie wie folgt vor, um die SPA mit Adobe Analytics mit Offline-Funktionen �
    >[!NOTE]
    >
    >Die Player-Firmware fügt den gesendeten benutzerspezifischen Analysedaten automatisch weitere Details zum Player und seiner Laufzeitumgebung hinzu. Daher müssen Sie möglicherweise keine Details zu Betriebssystemen und Geräten auf niedriger Ebene erfassen, es sei denn, dies ist absolut notwendig. Sie müssen sich nur auf die Geschäftsanalysedaten konzentrieren.
-
