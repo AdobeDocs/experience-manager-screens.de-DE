@@ -4,7 +4,6 @@ seo-title: Bildwiedergabedauer auf Projektebene
 description: 'Mit dieser Funktion können Sie die Dauer der Bildwiedergabe auf der Projektebene festlegen. '
 seo-description: 'Mit dieser Funktion können Sie die Dauer der Bildwiedergabe auf der Projektebene festlegen. '
 contentOwner: jsyal
-translation-type: tm+mt
 source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '351'
