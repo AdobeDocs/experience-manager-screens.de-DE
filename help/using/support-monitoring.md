@@ -3,14 +3,13 @@ title: Support-Überwachung
 seo-title: Support-Überwachung für AEM Screens
 description: Auf dieser Seite werden die Best Practices für die Support-Überwachung von AEM Screens beschrieben.
 seo-description: Auf dieser Seite werden die Best Practices für die Support-Überwachung von AEM Screens beschrieben.
-translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+exl-id: b9d6f713-e26d-4f56-bedb-2d419a19a05c
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 100%
 
 ---
-
 
 # Support-Überwachung {#support-monitoring}
 
@@ -47,4 +46,3 @@ Geräteüberwachung im Zusammenhang mit der Überwachung des physischen Geräts,
    * Überprüfen Sie, ob das *Display* eingeschaltet ist.
    * Überprüfen Sie, ob der *Computer* eingeschaltet ist und Signale sendet.
    * Klicken Sie mit der rechten Maustaste und prüfen Sie die *entsprechenden Protokolle*.
-
