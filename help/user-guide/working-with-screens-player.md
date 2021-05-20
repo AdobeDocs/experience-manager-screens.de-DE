@@ -9,17 +9,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
-feature: Administering Screens
+feature: Verwalten von Screens
 role: Administrator
 level: Intermediate
-translation-type: ht
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: ht
-source-wordcount: '1070'
+exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '1068'
 ht-degree: 100%
 
 ---
-
 
 # Arbeiten mit dem AEM Screens-Player {#working-with-aem-screens-player}
 
@@ -113,7 +112,7 @@ Um den Kanalschalter vom Player aus aufzurufen, halten Sie die untere linke Ecke
 >
 >(Siehe *Ändern der Voreinstellungen im AEM Screens-Player* wie im Abschnitt weiter unten beschrieben).
 
-### Verwalten von Voreinstellungen im AEM Screens-Player {#managing-preferences-from-the-aem-screens-player}
+### Verwalten von Voreinstellungen im AEM Screens-Player  {#managing-preferences-from-the-aem-screens-player}
 
 Sie können die Einstellungen für die Administrator-Benutzeroberfläche und den Kanalschalter auch im Player selbst ändern.
 
