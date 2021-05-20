@@ -9,17 +9,16 @@ content-type: reference
 topic-tags: developing
 discoiquuid: 24eb937f-ab51-4883-8236-8ebe6243f6e3
 targetaudience: target-audience new
-feature: Developing Screens
+feature: Entwicklung in Screens
 role: Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: ht
-source-wordcount: '2190'
+exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '2188'
 ht-degree: 100%
 
 ---
-
 
 # Entwickeln einer benutzerdefinierten Komponente für AEM Screens {#developing-a-custom-component-for-aem-screens}
 
@@ -49,7 +48,7 @@ Der Quell-Code eines Screens-Projekts wird normalerweise als Maven-Projekt mit m
 
 1. Laden Sie die folgenden Pakete mit [CRX Package Manager](http://localhost:4502/crx/packmgr/index.jsp) herunter und installieren Sie sie:
 
-   [Datei laden](assets/base-screens-weretail-runuiapps-001-snapshot.zip)
+[Datei laden](assets/base-screens-weretail-runuiapps-001-snapshot.zip)
 
    [Datei laden](assets/base-screens-weretail-runuicontent-001-snapshot.zip)
    Wenn Sie mit Eclipse oder einer anderen IDE arbeiten, laden Sie **optional** das folgende Quellpaket herunter. Stellen Sie das Projekt mithilfe des folgenden Maven-Befehls in einer lokalen AEM-Instanz bereit:
@@ -58,7 +57,7 @@ Der Quell-Code eines Screens-Projekts wird normalerweise als Maven-Projekt mit m
 
    Starten von HelloWorld SRC Screens im Projekt „We.Retail Run“
 
-   [Datei laden](assets/src-screens-weretail-run.zip)
+[Datei laden](assets/src-screens-weretail-run.zip)
 
 1. Überprüfen Sie in [CRX Package Manager](http://localhost:4502/crx/packmgr/index.jsp), ob die folgenden beiden Pakete installiert sind:
 
