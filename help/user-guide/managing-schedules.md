@@ -9,17 +9,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 75ed3c42-4be9-42ae-9d76-e0343af81516
-feature: Authoring Screens
+feature: Inhaltserstellung in Screens
 role: Administrator, Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '427'
+exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '424'
 ht-degree: 100%
 
 ---
-
 
 # Erstellen und Verwalten von Zeitplänen {#creating-and-managing-schedules}
 
@@ -68,4 +67,3 @@ Gehen Sie dazu wie folgt vor: Das folgende Beispiel veranschaulicht, wie das Das
    **Bedienfeld „Zugewiesene Kanäle“** Klicken Sie in der oberen rechten Ecke im Bedienfeld „ZUGEWIESENE KANÄLE“ auf „+ Kanal zuweisen“, um das Dialogfeld „Kanalzuweisung“ zu öffnen.
 
    **Bedienfeld „Zugewiesene Anzeigen“** Wählen Sie beliebige Anzeigen aus dem Bedienfeld „ZUGEWIESENE ANZEIGEN“ aus, um das Anzeigen-Dashboard zu öffnen.
-
