@@ -5,17 +5,16 @@ description: Auf dieser Seite erfahren Sie, wie Sie auf Ihre Screens-Projekte Ü
 seo-description: Auf dieser Seite erfahren Sie, wie Sie auf Ihre Screens-Projekte Übergänge anwenden können.
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
-feature: Authoring Screens
+feature: Inhaltserstellung in Screens
 role: Administrator, Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '292'
+exl-id: 757e6751-8008-487f-be89-9f53ac898928
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '289'
 ht-degree: 100%
 
 ---
-
 
 # Anwenden von Übergängen {#applying-transitions}
 
@@ -61,4 +60,3 @@ Gehen Sie wie folgt vor, um Ihrem AEM Screens-Projekt eine Übergangskomponente 
 1. Wenn Sie diesem Kanaleditor außerdem eine **eingebettete Sequenzkomponente** hinzufügen (die einen Sequenzkanal enthält), können Sie am Ende eine Übergangskomponente hinzufügen, damit der Inhalt in der angegebenen Reihenfolge wiedergegeben wird, wie in der folgenden Abbildung dargestellt:
 
    ![image3](assets/transitions5.png)
-
