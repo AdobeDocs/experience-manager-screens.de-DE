@@ -1,14 +1,13 @@
 ---
 title: Geschlossenes Unternehmensnetzwerk
 description: 'Geschlossenes Unternehmensnetzwerk     '
-translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+exl-id: b8c52e72-86da-4089-ba02-0c643862419f
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 100%
 
 ---
-
 
 # Geschlossenes Unternehmensnetzwerk      (kabelgebunden/kabellos) {#enclosed-corporate-networks}
 
