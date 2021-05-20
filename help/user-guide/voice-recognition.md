@@ -1,17 +1,16 @@
 ---
 title: Spracherkennung in AEM Screens
 description: Auf der Seite werden die Spracherkennungsfunktionen in AEM Screens beschrieben.
-feature: Authoring Screens
+feature: Inhaltserstellung in Screens
 role: Administrator, Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '1129'
+exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '1126'
 ht-degree: 100%
 
 ---
-
 
 # Spracherkennung in AEM Screens {#voice-recognition}
 
@@ -185,8 +184,3 @@ Wenn Sie Wörter mit dem Keyword **kalt** verwenden, wie beispielsweise *Ich mö
 **Gewünschte Ausgabe für den Splitscreen-Kanal**
 
 Der Kanal **Main** gibt seinen Inhalt wieder. Wenn Sie jedoch Wörter mit dem Keyword **heiß** und dem Keyword **kalt** zusammen verwenden, wie beispielsweise *Kann ich die Karte für warme und kalte Getränke sehen*, beginnt der Kanal, die Inhalte des **SplitScreen**-Kanals wiederzugeben. Wenn Sie *Zurück zum Hauptmenü* sagen, schaltet die Anzeige zurück zum Hauptkanal (Main).
-
-
-
-
-
