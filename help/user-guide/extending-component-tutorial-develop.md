@@ -9,17 +9,16 @@ content-type: reference
 topic-tags: developing
 discoiquuid: 46bdc191-5056-41a4-9804-8f7c4a035abf
 targetaudience: target-audience new
-feature: Developing Screens
+feature: Entwicklung in Screens
 role: Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: ht
-source-wordcount: '1856'
+exl-id: e316614f-2d40-4b62-a1e5-f30817def742
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '1854'
 ht-degree: 100%
 
 ---
-
 
 # Erweitern einer AEM Screens-Komponente {#extending-an-aem-screens-component}
 
@@ -53,7 +52,7 @@ Der Quell-Code eines Screens-Projekts wird normalerweise als Maven-Projekt mit m
 
 1. Laden Sie die folgenden Pakete herunter und installieren Sie diese mit **CRX Package Manage** `http://localhost:4502/crx/packmgr/index.jsp)r:`
 
-   [Datei laden](assets/start-poster-screens-weretail-runuiapps-001-snapshot.zip)
+[Datei laden](assets/start-poster-screens-weretail-runuiapps-001-snapshot.zip)
 
    [Datei laden](assets/start-poster-screens-weretail-runuicontent-001-snapshot.zip)
    Wenn Sie mit Eclipse oder einer anderen IDE arbeiten, laden Sie **optional** das folgende Quellpaket herunter. Stellen Sie das Projekt mithilfe des folgenden Maven-Befehls in einer lokalen AEM-Instanz bereit:
@@ -62,7 +61,7 @@ Der Quell-Code eines Screens-Projekts wird normalerweise als Maven-Projekt mit m
 
    SRC-Startbildschirm, Projekt „We.Retail Run“
 
-   [Datei laden](assets/start-poster-screens-weretail-run.zip)
+[Datei laden](assets/start-poster-screens-weretail-run.zip)
 
 1. In **CRX Package Manager** `http://localhost:4502/crx/packmgr/index.jsp` werden die folgenden zwei Pakete installiert:
 
