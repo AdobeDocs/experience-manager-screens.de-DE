@@ -12,14 +12,13 @@ discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 role: Administrator
 level: Intermediate
-translation-type: ht
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: ht
-source-wordcount: '754'
+exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '752'
 ht-degree: 100%
 
 ---
-
 
 # Konfigurieren und Bereitstellen von AEM Screens {#configuring-and-deploying-aem-screens}
 
@@ -153,11 +152,3 @@ Stellen Sie die ***Java-Kodierung*** auf Unicode ein. *Dfile.encoding=Cp1252* 
 >[!NOTE]
 >**Empfehlung:**
 >Für AEM Screens-Server in Produktionsumgebungen wird HTTPS empfohlen.
-
-
-
-
-
-
-
-
