@@ -10,17 +10,16 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
-feature: Authoring Screens
+feature: Inhaltserstellung in Screens
 role: Administrator, Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '1202'
+exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '1199'
 ht-degree: 100%
 
 ---
-
 
 # Mehrzonen-Layout {#multi-zone-layout}
 
@@ -193,5 +192,3 @@ Nachdem Sie Mehrzonen-Layouts mit den vorhergehenden Schritten implementiert hab
 Der linke Bereich ist ein Sequenzkanal und der rechte Bereich enthält ein Video.
 
 ![new2-1](/help/user-guide/assets/multi-zone/Multi-gif.gif)
-
-
