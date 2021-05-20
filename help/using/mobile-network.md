@@ -1,14 +1,13 @@
 ---
 title: Netzwerk für Direktanbindung an Mobilfunknetze
 description: Auf dieser Seite wird die Konfiguration von Netzwerken für die Direktanbindung an Mobilfunknetze beschrieben.
-translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+exl-id: 6775bd10-7625-422f-a7af-4f7b8793fa42
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 100%
 
 ---
-
 
 # Netzwerk für Direktanbindung an Mobilfunknetze{#mobile-network-setup}
 
@@ -96,6 +95,3 @@ Nachfolgend sind die wichtigsten Daten bezüglich Netzwerkverbindungen aufgefüh
 >Die Daten beziehen sich allesamt darauf, wie viel Bandbreite jedes einzelne mit dem Netzwerk verbundene Gerät beim Anfragen und Herunterladen einer Internet-Quelle beansprucht. Mit jeder weiteren solchen Anfrage summiert sich die Bandbreitennutzung, durch die sich wiederum die Download-Zeit verlängert.
 
 ![](/help/using/assets/download-times-mobile.png)
-
-
-
