@@ -9,17 +9,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 64e4d6ae-3fd3-41ec-84e1-cc2cac7b2519
-feature: Administering Screens
+feature: Verwalten von Screens
 role: Administrator
 level: Intermediate
-translation-type: ht
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: ht
-source-wordcount: '563'
+exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '561'
 ht-degree: 100%
 
 ---
-
 
 # Einrichten von ACLs {#setting-up-acls}
 
@@ -82,7 +81,7 @@ Die folgende Tabelle fasst den Pfad mit den Berechtigungen auf Projektebene zusa
 >
 >In einigen Fällen können Sie separate Autorenfunktionen (wie das Verwalten von Assets und das Erstellen von Kanälen) von den Administratorfunktionen (wie dem Registrieren von Playern) trennen. Erstellen Sie bei solchen Szenarien zwei Gruppen, fügen Sie die Gruppe „authors“ zu „contributors“ hinzu und fügen Sie die Gruppe „admin“ sowohl zu „contributors“ als auch zu „user-administrators“ hinzu.
 
-### Erstellen von Gruppen {#creating-groups}
+### Erstellen von Gruppen  {#creating-groups}
 
 Bei der Erstellung eines neuen Projekts sollten auch Standardbenutzergruppen erstellt werden, denen eine Reihe von Berechtigungen zugewiesen ist. Sie sollten die Berechtigungen auf die typischen Rollen erweitern, über die wir bei AEM Screens verfügen.
 
@@ -143,4 +142,3 @@ Die folgende Tabelle fasst bei einem AEM Screens-Projekt die Gruppen mit Beschre
   </tr>
  </tbody>
 </table>
-
