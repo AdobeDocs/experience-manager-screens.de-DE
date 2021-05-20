@@ -10,17 +10,16 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
-feature: Administering Screens, Android Player
+feature: Verwalten von Screens, Android-Player
 role: Administrator
 level: Intermediate
-translation-type: ht
-source-git-commit: 6978d9d13f2b7f723812561554fdb0a606ddb4fc
-workflow-type: ht
-source-wordcount: '1441'
+exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '1439'
 ht-degree: 100%
 
 ---
-
 
 # Implementieren des Android-Players {#implementing-android-player}
 
@@ -134,7 +133,7 @@ Nutzen Sie dazu eine [Beispiel-JSON-Richtlinie](#example-json) sowie eine Tabell
    >[!NOTE]
    >Diese Datei ist *schreibgeschützt*, wenn die App zum ersten Mal gestartet wird, und kann nicht für nachfolgende Konfigurationen verwendet werden. Wenn der Player vor dem Ablegen der Konfigurationsdatei gestartet wird, deinstallieren Sie die App und installieren Sie sie erneut auf dem Gerät.
 
-### Richtlinienattribute {#policy-attributes}
+### Richtlinienattribute  {#policy-attributes}
 
 In der folgenden Tabelle finden Sie eine Zusammenfassung der Richtlinienattribute mit einer beispielhaften JSON-Richtliniendatei als Referenz:
 
