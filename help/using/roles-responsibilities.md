@@ -3,14 +3,13 @@ title: Projektrollen und Zuständigkeiten in AEM Screens
 seo-title: Projektrollen und Zuständigkeiten in AEM Screens
 description: Auf dieser Seite werden die Projektrollen und Zuständigkeiten in AEM Screens beschrieben.
 seo-description: Auf dieser Seite werden die Projektrollen und Zuständigkeiten in AEM Screens beschrieben.
-translation-type: tm+mt
-source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
+exl-id: 9377625b-529a-4b46-89d9-f526de398639
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
 workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 100%
 
 ---
-
 
 # Projektrollen und Zuständigkeiten {#roles-responsibilities}
 
