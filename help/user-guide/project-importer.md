@@ -10,17 +10,16 @@ content-type: reference
 topic-tags: administering
 discoiquuid: f1df8d05-bb61-4bc9-aea1-c6af9e3519b4
 docset: aem65
-feature: Administering Screens
+feature: Verwalten von Screens
 role: Administrator
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '702'
+exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '700'
 ht-degree: 100%
 
 ---
-
 
 # Importer für neue Projekte aus Datei {#new-project-importer-from-file}
 
@@ -81,6 +80,7 @@ Im folgenden Abschnitt wird beschrieben, wie der Projekt-Importer in einem AEM S
 >
 >* Andere Dateien als CSV/XLS/XLSX-Erweiterungen werden in der aktuellen Version nicht unterstützt.
 >* Für importierte Dateien gibt es keine Filterung der Eigenschaften und es wird alles importiert, was mit „./“ beginnt.
+
 >
 
 
@@ -126,4 +126,3 @@ Gehen Sie wie folgt vor, um eine Datei mit den erforderlichen Mindestfeldern in 
 1. Dadurch können Sie jetzt alle in Ihr Projekt importierten Standorte anzeigen.
 
    ![screen_shot_2019-05-12at53450am](assets/screen_shot_2019-05-12at53450am.png)
-
