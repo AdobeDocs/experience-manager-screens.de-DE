@@ -10,17 +10,16 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
-feature: Authoring Screens
+feature: Inhaltserstellung in Screens
 role: Administrator, Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '1469'
+exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '1466'
 ht-degree: 100%
 
 ---
-
 
 # Hinzufügen von Komponenten zu Kanälen {#adding-components-to-a-channel}
 
@@ -30,7 +29,7 @@ Komponenten sind die grundlegenden Elemente des AEM (Adobe Experience Manager)-E
 
 AEM Screens bietet verschiedene AEM-Komponenten, die sich in Screens-Projekten verwenden lassen.
 
-### Anzeigen von AEM Screens-Komponenten {#viewing-aem-screens-components}
+### Anzeigen von AEM Screens-Komponenten  {#viewing-aem-screens-components}
 
 Beim Erstellen eines AEM Screens-Projekts wird eine Liste der Standardkomponenten angezeigt, die dem Projekt hinzugefügt werden können.
 
@@ -63,7 +62,7 @@ Im folgenden Beispiel sehen Sie, wie einem AEM Screens-Projekt eine Livefyre-Kom
 >
 >Auf die gleiche Weise können Sie dem Projekt eine beliebige Anzahl anderer neuer Komponenten hinzufügen, die mit AEM Screens kompatibel sind.
 
-## Grundlegendes zu AEM Screens-Komponenten {#understanding-aem-screen-components}
+## Grundlegendes zu AEM Screens-Komponenten  {#understanding-aem-screen-components}
 
 Im folgenden Abschnitt werden die AEM Screens-Komponenten beschrieben, die Sie für Projekte nutzen können.
 
@@ -337,4 +336,3 @@ Die Komponente „Video“ verfügt über die folgenden Eigenschaften:
   </tr>
  </tbody>
 </table>
-
