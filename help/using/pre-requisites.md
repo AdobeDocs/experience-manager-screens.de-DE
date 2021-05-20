@@ -3,14 +3,13 @@ title: Voraussetzungen für [!UICONTROL AEM Screens]
 seo-title: Voraussetzungen für [!UICONTROL AEM Screens]-Projekte
 description: In dem Handbuch werden die Voraussetzungen für den Start eines AEM Screens-Projekts beschrieben.
 seo-description: In dem Handbuch werden die Voraussetzungen für den Start eines AEM Screens-Projekts beschrieben.
-translation-type: tm+mt
-source-git-commit: 599eb98dff8040fd169499fca2894530fd8a42e8
+exl-id: ff305a6c-02cb-4c06-a457-9a22f525fab5
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 100%
 
 ---
-
 
 # Voraussetzungen {#prerequisites}
 
