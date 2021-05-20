@@ -2,17 +2,16 @@
 title: Kanalzuweisung
 seo-title: Kanalzuweisung
 description: Auf dieser Seite erhalten Sie Informationen zur Kanalzuweisung und zu Dayparting.
-feature: Authoring Screens, Channel Assignment
+feature: Inhaltserstellung in Screens, Kanalzuweisung
 role: Administrator, Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '1222'
+exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '1219'
 ht-degree: 100%
 
 ---
-
 
 # Kanalzuweisung {#channel-assignment}
 
@@ -162,7 +161,7 @@ Hier wird Dayparting auf monatlicher Basis erstellt, sodass der Kanalinhalt für
 >
 >Darüber hinaus können Sie für jeden Kanal die ***Priorität*** festlegen. Wenn beispielsweise zwei Kanäle für denselben Tag und dieselbe Uhrzeit oder für denselben Monat festgelegt sind, wird der Kanal mit höherer Priorität zuerst gezeigt. Der Mindestwert für die Priorität beträgt 0.
 
-#### Anzeigen von Inhalt für Kanäle derselben Priorität {#playing-content-for-channels-with-same-priority}
+#### Anzeigen von Inhalt für Kanäle derselben Priorität  {#playing-content-for-channels-with-same-priority}
 
 Diese Beispiele veranschaulichen die Verwendung von Dayparting durch einen Laden, der seine Winterkollektion mit demselben Zeitplan im Dezember präsentiert. Doch da die Priorität von Kanal B in dieser Woche 2 beträgt, wird der Inhalt von Kanal B anstelle des Inhalts von Kanal A gezeigt.
 
@@ -178,5 +177,4 @@ Diese Beispiele veranschaulichen die Verwendung von Dayparting durch einen Laden
 >
 >* [Umgang mit sich wiederholenden Assets](https://docs.adobe.com/content/help/de-DE/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
 >* [Umgang mit sich wiederholenden Assets in einem Kanal](https://docs.adobe.com/content/help/de-DE/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
-
 
