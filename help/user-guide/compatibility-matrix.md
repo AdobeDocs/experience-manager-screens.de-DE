@@ -8,7 +8,6 @@ uuid: 54fcc40f-2e8f-40b5-a5c7-2a6264342dc3
 contentOwner: jsyal
 discoiquuid: a3f0cd27-dcc4-49c5-b80b-5025344278e2
 docset: aem65
-translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 workflow-type: tm+mt
 source-wordcount: '285'
@@ -43,7 +42,7 @@ Im folgenden Abschnitt sind die Player für Adobe Experience Manager (AEM) Scree
   </tr>
   <tr>
    <td><strong>AEM 6.4</strong></td> 
-   <td><strong>3.3.0</strong> </td> 
+   <td><strong>3,3,0</strong> </td> 
   </tr>
  </tbody>
 </table>
@@ -92,8 +91,8 @@ aem-screens-player-windows-1.0.48-signed.exe.zip
 | **AEM-Server-Version** | **Android-Player** |
 |---|---|
 | **AEM 6.3+SP1+Screens FP1 (1.0.64_B002)** | **3.2.68 -** (auf der Macromedia-Site) und im Google Play Store verfügbar |
-| **AEM 6.3+SP1+Screens FP2 (1.0.298)** | **3.3.0** |
-| **AEM 6.4** | **3.3.0** |
+| **AEM 6.3+SP1+Screens FP2 (1.0.298)** | **3,3,0** |
+| **AEM 6.4** | **3,3,0** |
 
 ### Download-Link {#download-link-2}
 
