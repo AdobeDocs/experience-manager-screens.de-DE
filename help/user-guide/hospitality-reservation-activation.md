@@ -10,17 +10,16 @@ content-type: reference
 topic-tags: use-case-examples
 discoiquuid: ef3e5dce-e36a-45d3-ad5e-db01430477c6
 docset: aem65
-feature: Authoring Screens
+feature: Inhaltserstellung in Screens
 role: Administrator, Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '478'
+exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '475'
 ht-degree: 100%
 
 ---
-
 
 # Aktivierung der Gastgewerbereservierung {#hospitality-reservation-activation}
 
@@ -87,6 +86,4 @@ Gehen Sie wie folgt vor, um das Nutzungsszenario für die reservierungsgesteuert
 
    1. Klicken Sie auf **Vorschau.** Öffnen Sie außerdem Google Tabellen und aktualisieren Sie den Wert.
    1. Aktualisieren Sie den Wert in den Spalten **Restaurant1** und **Restaurant2**. Wenn **Restaurant1** > **Restaurant2** ist, sollten Sie ein Bild eines *Steak-Gerichts* sehen. Andernfalls wird ein Bild mit *thailändischem Essen* auf Ihrem Bildschirm angezeigt.
-
    ![result5](assets/result5.gif)
-
