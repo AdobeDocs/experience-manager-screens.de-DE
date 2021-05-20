@@ -3,17 +3,16 @@ title: Aktivierung auf Asset-Ebene
 seo-title: Aktivierung auf Asset-Ebene
 description: Auf dieser Seite erfahren Sie, wie Sie ein bestimmtes Asset in einem Kanal für einen geplanten Zeitraum in der lokalen Zeitzone des Players aktivieren können.
 seo-description: Auf dieser Seite erfahren Sie, wie Sie ein bestimmtes Asset in einem Kanal für einen geplanten Zeitraum in der lokalen Zeitzone des Players aktivieren können.
-feature: Authoring Screens, Asset Level Activation
+feature: Inhaltserstellung in Screens, Aktivierung auf Asset-Ebene
 role: Administrator, Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '1453'
+exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '1450'
 ht-degree: 100%
 
 ---
-
 
 # Aktivierung auf Asset-Ebene {#asset-level-scheduling}
 
@@ -223,4 +222,3 @@ Gehen Sie wie folgt vor, um mehrere Assets auszuwählen und ihre Anzeige in eine
    >Das Zeitplansymbol wird bei Assets mit Aktivierung für mehrere Assets oben rechts sichtbar.
 
    ![screen_shot_2018-12-21at70722am](assets/screen_shot_2018-12-21at70722am.png)
-
