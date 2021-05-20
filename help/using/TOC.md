@@ -6,9 +6,8 @@ getting-started-title: Handbuch mit Best Practices für AEM Screens
 getting-started-description: AEM Screens Best Practices Guide provides guidance on how to successfully plan and execute an AEM Screens project.
 product: experience manager
 audience: end-user
-translation-type: ht
 source-git-commit: fe83efff8f4078c45ee03ec24c83544ae30816ab
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 100%
 
@@ -39,7 +38,7 @@ ht-degree: 100%
    + [AEM-Plattformkonfigurationen](aem-platform-configurations.md)
    + [Projekttaxonomie und -implementierung](project-taxonomy-implementation.md)
    + Verwaltung des Netzwerk-Traffics {#manage-network-traffic}
-      + [Verwalten des Nertzwerk-Traffics](/help/using/managing-network-traffic.md)
+      + [Verwalten des Netzwerk-Traffics](/help/using/managing-network-traffic.md)
       + [Netzwerk für direkten Internet-Zugriff (kabelgebunden/kabellos)](/help/using/direct-internet-network.md)
       + [Netzwerk für Direktanbindung an Mobilfunknetze](/help/using/mobile-network.md)
       + [Mobiles Netzwerk mit mobilem WLAN-Router und aktiven Netzwerkkomponenten](/help/using/mobile-network-router.md)
