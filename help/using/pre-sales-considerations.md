@@ -3,14 +3,13 @@ title: Überlegungen zum Projektumfang
 seo-title: Überlegungen zum Projektumfang
 description: Auf dieser Seite werden Erwägungen zum Projektumfang beschrieben.
 seo-description: Auf dieser Seite werden Erwägungen zum Projektumfang beschrieben.
-translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+exl-id: 6e27b0f1-3c31-4d9b-8fa2-b4ec2e9bf7b0
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 100%
 
 ---
-
 
 # Überlegungen zum Projektumfang {#pre-sales-considerations}
 
