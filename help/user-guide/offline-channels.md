@@ -10,17 +10,16 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: bd572743-652f-4fc5-8b75-a3c4c74536f4
 docset: aem65
-feature: Developing Screens
+feature: Entwicklung in Screens
 role: Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: ht
-source-wordcount: '485'
+exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '483'
 ht-degree: 100%
 
 ---
-
 
 # Offline-Kanäle {#offline-channels}
 
@@ -42,7 +41,7 @@ Der Workflow für den Prozess ist wie folgt:
 
 ***ContentSync*** verwendet Update-Handler, um alle erforderlichen Seiten und Assets für ein bestimmtes Projekt zu analysieren und zu sammeln. AEM Screens verwendet die folgenden Update-Handler:
 
-### Allgemeine Optionen {#common-options}
+### Allgemeine Optionen  {#common-options}
 
 * *type*: Der zu verwendende Update-Handler-Typ
 * *path*: Pfad zur Ressource
@@ -91,7 +90,7 @@ Befolgen Sie die folgenden Schritte, um die ContentSync-Konfiguration zu testen:
 1. Starten Sie einen lokalen Server im extrahierten Ordner
 1. Öffnen Sie Ihre Startseite und überprüfen Sie Ihren Anwendungsstatus
 
-## Aktivieren der Offline-Konfiguration für einen Kanal {#enabling-offline-config-for-a-channel}
+## Aktivieren der Offline-Konfiguration für einen Kanal  {#enabling-offline-config-for-a-channel}
 
 Befolgen Sie die folgenden Schritte, um die Offline-Konfiguration für einen Kanal zu aktivieren:
 
