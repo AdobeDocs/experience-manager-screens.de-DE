@@ -5,9 +5,8 @@ audience: end-user
 user-guide-title: Adobe Experience Manager Screens-Hilfe
 breadcrumb-title: AEM Screens-Anleitung
 user-guide-description: Erfahren Sie, wie Sie mit einer Digital Signage-Lösung dynamische und interaktive digitale Erlebnisse und Interaktionen veröffentlichen können.
-translation-type: ht
 source-git-commit: e0e6a865bcdec88d8c9096d66b5ac3ce5227dbc3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 100%
 
@@ -22,7 +21,7 @@ ht-degree: 100%
    + [Leitfaden zu Best Practices für Screens](https://docs.adobe.com/content/help/de-DE/experience-manager-screens/using/about-guide.html)
    + [Schlüsselbegriffe](screens-glossary.md)
 + Netzwerkgrundlagen für digitale Beschilderung {#digital-signage-network}
-   + [Teil 1: Projektrollen und Zuständigkeiten](project-roles-responsibilities.md)
+   + [Teil 1: Projektrollen und Zuständigkeiten](project-roles-responsibilities.md)
    + [Teil 2: Überlegungen zum Projektumfang](project-considerations.md)
    + [Teil 3: Tests, POCs, Pilotprogramme und Rollouts](testing-pocs-pilots-rollouts.md)
    + [Teil 4: Projekt-Management und Bereitstellung](project-management-and-deployment.md)
@@ -34,7 +33,7 @@ ht-degree: 100%
    + [Verbinden des Screens-Players](working-with-screens-player.md)
    + [Geräteregistrierung](device-registration.md)
    + [Einrichten von ACLs](setting-up-acls.md)
-   + [Sicherheitscheckliste für AEM Screens](security-checklist.md)
+   + [Sicherheitscheckliste für AEM Screens ](security-checklist.md)
    + [Umstellung von ContentSync auf SmartSync](smartsync.md)
    + [Importer für neue Projekte aus Datei](project-importer.md)
    + [Replizieren von Datenauslösern auf Veröffentlichungs-Servern](replicating-data-triggers.md)
@@ -96,7 +95,7 @@ ht-degree: 100%
       + [Übernahmekanal für die unbefristete Verwendung](perpetual-takeover-channel.md)
 + Entwickler- und API-Ressourcen {#developing}
    + [REST-APIs](rest-api.md)
-   + [Entwickeln einer benutzerdefinierten Komponente für AEM Screens](developing-custom-component-tutorial-develop.md)
+   + [Entwickeln einer benutzerdefinierten Komponente für AEM Screens](developing-custom-component-tutorial-develop.md)
    + [Offline-Kanäle](offline-channels.md)
    + [Erweitern einer AEM Screens-Komponente](extending-component-tutorial-develop.md)
    + [Erstellen von Komponenten](creating-components.md)
