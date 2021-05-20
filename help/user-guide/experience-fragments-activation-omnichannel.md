@@ -3,9 +3,8 @@ title: Aktivierung von Experience Fragments
 seo-title: Aktivierung von Experience Fragments
 description: In diesem Nutzungsszenario erfahren Sie mehr über die Aktivierung von Experience Fragments.
 seo-description: In diesem Nutzungsszenario erfahren Sie mehr über die Aktivierung von Experience Fragments.
-translation-type: ht
 source-git-commit: 7876c5eed8d23bbe566645feefd8eefb9aeac3f3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 100%
 
