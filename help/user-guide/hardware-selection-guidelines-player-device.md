@@ -1,7 +1,6 @@
 ---
 title: Richtlinien zur Hardware-Auswahl für Player-Geräte
 description: Richtlinien zur Hardware-Auswahl für Player-Geräte
-translation-type: tm+mt
 source-git-commit: 7fdd812c71c995424a27db18264ef2db420d5717
 workflow-type: tm+mt
 source-wordcount: '220'
