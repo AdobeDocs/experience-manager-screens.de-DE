@@ -13,13 +13,13 @@ docset: aem65
 feature: Verwalten von Screens, Windows-Player
 role: Administrator
 level: Intermediate
-exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 100%
 
 ---
+
 
 # Implementieren von Windows 10 Player {#implementing-windows-player}
 
@@ -103,7 +103,7 @@ So konfigurieren Sie den Windows 10-Player:
 1. Suchen Sie die Konfigurationsdatei unter ***%appdata%\com.adobe.aem.screens.player\config.json***.
 1. Aktualisieren Sie die JSON-Konfigurationsdatei mit den nachstehenden Informationen und kopieren Sie sie dann bei allen Systemen, auf denen der Player vorhanden ist, in den gleichen Ordner.
 
-### Richtlinienattribute {#policy-attributes}
+### Richtlinienattribute  {#policy-attributes}
 
 In der folgenden Tabelle finden Sie eine Zusammenfassung der Richtlinienattribute mit einer beispielhaften JSON-Richtliniendatei als Referenz:
 
@@ -181,3 +181,4 @@ $ShellLauncherClass.RemoveCustomShell($Admins_SID)
 
 $ShellLauncherClass.RemoveCustomShell($Cashier_SID)
 ```
+
