@@ -4,13 +4,13 @@ description: Auf dieser Seite wird das Herunterladen und Verwenden des Inhaltszu
 feature: Inhaltserstellung in Screens
 role: Developer
 level: Intermediate
-exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 100%
 
 ---
+
 
 # Inhaltszuweisungsbericht {#content-assignment-report}
 
@@ -57,3 +57,4 @@ Folgen Sie den nachstehenden Anweisungen, um den Inhaltszuweisungsbericht herunt
 1. Eine Excel-Tabelle wird auf Ihr lokales Gerät heruntergeladen, wobei der Name Ihres AEM Screens-Projekts vorangestellt ist. Wenn Ihr Projektname beispielsweise **DemoScreens** lautet, lautet der Name der heruntergeladenen Datei **demoscreens-content-assign-report.xlxs**.
 
    ![image](/help/user-guide/assets/content-assignment-report/car-download1.png)
+
