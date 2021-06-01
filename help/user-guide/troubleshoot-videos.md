@@ -12,13 +12,13 @@ discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
 feature: Kanäle, interaktiv
 role: Developer
 level: Intermediate
-exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 100%
 
 ---
+
 
 # Konfiguration der Videowiedergabe und Problembehebung {#video-playback-configuration-and-troubleshooting}
 
@@ -26,7 +26,7 @@ Wenn Sie ein Video zu DAM hochladen und zu Ihrem Kanal hinzufügen, kann möglic
 
 In den folgenden Abschnitten werden das Debugging und die Problembehebung für die Videowiedergabe in Ihrem Kanal beschrieben.
 
-## DAM-Ausgaben {#dam-renditions}
+## DAM-Ausgaben  {#dam-renditions}
 
 Wenn Sie das Video in den Kanal hochgeladen haben, sollte AEM damit beginnen, einige Ausgaben dafür zu erzeugen. Sie können Ihre Videos unter „Assets“ anzeigen.
 
@@ -157,3 +157,4 @@ Führen Sie die folgenden Schritte durch, um eine absolute Strategie einzurichte
 1. Starten Sie alle Player (mind. zwei).
 
 Es kann eine Weile dauern, bis die Player eine neue synchronisierte Sequenz beginnen.
+
