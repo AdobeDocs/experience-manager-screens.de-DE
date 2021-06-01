@@ -12,13 +12,13 @@ discoiquuid: 84085a03-1798-4f1d-858c-6014a3f6aff6
 feature: Inhaltserstellung in Screens
 role: Administrator, Developer
 level: Intermediate
-exl-id: 4a4b3a83-2b02-42a0-86a7-fce6bbf47c7d
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 100%
 
 ---
+
 
 # Erstellen und Verwalten einer Live Copy {#creating-and-managing-a-live-copy}
 
@@ -68,7 +68,7 @@ Um den Inhalt einer Live Copy anzuzeigen, gehen Sie wie folgt vor:
    >
    >Wenn Sie Inhalte für einen Live Copy-Kanal anzeigen, sehen Sie im Menü ein zusätzliches Element als **Live Copy-Status**. Weitere Informationen finden Sie im folgenden Abschnitt.
 
-### Anzeigen der Eigenschaften einer Live Copy {#viewing-properties-of-a-live-copy}
+### Anzeigen der Eigenschaften einer Live Copy  {#viewing-properties-of-a-live-copy}
 
 Außerdem können Sie die Eigenschaften Ihres Live Copy-Kanals anzeigen.
 
@@ -135,3 +135,4 @@ Führen Sie die folgenden Schritte aus, um sicherzustellen, dass Ihre Änderunge
    ![chlimage_1-30](assets/chlimage_1-30.png)
 
    Beachten Sie, dass das Bild jetzt auch aus dem Live Copy-Kanal gelöscht ist.
+
