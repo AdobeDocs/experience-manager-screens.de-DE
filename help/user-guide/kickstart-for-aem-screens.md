@@ -5,15 +5,15 @@ description: Befolgen Sie die Anweisungen auf dieser Seite, um ein Demoprojekt f
 feature: Übersicht, Digital Signage
 role: Business Practitioner
 level: Beginner
-exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1320'
 ht-degree: 100%
 
 ---
 
-# Schnellstartanleitung {#kickstart-guide}
+
+# Schnellstartanleitung  {#kickstart-guide}
 
 Die Schnellstartanleitung für AEM Screens zeigt, wie ein AEM Screens-Projekt eingerichtet und ausgeführt wird. Sie führt Sie durch die Einrichtung eines einfachen Digital-Signage-Erlebnisses, das Hinzufügen von Inhalten wie Assets und/oder Videos zu jedem Kanal und die weitere Veröffentlichung der Inhalte in einem AEM Screens-Player.
 
