@@ -12,13 +12,13 @@ discoiquuid: 75ed3c42-4be9-42ae-9d76-e0343af81516
 feature: Inhaltserstellung in Screens
 role: Administrator, Developer
 level: Intermediate
-exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 100%
 
 ---
+
 
 # Erstellen und Verwalten von Zeitplänen {#creating-and-managing-schedules}
 
@@ -67,3 +67,4 @@ Gehen Sie dazu wie folgt vor: Das folgende Beispiel veranschaulicht, wie das Das
    **Bedienfeld „Zugewiesene Kanäle“** Klicken Sie in der oberen rechten Ecke im Bedienfeld „ZUGEWIESENE KANÄLE“ auf „+ Kanal zuweisen“, um das Dialogfeld „Kanalzuweisung“ zu öffnen.
 
    **Bedienfeld „Zugewiesene Anzeigen“** Wählen Sie beliebige Anzeigen aus dem Bedienfeld „ZUGEWIESENE ANZEIGEN“ aus, um das Anzeigen-Dashboard zu öffnen.
+
