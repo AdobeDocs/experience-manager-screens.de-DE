@@ -8,13 +8,13 @@ contentOwner: jsyal
 feature: Digital Signage, Inhalt
 role: Developer
 level: Intermediate
-exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1903'
 ht-degree: 100%
 
 ---
+
 
 # Häufig gestellte Fragen zu AEM Screens {#aem-screens-faqs}
 
@@ -210,3 +210,5 @@ AEM Screens erstellt Indexdefinitionen für die vom Produkt verwendeten Abfragen
 Wenn es im `error.log` *abfrageübergreifende Warnhinweise (WARN)* gibt, erstellen Sie einen benutzerdefinierten Index für Ihre Abfrage. Weitere Informationen finden Sie unter [Konfigurieren der Indizes](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=de#configuring-the-indexes).
 
 Sie können auch auf eine zusätzliche Ressource in der [Oak-Dokumentation](https://jackrabbit.apache.org/oak/docs/query/lucene.html) zurückgreifen.
+
+
