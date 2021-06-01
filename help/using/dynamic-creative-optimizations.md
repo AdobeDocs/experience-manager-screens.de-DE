@@ -3,13 +3,13 @@ title: Datenauslöser
 seo-title: Datenauslöser
 description: Auf dieser Seite werden Datenauslöser beschrieben.
 seo-description: Auf dieser Seite werden Datenauslöser beschrieben.
-exl-id: 23c4268e-48be-4c84-b5eb-c96152b166f7
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 100%
 
 ---
+
 
 # Dynamic Creative Optimization {#dynamic-creative}
 
@@ -40,3 +40,4 @@ Es gibt zwei Hauptarten von Datenauslösern:
 
 * **Lokale Datenauslöser**: Diese Datenauslöser befinden sich lokal auf dem Gerät. Wenn Sie zum Beispiel den Bildschirm berühren, wird ein Sensor aktiviert, der das lokale Daten-Asset oder den Kanalwechsel auslöst.
 * **Remote-Datenauslöser**: Dies beinhaltet einen durch Daten ausgelösten Kanalwechsel bzw. einen Asset-Wechsel, je nach den von einer Web Service API zurückgegebenen Werten.
+
