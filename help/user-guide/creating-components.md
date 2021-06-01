@@ -12,13 +12,13 @@ discoiquuid: cdc530d8-ef0e-4b61-b1f0-5f4d831f1392
 feature: Entwicklung in Screens
 role: Developer
 level: Intermediate
-exl-id: 4d673039-4963-458a-89e9-023a993dd354
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 100%
 
 ---
+
 
 # Erstellen von Komponenten {#creating-components}
 
@@ -58,3 +58,4 @@ Die integrierten Komponenten nutzen die folgenden Client-Bibliothekskategorien:
 >[!NOTE]
 >
 >Um eigene Komponenten zu entwickeln, verwenden Sie die ***[Beispielvorlage für AEM Screens-Komponenten](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template)***.
+
