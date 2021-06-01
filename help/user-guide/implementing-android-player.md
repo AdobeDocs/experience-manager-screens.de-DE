@@ -13,13 +13,13 @@ docset: aem65
 feature: Verwalten von Screens, Android-Player
 role: Administrator
 level: Intermediate
-exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1439'
 ht-degree: 100%
 
 ---
+
 
 # Implementieren des Android-Players {#implementing-android-player}
 
@@ -73,7 +73,7 @@ Nachdem Sie die Anwendung heruntergeladen haben, führen Sie die Schritte im Pla
 
 Aufgrund der Architektur von Android erfordert der Neustart des Geräts, dass die Anwendung über Systemrechte verfügt. Hierzu müssen Sie die APK mithilfe der Signierungsschlüssel des Herstellers signieren. Andernfalls startet Watchdog die Player-App neu, statt das Gerät neu zu starten.
 
-### Signieren von Android-APKs mithilfe von Herstellerschlüsseln {#signage-of-android-apks-using-manufacturer-keys}
+### Signieren von Android-APKs mithilfe von Herstellerschlüsseln  {#signage-of-android-apks-using-manufacturer-keys}
 
 Zum Zugreifen auf die berechtigten APIs von Android, wie zum Beispiel *PowerManager* oder *HDMIControlServices*, müssen Sie die Android-apk mithilfe der Herstellerschlüssel signieren.
 
