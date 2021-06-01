@@ -3,13 +3,13 @@ title: Analyse mit AEM Screens
 seo-title: Analyse mit AEM Screens
 description: Auf dieser Seite wird die Analyse mit AEM Screens beschrieben.
 seo-description: Auf dieser Seite wird die Analyse mit AEM Screens beschrieben.
-exl-id: cfb47e94-9f65-43f3-b197-07222f3f6424
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 100%
 
 ---
+
 
 # Analyse mit AEM Screens {#analytics-screens}
 
@@ -27,3 +27,4 @@ Im Nutzungsszenario Feedbackschleife geht es nicht um visuelle Berichte oder Das
 
 Das zweite Nutzungsszenario bei Verwendung von Analytics besteht in der Verarbeitung von Wiedergabeereignissen und Nutzungsdaten für den menschlichen Gebrauch (in Form von Berichten und Dashboards).
 Mit diesen Daten können wir für ein interaktives Erlebnis eine Heatmap erstellen, um mithilfe unserer Anwendung die bevorzugte Journey Map zu bestimmen. Außerdem können wir ein Dashboard einrichten, das eine grafische Interpretation der Anzahl der Interaktionen von Verbrauchern mit unserer Anwendung erlaubt.
+
