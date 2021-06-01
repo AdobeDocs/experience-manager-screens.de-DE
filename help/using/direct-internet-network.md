@@ -1,13 +1,13 @@
 ---
 title: Direkter Internet-Zugriff
 description: Direkter Internet-Zugriff
-exl-id: a393ce2f-b774-4cd5-9001-c5cc24d445ae
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 100%
 
 ---
+
 
 # Netzwerk für direkten Internet-Zugriff (kabelgebunden/kabellos) {#direct-internet-access}
 
@@ -96,3 +96,4 @@ Nachfolgend sind die wichtigsten Daten bezüglich Netzwerkverbindungen aufgefüh
 >Diese Daten zeigen auf, wie viel Bandbreite jedes einzelne mit dem Netzwerk verbundene Gerät beim Anfragen und Herunterladen einer Internet-Quelle beansprucht. Mit jeder weiteren solchen Anfrage summiert sich die Bandbreitennutzung, durch die sich wiederum die Download-Zeit verlängert.
 
 ![](/help/assets/download-times-direct.png)
+
