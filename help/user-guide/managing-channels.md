@@ -6,13 +6,13 @@ seo-description: Folgen Sie dieser Seite, um sich über das Erstellen und Verwal
 feature: Inhaltserstellung in Screens
 role: Administrator, Developer
 level: Intermediate
-exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1328'
 ht-degree: 100%
 
 ---
+
 
 # Erstellen und Verwalten von Kanälen {#creating-and-managing-channels}
 
@@ -47,7 +47,7 @@ Wenn Sie Ihr Projekt für AEM Screens erstellen, gehen Sie wie folgt vor, um ein
 
 1. Dem Ordner **Kanäle** wird nun ein Sequenz-Kanal hinzugefügt.
 
-### Kanaltypen {#channel-types}
+### Kanaltypen  {#channel-types}
 
 Beim Verwenden des Assistenten stehen unter anderem die folgenden Vorlagenoptionen zur Verfügung:
 
@@ -259,3 +259,4 @@ Informationen zu den nächsten Schritten finden Sie in den folgenden Ressourcen:
 * [Erstellen und Verwalten von Kanälen](managing-channels.md)
 * [Erstellen und Verwalten von Standorten](managing-locations.md)
 * [Erstellen und Verwalten von Anzeigen](managing-displays.md)
+
