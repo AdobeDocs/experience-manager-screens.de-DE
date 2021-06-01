@@ -5,13 +5,13 @@ description: Auf dieser Seite erhalten Sie Informationen zur Kanalzuweisung und 
 feature: Inhaltserstellung in Screens, Kanalzuweisung
 role: Administrator, Developer
 level: Intermediate
-exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1219'
 ht-degree: 100%
 
 ---
+
 
 # Kanalzuweisung {#channel-assignment}
 
@@ -107,7 +107,7 @@ Bei Dayparting wird ein Tag in Zeitfenster unterteilt und festgelegt, welcher In
 
 Im Folgenden wird in drei Szenarien beschrieben, wie Dayparting mit Kanälen verwendet werden kann:
 
-#### Anzeigen von Inhalten an einem einzigen Tag unterteilt in mehrere Zeitfenster {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
+#### Anzeigen von Inhalten an einem einzigen Tag unterteilt in mehrere Zeitfenster  {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
 Im folgenden Beispiel wird veranschaulicht, wie ein Restaurant Dayparting verwendet, um sein Angebot für Frühstück, Mittagessen und Abendessen zu präsentieren.
 
@@ -177,4 +177,5 @@ Diese Beispiele veranschaulichen die Verwendung von Dayparting durch einen Laden
 >
 >* [Umgang mit sich wiederholenden Assets](https://docs.adobe.com/content/help/de-DE/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
 >* [Umgang mit sich wiederholenden Assets in einem Kanal](https://docs.adobe.com/content/help/de-DE/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
+
 
