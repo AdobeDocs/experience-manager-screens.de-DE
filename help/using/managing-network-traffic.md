@@ -1,13 +1,13 @@
 ---
 title: Verwalten des Netzwerk-Traffics
 description: Auf dieser Seite werden die Standard-Netzwerkkonfigurationen sowie die Verwaltung des Netzwerk-Traffics beschrieben.
-exl-id: b6d8f4a3-fca2-4556-9455-b9e27b138154
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 100%
 
 ---
+
 
 # Verwalten des Netzwerk-Traffics {#managing-network-traffic}
 
