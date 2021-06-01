@@ -13,13 +13,13 @@ docset: aem65
 feature: Inhaltserstellung in Screens
 role: Administrator, Developer
 level: Intermediate
-exl-id: cdfaee19-15d9-4bcb-bc85-0b43c59d88d2
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 100%
 
 ---
+
 
 # Eingebettete Sequenzen {#embedded-sequences}
 
@@ -36,12 +36,11 @@ Sie haben die Möglichkeit, die folgenden Komponenten zu Ihrem Sequenzkanal hinz
 >
 >Weitere Informationen zum Verwenden anderer Komponenten in Ihrem Screens-Projekt finden Sie unter [Hinzufügen von Komponenten zu einem Kanal](adding-components-to-a-channel.md).
 
-### Hinzufügen einer eingebetteten Sequenz {#adding-an-embedded-sequence}
+### Hinzufügen einer eingebetteten Sequenz  {#adding-an-embedded-sequence}
 
 Sie können Ihrem Kanal eine eingebettete Sequenz hinzufügen. Bei einer eingebetteten Sequenz handelt es sich um einen weiteren Kanal mit Assets wie Bildern oder Videos. Durch Hinzufügen einer eingebetteten Sequenz können Benutzer die Sequenz über den ***Kanalpfad*** in einen Kanal aufnehmen.
 
 >[!NOTE]
->
 >***Der Kanalpfad ***definiert einen expliziten Verweis zum Kanal.
 >Weitere Informationen zum *Kanalpfad* finden Sie in „Inhaltserstellung in Screens“ unter [Kanalzuweisung](channel-assignment.md).
 
@@ -68,12 +67,17 @@ Standardmäßig ist diese auf **normal** eingestellt. Ist der Wert auf **normal*
 >1. Navigieren Sie zur Anzeige und wählen Sie die Anzeige aus dem Ordner **Standorte** aus.
 >1. Klicken Sie in der Aktionsleiste auf **Dashboard**, um zum Anzeigen-Dashboard zu navigieren.
 >1. Wählen Sie im Bedienfeld **ZUGEWIESENE KANÄLE UND ZEITPLÄNE** die Option **+ Kanäle zugewiesen** aus, um das Dialogfeld **Kanalzuweisung** zu öffnen.
->
->1. Wählen Sie den Pfad des Kanals (den Sie in der eingebetteten Sequenz verwenden) im **Kanalpfad** aus.
+
+   >
+   >
+1. Wählen Sie den Pfad des Kanals (den Sie in der eingebetteten Sequenz verwenden) im **Kanalpfad** aus.
 >1. Stellen Sie sicher, dass die **Priorität** niedriger als die des Hauptkanals ist.
->
->1. Sie dürfen keine **unterstützten Ereignisse** auswählen.
+
+   >
+   >
+1. Sie dürfen keine **unterstützten Ereignisse** auswählen.
 >1. Klicken Sie nach Abschluss des Vorgangs auf **Speichern**.
+
 >
 
 
@@ -107,3 +111,4 @@ Gehen Sie wie folgt vor, um eine eingebettete Sequenz zu Ihrem Kanal hinzuzufüg
 1. Wählen Sie die **Dauer (ms)** für Ihren eingebetteten Kanal auf der Registerkarte **Sequenz** aus.
 
 ![latest](assets/latest.gif)
+
