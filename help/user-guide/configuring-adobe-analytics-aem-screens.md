@@ -13,13 +13,13 @@ docset: aem65
 feature: Verwalten von Screens
 role: Administrator, Developer
 level: Intermediate
-exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 100%
 
 ---
+
 
 # Konfigurieren von Adobe Analytics mit AEM Screens {#configuring-adobe-analytics-with-aem-screens}
 
@@ -331,3 +331,4 @@ Die folgende Tabelle fasst das Standarddatenmodell für Ereignisse zusammen. Es 
   </tr>
  </tbody>
 </table>
+
