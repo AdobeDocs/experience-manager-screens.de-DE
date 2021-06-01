@@ -13,13 +13,13 @@ docset: aem65
 feature: Überblick
 role: Business Practitioner, Data Architect
 level: Beginner
-exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 100%
 
 ---
+
 
 # Teil 4: Projekt-Management und Bereitstellung {#part-project-management-and-deployment}
 
@@ -93,3 +93,4 @@ In diesem Tutorial erfahren Sie mehr über Projekt-Management und Bereitstellung
 Sobald Sie mit den wichtigsten Überlegungen zum Projekt-Management für AEM Screens-Bereitstellungen vertraut sind:
 
 Navigieren Sie zu **[Teil 5: Support-Aspekte](support-considerations.md)**, um den Support von Tag 2 und die damit verbundenen Prozesse zu verstehen.
+
