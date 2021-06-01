@@ -3,13 +3,13 @@ title: Empfohlener Ansatz
 seo-title: Empfohlener Ansatz für ein AEM Screens-Projekt
 description: Auf dieser Seite wird der empfohlene Ansatz für ein AEM Screens-Projekt beschrieben.
 seo-description: Auf dieser Seite wird der empfohlene Ansatz für ein AEM Screens-Projekt beschrieben.
-exl-id: 28aacffa-e9c9-4ccb-8038-720bb3e02a3f
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 100%
 
 ---
+
 
 # Empfohlener Ansatz {#recommended-approach}
 
@@ -56,3 +56,4 @@ Wenn Ihr Kunde ein funktionsreiches Produkt benötigt, stellen Sie frühzeitig i
 
 * **Verstehen des Umfangs benutzerdefinierter Integrationen**:
 Interaktive Komponenten mit Touchscreen-Interaktionen, Bewegungssensoren oder RFID erfordern bei der Implementierung eine umfangreiche benutzerdefinierte Entwicklung. Bildschirmpräsentationen, Videowerbung oder statische Menüs können in einem Screens-Kanal als grafischer Inhalt oder HTML bereitgestellt werden.
+
