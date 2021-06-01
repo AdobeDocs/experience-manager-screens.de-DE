@@ -8,13 +8,13 @@ contentOwner: jsyal
 feature: Inhaltserstellung in Screens
 role: Administrator, Developer
 level: Intermediate
-exl-id: 757e6751-8008-487f-be89-9f53ac898928
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 100%
 
 ---
+
 
 # Anwenden von Übergängen {#applying-transitions}
 
@@ -60,3 +60,4 @@ Gehen Sie wie folgt vor, um Ihrem AEM Screens-Projekt eine Übergangskomponente 
 1. Wenn Sie diesem Kanaleditor außerdem eine **eingebettete Sequenzkomponente** hinzufügen (die einen Sequenzkanal enthält), können Sie am Ende eine Übergangskomponente hinzufügen, damit der Inhalt in der angegebenen Reihenfolge wiedergegeben wird, wie in der folgenden Abbildung dargestellt:
 
    ![image3](assets/transitions5.png)
+
