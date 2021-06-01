@@ -12,13 +12,13 @@ discoiquuid: 64e4d6ae-3fd3-41ec-84e1-cc2cac7b2519
 feature: Verwalten von Screens
 role: Administrator
 level: Intermediate
-exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 100%
 
 ---
+
 
 # Einrichten von ACLs {#setting-up-acls}
 
@@ -26,7 +26,7 @@ Im folgenden Abschnitt wird erläutert, wie Sie Projekte mithilfe von ACLs separ
 
 Als AEM-Administrator möchten Sie sicherstellen, dass für ein bestimmtes Projekt zuständige Team-Mitglieder nicht in andere Projekte eingreifen und dass den Benutzern je nach den Projektanforderungen spezifische Rollen zugewiesen werden.
 
-## Einrichten von Berechtigungen {#setting-up-permissions}
+## Einrichten von Berechtigungen  {#setting-up-permissions}
 
 Die folgenden Schritte fassen die Vorgehensweise zum Einrichten von ACLs für ein Projekt zusammen:
 
@@ -142,3 +142,4 @@ Die folgende Tabelle fasst bei einem AEM Screens-Projekt die Gruppen mit Beschre
   </tr>
  </tbody>
 </table>
+
