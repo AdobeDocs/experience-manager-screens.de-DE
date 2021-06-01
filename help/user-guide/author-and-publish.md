@@ -6,13 +6,13 @@ seo-description: Die AEM Screens-Architektur ähnelt einer traditionellen AEM S
 feature: Verwalten von Screens
 role: Administrator, Developer
 level: Intermediate
-exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1907'
 ht-degree: 100%
 
 ---
+
 
 # Konfigurieren von Autoren- und Veröffentlichungsinstanz in AEM Screens {#configuring-author-and-publish-in-aem-screens}
 
@@ -307,3 +307,5 @@ Alternativ können Sie über die Geräteverwaltungskonsole die Server-URL aktual
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
 Mit der Funktion **Veröffentlichung verwalten** können Sie Inhaltsaktualisierungen vom Autor an das Gerät senden, um sie zu veröffentlichen. Sie können Inhalte für Ihr gesamtes AEM Screens-Projekt oder nur für einzelne Kanäle, Standorte, Geräte, Anwendungen oder einen Zeitplan veröffentlichen oder die Veröffentlichung aufheben. Weitere Informationen zu dieser Funktion finden Sie unter [On-Demand-Inhaltsaktualisierungen](on-demand-content.md).
+
+
