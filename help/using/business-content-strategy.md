@@ -3,13 +3,13 @@ title: Business Content-Strategie für [!UICONTROL AEM Screens]
 seo-title: Business Content-Strategie für [!UICONTROL AEM Screens]
 description: In diesem Handbuch wird die Strategie für Business Content beschrieben.
 seo-description: In diesem Handbuch wird eine Strategie für Business Content beschrieben.
-exl-id: efb8ea95-62c0-41ed-9e67-23d76ad12a4c
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 100%
 
 ---
+
 
 # Business Content-Strategie{#business-content}
 
