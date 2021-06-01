@@ -3,13 +3,13 @@ title: Grundlagen von Digital Signage für [!UICONTROL AEM Screens]
 seo-title: Grundlagen von Digital Signage für [!UICONTROL AEM Screens]
 description: In diesem Handbuch werden die Grundlagen eines Digital Signage-Projekts beschrieben.
 seo-description: In diesem Handbuch werden die Grundlagen eines Digital Signage-Projekts beschrieben.
-exl-id: e3913be2-9028-4773-a034-e16924a71e04
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 100%
 
 ---
+
 
 # Grundlagen eines Digital Signage-Projekts {#basics-digital-signage}
 
