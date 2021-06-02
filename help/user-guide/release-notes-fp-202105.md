@@ -4,10 +4,10 @@ description: '"Auf dieser Seite erhalten Sie Informationen zu AEM Screens Featur
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: c237486b9fe574727f14b3425f634c8d13d33596
+source-git-commit: 02177449f203c3cc98a9b1b3db9cca4467130b62
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 69%
+source-wordcount: '274'
+ht-degree: 62%
 
 ---
 
@@ -28,7 +28,10 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 202105 ist der 3. Juni
 
 ### Neuigkeiten {#what-is-new}
 
-* Sperren einer Seite
+* **Seite in einem AEM Screens-Kanal sperren**
+
+   AEM Screens unterstützt jetzt *Sperren einer Seite*, wie bereits in AEM Sites implementiert. Mit Adobe Experience Manager (AEM) können Sie eine Seite sperren, sodass niemand anders den Inhalt ändern kann. Dies ist hilfreich, wenn Sie eine Vielzahl von Bearbeitungen an einer bestimmten Seite vornehmen oder wenn Sie eine Seite für eine kurze Zeit einfrieren möchten.
+
 
 ### Fehlerbehebungen {#bug-fixes}
 
