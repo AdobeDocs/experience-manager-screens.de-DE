@@ -4,10 +4,10 @@ description: '"Auf dieser Seite erhalten Sie Informationen zu AEM Screens Featur
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: e9539d91b1215240c371bdea62a304b2e62df8ec
+source-git-commit: 0c3e8835174e34c5e8455f1849351717884b6d0e
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 58%
+source-wordcount: '286'
+ht-degree: 59%
 
 ---
 
@@ -36,10 +36,8 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 202105 ist der 3. Juni
 
    Schnellere Generierung von Kanalmanifest mit verbesserter Leistung, z. B. weniger Ressourcen auf dem Server zuzuweisen.
 
-
 ### Fehlerbehebungen {#bug-fixes}
 
-* Verbesserte Leistung bei der Generierung von Kanalmanifest.
 * Der Player hat beim Umschalten auf einen Kanal einen schwarzen Bildschirm angezeigt, der eine dynamische eingebettete Sequenz enthält.
 * Die Screens-Player blockieren jetzt den Wechsel zu einem fehlerhaften Kanal, wodurch der 404-Fehler oder eine Seite mit einer Fehlermeldung vermieden wird.
 
