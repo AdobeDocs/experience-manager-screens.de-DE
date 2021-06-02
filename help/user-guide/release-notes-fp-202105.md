@@ -4,10 +4,10 @@ description: '"Auf dieser Seite erhalten Sie Informationen zu AEM Screens Featur
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: ffd8a340af2e826d5c3a4fec4fd0ec471da671e8
+source-git-commit: 0568e55557dcae8e2afa6bebfc5898480892dda0
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 75%
+source-wordcount: '211'
+ht-degree: 69%
 
 ---
 
@@ -26,17 +26,15 @@ Das neueste Feature Pack für AEM Screens 6.5.8 steht auf dem [Software Distrib
 
 Das Veröffentlichungsdatum für AEM Screens Feature Pack 202105 ist der 1. Juni 2021.
 
-### Neue Funktionen {#what-is-new}
+### Neuigkeiten {#what-is-new}
 
-* **AEM Screens – Automatische Registrierung von Playern**
-
-   Der Player wird beim Wechseln zum Kanal als schwarzer Bildschirm angezeigt und enthält eine dynamische eingebettete Sequenz.
+* Sperren einer Seite
 
 ### Fehlerbehebungen {#bug-fixes}
 
-* Der Player wird beim Wechseln zum Kanal als schwarzer Bildschirm angezeigt und enthält eine dynamische eingebettete Sequenz.
-
-
+* Der Player hat beim Umschalten auf einen Kanal einen schwarzen Bildschirm angezeigt, der eine dynamische eingebettete Sequenz enthält.
+* Verbesserte Leistung bei der Generierung von Kanalmanifest.
+* Die Screens-Player blockieren jetzt den Wechsel zu einem fehlerhaften Kanal, wodurch der 404-Fehler oder eine Seite mit einer Fehlermeldung vermieden wird.
 
 ### Veröffentlichte AEM Screens-Player {#released-aem-screens-players}
 
