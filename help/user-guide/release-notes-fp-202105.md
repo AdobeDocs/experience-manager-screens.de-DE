@@ -4,9 +4,9 @@ description: '"Auf dieser Seite erhalten Sie Informationen zu AEM Screens Featur
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 0568e55557dcae8e2afa6bebfc5898480892dda0
+source-git-commit: c237486b9fe574727f14b3425f634c8d13d33596
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '210'
 ht-degree: 69%
 
 ---
@@ -24,7 +24,7 @@ Das neueste Feature Pack für AEM Screens 6.5.8 steht auf dem [Software Distrib
 
 ## Veröffentlichungsdatum {#release-date}
 
-Das Veröffentlichungsdatum für AEM Screens Feature Pack 202105 ist der 1. Juni 2021.
+Das Veröffentlichungsdatum für AEM Screens Feature Pack 202105 ist der 3. Juni 2021.
 
 ### Neuigkeiten {#what-is-new}
 
@@ -32,8 +32,8 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 202105 ist der 1. Juni
 
 ### Fehlerbehebungen {#bug-fixes}
 
-* Der Player hat beim Umschalten auf einen Kanal einen schwarzen Bildschirm angezeigt, der eine dynamische eingebettete Sequenz enthält.
 * Verbesserte Leistung bei der Generierung von Kanalmanifest.
+* Der Player hat beim Umschalten auf einen Kanal einen schwarzen Bildschirm angezeigt, der eine dynamische eingebettete Sequenz enthält.
 * Die Screens-Player blockieren jetzt den Wechsel zu einem fehlerhaften Kanal, wodurch der 404-Fehler oder eine Seite mit einer Fehlermeldung vermieden wird.
 
 ### Veröffentlichte AEM Screens-Player {#released-aem-screens-players}
@@ -45,7 +45,6 @@ Die folgenden AEM Screens-Player sind für AEM 6.5 Feature Pack 8 verfügbar:
 * Tizen
 * Android
 * Linux
-* iOS
 
 #### AEM Screens-Player-Downloads {#aem-screens-player-downloads}
 
