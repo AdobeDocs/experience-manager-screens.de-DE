@@ -12,14 +12,14 @@ level: Intermediate
 source-git-commit: 8d1633dab9e70ea988516cf9ee4d1b0a780bc7e9
 workflow-type: tm+mt
 source-wordcount: '536'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
 # Automatisieren von Asset-Aktualisierungen für einen AEM Screens-Kanal mit einem Workflow {#automate-channel-updates-workflow}
 
-Erfahren Sie, wie Sie einen Workflow erstellen, um in Adobe Experience Manager hochgeladene Assets automatisch zu verarbeiten und sie dynamisch einem Screens-Kanal zuzuweisen. Wenn in diesem Beispiel ein Bild zu einem bestimmten Ordner hinzugefügt wird, wird ein Workflow ausgelöst, der eine dynamische Textüberlagerung (Wasserzeichenprozess) anwendet und das Bild einem Screens-Kanal zuweist. Die aus diesem Beispiel gewonnenen Erkenntnisse lassen sich auf eine Vielzahl von Automatisierungsszenarien anwenden.
+Erfahren Sie, wie Sie einen Workflow erstellen, um in Adobe Experience Manager hochgeladene Assets automatisch zu verarbeiten und sie dynamisch einem Screens-Kanal zuzuweisen. In diesem Beispiel wird beim Hinzufügen eines Bildes zu einem bestimmten Ordner ein Workflow ausgelöst, der ein dynamisches Text-Overlay (Wasserzeichen-Vorgang) anbringt und das Bild einem Screens-Kanal zuweist. Die aus diesem Beispiel gewonnenen Erkenntnisse lassen sich auf eine Vielzahl von Automatisierungsszenarien anwenden.
 
 ## Voraussetzungen {#prerequisites}
 
