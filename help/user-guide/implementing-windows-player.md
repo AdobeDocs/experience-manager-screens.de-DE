@@ -13,10 +13,10 @@ docset: aem65
 feature: Verwalten von Screens, Windows-Player
 role: Administrator
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 100%
+source-wordcount: '1074'
+ht-degree: 93%
 
 ---
 
@@ -68,6 +68,16 @@ Nachdem Sie die Anwendung heruntergeladen haben, führen Sie die Schritte im Pla
 >
 >Wenn der **Status** **UNREGISTRIERT** ist, können Sie das Gerät mithilfe des **Tokens** registrieren.
 
+## Benennen von Windows Player {#name-windows}
+
+Sie können Ihrem Windows-Player einen benutzerfreundlichen Gerätenamen zuweisen und so den zugewiesenen Gerätenamen an Adobe Experience Manager (AEM) senden. Mit dieser Funktion können Sie nicht nur Ihren Windows-Player benennen, sondern auch mühelos geeignete Inhalte zuweisen.
+
+Gehen Sie wie folgt vor, um den Namen im Windows Player zu konfigurieren:
+
+1. Klicken Sie auf **start** —> **run**
+1. Geben Sie Folgendes ein `system.cpl`
+1. Verwenden Sie die Registerkarte &quot;Computername&quot;, um den Hostnamen des Computers festzulegen.
+
 ## Ändern der Standardoptionen im Windows-Installationsprogramm {#changing-default-options}
 
 In diesem Abschnitt erfahren Sie, wie Sie die Standardoptionen im Windows-Installationsprogramm und die Liste der verfügbaren Anpassungen ändern.
@@ -103,7 +113,7 @@ So konfigurieren Sie den Windows 10-Player:
 1. Suchen Sie die Konfigurationsdatei unter ***%appdata%\com.adobe.aem.screens.player\config.json***.
 1. Aktualisieren Sie die JSON-Konfigurationsdatei mit den nachstehenden Informationen und kopieren Sie sie dann bei allen Systemen, auf denen der Player vorhanden ist, in den gleichen Ordner.
 
-### Richtlinienattribute  {#policy-attributes}
+### Richtlinienattribute {#policy-attributes}
 
 In der folgenden Tabelle finden Sie eine Zusammenfassung der Richtlinienattribute mit einer beispielhaften JSON-Richtliniendatei als Referenz:
 
