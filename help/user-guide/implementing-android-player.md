@@ -13,10 +13,10 @@ docset: aem65
 feature: Verwalten von Screens, Android-Player
 role: Administrator
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '1439'
-ht-degree: 100%
+source-wordcount: '1513'
+ht-degree: 95%
 
 ---
 
@@ -73,7 +73,7 @@ Nachdem Sie die Anwendung heruntergeladen haben, führen Sie die Schritte im Pla
 
 Aufgrund der Architektur von Android erfordert der Neustart des Geräts, dass die Anwendung über Systemrechte verfügt. Hierzu müssen Sie die APK mithilfe der Signierungsschlüssel des Herstellers signieren. Andernfalls startet Watchdog die Player-App neu, statt das Gerät neu zu starten.
 
-### Signieren von Android-APKs mithilfe von Herstellerschlüsseln  {#signage-of-android-apks-using-manufacturer-keys}
+### Signieren von Android-APKs mithilfe von Herstellerschlüsseln {#signage-of-android-apks-using-manufacturer-keys}
 
 Zum Zugreifen auf die berechtigten APIs von Android, wie zum Beispiel *PowerManager* oder *HDMIControlServices*, müssen Sie die Android-apk mithilfe der Herstellerschlüssel signieren.
 
@@ -177,6 +177,15 @@ In der folgenden Tabelle finden Sie eine Zusammenfassung der Richtlinienattribut
 ## Massenbereitstellung von Android-Playern mit Enterprise Mobility Management {#bulk-provisioning}
 
 Bei der Massenbereitstellung von Android-Playern ist es mühsam, jeden einzelnen Player manuell bei AEM zu registrieren. Es wird dringend empfohlen, eine EMM-Lösung (Enterprise Mobility Management) wie VMWare Airwatch, MobileIron oder Samsung Knox für die Remote-Bereitstellung und -Verwaltung Ihrer Bereitstellung zu verwenden. Der AEM Screens-Android-Player unterstützt den Branchenstandard EMM AppConfig, um eine Remote-Bereitstellung zu ermöglichen.
+
+## Benennen des Android-Players {#name-android}
+
+Sie können Ihrem Android-Player einen benutzerfreundlichen Gerätenamen zuweisen und so den zugewiesenen Gerätenamen an Adobe Experience Manager (AEM) senden. Mit dieser Funktion können Sie nicht nur Ihren Android-Player benennen, sondern auch mühelos geeignete Inhalte zuweisen.
+
+Gehen Sie wie folgt vor, um den Namen im Android-Player zu konfigurieren:
+
+1. Navigieren Sie zu **settings** —> **Über Gerät**
+1. Bearbeiten Sie den Gerätenamen und legen Sie ihn fest, um den Android-Player zu benennen.
 
 ### Implementieren der Massenbereitstellung des Android-Players mit Enterprise Mobility Management {#implementation}
 
