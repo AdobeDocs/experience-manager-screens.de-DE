@@ -4,10 +4,10 @@ description: '"Auf dieser Seite erhalten Sie Informationen zu AEM Screens Featur
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
+source-git-commit: 444535b38fdf112939fdbf4c0f3f48e1cc28c902
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 43%
+source-wordcount: '378'
+ht-degree: 46%
 
 ---
 
@@ -39,11 +39,11 @@ Standardmäßig wird bei der Massenregistrierung eines Geräts ein vom System ge
 
    In der folgenden Dokumentation erfahren Sie, wie Sie den Namen in jedem unterstützten Betriebssystem konfigurieren:
 
-       * [Android](/help/user-guide/implementing-android-player.md#name-android)
-       * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
-       * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
-       * [Chrome OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
-   
+   * [Android](/help/user-guide/implementing-android-player.md#name-android)
+   * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
+   * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
+   * [Chrome OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
+
 * **Manifestgenerierung**
 
    Schnellere Generierung von Kanalmanifest mit verbesserter Leistung, z. B. weniger Ressourcen auf dem Server zuzuweisen.
