@@ -4,10 +4,10 @@ description: Auf dieser Seite wird die Installation und Funktionsweise des Tizen
 feature: Verwalten von Screens, Player
 role: Administrator
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '908'
-ht-degree: 100%
+source-wordcount: '985'
+ht-degree: 92%
 
 ---
 
@@ -37,6 +37,15 @@ Führen Sie dazu folgende Schritte durch:
 1. Rufen Sie die IP oder URL Ihres lokalen HTTP-Servers ab (und den Pfad zu dem Ordner, der die in Schritt 2 extrahierten Dateien enthält, wenn diese in einen Unterordner und nicht in den Stammordner extrahiert wurden).
 
 1. Der Tizen-Player lädt das Installationsprogramm vom lokalen Server herunter.
+
+### Name des Tizen-Players {#name-tizen}
+
+Sie können Ihrem Tizen-Player einen benutzerfreundlichen Gerätenamen zuweisen und so den zugewiesenen Gerätenamen an Adobe Experience Manager (AEM) senden. Mit dieser Funktion können Sie nicht nur Ihren Tizen-Player benennen, sondern auch mühelos geeignete Inhalte zuweisen.
+
+Gehen Sie wie folgt vor, um den Namen im Tizen-Player zu konfigurieren:
+
+1. Klicken Sie auf die Menüschaltfläche auf Ihrer Fernbedienung.
+1. Navigieren Sie zu **network** —> **Gerätename** , um dem Player einen Namen zuzuweisen.
 
 ### Konfigurieren von Aktualisierungen auf dem Samsung-Gerät {#config-updates}
 
