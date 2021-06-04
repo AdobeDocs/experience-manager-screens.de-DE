@@ -1,13 +1,13 @@
 ---
 title: 'Versionshinweise für Feature Pack 202105 '
-description: '"Auf dieser Seite erhalten Sie Informationen zu AEM Screens Feature Pack 202105, das am 1. Juni 2021 veröffentlicht wurde."'
+description: '"Auf dieser Seite erhalten Sie Informationen zu AEM Screens Feature Pack 202105, das am 4. Juni 2021 veröffentlicht wurde."'
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 0c3e8835174e34c5e8455f1849351717884b6d0e
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 59%
+source-wordcount: '394'
+ht-degree: 43%
 
 ---
 
@@ -24,21 +24,33 @@ Das neueste Feature Pack für AEM Screens 6.5.8 steht auf dem [Software Distrib
 
 ## Veröffentlichungsdatum {#release-date}
 
-Das Veröffentlichungsdatum für AEM Screens Feature Pack 202105 ist der 3. Juni 2021.
+Das Veröffentlichungsdatum für AEM Screens Feature Pack 202105 ist der 4. Juni 2021.
 
 ### Neuigkeiten {#what-is-new}
 
-* **Seite in einem AEM Screens-Kanal sperren**
+* **Sperren von Seiten in einem AEM Screens-Kanal**
 
    AEM Screens unterstützt jetzt *Sperren einer Seite*, wie bereits in AEM Sites implementiert. Mit Adobe Experience Manager (AEM) können Sie eine Seite sperren, sodass niemand anders den Inhalt ändern kann. Dies ist hilfreich, wenn Sie eine Vielzahl von Bearbeitungen an einer bestimmten Seite vornehmen oder wenn Sie eine Seite für eine kurze Zeit einfrieren möchten.
 
+* **Benennen des AEM Screens Player-Geräts**
+
+   Die AEM Screens-Player bieten jetzt die Möglichkeit, einen Gerätenamen an Adobe Experience Manager (AEM) zu senden.
+Standardmäßig wird bei der Massenregistrierung eines Geräts ein vom System generierter Benutzername in das Titelfeld eingegeben. Alternativ kann ein Kunde ein Asset-Tag oder einen anderen benutzerfreundlichen Namen verwenden, damit es in AEM sichtbar und einfacher ist, geeignete Inhalte zuzuweisen.
+
+   In der folgenden Dokumentation erfahren Sie, wie Sie den Namen in jedem unterstützten Betriebssystem konfigurieren:
+
+       * [Android](/help/user-guide/implementing-android-player.md#name-android)
+       * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
+       * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
+       * [Chrome OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
+   
 * **Manifestgenerierung**
 
    Schnellere Generierung von Kanalmanifest mit verbesserter Leistung, z. B. weniger Ressourcen auf dem Server zuzuweisen.
 
 ### Fehlerbehebungen {#bug-fixes}
 
-* Der Player hat beim Umschalten auf einen Kanal einen schwarzen Bildschirm angezeigt, der eine dynamische eingebettete Sequenz enthält.
+* Der Player hat beim Wechsel zu einem Kanal, der eine dynamische eingebettete Sequenz enthält, einen schwarzen Bildschirm angezeigt.
 * Die Screens-Player blockieren jetzt den Wechsel zu einem fehlerhaften Kanal, wodurch der 404-Fehler oder eine Seite mit einer Fehlermeldung vermieden wird.
 
 ### Veröffentlichte AEM Screens-Player {#released-aem-screens-players}
