@@ -12,10 +12,10 @@ discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Verwalten von Screens
 role: Administrator
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 100%
+source-wordcount: '829'
+ht-degree: 79%
 
 ---
 
@@ -35,6 +35,27 @@ Führen Sie die nachfolgenden Schritte aus, um die Chrome Management Console ein
 >[!NOTE]
 >
 >Es wird empfohlen, eine Geräteverwaltungslösung wie die Chrome Management Console für die Bereitstellung und Verwaltung von Chrome OS-Geräten zu verwenden. In diesem Dokument wird die Implementierung mithilfe der Chrome Management Console beschrieben, es gibt jedoch auch andere Anbieter, die Produkte mit ähnlicher Funktionalität anbieten. Wenden Sie sich an den Anbieter Ihrer Geräteverwaltungssoftware.
+
+## Benennen des Chrome OS-Players {#name-chrome}
+
+Sie können Ihrem Chrome-Player einen benutzerfreundlichen Gerätenamen zuweisen und so den zugewiesenen Gerätenamen an Adobe Experience Manager (AEM) senden. Mit dieser Funktion können Sie nicht nur Ihren Chrome-Player benennen, sondern auch mühelos geeignete Inhalte zuweisen.
+
+Gehen Sie wie folgt vor, um den Namen im Chrome-Player zu konfigurieren:
+
+1. Sie können optional zulassen, dass AV-Integratoren oder IT-Administratoren die Asset-ID und den Speicherort als Teil der Unternehmensregistrierung festlegen.
+
+   ![image](/help/user-guide/assets/chrome-device/chrome1.png)
+
+1. Sie erhalten die Optionen, mit denen Sie das Gerät registrieren können.
+
+   ![image](/help/user-guide/assets/chrome-device/chrome2.jpg)
+
+1. Sie können die Asset-ID als Teil der Unternehmensregistrierung sowie in der Chrome Management Console festlegen.
+
+   ![image](/help/user-guide/assets/chrome-device/chrome3.png)
+
+   >[!NOTE]
+   >Chrome-Player müssen bei der Unternehmensregistrierung registriert sein und der Chrome-Player muss über Chrome Management Console bereitgestellt werden. Andernfalls wird die Asset-ID leer zurückgegeben (z. B. Chrome als Erweiterung). Der Gerätename wird erst zum Zeitpunkt der Registrierung aufgezeichnet. Zukünftige Änderungen werden von Adobe Experience Manager (AEM) nicht übernommen.
 
 ### Aktivieren des Kiosk-Modus {#enabling-kiosk-mode}
 
@@ -87,7 +108,7 @@ Gehen Sie wie folgt vor, um verschiedene Player-Optionen zu konfigurieren:
 >
 >Starten Sie das Gerät, um die Richtlinienänderungen zu synchronisieren.
 
-#### Beispielhafte JSON-Richtliniendatei  {#example-policy-json-file}
+#### Beispielhafte JSON-Richtliniendatei {#example-policy-json-file}
 
 ```java
 {
