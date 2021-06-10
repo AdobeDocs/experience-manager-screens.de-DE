@@ -4,10 +4,10 @@ description: Auf dieser Seite wird die Installation und Funktionsweise des Tizen
 feature: Verwalten von Screens, Player
 role: Administrator
 level: Intermediate
-source-git-commit: e955838d33cbe74719b237e568fb0bfd1a6844a2
+source-git-commit: ee731bc5169d2c76665bbfa18e3b8529619d83ce
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 73%
+source-wordcount: '1213'
+ht-degree: 72%
 
 ---
 
@@ -124,9 +124,9 @@ In der folgenden Tabelle sind die Richtlinien und deren Funktionen aufgeführt.
 | resolution | Die Auflösung des Geräts. |
 | rebootSchedule | Der Plan zum Neustarten des Players. |
 | enableAdminUI | Aktivierung der Administrator-Benutzeroberfläche zum Konfigurieren des Geräts vor Ort. Stellen Sie diesen Wert auf „false“ ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und in der Produktion verwendet wird. |
-| enableOSD | Aktivierung der Kanalschalter-Benutzeroberfläche, damit Benutzer zwischen Kanälen auf dem Gerät wechseln können. Stellen Sie den Wert ggf. auf „false“ ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und in der Produktion verwendet wird |
+| enableOSD | Aktivierung der Kanalschalter-Benutzeroberfläche, damit Benutzer zwischen Kanälen auf dem Gerät wechseln können. Erwägen Sie die Einstellung auf false , sobald sie vollständig konfiguriert ist und sich in der Produktion befindet. |
 | enableActivityUI | Aktivierung zum Anzeigen des Fortschritts von Aktivitäten wie Downloads und Synchronisierungen. Aktivieren Sie den Wert zwecks Fehlerbehebung und deaktivieren Sie ihn, sobald die Benutzeroberfläche vollständig konfiguriert ist und produktiv verwendet wird. |
-| cloudMode | Setzen Sie dies auf &quot;true&quot;, wenn Sie möchten, dass der Tizen-Player eine Verbindung zu Bildschirmen als Cloud-Service herstellt. false , um eine Verbindung mit AMS oder onPrem AEM herzustellen. |
+| cloudMode | Setzen Sie dies auf &quot;true&quot;, wenn Sie möchten, dass der Tizen-Player als Cloud Service eine Verbindung zu Screens herstellt. Legen Sie den Wert auf &quot;false&quot;fest, um eine Verbindung zu AMS oder On-Premise-AEM herzustellen. |
 | cloudToken | Anmeldetoken zur Registrierung bei Screens als Cloud Service. |
 
 
