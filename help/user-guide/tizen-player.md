@@ -4,10 +4,10 @@ description: Auf dieser Seite wird die Installation und Funktionsweise des Tizen
 feature: Verwalten von Screens, Player
 role: Administrator
 level: Intermediate
-source-git-commit: ee731bc5169d2c76665bbfa18e3b8529619d83ce
+source-git-commit: 948515fb2f1fd3d1f94476cf5fe3983098d3b950
 workflow-type: tm+mt
-source-wordcount: '1213'
-ht-degree: 72%
+source-wordcount: '1208'
+ht-degree: 66%
 
 ---
 
@@ -74,7 +74,7 @@ Führen Sie die folgenden Schritte auf dem Samsung-Gerät aus, um die Installati
 
 >[!IMPORTANT]
 >**Dieser Abschnitt gilt für Adobe Experience Manager (AEM) 6.5.5 bis AEM 6.5.7**
->Es gibt einige Browser-Engines, die mit dem Attribut *SameSite=None* inkompatibel sind, das im Anmelde-Token verwendet wird, das von AEM 6.5 bis AEM 6.7 herausgegeben wurde. In den meisten Fällen kann das Problem durch eine Aktualisierung des Browsers auf die neueste verfügbare Version behoben werden. In einigen Fällen sind solche Aktualisierungen möglicherweise nicht möglich, z. B. bei intelligenten Displays, Set-Top-Boxen oder anderen Geräten mit eingebetteten Browsing-Engines.
+>Es gibt einige Browser-Engines, die mit dem Attribut *SameSite=None* inkompatibel sind, das im Anmeldetoken verwendet wird, das von AEM 6.5 bis AEM 6.7 herausgegeben wurde. Normalerweise kann das Problem gelöst werden, indem der Browser auf die neueste verfügbare Version aktualisiert wird. In einigen Fällen sind solche Aktualisierungen möglicherweise nicht möglich, z. B. bei intelligenten Displays, Set-Top-Boxen oder anderen Geräten mit eingebetteten Browsing-Engines.
 
 Gehen Sie wie folgt vor, um diese inkompatiblen Clients auszuschließen, wenn Sie *SameSite=None* verwenden:
 
@@ -82,7 +82,7 @@ Gehen Sie wie folgt vor, um diese inkompatiblen Clients auszuschließen, wenn Si
 
 1. Gehen Sie nach dem Neustart von AEM zu `/system/console/configMgr` und suchen Sie nach **Adobe Granite Token Authentication Handler**. Setzen Sie den Wert für **SameSite** auf **None**.
 
-1. Sie sollten eine neue Option sehen: *Benutzeragenten, die vom SameSite-Attribut ausgenommen werden sollen*. Füllen Sie diese mit einem Regex, der dem/den Benutzeragenten entspricht, der/die mit dem *SameSite=None*-Attribut inkompatibel ist/sind.
+1. Sie sollten eine neue Option sehen: *Benutzeragenten, die vom SameSite-Attribut ausgenommen werden sollen*. Füllen Sie diesen mit einem Regex, der dem Benutzeragenten entspricht, der mit dem Attribut *SameSite=None* inkompatibel ist (sind).
    >[!NOTE]
    >Weitere Informationen finden Sie unter [SameSite=None: Bekannte inkompatible Clients](https://www.chromium.org/updates/same-site/incompatible-clients). Verwenden Sie folgenden Regex für den Tizen-Player: `(.*)Tizen(.*)`.
 
