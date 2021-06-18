@@ -4,7 +4,7 @@ seo-title: Beschreibung des Handbuchs
 description: Auf dieser Seite wird der Zweck des Best-Practices-Handbuchs beschrieben.
 seo-description: Auf dieser Seite wird der Zweck des Best-Practices-Handbuchs beschrieben.
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '258'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Es sollte jedoch hervorgehoben werden, dass auch viele andere Rollen von der Lek
 
 AEM Screens ist eine neue Erweiterung von Adobe Experience Manager (AEM). Da es sich dabei um neue Tools handelt, deren potenzielle Anwendungen variieren, müssen Sie wichtige Überlegungen und allgemeine Risikofaktoren mit Blick auf die Entwicklung und Implementierung von AEM Screens ermitteln.
 
-Das Handbuch bietet nicht nur umfassende Einblicke und praktische Ratschläge zur Planung, Gestaltung und Einbindung beabsichtigter Kundenerlebnisse in Ihre Digital Signage-Implementierung, sondern auch Anleitungen dazu, wie Sie bei der Bereitstellung eines Digital Signage-Projekts in AEM Screens durch Anwendung von Best Practices positive Auswirkungen auf Ihre Geschäftstätigkeit erzielen können.
+Das Handbuch bietet nicht nur umfassende Einblicke und praktische Ratschläge zur Planung, Gestaltung und Einbindung beabsichtigter Kundenerlebnisse in Ihre Digital-Signage-Implementierung, sondern auch Anleitungen dazu, wie Sie bei der Bereitstellung eines Digital Signage-Projekts in AEM Screens durch Anwendung von Best Practices positive Auswirkungen auf Ihre Geschäftstätigkeit erzielen können.
 
 >[!IMPORTANT]
 >
@@ -35,7 +35,7 @@ Das Handbuch bietet nicht nur umfassende Einblicke und praktische Ratschläge zu
 >
 > * **[Projektrollen und Zuständigkeiten](roles-responsibilities.md)**
 > * **[RACI-Diagramm für verschiedene Rollen](roles-responsibilities.md#raci-chart)**
-> * **[AEM-Plattformkonfigurationen](aem-platform-configurations.md)**
+> * **[AEM Platform-Konfigurationen](aem-platform-configurations.md)**
 > * **[Support und Überwachung](support-monitoring.md)**
 
 
@@ -43,6 +43,6 @@ Das Handbuch bietet nicht nur umfassende Einblicke und praktische Ratschläge zu
 >
 > In diesem Handbuch verwendete Begriffe (im Kontext von AEM Screens):
 >
-> * **UX** steht für die Digital Signage-Erlebnisse, die Endkunden bereitgestellt werden.
+> * **UX** steht für die Digital-Signage-Erlebnisse, die Endkunden bereitgestellt werden.
 > * **UI** steht für die Benutzeroberfläche, mit der Sie Ihre Projekte in Screens erstellen und verwalten können.
 
