@@ -4,7 +4,7 @@ seo-title: Datenauslöser
 description: Auf dieser Seite werden Datenauslöser beschrieben.
 seo-description: Auf dieser Seite werden Datenauslöser beschrieben.
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '268'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 >
 >Typische Verantwortliche für diese Aktivität sind AEM-Implementoren.
 
-**Dynamic Creative Optimization** oder DCO dient dem Erstellen von Digital Signage-Erlebnissen, die den individuellen Bedingungen eines bestimmten Standorts zu einer bestimmten Zeit sowie eines bestimmten Benutzers gerecht werden.
+**Dynamic Creative Optimization** oder DCO dient dem Erstellen von Digital-Signage-Erlebnissen, die den individuellen Bedingungen eines bestimmten Standorts zu einer bestimmten Zeit sowie eines bestimmten Benutzers gerecht werden.
 
 Dies wird auch als Client-seitige Reduzierung von Inhalten bezeichnet.
 
