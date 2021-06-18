@@ -7,7 +7,7 @@ feature: Verwalten von Screens, Datenauslöser
 role: Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '536'
 ht-degree: 100%
 
@@ -96,7 +96,7 @@ Wenn die Testverbindung beim Replizieren der ContextHub-Konfigurationen fehlschl
 
 1. Navigieren Sie zu Werkzeuge > **Bereitstellung** > **Verteilung** > **Veröffentlichungsagent**.
 
-1. Klicken Sie in der Aktionsleiste auf **Bearbeiten** und stellen Sie sicher, dass die Endpunkt-URL im Feld **Importer Endpoints** auch auf die URL des Veröffentlichungs-Servers im Verteilungsagenten verweist.
+1. Klicken Sie in der Aktionsleiste auf **Bearbeiten** und stellen Sie sicher, dass die Endpunkt-URL im Feld **Endpunkte des Importtools** auch auf die URL des Veröffentlichungs-Servers im Verteilungsagenten verweist.
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
 1. Wenn Sie nicht die standardmäßigen Administratorberechtigungen verwenden, müssen Sie den Verteilungsagenten mit einem anderen Benutzernamen und einem anderen Kennwort konfigurieren.
