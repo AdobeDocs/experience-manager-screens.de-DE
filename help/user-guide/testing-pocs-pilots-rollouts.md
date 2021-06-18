@@ -14,7 +14,7 @@ feature: Überblick
 role: Business Practitioner, Data Architect
 level: Beginner
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '566'
 ht-degree: 100%
 
@@ -37,9 +37,9 @@ Dieses Tutorial behandelt folgende Punkte, die für die erfolgreiche Implementie
 
 >[!NOTE]
 >
->Die typischen Vertriebszyklen für Implementierungen skalierter digitaler Beschilderung können zwischen 9 und 18 Monaten betragen. Es gibt viele Faktoren, die sich auf den endgültigen Ablauf auswirken, darunter auch die Art und Weise, wie der Endkunde den Erfolg misst und wie risikoscheu seine Geschäftspartner bei der Einführung neuer Lösungen sind.
+>Die typischen Vertriebszyklen für Implementierungen skalierter Digital Signage können zwischen 9 und 18 Monaten betragen. Es gibt viele Faktoren, die sich auf den endgültigen Ablauf auswirken, darunter auch die Art und Weise, wie der Endkunde den Erfolg misst und wie risikoscheu seine Geschäftspartner bei der Einführung neuer Lösungen sind.
 
-Beispielsweise könnten zu den Verantwortlichen für ein Programm für digitale Beschilderung in einer Einzelhandelsumgebung gehören: In-Store Marketing, Store Environment oder Visual Merchandising, Store Operations, IT Security, IT Support, die Produktkategorie Merchant sowie deren Anbieter, die die Lösung ggf. mitfinanzieren.
+Beispielsweise könnten zu den Verantwortlichen für ein Programm für Digital Signage in einer Einzelhandelsumgebung gehören: In-Store Marketing, Store Environment oder Visual Merchandising, Store Operations, IT Security, IT Support, die Produktkategorie Merchant sowie deren Anbieter, die die Lösung ggf. mitfinanzieren.
 
 ## Zusammenfassung der wichtigsten Begriffe, die in einem übergeordneten Projektplan verwendet werden {#summary-of-key-terms-involved-in-an-overall-project-plan}
 
