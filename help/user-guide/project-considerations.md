@@ -14,7 +14,7 @@ feature: Überblick
 role: Business Practitioner, Data Architect
 level: Beginner
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '667'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Diese Seite enthält Teil 2 einer 5-teiligen Serie, der Team-Mitgliedern dabei h
 
 Das folgende Tutorial behandelt Elemente, die bei der Projekterkundung identifiziert werden müssen, sowie Beiträge von Beteiligten zur Bewertung des Projekts und zur Vorbereitung eines geeigneten Designs.
 
-Die Hauptkomponenten eines Programms für digitale Beschilderung, die für eine erfolgreiche Bereitstellung erforderlich sind, sind:
+Die Hauptkomponenten eines Programms für Digital Signage, die für eine erfolgreiche Bereitstellung erforderlich sind, sind:
 
 * Inhaltsstrategie
 * Anforderungen an den Geschäftsbetrieb
@@ -42,7 +42,7 @@ Die Hauptkomponenten eines Programms für digitale Beschilderung, die für eine 
 >
 >Es ist wichtig, eine Inhaltsstrategie zu definieren, in der berücksichtigt wird, wie die Anwendung Software-, Hardware- und Konnektivitätsressourcen nutzt, um den beabsichtigten Nutzen erfolgreich zu erzielen.
 
-## Zusammenfassung der Projektüberlegungen in einem Projekt für digitale Beschilderung {#summary-of-project-considerations-in-a-digital-signage}
+## Zusammenfassung der Projektüberlegungen in einem Projekt für Digital Signage {#summary-of-project-considerations-in-a-digital-signage}
 
 Bei der Entwicklung einer Inhaltsstrategie sind verschiedene Aspekte zu beachten, darunter E/A-Schichten, Asset-Typen, Zielgruppensegmente und Dayparting-Anforderungen.
 
