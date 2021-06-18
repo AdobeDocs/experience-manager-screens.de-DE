@@ -13,7 +13,7 @@ feature: Verwalten von Screens
 role: Administrator
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '561'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Im folgenden Abschnitt wird erläutert, wie Sie Projekte mithilfe von ACLs separ
 
 Als AEM-Administrator möchten Sie sicherstellen, dass für ein bestimmtes Projekt zuständige Team-Mitglieder nicht in andere Projekte eingreifen und dass den Benutzern je nach den Projektanforderungen spezifische Rollen zugewiesen werden.
 
-## Einrichten von Berechtigungen  {#setting-up-permissions}
+## Einrichten von Berechtigungen {#setting-up-permissions}
 
 Die folgenden Schritte fassen die Vorgehensweise zum Einrichten von ACLs für ein Projekt zusammen:
 
@@ -81,7 +81,7 @@ Die folgende Tabelle fasst den Pfad mit den Berechtigungen auf Projektebene zusa
 >
 >In einigen Fällen können Sie separate Autorenfunktionen (wie das Verwalten von Assets und das Erstellen von Kanälen) von den Administratorfunktionen (wie dem Registrieren von Playern) trennen. Erstellen Sie bei solchen Szenarien zwei Gruppen, fügen Sie die Gruppe „authors“ zu „contributors“ hinzu und fügen Sie die Gruppe „admin“ sowohl zu „contributors“ als auch zu „user-administrators“ hinzu.
 
-### Erstellen von Gruppen  {#creating-groups}
+### Erstellen von Gruppen {#creating-groups}
 
 Bei der Erstellung eines neuen Projekts sollten auch Standardbenutzergruppen erstellt werden, denen eine Reihe von Berechtigungen zugewiesen ist. Sie sollten die Berechtigungen auf die typischen Rollen erweitern, über die wir bei AEM Screens verfügen.
 
