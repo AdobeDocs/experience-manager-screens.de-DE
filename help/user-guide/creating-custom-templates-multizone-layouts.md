@@ -8,7 +8,7 @@ feature: Entwicklung in Screens
 role: Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '949'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ Es gibt zwei wichtige Aspekte, die Sie beachten müssen, bevor Sie eine benutzer
 
 Gehen Sie wie folgt vor, um die benutzerdefinierte Vorlage *Left20-LandscapeHD3Zone* mit der folgenden Konfiguration zu erstellen:
 
-* **&quot;Left20&quot;** bezieht sich auf den oberen Bereich links, der 20 % der horizontalen und vertikalen Bildschirmgröße umfasst.
+* **Left20** bezieht sich auf den oberen Bereich links, der 20 % der horizontalen und vertikalen Bildschirmgröße umfasst.
 * **Querformat** beschreibt sich auf die Bildschirmausrichtung
 * **HD** bezieht sich auf das Seitenverhältnis 16:9
 * **3Zone** weist auf drei Bereiche der Anzeige hin
