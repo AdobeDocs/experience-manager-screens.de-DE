@@ -7,7 +7,7 @@ feature: Inhaltserstellung in Screens
 role: Administrator, Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1328'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Auf dieser Seite wird gezeigt, wie Kanäle für AEM Screens erstellt und verwalt
 
 Wenn Sie Ihr Projekt für AEM Screens erstellen, gehen Sie wie folgt vor, um einen neuen Kanal für Ihr Projekt zu erstellen:
 
-1. Wählen Sie den Link zu Adobe Experience Manager (oben links) und dann Screens aus. Sie haben auch die Möglichkeit, direkt zur folgenden URL zu wechseln: `https://localhost:4502/screens.html/content/screens`.
+1. Wählen Sie den Adobe Experience Manager-Link (oben links) und dann Screens aus. Sie haben auch die Möglichkeit, direkt zur folgenden URL zu wechseln: `https://localhost:4502/screens.html/content/screens`.
 
 1. Navigieren Sie zu Ihrem Screens-Projekt und wählen Sie den Ordner **Kanäle**.
 
@@ -47,7 +47,7 @@ Wenn Sie Ihr Projekt für AEM Screens erstellen, gehen Sie wie folgt vor, um ein
 
 1. Dem Ordner **Kanäle** wird nun ein Sequenz-Kanal hinzugefügt.
 
-### Kanaltypen  {#channel-types}
+### Kanaltypen {#channel-types}
 
 Beim Verwenden des Assistenten stehen unter anderem die folgenden Vorlagenoptionen zur Verfügung:
 
