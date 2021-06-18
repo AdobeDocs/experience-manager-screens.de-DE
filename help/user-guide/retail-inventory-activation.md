@@ -14,7 +14,7 @@ feature: Inhaltserstellung in Screens
 role: Administrator, Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '693'
 ht-degree: 100%
 
@@ -99,8 +99,7 @@ Gehen Sie wie folgt vor, um das Anwendungsbeispiel zur Aktivierung des Einzelhan
    ![screen_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
 
    >[!NOTE]
-   >
-   >Sie müssen sowohl die **Marke** als auch den **Bereich** auswählen, damit die Aktivitäten beim Starten des Targeting-Prozesses korrekt aufgeführt werden.
+   Sie müssen sowohl die **Marke** als auch den **Bereich** auswählen, damit die Aktivitäten beim Starten des Targeting-Prozesses korrekt aufgeführt werden.
 
 1. **Hinzufügen eines Standardbilds**
 
@@ -112,8 +111,7 @@ Gehen Sie wie folgt vor, um das Anwendungsbeispiel zur Aktivierung des Einzelhan
    ![screen_shot_2019-05-06at121253pm](assets/screen_shot_2019-05-06at121253pm.png)
 
    >[!NOTE]
-   >
-   >Bevor Sie mit dem Targeting beginnen, müssen Sie die Segmente (**Für_Grün**, **Für_Rot** und **Für_Blau**) hinzufügen, indem Sie auf **+ Erlebnis-Targeting hinzufügen** klicken (wie in der folgenden Abbildung dargestellt).
+   Bevor Sie mit dem Targeting beginnen, müssen Sie die Segmente (**Für_Grün**, **Für_Rot** und **Für_Blau**) hinzufügen, indem Sie auf **+ Erlebnis-Targeting hinzufügen** klicken (wie in der folgenden Abbildung dargestellt).
 
    ![screen_shot_2019-05-06at123554pm](assets/screen_shot_2019-05-06at123554pm.png)
 
