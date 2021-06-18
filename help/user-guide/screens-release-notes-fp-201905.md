@@ -1,8 +1,8 @@
 ---
 title: Versionshinweise für Feature Pack 201905
 seo-title: Versionshinweise für Feature Pack 201905
-description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 201905, das am Donnerstag, 16. Mai 2019 veröffentlicht wurde.
-seo-description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 201905, das am Donnerstag, 16. Mai 2019 veröffentlicht wurde.
+description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 201905, das am 16. Mai 2019 veröffentlicht wurde.
+seo-description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 201905, das am 16. Mai 2019 veröffentlicht wurde.
 uuid: ebbaa7bb-4672-4a07-bcb7-67a778c72db8
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -14,7 +14,7 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '327'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ AEM Screens hat AEM 6.3.3.3 Feature Pack 6 und AEM 6.4.4.0 Feature Pack 4 mit fo
 
 ## Veröffentlichungsdatum {#release-date}
 
-Das Veröffentlichungsdatum für AEM Screens Feature Pack 201905 ist der Donnerstag, 16. Mai 2019.
+Das Veröffentlichungsdatum für AEM Screens Feature Pack 201905 ist der 16. Mai 2019.
 
 ### Neuerungen {#what-s-new}
 
