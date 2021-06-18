@@ -1,8 +1,8 @@
 ---
-title: Aktivierung auf der Kanalebene – Wiedergabe eines einzelnen Ereignisses
-seo-title: Aktivierung auf der Kanalebene – Wiedergabe eines einzelnen Ereignisses
-description: Befolgen Sie diese Anleitung, um die Aktivierung auf der Kanalebene mithilfe der Wiedergabe eines einzelnen Ereignisses zu verstehen.
-seo-description: Befolgen Sie diese Anleitung, um die Aktivierung auf der Kanalebene mithilfe der Wiedergabe eines einzelnen Ereignisses zu verstehen.
+title: Aktivierung auf Kanalebene – Wiedergabe eines einzelnen Ereignisses
+seo-title: Aktivierung auf Kanalebene – Wiedergabe eines einzelnen Ereignisses
+description: Befolgen Sie diese Anleitung, um die Aktivierung auf Kanalebene mithilfe der Wiedergabe eines einzelnen Ereignisses zu verstehen.
+seo-description: Befolgen Sie diese Anleitung, um die Aktivierung auf Kanalebene mithilfe der Wiedergabe eines einzelnen Ereignisses zu verstehen.
 uuid: 87230344-5f9a-42a4-a7a8-ae4203303612
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -14,7 +14,7 @@ feature: Inhaltserstellung in Screens, Aktivierung auf Kanalebene
 role: Administrator, Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1807'
 ht-degree: 100%
 
@@ -23,23 +23,23 @@ ht-degree: 100%
 
 # Aktivierung auf Kanalebene {#channel-level-activation-single-event-playback}
 
-Auf dieser Seite wird die Aktivierung auf der Kanalebene für die in Kanälen verwendeten Assets beschrieben.
+Auf dieser Seite wird die Aktivierung auf Kanalebene für die in Kanälen verwendeten Assets beschrieben.
 
 In diesem Abschnitt werden die folgenden Themen behandelt:
 
 * Überblick
 * Aktivierungsfenster
-* Verwenden der Aktivierung auf der Kanalebene als Wiedergabe eines einzelnen Ereignisses
+* Verwenden der Aktivierung auf Kanalebene als Wiedergabe eines einzelnen Ereignisses
 * Umgang mit sich wiederholenden Assets in einem Kanal
    * Dayparting
    * WeekParting
    * MonthParting
    * Kombination von Aufteilungen
-* Verwenden der Aktivierung auf der Kanalebene als Wiedergabe eines einzelnen Ereignisses
+* Verwenden der Aktivierung auf Kanalebene als Wiedergabe eines einzelnen Ereignisses
 
 ## Überblick {#overview}
 
-Die ***Aktivierung auf der Kanalebene*** ermöglicht den Wechsel von Kanälen nach einem festgelegten Zeitplan. Der Kanal für ein einzelnes Ereignis ersetzt den Hauptkanal nach einem festgelegten Zeitplan und spielt für eine bestimmte Zeit, bis der Hauptkanal seinen Inhalt wiedergibt.
+Die ***Aktivierung auf Kanalebene*** ermöglicht den Wechsel von Kanälen nach einem festgelegten Zeitplan. Der Kanal für ein einzelnes Ereignis ersetzt den Hauptkanal nach einem festgelegten Zeitplan und spielt für eine bestimmte Zeit, bis der Hauptkanal seinen Inhalt wiedergibt.
 
 Das folgende Beispiel zeigt eine Lösung mit Konzentration auf die folgenden Schlüsselbegriffe:
 
@@ -94,8 +94,7 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
    ![screen_shot_2018-11-27at112112am](assets/screen_shot_2018-11-27at112112am.png)
 
    >[!NOTE]
-   >
-   >Informationen zum Erstellen eines Standorts finden Sie unter **[Erstellen und Verwalten von Standorten](managing-locations.md)**.
+   Informationen zum Erstellen eines Standorts finden Sie unter **[Erstellen und Verwalten von Standorten](managing-locations.md)**.
 
 1. **Erstellen einer Anzeige unter dem Standort**
 
@@ -121,8 +120,7 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
    ![screen_shot_2018-11-27at124626pm](assets/screen_shot_2018-11-27at124626pm.png)
 
    >[!NOTE]
-   >
-   >Sie können Kanäle auch über das Anzeigen-Dashboard zuweisen, indem Sie zu **Channel Level Activation** > **Standorte** > **Region** > **RegionDisplay** navigieren und in der Aktionsleiste auf **Dashboard** klicken. Klicken Sie im Bedienfeld **ZUGEWIESENE KANÄLE UND ZEITPLÄNE** auf **+ Kanal zuweisen**.
+   Sie können Kanäle auch über das Anzeigen-Dashboard zuweisen, indem Sie zu **Channel Level Activation** > **Standorte** > **Region** > **RegionDisplay** navigieren und in der Aktionsleiste auf **Dashboard** klicken. Klicken Sie im Bedienfeld **ZUGEWIESENE KANÄLE UND ZEITPLÄNE** auf **+ Kanal zuweisen**.
 
    Weisen Sie den Kanal **TargetedSinglePlay** für die Anzeige zu:
 
@@ -137,14 +135,12 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
    1. Klicken Sie auf **Speichern**.
 
    >[!CAUTION]
-   >
-   >Sie müssen die Priorität für den Kanal **TargetedSinglePlay** höher festlegen als für den Kanal **MainAdSegment**.
+   Sie müssen die Priorität für den Kanal **TargetedSinglePlay** höher festlegen als für den Kanal **MainAdSegment**.
 
    ![screen_shot_2018-11-27at31206pm](assets/screen_shot_2018-11-27at31206pm.png)
 
    >[!NOTE]
-   >
-   >Um denselben Tag auszuwählen, müssen Sie den nächsten Tag auswählen und das Datum manuell auf denselben Tag, jedoch eine spätere Uhrzeit ändern. Dadurch wird der Benutzer daran gehindert, ein vergangenes Datum auszuwählen. Beachten Sie das folgende Beispiel:
+   Um denselben Tag auszuwählen, müssen Sie den nächsten Tag auswählen und das Datum manuell auf denselben Tag, jedoch eine spätere Uhrzeit ändern. Dadurch wird der Benutzer daran gehindert, ein vergangenes Datum auszuwählen. Beachten Sie das folgende Beispiel:
 
    ![new1](assets/new1.gif)
 
@@ -155,10 +151,9 @@ Sobald Sie die Einrichtung für Kanäle und die Anzeige abgeschlossen haben, sta
 Der Player zeigt den Inhalt von **MainAdChannel** an und genau um 23:59 Uhr (wie im Zeitplan festgelegt) zeigt der Kanal **TargetedSinglePlay** seinen Inhalt bis 00:05 Uhr an. Anschließend wird die Wiedergabe des **MainAdChannel** fortgesetzt.
 
 >[!NOTE]
->
->Weitere Informationen zum AEM Screens-Player finden Sie in den folgenden Ressourcen:
->[AEM Screens-Player-Downloads](https://download.macromedia.com/screens/)
->[Arbeiten mit dem AEM Screens-Player](working-with-screens-player.md)
+Weitere Informationen zum AEM Screens-Player finden Sie in den folgenden Ressourcen:
+[AEM Screens-Player-Downloads](https://download.macromedia.com/screens/)
+[Arbeiten mit dem AEM Screens-Player](working-with-screens-player.md)
 
 
 ## Umgang mit sich wiederholenden Assets in einem Kanal {#handling-recurrence-in-assets}
@@ -174,8 +169,7 @@ Angenommen, Sie möchten Inhalte eines Kanals nur freitags von 13:00 bis 22:00 
 1. Nach Eingabe von Startdatum/Startzeit und Enddatum/Endzeit im Dialogfeld **Kanalzuweisung** können Sie einen Ausdruck oder eine natürliche Textversion verwenden, um Ihren Wiederholungsplan anzugeben.
 
    >[!NOTE]
-   >
-   >Sie können die Felder **Aktiv ab** und **Aktiv bis** überspringen oder einbeziehen und den Ausdruck entsprechend Ihren Anforderungen zum Feld „Zeitpläne“ hinzufügen.
+   Sie können die Felder **Aktiv ab** und **Aktiv bis** überspringen oder einbeziehen und den Ausdruck entsprechend Ihren Anforderungen zum Feld „Zeitpläne“ hinzufügen.
 
 1. Geben Sie den Ausdruck in den **Zeitplan** ein. Ihr Asset wird daraufhin für das jeweilige Tages- und Uhrzeitintervall angezeigt.
 
@@ -194,8 +188,7 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 | am 1./2. Januar nach 14:00 Uhr auch am 2./3. Januar vor 3:00 Uhr | Das Asset im Kanal wird ab dem 1. Januar um 14:00 Uhr bis zum 2. Januar um 3:00 Uhr wiedergegeben. Dann wird es erneut am 2. Januar um 14:00 Uhr bis zum 2. Januar um 3:00 Uhr wiedergegeben. |
 
 >[!NOTE]
->
->Sie können das _24-Stunden-Format_ (d. h. 14:00 Uhr) oder die *am/pm*-Notation (d. h. 2:00 pm) verwenden.
+Sie können das _24-Stunden-Format_ (d. h. 14:00 Uhr) oder die *am/pm*-Notation (d. h. 2:00 pm) verwenden.
 
 ### WeekParting {#week-parting}
 
@@ -204,8 +197,7 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 1. Nach Eingabe von Startdatum/Startzeit und Enddatum/Endzeit im Dialogfeld **Kanalzuweisung** können Sie einen Ausdruck oder eine natürliche Textversion verwenden, um Ihren Wiederholungsplan anzugeben.
 
    >[!NOTE]
-   >
-   >Sie können die Felder **Aktiv ab** und **Aktiv bis** überspringen oder einbeziehen und den Ausdruck entsprechend Ihren Anforderungen zum Feld „Zeitpläne“ hinzufügen.
+   Sie können die Felder **Aktiv ab** und **Aktiv bis** überspringen oder einbeziehen und den Ausdruck entsprechend Ihren Anforderungen zum Feld „Zeitpläne“ hinzufügen.
 
 1. Geben Sie den Ausdruck in den **Zeitplan** ein. Ihr Asset wird daraufhin für das jeweilige Tages- und Uhrzeitintervall angezeigt.
 
@@ -222,8 +214,7 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 | vor 12:15 Uhr auch nach 12:45 Uhr | Der Kanal wird täglich vor 12:15 Uhr und danach auch nach 12:45 Uhr wiedergegeben |
 
 >[!NOTE]
->
->Sie können das _24-Stunden-Format_ (d. h. 14:00 Uhr) oder die *am/pm*-Notation (d. h. 2:00 pm) verwenden.
+Sie können das _24-Stunden-Format_ (d. h. 14:00 Uhr) oder die *am/pm*-Notation (d. h. 2:00 pm) verwenden.
 
 
 ### MonthParting {#month-parting}
@@ -233,8 +224,7 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 1. Nach Eingabe von Startdatum/Startzeit und Enddatum/Endzeit im Dialogfeld **Kanalzuweisung** können Sie einen Ausdruck oder eine natürliche Textversion verwenden, um Ihren Wiederholungsplan anzugeben.
 
    >[!NOTE]
-   >
-   >Sie können die Felder **Aktiv ab** und **Aktiv bis** überspringen oder einbeziehen und den Ausdruck entsprechend Ihren Anforderungen zum Feld „Zeitpläne“ hinzufügen.
+   Sie können die Felder **Aktiv ab** und **Aktiv bis** überspringen oder einbeziehen und den Ausdruck entsprechend Ihren Anforderungen zum Feld „Zeitpläne“ hinzufügen.
 
 1. Geben Sie den Ausdruck in den **Zeitplan** ein. Ihr Asset wird daraufhin für das jeweilige Tages- und Uhrzeitintervall angezeigt.
 
@@ -247,12 +237,10 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 | Februar, Mai, August, November | Das Asset im Kanal wird im Februar, Mai, August, November wiedergegeben. |
 
 >[!NOTE]
->
->Bei der Definition von Wochentagen und Monaten können Sie sowohl die Abkürzung als auch die vollständige Bezeichnung verwenden, beispielsweise „Mo.“/„Montag“ und „Jan.“/„Januar“.
+Bei der Definition von Wochentagen und Monaten können Sie sowohl die Abkürzung als auch die vollständige Bezeichnung verwenden, beispielsweise „Mo.“/„Montag“ und „Jan.“/„Januar“.
 
 >[!NOTE]
->
->Sie können das _24-Stunden-Format_ (d. h. 14:00 Uhr) oder die *am/pm*-Notation (d. h. 2:00 pm) verwenden.
+Sie können das _24-Stunden-Format_ (d. h. 14:00 Uhr) oder die *am/pm*-Notation (d. h. 2:00 pm) verwenden.
 
 ### Kombination von Aufteilungen {#combined-parting}
 
@@ -261,8 +249,7 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 1. Nach Eingabe von Startdatum/Startzeit und Enddatum/Endzeit im Dialogfeld **Kanalzuweisung** können Sie einen Ausdruck oder eine natürliche Textversion verwenden, um Ihren Wiederholungsplan anzugeben.
 
    >[!NOTE]
-   >
-   >Sie können die Felder **Aktiv ab** und **Aktiv bis** überspringen oder einbeziehen und den Ausdruck entsprechend Ihren Anforderungen zum Feld „Zeitpläne“ hinzufügen.
+   Sie können die Felder **Aktiv ab** und **Aktiv bis** überspringen oder einbeziehen und den Ausdruck entsprechend Ihren Anforderungen zum Feld „Zeitpläne“ hinzufügen.
 
 1. Geben Sie den Ausdruck in den **Zeitplan** ein. Ihr Asset wird daraufhin für das jeweilige Tages- und Uhrzeitintervall angezeigt.
 
@@ -277,6 +264,5 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 | am 1./2. Januar nach 14:00 Uhr auch am 2./3. Januar vor 3:00 Uhr | Das Asset im Kanal wird ab dem 1. Januar um 14:00 Uhr bis zum 2. Januar um 3:00 Uhr wiedergegeben. Dann wird es erneut am 2. Januar um 14:00 Uhr bis zum 2. Januar um 3:00 Uhr wiedergegeben. |
 
 >[!NOTE]
->
->Bei der Definition von Wochentagen und Monaten können Sie sowohl die Abkürzung als auch die vollständige Bezeichnung verwenden, beispielsweise „Mo.“/„Montag“ und „Jan.“/„Januar“.  Außerdem können Sie das _24-Stunden-Format_ (d. h. 14:00 Uhr) oder die *am/pm*-Notation (d. h. 2:00 pm) verwenden.
+Bei der Definition von Wochentagen und Monaten können Sie sowohl die Abkürzung als auch die vollständige Bezeichnung verwenden, beispielsweise „Mo.“/„Montag“ und „Jan.“/„Januar“.  Außerdem können Sie das _24-Stunden-Format_ (d. h. 14:00 Uhr) oder die *am/pm*-Notation (d. h. 2:00 pm) verwenden.
 
