@@ -13,7 +13,7 @@ feature: Entwicklung in Screens
 role: Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1854'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ Der Quell-Code eines Screens-Projekts wird normalerweise als Maven-Projekt mit m
 
 1. Laden Sie die folgenden Pakete herunter und installieren Sie diese mit **CRX Package Manage** `http://localhost:4502/crx/packmgr/index.jsp)r:`
 
-[Datei laden](assets/start-poster-screens-weretail-runuiapps-001-snapshot.zip)
+[Datei abrufen](assets/start-poster-screens-weretail-runuiapps-001-snapshot.zip)
 
    [Datei laden](assets/start-poster-screens-weretail-runuicontent-001-snapshot.zip)
    Wenn Sie mit Eclipse oder einer anderen IDE arbeiten, laden Sie **optional** das folgende Quellpaket herunter. Stellen Sie das Projekt mithilfe des folgenden Maven-Befehls in einer lokalen AEM-Instanz bereit:
@@ -61,7 +61,7 @@ Der Quell-Code eines Screens-Projekts wird normalerweise als Maven-Projekt mit m
 
    SRC-Startbildschirm, Projekt „We.Retail Run“
 
-[Datei laden](assets/start-poster-screens-weretail-run.zip)
+[Datei abrufen](assets/start-poster-screens-weretail-run.zip)
 
 1. In **CRX Package Manager** `http://localhost:4502/crx/packmgr/index.jsp` werden die folgenden zwei Pakete installiert:
 
@@ -520,10 +520,10 @@ Das folgende Video zeigt die fertige Komponente und wie sie einem Sequenzkanal h
 
 Unten finden Sie den fertigen Code aus dem Tutorial. **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** und **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip** sind kompilierte AEM-Pakete. SRC-screens-weretail-run-0.0.1.zip ist der nicht kompilierte Quell-Code, der mithilfe von Maven bereitgestellt werden kann.
 
-[Datei laden](assets/final-poster-screens-weretail-runuiapps-001-snapshot.zip)
+[Datei abrufen](assets/final-poster-screens-weretail-runuiapps-001-snapshot.zip)
 
-[Datei laden](assets/final-poster-screens-weretail-runuicontent-001-snapshot.zip)
+[Datei abrufen](assets/final-poster-screens-weretail-runuicontent-001-snapshot.zip)
 
 SRC-Endbildschirm, Projekt „We.Retail Run“
 
-[Datei laden](assets/src-screens-weretail-run-001.zip)
+[Datei abrufen](assets/src-screens-weretail-run-001.zip)
