@@ -1,10 +1,10 @@
 ---
-title: Übergang zur Plattform
+title: Wechsel zu Plattform
 seo-title: Übergang zur Plattform für AEM Screens
 description: Auf dieser Seite wird der Übergang zur Plattform beschrieben.
 seo-description: Auf dieser Seite wird der Übergang zur Plattform beschrieben.
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '193'
 ht-degree: 100%
 
