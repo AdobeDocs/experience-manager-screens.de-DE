@@ -1,6 +1,6 @@
 ---
-title: Dauer der Massenwiedergabe von Bildern auf der Kanalebene
-seo-title: Dauer der Massenwiedergabe von Bildern auf der Kanalebene
+title: Dauer der Massenwiedergabe von Bildern auf Kanalebene
+seo-title: Dauer der Massenwiedergabe von Bildern auf Kanalebene
 description: Auf dieser Seite wird beschrieben, wie Sie die Wiedergabedauer einer bestimmten Bildkomponente bearbeiten können.
 seo-description: Auf dieser Seite wird beschrieben, wie Sie die Wiedergabedauer einer bestimmten Bildkomponente bearbeiten können.
 uuid: 4ebb00a9-b04d-4dfe-9fee-2348a2e2c142
@@ -14,14 +14,14 @@ feature: Inhaltserstellung in Screens
 role: Administrator, Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '362'
 ht-degree: 100%
 
 ---
 
 
-# Dauer der Massenwiedergabe von Bildern auf der Kanalebene {#channel-level-bulk-image-playback-duration}
+# Dauer der Massenwiedergabe von Bildern auf Kanalebene {#channel-level-bulk-image-playback-duration}
 
 ## Überblick {#overview}
 
