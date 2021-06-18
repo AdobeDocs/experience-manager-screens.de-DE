@@ -1,5 +1,5 @@
 ---
-title: 'Versionshinweise für Feature Pack 202105 '
+title: Versionshinweise für Feature Pack 202105
 description: '"Auf dieser Seite erhalten Sie Informationen zu AEM Screens Feature Pack 202105, das am 4. Juni 2021 veröffentlicht wurde."'
 feature: Feature Pack
 role: Developer
@@ -42,7 +42,7 @@ Standardmäßig wird bei der Massenregistrierung eines Geräts ein vom System ge
    * [Android](/help/user-guide/implementing-android-player.md#name-android)
    * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
    * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
-   * [Chrome OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
+   * [Chrome OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
 
 * **Manifestgenerierung**
 
