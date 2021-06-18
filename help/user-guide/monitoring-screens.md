@@ -14,7 +14,7 @@ feature: Digital Signage, Inhalt, Player
 role: Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '805'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 Über das Geräte-Dashboard können Sie die Leistung Ihrer Screens-Player-Aktivität und Ihres Geräts überwachen und Fehler beheben. Auf dieser Seite finden Sie Informationen zur Überwachung und Fehlerbehebung bei erkannten Leistungsproblemen des Screens-Players und der zugeordneten Geräte.
 
-## Durchführen der Überwachung und Fehlerbehebung über das Geräte-Kontrollzentrum  {#monitor-and-troubleshoot-from-device-control-center}
+## Durchführen der Überwachung und Fehlerbehebung über das Geräte-Kontrollzentrum {#monitor-and-troubleshoot-from-device-control-center}
 
 Über das Geräte-Dashboard können Sie die Aktivität überwachen und damit Fehler Ihres Screens-Players beheben.
 
