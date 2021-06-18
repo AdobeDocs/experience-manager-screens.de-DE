@@ -7,7 +7,7 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '284'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ AEM Screens hat AEM 6.4 Feature Pack 7 und AEM 6.5 Feature Pack 3 mit folgenden 
 
 ## Veröffentlichungsdatum {#release-date}
 
-Das Veröffentlichungsdatum für AEM Screens Feature Pack 202001 ist Mittwoch, 31. Januar 2020.
+Das Veröffentlichungsdatum für AEM Screens Feature Pack 202001 ist der 31. Januar 2020.
 
 ### Neuerungen {#what-s-new}
 
