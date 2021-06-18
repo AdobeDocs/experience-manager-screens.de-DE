@@ -7,7 +7,7 @@ feature: Inhaltserstellung in Screens, Aktivierung auf Asset-Ebene
 role: Administrator, Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1450'
 ht-degree: 100%
 
@@ -211,7 +211,7 @@ Gehen Sie wie folgt vor, um mehrere Assets auszuwählen und ihre Anzeige in eine
 
    ![screen_shot_2018-12-21at70550am](assets/screen_shot_2018-12-21at70550am.png)
 
-1. Wählen Sie Datum und Uhrzeit in **Aktiv von** und **Aktiv bis** im Dialogfeld **Komponentenaktivierung** aus. Klicken Sie auf das Häkchen, nachdem Sie die Zeitpläne ausgewählt haben.
+1. Wählen Sie Datum und Uhrzeit in **Aktiv ab** und **Aktiv bis** im Dialogfeld **Komponentenaktivierung** aus. Klicken Sie auf das Häkchen, nachdem Sie die Zeitpläne ausgewählt haben.
 
    ![screen_shot_2018-12-17at20337pm](assets/screen_shot_2018-12-17at20337pm.png)
 
