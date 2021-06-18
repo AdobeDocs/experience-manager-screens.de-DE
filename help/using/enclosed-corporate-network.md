@@ -1,22 +1,22 @@
 ---
 title: Geschlossenes Unternehmensnetzwerk
-description: 'Geschlossenes Unternehmensnetzwerk     '
+description: Geschlossenes Unternehmensnetzwerk
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '709'
 ht-degree: 100%
 
 ---
 
 
-# Geschlossenes Unternehmensnetzwerk      (kabelgebunden/kabellos) {#enclosed-corporate-networks}
+# Geschlossenes Unternehmensnetzwerk (kabelgebunden/kabellos) {#enclosed-corporate-networks}
 
 Die Konfiguration für geschlossene Unternehmensnetzwerke ist in kleineren, mittleren und großen Unternehmen gleichermaßen anwendbar. Aus logischer Sicht ist diese Konfiguration so aufgebaut, wie in der nachfolgenden Abbildung dargestellt. Theoretisch kann sie aber auch komplexer ausfallen.
 
 ![](/help/using/assets/enclosed-network-1.png)
 
 
-## Anbinden von AEM Screens-Playern an ein Netzwerk für direkten Internet-Zugriff{#connecting-aem-screens-players}
+## Anbinden von AEM Screens-Playern an ein Netzwerk für direkten Internet-Zugriff {#connecting-aem-screens-players}
 
 Gehen Sie für eine in dieser Konfiguration ordnungsgemäße Anbindung der AEM Screens-Player wie folgt vor:
 
