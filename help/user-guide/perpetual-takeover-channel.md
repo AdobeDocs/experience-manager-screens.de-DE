@@ -8,7 +8,7 @@ feature: Inhaltserstellung in Screens
 role: Administrator, Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '860'
 ht-degree: 100%
 
@@ -95,10 +95,10 @@ Gehen Sie wie folgt vor, um ein Projekt einzurichten:
 
       >[!NOTE]
       >Weitere Informationen zu den Ausdrücken, die Sie dem **Zeitplan** hinzufügen können, finden Sie im Abschnitt [Beispielausdrücke](#example-expressions) unten.
-   * **aktiv von**: Startdatum und -zeit.
+   * **aktiv ab**: Startdatum und -zeit.
    * **aktiv bis**: Enddatum und -zeit.
 
-      Zum Beispiel ermöglicht der Text in **Zeitplan** und **aktiv von** und **aktiv bis** Datum und Uhrzeit, dass der Inhalt jeden Mittwoch von 14:00 bis 16:00 Uhr wiedergegeben wird.
+      Zum Beispiel ermöglicht der Text in **Zeitplan** und **aktiv ab** und **aktiv bis** Datum und Uhrzeit, dass der Inhalt jeden Mittwoch von 14:00 bis 16:00 Uhr wiedergegeben wird.
 
 
       ![Asset](assets/p_usecase7.png)
