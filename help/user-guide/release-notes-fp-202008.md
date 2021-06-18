@@ -1,11 +1,11 @@
 ---
 title: Versionshinweise für Feature Pack 202008
-description: „Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 202008, das am Donnerstag, 3. September 2020 veröffentlicht wurde.“
+description: „Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 202008, das am 3. September 2020 veröffentlicht wurde.“
 feature: Feature Pack
 role: Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '341'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Das neueste Feature Pack für AEM Screens 6.5.5 steht auf dem [Software Distrib
 
 ## Veröffentlichungsdatum {#release-date}
 
-Das Veröffentlichungsdatum für AEM Screens Feature Pack 202008 ist Donnerstag, 3. September 2020.
+Das Veröffentlichungsdatum für AEM Screens Feature Pack 202008 ist der 3. September 2020.
 
 ### Neue Funktionen {#what-is-new}
 
@@ -64,7 +64,7 @@ Setzen Sie in der **Konfiguration der Adobe Experience Manager-Web-Konsole** das
 
 Die folgenden AEM Screens-Player sind für AEM Screens 6.5 Feature Pack 5 verfügbar.
 
-* Chrome OS
+* Chrome OS
 * Windows
 * Android
 
