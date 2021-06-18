@@ -1,33 +1,33 @@
 ---
 title: Grundlagen von Digital Signage für [!UICONTROL AEM Screens]
 seo-title: Grundlagen von Digital Signage für [!UICONTROL AEM Screens]
-description: In diesem Handbuch werden die Grundlagen eines Digital Signage-Projekts beschrieben.
-seo-description: In diesem Handbuch werden die Grundlagen eines Digital Signage-Projekts beschrieben.
+description: In diesem Handbuch werden die Grundlagen eines Digital-Signage-Projekts beschrieben.
+seo-description: In diesem Handbuch werden die Grundlagen eines Digital-Signage-Projekts beschrieben.
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '428'
 ht-degree: 100%
 
 ---
 
 
-# Grundlagen eines Digital Signage-Projekts {#basics-digital-signage}
+# Grundlagen eines Digital-Signage-Projekts {#basics-digital-signage}
 
-Bevor Sie sich mit Best Practices für die Implementierung von AEM Screens vertraut machen, sollten Sie sich das Projekt als Digital Signage-Projekt vorstellen – und nicht als herkömmliche Softwareentwicklung.
+Bevor Sie sich mit Best Practices für die Implementierung von AEM Screens vertraut machen, sollten Sie sich das Projekt als Digital-Signage-Projekt vorstellen – und nicht als herkömmliche Softwareentwicklung.
 
 Dieser Abschnitt enthält Empfehlungen zu wichtigen Elementen, die vor der Implementierung eines AEM Screens-Projekts beachtet werden müssen.
 
 ## Schlüsselelemente von Digital Signage {#key-elements}
 
-Die *Schlüsselelemente* eines Digital Signage-Projekts sind:
+Die *Schlüsselelemente* eines Digital-Signage-Projekts sind:
 
 ![](/help/assets/Elements-Revised.png)
 
-Ein Definieren der Schlüsselelemente ist vor Implementierung eines Digital Signage-Projekts unerlässlich:
+Ein Definieren der Schlüsselelemente ist vor Implementierung eines Digital-Signage-Projekts unerlässlich:
 
 1. **Hardware**
 
-   Die Hardware bestimmt darüber, welche Hardwarekomponenten sich zur Implementierung Ihres Digital Signage-Projekts eignen:
+   Die Hardware bestimmt darüber, welche Hardwarekomponenten sich zur Implementierung Ihres Digital-Signage-Projekts eignen:
    * Verfügt das Gerät über ausreichend Speicherplatz, um alle Varianten der Erlebnisse offline ausführen zu können?
    * Wurden Art und Länge der Videokabel berücksichtigt? Unterstützt das Gerät sowohl die gewünschten Auflösungen (HD, FullHD, 4K usw.) als auch die bereitzustellenden Videocodecs (h.264, h.265 usw.)?
    * Einsatz von Kupferleitungen
