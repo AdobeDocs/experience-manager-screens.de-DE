@@ -4,7 +4,7 @@ seo-title: Projektrollen und Zuständigkeiten in AEM Screens
 description: Auf dieser Seite werden die Projektrollen und Zuständigkeiten in AEM Screens beschrieben.
 seo-description: Auf dieser Seite werden die Projektrollen und Zuständigkeiten in AEM Screens beschrieben.
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1263'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ AEM-Implementoren implementieren benutzerdefinierte Funktionen an Standorten in 
 
 A/V-Integratoren sind die Hardwareanbieter/-partner. Dabei handelt es sich um die Partei, die sich mit der Vorbereitung von Design und Sites für den Einzelhandel beschäftigt, einschließlich Beschaffung, Konfiguration und Bereitstellung der Hardware. Es handelt sich dabei in der Regel um einen beauftragten Drittanbieter, der Zugriff auf ein Network Operations Center (NOC) hat. In vielen Fällen sind A/V-Integratoren die Projekteigentümer, da sie nach dem Launch weiter kontinuierlich beteiligt sind.
 
-A/V-Integratoren sind für die Durchführung der Erkundung mit Endkunden verantwortlich, um Anforderungen zu definieren, die den Projektumfang für Entwicklung, Aufbau und effektive Verwaltung von Implementierungen im Zusammenhang mit Digital Signage-Hardware bestimmen.
+A/V-Integratoren sind für die Durchführung der Erkundung mit Endkunden verantwortlich, um Anforderungen zu definieren, die den Projektumfang für Entwicklung, Aufbau und effektive Verwaltung von Implementierungen im Zusammenhang mit Digital-Signage-Hardware bestimmen.
 
 #### Auswahl von Hardwarepartnern {#selecting-hardware-partner}
 
@@ -83,7 +83,7 @@ Projektmanager verwalten in der Regel die gesamte Implementierung für Ihre AEM 
 
 >[!NOTE]
 >
->Ausführliche Informationen zu den verschiedenen Rollen und Zuständigkeiten sowie zur Zielgruppe für ein Digital Signage-Projekt finden Sie unter **[Projektrollen und Zuständigkeiten](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
+>Ausführliche Informationen zu den verschiedenen Rollen und Zuständigkeiten sowie zur Zielgruppe für ein Digital-Signage-Projekt finden Sie unter **[Projektrollen und Zuständigkeiten](https://helpx.adobe.com/de/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
 
 
 ## Projektschritte {#project-stages}
@@ -98,7 +98,7 @@ Zur Sicherstellung einer erfolgreichen Bereitstellung von Digital Signage ist es
 >
 >Auch wenn der Schwerpunkt dieses Handbuchs auf *Tag 1* und *Tag 2* liegt, müssen bei einem erfolgreichen Digital-Signage-Projekt alle drei Schritte beachtet werden.
 >
->In einem zusätzlichen Video zu **[Projektverwaltung und -implementierung](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** erfahren Sie mehr über die Projektvorbereitung, die Projektinitiierung und den Projektfortschritt.
+>In einem zusätzlichen Video zu **[Projektverwaltung und -implementierung](https://helpx.adobe.com/de/experience-manager/6-5/screens/using/project-management-and-deployment.html)** erfahren Sie mehr über die Projektvorbereitung, die Projektinitiierung und den Projektfortschritt.
 
 ## RACI-Diagramm {#raci-chart}
 
