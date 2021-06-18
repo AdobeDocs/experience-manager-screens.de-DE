@@ -4,7 +4,7 @@ seo-title: Empfohlener Ansatz für ein AEM Screens-Projekt
 description: Auf dieser Seite wird der empfohlene Ansatz für ein AEM Screens-Projekt beschrieben.
 seo-description: Auf dieser Seite wird der empfohlene Ansatz für ein AEM Screens-Projekt beschrieben.
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '456'
 ht-degree: 100%
 
@@ -15,9 +15,9 @@ ht-degree: 100%
 
 Es wird empfohlen, alle AEM Screens-Projekte auf Unternehmensebene als langfristige Projekte zu betrachten. Eine Projektdauer von einem oder mehreren Jahren ist wahrscheinlich, insbesondere wenn die Lösung komplexe Benutzerinteraktionen ermöglicht oder auf/an verschiedenen Geräten und Standorten bereitgestellt wird.
 
-## Leitlinien vor der Entwicklung einer Digital Signage-Strategie {#signage-strategy}
+## Leitlinien vor der Entwicklung einer Digital-Signage-Strategie {#signage-strategy}
 
-Beachten Sie die folgenden Empfehlungen, bevor Sie ein Digital Signage-Projekt entwickeln und implementieren:
+Beachten Sie die folgenden Empfehlungen, bevor Sie ein Digital-Signage-Projekt entwickeln und implementieren:
 
 * **Kontrolle des Umfangs**:
 Ist die gewünschte Lösung ehrgeizig, sollten Sie die Lieferziele in einzelne Schritte unterteilen, um den Umfang des Projekts richtig steuern zu können.
