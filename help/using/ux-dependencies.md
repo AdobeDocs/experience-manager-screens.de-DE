@@ -4,7 +4,7 @@ seo-title: UX-Abhängigkeiten für [!UICONTROL AEM Screens]
 description: In diesem Handbuch werden UX-Abhängigkeiten für [!UICONTROL AEM Screens] beschrieben.
 seo-description: In diesem Handbuch werden UX-Abhängigkeiten für [!UICONTROL AEM Screens] beschrieben.
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '151'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Bei der Definition der Hardware-Inhaltsstrategie sollten folgende Fragen berück
 
 1. Sind Interaktionen (d. h. Touchscreen, Bewegungserkennung) erforderlich?
 
-1. Welchen Zweck hat die Digital Signage-Lösung?
+1. Welchen Zweck hat die Digital-Signage-Lösung?
 
    * Ist sie für Produktkonfiguration bestimmt?
    * Handelt es sich um Wegweiser?
