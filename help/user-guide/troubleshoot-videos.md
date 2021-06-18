@@ -13,7 +13,7 @@ feature: Kanäle, interaktiv
 role: Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '846'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Wenn Sie ein Video zu DAM hochladen und zu Ihrem Kanal hinzufügen, kann möglic
 
 In den folgenden Abschnitten werden das Debugging und die Problembehebung für die Videowiedergabe in Ihrem Kanal beschrieben.
 
-## DAM-Ausgaben  {#dam-renditions}
+## DAM-Ausgaben {#dam-renditions}
 
 Wenn Sie das Video in den Kanal hochgeladen haben, sollte AEM damit beginnen, einige Ausgaben dafür zu erzeugen. Sie können Ihre Videos unter „Assets“ anzeigen.
 
@@ -73,7 +73,7 @@ Vergewissern Sie sich, dass ffmpeg installiert ist, und prüfen Sie die Videopro
    >
    >Stellen Sie sicher, dass Sie lange genug warten, bis das Video transkodiert wurde (es sollte das Tag „neu“ aufweisen statt „in Bearbeitung“), bevor Sie es zu einem Kanal hinzufügen.
 
-### Testen des Profils mit einer Videokomponente  {#checking-profile-with-a-video-component}
+### Testen des Profils mit einer Videokomponente {#checking-profile-with-a-video-component}
 
 Prüfen Sie die Liste der Profile über die Design-Seite, wenn die Videokomponente nicht korrekt konfiguriert ist.
 
