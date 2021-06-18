@@ -14,7 +14,7 @@ feature: Verwalten von Screens
 role: Administrator, Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '704'
 ht-degree: 100%
 
@@ -54,12 +54,12 @@ In diesem Abschnitt werden folgende Funktionen beschrieben, die beim Verbinden e
 
 Eine Integration von Adobe Analytics mit AEM Screens hat somit folgende *Ziele*:
 
-* Fördern des ROI bei der Implementierung digitaler Beschilderungen
+* Fördern des ROI bei der Implementierung von Digital Signage
 * Integrieren von Analytics als Grundlage für die künftige Erfassung und Analyse von Nutzungsdaten
 
 ## Architekturdetails {#architectural-details}
 
-Ein AEM Screens-Kunde möchte wissen, welche Inhalte wann wie lange angezeigt wurden (aggregiert). Dies ist eine gebräuchliche Funktion einer Beschilderungslösung. Statt eigene Analysen zu erstellen, nutzt AEM Screens Adobe Analytics, um etwas branchenweit Einzigartiges zu ermöglichen: kanalübergreifende Analysen, die dabei helfen, lokale angezeigte Inhalte mit anderen Datenquellen zu korrelieren.
+Ein AEM Screens-Kunde möchte wissen, welche Inhalte wann wie lange angezeigt wurden (aggregiert). Dies ist eine gebräuchliche Funktion einer Signage-Lösung. Statt eigene Analysen zu erstellen, nutzt AEM Screens Adobe Analytics, um etwas branchenweit Einzigartiges zu ermöglichen: kanalübergreifende Analysen, die dabei helfen, lokale angezeigte Inhalte mit anderen Datenquellen zu korrelieren.
 
 Im folgenden Architekturdiagramm wird die Integration von Adobe Analytics mit AEM Screens veranschaulicht:
 
