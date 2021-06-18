@@ -1,11 +1,11 @@
 ---
 title: Versionshinweise für Feature Pack 202103
-description: „Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 202103, das am Freitag, 5. März 2021 veröffentlicht wurde.“
+description: „Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 202103, das am 5. März 2021 veröffentlicht wurde.“
 feature: Feature Pack
 role: Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '396'
 ht-degree: 100%
 
@@ -65,7 +65,7 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 202103 ist der 5. Mär
 
 Die folgenden AEM Screens-Player sind für AEM 6.5 Feature Pack 7 verfügbar:
 
-* Chrome OS
+* Chrome OS
 * Windows
 * Linux
 
