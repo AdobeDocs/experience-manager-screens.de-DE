@@ -1,8 +1,8 @@
 ---
 title: Versionshinweise für Feature Pack 201907
 seo-title: Versionshinweise für Feature Pack 201907
-description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 201907, das am Mittwoch, 31. Juli 2019 veröffentlicht wurde.
-seo-description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 201907, das am Mittwoch, 31. Juli 2019 veröffentlicht wurde.
+description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 201907, das am 31. Juli 2019 veröffentlicht wurde.
+seo-description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 201907, das am 31. Juli 2019 veröffentlicht wurde.
 uuid: e5349c92-d532-4f04-a757-7c4545cdb074
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -14,7 +14,7 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '386'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ AEM Screens hat AEM 6.4.5 Feature Pack 5 und AEM 6.5.1 Feature Pack 1 mit folgen
 
 ## Veröffentlichungsdatum {#release-date}
 
-Das Veröffentlichungsdatum für AEM Screens Feature Pack 201907 ist der Mittwoch, 31. Juli 2019.
+Das Veröffentlichungsdatum für AEM Screens Feature Pack 201907 ist der 31. Juli 2019.
 
 ### Neuerungen {#what-s-new}
 
