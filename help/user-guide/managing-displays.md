@@ -13,7 +13,7 @@ feature: Inhaltserstellung in Screens
 role: Administrator, Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '775'
 ht-degree: 100%
 
@@ -69,13 +69,13 @@ Nachdem Sie die Anzeige positioniert haben, besteht der nächste Schritt darin, 
 
 ## Erstellen einer neuen Gerätekonfiguration {#creating-a-new-device-config}
 
-Eine Gerätekonfiguration fungiert als Platzhalter für ein digitales Beschilderungsgerät, das noch nicht installiert ist.
+Eine Gerätekonfiguration fungiert als Platzhalter für ein Digital-Signage-Gerät, das noch nicht installiert ist.
 
 Gehen Sie wie folgt vor, um eine neue Gerätekonfiguration zu erstellen:
 
 1. Navigieren Sie zur entsprechenden Anzeige, z. B. `http://localhost:4502/screens.html/content/screens/TestProject/locations/newlocation`.
 1. Wählen Sie Ihren Anzeigenordner aus und tippen/klicken Sie in der Aktionsleiste auf **Dashboard anzeigen**.
-1. Tippen/klicken Sie in der oberen rechten Ecke des Bedienfelds **Geräte** auf **+ Gerätekonfiguration hinzufügen**.
+1. Tippen/klicken Sie in der oberen rechten Ecke des Bedienfelds **Geräte** auf **+ Gerätekonfiguration hinzufügen**.
 
 1. Wählen Sie **Gerätekonfiguration** als die erforderliche Vorlage aus und tippen/klicken Sie auf **Weiter**.
 
