@@ -14,7 +14,7 @@ feature: Überblick
 role: Business Practitioner, Data Architect
 level: Beginner
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '723'
 ht-degree: 100%
 
@@ -33,13 +33,13 @@ Für alle Beteiligten ist es wichtig zu verstehen, wofür der AV-Integrator vera
 
 >[!NOTE]
 >
->Die Identifizierung eines AV-Integrators mit Erfahrung im Projekt-Management von skalierten Bereitstellungen für digitale Beschilderung ist für den langfristigen Erfolg äußerst wichtig. Es wird dringend empfohlen, die Projektpläne zwischen AV-Integrator und AEM-Implementor zu vergleichen, um sicherzustellen, dass sie bei der Entwicklung und Fertigstellung der Pläne aufeinander abgestimmt werden.
+>Die Identifizierung eines AV-Integrators mit Erfahrung im Projekt-Management von skalierten Bereitstellungen für Digital Signage ist für den langfristigen Erfolg äußerst wichtig. Es wird dringend empfohlen, die Projektpläne zwischen AV-Integrator und AEM-Implementor zu vergleichen, um sicherzustellen, dass sie bei der Entwicklung und Fertigstellung der Pläne aufeinander abgestimmt werden.
 >
 >Partner, die einen ganzheitlichen Ansatz bei der Verwaltung von „Projektvorbereitung“, „Projektinitiierung“ und „Projektfortschritt“ wählen, helfen dabei sicherzustellen, dass Ihre Endkunden in der Lage sind, den größtmöglichen Nutzen aus ihrer Investition zu ziehen
 
 ## Zusammenfassung aller drei Phasen des Projekt-Managements {#summary-of-all-three-phases-in-project-management}
 
-Zur Sicherstellung einer erfolgreichen Bereitstellung digitaler Beschilderung ist es üblich, ein Projekt in drei Schritte zu unterteilen. Diese Schritte werden häufig als ***Tage*** bezeichnet.
+Zur Sicherstellung einer erfolgreichen Bereitstellung von Digital Signage ist es üblich, ein Projekt in drei Schritte zu unterteilen. Diese Schritte werden häufig als ***Tage*** bezeichnet.
 
 ### Aktivitäten am Tag 0 {#day-zero-activities}
 
