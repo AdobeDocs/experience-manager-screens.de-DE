@@ -13,7 +13,7 @@ feature: Inhaltserstellung in Screens
 role: Administrator, Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '558'
 ht-degree: 100%
 
@@ -68,9 +68,9 @@ Gehen Sie wie folgt vor, um die Einstellungen für E-Mail-Benachrichtigungen zu 
 
    **Ping-Timeout**: Gibt das Intervall in Minuten an, nach dem ein Gerät als nicht erreichbar betrachtet werden soll.
 
-   **SMTP-Server** Gibt den SMTP-Server an, der zum Senden von E-Mails verwendet werden soll.
+   **SMTP-Server**: Gibt den SMTP-Server an, der zum Senden von E-Mails verwendet werden soll.
 
-   **SMTP-Port** Gibt den SMTP-Port an.
+   **SMTP-Port**: Gibt den SMTP-Port an.
 
    **Mit TLS**: Mit Transport Layer Security (TLS) können Sie für eine sichere Kommunikation mit dem SMTP-Server sorgen.
 
