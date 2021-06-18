@@ -1,8 +1,8 @@
 ---
 title: Versionshinweise für Feature Pack 201809
 seo-title: Versionshinweise für Feature Pack 201809
-description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 201809, das am Montag, 1. Oktober 2018 veröffentlicht wurde.
-seo-description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 201809, das am Montag, 1. Oktober 2018 veröffentlicht wurde.
+description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 201809, das am 1. Oktober 2018 veröffentlicht wurde.
+seo-description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 201809, das am 1. Oktober 2018 veröffentlicht wurde.
 uuid: 48240e27-e4c2-48bc-bcca-2a2ec93edc47
 contentOwner: jsyal
 content-type: reference
@@ -13,7 +13,7 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '267'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ AEM Screens hat AEM 6.4.2 Feature Pack 2 und AEM 6.3.3 Feature Pack 4 mit folgen
 
 ## Veröffentlichungsdatum {#release-date}
 
-Das Veröffentlichungsdatum für AEM Screens Feature Pack 201809 ist der Montag, 1. Oktober 2018.
+Das Veröffentlichungsdatum für AEM Screens Feature Pack 201809 ist der 1. Oktober 2018.
 
 ### Neuerungen {#what-s-new}
 
