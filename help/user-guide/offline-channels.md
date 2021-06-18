@@ -14,7 +14,7 @@ feature: Entwicklung in Screens
 role: Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '483'
 ht-degree: 100%
 
@@ -37,11 +37,11 @@ Der Workflow für den Prozess ist wie folgt:
 1. Laden Sie die ZIP-Datei herunter und extrahieren Sie sie lokal
 1. Anzeigen einer lokaler Kopie des Inhalts
 
-## Update-Handler  {#update-handlers}
+## Update-Handler {#update-handlers}
 
 ***ContentSync*** verwendet Update-Handler, um alle erforderlichen Seiten und Assets für ein bestimmtes Projekt zu analysieren und zu sammeln. AEM Screens verwendet die folgenden Update-Handler:
 
-### Allgemeine Optionen  {#common-options}
+### Allgemeine Optionen {#common-options}
 
 * *type*: Der zu verwendende Update-Handler-Typ
 * *path*: Pfad zur Ressource
@@ -90,7 +90,7 @@ Befolgen Sie die folgenden Schritte, um die ContentSync-Konfiguration zu testen:
 1. Starten Sie einen lokalen Server im extrahierten Ordner
 1. Öffnen Sie Ihre Startseite und überprüfen Sie Ihren Anwendungsstatus
 
-## Aktivieren der Offline-Konfiguration für einen Kanal  {#enabling-offline-config-for-a-channel}
+## Aktivieren der Offline-Konfiguration für einen Kanal {#enabling-offline-config-for-a-channel}
 
 Befolgen Sie die folgenden Schritte, um die Offline-Konfiguration für einen Kanal zu aktivieren:
 
