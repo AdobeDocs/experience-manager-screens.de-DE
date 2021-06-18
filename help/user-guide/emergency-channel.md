@@ -13,7 +13,7 @@ feature: Inhaltserstellung in Screens
 role: Administrator, Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '814'
 ht-degree: 100%
 
@@ -108,7 +108,7 @@ Gehen Sie wie folgt vor, um einen Notfallkanal einzurichten:
 
    1. Wählen Sie den Zeitplan **(StoreSchedule)** aus und klicken Sie in der Aktionsleiste auf **Dashboard**.
 
-   1. Klicken Sie im Bedienfeld **ZUGEWIESENE KANÄLE** auf **+Kanal zuweisen**.
+   1. Klicken Sie im Bedienfeld **ZUGEWIESENE KANÄLE** auf **+ Kanal zuweisen**.
 
    1. Wählen Sie im Dialogfeld **Kanalzuweisung** Folgendes aus:
 
@@ -124,7 +124,7 @@ Gehen Sie wie folgt vor, um einen Notfallkanal einzurichten:
 
    ![screen_shot_2019-03-04at104636am](assets/screen_shot_2019-03-04at104636am.png)
 
-1. Klicken Sie im Bedienfeld **ZUGEWIESENE KANÄLE** auf **+Kanal zuweisen**.
+1. Klicken Sie im Bedienfeld **ZUGEWIESENE KANÄLE** auf **+ Kanal zuweisen**.
 
 1. Wählen Sie im Dialogfeld **Kanalzuweisung** Folgendes aus:
 
@@ -146,7 +146,7 @@ Gehen Sie wie folgt vor, um einen Notfallkanal einzurichten:
    1. Navigieren Sie zu jeder Anzeige, z. B. **EmergencyChannel** > **Standorte** > **Store** > **StoreFront**.
 
    1. Klicken Sie in der Aktionsleiste auf **Dashboard**, um das Anzeigen-Dashboard zu öffnen.
-   1. Klicken Sie auf **...** im Bedienfeld **ZUGEWIESENE KANÄLE UND ZEITPLÄNE** und klicken Sie auf **+Zeitplan zuweisen**.
+   1. Klicken Sie auf **...** im Bedienfeld **ZUGEWIESENE KANÄLE UND ZEITPLÄNE** und klicken Sie auf **+ Zeitplan zuweisen**.
 
    1. Wählen Sie den Pfad zum Zeitplan aus (hier z. B. **EmergencyChannel** > **Zeitpläne** > **StoreSchedule**).
 
