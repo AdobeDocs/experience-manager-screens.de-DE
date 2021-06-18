@@ -9,7 +9,7 @@ feature: Inhaltserstellung in Screens
 role: Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '856'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ Gehen Sie wie folgt vor, um Inhaltsaktualisierungen vom Autor zur Veröffentlich
 
    ![screen_shot_2019-02-25at22712pm](assets/screen_shot_2019-02-25at22712pm.png)
 
-1. Klicken Sie in der Aktionsleiste auf **+Untergeordnete Elemente einbeziehen**. Deaktivieren Sie alle Optionen, um alle Module im Projekt zu veröffentlichen, und klicken Sie auf **Hinzufügen**, um sie zu veröffentlichen.
+1. Klicken Sie in der Aktionsleiste auf **+ Untergeordnete Elemente einbeziehen**. Deaktivieren Sie alle Optionen, um alle Module im Projekt zu veröffentlichen, und klicken Sie auf **Hinzufügen**, um sie zu veröffentlichen.
 
    >[!NOTE]
    >
