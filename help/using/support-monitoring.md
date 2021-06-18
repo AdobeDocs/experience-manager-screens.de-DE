@@ -4,7 +4,7 @@ seo-title: Support-Überwachung für AEM Screens
 description: Auf dieser Seite werden die Best Practices für die Support-Überwachung von AEM Screens beschrieben.
 seo-description: Auf dieser Seite werden die Best Practices für die Support-Überwachung von AEM Screens beschrieben.
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '225'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Support-Überwachung {#support-monitoring}
 
-Dieser Abschnitt enthält Best Practices zum Verwalten von Fehlern bei Geräten und Inhalten in Digital Signage-Projekten.
+Dieser Abschnitt enthält Best Practices zum Verwalten von Fehlern bei Geräten und Inhalten in Digital-Signage-Projekten.
 
 Support-Überwachung umfasst:
 
