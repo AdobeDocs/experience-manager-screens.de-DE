@@ -14,7 +14,7 @@ feature: Verwalten von Screens
 role: Administrator
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '700'
 ht-degree: 100%
 
@@ -80,6 +80,7 @@ Im folgenden Abschnitt wird beschrieben, wie der Projekt-Importer in einem AEM S
 >
 >* Andere Dateien als CSV/XLS/XLSX-Erweiterungen werden in der aktuellen Version nicht unterstützt.
 >* Für importierte Dateien gibt es keine Filterung der Eigenschaften und es wird alles importiert, was mit „./“ beginnt.
+
 >
 
 
@@ -92,7 +93,7 @@ Im folgenden Abschnitt wird beschrieben, wie der Projekt-Importer in einem AEM S
 
 Zu Demozwecken können Sie eine Excel-Datei aus dem folgenden Abschnitt herunterladen.
 
-[Datei laden](assets/minimal-file.xls)
+[Datei abrufen](assets/minimal-file.xls)
 
 ### Importieren der Datei mit den erforderlichen Mindestfeldern {#importing-the-file-with-minimum-required-fields}
 
@@ -108,7 +109,7 @@ Gehen Sie wie folgt vor, um eine Datei mit den erforderlichen Mindestfeldern in 
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. Wählen Sie das Projekt „DemoProjectImporter **>** Erstellen **>** „Importverzeichnisse“ aus der Seitenleiste aus.
+1. Wählen Sie das Projekt **DemoProjectImporter **>** Erstellen **>** Importverzeichnisse** aus der Seitenleiste aus.
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 
