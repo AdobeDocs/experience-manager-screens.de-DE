@@ -2,7 +2,7 @@
 title: Direkter Internet-Zugriff
 description: Direkter Internet-Zugriff
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '697'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ Das Netzwerk für direkten Internet-Zugriff beinhaltet einen Internet-Zugangspun
 AEM Screens verwendet für die Kommunikation standardmäßig die folgenden Ports:
 * `ssl-secured https (TCP Port 443)`
 
-   <br> oder </br>
+   <br> oder</br>
 
 * `http (TCP Port 80)`, wenn Ihr bestimmter Anwendungsfall nicht diese Sicherheitsstufe erfordert.
 
@@ -26,7 +26,7 @@ Abhängig von Ihrer jeweiligen AEM-Konfiguration weichen die Ports bei Ihnen mö
 
 Ferner beinhaltet die Konfiguration einen von einem Internet-Dienstanbieter (Internet Service Provider, ISP) bezogenen Internet-Zugang und die zugehörige Verbindung zum Internet. Die meisten ISPs bieten Internet-Router, die Internet-Modem, Netzwerk-Switch, WLAN-Zugangspunkt, Firewall und andere Netzwerkfunktionen vereinen (je nach Hersteller und Modell).
 
-## Anbinden von AEM Screens-Playern an ein Netzwerk für direkten Internet-Zugriff{#connecting-aem-screens-players}
+## Anbinden von AEM Screens-Playern an ein Netzwerk für direkten Internet-Zugriff {#connecting-aem-screens-players}
 
 Gehen Sie für eine in dieser Konfiguration ordnungsgemäße Anbindung der AEM Screens-Player wie folgt vor:
 
