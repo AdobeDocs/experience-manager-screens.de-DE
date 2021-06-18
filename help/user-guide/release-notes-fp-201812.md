@@ -1,8 +1,8 @@
 ---
 title: Versionshinweise für Feature Pack 201812
 seo-title: Versionshinweise für Feature Pack 201812
-description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 201812, das am Mittwoch, 16. Januar 2019 veröffentlicht wurde.
-seo-description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 201812, das am Mittwoch, 16. Januar 2019 veröffentlicht wurde.
+description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 201812, das am 16. Januar 2019 veröffentlicht wurde.
+seo-description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 201812, das am 16. Januar 2019 veröffentlicht wurde.
 uuid: 7cc8dd96-5965-4af0-bebc-9d4941481734
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -14,7 +14,7 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '277'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ AEM Screens hat AEM 6.3 Feature Pack 5 und AEM 6.4 Feature Pack 3 mit folgenden 
 
 ## Veröffentlichungsdatum {#release-date}
 
-Das Veröffentlichungsdatum für AEM Screens Feature Pack 201812 ist der Mittwoch, 16. Januar 2019.
+Das Veröffentlichungsdatum für AEM Screens Feature Pack 201812 ist der 16. Januar 2019.
 
 ### Neuerungen {#what-s-new}
 
