@@ -13,7 +13,7 @@ feature: Inhaltserstellung in Screens
 role: Administrator, Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '724'
 ht-degree: 100%
 
@@ -68,7 +68,7 @@ Um den Inhalt einer Live Copy anzuzeigen, gehen Sie wie folgt vor:
    >
    >Wenn Sie Inhalte für einen Live Copy-Kanal anzeigen, sehen Sie im Menü ein zusätzliches Element als **Live Copy-Status**. Weitere Informationen finden Sie im folgenden Abschnitt.
 
-### Anzeigen der Eigenschaften einer Live Copy  {#viewing-properties-of-a-live-copy}
+### Anzeigen der Eigenschaften einer Live Copy {#viewing-properties-of-a-live-copy}
 
 Außerdem können Sie die Eigenschaften Ihres Live Copy-Kanals anzeigen.
 
