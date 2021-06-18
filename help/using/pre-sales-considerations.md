@@ -4,7 +4,7 @@ seo-title: Überlegungen zum Projektumfang
 description: Auf dieser Seite werden Erwägungen zum Projektumfang beschrieben.
 seo-description: Auf dieser Seite werden Erwägungen zum Projektumfang beschrieben.
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '301'
 ht-degree: 100%
 
@@ -33,4 +33,4 @@ Zu den wichtigsten Lieferzielen in diesem Schritt zählen:
 >
 >Ermitteln Sie so früh wie möglich Art und Herkunft der Daten, die für die Anwendung benötigt werden. Auch wenn bei der Implementierung eine tiefgehendere Untersuchung durchgeführt wird, sollten Sie sich an *Tag 0* Zeit nehmen, um herauszufinden, welche Daten der Kunde verwenden möchte, wo diese Daten derzeit gespeichert sind und wie sie von der erstellten Anwendung aufgerufen werden können. Benachrichtigungen an das Entwicklungsteam über kommende Herausforderungen tragen zu einer reibungsloseren Implementierung bei.
 
-Weitere Informationen dazu finden Sie im Video-Tutorial [Überlegungen zum Projektumfang](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-considerations.html).
+Weitere Informationen dazu finden Sie im Video-Tutorial [Überlegungen zum Projektumfang](https://helpx.adobe.com/de/experience-manager/6-5/screens/using/project-considerations.html).
