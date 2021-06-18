@@ -8,7 +8,7 @@ feature-set: Experience Manager Screens
 product: experience manager
 audience: end-user
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '138'
 ht-degree: 100%
 
@@ -22,21 +22,21 @@ ht-degree: 100%
    + [Einführung in AEM Screens](introduction.md)
    + [Projektrollen und Zuständigkeiten](roles-responsibilities.md)
    + [Voraussetzungen](pre-requisites.md)
-   + [Schlüsselelemente eines Digital Signage-Projekts](getting-started-digital-signage.md)
+   + [Schlüsselelemente eines Digital-Signage-Projekts](getting-started-digital-signage.md)
    + [Empfohlener Ansatz](recommended-approach.md)
 + Strategische Hinweise {#strategic-brief}
    + [Überlegungen zum Projektumfang](pre-sales-considerations.md)
    + [Business Content in UX-Strategien](business-content-strategy.md)
    + [UX-Abhängigkeiten](ux-dependencies.md)
-   + [Integration in Analytics](analytics.md)
-+ Designhinweise {#design-brief}
-   + [UX Journey Map](journey-map.md)
+   + [Integration mit Analytics](analytics.md)
++ Design-Hinweise {#design-brief}
+   + [UX-Journey-Map](journey-map.md)
    + [UX-Prototypen](prototypes.md)
    + [UX-Wireframing](wireframes.md)
-   + [Übergang zur Plattform](transition-platform.md)
+   + [Wechsel zu Plattform](transition-platform.md)
    + [Dynamic Creative Optimization](dynamic-creative-optimizations.md)
 + Implementierungshinweise {#deployment-brief}
-   + [AEM-Plattformkonfigurationen](aem-platform-configurations.md)
+   + [AEM Platform-Konfigurationen](aem-platform-configurations.md)
    + [Projekttaxonomie und -implementierung](project-taxonomy-implementation.md)
    + Verwaltung des Netzwerk-Traffics {#manage-network-traffic}
       + [Verwalten des Netzwerk-Traffics](/help/using/managing-network-traffic.md)
@@ -49,4 +49,4 @@ ht-degree: 100%
    + [Interaktionsstrategie für Anbieter](vendor-engagement.md)
 + Support und Wartung {#ongoing-support}
    + [Support und Überwachung](support-monitoring.md)
-   + [Tag 2 – Plattformsupport und -wartung](day-two-support-maintenance.md)
+   + [Tag 2 – Plattform-Support und -wartung](day-two-support-maintenance.md)
