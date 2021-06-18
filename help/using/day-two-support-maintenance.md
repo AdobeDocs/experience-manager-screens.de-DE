@@ -4,7 +4,7 @@ seo-title: Tag 2 – Support und Wartung für AEM Screens
 description: Auf dieser Seite wird „Tag 2 – Support und Wartung“ beschrieben.
 seo-description: Auf dieser Seite wird „Tag 2 – Support und Wartung“ beschrieben.
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '155'
 ht-degree: 100%
 
