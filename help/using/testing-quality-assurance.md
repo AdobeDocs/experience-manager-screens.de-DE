@@ -4,7 +4,7 @@ seo-title: Tests und Qualitätssicherung für AEM Screens
 description: Auf dieser Seite werden die Best Practices für Tests und die Qualitätssicherung von AEM Screens beschrieben.
 seo-description: Auf dieser Seite werden die Best Practices für Tests und die Qualitätssicherung von AEM Screens beschrieben.
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '361'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 >[!NOTE]
 >Typische Verantwortliche für diese Aktivität sind A/V-Integratoren.
 
-Da wir uns der realen Implementierung des Netzwerks für digitale Beschilderung nähern, sollten wir einen Test- und QA-Plan erstellen, der alle Elemente des Netzwerks einschließlich der Hardwarekomponenten, Softwarekomponenten und Netzwerkkomponenten umfasst.
+Da wir uns der realen Implementierung des Netzwerks für Digital Signage nähern, sollten wir einen Test- und QA-Plan erstellen, der alle Elemente des Netzwerks einschließlich der Hardwarekomponenten, Softwarekomponenten und Netzwerkkomponenten umfasst.
 In dem Schritt sollten vollständige Prüfsysteme eingerichtet und gründlich getestet werden.
 
 Es sollte eine Checkliste erstellt werden, in der alle zuvor definierten KPIs aufgeführt und anhand der entsprechenden Lieferziele gemessen werden.
@@ -31,7 +31,7 @@ Folgende Elemente sollten berücksichtigt werden:
 
 Folgende Überlegungen in Bezug auf die Mechanik werden empfohlen:
 
-* Displaymontage
+* Display-Montage
 * Player-Montage
 * Lüftung
 * Peripheriegeräte
@@ -60,7 +60,7 @@ Mit diesem Modul können Sie:
 1. Inhaltsdownloads verwalten
 1. Probleme beim Neustart der Anwendung beheben
 
-Ausführliche Informationen zur ***Gerätesteuerung*** finden Sie im Abschnitt [Problembehandlung in der Gerätesteuerung](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) des **AEM Screens-Benutzerhandbuchs**.
+Ausführliche Informationen zur ***Gerätesteuerung*** finden Sie im Abschnitt [Problembehandlung in der Gerätesteuerung](https://helpx.adobe.com/de/experience-manager/6-5/screens/using/monitoring-screens.html) des **AEM Screens-Benutzerhandbuchs**.
 
 >[!CAUTION]
 >
