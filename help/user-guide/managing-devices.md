@@ -13,7 +13,7 @@ feature: Inhaltserstellung in Screens
 role: Administrator, Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '270'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Die Gerätekonsole erlaubt es Ihnen, auf den Geräte-Manager zuzugreifen, um Ihr
 >
 >Vor dem Zuweisen müssen Sie das Gerät registrieren. Weitere Informationen finden Sie unter [Geräteregistrierung](device-registration.md).
 
-## Gerätezuweisung  {#device-assignment}
+## Gerätezuweisung {#device-assignment}
 
 Gehen Sie wie folgt vor, um ein Gerät einer Anzeige zuzuweisen:
 
