@@ -5,7 +5,7 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '283'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ Weitere Informationen finden Sie unter [Suchen eines Geräts über den Geräte-M
 
 Die folgenden AEM Screens-Player sind für AEM 6.5 Feature Pack 6 verfügbar:
 
-* Chrome OS
+* Chrome OS
 * Windows
 * Android
 * Tizen
