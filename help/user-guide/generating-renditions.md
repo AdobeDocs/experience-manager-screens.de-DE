@@ -13,7 +13,7 @@ feature: Inhaltserstellung in Screens
 role: Administrator, Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '427'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 Es ist möglich, manuelle und automatische Full HD-Ausgabeformate zu generieren. Im folgenden Abschnitt wird der Workflow zum Hinzufügen von Ausgabeformaten zu Assets beschrieben.
 
-## Automatisches Generieren von Full HD-Ausgabeformaten   {#automatically-generating-full-hd-renditions}
+## Automatisches Generieren von Full HD-Ausgabeformaten {#automatically-generating-full-hd-renditions}
 
 >[!NOTE]
 >
