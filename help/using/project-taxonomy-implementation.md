@@ -4,7 +4,7 @@ seo-title: 'Projekttaxonomie '
 description: Auf dieser Seite wird die Projekttaxonomie beschrieben.
 seo-description: Auf dieser Seite wird die Projekttaxonomie beschrieben.
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '331'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Vor der Erstellung eines AEM Screens-Projekts müssen Sie alle Komponenten, die in der UX Wireframing-Phase des Projekts definiert wurden, verstehen und strategisch ausrichten.
 
-Achten Sie vor Implementierung der Digital Signage-Lösung mit AEM Screens auf folgende Elemente:
+Achten Sie vor Implementierung der Digital-Signage-Lösung mit AEM Screens auf folgende Elemente:
 
 * **Standorte**
 * **Medienbereiche**
@@ -27,7 +27,7 @@ Achten Sie vor Implementierung der Digital Signage-Lösung mit AEM Screens auf f
 * **Zeitplan**
 * **Vorschau des Inhalts**
 
-Weitere Informationen zu diesen Begriffen finden Sie im [Glossar](https://helpx.adobe.com/experience-manager/6-5/screens/using/screens-glossary.html).
+Weitere Informationen zu diesen Begriffen finden Sie im [Glossar](https://helpx.adobe.com/de/experience-manager/6-5/screens/using/screens-glossary.html).
 
 >[!NOTE]
 >
@@ -47,14 +47,14 @@ Autoren sind in AEM Screens für die Erstellung und Verwaltung des Benutzererleb
 
 Autoren starten ein AEM Screens-Projekt normalerweise durch:
 
-* [Erstellen eines AEM Screens-Projekts](https://helpx.adobe.com/experience-manager/6-5/screens/using/creating-a-screens-project.html)
-* [Erstellen von Kanälen](https://helpx.adobe.com/experience-manager/6-5/screens/using/managing-channels.html)
-* [Hinzufügen von Komponenten und Assets zum Kanal](https://helpx.adobe.com/experience-manager/6-5/screens/using/adding-components-to-a-channel.html)
-* [Erstellen von Zeitplänen](https://helpx.adobe.com/experience-manager/6-5/screens/using/managing-schedules.html)
-* [Erstellen von Standorten](https://helpx.adobe.com/experience-manager/6-5/screens/using/managing-locations.html)
-* [Erstellen von Displays](https://helpx.adobe.com/experience-manager/6-5/screens/using/managing-displays.html)
-* [Zuweisen von Kanälen zu den Displays](https://helpx.adobe.com/experience-manager/6-5/screens/using/channel-assignment.html)
-* [Anzeigen von Inhalten in einem AEM Screens-Player](https://helpx.adobe.com/experience-manager/6-5/screens/using/working-with-screens-player.html)
+* [Erstellen eines AEM Screens-Projekts](https://helpx.adobe.com/de/experience-manager/6-5/screens/using/creating-a-screens-project.html)
+* [Erstellen von Kanälen](https://helpx.adobe.com/de/experience-manager/6-5/screens/using/managing-channels.html)
+* [Hinzufügen von Komponenten und Assets zum Kanal](https://helpx.adobe.com/de/experience-manager/6-5/screens/using/adding-components-to-a-channel.html)
+* [Erstellen von Zeitplänen](https://helpx.adobe.com/de/experience-manager/6-5/screens/using/managing-schedules.html)
+* [Erstellen von Standorten](https://helpx.adobe.com/de/experience-manager/6-5/screens/using/managing-locations.html)
+* [Erstellen von Displays](https://helpx.adobe.com/de/experience-manager/6-5/screens/using/managing-displays.html)
+* [Zuweisen von Kanälen zu den Displays](https://helpx.adobe.com/de/experience-manager/6-5/screens/using/channel-assignment.html)
+* [Anzeigen von Inhalten in einem AEM Screens-Player](https://helpx.adobe.com/de/experience-manager/6-5/screens/using/working-with-screens-player.html)
 
 >[!NOTE]
->Darüber hinaus können Sie verschiedene Standorte aus einer CSV/XLS-Tabelle per Massenimport in Ihr AEM Screens-Projekt importieren. Weitere Informationen finden Sie unter [Importer für neue Projekte aus Datei](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-importer.html).
+>Darüber hinaus können Sie verschiedene Standorte aus einer CSV/XLS-Tabelle per Massenimport in Ihr AEM Screens-Projekt importieren. Weitere Informationen finden Sie unter [Importer für neue Projekte aus Datei](https://helpx.adobe.com/de/experience-manager/6-5/screens/using/project-importer.html).
