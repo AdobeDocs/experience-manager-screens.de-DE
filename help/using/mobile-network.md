@@ -2,14 +2,14 @@
 title: Netzwerk für Direktanbindung an Mobilfunknetze
 description: Auf dieser Seite wird die Konfiguration von Netzwerken für die Direktanbindung an Mobilfunknetze beschrieben.
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '861'
 ht-degree: 100%
 
 ---
 
 
-# Netzwerk für Direktanbindung an Mobilfunknetze{#mobile-network-setup}
+# Netzwerk für Direktanbindung an Mobilfunknetze {#mobile-network-setup}
 
 AEM Screens-Player können auch über Mobilfunknetze angebunden werden, sofern die Datenübertragung mindestens nach 3G-Standard erfolgt.
 
@@ -23,7 +23,7 @@ Die Konfiguration für die Direktanbindung an Mobilfunknetze umfasst ein einzeln
 
 ![](/help/using/assets/direct-mobile-1.png)
 
-## Verbinden von AEM Screens-Playern mit dem Netzwerk für die Direktanbindung an ein Mobilfunknetz{#connecting-aem-screens-players}
+## Verbinden von AEM Screens-Playern mit dem Netzwerk für die Direktanbindung an ein Mobilfunknetz {#connecting-aem-screens-players}
 
 Gehen Sie für eine in dieser Konfiguration ordnungsgemäße Anbindung der AEM Screens-Player wie folgt vor:
 
@@ -68,7 +68,7 @@ Die mindestens vom Daten-Abo abzudeckende Kapazität beträgt:
 
 
 >[!IMPORTANT]
->Für den erstmaligen Upload der Mediendateien, z. B. bei der Integration neuer Player, muss ein höheres Datenvolumen und eine längere Download-Zeit einkalkuliert und in den oben ausgeführten Schätzungen berücksichtigt werden. Ein 4G-Netz mit *guter* Abdeckung und unbegrenztem Datenvolumen sollte für die im Rahmen dieser Netzwerkkonfiguration gängigsten Installationen jedoch ausreichen.**
+>Für den erstmaligen Upload der Mediendateien, z. B. bei der Integration neuer Player, muss ein höheres Datenvolumen und eine längere Download-Zeit einkalkuliert und in den oben ausgeführten Schätzungen berücksichtigt werden. Ein 4G-Netz mit *guter* Abdeckung und *unbegrenztem* Datenvolumen sollte für die im Rahmen dieser Netzwerkkonfiguration gängigsten Installationen jedoch ausreichen.
 
 >[!NOTE]
 >Ein Abonnement mit Datenübertragung mindestens nach 3G-Standard und guter Netzabdeckung sollte für einen AEM Screens-Player eine akzeptable Download-Leistung liefern. Bei nur mäßiger Abdeckung an einem bestimmten Standort sollte in Betracht gezogen werden, die gesamte Netzwerkkonfiguration auf ein [mobiles Netzwerk mit mobilem WLAN-Router und aktiven Netzwerkkomponenten ](/help/using/mobile-network-router.md) umzustellen.
