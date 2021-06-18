@@ -14,7 +14,7 @@ feature: Überblick
 role: Business Practitioner, Data Architect
 level: Beginner
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '635'
 ht-degree: 100%
 
@@ -33,8 +33,10 @@ Diese Seite enthält den letzten Teil einer 5-teiligen Serie, der Team-Mitgliede
 >
 >* Projektbereitstellung vor Ort
 >* Überprüfung von Gerätekonnektivität und -betrieb durch den Installationstechniker und das NOC (Network Operations Center)
+
 >
->Vor Beginn von Tag 2 sollte die Planung für laufende Lebenszyklusbudgets abgeschlossen werden.
+>
+Vor Beginn von Tag 2 sollte die Planung für laufende Lebenszyklusbudgets abgeschlossen werden.
 
 Die Planung umfasst:
 
@@ -48,9 +50,9 @@ Die Planung umfasst:
 Im Folgenden finden Sie einige wichtige Aspekte für Tag 2-Support:
 
 * Um die Ausrichtung und einen reibungslosen Übergang von der Implementierung zur Betriebsunterstützung sicherzustellen, muss der AEM-Implementor mit dem AV-Integrator zusammenarbeiten und dafür sorgen, dass im Rahmen des Tag 2-Support-Plans geeignete Support-Skripte festgelegt werden.
-* Anforderungen wie Remote-Geräteverwaltung, Helpdesk-Verfügbarkeit und Vor­Ort-Support durch Techniker werden in diesem Stadium der Entwicklung der Branche für digitale Beschilderung praktisch vorausgesetzt. Neben diesen Grundanforderungen sollten AV-Integratoren auch Kostenvariablen für proaktive und reaktive Überwachungs- und Support-Modelle evaluieren.
+* Anforderungen wie Remote-Geräteverwaltung, Helpdesk-Verfügbarkeit und Vor­Ort-Support durch Techniker werden in diesem Stadium der Entwicklung der Branche für Digital Signage praktisch vorausgesetzt. Neben diesen Grundanforderungen sollten AV-Integratoren auch Kostenvariablen für proaktive und reaktive Überwachungs- und Support-Modelle evaluieren.
 
-* Anforderungen wie Remote-Geräteverwaltung, Helpdesk-Verfügbarkeit und Vor­Ort-Support durch Techniker werden in diesem Stadium der Entwicklung der Branche für digitale Beschilderung praktisch vorausgesetzt. Neben diesen Grundanforderungen sollten AV-Integratoren auch Kostenvariablen für proaktive und reaktive Überwachungs- und Support-Modelle evaluieren.
+* Anforderungen wie Remote-Geräteverwaltung, Helpdesk-Verfügbarkeit und Vor­Ort-Support durch Techniker werden in diesem Stadium der Entwicklung der Branche für Digital Signage praktisch vorausgesetzt. Neben diesen Grundanforderungen sollten AV-Integratoren auch Kostenvariablen für proaktive und reaktive Überwachungs- und Support-Modelle evaluieren.
 * Für langfristigen Erfolg muss in Zusammenarbeit mit dem AV-Integrator außerdem ein Service Level Agreement (SLA) für Tag 2 erarbeitet werden. SLAs beschreiben Support-Leistungen nach der Bereitstellung und helfen dabei, Kundenerwartungen zu steuern.
 * Eine wichtige Ressource für die erfolgreiche Verwaltung mehrerer Netzwerke ist die Wissensdatenbank. SharePoint ist eine beliebte Plattform für diese Art von Ressource. Die Wissensdatenbank enthält vordefinierte Fragen und Antworten für NOC-Agenten, um sicherzustellen, dass eingehende Anfragen zur Problemlösung konsistent behandelt werden. Wissensdatenbanken beinhalten in der Regel Referenzmaterialien für Systemkonfigurationen und Standorte, einschließlich Arbeitsblättern für Hardware und Referenzmaterialien für Systemsoftware.
 * Überwachungs- und Verwaltungsfunktionen sind weitgehend von den Betriebssystem- und Bildschirmfunktionen des Media-Players abhängig. Windows-Betriebssysteme bieten die größte Detailgenauigkeit. Bei Implementierungen, die auf Android- oder iOS-Geräten ausgeführt werden, wird Mobile Device Management (auch MDM genannt) verwendet.
