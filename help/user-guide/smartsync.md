@@ -13,7 +13,7 @@ feature: Verwalten von Screens
 role: Administrator
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '467'
 ht-degree: 100%
 
@@ -64,8 +64,8 @@ Die Funktion SmartSync bietet eine Reihe von Vorteilen für AEM Screens-Projekte
 | **Plattform** | **Unterstützte Minimalversion des Players** |
 |---|---|
 | Android | 3.3.72 |
-| ChromeOS | 1.0.136 |
-| Windows | 1,0,136 |
+| Chrome OS | 1.0.136 |
+| Windows | 1.0.136 |
 
 Gehen Sie wie folgt vor, um von ContentSync zu SmartSync zu wechseln:
 
