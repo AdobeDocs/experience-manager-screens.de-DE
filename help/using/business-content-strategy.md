@@ -4,14 +4,14 @@ seo-title: Business Content-Strategie für [!UICONTROL AEM Screens]
 description: In diesem Handbuch wird die Strategie für Business Content beschrieben.
 seo-description: In diesem Handbuch wird eine Strategie für Business Content beschrieben.
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '443'
 ht-degree: 100%
 
 ---
 
 
-# Business Content-Strategie{#business-content}
+# Business Content-Strategie {#business-content}
 
 >[!NOTE]
 >
@@ -38,7 +38,7 @@ Beantworten Sie beim Erstellen einer Inhaltsstrategie für Ihr AEM Screens-Proj
 * Welche Probleme kann die Zielgruppe mithilfe des Inhalts lösen? (Beispiel: Hilft die Anwendung Screens einem Kunden dabei, die besten Schuhe für extreme Bergtouren bzw. das perfekte Haushaltsgerät für sein neues Zuhause zu finden?)
 * Wie interagiert der Kunde mit der Anwendung oder wie sieht das Benutzererlebnis aus?
 * Wie lautet Ihre Strategie für Updates und Upgrades?
-* Wie oft werden neue Inhalte benötigt? 
+* Wie oft werden neue Inhalte benötigt?
 
    >[!NOTE]
    >
