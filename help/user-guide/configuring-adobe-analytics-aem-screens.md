@@ -14,7 +14,7 @@ feature: Verwalten von Screens
 role: Administrator, Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '696'
 ht-degree: 100%
 
@@ -97,12 +97,12 @@ Die folgende Tabelle fasst das Standarddatenmodell für Ereignisse zusammen. Es 
   </tr>
   <tr>
    <td> </td> 
-   <td>Workflow</td> 
+   <td>Processus</td> 
    <td>event.workflow</td> 
    <td>empfohlen</td> 
    <td>Zeichenfolge</td> 
    <td> </td> 
-   <td>Workflow-Name (Screens)</td> 
+   <td>Nom du processus (Screens)</td> 
   </tr>
   <tr>
    <td> </td> 
