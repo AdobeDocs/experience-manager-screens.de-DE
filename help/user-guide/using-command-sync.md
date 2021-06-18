@@ -7,7 +7,7 @@ feature: Inhaltserstellung in Screens
 role: Administrator, Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '796'
 ht-degree: 100%
 
@@ -96,11 +96,11 @@ Bevor Sie die Funktion zur Befehlssynchronisierung verwenden, stellen Sie sicher
 Im Bedienfeld **GERÄTE** werden die beiden Geräte (Chrome- und Windows-Player) angezeigt, wie in der folgenden Abbildung dargestellt.
    ![image1](assets/command-sync/command-sync10-1.png)
 
-1. Wählen Sie im Bedienfeld **GERÄTE** das Gerät aus, das Sie als Master verwenden möchten. Das folgende Beispiel zeigt, wie Sie das Chrome-Gerät als Master einrichten. Klicken Sie auf **Als Master-Gerät einrichten**.
+1. Wählen Sie im Bedienfeld **GERÄTE** das Gerät aus, das Sie als Master verwenden möchten. Das folgende Beispiel zeigt, wie Sie das Chrome-Gerät als Master einrichten. Klicken Sie auf **Als Master-Gerät festlegen**.
 
    ![image1](assets/command-sync/command-sync11-1.png)
 
-1. Geben Sie in **Als Master-Gerät einrichten** die IP-Adresse ein und klicken Sie auf **Speichern**.
+1. Geben Sie in **Als Master-Gerät festlegen** die IP-Adresse ein und klicken Sie auf **Speichern**.
 
    ![image1](assets/command-sync/command-sync12-1.png)
 
