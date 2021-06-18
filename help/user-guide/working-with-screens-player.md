@@ -13,7 +13,7 @@ feature: Verwalten von Screens
 role: Administrator
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1068'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Im AEM Screens-Player können Sie den Inhalt für einen Kanal und andere Einstel
 
 Wenn Sie einen Kanal einer Anzeige zuweisen, wird im AEM Screens-Player der Inhalt angezeigt. Sie können die Einstellungen für den Player über die Voreinstellungen für die Administrator-Benutzeroberfläche (im Dashboard) oder im Player selbst konfigurieren.
 
-## Verwenden des Geräte-Dashboards  {#using-the-device-dashboard}
+## Verwenden des Geräte-Dashboards {#using-the-device-dashboard}
 
 Sie können die Voreinstellungen für Ihr Gerät im Geräte-Dashboard konfigurieren, auf das Sie über Ihre AEM-Autoreninstanz zugreifen können.
 
@@ -112,7 +112,7 @@ Um den Kanalschalter vom Player aus aufzurufen, halten Sie die untere linke Ecke
 >
 >(Siehe *Ändern der Voreinstellungen im AEM Screens-Player* wie im Abschnitt weiter unten beschrieben).
 
-### Verwalten von Voreinstellungen im AEM Screens-Player  {#managing-preferences-from-the-aem-screens-player}
+### Verwalten von Voreinstellungen im AEM Screens-Player {#managing-preferences-from-the-aem-screens-player}
 
 Sie können die Einstellungen für die Administrator-Benutzeroberfläche und den Kanalschalter auch im Player selbst ändern.
 
@@ -152,7 +152,7 @@ Der folgende Abschnitt enthält Richtlinien zur Hardware-Auswahl für ein Screen
 
 * Beziehen Sie für PC-Player und Anzeige-Panels oder Projektoren stets Komponenten von ***Handels-*** oder ***Industrie***-Qualität.
 
-* Arbeiten Sie immer mit Anbietern, die den Markt für digitale Beschilderung bedienen.
+* Arbeiten Sie immer mit Anbietern, die den Markt für Digital Signage bedienen.
 * Berücksichtigen Sie stets Umgebungsfaktoren wie Umgebungstemperatur und relative Luftfeuchtigkeit.
 * Überprüfen Sie stets Strombedarf und Stromkonditionierung.
 * Prüfen Sie sorgfältig die für die Anwendung erforderlichen Leistungsanforderungen und E/A-Anschlüsse.
