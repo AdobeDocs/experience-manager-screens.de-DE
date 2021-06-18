@@ -4,7 +4,7 @@ seo-title: Journey Map für AEM Screens
 description: Auf dieser Seite wird die Journey Map für AEM Screens beschrieben.
 seo-description: Auf dieser Seite wird die Journey Map für AEM Screens beschrieben.
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '294'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Eine Journey Map zum Benutzererlebnis liefert Informationen dazu, wie und warum 
 
 ## Einrichten der UX Journey Map {#building-map}
 
-Genaue Informationen dazu, wie Verbraucher in einem physischen Raum mit einem Digital Signage-Netzwerk interagieren, sind entscheidend für Erfolg und Nutzen des Netzwerks. Außerdem sollten Sie wissen, wie die digitalen Erlebnisse im Kontext aller anderen Kanäle, auf die ein Kunde ggf. stößt, verwendet werden.
+Genaue Informationen dazu, wie Verbraucher in einem physischen Raum mit einem Digital-Signage-Netzwerk interagieren, sind entscheidend für Erfolg und Nutzen des Netzwerks. Außerdem sollten Sie wissen, wie die digitalen Erlebnisse im Kontext aller anderen Kanäle, auf die ein Kunde ggf. stößt, verwendet werden.
 
 Die UX Journey Map ist eine gute Möglichkeit zur Visualisierung dessen, wie sich Besucher durch einen physischen Raum bewegen können, welche Elemente ihnen begegnen können und wie das vom Netzwerk bereitgestellte digitale Erlebnis Lücken in der übergeordneten Journey füllen kann.
 
