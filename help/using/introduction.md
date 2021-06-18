@@ -4,7 +4,7 @@ seo-title: Handbuch mit Best Practices für [!UICONTROL AEM Screens]-Projekte
 description: Diese Seite enthält einen Einführungsabschnitt zu AEM Screens.
 seo-description: Diese Seite enthält eine Einführung zu AEM Screens.
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '688'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Das Einrichten und Verwalten eines Digital-Signage-Netzwerks mit AEM Screens is
 
 >[!NOTE]
 >
->Weitere Informationen zu verschiedenen Funktionen bei der Entwicklung und Verwaltung von AEM Screens-Projekten finden Sie im **[AEM Screens-Benutzerhandbuch](https://helpx.adobe.com/experience-manager/6-5/screens/user-guide.html)**.
+>Weitere Informationen zu verschiedenen Funktionen bei der Entwicklung und Verwaltung von AEM Screens-Projekten finden Sie im **[AEM Screens-Benutzerhandbuch](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/aem-screens-introduction.html?lang=de)**.
 
 ## AEM Sites versus AEM Screens {#aem-sites-screens}
 
