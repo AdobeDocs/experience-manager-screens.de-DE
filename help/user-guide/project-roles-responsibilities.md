@@ -1,12 +1,12 @@
 ---
 title: '„Teil 1: Projektrollen und Zuständigkeiten“'
 seo-title: '„Teil 1: Projektrollen und Zuständigkeiten“'
-description: In diesem Tutorial erfahren Sie mehr über die Rollen, Verantwortlichkeiten und Zeitpläne, die in den Vertriebs- und Projektlebenszyklen eines Projekts für digitale Beschilderung erforderlich sind.
+description: In diesem Tutorial erfahren Sie mehr über die Rollen, Verantwortlichkeiten und Zeitpläne, die in den Vertriebs- und Projektlebenszyklen eines Projekts für Digital Signage erforderlich sind.
 feature: Überblick
 role: Business Practitioner, Data Architect
 level: Beginner
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '472'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Es gibt drei Hauptgruppen, die am Bereitstellungsprozess beteiligt sind:
 >
 >Es ist wichtig, dass alle Beteiligten genau verstehen, wie sich die einzelnen Parteien auf die Bereitstellung von AEM Screens und die Problemlösungs-Workflows auswirken. Dabei müssen die Rollen bei der Behebung von Leistungsproblemen klar definiert sein.
 
-## Zusammenfassung der an einem Projekt für digitale Beschilderung beteiligten Rollen {#summary-of-roles-involved-in-a-digital-signage-project}
+## Zusammenfassung der an einem Projekt für Digital Signage beteiligten Rollen {#summary-of-roles-involved-in-a-digital-signage-project}
 
 Die Festlegung von Anwendungsparametern für das Nutzungsszenario in Zusammenarbeit mit Adobe, AEM-Implementor und A/V-Integrator bestimmt den Umfang der Software-Entwicklung. Dadurch wird ein stufenweiser Ansatz gewährleistet, bei dem Leistungs-Benchmarks und Erfolgsmetriken im gesamten Projekt ermittelt werden.
 
@@ -49,7 +49,7 @@ AEM-Implementoren implementieren benutzerdefinierte Funktionen an Standorten in 
 
 #### A/V-Integratoren {#av-integrators}
 
-Ein **A/V-Integrator** ist dafür verantwortlich, gemeinsam mit den Endkunden die Anforderungen zu definieren, die den Projektumfang für das Entwerfen, Erstellen und effektive Verwalten von Bereitstellungen rund um Hardware für digitale Beschilderung bestimmen.
+Ein **A/V-Integrator** ist dafür verantwortlich, gemeinsam mit den Endkunden die Anforderungen zu definieren, die den Projektumfang für das Entwerfen, Erstellen und effektive Verwalten von Bereitstellungen rund um Hardware für Digital Signage bestimmen.
 
 ## Teil 1: Video-Tutorial zu Projektrollen und Zuständigkeiten {#part-video-tutorial-on-project-roles-and-responsibilities}
 
