@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens-Hilfe
 breadcrumb-title: AEM Screens-Anleitung
-user-guide-description: Erfahren Sie, wie Sie mit einer Digital Signage-Lösung dynamische und interaktive digitale Erlebnisse und Interaktionen veröffentlichen können.
+user-guide-description: Erfahren Sie, wie Sie mit einer Digital-Signage-Lösung dynamische und interaktive digitale Erlebnisse und Interaktionen veröffentlichen können.
 feature-set: Experience Manager Screens
 source-git-commit: 21bb9194d470bc4842a00e20ab3e3d7f517effed
 workflow-type: tm+mt
@@ -21,7 +21,7 @@ ht-degree: 100%
    + [Schnellstartanleitung](kickstart-for-aem-screens.md)
    + [Leitfaden zu Best Practices für Screens](https://docs.adobe.com/content/help/de-DE/experience-manager-screens/using/about-guide.html)
    + [Schlüsselbegriffe](screens-glossary.md)
-+ Netzwerkgrundlagen für digitale Beschilderung {#digital-signage-network}
++ Netzwerkgrundlagen für Digital Signage {#digital-signage-network}
    + [Teil 1: Projektrollen und Zuständigkeiten](project-roles-responsibilities.md)
    + [Teil 2: Überlegungen zum Projektumfang](project-considerations.md)
    + [Teil 3: Tests, POCs, Pilotprogramme und Rollouts](testing-pocs-pilots-rollouts.md)
@@ -34,7 +34,7 @@ ht-degree: 100%
    + [Verbinden des Screens-Players](working-with-screens-player.md)
    + [Geräteregistrierung](device-registration.md)
    + [Einrichten von ACLs](setting-up-acls.md)
-   + [Sicherheitscheckliste für AEM Screens ](security-checklist.md)
+   + [Sicherheitscheckliste für AEM Screens](security-checklist.md)
    + [Umstellung von ContentSync auf SmartSync](smartsync.md)
    + [Importer für neue Projekte aus Datei](project-importer.md)
    + [Replizieren von Datenauslösern auf Veröffentlichungs-Servern](replicating-data-triggers.md)
@@ -76,7 +76,7 @@ ht-degree: 100%
       + [Mehrzonen-Layout](multi-zone-layout-aem-screens.md)
       + [Videoausgabeformate](generating-renditions.md)
       + [Dynamische eingebettete Sequenz](dynamic-embedded-sequences.md)
-      + [Dauer der Massenwiedergabe von Bildern auf der Kanalebene](channel-level-image-playback.md)
+      + [Dauer der Massenwiedergabe von Bildern auf Kanalebene](channel-level-image-playback.md)
       + [Befehlssynchronisierung](using-command-sync.md)
       + [Inhaltserstellung mit Datenauslösern](authoring-data-triggers.md)
       + [Spracherkennung](voice-recognition.md)
@@ -109,7 +109,7 @@ ht-degree: 100%
    + [Problembehebung in der Gerätesteuerung](monitoring-screens.md)
    + [Konfiguration der Videowiedergabe](troubleshoot-videos.md)
 + Versionshinweise {#release-notes}
-   + [Versionshinweise für Feature Pack 202105 ](release-notes-fp-202105.md)
+   + [Versionshinweise für Feature Pack 202105](release-notes-fp-202105.md)
    + [Versionshinweise für Feature Pack 202103](release-notes-fp-202103.md)
    + [Versionshinweise für Feature Pack 202011](release-notes-fp-202011.md)
    + [Versionshinweise für Feature Pack 202008](release-notes-fp-202008.md)
