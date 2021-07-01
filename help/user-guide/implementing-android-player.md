@@ -13,13 +13,13 @@ docset: aem65
 feature: Verwalten von Screens, Android-Player
 role: Administrator
 level: Intermediate
-source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
+exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
 source-wordcount: '1513'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
-
 
 # Implementieren des Android-Players {#implementing-android-player}
 
@@ -133,7 +133,7 @@ Nutzen Sie dazu eine [Beispiel-JSON-Richtlinie](#example-json) sowie eine Tabell
    >[!NOTE]
    >Diese Datei ist *schreibgeschützt*, wenn die App zum ersten Mal gestartet wird, und kann nicht für nachfolgende Konfigurationen verwendet werden. Wenn der Player vor dem Ablegen der Konfigurationsdatei gestartet wird, deinstallieren Sie die App und installieren Sie sie erneut auf dem Gerät.
 
-### Richtlinienattribute  {#policy-attributes}
+### Richtlinienattribute {#policy-attributes}
 
 In der folgenden Tabelle finden Sie eine Zusammenfassung der Richtlinienattribute mit einer beispielhaften JSON-Richtliniendatei als Referenz:
 
@@ -184,7 +184,7 @@ Sie können Ihrem Android-Player einen benutzerfreundlichen Gerätenamen zuweise
 
 Gehen Sie wie folgt vor, um den Namen im Android-Player zu konfigurieren:
 
-1. Navigieren Sie zu **settings** —> **Über Gerät**
+1. Navigieren Sie zu **Einstellungen** > **Über das Gerät**
 1. Bearbeiten Sie den Gerätenamen und legen Sie ihn fest, um den Android-Player zu benennen.
 
 ### Implementieren der Massenbereitstellung des Android-Players mit Enterprise Mobility Management {#implementation}
