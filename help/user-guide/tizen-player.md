@@ -5,9 +5,9 @@ feature: Verwalten von Screens, Player
 role: Administrator
 level: Intermediate
 source-git-commit: 948515fb2f1fd3d1f94476cf5fe3983098d3b950
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1208'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -38,14 +38,14 @@ Führen Sie dazu folgende Schritte durch:
 
 1. Der Tizen-Player lädt das Installationsprogramm vom lokalen Server herunter.
 
-### Name des Tizen-Players {#name-tizen}
+### Benennen des Tizen-Players {#name-tizen}
 
 Sie können Ihrem Tizen-Player einen benutzerfreundlichen Gerätenamen zuweisen und so den zugewiesenen Gerätenamen an Adobe Experience Manager (AEM) senden. Mit dieser Funktion können Sie nicht nur Ihren Tizen-Player benennen, sondern auch mühelos geeignete Inhalte zuweisen.
 
 Gehen Sie wie folgt vor, um den Namen im Tizen-Player zu konfigurieren:
 
-1. Klicken Sie auf die Menüschaltfläche auf Ihrer Fernbedienung.
-1. Navigieren Sie zu **network** —> **Gerätename** , um dem Player einen Namen zuzuweisen.
+1. Drücken Sie die Menü-Taste Ihrer Fernbedienung.
+1. Gehen Sie zu **Netzwerk** > **Gerätename**, um dem Player einen Namen zuzuweisen.
 
 ### Konfigurieren von Aktualisierungen auf dem Samsung-Gerät {#config-updates}
 
@@ -74,7 +74,7 @@ Führen Sie die folgenden Schritte auf dem Samsung-Gerät aus, um die Installati
 
 >[!IMPORTANT]
 >**Dieser Abschnitt gilt für Adobe Experience Manager (AEM) 6.5.5 bis AEM 6.5.7**
->Es gibt einige Browser-Engines, die mit dem Attribut *SameSite=None* inkompatibel sind, das im Anmeldetoken verwendet wird, das von AEM 6.5 bis AEM 6.7 herausgegeben wurde. Normalerweise kann das Problem gelöst werden, indem der Browser auf die neueste verfügbare Version aktualisiert wird. In einigen Fällen sind solche Aktualisierungen möglicherweise nicht möglich, z. B. bei intelligenten Displays, Set-Top-Boxen oder anderen Geräten mit eingebetteten Browsing-Engines.
+>Es gibt einige Browser-Engines, die mit dem Attribut *SameSite=None*, das im von AEM 6.5 bis AEM 6.7 herausgegebenen Anmelde-Token verwendet wird, inkompatibel sind. In den meisten Fällen kann das Problem durch eine Aktualisierung des Browsers auf die neueste verfügbare Version behoben werden. In einigen Fällen sind solche Aktualisierungen möglicherweise nicht möglich, z. B. bei intelligenten Displays, Set-Top-Boxen oder anderen Geräten mit eingebetteten Browsing-Engines.
 
 Gehen Sie wie folgt vor, um diese inkompatiblen Clients auszuschließen, wenn Sie *SameSite=None* verwenden:
 
@@ -82,7 +82,7 @@ Gehen Sie wie folgt vor, um diese inkompatiblen Clients auszuschließen, wenn Si
 
 1. Gehen Sie nach dem Neustart von AEM zu `/system/console/configMgr` und suchen Sie nach **Adobe Granite Token Authentication Handler**. Setzen Sie den Wert für **SameSite** auf **None**.
 
-1. Sie sollten eine neue Option sehen: *Benutzeragenten, die vom SameSite-Attribut ausgenommen werden sollen*. Füllen Sie diesen mit einem Regex, der dem Benutzeragenten entspricht, der mit dem Attribut *SameSite=None* inkompatibel ist (sind).
+1. Sie sollten eine neue Option sehen: *Benutzeragenten, die vom SameSite-Attribut ausgenommen werden sollen*. Füllen Sie diese mit einem Regex, der dem/den Benutzeragenten entspricht, der/die mit dem *SameSite=None*-Attribut inkompatibel ist/sind.
    >[!NOTE]
    >Weitere Informationen finden Sie unter [SameSite=None: Bekannte inkompatible Clients](https://www.chromium.org/updates/same-site/incompatible-clients). Verwenden Sie folgenden Regex für den Tizen-Player: `(.*)Tizen(.*)`.
 
@@ -90,11 +90,11 @@ Gehen Sie wie folgt vor, um diese inkompatiblen Clients auszuschließen, wenn Si
 
 ## Remote-Bereitstellung des Tizen-Players {#remote-provisioning}
 
-Durch die Remote-Bereitstellung des Tizen-Players können Sie Hunderte und Tausende von Samsung Tizen-Anzeigen ohne großen Aufwand bereitstellen. Dadurch wird der mühsame manuelle Aufwand bei der Konfiguration jedes Players mit der Server-URL und dem Bulk-Registrierungs-Code oder anderen Parametern vermieden und im Fall von Screens as a Cloud Service der Cloud-Modus und das Cloud-Token konfiguriert.
+Durch die Remote-Bereitstellung des Tizen-Players können Sie Tausende von Samsung Tizen-Anzeigen ohne großen Aufwand bereitstellen. Dadurch wird der mühsame manuelle Aufwand bei der Konfiguration jedes Players mit der Server-URL und dem Massenregistrierungs-Code oder anderen Parametern vermieden und im Fall von Screens as a Cloud Service der Cloud-Modus und das Cloud-Token konfiguriert.
 
-Mit dieser Funktion können Sie den Tizen-Player remote konfigurieren und diese Konfigurationen bei Bedarf auch zentral aktualisieren. Sie benötigen lediglich den `HTTP`-Server, der zum Hosten der Tizen-Anwendung `(wgt and xml file)` verwendet wird, und einen Texteditor zum Speichern der `config.json` mit den entsprechenden Parametern.
+Mit dieser Funktion können Sie den Tizen-Player aus der Ferne konfigurieren und diese Konfigurationen bei Bedarf auch zentral aktualisieren. Sie benötigen lediglich den `HTTP`-Server, der zum Hosten des Tizen-Programms `(wgt and xml file)` verwendet wird, und einen Texteditor zum Speichern der `config.json` mit den entsprechenden Parametern.
 
-Stellen Sie sicher, dass Sie die URL-Starter-Adresse auf dem Tizen-Gerät konfiguriert haben, d. h. Startseite-Schaltfläche > URL-Starter-Einstellungen.
+Stellen Sie sicher, dass Sie die URL-Starter-Adresse auf dem Tizen-Gerät konfiguriert haben, d. h. Schatlfäche „Start“ > „URL-Starter-Einstellungen“.
 Platzieren Sie auf dem `HTTP`-Server, der die Tizen-Anwendung hostet, die Datei `config.json` am selben Speicherort wie die Datei `wgt`. Der Dateiname muss `config.json` lauten.
 Der Tizen-Player wird installiert und beim Start (und bei jedem Neustart) überprüft und wendet die Einstellungen in der Datei `config.json` an.
 
@@ -115,7 +115,7 @@ Der Tizen-Player wird installiert und beim Start (und bei jedem Neustart) überp
 In der folgenden Tabelle sind die Richtlinien und deren Funktionen aufgeführt.
 
 >[!NOTE]
->Richtlinienkonfigurationen werden streng durchgesetzt und auf der Admin-Benutzeroberfläche des Players nicht manuell überschrieben. Um manuelle Player-Konfigurationen für eine bestimmte Richtlinie zu gestatten, legen Sie die Richtlinie in der Richtlinienkonfiguration nicht fest. Wenn Sie beispielsweise eine manuelle Konfiguration des Neustart-Zeitplans gestatten wollen, legen Sie den Parameter `rebootSchedule` in der Richtlinienkonfiguration nicht fest. Richtlinienkonfigurationen werden jedes Mal gelesen, wenn der Player neu geladen wird.
+>Richtlinienkonfigurationen werden streng durchgesetzt und können nicht manuell auf der Admin-Benutzeroberfläche des Players überschrieben werden. Um manuelle Player-Konfigurationen für eine bestimmte Richtlinie zu gestatten, legen Sie die Richtlinie in der Richtlinienkonfiguration nicht fest. Wenn Sie beispielsweise eine manuelle Konfiguration des Neustart-Zeitplans gestatten wollen, legen Sie den Parameter `rebootSchedule` in der Richtlinienkonfiguration nicht fest. Richtlinienkonfigurationen werden jedes Mal gelesen, wenn der Player neu geladen wird.
 
 | **Richtlinienname** | **Zweck** |
 |---|---|
@@ -124,10 +124,10 @@ In der folgenden Tabelle sind die Richtlinien und deren Funktionen aufgeführt.
 | resolution | Die Auflösung des Geräts. |
 | rebootSchedule | Der Plan zum Neustarten des Players. |
 | enableAdminUI | Aktivierung der Administrator-Benutzeroberfläche zum Konfigurieren des Geräts vor Ort. Stellen Sie diesen Wert auf „false“ ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und in der Produktion verwendet wird. |
-| enableOSD | Aktivierung der Kanalschalter-Benutzeroberfläche, damit Benutzer zwischen Kanälen auf dem Gerät wechseln können. Erwägen Sie die Einstellung auf false , sobald sie vollständig konfiguriert ist und sich in der Produktion befindet. |
+| enableOSD | Aktivierung der Kanalschalter-Benutzeroberfläche, damit Benutzer zwischen Kanälen auf dem Gerät wechseln können. Stellen Sie den Wert ggf. auf „false“ ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und in der Produktion verwendet wird. |
 | enableActivityUI | Aktivierung zum Anzeigen des Fortschritts von Aktivitäten wie Downloads und Synchronisierungen. Aktivieren Sie den Wert zwecks Fehlerbehebung und deaktivieren Sie ihn, sobald die Benutzeroberfläche vollständig konfiguriert ist und produktiv verwendet wird. |
-| cloudMode | Setzen Sie dies auf &quot;true&quot;, wenn Sie möchten, dass der Tizen-Player als Cloud Service eine Verbindung zu Screens herstellt. Legen Sie den Wert auf &quot;false&quot;fest, um eine Verbindung zu AMS oder On-Premise-AEM herzustellen. |
-| cloudToken | Anmeldetoken zur Registrierung bei Screens als Cloud Service. |
+| cloudMode | Setzen Sie dies auf „true“, wenn Sie möchten, dass der Tizen-Player eine Verbindung zu Screens as a Cloud Service herstellt. Legen Sie den Wert auf „false“ fest, um eine Verbindung zu AMS oder AEM On-Premise herzustellen. |
+| cloudToken | Anmelde-Token zur Registrierung bei Screens as a Cloud Service. |
 
 
 ## Registrieren des Tizen-Geräts beim Samsung Remote Management Service (RMS) {#enroll-tizen-device-rms}
