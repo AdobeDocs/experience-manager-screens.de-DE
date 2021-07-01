@@ -12,15 +12,15 @@ discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Verwalten von Screens
 role: Administrator
 level: Intermediate
-source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
+exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
 source-wordcount: '829'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
-
-# Implementieren des Chrome OS-Players {#implementing-chrome-os-player}
+# Implementieren des Chrome OS-Players  {#implementing-chrome-os-player}
 
 In diesem Abschnitt wird beschrieben, wie Sie den Chrome OS-Player mit der Chrome Management Console implementieren.
 
@@ -46,18 +46,18 @@ Gehen Sie wie folgt vor, um den Namen im Chrome-Player zu konfigurieren:
 
    ![image](/help/user-guide/assets/chrome-device/chrome1.png)
 
-1. Sie erhalten die Optionen, mit denen Sie das Gerät registrieren können.
+1. Wenn Sie das Gerät anmelden können, werden Ihnen die Optionen angezeigt.
 
    ![image](/help/user-guide/assets/chrome-device/chrome2.jpg)
 
-1. Sie können die Asset-ID als Teil der Unternehmensregistrierung sowie in der Chrome Management Console festlegen.
+1. Sie können die Asset-ID als Teil der Unternehmensregistrierung sowie in der Verwaltungskonsole von Chrome festlegen.
 
    ![image](/help/user-guide/assets/chrome-device/chrome3.png)
 
    >[!NOTE]
-   >Chrome-Player müssen bei der Unternehmensregistrierung registriert sein und der Chrome-Player muss über Chrome Management Console bereitgestellt werden. Andernfalls wird die Asset-ID leer zurückgegeben (z. B. Chrome als Erweiterung). Der Gerätename wird erst zum Zeitpunkt der Registrierung aufgezeichnet. Zukünftige Änderungen werden von Adobe Experience Manager (AEM) nicht übernommen.
+   >Chrome-Player müssen bei der Unternehmensregistrierung registriert sein und der Chrome-Player muss über die Verwaltungskonsole von Chrome bereitgestellt werden. Andernfalls wird die Asset-ID leer zurückgegeben (z. B. Chrome als Erweiterung). Der Gerätename wird erst zum Zeitpunkt der Registrierung aufgezeichnet. Zukünftige Änderungen werden von Adobe Experience Manager (AEM) nicht übernommen.
 
-### Aktivieren des Kiosk-Modus {#enabling-kiosk-mode}
+### Aktivieren des Kiosk-Modus    {#enabling-kiosk-mode}
 
 Gehen Sie wie folgt vor, um den Kiosk-Modus zu aktivieren:
 
