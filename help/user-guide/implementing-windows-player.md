@@ -13,13 +13,13 @@ docset: aem65
 feature: Verwalten von Screens, Windows-Player
 role: Administrator
 level: Intermediate
-source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
+exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
 source-wordcount: '1074'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
-
 
 # Implementieren von Windows 10 Player {#implementing-windows-player}
 
@@ -39,11 +39,11 @@ Rufen Sie die Seite [**AEM 6.5 Player-Downloads**](https://download.macromedia.c
 >[!NOTE]
 >Wenn Sie das AEM Screens 6.5.5 Service Pack verwenden, müssen Sie eine Umgebung für den Windows-Player einrichten.
 
-Setzen Sie in der **Konfiguration der Adobe Experience Manager-Web-Konsole** das **SameSite-Attribut für die Anmeldungs-Token-Cookies** auf allen AEM-Autoren- und Veröffentlichungsinstanzen von **Lax** auf **Keine**.
+Setzen Sie in der **Konfiguration der Adobe Experience Manager-Web-Konsole** das **SameSite-Attribut für die Anmeldungs-Token-Cookies** auf allen AEM-Autoren- und Veröffentlichungsinstanzen von **Lax** (Gering) auf **None** (Keine).
 
 Führen Sie dazu folgende Schritte durch:
 
-1. Navigieren Sie zu **Konfiguration der Adobe Experience Manager-Web-Konsole** über `http://localhost:4502/system/console/configMgr`.
+1. Navigieren Sie zur **Konfiguration der Adobe Experience Manager-Web-Konsole** über `http://localhost:4502/system/console/configMgr`.
 
 1. Suchen Sie nach *Adobe Granite Token Authentication Handler*.
 
@@ -68,15 +68,15 @@ Nachdem Sie die Anwendung heruntergeladen haben, führen Sie die Schritte im Pla
 >
 >Wenn der **Status** **UNREGISTRIERT** ist, können Sie das Gerät mithilfe des **Tokens** registrieren.
 
-## Benennen von Windows Player {#name-windows}
+## Benennen des Windows-Players {#name-windows}
 
 Sie können Ihrem Windows-Player einen benutzerfreundlichen Gerätenamen zuweisen und so den zugewiesenen Gerätenamen an Adobe Experience Manager (AEM) senden. Mit dieser Funktion können Sie nicht nur Ihren Windows-Player benennen, sondern auch mühelos geeignete Inhalte zuweisen.
 
-Gehen Sie wie folgt vor, um den Namen im Windows Player zu konfigurieren:
+Gehen Sie wie folgt vor, um den Namen im Windows-Player zu konfigurieren:
 
-1. Klicken Sie auf **start** —> **run**
-1. Geben Sie Folgendes ein `system.cpl`
-1. Verwenden Sie die Registerkarte &quot;Computername&quot;, um den Hostnamen des Computers festzulegen.
+1. Klicken Sie auf **Start** > **Ausführen**
+1. Geben Sie `system.cpl` ein
+1. Verwenden Sie die Registerkarte „Computername“, um den Hostnamen des Computers festzulegen.
 
 ## Ändern der Standardoptionen im Windows-Installationsprogramm {#changing-default-options}
 
@@ -126,7 +126,7 @@ In der folgenden Tabelle finden Sie eine Zusammenfassung der Richtlinienattribut
 | enableOSD | Aktivierung der Kanalschalter-Benutzeroberfläche, damit Benutzer zwischen Kanälen auf dem Gerät wechseln können. Stellen Sie den Wert ggf. auf „false“ ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und in der Produktion verwendet wird |
 | enableActivityUI | Aktivierung zum Anzeigen des Fortschritts von Aktivitäten wie Downloads und Synchronisierungen. Aktivieren Sie den Wert zwecks Fehlerbehebung und deaktivieren Sie ihn, sobald die Benutzeroberfläche vollständig konfiguriert ist und produktiv verwendet wird. |
 
-#### Beispielhafte JSON-Richtliniendatei  {#example-policy-json-file}
+#### Beispielhafte JSON-Richtliniendatei {#example-policy-json-file}
 
 ```
 {
@@ -139,7 +139,7 @@ In der folgenden Tabelle finden Sie eine Zusammenfassung der Richtlinienattribut
 }
 ```
 
-## Aktivieren des Kiosk-Modus {#enabling-kiosk-mode}
+## Aktivieren des Kiosk-Modus    {#enabling-kiosk-mode}
 
 Bei der Bereitstellung des Windows Players ist es wichtig, einen Kiosk-Modus zu aktivieren, damit andere Anwendungen oder die Task-Leiste nicht auf dem Windows-Desktop angezeigt werden.
 
@@ -191,4 +191,3 @@ $ShellLauncherClass.RemoveCustomShell($Admins_SID)
 
 $ShellLauncherClass.RemoveCustomShell($Cashier_SID)
 ```
-
