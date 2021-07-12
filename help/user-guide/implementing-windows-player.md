@@ -11,10 +11,10 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 feature: Verwalten von Screens, Windows-Player
-role: Administrator
+role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1074'
 ht-degree: 100%
