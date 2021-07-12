@@ -11,15 +11,15 @@ content-type: reference
 discoiquuid: a90e3950-c95a-4aff-8cb3-9229c660a815
 docset: aem65
 feature: Inhaltserstellung in Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 100%
 
 ---
-
 
 # Erstellen eines Workflows für den Videoabstand {#creating-a-video-padding-workflow}
 
@@ -121,4 +121,3 @@ Sie können Ihre Ausgabe wie folgt validieren:
 * Navigieren Sie zu ***/content/dam/testvideo.mp4/jcr:content/renditions/cq5dam.video.fullhd-hp.mp4*** in CRXDE Lite, wie in der folgenden Abbildung dargestellt:
 
 ![screen_shot_2018-10-22at14326pm](assets/screen_shot_2018-10-22at14326pm.png)
-
