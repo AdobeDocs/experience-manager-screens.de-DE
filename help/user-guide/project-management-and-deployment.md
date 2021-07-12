@@ -11,15 +11,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: cd1483af-8118-46ac-a2ad-42d89c05bdca
 docset: aem65
 feature: Überblick
-role: Business Practitioner, Data Architect
+role: User, Data Architect
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 100%
 
 ---
-
 
 # Teil 4: Projekt-Management und Bereitstellung {#part-project-management-and-deployment}
 
@@ -93,4 +93,3 @@ In diesem Tutorial erfahren Sie mehr über Projekt-Management und Bereitstellung
 Sobald Sie mit den wichtigsten Überlegungen zum Projekt-Management für AEM Screens-Bereitstellungen vertraut sind:
 
 Navigieren Sie zu **[Teil 5: Support-Aspekte](support-considerations.md)**, um den Support von Tag 2 und die damit verbundenen Prozesse zu verstehen.
-
