@@ -2,15 +2,15 @@
 title: Tizen-Player
 description: Auf dieser Seite wird die Installation und Funktionsweise des Tizen-Players beschrieben.
 feature: Verwalten von Screens, Player
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 948515fb2f1fd3d1f94476cf5fe3983098d3b950
-workflow-type: ht
+exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 100%
 
 ---
-
 
 # Implementieren des Tizen-Players {#tizen-player}
 
@@ -164,4 +164,3 @@ Führen Sie die folgenden Schritte aus, um das Tizen-Gerät beim Samsung Remote 
    ![image](/help/user-guide/assets/tizen/rms-9.png)
 
 1. Klicken Sie auf **Speichern**, damit die Änderungen auf dem Bildschirm angezeigt werden.
-
