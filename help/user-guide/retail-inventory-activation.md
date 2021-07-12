@@ -11,15 +11,15 @@ topic-tags: use-case-examples
 discoiquuid: 70147920-5bdb-401c-884e-51d268d40585
 docset: aem65
 feature: Inhaltserstellung in Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 100%
 
 ---
-
 
 # Zielgerichtete Aktivierung des Einzelhandelsinventars {#retail-inventory-targeted-activation}
 
@@ -99,8 +99,7 @@ Gehen Sie wie folgt vor, um das Anwendungsbeispiel zur Aktivierung des Einzelhan
    ![screen_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
 
    >[!NOTE]
-   >
-   >Sie müssen sowohl die **Marke** als auch den **Bereich** auswählen, damit die Aktivitäten beim Starten des Targeting-Prozesses korrekt aufgeführt werden.
+   Sie müssen sowohl die **Marke** als auch den **Bereich** auswählen, damit die Aktivitäten beim Starten des Targeting-Prozesses korrekt aufgeführt werden.
 
 1. **Hinzufügen eines Standardbilds**
 
@@ -112,8 +111,7 @@ Gehen Sie wie folgt vor, um das Anwendungsbeispiel zur Aktivierung des Einzelhan
    ![screen_shot_2019-05-06at121253pm](assets/screen_shot_2019-05-06at121253pm.png)
 
    >[!NOTE]
-   >
-   >Bevor Sie mit dem Targeting beginnen, müssen Sie die Segmente (**Für_Grün**, **Für_Rot** und **Für_Blau**) hinzufügen, indem Sie auf **+ Erlebnis-Targeting hinzufügen** klicken (wie in der folgenden Abbildung dargestellt).
+   Bevor Sie mit dem Targeting beginnen, müssen Sie die Segmente (**Für_Grün**, **Für_Rot** und **Für_Blau**) hinzufügen, indem Sie auf **+ Erlebnis-Targeting hinzufügen** klicken (wie in der folgenden Abbildung dargestellt).
 
    ![screen_shot_2019-05-06at123554pm](assets/screen_shot_2019-05-06at123554pm.png)
 
@@ -125,6 +123,4 @@ Gehen Sie wie folgt vor, um das Anwendungsbeispiel zur Aktivierung des Einzelhan
 
    1. Klicken Sie auf **Vorschau**. Öffnen Sie außerdem Ihre Google Tabelle und aktualisieren Sie den Wert.
    1. Ändern Sie den Wert für die drei verschiedenen Spalten und Sie werden sehen, dass das Anzeigebild entsprechend dem höchsten Wert im Bestand aktualisiert wird.
-
    ![retail_result](assets/retail_result.gif)
-
