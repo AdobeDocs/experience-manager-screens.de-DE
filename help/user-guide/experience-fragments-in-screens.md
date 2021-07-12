@@ -1,8 +1,8 @@
 ---
 title: Verwenden von Experience Fragments
 seo-title: Verwenden von Experience Fragments
-description: 'Auf dieser Seite erfahren Sie mehr über die Verwendung von Experience Fragments in AEM Screens. '
-seo-description: 'Auf dieser Seite erfahren Sie mehr über die Verwendung von Experience Fragments in AEM Screens. '
+description: Auf dieser Seite erfahren Sie mehr über die Verwendung von Experience Fragments in AEM Screens.
+seo-description: Auf dieser Seite erfahren Sie mehr über die Verwendung von Experience Fragments in AEM Screens.
 uuid: 6ee16a94-3c53-43e0-99d5-c35cb9e01120
 contentOwner: jsyal
 content-type: reference
@@ -11,15 +11,15 @@ topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
 feature: Inhaltserstellung in Screens, Experience Fragments
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: 13c0d75e-435f-433e-8886-f451df863517
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '1131'
 ht-degree: 100%
 
 ---
-
 
 # Verwenden von Experience Fragments {#using-experience-fragments}
 
@@ -66,7 +66,7 @@ Ein **TestChannel** wird Ihrem **DemoProject** hinzugefügt.\
 ![screen_shot_2019-07-29at105101am](assets/screen_shot_2019-07-29at105101am.png)
 
 
-### Erstellen eines Experience Fragments {#creating-an-experience-fragment}
+### Erstellen eines Experience Fragment {#creating-an-experience-fragment}
 
 Gehen Sie wie folgt vor, um den Inhalt von **We.Retail** in Ihrem **TestChannel** in **DemoProject** zu nutzen.
 
@@ -219,4 +219,3 @@ Gehen Sie wie folgt vor, um die Änderungen in Ihrem Kanal zu bestätigen:
 
 Die folgende Abbildung zeigt die Änderungen in Ihrem **TestChannel**:\
 ![screen_shot_2018-06-08at33351pm](assets/screen_shot_2018-06-08at33351pm.png)
-
