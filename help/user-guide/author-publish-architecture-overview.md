@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 112404de-5a5a-4b37-b87c-d02029933c8a
 docset: aem65
 feature: Verwalten von Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 100%
 
 ---
-
 
 # Architektonischer Überblick zur Autoren- und Veröffentlichungsinstanz {#author-and-publish-architectural-overview}
 
@@ -61,7 +61,7 @@ Es gibt fünf architektonische Komponenten, die diese Lösung unterstützen:
 * ***Messaging*** zwischen Veröffentlichungsinstanzen zur Synchronisierung von aktualisierten Geräteinformationen und Befehlen
 * ***Abruf*** durch den Autor von Veröffentlichungsinstanzen zum Abrufen von Geräteinformationen über bestimmte REST-APIs
 
-### Replikation (Weiterleitung) von Inhalten und Konfigurationen {#replication-forward-of-content-and-configurations}
+### Replikation (Weiterleitung) von Inhalten und Konfigurationen   {#replication-forward-of-content-and-configurations}
 
 Mit den standardmäßigen Replikationsagenten werden Kanalinhalte von Bildschirmen, Standortkonfigurationen und Gerätekonfigurationen repliziert. So können Autoren den Inhalt eines Kanals aktualisieren und optional eine Art Genehmigungs-Workflow durchlaufen, bevor Kanalaktualisierungen veröffentlicht werden. Für jede Veröffentlichungsinstanz in der Veröffentlichungs-Farm muss ein Replikationsagent eingerichtet werden.
 
@@ -73,13 +73,13 @@ Das folgende Diagramm veranschaulicht das Replikationsverfahren:
 >
 >Für jede Veröffentlichungsinstanz in der Veröffentlichungs-Farm muss ein Replikationsagent eingerichtet werden.
 
-### Screens-Replikationsagenten und -Befehle {#screens-replication-agents-and-commands}
+### Screens-Replikationsagenten und -Befehle   {#screens-replication-agents-and-commands}
 
 Benutzerdefinierte Screens-spezifische Replikationsagenten werden erstellt, um Befehle von der Autoreninstanz an das AEM Screens-Gerät zu senden. Die AEM-Veröffentlichungsinstanzen dienen als Vermittler, um diese Befehle an das Gerät weiterzuleiten.
 
 Auf diese Weise können Autoren das Gerät weiter verwalten, z. B. Geräteaktualisierungen senden und Screenshots der Authoring-Umgebung erstellen. Die AEM Screens-Replikationsagenten verfügen über eine benutzerdefinierte Transportkonfiguration, wie standardmäßige Replikationsagenten.
 
-### Messaging zwischen Veröffentlichungsinstanzen {#messaging-between-publish-instances}
+### Messaging zwischen Veröffentlichungsinstanzen   {#messaging-between-publish-instances}
 
 In vielen Fällen soll ein Befehl an ein Gerät nur einmal gesendet werden. In einer Veröffentlichungsarchitektur mit Load-Balancing ist jedoch nicht bekannt, mit welcher Veröffentlichungsinstanz das Gerät eine Verbindung herstellt.
 
@@ -94,7 +94,7 @@ In vielen Fällen wird nach einem Befehl eine bestimmte Antwort vom Screens-Ger�
 * Eine Rückwärtsreplikation wird in diesem Kontext nur für binäre Daten (wie Protokolldateien und Screenshots) verwendet, die von den Geräten bereitgestellt werden. Nicht-binäre Daten werden per Abruf abgerufen.
 * Bei einer von der AEM-Autoreninstanz abgerufenen Rückwärtsreplikation wird die Antwort abgerufen und in der Autoreninstanz gespeichert.
 
-### Abrufen von Veröffentlichungsinstanzen {#polling-of-publish-instances}
+### Abrufen von Veröffentlichungsinstanzen   {#polling-of-publish-instances}
 
 Die Autoreninstanz muss die Geräte abfragen können, um einen Takt zu erhalten und den Integritätsstatus eines verbundenen Geräts zu kennen.
 
