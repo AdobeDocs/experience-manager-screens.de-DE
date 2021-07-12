@@ -11,15 +11,15 @@ topic-tags: authoring
 discoiquuid: b6fdb5a0-5601-4443-a3f4-85cc90c49914
 noindex: true
 feature: Inhaltserstellung in Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '850'
 ht-degree: 100%
 
 ---
-
 
 # Textüberlagerung {#text-overlay}
 
@@ -149,18 +149,3 @@ Nachdem Sie die erforderlichen Konfigurationen für Ihr Projekt eingerichtet hab
 1. Klicken Sie auf **Vorschau**, um die gewünschte Ausgabe anzuzeigen.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay10.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
