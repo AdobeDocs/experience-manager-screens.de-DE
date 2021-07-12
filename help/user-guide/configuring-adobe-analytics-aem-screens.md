@@ -1,8 +1,8 @@
 ---
 title: Konfigurieren von Adobe Analytics mit AEM Screens
 seo-title: Konfigurieren von Adobe Analytics mit AEM Screens
-description: 'In diesem Abschnitt erfahren Sie mehr über die Sequenzierung und das Senden benutzerspezifischer Ereignisse mit Adobe Analytics im Offline-Modus. '
-seo-description: 'In diesem Abschnitt erfahren Sie mehr über die Sequenzierung und das Senden benutzerspezifischer Ereignisse mit Adobe Analytics im Offline-Modus. '
+description: In diesem Abschnitt erfahren Sie mehr über die Sequenzierung und das Senden benutzerspezifischer Ereignisse mit Adobe Analytics im Offline-Modus.
+seo-description: In diesem Abschnitt erfahren Sie mehr über die Sequenzierung und das Senden benutzerspezifischer Ereignisse mit Adobe Analytics im Offline-Modus.
 uuid: e685e553-c05b-4db4-8fa5-9ef45268b094
 contentOwner: jsyal
 content-type: reference
@@ -11,15 +11,15 @@ topic-tags: developing
 discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
 feature: Verwalten von Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 100%
 
 ---
-
 
 # Konfigurieren von Adobe Analytics mit AEM Screens {#configuring-adobe-analytics-with-aem-screens}
 
@@ -331,4 +331,3 @@ Die folgende Tabelle fasst das Standarddatenmodell für Ereignisse zusammen. Es 
   </tr>
  </tbody>
 </table>
-
