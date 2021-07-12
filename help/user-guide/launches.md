@@ -11,15 +11,15 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 feature: Inhaltserstellung in Screens, Launches
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '1619'
 ht-degree: 100%
 
 ---
-
 
 # Inhaltsaktualisierung mit Screens Launch {#launches}
 
@@ -100,7 +100,7 @@ Gehen Sie gemäß nachstehendem Abschnitt vor, um Screens Launch-Funktionen in I
 
 1. Wählen Sie den Kanal **FutureLaunch** aus und klicken Sie in der Aktionsleiste auf **Launch erstellen**.
 
-   ![Image](/help/user-guide/assets/launches-images/launches-12.png)
+   ![Bild](/help/user-guide/assets/launches-images/launches-12.png)
 
 1. Der Assistent **Launch erstellen** wird geöffnet. Sie können entweder den Kanal auswählen, der bereits im Assistenten angezeigt wird, oder auf **+ Kanäle hinzufügen** klicken, um den Kanal hinzuzufügen, für den Sie den Launch erstellen möchten.
 
@@ -129,7 +129,7 @@ Gehen Sie gemäß nachstehendem Abschnitt vor, um Screens Launch-Funktionen in I
    >
    >Durch *Deaktivieren* der Option **Quellseiten-Live-Daten übernehmen** können die Kanäle ohne Live-Beziehung in den Launch kopiert werden. Wenn also Änderungen am ursprünglichen Kanal vorgenommen werden, werden diese Änderungen nicht auf die Launch-Kanäle angewendet.
 
-   ![Image](/help/user-guide/assets/launches-images/launches-c.png)
+   ![Bild](/help/user-guide/assets/launches-images/launches-c.png)
 
    >[!NOTE]
    >
@@ -151,7 +151,7 @@ Gehen Sie gemäß nachstehendem Abschnitt vor, um Screens Launch-Funktionen in I
 
    Durch Klicken auf **Fertig** können Sie zurück zu Ihrem Kanal **FutureLaunch** navigieren.
 
-   ![Image](/help/user-guide/assets/launches-images/launches-16.png)
+   ![Bild](/help/user-guide/assets/launches-images/launches-16.png)
 
 
 ### Bearbeiten der Launch-Eigenschaften zum Festlegen des Live-Datums und des Umfangs {#editing-the-launch-properties-to-set-the-live-date-and-scope}
@@ -177,7 +177,7 @@ Gehen Sie wie folgt vor, um die Eigenschaften für den Launch zu bearbeiten:
 
    ![image](/help/user-guide/assets/launches-images/launches-19.png)
 
-### Bearbeiten von Screens Launch zum Hinzufügen oder Entfernen von Kanälen {#editing-the-screens-launch-to-add-or-remove-channels}
+### Bearbeiten von Screens Launch zum Hinzufügen oder Entfernen von Kanälen   {#editing-the-screens-launch-to-add-or-remove-channels}
 
 Nachdem Sie den Launch erstellt haben, können Sie Kanäle zum Launch hinzufügen, bzw. daraus entfernen, indem Sie die Option **Launch bearbeiten** verwenden.
 
@@ -207,4 +207,3 @@ Sie können den Launch löschen, indem Sie im Bedienfeld **AUSSTEHENDE LAUNCHES*
 >[!CAUTION]
 >
 >Durch diese Aktion werden auch alle untergeordneten Elemente (verschachtelten Launches) gelöscht.
-
