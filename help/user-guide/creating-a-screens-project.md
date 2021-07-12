@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 00ea321c-3f79-4aa5-83cc-3fa2fe9e35d9
 feature: Inhaltserstellung in Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: d98b449f-6b7d-4c08-b507-a64dece84ba8
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 100%
 
 ---
-
 
 # Erstellen und Verwalten von Projekten {#creating-and-managing-projects}
 
@@ -85,4 +85,3 @@ Die folgenden Schritte zeigen, wie Sie einen Anwendungsordner für Ihre primäre
 ### Die nächsten Schritte {#the-next-steps}
 
 Nachdem Sie Ihr eigenes Projekt erstellt haben, informieren Sie sich unter [Kanalverwaltung](managing-channels.md), wie Sie den Inhalt in Ihrem Kanal erstellen und verwalten.
-
