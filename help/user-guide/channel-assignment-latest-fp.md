@@ -3,15 +3,15 @@ title: Kanalzuweisung – Neuestes Feature Pack
 seo-title: Kanalzuweisung – Neuestes Feature Pack
 description: Auf dieser Seite erhalten Sie Informationen zur Kanalzuweisung und zu Dayparting.
 feature: Inhaltserstellung in Screens, Kanalzuweisung
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '1475'
 ht-degree: 100%
 
 ---
-
 
 # Kanalzuweisung {#channel-assignment}
 
@@ -120,7 +120,7 @@ Führen Sie die folgenden Schritte aus, um zur Timeline-Ansicht zu navigieren:
 
    ![image](/help/user-guide/assets/channel-assignment/timeline-1.png)
 
-## Verstehen der Kanaleigenschaften im Dialogfeld „Kanalzuweisung“ {#channel-properties}
+## Verstehen der Kanaleigenschaften im Dialogfeld „Kanalzuweisung“  {#channel-properties}
 
 Die folgenden Eigenschaften werden über die Option **Einstellungen** im Dialogfeld **Kanalzuweisung** festgelegt.
 
