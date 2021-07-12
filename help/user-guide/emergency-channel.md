@@ -10,19 +10,19 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: dbb4fae6-f3fb-496a-9bd6-1151e2862b5b
 docset: aem65
 feature: Inhaltserstellung in Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: d409ba46-b48a-44db-b305-27c392cd55de
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '814'
 ht-degree: 100%
 
 ---
 
-
 # Notfallkanal {#emergency-channel}
 
-## Nutzungsszenario – Beschreibung {#use-case-description}
+## Nutzungsszenario – Beschreibung    {#use-case-description}
 
 In diesem Abschnitt wird Nutzungsszenario beschrieben, das sich auf die Erstellung und Verwaltung eines Notfallkanals konzentriert, in den der Autor des Inhalts bei einer bestimmten Vorbedingung aus einem Sequenzkanal wechseln kann.
 
