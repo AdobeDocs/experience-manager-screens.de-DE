@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
 feature: Inhaltserstellung in Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: 3208d058-0812-44e1-83e3-b727b384876a
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '2537'
 ht-degree: 100%
 
 ---
-
 
 # Verwenden dynamischer eingebetteter Sequenzen {#using-dynamic-embedded-sequence}
 
@@ -92,6 +92,7 @@ Sie können die folgenden Ressourcen (Bilder) herunterladen (und zu Assets hinzu
 >
 >* **[Erstellen und Verwalten von Projekten](creating-a-screens-project.md)**
 >* **[Verwalten eines Kanals](managing-channels.md)**
+
 >
 
 
@@ -121,7 +122,6 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
    ![screen_shot_2018-09-13at23212pm](assets/screen_shot_2018-09-13at23212pm.png)
 
    >[!NOTE]
-   >
    >Informationen zum Erstellen eines Standorts finden Sie unter **[Erstellen und Verwalten von Standorten](managing-locations.md)**.
 
 1. **Erstellen Sie unter jedem Standortordner zwei Standorte und einen Kanal.**
@@ -162,7 +162,6 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
    Erstellen Sie eine Anzeige als **Store2Display** und einen Kanal **Store2Channel** unter **Store 2** (mit dem Namen **store**).
 
    >[!NOTE]
-   >
    >Achten Sie darauf, dass Sie denselben Namen für die Kanäle verwenden können, die in **Store 1** und **Store 2** als **store** erstellt wurden.
 
    ![screen_shot_2018-09-19at120329pm](assets/screen_shot_2018-09-19at120329pm.png)
@@ -182,7 +181,6 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
    Navigieren Sie zu **Demo** > **Standorte** > **Region A** > **Region A** und klicken Sie in der Aktionsleiste auf **Bearbeiten**. Ziehen Sie die Assets, die Sie hinzufügen möchten, in Ihren Kanal.
 
    >[!NOTE]
-   >
    >Sie können die Datei ***Resources.zip*** im Abschnitt **Ressourcen** verwenden, um die Bilder als Assets für Ihren Kanalinhalt zu verwenden.
 
    ![screen_shot_2018-09-12at12438pm](assets/screen_shot_2018-09-12at12438pm.png)
@@ -310,8 +308,7 @@ Die Berechtigungen werden jeder Gruppe wie folgt zugewiesen:
 #### Schritte zum Erstellen von Benutzergruppen, Benutzern und Einrichten von ACLs {#steps-for-creating-user-groups-users-and-setting-up-acls}
 
 >[!NOTE]
->
->Detaillierte Informationen dazu, wie Sie Projekte mithilfe von ACLs trennen, damit jede Einzelperson oder jedes Team ein eigenes Projekt handhabt, finden Sie unter **Einrichten von ACLs**.
+Detaillierte Informationen dazu, wie Sie Projekte mithilfe von ACLs trennen, damit jede Einzelperson oder jedes Team ein eigenes Projekt handhabt, finden Sie unter **Einrichten von ACLs**.
 
 Führen Sie die folgenden Schritte aus, um Gruppen und Benutzer zu erstellen und die ACLs gemäß den Berechtigungen zu ändern:
 
@@ -338,8 +335,7 @@ Führen Sie die folgenden Schritte aus, um Gruppen und Benutzer zu erstellen und
    Erstellen Sie auf ähnliche Weise zwei weitere Benutzer wie **Region-Benutzer** und **Store-Benutzer** und fügen Sie sie **Region-Autor** bzw. **Store-Autor** hinzu.
 
    >[!NOTE]
-   >
-   >Es empfiehlt sich, Benutzer einer Gruppe hinzuzufügen und dann den einzelnen Benutzergruppen Berechtigungen zuzuweisen.
+Es empfiehlt sich, Benutzer einer Gruppe hinzuzufügen und dann den einzelnen Benutzergruppen Berechtigungen zuzuweisen.
 
    ![screen_shot_2018-09-17at34412pm](assets/screen_shot_2018-09-17at34412pm.png)
 
@@ -409,6 +405,4 @@ Führen Sie die folgenden Schritte aus, um Gruppen und Benutzer zu erstellen und
    ![store](assets/store.gif)
 
 >[!NOTE]
->
->Ausführliche Informationen zum Einrichten von Berechtigungen finden Sie unter [Einrichten von ACLs](setting-up-acls.md).
-
+Ausführliche Informationen zum Einrichten von Berechtigungen finden Sie unter [Einrichten von ACLs](setting-up-acls.md).
