@@ -11,15 +11,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 59430d38-b441-4488-934e-74a55122b063
 docset: aem65
 feature: Überblick
-role: Business Practitioner, Data Architect
+role: User, Data Architect
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: d1472137-c15f-44fb-89c3-d251a06c392b
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 100%
 
 ---
-
 
 # Teil 5: Support-Aspekte {#part-support-considerations}
 
@@ -33,8 +33,10 @@ Diese Seite enthält den letzten Teil einer 5-teiligen Serie, der Team-Mitgliede
 >
 >* Projektbereitstellung vor Ort
 >* Überprüfung von Gerätekonnektivität und -betrieb durch den Installationstechniker und das NOC (Network Operations Center)
+
 >
->Vor Beginn von Tag 2 sollte die Planung für laufende Lebenszyklusbudgets abgeschlossen werden.
+>
+Vor Beginn von Tag 2 sollte die Planung für laufende Lebenszyklusbudgets abgeschlossen werden.
 
 Die Planung umfasst:
 
@@ -70,4 +72,3 @@ In diesem abschließenden Teil eines 5-teiligen Tutorials wird erläutert, wie d
 ## Zusammenfassung {#conclusion}
 
 In dieser 5-teiligen Serie geht es um wichtige Aspekte, die für den Erfolg Ihres Projekts entscheidend sind. Einzelheiten zur Implementierung finden Sie in anderen Abschnitten des AEM Screens-Benutzerhandbuchs.
-
