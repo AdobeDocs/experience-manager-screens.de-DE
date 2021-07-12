@@ -5,21 +5,21 @@ description: In diesem Nutzungsszenario erfahren Sie, wie Sie einen unbefristete
 seo-description: In diesem Nutzungsszenario erfahren Sie, wie Sie ein Projekt einrichten, in dem ein unbefristeter Übernahmekanal erstellt wird, der an einem bestimmten Tag und zu einer bestimmten Zeit kontinuierlich wiedergegeben wird.
 contentOwner: jsyal
 feature: Inhaltserstellung in Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 100%
 
 ---
 
-
 # Unbefristeter Übernahmekanal {#perpetual-takeover-channel}
 
 Auf der folgenden Seite finden Sie ein Nutzungsszenario, in dem ein Projekt eingerichtet wird, in dem ein unbefristeter Übernahmekanal erstellt wird, der an einem bestimmten Tag und zu einer bestimmten Zeit kontinuierlich wiedergegeben wird.
 
-## Nutzungsszenario – Beschreibung {#use-case-description}
+## Nutzungsszenario – Beschreibung    {#use-case-description}
 
 In diesem Nutzungsszenario wird erläutert, wie Sie einen Kanal erstellen, der den normalerweise wiedergegebenen Kanal für eine Anzeige oder eine Gruppe von Anzeigen *übernimmt*. Die Übernahme erfolgt unbefristet an einem bestimmten Tag und zu einer bestimmten Zeit.
 Beispielsweise gibt es einen unbefristeten Übernahmekanal, der jeden Freitag von 9:00 Uhr bis 10:00 Uhr wiedergegeben wird. Während dieser Zeit sollte kein anderer Kanal wiedergegeben werden. Das folgende Beispiel zeigt die Erstellung eines unbefristeten Übernahmekanals, der es ermöglicht, den Inhalt jeden Mittwoch für 2 Stunden von 14:00 Uhr bis 16:00 Uhr wiederzugeben.
