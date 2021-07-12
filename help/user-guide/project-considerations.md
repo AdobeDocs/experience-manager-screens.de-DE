@@ -11,17 +11,17 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 10b81628-46db-4122-bf9e-96f41f080055
 docset: aem65
 feature: Überblick
-role: Business Practitioner, Data Architect
+role: User, Data Architect
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: 7814ee96-9220-45b6-b56e-b48a9da9a319
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 100%
 
 ---
 
-
-# Teil 2: Überlegungen zum Projektumfang {#part-considerations-as-projects-are-scoped}
+# Teil 2: Überlegungen zum Projektumfang {#part-considerations-as-projects-are-scoped}
 
 Diese Seite enthält Teil 2 einer 5-teiligen Serie, der Team-Mitgliedern dabei hilft, Pre-Sales-Aspekte bei der Entwicklung erfolgreicher AEM Screens-Implementierungen besser zu verstehen.
 
@@ -42,7 +42,7 @@ Die Hauptkomponenten eines Programms für Digital Signage, die für eine erfolgr
 >
 >Es ist wichtig, eine Inhaltsstrategie zu definieren, in der berücksichtigt wird, wie die Anwendung Software-, Hardware- und Konnektivitätsressourcen nutzt, um den beabsichtigten Nutzen erfolgreich zu erzielen.
 
-## Zusammenfassung der Projektüberlegungen in einem Projekt für Digital Signage {#summary-of-project-considerations-in-a-digital-signage}
+## Zusammenfassung der Projektüberlegungen in einem Projekt für Digital Signage   {#summary-of-project-considerations-in-a-digital-signage}
 
 Bei der Entwicklung einer Inhaltsstrategie sind verschiedene Aspekte zu beachten, darunter E/A-Schichten, Asset-Typen, Zielgruppensegmente und Dayparting-Anforderungen.
 
