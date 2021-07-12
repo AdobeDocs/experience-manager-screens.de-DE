@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
 feature: Verwalten von Screens
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '1068'
 ht-degree: 100%
 
 ---
-
 
 # Arbeiten mit dem AEM Screens-Player {#working-with-aem-screens-player}
 
@@ -146,7 +146,7 @@ Für den AEM Screens-Player gibt es zwei Arten von Updates:
 | Firmware-Update | Wird per Remote-Befehl auf vorhandene installierte Player angewendet. Nach der Aktualisierung wird der Player mit dem vorhandenen Inhalt automatisch neu geladen. | Ja | Benutzerdefiniert | Fast – 1-3 Sekunden |
 | Player-Shell-Aktualisierungen | Dabei handelt es sich um eine neue ausführbare Datei, die im Player bereitgestellt werden kann. Dazu müssen neue Binärdaten remote auf den Player kopiert, der aktuelle Player angehalten und die neue Version gestartet werden. Die vorab geladenen Pakete müssen möglicherweise erneut heruntergeladen werden. | Ja (über Remote-Shell) | Benutzerdefiniert | Nein |
 
-## Richtlinien zur Hardware-Auswahl für das Player-Gerät {#hardware-selection-guidelines-for-player-device}
+## Richtlinien zur Hardware-Auswahl für Player-Geräte {#hardware-selection-guidelines-for-player-device}
 
 Der folgende Abschnitt enthält Richtlinien zur Hardware-Auswahl für ein Screens-Projekt:
 
