@@ -11,17 +11,17 @@ topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
 feature: Inhaltserstellung in Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '1466'
 ht-degree: 100%
 
 ---
 
-
-# Hinzufügen von Komponenten zu Kanälen {#adding-components-to-a-channel}
+# Hinzufügen von Komponenten zu Kanälen{#adding-components-to-a-channel}
 
 Komponenten sind die grundlegenden Elemente des AEM (Adobe Experience Manager)-Erlebnisses. Sie können verschiedene Komponenten nutzen und Kanälen in AEM Screens-Projekten hinzufügen.
 
@@ -336,4 +336,3 @@ Die Komponente „Video“ verfügt über die folgenden Eigenschaften:
   </tr>
  </tbody>
 </table>
-
