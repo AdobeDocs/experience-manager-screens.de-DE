@@ -4,17 +4,17 @@ seo-title: Dispatcher-Konfigurationen für AEM Screens
 description: Auf dieser Seite werden Richtlinien zum Konfigurieren von Dispatcher für ein AEM Screens-Projekt hervorgehoben.
 seo-description: Auf dieser Seite werden Richtlinien zum Konfigurieren von Dispatcher für ein AEM Screens-Projekt hervorgehoben.
 feature: Verwalten von Screens
-role: Developer, Business Practitioner
+role: Developer, User
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 100%
 
 ---
 
-
-# Dispatcher-Konfigurationen für AEM Screens {#dispatcher-configurations-for-aem-screens}
+# Dispatcher-Konfigurationen für AEM Screens{#dispatcher-configurations-for-aem-screens}
 
 Dispatcher ist ein Tool von Adobe Experience Manager für das Zwischenspeichern und/oder den Lastenausgleich.
 
@@ -32,7 +32,7 @@ Bevor Sie Dispatcher für ein AEM Screens-Projekt konfigurieren, müssen Sie üb
 
 Weitere Informationen finden Sie unter [Konfigurieren von Dispatcher](https://docs.adobe.com/content/help/de-DE/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html).
 
-## Konfigurieren von Dispatcher {#configuring-dispatcher}
+## Konfigurieren des Dispatchers {#configuring-dispatcher}
 
 AEM Screens-Player/-Geräte verwenden ebenfalls authentifizierte Sitzungen, um auf die Ressourcen in den Veröffentlichungsinstanzen zuzugreifen. Wenn Sie also über mehrere Veröffentlichungsinstanzen verfügen, sollten die Anfragen immer an dieselbe Veröffentlichungsinstanz gesendet werden, damit die authentifizierte Sitzung für alle Anfragen von den AEM Screens-Playern/Geräten gültig ist.
 
