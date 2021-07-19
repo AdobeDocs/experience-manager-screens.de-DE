@@ -6,10 +6,10 @@ feature: Übersicht, Digital Signage
 role: User
 level: Beginner
 exl-id: 3db8241d-03ed-4c87-bd3e-0ead2b44ae50
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: da5abdb3b12f8e1e71af2f9dbc80ec2434ae08ed
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 100%
+source-wordcount: '584'
+ht-degree: 95%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 100%
 **AEM (Adobe Experience Manager) Screens** – Eine Lösung für Digital Signage, mit der Sie dynamische und interaktive digitale Erlebnisse und Interaktionen unter Verwendung einer digitalen Marketing-Plattform auf unterschiedlichen Bildschirmen veröffentlichen können.
 
 Nutzen Sie den [Schnellstart für AEM Screens](kickstart-for-aem-screens.md) für einen schnellen Einstieg in die einfach zu nutzende Lösung für Digital Signage.
+
+Informationen zum Konfigurieren und Erstellen Ihres AEM Screens-Projekts in AEM as a Cloud Service finden Sie unter [hier](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/screens-as-cloud-service/home.html?lang=en).
 
 ## Überblick {#overview}
 
