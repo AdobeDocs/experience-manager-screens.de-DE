@@ -15,7 +15,7 @@ role: Admin, Developer
 level: Intermediate
 exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '359'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ Sie können diese Aktivität auch für eine Zeit mit geringerem Netzwerk-Traffic
 
 ## Verwenden des Massen-Offline-Updates {#using-bulk-offline-update}
 
-Sie können das Massen-Offline-Update manuell über die Benutzeroberfläche (UI) verwenden oder das Massen-Update über OSGi-Dienste planen.
+Sie können das Massen-Offline-Update manuell über die Benutzeroberfläche (UI) verwenden oder das Massen-Update über OSGi-Service planen.
 
 ### Verwenden der AEM Screens-Benutzeroberfläche {#using-aem-screens-user-interface}
 
@@ -62,7 +62,7 @@ Gehen Sie wie folgt vor, um das Massen-Offline-Update für ein AEM Screens-Proje
 Gehen Sie wie folgt vor, um das Massen-Offline-Update für ein AEM Screens-Projekt zu verwenden:
 
 1. Konfiguration der Adobe Experience Manager-Web-Konsole.
-1. Suchen Sie nach den Diensten für das Massen-Offline-Update.
+1. Suchen Sie nach den Services für das Massen-Offline-Update.
 
    ![screen_shot_2018-04-24at121428pm](assets/screen_shot_2018-04-24at121428pm.png)
 
@@ -76,6 +76,6 @@ Gehen Sie wie folgt vor, um das Massen-Offline-Update für ein AEM Screens-Proje
    >
    >Geben Sie den Projektpfad relativ zum Kanal an.
 
-   **Zeitplanfrequenz** Geben Sie einen Zeitpunkt an, z. B. 17.00 Uhr, zu dem dieser Dienst Offline-Inhalte aktualisieren soll.
+   **Zeitplanfrequenz** Geben Sie einen Zeitpunkt an, z. B. 17.00 Uhr, zu dem dieser Service Offline-Inhalte aktualisieren soll.
 
 1. Klicken Sie auf **Speichern**, um Ihre Einstellungen zu speichern. Ihre Inhalte werden zum festgelegten Zeitpunkt aktualisiert.
