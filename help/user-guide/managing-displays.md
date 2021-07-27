@@ -14,7 +14,7 @@ role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '775'
 ht-degree: 100%
 
@@ -111,7 +111,7 @@ Das Anzeigen-Dashboard bietet verschiedene Bedienfelder zum Verwalten von Anzeig
 
 ![cqdoc9456](assets/cqdoc9456.gif)
 
-### Bedienfeld „Anzeigeinformationen“  {#display-information-panel}
+### Bedienfeld „Anzeigeinformationen“ {#display-information-panel}
 
 Im Bedienfeld **ANZEIGEINFORMATIONEN** werden die Anzeigeeigenschaften angezeigt.
 
@@ -127,12 +127,12 @@ Außerdem können Sie den Ereignis-Timer-Wert für Ihren interaktiven Kanal auf 
 Verwenden Sie **CRXDE Lite**, um auf die Eigenschaft **idleTimeout** zuzugreifen: `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels`.
 
 
-### Bedienfeld „Zugewiesene Kanäle“  {#assigned-channels-panel}
+### Bedienfeld „Zugewiesene Kanäle“ {#assigned-channels-panel}
 
 Das Bedienfeld **ZUGEWIESENE KANÄLE** zeigt die zugewiesenen Kanäle des Geräts an.
 
 
-### Bedienfeld „Geräte“  {#devices-panel}
+### Bedienfeld „Geräte“ {#devices-panel}
 
 Das Bedienfeld **GERÄTE** bietet Informationen zu den Gerätekonfigurationen.
 
