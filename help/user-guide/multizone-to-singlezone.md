@@ -8,7 +8,7 @@ role: Developer, User
 level: Intermediate
 exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '403'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 # Übergang von mehreren zu einzelnen Zonen {#multizone-to-singlezone-use-case}
 
 
-## Nutzungsszenario – Beschreibung    {#use-case-description}
+## Nutzungsszenario – Beschreibung {#use-case-description}
 
 In diesem Abschnitt wird ein Nutzungsszenario beschrieben, das erläutert, wie man einen Mehrzonen-Layout-Kanal im Wechsel mit einem Einzelzonen-Layout-Kanal einrichtet. Der Mehrzonenkanal verfügt über sequenzierende Bild-/Video-Assets und zeigt, wie Sie ein Projekt einrichten können, in dem zwischen Mehr- und Einzelzonen gewechselt werden kann.
 
