@@ -14,7 +14,7 @@ role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '467'
 ht-degree: 100%
 
@@ -65,7 +65,7 @@ Die Funktion SmartSync bietet eine Reihe von Vorteilen für AEM Screens-Projekte
 |---|---|
 | Android | 3.3.72 |
 | Chrome OS | 1.0.136 |
-| Windows | 1,0,136 |
+| Windows | 1.0.136 |
 
 Gehen Sie wie folgt vor, um von ContentSync zu SmartSync zu wechseln:
 
@@ -85,11 +85,11 @@ Gehen Sie wie folgt vor, um von ContentSync zu SmartSync zu wechseln:
 
 1. Die **Konfiguration der Adobe Experience Manager-Web-Konsole** wird geöffnet. Suchen Sie nach *offlinecontentservice*.
 
-   Zum Durchsuchen der Eigenschaft **Screens-Offline-Inhaltsdienst** drücken Sie **Befehlstaste+F** unter **Mac** und **Strg+F** unter **Windows**.
+   Zum Durchsuchen der Eigenschaft **Screens-Offline-Inhalts-Service** drücken Sie **Befehlstaste+F** unter **Mac** und **Strg+F** unter **Windows**.
 
    ![screen_shot_2019-02-19at22643pm](assets/screen_shot_2019-02-19at22643pm.png)
 
-1. Klicken Sie auf **Speichern**, um die Eigenschaft **Screens-Offline-Inhaltsdienst** zu aktivieren und SmartSync für AEM Screens zu verwenden.
+1. Klicken Sie auf **Speichern**, um die Eigenschaft **Screens-Offline-Inhalts-Service** zu aktivieren und SmartSync für AEM Screens zu verwenden.
 1. Nachdem Sie SmartSync aktiviert haben, müssen Sie zu Ihrem Projekt navigieren und auf **Offline-Inhalt aktualisieren** klicken *(in der Aktionsleiste)*, wie in der folgenden Abbildung dargestellt.
 
    ![screen_shot_2019-02-25at102605am](assets/screen_shot_2019-02-25at102605am.png)
