@@ -8,7 +8,7 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1907'
 ht-degree: 100%
 
@@ -103,7 +103,7 @@ Gehen Sie wie folgt vor, um einen standardmäßigen Replikationsagenten einzuric
    >Alternativ können Sie einen vorhandenen Replikationsagenten kopieren und umbenennen.
 
 
-#### Erstellen von standardmäßigen Replikationsagenten   {#creating-standard-replication-agents}
+#### Erstellen von standardmäßigen Replikationsagenten  {#creating-standard-replication-agents}
 
 1. Erstellen Sie einen standardmäßigen Replikationsagenten für pub1 (standardmäßiger Agent, der bereits vorkonfiguriert sein sollte) (z. B. *https://&lt;Hostname>:4503/bin/receive?sling:authRequestLogin=1*).
 1. Richten Sie einen standardmäßigen Replikationsagenten für pub2 ein. Sie können den Replikationsagenten für pub1 kopieren und den für pub2 zu verwendenden Transport aktualisieren, indem Sie in der Transportkonfiguration den Port ändern. (Beispiel: *https://&lt;Hostname>:4504/bin/receive?sling:authRequestLogin=1*)
@@ -127,7 +127,7 @@ Einrichten der Apache Sling Oak-basierten Erkennung für alle Veröffentlichungs
 Bei jeder Veröffentlichungsinstanz:
 
 1. Navigieren Sie zu `https://<host>:<port>/system/console/configMgr`
-1. Wählen Sie die Konfiguration **Apache Sling Oak-basierter Erkennungsdienst**.
+1. Wählen Sie die Konfiguration **Apache Sling Oak-basierter Erkennungs-Service**.
 1. Aktualisieren Sie die Topologie-Connector-URLs: Fügen Sie URLs aller beteiligten Veröffentlichungsinstanzen hinzu, d. h.:
    * `https://localhost:4503/libs/sling/topology/connector`
    * `https://localhost:4504/libs/sling/topology/connector`
