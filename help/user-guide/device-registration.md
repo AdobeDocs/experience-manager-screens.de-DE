@@ -15,7 +15,7 @@ role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '789'
 ht-degree: 100%
 
@@ -39,6 +39,7 @@ Der Prozess zur Geräteregistrierung erfolgt auf 2 separaten Geräten:
 >1. Halten Sie die linke obere Ecke gedrückt, um den Admin-Bereich zu öffnen.
 >1. Navigieren Sie im linken Aktionsmenü zu **Konfiguration**, geben Sie die Standortadresse der AEM-Instanz unter **Server** ein und klicken Sie auf **Speichern**.
 >1. Klicken Sie im linken Aktionsmenü auf den Link **Registrierung** und führen Sie die folgenden Schritte aus, um die Geräteregistrierung abzuschließen.
+
 >
 
 
@@ -150,7 +151,6 @@ Sobald Sie Geräte für Ihren Player registriert haben, können Sie alle Geräte
 * Benutzer können nach jedem Wort suchen, das in der *Geräte-ID* oder dem *Gerätenamen* vorkommt.
 
    >[!NOTE]
-   >
    >Es wird empfohlen, die Gerätenamen in mehreren Wörtern zu erstellen, z. B. *Boston Store Lobby* und nicht *BostonStoreLobby*.
 
 * Wenn Sie Gerätenamen wie *Boston Store Lobby* erstellen, können Sie nach jedem beliebigen Wort wie *boston*, *store* oder *lobby* suchen. Wenn der Gerätename jedoch *BostonStoreLobby* lautet, werden bei der Suche nach *boston* keine Ergebnisse angezeigt.
