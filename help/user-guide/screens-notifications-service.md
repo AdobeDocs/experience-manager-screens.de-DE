@@ -1,6 +1,6 @@
 ---
-title: AEM Screens-Benachrichtigungsdienst
-seo-title: AEM Screens-Benachrichtigungsdienst
+title: AEM Screens-Benachrichtigungs-Service
+seo-title: AEM Screens-Benachrichtigungs-Service
 description: Auf dieser Seite erfahren Sie mehr darüber, wie Sie Geräteaktivität überwachen können.
 seo-description: Auf dieser Seite erfahren Sie mehr darüber, wie Sie Geräteaktivität überwachen können.
 uuid: 9843219d-ed39-4e4f-bef4-e500528ff9f1
@@ -14,17 +14,17 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '558'
 ht-degree: 100%
 
 ---
 
-# AEM Screens-Benachrichtigungsdienst{#aem-screens-notifications-service}
+# AEM Screens-Benachrichtigungs-Service{#aem-screens-notifications-service}
 
 <!--removed from metadata: admitteddomains: @adobe.com;@caesars.com-->
 
-Der ***AEM Screens-Benachrichtigungsdienst*** beschreibt die Funktion, mit der Sie Geräteaktivität überwachen können.
+Der ***AEM Screens-Benachrichtigungs-Service*** beschreibt die Funktion, mit der Sie Geräteaktivität überwachen können.
 
 In diesem Abschnitt werden folgende Themen behandelt:
 
@@ -41,16 +41,16 @@ In diesem Abschnitt werden folgende Themen behandelt:
 
 ## Überblick {#overview}
 
-Der ***AEM Screens-Benachrichtigungsdienst*** bietet Administratoren die Möglichkeit, eine E-Mail zu empfangen, wenn ein AEM Screens-Player in einem konfigurierbaren Zeitraum nicht gepingt hat.
+Der ***AEM Screens-Benachrichtigungs-Service*** bietet Administratoren die Möglichkeit, eine E-Mail zu empfangen, wenn ein AEM Screens-Player in einem konfigurierbaren Zeitraum nicht gepingt hat.
 
-Der Dienst lässt sich in der OSGi-Web-Konsole einrichten.
+Der Service lässt sich in der OSGi-Web-Konsole einrichten.
 
 ## Konfigurieren der E-Mail-Einstellungen {#configuring-email-settings}
 
 Gehen Sie wie folgt vor, um die Einstellungen für E-Mail-Benachrichtigungen zu konfigurieren:
 
 1. Öffnen Sie die **Konfiguration der Adobe Experience Manager-Web-Konsole**.
-1. Öffnen Sie den **Screens-E-Mail-Überwachungsdienst für Geräte**.
+1. Öffnen Sie den **Screens-E-Mail-Überwachungs-Service für Geräte**.
 
    ![screen_shot_2018-04-26at44602pm](assets/screen_shot_2018-04-26at44602pm.png)
 
@@ -64,7 +64,7 @@ Gehen Sie wie folgt vor, um die Einstellungen für E-Mail-Benachrichtigungen zu 
    >
    >Geben Sie den Projektpfad an, unter dem sich die Gerätebenutzer befinden.
 
-   **Häufigkeit**: Geben Sie eine Zeit (z. B. 17.00 Uhr oder 23.00 Uhr) oder eine Häufigkeit in Stunden (z. B. 1) an, zu der der Dienst E-Mails senden soll.
+   **Häufigkeit**: Geben Sie eine Zeit (z. B. 17.00 Uhr oder 23.00 Uhr) oder eine Häufigkeit in Stunden (z. B. 1) an, zu der der Service E-Mails senden soll.
 
    **Ping-Timeout**: Gibt das Intervall in Minuten an, nach dem ein Gerät als nicht erreichbar betrachtet werden soll.
 
@@ -98,7 +98,7 @@ E-Mails werden nur gesendet, wenn es mindestens ein Gerät gibt, das im angegebe
 
 ### Anwendungsbeispiele {#example-use-cases}
 
-Im folgenden Beispiel werden zur Referenz einige Szenarien beschrieben, in denen die Eigenschaften des E-Mail-Überwachungsdiensts für Screens-Geräte konfiguriert werden.
+Im folgenden Beispiel werden zur Referenz einige Szenarien beschrieben, in denen die Eigenschaften des E-Mail-Überwachungs-Services für Screens-Geräte konfiguriert werden.
 
 **Szenario 1**:
 
