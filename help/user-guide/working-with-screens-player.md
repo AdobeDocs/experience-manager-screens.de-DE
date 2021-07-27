@@ -14,7 +14,7 @@ role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1068'
 ht-degree: 100%
 
@@ -175,7 +175,7 @@ In der folgenden Tabelle sind die Hardware-Konfigurationen mit typischen Anwendu
    <td>Einfach</td>
    <td>Dual Core-, i3- oder Quad-Core Intel® Atom-Prozessor der Einstiegsklasse</td>
    <td><p>4 GB Arbeitsspeicher</p> <p>2 MB Cache</p> </td>
-   <td><p>•ChromeOS 32 GB</p> <p>•Windows 128 GB</p> </td>
+   <td><p>•Chrome OS 32 GB</p> <p>•Windows 128 GB</p> </td>
    <td>OnBoard</td>
    <td>1920 x 1080</td>
    <td>DVI,<br /> Ethernet/Wireless,<br /> 2x USB</td>
