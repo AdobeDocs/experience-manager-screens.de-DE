@@ -14,7 +14,7 @@ role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '752'
 ht-degree: 100%
 
@@ -62,7 +62,7 @@ Gehen Sie wie folgt vor, um zu prüfen, ob diese beiden wichtigen Konfiguratione
 >[!NOTE]
 >
 >* Informationen zum Aktivieren des **Apache Sling Referrer-Filters** finden Sie unter [Zulassen von leeren Referrer-Anforderungen](/help/user-guide/configuring-screens-introduction.md#allow-empty-referrer-requests).
->* Informationen zum Aktivieren des **HTTP**-Dienstes finden Sie unter [Apache Felix Jetty-basierter HTTP-Dienst](/help/user-guide/configuring-screens-introduction.md#allow-apache-felix-service).
+>* Informationen zum Aktivieren des **HTTP**-Service finden Sie unter [Apache Felix Jetty-basierter HTTP-Service](/help/user-guide/configuring-screens-introduction.md#allow-apache-felix-service).
 
 
 ### Voraussetzungen {#prerequisites}
@@ -86,13 +86,13 @@ Die folgenden wichtigen Punkte bieten Hilfestellung beim Konfigurieren von AEM-S
 1. Klicken Sie auf **Speichern**, um den Apache Sling Referrer-Filter „Leere erlauben“ zu aktivieren.
 
 
-#### Apache Felix Jetty-basierter HTTP-Dienst {#allow-apache-felix-service}
+#### Apache Felix Jetty-basierter HTTP-Service {#allow-apache-felix-service}
 
 1. Navigieren Sie zur **Konfiguration der Adobe Experience Manager-Web-Konsole** über AEM-Instanz > Hammersymbol > **Vorgänge** > **Web-Konsole**.
 
    ![image](assets/config/empty-ref1.png)
 
-1. Die **Konfiguration der Adobe Experience Manager-Web-Konsole** wird geöffnet. Suchen Sie nach „Apache Felix Jetty-basierter HTTP-Dienst“.
+1. Die **Konfiguration der Adobe Experience Manager-Web-Konsole** wird geöffnet. Suchen Sie nach „Apache Felix Jetty-basierter HTTP-Service“.
 
    Um nach dieser Eigenschaft zu suchen, drücken Sie **Befehl+F** für **Mac** und **Strg+F** für **Windows**.
 
@@ -100,7 +100,7 @@ Die folgenden wichtigen Punkte bieten Hilfestellung beim Konfigurieren von AEM-S
 
    ![image](assets/config/config-1.png)
 
-1. Klicken Sie auf **Speichern**, um den *HTTP*-Dienst zu aktivieren.
+1. Klicken Sie auf **Speichern**, um den *HTTP*-Service zu aktivieren.
 
 #### Aktivieren der Touch-Benutzeroberfläche für AEM Screens {#enable-touch-ui-for-aem-screens}
 
