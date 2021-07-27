@@ -8,7 +8,7 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '796'
 ht-degree: 100%
 
@@ -26,9 +26,9 @@ Auf der folgenden Seite wird die Verwendung der Befehlssynchronisierung beschrie
 
 Digital-Signage-Lösungen müssen Videowände und die synchronisierte Wiedergabe unterstützen, um Szenarien wie Neujahrs-Countdowns oder große Videos zu ermöglichen, die auf mehreren Bildschirmen wiedergegeben werden. Hier kommt die Befehlssynchronisierung zum Tragen.
 
-Bei der Befehlssynchronisierung dient ein Player als *Master* und sendet den Befehl. Alle anderen Player agieren als *Clients* und beginnen mit der Wiedergabe, wenn sie den Befehl erhalten.
+Bei der Befehlssynchronisierung dient ein Player als *primäres Gerät* und sendet den Befehl. Alle anderen Player agieren als *Clients* und beginnen mit der Wiedergabe, wenn sie den Befehl erhalten.
 
-Der *Master* sendet einen Befehl an alle registrierten Clients, wenn er im Begriff ist, die Wiedergabe eines Elements zu starten. Die Nutzlast kann hier der Index bzw. der äußere HTML-Code des abzuspielenden Elements sein.
+Das *primäre Gerät* sendet einen Befehl an alle registrierten Clients, wenn er im Begriff ist, die Wiedergabe eines Elements zu starten. Die Nutzlast kann hier der Index bzw. der äußere HTML-Code des abzuspielenden Elements sein.
 
 ## Implementieren der Befehlssynchronisierung {#using-command-sync}
 
@@ -90,57 +90,57 @@ Bevor Sie die Funktion zur Befehlssynchronisierung verwenden, stellen Sie sicher
    ![image1](assets/command-sync/command-sync9-1.png)
 
 
-### Einrichten eines Master-Geräts {#setting-up-master}
+### Einrichten eines primären Geräts {#setting-up-master}
 
 1. Rufen Sie das Anzeigen-Dashboard auf, indem Sie zu **CommandSyncDemo** > **Standorte** > **Lobby** > **LobbyDisplay** navigieren und in der Aktionsleiste auf **Dashboard** klicken.
 Im Bedienfeld **GERÄTE** werden die beiden Geräte (Chrome- und Windows-Player) angezeigt, wie in der folgenden Abbildung dargestellt.
    ![image1](assets/command-sync/command-sync10-1.png)
 
-1. Wählen Sie im Bedienfeld **GERÄTE** das Gerät aus, das Sie als Master verwenden möchten. Das folgende Beispiel zeigt, wie Sie das Chrome-Gerät als Master einrichten. Klicken Sie auf **Als Master-Gerät festlegen**.
+1. Wählen Sie im Bedienfeld **GERÄTE** das Gerät aus, das Sie als primäres Gerät verwenden möchten. Das folgende Beispiel zeigt, wie Sie das Chrome-Gerät als primäres Gerät einrichten. Klicken Sie auf **Als primäres Gerät festlegen**.
 
    ![image1](assets/command-sync/command-sync11-1.png)
 
-1. Geben Sie in **Als Master-Gerät festlegen** die IP-Adresse ein und klicken Sie auf **Speichern**.
+1. Geben Sie in **Als primäres Gerät festlegen** die IP-Adresse ein und klicken Sie auf **Speichern**.
 
    ![image1](assets/command-sync/command-sync12-1.png)
 
 >[!NOTE]
 >
->Sie können mehrere Geräte als Master einrichten.
+>Sie können mehrere primäre Geräte einrichten.
 
-### Synchronisieren mit dem Master {#sync-up-master}
+### Synchronisieren mit dem primären Gerät {#sync-up-master}
 
-1. Nachdem Sie das Chrome-Gerät als Master-Gerät eingerichtet haben, können Sie das andere Gerät (in diesem Fall den Windows-Player) mit dem Master synchronisieren.
-Wählen Sie dazu das andere Gerät (in diesem Fall den Windows-Player) im Bedienfeld **GERÄTE** aus und klicken Sie auf **Mit Master-Gerät synchronisieren**, wie in der folgenden Abbildung dargestellt.
+1. Nachdem Sie das Chrome-Gerät als primäres Gerät eingerichtet haben, können Sie das andere Gerät (in diesem Fall den Windows-Player) mit dem primären synchronisieren.
+Wählen Sie dazu das andere Gerät (in diesem Fall den Windows-Player) im Bedienfeld **GERÄTE** aus und klicken Sie auf **Mit primärem Gerät synchronisieren**, wie in der folgenden Abbildung dargestellt.
 
    ![image1](assets/command-sync/command-sync13-1.png)
 
 1. Wählen Sie das Gerät in der Liste aus und klicken Sie auf **Speichern**.
 
    >[HINWEIS:]
-   > Im Dialogfeld **Mit Master-Gerät synchronisieren** wird die Liste der Master-Geräte angezeigt. Sie können die gewünschte Voreinstellung auswählen.
+   > Im Dialogfeld **Mit primärem Gerät synchronisieren** wird die Liste der primären Geräte angezeigt. Sie können die gewünschte Voreinstellung auswählen.
 
-1. Nachdem das Gerät (Windows-Player) mit dem Master (Chrome-Player) synchronisiert wurde, wird das Gerät im Bedienfeld **GERÄTE** als synchronisiert angezeigt.
+1. Nachdem das Gerät (Windows-Player) mit dem primären Gerät (Chrome-Player) synchronisiert wurde, wird das Gerät im Bedienfeld **GERÄTE** als synchronisiert angezeigt.
 
    ![image1](assets/command-sync/command-sync14-1.png)
 
-### Aufheben der Synchronisierung mit dem Master {#desync-up-master}
+### Aufheben der Synchronisierung mit dem primären Gerät {#desync-up-master}
 
-Nachdem Sie ein oder mehrere Geräte mit einem Master synchronisiert haben, können Sie die Synchronisierung mit diesem Gerät aufheben.
+Nachdem Sie ein oder mehrere Geräte mit einem primären Gerät synchronisiert haben, können Sie die Synchronisierung mit diesem Gerät aufheben.
 
 >[!NOTE]
 >
->Wenn Sie die Synchronisierung eines Master-Geräts aufheben, wird auch die Verknüpfung aller mit diesem Master-Gerät verbundenen Client-Geräte aufgehoben.
+>Wenn Sie die Synchronisierung eines primären Geräts aufheben, wird auch die Verknüpfung aller mit diesem primären Gerät verbundenen Client-Geräte aufgehoben.
 
-Gehen Sie wie folgt vor, um die Synchronisierung mit dem Master-Gerät aufzuheben:
+Gehen Sie wie folgt vor, um die Synchronisierung mit dem primären Gerät aufzuheben:
 
 1. Navigieren Sie zum Bedienfeld **GERÄTE** und wählen Sie das Gerät aus.
 
-1. Klicken Sie auf **Synchronisierung von Gerät(en) aufheben**, um die Synchronisierung zwischen Client und Master-Gerät aufzuheben.
+1. Klicken Sie auf **Synchronisierung von Gerät(en) aufheben**, um die Synchronisierung zwischen Client und primärem Gerät aufzuheben.
 
    ![image1](assets/command-sync/command-sync15-1.png)
 
-1. Klicken Sie auf **Bestätigen**, um die Synchronisierung des ausgewählten Geräts mit dem Master aufzuheben.
+1. Klicken Sie auf **Bestätigen**, um die Synchronisierung des ausgewählten Geräts mit dem primären Gerät aufzuheben.
 
    >[HINWEIS:]
-   > Wenn Sie das Master-Gerät auswählen und die Option zur Aufhebung der Synchronisierung verwenden, wird die Synchronisierung aller mit dem Master verbundenen Geräte in einem Schritt aufgehoben.
+   > Wenn Sie das primäre Gerät auswählen und die Option zur Aufhebung der Synchronisierung verwenden, wird die Synchronisierung aller mit dem primären Gerät verbundenen Geräte in einem Schritt aufgehoben.
