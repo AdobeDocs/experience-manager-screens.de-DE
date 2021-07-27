@@ -15,7 +15,7 @@ role: User, Data Architect
 level: Beginner
 exl-id: 7814ee96-9220-45b6-b56e-b48a9da9a319
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '667'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ Die Hauptkomponenten eines Programms für Digital Signage, die für eine erfolgr
 >
 >Es ist wichtig, eine Inhaltsstrategie zu definieren, in der berücksichtigt wird, wie die Anwendung Software-, Hardware- und Konnektivitätsressourcen nutzt, um den beabsichtigten Nutzen erfolgreich zu erzielen.
 
-## Zusammenfassung der Projektüberlegungen in einem Projekt für Digital Signage   {#summary-of-project-considerations-in-a-digital-signage}
+## Zusammenfassung der Projektüberlegungen in einem Projekt für Digital Signage  {#summary-of-project-considerations-in-a-digital-signage}
 
 Bei der Entwicklung einer Inhaltsstrategie sind verschiedene Aspekte zu beachten, darunter E/A-Schichten, Asset-Typen, Zielgruppensegmente und Dayparting-Anforderungen.
 
@@ -57,7 +57,7 @@ Die folgenden Punkte werden zum Verständnis der Absicht des Endkunden in Bezug 
 * Werden Inhalte aus Print-, TV- oder Web-Kampagnen wiederverwendet?
 * Besteht der Inhalt aus statischen Bildern oder Vorlagen mit dynamisch bereitgestellten Komponenten?
 * Werden Animationen als Video- oder HTML-Programme wiedergegeben?
-* Gibt es Integrationen von Drittanbietern aus Abonnementdiensten für Inhalte, Social Media- oder RSS-Aggregationsdiensten oder API-Aufrufen?
+* Gibt es Integrationen von Drittanbietern aus Abonnement-Service für Inhalte, Social Media- oder RSS-Aggregations-Services oder API-Aufrufen?
 * Welche Anforderungen gelten für die Bildauflösung?
 * Sind Bildschirme standardmäßig im 16:9-Format oder benutzerdefiniert? Hochformat oder Querformat?
 * Werden Videowände mit mehreren Bildschirmen benötigt, und wenn ja, welche?
