@@ -9,7 +9,7 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '631'
 ht-degree: 100%
 
@@ -17,10 +17,10 @@ ht-degree: 100%
 
 # Übernahmekanal für die einmalige Verwendung {#single-use-takeover-channel}
 
-Auf der folgenden Seite finden Sie ein Nutzungsszenario, in dem ein Projekt eingerichtet wird, in dem ein Übernahmekanal für die einmalige Verwendung erstellt wird, der nur einmal für eine bestimmte Zeit wiedergegeben wird.
+Auf der folgenden Seite finden Sie ein Nutzungsszenario, in dem ein Projekt eingerichtet wird. In diesem wird ein Übernahmekanal für die einmalige Verwendung erstellt, der nur einmal für eine bestimmte Zeit wiedergegeben wird.
 
 
-## Nutzungsszenario – Beschreibung    {#use-case-description}
+## Nutzungsszenario – Beschreibung {#use-case-description}
 
 In diesem Nutzungsszenario wird erläutert, wie Sie einen Kanal erstellen, der den normalerweise wiedergegebenen Kanal für eine Anzeige oder eine Gruppe von Anzeigen *übernimmt*. Die Übernahme erfolgt nur einmal und für eine bestimmte Zeit.
 Beispielsweise gibt es einen Übernahmekanal für die einmalige Verwendung, der am Freitag von 9:00 Uhr bis 10:00 Uhr wiedergegeben wird. Während dieser Zeit sollte kein anderer Kanal wiedergegeben werden. Vor und nach dieser Zeit wird der Übernahmekanal für die einmalige Verwendung nicht abgespielt. Das folgende Beispiel zeigt die Erstellung eines Übernahmekanals für die einmalige Verwendung, der es ermöglicht, den Inhalt für 2 Minuten vor Mitternacht am 31. Dezember bis 00:01 Uhr wiederzugeben.
