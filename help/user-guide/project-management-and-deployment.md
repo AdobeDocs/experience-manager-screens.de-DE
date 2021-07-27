@@ -15,7 +15,7 @@ role: User, Data Architect
 level: Beginner
 exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '723'
 ht-degree: 100%
 
@@ -76,7 +76,7 @@ Wenn eine Vertriebschance in ein Projekt übergeht, wird ein Auftakt-Meeting gep
 
 Der letzte Teil einer Tage 1-Initiative ist die Durchführung einer NOC-Übergabe. Wenn ein abgeschlossenes Projekt Service und Support für Tag 2 umfasst, organisiert der Projekt-Manager ein NOC-Übergabe-Meeting mit den Vorgesetzten dieser Teams.
 
-Dieses Meeting besteht hauptsächlich aus A/V-Integratoren aus den Bereichen Kundenbetreuung, Netzwerkbetrieb, Außendienstlogistik, Inhaltsdienste und Buchhaltung. Das Projekt-Management von Adobe, der AEM-Implementor und der Endkunde sind in der Regel gemeinsam beteiligt, wobei der AV-Integrator den Zeitplan, die Abfolge und Entscheidungspunkte festlegt. Projekt-Manager sind in der Regel am besten in der Lage, Diskussionen zu koordinieren, um die Abstimmung der entsprechenden Parteien sicherzustellen und die erforderlichen Unterlagen für das NOC-Übergabe-Meeting zu entwickeln. Kritische Support-Dokumentation wird wahrscheinlich von der IT und/oder AV-Technik sowie von Vertriebs- und Kundenbetreuungsressourcen aller beteiligten Parteien stammen. Für alle Kunden, die Helpdesk-Unterstützung von einem NOC benötigen, muss den NOC-Vorgesetzten Dokumentation zum Hochladen auf eine Knowledgebase-Plattform zur Verfügung gestellt werden.
+Dieses Meeting besteht hauptsächlich aus A/V-Integratoren aus den Bereichen Kundenbetreuung, Netzwerkbetrieb, Außendienstlogistik, Inhalts-Services und Buchhaltung. Das Projekt-Management von Adobe, der AEM-Implementor und der Endkunde sind in der Regel gemeinsam beteiligt, wobei der AV-Integrator den Zeitplan, die Abfolge und Entscheidungspunkte festlegt. Projekt-Manager sind in der Regel am besten in der Lage, Diskussionen zu koordinieren, um die Abstimmung der entsprechenden Parteien sicherzustellen und die erforderlichen Unterlagen für das NOC-Übergabe-Meeting zu entwickeln. Kritische Support-Dokumentation wird wahrscheinlich von der IT und/oder AV-Technik sowie von Vertriebs- und Kundenbetreuungsressourcen aller beteiligten Parteien stammen. Für alle Kunden, die Helpdesk-Unterstützung von einem NOC benötigen, muss den NOC-Vorgesetzten Dokumentation zum Hochladen auf eine Knowledgebase-Plattform zur Verfügung gestellt werden.
 
 ## Teil 4: Video-Tutorial zu Projekt-Management und Bereitstellung {#part-video-tutorial-on-project-management-and-deployment}
 
