@@ -1,8 +1,8 @@
 ---
-title: Inhaltsaktualisierung als Dienst
-seo-title: Inhaltsaktualisierung als Dienst
-description: Auf dieser Seite erhalten Sie Informationen zur Inhaltsaktualisierung als Dienst.
-seo-description: Auf dieser Seite erhalten Sie Informationen zur Inhaltsaktualisierung als Dienst.
+title: Inhaltsaktualisierung als Service
+seo-title: Inhaltsaktualisierung als Service
+description: Auf dieser Seite erhalten Sie Informationen zur Inhaltsaktualisierung als Service.
+seo-description: Auf dieser Seite erhalten Sie Informationen zur Inhaltsaktualisierung als Service.
 uuid: c73126ca-18d0-45b4-bdde-a3653082bfc4
 contentOwner: Jyotika syal
 feature: Inhaltserstellung in Screens
@@ -10,13 +10,13 @@ role: Admin, Developer
 level: Intermediate
 exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '358'
 ht-degree: 100%
 
 ---
 
-# Inhaltsaktualisierung als Dienst {#content-update-as-a-service}
+# Inhaltsaktualisierung als Service {#content-update-as-a-service}
 
 In diesem Abschnitt werden folgende Themen zum Aktualisieren von Content-as-a-Service behandelt:
 
@@ -41,7 +41,7 @@ Sie können diese Aktivität auch für eine Zeit mit geringerem Netzwerk-Traffic
 
 ## Verwenden des Massen-Offline-Updates {#using-bulk-offline-update}
 
-Sie können das Massen-Offline-Update manuell über die Benutzeroberfläche (UI) verwenden oder das Massen-Update über OSGi-Dienste planen.
+Sie können das Massen-Offline-Update manuell über die Benutzeroberfläche (UI) verwenden oder das Massen-Update über OSGi-Service planen.
 
 ### Verwenden der AEM Screens-Benutzeroberfläche {#using-aem-screens-user-interface}
 
@@ -57,7 +57,7 @@ Gehen Sie wie folgt vor, um das Massen-Offline-Update für ein AEM Screens-Proje
 Gehen Sie wie folgt vor, um das Massen-Offline-Update für ein AEM Screens-Projekt zu verwenden:
 
 1. Konfiguration der Adobe Experience Manager-Web-Konsole.
-1. Suchen Sie nach den Diensten für das Massen-Offline-Update.
+1. Suchen Sie nach den Services für das Massen-Offline-Update.
 
    ![screen_shot_2018-04-24at121428pm](assets/screen_shot_2018-04-24at121428pm.png)
 
@@ -71,6 +71,6 @@ Gehen Sie wie folgt vor, um das Massen-Offline-Update für ein AEM Screens-Proje
    >
    >Geben Sie den Projektpfad relativ zum Kanal an.
 
-   **Zeitplanfrequenz** Geben Sie einen Zeitpunkt an, z. B. 17.00 Uhr, zu dem dieser Dienst Offline-Inhalte aktualisieren soll.
+   **Zeitplanfrequenz** Geben Sie einen Zeitpunkt an, z. B. 17.00 Uhr, zu dem dieser Service Offline-Inhalte aktualisieren soll.
 
 1. Klicken Sie auf **Speichern**, um Ihre Einstellungen zu speichern. Ihre Inhalte werden zum festgelegten Zeitpunkt aktualisiert.
