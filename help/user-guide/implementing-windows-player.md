@@ -15,7 +15,7 @@ role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1074'
 ht-degree: 100%
 
@@ -139,7 +139,7 @@ In der folgenden Tabelle finden Sie eine Zusammenfassung der Richtlinienattribut
 }
 ```
 
-## Aktivieren des Kiosk-Modus    {#enabling-kiosk-mode}
+## Aktivieren des Kiosk-Modus {#enabling-kiosk-mode}
 
 Bei der Bereitstellung des Windows Players ist es wichtig, einen Kiosk-Modus zu aktivieren, damit andere Anwendungen oder die Task-Leiste nicht auf dem Windows-Desktop angezeigt werden.
 
