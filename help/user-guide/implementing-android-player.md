@@ -15,7 +15,7 @@ role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1513'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 In diesem Abschnitt wird die Konfiguration des Android-Players beschrieben. Er enthält Informationen zur Konfigurationsdatei und präsentiert die verfügbaren Optionen und Empfehlungen zu den zum Entwickeln und Testen zu verwendenden Einstellungen.
 
-Außerdem ist **Watchdog** eine Lösung zur Wiederherstellung des Players nach Abstürzen. Eine App muss sich selbst beim Watchdog-Dienst registrieren und dann regelmäßig Nachrichten zur Bestätigung ihrer Aktivität an den Service senden. Falls der Watchdog-Dienst innerhalb der geforderten Zeit keine Keep-Alive-Nachricht erhält, versucht der Dienst das Gerät neu zu starten, um eine saubere Wiederherstellung durchzuführen (bei ausreichenden Rechten) oder die Anwendung neu zu starten.
+Außerdem ist **Watchdog** eine Lösung zur Wiederherstellung des Players nach Abstürzen. Eine Anwendung muss sich selbst beim Watchdog-Service registrieren und dann regelmäßig Nachrichten zur Bestätigung ihrer Aktivität an den Service senden. Falls der Watchdog-Service innerhalb der geforderten Zeit keine Keep-Alive-Nachricht erhält, versucht der Service das Gerät neu zu starten, um eine saubere Wiederherstellung durchzuführen (bei ausreichenden Rechten) oder die Anwendung neu zu starten.
 
 ## Installieren des Android-Players {#installing-android-player}
 
@@ -96,7 +96,7 @@ Gehen Sie wie folgt vor, um die Android-apk mithilfe von Herstellerschlüsseln z
 
 ## Einführung zu Android Watchdog-Services {#android-watchdog-services}
 
-Der Android Watchdog-übergreifende Dienst wird mithilfe von *AlarmManager* als Cordova-Plug-in implementiert.
+Der Android-übergreifende Watchdog-Service wird mithilfe von *AlarmManager* als Cordova-Plug-in implementiert.
 
 Das folgende Diagramm zeigt die Implementierung des Watchdog-Service:
 
