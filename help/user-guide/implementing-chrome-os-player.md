@@ -14,7 +14,7 @@ role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '829'
 ht-degree: 100%
 
@@ -57,7 +57,7 @@ Gehen Sie wie folgt vor, um den Namen im Chrome-Player zu konfigurieren:
    >[!NOTE]
    >Chrome-Player müssen bei der Unternehmensregistrierung registriert sein und der Chrome-Player muss über die Verwaltungskonsole von Chrome bereitgestellt werden. Andernfalls wird die Asset-ID leer zurückgegeben (z. B. Chrome als Erweiterung). Der Gerätename wird erst zum Zeitpunkt der Registrierung aufgezeichnet. Zukünftige Änderungen werden von Adobe Experience Manager (AEM) nicht übernommen.
 
-### Aktivieren des Kiosk-Modus    {#enabling-kiosk-mode}
+### Aktivieren des Kiosk-Modus {#enabling-kiosk-mode}
 
 Gehen Sie wie folgt vor, um den Kiosk-Modus zu aktivieren:
 
