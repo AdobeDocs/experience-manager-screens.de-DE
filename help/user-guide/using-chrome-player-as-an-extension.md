@@ -8,7 +8,7 @@ role: Admin
 level: Intermediate
 exl-id: 53d5bd81-0853-47b0-9798-01d8fd5612e6
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '467'
 ht-degree: 100%
 
@@ -57,7 +57,7 @@ Auf dieser Seite erfahren Sie, wie Sie den Chrome-Player als Browser-Erweiterung
 
    **Firmware debuggen**: Öffnen Sie die Administrator-Benutzeroberfläche, klicken Sie mit der rechten Maustaste und überprüfen Sie den Firmware (Player)-Code (es sollte eine Option zum Überprüfen der Hintergrundseite und Simulieren des Browser-Neustarts geben).
 
-   **Hintergrundseite debuggen**: Rufen Sie die Administrator-Benutzeroberfläche auf, klicken Sie mit der rechten Maustaste und überprüfen Sie die Hintergrundseite (für Hintergrunddienste wie HTTP-Server).
+   **Hintergrundseite debuggen**: Rufen Sie die Administrator-Benutzeroberfläche auf, klicken Sie mit der rechten Maustaste und überprüfen Sie die Hintergrundseite (für Hintergrund-Services wie HTTP-Server).
 
 ## Aktualisieren der Player-Erweiterung {#upgrading-player}
 
