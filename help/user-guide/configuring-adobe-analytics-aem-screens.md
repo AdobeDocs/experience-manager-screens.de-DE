@@ -15,7 +15,7 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '696'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ In diesem Abschnitt werden folgende Themen behandelt:
 
 ## Sequenzierung in Adobe Analytics mit AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
 
-Der ***Sequenzierungsprozess*** beginnt mit dem Datenspeicherdienst, der den Adobe Analytics-Dienst aktiviert. Kanalinhalte senden Adobe Analytics-Ereignisse mit Kostenanalyse, d. h. die Erfassung von Datentests an Windows I/O und die Auslösung von Aufenthaltsereignissen werden ausgelöst. Die Ereignisse werden in der Index-DB gespeichert und weiter im Objektspeicher abgelegt. Basierend auf dem Zeitplan, den der Administrator festlegt, schneidet er die Daten aus dem Objektspeicher aus und überträgt sie weiter in den Blockspeicher. Es versucht, die maximale Datenmenge zu senden, wenn eine Verbindung besteht.
+Der ***Sequenzierungsprozess*** beginnt mit dem Datenspeicher-Service, der den Adobe Analytics-Service aktiviert. Kanalinhalte senden Adobe Analytics-Ereignisse mit Kostenanalyse, d. h. die Erfassung von Datentests an Windows I/O und die Auslösung von Aufenthaltsereignissen werden ausgelöst. Die Ereignisse werden in der Index-DB gespeichert und weiter im Objektspeicher abgelegt. Basierend auf dem Zeitplan, den der Administrator festlegt, schneidet er die Daten aus dem Objektspeicher aus und überträgt sie weiter in den Blockspeicher. Es versucht, die maximale Datenmenge zu senden, wenn eine Verbindung besteht.
 
 ### Sequenzierungsdiagramm {#sequencing-diagram}
 
