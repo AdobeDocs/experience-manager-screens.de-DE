@@ -15,7 +15,7 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '704'
 ht-degree: 100%
 
@@ -123,9 +123,9 @@ In der folgenden Tabelle werden die Eigenschaften mit ihrer Beschreibung zur Kon
 >
 >Standardmäßig beträgt die **Analytics-Sendefrequenz** 15 Minuten.
 
-#### Verwenden des Adobe Analytics-Dienstes in AEM Screens {#using-adobe-analytics-service-in-aem-screens}
+#### Verwenden des Adobe Analytics-Service in AEM Screens {#using-adobe-analytics-service-in-aem-screens}
 
-In diesem Szenario wird die Analytics-API über REST-Aufrufe aus einem Analytics-Dienst in den Screens-Kernkomponenten „Firmware“ und „Instrumente“ aufgerufen, um explizit Ereignisse zu erstellen und zu senden, die für ein bestimmtes Nutzungsszenario spezifisch sind. Gleichzeitig ist eine Erweiterung möglich, bei der sich benutzerdefinierte Nachrichten von einem benutzerdefinierten Kanal an Analytics senden lassen.
+In diesem Szenario wird die Analytics-API über REST-Aufrufe aus einem Analytics-Service in den Screens-Kernkomponenten „Firmware“ und „Instrumente“ aufgerufen, um explizit Ereignisse zu erstellen und zu senden, die für ein bestimmtes Nutzungsszenario spezifisch sind. Gleichzeitig ist eine Erweiterung möglich, bei der sich benutzerdefinierte Nachrichten von einem benutzerdefinierten Kanal an Analytics senden lassen.
 
 Analytics-Ereignisse werden in indexedDB offline gespeichert und später aufgeteilt und an die Cloud gesendet.
 
