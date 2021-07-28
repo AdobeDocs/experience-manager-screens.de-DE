@@ -80,7 +80,6 @@ Im folgenden Abschnitt wird beschrieben, wie der Projekt-Importer in einem AEM S
 >
 >* Andere Dateien als CSV/XLS/XLSX-Erweiterungen werden in der aktuellen Version nicht unterstützt.
 >* Für importierte Dateien gibt es keine Filterung der Eigenschaften und es wird alles importiert, was mit „./“ beginnt.
-
 >
 
 
