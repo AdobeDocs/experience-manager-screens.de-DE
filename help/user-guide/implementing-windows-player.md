@@ -14,10 +14,10 @@ feature: Verwalten von Screens, Windows-Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '1074'
-ht-degree: 100%
+source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
+workflow-type: tm+mt
+source-wordcount: '1095'
+ht-degree: 98%
 
 ---
 
@@ -71,6 +71,9 @@ Nachdem Sie die Anwendung heruntergeladen haben, führen Sie die Schritte im Pla
 ## Benennen des Windows-Players {#name-windows}
 
 Sie können Ihrem Windows-Player einen benutzerfreundlichen Gerätenamen zuweisen und so den zugewiesenen Gerätenamen an Adobe Experience Manager (AEM) senden. Mit dieser Funktion können Sie nicht nur Ihren Windows-Player benennen, sondern auch mühelos geeignete Inhalte zuweisen.
+
+>[!NOTE]
+>Sie können den Player-Namen nur vor der Registrierung auswählen. Sobald der Player registriert ist, kann der Player-Name nicht mehr geändert werden.
 
 Gehen Sie wie folgt vor, um den Namen im Windows-Player zu konfigurieren:
 
