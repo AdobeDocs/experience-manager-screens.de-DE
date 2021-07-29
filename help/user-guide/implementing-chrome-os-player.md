@@ -13,10 +13,10 @@ feature: Verwalten von Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '829'
-ht-degree: 100%
+source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
+workflow-type: tm+mt
+source-wordcount: '850'
+ht-degree: 97%
 
 ---
 
@@ -39,6 +39,9 @@ Führen Sie die nachfolgenden Schritte aus, um die Chrome Management Console ein
 ## Benennen des Chrome OS-Players {#name-chrome}
 
 Sie können Ihrem Chrome-Player einen benutzerfreundlichen Gerätenamen zuweisen und so den zugewiesenen Gerätenamen an Adobe Experience Manager (AEM) senden. Mit dieser Funktion können Sie nicht nur Ihren Chrome-Player benennen, sondern auch mühelos geeignete Inhalte zuweisen.
+
+>[!NOTE]
+>Sie können den Player-Namen nur vor der Registrierung auswählen. Sobald der Player registriert ist, kann der Player-Name nicht mehr geändert werden.
 
 Gehen Sie wie folgt vor, um den Namen im Chrome-Player zu konfigurieren:
 
