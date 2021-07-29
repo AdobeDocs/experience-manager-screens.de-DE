@@ -14,10 +14,10 @@ feature: Verwalten von Screens, Android-Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '1513'
-ht-degree: 100%
+source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
+workflow-type: tm+mt
+source-wordcount: '1534'
+ht-degree: 98%
 
 ---
 
@@ -181,6 +181,9 @@ Bei der Massenbereitstellung von Android-Playern ist es mühsam, jeden einzelnen
 ## Benennen des Android-Players {#name-android}
 
 Sie können Ihrem Android-Player einen benutzerfreundlichen Gerätenamen zuweisen und so den zugewiesenen Gerätenamen an Adobe Experience Manager (AEM) senden. Mit dieser Funktion können Sie nicht nur Ihren Android-Player benennen, sondern auch mühelos geeignete Inhalte zuweisen.
+
+>[!NOTE]
+>Sie können den Player-Namen nur vor der Registrierung auswählen. Sobald der Player registriert ist, kann der Player-Name nicht mehr geändert werden.
 
 Gehen Sie wie folgt vor, um den Namen im Android-Player zu konfigurieren:
 
