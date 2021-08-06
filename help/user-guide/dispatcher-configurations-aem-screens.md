@@ -7,7 +7,7 @@ feature: Verwalten von Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: ee7e37c5a3b4fa20f1a5cb27ceaf8db4b56a03da
+source-git-commit: 89b4bc6b7eca18d37246be188eddad87443a96d6
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 64%
@@ -135,7 +135,7 @@ Um den Cache für die Assets zu aktivieren, damit die Assets aus dem Dispatcher-
 
 Stellen Sie sicher, dass diese Filter und Cache-Regeln in Dispatchern, die den Veröffentlichungsinstanzen vorgehen, für das Funktionieren von Screens zugelassen werden.
 
-## Voraussetzungen für Manifestversion v3{#prerequisites3}
+### Voraussetzungen für Manifestversion v3{#prerequisites3}
 
 Stellen Sie sicher, dass Sie diese beiden Voraussetzungen erfüllen, bevor Sie den Dispatcher (Manifestversion v3) für AEM Screens konfigurieren:
 
