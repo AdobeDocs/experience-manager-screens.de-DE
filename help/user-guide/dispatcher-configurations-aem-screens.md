@@ -7,10 +7,10 @@ feature: Verwalten von Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: d3903605e50668a568e5c336b47ad4c6d8cd1dc0
+source-git-commit: 7e4d3c5ed7299d6439bf9be6d49ec9224dcf71ed
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 91%
+source-wordcount: '579'
+ht-degree: 68%
 
 ---
 
@@ -32,15 +32,10 @@ Die folgende Seite enthält die Richtlinien zum Konfigurieren von Dispatcher fü
 >Bevor Sie Dispatcher für ein AEM Screens-Projekt konfigurieren, müssen Sie über Vorkenntnisse in Dispatcher verfügen.
 >Weitere Informationen finden Sie unter [Konfigurieren von Dispatcher](https://docs.adobe.com/content/help/de-DE/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html).
 
-Stellen Sie sicher, dass Sie diese beiden Voraussetzungen erfüllen, bevor Sie den Dispatcher für AEM Screens konfigurieren:
-
-* Stellen Sie sicher, dass Sie `v3 manifests` verwenden. Navigieren Sie zu `https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` und stellen Sie sicher, dass `Enable ContentSync Cache` deaktiviert ist.
-
-* Stellen Sie sicher, dass der Dispatcher-Flush-Agent in der Veröffentlichungsinstanz unter `/etc/replication/agents.publish/dispatcher1useast1Agent` konfiguriert ist.
-
-   ![image](/help/user-guide/assets/dispatcher/dispatcher-1.png)
-
 ## Konfigurieren des Dispatchers {#configuring-dispatcher}
+
+>[!IMPORTANT]
+>Die folgenden Dispatcher-Konfigurationen gelten nur für die Manifestversion v2. Informationen zur Manifestversion V3 finden Sie unter [Dispatcher-Konfigurationen für Manifestversion v3]{#configuring-dispatcherv3} .
 
 AEM Screens-Player/-Geräte verwenden ebenfalls authentifizierte Sitzungen, um auf die Ressourcen in den Veröffentlichungsinstanzen zuzugreifen. Wenn Sie also über mehrere Veröffentlichungsinstanzen verfügen, sollten die Anfragen immer an dieselbe Veröffentlichungsinstanz gesendet werden, damit die authentifizierte Sitzung für alle Anfragen von den AEM Screens-Playern/Geräten gültig ist.
 
@@ -133,6 +128,106 @@ Um den Cache für die Assets zu aktivieren, damit die Assets aus dem Dispatcher-
 /0003
     { # Disable Dispatcher Cache for Screens devices json 
     /glob "/home/users/screens/*.json"
+    /type "deny"
+    }
+```
+
+## Konfigurieren des Dispatchers für die Manifestversion v3{#configuring-dispatcherv3}
+
+Stellen Sie sicher, dass diese Filter und Cache-Regeln in Dispatchern, die den Veröffentlichungsinstanzen vorgehen, für das Funktionieren von Screens zugelassen werden.
+
+## Voraussetzungen für Manifestversion v3{#prerequisites3}
+
+Stellen Sie sicher, dass Sie diese beiden Voraussetzungen erfüllen, bevor Sie den Dispatcher für AEM Screens konfigurieren:
+
+* Stellen Sie sicher, dass Sie `v3 manifests` verwenden. Navigieren Sie zu `https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` und stellen Sie sicher, dass `Enable ContentSync Cache` deaktiviert ist.
+
+* Stellen Sie sicher, dass der Dispatcher-Flush-Agent in der Veröffentlichungsinstanz unter `/etc/replication/agents.publish/dispatcher1useast1Agent` konfiguriert ist.
+
+   ![image](/help/user-guide/assets/dispatcher/dispatcher-1.png)
+
+### Filter  {#filter-v3}
+
+```
+## AEM Screens Filters
+## # Login, Ping and Device Configurations
+/0200 { /type "allow" /method "POST" /url "/libs/granite/core/content/login.validate/j_security_check" }
+/0201 { /type "allow" /method "GET" /url "/libs/granite/csrf/token.json" }
+/0202 { /type "allow" /method "GET" /url "/content/screens/svc.json" }
+/0203 { /type "allow" /method "GET" /url "/content/screens/svc.ping.json" }
+/0204 { /type "allow" /method "GET" /url "/content/screens/svc.config.json" }
+ 
+## # Device Dashboard Configurations
+/0210 { /type "allow" /method '(GET|POST)' /url "/home/users/screens/*/devices/*/profile_screens.preferences.json" }
+/0211 { /type "allow" /method "POST" /url "/home/users/screens/*/devices/*/profile_screens.logs.json" }
+/0212 { /type "allow" /method "POST" /url "/home/users/screens/*/devices/*/profile_screens.statusinfo.json" }
+/0213 { /type "allow" /method "POST" /url "/home/users/screens/*/devices/*/profile_screens.screenshot.json" }
+ 
+## # Content Configurations
+/0220 { /type "allow" /method '(GET|HEAD)' /url "/content/screens/*" }
+#/0221 { /type "allow" /method '(GET|HEAD)' /url "/content/experience-fragments/*" } ## uncomment this, if you're using experience-fragments
+/0222 { /type "allow" /extension '(css|eot|gif|ico|jpeg|jpg|js|gif|pdf|png|svg|swf|ttf|woff|woff2|html|mp4|mov|m4v)' /path "/content/dam/*" } ## add any other formats required for your project here
+ 
+## # Enable clientlibs proxy servlet
+/0230 { /type "allow" /method "GET" /url "/etc.clientlibs/*" }
+```
+
+### Cache-Regeln {#cache-rules-v3}
+
+* Fügen Sie `/allowAuthorized "1"` zum Abschnitt `/cache` in `publish_farm.any` hinzu.
+
+* Alle Screens-Player verwenden eine authentifizierte Sitzung, um eine Verbindung zu AEM (Autor/Veröffentlichung) herzustellen. Der vordefinierte Dispatcher speichert diese URLs nicht zwischen. Daher sollten wir diese aktivieren.
+
+* Fügen Sie `statfileslevel "10"` zum Abschnitt `/cache` in `publish_farm.any` hinzu.
+Dies unterstützt die Zwischenspeicherung von bis zu 10 Ebenen aus dem Cache-Basisverzeichnis und die entsprechende Invalidierung bei der Veröffentlichung von Inhalten, anstatt alles zu invalidieren. Sie können diese Ebene ändern, je nachdem, wie tief Ihre Inhaltsstruktur ist.
+
+* Fügen Sie `/invalidate section in publish_farm.any` Folgendes hinzu
+
+```
+/0003 {
+    /glob "*.json"
+    /type "allow"
+}
+```
+
+Fügen Sie die folgenden Regeln zum Abschnitt `/rules` in `/cache` in `publish_farm.any` oder in einer Datei hinzu, die von `publish_farm.any` stammt:
+
+```
+## Don't cache CSRF login tokens
+/0001
+    {
+    /glob "/libs/granite/csrf/token.json"
+    /type "deny"
+    }
+## Allow Dispatcher Cache for Screens channels
+/0002
+    {
+        /glob "/content/screens/*.html"
+        /type "allow"
+    }
+## Allow Dispatcher Cache for Screens offline manifests
+/0003
+    {
+    /glob "/content/screens/*.manifest.json"
+    /type "allow"
+    }
+## Allow Dispatcher Cache for Assets
+/0004
+    {
+  
+    /glob "/content/dam/*"
+    /type "allow"
+    }
+## Disable Dispatcher Cache for Screens devices json
+/0005
+    {
+    /glob "/home/users/screens/*.json"
+    /type "deny"
+    }
+## Disable Dispatcher Cache for Screens svc json
+/0006
+    {
+    /glob "/content/screens/svc.json"
     /type "deny"
     }
 ```
