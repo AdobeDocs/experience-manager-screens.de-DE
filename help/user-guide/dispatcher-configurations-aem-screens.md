@@ -7,10 +7,10 @@ feature: Verwalten von Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '393'
-ht-degree: 100%
+source-git-commit: d3903605e50668a568e5c336b47ad4c6d8cd1dc0
+workflow-type: tm+mt
+source-wordcount: '432'
+ht-degree: 91%
 
 ---
 
@@ -26,11 +26,19 @@ Die folgende Seite enthält die Richtlinien zum Konfigurieren von Dispatcher fü
 >
 >Wenn kein Dispatcher vorhanden ist, deaktivieren Sie das Registrierungs-Servlet in der Liste der OSGi-Komponenten.
 
-## Voraussetzungen {#pre-requisites}
+## Voraussetzungen {#prerequisites}
 
-Bevor Sie Dispatcher für ein AEM Screens-Projekt konfigurieren, müssen Sie über Vorkenntnisse in Dispatcher verfügen.
+>[!IMPORTANT]
+>Bevor Sie Dispatcher für ein AEM Screens-Projekt konfigurieren, müssen Sie über Vorkenntnisse in Dispatcher verfügen.
+>Weitere Informationen finden Sie unter [Konfigurieren von Dispatcher](https://docs.adobe.com/content/help/de-DE/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html).
 
-Weitere Informationen finden Sie unter [Konfigurieren von Dispatcher](https://docs.adobe.com/content/help/de-DE/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html).
+Stellen Sie sicher, dass Sie diese beiden Voraussetzungen erfüllen, bevor Sie den Dispatcher für AEM Screens konfigurieren:
+
+* Stellen Sie sicher, dass Sie `v3 manifests` verwenden. Navigieren Sie zu `https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` und stellen Sie sicher, dass `Enable ContentSync Cache` deaktiviert ist.
+
+* Stellen Sie sicher, dass der Dispatcher-Flush-Agent in der Veröffentlichungsinstanz unter `/etc/replication/agents.publish/dispatcher1useast1Agent` konfiguriert ist.
+
+   ![image](/help/user-guide/assets/dispatcher/dispatcher-1.png)
 
 ## Konfigurieren des Dispatchers {#configuring-dispatcher}
 
