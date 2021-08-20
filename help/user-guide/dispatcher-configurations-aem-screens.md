@@ -8,13 +8,13 @@ role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
 source-git-commit: 0f32fc015729685c724176c25920da6f07707c00
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '586'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
-# Dispatcher-Konfigurationen für AEM Screens{#dispatcher-configurations-for-aem-screens}
+# Dispatcher-Konfigurationen für AEM Screens {#dispatcher-configurations-for-aem-screens}
 
 Dispatcher ist ein Tool von Adobe Experience Manager für das Zwischenspeichern und/oder den Lastenausgleich.
 
@@ -26,15 +26,15 @@ Die folgende Seite enthält die Richtlinien zum Konfigurieren von Dispatcher fü
 >
 >Wenn kein Dispatcher vorhanden ist, deaktivieren Sie das Registrierungs-Servlet in der Liste der OSGi-Komponenten.
 
-Bevor Sie Dispatcher für ein AEM Screens-Projekt konfigurieren, müssen Sie über Vorkenntnisse in Dispatcher verfügen.
+Um Dispatcher für ein AEM Screens-Projekt konfigurieren zu können, müssen Sie über Vorkenntnisse in Dispatcher verfügen.
 Weitere Informationen finden Sie unter [Konfigurieren von Dispatcher](https://docs.adobe.com/content/help/de-DE/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html).
 
-## Konfigurieren des Dispatchers für die Manifestversion v2 {#configuring-dispatcher}
+## Konfigurieren von Dispatcher für die Manifest-Version v2 {#configuring-dispatcher}
 
 >[!IMPORTANT]
->Die folgenden Dispatcher-Konfigurationen gelten nur für die Manifestversion v2. Informationen zur Manifestversion v3 finden Sie unter [Dispatcher-Konfigurationen für Manifestversion v3](#configuring-dispatcherv3) .
+>Die folgenden Dispatcher-Konfigurationen gelten nur für die Manifest-Version v2. Informationen zur Manifest-Version v3 finden Sie unter [Dispatcher-Konfigurationen für Manifest-Version v3](#configuring-dispatcherv3).
 
-AEM Screens-Player oder -Geräte verwenden authentifizierte Sitzungen, um auf die Ressourcen in den Veröffentlichungsinstanzen zuzugreifen. Wenn Sie also über mehrere Veröffentlichungsinstanzen verfügen, sollten die Anfragen immer an dieselbe Veröffentlichungsinstanz gesendet werden, damit die authentifizierte Sitzung für alle Anfragen von den AEM Screens-Playern/Geräten gültig ist.
+AEM Screens-Player oder -Geräte verwenden ebenfalls authentifizierte Sitzungen, um auf die Ressourcen in den Veröffentlichungsinstanzen zuzugreifen. Wenn Sie also über mehrere Veröffentlichungsinstanzen verfügen, sollten die Anfragen immer an dieselbe Veröffentlichungsinstanz gesendet werden, damit die authentifizierte Sitzung für alle Anfragen von den AEM Screens-Playern/Geräten gültig ist.
 
 Gehen Sie wie folgt vor, um Dispatcher für ein AEM Screens-Projekt zu konfigurieren.
 
@@ -129,21 +129,21 @@ Um den Cache für die Assets zu aktivieren, damit die Assets aus dem Dispatcher-
     }
 ```
 
-## Konfigurieren des Dispatchers für die Manifestversion v3{#configuring-dispatcherv3}
+## Konfigurieren von Dispatcher für die Manifest-Version v3 {#configuring-dispatcherv3}
 
-Stellen Sie sicher, dass diese Filter und Cache-Regeln in Dispatchern, die den Veröffentlichungsinstanzen vorgehen, für das Funktionieren von Screens zugelassen werden.
+Stellen Sie sicher, dass diese Filter und Cache-Regeln in Dispatchern zugelassen sind, die sich vor den Veröffentlichungsinstanzen befinden, damit Screens funktioniert.
 
-### Voraussetzungen für Manifestversion v3{#prerequisites3}
+### Voraussetzungen für Manifest-Version v3 {#prerequisites3}
 
-Stellen Sie sicher, dass Sie diese beiden Voraussetzungen erfüllen, bevor Sie den Dispatcher (Manifestversion v3) für AEM Screens konfigurieren:
+Stellen Sie sicher, dass diese beiden Voraussetzungen erfüllt sind, bevor Sie Dispatcher (Manifest-Version v3) für AEM Screens konfigurieren:
 
 * Stellen Sie sicher, dass Sie `v3 manifests` verwenden. Navigieren Sie zu `https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` und stellen Sie sicher, dass `Enable ContentSync Cache` deaktiviert ist.
 
 * Stellen Sie sicher, dass der Dispatcher-Flush-Agent in der Veröffentlichungsinstanz unter `/etc/replication/agents.publish/dispatcher1useast1Agent` konfiguriert ist.
 
-   ![image](/help/user-guide/assets/dispatcher/dispatcher-1.png)
+   ![Bild](/help/user-guide/assets/dispatcher/dispatcher-1.png)
 
-   ![image](/help/user-guide/assets/dispatcher/dispatcher-3.png)
+   ![Bild](/help/user-guide/assets/dispatcher/dispatcher-3.png)
 
 ### Filter  {#filter-v3}
 
@@ -175,12 +175,12 @@ Stellen Sie sicher, dass Sie diese beiden Voraussetzungen erfüllen, bevor Sie d
 
 * Fügen Sie `/allowAuthorized "1"` zum Abschnitt `/cache` in `publish_farm.any` hinzu.
 
-* Alle Screens-Player verwenden eine authentifizierte Sitzung, um eine Verbindung zu AEM (Autor/Veröffentlichung) herzustellen. Der vordefinierte Dispatcher speichert diese URLs nicht zwischen. Daher sollten wir diese aktivieren.
+* Alle Screens-Player verwenden eine authentifizierte Sitzung, um eine Verbindung zu AEM (Autor/Veröffentlichung) herzustellen. Dispatcher ist so vorkonfiguriert, dass diese URLs nicht zwischengespeichert werden. Daher müssen wir diese aktivieren.
 
 * Fügen Sie `statfileslevel "10"` zum Abschnitt `/cache` in `publish_farm.any` hinzu.
 Dies unterstützt die Zwischenspeicherung von bis zu 10 Ebenen aus dem Cache-Basisverzeichnis und die entsprechende Invalidierung bei der Veröffentlichung von Inhalten, anstatt alles zu invalidieren. Sie können diese Ebene ändern, je nachdem, wie tief Ihre Inhaltsstruktur ist.
 
-* Fügen Sie `/invalidate section in publish_farm.any` Folgendes hinzu
+* Hinzufügen von Folgendem zu `/invalidate section in publish_farm.any`
 
    ```
    /0003 {
@@ -189,7 +189,7 @@ Dies unterstützt die Zwischenspeicherung von bis zu 10 Ebenen aus dem Cache-Bas
    }
    ```
 
-* Fügen Sie die folgenden Regeln zum Abschnitt `/rules` in `/cache` in `publish_farm.any` oder in einer Datei hinzu, die von `publish_farm.any` stammt:
+* Fügen Sie die folgenden Regeln zum Abschnitt `/rules` in `/cache` in `publish_farm.any` oder einer Datei hinzu, die in `publish_farm.any` enthalten ist:
 
    ```
    ## Don't cache CSRF login tokens
