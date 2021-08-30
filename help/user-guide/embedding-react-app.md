@@ -13,10 +13,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
-source-git-commit: ffc20b29b58e5fa39564d1e924832ff1c678f80c
+source-git-commit: ffc44dbf1822ff4d0e875ef693d48dece248d555
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 82%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -90,13 +90,12 @@ Gehen Sie wie folgt vor, um die interaktive REACT-App zu AEM Screens hinzuzufüg
 
    ![screen_shot_2019-02-15at101104am](assets/screen_shot_2019-02-15at101104am.png)
 
-1. Kanal einer Anzeige zuweisen
+1. Weisen Sie den Kanal einer Anzeige zu.
 
    >[!NOTE]
    >Stellen Sie sicher, dass Sie beim Zuweisen des Kanals zur Anzeige das Benutzerinteraktionsereignis hinzufügen.
 
-1. 
-   1. Registrieren Sie einen Player für dieses Projekt und weisen Sie ihn der Anzeige zu. Jetzt sollte Ihre interaktive Anwendung in AEM Screens ausgeführt werden.
+1. Registrieren Sie einen Player für dieses Projekt und weisen Sie ihn der Anzeige zu. Jetzt sollte Ihre interaktive Anwendung in AEM Screens ausgeführt werden.
 
    Einzelheiten zur Registrierung eines Geräts finden Sie unter [Geräteregistrierung](device-registration.md).
 
