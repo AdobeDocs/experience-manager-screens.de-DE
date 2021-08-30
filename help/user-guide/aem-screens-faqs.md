@@ -1,20 +1,18 @@
 ---
 title: Häufig gestellte Fragen zu AEM Screens
-seo-title: Häufig gestellte Fragen zu AEM Screens
+seo-title: AEM Screens FAQs
 description: Auf dieser Seite erhalten Sie Antworten auf häufig gestellte Fragen zu AEM Screens-Projekten.
-seo-description: Auf dieser Seite erhalten Sie Antworten auf häufig gestellte Fragen zu AEM Screens-Projekten.
-uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
-contentOwner: jsyal
-feature: Digital Signage, Inhalt
+seo-description: Follow this page to get answers to FAQs related to an AEM Screens project.
+feature: Digital Signage, Content
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '1903'
-ht-degree: 100%
+exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
+source-git-commit: ffc20b29b58e5fa39564d1e924832ff1c678f80c
+workflow-type: tm+mt
+source-wordcount: '1872'
+ht-degree: 99%
 
 ---
-
 
 # Häufig gestellte Fragen zu AEM Screens {#aem-screens-faqs}
 
@@ -51,7 +49,7 @@ Ein ***Online-Kanal*** zeigt den aktualisierten Inhalt in der Echtzeitumgebung a
 
 Wählen Sie den Kanal aus und navigieren Sie in der Aktionsleiste zu den Kanaleigenschaften. Aktivieren Sie **Entwicklermodus (Kanal zwingen, online zu sein)** auf der Registerkarte **Kanal**, um den Kanal online zu schalten.
 
-### 3. Was ermöglicht das Feld „Kanalrolle“? {#what-is-the-use-of-the-channel-role-field}
+### 3. Was ermöglicht das Feld „Kanalrolle“?  {#what-is-the-use-of-the-channel-role-field}
 
 Die Kanalrolle ist eine Abstraktion des tatsächlichen Kanals, die ausgeführt wird, damit sich der Autor direkt auf das generische Erlebnis konzentrieren kann. Sie können sich die Rolle als eine Art Tag vorstellen, das den Kanal in seinem Kontext (Anzeige oder Zeitplan) eindeutig identifiziert.
 
@@ -84,7 +82,7 @@ Es wird empfohlen, die Geräte-ID aus der Sitzung abzurufen, anstatt sie als Par
 
 ### 3. Ist es möglich, eine Anfrage zur Geräteregistrierung abzulehnen? {#is-there-a-way-to-decline-a-device-registration-request}
 
-Sie können Registrierungsanfragen nicht ablehnen. Stattdessen sollten Registrierungsanfragen nach einem Time-out ablaufen, das sich in der [Adobe Experience Manager-Web-Konsole](https://localhost:4502/system/console/configMgr/com.adobe.cq.screens.device.registration.impl.RegistrationServiceImpl) einrichten lässt. Standardmäßig ist dieser Wert auf einen Tag festgelegt und wird in einem Arbeitsspeicher-Cache gespeichert.
+Sie können Registrierungsanfragen nicht ablehnen. Stattdessen sollten Registrierungsanfragen nach einer Zeitüberschreitung ablaufen, die in `Adobe Experience Manager Web Console` konfiguriert ist. Standardmäßig ist dieser Wert auf einen Tag festgelegt und wird in einem Arbeitsspeicher-Cache gespeichert.
 
 ## Geräteüberwachung und Statusberichte {#device-monitoring-and-health-reports}
 
@@ -114,7 +112,7 @@ Ein plattformübergreifender Android-Watchdog, der reine Android-APIs nutzt, ist
 
 Weitere Informationen zur Implementierung des Android-Players finden Sie unter [**Implementieren des Android-Players**](implementing-android-player.md).
 
-### 5. Welche Remote-Überwachungs- und Warnmeldungs-Tools (Software) von Drittanbietern empfiehlt Adobe/AMS zur Überwachung einzelner Geräte? {#what-third-party-remote-monitoring-and-alerting-tools-software-does-adobe-ams-recommend-for-monitoring-each-device}
+### 5. Welche Remote-Überwachungs- und Warnmeldungs-Tools (Software) von Drittanbietern empfiehlt Adobe/AMS zur Überwachung einzelner Geräte?   {#what-third-party-remote-monitoring-and-alerting-tools-software-does-adobe-ams-recommend-for-monitoring-each-device}
 
 Je nachdem, welches Ergebnis Sie von der Überwachung und den Warnmeldungen wünschen, benachrichtigt Sie der AEM Screens-Benachrichtigungsdienst, wenn ein Gerät länger nicht mehr gepingt hat. Geeignete Tools von Drittanbietern hängen vom jeweiligen Betriebssystem, seinen Funktionen und den spezifischen Anforderungen des Kunden ab.
 
@@ -148,7 +146,7 @@ Führen Sie folgende Schritte durch, um „Stay Awake“ in einem beliebigen And
 1. Navigieren Sie zu den **Entwickleroptionen**.
 1. Aktivieren Sie **Stay Awake**.
 
-### 4. Wie wird der Fenstermodus für den Windows-Player aktiviert? {#enable-player}
+### 4. Wie wird der Fenstermodus für den Windows-Player aktiviert?{#enable-player}
 
 Der Windows-Player verfügt über keinen Fenstermodus. Der Vollbildmodus ist immer aktiviert.
 
@@ -210,5 +208,3 @@ AEM Screens erstellt Indexdefinitionen für die vom Produkt verwendeten Abfragen
 Wenn es im `error.log` *abfrageübergreifende Warnhinweise (WARN)* gibt, erstellen Sie einen benutzerdefinierten Index für Ihre Abfrage. Weitere Informationen finden Sie unter [Konfigurieren der Indizes](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=de#configuring-the-indexes).
 
 Sie können auch auf eine zusätzliche Ressource in der [Oak-Dokumentation](https://jackrabbit.apache.org/oak/docs/query/lucene.html) zurückgreifen.
-
-
