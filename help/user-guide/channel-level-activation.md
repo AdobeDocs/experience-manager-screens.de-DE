@@ -3,14 +3,14 @@ title: Aktivierung auf Kanalebene – Wiedergabe eines einzelnen Ereignisses
 seo-title: Aktivierung auf Kanalebene – Wiedergabe eines einzelnen Ereignisses
 description: Befolgen Sie diese Anleitung, um die Aktivierung auf Kanalebene mithilfe der Wiedergabe eines einzelnen Ereignisses zu verstehen.
 topic-tags: authoring
-feature: Autorenbildschirme, Kanäle
+feature: Erstellungsbildschirme, Kanäle
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
 source-git-commit: 9eece68a4fa1577dd7222dd1fd7aa5d0b0da314b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1793'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -65,8 +65,11 @@ Die folgende Abbildung zeigt das Projekt **Channel Level Activation** mit den Ka
 >Weitere Infos zum Erstellen eines Projekts und zum Erstellen eines Sequenzkanals finden Sie in den folgenden Ressourcen:
 >
 >* [Erstellen und Verwalten von Projekten](creating-a-screens-project.md)
-
+   >
+   >
 * [Verwalten eines Kanals](managing-channels.md)
+
+>
 
 
 
@@ -87,7 +90,8 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
    ![screen_shot_2018-11-27at112112am](assets/screen_shot_2018-11-27at112112am.png)
 
    >[!NOTE]
-   Informationen zum Erstellen eines Standorts finden Sie unter **[Erstellen und Verwalten von Standorten](managing-locations.md)**.
+   >
+   >Informationen zum Erstellen eines Standorts finden Sie unter **[Erstellen und Verwalten von Standorten](managing-locations.md)**.
 
 1. **Erstellen einer Anzeige unter dem Standort**
 
@@ -113,7 +117,8 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
    ![screen_shot_2018-11-27at124626pm](assets/screen_shot_2018-11-27at124626pm.png)
 
    >[!NOTE]
-   Sie können Kanäle auch über das Anzeigen-Dashboard zuweisen, indem Sie zu **Channel Level Activation** > **Standorte** > **Region** > **RegionDisplay** navigieren und in der Aktionsleiste auf **Dashboard** klicken. Klicken Sie im Bedienfeld **ZUGEWIESENE KANÄLE UND ZEITPLÄNE** auf **+ Kanal zuweisen**.
+   >
+   >Sie können Kanäle auch über das Anzeigen-Dashboard zuweisen, indem Sie zu **Channel Level Activation** > **Standorte** > **Region** > **RegionDisplay** navigieren und in der Aktionsleiste auf **Dashboard** klicken. Klicken Sie im Bedienfeld **ZUGEWIESENE KANÄLE UND ZEITPLÄNE** auf **+ Kanal zuweisen**.
 
    Weisen Sie den Kanal **TargetedSinglePlay** für die Anzeige zu:
 
