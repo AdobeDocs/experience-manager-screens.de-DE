@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: e96c314ea7487932d2ab994ffc41ca8d2af61c5c
+source-git-commit: e1f46a908a10bdf08985c857fb9302d3e111e9a1
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 93%
+source-wordcount: '334'
+ht-degree: 42%
 
 ---
 
@@ -29,30 +29,23 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 202109 ist der 9. Sept
 
 ### Neue Funktionen {#what-is-new}
 
-* **Sperren von Seiten in einem AEM Screens-Kanal**
+* **Unterstützung von Miniaturansichten für Videos**
 
-   AEM Screens unterstützt jetzt *Sperren einer Seite*, wie bereits in AEM Sites implementiert. Adobe Experience Manager (AEM) bietet Ihnen die Möglichkeit, eine Seite zu sperren, sodass niemand außer Ihnen den Inhalt bearbeiten kann. Dies ist hilfreich, wenn Sie eine Vielzahl von Bearbeitungen an einer bestimmten Seite vornehmen oder wenn Sie eine Seite für eine kurze Zeit einfrieren möchten.
+   Unterstützung von Miniaturbildern für Videos in wird jetzt in AEM Screens unterstützt. Ein Inhaltsautor kann eine Miniaturansicht für Videos definieren, sodass das Bild als Platzhalter verwendet und die Inhaltswiedergabe und das Targeting ordnungsgemäß getestet werden kann, während das eigentliche Video vom entsprechenden Team fertig gestellt wird. Das Bild kann auch verwendet werden, falls die Wiedergabe des Videos fehlschlägt.
+Weitere Informationen finden Sie unter Unterstützung für Miniaturansichten für Videos .
 
-* **Benennen des AEM Screens Player-Geräts**
+* **Grundlegende Wiedergabe-Überwachung**
 
-   Die AEM Screens-Player bieten jetzt die Möglichkeit, einen Gerätenamen an Adobe Experience Manager (AEM) zu senden.
-Standardmäßig wird bei der Massenregistrierung eines Geräts ein vom System generierter Benutzername in das Titelfeld eingegeben. Alternativ kann ein Kunde ein Asset-Tag oder einen anderen benutzerfreundlichen Namen verwenden, damit es in AEM sichtbar ist und damit es einfacher ist, geeignete Inhalte zuzuweisen.
+   AEM Screens unterstützt jetzt die grundlegende Wiedergabe-Überwachung. Der Player meldet jetzt bei jedem Ping verschiedene Wiedergabemetriken (standardmäßig 30 Sekunden). Basierend auf den Metriken bietet es die Möglichkeit, verschiedene Edge-Fälle zu erkennen (festes Erlebnis, leerer Bildschirm, Planungsproblem usw.). Mit dieser Funktion kann das Team remote überwachen, ob ein Player Inhalte ordnungsgemäß wiedergibt, die Reaktionsrate auf leere Bildschirme oder fehlerhafte Erlebnisse im Feld verbessert und das Risiko verringert, dem Endbenutzer ein defektes Erlebnis anzuzeigen.
+Weitere Informationen finden Sie unter Grundlegende Wiedergabe-Überwachung .
 
-   In der folgenden Dokumentation erfahren Sie, wie Sie den Namen in jedem unterstützten Betriebssystem konfigurieren:
+* **Aktualisierungen des Inhaltszuweisungsberichts**
 
-   * [Android](/help/user-guide/implementing-android-player.md#name-android)
-   * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
-   * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
-   * [Chrome OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
 
-* **Manifestgenerierung**
-
-   Schnellere Generierung eines Kanalmanifests mit verbesserter Leistung, z. B. weniger Ressourcen auf dem Server zuzuweisen.
 
 ### Fehlerbehebungen {#bug-fixes}
 
-* Wenn der Player auf einen Kanal mit einer dynamischen eingebetteten Sequenz umschaltet, wird kein schwarzer Bildschirm mehr angezeigt.
-* Die Screens-Player blockieren jetzt den Wechsel zu einem fehlerhaften Kanal, wodurch der 404-Fehler oder eine Seite mit einer Fehlermeldung vermieden wird.
+
 
 ### Veröffentlichte AEM Screens-Player {#released-aem-screens-players}
 
