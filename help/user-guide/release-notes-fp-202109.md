@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: e1f46a908a10bdf08985c857fb9302d3e111e9a1
+source-git-commit: 33e71d5d9b02036aa91db093274dcb058769f288
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 42%
+source-wordcount: '397'
+ht-degree: 34%
 
 ---
 
@@ -41,6 +41,10 @@ Weitere Informationen finden Sie unter Grundlegende Wiedergabe-Überwachung .
 
 * **Aktualisierungen des Inhaltszuweisungsberichts**
 
+* **Unterstützung für V3-Manifeste**
+
+   Sie können jetzt den Dispatcher für Manifest Version 3 konfigurieren. Weitere Informationen finden Sie unter [Konfigurieren des Dispatchers für die Manifestversion v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) .
+Wenn Sie außerdem benutzerdefinierte Komponenten als Teil von v3-Manifesten verwenden, finden Sie weitere Informationen unter [Vorlage für benutzerdefinierte Handler](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers).
 
 
 ### Fehlerbehebungen {#bug-fixes}
