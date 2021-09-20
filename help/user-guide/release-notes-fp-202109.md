@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 060ab6a906597ab8e8789fab6932cec310cc06f5
+source-git-commit: c6506ca62e806ec11d3380d6ac7670bcfcf13adb
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 19%
+source-wordcount: '763'
+ht-degree: 18%
 
 ---
 
@@ -40,6 +40,8 @@ Weitere Informationen finden Sie unter Unterstützung für Miniaturansichten fü
 Weitere Informationen finden Sie unter Grundlegende Wiedergabe-Überwachung .
 
 * **Aktualisierungen des Inhaltszuweisungsberichts**
+
+   Der Inhaltszuweisungsbericht wurde jetzt mit verbesserter Benutzerfreundlichkeit optimiert und verbessert. Der herunterladbare Bericht zeigt verbesserte Player-bezogene Entitäten wie Standorte, Anzeigen und Geräte auf einer Tabellenregisterkarte und die Content Provider-Informationen wie Kanäle und Assets auf einer anderen Registerkarte an.
 
 * **Unterstützung für V3-Manifeste**
 
