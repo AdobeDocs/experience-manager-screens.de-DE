@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 07b5b6159b09c0c1301a5e782dfe959d0b83a7d2
+source-git-commit: 060ab6a906597ab8e8789fab6932cec310cc06f5
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 34%
+source-wordcount: '720'
+ht-degree: 19%
 
 ---
 
@@ -49,11 +49,85 @@ Wenn Sie außerdem benutzerdefinierte Komponenten als Teil von v3-Manifesten ver
 
 ### Fehlerbehebungen {#bug-fixes}
 
+**Player-Seite**
+
+* Es wurden Fehler beim Zwischenspeichern von Dateien behoben, indem Assets durch Ausgabedarstellungen ersetzt wurden.
+
+* Die Player zeigen jetzt nur Asset-Ausgabedarstellungen an, wenn die Ausgabedarstellungszuordnung vorhanden ist.
+
+* Sie können jetzt Slack-Warnhinweise basierend auf Splunk-Protokollen einrichten.
+
+* Verbessern Sie den Ping, um sich erneut zu authentifizieren, wenn die Antwort keine gültige JSON ist.
+
+* Numerische Kanalnamen/-rollen führten zu einem leeren Bildschirm.
+
+* Laden Sie optimierte Ausgabedarstellungen über SmartSync herunter.
+
+* Wandeln Sie die Zuordnung in eine Liste von Ausgabedarstellungsschlüsseln um.
+
+* Entfernen Sie den Zugriff auf cmd.exe und reg.exe im Windows-Player.
+
+* Beschränken Sie CSRF-Token-Aufrufe.
+
+* Ein Player muss das letzte erfolgreiche Wiedergabeereignis melden.
+
+* Ein Player muss seinen Wiedergabestatus melden.
+
+* Der Player lädt Assets nicht erneut herunter, wenn der Cache `ALL` gelöscht wird.
+
+* Als Player-Admin können Sie jetzt einen Player-Namen auswählen.
+
+* Das Entfernen der Kanalzuweisung aus der Anzeige wird nicht im Player angezeigt.
+
+* Wenn der Player beim Herunterladen der Kanalaktualisierung neu geladen wird, ignoriert der Player die Aktualisierung.
+
+* Die eingebettete Seitenkomponente berücksichtigt kein Touchereignis.
+
+* Die Remote-Bereitstellung des Tizen-Players wird jetzt unterstützt.
+
+**Server Side**
+
+* Target-Video wird nicht angezeigt
+* Wettlaufsituationen bei der Übertragung von Anzeigedaten in die Folgezeiten.
+
+* Die Kanalvorschau funktioniert nicht für Kanäle, die Videos enthalten.
+
+* Vorschaumodus wird für den Splitscreen-Kanal leer angezeigt.
+
+* Videominiaturen werden bei aktivierten adaptiven Ausgabeformaten leer dargestellt.
+
+* Kanalmanifest automatisch aktualisieren, wenn referenzierte Seite veröffentlicht wird.
+
+* Kanal JSON enthält keine benutzerdefinierten Kanäle (#942)
+
+* Gelöschte Geräte blockieren jetzt nicht die Screens-Replikationswarteschlange.
+
+* Das Manifest enthält weder zielgerichtete Inhalte noch eingebettete Sites-Seiten.
+
+* Neue Kernbildkomponente wurde dem Kanalmanifest nicht hinzugefügt.
+
+* Das Herunterladen optimierter Ausgabedarstellungen über SmartSync wird jetzt unterstützt.
+
+* Optimierte Ausgabedarstellung für alle Assets abspielen.
+
+* Unterstützung für mehrere Content-Provider-Typen hinzugefügt
+
+* Die Strategie zur Wiedergabe eingebetteter Sequenzen wurde beschädigt und jetzt wurde dies behoben.
+
+* Offline-Manifest mit dem Anforderungsparameter `wcmmode` für HTML-Eintrag, wodurch es nicht mehr erreichbar ist.
+
+* Leere dynamische eingebettete Sequenz verursacht manchmal einen leeren Bildschirm.
+
+* Ein Player muss seinen Wiedergabestatus melden.
+
+* Das Video wird in `Tiny mode` wiedergegeben und nicht als Vollbildvideo auf dem Gerät.
+
+* OSGi-Kennwörter sind als Klartext sichtbar.
 
 
 ### Veröffentlichte AEM Screens-Player {#released-aem-screens-players}
 
-Die folgenden AEM Screens-Player sind für AEM 6.5 Feature Pack 8 verfügbar:
+Die folgenden AEM Screens-Player sind für AEM 6.5 Feature Pack 9 verfügbar:
 
 * ChromeOS
 * Windows
