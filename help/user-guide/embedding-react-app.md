@@ -14,9 +14,9 @@ role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
 source-git-commit: ffc44dbf1822ff4d0e875ef693d48dece248d555
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '723'
+ht-degree: 100%
 
 ---
 
@@ -67,10 +67,10 @@ Gehen Sie wie folgt vor, um die interaktive REACT-App zu AEM Screens hinzuzufüg
 
 1. Erstellen Sie ein neues AEM Screens-Projekt. Weitere Infos finden Sie unter [Erstellen und Verwalten von Projekten](creating-a-screens-project.md).
 
-1. Erstellen Sie einen neuen **Anwendungskanal** (vorzugsweise) (oder eine 1x1-Vorlage oder einen Mehrzonen-Kanal) im Ordner **Kanäle** Ihres Screens-Projekts.
+1. Erstellen Sie einen neuen **Anwendungskanal** (vorzugsweise, alternativ eine 1x1-Vorlage oder einen Mehrzonen-Kanal) im Ordner **Kanäle** Ihres Screens-Projekts.
 
    >[!NOTE]
-   >**Sequenzkanäle** werden für diesen Anwendungsfall nicht empfohlen, da sie von Natur aus mit einer Bildschirmpräsentationslogik in Konflikt mit der interaktiven Natur des Erlebnisses stehen.
+   >**Sequenzkanäle** werden für diesen Anwendungsfall nicht empfohlen, da sie von Natur aus mit einer Bildschirmpräsentationslogik ausgestattet sind, die mit der interaktiven Natur des Erlebnisses kollidiert.
    >Weitere Informationen finden Sie unter [Erstellen und Verwalten von Kanälen](managing-channels.md).
 
 
@@ -82,11 +82,11 @@ Gehen Sie wie folgt vor, um die interaktive REACT-App zu AEM Screens hinzuzufüg
    >
    >Stellen Sie sicher, dass Sie beim Zuweisen des Kanals zur Anzeige das Benutzerinteraktionsereignis hinzufügen.
 
-1. Klicken Sie in der Aktionsleiste auf **Bearbeiten** , um die Eigenschaften des Kanals zu bearbeiten.
+1. Klicken Sie in der Aktionsleiste auf **Bearbeiten**, um die Eigenschaften des Sequenzkanals zu bearbeiten.
 
    ![screen_shot_2019-02-15at100555am](assets/screen_shot_2019-02-15at100555am.png)
 
-1. Ziehen Sie die Komponente **Eingebettete Seite** in den Arbeitsbereich oder verwenden Sie die vorhandene Komponente erneut in einem Anwendungskanal und wählen Sie die Startseite unter der Anwendung &quot;mysamplespa&quot;aus, z. B. ***/content/mysamplespa/en/home***.
+1. Ziehen Sie die Komponente **Eingebettete Seite** oder verwenden Sie die vorhandene Komponente erneut in einem Anwendungskanal, und wählen Sie dann die Startseite unter der Anwendung „mysamplespa“aus, z. B. ***/content/mysamplespa/en/home***.
 
    ![screen_shot_2019-02-15at101104am](assets/screen_shot_2019-02-15at101104am.png)
 
@@ -95,7 +95,7 @@ Gehen Sie wie folgt vor, um die interaktive REACT-App zu AEM Screens hinzuzufüg
    >[!NOTE]
    >Stellen Sie sicher, dass Sie beim Zuweisen des Kanals zur Anzeige das Benutzerinteraktionsereignis hinzufügen.
 
-1. Registrieren Sie einen Player für dieses Projekt und weisen Sie ihn der Anzeige zu. Jetzt sollte Ihre interaktive Anwendung in AEM Screens ausgeführt werden.
+1. Registrieren Sie einen Player für dieses Projekt, und weisen Sie ihn der Anzeige zu. Jetzt sollte Ihre interaktive Anwendung in AEM Screens ausgeführt werden.
 
    Einzelheiten zur Registrierung eines Geräts finden Sie unter [Geräteregistrierung](device-registration.md).
 
