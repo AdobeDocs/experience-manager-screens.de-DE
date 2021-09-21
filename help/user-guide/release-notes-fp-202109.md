@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: c6506ca62e806ec11d3380d6ac7670bcfcf13adb
+source-git-commit: 898eb8e7e9b7442aead9fb6fb89c2646aef65e05
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '753'
 ht-degree: 18%
 
 ---
@@ -59,17 +59,15 @@ Wenn Sie außerdem benutzerdefinierte Komponenten als Teil von v3-Manifesten ver
 
 * Sie können jetzt Slack-Warnhinweise basierend auf Splunk-Protokollen einrichten.
 
-* Verbessern Sie den Ping, um sich erneut zu authentifizieren, wenn die Antwort keine gültige JSON ist.
+* Verbesserter Ping zur erneuten Authentifizierung, wenn die Antwort keine gültige JSON ist.
 
 * Numerische Kanalnamen/-rollen führten zu einem leeren Bildschirm.
 
 * Laden Sie optimierte Ausgabedarstellungen über SmartSync herunter.
 
-* Wandeln Sie die Zuordnung in eine Liste von Ausgabedarstellungsschlüsseln um.
+* Die Zuordnung wurde in eine Liste von Ausgabedarstellungsschlüsseln umgewandelt.
 
-* Entfernen Sie den Zugriff auf cmd.exe und reg.exe im Windows-Player.
-
-* Beschränken Sie CSRF-Token-Aufrufe.
+* Der Zugriff auf `cmd.exe` und `reg.exe` im Windows-Player wurde entfernt.
 
 * Ein Player muss das letzte erfolgreiche Wiedergabeereignis melden.
 
@@ -77,13 +75,13 @@ Wenn Sie außerdem benutzerdefinierte Komponenten als Teil von v3-Manifesten ver
 
 * Der Player lädt Assets nicht erneut herunter, wenn der Cache `ALL` gelöscht wird.
 
-* Als Player-Admin können Sie jetzt einen Player-Namen auswählen.
+* Als Player-Administrator können Sie jetzt einen Player-Namen auswählen.
 
 * Das Entfernen der Kanalzuweisung aus der Anzeige wird nicht im Player angezeigt.
 
 * Wenn der Player beim Herunterladen der Kanalaktualisierung neu geladen wird, ignoriert der Player die Aktualisierung.
 
-* Die eingebettete Seitenkomponente berücksichtigt kein Touchereignis.
+* Die eingebettete Seitenkomponente berücksichtigt jetzt das Touch-Ereignis.
 
 * Die Remote-Bereitstellung des Tizen-Players wird jetzt unterstützt.
 
@@ -100,13 +98,11 @@ Wenn Sie außerdem benutzerdefinierte Komponenten als Teil von v3-Manifesten ver
 
 * Kanalmanifest automatisch aktualisieren, wenn referenzierte Seite veröffentlicht wird.
 
-* Kanal JSON enthält keine benutzerdefinierten Kanäle (#942)
-
 * Gelöschte Geräte blockieren jetzt nicht die Screens-Replikationswarteschlange.
 
-* Das Manifest enthält weder zielgerichtete Inhalte noch eingebettete Sites-Seiten.
+* Das Manifest enthielt weder zielgerichtete Inhalte noch eingebettete Sites-Seiten. Dieser Fehler wurde nun behoben.
 
-* Neue Kernbildkomponente wurde dem Kanalmanifest nicht hinzugefügt.
+* Dem Kanalmanifest wurde jetzt eine neue Kernbildkomponente hinzugefügt.
 
 * Das Herunterladen optimierter Ausgabedarstellungen über SmartSync wird jetzt unterstützt.
 
@@ -118,14 +114,11 @@ Wenn Sie außerdem benutzerdefinierte Komponenten als Teil von v3-Manifesten ver
 
 * Offline-Manifest mit dem Anforderungsparameter `wcmmode` für HTML-Eintrag, wodurch es nicht mehr erreichbar ist.
 
-* Leere dynamische eingebettete Sequenz verursacht manchmal einen leeren Bildschirm.
+* Leere dynamische eingebettete Sequenz verursachte manchmal einen leeren Bildschirm.
 
-* Ein Player muss seinen Wiedergabestatus melden.
+* Der Player meldet jetzt seinen Wiedergabestatus.
 
-* Das Video wird in `Tiny mode` wiedergegeben und nicht als Vollbildvideo auf dem Gerät.
-
-* OSGi-Kennwörter sind als Klartext sichtbar.
-
+* Das Video wurde in `Tiny mode` wiedergegeben und nicht als Vollbildvideo auf dem Gerät abgespielt. Das Problem wurde jetzt behoben.
 
 ### Veröffentlichte AEM Screens-Player {#released-aem-screens-players}
 
