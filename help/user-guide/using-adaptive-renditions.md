@@ -2,10 +2,10 @@
 title: Verwenden adaptiver Ausgabeformate in AEM Screens
 description: Auf dieser Seite wird die Verwendung von adaptiven Ausgabeformaten in AEM Screens beschrieben.
 index: false
-source-git-commit: e56b14639370b9ecd8924270e827dbd70112581b
+source-git-commit: 773632de04b10b2e9040fede8e85e8d9092be5a6
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 1%
+source-wordcount: '195'
+ht-degree: 3%
 
 ---
 
@@ -24,7 +24,13 @@ Wenn Sie also eine Vielzahl von Geräten bereitgestellt haben, ermöglicht die V
 ## Voraussetzungen {#pre-reqs}
 
 >[!IMPORTANT]
->Bevor Sie mit der Verwendung von adaptiven Ausgabeformaten beginnen, sollten Sie in einem AEM Screens-Kanal mehr über die Architekturübersicht und -konfiguration dieser Funktion erfahren. Weitere Informationen finden Sie unter Adaptive Ausgabeformate .
+>Bevor Sie mit der Verwendung von adaptiven Ausgabeformaten beginnen, sollten Sie in einem AEM Screens-Kanal mehr über die Architekturübersicht und -konfiguration dieser Funktion erfahren. Siehe Adaptive Ausgabeformate: Architektonischer Überblick und Konfigurationen für weitere Details.
 
-## Verwenden adaptiver Ausgabeformate {#using-adaptive-renditions}
+## Verwenden adaptiver Ausgabeformate in einem AEM Screens-Kanal {#using-adaptive-renditions}
+
+Nachdem Sie Zuordnungsregeln hinzugefügt und Ausgabeformate hochgeladen haben, können Sie jetzt adaptive Ausgabeformate für Ihre Assets in einem AEM Screens-Kanal verwenden.
+
+Führen Sie dazu folgende Schritte durch:
+
+
 

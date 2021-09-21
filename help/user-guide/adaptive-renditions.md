@@ -1,15 +1,16 @@
 ---
 title: Adaptive Ausgabeformate in AEM Screens
-description: Auf dieser Seite wird die Verwendung von adaptiven Ausgabeformaten in AEM Screens beschrieben.
+description: Auf dieser Seite werden Architekturübersicht und Konfigurationen für adaptive Ausgabedarstellungen in AEM Screens beschrieben.
 index: false
-source-git-commit: e56b14639370b9ecd8924270e827dbd70112581b
+source-git-commit: 773632de04b10b2e9040fede8e85e8d9092be5a6
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '683'
 ht-degree: 1%
 
 ---
 
-# Adaptive Ausgabeformate {#adaptive-renditions}
+
+# Adaptive Ausgabeformate: Architektonischer Überblick und Konfigurationen {#adaptive-renditions}
 
 ## Einführung {#introduction}
 
@@ -59,12 +60,11 @@ Um die Funktion zu aktivieren, fügen Sie mindestens eine Zuordnungsregel hinzu 
 
 ## Einrichten von Autoren- und Veröffentlichungsinstanz {#setup-author-publish}
 
-Gehen Sie wie folgt vor, um Autor und Veröffentlichung einzurichten:
+Beachten Sie die folgenden Empfehlungen in der Autoren- und Veröffentlichungsinstanz, bevor Sie adaptive Ausgabedarstellungen verwenden:
 
 * Das Mapping von Ausgabedarstellungen muss manuell repliziert werden.
 
 * Asset-Ausgabedarstellungen werden nicht standardmäßig repliziert. Alle relevanten Assets müssen manuell repliziert werden.
-
 
 ## Hinzufügen von Zuordnungsregeln für Ausgabedarstellungen {#adding-rendition-mapping-rules}
 
@@ -90,4 +90,4 @@ Gehen Sie wie folgt vor, um Autor und Veröffentlichung einzurichten:
 
 ## Die nächsten Schritte {#next-steps}
 
-Nachdem Sie die Ausgabedarstellungen hochgeladen haben, können Sie jetzt adaptive Ausgabedarstellungen in Ihren AEM Screens-Kanälen verwenden.
+Nachdem Sie die Ausgabedarstellungen hochgeladen haben, können Sie jetzt adaptive Ausgabedarstellungen in Ihren AEM Screens-Kanälen verwenden. Weitere Informationen finden Sie unter Verwenden adaptiver Ausgabeformate .
