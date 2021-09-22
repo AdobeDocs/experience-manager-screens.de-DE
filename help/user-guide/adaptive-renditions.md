@@ -2,10 +2,10 @@
 title: Adaptive Ausgabeformate in AEM Screens
 description: Auf dieser Seite werden Architekturübersicht und Konfigurationen für adaptive Ausgabedarstellungen in AEM Screens beschrieben.
 index: false
-source-git-commit: d3a2c7695afb296e9344aa55f6630798db5b1941
+source-git-commit: b597370d9ee9e2b06ebcd6915ecd949c003f8a50
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 2%
+source-wordcount: '545'
+ht-degree: 3%
 
 ---
 
@@ -30,7 +30,12 @@ Adaptive Ausgabeformate basieren auf der Idee, dass mehrere Asset-Ausgabeformate
 
 ## Konfigurieren der Einrichtung für die Verwendung adaptiver Ausgabeformate {#setup-adaptive-renditions}
 
-Um die Funktion Adaptive Ausgabeformate zu aktivieren, sollten die Zuordnungsregeln vorhanden und die kontextabhängige Konfiguration für Kanäle und Anzeigen auflösbar sein:
+Um die Funktion Adaptive Ausgabeformate zu aktivieren, sollten die Zuordnungsregeln vorhanden und die kontextabhängige Konfiguration (Context-Aware, CA) für Kanäle und Anzeigen auflösbar sein.
+
+>[!NOTE]
+>Weitere Informationen zu inhaltsbasierten Konfigurationen finden Sie unter [hier](https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html).
+
+Gehen Sie wie folgt vor, um das Setup zu konfigurieren:
 
 1. Überprüfen Sie, ob die Konfiguration der Ausgabedarstellungs-Zuordnung in `JCR` vorhanden ist. Diese Knotenstruktur ist für alle aktuellen Feature Packs vorausgefüllt.
 
@@ -74,4 +79,4 @@ Beachten Sie die folgenden Empfehlungen in der Autoren- und Veröffentlichungsin
 
 ## Die nächsten Schritte {#next-steps}
 
-Nachdem Sie die Ausgabedarstellungen als Inhaltsautor konfiguriert und hochgeladen haben, können Sie jetzt adaptive Ausgabedarstellungen verwenden und Ihre Geräte migrieren, um diese Funktion in Ihren AEM Screens-Kanälen anzuwenden. Weitere Informationen finden Sie unter [Verwenden adaptiver Ausgabeformate](/help/user-guide/using-adaptive-renditions.md) .
+Nachdem Sie die Ausgabedarstellungen als Inhaltsautor konfiguriert und hochgeladen haben, können Sie jetzt adaptive Ausgabedarstellungen verwenden und Ihre Geräte für große Netzwerke migrieren, um diese Funktion in Ihren AEM Screens-Kanälen zu nutzen. Weitere Informationen finden Sie unter [Verwenden adaptiver Ausgabeformate](/help/user-guide/using-adaptive-renditions.md) .
