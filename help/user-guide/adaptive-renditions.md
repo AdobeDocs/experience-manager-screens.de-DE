@@ -2,9 +2,9 @@
 title: Adaptive Ausgabeformate in AEM Screens
 description: Auf dieser Seite werden Architekturübersicht und Konfigurationen für adaptive Ausgabedarstellungen in AEM Screens beschrieben.
 index: false
-source-git-commit: f9e10463418ddc44f75c7d6c689298dcba20338f
+source-git-commit: 951fd38d5f69cdab1bf9b23f07b4e92075e87baf
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '552'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ Die Möglichkeit, über ein verknüpftes Ausgabedarstellungs-Benennungsmuster zu
 
 ![Bild](/help/user-guide/assets/adaptive-renditions/adaptive-renditions.png)
 
-## Konfigurieren der Einrichtung für die Verwendung adaptiver Ausgabeformate {#setup-adaptive-renditions}
+## Hinzufügen der Eigenschaft für die Ausgabenzuordnung zum Screens-Projekt {#rendition-mapping-new}
 
 Um die Funktion Adaptive Ausgabeformate zu aktivieren, sollten die folgenden Zuordnungsregeln vorhanden sein und die kontextabhängige Konfiguration (Context-Aware, CA) sollte für Kanäle und Anzeigen aufgelöst werden können.
 
@@ -37,22 +37,22 @@ Um die Funktion Adaptive Ausgabeformate zu aktivieren, sollten die folgenden Zuo
 
 Gehen Sie wie folgt vor, um das Setup zu konfigurieren:
 
-1. Navigieren Sie zu **CRXDE Lite**. Überprüfen Sie, ob die **rendition-mapping**-Konfiguration in `JCR` vorhanden ist, wie in der folgenden Abbildung dargestellt.
+1. Navigieren Sie zu **CRXDE Lite**. Überprüfen Sie, ob die **rendition-mapping**-Konfiguration in `/conf/screens/sling:configs/rendition-mapping` vorhanden ist, wie in der folgenden Abbildung dargestellt.
 
-   >[!NOTE]
-   >Diese Knotenstruktur ist für alle aktuellen Feature Packs vorausgefüllt.
+   >![Bild](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
-   ![Bild](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
+   >[!IMPORTANT]
+   >Wenn Sie das neueste Feature Pack 202109 installiert haben, sehen Sie in CRXDE Lite die Knotenstruktur **rendition-mapping**, die bereits in `/conf/screens/sling:configs/rendition-mapping` vorausgefüllt ist. Weitere Informationen zum neuesten Feature Pack finden Sie unter [Versionshinweise für Feature Pack 202109](/help/user-guide/release-notes-fp-202109.md) .
+   >Stellen Sie bei vorhandenen Projekten sicher, dass dem Screens-Projekt die Konfiguration **rendition-mapping** zugeordnet ist. Weitere Informationen finden Sie unter [Hinzufügen der Ausgabedarstellungs-Zuordnung zu einem vorhandenen Projekt](#rendition-mapping-existing) .
 
-1. Stellen Sie sicher, dass dem Screens-Projekt die Konfiguration der Ausgabedarstellungs-Zuordnung zugeordnet ist.
+### Hinzufügen der Ausgabezuordnungseigenschaft zu einem vorhandenen Projekt {#rendition-mapping-existing}
 
-   * Jedes neue Projekt, das mit dem Screens-Projekt-Assistenten erstellt wurde, enthält einen Verweis auf die Konfiguration **rendition-mapping** .
+1. Navigieren Sie zu **CRXDE Lite**.
 
-      ![Bild](/help/user-guide/assets/adaptive-renditions/mapping-rules2.png)
+1. Definieren Sie explizit die Zuordnung der Ausgabedarstellungs-Zuordnung, indem Sie die Eigenschaft `sling:configRef` hinzufügen, die auf `/conf/screens` verweist, wie in der folgenden Abbildung gezeigt.
 
-   * In einer älteren Version von Screens-Projekten müssen Sie die Verknüpfung explizit definieren, indem Sie die Eigenschaft `sling:configRef` hinzufügen, die auf `/conf/screens` verweist, und zum Projektinhaltsknoten hinzufügen.
+   ![Bild](/help/user-guide/assets/adaptive-renditions/renditon-mapping2.png)
 
-      ![Bild](/help/user-guide/assets/adaptive-renditions/mapping-rules3.png)
 
 ## Einrichten von Autoren- und Veröffentlichungsinstanz {#setup-author-publish}
 
