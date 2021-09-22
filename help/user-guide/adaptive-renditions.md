@@ -2,7 +2,7 @@
 title: Adaptive Ausgabeformate in AEM Screens
 description: Auf dieser Seite werden Architekturübersicht und Konfigurationen für adaptive Ausgabedarstellungen in AEM Screens beschrieben.
 index: false
-source-git-commit: 08f47e6542a7832f64d5d0dde9cdd463176f5f5d
+source-git-commit: fcc7126ac545c80004d718888b39c6477624cd33
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 2%
@@ -30,7 +30,7 @@ Adaptive Ausgabeformate basieren auf der Idee, dass mehrere Asset-Ausgabeformate
 
 ## Konfigurieren der Einrichtung für die Verwendung adaptiver Ausgabeformate {#setup-adaptive-renditions}
 
-Um die Funktion Adaptive Ausgabeformate zu aktivieren, sollten die Zuordnungsregeln vorhanden sein und die CA-Konfiguration für Kanäle und Anzeigen aufgelöst werden können:
+Um die Funktion Adaptive Ausgabeformate zu aktivieren, sollten die Zuordnungsregeln vorhanden und die kontextabhängige Konfiguration für Kanäle und Anzeigen auflösbar sein:
 
 1. Überprüfen Sie, ob die Konfiguration der Ausgabedarstellungs-Zuordnung in `JCR` vorhanden ist. Diese Knotenstruktur ist für alle aktuellen Feature Packs vorausgefüllt.
 
