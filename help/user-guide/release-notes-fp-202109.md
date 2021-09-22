@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 898eb8e7e9b7442aead9fb6fb89c2646aef65e05
+source-git-commit: 375024848ed736104add828251ea494406a4f7ba
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 18%
+source-wordcount: '842'
+ht-degree: 16%
 
 ---
 
@@ -42,6 +42,14 @@ Weitere Informationen finden Sie unter Grundlegende Wiedergabe-Überwachung .
 * **Aktualisierungen des Inhaltszuweisungsberichts**
 
    Der Inhaltszuweisungsbericht wurde jetzt mit verbesserter Benutzerfreundlichkeit optimiert und verbessert. Der herunterladbare Bericht zeigt verbesserte Player-bezogene Entitäten wie Standorte, Anzeigen und Geräte auf einer Tabellenregisterkarte und die Content Provider-Informationen wie Kanäle und Assets auf einer anderen Registerkarte an.
+
+* **Adaptive Ausgabeformate**
+
+   Adaptive Ausgabeformate ermöglichen es den Geräten, basierend auf kundendefinierten Regeln automatisch das beste Ausgabeformat für ein Gerät auszuwählen.
+
+   Als AEM Screens-Entwickler können Sie jetzt gerätespezifische Asset-Ausgabedarstellungen so konfigurieren, dass sie automatisch heruntergeladen und wiedergegeben werden, ohne dass alle Inhaltsvarianten manuell erstellt werden müssen. Siehe Adaptive Ausgabeformate: Architektonischer Überblick und Konfigurationen , um mehr zu erfahren.
+
+   Darüber hinaus können Sie als AEM Screens Content Author jetzt adaptive Ausgabeformate in Ihrem AEM Screens-Projekt verwenden und außerdem eine Migrationsstrategie für große Netzwerke anwenden. Weitere Informationen finden Sie unter Verwenden adaptiver Ausgabeformate .
 
 * **Unterstützung für V3-Manifeste**
 

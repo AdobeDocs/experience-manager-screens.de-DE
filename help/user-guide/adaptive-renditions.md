@@ -2,7 +2,7 @@
 title: Adaptive Ausgabeformate in AEM Screens
 description: Auf dieser Seite werden Architekturübersicht und Konfigurationen für adaptive Ausgabedarstellungen in AEM Screens beschrieben.
 index: false
-source-git-commit: fcc7126ac545c80004d718888b39c6477624cd33
+source-git-commit: 375024848ed736104add828251ea494406a4f7ba
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 2%
@@ -48,8 +48,6 @@ Um die Funktion Adaptive Ausgabeformate zu aktivieren, sollten die Zuordnungsreg
    * In einer älteren Version von Screens-Projekten muss die Verknüpfung explizit definiert werden, indem die Eigenschaft `sling:configRef` hinzugefügt wird, die auf `/conf/screens` verweist.
 
       ![Bild](/help/user-guide/assets/adaptive-renditions/mapping-rules3.png)
-
-
 
 ## Einrichten von Autoren- und Veröffentlichungsinstanz {#setup-author-publish}
 
