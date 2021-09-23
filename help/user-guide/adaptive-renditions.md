@@ -2,9 +2,9 @@
 title: Adaptive Ausgabeformate in AEM Screens
 description: Auf dieser Seite werden Architekturübersicht und Konfigurationen für adaptive Ausgabedarstellungen in AEM Screens beschrieben.
 index: false
-source-git-commit: 3ced907f4611ff7499ca4c013c4b25e1315e3726
+source-git-commit: 884bee85c6f081cbd0969a8b51125f18e2d85413
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '691'
 ht-degree: 3%
 
 ---
@@ -102,4 +102,4 @@ Gehen Sie wie folgt vor, um einen Knoten unter Ausgabedarstellungszuordnung hinz
 
 ## Die nächsten Schritte {#next-steps}
 
-Nachdem Sie die Ausgabedarstellungen als Inhaltsautor konfiguriert und hochgeladen haben, können Sie jetzt adaptive Ausgabedarstellungen verwenden und Ihre Geräte für große Netzwerke migrieren, um diese Funktion in Ihren AEM Screens-Kanälen zu nutzen. Weitere Informationen finden Sie unter [Verwenden adaptiver Ausgabeformate](/help/user-guide/using-adaptive-renditions.md) .
+Nachdem Sie Eigenschaften und Regeln für die Ausgabedarstellungszuordnung hinzugefügt haben, können Sie jetzt als Inhaltsautor Ihre Assets so konfigurieren, dass adaptive Ausgabedarstellungen verwendet werden, und Ihre Geräte für große Netzwerke migrieren, um diese Funktion in Ihren AEM Screens-Kanälen zu nutzen. Weitere Informationen finden Sie unter [Verwenden adaptiver Ausgabeformate](/help/user-guide/using-adaptive-renditions.md) .
