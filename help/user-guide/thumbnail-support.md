@@ -1,11 +1,11 @@
 ---
 title: Unterstützung von Miniaturansichten für Videos in AEM Screens
 description: Auf dieser Seite wird beschrieben, wie Sie Miniaturansichten für Videos in Screens hinzufügen.
-index: false
-source-git-commit: 07b5b6159b09c0c1301a5e782dfe959d0b83a7d2
+exl-id: d2d87807-1699-47e3-b241-07c5b7e56f15
+source-git-commit: ec58cd9171e359b451eaad7015d42b41ef1bff3f
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 0%
+source-wordcount: '425'
+ht-degree: 1%
 
 ---
 
@@ -34,13 +34,23 @@ Gehen Sie wie folgt vor, um Miniaturansichten in Videos zu verwenden:
 
 1. Wählen Sie den Kanal aus und klicken Sie in der Aktionsleiste auf **Bearbeiten** , um den Editor zu öffnen.
 
+   ![Bild](/help/user-guide/assets/thumbnails/thumbnail-1.png)
+
 1. Fügen Sie eine vorhandene Videokomponente hinzu oder bearbeiten Sie sie, wie in der folgenden Abbildung dargestellt.
+
+   ![Bild](/help/user-guide/assets/thumbnails/thumbnail-2.png)
 
 1. Wählen Sie das Video aus und klicken Sie auf das Symbol *Schraubenschlüssel* , um die Videoeigenschaften zu öffnen.
 
+   ![Bild](/help/user-guide/assets/thumbnails/thumbnail-3.png)
+
 1. Das Dialogfeld **Video** wird geöffnet, in dem Sie die Dropzone **Miniaturansicht** anzeigen.
 
+   ![Bild](/help/user-guide/assets/thumbnails/thumbnail-4.png)
+
 1. Ziehen Sie ein Bild aus der Asset-Auswahl in die Dropzone **Miniatur** und klicken Sie auf **Fertig**.
+
+   ![Bild](/help/user-guide/assets/thumbnails/thumbnail-5.png)
 
 1. Klicken Sie auf **Vorschau**.
 

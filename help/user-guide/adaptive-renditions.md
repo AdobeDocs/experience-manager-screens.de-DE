@@ -1,10 +1,9 @@
 ---
-title: Adaptive Ausgabeformate in AEM Screens
-description: Auf dieser Seite werden Architekturübersicht und Konfigurationen für adaptive Ausgabedarstellungen in AEM Screens beschrieben.
-index: false
-source-git-commit: 884bee85c6f081cbd0969a8b51125f18e2d85413
+title: Architektonischer Überblick und Konfigurationen für adaptive Ausgabedarstellungen
+description: Auf dieser Seite werden Architekturübersicht und Konfigurationen in CRXDE Lite für adaptive Ausgabedarstellungen in AEM Screens beschrieben.
+source-git-commit: d30426f871d319bcfacb7a832479b87400e18fc2
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '648'
 ht-degree: 3%
 
 ---
@@ -54,14 +53,6 @@ Gehen Sie wie folgt vor, um das Setup zu konfigurieren:
    ![Bild](/help/user-guide/assets/adaptive-renditions/renditon-mapping2.png)
 
 
-## Einrichten von Autoren- und Veröffentlichungsinstanz {#setup-author-publish}
-
-Beachten Sie die folgenden Empfehlungen in der Autoren- und Veröffentlichungsinstanz, bevor Sie adaptive Ausgabedarstellungen verwenden:
-
-* Das Mapping von Ausgabedarstellungen muss manuell repliziert werden.
-
-* Asset-Ausgabedarstellungen werden nicht standardmäßig repliziert. Alle relevanten Assets müssen manuell repliziert werden.
-
 ## Hinzufügen von Zuordnungsregeln für Ausgabedarstellungen {#add-rendition-mapping-rules}
 
 Gehen Sie wie folgt vor, um einen Knoten unter Ausgabedarstellungszuordnung hinzuzufügen:
@@ -102,4 +93,4 @@ Gehen Sie wie folgt vor, um einen Knoten unter Ausgabedarstellungszuordnung hinz
 
 ## Die nächsten Schritte {#next-steps}
 
-Nachdem Sie Eigenschaften und Regeln für die Ausgabedarstellungszuordnung hinzugefügt haben, können Sie jetzt als Inhaltsautor Ihre Assets so konfigurieren, dass adaptive Ausgabedarstellungen verwendet werden, und Ihre Geräte für große Netzwerke migrieren, um diese Funktion in Ihren AEM Screens-Kanälen zu nutzen. Weitere Informationen finden Sie unter [Verwenden adaptiver Ausgabeformate](/help/user-guide/using-adaptive-renditions.md) .
+Nachdem Sie Eigenschaften und Regeln für die Ausgabedarstellungszuordnung hinzugefügt haben, können Sie jetzt als Inhaltsautor Ihre Assets so konfigurieren, dass adaptive Ausgabedarstellungen verwendet werden, und Ihre Geräte für große Netzwerke migrieren, um diese Funktion in Ihren AEM Screens-Kanälen zu nutzen.

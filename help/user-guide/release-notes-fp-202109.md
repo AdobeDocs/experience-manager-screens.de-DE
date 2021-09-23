@@ -4,10 +4,9 @@ description: Auf dieser Seite erhalten Sie Informationen zu AEM Screens Feature 
 feature: Feature Pack
 role: Developer
 level: Intermediate
-index: false
-source-git-commit: 0ffdf33afd6a97246e886fadb692d1b9a2ef55ab
+source-git-commit: ec58cd9171e359b451eaad7015d42b41ef1bff3f
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '842'
 ht-degree: 16%
 
 ---
@@ -48,7 +47,7 @@ Weitere Informationen finden Sie unter [Inhaltszuweisungsbericht](/help/user-gui
 
    Adaptive Ausgabeformate ermöglichen es den Geräten, basierend auf kundendefinierten Regeln automatisch das beste Ausgabeformat für ein Gerät auszuwählen.
 
-   Als AEM Screens-Entwickler können Sie jetzt gerätespezifische Asset-Ausgabedarstellungen so konfigurieren, dass sie automatisch heruntergeladen und wiedergegeben werden, ohne dass alle Inhaltsvarianten manuell erstellt werden müssen.
+   Als AEM Screens-Entwickler können Sie jetzt gerätespezifische Asset-Ausgabedarstellungen so konfigurieren, dass sie automatisch heruntergeladen und wiedergegeben werden, ohne dass alle Inhaltsvarianten manuell erstellt werden müssen. Siehe [Adaptive Ausgabeformate: Architektonischer Überblick und Konfigurationen](/help/user-guide/adaptive-renditions.md) für weitere Details
 
    Darüber hinaus können Sie als AEM Screens Content Author jetzt adaptive Ausgabeformate in Ihrem AEM Screens-Projekt verwenden und außerdem eine Migrationsstrategie für große Netzwerke anwenden.
 

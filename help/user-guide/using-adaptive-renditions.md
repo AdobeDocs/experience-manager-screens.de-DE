@@ -2,7 +2,7 @@
 title: Verwenden adaptiver Ausgabeformate in AEM Screens
 description: Auf dieser Seite wird die Verwendung von adaptiven Ausgabeformaten in AEM Screens beschrieben.
 index: false
-source-git-commit: d3a54ed85b9fa2ddf3918161566ba2c82c373be0
+source-git-commit: 687b850860cc0576b9e3ee607cac2f9e5685d33e
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 1%
@@ -43,7 +43,6 @@ Um die Funktion zu aktivieren, fügen Sie mindestens eine Zuordnungsregel hinzu 
 
    >[!NOTE]
    >Nachdem Sie die Migration abgeschlossen haben, stellen Sie sicher, dass Sie alle Konfigurationsverweise aus Kanälen, Anzeigen und Standorten entfernen und dem Projektinhaltsknoten eine einzelne hinzufügen.
-
 
 ## Hochladen von Ausgabedarstellungen und Verwenden adaptiver Ausgabedarstellungen in einem AEM Screens-Kanal {#upload-renditions}
 

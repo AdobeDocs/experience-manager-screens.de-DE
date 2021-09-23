@@ -1,14 +1,14 @@
 ---
 title: Tizen-Player
 description: Auf dieser Seite wird die Installation und Funktionsweise des Tizen-Players beschrieben.
-feature: Verwalten von Screens, Player
+feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
-workflow-type: ht
-source-wordcount: '1229'
-ht-degree: 100%
+source-git-commit: 0f99b96e90f0aac6bf923343ecefa1708d5cfd17
+workflow-type: tm+mt
+source-wordcount: '1222'
+ht-degree: 99%
 
 ---
 
@@ -22,7 +22,7 @@ Gehen Sie wie folgt vor, um den Tizen-Player für AEM Screens zu implementieren:
 
 1. Installieren Sie die Tizen-Player-Datei *(.zip)* vom lokalen Gerät.
 
-## Einrichten des lokalen Servers und Extrahieren der ZIP-Dateien {#setting-local-server}
+## Einrichten des HTTP-Servers {#setting-local-server}
 
 >[!NOTE]
 > Extrahieren Sie die ZIP-Datei und stellen Sie den Tizen-Player über einen `http server` zur Verfügung. (Der `http server` muss kein lokaler oder Apache-Server sein.)
