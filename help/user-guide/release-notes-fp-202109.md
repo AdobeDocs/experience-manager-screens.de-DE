@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 9e750b874253a5d1786e5ef78fc41d96e72b702d
+source-git-commit: 0ffdf33afd6a97246e886fadb692d1b9a2ef55ab
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '832'
 ht-degree: 16%
 
 ---
@@ -65,8 +65,6 @@ Wenn Sie außerdem benutzerdefinierte Komponenten als Teil von v3-Manifesten ver
 * Es wurden Fehler beim Zwischenspeichern von Dateien behoben, indem Assets durch Ausgabedarstellungen ersetzt wurden.
 
 * Die Player zeigen jetzt nur Asset-Ausgabedarstellungen an, wenn die Ausgabedarstellungszuordnung vorhanden ist.
-
-* Sie können jetzt Slack-Warnhinweise basierend auf Splunk-Protokollen einrichten.
 
 * Verbesserter Ping zur erneuten Authentifizierung, wenn die Antwort keine gültige JSON ist.
 

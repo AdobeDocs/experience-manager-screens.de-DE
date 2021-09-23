@@ -2,9 +2,9 @@
 title: Adaptive Ausgabeformate in AEM Screens
 description: Auf dieser Seite werden Architekturübersicht und Konfigurationen für adaptive Ausgabedarstellungen in AEM Screens beschrieben.
 index: false
-source-git-commit: 951fd38d5f69cdab1bf9b23f07b4e92075e87baf
+source-git-commit: bbae7c8ba0f24b228221df8bc4c26cc5c4817ce0
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '671'
 ht-degree: 3%
 
 ---
@@ -64,16 +64,39 @@ Beachten Sie die folgenden Empfehlungen in der Autoren- und Veröffentlichungsin
 
 ## Hinzufügen von Zuordnungsregeln für Ausgabedarstellungen {#add-rendition-mapping-rules}
 
-1. Um eine Zuordnungsregel hinzuzufügen, müssen Sie einen Knoten des Typs `nt:unstructured` unter dem Knoten **rendition-mapping** erstellen.
+Gehen Sie wie folgt vor, um einen Knoten unter Ausgabedarstellungszuordnung hinzuzufügen:
 
-1. Fügen Sie die Eigenschaft expression mit dem Wert hinzu, der den Abfrageausdruck enthält.
+1. Navigieren Sie von **CRXDE Lite** zu diesem Pfad `/conf/screens/sling:configs/rendition-mapping`.
+
+1. Erstellen Sie einen Knoten unter **rendition-mapping**. Klicken Sie mit der rechten Maustaste auf **rendition-mapping** und klicken Sie auf **Erstellen** —> **Knoten erstellen**, wie in der folgenden Abbildung dargestellt.
+
+   ![Bild](/help/user-guide/assets/adaptive-renditions/add-node1.png)
+
+1. Geben Sie den **Namen** für Ihre Zuordnungsregel wie **Regel1** und den Knoten **Typ** als **nt:unstructured** im Dialogfeld **Knoten erstellen** ein. Klicken Sie auf **OK**.
+
+   ![Bild](/help/user-guide/assets/adaptive-renditions/add-node2.png)
+
+
+1. Fügen Sie die Ausdruckseigenschaft mit dem Wert hinzu, der den Abfrageausdruck enthält.
 
    >[!NOTE]
    >Weitere Informationen finden Sie unter [Verwenden der Syntax von Medienabfragen](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) .
 
+   Klicken Sie auf **rule1**, die Sie erstellt haben, und geben Sie **expression** in **Name** und **(orientation:landscape)** in **Wert** ein, wie unten dargestellt. Klicken Sie auf **Hinzufügen**.
+
+   ![Bild](/help/user-guide/assets/adaptive-renditions/add-node3.png)
+
+
+
 1. Fügen Sie die pattern-Eigenschaft mit dem Wert hinzu, der das ausgewählte Ausgabedarstellungs-Benennungsmuster enthält, wenn der Ausdruck als &quot;true&quot;ausgewertet wird.
 
-   ![Bild](/help/user-guide/assets/adaptive-renditions/mapping-rules4.png)
+   Um die Eigenschaft pattern hinzuzufügen, klicken Sie auf **rule1**, die Sie erstellt haben, und geben Sie **pattern** in **Name** und **landscape** in **Wert** ein, wie unten dargestellt. Klicken Sie auf **Hinzufügen**.
+
+   ![Bild](/help/user-guide/assets/adaptive-renditions/add-node4.png)
+
+1. Klicken Sie auf **Alle speichern** und Sie sehen die Eigenschaften unter dem Knoten, den Sie unter **rendition-mapping** erstellt haben.
+
+   ![Bild](/help/user-guide/assets/adaptive-renditions/add-node5.png)
 
 
 ## Die nächsten Schritte {#next-steps}
