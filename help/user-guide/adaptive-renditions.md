@@ -2,9 +2,9 @@
 title: Adaptive Ausgabeformate in AEM Screens
 description: Auf dieser Seite werden Architekturübersicht und Konfigurationen für adaptive Ausgabedarstellungen in AEM Screens beschrieben.
 index: false
-source-git-commit: bbae7c8ba0f24b228221df8bc4c26cc5c4817ce0
+source-git-commit: 3ced907f4611ff7499ca4c013c4b25e1315e3726
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '686'
 ht-degree: 3%
 
 ---
@@ -86,9 +86,10 @@ Gehen Sie wie folgt vor, um einen Knoten unter Ausgabedarstellungszuordnung hinz
 
    ![Bild](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
+1. Fügen Sie die pattern-Eigenschaft mit dem Wert hinzu, der das Ausgabedarstellungsbenennungsmuster enthält.
 
-
-1. Fügen Sie die pattern-Eigenschaft mit dem Wert hinzu, der das ausgewählte Ausgabedarstellungs-Benennungsmuster enthält, wenn der Ausdruck als &quot;true&quot;ausgewertet wird.
+   >[!NOTE]
+   >Der in der pattern-Eigenschaft definierte Wert wird mit der neuen Asset-Ausgabedarstellung abgeglichen und ausgewählt, wenn der Ausdruck als &quot;true&quot;ausgewertet wird.
 
    Um die Eigenschaft pattern hinzuzufügen, klicken Sie auf **rule1**, die Sie erstellt haben, und geben Sie **pattern** in **Name** und **landscape** in **Wert** ein, wie unten dargestellt. Klicken Sie auf **Hinzufügen**.
 
