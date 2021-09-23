@@ -2,9 +2,9 @@
 title: Verwenden adaptiver Ausgabeformate in AEM Screens
 description: Auf dieser Seite wird die Verwendung von adaptiven Ausgabeformaten in AEM Screens beschrieben.
 index: false
-source-git-commit: 97354c05f3b01dd76b6b8d4bdaf45c9be3ce4db2
+source-git-commit: d3a54ed85b9fa2ddf3918161566ba2c82c373be0
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '378'
 ht-degree: 1%
 
 ---
@@ -18,8 +18,7 @@ Adaptive Ausgabeformate ermöglichen es den Geräten, basierend auf kundendefini
 ## Ziele {#objective}
 
 Als AEM Screens Content Author können Sie jetzt gerätespezifische Asset-Ausgabedarstellungen so konfigurieren, dass sie automatisch heruntergeladen und wiedergegeben werden, ohne dass alle Inhaltsvarianten manuell erstellt werden müssen.
-
-Wenn Sie also eine Vielzahl von Geräten bereitgestellt haben, ermöglicht die Verwendung dieser Funktion dem Gerät das automatische Herunterladen und Wiedergeben der am besten geeigneten Wiedergabe eines Assets basierend auf den Regeln.
+Sobald ein Entwickler die Eigenschaften und Regeln für die Ausgabedarstellungszuordnung hinzugefügt hat, können Sie die Ausgabedarstellungs-Zuordnung nun auf Assets anwenden und diese anschließend in einen AEM Screens-Kanal einschließen.
 
 >[!IMPORTANT]
 >Bevor Sie mit der Verwendung von adaptiven Ausgabeformaten beginnen, sollten Sie in einem AEM Screens-Kanal mehr über die Architekturübersicht und -konfiguration dieser Funktion erfahren. Siehe Adaptive Ausgabeformate: Architektonischer Überblick und Konfigurationen für weitere Details.
