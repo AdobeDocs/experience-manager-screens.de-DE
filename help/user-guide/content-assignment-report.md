@@ -1,16 +1,16 @@
 ---
 title: Inhaltszuweisungsbericht
 description: Auf dieser Seite wird das Herunterladen und Verwenden des Inhaltszuweisungsberichts beschrieben.
-feature: Inhaltserstellung in Screens
+feature: Authoring Screens
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '334'
-ht-degree: 100%
+exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
+source-git-commit: 9e750b874253a5d1786e5ef78fc41d96e72b702d
+workflow-type: tm+mt
+source-wordcount: '372'
+ht-degree: 72%
 
 ---
-
 
 # Inhaltszuweisungsbericht {#content-assignment-report}
 
@@ -51,10 +51,13 @@ Folgen Sie den nachstehenden Anweisungen, um den Inhaltszuweisungsbericht herunt
 
    ![image](/help/user-guide/assets/content-assignment-report/can-download.png)
 
+1. Die heruntergeladene Tabelle besteht aus zwei Registerkarten, z. B. **Standorte** und **Inhalt**. Auf der Registerkarte &quot;Ort&quot;werden vier Spalten angezeigt, darunter **Standorte**, **Anzeigen**, **Kanäle** und **Geräte**, die zur weiteren Untersuchung dieser vier Entitäten in Bezug auf Ihr AEM Screens-Projekt verwendet werden können.
+
+   ![Bild](/help/user-guide/assets/content-assignment-report/report-sheet1.png)
+
    >[!NOTE]
-   >Die heruntergeladene Tabelle besteht aus vier Spalten, **Channels** (Kanäle), **Assets**, **Displays** (Anzeigen) und **Devices** (Geräte), mit denen diese vier Entitäten Ihres AEM Screens-Projekts weiter untersucht werden können.
+   >Die im Arbeitsblatt angezeigten Daten sind alphabetisch in einem leicht lesbaren Format sortiert.
 
-1. Eine Excel-Tabelle wird auf Ihr lokales Gerät heruntergeladen, wobei der Name Ihres AEM Screens-Projekts vorangestellt ist. Wenn Ihr Projektname beispielsweise **DemoScreens** lautet, lautet der Name der heruntergeladenen Datei **demoscreens-content-assign-report.xlxs**.
+1. Sie können in der Spalte **Kanäle** auf einen beliebigen Kanal klicken, um die Registerkarte **Inhalt** zu öffnen, über die Sie direkt zu diesem Kanal navigieren und Ihnen Informationen zu den mit diesem Kanal verknüpften Assets (Bildern und Videos) bereitstellen, wie in der folgenden Abbildung dargestellt.
 
-   ![image](/help/user-guide/assets/content-assignment-report/car-download1.png)
-
+   ![Bild](/help/user-guide/assets/content-assignment-report/report-sheet2.png)

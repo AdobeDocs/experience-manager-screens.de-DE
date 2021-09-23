@@ -5,7 +5,7 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 375024848ed736104add828251ea494406a4f7ba
+source-git-commit: 9e750b874253a5d1786e5ef78fc41d96e72b702d
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 16%
@@ -32,24 +32,25 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 202109 ist der 23. Sep
 * **Unterstützung von Miniaturansichten für Videos**
 
    Unterstützung von Miniaturbildern für Videos in wird jetzt in AEM Screens unterstützt. Ein Inhaltsautor kann eine Miniaturansicht für Videos definieren, sodass das Bild als Platzhalter verwendet und die Inhaltswiedergabe und das Targeting ordnungsgemäß getestet werden kann, während das eigentliche Video vom entsprechenden Team fertig gestellt wird. Das Bild kann auch verwendet werden, falls die Wiedergabe des Videos fehlschlägt.
-Weitere Informationen finden Sie unter Unterstützung für Miniaturansichten für Videos .
+Weitere Informationen finden Sie unter [Unterstützung für Miniaturansichten für Videos](/help/user-guide/thumbnail-support.md) .
 
 * **Grundlegende Wiedergabe-Überwachung**
 
    AEM Screens unterstützt jetzt die grundlegende Wiedergabe-Überwachung. Der Player meldet jetzt bei jedem Ping verschiedene Wiedergabemetriken (standardmäßig 30 Sekunden). Basierend auf den Metriken bietet es die Möglichkeit, verschiedene Edge-Fälle zu erkennen (festes Erlebnis, leerer Bildschirm, Planungsproblem usw.). Mit dieser Funktion kann das Team remote überwachen, ob ein Player Inhalte ordnungsgemäß wiedergibt, die Reaktionsrate auf leere Bildschirme oder fehlerhafte Erlebnisse im Feld verbessert und das Risiko verringert, dem Endbenutzer ein defektes Erlebnis anzuzeigen.
-Weitere Informationen finden Sie unter Grundlegende Wiedergabe-Überwachung .
+Weitere Informationen finden Sie unter [Grundlegende Wiedergabe-Überwachung](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/installing-screens-player.html?lang=en#playback-monitoring) .
 
 * **Aktualisierungen des Inhaltszuweisungsberichts**
 
    Der Inhaltszuweisungsbericht wurde jetzt mit verbesserter Benutzerfreundlichkeit optimiert und verbessert. Der herunterladbare Bericht zeigt verbesserte Player-bezogene Entitäten wie Standorte, Anzeigen und Geräte auf einer Tabellenregisterkarte und die Content Provider-Informationen wie Kanäle und Assets auf einer anderen Registerkarte an.
+Weitere Informationen finden Sie unter [Inhaltszuweisungsbericht](/help/user-guide/content-assignment-report.md) .
 
 * **Adaptive Ausgabeformate**
 
    Adaptive Ausgabeformate ermöglichen es den Geräten, basierend auf kundendefinierten Regeln automatisch das beste Ausgabeformat für ein Gerät auszuwählen.
 
-   Als AEM Screens-Entwickler können Sie jetzt gerätespezifische Asset-Ausgabedarstellungen so konfigurieren, dass sie automatisch heruntergeladen und wiedergegeben werden, ohne dass alle Inhaltsvarianten manuell erstellt werden müssen. Siehe Adaptive Ausgabeformate: Architektonischer Überblick und Konfigurationen , um mehr zu erfahren.
+   Als AEM Screens-Entwickler können Sie jetzt gerätespezifische Asset-Ausgabedarstellungen so konfigurieren, dass sie automatisch heruntergeladen und wiedergegeben werden, ohne dass alle Inhaltsvarianten manuell erstellt werden müssen.
 
-   Darüber hinaus können Sie als AEM Screens Content Author jetzt adaptive Ausgabeformate in Ihrem AEM Screens-Projekt verwenden und außerdem eine Migrationsstrategie für große Netzwerke anwenden. Weitere Informationen finden Sie unter Verwenden adaptiver Ausgabeformate .
+   Darüber hinaus können Sie als AEM Screens Content Author jetzt adaptive Ausgabeformate in Ihrem AEM Screens-Projekt verwenden und außerdem eine Migrationsstrategie für große Netzwerke anwenden.
 
 * **Unterstützung für V3-Manifeste**
 
