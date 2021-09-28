@@ -1,9 +1,9 @@
 ---
 title: Verwenden adaptiver Ausgabeformate in AEM Screens
 description: Auf dieser Seite wird die Verwendung von adaptiven Ausgabeformaten in AEM Screens beschrieben.
-source-git-commit: 99102513b100f1f3b086eff9dcd21e5afb4f493c
+source-git-commit: 68e7a47d7a9b10d1d3fecb7a7f7d96bbbde1c48a
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '554'
 ht-degree: 1%
 
 ---
@@ -38,11 +38,18 @@ Gehen Sie wie folgt vor, um Ausgabeformate auf die Assets anzuwenden, die Sie im
 
 1. Wählen Sie das Benennungsmuster für die Ausgabedarstellung aus, z. B.`landscape`, ähnlich dem, das in der Eigenschaft **pattern** in **CRXDE Lite** definiert wurde. Weitere Informationen finden Sie unter [Hinzufügen von Zuordnungsregeln für Ausgabedarstellungen](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) .
 
-1. Benennen Sie die Asset-Datei so um, dass sie das Muster enthält (definiert in Schritt 3), z. B. `seahorse_landscape.png`.
+1. Benennen Sie die Asset-Datei so um, dass sie das Muster enthält (definiert in Schritt 3), z. B. `seahorse-landscape.png`.
 
 1. Klicken Sie auf **Ausgabedarstellung hinzufügen** , um die Ausgabedarstellung hochzuladen, wie in der folgenden Abbildung dargestellt.
 
    ![Bild](/help/user-guide/assets/adaptive-renditions/add-rendition.png)
+
+1. Nachdem Sie das Asset hinzugefügt haben, wählen Sie das Asset aus und klicken Sie in der Aktionsleiste auf **Veröffentlichung verwalten** , um das Asset zu veröffentlichen.
+
+   ![Bild](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
+
+   >[!NOTE]
+   >Weitere Informationen zum Verwalten von Veröffentlichungen und Bereitstellen von Inhaltsaktualisierungen von der Autoren- zur Veröffentlichungsinstanz auf dem Gerät finden Sie unter [On-Demand-Inhaltsaktualisierung](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content.html?lang=en) .
 
 
 ## Migrationsstrategie {#migration-strategy}
