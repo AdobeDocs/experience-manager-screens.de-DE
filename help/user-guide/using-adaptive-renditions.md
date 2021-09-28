@@ -2,9 +2,9 @@
 title: Verwenden adaptiver Ausgabeformate in AEM Screens
 description: Auf dieser Seite wird die Verwendung von adaptiven Ausgabeformaten in AEM Screens beschrieben.
 index: false
-source-git-commit: 687b850860cc0576b9e3ee607cac2f9e5685d33e
+source-git-commit: db6f8c438783725c6ea99e8e363f74e766a3767b
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '497'
 ht-degree: 1%
 
 ---
@@ -21,12 +21,34 @@ Als AEM Screens Content Author können Sie jetzt gerätespezifische Asset-Ausgab
 Sobald ein Entwickler die Eigenschaften und Regeln für die Ausgabedarstellungszuordnung hinzugefügt hat, können Sie die Ausgabedarstellungs-Zuordnung nun auf Assets anwenden und diese anschließend in einen AEM Screens-Kanal einschließen.
 
 >[!IMPORTANT]
->Bevor Sie mit der Verwendung von adaptiven Ausgabeformaten beginnen, sollten Sie in einem AEM Screens-Kanal mehr über die Architekturübersicht und -konfiguration dieser Funktion erfahren. Siehe Adaptive Ausgabeformate: Architektonischer Überblick und Konfigurationen für weitere Details.
+>Bevor Sie mit der Verwendung von adaptiven Ausgabeformaten beginnen, sollten Sie in einem AEM Screens-Kanal mehr über die Architekturübersicht und -konfiguration dieser Funktion erfahren. Siehe [Adaptive Ausgabeformate: Architektonischer Überblick und Konfigurationen](/help/user-guide/adaptive-renditions.md) für weitere Details.
+
+## Verwenden adaptiver Ausgabeformate in Kanälen {#using-adaptive-renditions}
+
+>[!NOTE]
+>Nachdem Sie die Eigenschaft [Ausgabedarstellungs-Mapping zum Screens-Projekt](/help/user-guide/adaptive-renditions.md#rendition-mapping-new) und den [Darstellungszuordnungsregeln](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) hinzugefügt haben, sind Sie als Inhaltsautor jetzt bereit, die Ausgabedarstellungen auf Ihre Assets anzuwenden.
+
+### Anwenden von Ausgabeformaten auf Assets {#apply-renditions-assets}
+
+Gehen Sie wie folgt vor, um Ausgabeformate auf die Assets anzuwenden, die Sie im Tour Screens-Kanal verwenden möchten:
+
+1. Navigieren Sie zum Ordner **Assets** in Ihrer AEM-Instanz.
+
+1. Erstellen Sie eine Version des Assets, die der Signage-Anzeige besser entspricht, z. B. `seahorse.jpg`.
+
+1. Wählen Sie das Benennungsmuster für die Ausgabedarstellung aus, z. B.`landscape`, ähnlich dem, was in der Mustereigenschaft in CRXDE Lite definiert wurde. Weitere Informationen finden Sie unter [Hinzufügen von Zuordnungsregeln für Ausgabedarstellungen](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) .
+
+1. Benennen Sie die Asset-Datei so um, dass sie das Muster enthält, z. B. `seahorse_landscape.png`.
+
+1. Klicken Sie auf **Ausgabedarstellung hinzufügen** , um die Ausgabedarstellung hochzuladen, wie in der folgenden Abbildung dargestellt.
+
+   ![Bild](/help/user-guide/assets/adaptive-renditions/add-rendition.png)
+
 
 ## Migrationsstrategie {#migration-strategy}
 
 >[!IMPORTANT]
->Bei großen Netzwerken wird empfohlen, die Migration schrittweise durchzuführen, um die Risiken zu verringern, da die Funktion Änderungen am Manifest- und Dateispeicherformat einführt.
+>Bei großen Netzwerken wird empfohlen, die Migration schrittweise durchzuführen, um die Risiken zu verringern, da die Funktion Änderungen am Manifest- und Dateispeicherformat einführt. Wenn Sie das `sling:configRef` zum gesamten Projekt hinzufügen, müssen alle Player auf Feature Pack 6.5.9 aktualisiert werden. Falls Sie einige Player aktualisiert haben, müssen Sie das `sling:configRef` nur zu den Anzeigen, Speicherorten oder Kanalordnern hinzufügen, in denen alle Player auf Feature Pack 6.5.9 aktualisiert wurden.
 
 Das folgende Diagramm zeigt die Migrationsstrategie für große Netzwerke:
 
@@ -44,14 +66,3 @@ Um die Funktion zu aktivieren, fügen Sie mindestens eine Zuordnungsregel hinzu 
    >[!NOTE]
    >Nachdem Sie die Migration abgeschlossen haben, stellen Sie sicher, dass Sie alle Konfigurationsverweise aus Kanälen, Anzeigen und Standorten entfernen und dem Projektinhaltsknoten eine einzelne hinzufügen.
 
-## Hochladen von Ausgabedarstellungen und Verwenden adaptiver Ausgabedarstellungen in einem AEM Screens-Kanal {#upload-renditions}
-
-1. Erstellen Sie eine Version des Assets, die der Signage-Anzeige besser entspricht, z. B. `portrait orientation`.
-
-1. Wählen Sie das Benennungsmuster der Ausgabedarstellung aus, z. B.`portrait`.
-
-1. Benennen Sie die Asset-Datei so um, dass sie das Muster enthält, z. B. `my_asset_portrait.png`.
-
-1. Klicken Sie auf **Ausgabedarstellung hinzufügen** , um die Ausgabedarstellung hochzuladen, wie in der folgenden Abbildung dargestellt.
-
-   ![Bild](/help/user-guide/assets/adaptive-renditions/add-rendition.png)
