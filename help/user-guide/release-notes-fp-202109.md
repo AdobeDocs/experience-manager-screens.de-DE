@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: 609cb66ea1cc34262bb57c020eb07fd18bd31f0d
+source-git-commit: 6d9dab9fd59289aafdb688682fea47589d3ec873
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '859'
 ht-degree: 16%
 
 ---
@@ -50,7 +50,7 @@ Weitere Informationen finden Sie unter [Inhaltszuweisungsbericht](/help/user-gui
 
    Als AEM Screens-Entwickler können Sie jetzt gerätespezifische Asset-Ausgabedarstellungen so konfigurieren, dass sie automatisch heruntergeladen und wiedergegeben werden, ohne dass alle Inhaltsvarianten manuell erstellt werden müssen. Siehe [Adaptive Ausgabeformate: Architektonischer Überblick und Konfigurationen](/help/user-guide/adaptive-renditions.md) für weitere Details.
 
-   Darüber hinaus können Sie als AEM Screens Content Author jetzt adaptive Ausgabeformate in Ihrem AEM Screens-Projekt verwenden und außerdem eine Migrationsstrategie für große Netzwerke anwenden.
+   Darüber hinaus können Sie als AEM Screens Content Author Ihre Assets so konfigurieren, dass sie adaptive Ausgabedarstellungen verwenden, und Ihre Geräte für große Netzwerke migrieren, um diese Funktion in Ihren AEM Screens-Kanälen zu nutzen. Weitere Informationen finden Sie unter [Verwenden adaptiver Ausgabeformate in AEM Screens](/help/user-guide/using-adaptive-renditions.md) .
 
 * **Unterstützung für V3-Manifeste**
 
