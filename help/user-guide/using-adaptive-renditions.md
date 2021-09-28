@@ -1,13 +1,13 @@
 ---
 title: Verwenden adaptiver Ausgabeformate in AEM Screens
 description: Auf dieser Seite wird die Verwendung von adaptiven Ausgabeformaten in AEM Screens beschrieben.
-index: false
-source-git-commit: db6f8c438783725c6ea99e8e363f74e766a3767b
+source-git-commit: 99102513b100f1f3b086eff9dcd21e5afb4f493c
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '500'
 ht-degree: 1%
 
 ---
+
 
 # Verwenden adaptiver Ausgabeformate in AEM Screens {#adaptive-renditions}
 
@@ -36,9 +36,9 @@ Gehen Sie wie folgt vor, um Ausgabeformate auf die Assets anzuwenden, die Sie im
 
 1. Erstellen Sie eine Version des Assets, die der Signage-Anzeige besser entspricht, z. B. `seahorse.jpg`.
 
-1. Wählen Sie das Benennungsmuster für die Ausgabedarstellung aus, z. B.`landscape`, ähnlich dem, was in der Mustereigenschaft in CRXDE Lite definiert wurde. Weitere Informationen finden Sie unter [Hinzufügen von Zuordnungsregeln für Ausgabedarstellungen](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) .
+1. Wählen Sie das Benennungsmuster für die Ausgabedarstellung aus, z. B.`landscape`, ähnlich dem, das in der Eigenschaft **pattern** in **CRXDE Lite** definiert wurde. Weitere Informationen finden Sie unter [Hinzufügen von Zuordnungsregeln für Ausgabedarstellungen](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) .
 
-1. Benennen Sie die Asset-Datei so um, dass sie das Muster enthält, z. B. `seahorse_landscape.png`.
+1. Benennen Sie die Asset-Datei so um, dass sie das Muster enthält (definiert in Schritt 3), z. B. `seahorse_landscape.png`.
 
 1. Klicken Sie auf **Ausgabedarstellung hinzufügen** , um die Ausgabedarstellung hochzuladen, wie in der folgenden Abbildung dargestellt.
 
