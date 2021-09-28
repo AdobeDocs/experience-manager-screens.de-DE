@@ -1,13 +1,13 @@
 ---
 title: Architektonischer Überblick und Konfigurationen für adaptive Ausgabedarstellungen
 description: Auf dieser Seite werden Architekturübersicht und Konfigurationen in CRXDE Lite für adaptive Ausgabedarstellungen in AEM Screens beschrieben.
-source-git-commit: d30426f871d319bcfacb7a832479b87400e18fc2
+exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
+source-git-commit: e5da55eeb5da3d0ef9f21bd47bfec75d660a6a1e
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '658'
 ht-degree: 3%
 
 ---
-
 
 # Adaptive Ausgabeformate: Architektonischer Überblick und Konfigurationen {#adaptive-renditions}
 
@@ -93,4 +93,4 @@ Gehen Sie wie folgt vor, um einen Knoten unter Ausgabedarstellungszuordnung hinz
 
 ## Die nächsten Schritte {#next-steps}
 
-Nachdem Sie Eigenschaften und Regeln für die Ausgabedarstellungszuordnung hinzugefügt haben, können Sie jetzt als Inhaltsautor Ihre Assets so konfigurieren, dass adaptive Ausgabedarstellungen verwendet werden, und Ihre Geräte für große Netzwerke migrieren, um diese Funktion in Ihren AEM Screens-Kanälen zu nutzen.
+Nachdem Sie Eigenschaften und Regeln für die Ausgabedarstellungszuordnung hinzugefügt haben, können Sie jetzt als Inhaltsautor Ihre Assets so konfigurieren, dass adaptive Ausgabedarstellungen verwendet werden, und Ihre Geräte für große Netzwerke migrieren, um diese Funktion in Ihren AEM Screens-Kanälen zu nutzen. Weitere Informationen finden Sie unter [Verwenden adaptiver Ausgabeformate in AEM Screens](/help/user-guide/using-adaptive-renditions.md) .

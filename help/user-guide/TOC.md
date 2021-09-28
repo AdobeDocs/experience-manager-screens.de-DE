@@ -6,10 +6,10 @@ user-guide-title: Adobe Experience Manager Screens-Hilfe
 breadcrumb-title: AEM Screens-Anleitung
 user-guide-description: Erfahren Sie, wie Sie mit einer Digital-Signage-Lösung dynamische und interaktive digitale Erlebnisse und Interaktionen veröffentlichen können.
 feature-set: Experience Manager Screens
-source-git-commit: f710bb2004cac8e10bf6cd0e0ccde4f9d10120a6
+source-git-commit: 8676b259304326ef3319ef40aa072b9d2a292a2e
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 97%
+source-wordcount: '466'
+ht-degree: 96%
 
 ---
 
@@ -82,6 +82,7 @@ ht-degree: 97%
       + [Spracherkennung](voice-recognition.md)
       + [Inhaltszuweisungsbericht](content-assignment-report.md)
       + [Unterstützung von Miniaturansichten für Videos](thumbnail-support.md)
+      + [Verwenden adaptiver Ausgabeformate in AEM Screens](using-adaptive-renditions.md)
    + Verwalten von Inhaltsaktualisierungen {#content-updates}
       + [On-Demand-Inhaltsaktualisierungen](on-demand-content.md)
       + [Aktualisierungen von Content-as-a-Service](content-update-as-a-service.md)
