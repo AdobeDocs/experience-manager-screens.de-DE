@@ -7,10 +7,10 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: ffc20b29b58e5fa39564d1e924832ff1c678f80c
-workflow-type: ht
-source-wordcount: '1872'
-ht-degree: 100%
+source-git-commit: 467526b82c07fd3594c704c1720477c72ecb9d38
+workflow-type: tm+mt
+source-wordcount: '1978'
+ht-degree: 94%
 
 ---
 
@@ -65,6 +65,17 @@ Bei *dynamischen Verweisen* erfolgt die Auflösung, sobald der Kanal der Anzeige
 1. Der über-übergeordnete Standort der Anzeige hat einen untergeordneten Knoten, der mit dem Namen des referenzierten Kanals übereinstimmt
 
 Und so weiter, bis Sie den Standortordner erreichen und dort anhalten (Sie können also nicht auf einen Kanal verweisen, der sich zum Beispiel im Kanalordner befindet, sondern nur auf Kanäle in der Unterstruktur der Standorte)
+
+### 5. Wie wird die benutzerdefinierte clientlib-Offline-Konfiguration im AEM Screens-Kanal eingerichtet?
+
+Bei Verwendung eines erstellten benutzerdefinierten clientseitigen Codes `clientlib` in einem AEM Screens-Kanal sind die folgenden Schritte erforderlich, um sicherzustellen, dass die `clientlib`-Dateien erfolgreich im Kanal geladen werden (`manifest.json`) und den Pfad von `clientlib` enthalten.
+
+Gehen Sie im Kanaleditor wie folgt vor:
+
+1. Wählen Sie einen Kanal aus und klicken Sie in der Aktionsleiste auf **Bearbeiten** , um den Kanaleditor zu öffnen.
+1. Wählen Sie die Komponente aus, der Sie die benutzerdefinierte `clientlib` hinzufügen möchten.
+1. Klicken Sie auf die Schaltfläche &quot;Konfigurieren&quot;(das Schraubenschlüsselsymbol).
+1. Navigieren Sie zur Registerkarte **Offline-Konfiguration** und fügen Sie den Pfad zu Ihrer benutzerdefinierten Client-Bibliothek in **Client-seitige Bibliotheken** hinzu.
 
 ## Geräteregistrierung {#device-registration}
 
