@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
 source-git-commit: c6506ca62e806ec11d3380d6ac7670bcfcf13adb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '512'
-ht-degree: 36%
+ht-degree: 100%
 
 ---
 
@@ -34,48 +34,48 @@ Um einen **AEM Screens-Player** herunterzuladen, rufen Sie die Seite [AEM 6.5 Pl
 >1. Klicken Sie im linken Aktionsmenü auf den Link **Registrierung** und führen Sie die folgenden Schritte aus, um die Geräteregistrierung abzuschließen.
 
 
-## Grundlegende Wiedergabe-Überwachung {#playback-monitoring}
+## Einfache Wiedergabe-Überwachung {#playback-monitoring}
 
-Der Player meldet verschiedene Wiedergabemetriken mit jeweils `ping` , die standardmäßig 30 Sekunden betragen. Basierend auf diesen Metriken können wir verschiedene Edge-Fälle wie festes Erlebnis, leerer Bildschirm und Planungsprobleme erkennen. Dadurch können wir Probleme auf dem Gerät verstehen und beheben und so mit Ihnen eine Untersuchung und Korrekturmaßnahmen beschleunigen.
+Mit jedem `ping` (standardmäßig alle 30 Sekunden) meldet der Player verschiedene Wiedergabemetriken. Basierend auf diesen Metriken können wir verschiedene Randfälle wie steckengebliebenes Erlebnis, leerer Bildschirm und Terminprobleme erkennen. Auf diese Weise können wir Probleme auf dem Gerät verstehen und beheben und somit gemeinsam mit Ihnen durchgeführte Untersuchungen und Abhilfemaßnahmen beschleunigen.
 
-Die grundlegende Wiedergabe-Überwachung in einem AEM Screens-Player ermöglicht Folgendes:
+Eine einfache Wiedergabe-Überwachung in einem AEM Screens-Player ermöglicht Folgendes:
 
-* Remote-Überwachung, ob ein Player Inhalte ordnungsgemäß wiedergibt.
+* Fernüberwachung, ob ein Player Inhalte ordnungsgemäß wiedergibt.
 
-* Verbessern Sie die Reaktionsfähigkeit auf leere Bildschirme oder fehlerhafte Erlebnisse im Feld.
+* Verbessern der Reaktionsfähigkeit auf leere Bildschirme oder fehlerhafte Erlebnisse im Feld.
 
-* Verringert das Risiko, dem Endbenutzer ein fehlerhaftes Erlebnis anzuzeigen.
+* Verringerung des Risikos, dem Endbenutzer ein fehlerhaftes Erlebnis anzuzeigen.
 
-### Eigenschaften {#understand-properties}
+### Grundlegendes zu Eigenschaften {#understand-properties}
 
 Die folgenden Eigenschaften sind in jedem `ping` enthalten:
 
 | Eigenschaft | Beschreibung |
 |---|---|
-| id {string} | Player-ID |
-| activeChannel {string} | derzeit den Kanalpfad wiedergeben, oder null, wenn nichts geplant ist |
-| activeElements {string} | Kommagetrennte Zeichenfolge, derzeit sichtbare Elemente in allen wiedergegebenen Sequenzkanälen (mehrere bei einem Mehrzonen-Layout) |
-| isDefaultContent {boolean} | &quot;true&quot;, wenn der Wiedergabekanal als Standard- oder Fallback-Kanal betrachtet wird (d. h. hat Priorität 1 und keinen Zeitplan) |
-| hasContentChanged {boolean} | true , wenn der Inhalt in den letzten 5 Minuten geändert wurde, andernfalls false |
-| lastContentChange {string} | Zeitstempel der letzten Inhaltsänderung |
+| id {Zeichenfolge} | die Player-Kennung |
+| activeChannel {Zeichenfolge} | der derzeit wiedergebende Kanalpfad, oder null, wenn nichts geplant ist |
+| activeElements {Zeichenfolge} | Kommagetrennte Zeichenfolge, derzeit sichtbare Elemente in allen wiedergegebenen Sequenzkanälen (mehrere bei einem Mehrzonen-Layout) |
+| isDefaultContent {Boolesch} | „true“, wenn der Wiedergabekanal als Standard- oder Fallback-Kanal betrachtet wird (d. h. hat Priorität 1 und keinen Zeitplan) |
+| hasContentChanged {Boolesch} | „true“, wenn der Inhalt in den letzten 5 Minuten geändert wurde, andernfalls „false“ |
+| lastContentChange {Zeichenfolge} | Zeitstempel der letzten Inhaltsänderung |
 
 >[!NOTE]
->Optional kann eine erweiterte Eigenschaft in den Player-Voreinstellungen (Enable Play-back Monitoring) aktiviert werden, und zwar:
+>Optional kann eine erweiterte Eigenschaft in den Player-Voreinstellungen (Wiedergabeüberwachung aktivieren) aktiviert werden, und zwar:
 >|Eigenschaft|Beschreibung|
->|—|—|
->|isContentRendering {boolean}|true , wenn die GPU bestätigen kann, dass tatsächliche Inhalte wiedergegeben werden (basierend auf der Pixelanalyse)|
+>|---|---|
+>|isContentRendering {Boolesch}|„true“, wenn die GPU bestätigen kann, dass tatsächliche Inhalte wiedergegeben werden (basierend auf der Pixelanalyse)|
 
 ### Beschränkungen {#limitations}
 
-Im Folgenden finden Sie einige Einschränkungen bei der grundlegenden Wiedergabe-Überwachung:
+Im Folgenden finden Sie einige Beschränkungen bei der einfachen Wiedergabeüberwachung:
 
 * Der Player meldet dem Server seinen eigenen Wiedergabestatus, sodass eine aktive Verbindung erforderlich ist.
 
-* Die `isContentRendering`-Eigenschaft, die die GPU prüft, ist derzeit zu ressourcenintensiv, um standardmäßig aktiviert zu werden, und erfordert eine explizite Anmeldung von den Player-Voreinstellungen. Es wird empfohlen, es nicht zusammen mit Videos in der Produktion zu verwenden.
+* Die `isContentRendering`-Eigenschaft, die die GPU prüft, ist derzeit zu ressourcenintensiv, als dass sie standardmäßig aktiviert werden könnte, und erfordert eine explizite Anmeldung aus den Player-Voreinstellungen heraus. Es wird empfohlen, sie nicht zusammen mit Videos in der Produktion zu verwenden.
 
 * Diese Funktion wird nur für Sequenzkanäle unterstützt und deckt noch nicht den Anwendungsfall für interaktive Kanäle (SPA) ab.
 
-* Die Metriken sind noch nicht vollständig für unsere Kunden verfügbar. Wir arbeiten intensiv daran, in naher Zukunft einen dashboard-ähnlichen Berichterstellungs- und Warnmechanismus zu aktivieren.
+* Die Metriken sind noch nicht vollständig für unsere Kunden verfügbar. Wir arbeiten intensiv daran, in naher Zukunft einen Dashboard-ähnlichen Reporting- und Warnmechanismus zu ermöglichen.
 
 ### Zusätzliche Ressourcen {#additional-resources}
 
