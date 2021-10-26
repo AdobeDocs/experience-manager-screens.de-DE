@@ -6,9 +6,9 @@ role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
 source-git-commit: 9e750b874253a5d1786e5ef78fc41d96e72b702d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '372'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -49,15 +49,15 @@ Folgen Sie den nachstehenden Anweisungen, um den Inhaltszuweisungsbericht herunt
 
 1. Klicken Sie in der Aktionsleiste auf **Inhaltszuweisungsbericht**.
 
-   ![image](/help/user-guide/assets/content-assignment-report/can-download.png)
+   ![Bild](/help/user-guide/assets/content-assignment-report/can-download.png)
 
-1. Die heruntergeladene Tabelle besteht aus zwei Registerkarten, z. B. **Standorte** und **Inhalt**. Auf der Registerkarte &quot;Ort&quot;werden vier Spalten angezeigt, darunter **Standorte**, **Anzeigen**, **Kanäle** und **Geräte**, die zur weiteren Untersuchung dieser vier Entitäten in Bezug auf Ihr AEM Screens-Projekt verwendet werden können.
+1. Das heruntergeladene Arbeitsblatt besteht aus zwei Registerkarten, z. B. **Standort** und **Inhalt**. Die Registerkarte „Standort“ besteht aus vier Spalten, **Standorte**, **Anzeigen**, **Kanäle** und **Geräte**, mit denen diese vier Entitäten Ihres AEM Screens-Projekts weiter untersucht werden können.
 
    ![Bild](/help/user-guide/assets/content-assignment-report/report-sheet1.png)
 
    >[!NOTE]
    >Die im Arbeitsblatt angezeigten Daten sind alphabetisch in einem leicht lesbaren Format sortiert.
 
-1. Sie können in der Spalte **Kanäle** auf einen beliebigen Kanal klicken, um die Registerkarte **Inhalt** zu öffnen, über die Sie direkt zu diesem Kanal navigieren und Ihnen Informationen zu den mit diesem Kanal verknüpften Assets (Bildern und Videos) bereitstellen, wie in der folgenden Abbildung dargestellt.
+1. Sie können in der Spalte **Kanäle** auf einen beliebigen Kanal klicken, um die Registerkarte **Inhalt** zu öffnen, über die Sie direkt zu diesem Kanal gelangen und die Ihnen Informationen zu den mit diesem Kanal verknüpften Assets (Bildern und Videos) bereitstellt, wie in der folgenden Abbildung dargestellt.
 
    ![Bild](/help/user-guide/assets/content-assignment-report/report-sheet2.png)
