@@ -7,7 +7,7 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 6f491825c8cbc7159de1a41dd6f902b086325606
+source-git-commit: 77ec3e6de6760bc5e31675399ed91bac4150ae69
 workflow-type: tm+mt
 source-wordcount: '2040'
 ht-degree: 92%
@@ -221,7 +221,7 @@ Wenn es im `error.log` *abfrageübergreifende Warnhinweise (WARN)* gibt, erstell
 Sie können auch auf eine zusätzliche Ressource in der [Oak-Dokumentation](https://jackrabbit.apache.org/oak/docs/query/lucene.html) zurückgreifen.
 
 
-### 3. Was ist zum Konfigurieren von v3-Manifesten erforderlich? {#configure-v3}
+### 3. Was ist erforderlich, um v3-Manifeste zu konfigurieren? {#configure-v3}
 
 Um das v3-Manifest zu aktivieren, müssen Sie:
 
