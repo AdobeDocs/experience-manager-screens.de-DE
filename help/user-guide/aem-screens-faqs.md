@@ -7,10 +7,10 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 467526b82c07fd3594c704c1720477c72ecb9d38
+source-git-commit: 6f491825c8cbc7159de1a41dd6f902b086325606
 workflow-type: tm+mt
-source-wordcount: '1978'
-ht-degree: 94%
+source-wordcount: '2040'
+ht-degree: 92%
 
 ---
 
@@ -68,14 +68,14 @@ Und so weiter, bis Sie den Standortordner erreichen und dort anhalten (Sie könn
 
 ### 5. Wie wird die benutzerdefinierte clientlib-Offline-Konfiguration im AEM Screens-Kanal eingerichtet?
 
-Bei Verwendung eines erstellten benutzerdefinierten clientseitigen Codes `clientlib` in einem AEM Screens-Kanal sind die folgenden Schritte erforderlich, um sicherzustellen, dass die `clientlib`-Dateien erfolgreich im Kanal geladen werden (`manifest.json`) und den Pfad von `clientlib` enthalten.
+Bei Verwendung eines erstellten benutzerdefinierten clientseitigen Codes `clientlib` in einem AEM Screens-Kanal sind die folgenden Schritte erforderlich, um sicherzustellen, dass die `clientlib` -Dateien erfolgreich im Kanal geladen werden (`manifest.json`) und enthält den Pfad der `clientlib`.
 
 Gehen Sie im Kanaleditor wie folgt vor:
 
-1. Wählen Sie einen Kanal aus und klicken Sie in der Aktionsleiste auf **Bearbeiten** , um den Kanaleditor zu öffnen.
-1. Wählen Sie die Komponente aus, der Sie die benutzerdefinierte `clientlib` hinzufügen möchten.
+1. Wählen Sie einen Kanal aus und klicken Sie auf **Bearbeiten** in der Aktionsleiste, um den Kanaleditor zu öffnen.
+1. Wählen Sie die Komponente aus, der Sie die benutzerdefinierte `clientlib`.
 1. Klicken Sie auf die Schaltfläche &quot;Konfigurieren&quot;(das Schraubenschlüsselsymbol).
-1. Navigieren Sie zur Registerkarte **Offline-Konfiguration** und fügen Sie den Pfad zu Ihrer benutzerdefinierten Client-Bibliothek in **Client-seitige Bibliotheken** hinzu.
+1. Navigieren Sie zum **Offline-Konfiguration** und fügen Sie den Pfad zu Ihrer benutzerdefinierten Client-Bibliothek in **Client-seitige Bibliotheken**.
 
 ## Geräteregistrierung {#device-registration}
 
@@ -219,3 +219,18 @@ AEM Screens erstellt Indexdefinitionen für die vom Produkt verwendeten Abfragen
 Wenn es im `error.log` *abfrageübergreifende Warnhinweise (WARN)* gibt, erstellen Sie einen benutzerdefinierten Index für Ihre Abfrage. Weitere Informationen finden Sie unter [Konfigurieren der Indizes](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=de#configuring-the-indexes).
 
 Sie können auch auf eine zusätzliche Ressource in der [Oak-Dokumentation](https://jackrabbit.apache.org/oak/docs/query/lucene.html) zurückgreifen.
+
+
+### 3. Was ist zum Konfigurieren von v3-Manifesten erforderlich? {#configure-v3}
+
+Um das v3-Manifest zu aktivieren, müssen Sie:
+
+* Aktualisieren Sie den Dispatcher.
+Siehe [Konfigurieren des Dispatchers für die Manifestversion v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=de#configuring-dispatcherv3) für weitere Details.
+
+* Benutzerdefinierte Komponente aktualisieren
+Siehe [Vorlage für benutzerdefinierte Handler](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=de#custom-handlers) für weitere Details.
+
+* ContentSync deaktivieren in `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`.
+
+* Aktivieren Sie SmartSync in `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`.

@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: 6d9dab9fd59289aafdb688682fea47589d3ec873
-workflow-type: ht
-source-wordcount: '859'
-ht-degree: 100%
+source-git-commit: 6433e586f505df889fef7ddb9ee5f530f5d6d46c
+workflow-type: tm+mt
+source-wordcount: '878'
+ht-degree: 97%
 
 ---
 
@@ -54,7 +54,10 @@ Weitere Informationen finden Sie unter [Inhaltszuweisungsbericht](/help/user-gui
 
 * **Unterstützung für V3-Manifeste**
 
-   Sie können jetzt den Dispatcher für Manifest Version 3 konfigurieren. Weitere Informationen finden Sie unter [Konfigurieren des Dispatchers für Manifest Version 3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=de#configuring-dispatcherv3).
+   Sie können jetzt den Dispatcher für Manifest Version 3 konfigurieren. Um das v3-Manifest zu aktivieren, müssen Sie Folgendes konfigurieren: * Aktualisierung des Dispatchers * Aktualisierung der benutzerdefinierten Komponente * Deaktivieren Sie ContentSync in `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
+* Aktivieren Sie SmartSync in `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
+
+   Weitere Informationen finden Sie unter [Konfigurieren des Dispatchers für Manifest Version 3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=de#configuring-dispatcherv3).
 Wenn Sie außerdem benutzerdefinierte Komponenten als Teil von Manifesten Version 3 verwenden, finden Sie weitere Informationen unter [Vorlage für benutzerdefinierte Handler](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=de#custom-handlers).
 
 
