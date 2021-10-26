@@ -6,9 +6,9 @@ role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
 source-git-commit: 0f99b96e90f0aac6bf923343ecefa1708d5cfd17
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1222'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ Führen Sie die folgenden Schritte auf dem Samsung-Gerät aus, um die Installati
 1. Drücken Sie auf der Fernbedienung des Geräts die Taste **MENU** und blättern Sie in der linken Navigationsleiste nach unten zu **System**.
 
 1. Blättern Sie nach unten und wählen Sie die Option **Wiedergabe über** aus und ändern Sie sie in **URL-Starter**.
-   ![image](/help/user-guide/assets/tizen/rms-2.png)
+   ![Bild](/help/user-guide/assets/tizen/rms-2.png)
 
 1. Sobald der URL-Starter eingestellt ist, drücken Sie die Taste **Home** auf Ihrer Fernbedienung.
 
@@ -148,22 +148,22 @@ Führen Sie die folgenden Schritte aus, um das Tizen-Gerät beim Samsung Remote 
 
 1. Navigieren Sie zur Registerkarte **Gerät** und suchen Sie nach dem konfigurierten Gerät. Sobald ein Gerät gefunden wurde, klicken Sie auf das Kontrollkästchen und wählen Sie **Genehmigen** aus.
 
-   >![image](/help/user-guide/assets/tizen/rms-3.png)
+   >![Bild](/help/user-guide/assets/tizen/rms-3.png)
 
 1. Füllen Sie die erforderlichen Informationen aus und wählen Sie eine Gerätegruppe aus. Klicken Sie auf **OK**, um den Genehmigungsprozess abzuschließen.
 
-   >![image](/help/user-guide/assets/tizen/rms-7.png)
+   >![Bild](/help/user-guide/assets/tizen/rms-7.png)
 
 1. Sobald das Gerät genehmigt wurde, sollte es in der Geräteliste angezeigt werden. Klicken Sie auf die Schaltfläche *Informationen* in Ihrem Gerätefeld, d. h. auf **i**, wie in der Abbildung unten dargestellt.
 
-   >![image](/help/user-guide/assets/tizen/rms-6.png)
+   >![Bild](/help/user-guide/assets/tizen/rms-6.png)
 
 1. Das Dialogfeld „Geräteinformationen“ wird angezeigt. Wählen Sie die Registerkarte **Geräteinformationen** aus und klicken Sie auf **Bearbeiten**.
 
-   >![image](/help/user-guide/assets/tizen/rms-5.png)
+   >![Bild](/help/user-guide/assets/tizen/rms-5.png)
 
 1. Bearbeiten Sie die Geräteoptionen und wählen Sie die Registerkarte **Einrichtung** aus. Navigieren Sie zum Abschnitt **URL-Starter** und geben Sie die URL ein, die als WGT-Host dient, und `SSSP config file`, um ein `SSSP`-Programm zu installieren, wie in der folgenden Abbildung dargestellt.
 
-   ![image](/help/user-guide/assets/tizen/rms-9.png)
+   ![Bild](/help/user-guide/assets/tizen/rms-9.png)
 
 1. Klicken Sie auf **Speichern**, damit die Änderungen auf dem Bildschirm angezeigt werden.
