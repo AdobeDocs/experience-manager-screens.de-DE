@@ -1,7 +1,7 @@
 ---
 title: Inhaltsaktualisierung mit Screens Launch
 seo-title: Content Update using Screens Launch
-description: Autoren von Inhalten können zukünftige Versionen von Kanälen erstellen, die als Launch bezeichnet werden. Wenn Sie das Live-Datum für diesen Launch festlegen, können Inhalte auf Geräten oder Playern live geschaltet werden.
+description: Inhaltsautoren können zukünftige Versionen von Kanälen erstellen, die als Launch bezeichnet werden. Wenn Sie das Live-Datum für diesen Launch festlegen, können Inhalte auf Geräten oder Playern live geschaltet werden.
 seo-description: Content authors can create future version of the channel(s), known as Launch and further setting live date for this launch allows content to be live in devices or players.
 uuid: fb13117c-b99b-48bd-adb6-040dbd13af16
 contentOwner: jsyal
@@ -15,15 +15,15 @@ role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
 source-git-commit: 2cc613454d0d20a42871858e3d754e1b0e161dc3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1580'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Inhaltsaktualisierung mit Screens Launch {#launches}
 
-Autoren von Inhalten können zukünftige Versionen des Kanals/der Kanäle erstellen, die als **Screens Launch** bezeichnet werden, und darüber hinaus das Live-Datum für diesen Launch festlegen. Dadurch kann der Inhalt am angegebenen Live-Datum auf Geräten oder Playern live geschaltet werden.
+Inhaltsautoren können zukünftige Versionen des Kanals/der Kanäle erstellen, die als **Screens Launch** bezeichnet werden, und darüber hinaus das Live-Datum für diesen Launch festlegen. Dadurch kann der Inhalt am angegebenen Live-Datum auf Geräten oder Playern live geschaltet werden.
 
 Mithilfe von ***Screens Launch*** können Autoren die einzelnen Kanäle im Launch in der Vorschau anzeigen und sollten eine Anfrage zur Überprüfung starten können. Die Gruppe der Genehmigenden erhält eine Benachrichtigung und kann die Anfrage genehmigen oder ablehnen. Wenn das Live-Datum erreicht ist, wird der Inhalt auf den Geräten abgespielt.
 
@@ -96,7 +96,7 @@ Gehen Sie gemäß nachstehendem Abschnitt vor, um Screens Launch-Funktionen in I
    >
    >Sie müssen einen Launch aus einem bereits vorhandenen Kanal in Ihrem AEM Screens-Projekt erstellen.
 
-   ![Image](/help/user-guide/assets/launches-images/launches-11.png)
+   ![Bild](/help/user-guide/assets/launches-images/launches-11.png)
 
 1. Wählen Sie den Kanal **FutureLaunch** aus und klicken Sie in der Aktionsleiste auf **Launch erstellen**.
 
@@ -106,7 +106,7 @@ Gehen Sie gemäß nachstehendem Abschnitt vor, um Screens Launch-Funktionen in I
 
 1. Klicken Sie im Assistenten **Launch erstellen** auf **Weiter**. Die Option **Unterseiten einschließen** ist standardmäßig ausgewählt.
 
-   ![image](/help/user-guide/assets/launches-images/launches-d.png)
+   ![Bild](/help/user-guide/assets/launches-images/launches-d.png)
 
    >[!NOTE]
    >Mit der Option **+ Kanäle hinzufügen** können Sie einen weiteren Kanal hinzufügen, für den Sie den Launch erstellen möchten.
@@ -115,7 +115,7 @@ Gehen Sie gemäß nachstehendem Abschnitt vor, um Screens Launch-Funktionen in I
 
    Die Option **Auswählen** wird deaktiviert, wenn Sie versuchen, mehrere Kanäle oder einen Ordner zum Hinzufügen des Launches auszuwählen.
 
-   ![image](/help/user-guide/assets/launches-images/launches-14.png)
+   ![Bild](/help/user-guide/assets/launches-images/launches-14.png)
 
    Klicken Sie nach Auswahl des Kanals/der Kanäle auf **Weiter**.
 
@@ -167,15 +167,15 @@ Gehen Sie wie folgt vor, um die Eigenschaften für den Launch zu bearbeiten:
 
 1. Navigieren Sie zum Kanal **FutureLaunch** *(d. h. dem ausstehenden Start)* und wählen Sie den Kanal aus, wie in der folgenden Abbildung dargestellt.
 
-   ![image](/help/user-guide/assets/launches-images/launches-17.png)
+   ![Bild](/help/user-guide/assets/launches-images/launches-17.png)
 
 1. Klicken Sie in der Aktionsleiste auf **Dashboard**. Das Fenster **AUSSTEHENDE LAUNCHES** wird im Kanal-Dashboard angezeigt.
 
-   ![image](/help/user-guide/assets/launches-images/launches-18.png)
+   ![Bild](/help/user-guide/assets/launches-images/launches-18.png)
 
 1. Wählen Sie den Launch aus und klicken Sie im Bedienfeld **AUSSTEHENDE LAUNCHES** auf **Launch-Eigenschaften**.
 
-   ![image](/help/user-guide/assets/launches-images/launches-19.png)
+   ![Bild](/help/user-guide/assets/launches-images/launches-19.png)
 
 ### Bearbeiten von Screens Launch zum Hinzufügen oder Entfernen von Kanälen  {#editing-the-screens-launch-to-add-or-remove-channels}
 
@@ -189,7 +189,7 @@ Sie können den Launch manuell bewerben, indem Sie im Bedienfeld **AUSSTEHENDE L
 
 Sie können die Ressourcen, die Sie im Rahmen dieser manuellen Promotion bewerben möchten, im Assistenten **Launch bewerben** auswählen.
 
-![image](/help/user-guide/assets/launches-images/launches-e.png)
+![Bild](/help/user-guide/assets/launches-images/launches-e.png)
 
 1. Sie können die Option zum Löschen des Launches nach der Produktion aktivieren oder deaktivieren.
 1. Sie können den **Umfang** des Launches mit den folgenden Optionen festlegen:
