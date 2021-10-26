@@ -7,9 +7,9 @@ breadcrumb-title: AEM Screens-Anleitung
 user-guide-description: Erfahren Sie, wie Sie mit einer Digital-Signage-Lösung dynamische und interaktive digitale Erlebnisse und Interaktionen veröffentlichen können.
 feature-set: Experience Manager Screens
 source-git-commit: 8676b259304326ef3319ef40aa072b9d2a292a2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '466'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 96%
       + [Hinzufügen von Komponenten zu Kanälen](adding-components-to-a-channel.md)
       + [Eingebettete Sequenzen](embedded-sequences.md)
       + [Mehrzonen-Layout](multi-zone-layout-aem-screens.md)
-      + [Videoausgabeformate](generating-renditions.md)
+      + [Videoausgabedarstellungen](generating-renditions.md)
       + [Dynamische eingebettete Sequenz](dynamic-embedded-sequences.md)
       + [Dauer der Massenwiedergabe von Bildern auf Kanalebene](channel-level-image-playback.md)
       + [Befehlssynchronisierung](using-command-sync.md)
@@ -82,7 +82,7 @@ ht-degree: 96%
       + [Spracherkennung](voice-recognition.md)
       + [Inhaltszuweisungsbericht](content-assignment-report.md)
       + [Unterstützung von Miniaturansichten für Videos](thumbnail-support.md)
-      + [Verwenden adaptiver Ausgabeformate in AEM Screens](using-adaptive-renditions.md)
+      + [Verwenden adaptiver Ausgabedarstellungen in AEM Screens](using-adaptive-renditions.md)
    + Verwalten von Inhaltsaktualisierungen {#content-updates}
       + [On-Demand-Inhaltsaktualisierungen](on-demand-content.md)
       + [Aktualisierungen von Content-as-a-Service](content-update-as-a-service.md)
@@ -106,7 +106,7 @@ ht-degree: 96%
    + [Konfigurieren von ContextHub in AEM Screens](configuring-context-hub.md)
    + [Erstellen benutzerdefinierter Vorlagen für Mehrzonen-Layouts](creating-custom-templates-multizone-layouts.md)
    + [Anwenden von benutzerdefiniertem Branding und Styling für Textüberlagerungen](custom-branding-text-overlays.md)
-   + [Adaptive Ausgabeformate: Architektonischer Überblick und Konfigurationen](/help/user-guide/adaptive-renditions.md)
+   + [Adaptive Ausgabedarstellungen: Überblick über die Architektur und Konfigurationen](/help/user-guide/adaptive-renditions.md)
 + Problembehebung und häufig gestellte Fragen {#troubleshooting}
    + [Häufig gestellte Fragen zu AEM Screens](aem-screens-faqs.md)
    + [Problembehebung in der Gerätesteuerung](monitoring-screens.md)
