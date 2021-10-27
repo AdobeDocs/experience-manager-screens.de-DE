@@ -7,10 +7,10 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 77ec3e6de6760bc5e31675399ed91bac4150ae69
+source-git-commit: 9e9c7d49db3e3745719ded2505b1c41358ceeddd
 workflow-type: tm+mt
-source-wordcount: '2040'
-ht-degree: 92%
+source-wordcount: '2061'
+ht-degree: 91%
 
 ---
 
@@ -234,3 +234,9 @@ Siehe [Vorlage für benutzerdefinierte Handler](https://experienceleague.adobe.c
 * ContentSync deaktivieren in `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`.
 
 * Aktivieren Sie SmartSync in `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`.
+
+* Bearbeiten `channel/experience fragment/page components`.
+
+* Navigieren Sie zum **Offline-Konfiguration** Registerkarte.
+
+* Eingabe `clientlibs `und Ordner für statische Dateien, die zum Manifest hinzugefügt werden müssen.
