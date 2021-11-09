@@ -3,9 +3,9 @@ title: Konfigurieren des Screens-Replikationsagenten
 description: Auf dieser Seite erhalten Sie Informationen zum Konfigurieren des Screens-Replikationsagenten.
 role: Developer
 level: Intermediate
-source-git-commit: 9f0beddf87d9f5473fdedc292d3c24e96b85cdd4
+source-git-commit: 75250cf11254499dbb30b3a5b04b1849753ea266
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '339'
 ht-degree: 10%
 
 ---
@@ -82,3 +82,29 @@ Gehen Sie wie folgt vor, um die Einstellungen im Screens-Replikationsagenten zu 
 1. Klicken Sie auf Tools > **Implementierung** —> **Replikation**.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1a.png)
+
+1. Klicken Sie auf **Agenten für Autor**.
+
+   ![image](/help/user-guide/assets/screens-replication/screens-replication1b.png)
+
+1. Klicken Sie auf den Link, wie in der Abbildung unten dargestellt.
+
+   ![image](/help/user-guide/assets/screens-replication/screens-replication1c.png)
+
+1. Klicken Sie auf **Bearbeiten**.
+
+   ![image](/help/user-guide/assets/screens-replication/screens-replication1d.png)
+
+1. Überprüfen **Aktiviert** von **Einstellungen** Registerkarte.
+
+   ![image](/help/user-guide/assets/screens-replication/screens-replication1e.png)
+
+1. Navigieren Sie zu **Verkehr** Registerkarte aus **Agenteneinstellungen** und geben Sie dasselbe Kennwort ein, das Sie zuvor in Schritt 8 von festgelegt haben. [Aktivieren von Benutzern und Aktualisieren des Kennworts](#enable-users). Klicken Sie auf **OK**.
+
+   ![Bild](/help/user-guide/assets/screens-replication/screens-replication1f.png)
+
+1. Nachdem Sie die vorherigen Schritte ausgeführt haben, können Sie auf **Verbindung testen** , um die Verbindung zu überprüfen.
+
+   ![image](/help/user-guide/assets/screens-replication/screens-replication1g.png)
+
+   Wenn die Verbindungsprüfung erfolgreich war, haben Sie die Konfiguration des Screens-Replikationsagenten abgeschlossen.
