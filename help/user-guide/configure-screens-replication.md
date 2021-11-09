@@ -3,10 +3,10 @@ title: Konfigurieren von Screens-Replikationsagenten
 description: Auf dieser Seite erhalten Sie Informationen zum Konfigurieren von Screens-Replikationsagenten.
 role: Developer
 level: Intermediate
-source-git-commit: 137480ddaf6d7b73452c26402d56588230aa8c30
+source-git-commit: d35a8f1e4c8537560ca47c5a4ef4877137b8f7ea
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 7%
+source-wordcount: '493'
+ht-degree: 5%
 
 ---
 
@@ -34,7 +34,7 @@ Gehen Sie wie folgt vor, um Benutzer zu aktivieren und das Kennwort für screens
 >[!NOTE]
 >Aus Sicherheitsgründen wird empfohlen, die Verwendung des Administratorkennworts für screens-empfänger-user zu vermeiden.
 
-1. Navigieren Sie zu Ihrer AEM-Instanz.
+1. Navigieren Sie zu Ihrer AEM-Autoreninstanz.
 
 1. Klicken Sie auf Tools > **Sicherheit** —> **Benutzer**.
 
@@ -65,7 +65,7 @@ Gehen Sie wie folgt vor, um Benutzer zu aktivieren und das Kennwort für screens
 1. Geben Sie im **Kennwort ändern** und klicken Sie auf **Speichern**.
 
    >[!NOTE]
-   >Sie sollten **admin** in **Ihr Passwort** -Feld.
+   >Sie sollten das vorhandene Administratorkennwort in **Ihr Passwort** -Feld.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication7.png)
 
@@ -92,6 +92,9 @@ Gehen Sie wie folgt vor, um Benutzer zu aktivieren und das Kennwort für screens
 
 Gehen Sie wie folgt vor, um die Einstellungen im Screens-Replikationsagenten zu aktualisieren:
 
+>[!IMPORTANT]
+>Sie müssen die folgenden Schritte für ALLE vorhandenen Screens-Replikationsagenten ausführen.
+
 1. Navigieren Sie zu Ihrer AEM-Instanz.
 
 1. Klicken Sie auf Tools > **Implementierung** —> **Replikation**.
@@ -117,9 +120,11 @@ Gehen Sie wie folgt vor, um die Einstellungen im Screens-Replikationsagenten zu 
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1e.png)
 
-1. Navigieren Sie zu **Verkehr** Registerkarte aus **Agenteneinstellungen** und geben Sie dasselbe Kennwort ein, das Sie zuvor in Schritt 8 von festgelegt haben. [Aktivieren von Benutzern und Aktualisieren des Kennworts](#enable-users). Klicken Sie auf **OK**.
+1. Navigieren Sie zu **Verkehr** Registerkarte aus **Agenteneinstellungen** und aktualisieren Sie die **Benutzer** nach **screens-empfänger-user** und geben Sie dasselbe Kennwort ein, das Sie zuvor in Schritt (8) von [Aktivieren von Benutzern und Aktualisieren des Kennworts](#enable-users).
 
-   ![Bild](/help/user-guide/assets/screens-replication/screens-replication1f.png)
+   ![image](/help/user-guide/assets/screens-replication/screens-replication1-f.png)
+
+1. Klicken Sie auf **OK**.
 
 1. Nachdem Sie die vorherigen Schritte ausgeführt haben, können Sie auf **Verbindung testen** , um die Verbindung zu überprüfen.
 
