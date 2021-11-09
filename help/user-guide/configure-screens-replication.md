@@ -3,17 +3,25 @@ title: Konfigurieren des Screens-Replikationsagenten
 description: Auf dieser Seite erhalten Sie Informationen zum Konfigurieren des Screens-Replikationsagenten.
 role: Developer
 level: Intermediate
-source-git-commit: 75250cf11254499dbb30b3a5b04b1849753ea266
+source-git-commit: 99d66e5ac4239a6e43c15bb835f1e41ca94d908b
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 10%
+source-wordcount: '396'
+ht-degree: 9%
 
 ---
 
 
 # Konfigurieren des Screens-Replikationsagenten {#configuring-screens-replication-agent}
 
-In diesem Abschnitt wird die Konfiguration des Screens-Replikationsagenten beschrieben.
+Auf dieser Seite wird beschrieben, wie Sie den Screens-Replikationsagenten konfigurieren.
+
+>[!NOTE]
+>Weitere Informationen zu Screens-Replikationsagenten finden Sie unter [Screens-Replikationsagenten und -Befehle](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#screens-replication-agents-and-commands).
+
+Sie müssen beide Abschnitte ausführen, um die Konfiguration für den Screens-Replikationsagenten abzuschließen:
+
+1. [Aktivieren von Benutzern und Aktualisieren des Kennworts](#enable-users)
+1. [Aktualisieren des Screens-Replikationsagenten](#replicate-agent)
 
 ## Aktivieren von Benutzern und Aktualisieren des Kennworts {#enable-users}
 
@@ -87,7 +95,7 @@ Gehen Sie wie folgt vor, um die Einstellungen im Screens-Replikationsagenten zu 
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1b.png)
 
-1. Klicken Sie auf den Link, wie in der Abbildung unten dargestellt.
+1. Suchen Sie den Link mit dem Brief **S** und klicken Sie darauf, wie in der folgenden Abbildung dargestellt.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1c.png)
 
