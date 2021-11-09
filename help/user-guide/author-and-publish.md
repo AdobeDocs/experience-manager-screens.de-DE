@@ -1,16 +1,16 @@
 ---
 title: Konfigurieren von Autoren- und Veröffentlichungsinstanz in AEM Screens
-seo-title: Konfigurieren von Autoren- und Veröffentlichungsinstanz in AEM Screens
+seo-title: Configuring Author and Publish in AEM Screens
 description: Die AEM Screens-Architektur ähnelt einer traditionellen AEM Sites-Architektur. Inhalte werden in einer AEM-Autoreninstanz erstellt und dann vorwärts an mehrere Veröffentlichungsinstanzen repliziert. Auf dieser Seite erfahren Sie, wie Sie Autoren- und Veröffentlichungsinstanz für AEM Screens konfigurieren.
-seo-description: Die AEM Screens-Architektur ähnelt einer traditionellen AEM Sites-Architektur. Inhalte werden in einer AEM-Autoreninstanz erstellt und dann vorwärts an mehrere Veröffentlichungsinstanzen repliziert. Auf dieser Seite erfahren Sie, wie Sie Autoren- und Veröffentlichungsinstanz für AEM Screens konfigurieren.
-feature: Verwalten von Screens
+seo-description: AEM Screens architecture resembles a traditional AEM Sites architecture. Content is authored on an AEM author instance and then forward-replicated to multiple publish instances. Follow this page to learn how to configure author and publish for AEM Screens.
+feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '1907'
-ht-degree: 100%
+source-git-commit: 6f44bc9d28ed7fa3a9c8afef7ab7ecab64d53d36
+workflow-type: tm+mt
+source-wordcount: '1882'
+ht-degree: 98%
 
 ---
 
@@ -112,6 +112,9 @@ Gehen Sie wie folgt vor, um einen standardmäßigen Replikationsagenten einzuric
 
 1. Richten Sie den AEM Screens-Replikationsagenten für pub1 ein. Standardmäßig gibt es einen benannten Screens-Replikationsagenten, der auf Port 4503 verweist. Dieser Port muss aktiviert sein.
 1. Richten Sie den AEM Screens-Replikationsagenten für pub2 ein. Kopieren Sie den Screens-Replikationsagenten für pub1 und ändern Sie den Port für pub2 so, dass er auf 4504 verweist.
+
+   >[!NOTE]
+   >Informationen zum Konfigurieren von Screens-Replikationsagenten finden Sie unter [Konfigurieren des Screens-Replikationsagenten](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/configure-screens-replication.html?lang=en).
 
 #### Erstellen von Screens-Agenten für die Rückwärtsreplikation {#creating-screens-reverse-replication-agents}
 

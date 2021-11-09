@@ -3,17 +3,17 @@ title: Konfigurieren des Screens-Replikationsagenten
 description: Auf dieser Seite erhalten Sie Informationen zum Konfigurieren des Screens-Replikationsagenten.
 role: Developer
 level: Intermediate
-source-git-commit: 99d66e5ac4239a6e43c15bb835f1e41ca94d908b
+source-git-commit: 6f44bc9d28ed7fa3a9c8afef7ab7ecab64d53d36
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 9%
+source-wordcount: '417'
+ht-degree: 8%
 
 ---
 
 
-# Konfigurieren des Screens-Replikationsagenten {#configuring-screens-replication-agent}
+# Konfigurieren von Screens-Replikationsagenten {#configuring-screens-replication-agent}
 
-Auf dieser Seite wird beschrieben, wie Sie den Screens-Replikationsagenten konfigurieren.
+Auf dieser Seite wird beschrieben, wie Sie Screens-Replikationsagenten konfigurieren.
 
 >[!NOTE]
 >Weitere Informationen zu Screens-Replikationsagenten finden Sie unter [Screens-Replikationsagenten und -Befehle](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#screens-replication-agents-and-commands).
@@ -21,7 +21,7 @@ Auf dieser Seite wird beschrieben, wie Sie den Screens-Replikationsagenten konfi
 Sie müssen beide Abschnitte ausführen, um die Konfiguration für den Screens-Replikationsagenten abzuschließen:
 
 1. [Aktivieren von Benutzern und Aktualisieren des Kennworts](#enable-users)
-1. [Aktualisieren des Screens-Replikationsagenten](#replicate-agent)
+1. [Aktualisieren der Einstellungen für den Screens-Replikationsagenten](#replicate-agent)
 
 ## Aktivieren von Benutzern und Aktualisieren des Kennworts {#enable-users}
 
@@ -81,7 +81,7 @@ Führen Sie dazu folgende Schritte durch:
 
 1. Klicken Sie auf **OK** zur Bestätigung.
 
-## Aktualisieren des Screens-Replikationsagenten {#replicate-agent}
+## Aktualisieren der Einstellungen für den Screens-Replikationsagenten {#replicate-agent}
 
 Gehen Sie wie folgt vor, um die Einstellungen im Screens-Replikationsagenten zu aktualisieren:
 
@@ -95,7 +95,10 @@ Gehen Sie wie folgt vor, um die Einstellungen im Screens-Replikationsagenten zu 
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1b.png)
 
-1. Suchen Sie den Link mit dem Brief **S** und klicken Sie darauf, wie in der folgenden Abbildung dargestellt.
+1. Suchen Sie nach dem Screens-Replikationsagenten auf der Autoreninstanz und klicken Sie auf den Link, wie in der folgenden Abbildung dargestellt.
+
+   >[!NOTE]
+   >Suchen Sie mit dem Brief nach dem Screens-Replikationsagenten. **S** im Namen des Autors enthalten ist.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1c.png)
 
