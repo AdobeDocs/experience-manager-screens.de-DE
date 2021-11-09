@@ -3,9 +3,9 @@ title: Konfigurieren von Screens-Replikationsagenten
 description: Auf dieser Seite erhalten Sie Informationen zum Konfigurieren von Screens-Replikationsagenten.
 role: Developer
 level: Intermediate
-source-git-commit: 8f4aa5d33616275591c8b4c3bf0616c6cbd0ebf3
+source-git-commit: 46b466d5d05700def4b2c290fa164fbdabae268a
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '507'
 ht-degree: 5%
 
 ---
@@ -105,10 +105,10 @@ Gehen Sie wie folgt vor, um die Einstellungen im Screens-Replikationsagenten zu 
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1b.png)
 
-1. Suchen Sie nach dem Screens-Replikationsagenten auf der Autoreninstanz und klicken Sie auf den Link, wie in der folgenden Abbildung dargestellt.
+1. Suchen Sie nach allen Screens-Replikationsagenten auf der Autoreninstanz und klicken Sie auf den Link, wie in der folgenden Abbildung dargestellt.
 
    >[!NOTE]
-   >Suchen Sie mit dem Brief nach dem Screens-Replikationsagenten. **S** im Namen des Autors enthalten ist.
+   >Suchen Sie nach allen Screens-Replikationsagenten. Der Name des Screens-Replikationsagenten enthält einen Brief **S** im Titel.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1c.png)
 
