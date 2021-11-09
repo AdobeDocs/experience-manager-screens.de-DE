@@ -3,9 +3,9 @@ title: Konfigurieren von Screens-Replikationsagenten
 description: Auf dieser Seite erhalten Sie Informationen zum Konfigurieren von Screens-Replikationsagenten.
 role: Developer
 level: Intermediate
-source-git-commit: d35a8f1e4c8537560ca47c5a4ef4877137b8f7ea
+source-git-commit: 8f4aa5d33616275591c8b4c3bf0616c6cbd0ebf3
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '504'
 ht-degree: 5%
 
 ---
@@ -17,7 +17,7 @@ Auf dieser Seite wird beschrieben, wie Sie Screens-Replikationsagenten konfiguri
 
 ## Ziel {#objective}
 
-Der Screens-Replikationsagent ist dafür verantwortlich, Ping-Daten von der Veröffentlichung an die Autoreninstanz zu übertragen. Dies muss unbedingt konfiguriert werden, damit der Autor den Geräte-Ping anzeigen kann.
+Der Screens-Replikationsagent ist für das Abrufen von Ping-Daten verantwortlich, z. B.: *Benutzer*, *password*, *rebootSchedule*, *maxNumberOfLogFilesToKeep*, und viele weitere solcher Werte von der Veröffentlichung bis zur Autoreninstanz. Dies muss unbedingt konfiguriert werden, damit der Autor den Geräte-Ping anzeigen kann.
 
 >[!NOTE]
 >Weitere Informationen zu Screens-Replikationsagenten finden Sie unter [Screens-Replikationsagenten und -Befehle](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#screens-replication-agents-and-commands).
