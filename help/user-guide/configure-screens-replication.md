@@ -3,10 +3,10 @@ title: Konfigurieren des Screens-Replikationsagenten
 description: Auf dieser Seite erhalten Sie Informationen zum Konfigurieren des Screens-Replikationsagenten.
 role: Developer
 level: Intermediate
-source-git-commit: 6f44bc9d28ed7fa3a9c8afef7ab7ecab64d53d36
+source-git-commit: 42e6adb7f8aa60854637a48fbb08525a0a971276
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 8%
+source-wordcount: '440'
+ht-degree: 7%
 
 ---
 
@@ -25,7 +25,10 @@ Sie müssen beide Abschnitte ausführen, um die Konfiguration für den Screens-R
 
 ## Aktivieren von Benutzern und Aktualisieren des Kennworts {#enable-users}
 
-Führen Sie dazu folgende Schritte durch:
+Gehen Sie wie folgt vor, um Benutzer zu aktivieren und das Kennwort für screens-empfänger-user zu aktualisieren:
+
+>[!NOTE]
+>Aus Sicherheitsgründen wird empfohlen, die Verwendung des Administratorkennworts für screens-empfänger-user zu vermeiden.
 
 1. Navigieren Sie zu Ihrer AEM-Instanz.
 
