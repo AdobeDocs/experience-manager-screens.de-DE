@@ -10,7 +10,7 @@ exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
 source-git-commit: 9e9c7d49db3e3745719ded2505b1c41358ceeddd
 workflow-type: tm+mt
 source-wordcount: '2061'
-ht-degree: 91%
+ht-degree: 96%
 
 ---
 
@@ -68,14 +68,14 @@ Und so weiter, bis Sie den Standortordner erreichen und dort anhalten (Sie könn
 
 ### 5. Wie wird die benutzerdefinierte clientlib-Offline-Konfiguration im AEM Screens-Kanal eingerichtet?
 
-Bei Verwendung eines erstellten benutzerdefinierten clientseitigen Codes `clientlib` in einem AEM Screens-Kanal sind die folgenden Schritte erforderlich, um sicherzustellen, dass die `clientlib` -Dateien erfolgreich im Kanal geladen werden (`manifest.json`) und enthält den Pfad der `clientlib`.
+Bei Verwendung einer erstellten benutzerdefinierten Client-seitigen Code-`clientlib` in einem AEM Screens-Kanal sind die folgenden Schritte erforderlich, um sicherzustellen, dass die `clientlib`-Dateien erfolgreich im Kanal (`manifest.json`) geladen werden und den Pfad der `clientlib` enthalten.
 
 Gehen Sie im Kanaleditor wie folgt vor:
 
-1. Wählen Sie einen Kanal aus und klicken Sie auf **Bearbeiten** in der Aktionsleiste, um den Kanaleditor zu öffnen.
-1. Wählen Sie die Komponente aus, der Sie die benutzerdefinierte `clientlib`.
-1. Klicken Sie auf die Schaltfläche &quot;Konfigurieren&quot;(das Schraubenschlüsselsymbol).
-1. Navigieren Sie zum **Offline-Konfiguration** und fügen Sie den Pfad zu Ihrer benutzerdefinierten Client-Bibliothek in **Client-seitige Bibliotheken**.
+1. Wählen Sie einen Kanal aus und klicken Sie in der Aktionsleiste auf **Bearbeiten**, um den Kanaleditor zu öffnen.
+1. Wählen Sie die Komponente aus, der Sie die benutzerdefinierte `clientlib` hinzufügen wollen.
+1. Klicken Sie auf die Schaltfläche „Konfigurieren“ (das Schraubenschlüsselsymbol).
+1. Gehen Sie zur Registerkarte **Offline-Konfiguration** und fügen Sie den Pfad zu Ihrer benutzerdefinierten clientlib unter **Client-seitige Bibliotheken** hinzu.
 
 ## Geräteregistrierung {#device-registration}
 
@@ -157,7 +157,7 @@ Führen Sie folgende Schritte durch, um „Stay Awake“ in einem beliebigen And
 1. Navigieren Sie zu den **Entwickleroptionen**.
 1. Aktivieren Sie **Stay Awake**.
 
-### 4. Wie wird der Fenstermodus für den Windows-Player aktiviert?{#enable-player}
+### 4. Wie wird der Fenstermodus für den Windows-Player aktiviert? {#enable-player}
 
 Der Windows-Player verfügt über keinen Fenstermodus. Der Vollbildmodus ist immer aktiviert.
 
