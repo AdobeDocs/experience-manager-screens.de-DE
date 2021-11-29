@@ -8,9 +8,9 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
 source-git-commit: 6f44bc9d28ed7fa3a9c8afef7ab7ecab64d53d36
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1882'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -94,7 +94,7 @@ Gehen Sie wie folgt vor, um einen standardmäßigen Replikationsagenten einzuric
 
    ![screen_shot_2019-02-25at30134pm](assets/screen_shot_2019-02-25at30134pm.png)
 
-1. Navigieren Sie zur Registerkarte **Transport** und geben Sie den **URI**, den **Benutzer** und das **Kennwort** ein.
+1. Navigieren Sie zur Registerkarte **Transport** und geben Sie den **URI**, den **Benutzer** und das **Passwort** ein.
 
    ![screen_shot_2019-03-04at34955pm](assets/screen_shot_2019-03-04at34955pm.png)
 
@@ -114,7 +114,7 @@ Gehen Sie wie folgt vor, um einen standardmäßigen Replikationsagenten einzuric
 1. Richten Sie den AEM Screens-Replikationsagenten für pub2 ein. Kopieren Sie den Screens-Replikationsagenten für pub1 und ändern Sie den Port für pub2 so, dass er auf 4504 verweist.
 
    >[!NOTE]
-   >Informationen zum Konfigurieren von Screens-Replikationsagenten finden Sie unter [Konfigurieren des Screens-Replikationsagenten](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/configure-screens-replication.html?lang=en).
+   >Informationen zum Konfigurieren von Screens-Replikationsagenten finden Sie unter [Konfigurieren von Screens-Replikationsagenten](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/configure-screens-replication.html?lang=de).
 
 #### Erstellen von Screens-Agenten für die Rückwärtsreplikation {#creating-screens-reverse-replication-agents}
 
@@ -131,7 +131,7 @@ Bei jeder Veröffentlichungsinstanz:
 
 1. Navigieren Sie zu `https://<host>:<port>/system/console/configMgr`
 1. Wählen Sie die Konfiguration **Apache Sling Oak-basierter Erkennungs-Service**.
-1. Aktualisieren Sie die Topologie-Connector-URLs: Fügen Sie URLs aller beteiligten Veröffentlichungsinstanzen hinzu, d. h.:
+1. Aktualisieren Sie die Topologie-Connector-URLs: Fügen Sie URLs aller beteiligten Veröffentlichungsinstanzen hinzu, d. h.:
    * `https://localhost:4503/libs/sling/topology/connector`
    * `https://localhost:4504/libs/sling/topology/connector`
 1. **Whitelist der Topologie-Connectoren**: Passen Sie diese entsprechend den IP-Adressen oder Subnetzen an, die die beteiligten Veröffentlichungsinstanzen abdecken.
@@ -145,13 +145,13 @@ Navigieren Sie bei allen Veröffentlichungsinstanzen zu `https://:/system/consol
 
 #### Schritt 3: Einrichten des ActiveMQ Artemis-Clusters {#step-setup-activemq-artemis-cluster}
 
-In diesem Schritt können Sie ein verschlüsseltes Kennwort für den ActiveMQ Artemis-Cluster erstellen.
-Der Cluster-Benutzer und das Kennwort müssen bei allen Veröffentlichungsinstanzen in der Topologie identisch sein. Das Kennwort der ActiveMQ Artemis-Konfiguration muss verschlüsselt werden. Da jede Instanz über einen eigenen Verschlüsselungsschlüssel verfügt, müssen Sie mit Crypto Support eine verschlüsselte Kennwortzeichenfolge erstellen. Dann wird das verschlüsselte Kennwort in der OSGi-Konfiguration für ActiveMQ verwendet.
+In diesem Schritt können Sie ein verschlüsseltes Passwort für den ActiveMQ Artemis-Cluster erstellen.
+Der Cluster-Benutzer und das Passwort müssen für alle Veröffentlichungsinstanzen in der Topologie identisch sein. Das Passwort der ActiveMQ Artemis-Konfiguration muss verschlüsselt werden. Da jede Instanz über einen eigenen Verschlüsselungsschlüssel verfügt, müssen Sie mit Crypto Support eine verschlüsselte Passwortzeichenfolge erstellen. Das verschlüsselte Passwort wird in der OSGi-Konfiguration für ActiveMQ verwendet.
 
 Bei jeder Veröffentlichungsinstanz:
 
 1. Navigieren Sie in der OSGi-Konsole zu **MAIN** > **Crypto Support** (`https://&lt;host&gt;:&lt;port&gt;/system/console/crypto`).
-1. Geben Sie in **Nur Text** das gewünschte Kennwort ein (nur Text; für alle Instanzen gleich).
+1. Geben Sie in **Nur Text** das gewünschte Passwort ein (nur Text; für alle Instanzen gleich).
 1. Klicken Sie auf **Schützen**.
 1. Kopieren Sie den Wert **Geschützter Text** in den Notizblock oder Text-Editor. Dieser Wert wird in der OSGi-Konfiguration für ActiveMQ verwendet.
 
