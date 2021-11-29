@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: fc210d9d-5fac-4147-849d-182ffbaf0a5e
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 02bc399d61f5666918caad9fce3d69d63f0782d7
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 100%
+source-wordcount: '399'
+ht-degree: 94%
 
 ---
 
@@ -22,6 +22,9 @@ ht-degree: 100%
 Das AEM 6.5 Feature Pack 8 wurde für AEM Screens veröffentlicht.
 
 Das neueste Feature Pack für AEM Screens 6.5.8 steht auf dem [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) zum Download zur Verfügung (Adobe ID erforderlich). Navigieren Sie zur Registerkarte **Adobe Experience Manager** und suchen Sie nach **Screens**, um das neueste Feature Pack mit dem Namen **AEM 6.5 Screens FP8** herunterzuladen.
+
+>[!IMPORTANT]
+>Sie müssen eine Mindestversion von AEM 6.5 Feature Pack 8 installieren, damit der AMS-Connector funktioniert, sobald Sie die Pakete installiert haben `screens-cloud-ams-pkg-0.0.20`, `screens-cloud-ams-pkg-0.0.16` und `screens core bundles`.
 
 ## Veröffentlichungsdatum {#release-date}
 
@@ -64,6 +67,6 @@ Die folgenden AEM Screens-Player sind für AEM 6.5 Feature Pack 8 verfügbar:
 * Android
 * Linux
 
-#### AEM Screens-Player-Downloads   {#aem-screens-player-downloads}
+#### AEM Screens-Player-Downloads  {#aem-screens-player-downloads}
 
-Navigieren Sie zu **[AEM Screens-Player-Downloads](https://download.macromedia.com/screens/index.html)**, um den neusten AEM Screens-Player herunterzuladen und mehr über die Fehlerbehebungen zu erfahren.
+Gehen Sie zu **[AEM Screens-Player-Downloads](https://download.macromedia.com/screens/index.html)**, um den neusten AEM Screens-Player herunterzuladen und mehr über die Fehlerbehebungen zu erfahren.
