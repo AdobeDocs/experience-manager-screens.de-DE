@@ -7,10 +7,10 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 9e9c7d49db3e3745719ded2505b1c41358ceeddd
-workflow-type: ht
-source-wordcount: '2061'
-ht-degree: 100%
+source-git-commit: c746fb991c02a015a5366187699e49d441ee2d88
+workflow-type: tm+mt
+source-wordcount: '2120'
+ht-degree: 97%
 
 ---
 
@@ -240,3 +240,7 @@ Weitere Informationen finden Sie unter [Vorlage für benutzerdefinierte Handler]
 * Navigieren Sie zur Registerkarte **Offline-Konfiguration**.
 
 * Geben Sie `clientlibs ` und die Ordner für statische Dateien ein, die zum Manifest hinzugefügt werden müssen.
+
+### 4. Was sollten Sie tun, wenn nach dem Paket screens-cloud-ams-pkg-0.0.20 screens-cloud-ams-pkg-0.0.16 und die Screens-Core-Bundles installiert, aber nicht aktiv sind?
+
+Sie müssen eine Mindestversion von AEM 6.5 Feature Pack 8 AMS installieren, damit der AMS-Connector funktioniert. Siehe [Verfügbarkeit](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105.html?lang=en#availability) , um die Mindestversion des Feature Packs zu erhalten.
