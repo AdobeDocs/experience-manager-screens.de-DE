@@ -4,9 +4,9 @@ description: Auf dieser Seite erhalten Sie Informationen zum Konfigurieren von S
 role: Developer
 level: Intermediate
 source-git-commit: ede0eb02c97c99732c64a92c603e51bedecdbac8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '507'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
@@ -17,117 +17,117 @@ Auf dieser Seite wird beschrieben, wie Sie Screens-Replikationsagenten konfiguri
 
 ## Ziel {#objective}
 
-Der Screens-Replikationsagent ist für das Abrufen von Befehlsdaten verantwortlich, z. B.: *Benutzer*, *password*, *rebootSchedule*, *maxNumberOfLogFilesToKeep*, und viele weitere solcher Werte von der Veröffentlichung bis zur Autoreninstanz. Dies muss unbedingt konfiguriert werden, damit der Autor den Geräte-Ping anzeigen kann.
+Der Screens-Replikationsagent ist für die Bereitstellung von Befehlsdaten von Veröffentlichung an Autor verantwortlich, z. B. *user*, *password*, *rebootSchedule*, *maxNumberOfLogFilesToKeep* und viele mehr. Dies muss unbedingt konfiguriert werden, damit der Autor den Geräte-Ping anzeigen kann.
 
 >[!NOTE]
->Weitere Informationen zu Screens-Replikationsagenten finden Sie unter [Screens-Replikationsagenten und -Befehle](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#screens-replication-agents-and-commands).
+>Weitere Informationen zu Screens-Replikationsagenten finden Sie unter [Screens-Replikationsagenten und -Befehle](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=de#screens-replication-agents-and-commands).
 
-Sie müssen beide Abschnitte ausführen, um die Konfiguration für den Screens-Replikationsagenten abzuschließen:
+Sie müssen beide Abschnitte abschließen, um den Screens-Replikationsagenten vollständig zu konfigurieren:
 
-1. [Aktivieren von Benutzern und Aktualisieren des Kennworts](#enable-users)
+1. [Aktivieren von Benutzern und Aktualisieren des Passworts](#enable-users)
 1. [Aktualisieren der Einstellungen für den Screens-Replikationsagenten](#replicate-agent)
 
-## Aktivieren von Benutzern und Aktualisieren des Kennworts {#enable-users}
+## Aktivieren von Benutzern und Aktualisieren des Passworts {#enable-users}
 
-Gehen Sie wie folgt vor, um Benutzer zu aktivieren und das Kennwort für screens-empfänger-user zu aktualisieren:
+Gehen Sie zum Aktivieren von Benutzern und Aktualisieren des Passworts für „screens-receiver-user“ wie folgt vor:
 
 >[!NOTE]
->Aus Sicherheitsgründen wird empfohlen, die Verwendung des Administratorkennworts für screens-empfänger-user zu vermeiden.
+>Aus Sicherheitsgründen wird empfohlen, für „screens-receiver-user“ nicht das Administratorpasswort zu verwenden.
 
 1. Navigieren Sie zu Ihrer AEM-Autoreninstanz.
 
-1. Klicken Sie auf Tools > **Sicherheit** —> **Benutzer**.
+1. Klicken Sie auf „Tools“ > **Sicherheit** > **Benutzer**.
 
-   ![image](/help/user-guide/assets/screens-replication/screens-replication1.png)
+   ![Bild](/help/user-guide/assets/screens-replication/screens-replication1.png)
 
-1. Suchen Sie nach **screens-empfänger-user**.
+1. Suchen Sie nach **screens-receiver-user**.
 
-1. Wählen Sie die **screens-empfänger-user** und klicken Sie auf **Aktivieren** in der Aktionsleiste aus.
+1. Wählen Sie **screens-receiver-user** aus und klicken Sie in der Aktionsleiste auf **Aktivieren**.
 
-   ![image](/help/user-guide/assets/screens-replication/screens-replication2.png)
+   ![Bild](/help/user-guide/assets/screens-replication/screens-replication2.png)
 
-1. Klicken Sie auf **OK** zur Bestätigung.
+1. Klicken Sie zum Bestätigen auf **OK**.
 
-   ![image](/help/user-guide/assets/screens-replication/screens-replication3.png)
+   ![Bild](/help/user-guide/assets/screens-replication/screens-replication3.png)
 
-   Sobald Sie den Benutzer aktiviert haben, sehen Sie die **screens-empfänger-user** as **Aktiviert** unter **Status** -Feld.
+   Nachdem Sie den Benutzer aktiviert haben, wird **screens-receiver-user** als **Aktiviert** im Feld **Status** aufgeführt.
 
-   ![image](/help/user-guide/assets/screens-replication/screens-replication4.png)
+   ![Bild](/help/user-guide/assets/screens-replication/screens-replication4.png)
 
-1. Wählen Sie die **screens-empfänger-user** und klicken Sie auf **Eigenschaften** in der Aktionsleiste aus.
+1. Wählen Sie **screens-receiver-user** aus und klicken Sie in der Aktionsleiste auf **Eigenschaften**.
 
-   ![image](/help/user-guide/assets/screens-replication/screens-replication5.png)
+   ![Bild](/help/user-guide/assets/screens-replication/screens-replication5.png)
 
-1. Klicken Sie auf **Kennwort ändern** under **Kontoeinstellungen** von **Details** wie in der folgenden Abbildung dargestellt.
+1. Klicken Sie auf der Registerkarte **Details** unter **Kontoeinstellungen** auf **Kennwort ändern**, wie in der folgenden Abbildung dargestellt.
 
-   ![image](/help/user-guide/assets/screens-replication/screens-replication6.png)
+   ![Bild](/help/user-guide/assets/screens-replication/screens-replication6.png)
 
-1. Geben Sie im **Kennwort ändern** und klicken Sie auf **Speichern**.
+1. Geben Sie im Dialogfeld **Kennwort ändern** ein neues Passwort ein und klicken Sie auf **Speichern**.
 
    >[!NOTE]
-   >Sie sollten das vorhandene Administratorkennwort in **Ihr Passwort** -Feld.
+   >Sie sollten im Feld **Ihr Passwort** das vorhandene Administratorpasswort eingeben.
 
-   ![image](/help/user-guide/assets/screens-replication/screens-replication7.png)
+   ![Bild](/help/user-guide/assets/screens-replication/screens-replication7.png)
 
 1. Klicken Sie auf **Speichern und schließen**.
 
-1. Wählen Sie die **screens-empfänger-user** und klicken Sie auf **Aktivieren** in der Aktionsleiste aus.
+1. Wählen Sie **screens-receiver-user** aus und klicken Sie in der Aktionsleiste auf **Aktivieren**.
 
-   ![image](/help/user-guide/assets/screens-replication/screens-replication8.png)
+   ![Bild](/help/user-guide/assets/screens-replication/screens-replication8.png)
 
-1. Klicken Sie auf **OK** zur Bestätigung.
+1. Klicken Sie zum Bestätigen auf **OK**.
 
-   ![image](/help/user-guide/assets/screens-replication/screens-replication9.png)
+   ![Bild](/help/user-guide/assets/screens-replication/screens-replication9.png)
 
-1. Wählen Sie die **screens-empfänger-user** und klicken Sie auf **Deaktivieren** in der Aktionsleiste aus.
+1. Wählen Sie **screens-receiver-user** aus und klicken Sie in der Aktionsleiste auf **Deaktivieren**.
 
    >[!IMPORTANT]
-   > Deaktivieren **screens-empfänger-user** deaktiviert nur diesen Benutzer von der Autoreninstanz und alle Benutzer in der Veröffentlichungsinstanz bleiben weiterhin aktiv. Klicken Sie nicht auf **Deaktivieren** in der Aktionsleiste aus, da durch Deaktivieren der Benutzer auch aus den Veröffentlichungsinstanzen entfernt wird.
+   > Durch Deaktivieren von **screens-receiver-user** wird nur dieser Benutzer in der Autoreninstanz deaktiviert. Alle Benutzer in der Veröffentlichungsinstanz bleiben weiterhin aktiv. Klicken Sie nicht auf **Deaktivieren** in der Aktionsleiste, da durch Deaktivieren der Benutzer auch aus den Veröffentlichungsinstanzen entfernt wird.
 
-   ![image](/help/user-guide/assets/screens-replication/screens-replication10.png)
+   ![Bild](/help/user-guide/assets/screens-replication/screens-replication10.png)
 
-1. Klicken Sie auf **OK** zur Bestätigung.
+1. Klicken Sie zum Bestätigen auf **OK**.
 
 ## Aktualisieren der Einstellungen für den Screens-Replikationsagenten {#replicate-agent}
 
-Gehen Sie wie folgt vor, um die Einstellungen im Screens-Replikationsagenten zu aktualisieren:
+Gehen Sie zum Aktualisieren der Einstellungen für den Screens-Replikationsagenten wie folgt vor:
 
 >[!IMPORTANT]
 >Sie müssen die folgenden Schritte für ALLE vorhandenen Screens-Replikationsagenten ausführen.
 
 1. Navigieren Sie zu Ihrer AEM-Instanz.
 
-1. Klicken Sie auf Tools > **Implementierung** —> **Replikation**.
+1. Klicken Sie auf „Tools“ > **Bereitstellung** > **Replikation**.
 
-   ![image](/help/user-guide/assets/screens-replication/screens-replication1a.png)
+   ![Bild](/help/user-guide/assets/screens-replication/screens-replication1a.png)
 
 1. Klicken Sie auf **Agenten für Autor**.
 
-   ![image](/help/user-guide/assets/screens-replication/screens-replication1b.png)
+   ![Bild](/help/user-guide/assets/screens-replication/screens-replication1b.png)
 
-1. Suchen Sie nach allen Screens-Replikationsagenten auf der Autoreninstanz und klicken Sie auf den Link, wie in der folgenden Abbildung dargestellt.
+1. Suchen Sie nach allen Screens-Replikationsagenten in der Autoreninstanz und klicken Sie auf den Link, wie in der folgenden Abbildung dargestellt.
 
    >[!NOTE]
-   >Suchen Sie nach allen Screens-Replikationsagenten. Der Name des Screens-Replikationsagenten enthält einen Brief **S** im Titel.
+   >Suchen Sie nach allen Screens-Replikationsagenten. Der Name des Screens-Replikationsagenten enthält den Buchstaben **S** im Titel.
 
-   ![image](/help/user-guide/assets/screens-replication/screens-replication1c.png)
+   ![Bild](/help/user-guide/assets/screens-replication/screens-replication1c.png)
 
 1. Klicken Sie auf **Bearbeiten**.
 
-   ![image](/help/user-guide/assets/screens-replication/screens-replication1d.png)
+   ![Bild](/help/user-guide/assets/screens-replication/screens-replication1d.png)
 
-1. Überprüfen **Aktiviert** von **Einstellungen** Registerkarte.
+1. Aktivieren Sie **Aktiviert** auf der Registerkarte **Einstellungen**.
 
-   ![image](/help/user-guide/assets/screens-replication/screens-replication1e.png)
+   ![Bild](/help/user-guide/assets/screens-replication/screens-replication1e.png)
 
-1. Navigieren Sie zu **Verkehr** Registerkarte aus **Agenteneinstellungen** und aktualisieren Sie die **Benutzer** nach **screens-empfänger-user** und geben Sie dasselbe Kennwort ein, das Sie zuvor in Schritt (8) von [Aktivieren von Benutzern und Aktualisieren des Kennworts](#enable-users).
+1. Navigieren Sie im Dialogfeld **Agenteneinstellungen** zur Registerkarte **Transport** und aktualisieren Sie die Einstellung für **Benutzer** in **screens-receiver-user**. Geben Sie dasselbe Passwort ein, das Sie zuvor in Schritt (8) von [Aktivieren von Benutzern und Aktualisieren des Passworts](#enable-users) festgelegt haben.
 
-   ![image](/help/user-guide/assets/screens-replication/screens-replication1-f.png)
+   ![Bild](/help/user-guide/assets/screens-replication/screens-replication1-f.png)
 
 1. Klicken Sie auf **OK**.
 
-1. Nachdem Sie die vorherigen Schritte ausgeführt haben, können Sie auf **Verbindung testen** , um die Verbindung zu überprüfen.
+1. Nachdem Sie die vorherigen Schritte ausgeführt haben, können Sie auf **Verbindung testen** klicken, um die Verbindung zu überprüfen.
 
-   ![image](/help/user-guide/assets/screens-replication/screens-replication1g.png)
+   ![Bild](/help/user-guide/assets/screens-replication/screens-replication1g.png)
 
-   Wenn die Verbindungsprüfung erfolgreich war, haben Sie die Konfiguration des Screens-Replikationsagenten abgeschlossen.
+   Wenn die Verbindungsprüfung erfolgreich war, ist die Konfiguration des Screens-Replikationsagenten abgeschlossen.
