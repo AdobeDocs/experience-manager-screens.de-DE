@@ -8,7 +8,7 @@ exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
 source-git-commit: c49cce64fe34e0611f086de5ac1c363589e3dc14
 workflow-type: tm+mt
 source-wordcount: '876'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -64,7 +64,7 @@ Weitere Informationen finden Sie unter [Inhaltszuweisungsbericht](/help/user-gui
 
    * Aktivieren Sie SmartSync in `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
 
-   * Siehe [Konfigurieren des Dispatchers für die Manifestversion v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=de#configuring-dispatcherv3) für weitere Details.
+   * Weitere Informationen finden Sie unter [Konfigurieren des Dispatchers für Manifest Version 3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=de#configuring-dispatcherv3).
    * Wenn Sie benutzerdefinierte Komponenten als Teil von v3-Manifesten verwenden, lesen Sie [Vorlage für benutzerdefinierte Handler](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=de#custom-handlers).
 
 
@@ -104,7 +104,7 @@ Weitere Informationen finden Sie unter [Inhaltszuweisungsbericht](/help/user-gui
 
 **Auf der Server-Seite**
 
-* Das Ziel-Video wird nicht angezeigt
+* Das Ziel-Video wird nicht angezeigt.
 * Konkurrenzbedingung bei der Übertragung von Anzeigedaten an Teilsequenzen.
 
 * Die Kanalvorschau funktioniert nicht für Kanäle, die Videos enthalten.
@@ -147,6 +147,6 @@ Die folgenden AEM Screens-Player sind für AEM 6.5 Feature Pack 9 verfügbar:
 * Android
 * Linux
 
-#### AEM Screens-Player-Downloads   {#aem-screens-player-downloads}
+#### AEM Screens-Player-Downloads  {#aem-screens-player-downloads}
 
 Gehen Sie zu **[AEM Screens-Player-Downloads](https://download.macromedia.com/screens/index.html)**, um den neusten AEM Screens-Player herunterzuladen und mehr über die Fehlerbehebungen zu erfahren.
