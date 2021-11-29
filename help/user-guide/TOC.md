@@ -7,9 +7,9 @@ breadcrumb-title: AEM Screens-Anleitung
 user-guide-description: Erfahren Sie, wie Sie mit einer Digital-Signage-Lösung dynamische und interaktive digitale Erlebnisse und Interaktionen veröffentlichen können.
 feature-set: Experience Manager Screens
 source-git-commit: 75250cf11254499dbb30b3a5b04b1849753ea266
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '470'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
