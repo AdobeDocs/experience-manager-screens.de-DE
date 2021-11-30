@@ -1,18 +1,14 @@
 ---
 title: Konfigurieren von Autoren- und Veröffentlichungsinstanz in AEM Screens
-seo-title: Configuring Author and Publish in AEM Screens
 description: Die AEM Screens-Architektur ähnelt einer traditionellen AEM Sites-Architektur. Inhalte werden in einer AEM-Autoreninstanz erstellt und dann vorwärts an mehrere Veröffentlichungsinstanzen repliziert. Auf dieser Seite erfahren Sie, wie Sie Autoren- und Veröffentlichungsinstanz für AEM Screens konfigurieren.
-seo-description: AEM Screens architecture resembles a traditional AEM Sites architecture. Content is authored on an AEM author instance and then forward-replicated to multiple publish instances. Follow this page to learn how to configure author and publish for AEM Screens.
-feature: Administering Screens
-role: Admin, Developer
-level: Intermediate
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 6f44bc9d28ed7fa3a9c8afef7ab7ecab64d53d36
-workflow-type: ht
-source-wordcount: '1882'
-ht-degree: 100%
+source-git-commit: c152c6b46e33b42376cedeb7245d69c7c09ecd44
+workflow-type: tm+mt
+source-wordcount: '2006'
+ht-degree: 93%
 
 ---
+
 
 # Konfigurieren von Autoren- und Veröffentlichungsinstanz in AEM Screens {#configuring-author-and-publish-in-aem-screens}
 
@@ -310,3 +306,22 @@ Alternativ können Sie über die Geräteverwaltungskonsole die Server-URL aktual
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
 Mit der Funktion **Veröffentlichung verwalten** können Sie Inhaltsaktualisierungen vom Autor an das Gerät senden, um sie zu veröffentlichen. Sie können Inhalte für Ihr gesamtes AEM Screens-Projekt oder nur für einzelne Kanäle, Standorte, Geräte, Anwendungen oder einen Zeitplan veröffentlichen oder die Veröffentlichung aufheben. Weitere Informationen zu dieser Funktion finden Sie unter [On-Demand-Inhaltsaktualisierungen](on-demand-content.md).
+
+## Tipps zur Fehlerbehebung {#troubleshoot-tips}
+
+Im folgenden Abschnitt finden Sie Antworten auf häufig gestellte Fragen zur Autoren-/Veröffentlichungseinrichtung.
+
+### Wie kann nach der ersten Registrierung und Zuweisung eine Umleitung von https zu http hinzugefügt werden? {#add-redirect}
+
+**Lösung**
+Aktivieren `Proxy/Load Balancer Connection in the Jetty configuration` nach `true`.
+
+### So aktualisieren Sie Offline-Inhalte und Player-Download-Probleme mit Assets außerhalb von `/content/dam/projects/<project>`? {#update-offline-content}
+
+**Lösung**
+Erteilen Sie Leseberechtigungen für Massen-Offline-Update-Screens-Service-Benutzer und die Übergeordnete Gruppe screens-devices für alle `/content/dam` oder die spezifischen Assets, die Sie verwenden möchten, wenn Sie restriktiver sein möchten.
+
+### Wie können Screens-Replikationsagenten-Fehler behoben werden? {#replication-agent}
+
+**Lösung**
+Vergewissern Sie sich, dass Sie in der Agentenkonfiguration die Option Für Rückwärtsreplikation verwenden nicht aktiviert haben. Der Screens-Replikationsagent kann nicht als Agenten für die Rückwärtsreplikation verwendet werden und der Umfang dieser Funktion besteht darin, Gerätebefehle von der Autoren- zur Veröffentlichungsinstanz weiterzuleiten.
