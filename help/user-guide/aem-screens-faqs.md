@@ -10,7 +10,7 @@ exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
 source-git-commit: 089bf4eebe5234d77d6f02ae6fc3b8bb75ba6ea2
 workflow-type: tm+mt
 source-wordcount: '2185'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -241,9 +241,9 @@ Weitere Informationen finden Sie unter [Vorlage für benutzerdefinierte Handler]
 
 * Geben Sie `clientlibs ` und die Ordner für statische Dateien ein, die zum Manifest hinzugefügt werden müssen.
 
-### 4. Was sollten Sie tun, wenn nach dem Paket screens-cloud-ams-pkg-0.0.20 screens-cloud-ams-pkg-0.0.16 und die Screens-Core-Bundles installiert, aber nicht aktiv sind?
+### 4. Was sollten Sie tun, wenn nach dem Paket „screens-cloud-ams-pkg-0.0.20“ „screens-cloud-ams-pkg-0.0.16“ und die Screens-Core-Bundles installiert, aber nicht aktiv sind?
 
-Sie müssen eine Mindestversion von AEM 6.5 Feature Pack 8 installieren, damit der AMS-Connector funktioniert. Siehe [Verfügbarkeit](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105.html?lang=en#availability) , um die Mindestversion des Screens-Feature Packs zu erhalten.
+Sie müssen mindestens die Version Adobe Experience Manager 6.5 Feature Pack 8 installieren, damit der AMS-Connector funktioniert. Siehe [Verfügbarkeit](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105.html?lang=de#availability) , um die Mindestversion des Screens-Feature Packs zu erhalten.
 
 ### 5. Wie wird der CQ Link Externalizer-Dienst in Screens konfiguriert?
 
