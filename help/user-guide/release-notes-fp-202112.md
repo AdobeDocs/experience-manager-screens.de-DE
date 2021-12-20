@@ -1,13 +1,13 @@
 ---
 title: Versionshinweise für Feature Pack 202112
-description: Auf dieser Seite erhalten Sie Informationen zu AEM Screens Feature Pack 202112, das am 6. Dezember 2021 veröffentlicht wurde.
+description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 202112, das am 06. Dezember 2021 veröffentlicht wurde.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 source-git-commit: a80b7d81df0ddcfad814e3462604e4d64f0c88ac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '269'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
@@ -25,11 +25,11 @@ Das neueste Feature Pack für AEM Screens 6.5.10 steht auf dem [Software Distri
 
 ## Veröffentlichungsdatum {#release-date}
 
-Das Veröffentlichungsdatum für AEM Screens Feature Pack 202112 ist der 6. Dezember 2021.
+Das Veröffentlichungsdatum für AEM Screens Feature Pack 202112 ist der 06. Dezember 2021.
 
 ### Neue Funktionen {#what-is-new}
 
-* Aktualisierungen der Android-Anwendung beziehen sich jetzt auf Android 11 (API-Ebene 30). Derzeit befindet sich der Android-Player auf API-Zielebene 29.
+* Aktualisierungen der Android-Mobile-App beziehen sich jetzt auf Android 11 (API-Ebene 30). Derzeit befindet sich der Android-Player auf API-Zielebene 29.
 
 * Als Entwickler sehen Sie jetzt Asset-Ausgabedarstellungen, die nur als Ausgabedarstellungseinträge unter den entsprechenden Assets im Manifest aufgeführt werden, um die Erweiterbarkeit, Klarheit und einfache Handhabung der Manifestverarbeitung sicherzustellen.
 
@@ -39,11 +39,11 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 202112 ist der 6. Deze
 
 * Erfassen Sie On-Premise-Player-Protokolle und analysieren Sie sie für einen schwarzen Bildschirm.
 
-* Player mit leerem Bildschirm mit Splitscreen-Kanal ist jetzt behoben
+* Das Problem, dass der Player im Splitscreen-Kanal einen leeren Bildschirm zeigt, ist jetzt behoben
 
-* Benutzerdefinierte Handler-Dokumente wurden durch Hinzufügen von Kernpaketen in öffentlichen Maven korrigiert.
+* Benutzerdefinierte Handler-Dokumente wurden durch Hinzufügen eines Kernpakets im öffentlichen Maven korrigiert.
 
-* Der Player hat die Firmware-Version nach dem Upgrade nicht aktualisiert. Dieser Fehler wurde behoben.
+* Der Player hat die Firmware-Version nach dem Upgrade nicht aktualisiert. Dieser Fehler wurde jetzt behoben.
 
 
 ### Veröffentlichte AEM Screens-Player {#released-aem-screens-players}
