@@ -3,9 +3,9 @@ title: Konfigurieren von Autoren- und Veröffentlichungsinstanz in AEM Screens
 description: Die AEM Screens-Architektur ähnelt einer traditionellen AEM Sites-Architektur. Inhalte werden in einer AEM-Autoreninstanz erstellt und dann vorwärts an mehrere Veröffentlichungsinstanzen repliziert. Auf dieser Seite erfahren Sie, wie Sie Autoren- und Veröffentlichungsinstanz für AEM Screens konfigurieren.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
 source-git-commit: c152c6b46e33b42376cedeb7245d69c7c09ecd44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2006'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -309,19 +309,19 @@ Mit der Funktion **Veröffentlichung verwalten** können Sie Inhaltsaktualisieru
 
 ## Tipps zur Fehlerbehebung {#troubleshoot-tips}
 
-Im folgenden Abschnitt finden Sie Antworten auf häufig gestellte Fragen zur Autoren-/Veröffentlichungseinrichtung.
+Im folgenden Abschnitt finden Sie Antworten auf häufig gestellte Fragen zur Einrichtung von Autoren-/Veröffentlichungsinstanz.
 
 ### Wie kann nach der ersten Registrierung und Zuweisung eine Umleitung von https zu http hinzugefügt werden? {#add-redirect}
 
 **Lösung**
-Aktivieren `Proxy/Load Balancer Connection in the Jetty configuration` nach `true`.
+Setzen Sie unter „Aktivieren“ die Option `Proxy/Load Balancer Connection in the Jetty configuration` auf `true`.
 
-### So aktualisieren Sie Offline-Inhalte und Player-Download-Probleme mit Assets außerhalb von `/content/dam/projects/<project>`? {#update-offline-content}
+### Wie werden Offline-Inhalte und Player-Download-Probleme mit Assets außerhalb von `/content/dam/projects/<project>` aktualisiert? {#update-offline-content}
 
 **Lösung**
-Erteilen Sie Leseberechtigungen für Massen-Offline-Update-Screens-Service-Benutzer und die Übergeordnete Gruppe screens-devices für alle `/content/dam` oder die spezifischen Assets, die Sie verwenden möchten, wenn Sie restriktiver sein möchten.
+Erteilen Sie Leseberechtigungen für den Benutzer „bulk-offline-update-screens-service“ und die Gruppe „screens-devides-master“ für alle `/content/dam` oder für die spezifischen Assets, die Sie verwenden möchten, wenn Sie restriktiver sein möchten.
 
 ### Wie können Screens-Replikationsagenten-Fehler behoben werden? {#replication-agent}
 
 **Lösung**
-Vergewissern Sie sich, dass Sie in der Agentenkonfiguration die Option Für Rückwärtsreplikation verwenden nicht aktiviert haben. Der Screens-Replikationsagent kann nicht als Agenten für die Rückwärtsreplikation verwendet werden und der Umfang dieser Funktion besteht darin, Gerätebefehle von der Autoren- zur Veröffentlichungsinstanz weiterzuleiten.
+Vergewissern Sie sich, dass Sie in der Agentenkonfiguration die Option „Für Rückwärtsreplikation verwenden“ nicht aktiviert haben. Der Screens-Replikationsagent kann nicht als Agent für die Rückwärtsreplikation verwendet werden. Ziel dieser Funktion ist, Gerätebefehle von der Autoren- zur Veröffentlichungsinstanz weiterzuleiten.
