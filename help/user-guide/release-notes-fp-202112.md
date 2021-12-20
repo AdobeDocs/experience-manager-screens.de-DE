@@ -1,10 +1,10 @@
 ---
 title: Versionshinweise für Feature Pack 202112
-description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 202112, das am 06. Dezember 2021 veröffentlicht wurde.
+description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 202112, das am 17. Dezember 2021 veröffentlicht wurde.
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: ab67ce4704b3e3cb3f38ffca6e6964d94709967d
+source-git-commit: 2243a2a87fc5826a02c3eff60030dc296fa77a0f
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 100%
