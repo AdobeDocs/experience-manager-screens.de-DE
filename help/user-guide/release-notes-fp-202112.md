@@ -4,13 +4,13 @@ description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pa
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 2243a2a87fc5826a02c3eff60030dc296fa77a0f
+exl-id: 3ff32a3d-9baf-4085-a775-bb5a76a1f5b3
+source-git-commit: 7b16515253bb360cb595ca76956107d47b13cf21
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 100%
 
 ---
-
 
 # Versionshinweise für Feature Pack 202112 {#release-notes-for-feature-pack}
 
@@ -56,6 +56,6 @@ Die folgenden AEM Screens-Player sind für AEM 6.5 Feature Pack 10 verfügbar:
 * Android
 * Linux
 
-#### AEM Screens-Player-Downloads  {#aem-screens-player-downloads}
+#### AEM Screens-Player-Downloads   {#aem-screens-player-downloads}
 
 Gehen Sie zu **[AEM Screens-Player-Downloads](https://download.macromedia.com/screens/index.html)**, um den neusten AEM Screens-Player herunterzuladen und mehr über die Fehlerbehebungen zu erfahren.
