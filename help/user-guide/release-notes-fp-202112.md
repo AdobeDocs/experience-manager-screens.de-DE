@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3ff32a3d-9baf-4085-a775-bb5a76a1f5b3
-source-git-commit: 7b16515253bb360cb595ca76956107d47b13cf21
+source-git-commit: 3366a918c75dd1485dfe8716797d7254b3b5c2b3
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 100%
+source-wordcount: '291'
+ht-degree: 92%
 
 ---
 
@@ -45,6 +45,11 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 202112 ist der 17. Dez
 
 * Der Player hat die Firmware-Version nach dem Upgrade nicht aktualisiert. Dieser Fehler wurde jetzt behoben.
 
+* Die Anzeige der Vorschau hängt von der vorherigen Player-Konfiguration ab.
+
+* Die Vorschau wird unter bestimmten Bedingungen nicht angezeigt.
+
+* Beheben von Fehlern beim gleichzeitigen Download in SmartSync.
 
 ### Veröffentlichte AEM Screens-Player {#released-aem-screens-players}
 
