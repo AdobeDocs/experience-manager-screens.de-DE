@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: c49cce64fe34e0611f086de5ac1c363589e3dc14
-workflow-type: ht
-source-wordcount: '876'
-ht-degree: 100%
+source-git-commit: b56844c66bfa980013b610523842c7ac0c30f44d
+workflow-type: tm+mt
+source-wordcount: '931'
+ht-degree: 93%
 
 ---
 
@@ -54,18 +54,31 @@ Weitere Informationen finden Sie unter [Inhaltszuweisungsbericht](/help/user-gui
 
 * **Unterstützung für V3-Manifeste**
 
-   Sie können jetzt den Dispatcher für Manifest Version 3 konfigurieren. Um v3 Manifest zu aktivieren, müssen Sie Folgendes konfigurieren:
+   Sie können jetzt den Dispatcher für Manifest Version 3 konfigurieren. Zum Aktivieren des v3-Manifests müssen Sie Folgendes tun:
+
+   * Löschen Sie alle ausstehenden Offline-Inhaltsaufträge sowohl im Autor- als auch im Veröffentlichungsmodus.
+
+      * Navigieren Sie in der Autoren- und Veröffentlichungsinstanz zu crx/de .
+
+      * Klicken Sie auf Tools > Abfrage
+
+      * Verwenden Sie in der Abfrage `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`
+
+      * Dadurch werden alle Offline-Inhaltsaufträge aufgelistet, die derzeit ausgeführt werden oder in der Warteschlange ausstehen.
+
+      * Warten Sie, bis keine weiteren Offline-Inhaltsaufträge mehr von der Abfrage zurückgegeben wurden.
+   * Deaktivieren von ContentSync in `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
+
+   * Aktivieren von SmartSync in `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
 
    * Aktualisieren des Dispatchers
 
    * Aktualisieren benutzerdefinierter Komponenten
 
-   * Deaktivieren von ContentSync in `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
-
-   * Aktivieren von SmartSync in `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
 
    * Weitere Informationen finden Sie unter [Konfigurieren des Dispatchers für Manifest Version 3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=de#configuring-dispatcherv3).
    * Wenn Sie außerdem benutzerdefinierte Komponenten als Teil von Manifesten der Version 3 verwenden, finden Sie weitere Informationen unter [Vorlage für benutzerdefinierte Handler](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=de#custom-handlers).
+
 
 
 ### Fehlerbehebungen {#bug-fixes}
@@ -147,6 +160,6 @@ Die folgenden AEM Screens-Player sind für AEM 6.5 Feature Pack 9 verfügbar:
 * Android
 * Linux
 
-#### AEM Screens-Player-Downloads  {#aem-screens-player-downloads}
+#### AEM Screens-Player-Downloads   {#aem-screens-player-downloads}
 
 Gehen Sie zu **[AEM Screens-Player-Downloads](https://download.macromedia.com/screens/index.html)**, um den neusten AEM Screens-Player herunterzuladen und mehr über die Fehlerbehebungen zu erfahren.
