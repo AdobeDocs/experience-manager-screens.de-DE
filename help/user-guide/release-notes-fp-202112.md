@@ -8,7 +8,7 @@ exl-id: 3ff32a3d-9baf-4085-a775-bb5a76a1f5b3
 source-git-commit: 3366a918c75dd1485dfe8716797d7254b3b5c2b3
 workflow-type: tm+mt
 source-wordcount: '291'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -39,15 +39,15 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 202112 ist der 17. Dez
 
 * Erfassen Sie On-Premise-Player-Protokolle und analysieren Sie sie für einen schwarzen Bildschirm.
 
-* Das Problem, dass der Player im Splitscreen-Kanal einen leeren Bildschirm zeigt, ist jetzt behoben
+* Das Problem, dass der Player im Splitscreen-Kanal einen leeren Bildschirm zeigt, ist jetzt behoben.
 
 * Benutzerdefinierte Handler-Dokumente wurden durch Hinzufügen eines Kernpakets im öffentlichen Maven korrigiert.
 
 * Der Player hat die Firmware-Version nach dem Upgrade nicht aktualisiert. Dieser Fehler wurde jetzt behoben.
 
-* Die Anzeige der Vorschau hängt von der vorherigen Player-Konfiguration ab.
+* Die Anzeige-Vorschau bleibt bei der vorherigen Player-Konfiguration hängen.
 
-* Die Vorschau wird unter bestimmten Bedingungen nicht angezeigt.
+* Die Anzeige-Vorschau wird unter bestimmten Bedingungen nicht gerendert.
 
 * Beheben von Fehlern beim gleichzeitigen Download in SmartSync.
 
