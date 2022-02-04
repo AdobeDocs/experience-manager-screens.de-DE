@@ -6,9 +6,9 @@ role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
 source-git-commit: b56844c66bfa980013b610523842c7ac0c30f44d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '931'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -54,19 +54,19 @@ Weitere Informationen finden Sie unter [Inhaltszuweisungsbericht](/help/user-gui
 
 * **Unterstützung für V3-Manifeste**
 
-   Sie können jetzt den Dispatcher für Manifest Version 3 konfigurieren. Zum Aktivieren des v3-Manifests müssen Sie Folgendes tun:
+   Sie können jetzt den Dispatcher für Manifest Version 3 konfigurieren. Um v3 Manifest zu aktivieren, müssen Sie:
 
-   * Löschen Sie alle ausstehenden Offline-Inhaltsaufträge sowohl im Autor- als auch im Veröffentlichungsmodus.
+   * Löschen Sie alle ausstehenden Offline-Inhaltsaufträge sowohl in der Autoren- als auch in der Veröffentlichungsinstanz
 
-      * Navigieren Sie in der Autoren- und Veröffentlichungsinstanz zu crx/de .
+      * Navigieren Sie in der Autoren- und der Veröffentlichungsinstanz zu crx/de
 
-      * Klicken Sie auf Tools > Abfrage
+      * Klicken Sie auf „Tools“ > „Abfrage“
 
       * Verwenden Sie in der Abfrage `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`
 
       * Dadurch werden alle Offline-Inhaltsaufträge aufgelistet, die derzeit ausgeführt werden oder in der Warteschlange ausstehen.
 
-      * Warten Sie, bis keine weiteren Offline-Inhaltsaufträge mehr von der Abfrage zurückgegeben wurden.
+      * Warten Sie, bis keine weiteren Offline-Inhaltsaufträge mehr von der Abfrage zurückgegeben werden.
    * Deaktivieren von ContentSync in `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
 
    * Aktivieren von SmartSync in `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
