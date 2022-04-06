@@ -1,15 +1,15 @@
 ---
 title: Informationen zu diesem Handbuch
-seo-title: Beschreibung des Handbuchs
-description: Auf dieser Seite wird der Zweck des Best-Practices-Handbuchs beschrieben.
-seo-description: Auf dieser Seite wird der Zweck des Best-Practices-Handbuchs beschrieben.
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '258'
-ht-degree: 100%
+seo-title: Description on the Guide
+description: Befolgen Sie dieses Best Practice-AEM 6.5-Handbuch für AEM Screens-Projekte zur Planung und Ausführung von Projekten - von der strategischen und Designinformation über die Bereitstellung bis hin zur Unterstützung.
+seo-description: This page describes the intent of the Best Practices Guide
+exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
+source-git-commit: 4817c02bf7f65edd1e55ab56f250cc982cc7c1ef
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
-
 
 # Informationen zu diesem Handbuch {#about-guide}
 
