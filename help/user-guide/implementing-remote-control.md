@@ -12,7 +12,7 @@ discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Administering Screens
 role: Admin
 level: Intermediate
-source-git-commit: ff59c3748ea69a37ca68e81e5bf753881e8464b0
+source-git-commit: a256f624c4b647deb4cee7668665ad7b576932e7
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 0%
@@ -52,4 +52,6 @@ Die folgende Abbildung zeigt die Schlüsselverwendung auf einem Samsung-Remote-G
 >[!NOTE]
 >Wenn Sie die Gerätekonfigurationswerte von enableAdminUI und/oder enableOSD auf &quot;false&quot;setzen, wird die Admin-Benutzeroberfläche und der Kanalschalter durch die Remote-Konsole nicht umgeschaltet. Sie können auch nicht mit den Pfeiltasten in der Admin-Benutzeroberfläche oder in den Kanälen navigieren. Sie können jedoch den Cache löschen und den Player neu laden. Sie können die Fernsteuerungsfunktion deaktivieren, wenn eine der Tastaturkombinationen mithilfe dieses Codes mit Ihrem interaktiven Inhalt in Konflikt gerät:
 
-```javascript require(/['util/ScreensDisplay'/], function() /{window.ScreensDisplay.ignoreRemoteControl = true;/}); ```
+```
+require(['util/ScreensDisplay'], function() {window.ScreensDisplay.ignoreRemoteControl = true;}); 
+```
