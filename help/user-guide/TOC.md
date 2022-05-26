@@ -6,10 +6,10 @@ user-guide-title: Adobe Experience Manager Screens-Hilfe
 breadcrumb-title: AEM Screens-Anleitung
 user-guide-description: Erfahren Sie, wie Sie mit einer Digital-Signage-Lösung dynamische und interaktive digitale Erlebnisse und Interaktionen veröffentlichen können.
 feature-set: Experience Manager Screens
-source-git-commit: 411b3c98b70b998fb5a134a8c33ad77478b15fe0
+source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 100%
+source-wordcount: '484'
+ht-degree: 99%
 
 ---
 
@@ -46,6 +46,7 @@ ht-degree: 100%
       + [Windows-Player](implementing-windows-player.md)
       + [Tizen-Player](tizen-player.md)
       + [Automatische Registrierung von Playern](auto-registration-players.md)
+      + [Verwenden der Fernbedienung](implementing-remote-control.md)
    + Autoren- und Veröffentlichungsinstanz {#author-publish}
       + [Architektonischer Überblick zur Autoren- und Veröffentlichungsinstanz](author-publish-architecture-overview.md)
       + [Konfigurieren von Autoren- und Veröffentlichungsinstanz](author-and-publish.md)

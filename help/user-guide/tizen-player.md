@@ -5,10 +5,10 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: 0f99b96e90f0aac6bf923343ecefa1708d5cfd17
-workflow-type: ht
-source-wordcount: '1222'
-ht-degree: 100%
+source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
+workflow-type: tm+mt
+source-wordcount: '1242'
+ht-degree: 98%
 
 ---
 
@@ -167,3 +167,7 @@ Führen Sie die folgenden Schritte aus, um das Tizen-Gerät beim Samsung Remote 
    ![Bild](/help/user-guide/assets/tizen/rms-9.png)
 
 1. Klicken Sie auf **Speichern**, damit die Änderungen auf dem Bildschirm angezeigt werden.
+
+### Verwenden der Screens-Remote-Steuerung {#using-remote-control}
+
+AEM Screens bietet Fernsteuerungsfunktionen. Weitere Informationen zu dieser Funktion finden Sie hier: [Screens-Remote-Steuerung](implementing-remote-control.md)

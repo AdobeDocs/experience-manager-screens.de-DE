@@ -1,8 +1,8 @@
 ---
 title: Implementieren des Android-Players
-seo-title: Implementieren des Android-Players
+seo-title: Implementation of Android Player
 description: Auf dieser Seite erfahren Sie mehr über die Implementierung von Android Watchdog, einer Lösung zur Wiederherstellung des Players nach Abstürzen.
-seo-description: Auf dieser Seite erfahren Sie mehr über die Implementierung von Android Watchdog, einer Lösung zur Wiederherstellung des Players nach Abstürzen.
+seo-description: Follow this page to learn implementation of Android Watchdog, a solution to recover the player from crashes.
 uuid: 17edd093-f1b1-479e-9f25-28c64f1a7223
 contentOwner: Jyotika syal
 content-type: reference
@@ -10,14 +10,14 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
-feature: Verwalten von Screens, Android-Player
+feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
-workflow-type: ht
-source-wordcount: '1534'
-ht-degree: 100%
+source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
+workflow-type: tm+mt
+source-wordcount: '1529'
+ht-degree: 98%
 
 ---
 
@@ -205,3 +205,7 @@ Gehen Sie wie folgt vor, um die Massenbereitstellung im Android-Player zuzulasse
    >Die Geräte sollten das Programm zusammen mit der Konfiguration empfangen und auf den richtigen AEM-Server mit der ausgewählten Konfiguration verweisen. Wenn Sie den Massenregistrierungs-Code konfiguriert haben und ihn so belassen haben, wie er in AEM konfiguriert wurde, sollte sich der Player automatisch registrieren können. Wenn Sie eine Standardanzeige konfiguriert haben, kann er auch einige Standardinhalte herunterladen und anzeigen (die später nach Ihren Wünschen geändert werden können).
 
 Darüber hinaus sollten Sie sich bei Ihrem EMM-Anbieter nach der AppConfig-Unterstützung erkundigen. Die meisten gängigen Anbieter wie [VMWare Airwatch](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), [Mobile Iron](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm), [SOTI](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm), [Blackberry UEM](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm), [IBM Maas360](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm) und [Samsung Knox](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm) unterstützen diesen Industriestandard.
+
+### Verwenden der Screens-Remote-Steuerung {#using-remote-control}
+
+AEM Screens bietet Fernsteuerungsfunktionen. Weitere Informationen zu dieser Funktion finden Sie hier: [Screens-Remote-Steuerung](implementing-remote-control.md)

@@ -1,22 +1,22 @@
 ---
 title: Implementieren des Chrome OS-Players
-seo-title: Implementieren des Chrome OS-Players
+seo-title: Implementing Chrome OS Player
 description: Auf dieser Seite erfahren Sie mehr über die Implementierung des Chrome OS-Players mithilfe der Chrome Management Console.
-seo-description: Auf dieser Seite erfahren Sie mehr über die Implementierung des Chrome OS-Players mithilfe der Chrome Management Console.
+seo-description: Follow  this page to learn about the implementation of the Chrome OS Player using the Chrome Management Console.
 uuid: eee84286-fa81-475c-ad6f-db2d6cf1fed5
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
-feature: Verwalten von Screens
+feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
-workflow-type: ht
-source-wordcount: '850'
-ht-degree: 100%
+source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
+workflow-type: tm+mt
+source-wordcount: '846'
+ht-degree: 97%
 
 ---
 
@@ -152,3 +152,7 @@ In der folgenden Tabelle sind die Richtlinien und deren Funktionen aufgeführt.
 >[!NOTE]
 >
 >Richtlinienkonfigurationen werden streng durchgesetzt und können nicht manuell auf der Admin-Benutzeroberfläche des Players überschrieben werden. Um manuelle Player-Konfigurationen für eine bestimmte Richtlinie zu gestatten, legen Sie die Richtlinie in der ***Richtlinienkonfiguration*** nicht fest. Wenn Sie beispielsweise eine manuelle Konfiguration des Neustart-Zeitplans gestatten wollen, legen Sie den Parameter ***rebootSchedule*** in der Richtlinienkonfiguration nicht fest.
+
+### Verwenden der Screens-Remote-Steuerung {#using-remote-control}
+
+AEM Screens bietet Fernsteuerungsfunktionen. Weitere Informationen zu dieser Funktion finden Sie hier: [Screens-Remote-Steuerung](implementing-remote-control.md)
