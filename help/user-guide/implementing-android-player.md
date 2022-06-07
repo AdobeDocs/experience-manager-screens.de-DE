@@ -15,9 +15,9 @@ role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
 source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1529'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -206,6 +206,6 @@ Gehen Sie wie folgt vor, um die Massenbereitstellung im Android-Player zuzulasse
 
 Darüber hinaus sollten Sie sich bei Ihrem EMM-Anbieter nach der AppConfig-Unterstützung erkundigen. Die meisten gängigen Anbieter wie [VMWare Airwatch](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), [Mobile Iron](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm), [SOTI](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm), [Blackberry UEM](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm), [IBM Maas360](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm) und [Samsung Knox](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm) unterstützen diesen Industriestandard.
 
-### Verwenden der Screens-Remote-Steuerung {#using-remote-control}
+### Verwenden der Fernbedienungs-Steuerung von Screens {#using-remote-control}
 
-AEM Screens bietet Fernsteuerungsfunktionen. Weitere Informationen zu dieser Funktion finden Sie hier: [Screens-Remote-Steuerung](implementing-remote-control.md)
+AEM Screens bietet Funktionen für die Steuerung per Fernbedienung. Weitere Informationen zu dieser Funktion finden Sie hier: [Fernbedienungs-Steuerung von Screens](implementing-remote-control.md)
