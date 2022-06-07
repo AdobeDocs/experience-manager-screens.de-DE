@@ -4,10 +4,11 @@ description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pa
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 6c1576a46511b172e703de59414e301fdffe2992
-workflow-type: tm+mt
+exl-id: 5fd41f3a-212d-4179-8e59-22c0a32a1e19
+source-git-commit: 2db3ebae489bc0fcc435e21e45e41c995d3a617e
+workflow-type: ht
 source-wordcount: '295'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -28,19 +29,19 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 202204 ist der 26. Ap
 
 ### Neue Funktionen {#what-is-new}
 
-* Eine neue Fernsteuerungsfunktion erleichtert den Zugriff auf die Admin-Benutzeroberfläche, den Kanalschalter oder andere Funktionen wie den leeren Cache und das Neuladen. Sie können auch die lokale Firmware-Version und Systeminformationen auf dem Player anzeigen.
+* Eine neue Fernbedienungs-Steuerungsfunktion erleichtert den Zugriff auf die Admin-Benutzeroberfläche, den Kanalumschalter oder andere Funktionen wie „Cache löschen“ und „Neu laden“. Sie können auch die lokale Firmware-Version und Systeminformationen im Player anzeigen.
 
 ### Fehlerbehebungen {#bug-fixes}
 
 * Targeting/Personalisierung funktionierte nicht. Dieser Fehler wurde jetzt behoben.
 
-* Die Screens-Monitoring-E-Mail funktionierte nach FP10 nicht mehr. Dieser Fehler wurde jetzt behoben.
+* E-Mail zur Überwachung von Screens funktionierte nach FP10 nicht mehr. Dieser Fehler wurde jetzt behoben.
 
 * Der Windows-Player stürzte beim Aufnehmen eines Screenshots im Hochformat ab. Dieser Fehler wurde jetzt behoben.
 
-* Der Screens-SPA verursachte einen weißen Bildschirm mit Windows Player. Dieser Fehler wurde jetzt behoben.
+* Der Screens-SPA-Kanal verursachte einen weißen Bildschirm in Windows Player. Dieser Fehler wurde jetzt behoben.
 
-* Der Parameter wcmmode wurde aus allen Screens-Anforderungen in der Veröffentlichungsinstanz entfernt.
+* Der Parameter „wcmmode“ wurde aus allen Screens-Anforderungen in der Veröffentlichungsinstanz entfernt.
 
 * Die Benutzeroberfläche der Player-Aktivität funktioniert jetzt erwartungsgemäß.
 
