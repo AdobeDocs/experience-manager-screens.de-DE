@@ -15,9 +15,9 @@ role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
 source-git-commit: 97bc64ce3c01ac2de301b17bf9f8610662d45f88
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1097'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -195,6 +195,6 @@ $ShellLauncherClass.RemoveCustomShell($Admins_SID)
 $ShellLauncherClass.RemoveCustomShell($Cashier_SID)
 ```
 
-### Verwenden der Screens-Remote-Steuerung {#using-remote-control}
+### Verwenden der Fernbedienungs-Steuerung von Screens {#using-remote-control}
 
-AEM Screens bietet Fernsteuerungsfunktionen. Weitere Informationen zu dieser Funktion finden Sie hier: [Screens-Remote-Steuerung](implementing-remote-control.md)
+AEM Screens bietet Funktionen für die Steuerung per Fernbedienung. Mehr über diese Funktion erfahren Sie hier: [Fernbedienungs-Steuerung von Screens](implementing-remote-control.md)
