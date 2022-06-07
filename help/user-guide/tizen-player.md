@@ -6,9 +6,9 @@ role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
 source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1242'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -168,6 +168,6 @@ Führen Sie die folgenden Schritte aus, um das Tizen-Gerät beim Samsung Remote 
 
 1. Klicken Sie auf **Speichern**, damit die Änderungen auf dem Bildschirm angezeigt werden.
 
-### Verwenden der Screens-Remote-Steuerung {#using-remote-control}
+### Verwenden der Fernbedienungs-Steuerung von Screens {#using-remote-control}
 
-AEM Screens bietet Fernsteuerungsfunktionen. Weitere Informationen zu dieser Funktion finden Sie hier: [Screens-Remote-Steuerung](implementing-remote-control.md)
+AEM Screens bietet Funktionen für die Steuerung per Fernbedienung. Mehr über diese Funktion erfahren Sie hier: [Fernbedienungs-Steuerung von Screens](implementing-remote-control.md)
