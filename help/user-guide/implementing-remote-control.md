@@ -1,7 +1,7 @@
 ---
-title: Remote Control implementieren
+title: Implementieren der Fernbedienungs-Steuerung
 seo-title: Impementing the Remote Control
-description: Auf dieser Seite erfahren Sie mehr über die Screens-Funktion zur Fernsteuerung.
+description: Auf dieser Seite erfahren Sie mehr über die Fernbedienungs-Steuerung von Screens.
 seo-description: Follow  this page to learn about using the Screens Remote Control Feature.
 uuid: eee84286-fa81-475c-ad6f-db2d6cf1fed5
 contentOwner: jsyal
@@ -12,45 +12,46 @@ discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Administering Screens
 role: Admin
 level: Intermediate
-source-git-commit: a256f624c4b647deb4cee7668665ad7b576932e7
-workflow-type: tm+mt
+exl-id: 6cb2705e-83e6-46f3-bd71-6688d7edc11f
+source-git-commit: 6cd68194bf3128464ec368f3e7fd69d20925c3d6
+workflow-type: ht
 source-wordcount: '354'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Verwenden der Screens-Remote-Steuerung  {#implementing-remote-control}
+# Verwenden der Fernbedienungs-Steuerung von Screens  {#implementing-remote-control}
 
-Die Fernsteuerungsfunktion erleichtert den Zugriff auf die Admin-Benutzeroberfläche, den Kanalschalter oder Funktionen wie Cache löschen und neu laden. Darüber hinaus erhalten Sie eine Methode, die lokale Firmware-Version und Systeminformationen auf dem Player anzuzeigen. Dies ist besonders nützlich, da es schwierig sein kann, eine Maus anzuschließen und auf Produktionsgeräten zu arbeiten, die außer Reichweite sind, und noch mehr, wenn der Player die Verbindung zu AEM verloren hat. Dies ist auch bei der Verwendung von Samsung RMS nützlich, da es aufgrund der unterschiedlichen Auflösung sehr schwierig sein kann, die Admin-Benutzeroberfläche mit einer Maus zu finden und zu öffnen.
+Die Fernbedienungs-Steuerung erleichtert den Zugriff auf die Admin-Benutzeroberfläche, den Kanalumschalter oder Funktionen wie „Cache löschen“ und „Neu laden“. Außerdem bietet sie Ihnen eine Methode, die lokale Firmware-Version und Systeminformationen auf dem Player anzuzeigen. Dies ist besonders nützlich, da es schwierig sein kann, eine Maus anzuschließen und auf Produktionsgeräten zu arbeiten, die außer Reichweite sind, und umso mehr, wenn der Player die Verbindung zu AEM verloren hat. Dies ist auch bei der Verwendung von Samsung RMS nützlich, da es aufgrund der unterschiedlichen Auflösung sehr schwierig sein kann, die Admin-Benutzeroberfläche mit einer Maus zu finden und zu öffnen.
 
-## Gemeinsame Tastenkombinationen für die Fernsteuerung {#using-common-remote-control}
+## Gängige Tastenkombinationen für die Fernbedienungs-Steuerung {#using-common-remote-control}
 
-Auf allen Playern können Sie die folgenden Tastenkombinationen in der Screens-Remote-Steuerung verwenden:
+Auf allen Playern können Sie die folgenden Tastenkombinationen in der Fernbedienungs-Steuerung von Screens verwenden:
 
-1. Admin-Benutzeroberfläche ein/aus - STRG + 1
-1. Kanalschalter ein/aus - STRG + 2
-1. Cache löschen - STRG + ALT + 3
-1. Player neu laden - STRG + 4
+1. Admin-Benutzeroberfläche ein/aus - STRG+1
+1. Kanalumschalter ein/aus - STRG+2
+1. Cache löschen - STRG+ALT+3
+1. Player neu laden - STRG+4
 
-## Tizen bestimmter Tastenkombinationen für die Fernsteuerung {#using-tizen-remote-control}
+## Tizen-spezifische Tastenkombinationen für die Fernbedienungs-Steuerung {#using-tizen-remote-control}
 
-Speziell für den Tizen-Player können Sie entweder die Hardware-Remote oder die Software Remote in Samsung RMS verwenden, um auf diese Funktionen zuzugreifen:
+Speziell für den Tizen-Player können Sie entweder die Hardware-Fernbedienung oder die in Samsung RMS verfügbare Software-Fernbedienung verwenden, um auf diese Funktionen zuzugreifen:
 
 1. A - Admin-Benutzeroberfläche ein/aus
-1. B - Umschalten zwischen Kanalschalter
+1. B - Kanalumschalter ein/aus
 1. C - Cache löschen
 1. D - Player neu laden
 
-## Weitere Hinweise zur Verwendung {#using-additional-remote-control}
+## Zusätzliche Nutzungshinweise {#using-additional-remote-control}
 
-1. Wenn die Admin-Benutzeroberfläche geöffnet ist, können Sie mit den Nach-oben- und Nach-unten-Pfeilen in den Registerkarten navigieren, um Informationen über die Registerkarten hinweg anzuzeigen.
-1. Wenn der Kanalschalter geöffnet ist, können Sie die Nach-oben- und Nach-unten-Tasten verwenden, um durch die Kanäle zu navigieren, und Sie können die Eingabetaste (oder die Schaltfläche in der Mitte der Pfeile auf der Fernbedienung) drücken, um die Kanäle zu wechseln.
+1. Wenn die Admin-Benutzeroberfläche geöffnet ist, können Sie mit den Pfeiltasten nach oben und unten durch die Registerkarten navigieren, um Informationen auf den verschiedenen Registerkarten anzuzeigen.
+1. Wenn der Kanalumschalter geöffnet ist, können Sie mit den Pfeiltasten nach oben und unten durch die Kanäle navigieren und die Eingabetaste (oder die Taste in der Mitte der Pfeile auf der Fernbedienung) drücken, um den Kanal zu wechseln.
 
-Die folgende Abbildung zeigt die Schlüsselverwendung auf einem Samsung-Remote-Gerät:
+Die folgende Abbildung veranschaulicht die Verwendung der Tasten auf einer Samsung-Fernbedienung:
 ![image](assets/tizen/remote.png)
 
 >[!NOTE]
->Wenn Sie die Gerätekonfigurationswerte von enableAdminUI und/oder enableOSD auf &quot;false&quot;setzen, wird die Admin-Benutzeroberfläche und der Kanalschalter durch die Remote-Konsole nicht umgeschaltet. Sie können auch nicht mit den Pfeiltasten in der Admin-Benutzeroberfläche oder in den Kanälen navigieren. Sie können jedoch den Cache löschen und den Player neu laden. Sie können die Fernsteuerungsfunktion deaktivieren, wenn eine der Tastaturkombinationen mithilfe dieses Codes mit Ihrem interaktiven Inhalt in Konflikt gerät:
+>Wenn Sie die Gerätekonfigurationswerte von enableAdminUI und/oder enableOSD auf „false“ setzen, werden die Admin-Benutzeroberfläche und der Kanalumschalter durch die Fernbedienung nicht ein-/ausgeschaltet. Sie können dann auch nicht mit den Pfeiltasten in der Admin-Benutzeroberfläche oder in den Kanälen navigieren. Sie können jedoch weiterhin den Cache löschen und den Player neu laden. Sie können die Fernbedienungs-Steuerungsfunktion deaktivieren, wenn eine der Tastenkombinationen mit Ihren interaktiven Inhalten in Konflikt steht, indem Sie diesen Code verwenden:
 
 ```
 require(['util/ScreensDisplay'], function() {window.ScreensDisplay.ignoreRemoteControl = true;}); 
