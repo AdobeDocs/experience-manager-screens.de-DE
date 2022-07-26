@@ -1,16 +1,16 @@
 ---
 title: Dispatcher-Konfigurationen für AEM Screens
-seo-title: Dispatcher-Konfigurationen für AEM Screens
+seo-title: Dispatcher Configurations for AEM Screens
 description: Auf dieser Seite werden Richtlinien zum Konfigurieren von Dispatcher für ein AEM Screens-Projekt hervorgehoben.
-seo-description: Auf dieser Seite werden Richtlinien zum Konfigurieren von Dispatcher für ein AEM Screens-Projekt hervorgehoben.
-feature: Verwalten von Screens
+seo-description: This page highlights guidelines for configuring dispatcher for an AEM Screens project.
+feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 0f32fc015729685c724176c25920da6f07707c00
-workflow-type: ht
-source-wordcount: '586'
-ht-degree: 100%
+source-git-commit: 13c9ed116a310c2c17fd1cc3d2c56ef74620df4b
+workflow-type: tm+mt
+source-wordcount: '660'
+ht-degree: 85%
 
 ---
 
@@ -230,3 +230,24 @@ Dies unterstützt die Zwischenspeicherung von bis zu 10 Ebenen aus dem Cache-Bas
        /type "deny"
        }
    ```
+
+### Invalidierungsregel für segment.js hinzufügen {#invalidsegmentjs}
+
+Wenn Sie neue Segmente hinzufügen und veröffentlichen, wird die `segments.js` -Datei, die vom Dispatcher bereitgestellt wird, nicht über die neuen Einträge verfügt, die den Zielgruppenfluss auf dem Screens-Gerät unterbrechen. Die Datei &quot;segments.js&quot;wird auf Dispatcher-Ebene zwischengespeichert, es gab jedoch keine Invalidierungsregel für dasselbe. Daher müssen Sie eine Invalidierungsregel hinzufügen.
+
+* Fügen Sie neue Segmente zur `/conf/<project-name>/settings/wcm/segments.seg.js` -Datei.
+
+* Hinzufügen einer Invalidierungsregel zu `/etc/httpd/conf.dispatcher.d/available_farms/999_ams_publish_farm.any`. Folgende Regel wird hinzugefügt:
+
+```
+    /invalidate {
+                        .
+                        .
+                        /0004 {
+                               /glob "conf/personalisation-hub/settings/wcm/.js"
+                               /type "allow"
+                        }
+                }
+```
+
+* Diese Regel stellt sicher, dass `segments.js` wird ungültig gemacht und die neueste Datei wird abgerufen, wenn sie geändert wird.
