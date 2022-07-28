@@ -7,10 +7,10 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 13c9ed116a310c2c17fd1cc3d2c56ef74620df4b
+source-git-commit: 01d2245cca5757441ef2bd4e2c05c231b678ce48
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 85%
+source-wordcount: '645'
+ht-degree: 87%
 
 ---
 
@@ -233,9 +233,7 @@ Dies unterstützt die Zwischenspeicherung von bis zu 10 Ebenen aus dem Cache-Bas
 
 ### Invalidierungsregel für segment.js hinzufügen {#invalidsegmentjs}
 
-Wenn Sie neue Segmente hinzufügen und veröffentlichen, wird die `segments.js` -Datei, die vom Dispatcher bereitgestellt wird, nicht über die neuen Einträge verfügt, die den Zielgruppenfluss auf dem Screens-Gerät unterbrechen. Die Datei &quot;segments.js&quot;wird auf Dispatcher-Ebene zwischengespeichert, es gab jedoch keine Invalidierungsregel für dasselbe. Daher müssen Sie eine Invalidierungsregel hinzufügen.
-
-* Fügen Sie neue Segmente zur `/conf/<project-name>/settings/wcm/segments.seg.js` -Datei.
+Wenn Sie zielgerichtete Kampagnen mit AEM Screens verwenden, wird die `segments.js file` vom Dispatcher bereitgestellt wird, muss invalidiert werden, wenn Sie neue Segmente hinzufügen und auf AEM veröffentlichen. Ohne diese Invalidierungsregel funktionieren neue zielgerichtete Kampagnen nicht auf dem Screens-Player (stattdessen wird der Standardinhalt angezeigt).
 
 * Hinzufügen einer Invalidierungsregel zu `/etc/httpd/conf.dispatcher.d/available_farms/999_ams_publish_farm.any`. Folgende Regel wird hinzugefügt:
 
@@ -244,7 +242,7 @@ Wenn Sie neue Segmente hinzufügen und veröffentlichen, wird die `segments.js` 
                         .
                         .
                         /0004 {
-                               /glob "conf/personalisation-hub/settings/wcm/.js"
+                               /glob "conf/<project-name>/settings/wcm/.js"
                                /type "allow"
                         }
                 }
