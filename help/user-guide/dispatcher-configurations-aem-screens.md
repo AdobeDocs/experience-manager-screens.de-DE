@@ -10,7 +10,7 @@ exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
 source-git-commit: 01d2245cca5757441ef2bd4e2c05c231b678ce48
 workflow-type: tm+mt
 source-wordcount: '645'
-ht-degree: 87%
+ht-degree: 92%
 
 ---
 
@@ -231,11 +231,11 @@ Dies unterstützt die Zwischenspeicherung von bis zu 10 Ebenen aus dem Cache-Bas
        }
    ```
 
-### Invalidierungsregel für segment.js hinzufügen {#invalidsegmentjs}
+### Hinzufügen der Invalidierungsregel für segment.js {#invalidsegmentjs}
 
 Wenn Sie zielgerichtete Kampagnen mit AEM Screens verwenden, wird die `segments.js file` vom Dispatcher bereitgestellt wird, muss invalidiert werden, wenn Sie neue Segmente hinzufügen und auf AEM veröffentlichen. Ohne diese Invalidierungsregel funktionieren neue zielgerichtete Kampagnen nicht auf dem Screens-Player (stattdessen wird der Standardinhalt angezeigt).
 
-* Hinzufügen einer Invalidierungsregel zu `/etc/httpd/conf.dispatcher.d/available_farms/999_ams_publish_farm.any`. Folgende Regel wird hinzugefügt:
+* Fügen Sie eine Invalidierungsregel zu `/etc/httpd/conf.dispatcher.d/available_farms/999_ams_publish_farm.any` hinzu. Folgende Regel soll hinzugefügt werden:
 
 ```
     /invalidate {
@@ -248,4 +248,4 @@ Wenn Sie zielgerichtete Kampagnen mit AEM Screens verwenden, wird die `segments.
                 }
 ```
 
-* Diese Regel stellt sicher, dass `segments.js` wird ungültig gemacht und die neueste Datei wird abgerufen, wenn sie geändert wird.
+* Diese Regel stellt sicher, dass die `segments.js`-Datei invalidiert wird und die neueste Datei abgerufen wird, wenn sie geändert wird.
