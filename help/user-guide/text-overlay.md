@@ -1,8 +1,8 @@
 ---
 title: Textüberlagerung
-seo-title: Textüberlagerung
+seo-title: Text Overlay
 description: Textüberlagerung ist eine Funktion in AEM Screens, mit der Sie in einem Sequenzkanal für ein überzeugendes Erlebnis sorgen können, indem Sie einen Titel oder eine Beschreibung auf einem Bild einfügen. Auf dieser Seite erfahren Sie mehr.
-seo-description: Textüberlagerung ist eine Funktion in AEM Screens, mit der Sie in einem Sequenzkanal für ein überzeugendes Erlebnis sorgen können, indem Sie einen Titel oder eine Beschreibung auf einem Bild einfügen. Auf dieser Seite erfahren Sie mehr.
+seo-description: Text Overlay is a feature available in AEM Screens that allows you to create a compelling experience in a Sequence Channel by providing a title or a description overlaid on top of an image. Follow this page to learn more.
 uuid: 944477e8-0025-4cc7-aa61-6b72f4a245fd
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,14 +10,14 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: b6fdb5a0-5601-4443-a3f4-85cc90c49914
 noindex: true
-feature: Inhaltserstellung in Screens
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '850'
-ht-degree: 100%
+source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
+workflow-type: tm+mt
+source-wordcount: '797'
+ht-degree: 72%
 
 ---
 
@@ -40,7 +40,7 @@ Textüberlagerung ist eine Funktion in AEM Screens, mit der Sie in einem Sequenz
 
 Informationen zum Erstellen einer eigenen benutzerdefinierten Komponente finden Sie unter **Erweitern einer AEM Screens-Komponente**.
 
-In diesem Abschnitt wird nur gezeigt, wie die Poster-Komponente in einem AEM Screens-Projekt als Textüberlagerung in einem Ihrer Sequenz-Kanäle genutzt werden kann.
+In diesem Abschnitt wird nur gezeigt, wie die Poster-Komponente in einem AEM Screens-Projekt verwendet und als Textüberlagerung in einem Ihrer Sequenzkanäle verwendet wird.
 
 ## Verwenden von Textüberlagerung {#using-text-overlay}
 
@@ -76,19 +76,19 @@ Gehen Sie wie folgt vor, um die Textüberlagerung in einem AEM Screens-Kanal zu 
 
 ### Verstehen der Eigenschaften von Textüberlagerung {#understanding-text-overlay-properties}
 
-Mithilfe der Eigenschaften für Textüberlagerung können Sie einer beliebigen Komponente in einem Screens-Projekt Text hinzufügen. Im folgenden Abschnitt erhalten Sie eine Übersicht über die Eigenschaften, die in der Textüberlagerung verfügbar sind:
+Mit den Eigenschaften der Textüberlagerung können Sie allen Komponenten in Ihrem Screens-Projekt Text hinzufügen. Im folgenden Abschnitt erhalten Sie eine Übersicht über die Eigenschaften, die in der Textüberlagerung verfügbar sind:
 
 ![text](assets/text.gif)
 
-Sie können dem Textfeld einen Text hinzufügen und typografische Hervorhebungen wie Fett, Kursiv, Unterstrichen usw. anwenden.
+Sie können dem Textfeld einen Text hinzufügen und typografische Hervorhebungen wie Fett, Kursiv und Unterstrichen hinzufügen.
 
 **Farbvariante** Mit dieser Option kann der Text entweder dunkel (Text in schwarzer Farbe) oder hell (Text in weißer Farbe) dargestellt werden.
 
-**Größe und Anordnung** Mit dieser Option kann der Benutzer den Text horizontal oder vertikal ausrichten oder zusätzlich präzise Tools für die Textausrichtung verwenden.
+**Größe und Positionierung** Mit dieser Option kann der Benutzer den Text horizontal oder vertikal ausrichten oder auch differenzierte Werkzeuge für die Textausrichtung verwenden.
 
 >[!NOTE]
 >
->Für einen richtigen Einsatz der Tools müssen Sie die gewünschte Position in Pixel mit „px“ als Suffix angeben (z. B. „200px“). Das Ergebnis dieses Ausdrucks ist 200 Pixel vom Anfangspunkt entfernt.
+>Für einen richtigen Einsatz der Tools müssen Sie die gewünschte Position in Pixel mit „px“ als Suffix angeben (z. B. „200px“). Das Ergebnis dieses Ausdrucks ist 200 Pixel vom Startpunkt entfernt.
 
 ## Verwenden von ContextHub-Werten in Textüberlagerung {#using-text-overlay-context-hub}
 
@@ -96,15 +96,15 @@ Im folgenden Abschnitt wird die Verwendung von Werten aus einem Datenspeicher be
 
 **Voraussetzungen**
 
-Sie müssen ContextHub-Konfigurationen für Ihr AEM Screens-Projekt einrichten.
+Richten Sie ContextHub-Konfigurationen für Ihr AEM Screens-Projekt ein.
 
-Informationen zum Einrichten und Verwalten datengesteuerter Asset-Änderungen mithilfe eines Datenspeichers finden Sie unter [Konfigurieren von ContextHub in AEM Screens](https://docs.adobe.com/content/help/de-DE/experience-manager-screens/user-guide/developing/configuring-context-hub.html).
+Informationen zum Einrichten und Verwalten von datengesteuerten Asset-Änderungen mithilfe eines Datenspeichers finden Sie unter [Konfigurieren von ContextHub in AEM Screens](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/configuring-context-hub.html).
 
 Nachdem Sie die erforderlichen Konfigurationen für Ihr Projekt eingerichtet haben, führen Sie die folgenden Schritte aus, um Werte aus den Google-Tabellen zu verwenden:
 
 1. Navigieren Sie zu **TextOverlayDemo** > **Kanäle** > **TextSample** und klicken Sie in der Aktionsleiste auf **Eigenschaften**.
 
-1. Wählen Sie die Registerkarte **Personalisierung**, um die ContextHub-Konfigurationen einzurichten.
+1. Wählen Sie die **Personalisierung** Registerkarte , um die ContextHub-Konfigurationen einzurichten.
 
    1. Wählen Sie unter **ContextHub-Pfad** den Wert **libs** > **settings** > **cloudsettings** > **default** > **ContextHub Konfigurationen** aus und klicken Sie auf **Auswählen**.
 
@@ -131,9 +131,9 @@ Nachdem Sie die erforderlichen Konfigurationen für Ihr Projekt eingerichtet hab
 1. Navigieren Sie zur Registerkarte **ContextHub** im Dialogfeld **Bild**. Klicken Sie auf **Hinzufügen**.
 
    >[!NOTE]
-   >Wenn Sie Ihre ContextHub-Konfigurationen nicht eingerichtet haben, wird diese Option für Ihr Projekt deaktiviert.
+   >Wenn Sie Ihre ContextHub-Konfigurationen nicht eingerichtet haben, ist diese Option für Ihr Projekt deaktiviert.
 
-1. Geben Sie **Wert** in das Feld **Platzhalter** ein, wählen Sie die Zeile aus, die Sie aus Ihrer Google-Tabelle in der **ContextHub-Variable** abrufen möchten (in diesem Fall wird der Wert aus Zeile 2 und Spalte 1 aus den Google-Tabellen abgerufen), und geben Sie den **Standardwert** wie in der Abbildung unten dargestellt als **20** ein. Klicken Sie auf das Häkchen, sobald Sie fertig sind.
+1. Eingabe **Wert** im **Platzhalter** -Feld. Wählen Sie die Zeile aus, die Sie aus Ihrem Google-Blatt abrufen möchten in **ContextHub-Variable**. In diesem Fall wird der Wert aus Zeile 2 und Spalte 1 aus den Google-Arbeitsblättern abgerufen. Geben Sie nun die **Standardwert** as **20**, wie in der folgenden Abbildung dargestellt. Wenn Sie fertig sind, klicken Sie auf das Häkchen.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 

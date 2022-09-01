@@ -1,15 +1,15 @@
 ---
 title: Projekttaxonomie
-seo-title: 'Projekttaxonomie '
+seo-title: Project Taxonomy
 description: Auf dieser Seite wird die Projekttaxonomie beschrieben.
-seo-description: Auf dieser Seite wird die Projekttaxonomie beschrieben.
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '331'
-ht-degree: 100%
+seo-description: The page describes Project Taxonomy
+exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
+source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
+workflow-type: tm+mt
+source-wordcount: '361'
+ht-degree: 67%
 
 ---
-
 
 # Projekttaxonomie {#project-taxonomy}
 
@@ -27,7 +27,7 @@ Achten Sie vor Implementierung der Digital-Signage-Lösung mit AEM Screens auf f
 * **Zeitplan**
 * **Vorschau des Inhalts**
 
-Weitere Informationen zu diesen Begriffen finden Sie im [Glossar](https://helpx.adobe.com/de/experience-manager/6-5/screens/using/screens-glossary.html).
+Weitere Informationen zu diesen Begriffen finden Sie im [Glossar](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/overview/screens-glossary.html?lang=en).
 
 >[!NOTE]
 >
@@ -47,14 +47,15 @@ Autoren sind in AEM Screens für die Erstellung und Verwaltung des Benutzererleb
 
 Autoren starten ein AEM Screens-Projekt normalerweise durch:
 
-* [Erstellen eines AEM Screens-Projekts](https://helpx.adobe.com/de/experience-manager/6-5/screens/using/creating-a-screens-project.html)
-* [Erstellen von Kanälen](https://helpx.adobe.com/de/experience-manager/6-5/screens/using/managing-channels.html)
-* [Hinzufügen von Komponenten und Assets zum Kanal](https://helpx.adobe.com/de/experience-manager/6-5/screens/using/adding-components-to-a-channel.html)
-* [Erstellen von Zeitplänen](https://helpx.adobe.com/de/experience-manager/6-5/screens/using/managing-schedules.html)
-* [Erstellen von Standorten](https://helpx.adobe.com/de/experience-manager/6-5/screens/using/managing-locations.html)
-* [Erstellen von Displays](https://helpx.adobe.com/de/experience-manager/6-5/screens/using/managing-displays.html)
-* [Zuweisen von Kanälen zu den Displays](https://helpx.adobe.com/de/experience-manager/6-5/screens/using/channel-assignment.html)
-* [Anzeigen von Inhalten in einem AEM Screens-Player](https://helpx.adobe.com/de/experience-manager/6-5/screens/using/working-with-screens-player.html)
+* [Erstellen eines AEM Screens-Projekts](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html?lang=en)
+* [Erstellen von Kanälen](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-channels.html?lang=en)
+* [Hinzufügen von Komponenten und Assets zum Kanal](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/product-features/adding-components-to-a-channel.html?lang=en)
+* [Erstellen von Zeitplänen](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-schedules.html?lang=en)
+* [Erstellen von Standorten](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-locations.html?lang=en)
+* [Erstellen von Displays](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html?lang=en)
+* [Zuweisen von Kanälen zu den Displays](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/assigning-channels/channel-assignment.html?lang=en)
+
+* [Anzeigen von Inhalten in einem AEM Screens-Player](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/working-with-screens-player.html?lang=en)
 
 >[!NOTE]
->Darüber hinaus können Sie verschiedene Standorte aus einer CSV/XLS-Tabelle per Massenimport in Ihr AEM Screens-Projekt importieren. Weitere Informationen finden Sie unter [Importer für neue Projekte aus Datei](https://helpx.adobe.com/de/experience-manager/6-5/screens/using/project-importer.html).
+>Sie können auch eine Reihe von Standorten aus einer CSV/XLS-Tabelle per Massenimport in Ihr AEM Screens-Projekt importieren. Weitere Informationen finden Sie unter [Importer für neue Projekte aus Datei](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/project-importer.html?lang=en).

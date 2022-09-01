@@ -1,24 +1,24 @@
 ---
 title: Erweitern einer AEM Screens-Komponente
-seo-title: Erweitern einer AEM Screens-Komponente
+seo-title: Extending an AEM Screens Component
 description: Im folgenden Tutorial werden die Schritte und Best Practices für die Erweiterung der vordefinierten AEM Screens-Komponenten erläutert. Die Bildkomponente wird erweitert und eine Überlagerung mit einem bearbeitbaren Text wird hinzugefügt.
-seo-description: Im folgenden Tutorial werden die Schritte und Best Practices für die Erweiterung der vordefinierten AEM Screens-Komponenten erläutert. Die Bildkomponente wird erweitert und eine Überlagerung mit einem bearbeitbaren Text wird hinzugefügt.
+seo-description: The following tutorial walks through the steps and best practices for extending out of the box AEM Screens components. The Image component is extended to add an authorable text overlay.
 uuid: 38ee3a2b-a51a-4c35-b93a-89a0e5fc3837
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: developing
 discoiquuid: 46bdc191-5056-41a4-9804-8f7c4a035abf
 targetaudience: target-audience new
-feature: Entwicklung in Screens
+feature: Developing Screens
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '1854'
-ht-degree: 100%
+exl-id: e316614f-2d40-4b62-a1e5-f30817def742
+source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
+workflow-type: tm+mt
+source-wordcount: '1786'
+ht-degree: 86%
 
 ---
-
 
 # Erweitern einer AEM Screens-Komponente {#extending-an-aem-screens-component}
 
@@ -40,15 +40,15 @@ Die benutzerdefinierte Poster-Komponente wird durch Erweitern der Bildkomponente
 
 Um dieses Tutorial abzuschließen, benötigen Sie Folgendes:
 
-1. [AEM 6.4](https://docs.adobe.com/content/help/de-DE/experience-manager-64/release-notes/release-notes.html) oder [AEM 6.3](https://helpx.adobe.com/de/experience-manager/6-3/release-notes.html) + neuestes Screen Feature Pack
+1. [AEM 6.4](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/release-notes.html?lang=de) oder [AEM 6.3](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=de) + neuestes Screen Feature Pack
 1. [AEM Screens-Player](/help/user-guide/aem-screens-introduction.md)
 1. Lokale Entwicklungsumgebung
 
-Für die Tutorial-Schritte und Screenshots wird CRXDE-Lite genutzt. [Eclipse](https://docs.adobe.com/content/help/de-DE/experience-manager-64/developing/devtools/aem-eclipse.html)- oder [IntelliJ](https://docs.adobe.com/content/help/de-DE/experience-manager-64/developing/devtools/ht-intellij.html)-IDEs können ebenfalls verwendet werden, um das Tutorial abzuschließen. Weitere Informationen zur Verwendung einer IDE zur Entwicklung mit AEM [finden Sie hier](https://docs.adobe.com/content/help/de-DE/experience-manager-learn/getting-started-wknd-tutorial-develop/project-setup.html#eclipse-ide).
+Für die Tutorial-Schritte und Screenshots wird CRXDE-Lite genutzt. [Eclipse](https://experienceleague.adobe.com/docs/experience-manager-64/developing/devtools/aem-eclipse.html)- oder [IntelliJ](https://experienceleague.adobe.com/docs/experience-manager-64/developing/devtools/ht-intellij.html)-IDEs können ebenfalls verwendet werden, um das Tutorial abzuschließen. Weitere Informationen zur Verwendung einer IDE zur Entwicklung mit AEM [finden Sie hier](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup.html).
 
 ## Projekt-Setup {#project-setup}
 
-Der Quell-Code eines Screens-Projekts wird normalerweise als Maven-Projekt mit mehreren Modulen verwaltet. Um das Tutorial zu beschleunigen, wurde ein Projekt mithilfe des [AEM-Projektarchetyps 13](https://github.com/adobe/aem-project-archetype) vorgeneriert. Weitere Informationen zum [Erstellen eines Projekts mit einem Maven-Archetyp für AEM-Projekte finden Sie hier](https://docs.adobe.com/content/help/de-DE/experience-manager-learn/getting-started-wknd-tutorial-develop/project-setup.html#maven-multimodule).
+Der Quell-Code eines Screens-Projekts wird normalerweise als Maven-Projekt mit mehreren Modulen verwaltet. Um das Tutorial zu beschleunigen, wurde ein Projekt mithilfe des [AEM-Projektarchetyps 13](https://github.com/adobe/aem-project-archetype) vorgeneriert. Weitere Informationen zum [Erstellen eines Projekts mit einem Maven-Archetyp für AEM-Projekte finden Sie hier](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup.html).
 
 1. Laden Sie die folgenden Pakete herunter und installieren Sie diese mit **CRX Package Manage** `http://localhost:4502/crx/packmgr/index.jsp)r:`
 
@@ -74,11 +74,11 @@ Der Quell-Code eines Screens-Projekts wird normalerweise als Maven-Projekt mit m
 
 ## Erstellen der Poster-Komponente {#poster-cmp}
 
-Die Poster-Komponente stellt eine Erweiterung der standardmäßigen Bildkomponente dar. Ein Sling-Mechanismus `sling:resourceSuperType` wird verwendet, um die Kernfunktionalität der Bildkomponente zu erben, ohne dass Kopieren und Einfügen erforderlich ist. Weitere Informationen zu den Grundlagen der Sling-Anforderungsverarbeitung [finden Sie hier](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/using/the-basics.html#SlingRequestProcessing).
+Die Poster-Komponente stellt eine Erweiterung der standardmäßigen Bildkomponente dar. Ein Sling-Mechanismus `sling:resourceSuperType` wird verwendet, um die Kernfunktionalität der Bildkomponente zu erben, ohne dass Kopieren und Einfügen erforderlich ist. Weitere Informationen zu den Grundlagen der Sling-Anforderungsverarbeitung [finden Sie hier](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/the-basics.html?lang=de).
 
 Die Poster-Komponente wird im Vollbildmodus im Vorschau-/Produktionsmodus wiedergegeben. Im Bearbeitungsmodus ist es wichtig, die Komponente unterschiedlich wiederzugeben, um das Authoring des Sequenzkanals zu erleichtern.
 
-1. Erstellen Sie in **CRXDE-Lite** `http://localhost:4502/crx/de/index.jsp` (oder einer IDE Ihrer Wahl) unter `/apps/weretail-run/components/content` eine neue `cq:Component` mit dem Namen `poster`.
+1. In **CRXDE-Lite** `http://localhost:4502/crx/de/index.jsp` (oder IDE der Wahl) unter `/apps/weretail-run/components/content`Erstellen Sie eine `cq:Component` benannt `poster`.
 
    Fügen Sie der Komponente `poster` die folgenden Eigenschaften hinzu:
 
@@ -95,7 +95,7 @@ Die Poster-Komponente wird im Vollbildmodus im Vorschau-/Produktionsmodus wieder
 
    Eigenschaften für /apps/weretail-run/components/content/poster
 
-   Wenn Sie die Eigenschaft `sling:resourceSuperType` gleich `screens/core/components/content/image` setzen, übernimmt die Poster-Komponente effektiv die gesamte Funktionalität der Bildkomponente. Entsprechende Knoten und Dateien unter `screens/core/components/content/image` können unter der Komponente `poster` hinzugefügt werden, um die Funktionalität zu überschreiben und zu erweitern.
+   Durch Festlegen der `sling:resourceSuperType`Eigenschaft gleich `screens/core/components/content/image` Die Poster-Komponente erbt effektiv alle Funktionen der Bildkomponente. Entsprechende Knoten und Dateien unter `screens/core/components/content/image` können unter der Komponente `poster` hinzugefügt werden, um die Funktionalität zu überschreiben und zu erweitern.
 
 1. Kopieren Sie den Knoten `cq:editConfig` unter `/libs/screens/core/components/content/image.`Fügen Sie `cq:editConfig` unter der Komponente `/apps/weretail-run/components/content/poster` ein.
 
@@ -250,7 +250,7 @@ Die Poster-Komponente wird im Vollbildmodus im Vorschau-/Produktionsmodus wieder
 
    Poster – Struktur des endgültigen Dialogfelds
 
-   An dieser Stelle kann eine Instanz der Komponente `poster` im Projekt „We.Retail Run“ zur Seite **Idle Channel** hinzugefügt werden: `http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`.
+   An dieser Stelle wird eine Instanz der `poster` -Komponente hinzugefügt werden. **Idle Channel** Seite im Projekt &quot;We.Retail Run&quot;: `http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`.
 
    ![Poster Dialog fields](assets/poster-dialog-full.png)
 
@@ -286,9 +286,9 @@ Die Poster-Komponente wird im Vollbildmodus im Vorschau-/Produktionsmodus wieder
 
    Die `h1`- und `h2`-Tags werden von einem Div-Wrapper mit drei CSS-Klassen mit Varianten von `cmp-poster__text` umgeben. Der Wert für die Eigenschaften `textPosition` und `textColor` wird verwendet, um die CSS-Klasse zu ändern, die anhand der Dialogfeldauswahl des Autors wiedergegeben wird. Im nächsten Abschnitt werden CSS aus Client-Bibliotheken geschrieben, um diese Änderungen in der Anzeige zu aktivieren.
 
-   Ein Logo ist auch als Überlagerung in der Komponente enthalten. In diesem Beispiel ist der Pfad zum We.Retail-Logo im DAM fest kodiert. Je nach Nutzungsszenario ist es möglicherweise sinnvoller, ein neues Dialogfeld zu erstellen, um den Logo-Pfad zu einem dynamisch ausgefüllten Wert zu machen.
+   Ein Logo ist auch als Überlagerung in der Komponente enthalten. In diesem Beispiel ist der Pfad zum We.Retail-Logo im DAM fest kodiert. Je nach Anwendungsfall kann es sinnvoller sein, ein Dialogfeld zu erstellen, um den Logo-Pfad zu einem dynamisch ausgefüllten Wert zu machen.
 
-   Beachten Sie außerdem, dass die BEM-Notation (Block Element Modifier) mit der Komponente verwendet wird. BEM ist eine CSS-Kodierungskonvention, die die Erstellung wiederverwendbarer Komponenten erleichtert. BEM ist die von [AEM-Kernkomponenten](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/wiki/CSS-coding-conventions) verwendete Notation. Weitere Informationen finden Sie unter [https://getbem.com/](https://getbem.com/)
+   Beachten Sie außerdem, dass die BEM-Notation (Block Element Modifier) mit der Komponente verwendet wird. BEM ist eine CSS-Kodierungskonvention, die die Erstellung wiederverwendbarer Komponenten erleichtert. BEM ist die von [AEM-Kernkomponenten](https://github.com/adobe/aem-core-wcm-components/wiki/CSS-coding-conventions) verwendete Notation. <!-- DEAD LINK More info can be found at: [https://getbem.com/](https://getbem.com/) -->
 
 1. Erstellen Sie unter `/apps/weretail-run/components/content/poster` eine Datei mit dem Namen `edit.html.`
 
@@ -312,23 +312,23 @@ Die Poster-Komponente wird im Vollbildmodus im Vorschau-/Produktionsmodus wieder
    </div>
    ```
 
-   Oben befindet sich das **Bearbeitungs**-Markup für die Poster-Komponente. Das HTL-Skript überschreibt `/libs/screens/core/components/content/image/edit.html`. Das Markup ähnelt dem `production.html`-Markup und zeigt den Titel und die Beschreibung über dem Bild an.
+   Oben befindet sich das **Bearbeitungs**-Markup für die Poster-Komponente. Das HTL-Skript überschreibt `/libs/screens/core/components/content/image/edit.html`. Das Markup ähnelt dem `production.html` markieren und den Titel und die Beschreibung über dem Bild anzeigen.
 
-   Der `aem-Screens-editWrapper` wird hinzugefügt, sodass die Komponente im Editor nicht im Vollbildmodus dargestellt wird. Das Attribut `data-emptytext` stellt sicher, dass ein Platzhalter angezeigt wird, wenn kein Bild oder Inhalt eingefügt wurde.
+   Die `aem-Screens-editWrapper`hinzugefügt, sodass die Komponente nicht im Editor im Vollbildmodus wiedergegeben wird. Die `data-emptytext` -Attribut stellt sicher, dass ein Platzhalter angezeigt wird, wenn kein Bild oder Inhalt ausgefüllt wurde.
 
 ## Erstellen Client-seitiger Bibliotheken {#clientlibs}
 
-Client-seitige Bibliotheken bieten einen Mechanismus zum Organisieren und Verwalten von CSS- und JavaScript-Dateien, die für eine AEM-Implementierung erforderlich sind. Weitere Informationen zur Verwendung Client-seitiger Bibliotheken [finden Sie hier](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/using/clientlibs.html).
+Client-seitige Bibliotheken bieten einen Mechanismus zum Organisieren und Verwalten von CSS- und JavaScript-Dateien, die für eine AEM-Implementierung erforderlich sind. Weitere Informationen zur Verwendung Client-seitiger Bibliotheken [finden Sie hier](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/clientlibs.html?lang=de).
 
 AEM Screens-Komponenten werden im Bearbeitungsmodus anders als im Vorschaumodus/Produktionsmodus dargestellt. Es werden zwei Gruppen von Client-Bibliotheken erstellt, eine für den Bearbeitungsmodus und eine für die Vorschau/Produktion.
 
 1. Erstellen Sie einen Ordner für Client-seitige Bibliotheken für die Poster-Komponente.
 
-   Erstellen Sie unter `/apps/weretail-run/components/content/poster,` einen neuen Ordner mit dem Namen `clientlibs`.
+   darunter `/apps/weretail-run/components/content/poster,`Erstellen eines Ordners mit dem Namen `clientlibs`.
 
    ![2018-05-03_at_1008pm](assets/2018-05-03_at_1008pm.png)
 
-1. Erstellen Sie unter dem Ordner `clientlibs` einen neuen Knoten `shared` des Typs `cq:ClientLibraryFolder.`
+1. Unter dem `clientlibs` Ordner erstellen Sie einen Knoten namens `shared` des Typs `cq:ClientLibraryFolder.`
 
    ![2018-05-03_at_1011pm](assets/2018-05-03_at_1011pm.png)
 
@@ -343,7 +343,7 @@ AEM Screens-Komponenten werden im Bearbeitungsmodus anders als im Vorschaumodus/
 
    Die Eigenschaft `categories` ist eine Zeichenfolge, die die Client-Bibliothek identifiziert. Die Kategorie `cq.screens.components` wird sowohl im Bearbeitungs- als auch im Vorschau-/Produktionsmodus verwendet. Daher wird jedes in der Clientlib `shared` definierte CSS/JS in allen Modi geladen.
 
-   Es empfiehlt sich, in einer Produktionsumgebung niemals Pfade direkt zu /apps bereitzustellen. Die Eigenschaft `allowProxy` stellt sicher, dass auf die Pfade zu Client-Bibliotheks-CSS und -JS über ein Präfix `/etc.clientlibs` verwiesen wird. Weitere Informationen über die Eigenschaft „allowProxy“ [finden Sie hier](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/using/clientlibs.html#main-pars_title_8ced).
+   Es empfiehlt sich, in einer Produktionsumgebung niemals Pfade direkt zu /apps bereitzustellen. Die Eigenschaft `allowProxy` stellt sicher, dass auf die Pfade zu Client-Bibliotheks-CSS und -JS über ein Präfix `/etc.clientlibs` verwiesen wird. Weitere Informationen über die Eigenschaft „allowProxy“ [finden Sie hier](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/clientlibs.html?lang=en).
 
 1. Erstellen Sie eine Datei mit dem Namen `css.txt` unter dem freigegebenen Ordner.
 
@@ -416,7 +416,7 @@ AEM Screens-Komponenten werden im Bearbeitungsmodus anders als im Vorschaumodus/
 
    >[!NOTE]
    >
-   >Google-Webfonts werden für die Schriftfamilien verwendet. Webfonts erfordern eine Internet-Verbindung und nicht alle Screens-Implementierungen sind mit einer zuverlässigen Verbindung ausgestattet. Die Planung des Offline-Modus ist ein wichtiger Aspekt bei Screens-Bereitstellungen.
+   >Google-Web Fonts werden für Schriftfamilien verwendet. Web Fonts benötigen Internetverbindung und nicht alle Screens-Implementierungen bieten eine zuverlässige Verbindung. Die Planung des Offline-Modus ist ein wichtiger Aspekt bei Screens-Bereitstellungen.
 
 1. Kopieren Sie den Client-Bibliotheksordner `shared`. Fügen Sie ihn als gleichrangiges Element ein und benennen Sie ihn in `production` um.
 
@@ -483,7 +483,7 @@ AEM Screens-Komponenten werden im Bearbeitungsmodus anders als im Vorschaumodus/
    }
    ```
 
-   Die oben genannten Stile zeigen den Titel und die Beschreibung an einer absoluten Position auf dem Bildschirm an. Der Titel wird deutlich größer als die Beschreibung angezeigt. Die BEM-Notation der Komponente macht es sehr einfach, die Stile innerhalb der cmp-poster-Klasse sorgfältig zu definieren.
+   Die oben genannten Stile zeigen den Titel und die Beschreibung an einer absoluten Position auf dem Bildschirm an. Der Titel wird größer als die Beschreibung angezeigt. Die BEM-Notation der Komponente erleichtert die sorgfältige Skalierung der Stile innerhalb der cmp-poster-Klasse.
 
 Eine dritte Client-Bibliotheks-Kategorie: `cq.screens.components.edit` könnte zum Hinzufügen von nur bearbeitbaren spezifischen Stilen zur Komponente verwendet werden.
 
@@ -495,7 +495,7 @@ Eine dritte Client-Bibliotheks-Kategorie: `cq.screens.components.edit` könnte z
 
 ## Hinzufügen einer Poster-Komponente zu einem Sequenzkanal {#add-sequence-channel}
 
-Die Poster-Komponente ist für die Verwendung in einem Sequenzkanal vorgesehen. Das Startpaket für dieses Tutorial enthielt einen inaktiven Kanal. Der inaktive Kanal (Idle Channel) ist so vorkonfiguriert, dass Komponenten der Gruppe **We.Retail Run - Content** zugelassen werden. Die Gruppe der Poster-Komponente ist auf `We.Retail Run - Content` eingestellt und kann dem Kanal hinzugefügt werden.
+Die Poster-Komponente wird in einem Sequenzkanal verwendet. Das Startpaket für dieses Tutorial enthielt einen inaktiven Kanal. Der inaktive Kanal (Idle Channel) ist so vorkonfiguriert, dass Komponenten der Gruppe **We.Retail Run - Content** zugelassen werden. Die Gruppe der Poster-Komponente ist auf `We.Retail Run - Content` eingestellt und kann dem Kanal hinzugefügt werden.
 
 1. Öffnen Sie den inaktiven Kanal im Projekt „We.Retail Run“: **`http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`**
 1. Ziehen Sie eine neue Instanz der **Poster**-Komponente aus der Seitenleiste auf die Seite.
@@ -510,7 +510,7 @@ Die Poster-Komponente ist für die Verwendung in einem Sequenzkanal vorgesehen. 
 
    ![2018-05-07_at_3_28pm](assets/2018-05-07_at_3_28pm.png)
 
-## Alles zusammenbringen {#putting-it-all-together}
+## Zusammenfassung {#putting-it-all-together}
 
 Das folgende Video zeigt die fertige Komponente und wie sie einem Sequenzkanal hinzugefügt werden kann. Der Kanal wird dann einer Standortsanzeige hinzugefügt und letztendlich einem Screens-Player zugewiesen.
 

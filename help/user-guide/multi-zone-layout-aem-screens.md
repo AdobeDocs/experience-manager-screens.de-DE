@@ -1,8 +1,8 @@
 ---
 title: Mehrzonen-Layout
-seo-title: Mehrzonen-Layout
-description: Mehrzonen-Layout ermöglicht es Ihnen, Inhalte für mehrere Bereiche zu erstellen und eine Vielzahl von Assets wie Videos, Bilder und Text zu verwenden, die in einem einzigen Bildschirm kombiniert werden können. Auf dieser Seite erfahren Sie mehr.
-seo-description: Mehrzonen-Layout ermöglicht es Ihnen, Inhalte für mehrere Bereiche zu erstellen und eine Vielzahl von Assets wie Videos, Bilder und Text zu verwenden, die in einem einzigen Bildschirm kombiniert werden können. Auf dieser Seite erfahren Sie mehr.
+seo-title: Multi-zone Layout
+description: Mehrzonen-Layout ermöglicht Ihnen die Erstellung von Inhalten für mehrere Bereiche und die Verwendung verschiedener Assets wie Videos, Bilder und Text, die in einem einzigen Bildschirm kombiniert werden können. Auf dieser Seite erfahren Sie mehr.
+seo-description: Multi-zone Layout allows you to create multiple zone content and use a variety of assets such as videos, images and text that can be combined in a single screen. Follow this page to learn more.
 uuid: 2ad689ef-700a-4eed-b5e2-fc57f2288388
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,14 +10,14 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
-feature: Inhaltserstellung in Screens
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '1199'
-ht-degree: 100%
+source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
+workflow-type: tm+mt
+source-wordcount: '1129'
+ht-degree: 88%
 
 ---
 
@@ -33,18 +33,18 @@ Die folgende Seite beschreibt die Verwendung des Mehrzonen-Layouts und behandelt
 
 ## Überblick {#overview}
 
-***Mehrzonen-Layout*** ermöglicht es Ihnen, Inhalte für mehrere Bereiche zu erstellen und eine Vielzahl von Assets wie Videos, Bilder und Text zu verwenden, die in einem einzigen Bildschirm kombiniert werden können. Sie können Bilder, Videos und Text einblenden, sodass alles miteinander verschmelzen und ein intuitives digitales Erlebnis schaffen kann.
+***Mehrzonen-Layout*** können Sie Inhalte für mehrere Bereiche erstellen und verschiedene Assets wie Videos, Bilder und Text verwenden, die in einem einzigen Bildschirm kombiniert werden können. Sie können Bilder, Videos und Text einblenden, sodass alles miteinander verschmelzen und ein intuitives digitales Erlebnis schaffen kann.
 
-Abhängig von den Projektanforderungen sind ggf. mehrere Bereiche in einem Kanal erforderlich, die dann zusammen als Einheit bearbeitet werden. Beispiel: eine Produktsequenz mit entsprechendem Social-Media-Feed, die in drei separaten Bereichen in einem Kanal läuft.
+Abhängig von den Projektanforderungen sind ggf. mehrere Bereiche in einem Kanal erforderlich, die dann zusammen als Einheit bearbeitet werden. Beispielsweise eine Produktsequenz mit einem zugehörigen Social-Media-Feed, der in drei separaten Bereichen auf einem Kanal ausgeführt wird.
 
 
 ### Voraussetzungen {#prerequisites}
 
 Bevor Sie mit der Implementierung dieser Funktion beginnen, vergewissern Sie sich, dass Sie mit folgenden Themen vertraut sind:
 
-* [Erstellen eines AEM Screens-Projekts](https://docs.adobe.com/content/help/de-DE/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html)
-* [Erstellen einer Anzeige](https://docs.adobe.com/content/help/de-DE/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html)
-* [Zuweisen eines Kanals zu einer Anzeige](https://docs.adobe.com/content/help/de-DE/experience-manager-screens/user-guide/authoring/setting-up-projects/channel-assignment.html)
+* [Erstellen eines AEM Screens-Projekts](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html)
+* [Erstellen einer Anzeige](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html)
+* [Zuweisen eines Kanals zu einer Anzeige](/help/user-guide/channel-assignment.md)
 
 ## Erstellen eines Mehrzonen-Layouts {#creating-multi-zone-layout}
 
@@ -123,7 +123,7 @@ Wenn Sie möchten, dass eine Bildsequenz und ein Video in verschiedenen Bereiche
 
 ### Erstellen eines Standorts und eines Displays {#creating-location}
 
-Sie müssen einen Standort und eine Anzeige erstellen, um den Inhalt im Screens-Player anzeigen zu können. Gehen Sie wie folgt vor, um einen Standort und eine Anzeige zu erstellen.
+Erstellen Sie einen Ort und eine Anzeige, um den Inhalt im Screens-Player anzuzeigen.
 
 1. **Erstellen eines Standorts**
 
@@ -141,7 +141,7 @@ Sie müssen einen Standort und eine Anzeige erstellen, um den Inhalt im Screens-
 
 ### Zuweisen von Kanälen zur Anzeige {#channel-channel}
 
-Sie müssen der Anzeige Kanäle zuweisen, damit Sie den Inhalt anzeigen können. Gehen Sie wie folgt vor, um einer Anzeige einen Kanal zuzuweisen.
+Weisen Sie der Anzeige die Kanäle zu, um den Inhalt anzuzeigen. Gehen Sie wie folgt vor, um einer Anzeige einen Kanal zuzuweisen.
 
 1. **Zuweisen eines Kanals zur Anzeige**
 
