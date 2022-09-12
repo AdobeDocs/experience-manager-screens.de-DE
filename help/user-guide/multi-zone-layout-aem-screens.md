@@ -1,7 +1,7 @@
 ---
 title: Mehrzonen-Layout
 seo-title: Multi-zone Layout
-description: Mehrzonen-Layout ermöglicht Ihnen die Erstellung von Inhalten für mehrere Bereiche und die Verwendung verschiedener Assets wie Videos, Bilder und Text, die in einem einzigen Bildschirm kombiniert werden können. Auf dieser Seite erfahren Sie mehr.
+description: Das Mehrzonen-Layout ermöglicht es Ihnen, Inhalte für mehrere Zonen zu erstellen und verschiedene Elemente wie Videos, Bilder und Text zu verwenden, die in einem einzigen Bildschirm kombiniert werden können. Auf dieser Seite erfahren Sie mehr.
 seo-description: Multi-zone Layout allows you to create multiple zone content and use a variety of assets such as videos, images and text that can be combined in a single screen. Follow this page to learn more.
 uuid: 2ad689ef-700a-4eed-b5e2-fc57f2288388
 contentOwner: jsyal
@@ -15,9 +15,9 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
 source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1129'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -33,18 +33,18 @@ Die folgende Seite beschreibt die Verwendung des Mehrzonen-Layouts und behandelt
 
 ## Überblick {#overview}
 
-***Mehrzonen-Layout*** können Sie Inhalte für mehrere Bereiche erstellen und verschiedene Assets wie Videos, Bilder und Text verwenden, die in einem einzigen Bildschirm kombiniert werden können. Sie können Bilder, Videos und Text einblenden, sodass alles miteinander verschmelzen und ein intuitives digitales Erlebnis schaffen kann.
+Das ***Mehrzonen-Layout*** ermöglicht es Ihnen, Inhalte für mehrere Zonen zu erstellen und verschiedene Elemente wie Videos, Bilder und Text zu verwenden, die in einem einzigen Bildschirm kombiniert werden können. Sie können Bilder, Videos und Text einblenden, sodass alles miteinander verschmelzen und ein intuitives digitales Erlebnis schaffen kann.
 
-Abhängig von den Projektanforderungen sind ggf. mehrere Bereiche in einem Kanal erforderlich, die dann zusammen als Einheit bearbeitet werden. Beispielsweise eine Produktsequenz mit einem zugehörigen Social-Media-Feed, der in drei separaten Bereichen auf einem Kanal ausgeführt wird.
+Abhängig von den Projektanforderungen sind ggf. mehrere Bereiche in einem Kanal erforderlich, die dann zusammen als Einheit bearbeitet werden. Beispiel: eine Produktsequenz mit entsprechendem Social-Media-Feed, die in drei separaten Zonen auf einem einzigen Kanal läuft.
 
 
 ### Voraussetzungen {#prerequisites}
 
 Bevor Sie mit der Implementierung dieser Funktion beginnen, vergewissern Sie sich, dass Sie mit folgenden Themen vertraut sind:
 
-* [Erstellen eines AEM Screens-Projekts](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html)
-* [Erstellen einer Anzeige](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html)
-* [Zuweisen eines Kanals zu einer Anzeige](/help/user-guide/channel-assignment.md)
+* [Erstellen eines AEM Screens-Projekts](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html?lang=de)
+* [Erstellen einer Anzeige](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html?lang=de)
+* [Zuweisen eines Kanals zu einem Display](/help/user-guide/channel-assignment.md)
 
 ## Erstellen eines Mehrzonen-Layouts {#creating-multi-zone-layout}
 
@@ -123,7 +123,7 @@ Wenn Sie möchten, dass eine Bildsequenz und ein Video in verschiedenen Bereiche
 
 ### Erstellen eines Standorts und eines Displays {#creating-location}
 
-Erstellen Sie einen Ort und eine Anzeige, um den Inhalt im Screens-Player anzuzeigen.
+Erstellen Sie einen Speicherort und einen Display, um den Inhalt im Screens-Player anzuzeigen.
 
 1. **Erstellen eines Standorts**
 
@@ -141,7 +141,7 @@ Erstellen Sie einen Ort und eine Anzeige, um den Inhalt im Screens-Player anzuze
 
 ### Zuweisen von Kanälen zur Anzeige {#channel-channel}
 
-Weisen Sie der Anzeige die Kanäle zu, um den Inhalt anzuzeigen. Gehen Sie wie folgt vor, um einer Anzeige einen Kanal zuzuweisen.
+Weisen Sie die Kanäle dem Display zu, um den Inhalt anzuzeigen. Gehen Sie wie folgt vor, um einer Anzeige einen Kanal zuzuweisen.
 
 1. **Zuweisen eines Kanals zur Anzeige**
 
@@ -187,7 +187,7 @@ Nachdem Sie einen Standort und eine Anzeige eingerichtet haben, gehen Sie wie fo
 
 Nachdem Sie Mehrzonen-Layouts mit den vorhergehenden Schritten implementiert haben, wird die folgende Ausgabe angezeigt.
 
-Überprüfen Sie den Screens-Player, um die Ausgabe zu sehen, in der der Inhalt in zwei verschiedenen Bereichen angezeigt wird. Die linke und die rechte Zone (beide verwenden eine eingebettete Sequenz als Komponente).
+Überprüfen Sie den Screens-Player, um die Ausgabe zu sehen, in der der Inhalt in zwei verschiedenen Bereichen angezeigt wird. Die linken und die rechten Zonen (beide verwenden eine eingebettete Sequenz als Komponente).
 
 Der linke Bereich ist ein Sequenzkanal und der rechte Bereich enthält ein Video.
 
