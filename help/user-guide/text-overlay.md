@@ -15,9 +15,9 @@ role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
 source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '797'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Textüberlagerung ist eine Funktion in AEM Screens, mit der Sie in einem Sequenz
 
 Informationen zum Erstellen einer eigenen benutzerdefinierten Komponente finden Sie unter **Erweitern einer AEM Screens-Komponente**.
 
-In diesem Abschnitt wird nur gezeigt, wie die Poster-Komponente in einem AEM Screens-Projekt verwendet und als Textüberlagerung in einem Ihrer Sequenzkanäle verwendet wird.
+In diesem Abschnitt wird nur gezeigt, wie die Poster-Komponente in einem AEM Screens-Projekt verwendet und als Textüberlagerung in einem Ihrer Sequenzkanäle eingesetzt werden kann.
 
 ## Verwenden von Textüberlagerung {#using-text-overlay}
 
@@ -76,19 +76,19 @@ Gehen Sie wie folgt vor, um die Textüberlagerung in einem AEM Screens-Kanal zu 
 
 ### Verstehen der Eigenschaften von Textüberlagerung {#understanding-text-overlay-properties}
 
-Mit den Eigenschaften der Textüberlagerung können Sie allen Komponenten in Ihrem Screens-Projekt Text hinzufügen. Im folgenden Abschnitt erhalten Sie eine Übersicht über die Eigenschaften, die in der Textüberlagerung verfügbar sind:
+Mit den Eigenschaften der Textüberlagerung können Sie zu jeder Komponente in Ihrem Screens-Projekt Text hinzufügen. Im folgenden Abschnitt erhalten Sie eine Übersicht über die Eigenschaften, die in der Textüberlagerung verfügbar sind:
 
 ![text](assets/text.gif)
 
-Sie können dem Textfeld einen Text hinzufügen und typografische Hervorhebungen wie Fett, Kursiv und Unterstrichen hinzufügen.
+Sie können dem Textfeld einen Text hinzufügen und typografische Hervorhebungen wie fett, kursiv und unterstrichen hinzufügen.
 
-**Farbvariante** Mit dieser Option kann der Text entweder dunkel (Text in schwarzer Farbe) oder hell (Text in weißer Farbe) dargestellt werden.
+**Farbvariante**: Mit dieser Option kann der Text entweder dunkel (Text in schwarzer Farbe) oder hell (Text in weißer Farbe) dargestellt werden.
 
-**Größe und Positionierung** Mit dieser Option kann der Benutzer den Text horizontal oder vertikal ausrichten oder auch differenzierte Werkzeuge für die Textausrichtung verwenden.
+**Größe und Anordnung**: Mit dieser Option können Benutzende den Text horizontal oder vertikal ausrichten oder zusätzlich fein abgestufte Werkzeuge für die Textausrichtung verwenden.
 
 >[!NOTE]
 >
->Für einen richtigen Einsatz der Tools müssen Sie die gewünschte Position in Pixel mit „px“ als Suffix angeben (z. B. „200px“). Das Ergebnis dieses Ausdrucks ist 200 Pixel vom Startpunkt entfernt.
+>Für einen richtigen Einsatz der Werkzeuge müssen Sie die gewünschte Position in Pixel mit „px“ als Suffix angeben (z. B. „200px“). Das Ergebnis dieses Ausdrucks ist 200 Pixel vom Startpunkt entfernt.
 
 ## Verwenden von ContextHub-Werten in Textüberlagerung {#using-text-overlay-context-hub}
 
@@ -96,15 +96,15 @@ Im folgenden Abschnitt wird die Verwendung von Werten aus einem Datenspeicher be
 
 **Voraussetzungen**
 
-Richten Sie ContextHub-Konfigurationen für Ihr AEM Screens-Projekt ein.
+Erstellen Sie ContextHub-Konfigurationen für Ihr AEM Screens-Projekt.
 
-Informationen zum Einrichten und Verwalten von datengesteuerten Asset-Änderungen mithilfe eines Datenspeichers finden Sie unter [Konfigurieren von ContextHub in AEM Screens](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/configuring-context-hub.html).
+Informationen zum Einrichten und Verwalten datengesteuerter Asset-Änderungen mithilfe eines Datenspeichers finden Sie unter [Konfigurieren von ContextHub in AEM Screens](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/configuring-context-hub.html?lang=de).
 
 Nachdem Sie die erforderlichen Konfigurationen für Ihr Projekt eingerichtet haben, führen Sie die folgenden Schritte aus, um Werte aus den Google-Tabellen zu verwenden:
 
 1. Navigieren Sie zu **TextOverlayDemo** > **Kanäle** > **TextSample** und klicken Sie in der Aktionsleiste auf **Eigenschaften**.
 
-1. Wählen Sie die **Personalisierung** Registerkarte , um die ContextHub-Konfigurationen einzurichten.
+1. Wählen Sie die Registerkarte **Personalisierung**, um die ContextHub-Konfigurationen einzurichten.
 
    1. Wählen Sie unter **ContextHub-Pfad** den Wert **libs** > **settings** > **cloudsettings** > **default** > **ContextHub Konfigurationen** aus und klicken Sie auf **Auswählen**.
 
@@ -133,7 +133,7 @@ Nachdem Sie die erforderlichen Konfigurationen für Ihr Projekt eingerichtet hab
    >[!NOTE]
    >Wenn Sie Ihre ContextHub-Konfigurationen nicht eingerichtet haben, ist diese Option für Ihr Projekt deaktiviert.
 
-1. Eingabe **Wert** im **Platzhalter** -Feld. Wählen Sie die Zeile aus, die Sie aus Ihrem Google-Blatt abrufen möchten in **ContextHub-Variable**. In diesem Fall wird der Wert aus Zeile 2 und Spalte 1 aus den Google-Arbeitsblättern abgerufen. Geben Sie nun die **Standardwert** as **20**, wie in der folgenden Abbildung dargestellt. Wenn Sie fertig sind, klicken Sie auf das Häkchen.
+1. Geben Sie den **Wert** in das Feld **Platzhalter** ein. Wählen Sie in **ContextHub-Variable** die Zeile aus, für die Sie den Wert aus Ihrem Google-Blatt abrufen möchten. In diesem Fall wird der Wert aus Zeile 2 und Spalte 1 des Google-Blatts abgerufen. Geben Sie nun den **Standardwert** als **20** ein, wie in der folgenden Abbildung dargestellt. Wenn Sie fertig sind, klicken Sie auf das Häkchen.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 
