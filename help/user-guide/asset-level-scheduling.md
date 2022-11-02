@@ -1,16 +1,16 @@
 ---
 title: Aktivierung auf Asset-Ebene
-seo-title: Aktivierung auf Asset-Ebene
+seo-title: Asset Level Activation
 description: Auf dieser Seite erfahren Sie, wie Sie ein bestimmtes Asset in einem Kanal für einen geplanten Zeitraum in der lokalen Zeitzone des Players aktivieren können.
-seo-description: Auf dieser Seite erfahren Sie, wie Sie ein bestimmtes Asset in einem Kanal für einen geplanten Zeitraum in der lokalen Zeitzone des Players aktivieren können.
-feature: Inhaltserstellung in Screens, Aktivierung auf Asset-Ebene
+seo-description: Follow this page to learn how to activate a specific asset in a channel for a scheduled time frame in the player's local timezone.
+feature: Authoring Screens, Asset Level Activation
 role: Admin, Developer
 level: Intermediate
 exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '1450'
-ht-degree: 100%
+source-git-commit: 939d078def133e0db0e61ec80167f496c65ade46
+workflow-type: tm+mt
+source-wordcount: '1641'
+ht-degree: 89%
 
 ---
 
@@ -29,6 +29,7 @@ In diesem Abschnitt werden die folgenden Themen behandelt:
    * MonthParting
    * Kombination von Aufteilungen
 * Aktivierung für mehrere Assets
+* Globale Überschreibung für universelle Startzeit
 
 >[!CAUTION]
 >
@@ -95,7 +96,7 @@ Angenommen, Sie möchten ein Bild nur freitags von 13.00 bis 22.00 Uhr anzeigen.
 
 1. Geben Sie den Ausdruck in den **Zeitplan** ein. Ihr Asset wird daraufhin für das jeweilige Tages- und Uhrzeitintervall angezeigt.
 
-#### Beispielausdrücke für die Tagesaufteilung {#example-one}
+#### Beispielausdrücke für die DayParting {#example-one}
 
 Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hinzufügen können, während Sie einer Anzeige einen Kanal zuweisen.
 
@@ -178,7 +179,7 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 |---|---|
 | nach 6:00 und vor 18:00 Uhr am Mo.,Mi. im Jan-Mrz | Das Asset im Kanal wird montags bis mittwochs von Januar bis Ende März zwischen 6 Uhr und 18 Uhr und mittwochs wiedergegeben. |
 | am 1. Januar nach 14:00 Uhr auch am 2. Januar, auch am 3. Januar vor 3:00 Uhr | Das Asset im Kanal wird ab dem 1. Januar um 14:00 Uhr und weiterhin den ganzen Tag am 2. Januar bis um 3:00 Uhr am 3. Januar wiedergegeben. |
-| am 1./2. Januar nach 14:00 Uhr auch am 2./3. Januar vor 3:00 Uhr | Das Asset im Kanal wird ab dem 1. Januar um 14:00 Uhr bis zum 2. Januar um 3:00 Uhr wiedergegeben. Dann wird es erneut am 2. Januar um 14:00 Uhr bis zum 2. Januar um 3:00 Uhr wiedergegeben. |
+| am 1./2. Januar nach 14:00 Uhr auch am 2./3. Januar vor 3:00 Uhr | Das Asset im Kanal wird ab dem 1. Januar um 14:00 Uhr bis zum 2. Januar um 3:00 Uhr wiedergegeben. Dann wird es erneut am 2. Januar um 14:00 Uhr bis zum 3. Januar um 3:00 Uhr wiedergegeben. |
 
 >[!NOTE]
 >Bei der Definition von Wochentagen und Monaten können Sie sowohl die Abkürzung als auch die vollständige Bezeichnung verwenden, beispielsweise „Mo.“/„Montag“ und „Jan.“/„Januar“.  Außerdem können Sie das _24-Stunden-Format_ (d. h. 14:00 Uhr) oder die *am/pm*-Notation (d. h. 2:00 pm) verwenden.
@@ -222,3 +223,25 @@ Gehen Sie wie folgt vor, um mehrere Assets auszuwählen und ihre Anzeige in eine
    >Das Zeitplansymbol wird bei Assets mit Aktivierung für mehrere Assets oben rechts sichtbar.
 
    ![screen_shot_2018-12-21at70722am](assets/screen_shot_2018-12-21at70722am.png)
+
+## Globale Überschreibung für universelle Startzeit {#global-override-scheduling}
+
+***Globale Überschreibung für universelle Startzeit*** ist eine Einstellung, mit der der Inhaltsautor die Wiedergabe eines Bild- oder Video-Assets basierend auf einer bestimmten Zeit definieren kann. Die Zeit-/Zeitzoneneinstellung eines einzelnen Players wird nicht verwendet.
+
+Normalerweise wird die Wiedergabe von der lokalen Zeit eines bestimmten Players bestimmt, aber mit der globalen Überschreibung kann eine bestimmte universelle Startzeit verwendet werden, um die Wiedergabe des Assets zu starten.
+
+Dadurch kann der Inhaltsautor festlegen, dass die Wiedergabe eines bestimmten Assets zu einem bestimmten Datum/zu einer bestimmten Uhrzeit erfolgt, unabhängig von der lokalen Uhr auf allen Playern, denen der Inhalt zugewiesen wurde.
+
+Globale Überschreibung für die universelle Startzeit erfolgt durch Konfiguration der **Aktivierung** Registerkarte beim Zugriff auf die Eigenschaften eines Assets. Gehen Sie wie folgt vor, um eine globale Überschreibung für die Asset-Planung durchzuführen:
+
+1. Wählen Sie einen beliebigen Kanal aus und klicken Sie in der Aktionsleiste auf **Bearbeiten**, um im Kanal Inhalte hinzuzufügen oder zu bearbeiten.
+
+   ![screen_shot_2018-04-23at111422am](/help/user-guide/assets/asset-activation/asset-level1.png)
+
+1. Klicken Sie auf **Bearbeiten**, um den Kanaleditor zu öffnen und ein Asset auszuwählen, das Sie zeitlich planen möchten.
+
+   ![screen_shot_2018-12-21at70550am](/help/user-guide/assets/asset-activation/Asset-level4.png)
+
+1. Geben Sie für eine globale Überschreibung die Aktivierungszeit in der **Zeitzonen-Überschreibung** für das Asset. Wenn Sie in diesem Bereich nichts eingeben, wird die angewendete Zeitzone die Zeitzone des Players sein.
+
+
