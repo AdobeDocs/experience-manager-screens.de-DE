@@ -8,9 +8,9 @@ role: Admin, Developer
 level: Intermediate
 exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
 source-git-commit: 939d078def133e0db0e61ec80167f496c65ade46
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1641'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -85,7 +85,7 @@ Sie können eine Wiederholung von Assets Ihren Anforderungen entsprechend in bes
 
 Angenommen, Sie möchten ein Bild nur freitags von 13.00 bis 22.00 Uhr anzeigen. Auf der Registerkarte **Aktivierung** können Sie das gewünschte Wiederholungsintervall für Ihr Asset festlegen.
 
-### Tagesaufteilung {#day-parting}
+### DayParting {#day-parting}
 
 1. Wählen Sie das Asset aus und klicken Sie auf **Konfigurieren** (Schraubenschlüsselsymbol), um das Dialogfeld „Eigenschaften“ zu öffnen.
 
@@ -228,11 +228,11 @@ Gehen Sie wie folgt vor, um mehrere Assets auszuwählen und ihre Anzeige in eine
 
 ***Globale Überschreibung für universelle Startzeit*** ist eine Einstellung, mit der der Inhaltsautor die Wiedergabe eines Bild- oder Video-Assets basierend auf einer bestimmten Zeit definieren kann. Die Zeit-/Zeitzoneneinstellung eines einzelnen Players wird nicht verwendet.
 
-Normalerweise wird die Wiedergabe von der lokalen Zeit eines bestimmten Players bestimmt, aber mit der globalen Überschreibung kann eine bestimmte universelle Startzeit verwendet werden, um die Wiedergabe des Assets zu starten.
+Normalerweise wird die Wiedergabe von der lokalen Zeit eines bestimmten Players bestimmt; mit der globalen Überschreibung kann aber eine bestimmte universelle Startzeit verwendet werden, um die Wiedergabe des Assets zu starten.
 
-Dadurch kann der Inhaltsautor festlegen, dass die Wiedergabe eines bestimmten Assets zu einem bestimmten Datum/zu einer bestimmten Uhrzeit erfolgt, unabhängig von der lokalen Uhr auf allen Playern, denen der Inhalt zugewiesen wurde.
+Damit kann der Inhaltsautor festlegen, dass die Wiedergabe eines bestimmten Assets zu einem bestimmten Datum/zu einer bestimmten Uhrzeit erfolgt, unabhängig von der lokalen Uhr auf allen Playern, denen der Inhalt zugewiesen wurde.
 
-Globale Überschreibung für die universelle Startzeit erfolgt durch Konfiguration der **Aktivierung** Registerkarte beim Zugriff auf die Eigenschaften eines Assets. Gehen Sie wie folgt vor, um eine globale Überschreibung für die Asset-Planung durchzuführen:
+Die globale Überschreibung der universellen Startzeit erfolgt durch Konfiguration der Registerkarte **Aktivierung**, während auf die Eigenschaften eines Assets zugegriffen wird. Um eine globale Überschreibung für die Asset-Planung durchzuführen, gehen Sie wie folgt vor:
 
 1. Wählen Sie einen beliebigen Kanal aus und klicken Sie in der Aktionsleiste auf **Bearbeiten**, um im Kanal Inhalte hinzuzufügen oder zu bearbeiten.
 
@@ -242,6 +242,6 @@ Globale Überschreibung für die universelle Startzeit erfolgt durch Konfigurati
 
    ![screen_shot_2018-12-21at70550am](/help/user-guide/assets/asset-activation/Asset-level4.png)
 
-1. Geben Sie für eine globale Überschreibung die Aktivierungszeit in der **Zeitzonen-Überschreibung** für das Asset. Wenn Sie in diesem Bereich nichts eingeben, wird die angewendete Zeitzone die Zeitzone des Players sein.
+1. Für eine globale Überschreibung geben Sie in der **Zeitzonen-Überschreibung** für das Asset die Aktivierungszeit ein. Wenn Sie in diesem Bereich nichts eingeben, wird als Zeitzone die Zeitzone des Players verwendet.
 
 
