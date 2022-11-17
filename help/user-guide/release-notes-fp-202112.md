@@ -1,13 +1,13 @@
 ---
 title: Versionshinweise für Feature Pack 202112
-description: Auf dieser Seite finden Sie Informationen zum AEM Screens Feature Pack 202112, das am 17. Dezember 2021 veröffentlicht wurde.
+description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 202112, das am 12. Januar 2022 veröffentlicht wurde.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3ff32a3d-9baf-4085-a775-bb5a76a1f5b3
-source-git-commit: 3366a918c75dd1485dfe8716797d7254b3b5c2b3
+source-git-commit: 9d8b336c12d5e44beb831ba41f3df5031a6ca32d
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '313'
 ht-degree: 100%
 
 ---
@@ -25,11 +25,17 @@ Das neueste Feature Pack für AEM Screens 6.5.10 steht auf dem [Software Distri
 
 ## Veröffentlichungsdatum {#release-date}
 
-Das Veröffentlichungsdatum für AEM Screens Feature Pack 202112 ist der 17. Dezember 2021.
+Das Veröffentlichungsdatum für AEM Screens Feature Pack 202112 ist der 12. Januar 2022.
 
 ### Neue Funktionen {#what-is-new}
 
 * Aktualisierungen der Android-Mobile-App beziehen sich jetzt auf Android 11 (API-Ebene 30). Derzeit befindet sich der Android-Player auf API-Zielebene 29.
+
+* Die Anzeige-Vorschau bleibt bei der vorherigen Player-Konfiguration hängen
+
+* Die Anzeige-Vorschau wird unter bestimmten Bedingungen nicht gerendert
+
+* Beheben von Fehlern beim gleichzeitigen Download in SmartSync
 
 * Als Entwickler sehen Sie jetzt Asset-Ausgabedarstellungen, die nur als Ausgabedarstellungseinträge unter den entsprechenden Assets im Manifest aufgeführt werden, um die Erweiterbarkeit, Klarheit und einfache Handhabung der Manifestverarbeitung sicherzustellen.
 

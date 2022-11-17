@@ -13,10 +13,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
+source-git-commit: 9d8b336c12d5e44beb831ba41f3df5031a6ca32d
 workflow-type: tm+mt
-source-wordcount: '2127'
-ht-degree: 100%
+source-wordcount: '2275'
+ht-degree: 93%
 
 ---
 
@@ -553,6 +553,15 @@ Der folgende Code stellt die Mindestanforderungen in der Datei `pom.xml` für di
 Das folgende Video zeigt die fertige Komponente und wie sie einem Sequenzkanal hinzugefügt werden kann. Der Kanal wird dann einer Standortsanzeige hinzugefügt und letztendlich einem Screens-Player zugewiesen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9)
+
+## Zusätzliche Überlegungen für benutzerdefinierte Komponenten, die andere Seiten oder Fragmente einbetten {#additional-considerations}
+
+Wenn die von Ihnen entwickelte benutzerdefinierte Komponente andere Seiten oder Experience Fragments enthalten soll und Sie möchten, dass Änderungen am eingebetteten Inhalt automatisch vom Player erfasst werden, ohne den Kanal erneut veröffentlichen zu müssen, müssen Sie diese beiden Einschränkungen berücksichtigen:
+
+1. Anstelle der direkten Erweiterung `foundation/components/parbase`, müssen Sie entweder `screens/core/components/content/page` oder `screens/core/components/content/experiencefragment`
+2. Der Name der Eigenschaft, mit der Sie auf den eingebetteten Inhalt verweisen, muss `pagePath`
+
+Die Nutzung dieser 2 Screens-Kernkomponenten bietet außerdem den zusätzlichen Vorteil, dass sie die Bündelung einiger benötigter Abhängigkeiten (Client-seitige Bibliotheken, Schriftarten usw.) über ihre Offline-Konfigurationsoptionen im Komponentendialogfeld, wodurch sich die Verantwortung jedes benutzerdefinierten Offline-Handlers verringert, den Sie dafür verwenden müssen. Manchmal wird sogar die Notwendigkeit, einen von vornherein zu verwenden, vollständig beseitigt.
 
 ## Fertiger Code {#finished-code}
 
