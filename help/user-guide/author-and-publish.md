@@ -2,10 +2,10 @@
 title: Konfigurieren von Autoren- und Veröffentlichungsinstanz in AEM Screens
 description: Die AEM Screens-Architektur ähnelt einer traditionellen AEM Sites-Architektur. Inhalte werden in einer AEM-Autoreninstanz erstellt und dann vorwärts an mehrere Veröffentlichungsinstanzen repliziert. Auf dieser Seite erfahren Sie, wie Sie Autoren- und Veröffentlichungsinstanz für AEM Screens konfigurieren.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: ed9debd55cc4e142a46eda05e9e1aabc32532311
+source-git-commit: ab959584c01c10f76c231ab89b574886ad7346c5
 workflow-type: tm+mt
-source-wordcount: '1974'
-ht-degree: 94%
+source-wordcount: '1988'
+ht-degree: 93%
 
 ---
 
@@ -128,9 +128,10 @@ Bei jeder Veröffentlichungsinstanz:
 1. Navigieren Sie zu `https://<host>:<port>/system/console/configMgr`
 1. Wählen Sie die Konfiguration **Apache Sling Oak-basierter Erkennungs-Service**.
 1. Aktualisieren Sie die Topologie-Connector-URLs: Fügen Sie URLs aller beteiligten Veröffentlichungsinstanzen hinzu, d. h.:
-   * `https://localhost:4503/libs/sling/topology/connector`
-   * `https://localhost:4504/libs/sling/topology/connector`
-1. **Whitelist der Topologie-Connectoren**: Passen Sie diese entsprechend den IP-Adressen oder Subnetzen an, die die beteiligten Veröffentlichungsinstanzen abdecken.
+   * `https://publish:4503/libs/sling/topology/connector`
+   * `https://publish:4504/libs/sling/topology/connector`
+1. **Whitelist des Topologie-Connectors**: Anpassen an IPs oder Subnetze, die alle Veröffentlichungsinstanzen abdecken. Stellen Sie sicher, dass Sie den IP-/Hostnamen aller Veröffentlichungsinstanzen ohne Portnummer auf die Whitelist setzen.
+
 1. Aktivieren Sie **Auto-Stop Local-Loops**
 
 Die Konfiguration sollte für jede Veröffentlichungsinstanz identisch sein; „Auto-Stop Local-Loops“ verhindert eine Endlosschleife.
