@@ -5,7 +5,7 @@ exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
 source-git-commit: ab959584c01c10f76c231ab89b574886ad7346c5
 workflow-type: tm+mt
 source-wordcount: '1988'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -102,20 +102,20 @@ Gehen Sie wie folgt vor, um einen standardmäßigen Replikationsagenten einzuric
 #### Erstellen von standardmäßigen Replikationsagenten  {#creating-standard-replication-agents}
 
 1. Erstellen Sie einen standardmäßigen Replikationsagenten für pub1 (standardmäßiger Agent, der bereits vorkonfiguriert sein sollte) (z. B. *https://&lt;Hostname>:4503/bin/receive?sling:authRequestLogin=1*).
-1. Richten Sie einen standardmäßigen Replikationsagenten für pub2 ein. Sie können den Replikationsagenten für pub1 kopieren und den für pub2 zu verwendenden Transport aktualisieren, indem Sie den Port in der Transportkonfiguration ändern. (Beispiel: *https://&lt;Hostname>:4504/bin/receive?sling:authRequestLogin=1*)
+1. Richten Sie einen standardmäßigen Replikationsagenten für pub2 ein. Sie können den Replikationsagenten von pub1 kopieren und den für pub2 zu verwendenden Transport aktualisieren, indem Sie in der Transportkonfiguration den Port ändern. (Beispiel: *https://&lt;hostname>:4504/bin/receive?sling:authRequestLogin=1*)
 
 #### Erstellen von Screens-Replikationsagenten {#creating-screens-replication-agents}
 
-1. Erstellen Sie einen Screens-Replikationsagenten für pub1. Standardmäßig gibt es einen benannten Screens-Replikationsagenten, der auf Port 4503 verweist. Dieser Port muss aktiviert sein.
-1. Erstellen Sie einen Screens-Replikationsagenten für pub2. Kopieren Sie den Screens-Replikationsagenten für pub1 und ändern Sie den Port für pub2 so, dass er auf 4504 verweist.
+1. Richten Sie einen Screens-Replikationsagenten für pub1 ein. Standardmäßig gibt es einen benannten Screens-Replikationsagenten, der auf Port 4503 verweist. Dieser Port muss aktiviert sein.
+1. Erstellen Sie den AEM Screens-Replikationsagenten für pub2. Kopieren Sie den Screens-Replikationsagenten für pub1 und ändern Sie den Port für pub2 so, dass er auf 4504 verweist.
 
    >[!NOTE]
    >Informationen zum Konfigurieren von Screens-Replikationsagenten finden Sie unter [Konfigurieren von Screens-Replikationsagenten](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/configure-screens-replication.html?lang=de).
 
 #### Erstellen von Screens-Agenten für die Rückwärtsreplikation {#creating-screens-reverse-replication-agents}
 
-1. Erstellen Sie einen Agenten für die Rückwärtsreplikation für pub1.
-1. Erstellen Sie einen Agenten für die Rückwärtsreplikation für pub2. Sie können den Agenten für die Rückwärtsreplikation für pub1 kopieren und den für pub2 zu verwendenden Transport aktualisieren, indem Sie den Port in der Transportkonfiguration ändern.
+1. Erstellen Sie für pub1 einen Agenten für die Rückwärtsreplikation.
+1. Erstellen Sie für pub2 einen Agenten für die Rückwärtsreplikation. Sie können den Agenten für die Rückwärtsreplikation von pub1 kopieren und den für pub2 zu verwendenden Transport aktualisieren, indem Sie in der Transportkonfiguration den Port ändern.
 
 ## Einrichten der Veröffentlichungstopologie {#setting-up-publish-topology}
 
