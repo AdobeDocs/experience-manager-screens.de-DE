@@ -5,7 +5,7 @@ exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
 source-git-commit: ab959584c01c10f76c231ab89b574886ad7346c5
 workflow-type: tm+mt
 source-wordcount: '1988'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -130,7 +130,7 @@ Bei jeder Veröffentlichungsinstanz:
 1. Aktualisieren Sie die Topologie-Connector-URLs: Fügen Sie URLs aller beteiligten Veröffentlichungsinstanzen hinzu, d. h.:
    * `https://publish:4503/libs/sling/topology/connector`
    * `https://publish:4504/libs/sling/topology/connector`
-1. **Whitelist des Topologie-Connectors**: Anpassen an IPs oder Subnetze, die alle Veröffentlichungsinstanzen abdecken. Stellen Sie sicher, dass Sie den IP-/Hostnamen aller Veröffentlichungsinstanzen ohne Portnummer auf die Whitelist setzen.
+1. **Zulassungsliste der Topologie-Connectoren**: Passen Sie diese entsprechend den IP-Adressen oder Subnetzen an, die alle Veröffentlichungsinstanzen abdecken. Stellen Sie sicher, dass Sie die IP-Adresse/den Host-Namen aller Veröffentlichungsinstanzen ohne Port-Nummer auf die Zulassungsliste setzen.
 
 1. Aktivieren Sie **Auto-Stop Local-Loops**
 
