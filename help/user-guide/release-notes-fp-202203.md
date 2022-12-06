@@ -1,13 +1,14 @@
 ---
 title: Versionshinweise für Feature Pack 202203
-description: Auf dieser Seite erhalten Sie Informationen zu AEM Screens Feature Pack 202203, das am 25. März 2022 veröffentlicht wurde.
+description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 202203, das am 25. März 2022 veröffentlicht wurde.
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 78afc81cf588e643ad8c046d8bb70774e6296a11
-workflow-type: tm+mt
+exl-id: 570003d8-216d-4dcf-b03e-3a0dde818a43
+source-git-commit: a6708e1d91383c076ed822b50b9f37de163361c8
+workflow-type: ht
 source-wordcount: '263'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +41,7 @@ Diese Version beinhaltet nur Fehlerbehebungen.
 
 * Der Screens-SPA-Kanal verursachte einen weißen Bildschirm in Windows Player. Dieser Fehler wurde jetzt behoben.
 
-* Die *wcmmode* wurde aus allen Screens-Anforderungen in der Veröffentlichungsinstanz entfernt.
+* Der Parameter *wcmmode* wurde aus allen Screens-Anforderungen in der Veröffentlichungsinstanz entfernt.
 
 * Die Benutzeroberfläche der Player-Aktivität funktioniert jetzt erwartungsgemäß.
 
