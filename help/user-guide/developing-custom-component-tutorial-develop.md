@@ -14,9 +14,9 @@ role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
 source-git-commit: 9d8b336c12d5e44beb831ba41f3df5031a6ca32d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2275'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -39,12 +39,12 @@ Um dieses Tutorial abzuschließen, benötigen Sie Folgendes:
 1. [AEM Screens-Player](https://helpx.adobe.com/de/experience-manager/6-4/sites/deploying/using/configuring-screens-introduction.html)
 1. Lokale Entwicklungsumgebung
 
-Für die Tutorial-Schritte und Screenshots wird **CRXDE-Lite** genutzt. IDEs können auch zum Abschluss des Tutorials verwendet werden. Weitere Informationen zur Verwendung einer IDE zur Entwicklung mit AEM [finden Sie hier](https://helpx.adobe.com/de/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part1.html#eclipse-ide).
+Für die Tutorial-Schritte und Screenshots wird **CRXDE-Lite** genutzt. IDEs können auch zum Abschluss des Tutorials verwendet werden. Weitere Informationen zur Verwendung einer IDE zur Entwicklung mit AEM [finden Sie hier](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup.html?lang=de).
 
 
 ## Projekt-Setup {#project-setup}
 
-Der Quell-Code eines Screens-Projekts wird normalerweise als Maven-Projekt mit mehreren Modulen verwaltet. Um das Tutorial zu beschleunigen, wurde ein Projekt mithilfe des [AEM-Projektarchetyps 13](https://github.com/Adobe-Marketing-Cloud/aem-project-archetype) vorgeneriert. Weitere Informationen zum [Erstellen eines Projekts mit einem Maven-Archetyp für AEM-Projekte finden Sie hier](https://helpx.adobe.com/de/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part1.html#maven-multimodule).
+Der Quell-Code eines Screens-Projekts wird normalerweise als Maven-Projekt mit mehreren Modulen verwaltet. Um das Tutorial zu beschleunigen, wurde ein Projekt mithilfe des [AEM-Projektarchetyps 13](https://github.com/Adobe-Marketing-Cloud/aem-project-archetype) vorgeneriert. Weitere Informationen zum [Erstellen eines Projekts mit einem Maven-Archetyp für AEM-Projekte finden Sie hier](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup.html?lang=de).
 
 1. Laden Sie die folgenden Pakete mit [CRX Package Manager](http://localhost:4502/crx/packmgr/index.jsp) herunter und installieren Sie sie:
 
@@ -556,12 +556,12 @@ Das folgende Video zeigt die fertige Komponente und wie sie einem Sequenzkanal h
 
 ## Zusätzliche Überlegungen für benutzerdefinierte Komponenten, die andere Seiten oder Fragmente einbetten {#additional-considerations}
 
-Wenn die von Ihnen entwickelte benutzerdefinierte Komponente andere Seiten oder Experience Fragments enthalten soll und Sie möchten, dass Änderungen am eingebetteten Inhalt automatisch vom Player erfasst werden, ohne den Kanal erneut veröffentlichen zu müssen, müssen Sie diese beiden Einschränkungen berücksichtigen:
+Wenn die von Ihnen entwickelte benutzerdefinierte Komponente andere Seiten oder Experience Fragments enthalten soll und Sie möchten, dass Änderungen am eingebetteten Inhalt automatisch vom Player erfasst werden, ohne dass Sie den Kanal erneut veröffentlichen müssen, müssen Sie diese beiden Überlegungen berücksichtigen:
 
-1. Anstelle der direkten Erweiterung `foundation/components/parbase`, müssen Sie entweder `screens/core/components/content/page` oder `screens/core/components/content/experiencefragment`
-2. Der Name der Eigenschaft, mit der Sie auf den eingebetteten Inhalt verweisen, muss `pagePath`
+1. Statt direkt `foundation/components/parbase` zu erweitern, müssen Sie entweder `screens/core/components/content/page` oder `screens/core/components/content/experiencefragment` erweitern.
+2. Der Name der Eigenschaft, mit der Sie auf den eingebetteten Inhalt verweisen, muss `pagePath` sein
 
-Die Nutzung dieser 2 Screens-Kernkomponenten bietet außerdem den zusätzlichen Vorteil, dass sie die Bündelung einiger benötigter Abhängigkeiten (Client-seitige Bibliotheken, Schriftarten usw.) über ihre Offline-Konfigurationsoptionen im Komponentendialogfeld, wodurch sich die Verantwortung jedes benutzerdefinierten Offline-Handlers verringert, den Sie dafür verwenden müssen. Manchmal wird sogar die Notwendigkeit, einen von vornherein zu verwenden, vollständig beseitigt.
+Die Nutzung dieser zwei Screens-Kernkomponenten bietet außerdem den zusätzlichen Vorteil, dass sie die Bündelung einiger benötigter Abhängigkeiten durchführen (Client-seitige Bibliotheken, Schriftarten usw.). Dazu werden deren Offline-Konfigurationsoptionen im Komponentendialogfeld verwendet, wodurch sich die Zuständigkeit der benutzerdefinierten Offline-Handler verringert, die Sie dafür verwenden müssen. Manchmal wird sogar die Notwendigkeit, einen zu verwenden, vollständig beseitigt.
 
 ## Fertiger Code {#finished-code}
 
