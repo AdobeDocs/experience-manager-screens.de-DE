@@ -1,32 +1,36 @@
 ---
 title: Versionshinweise für Feature Pack 202001
-seo-title: Versionshinweise für Feature Pack 202001
+seo-title: Release Notes for Feature Pack 202001
 description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 202001, das am 31. Januar 2020 veröffentlicht wurde.
-seo-description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 202001, das am 31. Januar 2020 veröffentlicht wurde.
+seo-description: Follow this page to get information for AEM Screens Feature Pack 202001 released on January 31, 2020.
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '284'
-ht-degree: 100%
+exl-id: c1a0b394-97dc-4104-b2b4-41fcbb63a22e
+source-git-commit: 1d591503bc337e5677a3c4030771463f7e178e1e
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-
-# Versionshinweise für Feature Pack 202001 {#release-notes-for-feature-pack}
+# Versionshinweise für Feature Pack 202001{#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
 >Es wird empfohlen, ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM) durchzuführen. Screens bietet Wartungs-Support für die AEM 6.3 Screens-Plattform.
 
-AEM Screens hat AEM 6.4 Feature Pack 7 und AEM 6.5 Feature Pack 3 mit folgenden Details veröffentlicht.
+## Verfügbarkeit {#availability}
+
+Das AEM 6.5 Feature Pack 3 für AEM Screens wurde veröffentlicht.
+
+Das neueste Feature Pack für AEM Screens 6.5.3 steht auf dem [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) zum Download zur Verfügung (Adobe ID erforderlich). Gehen Sie zur Registerkarte **Adobe Experience Manager** und suchen Sie nach **Screens**, um das neueste Feature Pack mit dem Namen **AEM 6.5 Screens FP3** herunterzuladen.
 
 ## Veröffentlichungsdatum {#release-date}
 
 Das Veröffentlichungsdatum für AEM Screens Feature Pack 202001 ist der 31. Januar 2020.
 
-### Neuerungen {#what-s-new}
+### Neue Funktionen {#what-s-new}
 
 * **Befehlssynchronisierung für die Asset-Wiedergabe**
 Mithilfe der Befehlssynchronisierung kann die Wiedergabe über verschiedene Player hinweg synchronisiert werden. Die Player können unterschiedliche Inhalte wiedergeben, aber jedes Asset muss dieselbe Dauer haben.
@@ -51,6 +55,6 @@ Die folgenden AEM Screens-Player sind für AEM 6.4 Feature Pack 7 und AEM 6.5 Fe
 * Windows
 * Android
 
-#### AEM Screens-Player-Downloads {#aem-screens-player-downloads}
+#### AEM Screens-Player-Downloads   {#aem-screens-player-downloads}
 
-Navigieren Sie zu [**AEM Screens-Player-Downloads**](https://download.macromedia.com/screens/), um den neusten AEM Screens-Player herunterzuladen und mehr über die Fehlerbehebungen zu erfahren.
+Gehen Sie zu [**AEM Screens-Player-Downloads**](https://download.macromedia.com/screens/), um den neusten AEM Screens-Player herunterzuladen und mehr über die Fehlerbehebungen zu erfahren.
