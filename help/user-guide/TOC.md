@@ -9,9 +9,9 @@ feature-set: Experience Manager Screens
 feature: Content
 role: User
 source-git-commit: b055ab685a1dcf5d53552971ecea42bffd81b848
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '489'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 99%
       + [Android-Player](implementing-android-player.md)
       + [Windows-Player](implementing-windows-player.md)
       + [Tizen-Player](tizen-player.md)
-      + [Cloud Player](implementing-cloud-player.md)
+      + [Cloud-Player](implementing-cloud-player.md)
       + [Automatische Registrierung von Playern](auto-registration-players.md)
       + [Verwenden der Fernbedienungs-Steuerung](implementing-remote-control.md)
    + Autoren- und Veröffentlichungsinstanz {#author-publish}
