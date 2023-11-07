@@ -14,10 +14,10 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: 97bc64ce3c01ac2de301b17bf9f8610662d45f88
-workflow-type: ht
-source-wordcount: '1097'
-ht-degree: 100%
+source-git-commit: 970762bb08f19ab07917dd5a21f67a007ec1143f
+workflow-type: tm+mt
+source-wordcount: '1148'
+ht-degree: 91%
 
 ---
 
@@ -106,11 +106,11 @@ C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AE
 
 ## Massenregistrierung von Windows-Playern {#bulk-registration}
 
-Beim Implementieren von Windows-Playern müssen Sie nicht jeden einzelnen Player manuell konfigurieren. Stattdessen können Sie auch die getestete und zur Bereitstellung bereite JSON-Konfigurationsdatei aktualisieren.
+Bei der Implementierung des Windows Players müssen Sie nicht jeden einzelnen Player manuell konfigurieren. Stattdessen können Sie die JSON-Konfigurationsdatei aktualisieren, nachdem sie getestet wurde und für die Bereitstellung bereit ist.
 
-Die Konfiguration stellt sicher, dass alle Player denselben in der Konfigurationsdatei angegebenen Server anpingen. Trotzdem müssen Sie noch jeden einzelnen Player manuell registrieren.
+Die Konfiguration stellt sicher, dass alle Player denselben Server in der Konfigurationsdatei pingen. Sie müssen jeden Player noch manuell registrieren.
 
-So konfigurieren Sie den Windows 10-Player:
+Gehen Sie wie folgt vor, um den Windows 10 Player zu konfigurieren:
 
 1. Installieren Sie Windows Player.
 1. Suchen Sie die Konfigurationsdatei unter ***%appdata%\com.adobe.aem.screens.player\config.json***.
@@ -118,16 +118,20 @@ So konfigurieren Sie den Windows 10-Player:
 
 ### Richtlinienattribute {#policy-attributes}
 
-In der folgenden Tabelle finden Sie eine Zusammenfassung der Richtlinienattribute mit einer beispielhaften JSON-Richtliniendatei als Referenz:
+Die folgende Tabelle fasst die Richtlinienattribute mit einer JSON-Beispielrichtlinie für die Referenz zusammen:
+
 
 | **Richtlinienname** | **Zweck** |
 |---|---|
-| server | Die URL zum Adobe Experience Manager (AEM)-Server. |
+| Server | Die URL zum Adobe Experience Manager (AEM)-Server. |
+| registrationKey | Wird für die Massenregistrierung von Geräten mit vorab freigegebenen Schlüsseln verwendet. |
 | resolution | Die Auflösung des Geräts. |
-| rebootSchedule | Der Plan zum Neustarten des Players. |
+| rebootSchedule | Der Zeitplan für den Neustart des Players. |
 | enableAdminUI | Aktivierung der Administrator-Benutzeroberfläche zum Konfigurieren des Geräts vor Ort. Stellen Sie diesen Wert auf „false“ ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und in der Produktion verwendet wird. |
-| enableOSD | Aktivierung der Kanalschalter-Benutzeroberfläche, damit Benutzer zwischen Kanälen auf dem Gerät wechseln können. Stellen Sie den Wert ggf. auf „false“ ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und in der Produktion verwendet wird |
-| enableActivityUI | Aktivierung zum Anzeigen des Fortschritts von Aktivitäten wie Downloads und Synchronisierungen. Aktivieren Sie den Wert zwecks Fehlerbehebung und deaktivieren Sie ihn, sobald die Benutzeroberfläche vollständig konfiguriert ist und produktiv verwendet wird. |
+| enableOSD | Aktivierung der Kanalschalter-Benutzeroberfläche, damit Benutzer zwischen Kanälen auf dem Gerät wechseln können. Stellen Sie den Wert ggf. auf „false“ ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und in der Produktion verwendet wird. |
+| enableActivityUI | Aktivierung zum Anzeigen des Fortschritts von Aktivitäten wie Downloads und Synchronisierungen. Aktivieren Sie diese Option zur Fehlerbehebung und deaktivieren Sie sie, sobald sie vollständig konfiguriert ist und sich in der Produktion befindet. |
+| cloudMode | Setzen Sie dies auf „true“, wenn Sie möchten, dass der Tizen-Player eine Verbindung zu Screens as a Cloud Service herstellt. Legen Sie den Wert auf „false“ fest, um eine Verbindung zu AMS oder AEM On-Premise herzustellen. |
+| cloudToken | Anmelde-Token zur Registrierung bei Screens as a Cloud Service. |
 
 #### Beispielhafte JSON-Richtliniendatei {#example-policy-json-file}
 

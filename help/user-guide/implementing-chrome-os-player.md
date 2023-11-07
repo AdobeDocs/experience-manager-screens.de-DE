@@ -13,10 +13,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
-workflow-type: ht
-source-wordcount: '846'
-ht-degree: 100%
+source-git-commit: 970762bb08f19ab07917dd5a21f67a007ec1143f
+workflow-type: tm+mt
+source-wordcount: '893'
+ht-degree: 76%
 
 ---
 
@@ -28,13 +28,13 @@ In diesem Abschnitt wird beschrieben, wie Sie den Chrome OS-Player mit der Chrom
 
 Führen Sie die nachfolgenden Schritte aus, um die Chrome Management Console einzurichten:
 
-1. Registrieren Sie sich bei der Chrome Management Console. Sie müssen eine Lizenz für die Chrome Management Console erwerben. Weitere Informationen zur Verwaltung von Chrome-Geräteeinstellungen finden Sie beim [Google-Support](https://support.google.com/chrome/a/answer/1375678?hl=de&amp;ref_topic=2935995).
-1. Registrieren Sie Ihr Chrome OS-Gerät in der Domäne und warten Sie 15 Minuten, damit sich das Gerät mit der Chrome Management Console synchronisieren kann. Weitere Informationen zur Registrierung von Chrome-Geräten erhalten Sie, wenn Sie [hier](https://support.google.com/chrome/a/answer/1360534?hl=de) klicken.
-1. Der Chrome Player ist im Chrome Webstore verfügbar.
+1. Registrieren Sie sich für die Chrome Management Console. Sie müssen eine Lizenz für die Chrome Management Console erwerben. Weitere Informationen zur Verwaltung von Chrome-Geräteeinstellungen finden Sie beim [Google-Support](https://support.google.com/chrome/a/answer/1375678?hl=de&amp;ref_topic=2935995).
+1. Melden Sie Ihr Chrome OS-Gerät in der Domäne an und warten Sie 15 Minuten, bis das Gerät mit der Chrome Management Console synchronisiert ist. Um mehr über die Registrierung von Chrome-Geräten zu erfahren, klicken Sie auf [here](https://support.google.com/chrome/a/answer/1360534?hl=de).
+1. Der Chrome-Player ist im Chrome-Webstore verfügbar.
 
 >[!NOTE]
 >
->Es wird empfohlen, eine Geräteverwaltungslösung wie die Chrome Management Console für die Bereitstellung und Verwaltung von Chrome OS-Geräten zu verwenden. In diesem Dokument wird die Implementierung mithilfe der Chrome Management Console beschrieben, es gibt jedoch auch andere Anbieter, die Produkte mit ähnlicher Funktionalität anbieten. Wenden Sie sich an den Anbieter Ihrer Geräteverwaltungssoftware.
+>Eine Geräteverwaltungslösung wie die Chrome Management Console wird für die Bereitstellung und Verwaltung von Chrome OS-Geräten empfohlen. Obwohl dieses Dokument Implementierung für die Chrome Management Console bietet, gibt es andere Anbieter, die behaupten, ähnliche Funktionen bereitzustellen. Wenden Sie sich an den Anbieter Ihrer Geräteverwaltungssoftware.
 
 ## Benennen des Chrome OS-Players {#name-chrome}
 
@@ -87,12 +87,12 @@ Gehen Sie wie folgt vor, um den Kiosk-Modus zu aktivieren:
 
 1. Melden Sie sich bei der Chrome Developer Console an.
 1. Navigieren Sie zu **Geräteverwaltung** > **Chrome-Geräte** und wählen Sie das zu kontrollierende Gerät aus.
-1. Klicken Sie auf **Systemaktivität und Fehlerbehebung**.
-1. Überprüfen Sie die Eigenschaften **Gerät neu starten** und **Bildschirmaufnahme** des Geräts. Sie können auch die Status- und Konsistenzinformationen des Geräts überprüfen.
+1. Klicks **Systemaktivität und Fehlerbehebung**.
+1. Überprüfen Sie die Eigenschaften **Gerät neu starten** und **Bildschirmaufnahme** des Geräts. Sie können auch den Gerätestatus und die Konsistenzinformationen überprüfen.
 
 >[!NOTE]
 >
->Beachten Sie, dass diese Einstellungen möglicherweise mehrere Minuten nach der Registrierung des Geräts aktiviert werden. Jede Option wird möglicherweise mit der Zeit aktiviert.
+>Beachten Sie, dass diese Einstellungen einige Minuten nach der Registrierung des Geräts aktiviert sein können. Jede Option kann im Laufe der Zeit aktiviert werden.
 
 ### Konfigurieren der Fernkonfiguration von Chrome OS-Playern {#configuring-remote-configuration-of-chrome-os-players}
 
@@ -103,7 +103,7 @@ Gehen Sie wie folgt vor, um verschiedene Player-Optionen zu konfigurieren:
 1. Melden Sie sich bei der Chrome Management Console an.
 1. Klicken Sie auf **Geräteverwaltung** > **Chrome Management** > **App-Verwaltung**. Der AEM Screens-Player wird in der Liste angezeigt.
 1. Klicken Sie auf die Anwendung **AEM Screens Player**.
-1. Klicken Sie auf **Kiosk-Einstellungen** und wählen Sie Ihr Unternehmen aus (*wenn eine Testumgebung verwendet wird*).
+1. Klicks **Kiosk-Einstellungen** und wählen Sie Ihre Organisation aus (*bei Verwendung einer Testumgebung*).
 1. Klicken Sie auf **Konfigurationsdatei hochladen** und laden Sie die Konfigurationsrichtlinie hoch (*Json-Datei*).
 1. Klicken Sie auf **Speichern**. Sie müssen das Gerät neu starten, um die Richtlinie zu synchronisieren.
 
@@ -142,17 +142,20 @@ In der folgenden Tabelle sind die Richtlinien und deren Funktionen aufgeführt.
 
 | **Richtlinienname** | **Zweck** |
 |---|---|
-| *server* | Die URL des Adobe Experience Manager-Servers |
-| *resolution* | Die Auflösung des Chrome OS-Geräts |
-| *rebootSchedule* | Der Zeitplan für den Neustart des Chrome Players |
-| *enableAdminUI* | Aktiviert die Administrator-Benutzeroberfläche, damit Techniker das Gerät vor Ort konfigurieren können. Stellen Sie diesen Wert auf „false“ ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und in der Produktion verwendet wird. |
-| *enableOSD* | Aktivierung der Kanalschalter-Benutzeroberfläche, damit Benutzer zwischen Kanälen auf dem Gerät wechseln können. Stellen Sie den Wert ggf. auf „false“ ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und in der Produktion verwendet wird |
-| *enableActivityUI* | Aktivierung zum Anzeigen des Fortschritts von Aktivitäten wie Downloads und Synchronisierungen. Aktivieren Sie den Wert zwecks Fehlerbehebung und deaktivieren Sie ihn, sobald die Benutzeroberfläche vollständig konfiguriert ist und produktiv verwendet wird. |
+| Server | Die URL zum Adobe Experience Manager (AEM)-Server. |
+| registrationKey | Wird für die Massenregistrierung von Geräten mit vorab freigegebenen Schlüsseln verwendet. |
+| resolution | Die Auflösung des Geräts. |
+| rebootSchedule | Der Zeitplan für den Neustart des Players. |
+| enableAdminUI | Aktivierung der Administrator-Benutzeroberfläche zum Konfigurieren des Geräts vor Ort. Stellen Sie diesen Wert auf „false“ ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und in der Produktion verwendet wird. |
+| enableOSD | Aktivierung der Kanalschalter-Benutzeroberfläche, damit Benutzer zwischen Kanälen auf dem Gerät wechseln können. Stellen Sie den Wert ggf. auf „false“ ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und in der Produktion verwendet wird. |
+| enableActivityUI | Aktivierung zum Anzeigen des Fortschritts von Aktivitäten wie Downloads und Synchronisierungen. Aktivieren Sie diese Option zur Fehlerbehebung und deaktivieren Sie sie, sobald sie vollständig konfiguriert ist und sich in der Produktion befindet. |
+| cloudMode | Setzen Sie dies auf „true“, wenn Sie möchten, dass der Tizen-Player eine Verbindung zu Screens as a Cloud Service herstellt. Legen Sie den Wert auf „false“ fest, um eine Verbindung zu AMS oder AEM On-Premise herzustellen. |
+| cloudToken | Anmelde-Token zur Registrierung bei Screens as a Cloud Service. |
 
 >[!NOTE]
 >
->Richtlinienkonfigurationen werden streng durchgesetzt und können nicht manuell auf der Admin-Benutzeroberfläche des Players überschrieben werden. Um manuelle Player-Konfigurationen für eine bestimmte Richtlinie zu gestatten, legen Sie die Richtlinie in der ***Richtlinienkonfiguration*** nicht fest. Wenn Sie beispielsweise eine manuelle Konfiguration des Neustart-Zeitplans gestatten wollen, legen Sie den Parameter ***rebootSchedule*** in der Richtlinienkonfiguration nicht fest.
+>Richtlinienkonfigurationen werden streng durchgesetzt und auf der Administrator-Benutzeroberfläche des Players nicht manuell überschrieben. Um manuelle Player-Konfigurationen für eine bestimmte Richtlinie zu gestatten, legen Sie die Richtlinie in der ***Richtlinienkonfiguration*** nicht fest. Wenn Sie beispielsweise eine manuelle Konfiguration des Neustart-Zeitplans gestatten wollen, legen Sie den Parameter ***rebootSchedule*** in der Richtlinienkonfiguration nicht fest.
 
 ### Verwenden der Fernbedienungs-Steuerung von Screens {#using-remote-control}
 
-AEM Screens bietet Funktionen für die Steuerung per Fernbedienung. Weitere Informationen zu dieser Funktion finden Sie hier: [Fernbedienungs-Steuerung von Screens](implementing-remote-control.md)
+AEM Screens bietet Funktionen für die Steuerung per Fernbedienung. Mehr über diese Funktion erfahren Sie hier: [Fernbedienungs-Steuerung von Screens](implementing-remote-control.md)
