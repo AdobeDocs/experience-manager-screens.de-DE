@@ -17,7 +17,7 @@ exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
 source-git-commit: d8c420c289452e3ddb1be42c8f170758385ff7af
 workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 89%
+ht-degree: 98%
 
 ---
 
@@ -79,7 +79,7 @@ Gehen Sie wie folgt vor, um den Namen im Windows-Player zu konfigurieren:
 
 1. Klicken Sie auf **Start** > **Ausführen**
 1. Geben Sie `system.cpl` ein
-1. Verwenden Sie die Registerkarte „Computername“, um den Hostnamen des Computers festzulegen.
+1. Verwenden Sie die Registerkarte „Computername“, um den Hostnamen des Computers festzulegen
 
 ## Ändern der Standardoptionen im Windows-Installationsprogramm {#changing-default-options}
 
@@ -106,11 +106,11 @@ C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AE
 
 ## Massenregistrierung von Windows-Playern {#bulk-registration}
 
-Bei der Implementierung des Windows Players müssen Sie nicht jeden einzelnen Player manuell konfigurieren. Stattdessen können Sie die JSON-Konfigurationsdatei aktualisieren, nachdem sie getestet wurde und für die Bereitstellung bereit ist.
+Beim Implementieren von Windows-Playern müssen Sie nicht jeden einzelnen Player manuell konfigurieren. Stattdessen können Sie die JSON-Konfigurationsdatei aktualisieren, wenn sie getestet wurde und für die Bereitstellung bereit ist.
 
-Die Konfiguration stellt sicher, dass alle Player denselben Server in der Konfigurationsdatei pingen. Sie müssen jeden Player noch manuell registrieren.
+Die Konfiguration stellt sicher, dass alle Player denselben Server in der Konfigurationsdatei pingen. Sie müssen allerdings jeden Player manuell registrieren.
 
-Gehen Sie wie folgt vor, um den Windows 10 Player zu konfigurieren:
+So konfigurieren Sie den Windows 10-Player:
 
 1. Installieren Sie Windows Player.
 1. Suchen Sie die Konfigurationsdatei unter ***%appdata%\com.adobe.aem.screens.player\config.json***.
@@ -118,7 +118,7 @@ Gehen Sie wie folgt vor, um den Windows 10 Player zu konfigurieren:
 
 ### Richtlinienattribute {#policy-attributes}
 
-Die folgende Tabelle fasst die Richtlinienattribute mit einer JSON-Beispielrichtlinie für die Referenz zusammen:
+Die folgende Tabelle fasst zur Referenz die Richtlinienattribute mit einer JSON-Beispielrichtlinie zusammen:
 
 
 | **Richtlinienname** | **Zweck** |
@@ -126,7 +126,7 @@ Die folgende Tabelle fasst die Richtlinienattribute mit einer JSON-Beispielricht
 | Server | Die URL zum Adobe Experience Manager (AEM)-Server. |
 | registrationKey | Wird für die Massenregistrierung von Geräten mit vorab freigegebenen Schlüsseln verwendet. |
 | resolution | Die Auflösung des Geräts. |
-| rebootSchedule | Der Zeitplan für den Neustart des Players. |
+| rebootSchedule | Der Zeitplan zum Neustarten des Players. |
 | enableAdminUI | Aktivierung der Administrator-Benutzeroberfläche zum Konfigurieren des Geräts vor Ort. Stellen Sie diesen Wert auf „false“ ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und in der Produktion verwendet wird. |
 | enableOSD | Aktivierung der Kanalschalter-Benutzeroberfläche, damit Benutzer zwischen Kanälen auf dem Gerät wechseln können. Stellen Sie den Wert ggf. auf „false“ ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und in der Produktion verwendet wird. |
 | enableActivityUI | Aktivierung zum Anzeigen des Fortschritts von Aktivitäten wie Downloads und Synchronisierungen. Aktivieren Sie diese Option zur Fehlerbehebung und deaktivieren Sie sie, sobald sie vollständig konfiguriert ist und sich in der Produktion befindet. |
