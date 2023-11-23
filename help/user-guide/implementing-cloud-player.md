@@ -11,10 +11,11 @@ discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Administering Screens
 role: Admin
 level: Intermediate
-source-git-commit: 718ef76b620accd7096be2e4b7ac53658cb7fce7
-workflow-type: ht
-source-wordcount: '455'
-ht-degree: 100%
+exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
+source-git-commit: 8d1b955e54650daf3a09b5f1c16f92f2e1143f2c
+workflow-type: tm+mt
+source-wordcount: '582'
+ht-degree: 78%
 
 ---
 
@@ -67,3 +68,24 @@ Wählen Sie je nach Typ der AEM-Instanz eines der folgenden Handbücher aus, um 
 * [AEM On-Premises/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams)
 * [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs)
 
+## Offline-Unterstützung für externen Inhaltsabruf {#offline-support}
+
+In verschiedenen Nutzungsszenarien erfordern Kanäle möglicherweise das Abrufen von Inhalten aus einer externen Quelle (z. B. Wetter-Widgets oder Commerce-integrierte Einzelseiten-Apps), die von Natur aus keine Offline-Unterstützung bieten können. Um Offline-Funktionen für diese spezifischen Anwendungsfälle zu aktivieren, bietet der Cloud Player Unterstützung für benutzerdefinierte Kopfzeilen.
+Cloud Player nutzt eine Strategie für den ersten Netzwerkcache. Das bedeutet, dass versucht wird, Inhalte aus dem Netzwerk abzurufen (und dann den Cache mit der neuesten Version zu aktualisieren) und dabei auf den zwischengespeicherten Inhalt zurückzukehren, sofern verfügbar. Um die Offline-Unterstützung für diesen Inhaltsabruf zu implementieren, muss der benutzerdefinierte Header in die Anfrage aufgenommen werden. Anschließend wird die Anfrage mit dem benutzerdefinierten Header auf dem Player zwischengespeichert, was den Offline-Zugriff auf den Inhalt erleichtert und gleichzeitig die Strategie für den ersten Netzwerkcache verwaltet.
+
+```
+// Sample fetch request with the 'X-Cache-Strategy' header
+fetch(externalUrl, {
+  headers: {
+    'X-Cache-Strategy': 'external-cache'
+  }
+})
+  .then(response => {
+    // Handle the response, which may be from the network or cache.
+    // Your logic here.
+  })
+  .catch(error => {
+    // Handle any errors that may occur during the fetch operation.
+    // Your error handling logic here.
+  }); 
+```
