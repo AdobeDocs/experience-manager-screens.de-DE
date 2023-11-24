@@ -1,8 +1,8 @@
 ---
 title: Adobe Analytics-Integration mit AEM Screens
-seo-title: Adobe Analytics-Integration mit AEM Screens
+seo-title: Adobe Analytics Integration with AEM Screens
 description: Folgen Sie dieser Seite, um mehr über die vorkonfigurierte Integration von AEM Screens mit Adobe Analytics zu erfahren und einen Wiedergabenachweis zu erhalten.
-seo-description: Folgen Sie dieser Seite, um mehr über die vorkonfigurierte Integration von AEM Screens mit Adobe Analytics zu erfahren und einen Wiedergabenachweis zu erhalten.
+seo-description: Follow this page to learn about out of the box integration of AEM Screens with Adobe Analytics and provides you with a proof of play.
 uuid: 80d61af7-bf4d-46ca-a026-99a666c2e1a0
 contentOwner: jsyal
 content-type: reference
@@ -10,14 +10,14 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: b1a0e00e-0368-42c9-8bcd-5f00b4d0990c
 docset: aem65
-feature: Verwalten von Screens
+feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '704'
-ht-degree: 100%
+source-git-commit: 97820c602885ecf581ae1e6bada6c104aeeb4c70
+workflow-type: tm+mt
+source-wordcount: '690'
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->Diese AEM Screens-Funktion ist nur verfügbar, wenn Sie mindestens AEM 6.4.2 Feature Pack 2 oder AEM 6.3.3 Feature Pack 4 installiert haben.
+>Diese AEM Screens-Funktion ist nur verfügbar, wenn Sie mindestens AEM 6.4.2 Feature Pack 2 oder AEM 6.3.3 Feature Pack 4 installiert haben. Kunden von AEM Screens Cloud Service sollten sich an Ihren Adobe Relationship Manager wenden, um Adobe Analytics in Screens Cloud zu aktivieren.
 
 >[!NOTE]
 >
@@ -98,7 +98,7 @@ In der folgenden Tabelle werden die Eigenschaften mit ihrer Beschreibung zur Kon
   <tr>
    <td><strong>Analytics-URL</strong></td>
    <td>URL zum Posten von Analysedaten aus dem Player. <br>
-   Für Entwicklung/Staging</em>: https://cc-api-data-stage.adobe.io/ingest/<br /> <em>Für Produktion</em>: https://cc-api-data.adobe.io/ingest/</em><br /> <br /></td>
+   Für Entwicklung/Staging</em>: https://cc-api-data-stage.adobe.io/ingest/<br /> <em>Für Produktion</em>: https://cc-api-data.adobe.io/ingest/<br /> <br /></td>
   </tr>
   <tr>
    <td><strong>Analytics-API-Schlüssel</strong></td>
