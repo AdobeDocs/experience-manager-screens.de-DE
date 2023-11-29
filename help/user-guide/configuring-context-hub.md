@@ -1,8 +1,8 @@
 ---
 title: Konfigurieren von ContextHub in AEM Screens
-seo-title: Konfigurieren von ContextHub in AEM Screens
+seo-title: Configuring ContextHub in AEM Screens
 description: Auf dieser Seite erfahren Sie mehr über ContextHub in der Targeting-Engine, um den Datenspeicher für die Zwecke datenbasierter Inhaltsänderungen zu definieren.
-seo-description: Auf dieser Seite erfahren Sie mehr über ContextHub in der Targeting-Engine, um den Datenspeicher für die Zwecke datenbasierter Inhaltsänderungen zu definieren.
+seo-description: Follow this page to learn about ContextHub in the targeting engine to define data store for the purpose of data trigger content change.
 uuid: be06bda8-7de9-40d6-a84b-5ed8d8b3d180
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,16 +10,16 @@ topic-tags: developing
 content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
-feature: Entwicklung in Screens
+feature: Developing Screens
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '1533'
-ht-degree: 100%
+exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
+source-git-commit: 93e9514ebd25a4d84076174c4d90a0325b167393
+workflow-type: tm+mt
+source-wordcount: '1513'
+ht-degree: 98%
 
 ---
-
 
 # Konfigurieren von ContextHub in AEM Screens {#configuring-contexthub-in-aem-screens}
 
@@ -92,7 +92,6 @@ Die folgende Validierung wird angezeigt, wenn Sie Ihre Verbindung prüfen, indem
    1. **Navigieren** Sie zu **ContextHubDemo** > **Erstellen** **ContextHub-Konfiguration** und klicken Sie auf **Speichern**.
 
       >[!NOTE]
-      >
       > Nachdem Sie auf **Speichern** geklickt haben, befinden Sie sich auf dem Bildschirm **ContextHub-Konfiguration**.
 
    1. Klicken Sie im Bildschirm **ContextHub-Konfiguration** auf **Erstellen** > **ContentHub-Speicherkonfiguration**.
@@ -118,7 +117,6 @@ Die folgende Validierung wird angezeigt, wenn Sie Ihre Verbindung prüfen, indem
    1. Geben Sie unter **Titel** den Wert **Google Tabellen**, unter **Speichername** den Wert **googlesheets** und unter **Speichertyp** den Wert **contexthub.generic-jsonp** ein und klicken Sie auf **Weiter**.
 
       >[!CAUTION]
-      >
       >Wenn Sie Adobe Experience Manager (AEM) 6.4 verwenden, geben Sie den **Konfigurationstitel** als **googlesheets** und den **Store-Typ** als **contexthub.generic-jsonp** ein.
 
       ![image](/help/user-guide/assets/context-hub/context-hub6.png)
@@ -126,7 +124,6 @@ Die folgende Validierung wird angezeigt, wenn Sie Ihre Verbindung prüfen, indem
    1. Geben Sie Ihre spezifische json-Konfiguration ein. Sie können beispielsweise die folgende JSON-Datei für Demozwecke verwenden und auf **Speichern** klicken. Die Speicherkonfiguration wird dann in der ContextHub-Konfiguration als **Google Tabellen** angegeben.
 
       >[!IMPORTANT]
-      >
       >Stellen Sie sicher, dass Sie den Code durch Ihre *&lt;Tabellenblatt-ID>* und Ihren *&lt;API-Schlüssel>* ersetzen, den Sie beim Einrichten von Google Tabellen abgerufen haben.
 
       ```
@@ -147,13 +144,13 @@ Die folgende Validierung wird angezeigt, wenn Sie Ihre Verbindung prüfen, indem
 
       >[!NOTE]
       >
-      >Im obigen Beispiel-Code definiert **pollInterval** die Häufigkeit, mit der die Werte aktualisiert werden (in ms).
-      >Ersetzen Sie den Code durch Ihre *&lt;Tabellenblatt-ID>* und Ihren *&lt;API-Schlüssel>*, den Sie beim Einrichten von Google Tabellen abgerufen haben.
+      Im obigen Beispiel-Code definiert **pollInterval** die Häufigkeit, mit der die Werte aktualisiert werden (in ms).
+      >
+      Ersetzen Sie den Code durch Ihre *&lt;Tabellenblatt-ID>* und Ihren *&lt;API-Schlüssel>*, den Sie beim Einrichten von Google Tabellen abgerufen haben.
 
       >[!CAUTION]
       >
-      >Wenn Sie Google Tabellen-Speicherkonfigurationen außerhalb des globalen Ordners erstellen (z. B. in Ihrem eigenen Projektordner), funktioniert das Targeting nicht standardmäßig.
-
+      Wenn Sie Google Tabellen-Speicherkonfigurationen außerhalb des globalen Ordners erstellen (z. B. in Ihrem eigenen Projektordner), funktioniert das Targeting nicht standardmäßig.
 
 1. **Einrichten der Speichersegmentierung**
 
@@ -164,8 +161,7 @@ Die folgende Validierung wird angezeigt, wenn Sie Ihre Verbindung prüfen, indem
    1. Klicken Sie auf **Weiter** und dann auf **Speichern**.
 
       >[!NOTE]
-      >
-      >Sie müssen die Definition der JSON-Datei überspringen und diese leer lassen.
+Sie müssen die Definition der JSON-Datei überspringen und diese leer lassen.
 
 
 ## Schritt 3: Einrichten von Segmenten in der Zielgruppe {#setting-up-audience}
@@ -181,7 +177,6 @@ Die folgende Validierung wird angezeigt, wenn Sie Ihre Verbindung prüfen, indem
       ![image](/help/user-guide/assets/context-hub/context-hub11.png)
 
    1. Wählen Sie das Segment **Higherthan50** aus und klicken Sie in der Aktionsleiste auf **Eigenschaften**.
-
       ![image](/help/user-guide/assets/context-hub/context-hub12.png)
 
    1. Wählen Sie die Registerkarte **Personalisierung** aus den **Segmenteigenschaften** aus. Stellen Sie den **ContextHub-Pfad** auf `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` und den **Segmentpfad** auf `/conf/screens/settings/wcm/segments` ein und klicken Sie auf **Speichern**, wie in der folgenden Abbildung dargestellt.
@@ -209,8 +204,7 @@ Gehen Sie wie folgt vor, um eine Marke in Ihren Aktivitäten und einen Bereich u
 
       >[!CAUTION]
       >
-      >Bekanntes Problem:
-
+      Bekanntes Problem:
 Um einen Bereich hinzuzufügen, entfernen Sie den Master aus der URL, z. B.
       `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`.
 
@@ -268,8 +262,7 @@ Nachdem Sie einen Datenspeicher eingerichtet und Ihre Aktivität (Marke und Bere
    1. Wählen Sie **googlesheets/value/1/0** aus der Dropdown-Liste in **Eigenschaftsname** aus.
 
       >[!NOTE]
-      >
-      >**googlesheets/Wert/1/0** bezieht sich auf die Zeile 2 und die Spalte, wie in den Google-Tabellenblättern in der folgenden Abbildung angegeben:
+**googlesheets/Wert/1/0** bezieht sich auf die Zeile 2 und die Spalte, wie in den Google-Tabellenblättern in der folgenden Abbildung angegeben:
 
       ![image](/help/user-guide/assets/context-hub/context-hub17.png)
 
@@ -279,9 +272,10 @@ Nachdem Sie einen Datenspeicher eingerichtet und Ihre Aktivität (Marke und Bere
 
       >[!NOTE]
       >
-      >AEM validiert Ihre Daten aus dem Google-Tabellenblatt, indem Ihr Segment grün anzeigt wird.
+      AEM validiert Ihre Daten aus dem Google-Tabellenblatt, indem Ihr Segment grün anzeigt wird.
 
       ![image](/help/user-guide/assets/context-hub/context-hub18.png)
+
    Geben Sie die Eigenschaftswerte als **Lowerthan50** an.
 
    1. Ziehen Sie die Komponente **Vergleich: Eigenschaft - Wert** in den Editor.
@@ -293,7 +287,6 @@ Nachdem Sie einen Datenspeicher eingerichtet und Ihre Aktivität (Marke und Bere
    1. Wählen Sie unter **Operator** den Wert **kleiner als** aus dem Dropdown-Menü aus.
 
    1. Geben Sie den **Wert** als **50** ein.
-
 
 
 ## Aktivieren von Targeting in Kanälen {#step-enabling-targeting-in-channels}
@@ -308,21 +301,22 @@ Gehen Sie wie folgt vor, um Targeting in Ihren Kanälen zu aktivieren.
 
 1. Wählen Sie die Registerkarte **Personalisierung**, um die ContextHub-Konfigurationen einzurichten.
 
-   1. Stellen Sie den **ContextHub-Pfad** auf `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` und den **Segmentpfad** auf `/conf/screens/settings/wcm/segments` ein und klicken Sie auf **Speichern**.
+   1. Legen Sie die **ContextHub-Pfad** nach `/conf/screens/settings/wcm/segments` und **Segmentpfad** nach `/conf/screens/settings/wcm/segments`.
+   1. Marke setzen auf **ScreensBrand** aus dem Dropdown-Menü und **Gebietsreferenz festlegen** nach **ScreensValue**.
 
    1. Klicken Sie auf **Speichern und schließen**.
 
       >[!NOTE]
       >
-      >Verwenden Sie den ContextHub- und den Segmentpfad, in dem Sie Ihre Kontexthub-Konfigurationen und -Segmente anfänglich gespeichert haben.
+      Verwenden Sie den ContextHub- und den Segmentpfad, in dem Sie Ihre Kontexthub-Konfigurationen und -Segmente anfänglich gespeichert haben.
 
-      ![image](/help/user-guide/assets/context-hub/context-hub20.png)
+      ![image](/help/user-guide/assets/context-hub/context-hub20New.png)
 
    1. Navigieren Sie zu und wählen Sie **TargetChannel** aus und klicken Sie in der Aktionsleiste auf **Bearbeiten**.
 
       >[!NOTE]
       >
-      >Wenn Sie alles korrekt eingerichtet haben, sehen Sie die Option **Targeting** in der Dropdown-Liste des Editors, wie in der Abbildung unten gezeigt.
+      Wenn Sie alles korrekt eingerichtet haben, sehen Sie die Option **Targeting** in der Dropdown-Liste des Editors, wie in der Abbildung unten gezeigt.
 
       ![image](/help/user-guide/assets/context-hub/context-hub21.png)
 
