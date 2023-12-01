@@ -13,9 +13,9 @@ role: Admin
 level: Intermediate
 exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
 source-git-commit: 8d1b955e54650daf3a09b5f1c16f92f2e1143f2c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '582'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -68,10 +68,10 @@ Wählen Sie je nach Typ der AEM-Instanz eines der folgenden Handbücher aus, um 
 * [AEM On-Premises/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams)
 * [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs)
 
-## Offline-Unterstützung für externen Inhaltsabruf {#offline-support}
+## Offline-Unterstützung für Abruf von externen Inhalten {#offline-support}
 
-In verschiedenen Nutzungsszenarien erfordern Kanäle möglicherweise das Abrufen von Inhalten aus einer externen Quelle (z. B. Wetter-Widgets oder Commerce-integrierte Einzelseiten-Apps), die von Natur aus keine Offline-Unterstützung bieten können. Um Offline-Funktionen für diese spezifischen Anwendungsfälle zu aktivieren, bietet der Cloud Player Unterstützung für benutzerdefinierte Kopfzeilen.
-Cloud Player nutzt eine Strategie für den ersten Netzwerkcache. Das bedeutet, dass versucht wird, Inhalte aus dem Netzwerk abzurufen (und dann den Cache mit der neuesten Version zu aktualisieren) und dabei auf den zwischengespeicherten Inhalt zurückzukehren, sofern verfügbar. Um die Offline-Unterstützung für diesen Inhaltsabruf zu implementieren, muss der benutzerdefinierte Header in die Anfrage aufgenommen werden. Anschließend wird die Anfrage mit dem benutzerdefinierten Header auf dem Player zwischengespeichert, was den Offline-Zugriff auf den Inhalt erleichtert und gleichzeitig die Strategie für den ersten Netzwerkcache verwaltet.
+In verschiedenen Nutzungsszenarien erfordern Kanäle möglicherweise das Abrufen von Inhalten aus einer externen Quelle (z. B. Wetter-Widgets oder Commerce-integrierte Single Page Applications), die grundsätzlich keine Offline-Unterstützung bieten können. Um Offline-Funktionen für diese spezifischen Anwendungsfälle zu aktivieren, bietet der Cloud-Player Unterstützung für benutzerdefinierte Kopfzeilen.
+Der Cloud-Player nutzt eine Network First-Cache-Strategie. Das bedeutet, dass versucht wird, Inhalte aus dem Netzwerk abzurufen (und dann den Cache mit den neuesten Inhalten zu aktualisieren), wobei auf den zwischengespeicherten Inhalt zurückgefallen wird, sofern verfügbar. Um die Offline-Unterstützung für ein solches Abrufen von Inhalten zu implementieren, muss die benutzerdefinierte Kopfzeile in die Anfrage aufgenommen werden. Anschließend wird die Anfrage mit der benutzerdefinierten Kopfzeile auf dem Player zwischengespeichert, was den Offline-Zugriff auf den Inhalt erleichtert und gleichzeitig die Network First-Cache-Strategie aufrechterhält.
 
 ```
 // Sample fetch request with the 'X-Cache-Strategy' header
