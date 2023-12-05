@@ -144,13 +144,13 @@ Die folgende Validierung wird angezeigt, wenn Sie Ihre Verbindung prüfen, indem
 
       >[!NOTE]
       >
-      Im obigen Beispiel-Code definiert **pollInterval** die Häufigkeit, mit der die Werte aktualisiert werden (in ms).
+      >Im obigen Beispiel-Code definiert **pollInterval** die Häufigkeit, mit der die Werte aktualisiert werden (in ms).
       >
       Ersetzen Sie den Code durch Ihre *&lt;Tabellenblatt-ID>* und Ihren *&lt;API-Schlüssel>*, den Sie beim Einrichten von Google Tabellen abgerufen haben.
 
       >[!CAUTION]
       >
-      Wenn Sie Google Tabellen-Speicherkonfigurationen außerhalb des globalen Ordners erstellen (z. B. in Ihrem eigenen Projektordner), funktioniert das Targeting nicht standardmäßig.
+      >Wenn Sie Google Tabellen-Speicherkonfigurationen außerhalb des globalen Ordners erstellen (z. B. in Ihrem eigenen Projektordner), funktioniert das Targeting nicht standardmäßig.
 
 1. **Einrichten der Speichersegmentierung**
 
@@ -161,8 +161,9 @@ Die folgende Validierung wird angezeigt, wenn Sie Ihre Verbindung prüfen, indem
    1. Klicken Sie auf **Weiter** und dann auf **Speichern**.
 
       >[!NOTE]
-Sie müssen die Definition der JSON-Datei überspringen und diese leer lassen.
-
+      >
+      >Sie müssen die Definition der JSON-Datei überspringen und diese leer lassen.
+      >
 
 ## Schritt 3: Einrichten von Segmenten in der Zielgruppe {#setting-up-audience}
 
@@ -204,9 +205,9 @@ Gehen Sie wie folgt vor, um eine Marke in Ihren Aktivitäten und einen Bereich u
 
       >[!CAUTION]
       >
-      Bekanntes Problem:
-Um einen Bereich hinzuzufügen, entfernen Sie den Master aus der URL, z. B.
-      `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`.
+      >Bekanntes Problem:
+      >Um einen Bereich hinzuzufügen, entfernen Sie den Master aus der URL, z. B.
+      >`http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`.
 
 1. **Erstellen eines Bereichs in Ihrer Marke**
 
@@ -262,7 +263,8 @@ Nachdem Sie einen Datenspeicher eingerichtet und Ihre Aktivität (Marke und Bere
    1. Wählen Sie **googlesheets/value/1/0** aus der Dropdown-Liste in **Eigenschaftsname** aus.
 
       >[!NOTE]
-**googlesheets/Wert/1/0** bezieht sich auf die Zeile 2 und die Spalte, wie in den Google-Tabellenblättern in der folgenden Abbildung angegeben:
+      >
+      >**googlesheets/Wert/1/0** bezieht sich auf die Zeile 2 und die Spalte, wie in den Google-Tabellenblättern in der folgenden Abbildung angegeben:
 
       ![image](/help/user-guide/assets/context-hub/context-hub17.png)
 
@@ -272,7 +274,7 @@ Nachdem Sie einen Datenspeicher eingerichtet und Ihre Aktivität (Marke und Bere
 
       >[!NOTE]
       >
-      AEM validiert Ihre Daten aus dem Google-Tabellenblatt, indem Ihr Segment grün anzeigt wird.
+      >AEM validiert Ihre Daten aus dem Google-Tabellenblatt, indem Ihr Segment grün anzeigt wird.
 
       ![image](/help/user-guide/assets/context-hub/context-hub18.png)
 
@@ -308,7 +310,7 @@ Gehen Sie wie folgt vor, um Targeting in Ihren Kanälen zu aktivieren.
 
       >[!NOTE]
       >
-      Verwenden Sie den ContextHub- und den Segmentpfad, in dem Sie Ihre Kontexthub-Konfigurationen und -Segmente anfänglich gespeichert haben.
+      >Verwenden Sie den ContextHub- und den Segmentpfad, in dem Sie Ihre Kontexthub-Konfigurationen und -Segmente anfänglich gespeichert haben.
 
       ![image](/help/user-guide/assets/context-hub/context-hub20New.png)
 
@@ -316,7 +318,7 @@ Gehen Sie wie folgt vor, um Targeting in Ihren Kanälen zu aktivieren.
 
       >[!NOTE]
       >
-      Wenn Sie alles korrekt eingerichtet haben, sehen Sie die Option **Targeting** in der Dropdown-Liste des Editors, wie in der Abbildung unten gezeigt.
+      >Wenn Sie alles korrekt eingerichtet haben, sehen Sie die Option **Targeting** in der Dropdown-Liste des Editors, wie in der Abbildung unten gezeigt.
 
       ![image](/help/user-guide/assets/context-hub/context-hub21.png)
 
