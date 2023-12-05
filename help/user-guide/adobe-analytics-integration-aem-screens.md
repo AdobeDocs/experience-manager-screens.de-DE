@@ -15,9 +15,9 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
 source-git-commit: 97820c602885ecf581ae1e6bada6c104aeeb4c70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '690'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 97%
 
 >[!CAUTION]
 >
->Diese AEM Screens-Funktion ist nur verfügbar, wenn Sie mindestens AEM 6.4.2 Feature Pack 2 oder AEM 6.3.3 Feature Pack 4 installiert haben. Kunden von AEM Screens Cloud Service sollten sich an Ihren Adobe Relationship Manager wenden, um Adobe Analytics in Screens Cloud zu aktivieren.
+>Diese AEM Screens-Funktion ist nur verfügbar, wenn Sie mindestens AEM 6.4.2 Feature Pack 2 oder AEM 6.3.3 Feature Pack 4 installiert haben. Kundinnen und Kunden von AEM Screens as a Cloud Service sollten sich an ihren Adobe Relationship Manager wenden, um Adobe Analytics in Screens Cloud zu aktivieren.
 
 >[!NOTE]
 >
