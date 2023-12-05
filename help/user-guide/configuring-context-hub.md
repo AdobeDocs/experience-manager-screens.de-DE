@@ -15,9 +15,9 @@ role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
 source-git-commit: 93e9514ebd25a4d84076174c4d90a0325b167393
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1513'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -247,7 +247,7 @@ Nachdem Sie einen Datenspeicher eingerichtet und Ihre Aktivität (Marke und Bere
 
       ![image](/help/user-guide/assets/context-hub/context-hub16.png)
 
-## Schritt 5: Bearbeiten der Segmente in Zielgruppen {#editing-audience-segmentation}
+## Schritt 5: Bearbeiten der Segmente in Zielgruppen{#editing-audience-segmentation}
 
 1. **Bearbeiten der Segmente**
 
@@ -301,8 +301,8 @@ Gehen Sie wie folgt vor, um Targeting in Ihren Kanälen zu aktivieren.
 
 1. Wählen Sie die Registerkarte **Personalisierung**, um die ContextHub-Konfigurationen einzurichten.
 
-   1. Legen Sie die **ContextHub-Pfad** nach `/conf/screens/settings/wcm/segments` und **Segmentpfad** nach `/conf/screens/settings/wcm/segments`.
-   1. Marke setzen auf **ScreensBrand** aus dem Dropdown-Menü und **Gebietsreferenz festlegen** nach **ScreensValue**.
+   1. Stellen Sie den **ContextHub-Pfad** auf `/conf/screens/settings/wcm/segments` und den **Segmentpfad** auf `/conf/screens/settings/wcm/segments` ein.
+   1. Setzen Sie die Marke im Dropdown-Menü auf **ScreensBrand** und setzen Sie **Gebietsverweis festlegen** auf **ScreensValue**.
 
    1. Klicken Sie auf **Speichern und schließen**.
 
