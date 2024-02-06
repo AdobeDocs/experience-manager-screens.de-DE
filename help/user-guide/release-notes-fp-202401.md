@@ -4,9 +4,9 @@ description: Auf dieser Seite finden Sie Informationen zum AEM Screens Feature P
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: e172d2a4a3d2c1f3b555edc8f8ea41b663fc0a30
-workflow-type: ht
-source-wordcount: '250'
+source-git-commit: bdc8ff6c1291b7f0dc749e4a9f3a4c1d21678303
+workflow-type: tm+mt
+source-wordcount: '232'
 ht-degree: 100%
 
 ---
@@ -53,7 +53,3 @@ Diese Version beinhaltet nur Sicherheits-Fehlerbehebungen.
 * XSS-Problem in `libs/screens/dcc/components/clientlibs/actions/cq.screens.dcc.openLink.js`. (SCRNS-3459)
 
 * Behoben: Fehlende Schaltflächen für „Wiederholungszeitplan“ und „Zeitplan hinzufügen“: Ein Problem in der Kanalplanung wurde entdeckt. (SCRNS-2739)
-
-#### AEM Screens-Player-Downloads   {#aem-screens-player-downloads}
-
-Informationen zum Herunterladen des neuesten AEM Screens-Players finden Sie unter **[AEM Screens Player-Downloads](https://download.macromedia.com/screens/index.html)**.
