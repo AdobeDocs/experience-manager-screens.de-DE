@@ -12,16 +12,20 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
-source-git-commit: 8d1b955e54650daf3a09b5f1c16f92f2e1143f2c
-workflow-type: ht
-source-wordcount: '582'
-ht-degree: 100%
+source-git-commit: 214da80530b472b67a30b575eb8ab11486d44692
+workflow-type: tm+mt
+source-wordcount: '858'
+ht-degree: 65%
 
 ---
 
 # Implementieren des Cloud-Players  {#implementing-cloud-player}
 
+AEM Screens bietet seit jeher verschiedene native Player-Anwendungen für verschiedene Plattformen wie ChromeOS, Windows, Android und Tizen an. Aufgrund der sich entwickelnden Bedürfnisse unserer Benutzer haben wir jedoch eine innovative Lösung eingeführt - den AEM Screens Cloud Player.
+Der Cloud-Player stellt eine wesentliche Abweichung von unseren vorherigen nativen Anwendungen dar. Es handelt sich um eine Progressive Web App (PWA), die auf einem Server gehostet wird. Dieser transformative Ansatz ermöglicht unseren Kunden einen plattformunabhängigen Player, der direkt in einem Webbrowser ausgeführt wird.
+Der Zugriff auf den Cloud-Player ist so einfach wie der Besuch von https://player.adobescreens.com. Benutzer können es unabhängig von der Plattform auf ihrem Gerät installieren und nahtlose digitale Beschilderungen nutzen. Die Kompatibilität des Cloud-Players hängt von der Verfügbarkeit eines modernen Browsers mit PWA-Unterstützung ab, wodurch eine konsistente Leistung auf verschiedenen Geräten sichergestellt wird. Verabschieden Sie sich von manuellen Aktualisierungen und hello zu einem Player, der automatisch Fehlerbehebungen und Funktionen bereitstellt und sicherstellt, dass Sie stets über die neuesten Funktionen verfügen. Diese Umstellung auf einen PWA-basierten Cloud-Player stellt eine aufregende Weiterentwicklung unserer Digital Signage-Angebote dar und macht sie leichter zugänglich, vielseitiger und benutzerfreundlicher als je zuvor.
 In diesem Abschnitt wird die Implementierung des Cloud-Players beschrieben.
+
 
 >[!NOTE]
 >
@@ -34,17 +38,19 @@ Die Installation des Cloud-Players kann auf verschiedenen Plattformen variieren.
 1. Öffnen Sie den Browser und geben Sie die [Cloud-Player-URL](https://player.adobescreens.com) in die Adressleiste ein.
 1. Der Browser prüft, ob der Cloud-Player installiert ist, und zeigt dann in der Adressleiste ein Installationssymbol an.
 
-![Bild](/help/user-guide/assets/cloud-player-install.png)
+   ![Bild](/help/user-guide/assets/cloud-player-install.png)
 
 1. Klicken Sie auf das Installationssymbol und anschließend auf die Schaltfläche „Installieren“ im Bestätigungsdialogfeld. Der Cloud-Player wird als eigenständige Anwendung auf Ihrem Gerät installiert und kann über ein Symbol gestartet werden.
 
-### Cloud-Player-Installationsoption {#cloud-player-install-option}
-
+>[!NOTE]
+>
+>### Cloud-Player-Installationsoption {#cloud-player-install-option}
+>
 1. Die Installationsoption für eine PWA wird auch als „Zum Startbildschirm hinzufügen“ oder A2HS-Funktion bezeichnet.  Die Unterstützung für die Installation von PWAs über das Internet variiert je nach Browser und Plattform.
 1. Jeder Browser hat unterschiedliche Kriterien, um zu überprüfen, ob die PWA installiert ist oder nicht. Im Allgemeinen überprüft der Browser diese (weitere Details finden Sie hier):
-   * Wenn die Anwendung über eine Manifest-JSON-Datei mit minimalen erforderlichen Schlüsseln für die Installation der Anwendung auf der Plattform verfügt, d. h. Name, Symbole, start_url, Anzeige.
-   * Wenn die Anwendung über eine Service-Worker-Datei mit einem Ereignis-Listener zum Abrufen verfügt.
-   * Die Anwendung muss über HTTPS bereitgestellt werden.
+* Wenn die Anwendung über eine Manifest-JSON-Datei mit minimalen erforderlichen Schlüsseln für die Installation der Anwendung auf der Plattform verfügt, d. h. Name, Symbole, start_url, Anzeige.
+* Wenn die Anwendung über eine Service-Worker-Datei mit einem Ereignis-Listener zum Abrufen verfügt.
+* Die Anwendung muss über HTTPS bereitgestellt werden.
 1. Die Installationsoption kann an verschiedenen Stellen in verschiedenen Browsern und Gerätetypen angezeigt werden. In einigen Browsern wird das Installationssymbol möglicherweise in der Menüleiste für Optionen ausgeblendet.
 
 ## Massenbereitstellung des Cloud-Players {#bulk-provisioning}
@@ -68,6 +74,12 @@ Wählen Sie je nach Typ der AEM-Instanz eines der folgenden Handbücher aus, um 
 * [AEM On-Premises/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams)
 * [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs)
 
+>[!NOTE]
+>
+## Veraltete Chrome-Apps von Google
+1. Chrome Apps auf Chrome OS-Hardware: Google hat Chrome-Apps aktiv für PWA-Apps eingestellt, wobei die Migration bis Januar 2025 geplant war. Folglich funktioniert die AEM Screens Player-App unter Chrome OS nicht mehr auf der freigegebenen Timeline. Wir fordern unsere Kunden, die derzeit den Chrome-Player in Produktion verwenden, dringend auf, die Umstellung auf den Screens Cloud Player zu planen.
+2. Chrome Extension Player unter Mac, Windows und Linux: Aufgrund des veralteten Google-Prozesses ab Google Chrome Version 114 wird der Screens Chrome Extension Player nicht mehr unterstützt. Wir empfehlen dringend, für alle Entwicklungs- und Testanforderungen zu unserem Screens Cloud Player zu wechseln.
+
 ## Offline-Unterstützung für Abruf von externen Inhalten {#offline-support}
 
 In verschiedenen Nutzungsszenarien erfordern Kanäle möglicherweise das Abrufen von Inhalten aus einer externen Quelle (z. B. Wetter-Widgets oder Commerce-integrierte Single Page Applications), die grundsätzlich keine Offline-Unterstützung bieten können. Um Offline-Funktionen für diese spezifischen Anwendungsfälle zu aktivieren, bietet der Cloud-Player Unterstützung für benutzerdefinierte Kopfzeilen.
@@ -89,3 +101,7 @@ fetch(externalUrl, {
     // Your error handling logic here.
   }); 
 ```
+
+## Feedback
+
+Wir schätzen Ihr Feedback! Teilen Sie uns Ihre Gedanken damit mit. [Formular](https://forms.office.com/r/MQXX9JsuEd).
