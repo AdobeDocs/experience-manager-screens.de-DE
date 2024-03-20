@@ -76,9 +76,11 @@ Wählen Sie je nach Typ der AEM-Instanz eines der folgenden Handbücher aus, um 
 
 >[!NOTE]
 >
-## Veraltete Chrome-Apps von Google
-1. Chrome Apps auf Chrome OS-Hardware: Google hat Chrome-Apps aktiv für PWA-Apps eingestellt, wobei die Migration bis Januar 2025 geplant war. Folglich funktioniert die AEM Screens Player-App unter Chrome OS nicht mehr auf der freigegebenen Timeline. Wir fordern unsere Kunden, die derzeit den Chrome-Player in Produktion verwenden, dringend auf, die Umstellung auf den Screens Cloud Player zu planen.
-2. Chrome Extension Player unter Mac, Windows und Linux: Aufgrund des veralteten Google-Prozesses ab Google Chrome Version 114 wird der Screens Chrome Extension Player nicht mehr unterstützt. Wir empfehlen dringend, für alle Entwicklungs- und Testanforderungen zu unserem Screens Cloud Player zu wechseln.
+>## Veraltete Chrome-Apps von Google
+>1. Chrome Apps auf Chrome OS-Hardware: 
+>Google hat Chrome-Apps aktiv für PWA-Apps eingestellt, wobei die Migration bis Januar 2025 geplant war. Folglich funktioniert die AEM Screens Player-App unter Chrome OS nicht mehr auf der freigegebenen Timeline. Wir fordern unsere Kunden, die derzeit den Chrome-Player in Produktion verwenden, dringend auf, die Umstellung auf den Screens Cloud Player zu planen.
+>2. Chrome Extension Player unter Mac, Windows und Linux: 
+>Aufgrund des veralteten Google-Prozesses ab Google Chrome Version 114 wird der Screens Chrome Extension Player nicht mehr unterstützt. Wir empfehlen dringend, für alle Entwicklungs- und Testanforderungen zu unserem Screens Cloud Player zu wechseln.
 
 ## Offline-Unterstützung für Abruf von externen Inhalten {#offline-support}
 
