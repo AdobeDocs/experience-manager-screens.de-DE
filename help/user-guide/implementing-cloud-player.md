@@ -13,17 +13,19 @@ role: Admin
 level: Intermediate
 exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
 source-git-commit: 214da80530b472b67a30b575eb8ab11486d44692
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '858'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
 # Implementieren des Cloud-Players  {#implementing-cloud-player}
 
-AEM Screens bietet seit jeher verschiedene native Player-Anwendungen für verschiedene Plattformen wie ChromeOS, Windows, Android und Tizen an. Aufgrund der sich entwickelnden Bedürfnisse unserer Benutzer haben wir jedoch eine innovative Lösung eingeführt - den AEM Screens Cloud Player.
-Der Cloud-Player stellt eine wesentliche Abweichung von unseren vorherigen nativen Anwendungen dar. Es handelt sich um eine Progressive Web App (PWA), die auf einem Server gehostet wird. Dieser transformative Ansatz ermöglicht unseren Kunden einen plattformunabhängigen Player, der direkt in einem Webbrowser ausgeführt wird.
-Der Zugriff auf den Cloud-Player ist so einfach wie der Besuch von https://player.adobescreens.com. Benutzer können es unabhängig von der Plattform auf ihrem Gerät installieren und nahtlose digitale Beschilderungen nutzen. Die Kompatibilität des Cloud-Players hängt von der Verfügbarkeit eines modernen Browsers mit PWA-Unterstützung ab, wodurch eine konsistente Leistung auf verschiedenen Geräten sichergestellt wird. Verabschieden Sie sich von manuellen Aktualisierungen und hello zu einem Player, der automatisch Fehlerbehebungen und Funktionen bereitstellt und sicherstellt, dass Sie stets über die neuesten Funktionen verfügen. Diese Umstellung auf einen PWA-basierten Cloud-Player stellt eine aufregende Weiterentwicklung unserer Digital Signage-Angebote dar und macht sie leichter zugänglich, vielseitiger und benutzerfreundlicher als je zuvor.
+Bisher hat AEM Screens separate native Player-Anwendungen für verschiedene Plattformen wie ChromeOS, Windows, Android und Tizen angeboten. Da sich die Bedürfnisse unserer Benutzenden jedoch ständig weiterentwickeln, haben wir eine innovative Lösung eingeführt: den AEM Screens-Cloud-Player.
+Der Cloud-Player weicht deutlich von unseren vorherigen nativen Anwendungen ab. Es handelt sich dabei um eine Progressive Web App (PWA), die auf einem Server gehostet wird. Dieser transformative Ansatz stellt unseren Kundinnen und Kunden einen plattformunabhängigen Player zur Verfügung, der direkt in einem Webbrowser ausgeführt wird.
+Der Zugriff auf den Cloud-Player erfolgt ganz einfach über https://player.adobescreens.com. Benutzende können ihn unabhängig von der Plattform auf ihrem Gerät installieren und ein nahtloses Erlebnis für digitale Beschilderungen erhalten. Die Kompatibilität des Cloud-Players hängt von der Verfügbarkeit eines modernen Browsers
+mit PWA-Unterstützung ab, um eine konsistente Leistung auf verschiedenen Geräten sicherzustellen. Manuelle Aktualisierungen haben ein Ende. Freuen Sie sich stattdessen über einen Player, der automatisch Fehlerbehebungen und Funktionen bereitstellt, sodass Sie stets über die neuesten Funktionen verfügen. Diese Umstellung auf einen PWA-basierten Cloud-Player
+stellt eine spannende Weiterentwicklung unseres Angebots an digitalen Beschilderungen dar, das dadurch leichter zugänglich, vielseitiger und benutzerfreundlicher als je zuvor wird.
 In diesem Abschnitt wird die Implementierung des Cloud-Players beschrieben.
 
 
@@ -76,11 +78,11 @@ Wählen Sie je nach Typ der AEM-Instanz eines der folgenden Handbücher aus, um 
 
 >[!NOTE]
 >
->## Veraltete Chrome-Apps von Google
->1. Chrome Apps auf Chrome OS-Hardware: 
->Google hat Chrome-Apps aktiv für PWA-Apps eingestellt, wobei die Migration bis Januar 2025 geplant war. Folglich funktioniert die AEM Screens Player-App unter Chrome OS nicht mehr auf der freigegebenen Timeline. Wir fordern unsere Kunden, die derzeit den Chrome-Player in Produktion verwenden, dringend auf, die Umstellung auf den Screens Cloud Player zu planen.
->2. Chrome Extension Player unter Mac, Windows und Linux: 
->Aufgrund des veralteten Google-Prozesses ab Google Chrome Version 114 wird der Screens Chrome Extension Player nicht mehr unterstützt. Wir empfehlen dringend, für alle Entwicklungs- und Testanforderungen zu unserem Screens Cloud Player zu wechseln.
+## Einstellung von Chrome-Apps durch Google
+1. Chrome-Apps auf Chrome OS-Hardware:
+Google arbeitet aktiv an der Einstellung von Chrome-Apps und stellt stattdessen auf PWA-Apps um, wobei die Migration bis Januar 2025 geplant ist. Dementsprechend wird die AEM Screens-Player-App unter Chrome OS gemäß dem mitgeteilten Zeitplan nicht mehr funktionieren. Kundinnen und Kunden, die den Chrome-Player derzeit in der Produktion verwenden, sollten die Umstellung auf den Screens-Cloud-Player planen.
+2. Player für Chrome-Erweiterungen unter Mac, Windows und Linux:
+Aufgrund des Einstellungsprozesses von Google wird der Screens-Player für Chrome-Erweiterungen ab Google Chrome Version 114 nicht mehr unterstützt. Wir empfehlen dringend, für alle Entwicklungs- und Testanforderungen zu unserem Screens-Cloud-Player zu wechseln.
 
 ## Offline-Unterstützung für Abruf von externen Inhalten {#offline-support}
 
@@ -106,4 +108,4 @@ fetch(externalUrl, {
 
 ## Feedback
 
-Wir schätzen Ihr Feedback! Teilen Sie uns Ihre Gedanken damit mit. [Formular](https://forms.office.com/r/MQXX9JsuEd).
+Ihr Feedback ist uns wichtig. Bitte teilen Sie uns über dieses [Formular](https://forms.office.com/r/MQXX9JsuEd) Ihre Gedanken mit.
