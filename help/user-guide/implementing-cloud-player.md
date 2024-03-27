@@ -48,12 +48,12 @@ Die Installation des Cloud-Players kann auf verschiedenen Plattformen variieren.
 >
 >### Cloud-Player-Installationsoption {#cloud-player-install-option}
 >
-1. Die Installationsoption für eine PWA wird auch als „Zum Startbildschirm hinzufügen“ oder A2HS-Funktion bezeichnet.  Die Unterstützung für die Installation von PWAs über das Internet variiert je nach Browser und Plattform.
-1. Jeder Browser hat unterschiedliche Kriterien, um zu überprüfen, ob die PWA installiert ist oder nicht. Im Allgemeinen überprüft der Browser diese (weitere Details finden Sie hier):
-* Wenn die Anwendung über eine Manifest-JSON-Datei mit minimalen erforderlichen Schlüsseln für die Installation der Anwendung auf der Plattform verfügt, d. h. Name, Symbole, start_url, Anzeige.
-* Wenn die Anwendung über eine Service-Worker-Datei mit einem Ereignis-Listener zum Abrufen verfügt.
-* Die Anwendung muss über HTTPS bereitgestellt werden.
-1. Die Installationsoption kann an verschiedenen Stellen in verschiedenen Browsern und Gerätetypen angezeigt werden. In einigen Browsern wird das Installationssymbol möglicherweise in der Menüleiste für Optionen ausgeblendet.
+>1. Die Installationsoption für eine PWA wird auch als „Zum Startbildschirm hinzufügen“ oder A2HS-Funktion bezeichnet.  Die Unterstützung für die Installation von PWAs über das Internet variiert je nach Browser und Plattform.
+>1. Jeder Browser hat unterschiedliche Kriterien, um zu überprüfen, ob die PWA installiert ist oder nicht. Im Allgemeinen überprüft der Browser diese (weitere Details finden Sie hier):
+>   * Wenn die Anwendung über eine Manifest-JSON-Datei mit minimalen erforderlichen Schlüsseln für die Installation der Anwendung auf der Plattform verfügt, d. h. Name, Symbole, start_url, Anzeige.
+>   * Wenn die Anwendung über eine Service-Worker-Datei mit einem Ereignis-Listener zum Abrufen verfügt.
+>   * Die Anwendung muss über HTTPS bereitgestellt werden.
+>1. Die Installationsoption kann an verschiedenen Stellen in verschiedenen Browsern und Gerätetypen angezeigt werden. In einigen Browsern wird das Installationssymbol möglicherweise in der Menüleiste für Optionen ausgeblendet.
 
 ## Massenbereitstellung des Cloud-Players {#bulk-provisioning}
 
@@ -78,11 +78,11 @@ Wählen Sie je nach Typ der AEM-Instanz eines der folgenden Handbücher aus, um 
 
 >[!NOTE]
 >
-## Einstellung von Chrome-Apps durch Google
-1. Chrome-Apps auf Chrome OS-Hardware:
-Google arbeitet aktiv an der Einstellung von Chrome-Apps und stellt stattdessen auf PWA-Apps um, wobei die Migration bis Januar 2025 geplant ist. Dementsprechend wird die AEM Screens-Player-App unter Chrome OS gemäß dem mitgeteilten Zeitplan nicht mehr funktionieren. Kundinnen und Kunden, die den Chrome-Player derzeit in der Produktion verwenden, sollten die Umstellung auf den Screens-Cloud-Player planen.
-2. Player für Chrome-Erweiterungen unter Mac, Windows und Linux:
-Aufgrund des Einstellungsprozesses von Google wird der Screens-Player für Chrome-Erweiterungen ab Google Chrome Version 114 nicht mehr unterstützt. Wir empfehlen dringend, für alle Entwicklungs- und Testanforderungen zu unserem Screens-Cloud-Player zu wechseln.
+>## Einstellung von Chrome-Apps durch Google
+>1. Chrome-Apps auf Chrome OS-Hardware:
+>Google arbeitet aktiv an der Einstellung von Chrome-Apps und stellt stattdessen auf PWA-Apps um, wobei die Migration bis Januar 2025 geplant ist. Dementsprechend wird die AEM Screens-Player-App unter Chrome OS gemäß dem mitgeteilten Zeitplan nicht mehr funktionieren. Kundinnen und Kunden, die den Chrome-Player derzeit in der Produktion verwenden, sollten die Umstellung auf den Screens-Cloud-Player planen.
+>2. Player für Chrome-Erweiterungen unter Mac, Windows und Linux:
+>Aufgrund des Einstellungsprozesses von Google wird der Screens-Player für Chrome-Erweiterungen ab Google Chrome Version 114 nicht mehr unterstützt. Wir empfehlen dringend, für alle Entwicklungs- und Testanforderungen zu unserem Screens-Cloud-Player zu wechseln.
 
 ## Offline-Unterstützung für Abruf von externen Inhalten {#offline-support}
 
