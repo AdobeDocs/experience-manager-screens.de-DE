@@ -1,12 +1,12 @@
 ---
-title: 'Konfigurieren des Workflows für die direkte Platzierung '
-seo-title: Konfigurieren des Workflows für die direkte Platzierung
+title: Konfigurieren des Workflows für die direkte Platzierung
+seo-title: Direct Placement Workflow Configuration
 description: Auf dieser Seite wird die Konfiguration des Workflows für die direkte Platzierung beschrieben.
-seo-description: Auf dieser Seite wird die Konfiguration des Workflows für die direkte Platzierung beschrieben.
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+seo-description: This page highlights Direct Placement Workflow Configuration.
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 100%
+source-wordcount: '195'
+ht-degree: 87%
 
 ---
 
@@ -20,7 +20,7 @@ In diesem Abschnitt werden folgende Themen behandelt:
 * Überblick
 * Konfigurieren des Workflows für die direkte Platzierung
 
-## Überblick {#overview}
+## Übersicht {#overview}
 
 Die Konfiguration des Workflows für die direkte Platzierung ordnet einen Kanal in einem AEM Screens-Projekt einem bestimmten Ordner in Assets zu und ermöglicht die Platzierung von Assets in diesem Ordner. Es wird empfohlen, ein Massen-Offline-Update auszulösen, um die Veröffentlichung durchzuführen.
 
@@ -34,7 +34,7 @@ Alternativ kann der Inhaltsautor manuell auf **Offline-Inhalt aktualisieren** kl
 
 >[!IMPORTANT]
 >
->Installieren Sie das [Demopaket](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip), bevor Sie mit der Konfiguration beginnen. Nachdem Sie das Paket installiert haben, sollten Sie es über Ihre AEM-Instanz > „Tools“ (Symbol) > **Workflow** > **Workflow-Modelle** anzeigen und darauf zugreifen können.
+>Installieren Sie das [Demopaket](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip), bevor Sie mit der Konfiguration beginnen. Nachdem Sie das Paket installiert haben, sollten Sie es über Ihre AEM-Instanz > Tools (Symbol) > **Workflow** > **Workflow-Modelle**.
 
 So konfigurieren Sie den Workflow für die direkte Platzierung:
 

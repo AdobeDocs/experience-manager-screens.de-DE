@@ -14,10 +14,10 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: d8c420c289452e3ddb1be42c8f170758385ff7af
-workflow-type: ht
-source-wordcount: '1148'
-ht-degree: 100%
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+workflow-type: tm+mt
+source-wordcount: '1145'
+ht-degree: 99%
 
 ---
 
@@ -77,7 +77,7 @@ Sie können Ihrem Windows-Player einen benutzerfreundlichen Gerätenamen zuweise
 
 Gehen Sie wie folgt vor, um den Namen im Windows-Player zu konfigurieren:
 
-1. Klicken Sie auf **Start** > **Ausführen**
+1. Klicken Sie auf **start** > **run**
 1. Geben Sie `system.cpl` ein
 1. Verwenden Sie die Registerkarte „Computername“, um den Hostnamen des Computers festzulegen
 

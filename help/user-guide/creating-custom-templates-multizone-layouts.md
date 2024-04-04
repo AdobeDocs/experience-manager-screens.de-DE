@@ -1,19 +1,19 @@
 ---
 title: Erstellen benutzerdefinierter Vorlagen für Mehrzonen-Layouts
-seo-title: Erstellen benutzerdefinierter Vorlagen für Mehrzonen-Layouts
+seo-title: Creating Custom Templates in MultiZone Layouts
 description: Auf dieser Seite erfahren Sie, wie Sie benutzerdefinierte Vorlagen für Mehrzonen-Layouts erstellen.
-seo-description: Auf dieser Seite erfahren Sie, wie Sie benutzerdefinierte Vorlagen für Mehrzonen-Layouts erstellen.
+seo-description: Follow this page to learn about creating custom templates in MultiZone layouts.
 contentOwner: Jyotika Syal
-feature: Entwicklung in Screens
+feature: Developing Screens
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '949'
-ht-degree: 100%
+exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+workflow-type: tm+mt
+source-wordcount: '927'
+ht-degree: 96%
 
 ---
-
 
 # Erstellen benutzerdefinierter Vorlagen für Mehrzonen-Layouts {#creating-custom-templates-multizone}
 
@@ -43,7 +43,7 @@ Es gibt zwei wichtige Aspekte, die Sie beachten müssen, bevor Sie eine benutzer
    >[!IMPORTANT]
    >Die im benutzerdefinierten Layout definierten Zonen passen möglicherweise nicht zum Seitenverhältnis des gesamten Layouts. Mit der in diesem Dokument verwendeten Namenskonvention wird das Seitenverhältnis des benutzerdefinierten Layouts als Ganzes angegeben.
 
-## Anwendungsbeispiel Layout „Left20-LandscapeHD3Zone“ {#custom-template-one}
+## Anwendungsbeispiel Layout &quot;Left20-LandscapeHD3Zone&quot; {#custom-template-one}
 
 Gehen Sie wie folgt vor, um die benutzerdefinierte Vorlage *Left20-LandscapeHD3Zone* mit der folgenden Konfiguration zu erstellen:
 
@@ -66,7 +66,7 @@ Gehen Sie wie folgt vor, um ein Left20-LandscapeHD3Zone-Layout für ein AEM Scre
 
    ![image](/help/user-guide/assets/custom-multizone/custom-template2.png)
 
-1. Navigieren Sie von Ihrer AEM-Instanz zu **Tools** > **CRXDE Lite**.
+1. Navigieren Sie zu **CRXDE Lite** von Ihrer AEM-Instanz > Tools > **CRXDE Lite**.
 
 1. Erstellen Sie unter **Apps** einen Ordner mit dem Titel **customtemplate**. Erstellen Sie in gleicher Weise unter **customtemplate** einen weiteren Ordner mit dem Titel **template**, wie in der folgenden Abbildung dargestellt.
 
@@ -154,7 +154,7 @@ Gehen Sie wie folgt vor, um obige benutzerdefinierte Vorlage in Ihrem AEM Screen
 
    ![image](/help/user-guide/assets/custom-multizone/custom-template10.png)
 
-## Einfügen eines Bildes als Hintergrundebene {#inserting-image}
+## Einfügen eines Bildes als Hintergrundebene  {#inserting-image}
 
 Sie können ein Bild als Hintergrundebene in das Layout einfügen:
 
@@ -174,6 +174,3 @@ Sie können auch die folgenden Schritte ausführen:
 Fügen Sie der xml-Datei *static.css*, die Sie in Schritt 13 erstellt haben, den folgenden Code hinzu, um die Hintergrundfarbe zu ändern.
 
 `.cq-Screens-channel--multizone.my-CustomLayout { background-color: …; }`
-
-
-

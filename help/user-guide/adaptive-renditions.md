@@ -2,10 +2,10 @@
 title: Überblick über die Architektur und Konfigurationen für adaptive Ausgabedarstellungen
 description: Auf dieser Seite werden der Überblick über die Architektur und Konfigurationen in CRXDE Lite für adaptive Ausgabedarstellungen in AEM Screens beschrieben.
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: e5da55eeb5da3d0ef9f21bd47bfec75d660a6a1e
-workflow-type: ht
-source-wordcount: '658'
-ht-degree: 100%
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+workflow-type: tm+mt
+source-wordcount: '645'
+ht-degree: 97%
 
 ---
 
@@ -59,7 +59,7 @@ Gehen Sie wie folgt vor, um einen Knoten unter „Ausgabedarstellungszuordnung�
 
 1. Gehen Sie von **CRXDE Lite** zum Pfad `/conf/screens/sling:configs/rendition-mapping`.
 
-1. Erstellen Sie einen Knoten unter **Ausgabedarstellungszuordnung**. Klicken Sie mit der rechten Maustaste auf **Ausgabedarstellungszuordnung** und klicken Sie auf **Erstellen** > **Knoten erstellen**, wie in der folgenden Abbildung dargestellt.
+1. Erstellen Sie einen Knoten unter **Ausgabedarstellungszuordnung**. Rechtsklick auf **rendition-mapping** und auf **Erstellen** > **Knoten erstellen**, wie in der folgenden Abbildung dargestellt.
 
    ![Bild](/help/user-guide/assets/adaptive-renditions/add-node1.png)
 

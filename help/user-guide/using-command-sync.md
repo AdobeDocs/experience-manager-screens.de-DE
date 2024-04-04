@@ -7,10 +7,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: 43ac19cf7ef63ec17611cf19ca357f791dca6e87
-workflow-type: ht
-source-wordcount: '780'
-ht-degree: 100%
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+workflow-type: tm+mt
+source-wordcount: '779'
+ht-degree: 97%
 
 ---
 
@@ -92,7 +92,7 @@ Bevor Sie die Funktion zur Befehlssynchronisierung verwenden, stellen Sie sicher
 
 ### Einrichten eines Primärgeräts {#setting-up-primary}
 
-1. Rufen Sie das Anzeigen-Dashboard auf, indem Sie zu **CommandSyncDemo** > **Standorte** > **Lobby** > **LobbyDisplay** navigieren und in der Aktionsleiste auf **Dashboard** klicken.
+1. Navigieren Sie über zum Anzeigen-Dashboard. **CommandSyncDemo** > **Standorte**  > **Lobby** > **LobbyDisplay** und auf **Dashboard** in der Aktionsleiste aus.
 Im Bedienfeld **GERÄTE** werden die beiden Geräte (Chrome- und Windows-Player) angezeigt, wie in der folgenden Abbildung dargestellt.
    ![image1](assets/command-sync/command-sync10-1.png)
 

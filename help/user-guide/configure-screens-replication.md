@@ -3,13 +3,13 @@ title: Konfigurieren von Screens-Replikationsagenten
 description: Auf dieser Seite erhalten Sie Informationen zum Konfigurieren von Screens-Replikationsagenten.
 role: Developer
 level: Intermediate
-source-git-commit: ede0eb02c97c99732c64a92c603e51bedecdbac8
-workflow-type: ht
-source-wordcount: '507'
-ht-degree: 100%
+exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+workflow-type: tm+mt
+source-wordcount: '498'
+ht-degree: 97%
 
 ---
-
 
 # Konfigurieren von Screens-Replikationsagenten {#configuring-screens-replication-agent}
 
@@ -36,7 +36,7 @@ Gehen Sie zum Aktivieren von Benutzern und Aktualisieren des Passworts für „s
 
 1. Navigieren Sie zu Ihrer AEM-Autoreninstanz.
 
-1. Klicken Sie auf „Tools“ > **Sicherheit** > **Benutzer**.
+1. Klicken Sie auf Tools > **Sicherheit** > **Benutzer**.
 
    ![Bild](/help/user-guide/assets/screens-replication/screens-replication1.png)
 
@@ -97,7 +97,7 @@ Gehen Sie zum Aktualisieren der Einstellungen für den Screens-Replikationsagent
 
 1. Navigieren Sie zu Ihrer AEM-Instanz.
 
-1. Klicken Sie auf „Tools“ > **Bereitstellung** > **Replikation**.
+1. Klicken Sie auf Tools > **Implementierung** > **Replikation**.
 
    ![Bild](/help/user-guide/assets/screens-replication/screens-replication1a.png)
 

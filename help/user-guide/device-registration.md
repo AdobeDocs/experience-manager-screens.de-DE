@@ -1,8 +1,8 @@
 ---
 title: Geräteregistrierung
-seo-title: Geräteregistrierung
+seo-title: Device Registration
 description: Auf dieser Seite wird der Prozess zur Geräteregistrierung in einem AEM Screens-Projekt beschrieben.
-seo-description: Auf dieser Seite wird der Prozess zur Geräteregistrierung in einem AEM Screens-Projekt beschrieben.
+seo-description: This page describes the device registration process in an AEM Screens project.
 uuid: 5365e506-1641-4a0c-b34d-c39da02f700b
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,14 +10,14 @@ content-type: reference
 topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
-feature: Verwalten von Screens, Geräteregistrierung
+feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '789'
-ht-degree: 100%
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+workflow-type: tm+mt
+source-wordcount: '761'
+ht-degree: 85%
 
 ---
 
@@ -29,8 +29,8 @@ Auf der folgenden Seite wird der Prozess zur Geräteregistrierung in einem AEM S
 
 Der Prozess zur Geräteregistrierung erfolgt auf 2 separaten Geräten:
 
-* dem Gerät, das registriert werden soll, etwa einem Digital-Signage-Display;
-* dem zur Registrierung des Geräts verwendeten AEM-Server.
+* Das tatsächliche Gerät, das registriert werden soll, z. B. Ihre Signage-Anzeige
+* Der AEM-Server, der zum Registrieren des Geräts verwendet wird
 
 >[!NOTE]
 >
@@ -41,11 +41,9 @@ Der Prozess zur Geräteregistrierung erfolgt auf 2 separaten Geräten:
 >1. Klicken Sie im linken Aktionsmenü auf den Link **Registrierung** und führen Sie die folgenden Schritte aus, um die Geräteregistrierung abzuschließen.
 >
 
-
-
 ![screen_shot_2018-11-26at12118pm](assets/screen_shot_2018-11-26at12118pm.png)
 
-1. Starten Sie AEM Screens Player auf dem Gerät. Daraufhin wird die Benutzeroberfläche für die Registrierung angezeigt.
+1. Starten Sie auf Ihrem Gerät den AEM Screens-Player. Die Registrierungs-Benutzeroberfläche wird angezeigt.
 
    ![screen_shot_2018-11-26at104230am](assets/screen_shot_2018-11-26at104230am.png)
 
@@ -126,7 +124,7 @@ Wenn Sie das Gerät nicht einer Anzeige zugewiesen haben, führen Sie die folgen
 
 Sobald Sie Geräte für Ihren Player registriert haben, können Sie alle Geräte über die Benutzeroberfläche des Geräte-Managers anzeigen.
 
-1. Navigieren Sie in Ihrem AEM Screens-Projekt zur Benutzeroberfläche des Geräte-Managers, z. B. **DemoScreens** > **Geräte**.
+1. Navigieren Sie von Ihrem AEM Screens-Projekt aus zur Benutzeroberfläche des Geräte-Managers, z. B.: **DemoScreens** > **Geräte**.
 
 1. Wählen Sie den Ordner **Devices** (Geräte) aus und klicken Sie in der Aktionsleiste auf **Geräte-Manager**.
 
@@ -149,9 +147,8 @@ Sobald Sie Geräte für Ihren Player registriert haben, können Sie alle Geräte
 
 * Benutzer können nach jedem Wort suchen, das in der *Geräte-ID* oder dem *Gerätenamen* vorkommt.
 
-   >[!NOTE]
-   >
-   >Es wird empfohlen, die Gerätenamen in mehreren Wörtern zu erstellen, z. B. *Boston Store Lobby* und nicht *BostonStoreLobby*.
+  >[!NOTE]
+  >Es wird empfohlen, die Gerätenamen in mehreren Wörtern zu erstellen, z. B. *Boston Store Lobby* und nicht *BostonStoreLobby*.
 
 * Wenn Sie Gerätenamen wie *Boston Store Lobby* erstellen, können Sie nach jedem beliebigen Wort wie *boston*, *store* oder *lobby* suchen. Wenn der Gerätename jedoch *BostonStoreLobby* lautet, werden bei der Suche nach *boston* keine Ergebnisse angezeigt.
 
@@ -161,13 +158,13 @@ Sobald Sie Geräte für Ihren Player registriert haben, können Sie alle Geräte
 
 ## Einschränkungen bei der Geräteregistrierung {#limitations-on-device-registration}
 
-Systemweite Einschränkungen für Benutzerkennwörter verursachen möglicherweise einen Fehler bei der Geräteregistrierung. Bei der Geräteregistrierung wird ein zufällig generiertes Kennwort verwendet, um den Gerätebenutzer zu erstellen.
+Systemweite Passwortbeschränkungen für Benutzer können zu Fehlern bei der Geräteregistrierung führen. Die Geräteregistrierung verwendet ein zufällig generiertes Kennwort, um den Gerätebenutzer zu erstellen.
 
-Wenn das Kennwort durch die Konfiguration von *AuthorizableActionProvider* eingeschränkt ist, kann der Gerätebenutzer möglicherweise nicht erstellt werden.
+Wenn das Kennwort durch die Variable *AuthorizableActionProvider* -Konfiguration kann das Erstellen des Gerätebenutzers fehlschlagen.
 
 >[!NOTE]
 >
->Das zufällig generierte Kennwort besteht zurzeit aus 36 ASCII-Zeichen aus dem Bereich von 33 bis 122 (enthält fast alle Sonderzeichen).
+>Das derzeit generierte zufällige Passwort besteht aus 36 ASCII-Zeichen, die zwischen 33 und 122 liegen (enthält fast alle Sonderzeichen).
 
 ```java
 25.09.2016 16:54:03.140 *ERROR* [59.100.121.82 [1474844043109] POST /content/screens/svc/registration HTTP/1.1] com.adobe.cq.screens.device.registration.impl.RegistrationServlet Error during device registration

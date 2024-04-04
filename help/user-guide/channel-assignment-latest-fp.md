@@ -1,15 +1,15 @@
 ---
 title: Kanalzuweisung – Neuestes Feature Pack
-seo-title: Kanalzuweisung – Neuestes Feature Pack
+seo-title: Channel Assignment - Latest FP
 description: Auf dieser Seite erhalten Sie Informationen zur Kanalzuweisung und zu Dayparting.
-feature: Inhaltserstellung in Screens, Kanalzuweisung
+feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '1475'
-ht-degree: 100%
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+workflow-type: tm+mt
+source-wordcount: '1476'
+ht-degree: 90%
 
 ---
 
@@ -140,7 +140,7 @@ In „Kanalrolle“ wird der Kontext der Anzeige definiert. Die Rolle kann durch
 
 ### Priorität {#priority-channel}
 
-Mit „Priorität“ können Zuweisungen geordnet werden, falls mehrere die Wiedergabekriterien erfüllen. Höhere Werte haben stets Vorrang vor niedrigeren Werten. Wenn es beispielsweise die beiden Kanäle A und B gibt und A eine Priorität von 1 und B eine Priorität von 2 hat, wird Kanal B angezeigt, da er eine höhere Priorität als A hat.
+Mit „Priorität“ können Zuweisungen geordnet werden, falls mehrere die Wiedergabekriterien erfüllen. Höhere Werte haben stets Vorrang vor niedrigeren Werten. Angenommen, es gibt zwei Kanäle, A und B. Wenn A die Priorität 1 und B die Priorität 2 hat, wird Kanal B angezeigt, da er eine höhere Priorität als A hat.
 
 >[!NOTE]
 >
@@ -148,10 +148,10 @@ Mit „Priorität“ können Zuweisungen geordnet werden, falls mehrere die Wied
 
 ### Unterstützte Ereignisse {#supported-events-channel}
 
-* **Erster Ladevorgang**: Lädt den Kanal, wenn der Player gestartet wird. Dies kann in Kombination mit einem Zeitplan mehreren Kanälen zugewiesen werden.
-* **Bildschirm bei Untätigkeit**: Lädt, wenn der Bildschirm inaktiv ist. Dies kann in Kombination mit einem Zeitplan mehreren Kanälen zugewiesen werden.
-* **Timer**: Muss eingestellt werden, wenn ein Zeitplan vorhanden ist
-* **Benutzerinteraktion**: Der Player wechselt in den angegebenen Kanal, wenn in einem inaktiven Kanal auf dem Bildschirm (Touch) eine Benutzerinteraktion stattfindet, und wird geladen, wenn der Bildschirm berührt wird.
+* **Erster Ladevorgang**: Lädt den Kanal beim Start des Players. Er kann in Kombination mit einem Zeitplan mehreren Kanälen zugewiesen werden
+* **Bildschirm bei Untätigkeit**: Lädt, wenn der Bildschirm inaktiv ist. Er kann in Kombination mit einem Zeitplan mehreren Kanälen zugewiesen werden
+* **Timer**: muss festgelegt werden, wenn ein Zeitplan bereitgestellt wird.
+* **Benutzerinteraktion**: Der Player wechselt zum angegebenen Kanal, wenn sich auf dem Bildschirm eine Benutzerinteraktion (Touch) im Leerlauf befindet, und wird geladen, wenn der Bildschirm berührt wird.
 
 ### Unterbrechungsmethode {#interruption-method-channel}
 
@@ -165,13 +165,13 @@ Wählen Sie eine der folgenden Optionen aus, die zum Festlegen der Unterbrechung
 * **Sofort**: Wenn der Zeitplan aktiviert oder eine Aktualisierung empfangen wird, können Sie die Wiedergabe abbrechen und den neuen Inhalt sofort aktualisieren oder wiedergeben.
 * **Am Ende des aktuellen Elements**: Wenn ein neuer Zeitplan aktiviert wird oder eine Aktualisierung empfangen wird, haben Sie die Möglichkeit zu warten, bis die Wiedergabe des aktuellen Elements in der Sequenz abgeschlossen ist. Danach aktualisieren Sie den neuen Inhalt und geben ihn wieder.
 
-   >[!NOTE]
-   >Standardmäßig ist diese Option aktiviert.
+  >[!NOTE]
+  >Standardmäßig ist diese Option aktiviert.
 
 * **Am Ende der Sequenz**: Wenn ein neuer Zeitplan aktiviert oder eine Aktualisierung empfangen wird, haben Sie die Möglichkeit zu warten, bis die gesamte Sequenz ihr Ende erreicht. Kurz vor der gewünschten Sequenz kehren Sie zurück zum ersten Element, aktualisieren den neuen Inhalt oder spielen diesen ab.
 
-   >[!NOTE]
-   >Die Verwendung der zweiten oder dritten Option kann dazu führen, dass die für die Zuweisung festgelegten Zeiträume geringfügig verschoben werden, da der Player vor dem Aktualisieren auf das Ende des Elements oder der Sequenz (nach der angegebenen Zeit) wartet. Die Verzögerung hängt von der Wiedergabedauer des Elements ab.
+  >[!NOTE]
+  >Die Verwendung der zweiten oder dritten Option kann dazu führen, dass die für die Zuweisung festgelegten Zeiträume geringfügig verschoben werden, da der Player vor dem Aktualisieren auf das Ende des Elements oder der Sequenz (nach der angegebenen Zeit) wartet. Die Verzögerung hängt von der Wiedergabedauer des Elements ab.
 
 Die folgenden Eigenschaften werden über die Option **Zeitplan** im Dialogfeld **Kanalzuweisung** festgelegt.
 
@@ -218,7 +218,7 @@ Wir unterteilen jeden Tag in verschiedene Zeitfenster, sodass der Kanalinhalt ge
 
 #### Anzeigen von Inhalten an einem bestimmten Wochentag {#playing-content-on-a-particular-day-of-the-week}
 
-In diesem Beispiel wird gezeigt, wie Dayparting in einem Casino umgesetzt wird, wo an jedem Wochenende von 20:00 Uhr bis 22:00 Uhr eine Live-Veranstaltung stattfindet und von 22:00 Uhr bis 1:00 Uhr in der Abendkarte spezielle Gerichte angeboten werden.
+In diesem Beispiel wird gezeigt, wie Dayparting in einem Casino umgesetzt wird, wo an jedem Wochenende von 20:00 Uhr bis 22:00 Uhr eine Live-Veranstaltung stattfindet und von 22:00 Uhr bis 1:00 Uhr in der Abendkarte spezielle Gerichte angeboten werden
 
 | **Name** | **Wiederholungen** | **Anfang** | **Ende** |
 |---|---|---|---|
@@ -227,4 +227,4 @@ In diesem Beispiel wird gezeigt, wie Dayparting in einem Casino umgesetzt wird, 
 
 >[!NOTE]
 >
->Darüber hinaus können Sie für jeden Kanal die ***Priorität*** festlegen. Wenn beispielsweise zwei Kanäle für denselben Tag und dieselbe Uhrzeit oder für denselben Monat festgelegt sind, wird der Kanal mit höherer Priorität zuerst gezeigt. Der Mindestwert für die Priorität beträgt 0.
+>Darüber hinaus können Sie für jeden Kanal die ***Priorität*** festlegen. Wenn beispielsweise zwei Kanäle für denselben Tag und dieselbe Uhrzeit oder für denselben Monat festgelegt sind, wird der Kanal mit höherer Priorität zuerst wiedergegeben. Der Mindestwert für die Priorität kann auf 0 gesetzt werden.

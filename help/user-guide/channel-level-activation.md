@@ -1,16 +1,16 @@
 ---
 title: Aktivierung auf Kanalebene – Wiedergabe eines einzelnen Ereignisses
-seo-title: Aktivierung auf Kanalebene – Wiedergabe eines einzelnen Ereignisses
+seo-title: Channel Level Activation - Single Event Playback
 description: Befolgen Sie diese Anleitung, um die Aktivierung auf Kanalebene mithilfe der Wiedergabe eines einzelnen Ereignisses zu verstehen.
 topic-tags: authoring
-feature: Erstellungsbildschirme, Kanäle
+feature: Authoring Screens, Channels
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: 9eece68a4fa1577dd7222dd1fd7aa5d0b0da314b
-workflow-type: ht
-source-wordcount: '1793'
-ht-degree: 100%
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+workflow-type: tm+mt
+source-wordcount: '1792'
+ht-degree: 97%
 
 ---
 
@@ -69,8 +69,6 @@ Die folgende Abbildung zeigt das Projekt **Channel Level Activation** mit den Ka
 >* [Verwalten eines Kanals](managing-channels.md)
 >
 
-
-
 ### Implementierung {#implementation}
 
 Die Implementierung der Aktivierung auf Kanalebene in einem AEM Screens-Projekt umfasst drei Hauptaufgaben:
@@ -105,7 +103,7 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
 
    1. Navigieren Sie zu **Channel Level Activation** > **Standorte** > **Region** > **RegionDisplay** und klicken Sie in der Aktionsleiste auf **Kanal zuweisen**.
    1. Daraufhin wird das Dialogfeld **Kanalzuweisung** geöffnet.
-   1. Wählen Sie als Vorgehensweise für **Kanal referenzieren...** die Option „Pfad“ aus.
+   1. Wählen Sie als Vorgehensweise für **Kanal referenzieren** nach Pfad.
    1. Wählen Sie unter **Kanalpfad** den Wert **Channel Level Activation** > ***Kanäle*** > ***MainAdChannel*** aus.
    1. Die **Kanalrolle** wird mit **mainadchannel** ausgefüllt.
    1. Wählen Sie als **Priorität** den Wert **1** aus.
@@ -122,23 +120,23 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
 
    1. Navigieren Sie zu **Channel Level Activation** > **Standorte** > **Region** > **RegionDisplay** und klicken Sie in der Aktionsleiste auf **Kanal zuweisen**.
    1. Daraufhin wird das Dialogfeld **Kanalzuweisung** geöffnet.
-   1. Wählen Sie als Vorgehensweise für **Kanal referenzieren...** die Option „Pfad“ aus.
+   1. Wählen Sie als Vorgehensweise für **Kanal referenzieren** nach Pfad.
    1. Wählen Sie unter **Kanalpfad** den Wert **Channel Level Activation*** > ***Kanäle*** > ***TargetedSinglePlay*** aus.
    1. Die **Kanalrolle** wird mit **targetedsingleplay** ausgefüllt.
    1. Legen Sie die als **Priorität** den Wert **2** fest.
    1. Wählen Sie unter **Unterstützte Ereignisse** die Optionen **Erster Ladevorgang**, **Bildschirm bei Untätigkeit** und **Timer** aus, wie in der Abbildung unten gezeigt.
-   1. Wählen Sie als Datum für **aktiv ab** den 27. November 2018, 23:59 Uhr und für **aktiv bis** den 28. November 2018, 00:05 Uhr aus.
+   1. Wählen Sie das Datum unter **aktiv aus** als 27. November 2018, 23:59 Uhr und in **aktiv bis** 28. November 2018 12:05 Uhr
    1. Klicken Sie auf **Speichern**.
 
    >[!CAUTION]
    >
-   >Sie müssen die Priorität für den Kanal **TargetedSinglePlay** höher festlegen als für den Kanal **MainAdSegment**.
+   Sie müssen die Priorität für den Kanal **TargetedSinglePlay** höher festlegen als für den Kanal **MainAdSegment**.
 
    ![screen_shot_2018-11-27at31206pm](assets/screen_shot_2018-11-27at31206pm.png)
 
    >[!NOTE]
    >
-   >Um denselben Tag auszuwählen, müssen Sie den nächsten Tag auswählen und das Datum manuell auf denselben Tag, jedoch eine spätere Uhrzeit ändern. Dadurch wird der Benutzer daran gehindert, ein vergangenes Datum auszuwählen. Beachten Sie das folgende Beispiel:
+   Um denselben Tag auszuwählen, müssen Sie den nächsten Tag auswählen und das Datum manuell auf denselben Tag, jedoch eine spätere Uhrzeit ändern. Dadurch wird der Benutzer daran gehindert, ein vergangenes Datum auszuwählen. Beachten Sie das folgende Beispiel:
 
    ![new1](assets/new1.gif)
 
@@ -150,9 +148,9 @@ Der Player zeigt den Inhalt von **MainAdChannel** an und genau um 23:59 Uhr (wie
 
 >[!NOTE]
 >
->Weitere Informationen zum AEM Screens-Player finden Sie in den folgenden Ressourcen:
->[AEM Screens-Player-Downloads](https://download.macromedia.com/screens/)
->[Arbeiten mit dem AEM Screens-Player](working-with-screens-player.md)
+Weitere Informationen zum AEM Player finden Sie in den folgenden Ressourcen:
+[AEM Screens Player-Downloads](https://download.macromedia.com/screens/)
+[Arbeiten mit dem AEM Screens Player](working-with-screens-player.md)
 
 
 ## Umgang mit sich wiederholenden Assets in einem Kanal {#handling-recurrence-in-assets}
@@ -169,7 +167,7 @@ Angenommen, Sie möchten Inhalte eines Kanals nur freitags von 13:00 bis 22:00 
 
    >[!NOTE]
    >
-   >Sie können die Felder **Aktiv ab** und **Aktiv bis** überspringen oder einbeziehen und den Ausdruck entsprechend Ihren Anforderungen zum Feld „Zeitpläne“ hinzufügen.
+   Sie können die Felder **Aktiv ab** und **Aktiv bis** überspringen oder einbeziehen und den Ausdruck entsprechend Ihren Anforderungen zum Feld „Zeitpläne“ hinzufügen.
 
 1. Geben Sie den Ausdruck in den **Zeitplan** ein. Ihr Asset wird daraufhin für das jeweilige Tages- und Uhrzeitintervall angezeigt.
 
@@ -189,7 +187,7 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 
 >[!NOTE]
 >
->Sie können das _24-Stunden-Format_ (d. h. 14:00 Uhr) oder die *am/pm*-Notation (d. h. 2:00 pm) verwenden.
+Sie können das _24-Stunden-Format_ (d. h. 14:00 Uhr) oder die *am/pm*-Notation (d. h. 2:00 pm) verwenden.
 
 ### WeekParting {#week-parting}
 
@@ -199,7 +197,7 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 
    >[!NOTE]
    >
-   >Sie können die Felder **Aktiv ab** und **Aktiv bis** überspringen oder einbeziehen und den Ausdruck entsprechend Ihren Anforderungen zum Feld „Zeitpläne“ hinzufügen.
+   Sie können die Felder **Aktiv ab** und **Aktiv bis** überspringen oder einbeziehen und den Ausdruck entsprechend Ihren Anforderungen zum Feld „Zeitpläne“ hinzufügen.
 
 1. Geben Sie den Ausdruck in den **Zeitplan** ein. Ihr Asset wird daraufhin für das jeweilige Tages- und Uhrzeitintervall angezeigt.
 
@@ -217,7 +215,7 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 
 >[!NOTE]
 >
->Sie können das _24-Stunden-Format_ (d. h. 14:00 Uhr) oder die *am/pm*-Notation (d. h. 2:00 pm) verwenden.
+Sie können das _24-Stunden-Format_ (d. h. 14:00 Uhr) oder die *am/pm*-Notation (d. h. 2:00 pm) verwenden.
 
 
 ### MonthParting {#month-parting}
@@ -228,7 +226,7 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 
    >[!NOTE]
    >
-   >Sie können die Felder **Aktiv ab** und **Aktiv bis** überspringen oder einbeziehen und den Ausdruck entsprechend Ihren Anforderungen zum Feld „Zeitpläne“ hinzufügen.
+   Sie können die Felder **Aktiv ab** und **Aktiv bis** überspringen oder einbeziehen und den Ausdruck entsprechend Ihren Anforderungen zum Feld „Zeitpläne“ hinzufügen.
 
 1. Geben Sie den Ausdruck in den **Zeitplan** ein. Ihr Asset wird daraufhin für das jeweilige Tages- und Uhrzeitintervall angezeigt.
 
@@ -242,11 +240,11 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 
 >[!NOTE]
 >
->Bei der Definition von Wochentagen und Monaten können Sie sowohl die Abkürzung als auch die vollständige Bezeichnung verwenden, beispielsweise „Mo.“/„Montag“ und „Jan.“/„Januar“.
+Bei der Definition von Wochentagen und Monaten können Sie sowohl die Abkürzung als auch die vollständige Bezeichnung verwenden, beispielsweise „Mo.“/„Montag“ und „Jan.“/„Januar“.
 
 >[!NOTE]
 >
->Sie können das _24-Stunden-Format_ (d. h. 14:00 Uhr) oder die *am/pm*-Notation (d. h. 2:00 pm) verwenden.
+Sie können das _24-Stunden-Format_ (d. h. 14:00 Uhr) oder die *am/pm*-Notation (d. h. 2:00 pm) verwenden.
 
 ### Kombination von Aufteilungen {#combined-parting}
 
@@ -256,7 +254,7 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 
    >[!NOTE]
    >
-   >Sie können die Felder **Aktiv ab** und **Aktiv bis** überspringen oder einbeziehen und den Ausdruck entsprechend Ihren Anforderungen zum Feld „Zeitpläne“ hinzufügen.
+   Sie können die Felder **Aktiv ab** und **Aktiv bis** überspringen oder einbeziehen und den Ausdruck entsprechend Ihren Anforderungen zum Feld „Zeitpläne“ hinzufügen.
 
 1. Geben Sie den Ausdruck in den **Zeitplan** ein. Ihr Asset wird daraufhin für das jeweilige Tages- und Uhrzeitintervall angezeigt.
 
@@ -272,4 +270,4 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 
 >[!NOTE]
 >
->Bei der Definition von Wochentagen und Monaten können Sie sowohl die Abkürzung als auch die vollständige Bezeichnung verwenden, beispielsweise „Mo.“/„Montag“ und „Jan.“/„Januar“.  Außerdem können Sie das _24-Stunden-Format_ (d. h. 14:00 Uhr) oder die *am/pm*-Notation (d. h. 2:00 pm) verwenden.
+Bei der Definition von Wochentagen und Monaten können Sie sowohl die Abkürzung als auch die vollständige Bezeichnung verwenden, beispielsweise „Mo.“/„Montag“ und „Jan.“/„Januar“.  Außerdem können Sie das _24-Stunden-Format_ (d. h. 14:00 Uhr) oder die *am/pm*-Notation (d. h. 2:00 pm) verwenden.

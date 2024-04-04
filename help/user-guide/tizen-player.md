@@ -5,10 +5,10 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
-workflow-type: ht
-source-wordcount: '1242'
-ht-degree: 100%
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+workflow-type: tm+mt
+source-wordcount: '1247'
+ht-degree: 96%
 
 ---
 
@@ -48,7 +48,7 @@ Sie können Ihrem Tizen-Player einen benutzerfreundlichen Gerätenamen zuweisen 
 Gehen Sie wie folgt vor, um den Namen im Tizen-Player zu konfigurieren:
 
 1. Drücken Sie die Menü-Taste Ihrer Fernbedienung.
-1. Gehen Sie zu **Netzwerk** > **Gerätename**, um dem Player einen Namen zuzuweisen.
+1. Navigieren Sie zu **network** > **Gerätename** , um dem Player einen Namen zuzuweisen.
 
 ### Konfigurieren von Aktualisierungen auf dem Samsung-Gerät {#config-updates}
 
@@ -76,7 +76,7 @@ Führen Sie die folgenden Schritte auf dem Samsung-Gerät aus, um die Installati
 ## Ausschließen von Benutzeragenten mit dem SameSite-Cookie-Problem {#exempting-user-agents}
 
 >[!IMPORTANT]
->**Dieser Abschnitt gilt für Adobe Experience Manager (AEM) 6.5.5 bis AEM 6.5.7**
+>**Dieser Abschnitt gilt für Adobe Experience Manager (AEM 6.5.5 bis AEM 6.5.7.**
 >Es gibt einige Browser-Engines, die mit dem Attribut *SameSite=None*, das im von AEM 6.5 bis AEM 6.7 herausgegebenen Anmelde-Token verwendet wird, inkompatibel sind. In den meisten Fällen kann das Problem durch eine Aktualisierung des Browsers auf die neueste verfügbare Version behoben werden. In einigen Fällen sind solche Aktualisierungen möglicherweise nicht möglich, z. B. bei intelligenten Displays, Set-Top-Boxen oder anderen Geräten mit eingebetteten Browsing-Engines.
 
 Gehen Sie wie folgt vor, um diese inkompatiblen Clients auszuschließen, wenn Sie *SameSite=None* verwenden:
@@ -97,7 +97,7 @@ Durch die Remote-Bereitstellung des Tizen-Players können Sie Tausende von Samsu
 
 Mit dieser Funktion können Sie den Tizen-Player aus der Ferne konfigurieren und diese Konfigurationen bei Bedarf auch zentral aktualisieren. Sie benötigen lediglich den `HTTP`-Server, der zum Hosten des Tizen-Programms `(wgt and xml file)` verwendet wird, und einen Texteditor zum Speichern der `config.json` mit den entsprechenden Parametern.
 
-Stellen Sie sicher, dass Sie die URL-Starter-Adresse auf dem Tizen-Gerät konfiguriert haben, d. h. Schatlfäche „Start“ > „URL-Starter-Einstellungen“.
+Stellen Sie sicher, dass Sie die URL-Starter-Adresse auf dem Tizen-Gerät konfiguriert haben, d. h. Startseite > URL-Starter-Einstellungen.
 Platzieren Sie auf dem `HTTP`-Server, der die Tizen-Anwendung hostet, die Datei `config.json` am selben Speicherort wie die Datei `wgt`. Der Dateiname muss `config.json` lauten.
 Der Tizen-Player wird installiert und beim Start (und bei jedem Neustart) überprüft und wendet die Einstellungen in der Datei `config.json` an.
 
@@ -122,13 +122,13 @@ In der folgenden Tabelle sind die Richtlinien und deren Funktionen aufgeführt.
 
 | **Richtlinienname** | **Zweck** |
 |---|---|
-| server | Die URL zum Adobe Experience Manager (AEM)-Server. |
+| Server | Die URL zum Adobe Experience Manager (AEM)-Server. |
 | registrationKey | Wird für die Massenregistrierung von Geräten mit vorab freigegebenen Schlüsseln verwendet. |
 | resolution | Die Auflösung des Geräts. |
-| rebootSchedule | Der Plan zum Neustarten des Players. |
+| rebootSchedule | Der Zeitplan zum Neustarten des Players. |
 | enableAdminUI | Aktivierung der Administrator-Benutzeroberfläche zum Konfigurieren des Geräts vor Ort. Stellen Sie diesen Wert auf „false“ ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und in der Produktion verwendet wird. |
 | enableOSD | Aktivierung der Kanalschalter-Benutzeroberfläche, damit Benutzer zwischen Kanälen auf dem Gerät wechseln können. Stellen Sie den Wert ggf. auf „false“ ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und in der Produktion verwendet wird. |
-| enableActivityUI | Aktivierung zum Anzeigen des Fortschritts von Aktivitäten wie Downloads und Synchronisierungen. Aktivieren Sie den Wert zwecks Fehlerbehebung und deaktivieren Sie ihn, sobald die Benutzeroberfläche vollständig konfiguriert ist und produktiv verwendet wird. |
+| enableActivityUI | Aktivierung zum Anzeigen des Fortschritts von Aktivitäten wie Downloads und Synchronisierungen. Aktivieren Sie diese Option zur Fehlerbehebung und deaktivieren Sie sie, sobald sie vollständig konfiguriert ist und sich in der Produktion befindet. |
 | cloudMode | Setzen Sie dies auf „true“, wenn Sie möchten, dass der Tizen-Player eine Verbindung zu Screens as a Cloud Service herstellt. Legen Sie den Wert auf „false“ fest, um eine Verbindung zu AMS oder AEM On-Premise herzustellen. |
 | cloudToken | Anmelde-Token zur Registrierung bei Screens as a Cloud Service. |
 

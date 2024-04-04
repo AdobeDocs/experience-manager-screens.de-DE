@@ -1,14 +1,14 @@
 ---
 title: Spracherkennung in AEM Screens
 description: Auf der Seite werden die Spracherkennungsfunktionen in AEM Screens beschrieben.
-feature: Inhaltserstellung in Screens
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '1126'
-ht-degree: 100%
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+workflow-type: tm+mt
+source-wordcount: '1119'
+ht-degree: 97%
 
 ---
 
@@ -116,10 +116,10 @@ Gehen Sie wie folgt vor, um Tags zu erstellen:
 
 1. Navigieren Sie zu Ihrer AEM-Instanz.
 
-1. Klicken Sie auf das Symbol „Tools“ > **Tagging**.
-   ![image](assets/voice-recognition/vr-7.png)
+1. Klicken Sie auf das Werkzeugsymbol > **Tagging**.
+   ![Bild](assets/voice-recognition/vr-7.png)
 
-1. Klicken Sie auf **Erstellen** > **Namespace erstellen**.
+1. Klicks **Erstellen** > **Namespace erstellen**.
    ![image](assets/voice-recognition/vr-tag3.png)
 
 1. Geben Sie den Namen Ihres Projekts ein, z. B. **VoiceDemo**, und klicken Sie auf **Erstellen**.

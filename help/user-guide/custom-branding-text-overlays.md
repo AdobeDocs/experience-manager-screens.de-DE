@@ -1,21 +1,21 @@
 ---
 title: Anwenden von benutzerdefiniertem Branding und Styling für Textüberlagerungen
-seo-title: Anwenden von benutzerdefiniertem Branding und Styling für Textüberlagerungen
+seo-title: Applying Custom Branding and Styling for Text Overlays
 description: Auf dieser Seite erfahren Sie, wie Sie benutzerdefiniertes Branding und Styling für Textüberlagerungen anwenden.
-seo-description: Auf dieser Seite erfahren Sie, wie Sie benutzerdefiniertes Branding und Styling für Textüberlagerungen anwenden.
+seo-description: Follow this page to learn how to apply custom branding and styling for Text Overlays.
 contentOwner: Jyotika Syal
-feature: Entwicklung in Screens
+feature: Developing Screens
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '628'
-ht-degree: 100%
+exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+workflow-type: tm+mt
+source-wordcount: '604'
+ht-degree: 93%
 
 ---
 
-
-# Benutzerdefiniertes Branding und Styling für Textüberlagerungen {#creating-custom-branding-styling}
+# Benutzerdefiniertes Branding und Stil für Textüberlagerungen {#creating-custom-branding-styling}
 
 Auf dieser Seite erfahren Sie, wie Sie benutzerdefiniertes Branding und Styling für Textüberlagerungen anwenden, die auf Ihre Assets in einem AEM Screens-Kanal angewendet werden.
 
@@ -34,7 +34,7 @@ Gehen Sie wie folgt vor, um benutzerdefiniertes Branding und Styling für Textü
    >[!NOTE]
    >Informationen zum Hinzufügen einer Textüberlagerung zu einem Asset in einem Kanaleditor finden Sie unter [Textüberlagerung](/help/user-guide/text-overlay.md).
 
-1. Navigieren Sie von Ihrer AEM-Instanz zu Tools > **CRXDE Lite**.
+1. Navigieren Sie von Ihrer AEM-Instanz zu CRXDE Lite > Tools > **CRXDE Lite**.
 
 1. Erstellen Sie ein benutzerdefiniertes Design in `/apps/settings/wcm/designs/<your-project>/`. Navigieren Sie in diesem Beispiel zu `/apps/settings/wcm/designs/customstyle/`
 
@@ -110,7 +110,7 @@ Nachdem Sie die oben genannten Schritte ausgeführt haben, können Sie die Datei
 
 Gehen Sie wie folgt vor, um die Textüberlagerung mit dem aktualisierten Design anzuzeigen:
 
-1. Navigieren Sie zu Ihrem AEM Screens-Projekt mit dem Titel **customstyle** > **Kanäle** > **DemoBrand**. Wählen Sie den Kanal aus und klicken Sie in der Aktionsleiste auf **Bearbeiten**, um den Editor zu öffnen.
+1. Navigieren Sie zu Ihrem AEM Screens-Projekt mit dem Titel **customstyle** > **Kanäle** > **DemoBrand**. Wählen Sie den Kanal aus und klicken Sie in der Aktionsleiste auf **Bearbeiten**, um den Editor zu öffnen.
 
 1. Da Sie jetzt das Design, wie oben erwähnt, dem Feld **Designs** hinzugefügt haben, klicken Sie auf **Vorschau**, um das aktuelle Bild-Styling mit der Textüberlagerung anzuzeigen.
 
@@ -131,12 +131,3 @@ Gehen Sie wie folgt vor, um die Textüberlagerung mit dem aktualisierten Design 
    ![image](/help/user-guide/assets/custom-brand/custom-brand11.png)
 
    Jetzt können Sie Ihre Marke und Ihr benutzerdefiniertes Styling für Textüberlagerungen aktualisieren, die Ihren Assets hinzugefügt wurden.
-
-
-
-
-
-
-
-
-

@@ -14,10 +14,10 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
-workflow-type: ht
-source-wordcount: '1529'
-ht-degree: 100%
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+workflow-type: tm+mt
+source-wordcount: '1510'
+ht-degree: 95%
 
 ---
 
@@ -71,7 +71,7 @@ Nachdem Sie die Anwendung heruntergeladen haben, führen Sie die Schritte im Pla
 
 ## Implementieren von Android Watchdog {#implementing-android-watchdog}
 
-Aufgrund der Architektur von Android erfordert der Neustart des Geräts, dass die Anwendung über Systemrechte verfügt. Hierzu müssen Sie die APK mithilfe der Signierungsschlüssel des Herstellers signieren. Andernfalls startet Watchdog die Player-App neu, statt das Gerät neu zu starten.
+Aufgrund der Architektur von Android erfordert das Neustart des Geräts, dass die Anwendung über Systemberechtigungen verfügt. Hierzu müssen Sie die APK mithilfe der Signierungsschlüssel des Herstellers signieren. Andernfalls startet Watchdog die Player-App neu, statt das Gerät neu zu starten.
 
 ### Signieren von Android-APKs mithilfe von Herstellerschlüsseln {#signage-of-android-apks-using-manufacturer-keys}
 
@@ -81,14 +81,14 @@ Zum Zugreifen auf die berechtigten APIs von Android, wie zum Beispiel *PowerMana
 >
 >Voraussetzungen:
 >
->Die Android SDK sollte installiert sein, bevor Sie die folgenden Schritte durchführen.
+>Sie sollten das Android-SDK installiert haben, bevor Sie die folgenden Schritte ausführen.
 
-Gehen Sie wie folgt vor, um die Android-apk mithilfe von Herstellerschlüsseln zu signieren:
+Gehen Sie wie folgt vor, um die Android-apk mithilfe der Herstellerschlüssel zu signieren:
 
 1. Laden Sie die apk von Google Play oder von der Seite [AEM Screens-Player-Downloads](https://download.macromedia.com/screens/) herunter
 1. Rufen Sie die Plattformschlüssel des Herstellers ab, um eine *pk8*- und eine *pem*-Datei zu erhalten
 
-1. Suchen Sie nach dem apksigner-Tool in Android SDK mithilfe von find ~/Library/Android/sdk/build-tools -name &quot;apksigner&quot;
+1. Suchen Sie das apksigner-Tool in android sdk mithilfe von find ~/Library/Android/sdk/build-tools -name &quot;apksigner&quot;.
 1. &lt;pathto> /apksigner sign --key platform.pk8 --cert platform.x509.pem aemscreensplayer.apk
 1. Suchen Sie den Pfad zum Zipalign-Tool in Android SDK
 1. &lt;pathto> /zipalign -fv 4 aemscreensplayer.apk aemscreensaligned.apk
@@ -108,7 +108,7 @@ Das folgende Diagramm zeigt die Implementierung des Watchdog-Service:
 
 >[!NOTE]
 >
->In Android wird der *AlarmManager* für die Registrierung von *pendingIntents* verwendet, die auch dann noch ausgeführt werden können, wenn die App abgestürzt ist und die Alarmbereitstellung von API 19 (Kitkat) ungenau ist. Behalten Sie etwas Abstand zwischen dem Intervall des Timers und dem *AlarmManager*-Alarm *pendingIntent* bei.
+>In Android wird der *AlarmManager* für die Registrierung von *pendingIntents* verwendet, die auch dann noch ausgeführt werden können, wenn die App abgestürzt ist und die Alarmbereitstellung von API 19 (Kitkat) ungenau ist. Zwischen dem Timer-Intervall und dem *AlarmManager* *pendingIntent&#39;s* Alarm.
 
 **3. Anwendungsabsturz** Im Fall eines Absturzes wird der pendingIntent für den Neustart, der beim AlarmManager registriert ist, nicht mehr zurückgesetzt. Daher führt er (je nach den zum Zeitpunkt der Initialisierung des Cordova-Plug-ins verfügbaren Berechtigungen) einen Neustart der App durch.
 
@@ -135,7 +135,7 @@ Nutzen Sie dazu eine [Beispiel-JSON-Richtlinie](#example-json) sowie eine Tabell
 
 ### Richtlinienattribute {#policy-attributes}
 
-In der folgenden Tabelle finden Sie eine Zusammenfassung der Richtlinienattribute mit einer beispielhaften JSON-Richtliniendatei als Referenz:
+Die folgende Tabelle fasst zur Referenz die Richtlinienattribute mit einer JSON-Beispielrichtlinie zusammen:
 
 | **Richtlinienname** | **Zweck** |
 |---|---|
@@ -144,7 +144,7 @@ In der folgenden Tabelle finden Sie eine Zusammenfassung der Richtlinienattribut
 | *rebootSchedule* | Der Zeitplan für den Neustart gilt für alle Plattformen. |
 | *enableAdminUI* | Aktivierung der Administrator-Benutzeroberfläche zum Konfigurieren des Geräts vor Ort. Stellen Sie diesen Wert auf *false* ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und in der Produktion verwendet wird. |
 | *enableOSD* | Aktivierung der Kanalschalter-Benutzeroberfläche, damit Benutzer zwischen Kanälen auf dem Gerät wechseln können. Stellen Sie den Wert ggf. auf *false* ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und in der Produktion verwendet wird |
-| *enableActivityUI* | Aktivierung zum Anzeigen des Fortschritts von Aktivitäten wie Downloads und Synchronisierungen. Aktivieren Sie den Wert zwecks Fehlerbehebung und deaktivieren Sie ihn, sobald die Benutzeroberfläche vollständig konfiguriert ist und produktiv verwendet wird. |
+| *enableActivityUI* | Aktivierung zum Anzeigen des Fortschritts von Aktivitäten wie Downloads und Synchronisierungen. Aktivieren Sie diese Option zur Fehlerbehebung und deaktivieren Sie sie, sobald sie vollständig konfiguriert ist und sich in der Produktion befindet. |
 | *enableNativeVideo* | Aktivieren Sie diese Option, um die native Hardware-Beschleunigung für die Videowiedergabe zu verwenden (nur Android). |
 
 ### Beispiel für eine JSON-Richtlinie {#example-json}
@@ -187,7 +187,7 @@ Sie können Ihrem Android-Player einen benutzerfreundlichen Gerätenamen zuweise
 
 Gehen Sie wie folgt vor, um den Namen im Android-Player zu konfigurieren:
 
-1. Navigieren Sie zu **Einstellungen** > **Über das Gerät**
+1. Navigieren Sie zu **settings** > **Über Geräte**
 1. Bearbeiten Sie den Gerätenamen und legen Sie ihn fest, um den Android-Player zu benennen.
 
 ### Implementieren der Massenbereitstellung des Android-Players mit Enterprise Mobility Management {#implementation}
@@ -208,4 +208,4 @@ Darüber hinaus sollten Sie sich bei Ihrem EMM-Anbieter nach der AppConfig-Unter
 
 ### Verwenden der Fernbedienungs-Steuerung von Screens {#using-remote-control}
 
-AEM Screens bietet Funktionen für die Steuerung per Fernbedienung. Weitere Informationen zu dieser Funktion finden Sie hier: [Fernbedienungs-Steuerung von Screens](implementing-remote-control.md)
+AEM Screens bietet Funktionen für die Steuerung per Fernbedienung. Mehr über diese Funktion erfahren Sie hier: [Fernbedienungs-Steuerung von Screens](implementing-remote-control.md)
