@@ -7,10 +7,10 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 089bf4eebe5234d77d6f02ae6fc3b8bb75ba6ea2
-workflow-type: ht
-source-wordcount: '2185'
-ht-degree: 100%
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '2168'
+ht-degree: 99%
 
 ---
 
@@ -152,7 +152,7 @@ Wenn der AEM Screens-Player beim Starten einen 404-Fehler erhält, stellt er ein
 
 Führen Sie folgende Schritte durch, um „Stay Awake“ in einem beliebigen Android-Player zu aktivieren:
 
-1. Navigieren Sie zu den Einstellungen des Android-Players > **Über**.
+1. Navigieren Sie zu den Einstellungen des Android-Players > **Info**
 1. Tippen Sie 7-mal auf die Build-Nummer, um **Entwickleroptionen** in den **Einstellungen** zu aktivieren.
 1. Navigieren Sie zu den **Entwickleroptionen**.
 1. Aktivieren Sie **Stay Awake**.
@@ -184,16 +184,16 @@ Die Details zu Anzeige und Gerät erhalten Sie über:
 * **eine interne JS-API**
 * **einen ContextHub-Store**: Drei ContextHub-Stores sind in `/libs/screens/clientlibs/contexthub` definiert, um Informationen zu Kanal, Geräte und Anzeige anzuzeigen.
 
-   Gehen Sie wie folgt vor, um diese ContentHub-Speicherwerte zu verwenden:
+  Gehen Sie wie folgt vor, um diese ContentHub-Speicherwerte zu verwenden:
 
    * Bearbeiten Sie die Eigenschaften des Kanals und legen Sie auf der Registerkarte „Personalisierung“ den ContextHub-Pfad auf den Wert fest (wie oben erläutert)
    * Im Kanal-JS können Sie Folgendes verwenden:
 
-      ```shell
-         ContextHub.getStore('screens-device');
-         ContextHub.getStore('screens-display');
-         ContextHub.getStore('screens-channels');
-      ```
+     ```shell
+        ContextHub.getStore('screens-device');
+        ContextHub.getStore('screens-display');
+        ContextHub.getStore('screens-channels');
+     ```
 
 ## Allgemeine Tipps zur Problembehebung {#general-troubleshooting-tips}
 
@@ -203,7 +203,7 @@ So deaktivieren Sie Livefyre, um Protokollfehler zu vermeiden:
 
 1. ***Livefyre-Bundle deaktivieren:***
 
-   * Navigieren Sie zu `https://&lt;host&gt;:&lt;port&gt;/system/console/bundles`
+   * Navigieren Sie zu `https://<host>:<port>/system/console/bundles`
    * Suchen Sie nach dem AEM Livefyre-Bundle: `com.adobe.cq.social.cq-social-livefyre`
    * Klicken Sie auf **Anhalten**
 

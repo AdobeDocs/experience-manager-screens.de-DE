@@ -1,12 +1,11 @@
 ---
 title: Sicherheits-Checkliste für AEM Screens
-seo-title: Sicherheits-Checkliste für AEM Screens
-description: Auf dieser Seite wird die Sicherheits-Checkliste für AEM Screens beschrieben.
-seo-description: Auf dieser Seite wird die Sicherheits-Checkliste für AEM Screens beschrieben.
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+description: Auf dieser Seite wird die Sicherheitscheckliste für AEM Screens beschrieben.
+seo-description: The page describes Security Checklist for AEM Screens
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 100%
+source-wordcount: '458'
+ht-degree: 49%
 
 ---
 
@@ -24,65 +23,65 @@ Auf dieser Seite werden die Überlegungen zur Systemsicherheit für AEM Screens 
 In diesem Abschnitt wird das Whitepaper beschrieben. (Ausstehender Whitepaper-Anhang)
 
 
-## Häufig gestellte Fragen zur Sicherheit von AEM Screens {#faqs-screens}
+## Häufig gestellte Fragen zur AEM Screens-Sicherheit {#faqs-screens}
 
 Bei den folgenden häufig gestellten Fragen wird von einer authentifizierten, registrierten Player-Architektur ausgegangen, bei der HTTPS als Kommunikationsprotokoll zwischen Player und AEM-Server verwendet wird.
 
-### Frage 1 {#faq1}
+### Frage 1 {#faq1}
 
 Kann der Player-Traffic an einen böswilligen Server umgeleitet und angewiesen werden, schädliche Medieninhalte herunterzuladen und wiederzugeben?
 
 **Antwort**
 
-Dies ist nicht möglich, da die HTTP-Verbindung beide Enden der Verbindung identifiziert und verschlüsselt. Wenn Sie versuchen, den Traffic in der Mitte abzufangen, sehen Sie nur verschlüsselte Inhalte. Wenn Sie versuchen, sich als Server auszugeben, lehnt der Player Sie ab, da Ihr Zertifikat anders ist.
+Dies ist nicht möglich, da die HTTP-Verbindung beide Enden der Verbindung identifiziert und verschlüsselt. Wenn Sie versuchen, sich in der Mitte zu befinden und sie abzufangen, sehen Sie nur verschlüsselten Inhalt. Wenn Sie versuchen, die Identität des Servers zu imitieren, lehnt der Player Sie ab, da Ihr Zertifikat anders ist.
 
 
-### Frage 2 {#faq2}
+### Frage 2 {#faq2}
 
 Sollte ich HTTP oder HTTPs verwenden?
 
 **Antwort**
 
-Verwenden Sie HTTPs. Dies ist unabdingbar, wenn Sie um die Sicherheit besorgt sind. Mit HTTPs wird die Kommunikation zwischen Player und Server verschlüsselt. Damit ist es fast unmöglich, den Inhalt abzufangen oder zu ändern.
+Verwenden Sie HTTPs. Dies ist unabdingbar, wenn Sie um die Sicherheit besorgt sind. Mit HTTPs wird die Kommunikation zwischen Player und Server verschlüsselt. Das Abfangen oder Ändern des Inhalts ist nicht möglich.
 
 
-### Frage 3 {#faq3}
+### Frage 3 {#faq3}
 
 Gibt es beim Herunterladen von Inhalten irgendeine Art von Signierung des Inhalts oder des Hash?
 
 **Antwort**
 
 Jedes Asset wird vom Server signiert (SHA) und dann vom Player für denselben Hash validiert, um die Integrität zu gewährleisten.
-Wenn der Hash nicht übereinstimmt, versuchen wir dreimal, erneut zu validieren. Nach 3 Versuchen betrachten wir den Download-Befehl als ungültig.
+Wenn der Hash nicht übereinstimmt, versucht die Software, dreimal erneut zu validieren. Nach drei Versuchen wird der Download-Befehl als ungültig betrachtet.
 
 
-### Frage 4 {#faq4}
+### Frage 4 {#faq4}
 
 Ist der AEM-Server sicher?
 
 **Antwort**
 
-Antwort 4. Unter der Voraussetzung, dass Sie AMS verwenden, kümmern wir uns um die gesamte Server-Sicherheit mit denselben Funktionen wie Sites oder Assets.
+Wenn Sie AMS verwenden, übernimmt die Software die gesamte Server-Sicherheit und verwendet dieselben Funktionen wie Sites oder Assets.
 
 
-### Frage 5 {#faq5}
+### Frage 5 {#faq5}
 
 Ist das Gerät sicher?
 
 **Antwort**
 
-Ein physisch kompromittierter Player kann theoretisch manipuliert werden, um beliebige Inhalte wiederzugeben. Sie könnten den Player auch einfach ausstecken und einen USB-/HDMI-Stick einstecken.
+Ein physisch kompromittierter Player kann theoretisch manipuliert werden, um beliebige Inhalte wiederzugeben. Sie können den Player auch abziehen und einen USB-/HDMI-Stick einstecken.
 
-Es wird daher empfohlen, die Geräte unzugänglich – vorzugsweise in einem gesicherten Container – aufzubewahren, wobei die Verkabelung ebenfalls gesichert ist. Deaktivieren Sie auch alle IR-Remote-Anschlüsse.
+Schließen Sie die Geräte außer Reichweite, vorzugsweise in einen gesicherten Behälter, wobei auch die Verkabelung gesichert ist. Deaktivieren Sie auch alle IR-Remote-Anschlüsse.
 
 Wenn das Betriebssystem des Geräts nicht regelmäßig aktualisiert wird, kann das Betriebssystem Sicherheitslücken aufweisen und Remote-Angriffe über das Netzwerk zulassen.
 
 >[!NOTE]
 >
->Es wird empfohlen, die Geräte mit geeigneten Fernaktualisierungs- und Fernsteuerungsfunktionen (Remote-Desktop, MDM-Lösung usw.) auszustatten. Es wird auch empfohlen, ein privates Netzwerk zu verwenden, also kein öffentliches WLAN.
+>Es wird empfohlen, die Geräte mit angemessenen Remote-Update- und -Steuerungsfunktionen (Remote-Desktop, MDM-Lösung usw.) zu instrumentieren. Es wird auch empfohlen, ein privates Netzwerk zu verwenden, also kein öffentliches WLAN.
 
 
-### Frage 6 {#faq6}
+### Frage 6 {#faq6}
 
 Wie würde ein Hacker versuchen, einen Player zu kompromittieren?
 
@@ -90,13 +89,13 @@ Wie würde ein Hacker versuchen, einen Player zu kompromittieren?
 
 Die einzige Möglichkeit, ein Player-Gerät zu kompromittieren, besteht darin,
 
-1. den DNS zu kompromittieren, um sich als Server auf seinem Host-Namen auszugeben, und
+1. das DNS zu kompromittieren, um den Server auf diesem Hostnamen zu stellvertreten, und
 1. das
    1. Zertifikat Server-seitig zu kompromittieren, um sich als Server auszugeben
    1. und das Zertifikat auf der Client-Seite zu imitieren.
 
 >[!IMPORTANT]
->Selbst wenn ein Gerät kompromittiert ist, können Sie seine Anmeldeinformationen problemlos widerrufen, sodass keine Verbindung mehr zu AEM hergestellt werden kann.
+>Selbst wenn ein Gerät kompromittiert ist, können Sie seine Anmeldeinformationen dennoch einfach widerrufen, damit es keine Verbindung mehr zu AEM herstellen kann.
 
 
 

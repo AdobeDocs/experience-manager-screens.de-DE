@@ -1,8 +1,8 @@
 ---
 title: Zielgerichtete Aktivierung des Einzelhandelsinventars
-seo-title: Zielgerichtete Aktivierung des Einzelhandelsinventars
+seo-title: Retail Inventory Targeted Activation
 description: In diesem Anwendungsbeispiel wird der Lagerbestand für drei verschiedenfarbige Pullover veranschaulicht. Je nachdem, wie viele Pullover auf Lager vorhanden sind (erfasst in Google Tabellen), wird das Bild (roter, grüner oder blauer Pullover) mit der höchsten Zahl auf dem Bildschirm angezeigt.
-seo-description: In diesem Anwendungsbeispiel wird der Lagerbestand für drei verschiedenfarbige Pullover veranschaulicht. Je nachdem, wie viele Pullover auf Lager vorhanden sind (erfasst in Google Tabellen), wird das Bild (roter, grüner oder blauer Pullover) mit der höchsten Zahl auf dem Bildschirm angezeigt.
+seo-description: This Use Case showcases the retail inventory stock for three different colored sweatshirts. Depending on the number of sweatshirts available in stock that is recorded in Google Sheets, the image (red, green, or blue sweatshirt) with highest number is displayed on the screen.
 uuid: 8e7faa65-b004-42b3-8865-4f71eb5dc1b1
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,14 +10,14 @@ content-type: reference
 topic-tags: use-case-examples
 discoiquuid: 70147920-5bdb-401c-884e-51d268d40585
 docset: aem65
-feature: Inhaltserstellung in Screens
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '693'
-ht-degree: 100%
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '632'
+ht-degree: 95%
 
 ---
 
@@ -63,7 +63,7 @@ Gehen Sie wie folgt vor, um das Anwendungsbeispiel zur Aktivierung des Einzelhan
 
    1. Wählen Sie als **Datentyp** die Option **Zahl**.
 
-   1. Wählen Sie **googlesheets/value/1/1** aus der Dropdown-Liste in **Name der zweiten Eigenschaft**..
+   1. Auswählen **googlesheets/value/1/1** aus der Dropdown-Liste **Zweiter Eigenschaftsname**.
 
    1. Ziehen Sie **Weiterer Vergleich: Eigenschaft - Eigenschaft** per Drag-and-Drop in den Editor und klicken Sie auf das Konfigurationssymbol, um die Eigenschaften zu bearbeiten.
    1. Wählen Sie **googlesheets/value/1/2** aus der Dropdown-Liste in **Name der ersten Eigenschaft** aus.
@@ -94,7 +94,7 @@ Gehen Sie wie folgt vor, um das Anwendungsbeispiel zur Aktivierung des Einzelhan
 
    >[!CAUTION]
    >
-   >Sie sollten Ihre **ContextHub**-**Konfigurationen** auf der Registerkarte **Eigenschaften** für Kanäle > **Personalisierung** eingerichtet haben.
+   >Sie sollten Ihre **ContextHub** **Konfigurationen** über den Kanal **Eigenschaften** > **Personalisierung** Registerkarte.
 
    ![screen_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
 

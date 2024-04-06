@@ -1,8 +1,8 @@
 ---
 title: Aktivierung der Gastgewerbereservierung
-seo-title: Aktivierung der Gastgewerbereservierung
+seo-title: Hospitality Reservation Activation
 description: Das folgende Nutzungsszenario veranschaulicht die Verwendung der Aktivierung von Reservierungen im Gastgewerbe anhand der in Google Tabellen angegebenen Werten.
-seo-description: Das folgende Nutzungsszenario veranschaulicht die Verwendung der Aktivierung von Reservierungen im Gastgewerbe anhand der in Google Tabellen angegebenen Werten.
+seo-description: The following use case demonstrates the usage of hospital reservation activation based on the values populated in Google Sheets.
 uuid: 7692d616-2b00-4d9a-9d3f-211c089b29af
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,14 +10,14 @@ content-type: reference
 topic-tags: use-case-examples
 discoiquuid: ef3e5dce-e36a-45d3-ad5e-db01430477c6
 docset: aem65
-feature: Inhaltserstellung in Screens
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '475'
-ht-degree: 100%
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '463'
+ht-degree: 96%
 
 ---
 
@@ -77,7 +77,7 @@ Gehen Sie wie folgt vor, um das Nutzungsszenario für die reservierungsgesteuert
 
    >[!CAUTION]
    >
-   >Sie sollten Ihre **ContextHub**-**Konfigurationen** auf der Registerkarte **Eigenschaften** für Kanäle > **Personalisierung** eingerichtet haben.
+   >Sie sollten Ihre **ContextHub** **Konfigurationen** über den Kanal **Eigenschaften** > **Personalisierung** Registerkarte.
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
@@ -86,4 +86,5 @@ Gehen Sie wie folgt vor, um das Nutzungsszenario für die reservierungsgesteuert
 
    1. Klicken Sie auf **Vorschau.** Öffnen Sie außerdem Google Tabellen und aktualisieren Sie den Wert.
    1. Aktualisieren Sie den Wert in den Spalten **Restaurant1** und **Restaurant2**. Wenn **Restaurant1** > **Restaurant2** ist, sollten Sie ein Bild eines *Steak-Gerichts* sehen. Andernfalls wird ein Bild mit *thailändischem Essen* auf Ihrem Bildschirm angezeigt.
+
    ![result5](assets/result5.gif)

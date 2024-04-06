@@ -14,10 +14,10 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: 2cc613454d0d20a42871858e3d754e1b0e161dc3
-workflow-type: ht
-source-wordcount: '1580'
-ht-degree: 100%
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '1593'
+ht-degree: 98%
 
 ---
 
@@ -90,7 +90,7 @@ In diesem Abschnitt wird die Implementierung von Screens Launch in Ihrem AEM Scr
 
 Gehen Sie gemäß nachstehendem Abschnitt vor, um Screens Launch-Funktionen in Ihrem AEM Screens-Projekt zu implementieren:
 
-1. Erstellen Sie einen Sequenzkanal in Ihrem AEM Screens-Projekt, z. B. **LaunchesDemo** > **Kanäle** > **FutureLaunch** wie nachstehend dargestellt.
+1. Erstellen Sie einen Sequenzkanal in Ihrem AEM Screens-Projekt, beispielsweise **LaunchesDemo** > **Kanäle** > **FutureLaunch**, wie unten dargestellt.
 
    >[!CAUTION]
    >
@@ -141,9 +141,9 @@ Gehen Sie gemäß nachstehendem Abschnitt vor, um Screens Launch-Funktionen in I
    * **Geänderte Seiten bewerben**: Es werden nur bearbeitete Launch-Ressourcen beworben. Es wird empfohlen, diese Option zu verwenden, wenn keine Launch-Überprüfung erforderlich ist.
    * **Genehmigte Seiten bewerben**: Für diese Option muss der Arbeitsablauf für die Launch-Genehmigung in den Kanälen ausgeführt werden. Nur genehmigte Seiten werden am festgelegten Live-Datum beworben.
 
-      >[!CAUTION]
-      >
-      >Beim Live-Datum des Launches wird die Zeitzone des Players/Geräts und nicht die des Servers berücksichtigt.
+     >[!CAUTION]
+     >
+     >Beim Live-Datum des Launches wird die Zeitzone des Players/Geräts und nicht die des Servers berücksichtigt.
 
 1. Sie sehen, dass Ihr Launch erstellt wurde. Sie können entweder auf **Öffnen** klicken, um die Seiten im Editor anzuzeigen, oder auf **Fertig**, um zu Ihrem Projekt zurückzukehren.
 

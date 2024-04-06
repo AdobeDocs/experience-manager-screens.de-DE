@@ -6,10 +6,10 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
 source-wordcount: '1476'
-ht-degree: 90%
+ht-degree: 88%
 
 ---
 
@@ -59,9 +59,9 @@ Gehen Sie wie folgt vor, um ein Projekt und einen Kanal einzurichten:
 
 ### Zuweisen eines Kanals zu einer Anzeige {#assigning-channel-to-display}
 
-Nachdem das Projekt fertig eingerichtet wurde, müssen Sie den Kanal einer Anzeige zuweisen, um den Inhalt anzuzeigen.
+Nachdem das Projekt fertig eingerichtet wurde, müssen Sie den Kanal einem Display zuweisen, um den Inhalt anzuzeigen.
 
-1. Navigieren Sie zur gewünschten Anzeige, z. B. **DemoScreens** > **Standorte** > **SanJose** > **Lobby**.
+1. Navigieren Sie zur gewünschten Anzeige, beispielsweise **DemoScreens** > **Standorte** > **SanJose** > **Lobby**.
 
 1. Tippen/klicken Sie in der Aktionsleiste auf **Kanal zuweisen**.
 
@@ -110,7 +110,7 @@ Nachdem Sie einen Kanal einer Anzeige zugewiesen und einen Intervallzeitplan ein
 
 Führen Sie die folgenden Schritte aus, um zur Timeline-Ansicht zu navigieren:
 
-1. Navigieren Sie zur gewünschten Anzeige, z. B. **DemoScreens** > **Standorte** > **SanJose** > **Lobby**.
+1. Navigieren Sie zur gewünschten Anzeige, beispielsweise **DemoScreens** > **Standorte** > **SanJose** > **Lobby**.
 
 1. Tippen/klicken Sie in der Aktionsleiste auf **Kanal zuweisen**.
 

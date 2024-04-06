@@ -1,22 +1,22 @@
 ---
 title: Notfallkanal
-seo-title: Notfallkanal
+seo-title: Emergency Channel
 description: In diesem Anwendungsbeispiel sehen Sie, wie Sie einen Notfallkanal erstellen und verwalten, zu dem der Inhaltsautor im Falle einer Bedingung von einem Sequenzkanal wechseln kann.
-seo-description: In diesem Anwendungsbeispiel sehen Sie, wie Sie einen Notfallkanal erstellen und verwalten, zu dem der Inhaltsautor im Falle einer Bedingung von einem Sequenzkanal wechseln kann.
+seo-description: Follow this use case example to learn about creating and managing an emergency channel that the content author can switch from a sequence channel in case of a precondition.
 uuid: 612917c9-a832-453b-970c-f4365f7b105d
 content-type: example
 topic-tags: use-case-examples
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: dbb4fae6-f3fb-496a-9bd6-1151e2862b5b
 docset: aem65
-feature: Inhaltserstellung in Screens
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d409ba46-b48a-44db-b305-27c392cd55de
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '814'
-ht-degree: 100%
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '769'
+ht-degree: 95%
 
 ---
 
@@ -118,6 +118,7 @@ Gehen Sie wie folgt vor, um einen Notfallkanal einzurichten:
       1. Klicken Sie auf **Speichern**.
 
       In ähnlicher Weise müssen Sie dieselben Schritte wiederholen, um den **EmergencyChannel** zuzuweisen und seine **Priorität** festzulegen.
+
    >[!NOTE]
    >
    >Mit „Priorität“ können Zuweisungen geordnet werden, falls mehrere die Wiedergabekriterien erfüllen. Höhere Werte haben stets Vorrang vor niedrigeren Werten.
@@ -143,12 +144,12 @@ Gehen Sie wie folgt vor, um einen Notfallkanal einzurichten:
 
 1. **Zuweisen eines Zeitplans zu jeder Anzeige**
 
-   1. Navigieren Sie zu jeder Anzeige, z. B. **EmergencyChannel** > **Standorte** > **Store** > **StoreFront**.
+   1. Navigieren Sie zur jeweiligen Anzeige, z. B. **EmergencyChannel** > **Standorte** > **Store** >**StoreFront**.
 
    1. Klicken Sie in der Aktionsleiste auf **Dashboard**, um das Anzeigen-Dashboard zu öffnen.
    1. Klicken Sie auf **...** im Bedienfeld **ZUGEWIESENE KANÄLE UND ZEITPLÄNE** und klicken Sie auf **+ Zeitplan zuweisen**.
 
-   1. Wählen Sie den Pfad zum Zeitplan aus (hier z. B. **EmergencyChannel** > **Zeitpläne** > **StoreSchedule**).
+   1. Wählen Sie den Pfad zum Zeitplan aus (hier beispielsweise **EmergencyChannel** > **Zeitpläne** >**StoreSchedule**).
 
    1. Klicken Sie auf **Speichern**.
 
@@ -165,7 +166,7 @@ Gehen Sie wie folgt vor, um einen Notfallkanal einzurichten:
 
 Führen Sie im Notfall die folgenden Schritte aus:
 
-1. Navigieren Sie zu **EmergencyChannel** > **Zeitpläne** > **StoreSchedule** und wählen Sie in der Aktionsleiste **Dashboard** aus.
+1. Navigieren Sie zu **EmergencyChannel** > **Zeitpläne** > **StoreSchedule** und wählen **Dashboard** in der Aktionsleiste aus.
 
    ![screen_shot_2019-02-25at101112pm](assets/screen_shot_2019-02-25at101112pm.png)
 

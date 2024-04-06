@@ -1,8 +1,8 @@
 ---
 title: Hinzufügen von Komponenten zu Kanälen
-seo-title: Hinzufügen von Komponenten zu Kanälen
+seo-title: Adding Components to a Channel
 description: Auf dieser Seite erfahren Sie mehr über das Hinzufügen von Komponenten zu Kanälen in AEM Screens-Projekten.
-seo-description: Auf dieser Seite erfahren Sie mehr über das Hinzufügen von Komponenten zu Kanälen in AEM Screens-Projekten.
+seo-description: Follow this page to learn more about adding components to channels in an AEM Screens project.
 uuid: 205d0edd-a696-47d0-a859-5f44d48c5e4a
 contentOwner: jsyal
 content-type: reference
@@ -10,14 +10,14 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
-feature: Inhaltserstellung in Screens
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '1466'
-ht-degree: 100%
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '1450'
+ht-degree: 77%
 
 ---
 
@@ -31,30 +31,30 @@ AEM Screens bietet verschiedene AEM-Komponenten, die sich in Screens-Projekten v
 
 ### Anzeigen von AEM Screens-Komponenten {#viewing-aem-screens-components}
 
-Beim Erstellen eines AEM Screens-Projekts wird eine Liste der Standardkomponenten angezeigt, die dem Projekt hinzugefügt werden können.
+Bei jeder Erstellung eines AEM Screens-Projekts wird eine Liste der Standardkomponenten angezeigt, die zum Projekt hinzugefügt werden können.
 
-Gehen Sie wie folgt vor, um die Standardkomponenten für ein Screens-Projekt anzuzeigen:
+Gehen Sie wie folgt vor, um die Standardkomponenten für Ihr Screens-Projekt anzuzeigen:
 
-1. Wählen Sie den Kanal aus. Beispiel: **We.Retail In-Store** > **Kanäle** > **Idle Channel**.
+1. Wählen Sie den Kanal aus. Beispiel: **We.Retail im Store** > **Kanäle** > **Idle Channel**.
 
-1. Klicken Sie in der Aktionsleiste auf **Bearbeiten**, um den AEM-Editor zu öffnen.
-1. Klicken Sie in der Seitenleiste auf das Symbol **+**, um die Komponenten zu öffnen.
-1. Alle Komponenten, die standardmäßig in einem AEM Screens-Projekt enthalten sind, werden angezeigt (siehe nachfolgende Abbildung).
+1. Klicks **Bearbeiten** in der Aktionsleiste, um den AEM-Editor zu öffnen.
+1. Klicken Sie auf **+** in der Seitenleiste, um die Komponenten zu öffnen.
+1. Alle Komponenten, die standardmäßig in einem AEM Screens-Projekt enthalten sind, werden wie in der folgenden Abbildung dargestellt angezeigt.
 
 ![screen_shot_2017-12-18at21350pm](assets/screen_shot_2017-12-18at21350pm.png)
 
 ### Hinzufügen neuer Komponenten {#adding-a-new-component}
 
-AEM stellt eine Reihe von Komponenten bereit. Sie können Ihrem Projekt jederzeit weitere (nicht standardmäßig enthaltene) Komponenten hinzufügen, sofern diese mit AEM Screens kompatibel sind.
+AEM bietet eine Reihe weiterer Komponenten. Sie können Ihrem Projekt jederzeit weitere (nicht standardmäßig enthaltene) Komponenten hinzufügen, sofern diese mit AEM Screens kompatibel sind.
 
-Im folgenden Beispiel sehen Sie, wie einem AEM Screens-Projekt eine Livefyre-Komponente hinzugefügt wird:
+Das folgende Beispiel zeigt das Hinzufügen einer Livefyre-Komponente zu einem AEM Screens-Projekt:
 
-1. Wählen Sie den Kanal aus, dem eine neue Komponente hinzugefügt werden soll. Beispiel: **We.Retail In-Store** > **Kanäle** > **Idle Channel**.
+1. Wählen Sie den Kanal aus, dem eine neue Komponente hinzugefügt werden soll. Beispiel: **We.Retail im Store** > **Kanäle** > **Idle Channel**.
 
 1. Klicken Sie in der Aktionsleiste auf **Bearbeiten**, um den Editor zu öffnen.
 1. Wählen Sie den Modus **Design** aus.
-1. Wählen Sie rechts den kompletten Designeditor aus und klicken Sie auf das Einstellungssymbol, um das Dialogfeld **ParSys-Design** zu öffnen.
-1. Sie können die Komponenten auswählen, die dem AEM Screens-Projekt hinzugefügt werden sollen. Im folgenden Beispiel sehen Sie, wie einem AEM Screens-Projekt eine **Livefyre**-Komponente hinzugefügt wird.
+1. Wählen Sie den gesamten Design-Editor auf der rechten Seite aus und klicken Sie auf das Einstellungssymbol, um den **ParSys-Design** Dialogfeld.
+1. Sie können die Komponenten auswählen, die Sie in Ihr AEM Screens-Projekt importieren möchten. Im folgenden Beispiel sehen Sie, wie einem AEM Screens-Projekt eine **Livefyre**-Komponente hinzugefügt wird.
 
 ![adding_components](assets/adding_components.gif)
 
@@ -72,9 +72,9 @@ Im folgenden Abschnitt werden die AEM Screens-Komponenten beschrieben, die Sie f
 
 ### Anwendung {#application}
 
-Mit der Komponente **Anwendung** können Sie Kanälen eine Anwendung hinzufügen.
+Die **Anwendung** -Komponente können Sie Ihrem Kanal eine Anwendung hinzufügen.
 
-Die Komponente „Anwendung“ verfügt über die folgenden Eigenschaften:
+Die Anwendungskomponente verfügt über die folgenden Eigenschaften:
 
 | **Eigenschaft** | **Beschreibung** |
 |---|---|
@@ -91,9 +91,9 @@ Im folgenden Beispiel sehen Sie, wie die Komponente „Anwendung“ hinzugefügt
 
 ### Kanal {#channel}
 
-Mit der Komponente **Kanal** können Sie Projekten einen vollständigen Kanal hinzufügen.
+Die **Kanal** -Komponente können Sie einem Projekt einen ganzen Kanal hinzufügen.
 
-Die Komponente „Kanal“ verfügt über die folgenden Eigenschaften:
+Die Komponente Kanal verfügt über die folgenden Eigenschaften:
 
 <table>
  <tbody>
@@ -143,7 +143,7 @@ Die Komponente „Eingebettete Seite“ verfügt über die folgenden Eigenschaft
 
 Mit der Komponente „Eingebettete Sequenz“ können Sie einen eingebetteten Sequenzkanal in einem vorhandenen Kanal (mit anderen Assets) hinzufügen.
 
-Die Komponente „Eingebettete Sequenz“ verfügt über die folgenden Seiteneigenschaften:
+Die eingebettete Sequenz verfügt über die folgenden Seiteneigenschaften:
 
 <table>
  <tbody>
@@ -153,7 +153,7 @@ Die Komponente „Eingebettete Sequenz“ verfügt über die folgenden Seiteneig
   </tr>
   <tr>
    <td>Kanalpfad</td>
-   <td>Damit wird der absolute Pfad zu der Sequenz festgelegt, die in den Kanal aufgenommen werden soll.<br /> </td>
+   <td>Wählen Sie den absoluten Pfad der Sequenz aus, die Sie in Ihren Kanal aufnehmen möchten.<br /> </td>
   </tr>
   <tr>
    <td><strong><em>Dauer (ms)</em></strong></td>
@@ -218,7 +218,7 @@ Weitere Informationen zum Erstellen eines Experience Fragments und dessen Verwen
 
 ### Bild {#image}
 
-Mit der Komponente „Bild“ können Sie dem Kanal ein Bild hinzufügen.
+Mit einem Bild können Sie ein Bild zu Ihrem Kanal hinzufügen.
 
 Das Bild-Asset besitzt die drei Registerkarten **Bild**, **Erreichbarkeit** und **Sequenz**:
 
@@ -229,9 +229,9 @@ Das Bild-Asset besitzt die drei Registerkarten **Bild**, **Erreichbarkeit** und 
 | ***Titel*** | Hierbei handelt es sich um den Titel des Bildes. |
 | ***Verknüpfung zu*** | Damit wird dem Bild ein Link hinzugefügt. |
 | ***Beschreibung*** | Hierbei handelt es sich um eine kurze Beschreibung des Bildes. |
-| ***Größe*** | Hierbei handelt es sich um die Größe des Bildes. |
+| ***Größe*** | Größe des Bildes. |
 | **Erreichbarkeit** |
-| ***Alternativtext*** | Hierbei handelt es sich um Alternativtext für das Bild. |
+| ***Alternativtext*** | Alternativer Text zum Bild. |
 | **Sequenz** |
 | ***Dauer*** | Standardmäßig ist die Dauer auf *8000 ms* eingestellt. Wenn Sie die Wiedergabedauer des Bildes ändern möchten, aktualisieren Sie das Feld **Dauer**. |
 
@@ -308,9 +308,9 @@ Die Komponente „Übergang“ verfügt über die folgenden Eigenschaften:
 
 ### Video {#video}
 
-Mit der Komponente „Video“ können Sie Screens-Projekten ein Video hinzufügen.
+Mit der Komponente &quot;Video&quot;können Sie Ihrem Screens-Projekt ein Video hinzufügen.
 
-Die Komponente „Video“ verfügt über die folgenden Eigenschaften:
+Die Videokomponente verfügt über die folgenden Eigenschaften:
 
 <table>
  <tbody>
@@ -328,7 +328,7 @@ Die Komponente „Video“ verfügt über die folgenden Eigenschaften:
   </tr>
   <tr>
    <td><em><strong>Rendering</strong></em></td>
-   <td><p>Wenn das Seitenverhältnis des Videos nicht auf den Bildschirm passt, können Sie „Rendering“ auf <strong>enthalten</strong> oder <strong>Cover</strong> einstellen.</p> <p><em>enthalten</em> bedeutet, dass das vollständige Video gezeigt wird; fehlende Bereiche werden mit schwarzem Rand aufgefüllt.</p> <p><em>Cover</em> bedeutet, dass das Video zwar den gesamten Viewport abdeckt, aber dass bestimmte, über die Seiten hinausgehende Teile nicht dargestellt werden.</p> </td>
+   <td><p>Wenn das Video-Seitenverhältnis nicht auf den Bildschirm passt, können Sie das Rendering auf Folgendes einstellen: <strong>contain</strong> oder <strong>cover</strong>.</p> <p><em>Contain</em> bedeutet, dass das vollständige Video angezeigt und die fehlenden Bereiche mit einem schwarzen Rahmen aufgefüllt werden.</p> <p><em>Abdeckung</em> bedeutet, dass das Video den gesamten Viewport abdeckt, aber einige Teile, die an den Seiten überlaufen werden, sind ausgeblendet.</p> </td>
   </tr>
   <tr>
    <td><em><strong>Größe</strong></em></td>

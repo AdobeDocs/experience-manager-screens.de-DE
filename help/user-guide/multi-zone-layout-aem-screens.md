@@ -14,10 +14,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
-source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
-workflow-type: ht
-source-wordcount: '1129'
-ht-degree: 100%
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '1112'
+ht-degree: 93%
 
 ---
 
@@ -67,7 +67,7 @@ Sie können einzelne Assets wie ein Bild oder ein Video in allen Bereichen verwe
 
 1. **Hinzufügen von Inhalten zum Kanal**
 
-   1. Navigieren Sie zu **Bereiche** > **Kanäle** > **MultiZone**.
+   1. Navigieren Sie zu **Bereiche** > **Kanäle**> **MultiZone**.
    1. Wählen Sie den Kanal **Multizone** aus und klicken Sie in der Aktionsleiste auf **Bearbeiten**, um den Editor zu öffnen.
 
 1. **Hinzufügen von Bildern zum Kanal**
@@ -82,7 +82,7 @@ Wenn Sie möchten, dass eine Bildsequenz und ein Video in verschiedenen Bereiche
 
 1. **Erstellen eines Kanalordners**
 
-   1. Navigieren Sie zu **Bereiche** > **MultiZone** > **Kanäle** und klicken Sie in der Aktionsleiste auf **Erstellen**.
+   1. Navigieren Sie zu **Bereiche** > **MultiZone** > **Kanäle** und klicken **Erstellen** in der Aktionsleiste aus.
    1. Wählen Sie im Assistenten **Erstellen** die Option **Kanalordner** aus und klicken Sie auf **Weiter**.
    1. Geben Sie **EmbeddedChannels** als Titel ein und klicken Sie auf **Erstellen**.
 
@@ -90,7 +90,7 @@ Wenn Sie möchten, dass eine Bildsequenz und ein Video in verschiedenen Bereiche
 
 1. **Hinzufügen von zwei weiteren Kanälen zum Kanalordner**
 
-   1. Navigieren Sie zu **Bereiche** > **Kanäle** > **EmbeddedChannels** und klicken Sie in der Aktionsleiste auf **Erstellen**.
+   1. Navigieren Sie zu **Bereiche** > **Kanäle** > **EmbeddedChannels** und klicken **Erstellen** in der Aktionsleiste aus.
    1. Wählen Sie im Assistenten **Erstellen** die Option **Sequenzkanal** aus, um einen Kanal mit dem Namen **Zone1** zu erstellen.
    1. Wählen Sie **Zone1** aus und klicken Sie in der Aktionsleiste auf **Bearbeiten**, um den Editor zu öffnen.
    1. Ziehen Sie einige Bilder in diesen Kanal.
@@ -116,7 +116,7 @@ Wenn Sie möchten, dass eine Bildsequenz und ein Video in verschiedenen Bereiche
    1. Ziehen Sie die Komponente **Eingebettete Sequenz** per Drag-and-Drop in beide Bereiche.
    1. Wählen Sie die eingebettete Sequenz in einem der Bereiche aus.
    1. Klicken Sie auf das Symbol **Konfigurieren** (Schraubenschlüssel), um eine der eingebetteten Sequenzen im Editor zu konfigurieren.
-   1. Wählen Sie als Kanalpfad **Bereiche** > **Kanäle** > **EmbeddedChannels** > **Zone1** aus, wie in der Abbildung unten dargestellt.
+   1. Wählen Sie den Kanalpfad als **Bereiche** > **Kanäle** > **EmbeddedChannels** > **Zone1**, wie in der folgenden Abbildung dargestellt.
    1. Fügen Sie auf ähnliche Weise **Zone2** einer anderen eingebetteten Sequenzkomponente im Editor hinzu.
 
       ![image](/help/user-guide/assets/multi-zone/multizone-3.png)
@@ -127,14 +127,14 @@ Erstellen Sie einen Speicherort und einen Display, um den Inhalt im Screens-Play
 
 1. **Erstellen eines Standorts**
 
-   1. Navigieren Sie zum Ordner **Bereiche** > **Standorte**.
+   1. Navigieren Sie zu **Bereiche** > **Standorte** Ordner.
    1. Wählen Sie den Ordner **Standorte** aus und klicken Sie in der Aktionsleiste auf **Erstellen**.
    1. Wählen Sie im Assistenten **Erstellen** die Option **Standort** aus und klicken Sie auf **Weiter**.
    1. Geben Sie unter **Titel** den Wert **SanJose** ein und klicken Sie auf **Erstellen**.
 
 1. **Erstellen einer Anzeige**
 
-   1. Navigieren Sie zum Ordner **Bereiche** > **Standorte**.
+   1. Navigieren Sie zu **Bereiche** > **Standorte** Ordner.
    1. Wählen Sie den Standort **SanJose** aus und klicken Sie in der Aktionsleiste auf **Erstellen**.
    1. Wählen Sie im Assistenten **Erstellen** die Option **Anzeige** aus und klicken Sie auf **Weiter**.
    1. Geben Sie unter **Titel** den Wert **Lobby** ein und klicken Sie auf **Erstellen**.
@@ -145,7 +145,7 @@ Weisen Sie die Kanäle dem Display zu, um den Inhalt anzuzeigen. Gehen Sie wie f
 
 1. **Zuweisen eines Kanals zur Anzeige**
 
-   1. Navigieren Sie zu **Zonen** > **Standorte** > **SanJose** > **Lobby**.
+   1. Navigieren Sie zu **Bereiche** > **Standorte** > **SanJose**> **Lobby**.
    1. Wählen Sie die Anzeige **Lobby** aus und klicken Sie in der Aktionsleiste auf **Kanal zuweisen**.
    1. Geben Sie den Pfad zum Kanal **MultiZone** unter **Kanalpfad** ein.
    1. Wählen Sie unter **Unterstützte Ereignisse** die Optionen **Erster Ladevorgang**, **Bildschirm bei Untätigkeit** und **Benutzerinteraktion**.
@@ -168,10 +168,9 @@ Nachdem Sie einen Standort und eine Anzeige eingerichtet haben, gehen Sie wie fo
 
 1. **Registrieren des Geräts**
 
-   1. Navigieren Sie zum Ordner **Zonen** > **Geräte**.
+   1. Navigieren Sie zu **Bereiche** > **Geräte** Ordner.
    1. Wählen Sie den Ordner **Geräte** aus und klicken Sie in der Aktionsleiste auf **Geräte-Manager**.
    1. Klicken Sie auf **Geräteregistrierung** und wählen Sie in der Liste das ausstehende Gerät aus.
-
       >[!NOTE]
       > Der Titel des Geräts muss mit dem Geräte-Token (Feld **Token**) übereinstimmen, das auf der Registerkarte **Geräteregistrierung** angezeigt wird.
    1. Wenn der Titel mit dem Geräte-Token übereinstimmt, wählen Sie das Gerät aus und klicken Sie in der Aktionsleiste auf **Gerät registrieren**.

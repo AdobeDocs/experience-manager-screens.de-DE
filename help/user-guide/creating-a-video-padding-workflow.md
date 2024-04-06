@@ -1,8 +1,8 @@
 ---
 title: Erstellen eines Workflows für den Videoabstand
-seo-title: Erstellen eines Workflows für den Videoabstand
+seo-title: Creating a Video Padding Workflow
 description: Auf dieser Seite erfahren Sie, wie Sie im Workflow für Ihre Assets einen Videoabstand (Video-Padding) erstellen.
-seo-description: Auf dieser Seite erfahren Sie, wie Sie im Workflow für Ihre Assets einen Videoabstand (Video-Padding) erstellen.
+seo-description: Follow this page to learn about creating a video padding in the workflow for your assets.
 uuid: c0f004ca-c934-47f8-bcdc-da58ea62118e
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,14 +10,14 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: a90e3950-c95a-4aff-8cb3-9229c660a815
 docset: aem65
-feature: Inhaltserstellung in Screens
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '605'
-ht-degree: 100%
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '579'
+ht-degree: 96%
 
 ---
 
@@ -61,11 +61,11 @@ Gehen Sie wie folgt vor, um den Workflow zu erstellen und zu verwenden:
 
 Gehen Sie wie folgt vor, um einen Workflow für Ihr Video zu erstellen:
 
-1. Navigieren Sie zu Ihrer AEM-Instanz und klicken Sie in der Seitenleiste auf „Tools“. Wählen Sie **Workflow** > **Modelle** aus, um ein neues Modell zu erstellen.
+1. Navigieren Sie zu Ihrer AEM-Instanz und klicken Sie in der Seitenleiste auf „Tools“. Auswählen **Workflow** > **Modelle** , um ein neues Modell zu erstellen.
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
-1. Klicken Sie auf **Modelle** > **Erstellen** > **Modell erstellen**. Geben Sie den **Titel** (als **VideoRendition**) und den **Namen** in **Workflow-Modell hinzufügen** ein. Klicken Sie auf **Fertig**, um das Workflow-Modell hinzuzufügen.
+1. Klicks **Modelle** > **Erstellen** > **Modell erstellen**. Geben Sie den **Titel** (als **VideoRendition**) und den **Namen** in **Workflow-Modell hinzufügen** ein. Klicken Sie auf **Fertig**, um das Workflow-Modell hinzuzufügen.
 
    ![screen_shot_2018-10-17at90747pm](assets/screen_shot_2018-10-17at90747pm.png)
 
@@ -101,7 +101,7 @@ Gehen Sie wie folgt vor, um einen Workflow für Ihr Video zu erstellen:
 
 Gehen Sie wie folgt vor, um den Workflow in Ihrem AEM Screens-Projekt zu verwenden:
 
-1. Navigieren Sie zu einem AEM Screens-Projekt (**TestVideoRendition** > **Kanäle** > **VideoRendition**).
+1. Navigieren Sie zu einem AEM Screens-Projekt (**TestVideoRendition** > **Kanäle** >**VideoRendition**).
 
    ![screen_shot_2018-10-17at100715pm](assets/screen_shot_2018-10-17at100715pm.png)
 

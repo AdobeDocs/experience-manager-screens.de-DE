@@ -1,22 +1,22 @@
 ---
 title: Arbeiten mit dem AEM Screens-Player
-seo-title: Arbeiten mit dem AEM Screens-Player
-description: Auf dieser Seite erhalten Sie Informationen zum AEM Screens-Player. Hier werden auch die Administrator-Benutzeroberfläche und der Kanalschalter erklärt.
-seo-description: Auf dieser Seite erhalten Sie Informationen zum AEM Screens-Player. Hier werden auch die Administrator-Benutzeroberfläche und der Kanalschalter erklärt.
+seo-title: Working with Screens Player
+description: Auf dieser Seite erhalten Sie Informationen zum AEM Screens-Player. Außerdem werden die Admin-Benutzeroberfläche und der Kanalschalter erläutert.
+seo-description: Follow this page to learn about Screens Player. It also explains the Admin UI and the Channel Switcher.
 uuid: 93e113ea-fbef-4757-982b-b7dc52fc76a7
 contentOwner: jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
-feature: Verwalten von Screens
+feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '1068'
-ht-degree: 100%
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '1058'
+ht-degree: 83%
 
 ---
 
@@ -28,13 +28,13 @@ Im AEM Screens-Player können Sie den Inhalt für einen Kanal und andere Einstel
 >
 >Drücken Sie ***Ctrl + Befehl + F***, um den Vollbildmodus für AEM Screens-Player unter OS X zu beenden.
 
-Wenn Sie einen Kanal einer Anzeige zuweisen, wird im AEM Screens-Player der Inhalt angezeigt. Sie können die Einstellungen für den Player über die Voreinstellungen für die Administrator-Benutzeroberfläche (im Dashboard) oder im Player selbst konfigurieren.
+Wenn Sie einen Kanal einer Anzeige zuweisen, wird im AEM Screens-Player der Inhalt angezeigt. Sie können die Einstellungen für Ihren Player entweder über die Voreinstellungen für die Administrator-Benutzeroberfläche (über das Dashboard) oder über den Player selbst konfigurieren.
 
 ## Verwenden des Geräte-Dashboards {#using-the-device-dashboard}
 
 Sie können die Voreinstellungen für Ihr Gerät im Geräte-Dashboard konfigurieren, auf das Sie über Ihre AEM-Autoreninstanz zugreifen können.
 
-1. Navigieren Sie ausgehend von Ihrem Projekt zum Geräte-Dashboard, z. B. über ***Testprojekt*** > ***Geräte***.
+1. Navigieren Sie vom Projekt zum Geräte-Dashboard, z. B. ***Testprojekt*** > ***Geräte***.
 
    Wählen Sie in der Aktionsleiste die Optionen **Geräte** und **Geräte-Manager** aus.
 
@@ -52,7 +52,7 @@ Sie können die Voreinstellungen für Ihr Gerät im Geräte-Dashboard konfigurie
 
 Durch die Aktivierung der **Administrator-Benutzeroberfläche** im Fenster „Voreinstellungen“ kann der Benutzer die Administratoreinstellungen vom Screens-Player aus öffnen. Wenn Sie diese Option im Geräte-Dashboard deaktivieren, kann der Benutzer die Administrator-Benutzeroberfläche nicht im Player öffnen.
 
-Um die Administrator-Benutzeroberfläche vom Screens-Player aus zu öffnen, halten Sie die linke obere Ecke gedrückt, um das Menü „Admin“ auf Ihrem Touch-optimierten Player zu öffnen, oder verwenden Sie eine Maus. Nachdem die Registrierung abgeschlossen ist und die Kanäle geladen sind, werden Informationen angezeigt.
+Um die Administrator-Benutzeroberfläche vom Screens-Player aus zu öffnen, halten Sie die linke obere Ecke gedrückt, um das Menü „Admin“ auf Ihrem Touch-optimierten AEM Screens-Player zu öffnen, oder verwenden Sie eine Maus. Nachdem die Registrierung abgeschlossen ist und die Kanäle geladen sind, werden Informationen angezeigt.
 
 >[!NOTE]
 >
@@ -74,9 +74,9 @@ Im Menü „Konfiguration“ können Sie die folgenden Einstellungen ändern:
 
 * Aktivieren oder deaktivieren Sie das **Admin-Menü**, den **Kanalschalter** und die **Aktivitäts-Benutzeroberfläche** für den Screens-Player.
 
-   Wenn die **Aktivitäts-Benutzeroberfläche** im Menü **Konfiguration** aktiviert ist, zeigt der AEM Screens-Player die *Benachrichtigungen zur Player-Aktivität* oben rechts im Player an, wie in der folgenden Abbildung dargestellt.
+  Wenn die **Aktivitäts-Benutzeroberfläche** im Menü **Konfiguration** aktiviert ist, zeigt der AEM Screens-Player die *Benachrichtigungen zur Player-Aktivität* oben rechts im Player an, wie in der folgenden Abbildung dargestellt.
 
-   ![image](/help/user-guide/assets/activity_ui.png)
+  ![image](/help/user-guide/assets/activity_ui.png)
 
 >[!NOTE]
 >
@@ -90,7 +90,7 @@ Im Menü „Konfiguration“ können Sie die folgenden Einstellungen ändern:
 
 Sie können den Cache für Kanäle und Anwendungen über die Administrator-Benutzeroberfläche im AEM Screens-Player löschen.
 
-Wählen Sie **Inhaltscache** in der Seitenleiste, um den Cache zu aktualisieren.
+Wählen Sie die **Inhalts-Cache** über die Seitenleiste aus, um den Cache zu aktualisieren.
 
 ![screen_shot_2018-10-15at105717am](assets/screen_shot_2018-10-15at105717am.png)
 
@@ -98,11 +98,11 @@ Wählen Sie **Inhaltscache** in der Seitenleiste, um den Cache zu aktualisieren.
 
 Durch das Aktivieren der Option **Kanalschalter** im Fenster „Voreinstellungen“ kann der Benutzer die Kanalauswahl/-einstellungen vom Screens-Player aus öffnen.
 
-Wenn Sie diese Option im Geräte-Dashboard deaktivieren, kann der Benutzer die Kanal-Voreinstellungen nicht vom Screens-Player aus steuern.
+Wenn Sie diese Option im Geräte-Dashboard deaktivieren, kann der Benutzer außerdem die Kanalvoreinstellungen nicht über den Screens-Player steuern.
 
-Sie können im Screens-Player die Einstellungen für Ihren Kanal wechseln und steuern.
+Sie können die Einstellungen für Ihren Kanal von Ihrem Screens-Player aus wechseln und steuern.
 
-Um den Kanalschalter vom Player aus aufzurufen, halten Sie die untere linke Ecke gedrückt, um den Kanalschalter zu öffnen. Dort können Sie Kanäle wechseln und auf sonstige Funktionen zugreifen.
+Um den Kanalschalter vom Player aus anzuzeigen, halten Sie die linke untere Ecke gedrückt, um den Kanalschalter zu öffnen, der das Wechseln von Kanälen und anderen Funktionen ermöglicht.
 
 ![chlimage_1-69](assets/chlimage_1-69.png)
 
@@ -116,9 +116,9 @@ Um den Kanalschalter vom Player aus aufzurufen, halten Sie die untere linke Ecke
 
 Sie können die Einstellungen für die Administrator-Benutzeroberfläche und den Kanalschalter auch im Player selbst ändern.
 
-Führen Sie folgende Schritte aus, um die Voreinstellungen im Player zu ändern:
+Führen Sie die folgenden Schritte aus, um die Voreinstellungen für Ihren Player zu ändern:
 
-1. Halten Sie die linke obere Ecke im inaktiven Kanal gedrückt, um das Administratorfenster zu öffnen.
+1. Halten Sie die linke obere Ecke des idle-Kanals gedrückt, um das Admin-Bedienfeld zu öffnen.
 1. Navigieren Sie im linken Aktionsmenü zu **Konfiguration**.
 1. Aktivieren bzw. deaktivieren Sie die Option „Konfiguration“ für die **Administrator-Benutzeroberfläche** oder den **Kanalschalter**.
 
@@ -144,7 +144,7 @@ Für den AEM Screens-Player gibt es zwei Arten von Updates:
 | **Methode** | **Details** | **Remote** | **Automatisiert** | **Ohne Ausfallzeit** |
 |---|---|---|---|---|
 | Firmware-Update | Wird per Remote-Befehl auf vorhandene installierte Player angewendet. Nach der Aktualisierung wird der Player mit dem vorhandenen Inhalt automatisch neu geladen. | Ja | Benutzerdefiniert | Fast – 1-3 Sekunden |
-| Player-Shell-Aktualisierungen | Dabei handelt es sich um eine neue ausführbare Datei, die im Player bereitgestellt werden kann. Dazu müssen neue Binärdaten remote auf den Player kopiert, der aktuelle Player angehalten und die neue Version gestartet werden. Die vorab geladenen Pakete müssen möglicherweise erneut heruntergeladen werden. | Ja (über Remote-Shell) | Benutzerdefiniert | Nein |
+| Player-Shell-Aktualisierungen | Dabei handelt es sich um eine neue ausführbare Datei, die im Player bereitgestellt werden kann. Dies erfordert, dass Sie eine neue Binärdatei auf den Player kopieren, die aktuelle Version stoppen und die neue Version starten. Dies erfordert möglicherweise ein erneutes Herunterladen des Vorausladevorgangs der Pakete. | Ja (über Remote-Shell) | Benutzerdefiniert | Nein |
 
 ## Richtlinien zur Hardware-Auswahl für Player-Geräte {#hardware-selection-guidelines-for-player-device}
 

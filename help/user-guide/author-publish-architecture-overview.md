@@ -1,21 +1,21 @@
 ---
 title: Architektonischer Überblick zur Autoren- und Veröffentlichungsinstanz
-seo-title: Architektonischer Überblick zur Autoren- und Veröffentlichungsinstanz
+seo-title: Author and Publish Architectural Overview
 description: Die AEM Screens-Architektur ähnelt einer traditionellen AEM Sites-Architektur. Inhalte werden in einer AEM-Autoreninstanz erstellt und dann vorwärts an mehrere Veröffentlichungsinstanzen repliziert. Auf dieser Seite erfahren Sie mehr über die Architektur der Autoren- und Veröffentlichungsinstanz.
-seo-description: Die AEM Screens-Architektur ähnelt einer traditionellen AEM Sites-Architektur. Inhalte werden in einer AEM-Autoreninstanz erstellt und dann vorwärts an mehrere Veröffentlichungsinstanzen repliziert. Auf dieser Seite erfahren Sie mehr über die Architektur der Autoren- und Veröffentlichungsinstanz.
+seo-description: AEM Screens architecture resembles a traditional AEM Sites architecture. Content is authored on an AEM author instance and then forward-replicated to multiple publish instances. Follow this page to learn more on author and publish architectural overview.
 uuid: 19bac3de-8938-4339-82f0-6ccb932b6684
 content-type: reference
 topic-tags: administering
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 112404de-5a5a-4b37-b87c-d02029933c8a
 docset: aem65
-feature: Verwalten von Screens
+feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '1028'
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '983'
 ht-degree: 100%
 
 ---

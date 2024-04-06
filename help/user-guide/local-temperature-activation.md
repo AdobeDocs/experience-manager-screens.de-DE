@@ -1,8 +1,8 @@
 ---
 title: Temperaturaktivierung für ein Reiseangebot
-seo-title: Temperaturaktivierung für ein Reiseangebot
+seo-title: Travel Center Temperature Activation
 description: Das folgende Anwendungsbeispiel veranschaulicht die Verwendung der Temperaturaktivierung für ein Reiseangebot anhand der in Google Tabellen angegebenen Werten.
-seo-description: Das folgende Anwendungsbeispiel veranschaulicht die Verwendung der Temperaturaktivierung für ein Reiseangebot anhand der in Google Tabellen angegebenen Werten.
+seo-description: The following use case demonstrates the usage of travel center local temperature activation based on the values populated in Google Sheets.
 uuid: b35286d2-79be-4c36-b72e-c40ffc1a0ca0
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,14 +10,14 @@ content-type: reference
 topic-tags: use-case-examples
 discoiquuid: 9d58b971-4540-4007-968d-2a1d94d1fd38
 docset: aem65
-feature: Inhaltserstellung in Screens
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '478'
-ht-degree: 100%
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '460'
+ht-degree: 96%
 
 ---
 
@@ -78,7 +78,7 @@ Gehen Sie wie folgt vor, um das Anwendungsbeispiel für die temperaturgesteuerte
 
    >[!CAUTION]
    >
-   >Sie sollten Ihre **ContextHub**-**Konfigurationen** auf der Registerkarte **Eigenschaften** für Kanäle > **Personalisierung** eingerichtet haben.
+   >Sie sollten Ihre **ContextHub** **Konfigurationen** über den Kanal **Eigenschaften** > **Personalisierung** Registerkarte.
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
@@ -90,4 +90,5 @@ Gehen Sie wie folgt vor, um das Anwendungsbeispiel für die temperaturgesteuerte
 
    1. Klicken Sie auf **Vorschau**. Öffnen Sie außerdem Ihre Google Tabelle und aktualisieren Sie den Wert.
    1. Wenn Sie den Wert auf weniger als 10 ändern, sollte ein Bild mit Sommergetränken angezeigt werden. Wenn der Wert in der Google Tabelle 10 oder größer ist, sollte ein Bild mit heißen Getränken angezeigt werden.
+
    ![result3](assets/result3.gif)

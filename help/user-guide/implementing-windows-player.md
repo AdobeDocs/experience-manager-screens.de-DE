@@ -14,10 +14,10 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '1145'
-ht-degree: 99%
+source-wordcount: '1143'
+ht-degree: 98%
 
 ---
 
@@ -179,7 +179,7 @@ Wenn Sie einen schwarzen Bildschirm sehen, wenn Sie sich als Kiosk-Benutzer anme
 
 Der standardmäßige Installationspfad für Windows Player lautet:
 
-***C:\Benutzer\&amp;lt;Ihr Benutzer>\AppData\Local\Programme\@aem-screensscreens-player-electron\AEM Screens Player.exe***
+***C:\Users\&lt;your user=&quot;&quot;>\AppData\Local\Programs\@aem-screensscreens-player-electron\AEM Screens Player.exe***
 
 Das Beispielskript in den Links aktiviert und deaktiviert die benutzerdefinierte Shell. Daher müssen Sie das Skript möglicherweise in zwei Teile aufteilen und die folgenden zutreffenden Zeilen aktivieren/deaktivieren:
 

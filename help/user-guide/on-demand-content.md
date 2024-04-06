@@ -1,20 +1,17 @@
 ---
 title: On-Demand-Inhaltsaktualisierungen
-seo-title: On-Demand-Inhaltsaktualisierungen
-description: 'Auf dieser Seite erfahren Sie mehr über On-Demand-Inhaltsaktualisierungen.  '
-seo-description: 'Auf dieser Seite erfahren Sie mehr über On-Demand-Inhaltsaktualisierungen.  '
-uuid: 18b9d175-ff26-42db-86aa-5ea978909f71
+description: Erfahren Sie mehr über On-Demand-Inhaltsaktualisierungen für die Verwaltung von Veröffentlichungen.
 contentOwner: Jyotika Syal
-feature: Inhaltserstellung in Screens
+feature: Authoring Screens
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '856'
-ht-degree: 100%
+exl-id: 9ffdb1eb-a1ba-42ac-a30f-260004e5b165
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '828'
+ht-degree: 33%
 
 ---
-
 
 # On-Demand-Inhaltsaktualisierungen {#on-demand}
 
@@ -22,50 +19,47 @@ In diesem Abschnitt werden On-Demand-Inhalte für die Verwaltung von Veröffentl
 
 ## Verwalten von Veröffentlichungen: Bereitstellen von Inhaltsaktualisierungen vom Autor zur Veröffentlichung auf dem Gerät {#managing-publication-delivering-content-updates-from-author-to-publish-to-device}
 
-Sie können Inhalte in AEM Screens veröffentlichen und deren Veröffentlichung aufheben. Mit der Funktion „Veröffentlichung verwalten“ können Sie Inhaltsaktualisierungen vom Autor an das Gerät senden, um sie zu veröffentlichen. Sie können Inhalte für Ihr gesamtes AEM Screens-Projekt oder nur für einzelne Kanäle, Standorte, Geräte, Anwendungen oder einen Zeitplan veröffentlichen oder die Veröffentlichung aufheben.
+Sie können Inhalte in AEM Screens veröffentlichen und deren Veröffentlichung aufheben. Mit der Funktion „Veröffentlichung verwalten“ können Sie Inhaltsaktualisierungen vom Autor an das Gerät senden, um sie zu veröffentlichen. Sie können Inhalte für Ihr gesamtes AEM Screens-Projekt oder nur für einen Ihrer Kanäle, Standorte, Geräte, Anwendungen oder Zeitpläne veröffentlichen bzw. dessen Veröffentlichung rückgängig machen.
 
 ### Verwalten von Veröffentlichungen für ein AEM Screens-Projekt {#managing-publication-for-an-aem-screens-project}
 
 Gehen Sie wie folgt vor, um Inhaltsaktualisierungen vom Autor zur Veröffentlichung auf dem Gerät für ein AEM Screens-Projekt bereitzustellen:
 
 1. Navigieren Sie zu Ihrem AEM Screens-Projekt.
-1. Klicken Sie in der Aktionsleiste auf **Veröffentlichung verwalten**, um das Projekt in der Veröffentlichungsinstanz zu veröffentlichen.
+1. Auswählen **Veröffentlichung verwalten** in der Aktionsleiste, damit Sie das Projekt in Ihrer Veröffentlichungsinstanz veröffentlichen können.
 
    ![screen_shot_2019-02-25at21420pm](assets/screen_shot_2019-02-25at21420pm.png)
 
-1. Der Assistent **Veröffentlichung verwalten** wird geöffnet. Sie können die **Aktion** auswählen und auch die Veröffentlichungszeit für jetzt oder später planen. Klicken Sie auf **Weiter**.
+1. Der Assistent **Veröffentlichung verwalten** wird geöffnet. Sie können die **Aktion** auswählen und auch die Veröffentlichungszeit für jetzt oder später planen. Wählen Sie **Weiter** aus.
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 
-1. Markieren Sie das Kästchen, um das gesamte Projekt im Assistenten **Veröffentlichung verwalten** auszuwählen.
+1. Aktivieren Sie das Kontrollkästchen, damit Sie das gesamte Projekt aus dem **`Manage Publication`** Assistent.
 
    ![screen_shot_2019-02-25at22712pm](assets/screen_shot_2019-02-25at22712pm.png)
 
-1. Klicken Sie in der Aktionsleiste auf **+ Untergeordnete Elemente einbeziehen**. Deaktivieren Sie alle Optionen, um alle Module im Projekt zu veröffentlichen, und klicken Sie auf **Hinzufügen**, um sie zu veröffentlichen.
+1. Auswählen **+ Untergeordnete Elemente einschließen** in der Aktionsleiste und deaktivieren Sie alle Optionen, damit Sie alle Module in Ihrem Projekt veröffentlichen können. Wählen Sie dann **Hinzufügen** zum Veröffentlichen.
 
    >[!NOTE]
    >
-   >Standardmäßig werden alle Felder markiert und Sie müssen die Kontrollkästchen manuell deaktivieren, um alle Module in Ihrem Projekt zu veröffentlichen.
+   >Standardmäßig sind alle Kästchen markiert und Sie müssen die Kontrollkästchen manuell deaktivieren, um alle Module in Ihrem Projekt zu veröffentlichen.
 
    ![screen_shot_2019-02-25at23116pm](assets/screen_shot_2019-02-25at23116pm.png)
 
    **Dialogfeld „Untergeordnete Elemente einbeziehen“**
 
-   Der oben erwähnte Schritt zeigt, wie Sie den gesamten Inhalt veröffentlichen können. Falls Sie die anderen drei verfügbaren Alternativen verwenden möchten, müssen Sie die entsprechende Option aktivieren.
-Mit der folgenden Abbildung können Sie z. B. nur die geänderten Seiten in Ihrem Projekt verwalten und aktualisieren:
-   ![image](assets/author-publish-manage.png)
+   Die oben genannten Schritte zeigen, wie Sie den gesamten Inhalt veröffentlichen können. Wenn Sie die anderen drei verfügbaren Alternativen verwenden möchten, müssen Sie diese Option aktivieren.
+Die folgende Abbildung zeigt beispielsweise, wie Sie nur die geänderten Seiten in Ihrem Projekt verwalten und aktualisieren können:
+   ![Bild](assets/author-publish-manage.png)
 
-   Folgen Sie den nachstehenden Erläuterungen, um die verfügbaren Optionen zu verstehen:
+   Befolgen Sie die nachstehenden Erläuterungen, damit Sie die verfügbaren Optionen verstehen:
 
-   1. **Nur unmittelbar untergeordnete Elemente einbeziehen**:
-Mit dieser Option können Sie Aktualisierungen verwalten, die nur für die Unterknoten in Ihrer Projektstruktur gelten.
-   1. **Nur geänderte Seiten einschließen**:
-Mit dieser Option können Sie Aktualisierungen verwalten, die nur für die geänderten Seiten des Projekts gelten, auf denen sich die Änderungen in Ihrer Projektstruktur befinden.
-   1. **Nur bereits veröffentlichte Seiten einschließen**:
-Mit diesen Optionen können Sie Aktualisierungen verwalten, die nur für zuvor veröffentlichte Seiten gelten.
+   1. **Nur unmittelbar untergeordnete Elemente einschließen**: Mit dieser Option können Sie Aktualisierungen verwalten, die nur für die Unterknoten in Ihrer Projektstruktur gelten.
+   1. **Nur geänderte Seiten einschließen**: Mit dieser Option können Sie Aktualisierungen verwalten, die nur für die geänderten Seiten des Projekts gelten, auf denen sich die Änderungen in Ihrer Projektstruktur befinden.
+   1. **Nur bereits veröffentlichte Seiten einschließen**: Mit dieser Option können Sie Aktualisierungen verwalten, die nur für zuvor veröffentlichte Seiten gelten.
 
 
-1. Klicken Sie auf **Veröffentlichen** im Assistenten **Veröffentlichung verwalten**.
+1. Aus dem **`Manage Publication wizard`** auswählen **Veröffentlichen**.
 
    ![screen_shot_2019-02-25at23341pm](assets/screen_shot_2019-02-25at23341pm.png)
 
@@ -74,44 +68,43 @@ Mit diesen Optionen können Sie Aktualisierungen verwalten, die nur für zuvor v
    >Warten Sie einige Sekunden/Minuten, damit der Inhalt die Veröffentlichungsinstanz erreicht.
    >
    >
-   >    1. Der Workflow funktioniert nicht, wenn keine Änderungen am Projekt vorgenommen wurden und keine **Offline-Inhalte aktualisiert** werden.
+   >    1. Der Workflow funktioniert nicht, wenn keine Änderungen am Projekt vorgenommen wurden und nichts für **Offline-Inhalt aktualisieren**.
    >    1. Der Workflow funktioniert nicht, wenn der Autor den Replikationsprozess nicht abgeschlossen hat (Inhalte werden weiterhin in die Veröffentlichungsinstanz hochgeladen), nachdem im Workflow für die Verwaltung der Veröffentlichung auf **Veröffentlichen** geklickt wurde.
-
 
    >[!CAUTION]
    >Wenn Sie als Autor oder Ersteller von Inhalten die Änderungen auf den Geräten sehen möchten, die mit der Autoreninstanz verbunden sind, klicken Sie im Kanal-Dashboard auf **Offline-Inhalte aktualisieren** oder wählen Sie das Projekt aus. In diesem Fall wird der Offline-Inhalt nur in der Autoreninstanz aktualisiert.
 
-1. Navigieren Sie zum Projekt und klicken Sie in der Aktionsleiste auf **Offline-Inhalt aktualisieren**. Mit dieser Aktion wird derselbe Befehl an die Veröffentlichungsinstanz weitergeleitet, sodass die Offline-ZIP-Dateien auch in der Veröffentlichungsinstanz erstellt werden.
+1. Navigieren Sie zum Projekt und klicken Sie in der Aktionsleiste auf **Offline-Inhalt aktualisieren**. Mit dieser Aktion wird derselbe Befehl an die Veröffentlichungsinstanz weitergeleitet, sodass die Offline-Zips auch auf Ihrer Veröffentlichungsinstanz erstellt werden.
 
    ![screen_shot_2019-02-25at23451pm](assets/screen_shot_2019-02-25at23451pm.png)
 
 
    >[!NOTE]
    >
-   >Nachdem Sie den Workflow zum Verwalten von Veröffentlichungen abgeschlossen haben, müssen Sie die Aktualisierung der Offline-Inhalte des Autors auslösen, wenn ein Player auf die Autoreninstanz verweist. Dadurch wird die Aktualisierung offline auf der Autoreninstanz durchgeführt.
+   >Nachdem Sie den Workflow für die Verwaltung von Veröffentlichungen abgeschlossen haben und wenn ein Player auf die Autoreninstanz verweist, sollten Sie den Offline-Inhalt in der Autoreninstanz aktualisieren. Dadurch wird die Aktualisierung offline auf der Autoreninstanz erstellt.
 
    >[!CAUTION]
    >
-   >Sie müssen die Aktualisierung der Offline-Inhalte in der Autoreninstanz auslösen, wenn Sie einen beim Autorenserver registrierten Player haben. Die Aktualisierung von Offline-Inhalten ist für den in der Veröffentlichungsinstanz registrierten Player nicht erforderlich.
+   >Trigger der Aktualisierung der Offline-Inhalte in der -Autoreninstanz, wenn Sie einen Player beim -Autorenserver registriert haben. Die Aktualisierung von Offline-Inhalten ist für den in der Veröffentlichungsinstanz registrierten Player nicht erforderlich.
 
 ### Verwalten der Veröffentlichung für einen Kanal {#managing-publication-for-a-channel}
 
-Gehen Sie wie folgt vor, um Inhaltsaktualisierungen vom Autor zur Veröffentlichung auf dem Gerät für einen Kanal in einem AEM Screens-Projekt bereitzustellen:
+Gehen Sie wie folgt vor, um Inhaltsaktualisierungen über &quot;Autor&quot;> &quot;Veröffentlichen&quot;> &quot;Gerät für einen Kanal in einem AEM Screens-Projekt bereitzustellen:
 
 >[!NOTE]
 >
 >Folgen Sie diesem Abschnitt nur, wenn Änderungen in einem Kanal vorliegen. Wenn ein Kanal nach der vorherigen Aktualisierung der Offline-Inhalte keine Änderungen aufweist, funktioniert der Verwaltungs-Workflow für die Veröffentlichung eines einzelnen Kanals nicht.
 
-1. Navigieren Sie zu Ihrem Screens-Projekt und wählen Sie den Kanal aus.
-1. Klicken Sie in der Aktionsleiste auf **Veröffentlichung verwalten**, um den Kanal in der Veröffentlichungsinstanz zu veröffentlichen.
+1. Navigieren Sie zu Ihrem AEM Screens-Projekt und wählen Sie den Kanal aus.
+1. Auswählen **Veröffentlichung verwalten** in der Aktionsleiste, damit Sie den Kanal in Ihrer Veröffentlichungsinstanz veröffentlichen können.
 
    ![screen_shot_2019-02-07at115800am](assets/screen_shot_2019-02-07at115800am.png)
 
-1. Der Assistent **Veröffentlichung verwalten** wird geöffnet. Sie können die **Aktion** auswählen und auch die Veröffentlichungszeit für jetzt oder später planen. Klicken Sie auf **Weiter**.
+1. Der Assistent **Veröffentlichung verwalten** wird geöffnet. Sie können die **Aktion** auswählen und auch die Veröffentlichungszeit für jetzt oder später planen. Wählen Sie **Weiter** aus.
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 
-1. Klicken Sie auf **Veröffentlichen** im Assistenten **Veröffentlichung verwalten**.
+1. Auswählen **Veröffentlichen** aus dem **`Manage Publication`** Assistent.
 
    ![screen_shot_2019-02-07at120507pm](assets/screen_shot_2019-02-07at120507pm.png)
 
@@ -119,16 +112,16 @@ Gehen Sie wie folgt vor, um Inhaltsaktualisierungen vom Autor zur Veröffentlich
    >
    >Warten Sie einige Sekunden/Minuten, damit der Inhalt die Veröffentlichungsinstanz erreicht.
 
-1. Der Auslöser **Offline-Inhalte aktualisieren** im Kanal-Dashboard sendet den Offline-Inhalt nur an die Autoreninstanz, nicht aber an die Veröffentlichungsinstanz. Schritte 1 bis 4 dienen zum Senden von Offline-Inhalten an die Veröffentlichungsinstanz.
+1. Auslösen **Offline-Inhalt aktualisieren** im Kanal-Dashboard sendet den Offline-Inhalt nur an die Autoreninstanz, nicht aber an die Veröffentlichungsinstanz. Schritte 1 bis 4 dienen zum Pushen von Offline-Inhalten an die Veröffentlichungsinstanz.
 
    ![screen_shot_2019-02-07at21608pm](assets/screen_shot_2019-02-07at21608pm.png)
 
    >[!CAUTION]
    >
-   >Sie müssen zuerst die Offline-Inhalte veröffentlichen und dann die Aktualisierung auslösen, wie in den vorhergehenden Schritten zusammengefasst.
+   >Veröffentlichen Sie zuerst und dann Trigger der Aktualisierung der Offline-Inhalte, wie in den vorherigen Schritten zusammengefasst.
 
 ### Neuzuweisung von Kanälen und Geräten: {#channel-and-device-re-assignment}
 
-Wenn Sie ein Gerät neu zugewiesen haben, müssen Sie sowohl die Erstanzeige als auch die neue Anzeige veröffentlichen, nachdem das Gerät der neuen Anzeige neu zugewiesen wurde.
+Wenn Sie ein Gerät neu zugewiesen haben, müssen Sie sowohl die Erstanzeige als auch die neue Anzeige veröffentlichen, sobald das Gerät der neuen Anzeige neu zugewiesen wurde.
 
-Wenn Sie einen Kanal erneut zugewiesen haben, müssen Sie sowohl die Erstanzeige als auch die neue Anzeige veröffentlichen, sobald der Kanal der neuen Anzeige neu zugewiesen wurde.
+Wenn Sie einen Kanal neu zugewiesen haben, müssen Sie sowohl die Erstanzeige als auch die neue Anzeige veröffentlichen, sobald der Kanal der neuen Anzeige neu zugewiesen wurde.

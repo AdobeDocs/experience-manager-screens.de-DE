@@ -14,10 +14,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
-workflow-type: ht
-source-wordcount: '797'
-ht-degree: 100%
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '796'
+ht-degree: 89%
 
 ---
 
@@ -62,7 +62,7 @@ Die folgende Abbildung zeigt das Projekt **TextOverlayDemo** mit dem Kanal **Tex
 
 Gehen Sie wie folgt vor, um die Textüberlagerung in einem AEM Screens-Kanal zu verwenden:
 
-1. Navigieren Sie zu **TextOverlayDemo** > **Kanäle** > **TextSample** und klicken Sie in der Aktionsleiste auf **Bearbeiten**, um den Editor zu öffnen.
+1. Navigieren Sie zu **TextOverlayDemo** > **Kanäle** > **TextSample** und klicken **Bearbeiten** in der Aktionsleiste, um den Editor zu öffnen.
 
    ![screen_shot_2018-12-16at80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
@@ -102,7 +102,7 @@ Informationen zum Einrichten und Verwalten datengesteuerter Asset-Änderungen mi
 
 Nachdem Sie die erforderlichen Konfigurationen für Ihr Projekt eingerichtet haben, führen Sie die folgenden Schritte aus, um Werte aus den Google-Tabellen zu verwenden:
 
-1. Navigieren Sie zu **TextOverlayDemo** > **Kanäle** > **TextSample** und klicken Sie in der Aktionsleiste auf **Eigenschaften**.
+1. Navigieren Sie zu **TextOverlayDemo** > **Kanäle** > **TextSample** und klicken **Eigenschaften** in der Aktionsleiste aus.
 
 1. Wählen Sie die Registerkarte **Personalisierung**, um die ContextHub-Konfigurationen einzurichten.
 
@@ -118,7 +118,7 @@ Nachdem Sie die erforderlichen Konfigurationen für Ihr Projekt eingerichtet hab
 
       ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
 
-1. Navigieren Sie zu **TextOverlayDemo** > **Kanäle** > **TextSample** und klicken Sie in der Aktionsleiste auf **Bearbeiten**, um den Editor zu öffnen.
+1. Navigieren Sie zu **TextOverlayDemo** > **Kanäle** > **TextSample** und klicken **Bearbeiten** in der Aktionsleiste, um den Editor zu öffnen.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
@@ -133,7 +133,7 @@ Nachdem Sie die erforderlichen Konfigurationen für Ihr Projekt eingerichtet hab
    >[!NOTE]
    >Wenn Sie Ihre ContextHub-Konfigurationen nicht eingerichtet haben, ist diese Option für Ihr Projekt deaktiviert.
 
-1. Geben Sie den **Wert** in das Feld **Platzhalter** ein. Wählen Sie in **ContextHub-Variable** die Zeile aus, für die Sie den Wert aus Ihrem Google-Blatt abrufen möchten. In diesem Fall wird der Wert aus Zeile 2 und Spalte 1 des Google-Blatts abgerufen. Geben Sie nun den **Standardwert** als **20** ein, wie in der folgenden Abbildung dargestellt. Wenn Sie fertig sind, klicken Sie auf das Häkchen.
+1. Eingabe **Wert** im **Platzhalter** -Feld. Wählen Sie die Zeile aus, die Sie aus Ihrem Google-Blatt abrufen möchten in **ContextHub-Variable**. In diesem Fall wird der Wert aus Zeile 2 und Spalte 1 aus den Google-Arbeitsblättern abgerufen. Geben Sie nun den **Standardwert** als **20** ein, wie in der folgenden Abbildung dargestellt. Wenn Sie fertig sind, klicken Sie auf das Häkchen.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 

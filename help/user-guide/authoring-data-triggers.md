@@ -1,14 +1,14 @@
 ---
 title: Inhaltserstellung mit Datenauslösern
-seo-title: Inhaltserstellung mit Datenauslösern
+seo-title: Authoring with Data Triggers
 description: Auf dieser Seite erfahren Sie, wie Sie mit Datenauslösern Inhalte erstellen.
-feature: Inhaltserstellung in Screens
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '377'
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '371'
 ht-degree: 100%
 
 ---
@@ -57,6 +57,7 @@ Gehen Sie wie folgt vor, um Targeting in Ihren Kanälen zu aktivieren.
    1. Wählen Sie unter **Segmentpfad** den Wert **conf** > **We.Retail** > **settings** > **wcm** > **segments** aus und klicken Sie auf **Auswählen**.
 
    1. Klicken Sie auf **Speichern und schließen**.
+
    >[!NOTE]
    >
    >Verwenden Sie den ContextHub- und den Segmentpfad, in dem Sie Ihre Kontexthub-Konfigurationen und -Segmente anfänglich gespeichert haben.

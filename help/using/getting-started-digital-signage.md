@@ -1,17 +1,15 @@
 ---
 title: Grundlagen von Digital Signage für [!UICONTROL AEM Screens]
-seo-title: Grundlagen von Digital Signage für [!UICONTROL AEM Screens]
-description: In diesem Handbuch werden die Grundlagen eines Digital-Signage-Projekts beschrieben.
-seo-description: In diesem Handbuch werden die Grundlagen eines Digital-Signage-Projekts beschrieben.
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '428'
-ht-degree: 100%
+description: Lernen Sie die Grundlagen eines Digital Signage-Projekts kennen.
+exl-id: e3913be2-9028-4773-a034-e16924a71e04
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '406'
+ht-degree: 69%
 
 ---
 
-
-# Grundlagen eines Digital-Signage-Projekts {#basics-digital-signage}
+# Grundlagen eines Digital Signage-Projekts {#basics-digital-signage}
 
 Bevor Sie sich mit Best Practices für die Implementierung von AEM Screens vertraut machen, sollten Sie sich das Projekt als Digital-Signage-Projekt vorstellen – und nicht als herkömmliche Softwareentwicklung.
 
@@ -29,7 +27,7 @@ Ein Definieren der Schlüsselelemente ist vor Implementierung eines Digital-Sign
 
    Die Hardware bestimmt darüber, welche Hardwarekomponenten sich zur Implementierung Ihres Digital-Signage-Projekts eignen:
    * Verfügt das Gerät über ausreichend Speicherplatz, um alle Varianten der Erlebnisse offline ausführen zu können?
-   * Wurden Art und Länge der Videokabel berücksichtigt? Unterstützt das Gerät sowohl die gewünschten Auflösungen (HD, FullHD, 4K usw.) als auch die bereitzustellenden Videocodecs (h.264, h.265 usw.)?
+   * Sind Videokabelart und -länge zugelassen? Unterstützt das Gerät beide gewünschten Auflösungen (HD, FullHD, `4K`usw.) und Video-Codecs, die ich bereitstellen möchte (h.264, h.265 usw.)
    * Einsatz von Kupferleitungen
    * Größe der Bildschirme
    * Anzahl der Bildschirme
@@ -41,14 +39,14 @@ Ein Definieren der Schlüsselelemente ist vor Implementierung eines Digital-Sign
 
    Beim Thema Konnektivität geht es um folgende Fragen:
    * Vernetzt (per Mobilfunk oder WLAN) bzw. eigenständig?
-      * Müssen Inhaltsaktualisierungen über USB möglich sein?
-      * Muss eine Erfassung von Nutzungsdaten möglich sein?
+      * Müssen Sie Aktualisierungen von USB-Inhalten zulassen?
+      * Müssen Sie die Erfassung von Nutzungsdaten zulassen?
 
 1. **Installation**
 
    Die Installation umfasst:
    * Displays: Querformat oder Hochformat
-   * Wie wird der Bildschirm befestigt?
+   * Wie wird der Bildschirm montiert?
       * Hochformat oder Querformat
       * Komplettes Gehäuse
       * Abdeckplatte
@@ -60,7 +58,7 @@ Ein Definieren der Schlüsselelemente ist vor Implementierung eines Digital-Sign
 1. **Inhalt**
 
    Inhalt umfasst:
-   * eine oder mehrere Zonen?
+   * Einzel- oder Mehrzonen?
       * Wie viele Medien-Assets befinden sich gleichzeitig auf dem Bildschirm?
       * Wie viele Seiten für interaktive Anwendungen?
       * Definieren der UI-Schleife
@@ -74,7 +72,7 @@ Ein Definieren der Schlüsselelemente ist vor Implementierung eines Digital-Sign
       * Tastendruck
       * Geste
    * Datenauslösung (I/O)?
-      * Senden/Empfangen von seriellen Befehlen (Schließen von Kontakt, PLC usw.)
+      * Senden/Empfangen von seriellen Befehlen (Kontaktschließung, PLC usw.)
       * Eingehende Daten werden auf dem Bildschirm angezeigt (RSS) oder lösen Inhalt aus
       * RFID/NFC/Bluetooth/iBeacon
       * Externe Services (Wetter, Verkehr)
@@ -93,8 +91,8 @@ Ein Definieren der Schlüsselelemente ist vor Implementierung eines Digital-Sign
 
    Bei der Wartung geht es um Folgendes:
 
-   * Werden detaillierte Installationsanleitungen/Benutzerhandbücher benötigt?
-   * Wird das Gerät vor dem Versand konfiguriert (programmiert)?
-   * Müssen die einzelnen Seriennummern zu Verfolgungszwecken erfasst werden?
-   * Gibt es Bedarf an einer Stromversorgungsreserve (unterbrechungsfreie Stromversorgung)?
-   * Wie werden Systemaktualisierungen implementiert? Und wie werden Geräte remote überwacht? Ist eine MDM-Lösung erforderlich?
+   * Sind Installationsanleitungen und Benutzerhandbücher erforderlich?
+   * Konfigurieren (programmieren) Sie das Gerät vor dem Versand?
+   * Müssen Sie jede Seriennummer zu Tracking-Zwecken erfassen?
+   * Gibt es einen Bedarf an einer Stromversorgungsreserve (unterbrechungsfreie Stromversorgung)?
+   * Wie werden Systemaktualisierungen bereitgestellt? Und wie werden Geräte remote überwacht? Ist eine MDM-Lösung erforderlich?

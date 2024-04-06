@@ -1,22 +1,22 @@
 ---
 title: Verwenden dynamischer eingebetteter Sequenzen
-seo-title: Verwenden dynamischer eingebetteter Sequenzen
+seo-title: Using Dynamic Embedded Sequence
 description: Auf dieser Seite erfahren Sie, wie Sie dynamische eingebettete Sequenzen in Ihrem AEM Screens-Projekt implementieren.
-seo-description: Auf dieser Seite erfahren Sie, wie Sie dynamische eingebettete Sequenzen in Ihrem AEM Screens-Projekt implementieren.
+seo-description: Follow this page to learn how to implement Dynamic Embedded Sequences in your AEM Screens project.
 uuid: 1f442489-2eeb-4dd8-b892-911fcccb3377
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
-feature: Inhaltserstellung in Screens
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '2537'
-ht-degree: 100%
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '2526'
+ht-degree: 93%
 
 ---
 
@@ -94,8 +94,6 @@ Sie können die folgenden Ressourcen (Bilder) herunterladen (und zu Assets hinzu
 >* **[Verwalten eines Kanals](managing-channels.md)**
 >
 
-
-
 Die Implementierung einer dynamischen eingebetteten Sequenz in einem AEM Screens-Projekt umfasst drei Hauptaufgaben:
 
 1. **Einrichten des Klassifikationsschemas des Projekts, einschließlich Kanälen, Standorten und Anzeigen**
@@ -121,7 +119,6 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
    ![screen_shot_2018-09-13at23212pm](assets/screen_shot_2018-09-13at23212pm.png)
 
    >[!NOTE]
-   >
    >Informationen zum Erstellen eines Standorts finden Sie unter **[Erstellen und Verwalten von Standorten](managing-locations.md)**.
 
 1. **Erstellen Sie unter jedem Standortordner zwei Standorte und einen Kanal.**
@@ -162,7 +159,6 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
    Erstellen Sie eine Anzeige als **Store2Display** und einen Kanal **Store2Channel** unter **Store 2** (mit dem Namen **store**).
 
    >[!NOTE]
-   >
    >Achten Sie darauf, dass Sie denselben Namen für die Kanäle verwenden können, die in **Store 1** und **Store 2** als **store** erstellt wurden.
 
    ![screen_shot_2018-09-19at120329pm](assets/screen_shot_2018-09-19at120329pm.png)
@@ -179,15 +175,14 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
 
 1. **Fügen Sie den Kanälen an ihren jeweiligen Standorten Inhalt hinzu.**
 
-   Navigieren Sie zu **Demo** > **Standorte** > **Region A** > **Region A** und klicken Sie in der Aktionsleiste auf **Bearbeiten**. Ziehen Sie die Assets, die Sie hinzufügen möchten, in Ihren Kanal.
+   Navigieren Sie zum **Demo** > **Standorte** > **Region A** > **Region A** und klicken **Bearbeiten** in der Aktionsleiste aus. Ziehen Sie die Assets, die Sie hinzufügen möchten, in Ihren Kanal.
 
    >[!NOTE]
-   >
    >Sie können die Datei ***Resources.zip*** im Abschnitt **Ressourcen** verwenden, um die Bilder als Assets für Ihren Kanalinhalt zu verwenden.
 
    ![screen_shot_2018-09-12at12438pm](assets/screen_shot_2018-09-12at12438pm.png)
 
-   Navigieren Sie zu **Demo** > **Standorte** > **Region B** > **Region B** und klicken Sie in der Aktionsleiste auf **Bearbeiten**, um die Assets in Ihren Kanal zu ziehen, wie nachfolgend gezeigt:
+   Navigieren Sie auf ähnliche Weise zum **Demo** > **Standorte** > **Region B** > **Region B** und klicken **Bearbeiten** aus der Aktionsleiste, um die Assets per Drag-and-Drop in Ihren Kanal zu ziehen, wie unten dargestellt:
 
    ![screen_shot_2018-09-12at13133pm](assets/screen_shot_2018-09-12at13133pm.png)
 
@@ -208,10 +203,10 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
 
 1. **Weisen Sie einem Zeitplan Kanäle zu**
 
-   1. Navigieren Sie zu **Demo** > **Zeitpläne** > **AdSchedule** und klicken Sie in der Aktionsleiste auf **Dashboard**.
+   1. Navigieren Sie zu **Demo** > **Zeitpläne** > **AdSchedule** und klicken **Dashboard** in der Aktionsleiste aus.
    1. Klicken Sie auf **+ Kanal zuweisen** im Bedienfeld **ZUGEWIESENE KANÄLE**, um das Dialogfeld **Kanalzuweisung** zu öffnen.
    1. Wählen Sie als Vorgehensweise für **Kanal referenzieren** nach Pfad.
-   1. Wählen Sie unter **Kanalpfad** den Wert **Demo** > ***Kanäle*** > ***Global*** aus.
+   1. Wählen Sie die **Kanalpfad** as **Demo** > ***Kanäle*** > ***Global***.
    1. Geben Sie als **Kanalrolle** den Wert **GlobalAdSegment** ein.
    1. Wählen Sie unter **Unterstützte Ereignisse** die Optionen **Erster Ladevorgang**, **Bildschirm bei Untätigkeit** und **Benutzerinteraktion** aus.
    1. Klicken Sie auf **Speichern**.
@@ -254,10 +249,10 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
 
 1. **Zuweisen eines Zeitplans zu jeder Anzeige**
 
-   1. Navigieren Sie zur jeweiligen Anzeige, z. B. **Demo** > **Standorte** > **Region A** > **Store 1** > **Store1Display**.
+   1. Navigieren Sie zur jeweiligen Anzeige, z. B. **Demo** > **Standorte** > **Region A** >**Store 1** >**Store1Display**.
    1. Klicken Sie in der Aktionsleiste auf **Dashboard**, um das Anzeigen-Dashboard zu öffnen.
    1. Klicken Sie auf **...** im Bedienfeld **ZUGEWIESENE KANÄLE UND ZEITPLÄNE** und klicken Sie auf **+ Zeitplan zuweisen**.
-   1. Wählen Sie den Pfad zum Zeitplan aus (hier z. B. **Demo** > **Zeitpläne** > **AdSchedule**).
+   1. Wählen Sie den Pfad zum Zeitplan aus (hier beispielsweise **Demo** > **Zeitpläne** >**AdSchedule**).
    1. Klicken Sie auf **Speichern**.
 
 ## Anzeigen der Ergebnisse {#viewing-the-results}
@@ -272,18 +267,17 @@ Sobald Sie die Einrichtung für Kanäle und die Anzeige abgeschlossen haben, sta
 >* [Arbeiten mit dem AEM Screens-Player](working-with-screens-player.md)
 
 
-
 Die folgende Ausgabe bestätigt Ihren Kanalinhalt im AEM Screens-Player, je nach Anzeigepfad.
 
 **Szenario 1**:
 
-Wenn Sie den Anzeigepfad als **Demo** > **Standorte** > **Region A** > **Store 1** > **Store1Display** zuweisen, wird der folgende Inhalt im AEM Screens-Player angezeigt.
+Wenn Sie den Anzeigepfad als **Demo** > **Standorte** > **Region A** > **Store 1** > **Store1Display**, wird der folgende Inhalt im AEM Screens-Player angezeigt.
 
 ![channeldisplay1](assets/channeldisplay1.gif)
 
 **Szenario 1**:
 
-Wenn Sie den Anzeigepfad als **Demo** > **Standorte** > **Region B** > **Store 3** > **Store3Display** zuweisen, wird der folgende Inhalt im AEM Screens-Player angezeigt.
+Wenn Sie den Anzeigepfad als **Demo** > **Standorte** > **Region B** > **Store 3** > **Store3Display**, wird der folgende Inhalt im AEM Screens-Player angezeigt.
 
 ![channeldisplay2](assets/channeldisplay2.gif)
 
@@ -318,7 +312,7 @@ Führen Sie die folgenden Schritte aus, um Gruppen und Benutzer zu erstellen und
 1. **Gruppen erstellen**
 
    1. Navigieren Sie zu **Adobe Experience Manager**.
-   1. Klicken Sie auf **Tools** > **Sicherheit** > **Gruppen**.
+   1. Klicks **Instrumente** > **Sicherheit** > **Gruppen**.
    1. Klicken Sie auf **Gruppe erstellen** und geben Sie **Global-Autor** in **ID** ein.
    1. Klicken Sie auf **Speichern und schließen**.
 
@@ -338,7 +332,6 @@ Führen Sie die folgenden Schritte aus, um Gruppen und Benutzer zu erstellen und
    Erstellen Sie auf ähnliche Weise zwei weitere Benutzer wie **Region-Benutzer** und **Store-Benutzer** und fügen Sie sie **Region-Autor** bzw. **Store-Autor** hinzu.
 
    >[!NOTE]
-   >
    >Es empfiehlt sich, Benutzer einer Gruppe hinzuzufügen und dann den einzelnen Benutzergruppen Berechtigungen zuzuweisen.
 
    ![screen_shot_2018-09-17at34412pm](assets/screen_shot_2018-09-17at34412pm.png)
@@ -346,7 +339,7 @@ Führen Sie die folgenden Schritte aus, um Gruppen und Benutzer zu erstellen und
 1. **Alle Gruppen zu den Mitwirkenden hinzufügen**
 
    1. Navigieren Sie zu **Adobe Experience Manager**.
-   1. Klicken Sie auf **Tools** > **Sicherheit** > **Gruppen**.
+   1. Klicks **Instrumente** > **Sicherheit** > **Gruppen**.
    1. Wählen Sie in der Liste die Option **Mitwirkende** und anschließend die Registerkarte **Mitglieder** aus.
    1. Wählen Sie die **Gruppe**, z. B. **Global-Autor**, **Region-Autor** oder **Store-Autor**, für die Mitwirkenden aus.
    1. Klicken Sie auf **Speichern und schließen**.

@@ -13,9 +13,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: 9d8b336c12d5e44beb831ba41f3df5031a6ca32d
-workflow-type: ht
-source-wordcount: '2275'
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '2207'
 ht-degree: 100%
 
 ---
@@ -24,9 +24,9 @@ ht-degree: 100%
 
 Das folgende Tutorial führt Sie durch die Schritte zum Erstellen einer benutzerdefinierten Komponente für AEM Screens. AEM Screens verwendet viele vorhandene Design-Muster und Technologien anderer AEM-Produkte. Das Tutorial hebt Unterschiede und besondere Überlegungen bei der Entwicklung für AEM Screens hervor.
 
-## Überblick {#overview}
+## Übersicht {#overview}
 
-Dieses Tutorial richtet sich an Entwickler, die neu bei AEM Screens sind. In diesem Tutorial wird eine einfache Komponente „Hello World“ für einen Sequenzkanal in AEM Screens erstellt. Über ein Dialogfeld können Autoren den angezeigten Text aktualisieren.
+Dieses Tutorial richtet sich an Entwicklerinnen und Entwickler, die neu bei AEM Screens sind. In diesem Tutorial wird eine einfache Komponente „Hello World“ für einen Sequenzkanal in AEM Screens erstellt. Über ein Dialogfeld können Autoren den angezeigten Text aktualisieren.
 
 ![overviewhellow](assets/overviewhellow.png)
 
@@ -166,7 +166,7 @@ AEM Screens weist einige interessante Einschränkungen auf, die nicht unbedingt 
 
    Die Komponente rendert ein `div`- und ein `h1`-Tag mit Text. `${properties.message}` ist ein Teil des HTL-Skripts, der den Inhalt einer JCR-Eigenschaft mit dem Namen `message` ausgibt. Später wird ein Dialogfeld erstellt, in dem der Benutzer einen Wert für den Eigenschaftstext `message` eingeben kann.
 
-   Beachten Sie außerdem, dass die BEM-Notation (Block Element Modifier) mit der Komponente verwendet wird. BEM ist eine CSS-Kodierungskonvention, die die Erstellung wiederverwendbarer Komponenten erleichtert. BEM ist die von [AEM-Kernkomponenten](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/wiki/CSS-coding-conventions) verwendete Notation. <!-- DEAD LINK More info can be found at: [https://getbem.com/](https://getbem.com/) -->
+   Beachten Sie außerdem, dass die BEM-Notation (Block Element Modifier) mit der Komponente verwendet wird. BEM ist eine CSS-Kodierungskonvention, die die Erstellung wiederverwendbarer Komponenten erleichtert. BEM ist die Notation, die von den [AEM-Kernkomponenten](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/wiki/CSS-coding-conventions) verwendet wird. <!-- DEAD LINK More info can be found at: [https://getbem.com/](https://getbem.com/) -->
 
 1. Erstellen Sie unter `/apps/weretail-run/components/content/helloworld` eine Datei mit dem Namen `edit.html.`
 
@@ -290,7 +290,7 @@ AEM Screens-Komponenten werden im Bearbeitungsmodus anders als im Vorschaumodus/
 
 1. Fügen Sie der freigegebenen Client-Bibliothek die folgenden Eigenschaften hinzu:
 
-   * `allowProxy` | Boolesch | `true`
+   * `allowProxy`   Boolean   `true`
 
    * `categories`| Zeichenfolge[] | `cq.screens.components`
 
@@ -422,6 +422,7 @@ Die Komponente „Hello World“ ist für die Verwendung in einem Sequenzkanal v
 1. Vorlagenschritt – Wählen Sie **Sequenzkanal** aus
 
    1. Eigenschaftenschritt
+
    * Registerkarte „Einfach“ > „Titel“ = **Idle Channel**
    * Registerkarte „Kanal“ > aktivieren Sie **Online-Kanal erstellen**
 

@@ -1,16 +1,16 @@
 ---
 title: Erstellen und Verwalten von Kanälen
-seo-title: Verwalten von Kanälen
-description: Folgen Sie dieser Seite, um sich über das Erstellen und Verwalten von Kanälen zu informieren. Außerdem wird auf dieser Seite das Kanal-Dashboard und die Bearbeitung von Inhalt für einen Kanal erklärt.
-seo-description: Folgen Sie dieser Seite, um sich über das Erstellen und Verwalten von Kanälen zu informieren. Außerdem wird auf dieser Seite das Kanal-Dashboard und die Bearbeitung von Inhalt für einen Kanal erklärt.
-feature: Inhaltserstellung in Screens
+seo-title: Managing Channels
+description: Folgen Sie dieser Seite, um sich über das Erstellen und Verwalten von Kanälen zu informieren. Außerdem werden Kanal-Dashboard und die Bearbeitung von Inhalten für einen Kanal erläutert.
+seo-description: Follow this page to learn about creating and managing channels. It also explains channel dashboard and editing content for a channel.
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '1328'
-ht-degree: 100%
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '1305'
+ht-degree: 89%
 
 ---
 
@@ -69,7 +69,7 @@ Beim Verwenden des Assistenten stehen unter anderem die folgenden Vorlagenoption
 
 >[!IMPORTANT]
 >
-> Nachdem Sie Inhalte erstellt und dem Kanal hinzugefügt haben, müssen Sie als Nächstes einen Ort und dann eine Anzeige erstellen. Außerdem müssen Sie diesen Kanal einer Anzeige zuweisen. Weitere Informationen finden Sie über die am Ende des Abschnitts genannten Ressourcen.
+> Nachdem Sie Inhalte erstellt und zu Ihrem Kanal hinzugefügt haben, müssen Sie zunächst einen Ort erstellen und anschließend eine Anzeige erstellen. Außerdem müssen Sie diesen Kanal einer Anzeige zuweisen. Weitere Informationen finden Sie in den unten stehenden Ressourcen am Ende des Abschnitts .
 
 ## Arbeiten mit Kanälen {#working-with-channels}
 
@@ -161,9 +161,9 @@ Ein ***Online-Kanal*** zeigt den aktualisierten Inhalt in der Echtzeitumgebung a
 
 Gehen Sie wie folgt vor, um den Kanal online zu schalten:
 
-1. Navigieren Sie über **TestProject** > **Channels** > **TestChannel** zum Kanal.
+1. Navigieren Sie zum Kanal als **TestProject** > **Kanäle** > **TestChannel**.
 
-   Wählen Sie den Kanal aus.
+   Wählen Sie den Kanal aus. 
 
    ![screen_shot_2019-08-01at31406pm](assets/screen_shot_2019-08-01at31406pm.png)
 
@@ -232,9 +232,9 @@ In der folgenden Tabelle werden die Ereignisse im Zusammenhang mit automatischen
 
 ### Zugewiesene Anzeigen {#assigned-displays}
 
-Das Fenster „Zugewiesene Anzeigen“ zeigt die zum Kanal gehörende Anzeige. Es bietet einen Überblick über die zugewiesene Anzeige und die Auflösung.
+Das Fenster „Zugewiesene Anzeigen“ zeigt die zum Kanal gehörende Anzeige. Er liefert eine Momentaufnahme der zugewiesenen Anzeige zusammen mit der Auflösung.
 
-Die zugeordneten Anzeigen werden im Fenster **Zugewiesene Anzeigen** aufgelistet, wie unten gezeigt:
+Die zugehörigen Anzeigen werden im **Zugewiesene Anzeigen** -Bedienfeld, wie unten dargestellt:
 
 ![chlimage_1-27](assets/chlimage_1-27.png)
 
@@ -242,9 +242,8 @@ Die zugeordneten Anzeigen werden im Fenster **Zugewiesene Anzeigen** aufgelistet
 >Weitere Informationen zum Erstellen einer Anzeige an einem Standort finden Sie unter:
 >
 >* [Erstellen und Verwalten von Standorten](managing-locations.md)
-* [Erstellen und Verwalten von Anzeigen](managing-displays.md)
-
-
+>* [Erstellen und Verwalten von Anzeigen](managing-displays.md)
+>
 
 Außerdem können Sie auf die Anzeige im Bedienfeld **ZUGEWIESENE ANZEIGEN** klicken, um die Anzeigeinformationen anzuzeigen, wie unten gezeigt:
 
@@ -252,9 +251,9 @@ Außerdem können Sie auf die Anzeige im Bedienfeld **ZUGEWIESENE ANZEIGEN** kli
 
 ### Die nächsten Schritte {#the-next-steps}
 
-Der nächste Schritt nach dem Erstellen eines Kanals und dem Hinzufügen/Bearbeiten von Inhalt in Ihrem Kanal ist das Erstellen eines Orts und einer Anzeige. Schließlich muss dieser Anzeige dann noch ein Kanal zugewiesen werden.
+Der nächste Schritt nach der Erstellung eines Kanals und dem Hinzufügen/Bearbeiten von Inhalten in Ihrem Kanal besteht darin, zu erfahren, wie Sie einen Ort und eine Anzeige erstellen. Weisen Sie dann dieser Anzeige einen Kanal zu.
 
-Informationen zu den nächsten Schritten finden Sie in den folgenden Ressourcen:
+Die nächsten Schritte finden Sie in den folgenden Ressourcen:
 
 * [Erstellen und Verwalten von Kanälen](managing-channels.md)
 * [Erstellen und Verwalten von Standorten](managing-locations.md)

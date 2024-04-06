@@ -1,22 +1,22 @@
 ---
 title: Umstellung von ContentSync auf SmartSync
-seo-title: Umstellung von ContentSync auf SmartSync
+seo-title: Transitioning from ContentSync to SmartSync
 description: Auf dieser Seite erfahren Sie mehr über die Funktion SmartSync und dazu, wie Sie von ContentSync zu SmartSync wechseln können.
-seo-description: Auf dieser Seite erfahren Sie mehr über die Funktion SmartSync und dazu, wie Sie von ContentSync zu SmartSync wechseln können.
+seo-description: Follow this page to learn about SmartSync feature and how you can transition from ContentSync to SmartSync.
 uuid: c0619b56-1f6f-465a-a428-6df28e40b555
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 content-type: reference
 discoiquuid: 822dfbc1-3584-4509-a35c-1d68e5f84509
 docset: aem65
-feature: Verwalten von Screens
+feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '467'
-ht-degree: 100%
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '439'
+ht-degree: 96%
 
 ---
 
@@ -79,7 +79,7 @@ Gehen Sie wie folgt vor, um von ContentSync zu SmartSync zu wechseln:
    >
    >Der gesamte Inhalts-Cache muss vor der erstmaligen Verwendung von SmartSync gelöscht werden.
 
-1. Navigieren Sie zur **Konfiguration der Adobe Experience Manager-Web-Konsole** über AEM-Instanz > Hammersymbol > **Vorgänge** > **Web-Konsole**.
+1. Navigieren Sie zu **Konfiguration der Adobe Experience Manager-Web-Konsole** über AEM-Instanz > Hammersymbol > **Aktivitäten** > **Web-Konsole**.
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 
