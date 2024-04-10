@@ -5,10 +5,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 97%
+source-wordcount: '1114'
+ht-degree: 90%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 97%
 >
 >Beachten Sie bei der Verwendung der Spracherkennungsfunktion alle für Ihre Region geltenden rechtlichen und ethischen Richtlinien (insbesondere die sichtbare Benachrichtigung der Endbenutzer, dass der Player die Spracherkennung verwendet). Adobe Inc. erhält, speichert und verarbeitet keine der sprachbezogenen Informationen. Die AEM Screens-Player verwenden die standardmäßige Web Speech API, die in die Browser-Engine integriert ist. Hinter den Kulissen sendet diese API eine Wellenform des von Ihnen Gesprochenen an die Server von Google, um es von Sprache in Text umzuwandeln. Dieser Text wird vom Player mit den konfigurierten Schlüsselwörtern abgeglichen.
 >
->Weitere Informationen finden Sie im [Datenschutz-Whitepaper von Google zur Web Speech API](https://www.google.com/chrome/privacy/whitepaper.html#speech).
+>Siehe [Google-Datenschutz-Whitepaper zur Web Speech API](https://www.google.com/chrome/privacy/whitepaper.html#speech) für weitere Details.
 
 
 Die Spracherkennungsfunktion ermöglicht Inhaltsänderungen in einem AEM Screens-Kanal via Sprachinteraktionen.
@@ -173,7 +173,7 @@ Jetzt können Sie diese Tags in Ihrem AEM Screens-Projekt verwenden.
 Sobald die vorhergehenden Schritte abgeschlossen sind, können Sie Ihr Chrome-Gerät registrieren, um die Ausgabe anzusehen.
 
 >[!NOTE]
->Informationen zum Registrieren eines Geräts auf einem AEM Screens-Player finden Sie unter [Geräteregistrierung](device-registration.md).
+>Siehe [Geräteregistrierung](device-registration.md) , um zu erfahren, wie Sie ein Gerät auf einem AEM Screens-Player registrieren.
 
 **Gewünschte Ausgabe für den Sequenz-Kanal**
 

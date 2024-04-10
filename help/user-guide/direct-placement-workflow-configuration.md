@@ -1,10 +1,10 @@
 ---
 title: Konfigurieren des Workflows für die direkte Platzierung
 description: Auf dieser Seite wird die Konfiguration des Workflows für die direkte Platzierung beschrieben.
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 53%
+source-wordcount: '190'
+ht-degree: 46%
 
 ---
 
@@ -26,7 +26,7 @@ Alternativ kann der Inhaltsautor manuell auf **Offline-Inhalt aktualisieren** kl
 
 >[!NOTE]
 >
->Informationen zur Verwendung von Massen-Offline-Updates finden Sie unter [Inhaltsaktualisierung als Dienst](/help/user-guide/content-update-as-a-service.md).
+>Informationen zur Verwendung der Massen-Offline-Aktualisierung finden Sie unter [Inhaltsaktualisierung als Dienst](/help/user-guide/content-update-as-a-service.md).
 
 ## Konfigurieren des Workflows für die direkte Platzierung {#configuring-workflow}
 

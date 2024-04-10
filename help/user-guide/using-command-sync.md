@@ -7,10 +7,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 97%
+source-wordcount: '776'
+ht-degree: 92%
 
 ---
 
@@ -48,7 +48,7 @@ Bevor Sie die Funktion zur Befehlssynchronisierung verwenden, stellen Sie sicher
 
    >[!NOTE]
    >
-   >Informationen zum Erstellen eines Kanals oder Hinzufügen von Inhalten zu einem Kanal finden Sie unter [Erstellen und Verwalten von Kanälen](/help/user-guide/managing-channels.md).
+   >Informationen zum Erstellen eines Kanals oder Hinzufügen von Inhalten zu einem Kanal finden Sie unter [Erstellen und Verwalten von Kanälen](/help/user-guide/managing-channels.md)
 
    Der Kanal enthält den folgenden Inhalt, wie in der Abbildung unten dargestellt.
 
@@ -70,7 +70,7 @@ Bevor Sie die Funktion zur Befehlssynchronisierung verwenden, stellen Sie sicher
 
    >[!NOTE]
    >
-   >Informationen zum Registrieren eines Geräts finden Sie unter [Geräteregistrierung](/help/user-guide/device-registration.md).
+   >Informationen zum Registrieren eines Geräts finden Sie unter [Geräteregistrierung](/help/user-guide/device-registration.md)
 
 1. Zu Demozwecken werden in diesem Beispiel ein Chrome-Gerät und ein Windows-Player als zwei separate Geräte dargestellt. Beide Geräte verweisen auf dieselbe Anzeige.
    ![image1](assets/command-sync6.png)

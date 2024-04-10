@@ -4,10 +4,10 @@ seo-title: Project Taxonomy
 description: Auf dieser Seite wird die Projekttaxonomie beschrieben.
 seo-description: The page describes Project Taxonomy
 exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
-source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
-workflow-type: ht
-source-wordcount: '361'
-ht-degree: 100%
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+workflow-type: tm+mt
+source-wordcount: '272'
+ht-degree: 88%
 
 ---
 
@@ -27,7 +27,7 @@ Achten Sie vor Implementierung der Digital-Signage-Lösung mit AEM Screens auf f
 * **Zeitplan**
 * **Vorschau des Inhalts**
 
-Weitere Informationen zu diesen Begriffen finden Sie im [Glossar](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/overview/screens-glossary.html?lang=de).
+Weitere Informationen zu diesen Begriffen finden Sie unter [Glossar](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/overview/screens-glossary.html?lang=de).
 
 >[!NOTE]
 >
@@ -36,14 +36,13 @@ Weitere Informationen zu diesen Begriffen finden Sie im [Glossar](https://experi
 >* Hardware-Asset-Datenbank zum automatischen Ausfüllen eines Screens-Projekts
 >* Textkonfigurationsdatei, um jeden Player automatisch auf eine bestimmte AEM-Instanz zu verweisen
 
-
 ## Implementieren eines AEM Screens-Projekts {#creating-a-project}
 
-Autoren sind in AEM Screens für die Erstellung und Verwaltung des Benutzererlebnisses mithilfe der in AEM Screens verfügbaren Komponenten verantwortlich. Autoren erstellen und überprüfen Inhalte und stellen eine einfach zu nutzende Benutzeroberfläche bereit, indem sie die verfügbaren Segmente von AEM Screens konfigurieren, implementieren und integrieren.
+Autoren sind in AEM Screens für die Erstellung und Verwaltung des Benutzererlebnisses mithilfe der in AEM Screens verfügbaren Komponenten verantwortlich. Autoren erstellen und überprüfen Inhalte und stellen eine einfach zu nutzende Benutzeroberfläche bereit, indem sie die verfügbaren Segmente von AEM Screens konfigurieren, bereitstellen und integrieren.
 
 >[!NOTE]
 >
->Der Autor erstellt Kanäle aus den verfügbaren Sequenzen und kennt die Zielgruppe der Kampagne sowie den gewünschten Fokus. Auf diese Weise erstellt und orchestriert ein AEM Screens-Autor das Benutzererlebnis. Dabei erstellt er unterschiedliche Kanäle und weist ihnen Sequenzen nach einem Zeitplan zu.
+>Der Autor erstellt Kanäle aus den verfügbaren Sequenzen und kennt die Zielgruppe der Kampagne sowie den gewünschten Fokus. Daher erstellt und orchestriert ein AEM Screens-Autor das Endbenutzererlebnis, indem er verschiedene Kanäle erstellt und Sequenzen in zeitgesteuerte Kanalerfahrungen einordnet.
 
 Autoren starten ein AEM Screens-Projekt normalerweise durch:
 

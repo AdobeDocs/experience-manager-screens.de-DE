@@ -1,18 +1,18 @@
 ---
 title: Anwenden von Übergängen
-seo-title: Anwenden von Übergängen
+seo-title: Applying Transitions
 description: Auf dieser Seite erfahren Sie, wie Sie auf Ihre Screens-Projekte Übergänge anwenden können.
-seo-description: Auf dieser Seite erfahren Sie, wie Sie auf Ihre Screens-Projekte Übergänge anwenden können.
+seo-description: Follow this page to learn how to apply transitions to your Screens projects.
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
-feature: Inhaltserstellung in Screens
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 757e6751-8008-487f-be89-9f53ac898928
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '289'
-ht-degree: 100%
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+workflow-type: tm+mt
+source-wordcount: '272'
+ht-degree: 95%
 
 ---
 
@@ -23,7 +23,7 @@ In diesem Abschnitt wird beschrieben, wie Sie die **Übergangskomponente** zwisc
 
 >[!CAUTION]
 >
->Weitere Informationen zu den Eigenschaften der **Übergangskomponente** finden Sie unter [Übergänge](adding-components-to-a-channel.md#transition).
+>Ausführliche Informationen zu den Eigenschaften für die **Übergang** Komponente, siehe [Transitionen](adding-components-to-a-channel.md#transition).
 
 ## Hinzufügen der Übergangskomponente zu Assets in einem Kanal {#adding-transition}
 

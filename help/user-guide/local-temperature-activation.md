@@ -14,10 +14,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 96%
+source-wordcount: '458'
+ht-degree: 89%
 
 ---
 
@@ -33,7 +33,7 @@ Wenn Ihre Google Tabelle einen Wert unter 10 hat, wird in diesem Nutzungsszenari
 
 Bevor Sie mit der Implementierung der temperaturgesteuerten Aktivierung eines Reiseangebots beginnen, müssen Sie lernen, wie Sie in einem AEM Screens-Projekt ***Datenspeicher***, ***Zielgruppensegmentierung*** und ***Targeting für Kanäle aktivieren*** einrichten.
 
-Genaue Informationen dazu finden Sie unter [Konfigurieren von ContextHub in AEM Screens](configuring-context-hub.md).
+Siehe [Konfigurieren von ContextHub in AEM Screens](configuring-context-hub.md) für detaillierte Informationen.
 
 ## Grundlegender Ablauf {#basic-flow}
 
@@ -48,7 +48,7 @@ Gehen Sie wie folgt vor, um das Anwendungsbeispiel für die temperaturgesteuerte
 
 1. **Konfigurieren der Segmente in Zielgruppen gemäß den Anforderungen**
 
-   1. Navigieren Sie zu den Segmenten in Ihrer Zielgruppe (siehe ***Schritt 2: Einrichten der Zielgruppensegmentierung*** auf der Seite **[Konfigurieren von ContextHub in AEM Screens](configuring-context-hub.md)**, um mehr zu erfahren).
+   1. Navigieren Sie zu den Segmenten in Ihrer Zielgruppe (siehe ***Schritt 2: Einrichten der Zielgruppensegmentierung*** in **[Konfigurieren von ContextHub in AEM Screens](configuring-context-hub.md)** Seite für weitere Details).
 
    1. Wählen Sie **Tabellen A1 1** aus und klicken Sie auf **Bearbeiten**.
 

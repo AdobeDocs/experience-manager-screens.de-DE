@@ -1,15 +1,15 @@
 ---
 title: Projektrollen und Zuständigkeiten in AEM Screens
-seo-title: Projektrollen und Zuständigkeiten in AEM Screens
+seo-title: AEM Screens Project Roles  and Responsibilities
 description: Auf dieser Seite werden die Projektrollen und Zuständigkeiten in AEM Screens beschrieben.
-seo-description: Auf dieser Seite werden die Projektrollen und Zuständigkeiten in AEM Screens beschrieben.
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '1263'
-ht-degree: 100%
+seo-description: The page describes AEM Screens Project Roles  and Responsibilities
+exl-id: 9377625b-529a-4b46-89d9-f526de398639
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+workflow-type: tm+mt
+source-wordcount: '1242'
+ht-degree: 97%
 
 ---
-
 
 # Projektrollen und Zuständigkeiten {#roles-responsibilities}
 
@@ -17,7 +17,7 @@ Als erfahrener AEM-Implementor kennen Sie wahrscheinlich die Rollen, die als *Au
 
 In einem typischen AEM Screens-Projekt werden die Rollen weiter verfeinert, da sie jeweils eine wichtige Aufgabe im Projekt haben.
 
-Im folgenden Diagramm werden die Rollen dargestellt, auf die wir im Handbuch immer wieder Bezug nehmen werden.
+Das folgende Diagramm zeigt die Rollen, die wir im Handbuch sehen werden.
 
 ![](/help/assets/project-roles-revised.png)
 
@@ -39,15 +39,15 @@ AEM-Implementoren sind für die Durchführung von Entwicklungs- und Integrations
 
 Benutzerdefinierte Funktionen, die für die Bearbeitung von UX-Parametern (User Experience) bei Endkunden erforderlich sind, werden dabei ebenfalls erfasst und bereitgestellt.
 
-AEM-Implementoren implementieren benutzerdefinierte Funktionen an Standorten in der Regel schrittweise. Beispielsweise richten sie möglicherweise zunächst Unterstützung für die Wiedergabe von einfachen Videoschleifen oder statischen Grafikinhalten ein. Der nächste Schritt kann Unterstützung für die Wiedergabe lokalisierter Inhalte durch dynamische Vorlagen und Metadaten-Tags umfassen. In weiteren Schritten kann Unterstützung für interaktive Elemente über Touchscreens, Sensoren, dynamische Auslöser usw. hinzukommen.
+AEM-Implementoren stellen benutzerdefinierte Funktionen an Standorten in der Regel schrittweise bereit. Beispielsweise richten sie möglicherweise zunächst Unterstützung für die Wiedergabe von einfachen Videoschleifen oder statischen Grafikinhalten ein. Der nächste Schritt kann Unterstützung für die Wiedergabe lokalisierter Inhalte durch dynamische Vorlagen und Metadaten-Tags umfassen. In weiteren Schritten kann Unterstützung für interaktive Elemente über Touchscreens, Sensoren, dynamische Auslöser usw. hinzukommen.
 
 ### A/V-Integratoren {#av-integrators}
 
 A/V-Integratoren sind die Hardwareanbieter/-partner. Dabei handelt es sich um die Partei, die sich mit der Vorbereitung von Design und Sites für den Einzelhandel beschäftigt, einschließlich Beschaffung, Konfiguration und Bereitstellung der Hardware. Es handelt sich dabei in der Regel um einen beauftragten Drittanbieter, der Zugriff auf ein Network Operations Center (NOC) hat. In vielen Fällen sind A/V-Integratoren die Projekteigentümer, da sie nach dem Launch weiter kontinuierlich beteiligt sind.
 
-A/V-Integratoren sind für die Durchführung der Erkundung mit Endkunden verantwortlich, um Anforderungen zu definieren, die den Projektumfang für Entwicklung, Aufbau und effektive Verwaltung von Implementierungen im Zusammenhang mit Digital-Signage-Hardware bestimmen.
+A/V-Integratoren sind für die Durchführung der Erkundung mit Endkunden verantwortlich, um Anforderungen zu definieren, die den Projektumfang für Entwicklung, Aufbau und effektive Verwaltung von Bereitstellungen im Zusammenhang mit Digital Signage-Hardware bestimmen.
 
-#### Auswahl von Hardwarepartnern {#selecting-hardware-partner}
+#### Hardwarepartner {#selecting-hardware-partner}
 
 Es ist wichtig, den richtigen Hardwarepartner auszuwählen. Beantworten Sie folgende Fragen:
 
@@ -79,7 +79,7 @@ Das Creatives- und Content Management-Team kann zum Beispiel beinhalten:
 
 ### Projektmanager {#project-managers}
 
-Projektmanager verwalten in der Regel die gesamte Implementierung für Ihre AEM Screens-Umgebung. Ein Projektmanager ist der zentrale Ansprechpartner für die gesamte Implementierung des ausgewählten Projekts und erledigt wichtige Aufgaben wie die Festlegung von Zeitplänen, die Verwaltung von Teamanforderungen und Kommunikation, die Bewältigung von Herausforderungen und die Sicherstellung, dass Ziele erreicht werden.
+Projekt-Manager verwalten in der Regel die gesamte Bereitstellung für Ihre AEM Screens-Umgebung. Ein Projektmanager ist der zentrale Ansprechpartner für die gesamte Implementierung des ausgewählten Projekts und erledigt wichtige Aufgaben wie die Festlegung von Zeitplänen, die Verwaltung von Teamanforderungen und Kommunikation, die Bewältigung von Herausforderungen und die Sicherstellung, dass Ziele erreicht werden.
 
 >[!NOTE]
 >
@@ -91,14 +91,14 @@ Projektmanager verwalten in der Regel die gesamte Implementierung für Ihre AEM 
 Zur Sicherstellung einer erfolgreichen Bereitstellung von Digital Signage ist es üblich, ein Projekt in drei Schritte zu unterteilen.  Diese Schritte werden häufig als **Tage** bezeichnet. Es handelt sich dabei nicht um Tage im wörtlichen Sinne, sondern um Bezeichnungen für die verschiedenen Hauptschritte eines Projekts.
 
 1. Der erste Schritt wird als *Tag 0* bezeichnet. Dieser Schritt umfasst alle Pre-Sales- und Erkundungsbemühungen, die zur vollständigen Definition des Projektumfangs erforderlich sind.
-1. Der zweite Schritt, *Tag 1*, bezieht sich auf alle Aktivitäten, die Teil der Implementierung sind.
+1. Der zweite Schritt, *Tag 1*, bezieht sich auf alle Aktivitäten, die Teil der Bereitstellung sind.
 1. Der dritte und letzte Schritt, *Tag 2* bezieht sich auf alle laufenden Operationen und unterstützenden Elemente, die Teil der Gesamtlösung sind.
 
 >[!NOTE]
 >
 >Auch wenn der Schwerpunkt dieses Handbuchs auf *Tag 1* und *Tag 2* liegt, müssen bei einem erfolgreichen Digital-Signage-Projekt alle drei Schritte beachtet werden.
 >
->In einem zusätzlichen Video zu **[Projektverwaltung und -implementierung](https://helpx.adobe.com/de/experience-manager/6-5/screens/using/project-management-and-deployment.html)** erfahren Sie mehr über die Projektvorbereitung, die Projektinitiierung und den Projektfortschritt.
+>In einem zusätzlichen Video zu **[Projektverwaltung und -bereitstellung](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** erfahren Sie mehr über die Projektvorbereitung, die Projektinitiierung und den Projektfortschritt.
 
 ## RACI-Diagramm {#raci-chart}
 
@@ -146,7 +146,7 @@ Die folgende Tabelle fasst die Überlegungen zu **Tag 0: Projektimplementierung
 | Anwendungsentwicklung | RA | RA | RA | RA |
 | AEM Screens – Projekteinrichtung | I | RA | C | I |
 | Analytics-Implementierung | I | RA | C | - |
-| Tests und Implementierung | RA | C | RA | I |
+| Tests und Bereitstellung | RA | C | RA | I |
 | Server-Konfiguration | I | RA | I | I |
 | Inhaltsaktualisierungsplan | I | RA | C | C |
 | Plan für den Übergang von der Pilotphase in die Produktion | RA | RA | I | I |
@@ -158,7 +158,7 @@ Die folgende Tabelle fasst die Überlegungen zu **Tag 0: Projektimplementierung
 |---|---|---|---|---|
 | Hardwarebestellung und -lagerung | RA | I | I | I |
 | Onboarding-Zeitplan für den Einzelhandel | I | I | C | RA |
-| Tests der Benutzerakzeptanz | I | C | RA |  |
+| Tests der Benutzerakzeptanz | I | C | RA |   |
 | Massenkonfiguration von Hardware | RA | I | C | I |
 | Vereinbarung über Post-Launch-Support | RA | C | RA | C |
 

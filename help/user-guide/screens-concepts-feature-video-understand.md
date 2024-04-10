@@ -1,6 +1,5 @@
 ---
 title: Übersichtsvideo zu AEM Screens
-seo-title: AEM Screens Overview Video
 description: AEM Screens ist eine Digital Signage-Lösung, mit der Marketing-Experten dynamische und interaktive digitale Erlebnisse auf verschiedenen Bildschirmen veröffentlichen können.
 contentOwner: dgordon
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -8,10 +7,10 @@ topic-tags: introduction
 content-type: reference
 docset: aem65
 targetaudience: target-audience new
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
 source-wordcount: '159'
-ht-degree: 44%
+ht-degree: 40%
 
 ---
 
@@ -31,7 +30,7 @@ Um den Videos zu folgen, benötigen Sie Folgendes:
 
 1. Einen Screens-Player
 
-Um einen AEM Screens-Player herunterzuladen, klicken Sie [hier](https://download.macromedia.com/screens/). AEM Screens ist auch in verfügbar. [Google Play Store](https://play.google.com/store/apps/details?id=com.adobe.aem.screens.player&amp;hl=en). <!-- LINK IS 404 WITH NO SUITABLE REPLACEMENT See [Installing and Configuring Screens](https://helpx.adobe.com/experience-manager/6-4/help/sites-deploying/configuring-screens-introduction.html) for more details. -->
+Um den AEM Screens-Player herunterzuladen, wählen Sie [here](https://download.macromedia.com/screens/). AEM Screens ist auch in verfügbar. [Google Play Store](https://play.google.com/store/apps/details?id=com.adobe.aem.screens.player&amp;hl=en). <!-- LINK IS 404 WITH NO SUITABLE REPLACEMENT See [Installing and Configuring Screens](https://helpx.adobe.com/experience-manager/6-4/help/sites-deploying/configuring-screens-introduction.html) for more details. -->
 
 Im folgenden Video werden die Erstellung eines neuen Kanals, das Erstellen neuer Inhalte und das Hinzufügen eines Kanals zu einem wiederverwendbaren Zeitplan beschrieben. Das Video folgt in etwa der ersten Hälfte der [Screens-Schnellstartanleitung](kickstart-for-aem-screens.md).
 

@@ -13,10 +13,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: abeaed51-b18c-4366-93ef-4f05f33af649
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 92%
+source-wordcount: '251'
+ht-degree: 70%
 
 ---
 
@@ -34,14 +34,14 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 201809 ist der 1. Okto
 
 ### Neue Funktionen {#what-s-new}
 
-* **Adobe Analytics-Berichte als Wiedergabenachweis**: Weitere Informationen dazu finden Sie unter [Adobe Analytics-Integration mit AEM Screens](adobe-analytics-integration-aem-screens.md).
+* **Adobe Analytics-Berichterstellung zum Abspielnachweis**: Siehe [Integration von Adobe Analytics mit AEM Screens](adobe-analytics-integration-aem-screens.md) , um mehr zu erfahren.
 
-* **Adobe Analytics in Playern aktivieren, um Wiedergabeereignisse zwischenzuspeichern und an Adobe Analytics zu senden**: Weitere Informationen dazu finden Sie unter [Konfigurieren von Adobe Analytics mit AEM Screens](configuring-adobe-analytics-aem-screens.md).
+* **Adobe Analytics Player aktivieren, um Wiedergabeereignisse zwischenzuspeichern und an Adobe Analytics zu senden**: Siehe [Konfigurieren von Adobe Analytics mit AEM Screens](configuring-adobe-analytics-aem-screens.md) , um mehr zu erfahren.
 
-* **Massen-Update von Offline-Inhalten**: Damit können Sie ganze Kanäle aktualisieren, ohne extra zu einem bestimmten Kanal navigieren und den Inhalt aktualisieren zu müssen. Weitere Informationen dazu finden Sie unter [Massen-Offline-Update](bulk-offline-update.md).
+* **Massen-Update von Offline-Inhalten**: Damit können Sie ganze Kanäle aktualisieren, ohne extra zu einem bestimmten Kanal navigieren und den Inhalt aktualisieren zu müssen. Siehe [Massen-Offline-Update](bulk-offline-update.md) , um mehr zu erfahren.
 
 * **Massenveröffentlichung von Kanälen in Veröffentlichungsinstanzen**
-* **Verbessertes Player-Protokollierungsverfahren**: Sie können die Anzahl der maximalen Protokolldateien für einen AEM Screens-Player angeben. Weitere Informationen dazu finden Sie unter [Arbeiten mit einem AEM Screens-Player](working-with-screens-player.md).
+* **Verbessertes Player-Protokollierungsverfahren**: Sie können die Anzahl der maximalen Protokolldateien für einen AEM Screens-Player angeben. Siehe [Arbeiten mit einem AEM Screens-Player](working-with-screens-player.md) für weitere Details.
 
 * **Autoren-/Veröffentlichungs-Bereitstellung (Härtung)**
 

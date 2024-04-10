@@ -1,30 +1,26 @@
 ---
 title: Konfiguration der Videowiedergabe und Problembehebung
-seo-title: Beheben von Videoproblemen
-description: Auf dieser Seite werden das Debugging und die Problembehebung für die Videowiedergabe in Ihrem Kanal beschrieben.
-seo-description: Auf dieser Seite erfahren Sie, wie Sie Videoprobleme beheben. Wenn Sie ein Video zu DAM hochladen und zu Ihrem Kanal hinzufügen, kann möglicherweise das Problem auftreten, dass das Video im Screens-Player nicht wiedergegeben wird. In diesem Abschnitt werden das Debugging und die Problembehebung für die Videowiedergabe in Ihrem Kanal erläutert.
-uuid: 825b2440-5626-40d5-8c93-7689c24474d4
+description: Erfahren Sie, wie Sie die Videowiedergabe in Ihrem Kanal für AEM Screens debuggen und Fehler beheben können.
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
-discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
-feature: Kanäle, interaktiv
+feature: Channels, Interactive
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '846'
-ht-degree: 100%
+exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+workflow-type: tm+mt
+source-wordcount: '798'
+ht-degree: 38%
 
 ---
 
-
 # Konfiguration der Videowiedergabe und Problembehebung {#video-playback-configuration-and-troubleshooting}
 
-Wenn Sie ein Video zu DAM hochladen und zu Ihrem Kanal hinzufügen, kann möglicherweise das Problem auftreten, dass das Video im Screens-Player nicht wiedergegeben wird.
+Beim Hochladen eines Videos in das DAM und Hinzufügen des Kanals treten möglicherweise Probleme auf, bei denen das Video nicht im AEM Screens-Player wiedergegeben wird.
 
-In den folgenden Abschnitten werden das Debugging und die Problembehebung für die Videowiedergabe in Ihrem Kanal beschrieben.
+In den folgenden Abschnitten wird beschrieben, wie Sie die Videowiedergabe in Ihrem Kanal debuggen und Fehler beheben können.
 
 ## DAM-Ausgaben {#dam-renditions}
 
@@ -33,9 +29,9 @@ Wenn Sie das Video in den Kanal hochgeladen haben, sollte AEM damit beginnen, ei
 So zeigen Sie das Video an:
 
 1. Navigieren Sie zu Ihrem Video, beispielsweise `http://localhost:4502/assets.html/content/dam/we-retail/en/videos`.
-1. Klicken Sie auf das Video. Erweitern Sie das obere linke Menü und klicken Sie auf **Ausgaben**.
+1. Klicken Sie auf das Video, erweitern Sie das Menü oben links und klicken Sie auf **Ausgabeformate**.
 
-Es sollten unterschiedliche Ausgaben vorliegen (ein MP4- oder M4V-Video).
+Es sollte verschiedene Ausgabedarstellungen geben (eine MP4- oder M4V-Datei).
 
 Wenn keine Ausgabe verfügbar ist, überprüfen Sie, ob ffmpeg im Betriebssystem installiert ist, unter dem AEM ausgeführt wird.
 
@@ -47,7 +43,7 @@ Wenn keine Ausgabe verfügbar ist, überprüfen Sie, ob ffmpeg im Betriebssystem
 
 ## Video-Assets {#video-assets}
 
-Wenn unter dem Video kein Quellattribut angezeigt wird, wurde das Video möglicherweise nicht transkodiert. Wenn das Video ordnungsgemäß transkodiert wurde, wird es im Dashboard angezeigt (siehe nachfolgende Abbildung).
+Wenn unter dem Video kein Quellattribut angezeigt wird, wurde das Video möglicherweise nicht transkodiert. Wenn das Video ordnungsgemäß transkodiert wurde, wird es im Dashboard angezeigt, wie im Folgenden gezeigt:
 
 Vergewissern Sie sich, dass ffmpeg installiert ist, und prüfen Sie die Videoprofile.
 
@@ -59,9 +55,9 @@ Vergewissern Sie sich, dass ffmpeg installiert ist, und prüfen Sie die Videopro
 
    ![chlimage_1-3](assets/chlimage_1-3.png)
 
-1. Laden Sie ein Test-Video hoch und klicken Sie auf **OK**, um die Transkodierung zu starten.
+1. Laden Sie ein Testvideo hoch und klicken Sie auf **Ok** damit Sie mit der Transkodierung beginnen können.
 
-   Falls die Transkodierung fehlschlägt, erweitern Sie die ffmpeg-Ausgabe, um die Fehler in der Konsolenausgabe von ffmpeg zu verstehen.
+   Wenn das transkodierte Video fehlschlägt, erweitern Sie die ffmpeg-Ausgabe, um Fehler in der Konsolenausgabe von ffmpeg zu verstehen.
 
    ![chlimage_1-4](assets/chlimage_1-4.png)
 
@@ -71,45 +67,44 @@ Vergewissern Sie sich, dass ffmpeg installiert ist, und prüfen Sie die Videopro
 
    >[!NOTE]
    >
-   >Stellen Sie sicher, dass Sie lange genug warten, bis das Video transkodiert wurde (es sollte das Tag „neu“ aufweisen statt „in Bearbeitung“), bevor Sie es zu einem Kanal hinzufügen.
+   >Stellen Sie sicher, dass Sie ausreichend Zeit für die Transkodierung des Videos geben (es sollte das neue Tag anstelle der Verarbeitung zeigen), bevor Sie es zu einem Kanal hinzufügen.
 
 ### Testen des Profils mit einer Videokomponente {#checking-profile-with-a-video-component}
 
-Prüfen Sie die Liste der Profile über die Design-Seite, wenn die Videokomponente nicht korrekt konfiguriert ist.
+Überprüfen Sie die Liste der Profile aus dem Seitenentwurf, wenn die Videokomponente nicht ordnungsgemäß konfiguriert ist.
 
-1. Navigieren Sie zu Ihrem Kanal. Wählen Sie dort den Modus **Design** aus.
+1. Navigieren Sie zu Ihrem Kanal und wählen Sie die **Design** -Modus.
 
    ![chlimage_1-6](assets/chlimage_1-6.png)
 
-1. Wählen Sie das Video aus und öffnen Sie das Dialogfeld **Bearbeiten**. Öffnen Sie die Registerkarte **Profile**.
+1. Wählen Sie das Video aus und öffnen Sie das Dialogfeld **Bearbeiten**. Öffnen Sie die **Profile** Registerkarte.
 
    >[!NOTE]
-   >Wählen Sie unterschiedliche Profile aus. (Es sollte wenigstens das Profil „Hohe Qualität H.264“ vorhanden sein.)
+   >Wählen Sie verschiedene Profile aus (mindestens sollte das Profil &quot;Hohe Qualität H.264&quot;vorhanden sein).
 
 ### Prüfen des Videos im Web-Player {#checking-the-video-in-the-web-player}
 
-Mit dem **Web-Player** `http://localhost:4502/content/mobileapps/cq-screens-player/firmware.html/content/screens/we-retail/locations/demo/flagship/single/device0` können Sie die Wiedergabe in Browsern (Chrome und Safari) testen. Chrome wird auf Android-Geräten genutzt, Safari ist der Browser unter OSX und iOS.
+Mit dem **Web-Player** `http://localhost:4502/content/mobileapps/cq-screens-player/firmware.html/content/screens/we-retail/locations/demo/flagship/single/device0` können Sie die Wiedergabe in Browsern (Chrome und Safari) testen. Chrome wird auf Android™-Geräten verwendet, während Safari der OS X- und iOS-Browser ist.
 
-Wenn das Video in Safari nicht läuft, funktioniert es auch nicht bei den OSX- und iOS-Playern. Das liegt wahrscheinlich an einem Kodierungsfehler. Das Video muss also neu kodiert werden.
+Wenn das Video nicht in Safari ausgeführt wird, wird es auch nicht in den OS X- und iOS-Playern ausgeführt. Dies ist wahrscheinlich ein Kodierungsproblem und das Video muss neu kodiert werden.
 
-Führen Sie die folgenden Schritte durch, um mit einem DAM-Workflow FullHD-Ausgaben zu erstellen:
+Gehen Sie wie folgt vor, um einen DAM-Workflow zum Erstellen von FullHD-Wiedergaben zu verwenden:
 
-1. Navigieren Sie zur *Workflow-Modelladministration*, d. h. `http://localhost:4502/libs/cq/workflow/admin/console/content/models.html/etc/workflow/models`.
-1. Wählen Sie das Modell **Screens – Asset aktualisieren** aus.
-1. Klicken Sie in der Aktionsleiste auf **Workflow starten**, um das Dialogfeld **Workflow ausführen** zu öffnen.
-
-1. Wählen Sie das Video-Asset in der **Nutzlast** aus.
-1. Klicken Sie auf **Ausführen**.
+1. Navigieren Sie zum *Workflow-Modelladministrator* , `http://localhost:4502/libs/cq/workflow/admin/console/content/models.html/etc/workflow/models`.
+1. Wählen Sie die **Screens-Asset aktualisieren** -Modell.
+1. Auswählen **Workflow starten** in der Aktionsleiste aus.
+1. Aus dem **Workflow ausführen** Dialogfeld wählen Sie Ihr Video-Asset im **Nutzlast**.
+1. Auswählen **Ausführen**.
 
 >[!NOTE]
 >
->Warten Sie eine Weile, während die Ausgaben erstellt werden. Laden Sie nach einigen Sekunden/Minuten (je nach Videogröße) den Web-Player in Safari neu.
+>Warten Sie einige Zeit, um die Ausgabedarstellungen zu erstellen. Laden Sie den Webplayer jedoch nach einigen Sekunden/Minuten (abhängig von der Videogröße) in Safari neu.
 
-#### Problembehebung für das Flag „Autoplay-Richtlinie“ {#troubleshooting-autoplay-policy-flag}
+#### Fehlerbehebung für die automatische Wiedergaberichtlinie {#troubleshooting-autoplay-policy-flag}
 
-Falls der AEM Screens-Player das Video zwar abruft, aber nicht anzeigt, müssen Sie eine Problembehebung für das Flag „Autoplay-Richtlinie“ durchführen.
+Wenn der AEM Screens-Player das Video zwar abruft, aber nicht anzeigt, führen Sie eine Fehlerbehebung für das Flag &quot;Autoplay-Richtlinie&quot;durch.
 
-Führen Sie folgende Schritte aus, um das Problem mit dem Flag „Autoplay-Richtlinie“ von Google zu beheben:
+Führen Sie die folgenden Schritte aus, um das Problem mit der Kennzeichnung der Autoplay-Richtlinie in Google zu beheben:
 
 1. Navigieren Sie zu ***chrome://flags/#autoplay-policy***
 1. Die **Autoplay-Richtlinie** muss von **Standard** in **Keine Benutzergeste erforderlich** geändert werden
@@ -118,7 +113,7 @@ Führen Sie folgende Schritte aus, um das Problem mit dem Flag „Autoplay-Richt
 
 >[!NOTE]
 >
->Weitere Informationen zu bewährten Verfahren für gute Benutzererlebnisse mit den neuen Autoplay-Richtlinien in Chrome finden Sie in der Dokumentation zu *Änderungen der Autoplay-Richtlinie*, d. h. `https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio`.
+>Weitere Informationen zu Best Practices für gute Benutzererlebnisse mit den neuen Autoplay-Richtlinien in Chrome finden Sie in der Dokumentation für *Änderungen an der Autoplay-Richtlinie* at `https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio`.
 
 ### Synchronisieren von Videos über mehrere Player hinweg {#syncing-video-across-multiple-players}
 
@@ -134,13 +129,13 @@ Um Videos synchron auf mehreren Geräten wiederzugeben, sollten Sie die absolute
 
 Die absolute Strategie:
 
-* berechnet eine Ankerzeit (Mitternacht des aktuellen Tages)
-* berechnet die Dauer der Sequenz (Summe der Dauer aller Elemente)
-* berechnet zu jedem beliebigen Zeitpunkt mit der Formel „verbleibende_Sequenzzeit = (aktuelle_Zeit - Ankerzeit) % Sequenzdauer“, welches Element aktuell und als nächstes wiedergegeben werden soll
+* Berechnet eine Ankerzeit (Mitternacht des aktuellen Tages).
+* Berechnet die Dauer der Sequenz (Summe der Dauer aller zugehörigen Elemente).
+* Sie berechnet zu jedem Zeitpunkt, welches Element gerade abgespielt werden soll, und das nächste Element, indem sie die Sequenz _rest_time = (current_time - anchor_time) % sequence_duration löst.
 
-Führen Sie die folgenden Schritte durch, um eine absolute Strategie einzurichten:
+Gehen Sie wie folgt vor, um eine absolute Strategie einzurichten:
 
-1. Navigieren Sie zu Ihrem Kanalautor und wählen Sie die Sequenzkomponenten wie in der nachfolgenden Abbildung gezeigt aus.
+1. Navigieren Sie zu Ihrem Kanalautor und wählen Sie die Sequenzkomponente aus, wie in der folgenden Abbildung dargestellt.
 1. Öffnen Sie das Konfigurations-Dialogfeld.
 1. Bearbeiten Sie die **Strategie** und fügen Sie „absolut“ hinzu.
 
@@ -149,12 +144,11 @@ Führen Sie die folgenden Schritte durch, um eine absolute Strategie einzurichte
    >[!NOTE]
    >Die Betriebssysteme der Player müssen über dieselbe Uhr verfügen.
 
-**Synchronisieren der Uhren unter OS X** Gehen Sie wie folgt vor, um die Uhren unter OS X zu synchronisieren:
+**Synchronisieren von Uhren unter OS X** Gehen Sie wie folgt vor, um die Uhren unter OS X auszurichten:
 
-1. Öffnen Sie in jedem OS X-Feld die Einstellungen für **Datum und Uhrzeit**.
+1. Öffnen **Datum und Uhrzeit** Voreinstellungen für jedes OS X-Feld
 1. Aktivieren Sie **Datum und Uhrzeit automatisch festlegen**.
 1. Kopieren Sie den Wert 0.pool.ntp.org, 1.pool.ntp.org, 2.pool.ntp.org, 3.pool.ntp.org, time.apple.com in das Dropdown-Feld. Sie können auch einfach den Befehl *sudo ntpdate -u -v 0.pool.ntp.org* ausführen.
 1. Starten Sie alle Player (mind. zwei).
 
 Es kann eine Weile dauern, bis die Player eine neue synchronisierte Sequenz beginnen.
-

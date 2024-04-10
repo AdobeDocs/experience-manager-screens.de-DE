@@ -1,27 +1,25 @@
 ---
 title: Anbieterinteraktion
-seo-title: Anbieterinteraktion für AEM Screens
-description: Auf dieser Seite werden die Best Practices für Anbieterinteraktion bei AEM Screens beschrieben.
-seo-description: Auf dieser Seite werden die Best Practices für Anbieterinteraktion bei AEM Screens beschrieben.
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '142'
-ht-degree: 100%
+description: Informationen zur Anbieterinteraktion für AEM Screens - Best Practices .
+exl-id: b1b1cd4b-f0a8-47d4-b8b8-dc7e42464230
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+workflow-type: tm+mt
+source-wordcount: '125'
+ht-degree: 34%
 
 ---
-
 
 # Anbieterinteraktion {#vendor-engagement}
 
 >[!NOTE]
 >Typische Verantwortliche für diese Aktivität sind A/V-Integratoren.
 
-Bei dieser Aktivität müssen alle zentralen Anbieter, die für die Einrichtung und Implementierung des Netzwerks erforderlich sind, sowie alle Partnerabhängigkeiten identifiziert werden:
+In dieser Aktivität müssen alle wichtigen Anbieter identifiziert werden, die für die Einrichtung und Bereitstellung des Netzwerks erforderlich sind, sowie alle Partnerabhängigkeiten:
 
 * Ermitteln Sie Anbieter für die gesamte Hardware, einschließlich Displays, Player-PCs, Halterungen und Peripheriegeräte.
 
 * Definieren Sie Funktionen und Aufgaben für die einzelnen Anbieter mit Blick auf die von ihnen unterstützte Produktkategorie.
 
-* Bestätigen Sie *Lieferzeiten* für alle Lieferziele und erstellen Sie einen Implementierungsplan, der alle Lieferzeiten berücksichtigt – und zwar von den gewünschten Installationsdaten der ersten erforderlichen Installationen rückwärts.
+* Versand bestätigen *Leadtime* für alle Lieferziele erstellen und einen Implementierungsplan erstellen, der alle Lieferzeiten berücksichtigt und von einem oder mehreren gewünschten Installationsdaten der ersten erforderlichen Installationen rückwärts arbeitet.
 
-Nach Erledigung aller vorherigen Schritte sollten wir nun einen umfassenden *Bereitstellungsplan für Tag 1* ausführen können.
+Nach Abschluss aller vorherigen Schritte sollten Sie jetzt über eine umfassende *Tag 1* Implementierungsplan bereit zur Ausführung.

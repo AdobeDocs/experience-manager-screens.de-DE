@@ -1,13 +1,13 @@
 ---
 title: Verwalten des Netzwerk-Traffics
 description: Auf dieser Seite werden die Standard-Netzwerkkonfigurationen sowie die Verwaltung des Netzwerk-Traffics beschrieben.
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '559'
-ht-degree: 100%
+exl-id: b6d8f4a3-fca2-4556-9455-b9e27b138154
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+workflow-type: tm+mt
+source-wordcount: '556'
+ht-degree: 95%
 
 ---
-
 
 # Verwalten des Netzwerk-Traffics {#managing-network-traffic}
 
@@ -27,9 +27,9 @@ Ein Vorteil eines Proxy-Servers besteht darin, dass sein Cache allen Benutzern z
 
 Erhält ein Proxy-Server eine Anfrage für eine Internet-Ressource (z. B. für eine Web-Seite oder infolge der Verbindung mit einem AEM-Publisher), prüft er die im lokalen Cache gespeicherten, zu einem früheren Zeitpunkt aufgerufenen URLs. Wenn die Seite darin gefunden wird, wird sie an den Benutzer zurückgegeben, ohne die Anfrage an das Internet weiterzuleiten. Ist die Seite nicht im Cache gespeichert, fungiert der Proxy-Server als Client, der für den Benutzer die Seite vom Server im Internet abruft. Wenn der Inhalt zurückgegeben wird, ordnet ihn der Proxy-Server der ursprünglichen Anfrage zu und leitet ihn an den Benutzer weiter.
 
-## Grundlagen zu Standard-Netzwerkkonfigurationen {#network-setups}
+## Grundlegendes zu Standard-Netzwerkkonfigurationen {#network-setups}
 
-Bei der Implementierung einer Netzwerkkonfiguration gilt es, die nachfolgenden Szenarien zu prüfen und ihre Stärken und Eigenheiten abzuwägen.
+Informationen zum Implementieren einer Netzwerkkonfiguration finden Sie in den folgenden Szenarien mit ihren Stärken und Implementierungsdetails.
 
 Dieses Handbuch erläutert vier Varianten von Netzwerkkonfigurationen, die innerhalb eines Unternehmens eingerichtet werden können:
 

@@ -10,10 +10,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: 2b865165793b1c0f90f1351518e41096a57ea2ff
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1453'
-ht-degree: 47%
+source-wordcount: '1452'
+ht-degree: 46%
 
 ---
 
@@ -47,7 +47,7 @@ Bevor Sie mit der Konfiguration von Context-Hub-Konfigurationen für ein AEM Scr
 >
 >Google Tabellen wird im folgenden Beispiel als Beispieldatenbanksystem verwendet, von dem die Werte abgerufen werden und das ausschließlich zu Fortbildungszwecken dient. Adobe unterstützt die Verwendung von Google Tabellen in Produktionsumgebungen nicht.
 >
->Weitere Informationen finden Sie in der Google-Dokumentation unter [Abrufen eines API-Schlüssels](https://developers.google.com/maps/documentation/javascript/get-api-key).
+>Weitere Informationen finden Sie unter [API-Schlüssel abrufen](https://developers.google.com/maps/documentation/javascript/get-api-key) in der Google-Dokumentation.
 
 ## Schritt 1: Einrichten eines Datenspeichers {#step-setting-up-a-data-store}
 

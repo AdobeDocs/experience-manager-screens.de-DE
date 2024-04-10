@@ -7,10 +7,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: c1a0b394-97dc-4104-b2b4-41fcbb63a22e
-source-git-commit: 1d591503bc337e5677a3c4030771463f7e178e1e
-workflow-type: ht
-source-wordcount: '304'
-ht-degree: 100%
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+workflow-type: tm+mt
+source-wordcount: '307'
+ht-degree: 77%
 
 ---
 
@@ -33,18 +33,16 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 202001 ist der 31. Jan
 ### Neue Funktionen {#what-s-new}
 
 * **Befehlssynchronisierung für die Asset-Wiedergabe**
-Mithilfe der Befehlssynchronisierung kann die Wiedergabe über verschiedene Player hinweg synchronisiert werden. Die Player können unterschiedliche Inhalte wiedergeben, aber jedes Asset muss dieselbe Dauer haben.
+Die Befehlssynchronisierung ermöglicht die synchronisierte Wiedergabe über verschiedene Player hinweg. Die Player können unterschiedliche Inhalte wiedergeben, aber jedes Asset muss dieselbe Dauer haben.
 Weitere Informationen zur Befehlssynchronisierung und zum Festlegen von Master und Clients finden Sie unter [Verwenden der Befehlssynchronisierung](using-command-sync.md).
 
 * **Framework für Statusprüfungen zum Anzeigen des Status von HTTPS und Erlauben eines leeren Referrers** Mit dem Framework für Statusprüfungen können Benutzer vor Ausführung eines AEM Screens-Projekts prüfen, ob zwei erforderliche Konfigurationen („Leere Referrer-Anforderungen erlauben“ und „Apache Felix Jetty-basierter HTTP-Dienst“) eingerichtet wurden.
 
-   Weitere Informationen zum Framework für Statusprüfungen finden Sie unter [Framework für Statusprüfungen](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
+  Weitere Informationen zum Framework für Statusprüfungen finden Sie unter [Framework für Statusprüfungen](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
 
-* **Aktualisierungen der standardmäßigen Übergangstypen**
-Standardmäßig sind die Eigenschaften der Übergangskomponente wie 
-**Typ** jetzt auf **Ausblenden** und die **Dauer** auf **1600 ms** eingestellt.
+* **Aktualisierungen bei Standardübergangstypen** Die Eigenschaften der Übergangskomponente wie **Typ** sind jetzt standardmäßig auf **Ausblenden** und eine **Dauer** von **1600 ms** eingestellt.
 
-   Weitere Informationen finden Sie im Anwendungsbeispiel [Anwenden von Übergängen](/help/user-guide/applying-transitions.md).
+  Siehe [Anwenden von Übergängen](/help/user-guide/applying-transitions.md) Anwendungsbeispiel für weitere Details.
 
 
 ### Veröffentlichte AEM Screens-Player {#released-aem-screens-players}
@@ -57,4 +55,4 @@ Die folgenden AEM Screens-Player sind für AEM 6.4 Feature Pack 7 und AEM 6.5 Fe
 
 #### AEM Screens-Player-Downloads   {#aem-screens-player-downloads}
 
-Gehen Sie zu [**AEM Screens-Player-Downloads**](https://download.macromedia.com/screens/), um den neusten AEM Screens-Player herunterzuladen und mehr über die Fehlerbehebungen zu erfahren.
+Informationen zum Herunterladen des neuesten AEM Screens-Players und zu weiteren Fehlerbehebungen finden Sie unter [**AEM Screens Player-Downloads**](https://download.macromedia.com/screens/).

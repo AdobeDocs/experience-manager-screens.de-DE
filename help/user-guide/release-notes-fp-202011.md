@@ -4,13 +4,13 @@ description: „Auf dieser Seite finden Sie Informationen zu AEM Screens Feature
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '283'
-ht-degree: 100%
+exl-id: b080a697-0e65-4ae1-a161-669c3098246b
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 87%
 
 ---
-
 
 # Versionshinweise für Feature Pack 202011 {#release-notes-for-feature-pack}
 
@@ -31,23 +31,23 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 202011 ist der 30. Nov
 
 * **Inhaltszuweisungsbericht**
 
-   Mit der Funktion „Inhaltszuweisungsbericht“ kann ein AEM Screens-Administrator oder ein Autor einen *Inhaltszuweisungsbericht* in ein Tabellenformat exportieren.
+  Mit der Funktion „Inhaltszuweisungsbericht“ kann ein AEM Screens-Administrator oder ein Autor einen *Inhaltszuweisungsbericht* in ein Tabellenformat exportieren.
 Weitere Informationen finden Sie unter [Inhaltszuweisungsbericht](/help/user-guide/content-assignment-report.md).
 
 
 * **Tizen-Player**
 
-   Mit dem neuesten Feature Pack für AEM Screens 6.5.6 wurde ein neuer Player eingeführt, der als Tizen-Player bezeichnet wird.
-Weitere Informationen finden Sie unter [Implementieren des Tizen-Players](/help/user-guide/tizen-player.md).
+  Mit dem neuesten Feature Pack für AEM Screens 6.5.6 wurde ein neuer Player eingeführt, der als Tizen-Player bezeichnet wird.
+Siehe [Implementieren des Tizen-Players](/help/user-guide/tizen-player.md) für weitere Details.
 
 * **Suchfunktionen über den Geräte-Manager**
 
-   Über die Benutzeroberfläche des Geräte-Managers ist jetzt eine neue Suchfunktion mit dem neuesten Feature Pack für AEM Screens 6.5.6 verfügbar.
-Weitere Informationen finden Sie unter [Suchen eines Geräts über den Geräte-Manager](/help/user-guide/device-registration.md#search-device).
+  Über die Benutzeroberfläche des Geräte-Managers ist jetzt eine neue Suchfunktion mit dem neuesten Feature Pack für AEM Screens 6.5.6 verfügbar.
+Siehe [Suchen eines Geräts über den Geräte-Manager](/help/user-guide/device-registration.md#search-device) für weitere Details.
 
 * **Standardmäßiges Ping-Intervall**
 
-   Das standardmäßige Ping-Intervall ist in dieser Version jetzt auf 30 Sekunden festgelegt.
+  Das standardmäßige Ping-Intervall ist in dieser Version jetzt auf 30 Sekunden festgelegt.
 
 ### Veröffentlichte AEM Screens-Player {#released-aem-screens-players}
 
@@ -59,6 +59,6 @@ Die folgenden AEM Screens-Player sind für AEM 6.5 Feature Pack 6 verfügbar:
 * Tizen
 * Linux
 
-#### AEM Screens-Player-Downloads {#aem-screens-player-downloads}
+#### AEM Screens-Player-Downloads   {#aem-screens-player-downloads}
 
-Navigieren Sie zu **[AEM Screens-Player-Downloads](https://download.macromedia.com/screens/index.html)**, um den neusten AEM Screens-Player herunterzuladen und mehr über die Fehlerbehebungen zu erfahren.
+Informationen zum Herunterladen des neuesten AEM Screens-Players und zu weiteren Fehlerbehebungen finden Sie unter **[AEM Screens Player-Downloads](https://download.macromedia.com/screens/index.html)**.

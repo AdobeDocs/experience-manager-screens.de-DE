@@ -2,10 +2,10 @@
 title: Konfigurieren von Autoren- und Veröffentlichungsinstanzen in AEM Screens
 description: Erfahren Sie, wie Sie eine Autoreninstanz und eine Veröffentlichungsinstanz für AEM Screens konfigurieren.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1935'
-ht-degree: 43%
+source-wordcount: '1933'
+ht-degree: 42%
 
 ---
 
@@ -38,7 +38,7 @@ Bevor Sie mit Autoren- und Veröffentlichungsservern beginnen, sollten Sie über
 
 >[!NOTE]
 >
->Weitere Informationen zur Architektur der Autoren- und Veröffentlichungsinstanz sowie dazu, wie der Inhalt in einer AEM-Autoreninstanz erstellt und dann vorwärts an mehrere Veröffentlichungsinstanzen repliziert wird, finden Sie unter [Architektonischer Überblick zur Autoren- und Veröffentlichungsinstanz](author-publish-architecture-overview.md).
+>Weitere Informationen zur Architektur der Autoren- und Veröffentlichungsinstanz und dazu, wie der Inhalt in einer AEM-Autoreninstanz erstellt und dann in mehrere Veröffentlichungsinstanzen vorwärts repliziert wird, finden Sie unter [Architektonischer Überblick zur Autoren- und Veröffentlichungsinstanz](author-publish-architecture-overview.md).
 
 Im folgenden Abschnitt wird beschrieben, wie Sie Replikationsagenten in der Autoren- und Veröffentlichungstopologie einrichten.
 
@@ -306,7 +306,7 @@ Alternativ können Sie über die Geräteverwaltungskonsole die Server-URL aktual
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
-Die **Veröffentlichung verwalten** -Funktion können Sie Inhaltsaktualisierungen von der Autoren- zur Veröffentlichungsinstanz auf dem Gerät bereitstellen. Sie können Inhalte für Ihr gesamtes AEM Screens-Projekt oder nur für einen Ihrer Kanäle, Standorte, Geräte, Anwendungen oder Zeitpläne veröffentlichen bzw. dessen Veröffentlichung rückgängig machen. Weitere Informationen zu dieser Funktion finden Sie unter [On-Demand-Inhaltsaktualisierungen](on-demand-content.md).
+Die **Veröffentlichung verwalten** -Funktion können Sie Inhaltsaktualisierungen von der Autoren- zur Veröffentlichungsinstanz auf dem Gerät bereitstellen. Sie können Inhalte für Ihr gesamtes AEM Screens-Projekt oder nur für einen Ihrer Kanäle, Standorte, Geräte, Anwendungen oder Zeitpläne veröffentlichen bzw. dessen Veröffentlichung rückgängig machen. Weitere Informationen zu dieser Funktion finden Sie unter [On-Demand-Inhaltsaktualisierung](on-demand-content.md).
 
 ## Tipps zur Fehlerbehebung {#troubleshoot-tips}
 

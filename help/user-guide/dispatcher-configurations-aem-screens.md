@@ -5,10 +5,10 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 33%
+source-wordcount: '624'
+ht-degree: 27%
 
 ---
 
@@ -25,12 +25,12 @@ Auf der folgenden Seite finden Sie die Richtlinien zum Konfigurieren des Dispatc
 >Wenn kein Dispatcher vorhanden ist, deaktivieren Sie das Registrierungs-Servlet in der Liste der OSGi-Komponenten.
 
 Bevor Sie den Dispatcher für ein AEM Screens-Projekt konfigurieren, müssen Sie über Vorkenntnisse in Dispatcher verfügen.
-Weitere Informationen finden Sie unter [Konfigurieren von Dispatcher](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration).
+Siehe [Dispatcher konfigurieren](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration) für weitere Details.
 
 ## Konfigurieren von Dispatcher für die Manifest-Version v2 {#configuring-dispatcher}
 
 >[!IMPORTANT]
->Die folgenden Dispatcher-Konfigurationen gelten nur für die Manifest-Version v2. Informationen zur Manifest-Version v3 finden Sie unter [Dispatcher-Konfigurationen für Manifest-Version v3](#configuring-dispatcherv3).
+>Die folgenden Dispatcher-Konfigurationen gelten nur für die Manifest-Version v2. Siehe [Dispatcher-Konfigurationen für Manifestversion v3](#configuring-dispatcherv3) für die Manifestversion v3.
 
 AEM Screens-Player oder -Geräte verwenden authentifizierte Sitzungen, um auf die Ressourcen in den Veröffentlichungsinstanzen zuzugreifen. Wenn Sie also über mehrere Veröffentlichungsinstanzen verfügen, sollten die Anforderungen immer an dieselbe Veröffentlichungsinstanz gesendet werden, damit die authentifizierte Sitzung für alle Anforderungen gültig ist, die von den AEM Screens-Playern/Geräten stammen.
 
@@ -51,9 +51,9 @@ Wenn Sie mehrere Veröffentlichungsinstanzen mit einem Frontend des einzelnen Di
 
 Wenn eine Veröffentlichungsinstanz von einem Dispatcher als Frontend fungiert, hilft das Aktivieren der Treue beim Dispatcher nicht, da der Lastenausgleich jede Anfrage an den Dispatcher senden kann. Wählen Sie in diesem Fall **Aktivieren** in **Stickiness** -Feld, um es auf Ihrer Lastenausgleichsebene zu aktivieren, wie in der folgenden Abbildung dargestellt:
 
-![image](/help/user-guide/assets/dispatcher/dispatcher-enable.png)
+![Bild](/help/user-guide/assets/dispatcher/dispatcher-enable.png)
 
-Wenn Sie z. B. AWS ALB verwenden, finden Sie unter [Zielgruppen für Ihre Application Load Balancer](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html) Informationen dazu, wie Sie das Sticky-Verhalten auf ALB-Ebene aktivieren. Aktivieren Sie die Stickiness für einen Tag.
+Wenn Sie beispielsweise AWS ALB verwenden, lesen Sie [Zielgruppen für Ihren Anwendungs-Lastenausgleich](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html) für die Aktivierung der Stickigkeit auf ALB-Ebene. Aktivieren Sie die Stickiness für einen Tag.
 
 ### Schritt 1: Konfigurieren von Client-Kopfzeilen {#step-configuring-client-headers}
 

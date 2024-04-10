@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: a8741cc7-de4f-4e5a-b69e-852a43597123
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 57%
+source-wordcount: '385'
+ht-degree: 50%
 
 ---
 
@@ -33,14 +33,14 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 202103 ist der 5. Mär
 
   Das manuelle Registrieren von Tausenden von Playern mit Massenregistrierung ist umständlich und bringt Zeit und Kosten. Um diesen Vorgang zu vereinfachen, können Sie mit der Funktion Automatische Registrierung von Playern in AEM einen vorab freigegebenen Schlüssel angeben. Dieser Schlüssel kann entweder über eine Konfigurationsdatei oder eine Mobile Device Management (MDM)-Lösung in einen Player bereitgestellt werden.
 
-  Weitere Informationen finden Sie unter [Automatische Registrierung von Playern](/help/user-guide/auto-registration-players.md).
+  Siehe [Automatische Registrierung von Playern](/help/user-guide/auto-registration-players.md) für weitere Details.
 
 
 * **Massenbereitstellung von Android™-Player mithilfe von Enterprise Mobility Management**
 
   Bei der Massenbereitstellung des Android™-Players wird es mühsam, jeden Player manuell bei AEM zu registrieren. Es wird dringend empfohlen, eine EMM-Lösung (Enterprise Mobility Management) zu verwenden, z. B. `VMWare Airwatch`, `MobileIron`oder `Samsung Knox` zur Remote-Bereitstellung und -Verwaltung Ihrer Implementierung. Der AEM Screens Android™ Player unterstützt die standardmäßige EMM AppConfig-Lösung, die die Remote-Bereitstellung ermöglicht.
 
-  Siehe Abschnitt [Massenbereitstellung von Android™-Player mithilfe von Enterprise Mobility Management](/help/user-guide/implementing-android-player.md#implementation) für weitere Details.
+  Siehe [Massenbereitstellung von Android™-Player mithilfe von Enterprise Mobility Management](/help/user-guide/implementing-android-player.md#implementation) für weitere Details.
 
 
 ### Fehlerbehebungen {#bug-fixes}
@@ -71,4 +71,4 @@ Die folgenden AEM Screens-Player sind für AEM 6.5 Feature Pack 7 verfügbar:
 
 #### AEM Screens-Player-Downloads 
 
-Gehen Sie zu **[AEM Screens-Player-Downloads](https://download.macromedia.com/screens/index.html)**, um den neusten AEM Screens-Player herunterzuladen und mehr über die Fehlerbehebungen zu erfahren.
+Informationen zum Herunterladen des neuesten AEM Screens-Players und zu weiteren Fehlerbehebungen finden Sie unter **[AEM Screens Player-Downloads](https://download.macromedia.com/screens/index.html)**.

@@ -8,10 +8,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
-source-git-commit: c6506ca62e806ec11d3380d6ac7670bcfcf13adb
-workflow-type: ht
-source-wordcount: '512'
-ht-degree: 100%
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+workflow-type: tm+mt
+source-wordcount: '510'
+ht-degree: 92%
 
 ---
 
@@ -32,7 +32,6 @@ Um einen **AEM Screens-Player** herunterzuladen, rufen Sie die Seite [AEM 6.5 Pl
 >1. Halten Sie die linke obere Ecke gedrückt, um den Admin-Bereich zu öffnen.
 >1. Navigieren Sie im linken Aktionsmenü zu **Konfiguration**, geben Sie die Standortadresse der AEM-Instanz unter **Server** ein und klicken Sie auf **Speichern**.
 >1. Klicken Sie im linken Aktionsmenü auf den Link **Registrierung** und führen Sie die folgenden Schritte aus, um die Geräteregistrierung abzuschließen.
-
 
 ## Einfache Wiedergabe-Überwachung {#playback-monitoring}
 
@@ -79,10 +78,10 @@ Im Folgenden finden Sie einige Beschränkungen bei der einfachen Wiedergabeüber
 
 ### Zusätzliche Ressourcen {#additional-resources}
 
-In den folgenden Themen finden Sie ausführliche Informationen:
+Detaillierte Informationen finden Sie in den folgenden Themen:
 
 * Um Android-Player herunterzuladen, gehen Sie zu **Google Play**. Weitere Informationen zur Implementierung von Android Watchdog finden Sie unter [Implementieren des Android-Players](implementing-android-player.md).
 
-* Weitere Informationen zur Implementierung von Chrome OS-Player finden Sie in der [Chrome Management Console](implementing-chrome-os-player.md).
+* Informationen zur Implementierung des Chrome OS-Players finden Sie unter [Chrome Management Console](implementing-chrome-os-player.md) für weitere Informationen.
 
-* Informationen zum Konfigurieren von AEM Screens Windows Player finden Sie unter [Implementieren von Windows Player](implementing-windows-player.md).
+* Informationen zum Konfigurieren des AEM Screens Windows-Players finden Sie unter [Implementieren von Windows Player](implementing-windows-player.md).

@@ -2,10 +2,10 @@
 title: Überblick über die Architektur und Konfigurationen für adaptive Ausgabedarstellungen
 description: Auf dieser Seite werden der Überblick über die Architektur und Konfigurationen in CRXDE Lite für adaptive Ausgabedarstellungen in AEM Screens beschrieben.
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 97%
+source-wordcount: '644'
+ht-degree: 96%
 
 ---
 
@@ -71,7 +71,7 @@ Gehen Sie wie folgt vor, um einen Knoten unter „Ausgabedarstellungszuordnung�
 1. Fügen Sie die Ausdruckseigenschaft mit dem Wert hinzu, der den Abfrageausdruck enthält.
 
    >[!NOTE]
-   >Weitere Informationen finden Sie unter [Verwenden der Syntax von Medienabfragen](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries).
+   >Siehe [Syntax der Medienabfrage verwenden](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) , um mehr zu erfahren.
 
    Klicken Sie auf **Regel 1**, die Sie erstellt haben, und geben Sie **Ausdruck** in **Name** und **(Ausrichtung:Querformat)** in **Wert** ein, wie unten dargestellt. Klicken Sie auf **Hinzufügen**.
 

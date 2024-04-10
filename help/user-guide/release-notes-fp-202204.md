@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 5fd41f3a-212d-4179-8e59-22c0a32a1e19
-source-git-commit: 2db3ebae489bc0fcc435e21e45e41c995d3a617e
-workflow-type: ht
-source-wordcount: '295'
-ht-degree: 100%
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+workflow-type: tm+mt
+source-wordcount: '297'
+ht-degree: 93%
 
 ---
 
@@ -59,4 +59,4 @@ Die folgenden AEM Screens-Player sind für AEM 6.5 Feature Pack 11 verfügbar:
 
 #### AEM Screens-Player-Downloads   {#aem-screens-player-downloads}
 
-Gehen Sie zu **[AEM Screens-Player-Downloads](https://download.macromedia.com/screens/index.html)**, um den neusten AEM Screens-Player herunterzuladen und mehr über die Fehlerbehebungen zu erfahren.
+Informationen zum Herunterladen des neuesten AEM Screens-Players und zu weiteren Fehlerbehebungen finden Sie unter **[AEM Screens Player-Downloads](https://download.macromedia.com/screens/index.html)**.

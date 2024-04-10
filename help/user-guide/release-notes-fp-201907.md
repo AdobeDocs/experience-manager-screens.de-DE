@@ -1,8 +1,8 @@
 ---
 title: Versionshinweise für Feature Pack 201907
-seo-title: Versionshinweise für Feature Pack 201907
+seo-title: Release Notes for Feature Pack 201907
 description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 201907, das am 31. Juli 2019 veröffentlicht wurde.
-seo-description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 201907, das am 31. Juli 2019 veröffentlicht wurde.
+seo-description: Follow this page to get information for AEM Screens Feature Pack 201907 released on July 31, 2019.
 uuid: e5349c92-d532-4f04-a757-7c4545cdb074
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -13,13 +13,13 @@ docset: aem65
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '386'
-ht-degree: 100%
+exl-id: 6a05a014-aedf-4261-849d-abf1ce070964
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+workflow-type: tm+mt
+source-wordcount: '375'
+ht-degree: 84%
 
 ---
-
 
 # Versionshinweise für Feature Pack 201907 {#release-notes-for-feature-pack}
 
@@ -33,13 +33,13 @@ AEM Screens hat AEM 6.4.5 Feature Pack 5 und AEM 6.5.1 Feature Pack 1 mit folgen
 
 Das Veröffentlichungsdatum für AEM Screens Feature Pack 201907 ist der 31. Juli 2019.
 
-### Neuerungen {#what-s-new}
+### Neue Funktionen {#what-s-new}
 
 * **Datenauslöser treiben die Asset-Änderung in einem AEM Screens-Kanal**
 
 Der Player wechselt zu einem Kanal, in dem die Notfallinformationen angezeigt werden, wenn er ein vom Notfallsystem ausgelöstes Ereignis empfängt. Es wird nur dieser Kanal wiedergegeben, bis die Notsituation beendet ist.
 
-Informationen zur Implementierung finden Sie unter dem Nutzungsszenario [Notfallkanal](emergency-channel.md).
+Siehe [Notfallkanal](emergency-channel.md) Anwendungsbeispiel für die Implementierung.
 
 * Targeting für asynchrone Komponenten aktiviert
 
@@ -62,11 +62,11 @@ Der Update-Handler analysiert nun die Experience Fragments und erfasst alle dami
 * **Launches**
 
 Mit Launches können Inhaltsersteller zukünftige Versionen der Kanäle erstellen. Mithilfe von Launches können Autoren die einzelnen Kanäle im Launch in der Vorschau anzeigen und sollten eine Anfrage zur Überprüfung starten können. Die Gruppe der Genehmigenden erhält eine Benachrichtigung und kann die Anfrage genehmigen oder ablehnen. Wenn das Live-Datum erreicht ist, wird der Inhalt auf den Geräten abgespielt.
-Weitere Informationen finden Sie unter [Launches](launches.md).
+Siehe [Launches](launches.md) für weitere Details.
 
 * **Offline-Konfigurationen in Experience Fragments**
 
-Sie können jetzt Offline-Konfigurationen (Client-seitige Bibliotheken und statische Dateien) beim Konfigurieren eines Screens-Experience-Fragments hinzufügen. Weitere Informationen dazu finden Sie unter [Verwenden von Experience Fragments](experience-fragments-in-screens.md).
+Sie können jetzt Offline-Konfigurationen (Client-seitige Bibliotheken und statische Dateien) beim Konfigurieren eines Screens-Experience-Fragments hinzufügen. Siehe [Verwenden von Experience Fragments](experience-fragments-in-screens.md) für weitere Details.
 
 ### Veröffentlichte AEM Screens-Player {#released-aem-screens-players}
 
@@ -76,6 +76,6 @@ Die folgenden AEM Screens-Player sind für AEM 6.4.5 Feature Pack 5 und AEM 6.5.
 * Windows
 * Android
 
-#### AEM Screens-Player-Downloads {#aem-screens-player-downloads}
+#### AEM Screens-Player-Downloads   {#aem-screens-player-downloads}
 
-Navigieren Sie zu [AEM Screens-Player-Downloads](https://download.macromedia.com/screens/), um den neusten AEM Screens-Player herunterzuladen und mehr über die Fehlerbehebungen zu erfahren.
+Informationen zum Herunterladen des neuesten AEM Screens-Players und zu weiteren Fehlerbehebungen finden Sie unter [AEM Screens Player-Downloads](https://download.macromedia.com/screens/).

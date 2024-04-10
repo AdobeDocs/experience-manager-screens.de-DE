@@ -1,18 +1,18 @@
 ---
 title: Versionshinweise für Feature Pack 202004
-seo-title: Versionshinweise für Feature Pack 202004
+seo-title: Release Notes for Feature Pack 202004
 description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 202004, das am 20. April 2020 veröffentlicht wurde.
-seo-description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 202004, das am 20. April 2020 veröffentlicht wurde.
+seo-description: Follow this page to get information for AEM Screens Feature Pack 202004 released on April 20, 2020.
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '394'
-ht-degree: 100%
+exl-id: 0440cb1a-4436-4479-9d88-ea8884905801
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+workflow-type: tm+mt
+source-wordcount: '376'
+ht-degree: 76%
 
 ---
-
 
 # Versionshinweise für Feature Pack 202004 {#release-notes-for-feature-pack}
 
@@ -30,42 +30,42 @@ Das neueste Feature Pack für AEM Screens 6.4.8 oder AEM Screens 6.5.4 steht a
 
 Das Veröffentlichungsdatum für AEM Screens Feature Pack 202004 ist der 20. April 2020.
 
-### Neuerungen {#what-s-new}
+### Neue Funktionen {#what-s-new}
 
 * **Optionen für die Wiedergabe-Unterbrechungsstrategie**
 
-   Als Autor von Inhalten sollten Sie festlegen können, wann ein Kanal unterbrochen wird, damit nicht kritische Inhalte abgeschnitten werden können, wichtige Inhalte jedoch vollständig abgespielt werden, bevor die Wiedergabe aufgrund der Zeitplanung abgebrochen wird.
+  Als Autor von Inhalten sollten Sie festlegen können, wann ein Kanal unterbrochen wird, damit nicht kritische Inhalte abgeschnitten werden können, wichtige Inhalte jedoch vollständig abgespielt werden, bevor die Wiedergabe aufgrund der Zeitplanung abgebrochen wird.
 
-   Weitere Informationen zu den Optionen, die im Dialogfeld **[Kanalzuweisung](/help/user-guide/channel-assignment.md#interruption-method-channel)** zur Implementierung dieser Funktion in Ihr AEM Screens-Projekt verfügbar sind, finden Sie im Abschnitt **Unterbrechungsmethode**.
+  Siehe Abschnitt . **[Unterbrechungsmethode](/help/user-guide/channel-assignment.md#interruption-method-channel)** Weitere Informationen zu den verfügbaren Optionen finden Sie unter **Kanalzuweisung** , um diese Funktion in Ihr AEM Screens-Projekt zu implementieren.
 
 * **Screens Launches**
 
-   Das Benutzererlebnis für den Inhaltsautor wurde verbessert und die Anzahl der erforderlichen Klicks für künftige Veröffentlichungen verringert.
+  Das Benutzererlebnis für den Inhaltsautor wurde verbessert und die Anzahl der erforderlichen Klicks für künftige Veröffentlichungen verringert.
 
-   Weitere Informationen finden Sie unter **[Inhaltsaktualisierung mit Screens Launch](launches.md)**.
+  Siehe **[Inhaltsaktualisierung mit Screens Launch](launches.md)** für weitere Details.
 
 * **Kanal-Dashboard**
 
-   Zeigt Aktualisierungen an den Anweisungen im Kanal-Dashboard im Bedienfeld **KANAL-Informationen** an.
+  Zeigt Aktualisierungen an den Anweisungen im Kanal-Dashboard im Bedienfeld **KANAL-Informationen** an.
 
 
 * **Manifest anzeigen**
 
-   Sie können die Manifestdatei jetzt aus dem Kanal-Dashboard anzeigen.
+  Sie können die Manifestdatei jetzt aus dem Kanal-Dashboard anzeigen.
 
-   Siehe **[Anzeigen des Manifests](/help/user-guide/managing-channels.md#view-manifest)**.
+  Siehe **[Anzeigen des Manifests](/help/user-guide/managing-channels.md#view-manifest)**.
 
 * **Textüberlagerung**
 
-   Beim Hinzufügen von Text zur Textüberlagerungsfunktion ist die Schriftgröße präzise und verbessert.
+  Beim Hinzufügen von Text zur Textüberlagerungsfunktion ist die Schriftgröße präzise und verbessert.
 
-   Unter **[Textüberlagerung](text-overlay.md)** finden Sie Informationen dazu, wie Sie in einem Sequenzkanal ein überzeugendes Erlebnis erstellen, indem Sie einen Titel oder eine Beschreibung angeben, die einem Bild überlagert ist.
+  Siehe **[Textüberlagerung](text-overlay.md)** , um ein überzeugendes Erlebnis in einem Sequenzkanal zu erstellen, indem Sie einen Titel oder eine Beschreibung angeben, die über einem Bild überlagert ist.
 
 * **Verbesserungen bei der Befehlssynchronisierung**
 
-   Dieses Feature Pack enthält Verbesserungen der Befehlssynchronisierungs-Verzögerung zwischen Asset-Änderungen.
+  Dieses Feature Pack enthält Verbesserungen der Befehlssynchronisierungs-Verzögerung zwischen Asset-Änderungen.
 
-   Weitere Informationen finden Sie unter **[Befehlssynchronisierung](using-command-sync.md)**.
+  Siehe **[Befehlssynchronisierung](using-command-sync.md)** für weitere Details.
 
 ### Veröffentlichte AEM Screens-Player {#released-aem-screens-players}
 
@@ -75,6 +75,6 @@ Die folgenden AEM Screens-Player sind für AEM Screens in AEM 6.4 Feature Pack 8
 * Windows
 * Android
 
-#### AEM Screens-Player-Downloads {#aem-screens-player-downloads}
+#### AEM Screens-Player-Downloads   {#aem-screens-player-downloads}
 
-Navigieren Sie zu **[AEM Screens-Player-Downloads](https://download.macromedia.com/screens/)**, um den neusten AEM Screens-Player herunterzuladen und mehr über die Fehlerbehebungen zu erfahren.
+Informationen zum Herunterladen des neuesten AEM Screens-Players und zu weiteren Fehlerbehebungen finden Sie unter **[AEM Screens Player-Downloads](https://download.macromedia.com/screens/)**.

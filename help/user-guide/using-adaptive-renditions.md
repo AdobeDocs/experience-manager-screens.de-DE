@@ -2,10 +2,10 @@
 title: Verwenden adaptiver Ausgabedarstellungen in AEM Screens
 description: Auf dieser Seite wird die Verwendung von adaptiven Ausgabedarstellungen in AEM Screens beschrieben.
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: cd26f77b9b41a5854aaa1f936abed3b410533684
-workflow-type: ht
-source-wordcount: '561'
-ht-degree: 100%
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+workflow-type: tm+mt
+source-wordcount: '558'
+ht-degree: 94%
 
 ---
 
@@ -36,7 +36,7 @@ Gehen Sie wie folgt vor, um Ausgabedarstellungen auf die Assets anzuwenden, die 
 
 1. Erstellen Sie eine Version des Assets, die der Beschilderungs-Anzeige am besten entspricht, z. B. `seahorse.jpg`.
 
-1. Wählen Sie das Benennungsmuster für die Ausgabedarstellung aus, z. B. `landscape`, ähnlich dem, das in der Eigenschaft **Muster** in **CRXDE Lite** definiert wurde. Weitere Informationen finden Sie unter [Hinzufügen von Zuordnungsregeln für Ausgabedarstellungen](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules).
+1. Wählen Sie das Benennungsmuster für die Ausgabedarstellung aus, z. B. `landscape`, ähnlich dem, das in der Eigenschaft **Muster** in **CRXDE Lite** definiert wurde. Siehe [Hinzufügen von Zuordnungsregeln für Ausgabedarstellungen](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) für weitere Details.
 
 1. Klicken Sie auf **Ausgabedarstellung hinzufügen**, um die Ausgabedarstellung hochzuladen, wie in der folgenden Abbildung dargestellt.
 
@@ -49,7 +49,7 @@ Gehen Sie wie folgt vor, um Ausgabedarstellungen auf die Assets anzuwenden, die 
    ![Bild](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 
    >[!NOTE]
-   >Weitere Informationen zum Verwalten von Veröffentlichungen und Bereitstellen von Inhaltsaktualisierungen von der Autoren- zur Veröffentlichungsinstanz und zum Gerät finden Sie unter [On-Demand-Inhaltsaktualisierung](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content.html?lang=de).
+   >Siehe [On-Demand-Inhaltsaktualisierung](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content.html?lang=de) , um mehr über die Verwaltung von Veröffentlichungen und die Bereitstellung von Inhaltsaktualisierungen vom Autor zur Veröffentlichung auf dem Gerät zu erfahren.
 
 
 ## Migrationsstrategie {#migration-strategy}

@@ -1,11 +1,11 @@
 ---
 title: Tests und Qualitätssicherung
-description: Erfahren Sie mehr über Tests und Qualitätssicherung für AEM Screens im Handbuch zu Best Practices.
+description: Weitere Informationen zu Tests und Qualitätssicherung für AEM Screens finden Sie im Best Practices-Handbuch.
 exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
-source-git-commit: a22702998599ea184529ab62eb8bd5113ad58e2c
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 61%
+source-wordcount: '332'
+ht-degree: 56%
 
 ---
 
@@ -14,10 +14,10 @@ ht-degree: 61%
 >[!NOTE]
 >Typische Verantwortliche für diese Aktivität sind A/V-Integratoren.
 
-Wenn Sie der Bereitstellung des Digital-Signage-Netzwerks näher kommen, erstellen Sie einen Test- und QA-Plan, der alle Elemente des Netzwerks einschließlich aller Hardware-Komponenten, Software-Komponenten und Netzwerkkomponenten behandelt.
+Wenn Sie sich der Bereitstellung des Digital Signage-Netzwerks nähern, erstellen Sie einen Test- und QA-Plan, der alle Elemente des Netzwerks einschließlich aller Hardwarekomponenten, Softwarekomponenten und Netzwerkkomponenten abdeckt.
 In dem Schritt sollten vollständige Prüfsysteme eingerichtet und gründlich getestet werden.
 
-Es sollte eine Checkliste erstellt werden, in der alle zuvor definierten KPIs identifiziert und die Ergebnisse mit ihnen verglichen werden.
+Es sollte eine Checkliste erstellt werden, in der alle zuvor definierten KPIs aufgeführt und die Lieferziele anhand dieser KPIs gemessen werden.
 
 >[!NOTE]
 >
@@ -25,7 +25,7 @@ Es sollte eine Checkliste erstellt werden, in der alle zuvor definierten KPIs id
 
 Folgende Elemente sollten berücksichtigt werden:
 
-## 1. Mechanische Überlegungen {#mechanical-considerations}
+## 1. Mechanische Aspekte {#mechanical-considerations}
 
 Folgende Überlegungen in Bezug auf die Mechanik werden empfohlen:
 
@@ -36,7 +36,7 @@ Folgende Überlegungen in Bezug auf die Mechanik werden empfohlen:
 * Kabelmanagement
 * Gerätenetzwerk
 
-## 2. Überlegungen zur Software {#software-considerations}
+## 2. Software-Aspekte {#software-considerations}
 
 Folgende Überlegungen in Bezug auf die Software werden empfohlen:
 
@@ -46,7 +46,7 @@ Folgende Überlegungen in Bezug auf die Software werden empfohlen:
 * Datenbankabhängigkeiten (zuvor definiert)
 
 
-## 3. Überlegungen zur Geräteverwaltung {#device-management-considerations}
+## 3. Aspekte der Geräteverwaltung {#device-management-considerations}
 
 AEM Screens enthält ein Gerätesteuerungsmodul, das die Verwaltung von Endgeräten mit der Screens Player-Anwendung ermöglicht.
 
@@ -58,11 +58,11 @@ Mit diesem Modul können Sie:
 1. Inhaltsdownloads verwalten
 1. Probleme beim Neustart der Anwendung beheben
 
-Ausführliche Informationen zur ***Gerätesteuerung*** finden Sie im Abschnitt [Problembehandlung in der Gerätesteuerung](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) des **AEM Screens-Benutzerhandbuchs**.
+Ausführliche Informationen zu ***Gerätesteuerung***, siehe [Problembehebung in der Gerätesteuerung](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) in **AEM Screens-Benutzerhandbuch**.
 
 >[!CAUTION]
 >
->Verwenden Sie das Gerätesteuerungscenter nicht für Folgendes:
+>Verwenden Sie das Device Control Center nicht für:
 >
 >* Neue Versionen der Player-Anwendung installieren
 >* Ressourcen auf Systemebene überwachen
@@ -72,11 +72,11 @@ Ausführliche Informationen zur ***Gerätesteuerung*** finden Sie im Abschnitt [
 
 >[!NOTE]
 >
-> Adobe empfiehlt, für alle Bereitstellungen dedizierte Geräteverwaltungsplattformen von Drittanbietern zu verwenden.
+> Adobe empfiehlt die Verwendung von dedizierten Geräteverwaltungsplattformen von Drittanbietern für alle Implementierungen.
 
-Die ausgewählte Plattform hängt von mehreren Faktoren ab, darunter ***Zielbetriebssystem***, ***Projektanforderungen***, und ***Anzahl der Endpunkte***.
+Die gewählte Plattform hängt von verschiedenen Faktoren ab, darunter dem ***Zielbetriebssystem***, ***Projektanforderungen***, und ***Anzahl der Endpunkte***.
 
-Im Folgenden finden Sie einige Beispiele:
+Nachfolgend finden Sie einige Beispiele:
 
 * Google Chrome-Geräteverwaltung
 * TeamViewer

@@ -5,10 +5,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 55%
+source-wordcount: '1258'
+ht-degree: 54%
 
 ---
 
@@ -84,7 +84,7 @@ Um Inhalt in einem Kanal hinzuzufügen oder zu bearbeiten, gehen Sie wie folgt v
 1. Klicks **Bearbeiten** oben links in der Aktionsleiste, damit Sie die Kanaleigenschaften bearbeiten können. Der Editor wird geöffnet, mit dem Sie Assets/Komponenten zu Ihrem Kanal hinzufügen können, den Sie veröffentlichen möchten.
 
 >[!NOTE]
->Sie können Ihrem Kanal Komponenten hinzufügen. Weitere Informationen finden Sie unter **[Hinzufügen von Komponenten zu Kanälen](adding-components-to-a-channel.md)**.
+>Sie können Ihrem Kanal Komponenten hinzufügen. Siehe **[Hinzufügen von Komponenten zu Kanälen](adding-components-to-a-channel.md)** für weitere Details.
 
 ![demochannel1](assets/demochannel1.gif)
 

@@ -1,17 +1,17 @@
 ---
 title: Business Content-Strategie für [!UICONTROL AEM Screens]
-seo-title: Business Content-Strategie für [!UICONTROL AEM Screens]
+seo-title: Business Content Strategy for [!UICONTROL AEM Screens]
 description: In diesem Handbuch wird die Strategie für Business Content beschrieben.
-seo-description: In diesem Handbuch wird eine Strategie für Business Content beschrieben.
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '443'
-ht-degree: 100%
+seo-description: The guide describes Business Content Strategy
+exl-id: efb8ea95-62c0-41ed-9e67-23d76ad12a4c
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+workflow-type: tm+mt
+source-wordcount: '430'
+ht-degree: 94%
 
 ---
 
-
-# Business Content-Strategie {#business-content}
+# Business Content-Strategie {#business-content}
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ Eine klar definierte Strategie für Business Content ermöglicht die Erstellung,
 >
 >Beachten Sie, dass das Erlebnis offline mit begrenzter Bandbreite funktionieren muss.
 
-Beantworten Sie beim Erstellen einer Inhaltsstrategie für Ihr AEM Screens-Projekt folgende Fragen:
+Sie müssen die folgenden Fragen sehen, die beim Erstellen einer Inhaltsstrategie für Ihr AEM Screens-Projekt beantwortet werden sollten:
 
 * Wer gehört zur Zielgruppe und wie hoch ist die erwartete Verweilzeit?
 * Welche Inhalte müssen gezeigt werden?
@@ -40,9 +40,9 @@ Beantworten Sie beim Erstellen einer Inhaltsstrategie für Ihr AEM Screens-Proj
 * Wie lautet Ihre Strategie für Updates und Upgrades?
 * Wie oft werden neue Inhalte benötigt?
 
-   >[!NOTE]
-   >
-   >In der Pre-Sales-Phase müssen Fragen gestellt werden, nicht nur zur Art der geteilten Inhalte, sondern auch dazu, wo sich die Inhaltsdaten derzeit befinden und wie sie im Screens-Projekt genutzt werden sollen. Bei der Implementierung müssen Sie versuchen, den Inhalt genauer zu untersuchen. Dazu müssen Sie jedoch wissen, welche Daten in welchem Format vorliegen.
+  >[!NOTE]
+  >
+  >In der Pre-Sales-Phase müssen Fragen gestellt werden, nicht nur zur Art der geteilten Inhalte, sondern auch dazu, wo sich die Inhaltsdaten derzeit befinden und wie sie im Screens-Projekt genutzt werden sollen. Bei der Implementierung müssen Sie versuchen, den Inhalt genauer zu untersuchen. Dazu müssen Sie jedoch wissen, welche Daten in welchem Format vorliegen.
 
 ## Wichtige Überlegungen {#important-considerations}
 

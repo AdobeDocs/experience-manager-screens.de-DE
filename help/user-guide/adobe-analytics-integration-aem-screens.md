@@ -10,10 +10,10 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 97%
+source-wordcount: '681'
+ht-degree: 86%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 97%
 
 >[!CAUTION]
 >
->Diese AEM Screens-Funktion ist nur verfügbar, wenn Sie mindestens AEM 6.4.2 Feature Pack 2 oder AEM 6.3.3 Feature Pack 4 installiert haben. Kundinnen und Kunden von AEM Screens as a Cloud Service sollten sich an ihren Adobe Relationship Manager wenden, um Adobe Analytics in Screens Cloud zu aktivieren.
+>Diese AEM Screens-Funktion ist nur verfügbar, wenn Sie mindestens AEM 6.4.2 Feature Pack 2 oder AEM 6.3.3 Feature Pack 4 installiert haben. Kunden von AEM Screens Cloud Service sollten sich an Ihren Adobe Relationship Manager wenden, um Adobe Analytics in Screens Cloud zu aktivieren.
 
 >[!NOTE]
 >
@@ -73,7 +73,7 @@ Navigieren Sie zur **Konfiguration der Adobe Experience Manager-Web-Konsole**, u
 
 >[!CAUTION]
 >
->Wenden Sie sich vor der Konfiguration der Eigenschaften an Ihren Adobe Relationship Manager, damit dieser ein Ticket erstellt und Sie einen **Analytics-API-Schlüssel** sowie ein **Analytics-Projekt** zur Verwendung mit AEM Screens erhalten.
+>Wenden Sie sich vor der Konfiguration der Eigenschaften an Ihren Adobe Relationship Manager, um ein Ticket zu erstellen und eine **Analytics-API-Schlüssel** und **Analyseprojekt** zur Verwendung mit AEM Screens.
 
 ![]()
 
@@ -81,7 +81,7 @@ Navigieren Sie zur **Konfiguration der Adobe Experience Manager-Web-Konsole**, u
 
 >[!CAUTION]
 >
->Wenden Sie sich vor der Konfiguration der Eigenschaften an Ihren Adobe Relationship Manager, damit dieser ein Ticket erstellt und Sie einen **Analytics-API-Schlüssel** sowie ein **Analytics-Projekt** zur Verwendung mit AEM Screens erhalten.
+>Wenden Sie sich vor der Konfiguration der Eigenschaften an Ihren Adobe Relationship Manager, um ein Ticket zu erstellen und eine **Analytics-API-Schlüssel** und **Analyseprojekt** zur Verwendung mit AEM Screens.
 
 In der folgenden Tabelle werden die Eigenschaften mit ihrer Beschreibung zur Konfiguration von Adobe Analytics für AEM Screens aufgeführt:
 

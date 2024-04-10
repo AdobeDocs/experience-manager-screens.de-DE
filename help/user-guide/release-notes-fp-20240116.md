@@ -1,21 +1,21 @@
 ---
 title: Versionshinweise für Screens Feature Pack 20240116
-description: Weitere Informationen zu AEM Screens Feature Pack , das am 16. Januar 2024 veröffentlicht wurde.
+description: Erfahren Sie mehr über das am 16. Januar 2024 veröffentlichte AEM Screens Feature Pack 20240116.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: b26ed2de-2e47-4dd5-be1c-4c46971e9f6d
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 87%
+source-wordcount: '154'
+ht-degree: 79%
 
 ---
 
 # Versionshinweise für Feature Pack 20240116 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->Es wird empfohlen, ein Upgrade auf die neueste Version (6.5) von Adobe Experience Manager (AEM 6.5) durchzuführen. Die neuesten Versionsinformationen erhalten Sie unter [hier](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/release-notes/release-notes)
+>Es wird empfohlen, ein Upgrade auf die neueste Version (6.5) von Adobe Experience Manager (AEM 6.5) durchzuführen. Sie erhalten die neuesten Versionsinformationen von [here](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/release-notes/release-notes)
 
 ## Verfügbarkeit {#availability}
 

@@ -2,10 +2,10 @@
 title: Voraussetzungen für [!UICONTROL AEM Screens]
 description: Erfahren Sie, welche Voraussetzungen erfüllt sein müssen, bevor Sie ein AEM Screens-Projekt starten.
 exl-id: ff305a6c-02cb-4c06-a457-9a22f525fab5
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 40%
+source-wordcount: '552'
+ht-degree: 37%
 
 ---
 
@@ -29,7 +29,7 @@ Weitere Informationen zu Adobe Experience Manager 6.5 finden Sie in den folgende
 
 ## Kennenlernen der Produktfunktionen und Rollen in AEM Screens {#product-features}
 
-Mehr über die Grundlagen von AEM Screens-Projekten erfahren Sie in den nachfolgend aufgeführten Ressourcen:
+Informationen zu den Grundlagen eines AEM Screens-Projekts finden Sie in den folgenden Ressourcen:
 
 * **[AEM Screens-Benutzerhandbuch](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/aem-screens-introduction)**: Bietet eine ausführliche Dokumentation zu den Aufgaben und Funktionen verschiedener Rollen, die in AEM Screens-Projekten verwendet werden.
 
