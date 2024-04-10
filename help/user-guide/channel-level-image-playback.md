@@ -1,31 +1,27 @@
 ---
 title: Dauer der Massenwiedergabe von Bildern auf Kanalebene
-seo-title: Dauer der Massenwiedergabe von Bildern auf Kanalebene
-description: Auf dieser Seite wird beschrieben, wie Sie die Wiedergabedauer einer bestimmten Bildkomponente bearbeiten können.
-seo-description: Auf dieser Seite wird beschrieben, wie Sie die Wiedergabedauer einer bestimmten Bildkomponente bearbeiten können.
-uuid: 4ebb00a9-b04d-4dfe-9fee-2348a2e2c142
+description: Erfahren Sie, wie Sie die Wiedergabedauer einer bestimmten Bildkomponente in AEM Screens bearbeiten können.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 content-type: reference
-discoiquuid: df3cf999-0c8d-4754-8b58-5c6ced2c8ca5
 docset: aem65
-feature: Inhaltserstellung in Screens
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 95aa761a-1449-4e18-8115-3b151036dc54
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '362'
-ht-degree: 100%
+source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
+workflow-type: tm+mt
+source-wordcount: '336'
+ht-degree: 45%
 
 ---
 
 # Dauer der Massenwiedergabe von Bildern auf Kanalebene {#channel-level-bulk-image-playback-duration}
 
-## Überblick {#overview}
+## Übersicht {#overview}
 
-Nachdem Sie einen Sequenzkanal erstellt und Bilder hinzugefügt haben, gilt für alle Bilder standardmäßig die in der Konfiguration auf Kanalebene definierte Wiedergabedauer. Jedes einzelne Bild kann jedoch den Standard überschreiben und eine andere Wiedergabedauer haben. Dies wird durch Bearbeiten der Wiedergabedauer der jeweiligen Bildkomponente erreicht.
+Wenn Sie einen Sequenzkanal erstellen und ihm Bilder hinzufügen, gehen standardmäßig alle Bilder von der in der Konfiguration auf Kanalebene definierten Wiedergabedauer aus. Jedes einzelne Bild kann jedoch den Standard überschreiben und eine andere Wiedergabedauer haben. Dies wird durch Bearbeiten der Wiedergabedauer der jeweiligen Bildkomponente erreicht.
 
 ### Voraussetzungen {#prerequisites}
 
@@ -39,7 +35,7 @@ Bevor Sie mit der Implementierung dieser Funktion beginnen, stellen Sie sicher, 
 
 ## Bearbeiten der Bildwiedergabedauer auf Kanalebene {#editing-channel-level-image-playback-duration-assignment}
 
-Im folgenden Abschnitt wird beschrieben, wie Sie die Wiedergabedauer von Inhalten in einem AEM Screens-Kanal bearbeiten.
+Im folgenden Abschnitt erfahren Sie, wie Sie die Wiedergabedauer von Inhalten in einem AEM Screens-Kanal bearbeiten können.
 
 ### Aktualisieren der Wiedergabedauer für Bilder in einem Kanal {#updating-the-playback-duration-for-images-in-a-channel}
 
@@ -49,7 +45,7 @@ Gehen Sie wie folgt vor, um zu erfahren, wie Sie die Wiedergabedauer auf Kanaleb
 
    ![screen_shot_2019-06-24at62818pm](assets/screen_shot_2019-06-24at62818pm.png)
 
-1. Klicken Sie in der Aktionsleiste auf **Bearbeiten**, um den Editor zu öffnen.
+1. Klicks **Bearbeiten** in der Aktionsleiste aus.
 
    ![screen_shot_2019-06-24at70141pm](assets/screen_shot_2019-06-24at70141pm.png)
 
@@ -57,23 +53,23 @@ Gehen Sie wie folgt vor, um zu erfahren, wie Sie die Wiedergabedauer auf Kanaleb
 
    ![screen_shot_2019-06-24at90534pm](assets/screen_shot_2019-06-24at90534pm.png)
 
-1. Wählen Sie alle Bilder im Kanal aus und klicken Sie auf das Schraubenschlüsselsymbol oben links (wie in der Abbildung unten gezeigt), um das Dialogfeld zum Konfigurieren auf Kanalebene zu öffnen.
+1. Wählen Sie alle Bilder im Kanal aus und klicken Sie oben links auf das Schraubenschlüsselsymbol (wie in der Abbildung unten gezeigt), damit Sie das Dialogfeld &quot;Konfigurieren&quot;auf Kanalebene öffnen können.
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. Das Dialogfeld **Seite** wird geöffnet.
+1. Die **Seite** wird geöffnet.
 
    >[!NOTE]
    >Standardmäßig sind die Bilder in einem Kanal auf eine Wiedergabedauer von 8 Sekunden eingestellt.
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   Ändern Sie die **Dauer** von 8000 (ms) in 3000 (ms), d. h. 3 Sekunden. Klicken Sie auf das Häkchen oben rechts im Dialogfeld **Seite**, um Ihre Änderungen zu speichern.
+   Bearbeiten Sie die **Dauer** von 8000 (Millisekunden) bis 3000 (Millisekunden), also 3 Sekunden. Klicken Sie oben rechts im **Seite** angezeigt, damit Sie Ihre Änderungen speichern können.
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
 ### Anzeigen des Ergebnisses {#viewing-the-result}
 
-Nachdem Sie die Dauer der Kanalwiedergabe (in diesem Beispiel alle drei Bilder) aktualisiert haben, werden Sie feststellen, dass die Bilder jetzt für 3 Sekunden statt für 8 Sekunden (Standardwert) wiedergegeben werden.
+Nachdem Sie die Dauer der Kanalwiedergabe (in diesem Beispiel alle drei Bilder) aktualisiert haben, beachten Sie, dass die Bilder jetzt für 3 Sekunden statt für 8 Sekunden wiedergegeben werden (Standardwert).
 
 ![channel_preview](assets/channel_preview.gif)

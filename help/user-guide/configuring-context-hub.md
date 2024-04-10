@@ -10,10 +10,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
 workflow-type: tm+mt
-source-wordcount: '1452'
-ht-degree: 46%
+source-wordcount: '1447'
+ht-degree: 43%
 
 ---
 
@@ -102,7 +102,7 @@ Die folgende Validierung wird angezeigt, wenn Sie die Verbindung durch Eingabe d
    >
    >1. Navigieren Sie zu CRXDE Lite und dann zu `/conf/screens/settings/cloudsettings`.
    >1. Überprüfen Sie, ob `cloudsettings jcr:primaryType` sich in `sling:Folder` befindet. Wenn die Variable `jcr:primaryType` sich nicht in `sling:folder` befindet, fahren Sie mit den nächsten Schritten fort.
-   >1. Rechtsklick `/conf/screens/settings` und erstellen Sie einen Knoten mit *name* as **cloudsettings1** und *Typ* as **sling:Folder** und speichern Sie die Änderungen.
+   >1. Rechtsklick `/conf/screens/settings` und erstellen Sie einen Knoten mit *name* as **`cloudsettings1`** und *Typ* as **`sling:Folder`** und speichern Sie die Änderungen.
    >1. Verschieben Sie alle Knoten unter `/conf/screens/settings/cloudsettings` nach `cloudsettings1`.
    >1. Löschen Sie `cloudsettings` und speichern Sie.
    >1. Benennen Sie `cloudsettings1` in `cloudsettings` um und speichern Sie sie.
@@ -110,10 +110,10 @@ Die folgende Validierung wird angezeigt, wenn Sie die Verbindung durch Eingabe d
    >
    >Führen Sie die folgenden Schritte in Author and Publish vor oder nach dem Upgrade aus.
 
-   1. Geben Sie unter **Titel** den Wert **Google Tabellen**, unter **Speichername** den Wert **googlesheets** und unter **Speichertyp** den Wert **contexthub.generic-jsonp** ein und klicken Sie auf **Weiter**.
+   1. Geben Sie die **Titel** as **Google Tabellen**, **Speichername** as **`googlesheets`**, und **Store Type** as **c`ontexthub.generic-jsonp`** und klicken **Nächste**.
 
       >[!CAUTION]
-      >Wenn Sie Adobe Experience Manager (AEM) 6.4 verwenden, geben Sie den **Konfigurationstitel** als **googlesheets** und den **Store-Typ** als **contexthub.generic-jsonp** ein.
+      >Wenn Sie Adobe Experience Manager (AEM) 6.4 verwenden, geben Sie die **Konfigurationstitel** as **`googlesheets`** und **Store Type** as **c`ontexthub.generic-jsonp`**.
 
       ![image](/help/user-guide/assets/context-hub/context-hub6.png)
 

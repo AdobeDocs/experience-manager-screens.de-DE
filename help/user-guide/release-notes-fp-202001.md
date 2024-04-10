@@ -1,16 +1,14 @@
 ---
 title: Versionshinweise für Feature Pack 202001
-seo-title: Release Notes for Feature Pack 202001
-description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 202001, das am 31. Januar 2020 veröffentlicht wurde.
-seo-description: Follow this page to get information for AEM Screens Feature Pack 202001 released on January 31, 2020.
+description: Erfahren Sie mehr über das AEM Screens Feature Pack 202001, das am 31. Januar 2020 veröffentlicht wurde.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: c1a0b394-97dc-4104-b2b4-41fcbb63a22e
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 77%
+source-wordcount: '299'
+ht-degree: 41%
 
 ---
 
@@ -18,7 +16,7 @@ ht-degree: 77%
 
 >[!CAUTION]
 >
->Es wird empfohlen, ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM) durchzuführen. Screens bietet Wartungs-Support für die AEM 6.3 Screens-Plattform.
+>Aktualisieren Sie auf die neueste Version von Adobe Experience Manager (AEM). AEM Screens bietet Wartungs-Support für AEM 6.3 Screens-Plattform.
 
 ## Verfügbarkeit {#availability}
 
@@ -33,26 +31,30 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 202001 ist der 31. Jan
 ### Neue Funktionen {#what-s-new}
 
 * **Befehlssynchronisierung für die Asset-Wiedergabe**
-Die Befehlssynchronisierung ermöglicht die synchronisierte Wiedergabe über verschiedene Player hinweg. Die Player können unterschiedliche Inhalte wiedergeben, aber jedes Asset muss dieselbe Dauer haben.
-Weitere Informationen zur Befehlssynchronisierung und zum Festlegen von Master und Clients finden Sie unter [Verwenden der Befehlssynchronisierung](using-command-sync.md).
 
-* **Framework für Statusprüfungen zum Anzeigen des Status von HTTPS und Erlauben eines leeren Referrers** Mit dem Framework für Statusprüfungen können Benutzer vor Ausführung eines AEM Screens-Projekts prüfen, ob zwei erforderliche Konfigurationen („Leere Referrer-Anforderungen erlauben“ und „Apache Felix Jetty-basierter HTTP-Dienst“) eingerichtet wurden.
+Mithilfe der Befehlssynchronisierung kann die Wiedergabe über verschiedene Player hinweg synchronisiert werden. Die Player können unterschiedliche Inhalte wiedergeben, aber jedes Asset muss dieselbe Dauer haben.
+Weitere Informationen zur Befehlssynchronisierung und zum Festlegen der primären und der Clients finden Sie unter [Verwenden der Befehlssynchronisierung](using-command-sync.md).
 
-  Weitere Informationen zum Framework für Statusprüfungen finden Sie unter [Framework für Statusprüfungen](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
+* **Framework für Statusprüfungen zum Anzeigen des Status von HTTPS und zum Zulassen eines leeren Referrers**
 
-* **Aktualisierungen bei Standardübergangstypen** Die Eigenschaften der Übergangskomponente wie **Typ** sind jetzt standardmäßig auf **Ausblenden** und eine **Dauer** von **1600 ms** eingestellt.
+Mit dem Framework für Statusprüfungen kann der Benutzer überprüfen, ob zwei erforderliche Konfigurationen (Allow Empty Referrer Requests und Apache Felix Jetty Based HTTP Service) eingerichtet sind, bevor ein AEM Screens-Projekt ausgeführt wird.
+
+Weitere Informationen zum Framework für Statusprüfungen finden Sie unter [Framework für Statusprüfungen](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
+
+* **Aktualisierungen der Standardübergangstypen**
+Die Eigenschaften der Übergangskomponente, z. B. **Typ** ist jetzt auf **Überblendung** und **Dauer** as **1600 Millisekunden**, standardmäßig.
 
   Siehe [Anwenden von Übergängen](/help/user-guide/applying-transitions.md) Anwendungsbeispiel für weitere Details.
 
 
-### Veröffentlichte AEM Screens-Player {#released-aem-screens-players}
+### Veröffentlichte AEM Screens-Player
 
 Die folgenden AEM Screens-Player sind für AEM 6.4 Feature Pack 7 und AEM 6.5 Feature Pack 3 verfügbar:
 
 * ChromeOS
 * Windows
-* Android
+* Android™
 
-#### AEM Screens-Player-Downloads   {#aem-screens-player-downloads}
+#### AEM Screens-Player-Downloads 
 
 Informationen zum Herunterladen des neuesten AEM Screens-Players und zu weiteren Fehlerbehebungen finden Sie unter [**AEM Screens Player-Downloads**](https://download.macromedia.com/screens/).
