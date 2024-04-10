@@ -8,7 +8,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
-source-git-commit: 2b865165793b1c0f90f1351518e41096a57ea2ff
+source-git-commit: 10375baae631d46e9003240149a3e16d5605e7b6
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 36%
@@ -33,7 +33,7 @@ In diesem Abschnitt wird die Implementierung des Cloud-Players beschrieben.
 
 Die Installation des Cloud-Players kann auf verschiedenen Plattformen variieren. Im Allgemeinen kann jede Plattform mit einem modernen Browser die Cloud Player-Anwendung ausführen, indem Sie die folgenden Schritte ausführen:
 
-1. Öffnen Sie den Browser und geben Sie die [Cloud-Player-URL](https://player.adobescreens.com) in die Adressleiste ein.
+1. Öffnen Sie den Browser und geben Sie die [Cloud-Player-URL](https://player.adobescreens.com/content/dam/universal-player/firmware.html) in die Adressleiste ein.
 1. Der Browser prüft, ob der Cloud-Player installiert ist, und zeigt dann in der Adressleiste ein Installationssymbol an.
 
    ![Bild](/help/user-guide/assets/cloud-player-install.png)
@@ -67,13 +67,13 @@ Massenbereitstellung des Cloud-Players auf mehreren Geräten:
 
 ## Massenbereitstellung unter Chrome OS {#bulk-provisioning-chrome}
 
-Weitere Informationen zur Massenbereitstellung unter Chrome OS finden Sie unter [Installieren des Cloud-Players unter Chrome OS](https://main--screens-franklin-documentation--hlxscreens.hlx.page/updates/cloud-player/guides/chromeos-install-cloud-player).
+Weitere Informationen zur Massenbereitstellung unter Chrome OS finden Sie unter [Installieren des Cloud-Players unter Chrome OS](https://www.adobe.com/go/aem_screens_cloud_player_en).
 
 ## Erforderliche Konfiguration für AEM-Instanzen {#bulk-provisioning-config-aem}
 
 Wählen Sie je nach Typ der AEM-Instanz eines der folgenden Handbücher aus, um CORS zwischen AEM und Cloud-Player zu aktivieren:
-* [AEM On-Premises/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams)
-* [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs)
+* [AEM On-Premises/AMS](https://www.adobe.com/go/aem_screens_cors_ams_en)
+* [AEM Cloud Service](https://www.adobe.com/go/aem_screens_cors_aemaacs_en)
 
 >[!NOTE]
 >
