@@ -1,13 +1,11 @@
 ---
 title: Informationen zu diesem Handbuch
-seo-title: Description on the Guide
-description: Folgen Sie diesem AEM 6.5-Handbuch mit Best Practices für AEM Screens-Projekte, um Projekte zu planen und auszuführen, von der Strategie und dem Design-Briefing bis hin zur Bereitstellung und dem anschließenden Support.
-seo-description: This page describes the intent of the Best Practices Guide
+description: Erfahren Sie mehr über Best Practices für AEM Screens-Projekte zur Planung und Ausführung von Projekten, von der strategischen und Designinformation über die Bereitstellung bis hin zur Unterstützung.
 exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
-source-git-commit: 4817c02bf7f65edd1e55ab56f250cc982cc7c1ef
-workflow-type: ht
-source-wordcount: '260'
-ht-degree: 100%
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+workflow-type: tm+mt
+source-wordcount: '254'
+ht-degree: 38%
 
 ---
 
@@ -15,7 +13,7 @@ ht-degree: 100%
 
 Das Handbuch mit Best Practices für AEM Screens enthält Anleitungen zur erfolgreichen Planung und Ausführung eines AEM Screens-Projekts.
 
-Zur Zielgruppe für dieses Dokument gehören:
+Die Zielgruppe für dieses Dokument ist:
 
 * *AEM-Implementoren*
 * *A/V-Integratoren*
@@ -23,11 +21,11 @@ Zur Zielgruppe für dieses Dokument gehören:
 * *Projektmanager*
 * *Berater*
 
-Es sollte jedoch hervorgehoben werden, dass auch viele andere Rollen von der Lektüre dieses Handbuchs profitieren würden.
+Es sollte jedoch hervorgehoben werden, dass auch viele andere Rollen von der Lektüre dieses Handbuchs profitieren können.
 
-AEM Screens ist eine neue Erweiterung von Adobe Experience Manager (AEM). Da es sich dabei um neue Tools handelt, deren potenzielle Anwendungen variieren, müssen Sie wichtige Überlegungen und allgemeine Risikofaktoren mit Blick auf die Entwicklung und Implementierung von AEM Screens ermitteln.
+Die AEM Screens ist eine neue Erweiterung von Adobe Experience Manager (AEM). Da es sich bei den Tools um neue Tools handelt und ihre Einsatzmöglichkeiten variieren, ist es von entscheidender Bedeutung, wichtige Aspekte und allgemeine Risikofaktoren für die Entwicklung und den Einsatz von AEM Screens zu ermitteln.
 
-Das Handbuch bietet nicht nur umfassende Einblicke und praktische Ratschläge zur Planung, Gestaltung und Einbindung beabsichtigter Kundenerlebnisse in Ihre Digital-Signage-Implementierung, sondern auch Anleitungen dazu, wie Sie bei der Bereitstellung eines Digital Signage-Projekts in AEM Screens durch Anwendung von Best Practices positive Auswirkungen auf Ihre Geschäftstätigkeit erzielen können.
+Dieses Handbuch bietet umfassende Einblicke und praktische Ratschläge zur Konzeption, Entwicklung und Einbindung vorsätzlicher Kundenerlebnisse in Ihre Digital Signage-Implementierung. Darüber hinaus wird erläutert, wie Sie mithilfe von Best Practices bei der Bereitstellung eines Digital Signage-Projekts in AEM Screens positive Auswirkungen auf Ihr Unternehmen erzielen können.
 
 >[!IMPORTANT]
 >
@@ -38,11 +36,9 @@ Das Handbuch bietet nicht nur umfassende Einblicke und praktische Ratschläge zu
 > * **[AEM Platform-Konfigurationen](aem-platform-configurations.md)**
 > * **[Support und Überwachung](support-monitoring.md)**
 
-
 >[!NOTE]
 >
 > In diesem Handbuch verwendete Begriffe (im Kontext von AEM Screens):
 >
 > * **UX** steht für die Digital-Signage-Erlebnisse, die Endkunden bereitgestellt werden.
-> * **UI** steht für die Benutzeroberfläche, mit der Sie Ihre Projekte in Screens erstellen und verwalten können.
-
+> * **Benutzeroberfläche** wird als die Benutzeroberfläche betrachtet, über die Sie Ihre Projekte in Screens erstellen und verwalten können.

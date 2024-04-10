@@ -1,15 +1,14 @@
 ---
 title: Schnellstartanleitung
-seo-title: Kickstart Guide
-description: Befolgen Sie die Anweisungen auf dieser Seite, um ein Demoprojekt für AEM Screens zu erstellen. Ein Demoprojekt unterstützt Sie beim Erstellen eines Digital-Signage-Erlebnisses – von der Installation und Konfiguration eines neuen Projekts bis hin zum Anzeigen von Inhalten mit dem AEM Screens-Player.
+description: Erfahren Sie, wie Sie ein AEM Screens-Demoprojekt erstellen. Ein Demoprojekt unterstützt Sie beim Erstellen eines Digital-Signage-Erlebnisses – von der Installation und Konfiguration eines neuen Projekts bis hin zum Anzeigen von Inhalten mit dem AEM Screens-Player.
 feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 91%
+source-wordcount: '1279'
+ht-degree: 69%
 
 ---
 
@@ -18,7 +17,7 @@ ht-degree: 91%
 Die Schnellstartanleitung für AEM Screens zeigt, wie ein AEM Screens-Projekt eingerichtet und ausgeführt wird. Sie führt Sie durch die Einrichtung eines einfachen Digital-Signage-Erlebnisses, das Hinzufügen von Inhalten wie Assets und/oder Videos zu jedem Kanal und die weitere Veröffentlichung der Inhalte in einem AEM Screens-Player.
 
 >[!NOTE]
->Bevor Sie mit der Arbeit an den Projektdetails beginnen, stellen Sie sicher, dass Sie das neueste Feature Pack für AEM Screens installiert haben. Das neueste Feature Pack steht auf dem [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) zum Download zur Verfügung (Adobe ID erforderlich).
+>Bevor Sie an den Projektdetails arbeiten, stellen Sie sicher, dass Sie das neueste Feature Pack für AEM Screens installiert haben. Das neueste Feature Pack steht auf dem [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) zum Download zur Verfügung (Adobe ID erforderlich).
 
 ## Voraussetzungen {#prerequisites}
 
@@ -57,7 +56,8 @@ Erstellen Sie zuerst ein AEM Screens-Projekt.
 
 1. Navigieren Sie zu Ihrer Adobe Experience Manager-Instanz und klicken Sie auf **Screens**. Sie haben auch die Möglichkeit, direkt zur folgenden URL zu wechseln: `https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens`.
 
-1. Klicken Sie auf **Screens-Projekt erstellen**, um ein neues Screens-Projekt zu erstellen. Geben Sie **DemoScreens** als Titel ein und klicken Sie auf **Speichern**.
+1. Klicks **Screens-Projekt erstellen** , damit Sie ein Screens-Projekt erstellen können.
+1. Geben Sie den Titel als **DemoScreens** Klicken Sie auf **Speichern**.
 
    ![image](assets/kickstart/demo-1.png)
 
@@ -66,9 +66,9 @@ Erstellen Sie zuerst ein AEM Screens-Projekt.
 
 ### Erstellen eines Kanals {#creating-channel}
 
-Sobald Sie Ihr AEM Screens-Projekt erstellt haben, müssen Sie einen neuen Kanal zum Verwalten der Inhalte erstellen.
+Nachdem Sie Ihr AEM Screens-Projekt erstellt haben, müssen Sie einen Kanal erstellen, in dem Sie den Inhalt verwalten.
 
-Gehen Sie wie folgt vor, um einen neuen Kanal für Ihr Projekt zu erstellen:
+Gehen Sie wie folgt vor, um einen Kanal für Ihr Projekt zu erstellen:
 
 1. Nachdem Sie ein Projekt erstellt haben, wählen Sie das Projekt **DemoScreens** aus und wählen Sie den Ordner **Kanäle** aus, wie in der folgenden Abbildung dargestellt. Klicken Sie in der Aktionsleiste auf **+ Erstellen**.
 
@@ -87,7 +87,7 @@ Gehen Sie wie folgt vor, um einen neuen Kanal für Ihr Projekt zu erstellen:
 
 ### Hinzufügen von Inhalten zu Kanälen {#adding-content}
 
-Sobald Sie Ihren Kanal eingerichtet haben, müssen Sie Inhalte zu Ihrem Kanal hinzufügen, die der AEM Screens-Player anzeigen soll.
+Wenn Sie Ihren Kanal eingerichtet haben, fügen Sie Inhalte zu Ihrem Kanal hinzu, die vom AEM Screens-Player angezeigt werden können.
 
 Gehen Sie wie folgt vor, um dem Kanal (**TestChannel**) Ihres Projekts Inhalte hinzuzufügen:
 
@@ -105,19 +105,16 @@ Gehen Sie wie folgt vor, um dem Kanal (**TestChannel**) Ihres Projekts Inhalte h
 
 ### Erstellen eines Standorts {#creating-location}
 
-Wenn der Kanal konfiguriert wurde, müssen Sie den Standort erstellen.
+Wenn Sie Ihren Kanal eingerichtet haben, erstellen Sie einen Ort.
 
 >[!NOTE]
 >***Standorte*** gliedern Sie die verschiedenen Erlebnisse für digitale Beschilderung und enthalten die Konfigurationen der einzelnen Anzeigen, abhängig vom jeweiligen Standort.
 
-Gehen Sie wie folgt vor, um einen neuen Standort für Ihr Projekt zu erstellen:
+Gehen Sie wie folgt vor, um einen Standort für Ihr Projekt zu erstellen:
 
 1. Navigieren Sie zum erstellten **DemoProject** und wählen Sie den Ordner **Standorte** aus.
-
 1. Klicken Sie in der Aktionsleiste auf **+ Erstellen**.
-
 1. Wählen Sie im Assistenten **Standort** aus und klicken Sie auf **Weiter**.
-
 1. Geben Sie den **Namen** und Titel für Ihren Standort ein (geben Sie als Titel **TestLocation** ein) und klicken Sie auf **Erstellen**.
 
 Der Standort **TestLocation** wird erstellt und dem Ordner **Standorte** hinzugefügt.
@@ -125,13 +122,12 @@ Der Standort **TestLocation** wird erstellt und dem Ordner **Standorte** hinzu
 
 ### Erstellen einer Anzeige für einen Standort {#creating-display}
 
-Nachdem Sie einen Standort konfiguriert haben, müssen Sie eine neue Anzeige für diesen erstellen.
+Wenn Sie einen Standort erstellt haben, erstellen Sie eine Anzeige für Ihren Standort.
 
 >[!NOTE]
 >***Anzeige*** stellt das digitale Erlebnis dar, das auf einem oder mehreren Bildschirmen dargestellt wird.
 
 1. Navigieren Sie zur **TestLocation** und wählen Sie sie aus.
-
 1. Klicken Sie in der Aktionsleiste auf **Erstellen**.
 
    ![image](assets/kickstart/demo-disp1.png)
@@ -150,7 +146,7 @@ Nachdem Sie einen Standort konfiguriert haben, müssen Sie eine neue Anzeige fü
 
 ### Zuweisen von Kanälen {#assigning-channel}
 
-Nachdem das Projekt fertig eingerichtet wurde, müssen Sie den Kanal einem Display zuweisen, um den Inhalt anzuzeigen.
+Nach Abschluss der Projekteinrichtung müssen Sie den Kanal einer Anzeige zuweisen, um den Inhalt anzuzeigen.
 
 1. Navigieren Sie von zur gewünschten Anzeige **DemoScreens** > **Standorte** > **TestLocation** > **LobbyDisplay**.
 
@@ -170,21 +166,21 @@ Nachdem das Projekt fertig eingerichtet wurde, müssen Sie den Kanal einem Displ
 
    >[!NOTE]
    >
-   >Die Felder **Kanal-Rolle**, **Priorität** und **Unterbrechungsmethoden** werden standardmäßig ausgefüllt. Weitere Informationen zu den Kanalzuweisungseigenschaften finden Sie im Abschnitt [Kanaleigenschaften](/help/user-guide/channel-assignment-latest-fp.md#channel-properties).
+   >Die Felder **Kanal-Rolle**, **Priorität** und **Unterbrechungsmethoden** werden standardmäßig ausgefüllt. Siehe [Kanaleigenschaften](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) für weitere Informationen zu den Kanalzuweisungseigenschaften.
 
-   ![image](assets/kickstart/demo-assign3.png)
+   ![Bild](assets/kickstart/demo-assign3.png)
 
-   Darüber hinaus können Sie auch das **Aktivierungsfenster** und den **Intervallzeitplan** auswählen.
+   Außerdem können Sie die **Aktivierungsfenster** und **Wiederholungsplan**.
 
    >[!NOTE]
-   >Mit dem *Intervallzeitplan* können Sie einen Zeitplan für Ihren Kanal festlegen. Sie richten mehrere Intervallzeitpläne für einen Kanal ein.
+   >Die *Wiederholungsplan* ermöglicht Ihnen, einen Zeitplan für Ihren Kanal festzulegen. Sie richten mehrere Intervallzeitpläne für einen Kanal ein.
    >Weitere Informationen finden Sie unter [Intervallzeitplan](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule).
 
 1. Klicken Sie auf **Speichern**, nachdem Sie Ihre Voreinstellungen konfiguriert haben.
 
 ### Registrieren eines Geräts und Zuweisen eines Geräts zu einer Anzeige {#registering-device}
 
-Sie müssen Ihr Gerät mithilfe des AEM-Dashboards registrieren.
+Registrieren Sie Ihr Gerät über das AEM Dashboard.
 
 >[!IMPORTANT]
 >Im Entwicklermodus kann der Chrome OS-Player als Chrome-Browser-Plug-in installiert werden, ohne dass ein echtes Chrome-Player-Gerät erforderlich ist. Gehen Sie zur Installation wie folgt vor:
@@ -192,11 +188,11 @@ Sie müssen Ihr Gerät mithilfe des AEM-Dashboards registrieren.
 >1. Klicken Sie [hier](https://download.macromedia.com/screens/), um den neuesten Chrome-Player herunterzuladen.
 >1. Entpacken Sie die Datei und speichern Sie sie auf der Festplatte.
 >1. Öffnen Sie den Chrome-Browser und wählen Sie im Menü die Option **Erweiterungen** oder navigieren Sie direkt zu ***chrome://extensions***.
->1. Aktivieren Sie oben rechts den **Entwicklermodus**.
->1. Klicken Sie oben links auf **Entpackte Erweiterung laden** und laden Sie den entpackten Chrome-Player.
->1. Überprüfen Sie, ob in der Liste der Erweiterungen das Plug-in **AEM Screens Chrome Player** aufgeführt wird.
->1. Öffnen Sie eine neue Registerkarte und klicken Sie oben links auf das Symbol **Apps** oder navigieren Sie direkt zu ***chrome://apps***.
->1. Klicken Sie auf das Plug-in **AEM Screens**, um den Chrome-Player zu starten. Standardmäßig wird der Player im Vollbildmodus gestartet. Drücken Sie **Esc**, um den Vollbildmodus zu beenden.
+>1. Schalten Sie die **Entwicklermodus** oben rechts.
+>1. Klicks **Entpacktes Laden** oben links und laden Sie den entpackten Chrome-Player.
+>1. Überprüfen **AEM Screens Chrome-Player** -Plug-in, wenn es in der Liste der Erweiterungen verfügbar ist.
+>1. Öffnen Sie eine neue Registerkarte und klicken Sie auf **Apps** Symbol oben links oder navigieren Sie direkt zu ***chrome://apps***.
+>1. Klicks **AEM Screens** Plug-in, damit Sie den Chrome-Player starten können. Standardmäßig wird der Player im Vollbildmodus gestartet. Presse **Esc** , um den Vollbildmodus zu beenden.
 
 Sobald Ihr Chrome OS-Player eingerichtet ist, führen Sie die folgenden Schritte aus, um ein Chrome-Gerät zu registrieren.
 
@@ -227,15 +223,15 @@ Sobald Ihr Chrome OS-Player eingerichtet ist, führen Sie die folgenden Schritte
 
 1. Wählen Sie den Pfad zu Ihrer Anzeige als **DemoScreens** > **Standorte** > **TestLocation** > **LobbyDisplay** und klicken **Zuweisen**.
 
-   ![image](assets/kickstart/demo-device6.png)
+   ![Bild](assets/kickstart/demo-device6.png)
 
-1. Sobald das Gerät erfolgreich zugewiesen wurde, wird die folgende Bestätigung angezeigt.
+1. Wenn das Gerät erfolgreich zugewiesen wurde, sehen Sie die folgende Bestätigung.
 
-   ![image](assets/kickstart/demo-register8.png)
+   ![Bild](assets/kickstart/demo-register8.png)
 
-1. Tippen/klicken Sie auf **Beenden**, um den Registrierungsprozess abzuschließen. Sie Ihr registriertes Gerät jetzt über das Anzeigen-Dashboard anzeigen können.
+1. Auswählen **Beenden** , um den Registrierungsprozess abzuschließen. Sie können Ihr registriertes Gerät jetzt über das Anzeigen-Dashboard anzeigen.
 
-   ![image](assets/kickstart/demo-register9.png)
+   ![Bild](assets/kickstart/demo-register9.png)
 
 ### Anzeigen von Inhalten im Chrome-Player {#viewing-content-output}
 

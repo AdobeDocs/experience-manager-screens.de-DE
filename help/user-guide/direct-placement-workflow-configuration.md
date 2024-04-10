@@ -1,12 +1,10 @@
 ---
 title: Konfigurieren des Workflows für die direkte Platzierung
-seo-title: Direct Placement Workflow Configuration
 description: Auf dieser Seite wird die Konfiguration des Workflows für die direkte Platzierung beschrieben.
-seo-description: This page highlights Direct Placement Workflow Configuration.
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 87%
+source-wordcount: '191'
+ht-degree: 53%
 
 ---
 
@@ -22,7 +20,7 @@ In diesem Abschnitt werden folgende Themen behandelt:
 
 ## Übersicht {#overview}
 
-Die Konfiguration des Workflows für die direkte Platzierung ordnet einen Kanal in einem AEM Screens-Projekt einem bestimmten Ordner in Assets zu und ermöglicht die Platzierung von Assets in diesem Ordner. Es wird empfohlen, ein Massen-Offline-Update auszulösen, um die Veröffentlichung durchzuführen.
+Die Konfiguration des Workflows für die direkte Platzierung ordnet einen Kanal in einem AEM Screens-Projekt einem bestimmten Ordner in Assets zu und ermöglicht die Platzierung von Assets in diesem Ordner. Adobe empfiehlt, ein Massen-Offline-Update Trigger, um die Veröffentlichung abzuschließen.
 
 Alternativ kann der Inhaltsautor manuell auf **Offline-Inhalt aktualisieren** klicken.
 
@@ -34,11 +32,11 @@ Alternativ kann der Inhaltsautor manuell auf **Offline-Inhalt aktualisieren** kl
 
 >[!IMPORTANT]
 >
->Installieren Sie das [Demopaket](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip), bevor Sie mit der Konfiguration beginnen. Nachdem Sie das Paket installiert haben, sollten Sie es über Ihre AEM-Instanz > Tools (Symbol) > **Workflow** > **Workflow-Modelle**.
+>Vor Beginn der Konfiguration müssen Sie die `[Demo  Package](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip)`. Nachdem Sie das Paket installiert haben, sollten Sie es über Ihre AEM-Instanz > Tools (Symbol) > **Workflow** > **Workflow-Modelle**.
 
 So konfigurieren Sie den Workflow für die direkte Platzierung:
 
-1. Navigieren Sie von Ihrer AEM-Instanz aus zu AEM Screens und erstellen Sie ein Screens-Projekt mit dem Titel **Asset Workflow**.
+1. Navigieren Sie von Ihrer AEM zu AEM Screens und erstellen Sie ein Screens-Projekt mit dem Titel **Asset-Workflow**.
 
 1. Erstellen Sie im Ordner **Kanäle** einen Kanal mit dem Titel **Workflow-Assets**.
 

@@ -1,21 +1,21 @@
 ---
 title: Versionshinweise für Feature Pack 202103
-description: „Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 202103, das am 5. März 2021 veröffentlicht wurde.“
+description: Erfahren Sie mehr über AEM Screens Feature Pack 202103, das am 5. März 2021 veröffentlicht wurde.
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '396'
-ht-degree: 100%
+exl-id: a8741cc7-de4f-4e5a-b69e-852a43597123
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+workflow-type: tm+mt
+source-wordcount: '388'
+ht-degree: 57%
 
 ---
-
 
 # Versionshinweise für Feature Pack 202103 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Es wird empfohlen, ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM) durchzuführen. Screens bietet Wartungs-Support für die AEM 6.3 Screens-Plattform.
+>Es wird empfohlen, ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM) durchzuführen. AEM Screens bietet Wartungs-Support für AEM 6.3 Screens-Plattform.
 
 ## Verfügbarkeit {#availability}
 
@@ -31,16 +31,16 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 202103 ist der 5. Mär
 
 * **AEM Screens – Automatische Registrierung von Playern**
 
-   Die manuelle Massenregistrierung von Tausenden von Playern ist sehr mühsam und verursacht zusätzliche Zeitanforderungen und Kosten. Um diesen Prozess zu vereinfachen, können Sie mit der automatischen Registrierung von Playern einen vorinstallierten Schlüssel in AEM angeben, der entweder über eine Konfigurationsdatei oder eine MDM-Lösung (Mobile Device Management) für einen Player bereitgestellt werden kann.
+  Das manuelle Registrieren von Tausenden von Playern mit Massenregistrierung ist umständlich und bringt Zeit und Kosten. Um diesen Vorgang zu vereinfachen, können Sie mit der Funktion Automatische Registrierung von Playern in AEM einen vorab freigegebenen Schlüssel angeben. Dieser Schlüssel kann entweder über eine Konfigurationsdatei oder eine Mobile Device Management (MDM)-Lösung in einen Player bereitgestellt werden.
 
-   Weitere Informationen finden Sie unter [Automatische Registrierung von Playern](/help/user-guide/auto-registration-players.md).
+  Weitere Informationen finden Sie unter [Automatische Registrierung von Playern](/help/user-guide/auto-registration-players.md).
 
 
-* **Massenbereitstellung von Android-Playern mit Enterprise Mobility Management**
+* **Massenbereitstellung von Android™-Player mithilfe von Enterprise Mobility Management**
 
-   Bei der Massenbereitstellung von Android-Playern ist es mühsam, jeden einzelnen Player manuell bei AEM zu registrieren. Es wird dringend empfohlen, eine EMM-Lösung (Enterprise Mobility Management) wie VMWare Airwatch, MobileIron oder Samsung Knox für die Remote-Bereitstellung und -Verwaltung Ihrer Bereitstellung zu verwenden. Der AEM Screens-Android-Player unterstützt den Branchenstandard EMM AppConfig, um eine Remote-Bereitstellung zu ermöglichen.
+  Bei der Massenbereitstellung des Android™-Players wird es mühsam, jeden Player manuell bei AEM zu registrieren. Es wird dringend empfohlen, eine EMM-Lösung (Enterprise Mobility Management) zu verwenden, z. B. `VMWare Airwatch`, `MobileIron`oder `Samsung Knox` zur Remote-Bereitstellung und -Verwaltung Ihrer Implementierung. Der AEM Screens Android™ Player unterstützt die standardmäßige EMM AppConfig-Lösung, die die Remote-Bereitstellung ermöglicht.
 
-   Weitere Informationen finden Sie unter [Massenbereitstellung von Android-Playern mit Enterprise Mobility Management](/help/user-guide/implementing-android-player.md#implementation).
+  Siehe Abschnitt [Massenbereitstellung von Android™-Player mithilfe von Enterprise Mobility Management](/help/user-guide/implementing-android-player.md#implementation) für weitere Details.
 
 
 ### Fehlerbehebungen {#bug-fixes}
@@ -51,7 +51,7 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 202103 ist der 5. Mär
 
 * Offline-Caches wurden nicht erstellt, wenn die Zuweisung *OfflineConfig* enthielt.
 
-* Aktualisierungen des Tizen-Players, die fehlschlugen, weil die Referrer-Richtlinie „strict-origin-when-cross-origin“ nicht unterstützt wird.
+* Aktualisierungen für `Tizen` Player, der fehlschlug, weil die Richtlinie &quot;referrer&quot;strikt auf den Ursprung ausgerichtet ist, wenn der Ursprung zwischen verschiedenen Elementen nicht unterstützt wird.
 
 * Das Ändern des Feldes *Wiederholungen* des Zeitplans des zugewiesenen Kanals führte zu Fehlern in der Benutzeroberfläche.
 
@@ -61,14 +61,14 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 202103 ist der 5. Mär
 
 * Eine fehlgeschlagene Anfrage zur Aktualisierung der Konfiguration führte zu einem leeren Bildschirm.
 
-### Veröffentlichte AEM Screens-Player {#released-aem-screens-players}
+### Veröffentlichte AEM Screens-Player
 
 Die folgenden AEM Screens-Player sind für AEM 6.5 Feature Pack 7 verfügbar:
 
 * Chrome OS
 * Windows
-* Linux
+* Linux®
 
-#### AEM Screens-Player-Downloads {#aem-screens-player-downloads}
+#### AEM Screens-Player-Downloads 
 
-Navigieren Sie zu **[AEM Screens-Player-Downloads](https://download.macromedia.com/screens/index.html)**, um den neusten AEM Screens-Player herunterzuladen und mehr über die Fehlerbehebungen zu erfahren.
+Gehen Sie zu **[AEM Screens-Player-Downloads](https://download.macromedia.com/screens/index.html)**, um den neusten AEM Screens-Player herunterzuladen und mehr über die Fehlerbehebungen zu erfahren.

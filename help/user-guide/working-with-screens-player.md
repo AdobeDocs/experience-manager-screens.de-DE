@@ -1,34 +1,30 @@
 ---
 title: Arbeiten mit dem AEM Screens-Player
-seo-title: Working with Screens Player
-description: Auf dieser Seite erhalten Sie Informationen zum AEM Screens-Player. Außerdem werden die Admin-Benutzeroberfläche und der Kanalschalter erläutert.
-seo-description: Follow this page to learn about Screens Player. It also explains the Admin UI and the Channel Switcher.
-uuid: 93e113ea-fbef-4757-982b-b7dc52fc76a7
+description: Erfahren Sie mehr über die Arbeit mit dem AEM Screens-Player, der Administrator-Benutzeroberfläche und dem Kanalschalter.
 contentOwner: jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
-discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
 feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 83%
+source-wordcount: '1059'
+ht-degree: 60%
 
 ---
 
-# Arbeiten mit dem AEM Screens-Player {#working-with-aem-screens-player}
+# Arbeiten mit dem AEM Screens-Player
 
 Im AEM Screens-Player können Sie den Inhalt für einen Kanal und andere Einstellungen verwalten.
 
 >[!NOTE]
 >
->Drücken Sie ***Ctrl + Befehl + F***, um den Vollbildmodus für AEM Screens-Player unter OS X zu beenden.
+>Presse ***Strg+Befehl+F*** damit Sie den Vollbildmodus für den OS X AEM Screens Player beenden können.
 
-Wenn Sie einen Kanal einer Anzeige zuweisen, wird im AEM Screens-Player der Inhalt angezeigt. Sie können die Einstellungen für Ihren Player entweder über die Voreinstellungen für die Administrator-Benutzeroberfläche (über das Dashboard) oder über den Player selbst konfigurieren.
+Nachdem Sie einer Anzeige einen Kanal zugewiesen haben, zeigt der AEM Screens-Player den Inhalt an. Sie können die Einstellungen für Ihren Player entweder über die Voreinstellungen für die Administrator-Benutzeroberfläche (über das Dashboard) oder über den Player selbst konfigurieren.
 
 ## Verwenden des Geräte-Dashboards {#using-the-device-dashboard}
 
@@ -40,7 +36,7 @@ Sie können die Voreinstellungen für Ihr Gerät im Geräte-Dashboard konfigurie
 
    ![chlimage_1-66](assets/chlimage_1-66.png)
 
-1. Klicken Sie auf das Gerät, um das Geräte-Dashboard zu öffnen.
+1. Klicken Sie auf das Gerät, damit Sie das Geräte-Dashboard öffnen können.
 
    ![chlimage_1-67](assets/chlimage_1-67.png)
 
@@ -50,27 +46,27 @@ Sie können die Voreinstellungen für Ihr Gerät im Geräte-Dashboard konfigurie
 
 ### Die Administrator-Benutzeroberfläche {#the-admin-ui}
 
-Durch die Aktivierung der **Administrator-Benutzeroberfläche** im Fenster „Voreinstellungen“ kann der Benutzer die Administratoreinstellungen vom Screens-Player aus öffnen. Wenn Sie diese Option im Geräte-Dashboard deaktivieren, kann der Benutzer die Administrator-Benutzeroberfläche nicht im Player öffnen.
+Durch die Aktivierung der **Administrator-Benutzeroberfläche** im Fenster „Voreinstellungen“ kann der Benutzer die Administratoreinstellungen vom Screens-Player aus öffnen. Wenn Sie diese Option im Geräte-Dashboard deaktivieren, kann der Benutzer die Administrator-Benutzeroberfläche nicht über den Player öffnen.
 
-Um die Administrator-Benutzeroberfläche vom Screens-Player aus zu öffnen, halten Sie die linke obere Ecke gedrückt, um das Menü „Admin“ auf Ihrem Touch-optimierten AEM Screens-Player zu öffnen, oder verwenden Sie eine Maus. Nachdem die Registrierung abgeschlossen ist und die Kanäle geladen sind, werden Informationen angezeigt.
+Um die Administrator-Benutzeroberfläche vom Screens-Player aus anzuzeigen, halten Sie die linke obere Ecke gedrückt, um das Menü &quot;Admin&quot;auf Ihrem Touch-optimierten AEM Screens-Player zu öffnen, oder verwenden Sie eine Maus. Informationen werden angezeigt, nachdem die Registrierung abgeschlossen und die Kanäle geladen wurden.
 
 >[!NOTE]
 >
->Sie können jetzt die Betriebszeit der App für den AEM Screens-Player aufrufen, um ihren Zustand zu überprüfen.
+>Außerdem können Sie die Betriebszeit der AEM Screens Player-App anzeigen, um den Status des App-Zustands zu überprüfen.
 
 ![chlimage_1-3](assets/chlimage_1-3.gif)
 
 #### Zugriff auf die Optionen im Konfigurationsmenü {#configuration-options}
 
-Sie können Ihre Konfigurationen aktualisieren, wenn Sie im Seitenmenü die Option **Konfiguration** auswählen, wie in der folgenden Abbildung gezeigt:
+Wenn Sie die Option **Konfiguration** -Option aus dem Seitenmenü, wie in der folgenden Abbildung dargestellt:
 
 ![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
 
-Im Menü „Konfiguration“ können Sie die folgenden Einstellungen ändern:
+Im Menü Konfiguration können Sie die folgenden Einstellungen ändern:
 
 * Setzen Sie die **Firmware** oder **Voreinstellungen** zurück oder wählen Sie die Option **Auf Werkseinstellungen** zurücksetzen aus.
 
-* Legen Sie in **Max. Anzahl der beizubehalt. Prot.dateien** die maximale Zahl der Protokolldateien fest, die für einen AEM Screens-Player bewahrt werden.
+* Geben Sie die Anzahl der maximalen Protokolldateien an, die Sie für einen AEM Screens-Player in **Max. Anzahl der beizubehalt. Prot.dateien** die maximale Zahl der Protokolldateien fest, die für einen AEM Screens-Player bewahrt werden.
 
 * Aktivieren oder deaktivieren Sie das **Admin-Menü**, den **Kanalschalter** und die **Aktivitäts-Benutzeroberfläche** für den Screens-Player.
 
@@ -80,7 +76,7 @@ Im Menü „Konfiguration“ können Sie die folgenden Einstellungen ändern:
 
 >[!NOTE]
 >
->Die Option **Firmware aktualisieren** funktioniert nur in Cordova, z. B. in Android-Playern.
+>Die **Firmware aktualisieren** -Option funktioniert nur mit Cordova, z. B. Android™-Playern.
 
 >[!NOTE]
 >
@@ -90,7 +86,7 @@ Im Menü „Konfiguration“ können Sie die folgenden Einstellungen ändern:
 
 Sie können den Cache für Kanäle und Anwendungen über die Administrator-Benutzeroberfläche im AEM Screens-Player löschen.
 
-Wählen Sie die **Inhalts-Cache** über die Seitenleiste aus, um den Cache zu aktualisieren.
+Wählen Sie die **Inhalts-Cache** über die Seitenleiste aus, damit Sie den Cache aktualisieren können.
 
 ![screen_shot_2018-10-15at105717am](assets/screen_shot_2018-10-15at105717am.png)
 
@@ -98,7 +94,7 @@ Wählen Sie die **Inhalts-Cache** über die Seitenleiste aus, um den Cache zu ak
 
 Durch das Aktivieren der Option **Kanalschalter** im Fenster „Voreinstellungen“ kann der Benutzer die Kanalauswahl/-einstellungen vom Screens-Player aus öffnen.
 
-Wenn Sie diese Option im Geräte-Dashboard deaktivieren, kann der Benutzer außerdem die Kanalvoreinstellungen nicht über den Screens-Player steuern.
+Wenn Sie diese Option im Geräte-Dashboard deaktivieren, kann der Benutzer die Kanaleinstellungen nicht über den Screens-Player steuern.
 
 Sie können die Einstellungen für Ihren Kanal von Ihrem Screens-Player aus wechseln und steuern.
 
@@ -112,19 +108,19 @@ Um den Kanalschalter vom Player aus anzuzeigen, halten Sie die linke untere Ecke
 >
 >(Siehe *Ändern der Voreinstellungen im AEM Screens-Player* wie im Abschnitt weiter unten beschrieben).
 
-### Verwalten von Voreinstellungen im AEM Screens-Player {#managing-preferences-from-the-aem-screens-player}
+### Verwalten von Voreinstellungen im AEM Screens-Player
 
 Sie können die Einstellungen für die Administrator-Benutzeroberfläche und den Kanalschalter auch im Player selbst ändern.
 
-Führen Sie die folgenden Schritte aus, um die Voreinstellungen für Ihren Player zu ändern:
+So ändern Sie die Voreinstellungen von Ihrem Player:
 
-1. Halten Sie die linke obere Ecke des idle-Kanals gedrückt, um das Admin-Bedienfeld zu öffnen.
+1. Halten Sie die linke obere Ecke des Leerlaufkanals gedrückt, um das Admin-Bedienfeld zu öffnen.
 1. Navigieren Sie im linken Aktionsmenü zu **Konfiguration**.
 1. Aktivieren bzw. deaktivieren Sie die Option „Konfiguration“ für die **Administrator-Benutzeroberfläche** oder den **Kanalschalter**.
 
 ![screen_shot_2018-10-15at101257am-1](assets/screen_shot_2018-10-15at101257am-1.png)
 
-## Fehlerbehebung beim AEM Screens-Player {#troubleshooting-aem-screens-player}
+## Fehlerbehebung beim AEM Screens-Player
 
 Im Folgenden finden Sie empfohlene Maßnahmen bei Problemen mit dem AEM Screens-Player (Hard- und Software):
 
@@ -137,14 +133,14 @@ Im Folgenden finden Sie empfohlene Maßnahmen bei Problemen mit dem AEM Screens-
 | AEM Screens-Player startet nach einem Neustart des Players/Systems nicht automatisch | Überprüfen Sie den Startordner oder das Initialisierungsverfahren des Betriebssystems. |
 | AEM Screens-Player zeigt falschen/alten Inhalt an | Überprüfen Sie die Netzwerkverbindung. |
 
-### Updates für den AEM Screens-Player {#updates-for-aem-screens-player}
+### Updates für den AEM Screens-Player
 
 Für den AEM Screens-Player gibt es zwei Arten von Updates:
 
-| **Methode** | **Details** | **Remote** | **Automatisiert** | **Ohne Ausfallzeit** |
+| **Methode** | **Details** | **über Remote** | **Automatisiert** | **Ohne Ausfallzeit** |
 |---|---|---|---|---|
-| Firmware-Update | Wird per Remote-Befehl auf vorhandene installierte Player angewendet. Nach der Aktualisierung wird der Player mit dem vorhandenen Inhalt automatisch neu geladen. | Ja | Benutzerdefiniert | Fast – 1-3 Sekunden |
-| Player-Shell-Aktualisierungen | Dabei handelt es sich um eine neue ausführbare Datei, die im Player bereitgestellt werden kann. Dies erfordert, dass Sie eine neue Binärdatei auf den Player kopieren, die aktuelle Version stoppen und die neue Version starten. Dies erfordert möglicherweise ein erneutes Herunterladen des Vorausladevorgangs der Pakete. | Ja (über Remote-Shell) | Benutzerdefiniert | Nein |
+| Firmware-Update | Wird über den Remote-Befehl auf vorhandene installierte Player angewendet. Nach der Aktualisierung lädt der Player automatisch mit dem vorhandenen Inhalt neu. | Ja | Benutzerdefiniert | Fast – 1-3 Sekunden |
+| Player-Shell-Aktualisierungen | Dabei handelt es sich um eine neue ausführbare Datei, die im Player bereitgestellt werden kann. Dies erfordert, dass Sie eine neue Binärdatei auf den Player kopieren, die aktuelle Version stoppen und die neue Version starten. Dies kann das erneute Herunterladen des Vorausladevorgangs der Pakete erfordern. | Ja (über Remote-Shell) | Benutzerdefiniert | Nein |
 
 ## Richtlinien zur Hardware-Auswahl für Player-Geräte {#hardware-selection-guidelines-for-player-device}
 
@@ -173,12 +169,12 @@ In der folgenden Tabelle sind die Hardware-Konfigurationen mit typischen Anwendu
   </tr>
   <tr>
    <td>Einfach</td>
-   <td>Dual Core-, i3- oder Quad-Core Intel® Atom-Prozessor der Einstiegsklasse</td>
+   <td>Intel® Atom-Prozessor mit Dualcore, i3 oder Quad-Core-Prozessor der Einstiegsklasse</td>
    <td><p>4 GB Arbeitsspeicher</p> <p>2 MB Cache</p> </td>
-   <td><p>•Chrome OS 32 GB</p> <p>•Windows 128 GB</p> </td>
+   <td><p>*ChromeOS 32 GB</p> <p>*Windows 128 GB</p> </td>
    <td>OnBoard</td>
    <td>1920 x 1080</td>
-   <td>DVI,<br /> Ethernet/Wireless,<br /> 2x USB</td>
+   <td>DVI<br /> Ethernet/Wireless<br /> 2xUSB</td>
    <td>
     <ul>
      <li>Standardschleife im Vollbildmodus<br /> </li>
@@ -187,8 +183,8 @@ In der folgenden Tabelle sind die Hardware-Konfigurationen mit typischen Anwendu
   </tr>
   <tr>
    <td>Standard</td>
-   <td>Intel® Core i5-Prozessor (Quad-Core)</td>
-   <td><p>8GB Arbeitsspeicher</p> <p>4MB Cache</p> </td>
+   <td>Quadcore, Intel® Core™ i5 Prozessor</td>
+   <td><p>8 GB Arbeitsspeicher</p> <p>4 MB Cache</p> </td>
    <td>128 GB</td>
    <td>OnBoard</td>
    <td>3840 x 2160 (4 K)</td>
@@ -202,8 +198,8 @@ In der folgenden Tabelle sind die Hardware-Konfigurationen mit typischen Anwendu
   </tr>
   <tr>
    <td>Erweitert</td>
-   <td>Intel® Core i7-Prozessor, Quad-Core mit Hyperthreading</td>
-   <td><p>16GB Arbeitsspeicher</p> <p>8MB Cache</p> </td>
+   <td>Quadcore mit Hyperthreading, Intel® Core™ i7 Prozessor</td>
+   <td><p>16 GB Arbeitsspeicher</p> <p>8 MB Cache</p> </td>
    <td>256 GB</td>
    <td>Dedizierte Grafik-GPU</td>
    <td>3840 x 2160 (4 K)</td>

@@ -1,23 +1,19 @@
 ---
 title: Adobe Analytics-Integration mit AEM Screens
-seo-title: Adobe Analytics Integration with AEM Screens
 description: Folgen Sie dieser Seite, um mehr über die vorkonfigurierte Integration von AEM Screens mit Adobe Analytics zu erfahren und einen Wiedergabenachweis zu erhalten.
-seo-description: Follow this page to learn about out of the box integration of AEM Screens with Adobe Analytics and provides you with a proof of play.
-uuid: 80d61af7-bf4d-46ca-a026-99a666c2e1a0
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
-discoiquuid: b1a0e00e-0368-42c9-8bcd-5f00b4d0990c
 docset: aem65
 feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: 97820c602885ecf581ae1e6bada6c104aeeb4c70
-workflow-type: ht
-source-wordcount: '690'
-ht-degree: 100%
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+workflow-type: tm+mt
+source-wordcount: '684'
+ht-degree: 97%
 
 ---
 
@@ -131,4 +127,4 @@ Analytics-Ereignisse werden in indexedDB offline gespeichert und später aufgete
 
 >[!NOTE]
 >
->Weitere Informationen zum ***Sequenzieren*** und zum ***Standarddatenmodell für Ereignisse*** finden Sie unter **[Konfigurieren von Adobe Analytics für AEM Screens](configuring-adobe-analytics-aem-screens.md)**.
+>Weitere Informationen zum ***Sequenzierung*** und ***Standarddatenmodell für Ereignisse***, siehe **[Konfigurieren von Adobe Analytics für AEM Screens](configuring-adobe-analytics-aem-screens.md)**.

@@ -1,16 +1,14 @@
 ---
 title: Erstellen und Verwalten von Kanälen
-seo-title: Managing Channels
-description: Folgen Sie dieser Seite, um sich über das Erstellen und Verwalten von Kanälen zu informieren. Außerdem werden Kanal-Dashboard und die Bearbeitung von Inhalten für einen Kanal erläutert.
-seo-description: Follow this page to learn about creating and managing channels. It also explains channel dashboard and editing content for a channel.
+description: Erfahren Sie mehr über das Erstellen und Verwalten von Kanälen. Außerdem werden Kanal-Dashboard und die Bearbeitung von Inhalten für einen Kanal erläutert.
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '1305'
-ht-degree: 89%
+source-wordcount: '1260'
+ht-degree: 55%
 
 ---
 
@@ -27,7 +25,7 @@ Auf dieser Seite wird gezeigt, wie Kanäle für AEM Screens erstellt und verwalt
 
 ## Erstellen von neuen Kanälen {#creating-a-new-channel}
 
-Wenn Sie Ihr Projekt für AEM Screens erstellen, gehen Sie wie folgt vor, um einen neuen Kanal für Ihr Projekt zu erstellen:
+Nachdem Sie Ihr Projekt für AEM Screens erstellt haben, führen Sie die folgenden Schritte aus, um einen Kanal für Ihr Projekt zu erstellen:
 
 1. Wählen Sie den Adobe Experience Manager-Link (oben links) und dann Screens aus. Sie haben auch die Möglichkeit, direkt zur folgenden URL zu wechseln: `https://localhost:4502/screens.html/content/screens`.
 
@@ -45,7 +43,7 @@ Wenn Sie Ihr Projekt für AEM Screens erstellen, gehen Sie wie folgt vor, um ein
 
    ![demochannel](assets/create-project4.png)
 
-1. Dem Ordner **Kanäle** wird nun ein Sequenz-Kanal hinzugefügt.
+1. Ein Sequenzkanal wird jetzt zu Ihrem **Kanäle** Ordner.
 
 ### Kanaltypen {#channel-types}
 
@@ -55,21 +53,21 @@ Beim Verwenden des Assistenten stehen unter anderem die folgenden Vorlagenoption
 |---|---|
 | Kanal-Ordner | Ermöglicht die Erstellung eines Ordners zum Speichern von Kanalsammlungen. |
 | Sequenzkanal | Ermöglicht die Erstellung eines Kanals zum sequenziellen Wiedergeben der Komponenten (einzeln in einer Diashow). |
-| Anwendungskanal | Ermöglicht die Präsentation benutzerdefinierter Webanwendungen im Screens-Player. |
-| 1x1-Splitscreen-Kanal | Ermöglicht das Anzeigen der Komponente in einer Zone. |
-| 1x2-Splitscreen-Kanal | Ermöglicht das Anzeigen der Assets in zwei Bereichen (horizontal geteilt). |
-| 2x1-Splitscreen-Kanal | Ermöglicht das Anzeigen der Assets in zwei Bereichen (vertikal geteilt). |
-| 2x2-Splitscreen-Kanal | Ermöglicht das Anzeigen der Assets in vier Bereichen (horizontal und vertikal in einer Matrix geteilt). |
-| 2:3-Splitscreen-Kanal | Ermöglicht das Anzeigen der Assets in zwei Bereichen (horizontal geteilt), wobei ein Bereich größer ist als der andere ist. |
-| Splitscreen-Kanal mit L-Balken links oder rechts | Ermöglicht es den Autoren von Inhalten, verschiedene Arten von Assets in entsprechend großen Bereichen anzuzeigen. |
+| Anwendungskanal | Ermöglicht die Präsentation Ihrer benutzerdefinierten Webanwendung im Screens-Player. |
+| 1x1-Splitscreen-Kanal | Ermöglicht die Anzeige einer Komponente in einem einzigen Bereich. |
+| 1x2-Splitscreen-Kanal | Ermöglicht die Anzeige der Assets in zwei Bereichen (horizontal geteilt). |
+| 2x1-Splitscreen-Kanal | Ermöglicht die Anzeige der Assets in zwei Bereichen (vertikal geteilt). |
+| 2x2-Splitscreen-Kanal | Ermöglicht die Anzeige der Assets in vier Bereichen (horizontal und vertikal in einer Matrix geteilt). |
+| 2:3-Splitscreen-Kanal | Ermöglicht die Anzeige der Assets in zwei Bereichen (horizontal geteilt), wobei einer der Bereiche größer ist als der andere. |
+| Splitscreen-Kanal mit L-Balken links oder rechts | Ermöglicht es Inhaltsautoren, verschiedene Asset-Typen in entsprechend großen Bereichen anzuzeigen. |
 
 >[!NOTE]
 >
->Die Splitscreen-Kanäle teilen die Anzeige in mehrere Bereiche, sodass Sie mehrere Erlebnisse gleichzeitig nebeneinander wiedergeben können. Die Erlebnisse können entweder statische Assets/Text oder eingebettete Sequenzen sein.
+>Die Splitscreen-Kanäle teilen die Anzeige in mehrere Bereiche auf, sodass Sie mehrere Erlebnisse gleichzeitig nebeneinander wiedergeben können. Die Erlebnisse können entweder statische Assets/Text oder eingebettete Sequenzen sein.
 
 >[!IMPORTANT]
 >
-> Nachdem Sie Inhalte erstellt und zu Ihrem Kanal hinzugefügt haben, müssen Sie zunächst einen Ort erstellen und anschließend eine Anzeige erstellen. Außerdem müssen Sie diesen Kanal einer Anzeige zuweisen. Weitere Informationen finden Sie in den unten stehenden Ressourcen am Ende des Abschnitts .
+> Nachdem Sie Inhalte erstellt und zu Ihrem Kanal hinzugefügt haben, müssen Sie zunächst einen Ort erstellen und anschließend eine Anzeige erstellen. Außerdem müssen Sie diesen Kanal einer Anzeige zuweisen. Siehe die Ressourcen unten am Ende des Abschnitts .
 
 ## Arbeiten mit Kanälen {#working-with-channels}
 
@@ -82,8 +80,8 @@ Sie können Änderungen vornehmen, Eigenschaften und Dashboard anzeigen sowie ei
 
 Um Inhalt in einem Kanal hinzuzufügen oder zu bearbeiten, gehen Sie wie folgt vor:
 
-1. Klicken Sie auf den Kanal, den Sie bearbeiten möchten (wie in der obigen Abbildung gezeigt).
-1. Klicken Sie in der oberen linken Ecke der Aktionsleiste auf **Bearbeiten**, um die Kanaleigenschaften zu bearbeiten. Der Editor wird geöffnet. Sie haben die Möglichkeit, Ihrem Kanal Assets/Komponenten hinzuzufügen, die Sie veröffentlichen möchten.
+1. Wählen Sie den Kanal aus, den Sie bearbeiten möchten (wie in der Abbildung oben gezeigt).
+1. Klicks **Bearbeiten** oben links in der Aktionsleiste, damit Sie die Kanaleigenschaften bearbeiten können. Der Editor wird geöffnet, mit dem Sie Assets/Komponenten zu Ihrem Kanal hinzufügen können, den Sie veröffentlichen möchten.
 
 >[!NOTE]
 >Sie können Ihrem Kanal Komponenten hinzufügen. Weitere Informationen finden Sie unter **[Hinzufügen von Komponenten zu Kanälen](adding-components-to-a-channel.md)**.
@@ -95,27 +93,23 @@ Um Inhalt in einem Kanal hinzuzufügen oder zu bearbeiten, gehen Sie wie folgt v
 Gehen Sie wie folgt vor, um Videos in Ihren Kanal hochzuladen:
 
 1. Wählen Sie den Kanal aus, in den Sie das Video hochladen möchten.
-1. Klicken Sie in der Aktionsleiste auf **Bearbeiten**, um den Editor zu öffnen.
-1. Wählen Sie unter „Assets“ die Option **Videos** und verschieben Sie die betreffenden Videos per Drag-and-Drop.
+1. Klicks **Bearbeiten** in der Aktionsleiste aus.
+1. Wählen Sie im Editor **Videos** unter Assets und ziehen Sie die erforderlichen Videos per Drag-and-Drop.
 
 >[!NOTE]
 >Wenn Sie beim Hochladen von Videos in Ihren Kanal auf Probleme stoßen, lesen Sie [Fehlerbehebung beim Arbeiten mit Videos](troubleshoot-videos.md).
 
-### Anzeigen von Eigenschaften {#viewing-properties}
+### Anzeigen oder Bearbeiten von Eigenschaften eines Kanals {#viewing-properties}
 
-Um die Eigenschaften eines Kanals anzuzeigen oder zu bearbeiten, gehen Sie wie folgt vor:
+1. Klicken Sie auf den Kanal, den Sie bearbeiten möchten.
+1. Klicks **Eigenschaften** in der Aktionsleiste, damit Sie die Kanaleigenschaften anzeigen/bearbeiten können. Im folgenden Tab können Sie die Optionen ändern.
 
-1. Klicken Sie auf den Kanal, den Sie bearbeiten möchten.
-1. Klicken Sie in der Aktionsleiste auf **Eigenschaften**, um die Kanaleigenschaften anzuzeigen/zu bearbeiten. Anhand der folgenden Registerkarten können Sie die Optionen ändern.
-
-![properties](assets/properties.gif)
+![Eigenschaften](assets/properties.gif)
 
 ### Anzeigen des Dashboards {#viewing-dashboard}
 
-Um das Dashboard eines Kanals anzuzeigen, gehen Sie wie folgt vor:
-
-1. Wählen Sie den zu bearbeitenden Kanal aus.
-1. Klicken Sie in der Aktionsleiste auf **Dashboard**, um das Dashboard anzuzeigen. Das Bedienfeld **KANALINFORMATIONEN**, **ZUGEWIESENE ANZEIGEN** und **AUSSTEHENDE LAUNCHES** wird geöffnet, wie in der folgenden Abbildung dargestellt:
+1. Wählen Sie den Kanal aus, den Sie bearbeiten möchten.
+1. Klicks **Dashboard** in der Aktionsleiste aus.
 
 ![dashboard](assets/dashboard.gif)
 
@@ -123,7 +117,7 @@ Um das Dashboard eines Kanals anzuzeigen, gehen Sie wie folgt vor:
 
 Im Bedienfeld „Kanalinformationen“ werden die Kanaleigenschaften zusammen mit der Kanalvorschau beschrieben. Darüber hinaus finden Sie dort Informationen dazu, ob der Kanal offline oder online ist.
 
-Klicken Sie in der in Aktionsleiste **KANALINFORMATIONEN** auf (**...**), um Eigenschaften anzuzeigen, Inhalt zu bearbeiten oder den Cache (Offline-Inhalt) für den Kanal zu aktualisieren.
+Klicken Sie auf (**...**) aus dem **KANALINFORMATIONEN** Aktionsleiste, damit Sie Eigenschaften anzeigen, den Inhalt bearbeiten oder den Cache (Offline-Inhalt) für den Kanal aktualisieren können.
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
 
@@ -134,11 +128,11 @@ Sie können das Manifest vom Kanal-Dashboard aus anzeigen.
 >[!IMPORTANT]
 >Diese Option ist nur mit AEM 6.4 Feature Pack 8 oder AEM 6.5 Feature Pack 4 verfügbar.
 
-Führen Sie die folgenden Schritte aus, um diese Option im Kanal-Dashboard zu aktivieren:
+Führen Sie die folgenden Schritte aus, damit Sie diese Option im Kanal-Dashboard aktivieren können:
 
 1. **Kanal auf „Offline“ festlegen**
    1. Wählen Sie den Kanal aus und wählen Sie in der Aktionsleiste **Eigenschaften** aus.
-   1. Navigieren Sie zur Registerkarte **Kanal** und deaktivieren Sie die Option **Entwicklermodus (Kanal muss online sein)**.
+   1. Navigieren Sie zu **Kanal** und deaktivieren Sie **Entwicklermodus (erzwingen, dass der Kanal online ist)** option
    1. Klicken Sie auf **Speichern und schließen**.
 1. **Offline-Inhalt aktualisieren**
    1. Wählen Sie den Kanal aus und wählen Sie in der Aktionsleiste **Dashboard** aus.
@@ -157,7 +151,7 @@ Jetzt sollten Sie im Kanal-Dashboard im Dialogfeld **KANALINFORMATIONEN** die Op
 
 Wenn Sie einen Kanal erstellen, kann er entweder als Online- oder als Offline-Kanal definiert werden.
 
-Ein ***Online-Kanal*** zeigt den aktualisierten Inhalt in der Echtzeitumgebung an, während ein ***Offline-Kanal*** den im Cache gespeicherten Inhalt wiedergibt.
+Ein ***Online-Kanal*** zeigt den aktualisierten Inhalt in der Echtzeit-Umgebung an, während eine ***Offline-Kanal*** zeigt den zwischengespeicherten Inhalt an.
 
 Gehen Sie wie folgt vor, um den Kanal online zu schalten:
 
@@ -167,7 +161,7 @@ Gehen Sie wie folgt vor, um den Kanal online zu schalten:
 
    ![screen_shot_2019-08-01at31406pm](assets/screen_shot_2019-08-01at31406pm.png)
 
-   Klicken Sie in der Aktionsleiste auf **Dashboard**, um den Status des Players anzuzeigen. Im Fenster **KANALINFORMATIONEN** wird angezeigt, ob der Kanal online oder offline ist.
+   Klicks **Dashboard** in der Aktionsleiste, damit Sie den Status des Players anzeigen können. Im Fenster **KANALINFORMATIONEN** wird angezeigt, ob der Kanal online oder offline ist.
 
    ![screen_shot_2019-08-01at31458pm](assets/screen_shot_2019-08-01at31458pm.png)
 
@@ -186,7 +180,7 @@ Gehen Sie wie folgt vor, um den Kanal online zu schalten:
    ![screen_shot_2019-08-01at31821pm](assets/screen_shot_2019-08-01at31821pm.png)
 
 >[!NOTE]
->Wenn Sie den Kanal erneut als offline konfigurieren möchten, deaktivieren Sie die Option „Entwicklermodus“ auf der Registerkarte **Eigenschaften** (wie in Schritt 3 gezeigt) und klicken Sie anschließend im Bedienfeld **KANALINFORMATIONEN** auf **Offline-Inhalt aktualisieren**, wie in der folgenden Abbildung dargestellt.
+>Um den Kanal erneut als offline zu konfigurieren, deaktivieren Sie die Option Entwicklermodus in der **Eigenschaften** Registerkarte (wie in Schritt (3) gezeigt). Dann aus dem **KANALINFORMATIONEN** Bedienfeld klicken **Offline-Inhalt aktualisieren**, wie in der folgenden Abbildung dargestellt.
 
 ![dashboard2](assets/dashboard2.gif)
 
@@ -232,7 +226,7 @@ In der folgenden Tabelle werden die Ereignisse im Zusammenhang mit automatischen
 
 ### Zugewiesene Anzeigen {#assigned-displays}
 
-Das Fenster „Zugewiesene Anzeigen“ zeigt die zum Kanal gehörende Anzeige. Er liefert eine Momentaufnahme der zugewiesenen Anzeige zusammen mit der Auflösung.
+Die **Zugewiesene Anzeigen** zeigt die mit dem Kanal verknüpfte Anzeige an. Er liefert eine Momentaufnahme der zugewiesenen Anzeige zusammen mit der Auflösung.
 
 Die zugehörigen Anzeigen werden im **Zugewiesene Anzeigen** -Bedienfeld, wie unten dargestellt:
 
@@ -245,7 +239,7 @@ Die zugehörigen Anzeigen werden im **Zugewiesene Anzeigen** -Bedienfeld, wie un
 >* [Erstellen und Verwalten von Anzeigen](managing-displays.md)
 >
 
-Außerdem können Sie auf die Anzeige im Bedienfeld **ZUGEWIESENE ANZEIGEN** klicken, um die Anzeigeinformationen anzuzeigen, wie unten gezeigt:
+Klicken Sie außerdem auf die Anzeige im **ZUGEWIESENE ANZEIGEN** -Bedienfeld, um die Anzeigeinformationen anzuzeigen, wie unten dargestellt:
 
 ![chlimage_1-28](assets/chlimage_1-28.png)
 

@@ -1,31 +1,27 @@
 ---
 title: Versionshinweise für Feature Pack 201812
-seo-title: Versionshinweise für Feature Pack 201812
-description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 201812, das am 16. Januar 2019 veröffentlicht wurde.
-seo-description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 201812, das am 16. Januar 2019 veröffentlicht wurde.
-uuid: 7cc8dd96-5965-4af0-bebc-9d4941481734
+description: Erfahren Sie mehr über das AEM Screens Feature Pack 201812, das am 16. Januar 2019 veröffentlicht wurde.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: release-notes
-discoiquuid: 08ace4d8-bccf-4783-a664-a28bbae7ecc3
 noindex: true
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '277'
-ht-degree: 100%
+exl-id: 3b127311-32d1-402c-97a1-e799e9f3f95e
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+workflow-type: tm+mt
+source-wordcount: '244'
+ht-degree: 53%
 
 ---
 
-
-# Versionshinweise für Feature Pack 201812 {#release-notes-for-feature-pack}
+# Versionshinweise für Feature Pack 201812{#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
->Es wird empfohlen, ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM) durchzuführen. Screens bietet Wartungs-Support für die AEM 6.3 Screens-Plattform.
+>Es wird empfohlen, ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM) durchzuführen. AEM Screens bietet Wartungs-Support für AEM 6.3 Screens-Plattform.
 
 AEM Screens hat AEM 6.3 Feature Pack 5 und AEM 6.4 Feature Pack 3 mit folgenden Details veröffentlicht.
 
@@ -33,32 +29,32 @@ AEM Screens hat AEM 6.3 Feature Pack 5 und AEM 6.4 Feature Pack 3 mit folgenden 
 
 Das Veröffentlichungsdatum für AEM Screens Feature Pack 201812 ist der 16. Januar 2019.
 
-### Neuerungen {#what-s-new}
+### Neue Funktionen {#what-s-new}
 
 * **Textüberlagerung auf Assets im Kanal**:
 
-   Textüberlagerung ist eine Funktion in AEM Screens, mit der Sie in einem Sequenzkanal für ein überzeugendes Erlebnis sorgen können, indem Sie einen Titel oder eine Beschreibung auf einem Bild einfügen. Weitere Informationen finden Sie unter [**Textüberlagerung**](text-overlay.md).
+  Textüberlagerung ist eine in AEM Screens verfügbare Funktion, mit der Sie in einem Sequenzkanal ein überzeugendes Erlebnis erstellen können, indem Sie einen Titel oder eine Beschreibung angeben, die über einem Bild überlagert ist. Siehe [**Textüberlagerung**](text-overlay.md).
 
 * **Zeitplanung für mehrere Assets**:
 
-   Die Zeitplanung für mehrere Assets ermöglicht es dem Benutzer, mehrere Assets auszuwählen und einen Wiedergabezeitplan auf alle ausgewählten Assets anzuwenden. Weitere Informationen finden Sie im Abschnitt **Zeitplanung für mehrere Assets** unter **[Asset-Planung](asset-level-scheduling.md)**.
+  Die Zeitplanung für mehrere Assets ermöglicht es dem Benutzer, mehrere Assets auszuwählen und einen Wiedergabezeitplan auf alle ausgewählten Assets anzuwenden. Siehe **Zeitplanung für mehrere Assets** Abschnitt in **[Asset-Planung](asset-level-scheduling.md)**.
 
 * **Mehrzonen-Layout**:
 
-   Mehrzonen-Layout ermöglicht es Ihnen, Inhalte für mehrere Bereiche zu erstellen und eine Vielzahl von Assets wie Videos, Bilder und Text zu verwenden, die in einem einzigen Bildschirm kombiniert werden können. Weitere Informationen finden Sie unter **[Mehrzonen-Layout](multi-zone-layout-aem-screens.md)**.
+  Mehrzonen-Layout ermöglicht die Erstellung von Inhalten mit mehreren Bereichen und die Verwendung verschiedener Assets wie Videos, Bilder und Text, die in einem einzigen Bildschirm kombiniert werden können. Siehe **[Mehrzonen-Layout](multi-zone-layout-aem-screens.md)**.
 
 * **Intelligente Synchronisierung von Assets mit Playern**
 * **Autoren/Veröffentlichungs-Bereitstellung (Härtung)**
 
-### Veröffentlichte AEM Screens-Player {#released-aem-screens-players}
+### Veröffentlichte AEM Screens-Player
 
 Die folgenden AEM Screens-Player sind für AEM 6.3 Feature Pack 5 und AEM 6.4 Feature Pack 3 verfügbar:
 
 * ChromeOS
 * Windows
-* Android
+* Android™
 * iOS
 
-#### AEM Screens-Player-Downloads {#aem-screens-player-downloads}
+#### AEM Screens-Player-Downloads 
 
-Um den neuesten AEM Screens-Player herunterzuladen und mehr über Fehlerkorrekturen zu erfahren, konsultieren Sie [**AEM Screens-Player-Downloads**](https://download.macromedia.com/screens/).
+Informationen zum Herunterladen des neuesten AEM Screens-Players und zu weiteren Fehlerbehebungen finden Sie unter [**AEM Screens Player-Downloads**](https://download.macromedia.com/screens/).

@@ -1,8 +1,8 @@
 ---
 title: Versionshinweise für Feature Pack 201809
-seo-title: Versionshinweise für Feature Pack 201809
+seo-title: Release Notes for Feature Pack 201809
 description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 201809, das am 1. Oktober 2018 veröffentlicht wurde.
-seo-description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 201809, das am 1. Oktober 2018 veröffentlicht wurde.
+seo-description: Follow this page to get information for AEM Screens Feature Pack 201809 released on October 01, 2018.
 uuid: 48240e27-e4c2-48bc-bcca-2a2ec93edc47
 contentOwner: jsyal
 content-type: reference
@@ -12,13 +12,13 @@ discoiquuid: 2a049c2c-26ee-498d-a505-a2967be7cbcd
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '267'
-ht-degree: 100%
+exl-id: abeaed51-b18c-4366-93ef-4f05f33af649
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+workflow-type: tm+mt
+source-wordcount: '259'
+ht-degree: 92%
 
 ---
-
 
 # Versionshinweise für Feature Pack 201809 {#release-notes-for-feature-pack}
 
@@ -32,7 +32,7 @@ AEM Screens hat AEM 6.4.2 Feature Pack 2 und AEM 6.3.3 Feature Pack 4 mit folgen
 
 Das Veröffentlichungsdatum für AEM Screens Feature Pack 201809 ist der 1. Oktober 2018.
 
-### Neuerungen {#what-s-new}
+### Neue Funktionen {#what-s-new}
 
 * **Adobe Analytics-Berichte als Wiedergabenachweis**: Weitere Informationen dazu finden Sie unter [Adobe Analytics-Integration mit AEM Screens](adobe-analytics-integration-aem-screens.md).
 
@@ -54,6 +54,6 @@ Die folgenden AEM Screens-Player sind für AEM 6.4.2 Feature Pack 2 und AEM 6.3.
 * Android
 * iOS
 
-#### AEM Screens-Player-Downloads {#aem-screens-player-downloads}
+#### AEM Screens-Player-Downloads  {#aem-screens-player-downloads}
 
-Um den neuesten AEM Screens-Player herunterzuladen und mehr über Fehlerkorrekturen zu erfahren, konsultieren Sie [AEM Screens-Player-Downloads](https://download.macromedia.com/screens/).
+Informationen zum Herunterladen des neuesten AEM Screens-Players und zu weiteren Fehlerbehebungen finden Sie unter [AEM Screens Player-Downloads](https://download.macromedia.com/screens/).

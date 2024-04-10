@@ -5,10 +5,10 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '1247'
-ht-degree: 96%
+source-wordcount: '1208'
+ht-degree: 58%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 96%
 
 Gehen Sie wie folgt vor, um den Tizen-Player für AEM Screens zu implementieren:
 
-1. Navigieren Sie zur Seite [AEM Screens-Player-Downloads](https://download.macromedia.com/screens/), um den Tizen-Player herunterzuladen.
+1. Navigieren Sie zum [AEM Screens Player-Downloads](https://download.macromedia.com/screens/) -Seite, damit Sie den Tizen-Player herunterladen können.
 
 1. Installieren Sie die Tizen-Player-Datei *(.zip)* vom lokalen Gerät.
 
@@ -34,7 +34,7 @@ Führen Sie dazu folgende Schritte durch:
    >[!NOTE]
    >Die Datei `AEMScreensPlayer.wgt` ist das eigentliche Tizen-Player-Programm und `sssp_config.xml` enthält Informationen zu dieser Karte, die Ihnen bei der Installation auf dem Tizen-Gerät hilft.
 
-1. Rufen Sie die IP oder URL Ihres lokalen HTTP-Servers ab (und den Pfad zu dem Ordner, der die in Schritt 2 extrahierten Dateien enthält, wenn diese in einen Unterordner und nicht in den Stammordner extrahiert wurden).
+1. Rufen Sie die IP- oder URL-Adresse Ihres lokalen HTTP-Servers ab (und den Pfad zu dem Ordner, der die in Schritt 2 extrahierten Dateien enthält, wenn er in einen Unterordner und nicht in den Stammordner extrahiert wird).
 
 1. Der Tizen-Player lädt das Installationsprogramm vom lokalen Server herunter.
 
@@ -48,26 +48,23 @@ Sie können Ihrem Tizen-Player einen benutzerfreundlichen Gerätenamen zuweisen 
 Gehen Sie wie folgt vor, um den Namen im Tizen-Player zu konfigurieren:
 
 1. Drücken Sie die Menü-Taste Ihrer Fernbedienung.
-1. Navigieren Sie zu **network** > **Gerätename** , um dem Player einen Namen zuzuweisen.
+1. Navigieren Sie zu **network** > **Gerätename** damit Sie dem Player einen Namen zuweisen können.
 
 ### Konfigurieren von Aktualisierungen auf dem Samsung-Gerät {#config-updates}
 
-Führen Sie die folgenden Schritte auf dem Samsung-Gerät aus, um die Installation des AEM Screens-Players auf dem Gerät abzuschließen:
+Führen Sie die folgenden Schritte auf dem Samsung-Gerät aus, damit Sie die Installation des AEM Screens-Players auf dem Gerät durchführen können:
 
 1. Navigieren Sie zu Ihrem Samsung-Gerät und schalten Sie es ein.
-
 1. Drücken Sie auf der Fernbedienung des Geräts die Taste **MENU** und blättern Sie in der linken Navigationsleiste nach unten zu **System**.
-
 1. Blättern Sie nach unten und wählen Sie die Option **Wiedergabe über** aus und ändern Sie sie in **URL-Starter**.
    ![Bild](/help/user-guide/assets/tizen/rms-2.png)
-
 1. Sobald der URL-Starter eingestellt ist, drücken Sie die Taste **Home** auf Ihrer Fernbedienung.
-
 1. Navigieren Sie zu den **URL-Starter-Einstellungen**, geben Sie die IP-Adresse des localhost-Servers ein und wählen Sie **Fertig**.
+
    >[!NOTE]
    >Der Tizen-Player sollte eine Verbindung zum HTTP-Server herstellen können.
 
-1. Der AEM Screens-Player sollte jetzt automatisch auf Ihrem Samsung-Gerät installiert und gestartet werden.
+1. Der AEM Screens Player installiert und startet automatisch auf Ihrem Samsung-Gerät.
 
    >[!NOTE]
    >Sowohl das Tizen-Gerät als auch der `http`-Server sollten in der Lage sein, eine Verbindung zueinander herzustellen, d. h. der Server sollte für den Tizen-Player erreichbar sein.
@@ -77,29 +74,32 @@ Führen Sie die folgenden Schritte auf dem Samsung-Gerät aus, um die Installati
 
 >[!IMPORTANT]
 >**Dieser Abschnitt gilt für Adobe Experience Manager (AEM 6.5.5 bis AEM 6.5.7.**
->Es gibt einige Browser-Engines, die mit dem Attribut *SameSite=None*, das im von AEM 6.5 bis AEM 6.7 herausgegebenen Anmelde-Token verwendet wird, inkompatibel sind. In den meisten Fällen kann das Problem durch eine Aktualisierung des Browsers auf die neueste verfügbare Version behoben werden. In einigen Fällen sind solche Aktualisierungen möglicherweise nicht möglich, z. B. bei intelligenten Displays, Set-Top-Boxen oder anderen Geräten mit eingebetteten Browsing-Engines.
+>
+>Es gibt einige Browser-Engines, die mit dem *`SameSite=None`* Attribut, das im Anmeldetoken verwendet wird, das von AEM 6.5.5 bis AEM 6.5.7 herausgegeben wurde. Normalerweise kann das Problem durch ein Upgrade des Browsers auf die neueste verfügbare Version behoben werden. Manchmal sind solche Upgrades nicht möglich, z. B. bei intelligenten Displays, Set-Top-Boxen oder anderen Geräten mit eingebetteten Browsing-Engines.
 
 Gehen Sie wie folgt vor, um diese inkompatiblen Clients auszuschließen, wenn Sie *SameSite=None* verwenden:
 
 1. Aktualisieren Sie auf Adobe Experience Manager (AEM) Service Pack 6.5.7.
 
-1. Gehen Sie nach dem Neustart von AEM zu `/system/console/configMgr` und suchen Sie nach **Adobe Granite Token Authentication Handler**. Setzen Sie den Wert für **SameSite** auf **None**.
+1. Gehen Sie nach AEM Neustart zu `/system/console/configMgr` und suchen Sie nach **Adobe Granite Token Authentication Handler**. Setzen Sie den Wert für **SameSite** auf **None**.
 
-1. Sie sollten eine neue Option sehen: *Benutzeragenten, die vom SameSite-Attribut ausgenommen werden sollen*. Füllen Sie diese mit einem Regex, der dem/den Benutzeragenten entspricht, der/die mit dem *SameSite=None*-Attribut inkompatibel ist/sind.
+1. Es sollte eine neue Option angezeigt werden *`User agents to be exempted from samesite attribute`*. Füllen Sie diese mit einem Regex, der dem/den Benutzeragenten entspricht, der/die mit dem *SameSite=None*-Attribut inkompatibel ist/sind.
+
    >[!NOTE]
-   >Weitere Informationen finden Sie unter [SameSite=None: Bekannte inkompatible Clients](https://www.chromium.org/updates/same-site/incompatible-clients). Verwenden Sie folgenden Regex für den Tizen-Player: `(.*)Tizen(.*)`.
+   >
+   >Weitere Informationen finden Sie unter [SameSite=None: Bekannte inkompatible Clients](https://www.chromium.org/updates/same-site/incompatible-clients). Verwenden Sie für den Tizen-Player den Regex: `(.*)Tizen(.*)`.
 
 1. Registrieren Sie den Tizen-Player für Ihre Instanz von AEM 6.5.5 und höher. Er sollte sich registrieren und Inhalte normal anzeigen.
 
 ## Remote-Bereitstellung des Tizen-Players {#remote-provisioning}
 
-Durch die Remote-Bereitstellung des Tizen-Players können Sie Tausende von Samsung Tizen-Anzeigen ohne großen Aufwand bereitstellen. Dadurch wird der mühsame manuelle Aufwand bei der Konfiguration jedes Players mit der Server-URL und dem Massenregistrierungs-Code oder anderen Parametern vermieden und im Fall von Screens as a Cloud Service der Cloud-Modus und das Cloud-Token konfiguriert.
+Durch die Remote-Bereitstellung des Tizen-Players können Sie Hunderte und Tausende von Samsung Tizen-Anzeigen ohne großen Aufwand bereitstellen. Dadurch wird der manuelle Aufwand bei der Konfiguration jedes Players mit der Server-URL und dem Bulk-Registrierungs-Code oder anderen Parametern vermieden. Wenn AEM Screens as a Cloud Service ist, konfigurieren Sie den Cloud-Modus und das Cloud-Token.
 
-Mit dieser Funktion können Sie den Tizen-Player aus der Ferne konfigurieren und diese Konfigurationen bei Bedarf auch zentral aktualisieren. Sie benötigen lediglich den `HTTP`-Server, der zum Hosten des Tizen-Programms `(wgt and xml file)` verwendet wird, und einen Texteditor zum Speichern der `config.json` mit den entsprechenden Parametern.
+Mit dieser Funktion können Sie den Tizen-Player remote konfigurieren und bei Bedarf auch zentral diese Konfigurationen aktualisieren. Sie benötigen lediglich den `HTTP`-Server, der zum Hosten des Tizen-Programms `(wgt and xml file)` verwendet wird, und einen Texteditor zum Speichern der `config.json` mit den entsprechenden Parametern.
 
 Stellen Sie sicher, dass Sie die URL-Starter-Adresse auf dem Tizen-Gerät konfiguriert haben, d. h. Startseite > URL-Starter-Einstellungen.
 Platzieren Sie auf dem `HTTP`-Server, der die Tizen-Anwendung hostet, die Datei `config.json` am selben Speicherort wie die Datei `wgt`. Der Dateiname muss `config.json` lauten.
-Der Tizen-Player wird installiert und beim Start (und bei jedem Neustart) überprüft und wendet die Einstellungen in der Datei `config.json` an.
+Der Tizen-Player installiert und beim Start (und bei jedem Neustart) überprüft und wendet die Einstellungen in der `config.json` -Datei.
 
 ### Beispiel für eine JSON-Richtlinie {#example-json}
 
@@ -118,7 +118,8 @@ Der Tizen-Player wird installiert und beim Start (und bei jedem Neustart) überp
 In der folgenden Tabelle sind die Richtlinien und deren Funktionen aufgeführt.
 
 >[!NOTE]
->Richtlinienkonfigurationen werden streng durchgesetzt und können nicht manuell auf der Admin-Benutzeroberfläche des Players überschrieben werden. Um manuelle Player-Konfigurationen für eine bestimmte Richtlinie zu gestatten, legen Sie die Richtlinie in der Richtlinienkonfiguration nicht fest. Wenn Sie beispielsweise eine manuelle Konfiguration des Neustart-Zeitplans gestatten wollen, legen Sie den Parameter `rebootSchedule` in der Richtlinienkonfiguration nicht fest. Richtlinienkonfigurationen werden jedes Mal gelesen, wenn der Player neu geladen wird.
+>Richtlinienkonfigurationen werden streng durchgesetzt und können nicht manuell auf der Admin-Benutzeroberfläche des Players überschrieben werden. Um eine manuelle Player-Konfiguration für eine bestimmte Richtlinie zu ermöglichen, geben Sie die Richtlinie nicht in der Richtlinienkonfiguration an.
+>Wenn Sie beispielsweise eine manuelle Konfiguration für den Neustart-Zeitplan zulassen möchten, geben Sie den Schlüssel nicht an `rebootSchedule` in der Richtlinienkonfiguration. Richtlinienkonfigurationen werden jedes Mal gelesen, wenn der Player neu geladen wird.
 
 | **Richtlinienname** | **Zweck** |
 |---|---|
@@ -128,8 +129,8 @@ In der folgenden Tabelle sind die Richtlinien und deren Funktionen aufgeführt.
 | rebootSchedule | Der Zeitplan zum Neustarten des Players. |
 | enableAdminUI | Aktivierung der Administrator-Benutzeroberfläche zum Konfigurieren des Geräts vor Ort. Stellen Sie diesen Wert auf „false“ ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und in der Produktion verwendet wird. |
 | enableOSD | Aktivierung der Kanalschalter-Benutzeroberfläche, damit Benutzer zwischen Kanälen auf dem Gerät wechseln können. Stellen Sie den Wert ggf. auf „false“ ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und in der Produktion verwendet wird. |
-| enableActivityUI | Aktivierung zum Anzeigen des Fortschritts von Aktivitäten wie Downloads und Synchronisierungen. Aktivieren Sie diese Option zur Fehlerbehebung und deaktivieren Sie sie, sobald sie vollständig konfiguriert ist und sich in der Produktion befindet. |
-| cloudMode | Setzen Sie dies auf „true“, wenn Sie möchten, dass der Tizen-Player eine Verbindung zu Screens as a Cloud Service herstellt. Legen Sie den Wert auf „false“ fest, um eine Verbindung zu AMS oder AEM On-Premise herzustellen. |
+| enableActivityUI | Aktivieren Sie diese Option, damit Sie den Fortschritt von Aktivitäten wie Download und Synchronisierung anzeigen können. Aktivieren Sie diese Option zur Fehlerbehebung und deaktivieren Sie sie, sobald sie vollständig konfiguriert ist und sich in der Produktion befindet. |
+| cloudMode | Setzen Sie dies auf „true“, wenn Sie möchten, dass der Tizen-Player eine Verbindung zu Screens as a Cloud Service herstellt. Auf &quot;false&quot;setzen, um eine Verbindung zu AMS oder On-Premise-AEM herzustellen. |
 | cloudToken | Anmelde-Token zur Registrierung bei Screens as a Cloud Service. |
 
 
@@ -144,29 +145,29 @@ Führen Sie die folgenden Schritte aus, um das Tizen-Gerät beim Samsung Remote 
 
 1. Navigieren Sie zur Server-Adresse, geben Sie den MagicInfo-URL-Zugriff ein und wählen Sie **Fertig**.
 
-1. Richten Sie ggf. TLS ein. Navigieren Sie zum Port, wählen Sie die Port-Nummer vom Server aus und klicken Sie auf **Speichern**.
+1. Richten Sie bei Bedarf TLS ein. Navigieren Sie zum Port, wählen Sie die Portnummer vom Server aus und wählen Sie **Speichern**.
 
-1. Navigieren Sie zur Registerkarte **Gerät** und suchen Sie nach dem konfigurierten Gerät. Sobald ein Gerät gefunden wurde, klicken Sie auf das Kontrollkästchen und wählen Sie **Genehmigen** aus.
+1. Navigieren Sie zum **Gerät** und suchen Sie nach dem konfigurierten Gerät. Wenn ein Gerät gefunden wird, aktivieren Sie das Kontrollkästchen und wählen Sie **Genehmigen**.
 
    >![Bild](/help/user-guide/assets/tizen/rms-3.png)
 
-1. Füllen Sie die erforderlichen Informationen aus und wählen Sie eine Gerätegruppe aus. Klicken Sie auf **OK**, um den Genehmigungsprozess abzuschließen.
+1. Füllen Sie die erforderlichen Informationen aus und wählen Sie eine Gerätegruppe aus. Wählen Sie **OK** aus.
 
    >![Bild](/help/user-guide/assets/tizen/rms-7.png)
 
-1. Sobald das Gerät genehmigt wurde, sollte es in der Geräteliste angezeigt werden. Klicken Sie auf die Schaltfläche *Informationen* in Ihrem Gerätefeld, d. h. auf **i**, wie in der Abbildung unten dargestellt.
+1. Wenn das Gerät genehmigt wurde, wird es in der Geräteliste angezeigt. Auswählen *Informationen* auf Ihrem Gerät, wie im Folgenden gezeigt.
 
    >![Bild](/help/user-guide/assets/tizen/rms-6.png)
 
-1. Das Dialogfeld „Geräteinformationen“ wird angezeigt. Wählen Sie die Registerkarte **Geräteinformationen** aus und klicken Sie auf **Bearbeiten**.
+1. Das Dialogfeld „Geräteinformationen“ wird angezeigt. Wählen Sie die **Geräteinformationen** Registerkarte und wählen Sie **Bearbeiten**.
 
    >![Bild](/help/user-guide/assets/tizen/rms-5.png)
 
-1. Bearbeiten Sie die Geräteoptionen und wählen Sie die Registerkarte **Einrichtung** aus. Navigieren Sie zum Abschnitt **URL-Starter** und geben Sie die URL ein, die als WGT-Host dient, und `SSSP config file`, um ein `SSSP`-Programm zu installieren, wie in der folgenden Abbildung dargestellt.
+1. Bearbeiten Sie die Geräteoptionen und wählen Sie die Registerkarte **Einrichtung** aus. Navigieren Sie zu **URL-Starter** und geben Sie die URL ein, über die WGT gehostet wird, und `SSSP config file` damit Sie eine `SSSP` wie in der folgenden Abbildung dargestellt.
 
    ![Bild](/help/user-guide/assets/tizen/rms-9.png)
 
-1. Klicken Sie auf **Speichern**, damit die Änderungen auf dem Bildschirm angezeigt werden.
+1. Wählen Sie **Speichern** aus.
 
 ### Verwenden der Fernbedienungs-Steuerung von Screens {#using-remote-control}
 

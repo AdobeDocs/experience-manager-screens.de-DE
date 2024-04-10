@@ -2,9 +2,9 @@
 title: Konfigurieren von Autoren- und Veröffentlichungsinstanzen in AEM Screens
 description: Erfahren Sie, wie Sie eine Autoreninstanz und eine Veröffentlichungsinstanz für AEM Screens konfigurieren.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 4b8013873be87d4d118f627d6131ff3e2fd087de
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '1937'
+source-wordcount: '1935'
 ht-degree: 43%
 
 ---
@@ -132,7 +132,7 @@ Für jede Veröffentlichungsinstanz:
 1. Aktualisieren Sie die Topologie-Connector-URLs: Fügen Sie URLs aller beteiligten Veröffentlichungsinstanzen hinzu, die:
    * `https://publish:4503/libs/sling/topology/connector`
    * `https://publish:4504/libs/sling/topology/connector`
-1. **Whitelist des Topologie-Connectors**: Passen Sie die Anpassung an IPs oder Subnetze an, die alle Veröffentlichungsinstanzen abdecken. Stellen Sie sicher, dass Sie den IP-/Hostnamen aller Veröffentlichungsinstanzen ohne Portnummer auf die Whitelist setzen.
+1. **Topologie-Connector `Whitelist` Liste**: Passen Sie die Anpassung an IPs oder Subnetze an, die alle Veröffentlichungsinstanzen abdecken. Stellen Sie sicher `whitelist` IP/Hostname aller Veröffentlichungsinstanzen ohne Portnummer.
 
 1. Aktivieren Sie **Auto-Stop Local-Loops**
 
@@ -144,7 +144,7 @@ Navigieren Sie bei allen Veröffentlichungsinstanzen zu `https://:/system/consol
 
 #### Schritt 3: Einrichten des ActiveMQ Artemis-Clusters {#step-setup-activemq-artemis-cluster}
 
-In diesem Schritt können Sie ein verschlüsseltes Passwort für den ActiveMQ Artemis-Cluster erstellen.
+In diesem Schritt können Sie ein verschlüsseltes Kennwort für den ActiveMQ Artemis-Cluster erstellen.
 Der Cluster-Benutzer und das Kennwort aller Veröffentlichungsinstanzen in der Topologie müssen identisch sein. Das Kennwort der ActiveMQ Artemis-Konfiguration muss verschlüsselt sein. Da jede Instanz über einen eigenen Verschlüsselungsschlüssel verfügt, müssen Sie mithilfe von Crypto Support eine verschlüsselte Kennwortzeichenfolge erstellen. Anschließend kann das verschlüsselte Kennwort in der OSGi-Konfiguration für ActiveMQ verwendet werden.
 
 Bei jeder Veröffentlichungsinstanz:
@@ -213,7 +213,7 @@ Nachdem Sie die Veröffentlichungstopologie eingerichtet haben, konfigurieren Si
 >
 >Erstellen Sie zunächst ein AEM Screens-Projekt und anschließend einen Standort, eine Anzeige und einen Kanal in Ihrem Projekt. Fügen Sie Ihrem Kanal Inhalte hinzu und weisen Sie den Kanal einer Anzeige zu.
 
-#### Schritt 1: Starten eines AEM Screens-Players (Gerät) {#step-starting-an-aem-screens-player-device}
+#### Schritt 1: Starten eines AEM Screens-Players (Gerät)
 
 1. Öffnen Sie ein separates Browser-Fenster.
 1. Rufen Sie mithilfe des *Webbrowsers*, d. h. `https://localhost:4502/content/mobileapps/cq-screens-player/firmware.html`, den Screens-Player auf oder starten Sie die AEM Screens-App. Wenn Sie das Gerät öffnen, stellen Sie fest, dass der Status des Geräts abgemeldet ist.
@@ -280,7 +280,7 @@ Die folgenden Punkte fassen die Checkliste für Veröffentlichungen zusammen:
 * *Zeitplan*: Stellen Sie bei Verwendung eines Zeitplans sicher, dass dieser veröffentlicht wird.
 * *Standort-, Zeitplan- und Kanalordner*: Wenn sich die entsprechenden Ressourcen in einem Ordner befinden.
 
-Gehen Sie wie folgt vor, um das Verhalten von Autoren-/Veröffentlichungsinstanz zu überprüfen:
+Gehen Sie wie folgt vor, um das Authoring- und Publishing-Verhalten zu überprüfen:
 
 1. Aktualisieren Sie einige Kanalinhalte in der -Autoreninstanz.
 1. Ausführen **Veröffentlichung verwalten** , um neue Änderungen in allen Veröffentlichungsinstanzen zu veröffentlichen.

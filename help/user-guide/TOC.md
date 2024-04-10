@@ -1,17 +1,17 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens-Hilfe
 breadcrumb-title: AEM Screens-Anleitung
-user-guide-description: Erfahren Sie, wie Sie mit einer Digital-Signage-Lösung dynamische und interaktive digitale Erlebnisse und Interaktionen veröffentlichen können.
+user-guide-description: Erfahren Sie, wie Sie mit einer Digital Signage-Lösung dynamische und interaktive digitale Erlebnisse und Interaktionen veröffentlichen können.
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 705540969c96d143294953d4fa391ad97a3aa0f5
-workflow-type: ht
-source-wordcount: '522'
-ht-degree: 100%
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+workflow-type: tm+mt
+source-wordcount: '518'
+ht-degree: 95%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 + [Einführung in Screens](aem-screens-introduction.md)
 + Übersicht und Schnellstartanleitung {#overview}
    + [Schnellstartanleitung](kickstart-for-aem-screens.md)
-   + [Leitfaden zu Best Practices für Screens](https://experienceleague.adobe.com/docs/experience-manager-screens/using/about-guide.html?lang=de)
+   + [Leitfaden zu Best Practices für Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/using/about-guide)
    + [Schlüsselbegriffe](screens-glossary.md)
 + Netzwerkgrundlagen für Digital Signage {#digital-signage-network}
    + [Teil 1: Projektrollen und Zuständigkeiten](project-roles-responsibilities.md)
@@ -44,7 +44,7 @@ ht-degree: 100%
    + Kundenspezifische Aspekte {#installing-client}
       + [Chrome OS-Player](implementing-chrome-os-player.md)
       + [Verwenden von Chrome-Player als Erweiterung zur Problembehebung](using-chrome-player-as-an-extension.md)
-      + [Android-Player](implementing-android-player.md)
+      + [Android](implementing-android-player.md)
       + [Windows-Player](implementing-windows-player.md)
       + [Tizen-Player](tizen-player.md)
       + [Cloud-Player](implementing-cloud-player.md)
