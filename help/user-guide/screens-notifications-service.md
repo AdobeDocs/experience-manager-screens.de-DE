@@ -1,22 +1,18 @@
 ---
 title: AEM Screens-Benachrichtigungs-Service
-seo-title: AEM Screens-Benachrichtigungs-Service
-description: Auf dieser Seite erfahren Sie mehr darüber, wie Sie Geräteaktivität überwachen können.
-seo-description: Auf dieser Seite erfahren Sie mehr darüber, wie Sie Geräteaktivität überwachen können.
-uuid: 9843219d-ed39-4e4f-bef4-e500528ff9f1
+description: Erfahren Sie mehr darüber, wie Sie Geräteaktivität für AEM Screens überwachen können.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
-discoiquuid: 8879e510-4f0e-46da-87d2-77c5aaacb26e
-feature: Inhaltserstellung in Screens
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '558'
-ht-degree: 100%
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+workflow-type: tm+mt
+source-wordcount: '489'
+ht-degree: 16%
 
 ---
 
@@ -24,7 +20,7 @@ ht-degree: 100%
 
 <!--removed from metadata: admitteddomains: @adobe.com;@caesars.com-->
 
-Der ***AEM Screens-Benachrichtigungs-Service*** beschreibt die Funktion, mit der Sie Geräteaktivität überwachen können.
+***AEM Screens-Benachrichtigungsdienst*** Beschreibt die Aktivität „Gerät überwachen„.
 
 In diesem Abschnitt werden folgende Themen behandelt:
 
@@ -33,15 +29,16 @@ In diesem Abschnitt werden folgende Themen behandelt:
 * **E-Mail-Benachrichtigung**
 * **Anwendungsbeispiel**
 
+<!-- OBSOLETE NOTE>
 >[!CAUTION]
 >
->Diese AEM Screens-Funktion ist nur verfügbar, wenn Sie AEM 6.3.2 Feature Pack 3 oder AEM 6.4.1 Screens Feature Pack 1 installiert haben.
+>This AEM Screens functionality is only available, if you have installed AEM 6.3.2 Feature Pack 3 or AEM 6.4.1 Screens Feature Pack 1.
 >
->Wenden Sie sich an den Adobe-Support, um Zugriff auf dieses Feature Pack zu erhalten. Wenn Sie die entsprechenden Berechtigungen erhalten haben, können Sie es von Package Share herunterladen.
+>To get access to this Feature Pack, you must contact Adobe Support and request access. Once you have permissions you can download it from Package Share. -->
 
-## Überblick {#overview}
+## Übersicht {#overview}
 
-Der ***AEM Screens-Benachrichtigungs-Service*** bietet Administratoren die Möglichkeit, eine E-Mail zu empfangen, wenn ein AEM Screens-Player in einem konfigurierbaren Zeitraum nicht gepingt hat.
+***AEM Screens-Benachrichtigungsdienst*** Ermöglicht es Administratoren, eine E-Mail zu erhalten, wenn ein AEM Screens-Player eine konfigurierbare Zeit lang nicht gepingt hat.
 
 Der Service lässt sich in der OSGi-Web-Konsole einrichten.
 
@@ -54,56 +51,56 @@ Gehen Sie wie folgt vor, um die Einstellungen für E-Mail-Benachrichtigungen zu 
 
    ![screen_shot_2018-04-26at44602pm](assets/screen_shot_2018-04-26at44602pm.png)
 
-1. Definieren Sie die folgenden Felder, um Ihre Einstellungen für E-Mail zu konfigurieren:
+1. Definieren Sie die folgenden Felder, um Ihre Einstellungen für die E-Mail zu konfigurieren:
 
-   **Gerätepfad**: Geben Sie den Pfad zu den Screens-Projekten ein, die Sie überwachen möchten. Der Pfad heißt gewöhnlich `/home/users/screens/<Name of your project>`.
+   **Gerätepfad** Geben Sie den Pfad zu den Screens-Projekten ein, die Sie überwachen möchten. Der Pfad heißt gewöhnlich `/home/users/screens/<Name of your project>`.
 
-   Wenn Ihr Projekt beispielsweise **We.Retail** lautet, verwenden Sie ***/home/users/screens/we-retail*** als Projektpfad.
+   Wenn Ihr Projekt beispielsweise **`We.Retail`** verwenden Sie den Projektpfad als ***/home/users/screens/we-retail***.
 
    >[!NOTE]
    >
    >Geben Sie den Projektpfad an, unter dem sich die Gerätebenutzer befinden.
 
-   **Häufigkeit**: Geben Sie eine Zeit (z. B. 17.00 Uhr oder 23.00 Uhr) oder eine Häufigkeit in Stunden (z. B. 1) an, zu der der Service E-Mails senden soll.
+   **Zeitplanfrequenz** - Geben Sie eine Zeit (z. B. 17.00 Uhr oder 23.00 Uhr) oder eine Häufigkeit in Stunden (z. B. 1) an, zu der dieser Monitor E-Mails senden soll.
 
-   **Ping-Timeout**: Gibt das Intervall in Minuten an, nach dem ein Gerät als nicht erreichbar betrachtet werden soll.
+   **Ping-Zeitüberschreitung** - Dies gibt das Intervall in Minuten an, nach dem ein Gerät als nicht erreichbar betrachtet wird.
 
-   **SMTP-Server**: Gibt den SMTP-Server an, der zum Senden von E-Mails verwendet werden soll.
+   **SMTP-Server** : Gibt den SMTP-Server an, der zum Senden von E-Mails verwendet wird.
 
-   **SMTP-Port**: Gibt den SMTP-Port an.
+   **SMTP-Port** : Geben Sie den SMTP-Port ein.
 
-   **Mit TLS**: Mit Transport Layer Security (TLS) können Sie für eine sichere Kommunikation mit dem SMTP-Server sorgen.
+   **Verwenden von TLS** - Transport Layer Security (TLS) ermöglicht die sichere Kommunikation mit dem SMTP-Server.
 
-   Es wird empfohlen, für sichere Verbindungen mit Unternehmens-E-Mail-Servern TLS zu verwenden. Fragen Sie Ihren E-Mail-Administrator nach geeigneten Werten.
+   Adobe empfiehlt die Verwendung von TLS für eine sichere Verbindung mit E-Mail-Servern des Unternehmens. Erkundigen Sie sich bei Ihrem E-Mail-Administrator nach den entsprechenden Werten.
 
-   **Benutzername**: Geben Sie den Benutzernamen zum Senden von E-Mails an.
+   **Benutzername** : Geben Sie den Benutzernamen für das Senden von E-Mails an.
 
-   **Kennwort**: Geben Sie das Kennwort zum Senden von E-Mails an.
+   **Passwort** : Geben Sie das Kennwort für den E-Mail-Versand an.
 
-   **Empfänger**: Geben Sie die E-Mail-Adresse des Empfängers an.
+   **Empfängerin oder Empfänger** : Geben Sie die E-Mail-Adresse des Empfängers an.
 
    >[!NOTE]
    >
-   >Sie können nur eine E-Mail-Adresse eingeben. Um eine Massen-E-Mail zu senden, erstellen Sie eine Gruppen- oder Verteilerliste mit den gewünschten Benutzern.
+   >Sie können nur eine E-Mail-Adresse eingeben. Um eine Massen-E-Mail zu senden, erstellen Sie eine Gruppen- oder Verteilerliste mit den entsprechenden Benutzern.
 
-1. Klicken Sie auf **Speichern**, um die Überwachungsaktivität per E-Mail für Ihr AEM Screens-Gerät zu konfigurieren.
+1. Auswählen **Speichern** So konfigurieren Sie die Aktivität „Überwachen“ über eine E-Mail für Ihr AEM Screens-Gerät.
 
 ## E-Mail-Benachrichtigung {#email-notification}
 
-Nachdem Sie die E-Mail-Benachrichtigungen konfiguriert haben, erhalten Sie eine E-Mail-Benachrichtigung, die den Link zum eigentlichen Gerät enthält, auf dem die Inaktivität gemeldet wurde.
+Nachdem Sie die Konfiguration für Ihre E-Mail-Benachrichtigungen festgelegt haben, erhalten Sie eine E-Mail-Benachrichtigung, die den Link zum tatsächlichen Gerät enthält, über das Inaktivität gemeldet wird.
 
-Durch Zugriff auf diesen Link gelangen Sie direkt zum Geräte-Dashboard.
+Durch den Zugriff auf diesen Link werden Sie direkt zum Geräte-Dashboard weitergeleitet.
 
-E-Mails werden nur gesendet, wenn es mindestens ein Gerät gibt, das im angegebenen Ping-Zeitraum nicht gepingt hat und zum Zeitpunkt der Generierung der E-Mail immer noch nicht pingt.
+E-Mails werden nur gesendet, wenn es mindestens ein Gerät gibt, das für die angegebene Ping-Zeitüberschreitung nicht angepingt hat und zum Zeitpunkt der E-Mail-Generierung immer noch nicht gepingt hat.
 
 ### Anwendungsbeispiele {#example-use-cases}
 
-Im folgenden Beispiel werden zur Referenz einige Szenarien beschrieben, in denen die Eigenschaften des E-Mail-Überwachungs-Services für Screens-Geräte konfiguriert werden.
+Im folgenden Beispiel werden einige Szenarien als Referenz beschrieben, um die Eigenschaften des E-Mail-Überwachungs-Service für Screens-Geräte zu konfigurieren.
 
-**Szenario 1**:
+**Szenario 1**
 
-Wenn Sie die Häufigkeit auf 1.00 Uhr und das Ping-Timeout auf 60 setzen, erhalten Sie, sollte Ihr Screens-Gerät zwischen 12.00 Uhr und 13:00 Uhr nicht pingen, eine E-Mail-Benachrichtigung, mit der die Inaktivität des Geräts bestätigt wird.
+Sie legen die Zeitplanfrequenz auf 1:00 Uhr und die Ping-Zeitüberschreitung auf 60 Uhr fest. Wenn Ihr AEM Screens-Gerät dann zwischen 12:00 Uhr und 13:00 Uhr keinen Ping-Vorgang ausführt, erhalten Sie eine E-Mail-Benachrichtigung, die die Inaktivität des Geräts bestätigt.
 
-**Szenario 2**:
+**Szenario 2**
 
-Wenn Sie die Häufigkeit auf 1 und das Ping-Timeout auf 60 setzen, erhalten Sie, sollte das Screens-Gerät zu keiner beliebigen Tageszeit pingen, eine E-Mail-Benachrichtigung, mit der die Inaktivität des Geräts bestätigt wird.
+Sie legen die Zeitplanfrequenz als 1 und die Ping-Zeitüberschreitung als 60 fest. Wenn Ihr AEM Screens-Gerät dann nicht einmal zwischen zwei Pings zu einem bestimmten Tageszeitpunkt pingt, erhalten Sie eine E-Mail-Benachrichtigung, die die Inaktivität des Geräts bestätigt.

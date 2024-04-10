@@ -1,6 +1,6 @@
 ---
 title: Importer für neue Projekte aus Datei
-description: Mit dieser Funktionalität können Sie verschiedene Standorte aus einer CSV/XLS-Tabelle per Massenimport in Ihr AEM Screens-Projekt importieren.
+description: Mit dieser Funktion können Sie eine Reihe von Speicherorten aus einer CSV/XLS-Tabelle per Massenimport in Ihr AEM Screens-Projekt importieren.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
@@ -10,10 +10,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: 2b865165793b1c0f90f1351518e41096a57ea2ff
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 54%
+source-wordcount: '621'
+ht-degree: 50%
 
 ---
 
@@ -23,13 +23,13 @@ In diesem Abschnitt wird eine Funktionalität beschrieben, mit der Sie verschied
 
 ## Einführung {#introduction}
 
-Wenn Sie ein AEM Screens-Projekt zum ersten Mal in Ihrem Unternehmen einrichten, müssen Sie auch alle Standorte erstellen. Wenn Ihr Projekt viele Standorte umfasst, führt dies zu einer mühsamen Aufgabe, bei der in der Benutzeroberfläche viel geklickt und gewartet wird.
+Wenn Sie ein AEM Screens-Projekt zum ersten Mal in Ihrem Unternehmen einrichten, müssen Sie auch alle Standorte erstellen. Wenn Ihr Projekt viele Standorte umfasst, führt dies zu einer mühsamen Aufgabe, die viele Klicks und Wartezeiten in der Benutzeroberfläche erfordert.
 
 Das Ziel dieser Funktion ist es, die Zeit für die Einrichtung des Projekts zu reduzieren und somit Budgetierungsprobleme zu lösen.
 
 Diese Funktion ermöglicht es dem Autor, eine Tabelle als Eingabedatei bereitzustellen und das System automatisch die Standortstruktur im Back-End erstellen zu lassen:
 
-* *erzielt deutlich bessere Leistung als manuelles Klicken durch die Benutzeroberfläche*
+* *Erreicht eine deutlich bessere Leistung als das manuelle Klicken über die Benutzeroberfläche*
 * *ermöglicht es dem Kunden, seine Standorte aus dem eigenen System zu exportieren und einfach direkt in AEM zu importieren*
 
 Dadurch sparen Sie Zeit und Geld bei der ersten Projekteinrichtung oder beim Erweitern bestehender AEM Screens-Projekte auf neue Standorte.
@@ -55,15 +55,15 @@ Im Folgenden wird das Datenmodell für den Projekt-Importer beschrieben:
 | ***`template {string}`*** | Optionaler Titel für die Seite |
 | ***`[./jcr:description] {string}`*** | Optionale Beschreibung für die Seite |
 
-Für die Tabellendatei (CSV/XLS) sind daher die folgenden Spalten erforderlich:
+Die Tabellenkalkulationsdatei (CSV/XLS) erfordert daher die folgenden Spalten:
 
-* **path {string}** - Der Pfad für den zu importierenden Speicherort, wobei der Stammordner des Pfades der Standortordner für das Projekt ist (d. h. *`/foo`* importiert in *`/content/screens/<project>/locations/foo`*)
-* **template {string}** - Die für den neuen Speicherort zu verwendende Vorlage ist derzeit der einzige zulässige Wert &quot;location&quot;, aber dies wird in Zukunft auf alle Screens-Vorlagen ausgedehnt (`display`, `sequencechannel`usw.)
-* **[./*] {string}** - Jede optionale Eigenschaft, die für den Standort festgelegt wird (d. h. `./jcr:title`, `./jcr:description`, `./foo, ./bar`). Die aktuelle Version erlaubt keine Filterung.
+* **Pfad {string}** - Der Pfad für den zu importierenden Speicherort, wobei der Stamm des Pfads der Speicherort-Ordner für das Projekt ist (d. h. *`/foo`* wird in importiert *`/content/screens/<project>/locations/foo`*)
+* **Schablone {string}** - Die Vorlage, die für den neuen Speicherort verwendet werden soll. Derzeit ist der einzige zulässige Wert „location„, dieser wird jedoch in Zukunft auf alle Screens-Vorlagen erweitert (`display`, `sequencechannel`usw.)
+* **[./*] {string}** - Jede optionale Eigenschaft, die für den Speicherort festgelegt werden soll (d. h. `./jcr:title`, `./jcr:description`, `./foo, ./bar`). In der aktuellen Version ist keine Filterung zulässig.
 
 >[!NOTE]
 >
->Sämtliche Spalten, die nicht mit den oben genannten Bedingungen übereinstimmen, werden ignoriert. Wenn Sie beispielsweise eine andere Spalte in Ihrer Tabellendatei (CSV/XLS) als **path**, **template**, **title**, und **description** in Ihrer -Datei werden diese Felder ignoriert. Und **Projekt-Importer** überprüft diese zusätzlichen Felder nicht, um Ihr Projekt in Ihr AEM Screens-Projekt zu importieren.
+>Jede Spalte, die nicht den oben genannten Bedingungen entspricht, wird ignoriert. Wenn Sie beispielsweise eine andere Spalte in Ihrer Tabellendatei (CSV/XLS) definiert haben als **Pfad**, **Schablone**, **Anrede**, und **Beschreibung** In Ihrer Datei werden diese Felder ignoriert. und **Projekt-Import-Tool** Validiert diese zusätzlichen Felder nicht für den Import Ihres Projekts in Ihr AEM Screens-Projekt.
 
 ## Verwenden des Projekt-Importers {#using-project-importer}
 
@@ -74,7 +74,7 @@ Im folgenden Abschnitt wird beschrieben, wie der Projekt-Importer in einem AEM S
 >Beschränkungen:
 >
 >* Andere Dateien als CSV/XLS/XLSX-Erweiterungen werden in der aktuellen Version nicht unterstützt.
->* Für importierte Dateien gibt es keine Filterung der Eigenschaften und es wird alles importiert, was mit „./&quot; importiert.
+>* Für importierte Dateien gibt es keine Filterung der Eigenschaften und es wird alles importiert, was mit „./“ importiert.
 >
 
 ### Voraussetzungen {#prerequisites}
@@ -89,7 +89,7 @@ Zu Demozwecken können Sie eine Excel-Datei aus dem folgenden Abschnitt herunter
 
 ### Importieren der Datei mit den erforderlichen Mindestfeldern {#importing-the-file-with-minimum-required-fields}
 
-Gehen Sie wie folgt vor, um eine Datei mit den erforderlichen Mindestfeldern in einen Standortordner zu importieren:
+Gehen Sie wie folgt vor, um eine Datei in einen Speicherort-Ordner mit mindestens erforderlichen Feldern zu importieren:
 
 >[!NOTE]
 >
@@ -101,11 +101,11 @@ Gehen Sie wie folgt vor, um eine Datei mit den erforderlichen Mindestfeldern in 
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. Wählen Sie das Projekt &quot;DemoProjectImporter&quot;aus **>** Erstellen **>** Importverzeichnisse** aus der Seitenleiste.
+1. Wählen Sie das Projekt aus** DemoProjectImporter **>** Erstellen **>** Importieren Sie Standorte** aus der Seitenleiste.
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 
-1. Die **Import** angezeigt. Wählen Sie die Datei für Ihr Projekt mit Standorten aus oder wählen Sie die Datei (***minimal-file.xls***), die Sie aus dem *Voraussetzungen* Abschnitt.
+1. Die **importieren** Der Assistent wird angezeigt. Wählen Sie die Datei für Ihr Projekt mit Speicherorten aus oder wählen Sie die Datei (***minimal-file.xls***), die Sie von der *Voraussetzungen* -Abschnitt.
 
    Klicken Sie nach Auswahl der Datei auf **Weiter**.
 
@@ -115,6 +115,6 @@ Gehen Sie wie folgt vor, um eine Datei mit den erforderlichen Mindestfeldern in 
 
    ![screen_shot_2019-05-12at53131am](assets/screen_shot_2019-05-12at53131am.png)
 
-1. Daher können Sie jetzt alle in Ihr Projekt importierten Standorte anzeigen.
+1. Dadurch können Sie jetzt alle in Ihr Projekt importierten Speicherorte anzeigen.
 
    ![screen_shot_2019-05-12at53450am](assets/screen_shot_2019-05-12at53450am.png)

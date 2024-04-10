@@ -1,22 +1,20 @@
 ---
 title: Bildwiedergabedauer auf Projektebene
-seo-title: Bildwiedergabedauer auf Projektebene
-description: 'Mit dieser Funktion können Sie die Dauer der Bildwiedergabe auf der Projektebene festlegen. '
-seo-description: 'Mit dieser Funktion können Sie die Dauer der Bildwiedergabe auf der Projektebene festlegen. '
+description: Erfahren Sie, wie Sie die Dauer der Bildwiedergabe auf Projektebene definieren.
 contentOwner: jsyal
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 100%
+source-wordcount: '333'
+ht-degree: 87%
 
 ---
 
 
 # Bildwiedergabedauer auf Projektebene {#project-level-image-playback}
 
-## Überblick {#overview}
+## Übersicht {#overview}
 
-Mit diesen Funktionen können Sie die Dauer der Bildwiedergabe auf der Projektebene festlegen. Diese Wiedergabedauer wird von allen Bildern standardmäßig übernommen. Wenn auf Projektebene keine Dauer definiert ist, wird die Standardwiedergabe von 8 Sekunden fortgeführt.
+Mit dieser Funktion können Sie die Dauer der Bildwiedergabe auf Projektebene definieren. Diese Wiedergabedauer wird von allen Bildern standardmäßig übernommen. Wenn auf Projektebene keine Dauer definiert ist, wird die Standardwiedergabe von 8 Sekunden fortgeführt.
 
 ### Voraussetzungen {#prerequisites}
 
@@ -34,7 +32,7 @@ Bevor Sie mit der Verwendung dieser Funktion beginnen, stellen Sie sicher, dass 
 
    ![Assets](assets/image_playback2.png)
 
-## Bearbeiten der Zuweisung der Bildwiedergabedauer auf Kanalebene {#editing-project-level-image-playback-duration-assignment}
+## Bearbeiten der Bildwiedergabedauer auf Projektebene {#editing-project-level-image-playback-duration-assignment}
 
 Im folgenden Abschnitt wird beschrieben, wie Sie die Wiedergabedauer von Inhalten in einem AEM Screens-Projekt bearbeiten.
 

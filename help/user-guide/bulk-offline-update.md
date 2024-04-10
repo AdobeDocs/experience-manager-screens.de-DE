@@ -1,23 +1,19 @@
 ---
 title: Massen-Offline-Update
-seo-title: Massen-Offline-Update
-description: Auf dieser Seite erfahren Sie, wie Sie alle Kanäle gemeinsam aktualisieren können.
-seo-description: Auf dieser Seite erfahren Sie, wie Sie alle Kanäle gemeinsam aktualisieren können.
-uuid: 9b52c5e7-aa6d-4f55-b23c-8bd923723552
+description: Erfahren Sie, wie Sie alle Kanäle stapelweise aktualisieren können.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
-discoiquuid: 5d4ca652-d918-4b2b-b239-a2be9255ef0d
 noindex: true
-feature: Inhaltserstellung in Screens
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '359'
-ht-degree: 100%
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+workflow-type: tm+mt
+source-wordcount: '290'
+ht-degree: 74%
 
 ---
 
@@ -28,15 +24,16 @@ In diesem Abschnitt werden die folgenden Themen zum Massen-Offline-Update behand
 * **Überblick**
 * **Verwenden des Massen-Offline-Updates**
 
+<!-- OBSOLETE VERSIONS
 >[!CAUTION]
 >
->Diese AEM Screens-Funktion ist nur verfügbar, wenn Sie AEM 6.3 Feature Pack 3 oder AEM 6.4 Screens Feature Pack 1 installiert haben.
+>This AEM Screens functionality is only available, if you have installed AEM 6.3 Feature Pack 3 or AEM 6.4 Screens Feature Pack 1.
 >
->Wenden Sie sich an den Adobe-Support, um Zugriff auf dieses Feature Pack zu erhalten. Wenn Sie die entsprechenden Berechtigungen erhalten haben, können Sie es von Package Share herunterladen.
+>To get access to this Feature Pack, you must contact Adobe Support and request access. Once you have permissions you can download it from Package Share. -->
 
-## Überblick {#overview}
+## Übersicht {#overview}
 
-Das Massen-Offline-Update ermöglicht es Ihnen, alle Kanäle gemeinsam zu aktualisieren. Das vermeidet den Aufwand, zu einem bestimmten Kanal zu navigieren und den Inhalt zu aktualisieren. Stattdessen können Sie den gesamten Inhalt in den Kanälen für ein bestimmtes Projekt gemeinsam aktualisieren.
+Bulk Offline Update ermöglicht die Massenaktualisierung aller Kanäle. Das vermeidet den Aufwand, zu einem bestimmten Kanal zu navigieren und den Inhalt zu aktualisieren. Stattdessen können Sie den gesamten Inhalt in den Kanälen für ein bestimmtes Projekt gemeinsam aktualisieren.
 
 Sie können diese Aktivität auch für eine Zeit mit geringerem Netzwerk-Traffic planen.
 
@@ -53,7 +50,7 @@ Sie können das Massen-Offline-Update manuell über die Benutzeroberfläche (UI)
 Gehen Sie wie folgt vor, um das Massen-Offline-Update für ein AEM Screens-Projekt zu verwenden:
 
 1. Navigieren Sie zu Ihrem AEM Screens-Projekt.
-1. Wählen Sie das Projekt aus und klicken Sie in der Aktionsleiste auf **Offline-Inhalt aktualisieren**, um den Kanalinhalt manuell zu aktualisieren.
+1. Wählen Sie das Projekt aus und klicken Sie auf **Offline-Inhalt aktualisieren** in der Aktionsleiste aus, sodass Sie den Kanalinhalt manuell aktualisieren können.
 
    ![screen_shot_2018-04-24at122256pm](assets/screen_shot_2018-04-24at122256pm.png)
 
@@ -78,4 +75,4 @@ Gehen Sie wie folgt vor, um das Massen-Offline-Update für ein AEM Screens-Proje
 
    **Zeitplanfrequenz** Geben Sie einen Zeitpunkt an, z. B. 17.00 Uhr, zu dem dieser Service Offline-Inhalte aktualisieren soll.
 
-1. Klicken Sie auf **Speichern**, um Ihre Einstellungen zu speichern. Ihre Inhalte werden zum festgelegten Zeitpunkt aktualisiert.
+1. Auswählen **Speichern** um Ihre Einstellungen zu speichern. Ihr Inhalt wird zum angegebenen Zeitpunkt aktualisiert.

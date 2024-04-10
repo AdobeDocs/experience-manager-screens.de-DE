@@ -1,6 +1,6 @@
 ---
-title: Implementieren von Android&trade; Player
-description: Erfahren Sie mehr über die Implementierung von Android&trade; Watchdog, einer Lösung, mit der Sie Android&trade und Player vor Abstürzen wiederherstellen können.
+title: Implementieren von Android&trade;-Player
+description: Erfahren Sie mehr über die Implementierung von Android&trade; Watchdog, einer Lösung, mit der Sie den Android&trade;-Player nach Abstürzen wiederherstellen können.
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,9 +10,9 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 2b865165793b1c0f90f1351518e41096a57ea2ff
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1464'
 ht-degree: 37%
 
 ---
@@ -21,11 +21,11 @@ ht-degree: 37%
 
 In diesem Abschnitt wird die Konfiguration des Android™-Players beschrieben. Er enthält Informationen zur Konfigurationsdatei und präsentiert die verfügbaren Optionen und Empfehlungen zu den zum Entwickeln und Testen zu verwendenden Einstellungen.
 
-Außerdem **Watchdog** ist eine Lösung, um den Player nach Abstürzen wiederherzustellen. Eine Anwendung muss sich beim Watchdog-Dienst registrieren und dann regelmäßig Nachrichten an den Dienst senden, dass er aktiv ist. Falls der Watchdog-Service innerhalb der geforderten Zeit keine Keep-Alive-Nachricht erhält, versucht der Service das Gerät neu zu starten, um eine saubere Wiederherstellung durchzuführen (bei ausreichenden Rechten) oder die Anwendung neu zu starten.
+Außerdem **Wachhund** ist eine Lösung, um den Player von Abstürzen zu erholen. Eine Anwendung muss sich selbst beim Watchdog-Service registrieren und dann regelmäßig Meldungen an den Service senden, dass er aktiv ist. Falls der Watchdog-Service innerhalb der geforderten Zeit keine Keep-Alive-Nachricht erhält, versucht der Service das Gerät neu zu starten, um eine saubere Wiederherstellung durchzuführen (bei ausreichenden Rechten) oder die Anwendung neu zu starten.
 
 ## Installieren des Android™-Players {#installing-android-player}
 
-Installieren Sie Android™ Player für AEM Screens, um den Android™ Player für AEM Screens zu implementieren.
+Um den Android™-Player für AEM Screens zu implementieren, installieren Sie den Android™-Player für AEM Screens.
 
 Rufen Sie die Seite [**AEM 6.5 Player-Downloads**](https://download.macromedia.com/screens/) auf.
 
@@ -50,84 +50,84 @@ Führen Sie dazu folgende Schritte durch:
 
 ### Ad-hoc-Methode {#ad-hoc-method}
 
-Mit der Ad-hoc-Methode können Sie den neuesten Android™-Player (*.exe*). Rufen Sie die Seite [**AEM 6.5 Player-Downloads**](https://download.macromedia.com/screens/) auf.
+Mit der Ad-hoc-Methode können Sie den neuesten Android™-Player installieren (*.exe*). Rufen Sie die Seite [**AEM 6.5 Player-Downloads**](https://download.macromedia.com/screens/) auf.
 
 Nachdem Sie die Anwendung heruntergeladen haben, führen Sie die Schritte im Player aus, um die Ad-hoc-Installation abzuschließen:
 
-1. Halten Sie die linke obere Ecke gedrückt, um das Admin-Bedienfeld zu öffnen.
+1. Drücken Sie die Taste lange in der oberen linken Ecke, um das Admin-Bedienfeld zu öffnen.
 1. Navigieren Sie im linken Aktionsmenü zu **Konfiguration**, geben Sie den Standort (die Adresse) der AEM-Instanz ein, zu der Sie eine Verbindung aufbauen möchten, und klicken Sie auf **Speichern**.
 
-1. Navigieren Sie zum **Gerät** **Registrierung** im linken Aktionsmenü, damit Sie den Status des Prozesses zur Geräteregistrierung überprüfen können.
+1. Navigieren Sie zu . **Gerät** **Registrierung** über den Link im linken Aktionsmenü, um den Status des Geräteregistrierungsprozesses zu überprüfen.
 
 >[!NOTE]
 >
->Wenn die Variable **Bundesland** is **REGISTRIERT**, können Sie sehen, dass die Variable **Geräte-ID** -Feld gefüllt wird.
+>Wenn die **Bundesland** ist **REGISTRIERT**, können Sie sehen, dass die **Geräte-ID** Feld ist ausgefüllt.
 >
 >Wenn der **Status** **UNREGISTRIERT** ist, können Sie das Gerät mithilfe des **Tokens** registrieren.
 
 ## Implementieren von Android™ Watchdog {#implementing-android-watchdog}
 
-Aufgrund der Architektur von Android™ muss das neu starten des Geräts über Systemberechtigungen verfügen. Signieren Sie dazu die apk mit den Signierungsschlüsseln des Herstellers. Andernfalls startet Watchdog die Player-Anwendung neu und startet das Gerät nicht neu.
+Aufgrund der Android™-Architektur erfordert ein Neustart des Geräts, dass die Anwendung über Systemberechtigungen verfügt. Signieren Sie dazu die APK mit den Signierschlüsseln des Herstellers, andernfalls startet Watchdog die Player-Anwendung neu und nicht das Gerät neu.
 
 ### Signage von Android™ `apks` Verwenden von Herstellerschlüsseln {#signage-of-android-apks-using-manufacturer-keys}
 
-So greifen Sie auf die berechtigten APIs von Android™ zu, z. B. *PowerManager* oder *HDMIControlServices*, unterschreiben Sie Android™. `apk` unter Verwendung der Herstellerschlüssel.
+So greifen Sie auf einige der privilegierten APIs von Android zu™ z. B. *PowerManager* oder *HDMIControlServices*, signieren Sie das Android™ `apk` mithilfe der Herstellerschlüssel.
 
 >[!CAUTION]
 >
 >Voraussetzungen:
 >
->Sie sollten das Android™ SDK installiert haben, bevor Sie die folgenden Schritte ausführen.
+>Sie sollten das Android™-SDK installiert haben, bevor Sie die folgenden Schritte ausführen.
 
-Gehen Sie wie folgt vor, um die Android™-apk mithilfe der Herstellerschlüssel zu signieren:
+Gehen Sie wie folgt vor, um die Android™-APK mit den Herstellerschlüsseln zu signieren:
 
 1. Laden Sie die apk von Google Play oder von der Seite [AEM Screens-Player-Downloads](https://download.macromedia.com/screens/) herunter
-1. Besorgen Sie sich die Plattformschlüssel vom Hersteller, damit Sie eine *pk8* und *pem* file
+1. Beschaffen Sie sich die Plattformschlüssel vom Hersteller, damit Sie eine *pk8* und ein *PEM* Datei
 
-1. Suchen Sie die `apksigner` Tool in Android™ sdk mithilfe von find `~/Library/Android/sdk/build-tools -name "apksigner"`
+1. Suchen Sie das . `apksigner` Tool im Android™-SDK mit „Suchen“ `~/Library/Android/sdk/build-tools -name "apksigner"`
 1. `<pathto> /apksigner sign --key platform.pk8 --cert platform.x509.pem aemscreensplayer.apk`
-1. Suchen Sie den Pfad zum Zip-Ausrichtungs-Tool in Android™ SDK
+1. Suchen des Pfads zum Zip Align Tool im Android™ SDK
 1. `<pathto> /zipalign -fv 4 aemscreensplayer.apk aemscreensaligned.apk`
 1. Installieren Sie ***aemscreensaligned.apk*** mithilfe von adb install auf dem Gerät
 
 ## Grundlegendes zu Android™ Watchdog-Services {#android-watchdog-services}
 
-Der Android-Watchdog-übergreifende Dienst wird als Cordova-Plug-in implementiert, indem er *AlarmManager*.
+Der Android-übergreifende Watchdog-Service wird mithilfe von als Cordova-Plug-in implementiert. *AlarmManager*.
 
 Das folgende Diagramm zeigt die Implementierung des Watchdog-Service:
 
 ![chlimage_1-31](assets/chlimage_1-31.png)
 
-**1. Initialisierung** - Zum Zeitpunkt der Initialisierung des Cordova-Plug-ins werden die Berechtigungen überprüft, um festzustellen, ob Sie über Systemberechtigungen und somit über die Berechtigung zum Neustart verfügen. Sind diese beiden Kriterien erfüllt, wird ein Pending-Intent für den Neustart erstellt. Andernfalls wird ein Pending-Intent für den Neustart der Anwendung (basierend auf ihrer Startaktivität) erstellt.
+**1. Initialisierung** - Zum Zeitpunkt der Initialisierung des Cordova-Plug-ins werden die Berechtigungen überprüft, um festzustellen, ob Sie Systemberechtigungen und damit die Berechtigung zum Neustart haben. Sind diese beiden Kriterien erfüllt, wird ein Pending-Intent für den Neustart erstellt. Andernfalls wird ein Pending-Intent für den Neustart der Anwendung (basierend auf ihrer Startaktivität) erstellt.
 
-**2. Keep-Alive-Timer** - Ein Keep-Alive-Timer wird verwendet, um alle 15 Sekunden ein Ereignis Trigger. In diesem Fall brechen Sie den vorhandenen Pending-Intent ab (um die App neu zu starten) und registrieren Sie einen neuen Pending-Intent für die gleichen 60 Sekunden in der Zukunft (im Grunde wird der Neustart verschoben).
+**2. Keep Alive-Timer** - Ein Keep-Alive-Timer wird verwendet, um alle 15 Sekunden ein Ereignis Trigger. Brechen Sie in diesem Fall die bestehende ausstehende Absicht ab (zum Neustart oder Neustart der App) und registrieren Sie eine neue ausstehende Absicht für dieselben 60 Sekunden in der Zukunft (und verschieben Sie im Wesentlichen den Neustart).
 
 >[!NOTE]
 >
->In Android™ wird die *AlarmManager* wird verwendet, um die *pendingIntents* kann auch dann ausgeführt werden, wenn die App abgestürzt ist und die Alarmbereitstellung von API 19 (Kitkat) ungenau ist. Zwischen dem Timer-Intervall und dem *AlarmManager* *pendingIntent&#39;s* Alarm.
+>In Android™ wird die *AlarmManager* wird verwendet, um zu registrieren *PendingIntents* die auch dann ausgeführt werden kann, wenn die App abgestürzt ist und die Alarmausgabe von API 19 (Kitkat) nicht genau ist. Abstand zwischen dem Zeitgeberintervall und dem *AlarmManager* *von PendingIntent* Alarm.
 
-**3. Anwendungsabsturz** - Bei einem Absturz wird der pendingIntent für den Neustart, der beim AlarmManager registriert ist, nicht mehr zurückgesetzt. Daher wird ein Neustart des Programms ausgeführt (abhängig von den zum Zeitpunkt der Initialisierung des Cordova-Plug-ins verfügbaren Berechtigungen).
+**3. Anwendungsabsturz** - Bei einem Absturz wird die bei AlarmManager registrierte PendingIntent für Neustart nicht mehr zurückgesetzt. Daher wird ein Neustart oder Neustart der App ausgeführt (abhängig von den zum Zeitpunkt der Initialisierung des Cordova-Plug-ins verfügbaren Berechtigungen).
 
-## Massenbereitstellung von Android™ Player {#bulk-provision-android-player}
+## Massenbereitstellung des Android™-Players {#bulk-provision-android-player}
 
-Wenn der Android™-Player stapelweise eingeführt wird, muss der Player auf eine AEM Instanz verweisen und andere Eigenschaften konfigurieren, ohne diese manuell in die Admin-Benutzeroberfläche eingeben zu müssen.
+Beim Massenrollout des Android™-Players muss der Player so bereitgestellt werden, dass er auf eine AEM-Instanz verweist und andere Eigenschaften konfiguriert, ohne diese manuell in die Admin-Benutzeroberfläche einzugeben.
 
 >[!NOTE]
->Diese Funktion ist ab Android™ Player 42.0.372 verfügbar.
+>Diese Funktion ist über den Android™-Player 42.0.372 verfügbar.
 
 Gehen Sie wie folgt vor, um die Massenbereitstellung im Android™-Player zuzulassen:
 
 1. Erstellen Sie eine JSON-Konfigurationsdatei mit dem Namen `player-config.default.json`.
-Siehe Abschnitt [Beispiel-JSON-Richtlinie](#example-json) und einer Tabelle, die die Verwendung der verschiedenen [Richtlinienattribute](#policy-attributes).
+Siehe ein [Beispiel einer JSON-Richtlinie](#example-json) und eine Tabelle, die die Verwendung der verschiedenen [Richtlinienattribute](#policy-attributes).
 
-1. Verwenden Sie einen MDM- oder ADB- oder Android™ Studio-Datei-Explorer, um diese JSON-Richtliniendatei im *sdcard* auf dem Android™-Gerät.
+1. Verwenden Sie einen MDM- oder ADB- oder Android™ Studio-Datei-Explorer, um diese JSON-Richtliniendatei in abzulegen. *SDcard* Ordner auf dem Android™-Gerät.
 
 1. Nachdem die Datei bereitgestellt wurde, installieren Sie die Player-App mit dem MDM.
 
-1. Wenn die Player-Anwendung gestartet wird, wird diese Konfigurationsdatei gelesen und auf den entsprechenden AEM-Server verwiesen, auf dem sie registriert und dann gesteuert wird.
+1. Wenn die Player-Anwendung gestartet wird, wird diese Konfigurationsdatei gelesen und verweist auf den entsprechenden AEM-Server, auf dem sie registriert und dann gesteuert wird.
 
    >[!NOTE]
-   >Diese Datei ist *schreibgeschützt* wenn die Anwendung zum ersten Mal gestartet wird und nicht für nachfolgende Konfigurationen verwendet werden kann. Wenn der Player vor dem Ablegen der Konfigurationsdatei gestartet wird, deinstallieren Sie die Anwendung einfach und installieren Sie sie erneut auf dem Gerät.
+   >Diese Datei ist *Schreibgeschützt* Das erste Mal, dass die Anwendung gestartet wird und nicht für nachfolgende Konfigurationen verwendet werden kann. Wenn der Player gestartet wird, bevor die Konfigurationsdatei abgelegt wurde, deinstallieren Sie die Anwendung einfach und installieren Sie sie erneut auf dem Gerät.
 
 ### Richtlinienattribute {#policy-attributes}
 
@@ -135,12 +135,12 @@ Die folgende Tabelle fasst zur Referenz die Richtlinienattribute mit einer JSON-
 
 | **Richtlinienname** | **Zweck** |
 |---|---|
-| *server* | Die URL zum Adobe Experience Manager-Server. |
+| *Aufschläger* | Die URL zum Adobe Experience Manager-Server. |
 | *resolution* | Die Auflösung des Geräts. |
 | *rebootSchedule* | Der Zeitplan für den Neustart gilt für alle Plattformen. |
 | *enableAdminUI* | Aktivierung der Administrator-Benutzeroberfläche zum Konfigurieren des Geräts vor Ort. Stellen Sie diesen Wert auf *false* ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und in der Produktion verwendet wird. |
 | *enableOSD* | Aktivierung der Kanalschalter-Benutzeroberfläche, damit Benutzer zwischen Kanälen auf dem Gerät wechseln können. Stellen Sie den Wert ggf. auf *false* ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und in der Produktion verwendet wird |
-| *enableActivityUI* | Aktivieren Sie diese Option, wenn Sie den Fortschritt von Aktivitäten wie Download und Synchronisierung anzeigen möchten. Aktivieren Sie diese Option zur Fehlerbehebung und deaktivieren Sie sie, sobald sie vollständig konfiguriert ist und sich in der Produktion befindet. |
+| *enableActivityUI* | Aktivieren Sie diese Option, wenn Sie den Fortschritt von Aktivitäten wie Herunterladen und Synchronisieren anzeigen möchten. Aktivieren Sie diese Option zur Fehlerbehebung und deaktivieren Sie sie, sobald sie vollständig konfiguriert ist und sich in der Produktion befindet. |
 | *enableNativeVideo* | Aktivieren Sie diese Option, wenn Sie die native Hardwarebeschleunigung für die Videowiedergabe verwenden möchten (nur Android™). |
 
 ### Beispiel für eine JSON-Richtlinie {#example-json}
@@ -168,13 +168,13 @@ Die folgende Tabelle fasst zur Referenz die Richtlinienattribute mit einer JSON-
 ```
 
 >[!NOTE]
->Alle Android™-Geräte verfügen über eine `*sdcard*` Ordner, ob ein tatsächlicher `*sdcard*` wird eingefügt oder nicht. Diese Datei befindet sich bei Bereitstellung auf derselben Ebene wie der Ordner „Downloads“. Einige MDMs wie Samsung Knox verweisen möglicherweise auf diesen Ordner *sdcard* als *Interner Datenspeicher*.
+>Alle Android™-Geräte haben eine `*sdcard*` Ordner, ob ein tatsächlicher `*sdcard*` wird eingefügt oder nicht. Diese Datei befindet sich bei Bereitstellung auf derselben Ebene wie der Ordner „Downloads“. Einige MDMs wie Samsung Knox verweisen möglicherweise auf diesen Ordner *sdcard* als *Interner Datenspeicher*.
 
-## Massenbereitstellung von Android™-Player mithilfe von Enterprise Mobility Management {#bulk-provisioning}
+## Massenbereitstellung von Android™-Playern mit Enterprise Mobility Management {#bulk-provisioning}
 
-Bei der Massenbereitstellung des Android™-Players wird es mühsam, jeden Player manuell bei AEM zu registrieren. Es wird dringend empfohlen, eine EMM-Lösung (Enterprise Mobility Management) zu verwenden, z. B. [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), MobileIron oder Samsung Knox verwenden, um Ihre Implementierung remote bereitzustellen und zu verwalten. Der AEM Screens Android™ Player unterstützt die standardmäßige EMM AppConfig-Lösung, die die Remote-Bereitstellung ermöglicht.
+Wenn Sie den Android™-Player stapelweise bereitstellen, wird es mühsam, jeden Player manuell bei AEM zu registrieren. Es wird dringend empfohlen, eine EMM-Lösung (Enterprise Mobility Management) zu verwenden, z. B. [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), MobileIron oder Samsung Knox zur Remote-Bereitstellung und -Verwaltung Ihrer Bereitstellung. Der AEM Screens Android™-Player unterstützt die branchenübliche EMM AppConfig, um die Remote-Bereitstellung zu ermöglichen.
 
-## Benennen von Android™ Player {#name-android}
+## Benennen des Android™-Players {#name-android}
 
 Sie können Ihrem Android™-Player einen benutzerfreundlichen Gerätenamen zuweisen und so den zugewiesenen Gerätenamen an AEM (Adobe Experience Manager) senden. Mit dieser Funktion können Sie nicht nur Ihren Android™-Player benennen, sondern auch mühelos geeignete Inhalte zuweisen.
 
@@ -183,14 +183,14 @@ Sie können Ihrem Android™-Player einen benutzerfreundlichen Gerätenamen zuwe
 
 Gehen Sie wie folgt vor, um den Namen im Android™-Player zu konfigurieren:
 
-1. Navigieren Sie zu **settings** > **Über Geräte**
-1. Bearbeiten Sie den Gerätenamen und legen Sie ihn fest, um den Android™-Player zu benennen.
+1. Navigieren zu **Einstellungen** > **Über das Gerät**
+1. Bearbeiten Sie den Gerätenamen und legen Sie ihn fest, um Ihren Android™-Player zu benennen
 
-### Implementieren der Massenbereitstellung von Android™ Player mithilfe von Enterprise Mobility Management {#implementation}
+### Implementieren der Massenbereitstellung des Android™-Players mit Enterprise Mobility Management {#implementation}
 
-Gehen Sie wie folgt vor, um die Massenbereitstellung im Android™-Player zuzulassen:
+Gehen Sie wie folgt vor, um die Massenbereitstellung in Android™ Player zuzulassen:
 
-1. Stellen Sie sicher, dass Ihr Android™-Gerät Google Play-Dienste unterstützt.
+1. Stellen Sie sicher, dass Ihr Android™-Gerät Google Play-Services unterstützt.
 1. Registrieren Sie Ihre Android™-Player-Geräte mit Ihrer bevorzugten EMM-Lösung, die AppConfig unterstützt.
 1. Melden Sie sich bei Ihrer EMM-Konsole an und rufen Sie die AEM Screens Player-Anwendung von Google Play ab.
 1. Wählen Sie die verwaltete Konfiguration oder die zugehörige Option aus.
@@ -198,9 +198,9 @@ Gehen Sie wie folgt vor, um die Massenbereitstellung im Android™-Player zuzula
 1. Konfigurieren Sie diese Parameter, speichern Sie sie und stellen Sie die Richtlinie auf den Geräten bereit.
 
    >[!NOTE]
-   >Die Geräte sollten das Programm zusammen mit der Konfiguration empfangen und auf den richtigen AEM-Server mit der ausgewählten Konfiguration verweisen. Wenn Sie den Massenregistrierungs-Code konfiguriert haben und ihn so belassen haben, wie er in AEM konfiguriert wurde, sollte sich der Player automatisch registrieren können. Wenn Sie eine Standardanzeige konfiguriert haben, kann sie auch einige Standardinhalte herunterladen und anzeigen (die später nach Belieben geändert werden können).
+   >Die Geräte sollten das Programm zusammen mit der Konfiguration empfangen und auf den richtigen AEM-Server mit der ausgewählten Konfiguration verweisen. Wenn Sie den Massenregistrierungs-Code konfiguriert haben und ihn so belassen haben, wie er in AEM konfiguriert wurde, sollte sich der Player automatisch registrieren können. Wenn Sie ein Standarddisplay konfiguriert haben, können Standardinhalte heruntergeladen und angezeigt werden (die später nach Bedarf geändert werden können).
 
-Wenden Sie sich außerdem an Ihren EMM-Anbieter, wenn Sie Fragen zur AppConfig-Unterstützung haben. Am häufigsten verwendete [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), [`Mobile Iron`](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm), [`SOTI`](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm), [`BlackBerry&reg; UEM`](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm), [`IBM&reg; Maas360`](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm), und [`Samsung Knox`](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm) unterstützen unter anderem diesen Industriestandard.
+Sie sollten sich auch an Ihren EMM-Anbieter wenden, um Informationen zur AppConfig-Unterstützung zu erhalten. Die beliebtesten wie [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), [`Mobile Iron`](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm), [`SOTI`](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm), [`BlackBerry&reg; UEM`](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm), [`IBM&reg; Maas360`](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm), und [`Samsung Knox`](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm) Dieser Branchenstandard wird unter anderem unterstützt.
 
 ### Verwenden der Fernbedienungs-Steuerung von Screens {#using-remote-control}
 

@@ -1,29 +1,25 @@
 ---
 title: Hinzufügen von Komponenten zu Kanälen
-seo-title: Adding Components to a Channel
-description: Auf dieser Seite erfahren Sie mehr über das Hinzufügen von Komponenten zu Kanälen in AEM Screens-Projekten.
-seo-description: Follow this page to learn more about adding components to channels in an AEM Screens project.
-uuid: 205d0edd-a696-47d0-a859-5f44d48c5e4a
+description: Weitere Informationen zum Hinzufügen von Komponenten zu Kanälen in einem AEM Screens-Projekt.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
-discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '1450'
-ht-degree: 77%
+source-wordcount: '1403'
+ht-degree: 40%
 
 ---
 
 # Hinzufügen von Komponenten zu Kanälen{#adding-components-to-a-channel}
 
-Komponenten sind die grundlegenden Elemente des AEM (Adobe Experience Manager)-Erlebnisses. Sie können verschiedene Komponenten nutzen und Kanälen in AEM Screens-Projekten hinzufügen.
+Komponenten sind die grundlegenden Elemente des AEM (Adobe Experience Manager)-Erlebnisses. Sie können mehrere Komponenten verwenden und sie zu Ihrem Kanal in einem AEM Screens-Projekt hinzufügen.
 
 ## Komponenten in AEM Screens {#components-in-aem-screens}
 
@@ -31,29 +27,29 @@ AEM Screens bietet verschiedene AEM-Komponenten, die sich in Screens-Projekten v
 
 ### Anzeigen von AEM Screens-Komponenten {#viewing-aem-screens-components}
 
-Bei jeder Erstellung eines AEM Screens-Projekts wird eine Liste der Standardkomponenten angezeigt, die zum Projekt hinzugefügt werden können.
+Jedes Mal, wenn Sie ein AEM Screens-Projekt erstellen, wird eine Liste von Standardkomponenten angezeigt, die dem Projekt hinzugefügt werden können.
 
 Gehen Sie wie folgt vor, um die Standardkomponenten für Ihr Screens-Projekt anzuzeigen:
 
-1. Wählen Sie den Kanal aus. Beispiel: **We.Retail im Store** > **Kanäle** > **Idle Channel**.
+1. Wählen Sie den Kanal aus. Beispiel: **`We.Retail In Store`** > **Kanäle** > **Leerweg**.
 
-1. Klicks **Bearbeiten** in der Aktionsleiste, um den AEM-Editor zu öffnen.
-1. Klicken Sie auf **+** in der Seitenleiste, um die Komponenten zu öffnen.
-1. Alle Komponenten, die standardmäßig in einem AEM Screens-Projekt enthalten sind, werden wie in der folgenden Abbildung dargestellt angezeigt.
+1. Auswählen **Bearbeiten** in der Aktionsleiste aus.
+1. Wählen Sie im AEM-Editor **+** Symbol in der Seitenleiste.
+1. Alle Komponenten, die standardmäßig in einem AEM Screens-Projekt enthalten sind, werden angezeigt, wie in der folgenden Abbildung dargestellt.
 
 ![screen_shot_2017-12-18at21350pm](assets/screen_shot_2017-12-18at21350pm.png)
 
 ### Hinzufügen neuer Komponenten {#adding-a-new-component}
 
-AEM bietet eine Reihe weiterer Komponenten. Sie können Ihrem Projekt jederzeit weitere (nicht standardmäßig enthaltene) Komponenten hinzufügen, sofern diese mit AEM Screens kompatibel sind.
+AEM bietet mehrere weitere Komponenten. Sie können jederzeit weitere (standardmäßig nicht enthaltene) Komponenten zu Ihrem Projekt hinzufügen, sofern diese mit AEM Screens kompatibel sind.
 
 Das folgende Beispiel zeigt das Hinzufügen einer Livefyre-Komponente zu einem AEM Screens-Projekt:
 
-1. Wählen Sie den Kanal aus, dem eine neue Komponente hinzugefügt werden soll. Beispiel: **We.Retail im Store** > **Kanäle** > **Idle Channel**.
+1. Wählen Sie den Kanal aus, dem Sie eine Komponente hinzufügen möchten. Beispiel: **`We.Retail In Store`** > **Kanäle** > **Leerweg**.
 
-1. Klicken Sie in der Aktionsleiste auf **Bearbeiten**, um den Editor zu öffnen.
+1. Auswählen **Bearbeiten** in der Aktionsleiste aus.
 1. Wählen Sie den Modus **Design** aus.
-1. Wählen Sie den gesamten Design-Editor auf der rechten Seite aus und klicken Sie auf das Einstellungssymbol, um den **ParSys-Design** Dialogfeld.
+1. Wählen Sie auf der rechten Seite den gesamten Design-Editor aus und klicken Sie auf das Einstellungssymbol, um den Editor zu öffnen. **Parsys-Design** Dialogfeld.
 1. Sie können die Komponenten auswählen, die Sie in Ihr AEM Screens-Projekt importieren möchten. Im folgenden Beispiel sehen Sie, wie einem AEM Screens-Projekt eine **Livefyre**-Komponente hinzugefügt wird.
 
 ![adding_components](assets/adding_components.gif)
@@ -68,18 +64,18 @@ Im folgenden Abschnitt werden die AEM Screens-Komponenten beschrieben, die Sie f
 
 >[!NOTE]
 >
->Um die Eigenschaften einer Komponente anzuzeigen, wählen Sie die Komponente aus und klicken Sie auf das Hammersymbol. Daraufhin werden die Eigenschaften geöffnet/eingeblendet.
+>Um die Eigenschaften einer beliebigen Komponente anzuzeigen, wählen Sie die Komponente aus und klicken Sie auf das Hammersymbol, um die Eigenschaften zu öffnen bzw. anzuzeigen.
 
-### Anwendung {#application}
+### Programm {#application}
 
-Die **Anwendung** -Komponente können Sie Ihrem Kanal eine Anwendung hinzufügen.
+Die **Anwendung** Mit der Komponente können Sie eine Anwendung zu Ihrem Kanal hinzufügen.
 
-Die Anwendungskomponente verfügt über die folgenden Eigenschaften:
+Die Anwendungskomponente hat die folgenden Eigenschaften:
 
 | **Eigenschaft** | **Beschreibung** |
 |---|---|
 | ***Anwendungspfad*** | Damit wird der absolute Pfad zur Anwendung festgelegt. |
-| ***Dauer (ms)*** | Damit wird die Dauer der Anwendung festgelegt. Standardmäßig ist die Dauer auf den Wert „-1“ eingestellt. Dies bedeutet, dass das Element auf unbestimmte Zeit ausgeführt wird (bei einer Single Page Application). Wird unter „Dauer“ ein Wert über 0 festgelegt, wird das Element für die angegebene Dauer angezeigt. Anschließend wird zum nächsten Element gewechselt. |
+| ***Dauer (Millisekunden)*** | Damit wird die Dauer der Anwendung festgelegt. Standardmäßig ist die Dauer auf den Wert „-1“ eingestellt. Dies bedeutet, dass das Element auf unbestimmte Zeit ausgeführt wird (bei einer Single Page Application). Wird unter „Dauer“ ein Wert über 0 festgelegt, wird das Element für die angegebene Dauer angezeigt. Anschließend wird zum nächsten Element gewechselt. |
 
 Im folgenden Beispiel sehen Sie, wie die Komponente „Anwendung“ hinzugefügt wird, einschließlich einer Vorschau ihrer Eigenschaften:
 
@@ -91,9 +87,9 @@ Im folgenden Beispiel sehen Sie, wie die Komponente „Anwendung“ hinzugefügt
 
 ### Kanal {#channel}
 
-Die **Kanal** -Komponente können Sie einem Projekt einen ganzen Kanal hinzufügen.
+Die **Kanal** Mit der Komponente können Sie dem Projekt einen gesamten Kanal hinzufügen.
 
-Die Komponente Kanal verfügt über die folgenden Eigenschaften:
+Die Kanal-Komponente hat die folgenden Eigenschaften:
 
 <table>
  <tbody>
@@ -106,15 +102,15 @@ Die Komponente Kanal verfügt über die folgenden Eigenschaften:
    <td>Damit wird der absolute Pfad zur Anwendung festgelegt.<br /> </td>
   </tr>
   <tr>
-   <td><strong><em>Dauer (ms)</em></strong></td>
-   <td>Damit wird die Gesamtdauer des Kanals festgelegt. Wird unter „Dauer“ ein Wert von „-1“ eingestellt, bedeutet dies, dass der eingebettete Kanal in einem bestimmten Kanal in vollständiger Länge ausgeführt wird.</td>
+   <td><strong><em>Dauer (Millisekunden)</em></strong></td>
+   <td>Damit wird die Gesamtdauer des Kanals festgelegt. Wenn Sie die Dauer auf -1 setzen, wird angegeben, dass der eingebettete Kanal in einem bestimmten Kanal seine volle Länge ausführt.</td>
   </tr>
  </tbody>
 </table>
 
 ### Eingebettete Seite {#embedded-page}
 
-Mit der Komponente **Eingebettete Seite** können Sie einem Projekt eine eingebettete Seite hinzufügen. Beispiel: eine Webanwendung oder einen Produktkatalog.
+und **Eingebettete Seite** Ermöglicht das Hinzufügen einer eingebetteten Seite zu einem Projekt. Beispiel: eine Webanwendung oder einen Produktkatalog.
 
 Die Komponente „Eingebettete Seite“ verfügt über die folgenden Eigenschaften:
 
@@ -129,8 +125,8 @@ Die Komponente „Eingebettete Seite“ verfügt über die folgenden Eigenschaft
    <td>Damit wird der absolute Pfad zum Kanal festgelegt.<br /> </td>
   </tr>
   <tr>
-   <td><strong><em>Dauer (ms)</em></strong></td>
-   <td>Damit wird die Gesamtdauer des Kanals festgelegt. Wird unter „Dauer“ ein Wert von „-1“ eingestellt, bedeutet dies, dass der eingebettete Kanal in einem bestimmten Kanal in vollständiger Länge ausgeführt wird.</td>
+   <td><strong><em>Dauer (Millisekunden)</em></strong></td>
+   <td>Damit wird die Gesamtdauer des Kanals festgelegt. Wenn Sie die Dauer auf -1 setzen, wird angegeben, dass der eingebettete Kanal in einem bestimmten Kanal seine volle Länge ausführt.</td>
   </tr>
  </tbody>
 </table>
@@ -139,11 +135,11 @@ Die Komponente „Eingebettete Seite“ verfügt über die folgenden Eigenschaft
 
 >[!NOTE]
 >
->Ausführliche Informationen zu eingebetteten Sequenzen finden Sie in „Inhaltserstellung in Screens“ unter [Eingebettete Sequenzen](embedded-sequences.md).
+>Ausführliche Informationen zu eingebetteten Sequenzen finden Sie unter [Eingebettete Sequenzen](embedded-sequences.md) im Abschnitt Authoring von Screens .
 
-Mit der Komponente „Eingebettete Sequenz“ können Sie einen eingebetteten Sequenzkanal in einem vorhandenen Kanal (mit anderen Assets) hinzufügen.
+Mit einer eingebetteten Sequenz können Sie einen eingebetteten Sequenzkanal innerhalb Ihres vorhandenen Kanals (mit anderen Assets) hinzufügen.
 
-Die eingebettete Sequenz verfügt über die folgenden Seiteneigenschaften:
+Die eingebettete Sequenz weist die folgenden Seiteneigenschaften auf:
 
 <table>
  <tbody>
@@ -156,21 +152,21 @@ Die eingebettete Sequenz verfügt über die folgenden Seiteneigenschaften:
    <td>Wählen Sie den absoluten Pfad der Sequenz aus, die Sie in Ihren Kanal aufnehmen möchten.<br /> </td>
   </tr>
   <tr>
-   <td><strong><em>Dauer (ms)</em></strong></td>
-   <td>Damit wird die Gesamtdauer des Kanals festgelegt. Wird unter „Dauer“ ein Wert von „-1“ eingestellt, bedeutet dies, dass der eingebettete Kanal in einem bestimmten Kanal in vollständiger Länge ausgeführt wird.</td>
+   <td><strong><em>Dauer (Millisekunden)</em></strong></td>
+   <td>Damit wird die Gesamtdauer des Kanals festgelegt. Wenn Sie die Dauer auf -1 setzen, wird angegeben, dass der eingebettete Kanal in einem bestimmten Kanal seine volle Länge ausführt.</td>
   </tr>
   <tr>
    <td><strong><em>Strategie</em></strong></td>
-   <td>Für diese Eigenschaft kann <strong>original</strong> oder <strong>einzeln</strong> festgelegt werden. Ist der Wert auf <strong>original</strong> eingestellt, wird die Teilsequenz bei jedem Zyklus der übergeordneten Sequenz vollständig ausgeführt. Der andere mögliche Wert lautet <strong>einzeln</strong>. Dabei wird nur ein Element der Teilsequenz bei jeder Ausführung angezeigt (beispielsweise das erste Element bei der ersten Schleife, das zweite Element bei der zweiten Schleife usw.).</td>
+   <td>Für diese Eigenschaft kann <strong>original</strong> oder <strong>einzeln</strong> festgelegt werden. Einstellung des Werts auf <strong>Original</strong> bedeutet, dass die Untersequenz vollständig auf jedem Zyklus der übergeordneten Sequenz ausgeführt wird. Der andere mögliche Wert ist <strong>ledig</strong>. Dieser Wert zeigt bei jedem Durchgang nur ein Element der Untersequenz an. Beispielsweise das erste Element in der ersten Schleife und das zweite Element in der zweiten Schleife.</td>
   </tr>
  </tbody>
 </table>
 
 ### Dynamische eingebettete Sequenz {#dynamic-embedded-sequence}
 
-Mit der Komponente „Dynamische eingebettete Sequenz“ können Sie, abhängig von der Kanalrolle, wie oben beschrieben eine Sequenz hinzufügen.
+Mit einer dynamischen eingebetteten Sequenz können Sie eine Sequenz hinzufügen, die der oben genannten ähnelt, außer nach Kanalrolle.
 
-Ausführliche Informationen zu eingebetteten Sequenzen finden Sie in „Inhaltserstellung in Screens“ unter [Eingebettete Sequenzen](embedded-sequences.md).
+Weitere Informationen zu eingebetteten Sequenzen finden Sie unter [Eingebettete Sequenzen](embedded-sequences.md) im Abschnitt Authoring von Screens .
 
 Die Komponente „Dynamische eingebettete Sequenz“ verfügt über die folgenden Eigenschaften:
 
@@ -185,21 +181,21 @@ Die Komponente „Dynamische eingebettete Sequenz“ verfügt über die folgende
    <td>Geben Sie die Kanalrolle an.<br /> </td>
   </tr>
   <tr>
-   <td><strong><em>Dauer (ms)</em></strong></td>
-   <td>Damit wird die Gesamtdauer des Kanals festgelegt. Wird unter „Dauer“ ein Wert von „-1“ eingestellt, bedeutet dies, dass der eingebettete Kanal in einem bestimmten Kanal in vollständiger Länge ausgeführt wird.</td>
+   <td><strong><em>Dauer (Millisekunden)</em></strong></td>
+   <td>Damit wird die Gesamtdauer des Kanals festgelegt. Wenn Sie die Dauer auf -1 setzen, wird angegeben, dass der eingebettete Kanal in einem bestimmten Kanal seine volle Länge ausführt.</td>
   </tr>
   <tr>
    <td><strong><em>Strategie</em></strong></td>
-   <td>Für diese Eigenschaft kann <strong>original</strong> oder <strong>einzeln</strong> festgelegt werden. Ist der Wert auf <strong>original</strong> eingestellt, wird die Teilsequenz bei jedem Zyklus der übergeordneten Sequenz vollständig ausgeführt. Der andere mögliche Wert lautet <strong>einzeln</strong>. Dabei wird nur ein Element der Teilsequenz bei jeder Ausführung angezeigt (beispielsweise das erste Element bei der ersten Schleife, das zweite Element bei der zweiten Schleife usw.).</td>
+   <td>Für diese Eigenschaft kann <strong>original</strong> oder <strong>einzeln</strong> festgelegt werden. Einstellung des Werts auf <strong>Original</strong> bedeutet, dass die Untersequenz vollständig auf jedem Zyklus der übergeordneten Sequenz ausgeführt wird. Der andere mögliche Wert ist <strong>ledig</strong>. Ein solcher Wert würde bei jedem Durchgang nur ein Element der Untersequenz anzeigen. Beispielsweise das erste Element in der ersten Schleife und das zweite Element in der zweiten Schleife.</td>
   </tr>
  </tbody>
 </table>
 
 ### Experience Fragment {#experience-fragment}
 
-Mit einem Experience Fragment können Sie dem AEM Screens-Kanal ein Experience Fragment hinzufügen (Gruppe aus einer oder mehreren Komponenten, einschließlich Inhalt und Layout, auf die in Seiten verwiesen werden kann). Ziehen Sie die Komponente in den AEM-Editor und wählen Sie das Experience Fragment aus.
+Mit einem Experience Fragment können Sie ein Experience Fragment (eine Gruppe aus einer oder mehreren Komponenten, einschließlich Inhalt und Layout, die innerhalb von Seiten referenziert werden können) zu Ihrem AEM Screens-Kanal hinzufügen. Ziehen Sie die Komponente per Drag-and-Drop in den AEM-Editor und wählen Sie das Experience Fragment aus.
 
-Weitere Informationen zum Erstellen eines Experience Fragments und dessen Verwendung in einem AEM Screens-Projekt finden Sie unter [Verwenden von Experience Fragmenten](experience-fragments-in-screens.md).
+Weitere Informationen zum Erstellen eines Experience Fragments und dessen Anwendung auf ein AEM Screens-Projekt finden Sie unter [Verwenden von Experience Fragments](experience-fragments-in-screens.md).
 
 ![exp](assets/exp.gif)
 
@@ -207,14 +203,14 @@ Weitere Informationen zum Erstellen eines Experience Fragments und dessen Verwen
 |---|---|
 | **Experience Fragment** |
 | ***Experience Fragment*** | Wählen Sie das Experience Fragment aus. |
-| ***Dauer*** | Wählen Sie die Gesamtdauer des Experience Fragment aus, das im Kanal wiedergegeben wird. |
+| ***Dauer*** | Wählen Sie die gesamte Dauer des Experience Fragments aus, das im Kanal wiedergegeben wird. |
 | **Offline-Konfiguration** |
 | ***Client-seitige Bibliotheken*** | JavaScript- und CSS-Dateien. |
-| ***Statische Dateien*** | Statische Dateien, die Sie als Offline-Konfigurationen Ihrem Experience Fragment hinzufügen können. |
+| ***Statische Dateien*** | Statische Dateien, die Sie als Offline-Konfigurationen zu Ihrem Experience Fragment hinzufügen können. |
 
 >[!NOTE]
 >
->Die **Client-seitigen Bibliotheken** und **statischen Dateien**, die Sie aus dieser Komponente hinzufügen, werden zusätzlich zu den bereits konfigurierten **Client-seitigen Bibliotheken** und statischen Dateien bereitgestellt, die über die **Eigenschaften** des Experience Fragment hinzugefügt werden.
+>Die **Client-seitige Bibliotheken** und die **Statische Dateien** , die Sie aus dieser Komponente hinzufügen, sind zusätzlich zu bereits konfiguriert **Client-seitige Bibliotheken** und die statischen Dateien, die aus dem des Experience Fragments hinzugefügt werden **Eigenschaften**.
 
 ### Bild {#image}
 
@@ -231,19 +227,19 @@ Das Bild-Asset besitzt die drei Registerkarten **Bild**, **Erreichbarkeit** und 
 | ***Beschreibung*** | Hierbei handelt es sich um eine kurze Beschreibung des Bildes. |
 | ***Größe*** | Größe des Bildes. |
 | **Erreichbarkeit** |
-| ***Alternativtext*** | Alternativer Text zum Bild. |
+| ***Alternativtext*** | Alternativtext zum Bild. |
 | **Sequenz** |
-| ***Dauer*** | Standardmäßig ist die Dauer auf *8000 ms* eingestellt. Wenn Sie die Wiedergabedauer des Bildes ändern möchten, aktualisieren Sie das Feld **Dauer**. |
+| ***Dauer*** | Standardmäßig ist die Dauer auf festgelegt. *8000 Millisekunden*. Wenn Sie die Wiedergabedauer des Bildes ändern möchten, aktualisieren Sie das Feld **Dauer**. |
 
 ### Übergang {#transition}
 
-Mit der Komponente „Übergang“ können Sie Screens-Projekten einen Übergang hinzufügen.
+Mit der Transition-Komponente können Sie eine Transition zu Ihrem Screens-Projekt hinzufügen.
 
 Die folgende Abbildung veranschaulicht die (per Drag-and-Drop hinzugefügte) Übergangskomponente im Editor.
 
 ![screen_shot_2019-07-25at104237am](assets/screen_shot_2019-07-25at104237am.png)
 
-Wählen Sie das Übergangssymbol aus und klicken Sie auf **Konfigurieren** (das Schraubenschlüsselsymbol), um das Dialogfeld **Übergang** zu öffnen. Dieses Dialogfeld enthält drei Registerkarten:
+Klicken Sie auf das Übergangssymbol und dann auf **Konfigurieren von** (Schraubenschlüsselsymbol) zum Öffnen des **Übergang** Dialogfeld. Dieses Dialogfeld enthält drei Registerkarten:
 
 * **Übergang**
 * **Sequenz**
@@ -251,7 +247,7 @@ Wählen Sie das Übergangssymbol aus und klicken Sie auf **Konfigurieren** (das 
 
 >[!NOTE]
 >
->Standardmäßig ist die Sequenz auf 600 ms eingestellt. Sie können die Übergangssequenz auf einen anderen Wert aktualisieren, indem Sie die Registerkarte **Sequenz** nutzen.
+>Standardmäßig ist die Sequenz auf 600 Millisekunden festgelegt. Sie können die Übergangssequenz mithilfe der folgenden Optionen auf andere Werte aktualisieren **Ablauf** Tabulator.
 
 ![Übergang](assets/transition.gif)
 
@@ -285,7 +281,7 @@ Die Komponente „Übergang“ verfügt über die folgenden Eigenschaften:
   </tr>
   <tr>
    <td><strong><em>Dauer</em></strong></td>
-   <td>Damit wird die Gesamtdauer des Übergangs festgelegt. Standardmäßig ist der Wert auf 600 ms eingestellt.</td>
+   <td>Damit wird die Gesamtdauer des Übergangs festgelegt. Standardmäßig ist dieser Wert auf 600 Millisekunden festgelegt.</td>
   </tr>
   <tr>
    <td><strong>Aktivierung</strong></td>
@@ -308,9 +304,9 @@ Die Komponente „Übergang“ verfügt über die folgenden Eigenschaften:
 
 ### Video {#video}
 
-Mit der Komponente &quot;Video&quot;können Sie Ihrem Screens-Projekt ein Video hinzufügen.
+Mit der Komponente Video können Sie ein Video zu Ihrem Screens-Projekt hinzufügen.
 
-Die Videokomponente verfügt über die folgenden Eigenschaften:
+Die Videokomponente weist die folgenden Eigenschaften auf:
 
 <table>
  <tbody>
@@ -328,7 +324,7 @@ Die Videokomponente verfügt über die folgenden Eigenschaften:
   </tr>
   <tr>
    <td><em><strong>Rendering</strong></em></td>
-   <td><p>Wenn das Video-Seitenverhältnis nicht auf den Bildschirm passt, können Sie das Rendering auf Folgendes einstellen: <strong>contain</strong> oder <strong>cover</strong>.</p> <p><em>Contain</em> bedeutet, dass das vollständige Video angezeigt und die fehlenden Bereiche mit einem schwarzen Rahmen aufgefüllt werden.</p> <p><em>Abdeckung</em> bedeutet, dass das Video den gesamten Viewport abdeckt, aber einige Teile, die an den Seiten überlaufen werden, sind ausgeblendet.</p> </td>
+   <td><p>Wenn das Seitenverhältnis des Videos nicht auf den Bildschirm passt, können Sie das Rendering wie folgt anpassen <strong>contain</strong> oder <strong>überziehen</strong>.</p> <p><em>contain</em> bedeutet, dass das vollständige Video angezeigt wird und die fehlenden Bereiche mit einem schwarzen Rahmen aufgefüllt sind.</p> <p><em>überziehen</em> bedeutet, dass das Video das gesamte Ansichtsfenster abdeckt, aber einige Teile, die an den Seiten überlaufen, ausgeblendet sind.</p> </td>
   </tr>
   <tr>
    <td><em><strong>Größe</strong></em></td>

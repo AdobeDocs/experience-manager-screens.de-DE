@@ -1,15 +1,14 @@
 ---
 title: Kanalzuweisung – Neuestes Feature Pack
-seo-title: Channel Assignment - Latest FP
-description: Auf dieser Seite erhalten Sie Informationen zur Kanalzuweisung und zu Dayparting.
+description: Erfahren Sie mehr über die Kanalzuweisung und die Tagesaufteilung.
 feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '1476'
-ht-degree: 88%
+source-wordcount: '1462'
+ht-degree: 45%
 
 ---
 
@@ -45,7 +44,7 @@ Gehen Sie wie folgt vor, um ein Projekt und einen Kanal einzurichten:
 
 1. Erstellen Sie einen Sequenzkanal mit dem Namen **Cafeteria** im Ordner **Kanäle**.
 
-1. Wählen Sie den Kanal aus und klicken Sie in der Aktionsleiste auf **Bearbeiten**, um dem Kanal Inhalte hinzuzufügen.
+1. Wählen Sie den Kanal aus und klicken Sie auf **Bearbeiten** in der Aktionsleiste aus.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp2.png)
 
@@ -59,9 +58,9 @@ Gehen Sie wie folgt vor, um ein Projekt und einen Kanal einzurichten:
 
 ### Zuweisen eines Kanals zu einer Anzeige {#assigning-channel-to-display}
 
-Nachdem das Projekt fertig eingerichtet wurde, müssen Sie den Kanal einem Display zuweisen, um den Inhalt anzuzeigen.
+Wenn die Projekteinrichtung abgeschlossen ist, müssen Sie den Kanal einem Display zuweisen, um den Inhalt anzuzeigen.
 
-1. Navigieren Sie zur gewünschten Anzeige, beispielsweise **DemoScreens** > **Standorte** > **SanJose** > **Lobby**.
+1. Navigieren Sie zur gewünschten Anzeige, z. B. **DemoScreens** > **Speicherorte** > **SanJose** > **Lobby**.
 
 1. Tippen/klicken Sie in der Aktionsleiste auf **Kanal zuweisen**.
 
@@ -77,7 +76,7 @@ Nachdem das Projekt fertig eingerichtet wurde, müssen Sie den Kanal einem Displ
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-1. Unter **Einstellungen** können Sie den Kanal **nach Pfad** oder **nach Namen** auswählen, die **Kanalrolle**, die **Priorität**, die **unterstützten Ereignisse** und die **Unterbrechungsmethoden** eingeben. Darüber hinaus können Sie die Attraktions-QuickInfos in diesem Dialogfeld aktivieren.
+1. Unter **Einstellungen** können Sie den Kanal **nach Pfad** oder **nach Namen** auswählen, die **Kanalrolle**, die **Priorität**, die **unterstützten Ereignisse** und die **Unterbrechungsmethoden** eingeben. In diesem Dialogfeld können Sie auch die QuickInfo Attraktion aktivieren.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
@@ -85,7 +84,7 @@ Nachdem das Projekt fertig eingerichtet wurde, müssen Sie den Kanal einem Displ
    >
    >Weitere Informationen zu den Kanalzuweisungseigenschaften finden Sie im Abschnitt [Kanaleigenschaften](#channel-properties).
 
-1. Wählen Sie unter **Zeitplan** die Optionen **Aktivierungsfenster** und **Intervallzeitplan** aus.
+1. Aus dem **Zeitplan** die Option auswählen **Aktivierungsfenster** und **Wiederholungszeitplan**.
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
@@ -100,7 +99,7 @@ In diesem Beispiel wird die Ausgabe auf einem Chrome-Player beschrieben. Nachdem
 
 Informationen zum Registrieren eines Geräts auf einem AEM Screens-Player finden Sie unter [Geräteregistrierung](device-registration.md).
 
-Sie werden die folgende Ausgabe auf Ihrem Player sehen:
+Sie können die folgende Ausgabe für einen Player Ihrer Wahl anzeigen:
 
 ![new1](assets/channel-assignment/channel-assign-output.gif)
 
@@ -110,7 +109,7 @@ Nachdem Sie einen Kanal einer Anzeige zugewiesen und einen Intervallzeitplan ein
 
 Führen Sie die folgenden Schritte aus, um zur Timeline-Ansicht zu navigieren:
 
-1. Navigieren Sie zur gewünschten Anzeige, beispielsweise **DemoScreens** > **Standorte** > **SanJose** > **Lobby**.
+1. Navigieren Sie zur gewünschten Anzeige, z. B. **DemoScreens** > **Speicherorte** > **SanJose** > **Lobby**.
 
 1. Tippen/klicken Sie in der Aktionsleiste auf **Kanal zuweisen**.
 
@@ -128,50 +127,49 @@ Die folgenden Eigenschaften werden über die Option **Einstellungen** im Dialogf
 
 ### Kanal auswählen {#select-channel}
 
-Mit der Auswahl eines Kanals können Sie einen Verweis zum gewünschten Kanal bereitstellen, entweder in Form des Namens oder des Pfads des Kanals.
+Wenn Sie einen Kanal auswählen, können Sie einen Verweis auf den gewünschten Kanal entweder über den Kanalnamen oder über den Kanalpfad angeben.
 
-* **nach Pfad**: Sie stellen einen expliziten Verweis durch Angabe des absoluten Pfads des Kanals bereit.
-
-* **nach Name**: Sie geben den Namen des Kanals ein, der entsprechend dem Kontext zu einem tatsächlichen Kanal führt. Mit dieser Funktion können Sie eine lokale Version eines Kanals erstellen, um standortspezifischen Inhalt dynamisch aufzulösen. Beispiel: ein Kanal mit dem Namen *Tagesangebote*, bei dem der eigentliche Inhalt in zwei Städten zwar unterschiedlich ist, aber bei allen Anzeigen dieselbe Kanalrolle vorhanden ist.
+* **Nach Pfad** - Sie geben eine explizite Referenz unter Verwendung des absoluten Pfads des Kanals an.
+* **Nach Name** - Sie geben den Namen des Kanals ein, der anhand des Kontexts zu einem tatsächlichen Kanal aufgelöst wird. Mit dieser Funktion können Sie eine lokale Version eines Kanals erstellen, damit Sie ortsspezifische Inhalte dynamisch auflösen können. Beispiel: ein Kanal mit dem Namen *Tagesangebote*, bei dem der eigentliche Inhalt in zwei Städten zwar unterschiedlich ist, aber bei allen Anzeigen dieselbe Kanalrolle vorhanden ist.
 
 ### Kanalrolle {#role-channel}
 
-In „Kanalrolle“ wird der Kontext der Anzeige definiert. Die Rolle kann durch verschiedene Aktionen festgelegt werden und ist unabhängig vom eigentlichen Kanal, der der Rolle entspricht.
+In „Kanalrolle“ wird der Kontext der Anzeige definiert. Die Rolle wird durch verschiedene Aktionen angesprochen und ist unabhängig vom tatsächlichen Kanal, der die Rolle erfüllt.
 
 ### Priorität {#priority-channel}
 
-Mit „Priorität“ können Zuweisungen geordnet werden, falls mehrere die Wiedergabekriterien erfüllen. Höhere Werte haben stets Vorrang vor niedrigeren Werten. Angenommen, es gibt zwei Kanäle, A und B. Wenn A die Priorität 1 und B die Priorität 2 hat, wird Kanal B angezeigt, da er eine höhere Priorität als A hat.
+Die Priorität wird verwendet, um die Zuweisungen in eine Reihenfolge zu bringen, wenn mehrere Zuweisungen den Wiedergabekriterien entsprechen. Höhere Werte haben stets Vorrang vor niedrigeren Werten. Angenommen, es gibt zwei Kanäle, A und B. Wenn A die Priorität 1 und B die Priorität 2 hat, wird Kanal B angezeigt, da er eine höhere Priorität als A hat.
 
 >[!NOTE]
 >
->Die Priorität eines Kanals wird als Zahl (1 für Minimum) im Dialogfeld **Kanalzuweisung** festgelegt, wie oben angegeben. Darüber hinaus werden die zugewiesenen Kanäle nach absteigender Priorität sortiert.
+>Die Priorität eines Kanals wird als Zahl (1 für Minimum) im Dialogfeld **Kanalzuweisung** festgelegt, wie oben angegeben. Außerdem werden die zugewiesenen Kanäle nach absteigender Priorität sortiert.
 
 ### Unterstützte Ereignisse {#supported-events-channel}
 
-* **Erster Ladevorgang**: Lädt den Kanal beim Start des Players. Er kann in Kombination mit einem Zeitplan mehreren Kanälen zugewiesen werden
-* **Bildschirm bei Untätigkeit**: Lädt, wenn der Bildschirm inaktiv ist. Er kann in Kombination mit einem Zeitplan mehreren Kanälen zugewiesen werden
-* **Timer**: muss festgelegt werden, wenn ein Zeitplan bereitgestellt wird.
-* **Benutzerinteraktion**: Der Player wechselt zum angegebenen Kanal, wenn sich auf dem Bildschirm eine Benutzerinteraktion (Touch) im Leerlauf befindet, und wird geladen, wenn der Bildschirm berührt wird.
+* **Vorbelastung** - Lädt den Kanal, wenn der Player gestartet wird. Sie kann mehreren Kanälen mit einem Zeitplan zugewiesen werden.
+* **Bildschirm im Leerlauf** - Lädt, wenn der Bildschirm inaktiv ist. Sie kann mehreren Kanälen mit einem Zeitplan zugewiesen werden.
+* **Timer** - Muss festgelegt werden, wenn ein Zeitplan bereitgestellt wird.
+* **Benutzerinteraktion** - Der Player wechselt in den angegebenen Kanal, wenn eine Benutzerinteraktion auf dem Bildschirm (Touch) in einem inaktiven Kanal stattfindet, und lädt, wenn der Bildschirm berührt wird.
 
 ### Unterbrechungsmethode {#interruption-method-channel}
 
 >[!IMPORTANT]
-> Diese Option ist nur mit AEM 6.4 Feature Pack 8 oder AEM 6.5 Feature Pack 4 verfügbar.
+> Diese Option ist nur verfügbar mit <!--AEM 6.4 Feature Pack 8 or-->AEM 6.5 Feature Pack 4.
 
-Als Autor von Inhalten sollten Sie festlegen können, wann ein Kanal unterbrochen wird, damit nicht kritische Inhalte abgeschnitten werden können, wichtige Inhalte jedoch vollständig abgespielt werden, bevor die Wiedergabe aufgrund der Zeitplanung abgebrochen wird.
+Als Inhaltsautor können Sie angeben, wann ein Kanal unterbrochen wird. Auf diese Weise können Sie nicht kritische Inhalte abschneiden. Sie haben jedoch auch die Möglichkeit, wichtige Inhalte vollständig wiederzugeben, bevor sie aufgrund von Zeitplänen gekürzt werden.
 
 Wählen Sie eine der folgenden Optionen aus, die zum Festlegen der Unterbrechungsmethode im Dialogfeld **Kanalzuweisung** verfügbar sind:
 
-* **Sofort**: Wenn der Zeitplan aktiviert oder eine Aktualisierung empfangen wird, können Sie die Wiedergabe abbrechen und den neuen Inhalt sofort aktualisieren oder wiedergeben.
-* **Am Ende des aktuellen Elements**: Wenn ein neuer Zeitplan aktiviert wird oder eine Aktualisierung empfangen wird, haben Sie die Möglichkeit zu warten, bis die Wiedergabe des aktuellen Elements in der Sequenz abgeschlossen ist. Danach aktualisieren Sie den neuen Inhalt und geben ihn wieder.
+* **Immediately** - Wenn der Zeitplan aktiviert wird oder eine Aktualisierung empfangen wird, können Sie die Wiedergabe abschneiden und den neuen Inhalt sofort aktualisieren oder wiedergeben
+* **Ende des aktuellen Elements** - Wenn ein neuer Zeitplan aktiviert oder eine Aktualisierung empfangen wird, können Sie optional warten, bis das aktuelle Element in der Sequenz die Wiedergabe abgeschlossen hat. Erst danach können Sie den neuen Inhalt aktualisieren oder wiedergeben.
 
   >[!NOTE]
   >Standardmäßig ist diese Option aktiviert.
 
-* **Am Ende der Sequenz**: Wenn ein neuer Zeitplan aktiviert oder eine Aktualisierung empfangen wird, haben Sie die Möglichkeit zu warten, bis die gesamte Sequenz ihr Ende erreicht. Kurz vor der gewünschten Sequenz kehren Sie zurück zum ersten Element, aktualisieren den neuen Inhalt oder spielen diesen ab.
+* **Am Ende der Sequenz** - Wenn ein neuer Zeitplan aktiviert wird oder eine Aktualisierung empfangen wird, können Sie optional warten, bis die gesamte Sequenz ihr Ende erreicht. Anschließend können Sie direkt vor der gewünschten Sequenz zum ersten Element zurückkehren, es aktualisieren oder den neuen Inhalt wiedergeben.
 
   >[!NOTE]
-  >Die Verwendung der zweiten oder dritten Option kann dazu führen, dass die für die Zuweisung festgelegten Zeiträume geringfügig verschoben werden, da der Player vor dem Aktualisieren auf das Ende des Elements oder der Sequenz (nach der angegebenen Zeit) wartet. Die Verzögerung hängt von der Wiedergabedauer des Elements ab.
+  >Die Verwendung der zweiten oder dritten Option kann dazu führen, dass die für die Zuweisung definierten Planungszeiten geringfügig verschoben werden. Der Grund dafür ist, dass der Player vor dem Aktualisieren auf das Ende des Elements oder der Sequenz (nach der angegebenen Zeit) wartet. Die Verzögerung hängt von der Wiedergabedauer des Elements ab.
 
 Die folgenden Eigenschaften werden über die Option **Zeitplan** im Dialogfeld **Kanalzuweisung** festgelegt.
 
@@ -179,52 +177,52 @@ Die folgenden Eigenschaften werden über die Option **Zeitplan** im Dialogfeld *
 
 ### Aktivierungsfenster {#activation-window}
 
-Im Aktivierungsfenster können Sie ein **Anfangsdatum** und ein **Enddatum** für die Inhaltsanzeige auswählen.
+Im Aktivierungsfenster können Sie eine **Startdatum** und ein **Enddatum** um Ihren Inhalt anzuzeigen.
 
 ### Intervallzeitplan {#recurrence-schedule}
 
-Mit dem Intervallzeitplan können Sie einen Zeitplan für Ihre Inhalte festlegen. Klicken Sie auf **+ Zeitplan hinzufügen**, um Ihrem Kanal einen Intervallzeitplan hinzuzufügen.
+Mit dem Wiederholungszeitplan können Sie einen wiederkehrenden Zeitplan für Ihren Inhalt festlegen. Auswählen **+ Zeitplan hinzufügen** , um einen Wiederholungszeitplan zu Ihrem Kanal hinzuzufügen.
 
 >[!NOTE]
 >Sie können Ihrem Kanal mehrere Intervallzeitpläne hinzufügen.
->Mit den Intervallzeitplänen wird *Dayparting* eingeführt, wodurch Sie einen globalen Zeitplan mit mehreren Kanälen festlegen können, die zu bestimmten Tageszeiten ausgeführt werden. Diese Einstellung kann dann für alle Anzeigen wiederverwendet werden.
+>Wiederkehrende Zeitpläne führen ein *DayParting* Dadurch können Sie einen globalen Zeitplan mit mehreren Kanälen festlegen, die zu bestimmten Tageszeiten ausgeführt werden, und diesen Zeitplan dann für alle Ihre Displays gleichzeitig wiederverwenden.
 
 Sie können die folgenden Optionen festlegen:
 
-* **Name**: Titel des Intervallzeitplans.
-* **Wiederholen**: Wählen Sie aus, ob der Plan **täglich**, **wöchentlich**, **monatlich** oder **jährlich** ausgeführt werden soll.
-* **Anfang**: Die Startzeit Ihres Zeitplans.
-* **Ende**: Die Endzeit Ihres Zeitplans. Sie können die Einstellung nach Zeit oder Dauer festlegen.
-   * **Zeit**: Der Zeitplan endet zu einer bestimmten Zeit.
-   * **Dauer**: Der Zeitplan wird für eine bestimmte Zeitdauer in Stunden oder Minuten ausgeführt.
+* **Name** - Titel Ihres Wiederholungszeitplans.
+* **Wiederholen** : Auswählen, ob der Zeitplan ausgeführt wird **Täglich**, **Wöchentlich**, **Monatlich**, oder **Jährlich**.
+* **Starten** - Die Startzeit für Ihren Zeitplan.
+* **Ende** - Die Endzeit für Ihren Zeitplan. Sie können die Einstellung nach Zeit oder Dauer festlegen.
+   * **Zeit** - Der Zeitplan endet zu einem bestimmten Zeitpunkt.
+   * **Dauer** - Der Zeitplan wird für eine bestimmte Zeitdauer in Stunden oder Minuten ausgeführt.
 
-### Dayparting {#dayparting}
+### DayParting {#dayparting}
 
-Bei Dayparting wird ein Tag in Zeitfenster unterteilt und festgelegt, welcher Inhalt zum gewünschten Zeitpunkt dargestellt wird. Mit AEM Screens können Sie den Dayparting-Zeitplan von Kanälen nach Bedarf für Tage, Wochen oder Monate festlegen.
+Day Parting bezieht sich auf die Aufteilung eines Tages in Zeitschlitze und die Angabe, welcher Inhalt zum gewünschten Zeitpunkt abgespielt wird. Mit AEM Screens können Sie Kanäle in Form von DayParting innerhalb eines Tages, einer Woche oder eines Monats gemäß den Anforderungen planen.
 
 Im Folgenden wird in drei Szenarien beschrieben, wie Dayparting mit Kanälen verwendet werden kann:
 
 #### Anzeigen von Inhalten an einem einzigen Tag unterteilt in mehrere Zeitfenster {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
-Im folgenden Beispiel wird veranschaulicht, wie ein Restaurant Dayparting verwendet, um täglich sein Angebot für Frühstück, Mittagessen und Abendessen zu präsentieren.
+Dieses Beispiel zeigt, wie ein Restaurant DayParting verwendet, um sein Frühstück, Mittag- und Abendmenü jeden Tag zu präsentieren.
 
-Wir unterteilen jeden Tag in verschiedene Zeitfenster, sodass der Kanalinhalt gemäß der Tageszeit angezeigt wird. Legen Sie die folgenden Eigenschaften des Intervallzeitplans für Ihren Kanal fest, um den Inhalt gemäß diesem Verwendungsfall wiederzugeben.
+Hier wird jeder Tag in verschiedene Zeitfenster unterteilt, sodass der Kanalinhalt gemäß der angegebenen Tageszeit wiedergegeben wird. Legen Sie die folgenden Eigenschaften des Intervallzeitplans für Ihren Kanal fest, um den Inhalt gemäß diesem Verwendungsfall wiederzugeben.
 
 | **Name** | **Wiederholungen** | **Anfang** | **Ende** |
 |---|---|---|---|
-| Frühstück | Täglich | 06:00 Uhr | 11:00 Uhr |
-| Mittagessen | Täglich | 11:00 Uhr | 15:00 Uhr |
-| Abendessen | Täglich | 15:00 Uhr | 20:00 Uhr |
+| Frühstück | Täglich | 06:00 | 11:00 |
+| Mittagessen | Täglich | 11:00 | 15:00 |
+| Abendessen | Täglich | 15:00 | 20:00 |
 
 #### Anzeigen von Inhalten an einem bestimmten Wochentag {#playing-content-on-a-particular-day-of-the-week}
 
-In diesem Beispiel wird gezeigt, wie Dayparting in einem Casino umgesetzt wird, wo an jedem Wochenende von 20:00 Uhr bis 22:00 Uhr eine Live-Veranstaltung stattfindet und von 22:00 Uhr bis 1:00 Uhr in der Abendkarte spezielle Gerichte angeboten werden
+Dieses Beispiel zeigt das DayParting in einem Casino, in dem jedes Wochenende von 20:00 bis 22:00 Uhr Live-Veranstaltungen stattfinden und nach 22:00 bis 1:00 Uhr Abendmenüs angeboten werden.
 
 | **Name** | **Wiederholungen** | **Anfang** | **Ende** |
 |---|---|---|---|
-| Wochenende | Wöchentlich: Samstag, Sonntag | 20:00 Uhr | 22:00 Uhr |
-| Sonderangebote | Täglich: Montag bis Freitag | 22:00 Uhr | 01:00 Uhr |
+| Wochenende | Wöchentlich: Samstag und Sonntag | 20:00 | 22:00 |
+| Sonderangebote | Täglich: Montag bis Freitag | 22:00 | 01:00 |
 
 >[!NOTE]
 >
->Darüber hinaus können Sie für jeden Kanal die ***Priorität*** festlegen. Wenn beispielsweise zwei Kanäle für denselben Tag und dieselbe Uhrzeit oder für denselben Monat festgelegt sind, wird der Kanal mit höherer Priorität zuerst wiedergegeben. Der Mindestwert für die Priorität kann auf 0 gesetzt werden.
+>Außerdem können Sie Folgendes definieren ***Priorität*** für jeden der Kanäle. Wenn beispielsweise zwei Kanäle für denselben Tag und dieselbe Uhrzeit oder für denselben Monat festgelegt sind, wird zuerst der Kanal mit höherer Priorität wiedergegeben. Der Mindestwert für die Priorität kann auf 0 festgelegt werden.

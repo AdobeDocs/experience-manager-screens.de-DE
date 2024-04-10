@@ -1,38 +1,36 @@
 ---
 title: Wechsel zu Plattform
-seo-title: Übergang zur Plattform für AEM Screens
-description: Auf dieser Seite wird der Übergang zur Plattform beschrieben.
-seo-description: Auf dieser Seite wird der Übergang zur Plattform beschrieben.
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '193'
-ht-degree: 100%
+description: Erfahren Sie mehr über den Wechsel zu Platform in AEM Screens.
+exl-id: e69f504f-d20b-4cdb-b567-5c9c1df4d331
+source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 11%
 
 ---
 
-
-# Übergang zur Plattform {#transition-platform}
+# Wechsel zu Plattform {#transition-platform}
 
 >[!NOTE]
 >
 >Typische Verantwortliche für diese Aktivität sind AEM-Implementoren.
 
-Da unser Projekt von einer strategischen Vision zur Realität geworden ist, sollten wir uns nun auf die Aufgaben vorbereiten, die erledigt werden müssen, um in AEM ein reales, implementierbares Screens-Projekt einrichten zu können.
+Nachdem sich Ihr Projekt von einer strategischen Vision zu einer Wireframe-Realität entwickelt hat, sollten Sie sich jetzt auf die Aufgaben vorbereiten, die erforderlich sind, um ein Screens-Projekt in AEM zu erstellen, das Sie bereitstellen können.
 
-Das umfasst die Zuordnung plattformspezifischer Konfigurationen zu lose definierten Anforderungen, die in der Prototypenphase definiert wurden.
+Dieses Projekt umfasst die Zuordnung plattformspezifischer Konfigurationen zu locker definierten Anforderungen, die in der Prototyping-Phase definiert wurden.
 
-Beispiele würden Nutzungsszenarien beinhalten:
+Beispiele sind die Verwendung der folgenden Elemente:
 
-* **Experience Fragments** zum Erstellen von Inhaltsgruppierungen
-* **Content Fragments** zum Erstellen von Textvarianten
-* **ContextHub** zum Erstellen externer Datenspeicher, SPAs für interaktive Erlebnisse
-* **OSGi-Services** für Netzwerkwarnungen
-* **Asset-Link** für Creative Cloud-Sourcing
-* **Netzwerkordner** für die Asset-Zuordnung
-* **Textüberlagerung** für Echtzeitdaten
-* **Zeitpläne** für Anzeige-/Kanalgruppierungen
+* **Experience Fragments** zum Erstellen von Inhaltsgruppierungen.
+* **Inhaltsfragmente** zum Erstellen von Textvarianten.
+* **ContextHub** Zum Erstellen externer Datenspeicher verwenden Sie die SPA für interaktive Erlebnisse.
+* **OSGi-Dienste** für Netzwerk-Warnhinweise.
+* **Asset-Link** für die Creative Cloud-Beschaffung.
+* **Netzwerkordner** für die Asset-Zuordnung.
+* **Textüberlagerung** für Echtzeitdaten.
+* **Zeitpläne** für Anzeige-/Kanal-Gruppierungen.
 * **Workflows** für automatisierte Inhaltsbearbeitung
 
-In dieser Phase müssen alle Aufgaben und Aktivitäten, die Aufmerksamkeit erfordern, geprüft und ordnungsgemäß dokumentiert werden, damit zugewiesene Aufgaben in der Implementierungsphase richtig nachverfolgt werden können.
+Überprüfen Sie in dieser Phase alle erforderlichen Aufgaben und Aktivitäten, die Aufmerksamkeit erfordern, und dokumentieren Sie sie ordnungsgemäß, damit zugewiesene Aufgaben in der Bereitstellungsphase ordnungsgemäß verfolgt werden können.
 
-Außerdem sollten in dieser Phase alle vordefinierten Aktivitäten als mögliche Automatisierungskandidaten geprüft werden.
+Überprüfen Sie in dieser Phase auch alle vordefinierten Aktivitäten als mögliche Kandidaten für die Automatisierung.

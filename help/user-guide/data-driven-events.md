@@ -1,27 +1,24 @@
 ---
 title: Datengesteuerte Ereignisse
-seo-title: Datengesteuerte Ereignisse
-description: 'null'
-seo-description: 'null'
+description: null
 page-status-flag: never-activated
-uuid: 138ceff2-84a2-47f2-981a-755522502c16
 contentOwner: jsyal
 discoiquuid: b662831c-8cb0-48d8-9b4b-cc11a573d1b5
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 100%
+source-wordcount: '162'
+ht-degree: 24%
 
 ---
 
 
 # Datengesteuerte Ereignisse{#data-driven-events}
 
-Im Bereich der digitalen Beschilderung sorgen datengesteuerte Ereignisse über digitale Menüs und Videowände für Interaktion und Informationsübermittlung in Echtzeit. Sie können das Benutzererlebnis durch datengesteuerte Ereignisse maximieren.
+Bei Digital Signage interagieren datengesteuerte Ereignisse und übertragen Informationen in Echtzeit durch die interaktive Verwendung digitaler Menüs und Videowände. Sie können das Benutzererlebnis mit datengesteuerten Ereignissen maximieren.
 
 ## Verwenden von ContextHub für datengesteuerte Ereignisse    {#using-context-hub-for-data-driven-events}
 
-AEM Screens ermöglicht datengesteuerte Ereignisse über ContextHub. ContextHub ermöglicht die Nutzung von Echtzeitinformationen.
+AEM Screens ermöglicht datengesteuerte Ereignisse über ContextHub. ContextHub ermöglicht die Verwendung von Echtzeit.
 
 ### Kategorisieren von datengesteuerten Ereignissen {#categorizing-data-driven-events}
 
@@ -29,21 +26,21 @@ Datengesteuerte Ereignisse werden in vier Kategorien unterteilt:
 
 * Betriebsbezogene Dateneingabe   
 * Präsentationsbezogene Dateneingabe   
-* Umsetzbare Datenausgabe
-* Präsentationsbezogene Datenausgabe
+* Data Out verwertbar
+* Data Out Presentational
 
-#### Betriebsbezogene Dateneingabe     {#data-in-operational}
+#### Betriebsbezogene Dateneingabe    {#data-in-operational}
 
-Hier ist eine weitere Kategorisierung in Kanalinterrupt und Platzhalter möglich.
+Dies kann weiter in Kanalinterrupt und Platzhalter kategorisiert werden.
 
-#### Präsentationsbezogene Dateneingabe     {#data-in-presentation}
+#### Präsentationsbezogene Dateneingabe    {#data-in-presentation}
 
-Daten laufen in einem temporären Kanal und nach einem Auslöser wird ein Asset in einem Kanal geändert.
+Daten werden im temporären Kanal ausgeführt und nach einem Trigger ändert ein Asset innerhalb eines Kanals.
 
-#### Umsetzbare Datenausgabe     {#data-out-actionable}
+#### Umsetzbare Datenausgabe    {#data-out-actionable}
 
-Ein Befehl wird an den LCD-Bildschirm zum Ein- und Ausschalten des Bildschirms gesendet. Ein Beispiel wäre die Helligkeit oder Lautstärke des Bildschirms.
+Wenn ein Befehl an den LCD-Bildschirm gesendet wird, um den Bildschirm ein- und auszuschalten. Beispiel: Helligkeit oder Lautstärke des Bildschirms.
 
-#### Präsentationsbezogene Datenausgabe     {#data-out-presentational}
+#### Präsentationsbezogene Datenausgabe    {#data-out-presentational}
 
-Ein Diagramm aggregiert Informationen in einer Feedbackschleife. Ereignisse werden mithilfe von Analysen bewertet und kommuniziert.
+Diagramm, in dem die Informationen in der Feedback-Schleife zusammengefasst sind. Es verwendet Analytics, um Ereignisse zu bewerten und zu bemerken.
