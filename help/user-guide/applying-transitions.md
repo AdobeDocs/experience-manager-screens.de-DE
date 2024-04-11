@@ -1,25 +1,21 @@
 ---
 title: Anwenden von Übergängen
-seo-title: Applying Transitions
-description: Auf dieser Seite erfahren Sie, wie Sie auf Ihre Screens-Projekte Übergänge anwenden können.
-seo-description: Follow this page to learn how to apply transitions to your Screens projects.
-uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
+description: Erfahren Sie, wie Sie Transitionen auf Ihre AEM Screens-Projekte anwenden.
 contentOwner: jsyal
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 757e6751-8008-487f-be89-9f53ac898928
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 97084aee861e152abcc5f117a2a4759dced038cc
 workflow-type: tm+mt
 source-wordcount: '272'
-ht-degree: 95%
+ht-degree: 55%
 
 ---
 
 # Anwenden von Übergängen {#applying-transitions}
 
 In diesem Abschnitt wird beschrieben, wie Sie die **Übergangskomponente** zwischen verschiedenen Assets (Bilder und Videos) und eingebetteten Sequenzen in einem Kanal anwenden können.
-
 
 >[!CAUTION]
 >
@@ -47,6 +43,7 @@ Gehen Sie wie folgt vor, um Ihrem AEM Screens-Projekt eine Übergangskomponente 
 
 
 1. Ziehen Sie die **Übergangskomponente** per Drag-and-Drop in Ihren Editor.
+
    >[!CAUTION]
    >
    >Bevor Sie den Übergang zu den Assets in Ihrem Kanal hinzufügen, stellen Sie sicher, dass Sie keinen Übergang vor dem ersten Asset im Sequenzkanal hinzufügen. Das erste Element im Kanal muss ein Asset und darf kein Übergang sein.
@@ -55,8 +52,8 @@ Gehen Sie wie folgt vor, um Ihrem AEM Screens-Projekt eine Übergangskomponente 
 
    >[!NOTE]
    >
-   >Standardmäßig sind die Eigenschaften der Übergangskomponente wie **Typ** auf **Ausblenden** und die **Dauer** auf *1600 ms* eingestellt.  Darüber hinaus ist es nicht ratsam, eine Übergangszeit festzulegen, die länger ist als die Dauer des Assets, auf das sie angewendet wird.
+   >Standardmäßig sind die Eigenschaften der Übergangskomponente wie **Typ** auf **Überblendung** und **Dauer** auf *1600 Millisekunden*. Außerdem ist es nicht ratsam, eine Übergangsdauer festzulegen, die länger ist als das Asset, auf das sie angewendet wird.
 
-1. Wenn Sie diesem Kanaleditor außerdem eine **eingebettete Sequenzkomponente** hinzufügen (die einen Sequenzkanal enthält), können Sie am Ende eine Übergangskomponente hinzufügen, damit der Inhalt in der angegebenen Reihenfolge wiedergegeben wird, wie in der folgenden Abbildung dargestellt:
+1. Wenn Sie außerdem eine **Eingebettete Sequenz** -Komponente (die einen Sequenzkanal enthält), können Sie diesem Kanaleditor am Ende eine Übergangskomponente hinzufügen. Dadurch wird sichergestellt, dass der Inhalt in der richtigen Reihenfolge wiedergegeben wird, wie in der folgenden Abbildung dargestellt:
 
    ![image3](assets/transitions5.png)
