@@ -1,24 +1,20 @@
 ---
 title: Erstellen von Komponenten
-seo-title: Erstellen von Komponenten
-description: AEM-Komponenten werden verwendet, um den Inhalt, den Sie auf Ihren Web-Seiten bereitstellen, zu speichern, zu formatieren und zu rendern. Folgen Sie dieser Seite, um mehr über das Authoring von Kanälen und das Rendern von Komponenten zu erfahren.
-seo-description: AEM-Komponenten werden verwendet, um den Inhalt, den Sie auf Ihren Web-Seiten bereitstellen, zu speichern, zu formatieren und zu rendern. Folgen Sie dieser Seite, um mehr über das Authoring von Kanälen und das Rendern von Komponenten zu erfahren.
-uuid: 66c76dd5-495a-4dcb-ad18-7f8a92669752
+description: Erfahren Sie, wie AEM Komponenten zum Speichern, Formatieren und Rendern des Inhalts verwendet werden, der auf Ihren Webseiten bereitgestellt wird.
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
-discoiquuid: cdc530d8-ef0e-4b61-b1f0-5f4d831f1392
-feature: Entwicklung in Screens
+feature: Developing Screens
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '333'
-ht-degree: 100%
+exl-id: 4d673039-4963-458a-89e9-023a993dd354
+source-git-commit: a8055c5f859e401f7b1da4f5d95f1268dee243ad
+workflow-type: tm+mt
+source-wordcount: '282'
+ht-degree: 59%
 
 ---
-
 
 # Erstellen von Komponenten {#creating-components}
 
@@ -30,17 +26,17 @@ AEM-Komponenten werden verwendet, um den Inhalt, den Sie auf Ihren Web-Seiten be
 
 ## Authoring von Kanälen {#authoring-channels}
 
-Der Kanal ist das zentrale Objekt für Inhalte, die für eine Reihe von Displays bereitgestellt werden. Daher muss ein Inhaltsautor normalerweise einen Kanal im Editor öffnen, um Inhalt hinzuzufügen oder zu ändern. Da der Kanal eine ***cq:Page*** ist, folgt er demselben herkömmlichen UX-Muster zum Hinzufügen und Bearbeiten von Komponenten des Kanals.
+Der Kanal ist das zentrale Objekt von Inhalten, die für eine Reihe von Anzeigen bereitgestellt werden. Daher öffnet eine Inhaltsautorin bzw. ein Inhaltsautor normalerweise einen Kanal im Editor, um Inhalte hinzuzufügen oder zu ändern. Da der Kanal ein *** ist`cq:Page`***, folgt es demselben herkömmlichen UX-Muster zum Hinzufügen und Ändern von Komponenten im Kanal.
 
-Da jedoch Komponenten innerhalb eines Kanals normalerweise im Vollbildmodus gerendert werden, ist das Authoring bei der Bearbeitung von einzelnen Komponenten und dem Erstellen eines neuen Auftrags beeinträchtigt. Deshalb nutzt der Kanal Selektoren, um verschiedene Ansichten der Komponenten zu rendern. In der Authoring-Umgebung wird der Bearbeitungs-Selektor genutzt, um die benutzerdefinierte Kanalwiedergabe zu aktivieren.
+Da jedoch Komponenten innerhalb eines Kanals normalerweise im Vollbildmodus gerendert werden, leidet das Authoring-Erlebnis beim Versuch, einzelne Komponenten zu bearbeiten oder neue Bestellungen zu erstellen. Daher nutzt der Kanal Selektoren zum Rendern verschiedener Ansichten der Komponenten. Die Authoring-Umgebung verwendet den Bearbeitungsselektor, um das Rendering des benutzerdefinierten Kanals zu aktivieren.
 
 Beispiel: `http://localhost:4502/editor.html/content/screens/we-retail/channels/idle.edit.html](http://localhost:4502/editor.html/content/screens/we-retail/channels/idle.edit.html`
 
-Der Benutzer muss sich während des Bearbeitens nicht um das Hinzufügen des Selektors zur URL kümmern. Eine Client-seitige Logik wartet auf das Ebenen-Wechselereignis und fügt den Selektor hinzu, wenn der Kanal den dedizierten Ressourcentyp *screens/core/components/channel* aufweist.
+Der Benutzer muss sich während des Bearbeitens nicht um das Hinzufügen des Selektors zur URL kümmern. Eine clientseitige Logik wartet auf das Ebenen-Wechselereignis und fügt den Selektor hinzu, wenn der Kanal über den dedizierten Ressourcentyp verfügt *screens/core/components/channel*.
 
 ## Rendern von Komponenten {#rendering-components}
 
-Um eine korrekte Inhaltserstellung zu ermöglichen, müssen die Komponenten die folgenden beiden Wiedergaben bereitstellen:
+Um eine korrekte Bearbeitung zu ermöglichen, müssen Komponenten die folgenden beiden Renderings bereitstellen:
 
 | **Komponente** | **Wiedergaben** |
 |---|---|
@@ -58,4 +54,3 @@ Die integrierten Komponenten nutzen die folgenden Client-Bibliothekskategorien:
 >[!NOTE]
 >
 >Um eigene Komponenten zu entwickeln, verwenden Sie die ***[Beispielvorlage für AEM Screens-Komponenten](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template)***.
-

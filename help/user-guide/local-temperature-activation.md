@@ -1,23 +1,19 @@
 ---
 title: Temperaturaktivierung für ein Reiseangebot
-seo-title: Travel Center Temperature Activation
-description: Das folgende Anwendungsbeispiel veranschaulicht die Verwendung der Temperaturaktivierung für ein Reiseangebot anhand der in Google Tabellen angegebenen Werten.
-seo-description: The following use case demonstrates the usage of travel center local temperature activation based on the values populated in Google Sheets.
-uuid: b35286d2-79be-4c36-b72e-c40ffc1a0ca0
+description: Erfahren Sie, wie Sie mit AEM Screens anhand dieses Anwendungsbeispiels die Verwendung der Temperaturaktivierung für ein Reiseangebot anhand der in Google Tabellen angegebenen Werte veranschaulichen.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: use-case-examples
-discoiquuid: 9d58b971-4540-4007-968d-2a1d94d1fd38
 docset: aem65
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: a8055c5f859e401f7b1da4f5d95f1268dee243ad
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 89%
+source-wordcount: '449'
+ht-degree: 57%
 
 ---
 
@@ -27,7 +23,7 @@ Das folgende Anwendungsbeispiel veranschaulicht die Verwendung der Temperaturakt
 
 ## Beschreibung {#description}
 
-Wenn Ihre Google Tabelle einen Wert unter 10 hat, wird in diesem Nutzungsszenario ein Bild mit heißen Getränken angezeigt, und wenn der Wert größer oder gleich 10 ist, wird das Bild mit kalten Getränken angezeigt. Bei einem anderen oder keinem Wert zeigt der Player ein Standardbild an.
+Wenn der Wert in Google Tabellen unter 50 liegt, wird für dieses Anwendungsbeispiel ein Bild mit heißen Getränken angezeigt. Wenn der Wert größer oder gleich 50 ist, wird ein Bild mit kalten Getränken angezeigt. Wenn ein anderer Wert oder gar kein Wert vorhanden ist, zeigt der Player ein Standardbild an.
 
 ## Voraussetzungen {#preconditions}
 
@@ -42,7 +38,7 @@ Gehen Sie wie folgt vor, um das Anwendungsbeispiel für die temperaturgesteuerte
 1. **Ausfüllen der Google Tabellen**
 
    1. Navigieren Sie zur Google Tabelle „ContextHubDemo“.
-   1. Fügen Sie eine Spalte mit **Überschrift1** mit dem entsprechenden Temperaturwert hinzu.
+   1. Hinzufügen einer Spalte mit **`Heading1`** mit dem entsprechenden Temperaturwert.
 
    ![screen_shot_2019-05-08at112911am](assets/screen_shot_2019-05-08at112911am.png)
 
@@ -52,7 +48,7 @@ Gehen Sie wie folgt vor, um das Anwendungsbeispiel für die temperaturgesteuerte
 
    1. Wählen Sie **Tabellen A1 1** aus und klicken Sie auf **Bearbeiten**.
 
-   1. Wählen Sie die Eigenschaft zum Vergleichen aus und klicken Sie auf das Symbol zum Konfigurieren, um die Eigenschaften zu bearbeiten.
+   1. Wählen Sie die Vergleichseigenschaft aus und klicken Sie auf das Konfigurationssymbol.
    1. Wählen Sie **googlesheets/value/1/0** aus der Dropdown-Liste in **Eigenschaftsname** aus
 
    1. Wählen Sie als **Operator** den Wert **größer oder gleich** aus dem Dropdown-Menü aus
@@ -61,7 +57,7 @@ Gehen Sie wie folgt vor, um das Anwendungsbeispiel für die temperaturgesteuerte
 
    1. Wählen Sie nun **Tabellen A1 2** aus und klicken Sie auf **Bearbeiten**.
 
-   1. Wählen Sie **Vergleich: Eigenschaft - Wert** aus und klicken Sie auf das Symbol zum Konfigurieren, um die Eigenschaften zu bearbeiten.
+   1. Wählen Sie die **Vergleichseigenschaft - Wert** und klicken Sie auf das Konfigurationssymbol.
    1. Wählen Sie **googlesheets/value/1/0** aus der Dropdown-Liste in **Eigenschaftsname** aus
 
    1. Wählen Sie unter **Operator** den Wert **kleiner als** aus dem Dropdown-Menü aus
@@ -89,6 +85,6 @@ Gehen Sie wie folgt vor, um das Anwendungsbeispiel für die temperaturgesteuerte
 1. **Überprüfen der Vorschau**
 
    1. Klicken Sie auf **Vorschau**. Öffnen Sie außerdem Ihre Google Tabelle und aktualisieren Sie den Wert.
-   1. Wenn Sie den Wert auf weniger als 10 ändern, sollte ein Bild mit Sommergetränken angezeigt werden. Wenn der Wert in der Google Tabelle 10 oder größer ist, sollte ein Bild mit heißen Getränken angezeigt werden.
+   1. Ändern Sie den Wert in weniger als 50. Sie sollten ein Bild eines kalten Getränks sehen können. Wenn der Wert in Google Tabellen 50 oder höher ist, sollte ein Bild eines heißen Getränks angezeigt werden.
 
    ![result3](assets/result3.gif)

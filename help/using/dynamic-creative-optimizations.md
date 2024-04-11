@@ -1,15 +1,13 @@
 ---
 title: Datenauslöser
-seo-title: Datenauslöser
-description: Auf dieser Seite werden Datenauslöser beschrieben.
-seo-description: Auf dieser Seite werden Datenauslöser beschrieben.
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '268'
-ht-degree: 100%
+description: Erfahren Sie mehr über Daten-Trigger in AEM Screens.
+exl-id: 23c4268e-48be-4c84-b5eb-c96152b166f7
+source-git-commit: a8055c5f859e401f7b1da4f5d95f1268dee243ad
+workflow-type: tm+mt
+source-wordcount: '257'
+ht-degree: 70%
 
 ---
-
 
 # Dynamic Creative Optimization {#dynamic-creative}
 
@@ -21,9 +19,9 @@ ht-degree: 100%
 
 Dies wird auch als Client-seitige Reduzierung von Inhalten bezeichnet.
 
-Das Hauptmotiv dafür ist, dass alle Player-Geräte bzw. Endpunkte mithilfe von Datensätzen anhand verschiedener Faktoren automatisch ermitteln können, welche Inhalte am besten zur Wiedergabe geeignet sind.
+Der Grund dafür besteht darin sicherzustellen, dass jedes Player-Gerät oder jeder Endpunkt Datensätze verwenden kann, um anhand verschiedener Faktoren automatisch den besten wiederzugebenden Inhalt zu bestimmen.
 
-So lassen sich kontinuierliche menschliche Eingriffe bei der Inhaltserstellung eliminieren, wodurch sich die Gesamtbetriebskosten für das Netzwerk verringern und digitale Erlebnisse relevanter, kontextbezogener und effektiver werden.
+Dadurch entfällt die Notwendigkeit ständiger menschlicher Eingriffe bei der Inhaltserstellung. Darüber hinaus trägt sie dazu bei, die Gesamtbetriebskosten für das Netzwerk zu reduzieren und digitale Erlebnisse relevanter, kontextbezogener und effektiver zu gestalten.
 
 Beispiele dafür sind:
 
@@ -40,4 +38,3 @@ Es gibt zwei Hauptarten von Datenauslösern:
 
 * **Lokale Datenauslöser**: Diese Datenauslöser befinden sich lokal auf dem Gerät. Wenn Sie zum Beispiel den Bildschirm berühren, wird ein Sensor aktiviert, der das lokale Daten-Asset oder den Kanalwechsel auslöst.
 * **Remote-Datenauslöser**: Dies beinhaltet einen durch Daten ausgelösten Kanalwechsel bzw. einen Asset-Wechsel, je nach den von einer Web Service API zurückgegebenen Werten.
-
