@@ -1,22 +1,18 @@
 ---
 title: Versionshinweise für Feature Pack 201809
-seo-title: Release Notes for Feature Pack 201809
-description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 201809, das am 1. Oktober 2018 veröffentlicht wurde.
-seo-description: Follow this page to get information for AEM Screens Feature Pack 201809 released on October 01, 2018.
-uuid: 48240e27-e4c2-48bc-bcca-2a2ec93edc47
+description: Erfahren Sie mehr über das AEM Screens Feature Pack 201809, das am 1. Oktober 2018 veröffentlicht wurde.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: release-notes
-discoiquuid: 2a049c2c-26ee-498d-a505-a2967be7cbcd
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: abeaed51-b18c-4366-93ef-4f05f33af649
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 4102c2b2291c92823a36f87f07d5b5ca87cfa48f
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 70%
+source-wordcount: '249'
+ht-degree: 41%
 
 ---
 
@@ -24,7 +20,7 @@ ht-degree: 70%
 
 >[!CAUTION]
 >
->Es wird empfohlen, ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM) durchzuführen. Screens bietet Wartungs-Support für die AEM 6.3 Screens-Plattform.
+>Adobe empfiehlt ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM). AEM Screens bietet Wartungs-Support für AEM 6.3 Screens-Plattform.
 
 AEM Screens hat AEM 6.4.2 Feature Pack 2 und AEM 6.3.3 Feature Pack 4 mit folgenden Details veröffentlicht.
 
@@ -36,24 +32,24 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 201809 ist der 1. Okto
 
 * **Adobe Analytics-Berichterstellung zum Abspielnachweis**: Siehe [Integration von Adobe Analytics mit AEM Screens](adobe-analytics-integration-aem-screens.md) , um mehr zu erfahren.
 
-* **Adobe Analytics Player aktivieren, um Wiedergabeereignisse zwischenzuspeichern und an Adobe Analytics zu senden**: Siehe [Konfigurieren von Adobe Analytics mit AEM Screens](configuring-adobe-analytics-aem-screens.md) , um mehr zu erfahren.
+* **Adobe Analytics Player aktivieren, zwischenspeichern und senden `playback` Ereignisse in Adobe Analytics**: Siehe [Konfigurieren von Adobe Analytics mit AEM Screens](configuring-adobe-analytics-aem-screens.md) , um mehr zu erfahren.
 
-* **Massen-Update von Offline-Inhalten**: Damit können Sie ganze Kanäle aktualisieren, ohne extra zu einem bestimmten Kanal navigieren und den Inhalt aktualisieren zu müssen. Siehe [Massen-Offline-Update](bulk-offline-update.md) , um mehr zu erfahren.
+* **Massenaktualisierung von Offline-Inhalten**: Ermöglicht das stapelweise Aktualisieren aller Kanäle und vermeidet die einfache Navigation zu einem bestimmten Kanal und die Aktualisierung des Inhalts. Siehe [Massen-Offline-Update](bulk-offline-update.md) , um mehr zu erfahren.
 
-* **Massenveröffentlichung von Kanälen in Veröffentlichungsinstanzen**
+* **Massenveröffentlichung von Kanälen in allen Veröffentlichungsinstanzen**
 * **Verbessertes Player-Protokollierungsverfahren**: Sie können die Anzahl der maximalen Protokolldateien für einen AEM Screens-Player angeben. Siehe [Arbeiten mit einem AEM Screens-Player](working-with-screens-player.md) für weitere Details.
 
 * **Autoren-/Veröffentlichungs-Bereitstellung (Härtung)**
 
-### Veröffentlichte AEM Screens-Player {#released-aem-screens-players}
+### Veröffentlichte AEM Screens-Player
 
 Die folgenden AEM Screens-Player sind für AEM 6.4.2 Feature Pack 2 und AEM 6.3.3 Feature Pack 4 verfügbar:
 
 * ChromeOS
 * Windows
-* Android
+* Android™
 * iOS
 
-#### AEM Screens-Player-Downloads  {#aem-screens-player-downloads}
+#### AEM Screens-Player-Downloads 
 
 Informationen zum Herunterladen des neuesten AEM Screens-Players und zu weiteren Fehlerbehebungen finden Sie unter [AEM Screens Player-Downloads](https://download.macromedia.com/screens/).
