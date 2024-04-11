@@ -5,17 +5,17 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: b26ed2de-2e47-4dd5-be1c-4c46971e9f6d
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 43e89ddc3eb6baffca75d730a978e60e234aaee4
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 79%
+source-wordcount: '153'
+ht-degree: 68%
 
 ---
 
 # Versionshinweise für Feature Pack 20240116 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->Es wird empfohlen, ein Upgrade auf die neueste Version (6.5) von Adobe Experience Manager (AEM 6.5) durchzuführen. Sie erhalten die neuesten Versionsinformationen von [here](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/release-notes/release-notes)
+>Adobe empfiehlt ein Upgrade auf die neueste Version von 6.5 Adobe Experience Manager (AEM 6.5). Sie erhalten die neuesten Versionsinformationen von [here](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/release-notes/release-notes)
 
 ## Verfügbarkeit {#availability}
 

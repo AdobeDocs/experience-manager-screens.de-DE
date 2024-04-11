@@ -1,36 +1,32 @@
 ---
 title: REST-APIs
-seo-title: REST-API
-description: AEM Screens stellt eine einfache RESTful-API bereit, die der Siren-Spezifikation entspricht. Auf dieser Seite erfahren Sie, wie Sie in der Inhaltsstruktur navigieren und Befehle an Geräte in der Umgebung senden können.
-seo-description: AEM Screens stellt eine einfache RESTful-API bereit, die der Siren-Spezifikation entspricht. Auf dieser Seite erfahren Sie, wie Sie in der Inhaltsstruktur navigieren und Befehle an Geräte in der Umgebung senden können.
-uuid: 5988fdcb-cda5-4d3e-a2ab-f9ee4179e568
+description: Erfahren Sie, wie AEM Screens eine einfache RESTful-API bereitstellt, die der Siren-Spezifikation entspricht. Erfahren Sie auch, wie Sie in der Inhaltsstruktur navigieren und Befehle an Geräte in der Umgebung senden.
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
-discoiquuid: c07b6e4f-c0a4-4151-a543-76dabd6d5146
-feature: Entwicklung in Screens
+feature: Developing Screens
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '241'
-ht-degree: 100%
+exl-id: ac01935a-c3ff-485a-b60e-227fb94c75b0
+source-git-commit: 43e89ddc3eb6baffca75d730a978e60e234aaee4
+workflow-type: tm+mt
+source-wordcount: '197'
+ht-degree: 57%
 
 ---
 
+# REST-APIs{#rest-apis}
 
-# REST-APIs {#rest-apis}
-
-AEM Screens stellt eine einfache RESTful-API bereit, die der [Siren](https://github.com/kevinswiber/siren)-Spezifikation entspricht. Sie ermöglicht die Navigation in der Inhaltsstruktur und das Senden von Befehlen an Geräte in der Umgebung.
+AEM Screens stellt eine einfache RESTful-API bereit, die der [Siren](https://github.com/kevinswiber/siren)-Spezifikation entspricht. Damit können Sie in der Inhaltsstruktur navigieren und Befehle an Geräte in der Umgebung senden.
 
 Die API steht unter [*http://localhost:4502/api/screens.json*](http://localhost:4502/api/screens.json) zur Verfügung.
 
 ## Navigieren in der Inhaltsstruktur {#navigating-content-structure}
 
-Die von den API-Aufrufen zurückgegebene JSON-Datei listet die Entitäten auf, die im Zusammenhang mit der aktuellen Ressource stehen. Über den aufgeführten Selbst-Link kann auf jede dieser Entitäten wieder als REST-Ressource zugegriffen werden.
+Die von den API-Aufrufen zurückgegebene JSON-Datei listet die Entitäten auf, die im Zusammenhang mit der aktuellen Ressource stehen. Nach dem aufgelisteten Selbstlink ist jede dieser Entitäten wieder als REST-Ressource verfügbar.
 
-Um beispielsweise auf die Bildschirme an unserem Demo-Flagship-Standort zuzugreifen, können Sie Folgendes aufrufen:
+Um beispielsweise auf die Anzeigen im Demo-Flagship-Speicherort zuzugreifen, können Sie Folgendes aufrufen:
 
 ```xml
 GET /api/screens/content/screens/we-retail/locations/demo/flagship.json HTTP/1.1
@@ -153,7 +149,7 @@ curl -u admin:admin http://localhost:4502/api/screens/content/screens/we-retail/
 }
 ```
 
-Um diese Aktion auszulösen, muss Folgendes aufgerufen werden:
+Rufen Sie Folgendes auf, um diese Aktion Trigger:
 
 ```xml
 POST /api/screens/content/screens/we-retail/locations/demo/flagship/single.json HTTP/1.1
@@ -167,4 +163,3 @@ Oder mithilfe von cURL:
 ```xml
 curl -u admin:admin -X POST -d ':operation=broadcast-command&msg=reboot' http://localhost:4502/api/screens/content/screens/we-retail/locations/demo/flagship/single.json
 ```
-
