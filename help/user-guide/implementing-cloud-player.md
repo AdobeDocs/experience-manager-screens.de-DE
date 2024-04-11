@@ -11,7 +11,7 @@ exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
 source-git-commit: 10375baae631d46e9003240149a3e16d5605e7b6
 workflow-type: tm+mt
 source-wordcount: '844'
-ht-degree: 36%
+ht-degree: 46%
 
 ---
 
@@ -21,7 +21,7 @@ AEM Screens bietet seit jeher verschiedene native Player-Anwendungen für versch
 
 Die Cloud stellt einen signifikanten Unterschied zu früheren nativen Adobe-Programmen dar. Es handelt sich um eine Progressive Web App (PWA), die auf einem Server gehostet wird. Dieser transformative Ansatz ermöglicht Kunden einen plattformunabhängigen Player, der direkt in einem Webbrowser ausgeführt wird.
 
-Der Zugriff auf den Cloud Player ist so einfach wie der Besuch `https://player.adobescreens.com`. Benutzende können ihn unabhängig von der Plattform auf ihrem Gerät installieren und ein nahtloses Erlebnis für digitale Beschilderungen erhalten. Die Kompatibilität des Cloud-Players hängt von der Verfügbarkeit eines modernen Browsers mit PWA-Unterstützung ab, wodurch eine konsistente Leistung auf verschiedenen Geräten sichergestellt wird. Manuelle Aktualisierungen haben ein Ende. Freuen Sie sich stattdessen über einen Player, der automatisch Fehlerbehebungen und Funktionen bereitstellt, sodass Sie stets über die neuesten Funktionen verfügen. Dieser Wechsel zu einer PWA-basierten Cloud-Player stellt eine aufregende Weiterentwicklung im Hinblick auf Adobe-Digital-Signage-Angebote dar und macht sie leichter zugänglich, vielseitiger und benutzerfreundlicher als je zuvor.
+Der Zugriff auf den Cloud Player ist so einfach wie der Besuch `https://player.adobescreens.com`. Benutzende können ihn unabhängig von der Plattform auf ihrem Gerät installieren und ein nahtloses Erlebnis für digitale Beschilderungen erhalten. Die Kompatibilität des Cloud-Players hängt von der Verfügbarkeit eines modernen Browsers mit PWA-Unterstützung ab, um eine konsistente Leistung auf verschiedenen Geräten sicherzustellen. Manuelle Aktualisierungen haben ein Ende. Freuen Sie sich stattdessen über einen Player, der automatisch Fehlerbehebungen und Funktionen bereitstellt, sodass Sie stets über die neuesten Funktionen verfügen. Dieser Wechsel zu einer PWA-basierten Cloud-Player stellt eine aufregende Weiterentwicklung im Hinblick auf Adobe-Digital-Signage-Angebote dar und macht sie leichter zugänglich, vielseitiger und benutzerfreundlicher als je zuvor.
 
 In diesem Abschnitt wird die Implementierung des Cloud-Players beschrieben.
 
@@ -79,17 +79,17 @@ Wählen Sie je nach Typ der AEM-Instanz eines der folgenden Handbücher aus, um 
 >
 ## Einstellung von Chrome-Apps durch Google
 >
-1. Chrome-Apps auf Chrome OS-Hardware:
+1. Chrome-Apps auf Chrome OS-Hardware:
 >
-Google hat Chrome-Apps mit einer geplanten Migration bis Januar 2025 aktiv für PWA-Apps eingestellt. Daher funktioniert die AEM Screens Player-App unter Chrome OS nicht mehr auf der Grundlage der freigegebenen Timeline. Adobe fordert Benutzer, die derzeit den Chrome-Player in Produktion verwenden, auf, die Umstellung auf den Screens Cloud-Player zu planen.
+Google arbeitet aktiv an der Einstellung von Chrome-Apps und stellt stattdessen auf PWA-Apps um, wobei die Migration bis Januar 2025 geplant ist. Daher funktioniert die AEM Screens Player-App unter Chrome OS nicht mehr auf der Grundlage der freigegebenen Timeline. Adobe fordert Benutzer, die derzeit den Chrome-Player in Produktion verwenden, auf, die Umstellung auf den Screens Cloud-Player zu planen.
 >
 1. Chrome Extension Player unter Mac, Windows und Linux®:
 >
-Aufgrund der Einstellung von Google wird ab Google Chrome Version 114 der Screens Chrome Extension Player nicht mehr unterstützt. Adobe rät Ihnen, für alle Entwicklungs- und Testanforderungen zum Screens Cloud Player zu wechseln.
+Aufgrund des Einstellungsprozesses von Google wird der Screens-Player für Chrome-Erweiterungen ab Google Chrome Version 114 nicht mehr unterstützt. Adobe rät Ihnen, für alle Entwicklungs- und Testanforderungen zum Screens Cloud Player zu wechseln.
 
 ## Offline-Unterstützung für Abruf von externen Inhalten {#offline-support}
 
-In verschiedenen Nutzungsszenarien erfordern Kanäle möglicherweise das Abrufen von Inhalten aus einer externen Quelle (z. B. Wetter-Widgets oder Commerce-integrierte Einzelseiten-Apps), die von Natur aus keine Offline-Unterstützung bieten können. Um Offline-Funktionen für diese spezifischen Anwendungsfälle zu aktivieren, bietet der Cloud Player Unterstützung für benutzerdefinierte Kopfzeilen.
+In verschiedenen Nutzungsszenarien erfordern Kanäle möglicherweise das Abrufen von Inhalten aus einer externen Quelle (z. B. Wetter-Widgets oder Commerce-integrierte Einzelseiten-Apps), die von Natur aus keine Offline-Unterstützung bieten können. Um Offline-Funktionen für diese spezifischen Anwendungsfälle zu aktivieren, bietet der Cloud-Player Unterstützung für benutzerdefinierte Kopfzeilen.
 
 Der Cloud-Player nutzt eine Network First-Cache-Strategie. Das bedeutet, dass versucht wird, Inhalte aus dem Netzwerk abzurufen (und dann den Cache mit den neuesten Inhalten zu aktualisieren), wobei auf den zwischengespeicherten Inhalt zurückgefallen wird, sofern verfügbar. Um die Offline-Unterstützung für ein solches Abrufen von Inhalten zu implementieren, muss die benutzerdefinierte Kopfzeile in die Anfrage aufgenommen werden. Anschließend wird die Anfrage mit dem benutzerdefinierten Header auf dem Player zwischengespeichert, was den Offline-Zugriff auf den Inhalt erleichtert und gleichzeitig die Strategie für den ersten Cache im Netzwerk verwaltet.
 
