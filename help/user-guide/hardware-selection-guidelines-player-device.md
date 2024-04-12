@@ -1,10 +1,10 @@
 ---
 title: Richtlinien zur Hardware-Auswahl für Player-Geräte
-description: Richtlinien zur Hardware-Auswahl für Player-Geräte
-source-git-commit: 7fdd812c71c995424a27db18264ef2db420d5717
+description: Erfahren Sie mehr über Richtlinien zur Hardware-Auswahl für AEM Screens-Player-Geräte.
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 100%
+source-wordcount: '227'
+ht-degree: 79%
 
 ---
 
@@ -17,7 +17,7 @@ Der folgende Abschnitt enthält Richtlinien zur Hardware-Auswahl für einen AEM 
 
 * Beziehen Sie für PC-Player und Anzeige-Panels oder Projektoren stets Komponenten von ***Handels-*** oder ***Industrie***-Qualität.
 
-* Arbeiten Sie immer mit Anbietern, die den Markt für digitale Beschilderung bedienen.
+* Arbeiten Sie immer mit Anbietern, die den Markt für Digital Signage bedienen.
 * Berücksichtigen Sie stets Umgebungsfaktoren wie Umgebungstemperatur und relative Luftfeuchtigkeit.
 * Überprüfen Sie stets Strombedarf und Stromkonditionierung.
 * Prüfen Sie sorgfältig die für die Anwendung erforderlichen Leistungsanforderungen und E/A-Anschlüsse.
@@ -41,12 +41,12 @@ In der folgenden Tabelle sind die Hardware-Konfigurationen mit typischen Anwendu
   </tr>
   <tr>
    <td>Einfach</td>
-   <td>Dual Core-, i3- oder Quad-Core Intel® Atom-Prozessor der Einstiegsklasse</td>
+   <td>Intel® Atom-Prozessor mit Dualcore, i3 oder Quad-Core-Prozessor der Einstiegsklasse</td>
    <td><p>4 GB Arbeitsspeicher</p> <p>2 MB Cache</p> </td>
-   <td><p>•ChromeOS 32 GB</p> <p>•Windows 128 GB</p> </td>
+   <td><p>*ChromeOS 32 GB</p> <p>*Windows 128 GB</p> </td>
    <td>OnBoard</td>
    <td>1920 x 1080</td>
-   <td>DVI,<br /> Ethernet/Wireless,<br /> 2x USB</td>
+   <td>DVI<br /> Ethernet/Wireless,<br /> 2xUSB</td>
    <td>
     <ul>
      <li>Standardschleife im Vollbildmodus<br /> </li>
@@ -55,11 +55,11 @@ In der folgenden Tabelle sind die Hardware-Konfigurationen mit typischen Anwendu
   </tr>
   <tr>
    <td>Standard</td>
-   <td>Intel® Core i5-Prozessor (Quad-Core)</td>
-   <td><p>8GB Arbeitsspeicher</p> <p>4MB Cache</p> </td>
+   <td>Quadcore, Intel® Core™ i5 Prozessor</td>
+   <td><p>8 GB Arbeitsspeicher</p> <p>4 MB Cache</p> </td>
    <td>128 GB</td>
    <td>OnBoard</td>
-   <td>3840 x 2160 (4 K)</td>
+   <td>3840 x 2160 (<code>4K</code>)</td>
    <td>DVI, HDMI<br /> Ethernet/Wireless,<br /> 2x USB</td>
    <td>
     <ul>
@@ -70,11 +70,11 @@ In der folgenden Tabelle sind die Hardware-Konfigurationen mit typischen Anwendu
   </tr>
   <tr>
    <td>Erweitert</td>
-   <td>Intel® Core i7-Prozessor, Quad-Core mit Hyperthreading</td>
-   <td><p>16GB Arbeitsspeicher</p> <p>8MB Cache</p> </td>
+   <td>Quadcore mit Hyperthreading, Intel® Core™ i7 Prozessor</td>
+   <td><p>16 GB Arbeitsspeicher</p> <p>8 MB Cache</p> </td>
    <td>256 GB</td>
    <td>Dedizierte Grafik-GPU</td>
-   <td>3840 x 2160 (4 K)</td>
+   <td>3840 x 2160 (<code>4K</code>)</td>
    <td>DVI, HDMI<br /> Ethernet/Wireless,<br /> 4xUSB</td>
    <td>
     <ul>

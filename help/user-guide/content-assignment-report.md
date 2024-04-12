@@ -1,14 +1,14 @@
 ---
 title: Inhaltszuweisungsbericht
-description: Auf dieser Seite wird das Herunterladen und Verwenden des Inhaltszuweisungsberichts beschrieben.
+description: Erfahren Sie mehr über das Herunterladen und Verwenden des Inhaltszuweisungsberichts im Zusammenhang mit AEM Screens.
 feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 98%
+source-wordcount: '359'
+ht-degree: 38%
 
 ---
 
@@ -18,14 +18,14 @@ Mit der Funktion „Inhaltszuweisungsbericht“ kann ein AEM Screens-Administrat
 
 ## Verwenden des Inhaltszuweisungsberichts {#using-content-assignment-report}
 
-Mit dem Inhaltszuweisungsbericht kann ein Autor oder Administrator in AEM Screens den Bericht herunterladen, der alle Assets wie Bilder und Videos in allen Kanälen enthält, die in einem AEM Screens-Projekt erstellt wurden. Darüber hinaus enthält er die Informationen zu allen Kanälen, die allen vorgesehenen Anzeigen zugewiesen sind, und damit auch alle Geräte, die ihren jeweiligen Anzeigen zugeordnet sind.
+Der Inhaltszuweisungsbericht ermöglicht es einem AEM Screens-Autor oder -Administrator, den Bericht herunterzuladen, der alle Assets wie Bilder und Videos in allen Kanälen enthält, die in einem AEM Screens-Projekt erstellt wurden. Außerdem enthält es die Informationen zu allen Kanälen, die allen vorgesehenen Anzeigen zugewiesen sind, und von nun an alle Geräte, die ihren jeweiligen Anzeigen zugewiesen sind.
 
-Der Inhaltszuweisungsbericht ermöglicht nicht nur eine Vorschau aller Kanäle, Assets, Anzeigen und Geräte im ausgewählten AEM Screens-Projekt, sondern bietet auch eine allgemeine Struktur Ihres Projekts.
+Der Inhaltszuweisungsbericht ermöglicht nicht nur eine Vorschau aller Kanäle, Assets, Anzeigen und Geräte im ausgewählten AEM Screens-Projekt, sondern bietet auch eine allgemeine Projektstruktur.
 
 
 ### Voraussetzungen {#pre-reqs}
 
-Stellen Sie vor dem Herunterladen des Inhaltszuweisungsberichts sicher, dass Sie ein AEM Screens-Projekt mit Kanälen, Standorten und Geräten eingerichtet haben.
+Bevor Sie den Inhaltszuweisungsbericht herunterladen, stellen Sie sicher, dass Sie ein AEM Screens-Projekt mit Kanälen, Standorten und Geräten eingerichtet haben.
 Weitere Informationen finden Sie in den folgenden Ressourcen:
 
 1. [Erstellen und Verwalten von Projekten](/help/user-guide/creating-a-screens-project.md)
@@ -47,17 +47,17 @@ Folgen Sie den nachstehenden Anweisungen, um den Inhaltszuweisungsbericht herunt
 
 1. Navigieren Sie zu Ihrem AEM Screens-Projekt und wählen Sie das Projekt **DemoScreens** aus.
 
-1. Klicken Sie in der Aktionsleiste auf **Inhaltszuweisungsbericht**.
+1. Klicks **Inhaltszuweisungsbericht** in der Aktionsleiste aus.
 
    ![Bild](/help/user-guide/assets/content-assignment-report/can-download.png)
 
-1. Das heruntergeladene Arbeitsblatt besteht aus zwei Registerkarten, z. B. **Standort** und **Inhalt**. Die Registerkarte „Standort“ besteht aus vier Spalten, **Standorte**, **Anzeigen**, **Kanäle** und **Geräte**, mit denen diese vier Entitäten Ihres AEM Screens-Projekts weiter untersucht werden können.
+1. Das heruntergeladene Arbeitsblatt besteht aus zwei Registerkarten, z. B. **Standort** und **Inhalt**. Auf der Registerkarte &quot;Standort&quot;werden vier Spalten angezeigt, z. B. **Standorte**, **Anzeigen**, **Kanäle**, und **Geräte** die zur weiteren Untersuchung dieser vier Entitäten verwendet werden kann, die sich auf Ihr AEM Screens-Projekt beziehen.
 
    ![Bild](/help/user-guide/assets/content-assignment-report/report-sheet1.png)
 
    >[!NOTE]
-   >Die im Arbeitsblatt angezeigten Daten sind alphabetisch in einem leicht lesbaren Format sortiert.
+   >Die im Arbeitsblatt angezeigten Daten sind alphabetisch in einem leicht verständlichen Format sortiert.
 
-1. Sie können in der Spalte **Kanäle** auf einen beliebigen Kanal klicken, um die Registerkarte **Inhalt** zu öffnen, über die Sie direkt zu diesem Kanal gelangen und die Ihnen Informationen zu den mit diesem Kanal verknüpften Assets (Bildern und Videos) bereitstellt, wie in der folgenden Abbildung dargestellt.
+1. Klicken Sie auf einen der Kanäle aus der **Kanäle** -Spalte öffnet die **Inhalt** Registerkarte. Sie navigiert dann direkt zu diesem Kanal und erhalten Informationen zu Assets (Bildern und Videos), die mit diesem Kanal verknüpft sind.
 
    ![Bild](/help/user-guide/assets/content-assignment-report/report-sheet2.png)

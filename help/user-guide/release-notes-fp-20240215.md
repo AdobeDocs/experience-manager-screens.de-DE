@@ -1,20 +1,21 @@
 ---
 title: Versionshinweise für Screens Feature Pack 20240215
-description: Auf dieser Seite finden Sie Informationen zum AEM Screens Feature Pack 20240215, das am 15. Februar 2024 veröffentlicht wurde.
+description: Erfahren Sie mehr über das AEM Screens Feature Pack 20240215, das am 15. Februar 2024 veröffentlicht wurde.
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: d5b94814df33f00e23fcd22e85e50d6f02947d45
-workflow-type: ht
-source-wordcount: '155'
-ht-degree: 100%
+exl-id: e4149f5b-42c0-43c8-b275-ecbe90104a98
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+workflow-type: tm+mt
+source-wordcount: '151'
+ht-degree: 74%
 
 ---
 
 # Versionshinweise für Feature Pack 20240215 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->Es wird empfohlen, ein Upgrade auf die neueste Version (6.5) von Adobe Experience Manager (AEM 6.5) durchzuführen. Die neuesten Versionsinformationen finden sich [hier](https://experienceleague.adobe.com/docs/experience-manager-65/content/release-notes/release-notes.html?lang=de)
+>Adobe empfiehlt ein Upgrade auf die neueste Version von 6.5 Adobe Experience Manager (AEM 6.5). Sie erhalten die neuesten Versionsinformationen von [here](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/release-notes/release-notes)
 
 ## Verfügbarkeit {#availability}
 

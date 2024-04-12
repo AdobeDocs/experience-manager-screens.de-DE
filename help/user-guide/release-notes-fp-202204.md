@@ -1,21 +1,21 @@
 ---
 title: Versionshinweise für Feature Pack 202204
-description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 202204, das am 26. April 2022 veröffentlicht wurde.
+description: Erfahren Sie mehr über das AEM Screens Feature Pack 202204, das am 26. April 2022 veröffentlicht wurde.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 5fd41f3a-212d-4179-8e59-22c0a32a1e19
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 93%
+source-wordcount: '298'
+ht-degree: 63%
 
 ---
 
 # Versionshinweise für Feature Pack 202204 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Es wird empfohlen, ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM) durchzuführen. Screens bietet Wartungs-Support für die AEM 6.3 Screens-Plattform.
+>Adobe empfiehlt ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM). AEM Screens bietet Wartungs-Support für AEM 6.3 Screens-Plattform.
 
 ## Verfügbarkeit {#availability}
 
@@ -29,7 +29,7 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 202204 ist der 26. Ap
 
 ### Neue Funktionen {#what-is-new}
 
-* Eine neue Fernbedienungs-Steuerungsfunktion erleichtert den Zugriff auf die Admin-Benutzeroberfläche, den Kanalumschalter oder andere Funktionen wie „Cache löschen“ und „Neu laden“. Sie können auch die lokale Firmware-Version und Systeminformationen im Player anzeigen.
+* Eine neue Fernsteuerungsfunktion erleichtert den Zugriff auf die Admin-Benutzeroberfläche, den Kanalschalter oder andere Funktionen wie den leeren Cache und das Neuladen. Sie können auch die lokale Firmware-Version und Systeminformationen im Player anzeigen.
 
 ### Fehlerbehebungen {#bug-fixes}
 
@@ -41,22 +41,22 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 202204 ist der 26. Ap
 
 * Der Screens-SPA-Kanal verursachte einen weißen Bildschirm in Windows Player. Dieser Fehler wurde jetzt behoben.
 
-* Der Parameter „wcmmode“ wurde aus allen Screens-Anforderungen in der Veröffentlichungsinstanz entfernt.
+* Der Parameter wcmmode wurde aus allen Screens-Anforderungen in der Veröffentlichungsinstanz entfernt.
 
 * Die Benutzeroberfläche der Player-Aktivität funktioniert jetzt erwartungsgemäß.
 
 * Der Player konnte die neueste Aktualisierung nicht über die Verwaltung der Veröffentlichung erhalten. Dieser Fehler wurde jetzt behoben.
 
-### Veröffentlichte AEM Screens-Player {#released-aem-screens-players}
+### Veröffentlichte AEM Screens-Player
 
 Die folgenden AEM Screens-Player sind für AEM 6.5 Feature Pack 11 verfügbar:
 
 * ChromeOS
 * Windows
 * Tizen
-* Android
-* Linux
+* Android™
+* Linux®
 
-#### AEM Screens-Player-Downloads   {#aem-screens-player-downloads}
+#### AEM Screens-Player-Downloads 
 
 Informationen zum Herunterladen des neuesten AEM Screens-Players und zu weiteren Fehlerbehebungen finden Sie unter **[AEM Screens Player-Downloads](https://download.macromedia.com/screens/index.html)**.

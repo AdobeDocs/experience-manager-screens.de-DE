@@ -1,6 +1,6 @@
 ---
 title: Adobe Analytics-Integration mit AEM Screens
-description: Folgen Sie dieser Seite, um mehr über die vorkonfigurierte Integration von AEM Screens mit Adobe Analytics zu erfahren und einen Wiedergabenachweis zu erhalten.
+description: Erfahren Sie mehr über die vordefinierte Integration von AEM Screens mit Adobe Analytics und erhalten Sie einen Wiedergabenachweis.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,10 +10,10 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 86%
+source-wordcount: '676'
+ht-degree: 56%
 
 ---
 
@@ -35,7 +35,7 @@ In diesem Abschnitt werden folgende Themen behandelt:
 
 ## Überblick {#overview}
 
-***AEM Screens*** nutzt Adobe Analytics, um etwas Einzigartiges auf dem Markt erreichen: kanalübergreifende Analysen, die die Korrelation von lokal angezeigten Inhalten mit anderen Datenquellen ermöglichen.
+***AEM Screens*** verwendet Adobe Analytics, damit Sie etwas Einzigartiges auf dem Markt erreichen können - kanalübergreifende Analysen, die die Korrelation von lokal angezeigten Inhalten mit anderen Datenquellen ermöglichen.
 
 AEM Screens bietet eine vorkonfigurierte Integration mit Adobe Analytics und liefert Ihnen einen Wiedergabenachweis.
 
@@ -55,7 +55,7 @@ Eine Integration von Adobe Analytics mit AEM Screens hat somit folgende *Ziele*:
 
 ## Architekturdetails {#architectural-details}
 
-Ein AEM Screens-Kunde möchte wissen, welche Inhalte wann wie lange angezeigt wurden (aggregiert). Dies ist eine gebräuchliche Funktion einer Signage-Lösung. Statt eigene Analysen zu erstellen, nutzt AEM Screens Adobe Analytics, um etwas branchenweit Einzigartiges zu ermöglichen: kanalübergreifende Analysen, die dabei helfen, lokale angezeigte Inhalte mit anderen Datenquellen zu korrelieren.
+Ein AEM Screens-Kunde möchte wissen, welche Inhalte wann und wie lange (aggregiert) angezeigt wurden. Dies ist eine gebräuchliche Funktion einer Signage-Lösung. Anstatt eine separate Analyseanwendung zu erstellen, verwendet AEM Screens Adobe Analytics. Die Kombination ermöglicht es uns, etwas Einzigartiges auf dem Markt zu erreichen - kanalübergreifende Analysen, die die Korrelation von lokal angezeigten Inhalten mit anderen Datenquellen ermöglichen.
 
 Im folgenden Architekturdiagramm wird die Integration von Adobe Analytics mit AEM Screens veranschaulicht:
 
@@ -65,7 +65,7 @@ Im folgenden Architekturdiagramm wird die Integration von Adobe Analytics mit AE
 
 Die Einstellungen von Adobe Analytics können über die OSGi-Konsole konfiguriert werden.
 
-Navigieren Sie zur **Konfiguration der Adobe Experience Manager-Web-Konsole**, um Adobe Analytics für AEM Screens zu konfigurieren (wie in der folgenden Abbildung gezeigt):
+Navigieren Sie zu **Konfiguration der Adobe Experience Manager-Web-Konsole** , damit Sie Adobe Analytics für AEM Screens konfigurieren können.
 
 ![screen_shot_2018-09-04at25550pm](assets/screen_shot_2018-09-04at25550pm.png)
 
@@ -121,7 +121,7 @@ In der folgenden Tabelle werden die Eigenschaften mit ihrer Beschreibung zur Kon
 
 #### Verwenden des Adobe Analytics-Service in AEM Screens {#using-adobe-analytics-service-in-aem-screens}
 
-In diesem Szenario wird die Analytics-API über REST-Aufrufe aus einem Analytics-Service in den Screens-Kernkomponenten „Firmware“ und „Instrumente“ aufgerufen, um explizit Ereignisse zu erstellen und zu senden, die für ein bestimmtes Nutzungsszenario spezifisch sind. Gleichzeitig ist eine Erweiterung möglich, bei der sich benutzerdefinierte Nachrichten von einem benutzerdefinierten Kanal an Analytics senden lassen.
+Dieses Szenario ruft die Analytics-API über REST-Aufrufe von einem Analytics-Dienst in der Firmware auf. Außerdem werden AEM Screens-Core-Komponenten so instrumentiert, dass explizit Ereignisse für einen bestimmten Anwendungsfall erstellt und gesendet werden. Dies alles ermöglicht die Erweiterbarkeit, bei der jede benutzerdefinierte Nachricht von einem benutzerdefinierten Kanal an Analytics gesendet werden kann.
 
 Analytics-Ereignisse werden in indexedDB offline gespeichert und später aufgeteilt und an die Cloud gesendet.
 

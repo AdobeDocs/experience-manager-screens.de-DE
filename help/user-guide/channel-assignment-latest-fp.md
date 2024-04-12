@@ -5,10 +5,10 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
 source-wordcount: '1458'
-ht-degree: 43%
+ht-degree: 41%
 
 ---
 
@@ -40,7 +40,7 @@ Gehen Sie wie folgt vor, um ein Projekt und einen Kanal einzurichten:
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp1.png)
 
    >[!NOTE]
-   >Siehe [Erstellen und Verwalten von Projekten](creating-a-screens-project.md) , um zu erfahren, wie Sie ein AEM Screens-Projekt erstellen.
+   >Informationen zum Erstellen eines AEM Screens-Projekts finden Sie unter [Erstellen und Verwalten von Projekten](creating-a-screens-project.md).
 
 1. Erstellen Sie einen Sequenzkanal mit dem Namen **Cafeteria** im Ordner **Kanäle**.
 
@@ -82,14 +82,14 @@ Nach Abschluss der Projekteinrichtung müssen Sie den Kanal einer Anzeige zuweis
 
    >[!NOTE]
    >
-   >Weitere Informationen zu den Kanalzuweisungseigenschaften finden Sie im Abschnitt [Kanaleigenschaften](#channel-properties).
+   >Weitere Informationen zu den Kanalzuweisungseigenschaften finden Sie unter [Kanaleigenschaften](#channel-properties) Abschnitt.
 
 1. Aus dem **Zeitplan** auswählen, wählen Sie die **Aktivierungsfenster** und **Wiederholungsplan**.
    ![Bild](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >
-   >Weitere Informationen zu den Kanalzuweisungseigenschaften finden Sie im Abschnitt [Kanaleigenschaften](#channel-properties).
+   >Weitere Informationen zu den Kanalzuweisungseigenschaften finden Sie unter [Kanaleigenschaften](#channel-properties) Abschnitt.
 
 1. Klicken Sie auf **Speichern**, nachdem Sie Ihre Voreinstellungen konfiguriert haben.
 
@@ -97,7 +97,7 @@ Nach Abschluss der Projekteinrichtung müssen Sie den Kanal einer Anzeige zuweis
 
 In diesem Beispiel wird die Ausgabe auf einem Chrome-Player beschrieben. Nachdem Sie den Kanal Ihrer Anzeige zugewiesen haben, müssen Sie das Gerät bei einem Player registrieren.
 
-Siehe [Geräteregistrierung](device-registration.md) , um zu erfahren, wie Sie ein Gerät auf einem AEM Screens-Player registrieren.
+Informationen zum Registrieren eines Geräts auf einem AEM Screens-Player finden Sie unter [Geräteregistrierung](device-registration.md).
 
 Sie können die folgende Ausgabe auf Ihrem Player anzeigen:
 
