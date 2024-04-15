@@ -1,15 +1,14 @@
 ---
 title: Inhaltserstellung mit Datenauslösern
-seo-title: Authoring with Data Triggers
-description: Auf dieser Seite erfahren Sie, wie Sie mit Datenauslösern Inhalte erstellen.
+description: Erfahren Sie mehr darüber, wie Sie mit Daten-Triggern in einem AEM Screens-Kanal erstellen können.
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 100%
+source-wordcount: '375'
+ht-degree: 79%
 
 ---
 
@@ -50,11 +49,11 @@ Gehen Sie wie folgt vor, um Targeting in Ihren Kanälen zu aktivieren.
 
    ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
-1. Wählen Sie auf der Registerkarte **Personalisierung** die ContextHub-Konfigurationen aus und wählen Sie den Pfad „ContextHub und Segmente“.
+1. Wählen Sie die **Personalisierung** -Registerkarte, damit Sie die ContextHub-Konfigurationen einrichten und den Pfad ContextHub und Segmente auswählen können.
 
    1. Wählen Sie unter **ContextHub-Pfad** den Wert **libs** > **settings** > **cloudsettings** > **default** > **ContextHub Konfigurationen** aus und klicken Sie auf **Auswählen**.
 
-   1. Wählen Sie unter **Segmentpfad** den Wert **conf** > **We.Retail** > **settings** > **wcm** > **segments** aus und klicken Sie auf **Auswählen**.
+   1. Wählen Sie die **Segmentpfad** as **conf** > **`We.Retail`** > **settings** > **wcm** > **Segmente** und klicken **Auswählen**.
 
    1. Klicken Sie auf **Speichern und schließen**.
 
@@ -68,7 +67,7 @@ Gehen Sie wie folgt vor, um Targeting in Ihren Kanälen zu aktivieren.
 
    >[!NOTE]
    >
-   >Wenn Sie alles korrekt eingerichtet haben, sehen Sie die Option **Targeting** in der Dropdown-Liste des Editors, wie in der Abbildung unten gezeigt.
+   >Wenn Sie alles korrekt eingerichtet haben, sehen Sie **Targeting** in der Dropdown-Liste des Editors, wie in der folgenden Abbildung dargestellt.
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 

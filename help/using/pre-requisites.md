@@ -2,10 +2,10 @@
 title: Voraussetzungen für [!UICONTROL AEM Screens]
 description: Erfahren Sie, welche Voraussetzungen erfüllt sein müssen, bevor Sie ein AEM Screens-Projekt starten.
 exl-id: ff305a6c-02cb-4c06-a457-9a22f525fab5
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 37%
+source-wordcount: '554'
+ht-degree: 32%
 
 ---
 
@@ -35,9 +35,9 @@ Informationen zu den Grundlagen eines AEM Screens-Projekts finden Sie in den fol
 
 * **[Grundlagen der AEM Screens-Implementierung](https://experienceleague.adobe.com/?launch=AEM-7a#recommended/solutions/experience-manager)**: Bietet ein geführtes Tutorial, in dem die wichtigsten Aspekte einer AEM Screens-Implementierung hervorgehoben werden.
 
-* **[Videos zu den Grundlagen von Digital-Signage-Netzwerken](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/aem-screens-introduction)**: Fünf grundlegende Videos, in denen wichtige Elemente von A/V, Digital-Signage-Hardware, Digital-Signage-Netzwerken und der Arbeit mit A/V-Integratoren beschrieben werden.
-   * *[Teil 1: Projektrollen und Zuständigkeiten](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)*: Hervorhebung von Teil 1 einer 5-teiligen Reihe, der Teammitgliedern dabei hilft, Rollen, Zuständigkeiten und Zeitpläne besser zu verstehen. Diese Dinge sind während der Vertriebs- und Projektlebenszyklen eines Digital Signage-Projekts erforderlich. Behandelt Projektrollen und Zuständigkeiten für Adobe, AEM Implementoren und AV-Integratoren auf hoher Ebene.
+* **[Videos zu Netzwerkgrundlagen für digitale Beschilderung](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/aem-screens-introduction)**: Bietet fünf grundlegende Videos, in denen wichtige Elemente zu Audio/Video, Digital Signage-Hardware, Signage-Netzwerken und der Arbeit mit Audio/Video-Integratoren erläutert werden.
+   * *[Teil 1: Projektrollen und Zuständigkeiten](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)*: Hervorhebung von Teil 1 einer 5-teiligen Reihe, der Teammitgliedern dabei hilft, Rollen, Zuständigkeiten und Zeitpläne besser zu verstehen. Diese Dinge sind während der Vertriebs- und Projektlebenszyklen eines Digital Signage-Projekts erforderlich. Behandelt Projektrollen und Zuständigkeiten für Adobe, AEM-Implementoren und Audio-/Video-Integratoren auf hoher Ebene.
    * *[Teil 2: Überlegungen zum Projektumfang](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-considerations)*: Teil 2 einer 5-teiligen Serie, der Team-Mitgliedern dabei hilft, Pre-Sales-Aspekte bei der Entwicklung erfolgreicher AEM Screens-Bereitstellungen besser zu verstehen. Behandelt Elemente, die bei der Projekterkundung identifiziert werden müssen, sowie Beiträge von Verantwortlichen zur Bewertung des Projekts und Vorbereitung eines geeigneten Designs.
    * *[Teil 3: Tests, POCs, Pilotprogramme und Rollouts](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/testing-pocs-pilots-rollouts)*: Hervorhebung von Teil 3 einer 5-teiligen Serie, der Teammitgliedern dabei hilft, die Schlüsselbegriffe besser zu verstehen. Diese Begriffe sind entscheidend, um sicherzustellen, dass vor einem Rollout eine erfolgreiche Lösung entwickelt wird. Behandelt werden Aktionen im Zusammenhang mit Labortests und Leistungsprüfungen für Hardware, Machbarkeitsstudien (auch POCs genannt) und Pilotprogrammen.
-   * *[Teil 4: Projekt-Management und Bereitstellung](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)*: Teil 4 einer 5-teiligen Serie, der sich mit der Projektverwaltung und der Bereitstellungsvorbereitung befasst. Außerdem werden Schlüsselfaktoren definiert, für die der AV-Integrator im Zusammenhang mit Projekt-Management und Bereitstellungsvorbereitung verantwortlich ist. Darunter fallen die Projektvorbereitung, Projektinitiierung und Projektfortführung.
+   * *[Teil 4: Projekt-Management und Bereitstellung](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)*: Teil 4 einer 5-teiligen Serie, der sich mit der Projektverwaltung und der Bereitstellungsvorbereitung befasst. Außerdem werden Schlüsselfaktoren definiert, für die der Audio-/Video-Integrator im Zusammenhang mit Projektmanagement und Bereitstellungsvorbereitung verantwortlich ist. Darunter fallen die Projektvorbereitung, Projektinitiierung und Projektfortführung.
    * *[Teil 5: Support-Aspekte](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/support-considerations)*: Der abschließende Teil einer 5-teiligen Serie soll Team-Mitgliedern dabei helfen, Probleme mit Hardware, Software und Konnektivität zu beheben. In diesem Schritt werden Kostenschätzungen und Bedingungen für den Vor-Ort-Support untersucht. Außerdem wird erläutert, wie SLA-Parameter, Betriebsbudgets und NOC-Handoffs verwaltet werden.

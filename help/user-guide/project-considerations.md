@@ -10,10 +10,10 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 7814ee96-9220-45b6-b56e-b48a9da9a319
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 50%
+source-wordcount: '626'
+ht-degree: 49%
 
 ---
 
@@ -30,7 +30,7 @@ Die Hauptkomponenten eines Programms für digitale Beschilderung, die für eine 
 * Inhaltsstrategie
 * Anforderungen an den Geschäftsbetrieb
 * Ermittlung der IT- und Netzwerkumgebung
-* A/V-Anforderungen
+* Audio-/Videoanforderungen
 * Gerätespezifikation
 * Site-Bereitschaft
 
@@ -67,7 +67,7 @@ Durch das Einbeziehen von Dayparting-Strategien können Endkunden ihren Inhalt s
 
 Auch der Geschäftbetrieb ist bei der Diskussion der Inhaltsstrategie wichtig. Die Formalisierung der Supportanforderungen von Endkunden kann dazu beitragen, die Erwartungen nach der Bereitstellung zu verwalten und sicherzustellen, dass die Supportbemühungen angemessen gemessen werden.
 
-### A/V-Anforderungen {#a-v-requirements}
+### Audio-/Videoanforderungen {#a-v-requirements}
 
 Montageszenarios müssen ebenso definiert werden, sowie Überlegungen zum Gerätezugriff für die Wartung von Geräten. Dies wirkt sich nicht nur auf die Empfehlungen für die Erstinstallation und die Ausrüstung aus, sondern bestimmt auch die laufenden Service- und Support-Anforderungen.
 

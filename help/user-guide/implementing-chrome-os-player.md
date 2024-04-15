@@ -9,10 +9,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 65%
+source-wordcount: '867'
+ht-degree: 62%
 
 ---
 
@@ -41,9 +41,9 @@ Sie können Ihrem Chrome-Player einen benutzerfreundlichen Gerätenamen zuweisen
 
 Gehen Sie wie folgt vor, um den Namen im Chrome-Player zu konfigurieren:
 
-1. Sie können optional zulassen, dass AV-Integratoren oder IT-Administratoren die Asset-ID und den Speicherort als Teil der Unternehmensregistrierung festlegen.
+1. Sie können optional zulassen, dass Audio-/Video-Integratoren oder IT-Administratoren die Asset-ID und den Speicherort als Teil der Unternehmensregistrierung festlegen.
 
-   ![image](/help/user-guide/assets/chrome-device/chrome1.png)
+   ![Bild](/help/user-guide/assets/chrome-device/chrome1.png)
 
 1. Ihnen werden die Optionen angezeigt, mit denen Sie das Gerät registrieren können.
 

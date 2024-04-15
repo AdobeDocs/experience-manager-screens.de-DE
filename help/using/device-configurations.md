@@ -1,21 +1,21 @@
 ---
 title: Gerätespezifikationen
-seo-title: Gerätespezifikationen
+seo-title: Device Specifications
 description: Auf dieser Seite werden Gerätespezifikationen beschrieben.
-seo-description: Auf dieser Seite werden Gerätespezifikationen beschrieben.
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '209'
-ht-degree: 100%
+seo-description: The page describes device specifications
+exl-id: c2e521b3-89f5-4537-a751-0bfa031286c4
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+workflow-type: tm+mt
+source-wordcount: '202'
+ht-degree: 95%
 
 ---
-
 
 # Gerätekonfigurationen {#device-configurations}
 
 >[!NOTE]
 >
->Typische Verantwortliche für diese Aktivität sind A/V-Integratoren.
+>Typische Verantwortliche für diese Aktivität sind Audio-/Video-Integratoren.
 
 Beantworten Sie vor Beginn der Entwicklung unter Einsatz der an *Tag 0* gesammelten Informationen folgende Fragen:
 

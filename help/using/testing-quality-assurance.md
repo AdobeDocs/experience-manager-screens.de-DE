@@ -2,17 +2,17 @@
 title: Tests und Qualitätssicherung
 description: Weitere Informationen zu Tests und Qualitätssicherung für AEM Screens finden Sie im Best Practices-Handbuch.
 exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 56%
+source-wordcount: '333'
+ht-degree: 51%
 
 ---
 
 # Tests und Qualitätssicherung {#testing-quality}
 
 >[!NOTE]
->Typische Verantwortliche für diese Aktivität sind A/V-Integratoren.
+>Typische Verantwortliche für diese Aktivität sind Audio-/Video-Integratoren.
 
 Wenn Sie sich der Bereitstellung des Digital Signage-Netzwerks nähern, erstellen Sie einen Test- und QA-Plan, der alle Elemente des Netzwerks einschließlich aller Hardwarekomponenten, Softwarekomponenten und Netzwerkkomponenten abdeckt.
 In dem Schritt sollten vollständige Prüfsysteme eingerichtet und gründlich getestet werden.
@@ -82,4 +82,4 @@ Nachfolgend finden Sie einige Beispiele:
 * TeamViewer
 * AirWatch
 * `42Gears`
-* Proprietäre AV-Integrator-Middleware
+* Proprietäre Audio-/Video-Integrator-Middleware
