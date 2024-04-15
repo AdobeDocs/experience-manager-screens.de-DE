@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: c440527b80a3899fd45ec2d20d8cb48ffe85f6f3
 workflow-type: tm+mt
-source-wordcount: '1082'
-ht-degree: 49%
+source-wordcount: '1126'
+ht-degree: 47%
 
 ---
 
@@ -33,6 +33,8 @@ Die folgende Seite beschreibt die Verwendung des Mehrzonen-Layouts und behandelt
 
 Abhängig von den Projektanforderungen sind ggf. mehrere Bereiche in einem Kanal erforderlich, die dann zusammen als Einheit bearbeitet werden. Beispiel: eine Produktsequenz mit entsprechendem Social-Media-Feed, die in drei separaten Zonen auf einem einzigen Kanal läuft.
 
+>[!NOTE]
+>In Mehrzonen-Kanälen wird die Zeitplanung auf Asset-Ebene aufgrund potenzieller Konflikte und unbeabsichtigten Verhaltens nicht empfohlen. Wenn eine Planung auf Asset-Ebene erforderlich ist, wird empfohlen, einen separaten Sequenzkanal zu erstellen und innerhalb dieses Kanals eine Planungslogik anzuwenden. Betten Sie als Nächstes den Sequenzkanal in den Mehrzonen-Kanal ein.
 
 ### Voraussetzungen {#prerequisites}
 
