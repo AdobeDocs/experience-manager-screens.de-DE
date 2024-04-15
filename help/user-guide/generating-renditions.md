@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 752c74d7-5d6d-4363-97ef-b96e97d2f6b1
-source-git-commit: 97084aee861e152abcc5f117a2a4759dced038cc
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '363'
-ht-degree: 25%
+ht-degree: 20%
 
 ---
 
@@ -30,13 +30,13 @@ Es ist möglich, manuelle und automatische Full HD-Ausgabeformate zu generieren
 
 Gehen Sie wie folgt vor, um automatisch Full HD-Wiedergaben zu generieren:
 
-1. Wählen Sie den Adobe Experience Manager-Link (oben links) aus und klicken Sie auf das Hammersymbol, damit Sie **Workflow**.
+1. Wählen Sie den Adobe Experience Manager-Link (oben links) aus und wählen Sie das Hammersymbol aus, damit Sie **Workflow**.
 
-   Klicks **Modelle**.
+   Auswählen **Modelle**.
 
    ![screen_shot_2018-02-01at123407pm](assets/screen_shot_2018-02-01at123407pm.png)
 
-1. Wählen Sie in der Workflow-Modellverwaltung die **DAM-Update-Asset** Modell und klicken Sie **Bearbeiten** in der Aktionsleiste aus.
+1. Wählen Sie in der Workflow-Modellverwaltung die **DAM-Update-Asset** Modell und wählen Sie **Bearbeiten** in der Aktionsleiste aus.
 
    ![step5_-_edit_thedamupdateassetmodel](assets/step5_-_edit_thedamupdateassetmodel.png)
 
@@ -47,15 +47,15 @@ Gehen Sie wie folgt vor, um automatisch Full HD-Wiedergaben zu generieren:
 1. Wählen Sie die **Prozess** Registerkarte.
 1. Geben Sie die Full HD-Profile in die Liste unter **Argumente** wie folgt:
    ***`,profile:fullhd-bp,profile:fullhd-hp`***
-1. Klicken Sie auf **OK**.
+1. Wählen Sie **OK** aus.
 
    ![screen_shot_2018-02-02at103340am](assets/screen_shot_2018-02-02at103340am.png)
 
-1. Klicks **Speichern** oben links im **DAM-Update-Asset** angezeigt.
+1. Auswählen **Speichern** oben links im **DAM-Update-Asset** angezeigt.
 
    ![screen_shot_2018-02-02at101830am](assets/screen_shot_2018-02-02at101830am.png)
 
-1. Navigieren Sie zu **Assets** und laden Sie ein neues Video hoch. Klicken Sie auf das Video und öffnen Sie die Seitenleiste Ausgabeformate . Beachten Sie die beiden Full HD-Videos.
+1. Navigieren Sie zu **Assets** und laden Sie ein neues Video hoch. Wählen Sie das Video aus und öffnen Sie die Seitenleiste Ausgabeformate . Beachten Sie die beiden Full HD-Videos.
 
    ![step10_-_open_thevideoasset](assets/step10_-_open_thevideoasset.png)
 
@@ -71,21 +71,21 @@ Gehen Sie wie folgt vor, um automatisch Full HD-Wiedergaben zu generieren:
 
 Gehen Sie wie folgt vor, um manuell Full HD-Wiedergaben zu generieren:
 
-1. Wählen Sie den Adobe Experience Manager-Link (oben links) aus und klicken Sie auf das Hammersymbol, damit Sie Tools auswählen und auswählen können. **Workflow**.
+1. Wählen Sie den Adobe Experience Manager-Link (oben links) aus und wählen Sie das Hammersymbol aus, damit Sie Tools auswählen und auswählen können. **Workflow**.
 
-   Klicks **Modelle**.
+   Auswählen **Modelle**.
 
    ![screen_shot_2018-02-01at123407pm-1](assets/screen_shot_2018-02-01at123407pm-1.png)
 
-1. Wählen Sie in der Workflow-Modellverwaltung die **Screens-Asset aktualisieren** und klicken Sie auf das **Workflow starten** , um die **Workflow ausführen** Dialogfeld.
+1. Wählen Sie in der Workflow-Modellverwaltung die **Screens-Asset aktualisieren** und wählen Sie das **Workflow starten** , um die **Workflow ausführen** Dialogfeld.
 
    ![step5_-_start_a_newscreensupdateassetworkflow](assets/step5_-_start_a_newscreensupdateassetworkflow.png)
 
-1. Wählen Sie das gewünschte Video unter **Nutzlast** aus und klicken Sie auf **Ausführen**.
+1. Wählen Sie im **Nutzlast** und wählen **Ausführen**.
 
    ![step6_-_select_thedesiredvideo](assets/step6_-_select_thedesiredvideo.png)
 
-1. Navigieren Sie zu **Assets**, führen Sie einen Drilldown zum gewünschten Asset durch und klicken Sie darauf.
+1. Navigieren Sie zu **Assets**, führen Sie einen Drilldown zum Asset durch und wählen Sie es aus.
 
    ![step7_-_open_thevideoasset](assets/step7_-_open_thevideoasset.png)
 

@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '767'
-ht-degree: 58%
+ht-degree: 55%
 
 ---
 
@@ -58,11 +58,11 @@ Die folgende Abbildung zeigt das Projekt **TextOverlayDemo** mit dem Kanal **Tex
 
 Gehen Sie wie folgt vor, um die Textüberlagerung in einem AEM Screens-Kanal zu verwenden:
 
-1. Navigieren Sie zu **TextOverlayDemo** > **Kanäle** > **TextSample** und klicken **Bearbeiten** in der Aktionsleiste aus.
+1. Navigieren Sie zu **TextOverlayDemo** > **Kanäle** > **TextSample** und wählen **Bearbeiten** in der Aktionsleiste aus.
 
    ![screen_shot_2018-12-16at80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
-1. Wählen Sie das Bild aus und klicken Sie auf **Konfigurieren** (Schraubenschlüsselsymbol), um das Dialogfeld „Eigenschaften“ zu öffnen.
+1. Wählen Sie das Bild aus und wählen Sie **Konfigurieren** (Schraubenschlüsselsymbol), um das Dialogfeld &quot;Eigenschaften&quot;zu öffnen.
 
    ![screen_shot_2018-12-16at80221pm](assets/screen_shot_2018-12-16at80221pm.png)
 
@@ -114,7 +114,7 @@ Nachdem Sie die erforderlichen Konfigurationen für Ihr Projekt eingerichtet hab
 
       ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
 
-1. Navigieren Sie zu **TextOverlayDemo** > **Kanäle** > **TextSample** und klicken **Bearbeiten** in der Aktionsleiste aus.
+1. Navigieren Sie zu **TextOverlayDemo** > **Kanäle** > **TextSample** und wählen **Bearbeiten** in der Aktionsleiste aus.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
@@ -129,7 +129,7 @@ Nachdem Sie die erforderlichen Konfigurationen für Ihr Projekt eingerichtet hab
    >[!NOTE]
    >Wenn Sie Ihre ContextHub-Konfiguration nicht eingerichtet haben, ist diese Option für Ihr Projekt deaktiviert.
 
-1. Eingabe **Wert** im **Platzhalter** -Feld. Wählen Sie die Zeile aus, die Sie aus Ihrem Google-Blatt abrufen möchten in **ContextHub-Variable**. In diesem Fall wird der Wert aus Zeile 2 und Spalte 1 aus den Google-Arbeitsblättern abgerufen. Geben Sie nun den **Standardwert** als **20** ein, wie in der folgenden Abbildung dargestellt. Wenn Sie fertig sind, klicken Sie auf das Häkchen.
+1. Eingabe **Wert** im **Platzhalter** -Feld. Wählen Sie die Zeile aus, die Sie aus Ihrem Google-Blatt abrufen möchten in **ContextHub-Variable**. In diesem Fall wird der Wert aus Zeile 2 und Spalte 1 aus den Google-Arbeitsblättern abgerufen. Geben Sie nun den **Standardwert** als **20** ein, wie in der folgenden Abbildung dargestellt. Wenn Sie fertig sind, wählen Sie das Kontrollkästchen aus.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 

@@ -1,41 +1,37 @@
 ---
 title: Offline-Kanäle
-seo-title: Offline Channels
-description: Der AEM Screens Player bietet Offline-Unterstützung für Kanäle durch Nutzung der ContentSync-Technologie. Auf dieser Seite erfahren Sie mehr über Update-Handler und die Aktivierung der Offline-Konfiguration für einen Kanal.
-seo-description: The AEM Screens player provides offline support for channels by leveraging the ContentSync technology. Follow this page to learn more about update handlers and enabling offline configuration for a channel.
-uuid: 18b9d175-ff26-42db-86aa-5ea978909f71
+description: Erfahren Sie mehr darüber, wie der AEM Screens-Player mithilfe der ContentSync-Technologie Offline-Unterstützung für Kanäle bietet.
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
-discoiquuid: bd572743-652f-4fc5-8b75-a3c4c74536f4
 docset: aem65
 feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 59%
+source-wordcount: '425'
+ht-degree: 41%
 
 ---
 
 # Offline-Kanäle {#offline-channels}
 
-Der Screens-Player bietet Offline-Unterstützung für die Kanäle durch Nutzung der ***ContentSync***-Technologie.
+Der Screens-Player bietet Offline-Unterstützung für die Kanäle durch Verwendung der ***ContentSync*** Technologie.
 
 Die Player verwenden einen lokalen HTTP-Server, um die entpackten Inhalte bereitzustellen.
 
-Wenn ein Kanal für die Ausführung konfiguriert ist *online*, stellt der Player die Kanalressourcen bereit, indem er auf den AEM-Server zugreift, aber wenn der Kanal für die Ausführung konfiguriert ist *offline*, stellt der Player die Kanalressourcen von einem lokalen HTTP-Server bereit.
+Wenn ein Kanal für die Ausführung konfiguriert ist *online*, stellt der Player die Kanalressourcen durch Zugriff auf den AEM bereit. Wenn der Kanal jedoch für die Ausführung konfiguriert ist *offline*, stellt der Player die Kanalressourcen von einem lokalen HTTP-Server bereit.
 
-Der Workflow für den Prozess sieht wie folgt aus:
+Der Workflow für den Prozess ist der folgende:
 
-1. Analyse der gewünschten Seite(n)
-1. Sammeln aller zugehörigen Assets
-1. Alles in einer ZIP-Datei verpacken
-1. Laden Sie die ZIP-Datei herunter und extrahieren Sie sie lokal
-1. Lokale Kopie des Inhalts anzeigen
+1. Analysieren Sie die gewünschten Seiten.
+1. Sammeln Sie alle zugehörigen Assets.
+1. Verpacken Sie alles in einer ZIP-Datei.
+1. Laden Sie die ZIP-Datei herunter und extrahieren Sie sie lokal.
+1. Anzeige einer lokalen Kopie des Inhalts.
 
 ## Update-Handler {#update-handlers}
 
@@ -55,22 +51,22 @@ Der Workflow für den Prozess sieht wie folgt aus:
    <td><strong>Optionen</strong></td> 
   </tr>
   <tr>
-   <td>channels</td> 
+   <td><code>channels</code></td> 
    <td>erfasst einen Kanal</td> 
    <td>extension: Erweiterung der zu erfassenden Ressource<br /> [pathSuffix='']: Suffix zum Hinzufügen zum Kanalpfad<br /> </td> 
   </tr>
   <tr>
-   <td>clientlib</td> 
+   <td><code>clientlib</code></td> 
    <td>erfasst die angegebene Client-Bibliothek</td> 
    <td>[extension='']: kann entweder css oder js sein, um nur das Erstere oder nur das Letztere zu sammeln</td> 
   </tr>
   <tr>
-   <td>assetrenditions</td> 
+   <td><code>assetrenditions</code></td> 
    <td>erfasst die Asset-Wiedergaben</td> 
    <td>[renditions=[]]: Liste der zu erfassenden Wiedergaben. Standardmäßig wird die ursprüngliche Wiedergabe verwendet</td> 
   </tr>
   <tr>
-   <td>copy</td> 
+   <td><code>copy</code></td> 
    <td>kopiert die angegebene Struktur aus dem Pfad</td> 
    <td> </td> 
   </tr>
@@ -83,9 +79,9 @@ Befolgen Sie die folgenden Schritte, um die ContentSync-Konfiguration zu testen:
 
 1. Öffnen Sie `https://localhost:4502/libs/cq/contentsync/content/console.html`
 1. Wählen Sie Ihre Konfiguration in der Liste aus
-1. Klicken Sie auf „Cache löschen“
-1. Klicken Sie auf „Cache aktualisieren“
-1. Klicken Sie auf „Vollständig herunterladen“
+1. Cache löschen
+1. Cache aktualisieren
+1. Wählen Sie &quot;Download Full&quot;
 1. Entpacken Sie die ZIP-Datei
 1. Starten Sie einen lokalen Server im extrahierten Ordner
 1. Öffnen Sie Ihre Startseite und überprüfen Sie Ihren Anwendungsstatus
@@ -98,15 +94,17 @@ Gehen Sie wie folgt vor, um die Offline-Konfiguration für einen Kanal zu aktivi
 
    ![chlimage_1-24](assets/chlimage_1-24.png)
 
-1. Navigieren Sie zum Kanal-Dashboard und klicken Sie auf **...** im Bedienfeld **KANALINFORMATIONEN**, um die Eigenschaften zu ändern.
+1. Navigieren Sie zum Kanal-Dashboard.
+1. Auswählen **...** im **KANALINFORMATIONEN** Bedienfeld.
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
-1. Navigieren Sie zu den Kanaleigenschaften und stellen Sie sicher, dass das Kontrollkästchen auf der Registerkarte **Kanal** deaktiviert ist. Klicken Sie auf **Speichern und schließen**.
+1. Navigieren Sie zu den Kanaleigenschaften.
+1. Vergewissern Sie sich auf der Registerkarte (Kanal), dass das Kontrollkästchen deaktiviert ist, und wählen Sie dann **Speichern und schließen**.
 
    ![screen_shot_2017-12-19at122422pm](assets/screen_shot_2017-12-19at122422pm.png)
 
-   Bevor der Inhalt ordnungsgemäß auf dem Gerät bereitgestellt wird, klicken Sie auf **Offline-Inhalt aktualisieren**.
+   Bevor der Inhalt ordnungsgemäß auf dem Gerät bereitgestellt wird, wählen Sie die **Offline-Inhalt aktualisieren**.
 
    ![screen_shot_2017-12-19at122637pm](assets/screen_shot_2017-12-19at122637pm.png)
 

@@ -5,10 +5,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
-source-wordcount: '1258'
-ht-degree: 54%
+source-wordcount: '1256'
+ht-degree: 49%
 
 ---
 
@@ -31,15 +31,15 @@ Nachdem Sie Ihr Projekt für AEM Screens erstellt haben, führen Sie die folgend
 
 1. Navigieren Sie zu Ihrem Screens-Projekt und wählen Sie den Ordner **Kanäle**.
 
-1. Klicken Sie in der Aktionsleiste auf **Erstellen**.
+1. Auswählen **Erstellen** in der Aktionsleiste aus.
 
    ![demochannel](assets/create-channel1.png)
 
-1. Wählen Sie im Assistenten für **Erstellen** die Vorlage **Sequenz-Kanal** aus und klicken Sie auf **Weiter**.
+1. Wählen Sie die **Sequenzkanal** Vorlage aus der **Erstellen** Assistent und wählen Sie **Nächste**.
 
    ![demochannel](assets/create-channel2.png)
 
-1. Geben Sie unter „Titel“ den Wert **ScreensChannel** ein und klicken Sie auf **Erstellen**.
+1. Geben Sie den Titel als **ScreensChannel** und wählen **Erstellen**.
 
    ![demochannel](assets/create-project4.png)
 
@@ -67,7 +67,7 @@ Beim Verwenden des Assistenten stehen unter anderem die folgenden Vorlagenoption
 
 >[!IMPORTANT]
 >
-> Nachdem Sie Inhalte erstellt und zu Ihrem Kanal hinzugefügt haben, müssen Sie zunächst einen Ort erstellen und anschließend eine Anzeige erstellen. Außerdem müssen Sie diesen Kanal einer Anzeige zuweisen. Siehe die Ressourcen unten am Ende des Abschnitts .
+>Nachdem Sie Inhalte erstellt und zu Ihrem Kanal hinzugefügt haben, müssen Sie zunächst einen Ort erstellen und anschließend eine Anzeige erstellen. Weisen Sie diesen Kanal außerdem einer Anzeige zu. Siehe die Ressourcen unten am Ende des Abschnitts .
 
 ## Arbeiten mit Kanälen {#working-with-channels}
 
@@ -81,7 +81,7 @@ Sie können Änderungen vornehmen, Eigenschaften und Dashboard anzeigen sowie ei
 Um Inhalt in einem Kanal hinzuzufügen oder zu bearbeiten, gehen Sie wie folgt vor:
 
 1. Wählen Sie den Kanal aus, den Sie bearbeiten möchten (wie in der Abbildung oben gezeigt).
-1. Klicks **Bearbeiten** oben links in der Aktionsleiste, damit Sie die Kanaleigenschaften bearbeiten können. Der Editor wird geöffnet, mit dem Sie Assets/Komponenten zu Ihrem Kanal hinzufügen können, den Sie veröffentlichen möchten.
+1. Auswählen **Bearbeiten** oben links in der Aktionsleiste, damit Sie die Kanaleigenschaften bearbeiten können. Der Editor wird geöffnet, mit dem Sie Assets/Komponenten zu Ihrem Kanal hinzufügen können, den Sie veröffentlichen möchten.
 
 >[!NOTE]
 >Sie können Ihrem Kanal Komponenten hinzufügen. Siehe **[Hinzufügen von Komponenten zu Kanälen](adding-components-to-a-channel.md)** für weitere Details.
@@ -93,7 +93,7 @@ Um Inhalt in einem Kanal hinzuzufügen oder zu bearbeiten, gehen Sie wie folgt v
 Gehen Sie wie folgt vor, um Videos in Ihren Kanal hochzuladen:
 
 1. Wählen Sie den Kanal aus, in den Sie das Video hochladen möchten.
-1. Klicks **Bearbeiten** in der Aktionsleiste aus.
+1. Auswählen **Bearbeiten** in der Aktionsleiste aus.
 1. Wählen Sie im Editor **Videos** unter Assets und ziehen Sie die erforderlichen Videos per Drag-and-Drop.
 
 >[!NOTE]
@@ -101,15 +101,15 @@ Gehen Sie wie folgt vor, um Videos in Ihren Kanal hochzuladen:
 
 ### Anzeigen oder Bearbeiten von Eigenschaften eines Kanals {#viewing-properties}
 
-1. Klicken Sie auf den Kanal, den Sie bearbeiten möchten.
-1. Klicks **Eigenschaften** in der Aktionsleiste, damit Sie die Kanaleigenschaften anzeigen/bearbeiten können. Im folgenden Tab können Sie die Optionen ändern.
+1. Wählen Sie den Kanal aus, den Sie bearbeiten möchten.
+1. Auswählen **Eigenschaften** in der Aktionsleiste, damit Sie die Kanaleigenschaften anzeigen/bearbeiten können. Im folgenden Tab können Sie die Optionen ändern.
 
 ![Eigenschaften](assets/properties.gif)
 
 ### Anzeigen des Dashboards {#viewing-dashboard}
 
 1. Wählen Sie den Kanal aus, den Sie bearbeiten möchten.
-1. Klicks **Dashboard** in der Aktionsleiste aus.
+1. Auswählen **Dashboard** in der Aktionsleiste aus.
 
 ![dashboard](assets/dashboard.gif)
 
@@ -117,7 +117,7 @@ Gehen Sie wie folgt vor, um Videos in Ihren Kanal hochzuladen:
 
 Im Bedienfeld „Kanalinformationen“ werden die Kanaleigenschaften zusammen mit der Kanalvorschau beschrieben. Darüber hinaus finden Sie dort Informationen dazu, ob der Kanal offline oder online ist.
 
-Klicken Sie auf (**...**) aus dem **KANALINFORMATIONEN** Aktionsleiste, damit Sie Eigenschaften anzeigen, den Inhalt bearbeiten oder den Cache (Offline-Inhalt) für den Kanal aktualisieren können.
+Wählen Sie die (**...**) aus dem **KANALINFORMATIONEN** Aktionsleiste, damit Sie Eigenschaften anzeigen, den Inhalt bearbeiten oder den Cache (Offline-Inhalt) für den Kanal aktualisieren können.
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
 
@@ -133,11 +133,11 @@ Führen Sie die folgenden Schritte aus, damit Sie diese Option im Kanal-Dashboar
 1. **Kanal auf „Offline“ festlegen**
    1. Wählen Sie den Kanal aus und wählen Sie in der Aktionsleiste **Eigenschaften** aus.
    1. Navigieren Sie zu **Kanal** und deaktivieren Sie **Entwicklermodus (erzwingen, dass der Kanal online ist)** option
-   1. Klicken Sie auf **Speichern und schließen**.
+   1. Auswählen **Speichern und schließen**
 1. **Offline-Inhalt aktualisieren**
    1. Wählen Sie den Kanal aus und wählen Sie in der Aktionsleiste **Dashboard** aus.
-   1. Navigieren Sie zum Dialogfeld **KANALINFORMATIONEN** und klicken Sie auf *...*
-   1. Klicken Sie auf **Offline-Inhalt aktualisieren**.
+   1. Navigieren Sie zu **KANALINFORMATIONEN** Bedienfeld und wählen Sie *...*
+   1. Auswählen **Offline-Inhalt aktualisieren**
 
 Jetzt sollten Sie im Kanal-Dashboard im Dialogfeld **KANALINFORMATIONEN** die Option **Manifest anzeigen** sehen.
 
@@ -161,17 +161,17 @@ Gehen Sie wie folgt vor, um den Kanal online zu schalten:
 
    ![screen_shot_2019-08-01at31406pm](assets/screen_shot_2019-08-01at31406pm.png)
 
-   Klicks **Dashboard** in der Aktionsleiste, damit Sie den Status des Players anzeigen können. Im Fenster **KANALINFORMATIONEN** wird angezeigt, ob der Kanal online oder offline ist.
+   Auswählen **Dashboard** in der Aktionsleiste, damit Sie den Status des Players anzeigen können. Im Fenster **KANALINFORMATIONEN** wird angezeigt, ob der Kanal online oder offline ist.
 
    ![screen_shot_2019-08-01at31458pm](assets/screen_shot_2019-08-01at31458pm.png)
 
-1. Klicken Sie in der Aktionsleiste auf **Eigenschaften** und navigieren Sie zur Registerkarte **Kanal**, wie unten gezeigt:
+1. Auswählen **Eigenschaften** von der Aktionsleiste aus und navigieren Sie zum **Kanal** wie unten gezeigt:
 
    ![screen_shot_2019-08-01at31542pm](assets/screen_shot_2019-08-01at31542pm.png)
 
 1. Aktivieren Sie den **Entwicklermodus** **(erzwingen, dass der Kanal online ist)**, um den Kanal in den Online-Modus zu schalten.
 
-   Klicken Sie auf **Speichern und schließen**, um Ihre Option zu speichern.
+   Auswählen **Speichern und schließen** , um Ihre Option zu speichern.
 
    ![screen_shot_2019-08-01at31658pm](assets/screen_shot_2019-08-01at31658pm.png)
 
@@ -180,7 +180,7 @@ Gehen Sie wie folgt vor, um den Kanal online zu schalten:
    ![screen_shot_2019-08-01at31821pm](assets/screen_shot_2019-08-01at31821pm.png)
 
 >[!NOTE]
->Um den Kanal erneut als offline zu konfigurieren, deaktivieren Sie die Option Entwicklermodus in der **Eigenschaften** Registerkarte (wie in Schritt (3) gezeigt). Dann aus dem **KANALINFORMATIONEN** Bedienfeld klicken **Offline-Inhalt aktualisieren**, wie in der folgenden Abbildung dargestellt.
+>Um den Kanal erneut als offline zu konfigurieren, deaktivieren Sie die Option Entwicklermodus in der **Eigenschaften** Registerkarte (wie in Schritt (3) gezeigt). Dann aus dem **KANALINFORMATIONEN** Bedienfeld auswählen **Offline-Inhalt aktualisieren**, wie in der folgenden Abbildung dargestellt.
 
 ![dashboard2](assets/dashboard2.gif)
 
@@ -239,7 +239,7 @@ Die zugehörigen Anzeigen werden im **Zugewiesene Anzeigen** -Bedienfeld, wie un
 >* [Erstellen und Verwalten von Anzeigen](managing-displays.md)
 >
 
-Klicken Sie außerdem auf die Anzeige im **ZUGEWIESENE ANZEIGEN** -Bedienfeld, um die Anzeigeinformationen anzuzeigen, wie unten dargestellt:
+Wählen Sie außerdem die Anzeige im **ZUGEWIESENE ANZEIGEN** -Bedienfeld, um die Anzeigeinformationen anzuzeigen, wie unten dargestellt:
 
 ![chlimage_1-28](assets/chlimage_1-28.png)
 

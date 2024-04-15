@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4a4b3a83-2b02-42a0-86a7-fce6bbf47c7d
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 29%
+source-wordcount: '697'
+ht-degree: 28%
 
 ---
 
@@ -31,13 +31,13 @@ Gehen Sie wie folgt vor, um eine Live Copy eines Kanals in Ihrem Projektordner z
 
 1. Wählen Sie den Adobe Experience Manager-Link (oben links) und dann **Screens** aus. Sie haben auch die Möglichkeit, direkt zur folgenden URL zu wechseln: `http://localhost:4502/screens.html/content/screens`.
 
-1. Navigieren Sie zum Screens-Projekt und klicken Sie auf **Kanäle**.
-1. Klicks **Erstellen** und wählen **Live Copy** damit Sie eine Live Copy des Kanals erstellen können.
-1. Auswählen des Ziels und klicken Sie auf **Nächste**.
+1. Navigieren Sie zum Screens-Projekt und wählen Sie **Kanäle**.
+1. Auswählen **Erstellen** und wählen **Live Copy** damit Sie eine Live Copy des Kanals erstellen können.
+1. Wählen Sie das Ziel aus und wählen Sie **Nächste**.
 1. Wählen Sie den Speicherort aus, an dem sich die Live Copy befinden kann.
 1. Geben Sie die **Titel** und **Name** im **Erstellen einer Live Copy** Seite.
 
-1. Klicks **Öffnen** zum Anzeigen des Inhalts der neuen Live Copy oder **Fertig** , um zur Hauptseite zurückzukehren.
+1. Auswählen **Öffnen** zum Anzeigen des Inhalts der neuen Live Copy oder **Fertig** , um zur Hauptseite zurückzukehren.
 
 Alternativ dazu können Sie die folgenden Schritte für eine visuelle Darstellung zum Erstellen einer neuen Live Copy eines Kanals sehen.
 
@@ -51,11 +51,11 @@ Eine Live Copy ist eine Kopie eines existierenden Kanals.
 
 Informationen zum Anzeigen des Inhalts Ihrer Live Copy finden Sie in den folgenden Schritten:
 
-1. Navigieren Sie zum Screens-Projekt und klicken Sie auf den Speicherort, an dem Sie die Live Copy ursprünglich erstellt haben, wie im Abschnitt oben gezeigt. (Hier wurde als Speicherort der Ordner **Kanäle** gewählt.)
+1. Navigieren Sie zum Screens-Projekt und wählen Sie den Speicherort aus, an dem Sie die Live Copy ursprünglich erstellt haben, wie im obigen Abschnitt gezeigt. (Hier wurde als Speicherort der Ordner **Kanäle** gewählt.)
 
    ![chlimage_1-18](assets/chlimage_1-18.png)
 
-1. Klicks **Bearbeiten** in der Aktionsleiste aus.
+1. Auswählen **Bearbeiten** in der Aktionsleiste aus.
 
    ![chlimage_1-19](assets/chlimage_1-19.png)
 
@@ -67,7 +67,7 @@ Informationen zum Anzeigen des Inhalts Ihrer Live Copy finden Sie in den folgend
 
 Außerdem können Sie die Eigenschaften Ihres Live Copy-Kanals anzeigen.
 
-1. Navigieren Sie zu Ihrem Live Copy-Kanal und klicken Sie auf **Eigenschaften** in der Aktionsleiste aus.
+1. Navigieren Sie zu Ihrem Live Copy-Kanal und wählen Sie **Eigenschaften** in der Aktionsleiste aus.
 
    ![chlimage_1-20](assets/chlimage_1-20.png)
 
@@ -79,7 +79,7 @@ Außerdem können Sie die Eigenschaften Ihres Live Copy-Kanals anzeigen.
 
 Der Modus **Live Copy-Status**, wie in der folgenden Abbildung dargestellt, können Sie den Beziehungsstatus aller Assets im Kanal anzeigen.
 
-1. Klicks **Bearbeiten** so können Sie die **Live Copy-Status** und die Zuordnung Ihres Kanalinhalts zum ursprünglichen Kanal anzeigen (aus dem die Live Copy generiert wird).
+1. Auswählen **Bearbeiten** so können Sie die **Live Copy-Status** und die Zuordnung Ihres Kanalinhalts zum ursprünglichen Kanal anzeigen (aus dem die Live Copy generiert wird).
 
    ![chlimage_1-22](assets/chlimage_1-22.png)
 
@@ -93,13 +93,13 @@ Der Modus **Live Copy-Status**, wie in der folgenden Abbildung dargestellt, kön
 
 Sie können die Vererbung auch von der Live Copy abbrechen, sodass der Inhalt unabhängig vom ursprünglichen Zweig wird.
 
-Das folgende Beispiel zeigt, dass Sie das Bild im Bearbeitungsmodus auswählen und oben rechts auf das Symbol Vererbung abbrechen klicken.
+Das folgende Beispiel zeigt, dass Sie das Bild im Bearbeitungsmodus auswählen und oben rechts das Symbol Vererbung abbrechen auswählen.
 
 ![chlimage_1-24](assets/chlimage_1-24.png)
 
 ### Übertragen der Änderungen auf den Live Copy-Kanal {#propagating-changes-to-the-live-copy-channel}
 
-Wenn Sie Änderungen/Aktualisierungen im ursprünglichen Kanal vornehmen, müssen Sie diese Änderungen auch in Ihren Live Copy-Kanal übertragen.
+Wenn Sie Änderungen oder Aktualisierungen im ursprünglichen Kanal vornehmen, propagieren Sie diese Änderungen auch in Ihren Live Copy-Kanal.
 
 Gehen Sie wie folgt vor, um sicherzustellen, dass Ihre Änderungen vom ursprünglichen Kanal zum Live Copy-Kanal übertragen werden:
 
@@ -117,7 +117,7 @@ Gehen Sie wie folgt vor, um sicherzustellen, dass Ihre Änderungen vom ursprüng
 
    ![chlimage_1-27](assets/chlimage_1-27.png)
 
-1. Um Änderungen an den Live Copy-Kanal zu übertragen, navigieren Sie zum AEM Dashboard, wählen Sie den Live Copy-Kanal aus und klicken Sie auf **Eigenschaften** in der Aktionsleiste aus.
+1. Um Änderungen an den Live Copy-Kanal zu übertragen, navigieren Sie zum AEM Dashboard, wählen Sie den Live Copy-Kanal aus und wählen Sie **Eigenschaften** in der Aktionsleiste aus.
 
    ![chlimage_1-28](assets/chlimage_1-28.png)
 

@@ -10,10 +10,10 @@ feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 57%
+source-wordcount: '738'
+ht-degree: 31%
 
 ---
 
@@ -30,10 +30,10 @@ Der Prozess zur Geräteregistrierung erfolgt auf zwei separaten Geräten:
 
 >[!NOTE]
 >
->Nachdem Sie die neueste Version von Windows Player (*.exe*) von der Seite [AEM 6.4 Player-Downloads](https://download.macromedia.com/screens/) heruntergeladen haben, führen Sie die Schritte auf dem Player aus, um die AEM-hoc-Installation abzuschließen:
+>Nach dem Herunterladen des neuesten Windows-Players (*.exe*), von [AEM 6.4 Player-Downloads](https://download.macromedia.com/screens/) Führen Sie die Schritte im Player aus, um die Ad-hoc-Installation abzuschließen:
 >
 >1. Halten Sie die linke obere Ecke gedrückt, um das Admin-Bedienfeld zu öffnen.
->1. Navigieren Sie im linken Aktionsmenü zu **Konfiguration**, geben Sie die Standortadresse der AEM-Instanz unter **Server** ein und klicken Sie auf **Speichern**.
+>1. Navigieren Sie zu **Konfiguration** aus dem linken Aktionsmenü aus und geben Sie die Standortadresse der AEM Instanz in **Server** und wählen **Speichern**.
 >1. Wählen Sie die **Registrierung** über den Link im linken Aktionsmenü und die folgenden Schritte, um den Prozess zur Geräteregistrierung abzuschließen.
 >
 
@@ -49,15 +49,15 @@ Der Prozess zur Geräteregistrierung erfolgt auf zwei separaten Geräten:
    >
    >Weitere Informationen zum Erstellen eines Projekts für Screens im AEM-Dashboard finden Sie unter [Erstellen und Verwalten von Screens-Projekten](creating-a-screens-project.md).
 
-1. Tippen/klicken Sie in der Aktionsleiste auf die Schaltfläche **Geräte-Manager**.
+1. Wählen Sie die **Geräte-Manager** in der Aktionsleiste.
 
    ![screen_shot_2018-11-26at104702am](assets/screen_shot_2018-11-26at104702am.png)
 
-1. Tippen/klicken Sie oben rechts auf die Schaltfläche **Geräteregistrierung**.
+1. Wählen Sie die **Geräteregistrierung** rechts oben.
 
    ![screen_shot_2018-11-26at104815am](assets/screen_shot_2018-11-26at104815am.png)
 
-1. Wählen Sie das erforderliche Gerät (dasselbe wie in Schritt 1) aus und tippen/klicken Sie auf **Gerät registrieren**.
+1. Wählen Sie das gewünschte Gerät aus (wie in Schritt 1) und wählen Sie **Gerät registrieren**.
 
    ![screen_shot_2018-11-26at105112am](assets/screen_shot_2018-11-26at105112am.png)
 
@@ -69,12 +69,12 @@ Der Prozess zur Geräteregistrierung erfolgt auf zwei separaten Geräten:
 
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
-1. Wenn der **Registrierungs-Code** auf beiden Geräten identisch ist, tippen/klicken Sie in AEM auf die Schaltfläche **Validieren**, wie in Schritt (6) gezeigt.
-1. Legen Sie den gewünschten Namen für das Gerät fest und klicken Sie auf **Registrieren**.
+1. Wenn die Variable **Registrierungs-Code** auf beiden Computern identisch ist, wählen Sie **Bestätigen** in AEM, wie im Schritt (6) gezeigt.
+1. Legen Sie den gewünschten Namen für das Gerät fest und wählen Sie **registrieren**.
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
 
-1. Tippen/klicken Sie auf **Beenden**, um den Registrierungsprozess abzuschließen.
+1. Auswählen **Beenden** , um den Registrierungsprozess abzuschließen.
 
    ![screen_shot_2018-11-26at105456am](assets/screen_shot_2018-11-26at105456am.png)
 
@@ -84,7 +84,7 @@ Der Prozess zur Geräteregistrierung erfolgt auf zwei separaten Geräten:
    >
    >Mit **Anzeige zuweisen** können Sie das Gerät direkt einer Anzeige hinzufügen.
 
-   Wenn Sie auf **Beenden**, müssen Sie das Gerät einer Anzeige zuweisen.
+   Wenn Sie **Beenden**, weisen Sie das Gerät einer Anzeige zu.
 
    ![screen_shot_2018-11-26at105740am](assets/screen_shot_2018-11-26at105740am.png)
 
@@ -96,7 +96,7 @@ Der Prozess zur Geräteregistrierung erfolgt auf zwei separaten Geräten:
 
 Wenn Sie das Gerät nicht einer Anzeige zugewiesen haben, führen Sie die folgenden Schritte aus, um das Gerät einer Anzeige in Ihrem AEM Screens-Projekt zuzuweisen:
 
-1. Wählen Sie das Gerät aus und klicken Sie in der Aktionsleiste auf **Gerät zuweisen**.
+1. Wählen Sie das Gerät aus und wählen Sie **Gerät zuweisen** in der Aktionsleiste aus.
 
    ![screen_shot_2018-11-26at111026am](assets/screen_shot_2018-11-26at111026am.png)
 
@@ -104,25 +104,25 @@ Wenn Sie das Gerät nicht einer Anzeige zugewiesen haben, führen Sie die folgen
 
    ![screen_shot_2018-11-26at111252am](assets/screen_shot_2018-11-26at111252am.png)
 
-1. Klicken Sie auf **Zuweisen**, wenn Sie den Pfad auswählen.
+1. Auswählen **Zuweisen** wenn Sie den Pfad auswählen.
 
    ![screen_shot_2018-11-26at111722am](assets/screen_shot_2018-11-26at111722am.png)
 
-1. Klicken Sie auf **Beenden**, sobald das Gerät erfolgreich zugewiesen wurde, wie in der folgenden Abbildung dargestellt.
+1. Auswählen **Beenden** nachdem das Gerät erfolgreich zugewiesen wurde, wie in der folgenden Abbildung dargestellt.
 
    ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
 
-   Sie können das Anzeigen-Dashboard auch anzeigen, wenn Sie auf **Beenden**.
+   Sie können das Anzeigen-Dashboard auch bei Auswahl anzeigen **Beenden**.
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
 ## Suchen eines Geräts über den Geräte-Manager {#search-device}
 
-Sobald Sie Geräte für Ihren Player registriert haben, können Sie alle Geräte über die Benutzeroberfläche des Geräte-Managers anzeigen.
+Wenn Sie Geräte für Ihren Player registriert haben, können Sie alle Geräte über die Benutzeroberfläche des Geräte-Managers anzeigen.
 
 1. Navigieren Sie von Ihrem AEM Screens-Projekt aus zur Benutzeroberfläche des Geräte-Managers, z. B.: **DemoScreens** > **Geräte**.
 
-1. Wählen Sie den Ordner **Geräte** aus und klicken Sie in der Aktionsleiste auf **Geräte-Manager**.
+1. Wählen Sie die **Geräte** Ordner und auswählen **Geräte-Manager** in der Aktionsleiste aus.
 
    ![image](/help/user-guide/assets/device-manager/device-manager-1.png)
 
@@ -134,9 +134,9 @@ Sobald Sie Geräte für Ihren Player registriert haben, können Sie alle Geräte
 
    Oder
 
-   Klicken Sie auf `/` (Schrägstrich), um die Suchfunktion aufzurufen.
+   Auswählen `/` (Schrägstrich) zum Aufrufen der Suchfunktion.
 
-   ![image](/help/user-guide/assets/device-manager/device-manager-3.png)
+   ![Bild](/help/user-guide/assets/device-manager/device-manager-3.png)
 
 
 ### Einschränkungen bei der Suchfunktion {#limitations}

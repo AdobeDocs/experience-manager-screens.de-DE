@@ -5,10 +5,10 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
-source-wordcount: '1454'
-ht-degree: 39%
+source-wordcount: '1448'
+ht-degree: 34%
 
 ---
 
@@ -58,17 +58,17 @@ Gehen Sie wie folgt vor, um ein Projekt und einen Kanal einzurichten:
 
 ### Zuweisen eines Kanals zu einer Anzeige {#assigning-channel-to-display}
 
-Nach Abschluss der Projekteinrichtung müssen Sie den Kanal einer Anzeige zuweisen, um den Inhalt anzuzeigen.
+Wenn die Projekteinrichtung abgeschlossen ist, weisen Sie den Kanal einer Anzeige zu, um den Inhalt anzuzeigen.
 
 1. Navigieren Sie zur gewünschten Anzeige, beispielsweise **DemoScreens** > **Standorte** > **SanJose** > **Lobby**.
 
-1. Tippen/klicken Sie in der Aktionsleiste auf **Kanal zuweisen**.
+1. Auswählen **Kanal zuweisen** in der Aktionsleiste aus.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    Oder
 
-   Tippen/klicken Sie in der Aktionsleiste auf **Dashboard** und klicken Sie im Bedienfeld **ZUGEWIESENE KANÄLE UND ZEITPLÄNE** auf **+ Kanal zuweisen**.
+   Auswählen **Dashboard** Wählen Sie in der Aktionsleiste die Option **+Kanal zuweisen** aus dem **ZUGEWIESENE KANÄLE UND ZEITPLÄNE** Bedienfeld.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
@@ -91,7 +91,7 @@ Nach Abschluss der Projekteinrichtung müssen Sie den Kanal einer Anzeige zuweis
    >
    >Weitere Informationen zu den Kanalzuweisungseigenschaften finden Sie unter [Kanaleigenschaften](#channel-properties) Abschnitt.
 
-1. Klicken Sie auf **Speichern**, nachdem Sie Ihre Voreinstellungen konfiguriert haben.
+1. Auswählen **Speichern** nach der Konfiguration Ihrer Voreinstellungen.
 
 ### Anzeigen von Inhalten im Chrome-Player {#viewing-content-output}
 
@@ -105,19 +105,19 @@ Sie können die folgende Ausgabe auf Ihrem Player anzeigen:
 
 ## Timeline-Ansicht {#timeline-view}
 
-Nachdem Sie einen Kanal einer Anzeige zugewiesen und einen Intervallzeitplan eingerichtet haben, können Sie die Timeline im Bedienfeld **ZUGEWIESENE KANÄLE &amp; ZEITPLÄNE** anzeigen.
+Wenn Sie einen Kanal einer Anzeige zugewiesen und einen Intervallzeitplan eingerichtet haben, können Sie die Timeline im **ZUGEWIESENE KANÄLE UND ZEITPLÄNE** Bedienfeld.
 
 Führen Sie die folgenden Schritte aus, um zur Timeline-Ansicht zu navigieren:
 
 1. Navigieren Sie zur gewünschten Anzeige, beispielsweise **DemoScreens** > **Standorte** > **SanJose** > **Lobby**.
 
-1. Tippen/klicken Sie in der Aktionsleiste auf **Kanal zuweisen**.
+1. Auswählen **Kanal zuweisen** in der Aktionsleiste aus.
 
    Oder
 
-   Tippen/klicken Sie auf **Dashboard** und klicken Sie im Bedienfeld **ZUGEWIESENE KANÄLE UND ZEITPLÄNE** auf **Timeline**.
+   Auswählen **Dashboard** und wählen **Timeline** aus dem **ZUGEWIESENE KANÄLE UND ZEITPLÄNE** Bedienfeld.
 
-   ![image](/help/user-guide/assets/channel-assignment/timeline-1.png)
+   ![Bild](/help/user-guide/assets/channel-assignment/timeline-1.png)
 
 ## Verstehen der Kanaleigenschaften im Dialogfeld „Kanalzuweisung“ {#channel-properties}
 

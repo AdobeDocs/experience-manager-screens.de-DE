@@ -5,10 +5,10 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: fb5e7f314ce8557bbee64743929dce945b35a83a
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2118'
+ht-degree: 57%
 
 ---
 
@@ -109,7 +109,7 @@ Aktivieren Sie den Apache Sling Referrer-Filter &quot;Allow Empty&quot;. Dies is
 
 1. Navigieren Sie zur **Konfiguration der Adobe Experience Manager-Web-Konsole**.
 1. Aktivieren Sie die Option **allow.empty**.
-1. Klicken Sie auf **Speichern**.
+1. Wählen Sie **Speichern** aus.
 
 ### 3. Wie lässt sich ein Problem beheben, wenn beim Registrieren eines AEM Screens-Players auf dem Gerät „FAILURE“ und in den Protokollen der Konsole der Fehler „ENAME_NOT_FOUND“ angezeigt wird?
 
@@ -133,13 +133,13 @@ Weitere Informationen darüber, wo Sie Geräteaktivität überwachen können, fi
 
 Im Entwicklermodus kann der Chrome OS-Player als Chrome-Browser-Plug-in installiert werden, ohne dass ein echtes Chrome-Player-Gerät erforderlich ist. Gehen Sie zur Installation wie folgt vor:
 
-1. Klicken Sie [hier](https://download.macromedia.com/screens/), um den neuesten Chrome-Player herunterzuladen.
+1. Auswählen [here](https://download.macromedia.com/screens/) , um den neuesten Chrome-Player herunterzuladen.
 1. Entpacken Sie die Datei und speichern Sie sie auf der Festplatte.
 1. Öffnen Sie den Chrome-Browser und wählen Sie im Menü die Option **Erweiterungen** oder navigieren Sie direkt zu ***chrome://extensions***.
 1. Schalten Sie die **Entwicklermodus** oben rechts.
 1. Auswählen **Entpacktes Laden** oben links und laden Sie den entpackten Chrome-Player.
 1. Wenn in der Liste der Erweiterungen verfügbar, überprüfen Sie **AEM Screens Chrome-Player** Plug-in.
-1. Öffnen Sie eine neue Registerkarte und klicken Sie auf **Apps** Symbol oben links oder navigieren Sie direkt zu ***chrome://apps***.
+1. Öffnen Sie eine neue Registerkarte und wählen Sie die **Apps** Symbol oben links oder navigieren Sie direkt zu ***chrome://apps***.
 1. Wählen Sie die **AEM Screens** Plug-in. Standardmäßig wird der Player im Vollbildmodus gestartet. Presse **Esc** , um den Vollbildmodus zu beenden.
 
 ### 2. Wie kann eine Fehlerbehebung durchgeführt werden, wenn der Screens-Player nicht über die Veröffentlichungsinstanz mit dem benutzerdefinierten Fehler-Handler authentifiziert werden kann?
@@ -221,7 +221,7 @@ Sie können auch eine zusätzliche Ressource in [Oak-Dokumentation](https://jack
 
 ### 3. Was ist erforderlich, um V3-Manifeste zu konfigurieren? {#configure-v3}
 
-Um das V3-Manifest zu aktivieren, müssen Sie:
+Gehen Sie wie folgt vor, um das v3-Manifest zu aktivieren:
 
 * Dispatcher aktualisieren.
 Weitere Informationen finden Sie unter [Konfigurieren des Dispatchers für Manifest Version 3](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3).

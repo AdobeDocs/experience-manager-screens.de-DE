@@ -6,10 +6,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '623'
-ht-degree: 46%
+ht-degree: 40%
 
 ---
 
@@ -50,7 +50,7 @@ Gehen Sie wie folgt vor, um ein Projekt einzurichten:
 
    ![Asset](assets/single-takeover2.png)
 
-1. Wählen Sie den Kanal **MainAdChannel** aus und klicken Sie in der Aktionsleiste auf **Bearbeiten**. Ziehen Sie einige Assets (Bilder, Videos, eingebettete Sequenzen) in Ihren Kanal.
+1. Wählen Sie die **MainAdChannel** und wählen **Bearbeiten** in der Aktionsleiste aus. Ziehen Sie einige Assets (Bilder, Videos, eingebettete Sequenzen) in Ihren Kanal.
 
    ![Asset](assets/single-takeover2.png)
 
@@ -62,7 +62,7 @@ Gehen Sie wie folgt vor, um ein Projekt einzurichten:
 
 1. Erstellen Sie eine **TakeOver** -Kanal, der den Inhalt in **MainAdChannel** und wird nur für einen bestimmten Tag und eine bestimmte Uhrzeit wiedergegeben.
 
-1. Wählen Sie die **TakeOver** und klicken **Bearbeiten** in der Aktionsleiste aus. Ziehen Sie einige Assets in Ihren Kanal. Im folgenden Beispiel wird gezeigt, wie Sie diesem Kanal ein Bild für eine Einzelzone hinzufügen.
+1. Wählen Sie die **TakeOver** und wählen **Bearbeiten** in der Aktionsleiste aus. Ziehen Sie einige Assets in Ihren Kanal. Im folgenden Beispiel wird gezeigt, wie Sie diesem Kanal ein Bild für eine Einzelzone hinzufügen.
 
    ![Asset](assets/single-takeover4.png)
 
@@ -72,20 +72,20 @@ Gehen Sie wie folgt vor, um ein Projekt einzurichten:
 
 **Zuweisen von Kanälen zu einer Anzeige**
 
-1. Wählen Sie die Anzeige **MainLobbyDisplay** aus dem Ordner **Standorte** aus. Klicken Sie in der Aktionsleiste auf **Kanal zuweisen**.
+1. Wählen Sie die Anzeige **MainLobbyDisplay** aus dem Ordner **Standorte** aus. Auswählen **Kanal zuweisen** in der Aktionsleiste aus.
 
    ![Asset](assets/single-takeover6.png)
 
    >[!NOTE]
    >Informationen zum Zuweisen eines Kanals zu einer Anzeige finden Sie unter **[Kanalzuweisung](channel-assignment.md)**.
 
-1. Füllen Sie die Felder (**Kanalpfad**, **Priorität** und **unterstützte Ereignisse**) im Dialogfeld **Kanalzuweisung** aus und klicken Sie auf **Speichern**. Sie haben Ihrer Anzeige den Kanal **MainAdChannel** zugewiesen.
+1. Füllen Sie die Felder (**Kanalpfad**, **Priorität**, und **Unterstützte Ereignisse**) aus dem **Kanalzuweisung** und wählen Sie **Speichern**. Sie haben Ihrer Anzeige den Kanal **MainAdChannel** zugewiesen.
 
    ![Asset](assets/single-takeover7.png)
 
-1. Wählen Sie die Anzeige **TakeOver** aus dem Ordner **Standorte** aus. Klicks **Kanal zuweisen** in der Aktionsleiste, damit Sie den Übernahmekanal für die einmalige Verwendung zuweisen können.
+1. Wählen Sie die Anzeige **TakeOver** aus dem Ordner **Standorte** aus. Auswählen **Kanal zuweisen** in der Aktionsleiste, damit Sie den Übernahmekanal für die einmalige Verwendung zuweisen können.
 
-1. Zuweisen der **TakeOver** zu einer geplanten Zeit zu Ihrer Anzeige zu gelangen und die folgenden Felder aus dem **Kanalzuweisung** und klicken Sie auf **Speichern**:
+1. Zuweisen der **TakeOver** zu einer geplanten Zeit zu Ihrer Anzeige zu gelangen und die folgenden Felder aus dem **Kanalzuweisung** und wählen Sie **Speichern**:
 
    * **Kanalpfad**: Wählen Sie den Pfad zum Kanal „TakeOver“ aus
    * **Priorität**: Legen Sie die Priorität dieses Kanals höher als die von **MainAdChannel** fest. Die in diesem Beispiel eingestellte Priorität ist beispielsweise „8“.
@@ -97,7 +97,7 @@ Gehen Sie wie folgt vor, um ein Projekt einzurichten:
 
      ![Asset](assets/single-takeover8.png)
 
-     Zur Anzeige navigieren von **SingleUseTakeOver** > **Standorte** > **Lobby** > **MainLobbyDisplay** und klicken **Dashboard** in der Symbolleiste, damit Sie die zugewiesenen Kanäle mit ihren Prioritäten anzeigen können, wie unten dargestellt.
+     Zur Anzeige navigieren von **SingleUseTakeOver** > **Standorte** > **Lobby** > **MainLobbyDisplay** und wählen **Dashboard** in der Symbolleiste, damit Sie die zugewiesenen Kanäle mit ihren Prioritäten anzeigen können, wie unten dargestellt.
 
      >[!NOTE]
      >Es ist zwingend erforderlich, die Priorität des Übernahmekanals auf die höchste zu setzen.

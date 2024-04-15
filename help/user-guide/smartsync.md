@@ -1,22 +1,18 @@
 ---
 title: Umstellung von ContentSync auf SmartSync
-seo-title: Transitioning from ContentSync to SmartSync
-description: Auf dieser Seite erfahren Sie mehr über die Funktion SmartSync und dazu, wie Sie von ContentSync zu SmartSync wechseln können.
-seo-description: Follow this page to learn about SmartSync feature and how you can transition from ContentSync to SmartSync.
-uuid: c0619b56-1f6f-465a-a428-6df28e40b555
+description: Erfahren Sie mehr über diese SmartSync-Funktion und wie Sie von ContentSync zu SmartSync wechseln können.
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 content-type: reference
-discoiquuid: 822dfbc1-3584-4509-a35c-1d68e5f84509
 docset: aem65
 feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 93%
+source-wordcount: '431'
+ht-degree: 60%
 
 ---
 
@@ -32,7 +28,7 @@ SmartSync wird sowohl Server-seitig als auch Client-seitig ausgeführt.
 
 **Auf Server-Seite**:
 
-* Der Inhalt der Kanäle, einschließlich Assets, wird in */var/contentsync* zwischengespeichert.
+* Inhalte der Kanäle, einschließlich Assets, werden zwischengespeichert in *`/var/contentsync`*.
 * Der Cache wird den Playern über ein Manifest zur Verfügung gestellt, das den verfügbaren Inhalt für eine Anzeige beschreibt.
 
 **Auf Client-Seite**:
@@ -41,11 +37,11 @@ SmartSync wird sowohl Server-seitig als auch Client-seitig ausgeführt.
 
 ### Vorteile von SmartSync {#benefits-of-using-smartsync}
 
-Die Funktion SmartSync bietet eine Reihe von Vorteilen für AEM Screens-Projekte. Sie erlaubt Folgendes:
+Die Funktion SmartSync bietet verschiedene Vorteile für Ihr AEM Screens-Projekt, z. B.:
 
-* Deutliche Reduzierung des Netzwerk-Traffics und des Server-seitigen Speicherbedarfs
-* Intelligenter Download von Assets durch den Player nur dann, wenn das Asset fehlt oder geändert wurde
-* Server-seitige und Client-seitige Speicheroptimierungen
+* Deutliche Reduzierung des Netzwerk-Traffics und der Server-seitigen Speicheranforderungen.
+* Der Player lädt Assets nur dann intelligent herunter, wenn das Asset fehlt oder geändert wurde.
+* Serverseitige und Client-seitige Speicheroptimierungen.
 
 >[!NOTE]
 >
@@ -63,7 +59,7 @@ Die Funktion SmartSync bietet eine Reihe von Vorteilen für AEM Screens-Projekte
 
 | **Plattform** | **Unterstützte Minimalversion des Players** |
 |---|---|
-| Android | 3.3.72 |
+| Android™ | 3.3.72 |
 | Chrome OS | 1.0.136 |
 | Windows | 1.0.136 |
 
@@ -71,7 +67,7 @@ Gehen Sie wie folgt vor, um von ContentSync zu SmartSync zu wechseln:
 
 1. Für die Migration von ContentSync zu SmartSync muss der ContentSync-Cache gelöscht werden, und zwar vor der Aktivierung von SmartSync.
 
-   Navigieren Sie von Ihrer Instanz mithilfe des Links ***https://localhost:4502/libs/cq/contentsync/content/console.html*** zur ContentSync-Konsole und klicken Sie auf **Cache leeren**, wie in der folgenden Abbildung dargestellt:
+   Navigieren Sie von Ihrer Instanz mithilfe des Links zur ContentSync-Konsole. ***https://localhost:4502/libs/cq/contentsync/content/console.html*** und wählen **Cache löschen**, wie in der folgenden Abbildung dargestellt:
 
    ![clear_contesync_cache](assets/clear_contesync_cache.png)
 
@@ -85,11 +81,11 @@ Gehen Sie wie folgt vor, um von ContentSync zu SmartSync zu wechseln:
 
 1. Die **Konfiguration der Adobe Experience Manager-Web-Konsole** wird geöffnet. Suchen Sie nach *offlinecontentservice*.
 
-   Zum Durchsuchen der Eigenschaft **Screens-Offline-Inhalts-Service** drücken Sie **Befehlstaste+F** unter **Mac** und **Strg+F** unter **Windows**.
+   So durchsuchen Sie die **Screens-Offline-Inhaltsdienst** Eigenschaft, drücken **Befehl+F** für **Mac**, und **Strg+F** für **Windows**.
 
    ![screen_shot_2019-02-19at22643pm](assets/screen_shot_2019-02-19at22643pm.png)
 
-1. Klicken Sie auf **Speichern**, um die Eigenschaft **Screens-Offline-Inhalts-Service** zu aktivieren und SmartSync für AEM Screens zu verwenden.
-1. Nachdem Sie SmartSync aktiviert haben, müssen Sie zu Ihrem Projekt navigieren und auf **Offline-Inhalt aktualisieren** klicken *(in der Aktionsleiste)*, wie in der folgenden Abbildung dargestellt.
+1. Auswählen **Speichern** um die **Screens Offline Content Services** -Eigenschaft und verwenden Sie daher SmartSync für AEM Screens.
+1. Wenn Sie SmartSync aktiviert haben, navigieren Sie zu Ihrem Projekt und wählen Sie **Offline-Inhalt aktualisieren** *(in der Symbolleiste),* wie in der folgenden Abbildung dargestellt.
 
    ![screen_shot_2019-02-25at102605am](assets/screen_shot_2019-02-25at102605am.png)

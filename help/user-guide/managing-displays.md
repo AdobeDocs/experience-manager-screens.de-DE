@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 46%
+source-wordcount: '659'
+ht-degree: 37%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 46%
 
 Eine Anzeige ist eine virtuelle Gruppierung von Bildschirmen, die nebeneinander angeordnet sind. Die Anzeige ist in Bezug auf eine Anlage dauerhaft. Dies ist das Objekt, mit dem Inhaltsautoren arbeiten und immer als logische Darstellung und nicht als physische Gegenteile referenzieren.
 
-Nachdem Sie einen Standort erstellt haben, müssen Sie eine Anzeige für Ihren Standort erstellen.
+Wenn Sie einen Standort erstellen, müssen Sie eine Anzeige für Ihren Standort erstellen.
 
 Auf dieser Seite wird beschrieben, wie Anzeigen für Screens erstellt und verwaltet werden.
 
@@ -54,7 +54,7 @@ Wenn Sie die Anzeige an einer Position haben, besteht der nächste Schritt darin
 >
 >**Der nächste Schritt**:
 >
->Wenn Sie eine Anzeige für Ihren Standort erstellen, müssen Sie Ihrer Anzeige einen Kanal zuweisen, um den Inhalt zu verwenden.
+>Wenn Sie eine Anzeige für Ihren Standort erstellen, weisen Sie Ihrer Anzeige einen Kanal zu, um den Inhalt zu verwenden.
 >
 >Weitere Informationen zum Zuweisen eines Kanals zur Anzeige finden Sie unter [Zuweisen von Kanälen](channel-assignment.md).
 
@@ -66,19 +66,17 @@ Eine Gerätekonfiguration fungiert als Platzhalter für ein Digital-Signage-Ger�
 1. Wählen Sie den Anzeigeordner aus und wählen Sie **Dashboard anzeigen** in der Aktionsleiste.
 1. Auswählen **+ Gerätekonfiguration hinzufügen** oben rechts im **Geräte** Bedienfeld.
 
-1. Wählen Sie **Gerätekonfiguration** als die erforderliche Vorlage aus und tippen/klicken Sie auf **Weiter**.
+1. Wählen Sie die **Gerätekonfiguration** als erforderliche Vorlage verwenden und auswählen **Nächste**.
 
-1. Geben Sie die entsprechenden Eigenschaften ein und tippen/klicken Sie auf **Erstellen**.
+1. Geben Sie die Eigenschaften nach Bedarf ein und wählen Sie **Erstellen**.
 
 Die Gerätekonfiguration wird erstellt und der aktuellen Anzeige hinzugefügt. (In der folgenden Demonstration ist *DeviceConfig* die neue Gerätekonfiguration.)
 
 ![deviceconfig](assets/deviceconfig.gif)
 
-Nach der Erstellung der Gerätekonfiguration für Ihre Anzeige am Standort besteht der nächste Schritt darin, Ihrer Anzeige einen Kanal zuzuweisen.
-
 >[!NOTE]
 >
->Nach der Erstellung der Gerätekonfiguration für Ihre Anzeige am Standort besteht der nächste Schritt darin, Ihrer Anzeige einen Kanal zuzuweisen.
+>Wenn eine Gerätekonfiguration für Ihre Anzeige am Standort festgelegt ist, besteht der nächste Schritt darin, Ihrer Anzeige einen Kanal zuzuweisen.
 >
 >Wie in der folgenden Abbildung gezeigt, wenn die Gerätekonfiguration in der **Geräte** -Bedienfeld, wenn dieser Gerätekonfiguration kein Kanal zugewiesen ist.
 >
@@ -104,12 +102,12 @@ Das Anzeigen-Dashboard bietet verschiedene Bedienfelder zum Verwalten von Anzeig
 
 Im Bedienfeld **ANZEIGEINFORMATIONEN** werden die Anzeigeeigenschaften angezeigt.
 
-Klicken Sie auf (**...**) oben rechts in der **ANZEIGEINFORMATIONEN** -Bedienfeld, damit Sie die Eigenschaften anzeigen und eine Vorschau der Anzeige anzeigen können.
+Select (**...**) oben rechts in der **ANZEIGEINFORMATIONEN** -Bedienfeld, damit Sie die Eigenschaften anzeigen und eine Vorschau der Anzeige anzeigen können.
 
 
 #### Anzeigen von Eigenschaften {#viewing-properties}
 
-Klicks **Eigenschaften** sodass Sie die Eigenschaften Ihrer Anzeige anzeigen oder ändern können.
+Auswählen **Eigenschaften** sodass Sie die Eigenschaften Ihrer Anzeige anzeigen oder ändern können.
 
 Außerdem können Sie den Ereignis-Timer-Wert für Ihren interaktiven Kanal in **Idle Timeout** Eigenschaft unter **Anzeige** Registerkarte. Der Standardwert ist auf *300 Sekunden* eingestellt.
 
@@ -127,7 +125,7 @@ Das Bedienfeld **GERÄTE** bietet Informationen zu den Gerätekonfigurationen.
 
 Select (**...**) oben rechts in der **Geräte** -Bedienfeld, damit Sie Gerätekonfigurationen hinzufügen und Geräte aktualisieren können.
 
-Klicken Sie außerdem auf die Gerätekonfiguration, um Eigenschaften anzuzeigen, ein Gerät zuzuweisen oder es vollständig zu löschen.
+Wählen Sie außerdem die Gerätekonfiguration aus, um Eigenschaften anzuzeigen, ein Gerät zuzuweisen oder es vollständig zu löschen.
 
 ![chlimage_1-13](assets/chlimage_1-13.png)
 

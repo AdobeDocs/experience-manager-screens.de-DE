@@ -10,10 +10,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
-source-wordcount: '1447'
-ht-degree: 43%
+source-wordcount: '1445'
+ht-degree: 36%
 
 ---
 
@@ -41,7 +41,7 @@ Das folgende Diagramm zeigt visuell, wie ContextHub-Konfigurationen mit Aktivit�
 
 ## Voraussetzungen {#preconditions}
 
-Bevor Sie mit der Konfiguration von Context-Hub-Konfigurationen für ein AEM Screens-Projekt beginnen, müssen Sie Google Tabellen (für Demonstrationszwecke) einrichten.
+Bevor Sie mit der Konfiguration von ContextHub-Konfigurationen für ein AEM Screens-Projekt beginnen, richten Sie Google Tabellen ein (zu Demonstrationszwecken).
 
 >[!IMPORTANT]
 >
@@ -73,7 +73,7 @@ Die folgende Validierung wird angezeigt, wenn Sie die Verbindung durch Eingabe d
 
 1. **Navigieren zu ContextHub**
 
-   Navigieren Sie zu Ihrer AEM-Instanz und klicken Sie in der linken Seitenleiste auf das Symbol „Tools“. Klicks **Sites** > **ContextHub**, wie in der folgenden Abbildung dargestellt.
+   Navigieren Sie zu Ihrer AEM-Instanz und wählen Sie in der linken Seitenleiste das Symbol Tools aus. Auswählen **Sites** > **ContextHub**, wie in der folgenden Abbildung dargestellt.
 
    ![Bild](/help/user-guide/assets/context-hub/context-hub3.png)
 
@@ -83,9 +83,9 @@ Die folgende Validierung wird angezeigt, wenn Sie die Verbindung durch Eingabe d
 
    1. Auswählen **Erstellen** > **Konfigurationscontainer erstellen** und geben Sie den Titel als **ContextHubDemo**.
 
-      ![image](/help/user-guide/assets/context-hub/context-hub4.png)
+      ![Bild](/help/user-guide/assets/context-hub/context-hub4.png)
 
-   1. **Navigieren** Sie zu **ContextHubDemo** > **Erstellen** **ContextHub-Konfiguration** und klicken Sie auf **Speichern**.
+   1. **Navigieren** nach **ContextHubDemo** > **Erstellen** **ContentHub-Konfiguration** und wählen **Speichern**.
 
       >[!NOTE]
       > Nachdem Sie **Speichern**, befinden Sie sich im **ContextHub-Konfiguration** angezeigt.
@@ -110,7 +110,7 @@ Die folgende Validierung wird angezeigt, wenn Sie die Verbindung durch Eingabe d
    >
    >Führen Sie die folgenden Schritte in Author and Publish vor oder nach dem Upgrade aus.
 
-   1. Geben Sie die **Titel** as **Google Tabellen**, **Speichername** as **`googlesheets`**, und **Store Type** as **c`ontexthub.generic-jsonp`** und klicken **Nächste**.
+   1. Geben Sie die **Titel** as **Google Tabellen**, **Speichername** as **`googlesheets`**, und **Store Type** as **c`ontexthub.generic-jsonp`** und wählen **Nächste**.
 
       >[!CAUTION]
       >Wenn Sie Adobe Experience Manager (AEM) 6.4 verwenden, geben Sie die **Konfigurationstitel** as **`googlesheets`** und **Store Type** as **c`ontexthub.generic-jsonp`**.
@@ -152,9 +152,9 @@ Die folgende Validierung wird angezeigt, wenn Sie die Verbindung durch Eingabe d
 
    1. Navigieren Sie zu **ContentHub-Speicherkonfiguration** und erstellen Sie eine weitere Speicherkonfiguration im AEM Screens-Konfigurationscontainer und legen Sie die **Titel** as **segmentation-contexthub**, **Speichername** as **Segmentierung** und **Store Type** as **aem.segmentation**.
 
-      ![image](/help/user-guide/assets/context-hub/context-hub7.png)
+      ![Bild](/help/user-guide/assets/context-hub/context-hub7.png)
 
-   1. Klicken Sie auf **Weiter** und dann auf **Speichern**.
+   1. Auswählen **Nächste** und dann **Speichern**.
 
       >[!NOTE]
       >Überspringen Sie die Definition der JSON-Datei und lassen Sie sie leer.
@@ -166,18 +166,18 @@ Die folgende Validierung wird angezeigt, wenn Sie die Verbindung durch Eingabe d
 
    1. Navigieren Sie von Ihrer AEM-Instanz zu **Personalisierung** > **Zielgruppen** > **Screens**.
 
-   1. Klicken Sie auf **Erstellen** > **ContextHub-Segment erstellen.** Das Dialogfeld **Neues ContextHub-Segment** wird geöffnet.
+   1. Auswählen **Erstellen** > **Erstellen Sie ein ContextHub-Segment.** Das Dialogfeld **Neues ContextHub-Segment** wird geöffnet.
 
-   1. Geben Sie die **Titel** as `**Higherthan50**` und klicken **Erstellen**. Erstellen Sie auf ähnliche Weise ein weiteres Segment mit dem Titel `**Lowerthan50**`.
+   1. Geben Sie die **Titel** as `**Higherthan50**` und wählen **Erstellen**. Erstellen Sie auf ähnliche Weise ein weiteres Segment mit dem Titel `**Lowerthan50**`.
 
       ![Bild](/help/user-guide/assets/context-hub/context-hub11.png)
 
-   1. Segment auswählen `**Higherthan50**` und klicken **Eigenschaften** in der Aktionsleiste aus.
+   1. Segment auswählen `**Higherthan50**` und wählen **Eigenschaften** in der Aktionsleiste aus.
       ![image](/help/user-guide/assets/context-hub/context-hub12.png)
 
-   1. Wählen Sie die Registerkarte **Personalisierung** aus den **Segmenteigenschaften** aus. Stellen Sie den **ContextHub-Pfad** auf `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` und den **Segmentpfad** auf `/conf/screens/settings/wcm/segments` ein und klicken Sie auf **Speichern**, wie in der folgenden Abbildung dargestellt.
+   1. Wählen Sie die Registerkarte **Personalisierung** aus den **Segmenteigenschaften** aus. Legen Sie die **ContextHub-Pfad** nach `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` und **Segmentpfad** nach `/conf/screens/settings/wcm/segments` und wählen **Speichern**, wie in der folgenden Abbildung dargestellt.
 
-   ![image](/help/user-guide/assets/context-hub/context-hub13.png)
+   ![Bild](/help/user-guide/assets/context-hub/context-hub13.png)
 
    1. Setzen Sie auf ähnliche Weise die **ContextHub-Pfad** und **Segmentpfad** für `**Lowerthan50**` -Segment.
 
@@ -191,9 +191,9 @@ Gehen Sie wie folgt vor, um eine Marke in Ihren Aktivitäten und Bereichen unter
 
    1. Auswählen **Erstellen** > **Marke erstellen**.
 
-   1. Wählen Sie im Assistenten **Seite erstellen** die Option **Marke** aus und klicken Sie auf **Weiter**.
+   1. Auswählen **Marke** aus dem **Seite erstellen** Assistent und wählen Sie **Nächste**.
 
-   1. Geben Sie unter **Titel** den Wert **ScreensBrand** ein und klicken Sie auf **Erstellen**. Ihre Marke wird jetzt wie unten dargestellt erstellt.
+   1. Geben Sie die **Titel** as **ScreensBrand** und wählen **Erstellen**. Ihre Marke wird jetzt wie unten dargestellt erstellt.
 
       ![image](/help/user-guide/assets/context-hub/context-hub8.png)
 
@@ -253,7 +253,7 @@ Nachdem Sie einen Datenspeicher eingerichtet und Ihre Aktivität (Marke und Bere
 
    1. Ziehen Sie die Komponente **Vergleich: Eigenschaft - Wert** in den Editor.
 
-   1. Klicken Sie auf das Schraubenschlüsselsymbol, damit Sie die **Vergleich einer Eigenschaft mit einem Wert** Dialogfeld.
+   1. Wählen Sie das Schraubenschlüsselsymbol aus, damit Sie die **Vergleich einer Eigenschaft mit einem Wert** Dialogfeld.
 
    1. Wählen Sie **googlesheets/value/1/0** aus der Dropdown-Liste in **Eigenschaftsname** aus.
 
@@ -291,9 +291,9 @@ Gehen Sie wie folgt vor, um Targeting in Ihren Kanälen zu aktivieren.
 
 1. Navigieren Sie zu einem der AEM Screens-Kanäle. Die folgenden Schritte zeigen, wie Sie das Targeting mit **DataDrivenChannel** aktivieren, das in einem AEM Screens-Kanal erstellt wurde.
 
-1. Wählen Sie den Kanal **TargetChannel** aus und klicken Sie in der Aktionsleiste auf **Eigenschaften**.
+1. Kanal auswählen **TargetChannel** und wählen **Eigenschaften** in der Aktionsleiste aus.
 
-   ![image](/help/user-guide/assets/context-hub/context-hub19.png)
+   ![Bild](/help/user-guide/assets/context-hub/context-hub19.png)
 
 1. Wählen Sie die **Personalisierung** -Registerkarte, damit Sie die ContextHub-Konfigurationen einrichten können.
 
@@ -308,7 +308,7 @@ Gehen Sie wie folgt vor, um Targeting in Ihren Kanälen zu aktivieren.
 
       ![image](/help/user-guide/assets/context-hub/context-hub20New.png)
 
-   1. Navigieren Sie zu und wählen Sie **TargetChannel** aus und klicken Sie in der Aktionsleiste auf **Bearbeiten**.
+   1. Navigieren Sie zu und wählen Sie die **TargetChannel** Kanal und Auswahl **Bearbeiten** in der Aktionsleiste aus.
 
       >[!NOTE]
       >

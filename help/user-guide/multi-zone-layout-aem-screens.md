@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
-source-git-commit: c440527b80a3899fd45ec2d20d8cb48ffe85f6f3
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
-source-wordcount: '1126'
-ht-degree: 47%
+source-wordcount: '1124'
+ht-degree: 42%
 
 ---
 
@@ -51,13 +51,13 @@ Beim Erstellen eines Kanals können Sie verschiedene Vorlagen verwenden, um Bere
 **Erstellen eines Kanals**
 
 1. Wählen Sie den Adobe Experience Manager-Link (oben links) und dann **Screens** aus. Sie haben auch die Möglichkeit, direkt zur folgenden URL zu wechseln: `http://localhost:4502/screens.html/content/screens`.
-1. Navigieren Sie zum Ordner **Kanäle** und klicken Sie in der Aktionsleiste auf **Erstellen**.
+1. Navigieren Sie zu **Kanäle** Ordner und auswählen **Erstellen** in der Aktionsleiste aus.
 
 1. Wählen Sie im Assistenten **Erstellen** die Option **1x2-Splitscreen-Kanal**.
 
-1. Klicken Sie auf **Weiter** und geben Sie unter **Titel** den Wert **MultiZone** ein.
+1. Auswählen **Nächste** und geben Sie die **title** as **MultiZone**.
 
-1. Klicken Sie auf **Erstellen**, um die Kanalerstellung abzuschließen.
+1. Auswählen **Erstellen** , um die Kanalerstellung abzuschließen.
 
 ### Verwenden einzelner Assets in einem oder mehreren Bereichen {#using-single-assets-in-one-or-more-zones}
 
@@ -66,7 +66,7 @@ Sie können einzelne Assets wie ein Bild oder ein Video in allen Bereichen verwe
 1. **Hinzufügen von Inhalten zum Kanal**
 
    1. Navigieren Sie zu **Bereiche** > **Kanäle**> **MultiZone**.
-   1. Wählen Sie die **MultiZone** channel und click **Bearbeiten** in der Aktionsleiste aus.
+   1. Wählen Sie die **MultiZone** Kanal und Auswahl **Bearbeiten** in der Aktionsleiste aus.
 
 1. **Hinzufügen von Bildern zum Kanal**
 
@@ -80,17 +80,17 @@ Wenn Sie möchten, dass eine Bildsequenz und ein Video in verschiedenen Bereiche
 
 1. **Erstellen eines Kanalordners**
 
-   1. Navigieren Sie zu **Bereiche** > **MultiZone** > **Kanäle** und klicken **Erstellen** in der Aktionsleiste aus.
-   1. Wählen Sie im Assistenten **Erstellen** die Option **Kanalordner** aus und klicken Sie auf **Weiter**.
-   1. Geben Sie **EmbeddedChannels** als Titel ein und klicken Sie auf **Erstellen**.
+   1. Navigieren Sie zu **Bereiche** > **MultiZone** > **Kanäle** und wählen **Erstellen** in der Aktionsleiste aus.
+   1. Auswählen **Kanalordner** aus dem **Erstellen** Assistent und wählen Sie **Nächste**.
+   1. Geben Sie den Titel als **EmbeddedChannels** und wählen **Erstellen**.
 
    ![screen_shot_2018-12-19at125428pm](assets/screen_shot_2018-12-19at125428pm.png)
 
 1. **Hinzufügen von zwei weiteren Kanälen zum Kanalordner**
 
-   1. Navigieren Sie zu **Bereiche** > **Kanäle** > **EmbeddedChannels** und klicken **Erstellen** in der Aktionsleiste aus.
+   1. Navigieren Sie zu **Bereiche** > **Kanäle** > **EmbeddedChannels** und wählen **Erstellen** in der Aktionsleiste aus.
    1. Auswählen **Sequenzkanal** aus dem **Erstellen** Assistent zum Erstellen eines Kanals mit dem Titel **`Zone1`**.
-   1. Auswählen **`Zone1`** und klicken **Bearbeiten** in der Aktionsleiste aus.
+   1. Auswählen **`Zone1`** und wählen **Bearbeiten** in der Aktionsleiste aus.
    1. Ziehen Sie einige Bilder in diesen Kanal.
    1. Erstellen Sie auf ähnliche Weise einen weiteren Sequenzkanal mit dem Titel **`Zone2`** in **EmbeddedChannels** Ordner.
    1. Ziehen Sie einige Bilder per Drag-and-Drop in diesen Kanal.
@@ -110,10 +110,10 @@ Wenn Sie möchten, dass eine Bildsequenz und ein Video in verschiedenen Bereiche
 1. **Hinzufügen eingebetteter Sequenzen (Komponenten) zum Hauptkanal (MultiZone)**
 
    1. Navigieren Sie zu **Bereiche** > **Kanäle** > **MultiZone**.
-   1. Klicks **Bearbeiten** in der Aktionsleiste aus.
+   1. Auswählen **Bearbeiten** in der Aktionsleiste aus.
    1. Ziehen Sie die Komponente **Eingebettete Sequenz** per Drag-and-Drop in beide Bereiche.
    1. Wählen Sie die eingebettete Sequenz in einem der Bereiche aus.
-   1. Klicken Sie auf das Symbol **Konfigurieren** (Schraubenschlüssel), um eine der eingebetteten Sequenzen im Editor zu konfigurieren.
+   1. Wählen Sie die **Konfigurieren** (Schraubenschlüssel) zu einer der eingebetteten Sequenzen im Editor.
    1. Wählen Sie den Kanalpfad als **Bereiche** > **Kanäle** > **EmbeddedChannels** > **`Zone1`**, wie in der folgenden Abbildung dargestellt.
    1. Fügen Sie auf ähnliche Weise **`Zone2`** in eine andere eingebettete Sequenzkomponente im Editor.
 
@@ -150,7 +150,7 @@ Weisen Sie die Kanäle dem Display zu, um den Inhalt anzuzeigen. Gehen Sie wie f
    1. Wählen Sie **Speichern** aus.
 
       ![Bild](/help/user-guide/assets/multi-zone/multizone-img9.png)
-   1. Ebenso müssen Sie die beiden anderen eingebetteten Kanäle (**`Zone1`** und **`Zone2`**), um diese Anzeige anzuzeigen.
+   1. Weisen Sie die anderen beiden eingebetteten Kanäle zu (**`Zone1`** und **`Zone2`**), um diese Anzeige anzuzeigen.
    1. Nachdem Sie alle drei Kanäle dem **Lobby** angezeigt werden, sollten Sie die zugewiesenen Kanäle im Anzeigen-Dashboard anzeigen können.
 
       ![Bild](/help/user-guide/assets/multi-zone/multizone-img8.png)

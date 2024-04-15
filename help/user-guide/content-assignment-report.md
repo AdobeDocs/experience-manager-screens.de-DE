@@ -5,10 +5,10 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 38%
+source-wordcount: '355'
+ht-degree: 30%
 
 ---
 
@@ -38,7 +38,7 @@ Weitere Informationen finden Sie in den folgenden Ressourcen:
 
 ## Herunterladen des Inhaltszuweisungsberichts {#downloading-content-assignment-report-fp}
 
-Nachdem Sie Ihr AEM Screens-Projekt eingerichtet und jedem Standort Anzeigen zugewiesen haben, wie in den vorherigen Schritten gezeigt, können Sie den Inhaltszuweisungsbericht herunterladen.
+Laden Sie den Inhaltszuweisungsbericht herunter, wenn Sie Ihr AEM Screens-Projekt eingerichtet und jedem der Orte Anzeigen zugewiesen haben, wie in den vorherigen Schritten gezeigt.
 
 >[!NOTE]
 >Auf die Funktion „Inhaltszuweisungsbericht“ kann nur auf Projektebene zugegriffen werden.
@@ -47,7 +47,7 @@ Folgen Sie den nachstehenden Anweisungen, um den Inhaltszuweisungsbericht herunt
 
 1. Navigieren Sie zu Ihrem AEM Screens-Projekt und wählen Sie das Projekt **DemoScreens** aus.
 
-1. Klicks **Inhaltszuweisungsbericht** in der Aktionsleiste aus.
+1. Auswählen **Inhaltszuweisungsbericht** in der Aktionsleiste aus.
 
    ![Bild](/help/user-guide/assets/content-assignment-report/can-download.png)
 
@@ -58,6 +58,6 @@ Folgen Sie den nachstehenden Anweisungen, um den Inhaltszuweisungsbericht herunt
    >[!NOTE]
    >Die im Arbeitsblatt angezeigten Daten sind alphabetisch in einem leicht verständlichen Format sortiert.
 
-1. Klicken Sie auf einen der Kanäle aus der **Kanäle** -Spalte öffnet die **Inhalt** Registerkarte. Sie navigiert dann direkt zu diesem Kanal und erhalten Informationen zu Assets (Bildern und Videos), die mit diesem Kanal verknüpft sind.
+1. Auswählen eines Kanals aus dem **Kanäle** -Spalte öffnet die **Inhalt** Registerkarte. Sie navigiert dann direkt zu diesem Kanal und erhalten Informationen zu Assets (Bildern und Videos), die mit diesem Kanal verknüpft sind.
 
    ![Bild](/help/user-guide/assets/content-assignment-report/report-sheet2.png)

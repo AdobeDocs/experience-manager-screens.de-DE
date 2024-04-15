@@ -10,10 +10,10 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 38%
+ht-degree: 37%
 
 ---
 
@@ -39,7 +39,7 @@ Führen Sie die folgenden Schritte aus, um zum Geräte-Dashboard zu navigieren:
 
    ![screen_shot_2019-09-05at12823pm](assets/screen_shot_2019-09-05at12823pm.png)
 
-1. Wählen Sie das Gerät (**NewTestDevice**) aus und klicken Sie in der Aktionsleiste auf **Dashboard**.
+1. Wählen Sie das Gerät (**NewTestDevice**) und wählen Sie **Dashboard** in der Aktionsleiste aus.
 
    ![screen_shot_2019-09-05at13341pm](assets/screen_shot_2019-09-05at13341pm.png)
 
@@ -89,7 +89,7 @@ Wählen Sie **Eigenschaften** aus, damit Sie das **Dialogfeld Gerät Eigenschaft
 
 Sie können den Player-Screenshot für das Gerät im Bedienfeld **PLAYER-SCREENSHOT** anzeigen.
 
-Klicken Sie auf (**...**) in der oberen rechten Ecke des Bedienfelds &quot;Player-Screenshot&quot; und wählen Sie &quot;Aktualisieren Screenshot&quot; aus **, um den Schnappschuss** des ausgeführten Players zu Ansicht.
+Wählen Sie (**...)** in der oberen rechten Ecke des Bedienfelds &quot;Player-Screenshot&quot; und wählen Sie &quot;Aktualisieren Screenshot&quot; aus **, um den Schnappschuss** des ausgeführten Players zu Ansicht.
 
 ![screen_shot_2019-09-05at14205pm](assets/screen_shot_2019-09-05at14205pm.png)
 
@@ -132,7 +132,7 @@ Führen Sie die nachfolgenden Schritte aus, um den Apache Sling Referrer-Filter 
 
 1. Navigieren Sie zur **Konfiguration der Adobe Experience Manager-Web-Konsole**: `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
 1. Aktivieren Sie die Option **allow.empty**.
-1. Klicken Sie auf **Speichern**.
+1. Wählen Sie **Speichern** aus.
 
 ![chlimage_1-3](assets/chlimage_1-3.png)
 

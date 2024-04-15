@@ -5,10 +5,10 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1208'
-ht-degree: 58%
+ht-degree: 52%
 
 ---
 
@@ -43,11 +43,11 @@ Führen Sie dazu folgende Schritte durch:
 Sie können Ihrem Tizen-Player einen benutzerfreundlichen Gerätenamen zuweisen und so den zugewiesenen Gerätenamen an Adobe Experience Manager (AEM) senden. Mit dieser Funktion können Sie nicht nur Ihren Tizen-Player benennen, sondern auch mühelos geeignete Inhalte zuweisen.
 
 >[!NOTE]
->Sie können den Player-Namen nur vor der Registrierung auswählen. Sobald der Player registriert ist, kann der Player-Name nicht mehr geändert werden.
+>Sie können den Player-Namen nur vor der Registrierung auswählen. Nachdem der Player registriert wurde, kann der Player-Name nicht mehr geändert werden.
 
 Gehen Sie wie folgt vor, um den Namen im Tizen-Player zu konfigurieren:
 
-1. Drücken Sie die Menü-Taste Ihrer Fernbedienung.
+1. Wählen Sie die Menüschaltfläche auf Ihrer Fernbedienung aus.
 1. Navigieren Sie zu **network** > **Gerätename** damit Sie dem Player einen Namen zuweisen können.
 
 ### Konfigurieren von Aktualisierungen auf dem Samsung-Gerät {#config-updates}
@@ -55,11 +55,11 @@ Gehen Sie wie folgt vor, um den Namen im Tizen-Player zu konfigurieren:
 Führen Sie die folgenden Schritte auf dem Samsung-Gerät aus, damit Sie die Installation des AEM Screens-Players auf dem Gerät durchführen können:
 
 1. Navigieren Sie zu Ihrem Samsung-Gerät und schalten Sie es ein.
-1. Drücken Sie auf der Fernbedienung des Geräts die Taste **MENU** und blättern Sie in der linken Navigationsleiste nach unten zu **System**.
+1. Wählen Sie die **MENU** von der Fernbedienung des Geräts aus und scrollen Sie nach unten zu **System** über die linke Navigationsleiste.
 1. Blättern Sie nach unten und wählen Sie die Option **Wiedergabe über** aus und ändern Sie sie in **URL-Starter**.
    ![Bild](/help/user-guide/assets/tizen/rms-2.png)
-1. Sobald der URL-Starter eingestellt ist, drücken Sie die Taste **Home** auf Ihrer Fernbedienung.
-1. Navigieren Sie zu den **URL-Starter-Einstellungen**, geben Sie die IP-Adresse des localhost-Servers ein und wählen Sie **Fertig**.
+1. Wenn der URL-Starter festgelegt ist, drücken Sie die **Startseite** -Schaltfläche von Ihrem Remote-Standort aus.
+1. Navigieren Sie zum **URL-Starter-Einstellungen** und geben Sie die IP-Adresse Ihres localhost-Servers ein und wählen Sie **Fertig**.
 
    >[!NOTE]
    >Der Tizen-Player sollte eine Verbindung zum HTTP-Server herstellen können.

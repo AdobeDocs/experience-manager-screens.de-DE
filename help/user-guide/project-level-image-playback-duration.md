@@ -2,10 +2,10 @@
 title: Bildwiedergabedauer auf Projektebene
 description: Erfahren Sie, wie Sie die Dauer der Bildwiedergabe auf Projektebene definieren.
 contentOwner: jsyal
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '327'
-ht-degree: 36%
+ht-degree: 33%
 
 ---
 
@@ -18,7 +18,7 @@ Mit dieser Funktion können Sie die Dauer der Bildwiedergabe auf Projektebene fe
 
 ### Voraussetzungen {#prerequisites}
 
-Bevor Sie diese Funktion verwenden, richten Sie ein Projekt als Voraussetzung für die Implementierung dieser Funktion ein. Beispiel:
+Bevor Sie diese Funktion verwenden, richten Sie ein Projekt als Voraussetzung für die Implementierung dieser Funktion ein. Zum Beispiel:
 
 1. Erstellen eines AEM Screens-Projekts (in diesem Beispiel ) **ProjectLevelPlayback**).
 1. Erstellen eines Sequenzkanals als **PlayBackChannel** under **Kanäle** Ordner.
@@ -43,10 +43,10 @@ Im folgenden Abschnitt wird beschrieben, wie Sie die Wiedergabedauer von Inhalte
 
 Gehen Sie wie folgt vor, um zu erfahren, wie Sie die Wiedergabedauer auf Projektebene aktualisieren:
 
-1. Navigieren Sie zu Ihrem Projekt (**ProjectLevelPlayback**) und klicken Sie in der Aktionsleiste auf **Eigenschaften**.
+1. Navigieren zu Ihrem Projekt **ProjectLevelPlayback** und wählen **Eigenschaften** in der Aktionsleiste aus.
    ![Assets](assets/image_playback3.png)
 
-1. Wählen Sie alle Bilder im Kanal aus und klicken Sie oben links auf das Schraubenschlüsselsymbol (wie in der Abbildung unten gezeigt), damit Sie das Dialogfeld Konfigurieren auf Kanalebene öffnen können.
+1. Wählen Sie alle Bilder im Kanal aus und wählen Sie oben links das Schraubenschlüsselsymbol aus (wie in der Abbildung unten gezeigt), damit Sie das Dialogfeld Konfigurieren auf Kanalebene öffnen können.
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
@@ -58,7 +58,7 @@ Gehen Sie wie folgt vor, um zu erfahren, wie Sie die Wiedergabedauer auf Projekt
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   Bearbeiten Sie die **Dauer** von 8000 (Millisekunden) bis 3000 (Millisekunden), also 3 Sekunden. Klicken Sie oben rechts im **Seite** angezeigt, damit Ihre Änderungen gespeichert werden.
+   Bearbeiten Sie die **Dauer** von 8000 (Millisekunden) bis 3000 (Millisekunden), also 3 Sekunden. Markieren Sie das Häkchen oben rechts im **Seite** angezeigt, damit Ihre Änderungen gespeichert werden.
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 

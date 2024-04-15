@@ -5,10 +5,10 @@ feature: Administering Screens, Data Trigger
 role: Developer
 level: Intermediate
 exl-id: 6f90b864-eaa0-4b74-a47e-b0967a550552
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '521'
-ht-degree: 45%
+ht-degree: 37%
 
 ---
 
@@ -30,7 +30,7 @@ Gehen Sie wie folgt vor, um die Datenauslöser auf den Veröffentlichungs-Server
 
 ### Schritt 1: Replikation von ContextHub-Konfigurationen {#replicating-contexthub-configurations}
 
-1. Navigieren Sie zu **Instrumente** > **Implementierung** > **Distribution** > **Veröffentlichungsagent** und klicken Sie auf den Veröffentlichungsagenten, damit Sie Ihre Einstellungen konfigurieren können.
+1. Navigieren Sie zu **Instrumente** > **Implementierung** > **Distribution** > **Veröffentlichungsagent** und wählen Sie den Veröffentlichungsagenten aus, damit Sie Ihre Einstellungen konfigurieren können.
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers1.png)
 
@@ -38,7 +38,7 @@ Gehen Sie wie folgt vor, um die Datenauslöser auf den Veröffentlichungs-Server
    >
    >Alternativ können Sie mit `http://localhost:4502/libs/granite/distribution/content/distribution-agent.html?agentName=publish` direkt zum Bildschirm navigieren, um die Verbindung zu konfigurieren und zu testen.
 
-1. Klicks **Verbindung testen** in der Aktionsleiste, damit Sie die Kommunikation des Autors mit der Veröffentlichungsinstanz überprüfen können, wie im Folgenden gezeigt:
+1. Auswählen **Verbindung testen** in der Aktionsleiste, damit Sie die Kommunikation des Autors mit der Veröffentlichungsinstanz überprüfen können, wie im Folgenden gezeigt:
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers2.png)
 
@@ -48,7 +48,7 @@ Gehen Sie wie folgt vor, um die Datenauslöser auf den Veröffentlichungs-Server
 
 1. Wählen Sie in der Struktur des Bildschirms **Verteilungsagent** die Option **Hinzufügen** aus und wählen Sie den Konfigurationspfad für Ihr Projekt aus, z. B. `/conf/screens/settings/cloudsettings/configuration`.
 
-1. Klicken Sie auf **Übermitteln**.
+1. Wählen Sie **Absenden**.
 
 ### Replizieren der Zielgruppen {#replicating-audiences}
 
@@ -60,9 +60,9 @@ Gehen Sie wie folgt vor, um die Datenauslöser auf den Veröffentlichungs-Server
 
 1. Wählen Sie in der Benutzeroberfläche alle Zielgruppen und Segmente aus.
 
-1. Klicken Sie in der Aktionsleiste auf **Veröffentlichung verwalten**.
+1. Auswählen **Veröffentlichung verwalten** in der Aktionsleiste aus.
 
-1. Klicken Sie auf **Weiter** und **Veröffentlichen**.
+1. Auswählen **Nächste** und **Veröffentlichen**.
 
 ### Replizieren der Aktivitäten  {#replicating-activities}
 
@@ -72,9 +72,9 @@ Gehen Sie wie folgt vor, um die Datenauslöser auf den Veröffentlichungs-Server
 
 1. Wählen Sie alle Aktivitäten in der Benutzeroberfläche aus.
 
-1. Klicken Sie in der Aktionsleiste auf **Veröffentlichung verwalten**.
+1. Auswählen **Veröffentlichung verwalten** in der Aktionsleiste aus.
 
-1. Klicken Sie auf **Weiter** und **Veröffentlichen**.
+1. Auswählen **Nächste** und **Veröffentlichen**.
 
 >[!IMPORTANT]
 >
@@ -94,7 +94,7 @@ Wenn die Testverbindung beim Replizieren der ContextHub-Konfigurationen fehlschl
 
 1. Navigieren Sie zu Werkzeuge > **Bereitstellung** > **Verteilung** > **Veröffentlichungsagent**.
 
-1. Klicks **Bearbeiten** in der Aktionsleiste aus und stellen Sie sicher, dass die Endpunkt-URL in **Importer Endpoints** -Feld verweist auch auf die URL des Veröffentlichungsservers im Verteilungsagenten.
+1. Auswählen **Bearbeiten** in der Aktionsleiste aus und stellen Sie sicher, dass die Endpunkt-URL in **Importer Endpoints** -Feld verweist auch auf die URL des Veröffentlichungsservers im Verteilungsagenten.
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
 1. Wenn Sie nicht die standardmäßigen Administratorberechtigungen verwenden, müssen Sie den Verteilungsagenten mit einem anderen Benutzernamen und Kennwort konfigurieren.
@@ -110,10 +110,10 @@ Wenn die Testverbindung beim Replizieren der ContextHub-Konfigurationen fehlschl
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers7.png)
 
-   1. Klicken Sie auf **Speichern**.
+   1. Wählen Sie **Speichern** aus
    1. Verwendung `Cmd +F` zum Suchen nach **Apache Sling Distribution Agent - Forward Agents Factory** , um die Konfigurationen zu öffnen und nach **Transport Secret Provider**.
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers8.png)
 
    1. Aktualisieren Sie `(name=default)` mit `(name=slingTransportSecretProvider)`.
-   1. Klicken Sie auf **Speichern** und führen Sie die Testverbindung über den Bildschirm **Verteilungsagent** noch einmal aus Ihrer AEM-Instanz aus.
+   1. Auswählen **Speichern** und führen Sie die Testverbindung über die **Verteilungsagent** von Ihrer AEM-Instanz erneut angezeigt.

@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 62%
+source-wordcount: '238'
+ht-degree: 41%
 
 ---
 
@@ -24,7 +24,7 @@ Auf dieser Seite wird die Gerätezuweisung beschrieben.
 
 >[!CAUTION]
 >
->Bevor Sie Ihr Gerät zuweisen, müssen Sie es registrieren. Weitere Informationen finden Sie unter [Geräteregistrierung](device-registration.md).
+>Bevor Sie Ihr Gerät zuweisen, registrieren Sie es. Siehe [Geräteregistrierung](device-registration.md).
 
 ## Gerätezuweisung {#device-assignment}
 
@@ -36,26 +36,26 @@ Gehen Sie wie folgt vor, um ein Gerät einer Anzeige zuzuweisen:
 
    ![chlimage_1-32](assets/chlimage_1-32.png)
 
-1. Wählen Sie den Ordner **Geräte** aus und tippen/klicken Sie in der Aktionsleiste auf **Geräte-Manager**. Die zugewiesenen und nicht zugewiesenen Geräte werden angezeigt.
+1. Wählen Sie **Geräte** Ordner und auswählen **Geräte-Manager** in der Aktionsleiste. Die zugewiesenen und nicht zugewiesenen Geräte werden angezeigt.
 
    ![chlimage_1-33](assets/chlimage_1-33.png)
 
-1. Wählen Sie ein nicht zugewiesenes Gerät aus der Liste aus und tippen/klicken Sie in der Aktionsleiste auf **Gerät zuweisen**.
+1. Wählen Sie ein nicht zugewiesenes Gerät aus der Liste aus und wählen Sie die **Gerät zuweisen** in der Aktionsleiste.
 
    ![chlimage_1-34](assets/chlimage_1-34.png)
 
-1. Wählen Sie die Anzeige aus, der Sie das Gerät aus der Liste zuweisen möchten, und tippen/klicken Sie auf die **Zuweisen**.
+1. Wählen Sie die Anzeige aus, der Sie das Gerät zuweisen möchten, und wählen Sie die **Zuweisen**.
 
    ![chlimage_1-35](assets/chlimage_1-35.png)
 
-1. Tippen/klicken Sie auf **Abschließen**, um die Zuweisung abzuschließen.
+1. Wählen Sie die **Beenden** , um den Zuweisungsprozess abzuschließen.
 
 
    Das Anzeigen-Dashboard zeigt das zugewiesene Gerät im Bedienfeld **GERÄTE** an.
 
    ![chlimage_1-37](assets/chlimage_1-37.png)
 
-   Klicken Sie auf (**...**) oben rechts im **Geräte** -Bedienfeld, um entweder die Gerätekonfiguration hinzuzufügen oder die Geräte zu aktualisieren.
+   Wählen Sie die (**...**) oben rechts im **Geräte** -Bedienfeld, um entweder die Gerätekonfiguration hinzuzufügen oder die Geräte zu aktualisieren.
 
    ![chlimage_1-38](assets/chlimage_1-38.png)
 
@@ -69,6 +69,4 @@ Gehen Sie wie folgt vor, um ein Gerät einer Anzeige zuzuweisen:
 
 ### Die nächsten Schritte {#the-next-steps}
 
-Wenn Sie damit vertraut sind, wie ein Kanal einer Anzeige zugewiesen wird, sehen Sie sich die folgenden Ressourcen an:
-
-* [Überwachung und Fehlerbehebung](monitoring-screens.md)
+Wenn Sie mit dem Zuweisen eines Kanals zu einer Anzeige vertraut sind, lesen Sie[Überwachung und Fehlerbehebung](monitoring-screens.md).

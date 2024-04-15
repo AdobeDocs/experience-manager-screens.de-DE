@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 48%
+source-wordcount: '442'
+ht-degree: 31%
 
 ---
 
@@ -29,7 +29,7 @@ Wenn der Wert von **`Restaurant1`** > **`Restaurant2`**, dann **AdTarget** zugew
 
 ## Voraussetzungen {#preconditions}
 
-Bevor Sie mit der Implementierung der Reservierungsaktivierung beginnen, müssen Sie lernen, wie Sie in einem AEM Screens-Projekt ***Datenspeicher*** und ***Zielgruppensegmentierung*** einrichten und ***Targeting für Kanäle aktivieren***.
+Bevor Sie mit der Implementierung der Reservierungsaktivierung beginnen, erfahren Sie, wie Sie ***Datenspeicher***, ***Zielgruppensegmentierung*** und ***Targeting für Kanäle aktivieren*** in einem AEM Screens-Projekt.
 
 Siehe [Konfigurieren von ContextHub in AEM Screens](configuring-context-hub.md) für detaillierte Informationen.
 
@@ -46,17 +46,17 @@ Gehen Sie wie folgt vor, um die Aktivierung der Reservierung für Gastgewerbe f�
 1. **Konfigurieren der Segmente in Zielgruppen gemäß den Anforderungen**
 
    1. Navigieren Sie zu den Segmenten in Ihrer Zielgruppe (siehe ***Schritt 2: Einrichten der Zielgruppensegmentierung*** in **[Konfigurieren von ContextHub in AEM Screens](configuring-context-hub.md)** Seite für weitere Details).
-   1. Wählen Sie **Tabellen A1 1** aus und klicken Sie auf **Bearbeiten**.
-   1. Wählen Sie die Vergleichseigenschaft aus und klicken Sie auf die **Konfiguration** Symbol.
+   1. Wählen Sie die **Blätter A1 1** und wählen **Bearbeiten**.
+   1. Wählen Sie die Vergleichseigenschaft aus und wählen Sie die **Konfiguration** Symbol.
    1. Wählen Sie **googlesheets/value/1/2** aus der Dropdown-Liste in **Eigenschaftsname** aus.
    1. Wählen Sie die **Operator** as **equal** aus dem Dropdown-Menü.
    1. Geben Sie den **Wert** als **1** ein.
-   1. Wählen Sie nun **Tabellen A1 2** aus und klicken Sie auf **Bearbeiten**.
-   1. Wählen Sie die Vergleichseigenschaft aus und klicken Sie auf die **Konfiguration** Symbol.
+   1. Wählen Sie auf ähnliche Weise die **Blätter A1 2** und wählen **Bearbeiten**.
+   1. Wählen Sie die Vergleichseigenschaft aus und wählen Sie die **Konfiguration** Symbol.
    1. Wählen Sie **googlesheets/value/1/2** aus der Dropdown-Liste in **Eigenschaftsname** aus.
    1. Wählen Sie die **Operator** as **2**.
 
-1. Navigieren Sie zu Ihrem Kanal () und klicken Sie in der Aktionsleiste auf **Bearbeiten**. Im folgenden Beispiel wird ein sequenzieller Kanal **DataDrivenRestaurant** verwendet, um die Funktionalität zu demonstrieren.
+1. Navigieren Sie zu Ihrem Kanal () und wählen Sie ihn aus. **Bearbeiten** in der Aktionsleiste aus. Im folgenden Beispiel wird ein sequenzieller Kanal **DataDrivenRestaurant** verwendet, um die Funktionalität zu demonstrieren.
 
    >[!NOTE]
    >
@@ -70,10 +70,10 @@ Gehen Sie wie folgt vor, um die Aktivierung der Reservierung für Gastgewerbe f�
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
-1. Wählen Sie **Targeting** aus dem Editor aus. Wählen Sie **Marke** und **Aktivität** aus dem Dropdown-Menü aus und klicken Sie auf **Targeting starten**.
+1. Auswählen **Targeting** und wählen Sie **Marke** und **Aktivität** aus dem Dropdown-Menü und wählen Sie **Targeting starten**.
 1. **Überprüfen der Vorschau**
 
-   1. Klicken Sie auf **Vorschau.** Öffnen Sie außerdem Google Tabellen und aktualisieren Sie den Wert.
+   1. Auswählen **Vorschau.** Öffnen Sie außerdem Google Tabellen und aktualisieren Sie den Wert.
    1. Aktualisieren Sie den Wert in **`Restaurant1`** und **`Restaurant2`** Spalten. Wenn **`Restaurant1`** > **`Restaurant2`,** Sie sollten ein Bild von *Steak* andernfalls *Thailändisch* Auf dem Bildschirm wird ein Bild mit Lebensmitteln angezeigt.
 
    ![result5](assets/result5.gif)

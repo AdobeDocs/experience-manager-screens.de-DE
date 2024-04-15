@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 63%
+source-wordcount: '561'
+ht-degree: 51%
 
 ---
 
@@ -46,7 +46,7 @@ Bevor Sie einen Workflow für Videos erstellen, müssen Sie die folgenden Voraus
 
 ## Erstellen eines Workflows für den Videoabstand {#creating-a-video-padding-workflow-1}
 
-Um einen Workflow für den Videoabstand zu erstellen, müssen Sie einen Workflow für Ihr Video erstellen und diesen dann im Kanal Ihres AEM Screens-Projekts verwenden.
+Erstellen Sie zum Erstellen eines Workflows für den Videoabstand einen Workflow für Ihr Video und verwenden Sie diesen dann in Ihrem AEM Screens-Projektkanal.
 
 Gehen Sie wie folgt vor, um den Workflow zu erstellen und zu verwenden:
 
@@ -58,16 +58,16 @@ Gehen Sie wie folgt vor, um den Workflow zu erstellen und zu verwenden:
 Gehen Sie wie folgt vor, um einen Workflow für Ihr Video zu erstellen:
 
 1. Navigieren Sie zu Ihrer AEM-Instanz.
-1. Klicken Sie in der Seitenleiste auf Tools .
+1. Wählen Sie in der Seitenleiste Tools aus.
 1. Auswählen **Workflow** > **Modelle** sodass Sie ein Modell erstellen können.
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
-1. Klicks **Modelle** > **Erstellen** > **Modell erstellen**. Geben Sie den **Titel** (als **VideoRendition**) und den **Namen** in **Workflow-Modell hinzufügen** ein. Klicken Sie auf **Fertig**, um das Workflow-Modell hinzuzufügen.
+1. Auswählen **Modelle** > **Erstellen** > **Modell erstellen**. Geben Sie den **Titel** (als **VideoRendition**) und den **Namen** in **Workflow-Modell hinzufügen** ein. Auswählen **Fertig** , um das Workflow-Modell hinzuzufügen.
 
    ![screen_shot_2018-10-17at90747pm](assets/screen_shot_2018-10-17at90747pm.png)
 
-1. Nachdem Sie das Workflow-Modell erstellt haben, wählen Sie das Modell (**VideoRendition**) aus und klicken Sie in der Aktionsleiste auf **Bearbeiten**.
+1. Nachdem Sie das Workflow-Modell erstellt haben, wählen Sie das Modell (**VideoRendition**) und wählen Sie **Bearbeiten** in der Aktionsleiste aus.
 
    ![screen_shot_2018-10-17at91256pm](assets/screen_shot_2018-10-17at91256pm.png)
 
@@ -87,11 +87,11 @@ Gehen Sie wie folgt vor, um einen Workflow für Ihr Video zu erstellen:
    ![screen_shot_2018-10-18at105300am](assets/screen_shot_2018-10-18at105300am.png)
 
 1. Wählen Sie den Workflow aus (**VideoRenditions**).
-1. Klicks **Workflow starten** in der Aktionsleiste aus.
+1. Auswählen **Workflow starten** in der Aktionsleiste aus.
 
    ![screen_shot_2018-10-18at105335am](assets/screen_shot_2018-10-18at105335am.png)
 
-1. Im **Workflow ausführen** Wählen Sie im Dialogfeld den Pfad Ihres Assets im **Nutzlast** (as ***/content/dam/huseinpeyda-crossroads01_512kb 2.mp4***) und geben Sie die **Titel** as ***RunVideo*** und klicken **Ausführen**.
+1. Im **Workflow ausführen** Wählen Sie im Dialogfeld den Pfad Ihres Assets im **Nutzlast** (as ***/content/dam/huseinpeyda-crossroads01_512kb 2.mp4***) und geben Sie die **Titel** as ***RunVideo*** und wählen **Ausführen**.
 
    ![screen_shot_2018-10-18at112043am](assets/screen_shot_2018-10-18at112043am.png)
 
@@ -103,11 +103,11 @@ Gehen Sie wie folgt vor, um den Workflow in Ihrem AEM Screens-Projekt zu verwend
 
    ![screen_shot_2018-10-17at100715pm](assets/screen_shot_2018-10-17at100715pm.png)
 
-1. Klicken Sie in der Aktionsleiste auf **Bearbeiten**. Ziehen Sie das Video, das Sie ursprünglich in **Assets** hochgeladen haben, per Drag-and-Drop.
+1. Auswählen **Bearbeiten** in der Aktionsleiste aus. Ziehen Sie das Video, das Sie ursprünglich in **Assets** hochgeladen haben, per Drag-and-Drop.
 
    ![screen_shot_2018-10-17at102806pm](assets/screen_shot_2018-10-17at102806pm.png)
 
-1. Nachdem Sie das Video hochgeladen haben, klicken Sie auf **Vorschau**, um die Ausgabe anzuzeigen.
+1. Wenn Sie das Video hochgeladen haben, wählen Sie **Vorschau** , um die Ausgabe anzuzeigen.
 
    ![screen_shot_2018-10-22at15151pm](assets/screen_shot_2018-10-22at15151pm.png)
 

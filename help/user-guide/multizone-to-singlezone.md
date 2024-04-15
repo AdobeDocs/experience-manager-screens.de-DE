@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Developer, User
 level: Intermediate
 exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 36%
@@ -43,7 +43,7 @@ Gehen Sie wie folgt vor, um ein Projekt einzurichten:
 
 1. **Erstellen eines Mehrzonenkanals in Screens**
 
-   1. Wählen Sie die **Kanäle** Ordner und klicken Sie auf **Erstellen** in der Symbolleiste und öffnen Sie den Assistenten, damit Sie einen Kanal erstellen können.
+   1. Wählen Sie die **Kanäle** Ordner und auswählen **Erstellen** in der Symbolleiste und öffnen Sie den Assistenten, damit Sie einen Kanal erstellen können.
    1. Wählen Sie im Assistenten die Option **Splitscreen-Kanal mit L-Balken links** aus und erstellen Sie den Kanal mit dem Namen **MultiZoneLayout**.
    1. Fügen Sie dem Kanal Inhalt hinzu. Ziehen Sie die Assets in die einzelnen Zonen. Das folgende Beispiel zeigt eine **MultiZoneLayout** Kanal, der ein Video, ein Bild und ein Textbanner (in einer eingebetteten Sequenz) umfasst, wie unten dargestellt.
 
@@ -58,7 +58,7 @@ Gehen Sie wie folgt vor, um ein Projekt einzurichten:
 
    ![Asset](assets/mz-to-sz3.png)
 
-1. Klicks **Bearbeiten** in der Aktionsleiste, damit Sie diesem Kanal Inhalte hinzufügen können. Hinzufügen einer **Kanal** -Komponente und ein Bild-Asset, zu dem Sie für diesen Kanal wechseln möchten, wie in der folgenden Abbildung dargestellt:
+1. Auswählen **Bearbeiten** in der Aktionsleiste, damit Sie diesem Kanal Inhalte hinzufügen können. Hinzufügen einer **Kanal** -Komponente und ein Bild-Asset, zu dem Sie für diesen Kanal wechseln möchten, wie in der folgenden Abbildung dargestellt:
 
    ![Asset](assets/mz-to-sz4.png)
 

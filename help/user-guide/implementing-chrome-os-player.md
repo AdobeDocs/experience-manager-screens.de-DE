@@ -9,10 +9,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '867'
-ht-degree: 62%
+ht-degree: 56%
 
 ---
 
@@ -25,7 +25,7 @@ In diesem Abschnitt wird beschrieben, wie Sie den Chrome OS-Player mit der Chrom
 Führen Sie die nachfolgenden Schritte aus, um die Chrome Management Console einzurichten:
 
 1. Registrieren Sie sich für die Chrome Management Console. Sie müssen eine Lizenz für die Chrome Management Console erwerben. Weitere Informationen zur Verwaltung von Chrome-Geräteeinstellungen finden Sie beim [Google-Support](https://support.google.com/chrome/a/answer/1375678?hl=de&amp;ref_topic=2935995).
-1. Melden Sie Ihr Chrome OS-Gerät in der Domain an und warten Sie 15 Minuten, bis das Gerät mit der Chrome Management Console synchronisiert ist. Um mehr über die Registrierung von Chrome-Geräten zu erfahren, klicken Sie [hier](https://support.google.com/chrome/a/answer/1360534?hl=de).
+1. Melden Sie Ihr Chrome OS-Gerät in der Domain an und warten Sie 15 Minuten, bis das Gerät mit der Chrome Management Console synchronisiert ist. Um mehr über die Registrierung von Chrome-Geräten zu erfahren, wählen Sie [here](https://support.google.com/chrome/a/answer/1360534?hl=de).
 1. Der Chrome-Player ist im Chrome-Webstore verfügbar.
 
 >[!NOTE]
@@ -37,7 +37,7 @@ Führen Sie die nachfolgenden Schritte aus, um die Chrome Management Console ein
 Sie können Ihrem Chrome-Player einen benutzerfreundlichen Gerätenamen zuweisen und so den zugewiesenen Gerätenamen an Adobe Experience Manager (AEM) senden. Mit dieser Funktion können Sie nicht nur Ihren Chrome-Player benennen, sondern auch mühelos geeignete Inhalte zuweisen.
 
 >[!NOTE]
->Sie können den Player-Namen nur vor der Registrierung auswählen. Sobald der Player registriert ist, kann der Player-Name nicht mehr geändert werden.
+>Sie können den Player-Namen nur vor der Registrierung auswählen. Nachdem der Player registriert wurde, kann der Player-Name nicht mehr geändert werden.
 
 Gehen Sie wie folgt vor, um den Namen im Chrome-Player zu konfigurieren:
 
@@ -65,7 +65,7 @@ Gehen Sie wie folgt vor, um den Kiosk-Modus zu aktivieren:
    ![screen_shot_2017-12-08at20303pm](assets/screen_shot_2017-12-08at20303pm.png)
 
 1. Navigieren Sie zu **Geräteverwaltung** > **Chrome Management** > **Geräteeinstellungen**.
-1. Scrollen Sie nach unten zur Option **Kiosk-Einstellungen** und klicken Sie dann auf **Kiosk-Anwendungen verwalten**.
+1. Nach unten scrollen zu **Kiosk-Einstellungen** und wählen **Kiosk-Anwendungen verwalten**.
 
    ![kiosk](assets/kiosk.png)
 
@@ -83,7 +83,7 @@ Gehen Sie wie folgt vor, um den Kiosk-Modus zu aktivieren:
 
 1. Melden Sie sich bei der Chrome Developer Console an.
 1. Navigieren Sie zu **Geräteverwaltung** > **Chrome-Geräte** und wählen Sie das zu kontrollierende Gerät aus.
-1. Klicken Sie auf **Systemaktivität und Fehlerbehebung**.
+1. Auswählen **Systemaktivität und Fehlerbehebung**.
 1. Überprüfen Sie die Eigenschaften **Gerät neu starten** und **Bildschirmaufnahme** des Geräts. Sie können auch den Status und den Gesundheitszustand des Geräts überprüfen.
 
 >[!NOTE]
@@ -97,11 +97,11 @@ AEM Screens-Player ist eine Kiosk-fähige Anwendung, die auch eine Fernkonfigura
 Gehen Sie wie folgt vor, um verschiedene Player-Optionen zu konfigurieren:
 
 1. Melden Sie sich bei der Chrome Management Console an.
-1. Klicken Sie auf **Geräteverwaltung** > **Chrome Management** > **App-Verwaltung**. Der AEM Screens-Player wird in der Liste angezeigt.
-1. Klicken Sie auf die Anwendung **AEM Screens Player**.
-1. Klicks **Kiosk-Einstellungen** und wählen Sie Ihre Organisation (*bei Verwendung einer Testumgebung*).
-1. Klicks **Konfigurationsdatei hochladen** und laden Sie die Konfigurationsrichtlinie hoch (*JSon-Datei*).
-1. Klicken Sie auf **Speichern**. Starten Sie das Gerät neu, damit Sie die Richtlinie synchronisieren können.
+1. Auswählen **Geräteverwaltung** > **Chrome Management** > **App-Verwaltung**. Der AEM Screens-Player wird in der Liste angezeigt.
+1. Anwendung auswählen **AEM Screens Player**.
+1. Auswählen **Kiosk-Einstellungen** und wählen Sie Ihre Organisation (*bei Verwendung einer Testumgebung*).
+1. Auswählen **Konfigurationsdatei hochladen** und laden Sie die Konfigurationsrichtlinie hoch (*JSon-Datei*).
+1. Wählen Sie **Speichern** aus. Starten Sie das Gerät neu, damit Sie die Richtlinie synchronisieren können.
 
 >[!NOTE]
 >

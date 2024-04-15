@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '897'
 ht-degree: 57%
 
 ---
@@ -54,13 +54,13 @@ Weitere Informationen finden Sie unter [Inhaltszuweisungsbericht](/help/user-gui
 
 * **Unterstützung für V3-Manifeste**
 
-  Sie können jetzt den Dispatcher für Manifest Version 3 konfigurieren. Um das v3-Manifest zu aktivieren, müssen Sie:
+  Sie können jetzt den Dispatcher für Manifest Version 3 konfigurieren. Gehen Sie wie folgt vor, um das v3-Manifest zu aktivieren:
 
    * Löschen Sie alle ausstehenden Offline-Inhaltsaufträge sowohl in der Autoren- als auch in der Veröffentlichungsumgebung.
 
       * Navigieren Sie in der Autoren- und Veröffentlichungsinstanz zu CRXDE Lite .
 
-      * Klicken Sie auf Tools > Abfrage.
+      * Wählen Sie Tools > Abfrage aus.
 
       * Verwenden Sie in der Abfrage `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`.
 

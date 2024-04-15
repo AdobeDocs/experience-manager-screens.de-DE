@@ -2,10 +2,10 @@
 title: Konfigurieren von Autoren- und Veröffentlichungsinstanzen in AEM Screens
 description: Erfahren Sie, wie Sie eine Autoreninstanz und eine Veröffentlichungsinstanz für AEM Screens konfigurieren.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
-source-wordcount: '1933'
-ht-degree: 42%
+source-wordcount: '1923'
+ht-degree: 41%
 
 ---
 
@@ -28,11 +28,11 @@ Bevor Sie mit Autoren- und Veröffentlichungsservern beginnen, sollten Sie über
 
 >[!NOTE]
 >
->Diese AEM Screens-Funktion ist nur verfügbar, wenn Sie AEM 6.4 Screens Feature Pack 2 installiert haben. Wenden Sie sich an den Adobe-Support, um Zugriff auf dieses Feature Pack zu erhalten. Nachdem Sie die Berechtigung erhalten haben, können Sie sie von Package Share herunterladen.
+>Diese AEM Screens-Funktion ist nur verfügbar, wenn Sie AEM 6.4 Screens Feature Pack 2 installiert haben. Um Zugriff auf dieses Feature Pack zu erhalten, wenden Sie sich an den Adobe-Support und fordern Sie Zugriff an. Nachdem Sie die Berechtigung erhalten haben, können Sie sie von Package Share herunterladen.
 
 >[!IMPORTANT]
 >
->Wenn Sie mehr als eine Veröffentlichungsinstanz mit dem Dispatcher verwenden möchten, müssen Sie den Dispatcher aktualisieren. Weitere Informationen finden Sie unter [Aktivieren von fixierbaren Sitzungen](dispatcher-configurations-aem-screens.md#enable-sticky-session).
+>Wenn Sie mehr als eine Veröffentlichungsinstanz mit dem Dispatcher verwenden möchten, aktualisieren Sie den Dispatcher. Siehe [Aktivieren von fixierbaren Sitzungen](dispatcher-configurations-aem-screens.md#enable-sticky-session).
 
 ## Konfigurieren von Autoren- und Veröffentlichungsinstanz {#configuring-author-and-publish-instances}
 
@@ -50,7 +50,7 @@ Sie können ein einfaches Beispiel einrichten, in dem Sie eine Autoren- und zwei
 
 ## Einrichten von Replikationsagenten in der Autoreninstanz {#setting-replication-agents}
 
-Zur Erstellung von Replikationsagenten müssen Sie wissen, wie man einen standardmäßigen Replikationsagenten einrichtet.
+Um Replikationsagenten zu erstellen, erfahren Sie, wie Sie einen standardmäßigen Replikationsagenten erstellen.
 
 Für Screens sind drei Replikationsagenten erforderlich:
 

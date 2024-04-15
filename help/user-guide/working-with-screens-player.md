@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 60%
@@ -36,7 +36,7 @@ Sie können die Voreinstellungen für Ihr Gerät im Geräte-Dashboard konfigurie
 
    ![chlimage_1-66](assets/chlimage_1-66.png)
 
-1. Klicken Sie auf das Gerät, damit Sie das Geräte-Dashboard öffnen können.
+1. Wählen Sie das Gerät aus, damit Sie das Geräte-Dashboard öffnen können.
 
    ![chlimage_1-67](assets/chlimage_1-67.png)
 

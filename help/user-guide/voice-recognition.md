@@ -5,10 +5,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
-source-wordcount: '1090'
-ht-degree: 57%
+source-wordcount: '1088'
+ht-degree: 48%
 
 ---
 
@@ -35,7 +35,7 @@ Ein Inhaltsautor kann eine Anzeige so konfigurieren, dass sie sprachaktiviert is
 >[!IMPORTANT]
 > Die Spracherkennungsfunktion ist nur bei Chrome- und Windows-Playern verfügbar.
 
-Um die Spracherkennung in Ihrem AEM Screens-Projekt zu implementieren, müssen Sie die Spracherkennung für die Anzeige aktivieren und jeden Kanal mit einem eindeutigen Tag verknüpfen, um einen Kanalübergang auszulösen.
+Um die Spracherkennung in Ihrem AEM Screens-Projekt zu implementieren, aktivieren Sie die Spracherkennung für die Anzeige und verknüpfen Sie jeden Kanal mit einem eindeutigen Tag, um einen Kanalübergang Trigger.
 
 Im folgenden Abschnitt wird beschrieben, wie Sie die Spracherkennungsfunktion in einem AEM Screens-Projekt aktivieren und verwenden können.
 
@@ -57,7 +57,7 @@ Bevor Sie die Funktion zur Spracherkennung verwenden, stellen Sie sicher, dass S
 
    ![Bild](assets/voice-recognition/vr-emb-1.png)
 
-1. Navigieren Sie zu jedem Kanal und fügen Sie Inhalt hinzu. Navigieren Sie beispielsweise zu **VoiceDemo** > **Kanäle** > **Main** und wählen Sie den Kanal aus. Klicks **Bearbeiten** Fügen Sie in der Aktionsleiste entsprechend Ihren Anforderungen Inhalte (Bilder/Videos) hinzu. Fügen Sie auf ähnliche Weise den Kanälen **ColdDrinks** und **HotDrinks** Inhalt hinzu.
+1. Navigieren Sie zu jedem Kanal und fügen Sie Inhalt hinzu. Navigieren Sie beispielsweise zu **VoiceDemo** > **Kanäle** > **Main** und wählen Sie den Kanal aus. Auswählen **Bearbeiten** Fügen Sie in der Aktionsleiste entsprechend Ihren Anforderungen Inhalte (Bilder/Videos) hinzu. Fügen Sie auf ähnliche Weise den Kanälen **ColdDrinks** und **HotDrinks** Inhalt hinzu.
 
    Die Kanäle enthalten nun Assets (Bilder), wie in den folgenden Abbildungen dargestellt.
 
@@ -85,9 +85,9 @@ Gehen Sie wie folgt vor, um Ihrem Kanal Tags hinzuzufügen:
 
 1. Navigieren Sie zu jedem Kanal und fügen Sie Inhalt hinzu. Navigieren Sie beispielsweise zu **VoiceDemo** > **Kanäle** > **Main** und wählen Sie den Kanal aus.
 
-1. Klicken Sie in der Aktionsleiste auf **Eigenschaften**.
+1. Wählen Sie in der Aktionsleiste **Eigenschaften** aus.
 
-   ![image](assets/voice-recognition/vr-5.png)
+   ![Bild](assets/voice-recognition/vr-5.png)
 
 1. Navigieren Sie zum **Grundlagen** und wählen Sie ein vorhandenes Tag aus dem **Tags** oder erstellen Sie ein Feld.
 
@@ -97,7 +97,7 @@ Gehen Sie wie folgt vor, um Ihrem Kanal Tags hinzuzufügen:
 
    Oder
 
-   Sie können vorab Tags aus Ihrer AEM-Instanz für Ihr Projekt erstellen und diese ebenfalls auswählen. Nachdem Sie die unter [Erstellen von Tags](#creating-tags) erläuterten Schritte ausgeführt haben, können Sie das Tag an der gewünschten Stelle auswählen und dem Kanal hinzufügen, wie in der folgenden Abbildung dargestellt:
+   Sie können vorab Tags aus Ihrer AEM-Instanz für Ihr Projekt erstellen und diese ebenfalls auswählen. Nachdem Sie die unter [Erstellen von Tags](#creating-tags)können Sie das Tag aus der Position auswählen und Ihrem Kanal hinzufügen, wie in der folgenden Abbildung dargestellt:
 
    ![image](assets/voice-recognition/vr-tag1.png)
 
@@ -105,9 +105,9 @@ Gehen Sie wie folgt vor, um Ihrem Kanal Tags hinzuzufügen:
 
 1. Wenn Sie einen Splitscreen-Kanal verwenden, fügen Sie beide Tags (**hot** und **cold**) wie in der Abbildung unten dargestellt zu den Eigenschaften des Kanals **SplitScreen** hinzu.
 
-   ![image](assets/voice-recognition/vr-emb-7.png)
+   ![Bild](assets/voice-recognition/vr-emb-7.png)
 
-1. Klicken Sie auf **Speichern und schließen**, wenn Sie fertig sind.
+1. Auswählen **Speichern und schließen** wenn Sie fertig sind.
 
 
 ### Erstellen von Tags {#creating-tags}
@@ -116,18 +116,18 @@ Gehen Sie wie folgt vor, um Tags zu erstellen:
 
 1. Navigieren Sie zu Ihrer AEM-Instanz.
 
-1. Klicken Sie auf das Symbol Tools > **Tagging**.
+1. Symbol Tools auswählen > **Tagging**.
    ![Bild](assets/voice-recognition/vr-7.png)
 
-1. Klicks **Erstellen** > **Namespace erstellen**.
-   ![image](assets/voice-recognition/vr-tag3.png)
+1. Auswählen **Erstellen** > **Namespace erstellen**.
+   ![Bild](assets/voice-recognition/vr-tag3.png)
 
-1. Geben Sie den Namen Ihres Projekts ein, z. B. **VoiceDemo**, und klicken Sie auf **Erstellen**.
+1. Geben Sie den Namen Ihres Projekts ein, beispielsweise **VoiceDemo** und wählen **Erstellen**.
 
-1. Wählen Sie das Projekt **VoiceDemo** aus und klicken Sie in der Aktionsleiste auf **Tag erstellen**.
-   ![image](assets/voice-recognition/vr-tag4.png)
+1. Wählen Sie die **VoiceDemo** Projekt und wählen Sie **Tag erstellen** in der Aktionsleiste aus.
+   ![Bild](assets/voice-recognition/vr-tag4.png)
 
-1. Geben Sie den Namen Ihres Tags ein und klicken Sie auf **Senden**.
+1. Geben Sie den Namen Ihres Tags ein und wählen Sie **Einsenden**.
    ![image](assets/voice-recognition/vr-tag5.png)
 
 Jetzt können Sie diese Tags in Ihrem AEM Screens-Projekt verwenden.

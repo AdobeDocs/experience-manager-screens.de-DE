@@ -9,10 +9,10 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '798'
-ht-degree: 38%
+ht-degree: 34%
 
 ---
 
@@ -24,12 +24,12 @@ In den folgenden Abschnitten wird beschrieben, wie Sie die Videowiedergabe in Ih
 
 ## DAM-Ausgaben {#dam-renditions}
 
-Wenn Sie das Video in den Kanal hochgeladen haben, sollte AEM damit beginnen, einige Ausgaben dafür zu erzeugen. Sie können Ihre Videos unter „Assets“ anzeigen.
+Nachdem Sie das Video in den Kanal hochgeladen haben, sollten AEM damit beginnen, einige Ausgabeformate dafür zu erstellen. Sie können Ihre Videos unter „Assets“ anzeigen.
 
 So zeigen Sie das Video an:
 
 1. Navigieren Sie zu Ihrem Video, beispielsweise `http://localhost:4502/assets.html/content/dam/we-retail/en/videos`.
-1. Klicken Sie auf das Video, erweitern Sie das Menü oben links und klicken Sie auf **Ausgabeformate**.
+1. Wählen Sie das Video aus, erweitern Sie das Menü oben links und wählen Sie **Ausgabeformate**.
 
 Es sollte verschiedene Ausgabedarstellungen geben (eine MP4- oder M4V-Datei).
 
@@ -39,7 +39,7 @@ Wenn keine Ausgabe verfügbar ist, überprüfen Sie, ob ffmpeg im Betriebssystem
 >
 >Wenn keine Ausgabe verfügbar ist, überprüfen Sie, ob ffmpeg im Betriebssystem installiert ist, unter dem AEM ausgeführt wird.
 >
->Klicken Sie [hier](https://www.ffmpeg.org/download.html), um ffmpeg zu installieren.
+>Auswählen [here](https://www.ffmpeg.org/download.html) um ffmpeg zu installieren.
 
 ## Video-Assets {#video-assets}
 
@@ -51,11 +51,11 @@ Vergewissern Sie sich, dass ffmpeg installiert ist, und prüfen Sie die Videopro
 
 ### Prüfen des Videoprofils {#checking-video-profile}
 
-1. Navigieren Sie zum **Videoprofil**, d. h. `http://localhost:4502/etc/dam/video.html`, und klicken Sie auf **Test-Video hochladen**.
+1. Navigieren Sie zum **Videoprofil**, d. h. `http://localhost:4502/etc/dam/video.html` und wählen **Hochladen des Testvideos**.
 
    ![chlimage_1-3](assets/chlimage_1-3.png)
 
-1. Laden Sie ein Testvideo hoch und klicken Sie auf **Ok** damit Sie mit der Transkodierung beginnen können.
+1. Laden Sie ein Testvideo hoch und wählen Sie **Ok** damit Sie mit der Transkodierung beginnen können.
 
    Wenn das transkodierte Video fehlschlägt, erweitern Sie die ffmpeg-Ausgabe, um Fehler in der Konsolenausgabe von ffmpeg zu verstehen.
 

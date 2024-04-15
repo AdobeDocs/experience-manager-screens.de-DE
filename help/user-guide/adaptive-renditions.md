@@ -2,7 +2,7 @@
 title: Überblick über die Architektur und Konfigurationen für adaptive Ausgabedarstellungen
 description: Erfahren Sie mehr über die Architekturübersicht und -konfigurationen unter CRXDE Lite für adaptive Ausgabedarstellungen in AEM Screens.
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: 97084aee861e152abcc5f117a2a4759dced038cc
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 43%
@@ -58,11 +58,11 @@ Gehen Sie wie folgt vor, um die Einrichtung zu konfigurieren:
 Gehen Sie wie folgt vor, um einen Knoten unter „Ausgabedarstellungszuordnung“ hinzuzufügen:
 
 1. Gehen Sie von **CRXDE Lite** zum Pfad `/conf/screens/sling:configs/rendition-mapping`.
-1. Erstellen Sie einen Knoten unter **Ausgabedarstellungszuordnung**. Rechtsklick **rendition-mapping** und klicken **Erstellen** > **Knoten erstellen**, wie in der folgenden Abbildung dargestellt.
+1. Erstellen Sie einen Knoten unter **Ausgabedarstellungszuordnung**. Rechtsklick **rendition-mapping** und wählen **Erstellen** > **Knoten erstellen**, wie in der folgenden Abbildung dargestellt.
 
    ![Bild](/help/user-guide/assets/adaptive-renditions/add-node1.png)
 
-1. Geben Sie die **Name** für Ihre Zuordnungsregel wie **rule1** und dem Knoten **Typ** as **`nt:unstructured`** in **Knoten erstellen** Dialogfeld. Klicken Sie auf **OK**.
+1. Geben Sie die **Name** für Ihre Zuordnungsregel wie **rule1** und dem Knoten **Typ** as **`nt:unstructured`** in **Knoten erstellen** Dialogfeld. Wählen Sie **OK** aus.
 
    ![Bild](/help/user-guide/assets/adaptive-renditions/add-node2.png)
 
@@ -72,7 +72,7 @@ Gehen Sie wie folgt vor, um einen Knoten unter „Ausgabedarstellungszuordnung�
    >[!NOTE]
    >Siehe [Syntax der Medienabfrage verwenden](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries) , um mehr zu erfahren.
 
-   Klicks **rule1** die Sie erstellt haben, und geben Sie **Ausdruck** in **Name** und **(Ausrichtung:Querformat)** in **Wert**, wie unten dargestellt. Klicken Sie auf **Hinzufügen**.
+   Auswählen **rule1** die Sie erstellt haben, und geben Sie **Ausdruck** in **Name** und **(Ausrichtung:Querformat)** in **Wert**, wie unten dargestellt. Wählen Sie **Hinzufügen**.
 
    ![Bild](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
@@ -81,11 +81,11 @@ Gehen Sie wie folgt vor, um einen Knoten unter „Ausgabedarstellungszuordnung�
    >[!NOTE]
    >Der in der pattern-Eigenschaft definierte Wert wird mit der neuen Asset-Ausgabedarstellung abgeglichen und ausgewählt, wenn der Ausdruck als &quot;true&quot;ausgewertet wird.
 
-   Um die pattern-Eigenschaft hinzuzufügen, klicken Sie auf **rule1** die Sie erstellt haben, und geben Sie **pattern** in **Name** und **landscape** in **Wert**, wie unten dargestellt. Klicken Sie auf **Hinzufügen**.
+   Um die pattern-Eigenschaft hinzuzufügen, wählen Sie **rule1** die Sie erstellt haben, und geben Sie **pattern** in **Name** und **landscape** in **Wert**, wie unten dargestellt. Wählen Sie **Hinzufügen**.
 
    ![Bild](/help/user-guide/assets/adaptive-renditions/add-node4.png)
 
-1. Klicks **Alle speichern** und beachten Sie die Eigenschaften unter dem Knoten, den Sie unter erstellt haben **rendition-mapping**.
+1. Auswählen **Alle speichern** und beachten Sie die Eigenschaften unter dem Knoten, den Sie unter erstellt haben **rendition-mapping**.
 
    ![Bild](/help/user-guide/assets/adaptive-renditions/add-node5.png)
 

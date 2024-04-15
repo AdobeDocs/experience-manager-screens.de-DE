@@ -2,7 +2,7 @@
 title: Unterstützung von Miniaturansichten für Videos in AEM Screens
 description: Erfahren Sie, wie Sie in AEM Screens Unterstützung für Miniaturansichten für Videos hinzufügen.
 exl-id: d2d87807-1699-47e3-b241-07c5b7e56f15
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 77%
@@ -32,7 +32,7 @@ Gehen Sie wie folgt vor, um Miniaturansichten in Videos zu verwenden:
 
 1. Navigieren Sie zu einem vorhandenen AEM Screens-Kanal oder erstellen Sie einen Kanal.
 
-1. Wählen Sie den Kanal aus und klicken Sie auf **Bearbeiten** in der Aktionsleiste aus.
+1. Wählen Sie den Kanal aus und wählen Sie **Bearbeiten** in der Aktionsleiste aus.
 
    ![Bild](/help/user-guide/assets/thumbnails/thumbnail-1.png)
 

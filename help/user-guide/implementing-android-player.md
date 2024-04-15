@@ -10,10 +10,10 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1462'
-ht-degree: 36%
+ht-degree: 32%
 
 ---
 
@@ -45,17 +45,17 @@ Führen Sie dazu folgende Schritte durch:
 1. Legen Sie das **Attribut „SameSite“ für die Anmelde-Token-Cookies** von **Lax** (Gering) auf **None** (Keine) fest.
    ![image](/help/user-guide/assets/granite-updates.png)
 
-1. Klicken Sie auf **Speichern**.
+1. Wählen Sie **Speichern** aus.
 
 
 ### Ad-hoc-Methode {#ad-hoc-method}
 
 Mit der Ad-hoc-Methode können Sie den neuesten Android™ Player (*.exe*). Rufen Sie die Seite [**AEM 6.5 Player-Downloads**](https://download.macromedia.com/screens/) auf.
 
-Nachdem Sie die Anwendung heruntergeladen haben, führen Sie die Schritte im Player aus, um die Ad-hoc-Installation abzuschließen:
+Nachdem Sie die Anwendung heruntergeladen haben, führen Sie die Schritte auf dem Player aus, um die Ad-hoc-Installation abzuschließen:
 
 1. Halten Sie die linke obere Ecke gedrückt, um das Admin-Bedienfeld zu öffnen.
-1. Navigieren Sie im linken Aktionsmenü zu **Konfiguration**, geben Sie den Standort (die Adresse) der AEM-Instanz ein, zu der Sie eine Verbindung aufbauen möchten, und klicken Sie auf **Speichern**.
+1. Navigieren Sie zu **Konfiguration** Geben Sie im linken Aktionsmenü den Speicherort (die Adresse) der AEM Instanz ein, zu der Sie eine Verbindung herstellen möchten, und wählen Sie **Speichern**.
 
 1. Navigieren Sie zum **Gerät** **Registrierung** im linken Aktionsmenü, damit Sie den Status des Prozesses zur Geräteregistrierung überprüfen können.
 
@@ -122,7 +122,7 @@ Anzeigen einer [Beispiel-JSON-Richtlinie](#example-json) und einer Tabelle, die 
 
 1. Verwenden Sie einen MDM- oder ADB- oder Android™ Studio-Datei-Explorer, um diese JSON-Richtliniendatei im *sdcard* auf dem Android™-Gerät.
 
-1. Nachdem die Datei bereitgestellt wurde, installieren Sie die Player-App mit dem MDM.
+1. Wenn die Datei bereitgestellt ist, verwenden Sie das MDM, um die Player-Anwendung zu installieren.
 
 1. Wenn die Player-Anwendung gestartet wird, wird diese Konfigurationsdatei gelesen und auf den entsprechenden AEM-Server verwiesen, auf dem sie registriert und dann gesteuert wird.
 
@@ -179,7 +179,7 @@ Bei der Massenbereitstellung des Android™-Players wird es mühsam, jeden Playe
 Sie können Ihrem Android™-Player einen benutzerfreundlichen Gerätenamen zuweisen und so den zugewiesenen Gerätenamen an AEM (Adobe Experience Manager) senden. Mit dieser Funktion können Sie nicht nur Ihren Android™-Player benennen, sondern auch mühelos geeignete Inhalte zuweisen.
 
 >[!NOTE]
->Sie können den Player-Namen nur vor der Registrierung auswählen. Sobald der Player registriert ist, kann der Player-Name nicht mehr geändert werden.
+>Sie können den Player-Namen nur vor der Registrierung auswählen. Nachdem der Player registriert wurde, kann der Player-Name nicht mehr geändert werden.
 
 Gehen Sie wie folgt vor, um den Namen im Android™-Player zu konfigurieren:
 

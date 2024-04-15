@@ -5,7 +5,7 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 28449523-a44d-4260-9771-f1987686cbb6
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 49%
@@ -20,7 +20,7 @@ Das manuelle Registrieren von Tausenden von Playern kann umständlich werden und
 
 Führen Sie die folgenden Schritte aus, um die automatische Registrierung von Playern zu implementieren:
 
-1. Melden Sie sich bei Ihrer AEM-Instanz an, wählen Sie Ihr AEM Screens-Projekt aus und klicken Sie auf **Eigenschaften** in der Aktionsleiste aus.
+1. Melden Sie sich bei Ihrer AEM-Instanz an, wählen Sie Ihr AEM Screens-Projekt aus und wählen Sie **Eigenschaften** in der Aktionsleiste aus.
 1. Wählen Sie die **Erweitert** -Registerkarte, damit Sie die **Geräteregistrierung** Abschnitt.
 
 1. Geben Sie im Feld **Bulk registration code** (Massenregistrierungs-Code) einen Code für die automatische Registrierung und in **Default display assignment** (Standardmäßige Anzeigenzuweisung) eine optionale Standardanzeige an, die dem Player zugewiesen werden soll, der automatisch registriert wird.
