@@ -1,16 +1,14 @@
 ---
 title: Versionshinweise für Feature Pack 202004
-seo-title: Release Notes for Feature Pack 202004
-description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 202004, das am 20. April 2020 veröffentlicht wurde.
-seo-description: Follow this page to get information for AEM Screens Feature Pack 202004 released on April 20, 2020.
+description: Erfahren Sie mehr über das AEM Screens Feature Pack 202004, das am 20. April 2020 veröffentlicht wurde.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 0440cb1a-4436-4479-9d88-ea8884905801
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 76%
+source-wordcount: '367'
+ht-degree: 56%
 
 ---
 
@@ -18,7 +16,7 @@ ht-degree: 76%
 
 >[!CAUTION]
 >
->Es wird empfohlen, ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM) durchzuführen. Screens bietet Wartungs-Support für die AEM 6.3 Screens-Plattform.
+>Adobe empfiehlt ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM). AEM Screens bietet Wartungs-Support für AEM 6.3 Screens-Plattform.
 
 ## Verfügbarkeit {#availability}
 
@@ -34,9 +32,9 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 202004 ist der 20. Ap
 
 * **Optionen für die Wiedergabe-Unterbrechungsstrategie**
 
-  Als Autor von Inhalten sollten Sie festlegen können, wann ein Kanal unterbrochen wird, damit nicht kritische Inhalte abgeschnitten werden können, wichtige Inhalte jedoch vollständig abgespielt werden, bevor die Wiedergabe aufgrund der Zeitplanung abgebrochen wird.
+  Geben Sie als Inhaltsautor an, wann ein Kanal unterbrochen wird, damit Sie nichtkritische Inhalte abschneiden und optional wichtige Inhalte vollständig abspielen lassen können, bevor Sie die Wiedergabe aufgrund der Planung abbrechen.
 
-  Siehe Abschnitt . **[Unterbrechungsmethode](/help/user-guide/channel-assignment.md#interruption-method-channel)** Weitere Informationen zu den verfügbaren Optionen finden Sie unter **Kanalzuweisung** , um diese Funktion in Ihr AEM Screens-Projekt zu implementieren.
+  Weitere Informationen zu den verfügbaren Optionen finden Sie unter **Kanalzuweisung** Dialogfeld, um diese Funktion in Ihr AEM Screens-Projekt zu implementieren, siehe Abschnitt **[Unterbrechungsmethode](/help/user-guide/channel-assignment.md#interruption-method-channel)**.
 
 * **Screens Launches**
 
@@ -59,7 +57,7 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 202004 ist der 20. Ap
 
   Beim Hinzufügen von Text zur Textüberlagerungsfunktion ist die Schriftgröße präzise und verbessert.
 
-  Siehe **[Textüberlagerung](text-overlay.md)** , um ein überzeugendes Erlebnis in einem Sequenzkanal zu erstellen, indem Sie einen Titel oder eine Beschreibung angeben, die über einem Bild überlagert ist.
+  Informationen zum Erstellen eines überzeugenden Erlebnisses in einem Sequenzkanal durch Angabe eines Titels oder einer Beschreibung, die über einem Bild überlagert ist, finden Sie unter **[Textüberlagerung](text-overlay.md)**.
 
 * **Verbesserungen bei der Befehlssynchronisierung**
 
@@ -67,14 +65,14 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 202004 ist der 20. Ap
 
   Siehe **[Befehlssynchronisierung](using-command-sync.md)** für weitere Details.
 
-### Veröffentlichte AEM Screens-Player {#released-aem-screens-players}
+### Veröffentlichte AEM Screens-Player
 
 Die folgenden AEM Screens-Player sind für AEM Screens in AEM 6.4 Feature Pack 8 und AEM 6.5 Feature Pack 4 verfügbar:
 
 * ChromeOS
 * Windows
-* Android
+* Android™
 
-#### AEM Screens-Player-Downloads   {#aem-screens-player-downloads}
+#### AEM Screens-Player-Downloads 
 
 Informationen zum Herunterladen des neuesten AEM Screens-Players und zu weiteren Fehlerbehebungen finden Sie unter **[AEM Screens Player-Downloads](https://download.macromedia.com/screens/)**.

@@ -5,17 +5,17 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: a8741cc7-de4f-4e5a-b69e-852a43597123
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 50%
+source-wordcount: '384'
+ht-degree: 47%
 
 ---
 
 # Versionshinweise für Feature Pack 202103 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Es wird empfohlen, ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM) durchzuführen. AEM Screens bietet Wartungs-Support für AEM 6.3 Screens-Plattform.
+>Adobe empfiehlt ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM). AEM Screens bietet Wartungs-Support für AEM 6.3 Screens-Plattform.
 
 ## Verfügbarkeit {#availability}
 

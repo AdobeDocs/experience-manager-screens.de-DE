@@ -1,14 +1,14 @@
 ---
 title: Spracherkennung in AEM Screens
-description: Auf der Seite werden die Spracherkennungsfunktionen in AEM Screens beschrieben.
+description: Erfahren Sie mehr über die Spracherkennung und deren Verwendung in AEM Screens.
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 90%
+source-wordcount: '1090'
+ht-degree: 57%
 
 ---
 
@@ -18,14 +18,14 @@ ht-degree: 90%
 >
 >**Wichtige Datenschutzinformationen**
 >
->Beachten Sie bei der Verwendung der Spracherkennungsfunktion alle für Ihre Region geltenden rechtlichen und ethischen Richtlinien (insbesondere die sichtbare Benachrichtigung der Endbenutzer, dass der Player die Spracherkennung verwendet). Adobe Inc. erhält, speichert und verarbeitet keine der sprachbezogenen Informationen. Die AEM Screens-Player verwenden die standardmäßige Web Speech API, die in die Browser-Engine integriert ist. Hinter den Kulissen sendet diese API eine Wellenform des von Ihnen Gesprochenen an die Server von Google, um es von Sprache in Text umzuwandeln. Dieser Text wird vom Player mit den konfigurierten Schlüsselwörtern abgeglichen.
+>Befolgen Sie bei der Verwendung der Spracherkennungsfunktion alle geltenden rechtlichen und ethischen Richtlinien für Ihre Region (einschließlich, aber nicht beschränkt auf die Bereitstellung eines sichtbaren Hinweises für Endbenutzer, dass der Player die Spracherkennung verwendet). Adobe erhält, speichert oder verarbeitet keine der sprachbezogenen Informationen. Die AEM Screens-Player verwenden die standardmäßige Web Speech API, die in die Browser-Engine integriert ist. Hinter den Kulissen sendet diese API eine Wellenform Ihrer Sprache an die Server von Google zur Konvertierung von Sprache in Text. Dieser Text wird vom Player mit den konfigurierten Keywords abgeglichen.
 >
 >Siehe [Google-Datenschutz-Whitepaper zur Web Speech API](https://www.google.com/chrome/privacy/whitepaper.html#speech) für weitere Details.
 
 
 Die Spracherkennungsfunktion ermöglicht Inhaltsänderungen in einem AEM Screens-Kanal via Sprachinteraktionen.
 
-Ein Inhaltsautor kann eine Anzeige so konfigurieren, dass sie sprachaktiviert ist. Diese Funktion soll Kunden die Möglichkeit geben, Sprache als Methode der Interaktion mit ihren Anzeigen zu verwenden. Einige ähnliche Anwendungsfälle umfassen das Auffinden von Produktempfehlungen in Geschäften oder das Bestellen von der Speisekarte in Gaststätten und Restaurants. Diese Funktion erhöht die Zugänglichkeit für Benutzer und kann das Kundenerlebnis erheblich verbessern.
+Ein Inhaltsautor kann eine Anzeige so konfigurieren, dass sie sprachaktiviert ist. Mit dieser Funktion können Kunden Sprache als Methode zur Interaktion mit ihren Anzeigen verwenden. Einige ähnliche Anwendungsfälle umfassen das Auffinden von Produktempfehlungen in Geschäften oder das Bestellen von der Speisekarte in Gaststätten und Restaurants. Diese Funktion erhöht die Zugänglichkeit für Benutzer und kann das Kundenerlebnis erheblich verbessern.
 
 >[!NOTE]
 >Die Player-Hardware muss Spracheingabegeräte wie Mikrofone unterstützen.
@@ -53,11 +53,11 @@ Bevor Sie die Funktion zur Spracherkennung verwenden, stellen Sie sicher, dass S
 
    Oder
 
-   Sie können drei Sequenzkanäle **Main**, **ColdDrinks** und **HotDrinks** sowie einen zusätzlichen 1x2-Splitscreen-Kanal **SplitScreen** erstellen, wie in der Abbildung unten dargestellt.
+   Sie können drei Sequenzkanäle erstellen **Main**, **ColdDrinks**, und **HotDrinks** und einen weiteren 1x2-Splitscreen-Kanal **SplitScreen** wie in der folgenden Abbildung dargestellt.
 
-   ![image](assets/voice-recognition/vr-emb-1.png)
+   ![Bild](assets/voice-recognition/vr-emb-1.png)
 
-1. Navigieren Sie zu jedem Kanal und fügen Sie Inhalt hinzu. Navigieren Sie beispielsweise zu **VoiceDemo** > **Kanäle** > **Main** und wählen Sie den Kanal aus. Klicken Sie in der Aktionsleiste auf **Bearbeiten**, um den Editor zu öffnen und den gewünschten Inhalt (Bilder/Videos) hinzuzufügen. Fügen Sie auf ähnliche Weise den Kanälen **ColdDrinks** und **HotDrinks** Inhalt hinzu.
+1. Navigieren Sie zu jedem Kanal und fügen Sie Inhalt hinzu. Navigieren Sie beispielsweise zu **VoiceDemo** > **Kanäle** > **Main** und wählen Sie den Kanal aus. Klicks **Bearbeiten** Fügen Sie in der Aktionsleiste entsprechend Ihren Anforderungen Inhalte (Bilder/Videos) hinzu. Fügen Sie auf ähnliche Weise den Kanälen **ColdDrinks** und **HotDrinks** Inhalt hinzu.
 
    Die Kanäle enthalten nun Assets (Bilder), wie in den folgenden Abbildungen dargestellt.
 
@@ -79,7 +79,7 @@ Bevor Sie die Funktion zur Spracherkennung verwenden, stellen Sie sicher, dass S
 
 ### Festlegen von Tags für Kanäle {#setting-tags}
 
-Nachdem Sie Ihren Kanälen Inhalte hinzugefügt haben, müssen Sie zu jedem Kanal navigieren und entsprechende Tags hinzufügen, die die Spracherkennung auslösen würden.
+Nachdem Sie Ihren Kanälen Inhalte hinzugefügt haben, navigieren Sie zu jedem Kanal und fügen Sie entsprechende Tags hinzu, die die Spracherkennung Trigger.
 
 Gehen Sie wie folgt vor, um Ihrem Kanal Tags hinzuzufügen:
 
@@ -89,9 +89,9 @@ Gehen Sie wie folgt vor, um Ihrem Kanal Tags hinzuzufügen:
 
    ![image](assets/voice-recognition/vr-5.png)
 
-1. Navigieren Sie zur Registerkarte **Grundlagen** und wählen Sie ein bereits vorhandenes Tag aus dem Feld **Tags** aus oder erstellen Sie ein neues.
+1. Navigieren Sie zum **Grundlagen** und wählen Sie ein vorhandenes Tag aus dem **Tags** oder erstellen Sie ein Feld.
 
-   Sie können entweder ein neues Tag erstellen, indem Sie einen neuen Namen für das Tag eingeben und die `return`-Taste drücken, wie in der folgenden Abbildung gezeigt:
+   Sie können entweder ein Tag erstellen, indem Sie einen neuen Namen für Ihr Tag eingeben und `return` -Taste, wie in der folgenden Abbildung dargestellt:
 
    ![image](assets/voice-recognition/vr-6.png)
 
@@ -116,7 +116,7 @@ Gehen Sie wie folgt vor, um Tags zu erstellen:
 
 1. Navigieren Sie zu Ihrer AEM-Instanz.
 
-1. Klicken Sie auf das Werkzeugsymbol > **Tagging**.
+1. Klicken Sie auf das Symbol Tools > **Tagging**.
    ![Bild](assets/voice-recognition/vr-7.png)
 
 1. Klicks **Erstellen** > **Namespace erstellen**.
@@ -141,7 +141,7 @@ Jetzt können Sie diese Tags in Ihrem AEM Screens-Projekt verwenden.
    >[!NOTE]
    >Informationen zum Zuweisen eines Kanals zu einer Anzeige finden Sie unter [Erstellen und Verwalten von Anzeigen](/help/user-guide/managing-displays.md).
 
-1. Weisen Sie die Kanäle **Main**, **ColdDrinks** und **HotDrinks** Ihrer Anzeige **LobbyDisplay** zu. Wenn Sie außerdem den Kanal **SplitScreen** für Ihr Projekt verwenden, stellen Sie sicher, dass Sie ihn auch der Anzeige zuweisen.
+1. Weisen Sie die Kanäle **Main**, **ColdDrinks** und **HotDrinks** Ihrer Anzeige **LobbyDisplay** zu. Wenn Sie die **SplitScreen** -Kanal für Ihr Projekt verwenden, stellen Sie sicher, dass Sie dies der Anzeige zuweisen.
 
    >[!NOTE]
    >Wenn Sie einen Splitscreen-Kanal erstellt haben, weisen Sie Ihrer Anzeige den **SplitScreen**-Kanal zu.
@@ -159,7 +159,7 @@ Jetzt können Sie diese Tags in Ihrem AEM Screens-Projekt verwenden.
    >
    >Informationen zum Zuweisen eines Kanals zu einer Anzeige finden Sie unter [Erstellen und Verwalten von Anzeigen](/help/user-guide/managing-displays.md).
 
-1. Nachdem Sie einer Anzeige Kanäle zugewiesen haben, navigieren Sie zu **LobbyDisplay** und wählen Sie die Anzeige aus. Wählen Sie in der Aktionsleiste **Eigenschaften** aus.
+1. Nachdem Sie einer Anzeige Kanäle zugewiesen haben, navigieren Sie zur **LobbyDisplay** und wählen Sie die Anzeige aus. Wählen Sie in der Aktionsleiste **Eigenschaften** aus.
 
 1. Navigieren Sie zur Registerkarte **Anzeige** und aktivieren Sie die Option **Sprachaktiviert** unter **Inhalt**.
 
@@ -170,17 +170,17 @@ Jetzt können Sie diese Tags in Ihrem AEM Screens-Projekt verwenden.
 
 ### Anzeigen von Inhalten im Chrome-Player {#viewing-content}
 
-Sobald die vorhergehenden Schritte abgeschlossen sind, können Sie Ihr Chrome-Gerät registrieren, um die Ausgabe anzusehen.
+Wenn die vorherigen Schritte abgeschlossen sind, können Sie Ihr Chrome-Gerät registrieren, um die Ausgabe anzuzeigen.
 
 >[!NOTE]
->Siehe [Geräteregistrierung](device-registration.md) , um zu erfahren, wie Sie ein Gerät auf einem AEM Screens-Player registrieren.
+>Siehe [Geräteregistrierung](device-registration.md).
 
 **Gewünschte Ausgabe für den Sequenz-Kanal**
 
 Der Kanal **Main** gibt seinen Inhalt wieder. Wenn Sie jedoch Wörter mit dem Keyword **heiß** verwenden, wie beispielsweise *ich möchte ein heißes Getränk*, beginnt der Kanal, den Inhalt des Kanals **HotDrinks** wiederzugeben.
 
-Wenn Sie Wörter mit dem Keyword **kalt** verwenden, wie beispielsweise *Ich möchte etwas Kaltes*, beginnt der Kanal, den Inhalt des Kanals **ColdDrinks** wiederzugeben.
+Gleichermaßen, wenn Sie Wörter mit einem Keyword verwenden **kalt** wie *Ich hätte gerne etwas Kaltes*, beginnt der Kanal mit der Wiedergabe des Inhalts der **ColdDrinks** -Kanal.
 
 **Gewünschte Ausgabe für den Splitscreen-Kanal**
 
-Der Kanal **Main** gibt seinen Inhalt wieder. Wenn Sie jedoch Wörter mit dem Keyword **heiß** und dem Keyword **kalt** zusammen verwenden, wie beispielsweise *Kann ich die Karte für warme und kalte Getränke sehen*, beginnt der Kanal, die Inhalte des **SplitScreen**-Kanals wiederzugeben. Wenn Sie *Zurück zum Hauptmenü* sagen, schaltet die Anzeige zurück zum Hauptkanal (Main).
+Die **Main** -Kanal gibt seinen Inhalt wieder. Wenn Sie jedoch Wörter mit Keywords verwenden **heiß** und **kalt** zusammen, z. B. *Ich hätte gerne die Speisekarte für warme und kalte Getränke.*, gibt der Kanal den Inhalt der **SplitScreen** -Kanal. Wenn Sie *Zurück zum Hauptmenü*, kehrt er zum **Main** -Kanal.

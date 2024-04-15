@@ -5,10 +5,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 79%
+ht-degree: 75%
 
 ---
 
@@ -33,7 +33,7 @@ Weitere Informationen finden Sie unter den folgenden Links:
 1. **[Einrichten eines Datenspeichers](configuring-context-hub.md)**
 1. **[Einrichten der Zielgruppensegmentierung](configuring-context-hub.md)**
 
-Nachdem Sie die vorherigen Schritte durchgeführt haben, können Sie Targeting in Ihren Kanälen aktivieren.
+Wenn Sie die vorherigen Schritte ausgeführt haben, können Sie das Targeting in Ihren Kanälen aktivieren.
 
 ## Überblick über die Inhaltserstellung mit Datenauslösern {#author-targeting}
 

@@ -10,10 +10,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3b127311-32d1-402c-97a1-e799e9f3f95e
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 53%
+source-wordcount: '243'
+ht-degree: 47%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 53%
 
 >[!CAUTION]
 >
->Es wird empfohlen, ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM) durchzuführen. AEM Screens bietet Wartungs-Support für AEM 6.3 Screens-Plattform.
+>Adobe empfiehlt ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM). AEM Screens bietet Wartungs-Support für AEM 6.3 Screens-Plattform.
 
 AEM Screens hat AEM 6.3 Feature Pack 5 und AEM 6.4 Feature Pack 3 mit folgenden Details veröffentlicht.
 

@@ -1,19 +1,17 @@
 ---
 title: Tag 2 – Support und Wartung
-seo-title: Tag 2 – Support und Wartung für AEM Screens
-description: Auf dieser Seite wird „Tag 2 – Support und Wartung“ beschrieben.
-seo-description: Auf dieser Seite wird „Tag 2 – Support und Wartung“ beschrieben.
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '155'
-ht-degree: 100%
+description: Erfahren Sie mehr über den Support und die Wartung für Tag 2 in AEM Screens.
+exl-id: 2b5511ff-c8f4-4ea3-8a65-f17f3a1ec39b
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+workflow-type: tm+mt
+source-wordcount: '138'
+ht-degree: 63%
 
 ---
 
+# Tag 2 – Plattform-Support und -wartung {#day-two-support-maintenance}
 
-# Tag 2 – Plattformsupport und -wartung {#day-two-support-maintenance}
-
-AEM Screens erfordert für funktionierende Projekte verschiedene Pakete. In allen Umgebungen sollte dieselbe Version von Adobe Experience Manager ausgeführt werden.
+AEM Screens benötigt mehrere Pakete, damit Projekte funktionieren. In allen Umgebungen muss dieselbe Version von Adobe Experience Manager ausgeführt werden.
 
 Folgen Sie den Richtlinien zu Support und Wartung für Tag 2 der Projektentwicklungsphase:
 
@@ -25,6 +23,6 @@ Folgen Sie den Richtlinien zu Support und Wartung für Tag 2 der Projektentwick
 
 1. Ermitteln Sie alle erforderlichen Entwicklungspakete (z. B. zentrale WCM-Komponenten) oder Toolkits von Drittanbietern (z. B. SAP Hybris).
 
-1. Installieren Sie dieselben Softwarepakete in Ihren lokalen Entwicklungsumgebungen.
+1. Installieren Sie dieselben Softwarepakete in Ihrer lokalen Entwicklungsumgebung.
 
-1. Weisen Sie Ihren Klienten an, dieselbe Konfiguration auf allen QA-, Staging- und Produktionsservern zu verwenden. Nicht übereinstimmende Serverkonfigurationen verursachen Probleme bei Bereitstellung und Tests.
+1. Weisen Sie Ihren Klienten an, dieselbe Konfiguration auf allen QA-, Staging- und Produktionsservern zu verwenden. Nicht übereinstimmende Serverkonfigurationen verursachen Probleme bei der Bereitstellung und beim Testen.

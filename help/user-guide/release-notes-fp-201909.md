@@ -1,14 +1,14 @@
 ---
 title: Versionshinweise für Feature Pack 201909
-description: Am 31. Juli 2019 veröffentlichte Versionshinweise für AEM Screens Feature Pack 2019.
+description: Erfahren Sie mehr über das AEM Screens Feature Pack 201909, das am 31. Juli 2019 veröffentlicht wurde.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 577228c1-8d90-47b5-8600-7e2f1004e928
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 43%
+source-wordcount: '283'
+ht-degree: 38%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 43%
 
 >[!CAUTION]
 >
->Es wird empfohlen, ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM) durchzuführen. AEM Screens bietet Wartungs-Support für AEM 6.3 Screens-Plattform.
+>Adobe empfiehlt ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM). AEM Screens bietet Wartungs-Support für AEM 6.3 Screens-Plattform.
 
 AEM Screens hat AEM 6.4.6 Feature Pack 6 und AEM 6.5.2 Feature Pack 2 mit folgenden Details veröffentlicht.
 

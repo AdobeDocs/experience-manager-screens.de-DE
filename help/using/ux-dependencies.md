@@ -1,15 +1,13 @@
 ---
-title: UX-Abhängigkeiten für [!UICONTROL AEM Screens]
-seo-title: UX-Abhängigkeiten für [!UICONTROL AEM Screens]
-description: In diesem Handbuch werden UX-Abhängigkeiten für [!UICONTROL AEM Screens] beschrieben.
-seo-description: In diesem Handbuch werden UX-Abhängigkeiten für [!UICONTROL AEM Screens] beschrieben.
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '151'
-ht-degree: 100%
+title: UX-Abhängigkeiten für AEM Screens
+description: Erfahren Sie mehr über UX-Abhängigkeiten für AEM Screens.
+exl-id: 05a4a7a7-0a97-47a1-b371-056ab31f4ed5
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+workflow-type: tm+mt
+source-wordcount: '137'
+ht-degree: 77%
 
 ---
-
 
 # UX-Abhängigkeiten {#ux-dependencies}
 
@@ -31,14 +29,12 @@ Bei der Definition der Hardware-Inhaltsstrategie sollten folgende Fragen berück
    * Handelt es sich um Wegweiser?
    * Soll sie Werbung anzeigen?
 
-1. Wie werden Verbindungen und Netzwerkanschlüsse eingerichtet?
+1. Wie werden Verbindungen und Netzwerkverbindungen eingerichtet?
 
-1. Wie oft werden die Computer und Verbindungen ein- und ausgeschaltet?
+1. Wie oft sind die Computer und die Verbindungen ein- und ausgeschaltet?
 
 1. Unterstützt das Gerätedesign Barrierefreiheit?
 
 1. Sind mehrere Geräte für eine Anzeige erforderlich (z. B. mehrere Zonen, extra große Boards)?
 
 1. Wie sieht es mit Umgebungsaspekten wie Helligkeit, Temperatur und Jahreszeit aus?
-
-

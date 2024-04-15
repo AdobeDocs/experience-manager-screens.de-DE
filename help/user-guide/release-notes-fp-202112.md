@@ -1,21 +1,21 @@
 ---
 title: Versionshinweise für Feature Pack 202112
-description: Auf dieser Seite finden Sie Informationen zu AEM Screens Feature Pack 202112, das am 12. Januar 2022 veröffentlicht wurde.
+description: Erfahren Sie mehr über das AEM Screens Feature Pack 202112, das am 12. Januar 2022 veröffentlicht wurde.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3ff32a3d-9baf-4085-a775-bb5a76a1f5b3
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 94%
+source-wordcount: '315'
+ht-degree: 66%
 
 ---
 
 # Versionshinweise für Feature Pack 202112 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Es wird empfohlen, ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM) durchzuführen. Screens bietet Wartungs-Support für die AEM 6.3 Screens-Plattform.
+>Adobe empfiehlt ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM). AEM Screens bietet Wartungs-Support für AEM 6.3 Screens-Plattform.
 
 ## Verfügbarkeit {#availability}
 
@@ -29,7 +29,7 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 202112 ist der 12. Jan
 
 ### Neue Funktionen {#what-is-new}
 
-* Aktualisierungen der Android-Mobile-App beziehen sich jetzt auf Android 11 (API-Ebene 30). Derzeit befindet sich der Android-Player auf API-Zielebene 29.
+* Aktualisierungen der Android™-Anwendung beziehen sich jetzt auf Android™ 11 (API-Ebene 30). Derzeit befindet sich der Android™-Player auf API-Zielebene 29.
 
 * Die Anzeige-Vorschau bleibt bei der vorherigen Player-Konfiguration hängen
 
@@ -37,7 +37,7 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 202112 ist der 12. Jan
 
 * Beheben von Fehlern beim gleichzeitigen Download in SmartSync
 
-* Als Entwickler sehen Sie jetzt Asset-Ausgabedarstellungen, die nur als Ausgabedarstellungseinträge unter den entsprechenden Assets im Manifest aufgeführt werden, um die Erweiterbarkeit, Klarheit und einfache Handhabung der Manifestverarbeitung sicherzustellen.
+* Zeigen Sie als Entwickler Asset-Ausgabedarstellungen an, die Sie nur als Ausgabedarstellungseinträge unter den entsprechenden Assets im Manifest auflisten möchten, um die Erweiterbarkeit, Klarheit und Einfachheit der Manifestverarbeitung sicherzustellen.
 
 ### Fehlerbehebungen {#bug-fixes}
 
@@ -57,16 +57,16 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 202112 ist der 12. Jan
 
 * Beheben von Fehlern beim gleichzeitigen Download in SmartSync.
 
-### Veröffentlichte AEM Screens-Player {#released-aem-screens-players}
+### Veröffentlichte AEM Screens-Player
 
 Die folgenden AEM Screens-Player sind für AEM 6.5 Feature Pack 10 verfügbar:
 
 * ChromeOS
 * Windows
 * Tizen
-* Android
-* Linux
+* Android™
+* Linux®
 
-#### AEM Screens-Player-Downloads   {#aem-screens-player-downloads}
+#### AEM Screens-Player-Downloads 
 
 Informationen zum Herunterladen des neuesten AEM Screens-Players und zu weiteren Fehlerbehebungen finden Sie unter **[AEM Screens Player-Downloads](https://download.macromedia.com/screens/index.html)**.

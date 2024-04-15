@@ -1,13 +1,11 @@
 ---
 title: Gerätespezifikationen
-seo-title: Device Specifications
-description: Auf dieser Seite werden Gerätespezifikationen beschrieben.
-seo-description: The page describes device specifications
+description: Erfahren Sie mehr über Gerätespezifikationen im Zusammenhang mit AEM Screens.
 exl-id: c2e521b3-89f5-4537-a751-0bfa031286c4
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 95%
+source-wordcount: '209'
+ht-degree: 69%
 
 ---
 
@@ -25,7 +23,7 @@ Beantworten Sie vor Beginn der Entwicklung unter Einsatz der an *Tag 0* gesamme
 
 * Welche Software und welches Betriebssystem müssen auf den Anzeigegeräten installiert sein?
 
-* Ist für Player eine Internetverbindung erforderlich, damit sich die Bildschirme mit AEM-Servern synchronisieren lassen?
+* Ist für Player eine Internetverbindung erforderlich, um die Bildschirme mit AEM-Servern zu synchronisieren?
 
 * Wann werden Inhalte auf Playern aktualisiert?
 
@@ -40,4 +38,4 @@ Beantworten Sie vor Beginn der Entwicklung unter Einsatz der an *Tag 0* gesamme
 
 >[!NOTE]
 >
->Außerdem müssen Sie die Spezifikationen der ausgewählten Hardware prüfen, um sicherzustellen, dass diese die in Entwicklung befindliche Anwendung unterstützen kann. Wenn die Anwendung zum Beispiel fünf HD-Videos gleichzeitig ausführen soll: Ist das mit der Hardware möglich?
+>Außerdem müssen Sie die Spezifikationen der ausgewählten Hardware prüfen, um sicherzustellen, dass diese die in Entwicklung befindliche Anwendung unterstützen kann. Wenn die Anwendung beispielsweise fünf High-Definition-Videos gleichzeitig ausführen soll, unterstützt die Hardware sie?

@@ -5,10 +5,10 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '1458'
-ht-degree: 41%
+source-wordcount: '1454'
+ht-degree: 39%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 41%
 >
 >In diesem Abschnitt werden Kanalzuweisung und -zeitplanung für das AEM Screens 6.5.5 Feature Pack (und höher) beschrieben.
 
-Nachdem Sie eine Anzeige eingerichtet haben, müssen Sie der Anzeige einen Kanal zuweisen, um Ihren Inhalt anzuzeigen.
+Wenn Sie eine Anzeige eingerichtet haben, weisen Sie einen Kanal einer Anzeige zu, um Ihren Inhalt anzuzeigen.
 
 Auf dieser Seite wird beschrieben, wie Sie Ihrer Anzeige einen Kanal zuweisen. Außerdem werden Kanaleigenschaften und Dayparting erklärt.
 
@@ -95,7 +95,7 @@ Nach Abschluss der Projekteinrichtung müssen Sie den Kanal einer Anzeige zuweis
 
 ### Anzeigen von Inhalten im Chrome-Player {#viewing-content-output}
 
-In diesem Beispiel wird die Ausgabe auf einem Chrome-Player beschrieben. Nachdem Sie den Kanal Ihrer Anzeige zugewiesen haben, müssen Sie das Gerät bei einem Player registrieren.
+In diesem Beispiel wird die Ausgabe auf einem Chrome-Player beschrieben. Wenn Sie den Kanal Ihrer Anzeige zugewiesen haben, registrieren Sie das Gerät bei einem Player.
 
 Informationen zum Registrieren eines Geräts auf einem AEM Screens-Player finden Sie unter [Geräteregistrierung](device-registration.md).
 

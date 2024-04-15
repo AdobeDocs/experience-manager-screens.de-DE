@@ -1,23 +1,19 @@
 ---
 title: Aktivierung der Gastgewerbereservierung
-seo-title: Hospitality Reservation Activation
-description: Das folgende Nutzungsszenario veranschaulicht die Verwendung der Aktivierung von Reservierungen im Gastgewerbe anhand der in Google Tabellen angegebenen Werten.
-seo-description: The following use case demonstrates the usage of hospital reservation activation based on the values populated in Google Sheets.
-uuid: 7692d616-2b00-4d9a-9d3f-211c089b29af
+description: Erfahren Sie, wie dieser Anwendungsfall die Verwendung der Aktivierung der Gastgewerbereservierung anhand der in Google Tabellen angegebenen Werte veranschaulicht.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: use-case-examples
-discoiquuid: ef3e5dce-e36a-45d3-ad5e-db01430477c6
 docset: aem65
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 89%
+source-wordcount: '444'
+ht-degree: 48%
 
 ---
 
@@ -27,9 +23,9 @@ Das folgende Nutzungsszenario veranschaulicht die Verwendung der Aktivierung von
 
 ## Beschreibung {#description}
 
-Für dieses Nutzungsszenario wird die Google Tabelle mit dem Reservierungsprozentsatz für zwei Restaurants **Restaurant1** und **Restaurant2** gefüllt. Eine Formel wird anhand der Werte von Restaurant1 und Restaurant2 angewendet und anhand der Formel wird der Spalte **AdTarget** der Wert „1“ oder „2“ zugewiesen.
+Für dieses Anwendungsbeispiel wird die Google Tabelle mit dem Prozentsatz der Reservierungen in zwei Restaurants gefüllt. **`Restaurant1`** und **`Restaurant2`**. Eine Formel wird anhand der Werte von `Restaurant1` und `Restaurant2` und basierend auf der Formel wird der Wert 1 oder 2 dem **AdTarget** Spalte.
 
-Wenn der Wert von **Restaurant1** > **Restaurant2** ist, wird **AdTarget** der Wert **1** zugewiesen. Anderenfalls wird **AdTarget** der Wert **2** zugewiesen. Der Wert „1“ generiert die Option *Steak-Gerichte* und der Wert „2“ zeigt die Option *Thailändisches Essen* auf Ihrem Bildschirm an.
+Wenn der Wert von **`Restaurant1`** > **`Restaurant2`**, dann **AdTarget** zugewiesener Wert **1** else **AdTarget** zugewiesener Wert **2**. Wert 1 generiert *Stechnahrung* -Option und -Wert: Ergebnisse der Anzeige von *Thailändische Küche* auf Ihrem Bildschirm angezeigt.
 
 ## Voraussetzungen {#preconditions}
 
@@ -39,9 +35,9 @@ Siehe [Konfigurieren von ContextHub in AEM Screens](configuring-context-hub.md) 
 
 ## Grundlegender Ablauf {#basic-flow}
 
-Gehen Sie wie folgt vor, um das Nutzungsszenario für die reservierungsgesteuerte Aktivierung im Gastgewerbe für Ihr AEM Screens-Projekt zu implementieren:
+Gehen Sie wie folgt vor, um die Aktivierung der Reservierung für Gastgewerbe für Ihr AEM Screens-Projekt zu implementieren:
 
-1. **Füllen der Google Tabellen und Hinzufügen der Formel.**
+1. **Befüllen der Google Tabellen und Hinzufügen der Formel**.
 
    Wenden Sie beispielsweise die Formel auf die dritte Spalte **AdTarget** an, wie in der folgenden Abbildung dargestellt.
 
@@ -50,22 +46,15 @@ Gehen Sie wie folgt vor, um das Nutzungsszenario für die reservierungsgesteuert
 1. **Konfigurieren der Segmente in Zielgruppen gemäß den Anforderungen**
 
    1. Navigieren Sie zu den Segmenten in Ihrer Zielgruppe (siehe ***Schritt 2: Einrichten der Zielgruppensegmentierung*** in **[Konfigurieren von ContextHub in AEM Screens](configuring-context-hub.md)** Seite für weitere Details).
-
    1. Wählen Sie **Tabellen A1 1** aus und klicken Sie auf **Bearbeiten**.
-
-   1. Wählen Sie die Eigenschaft zum Vergleichen aus und klicken Sie auf das Symbol zum Konfigurieren, um die Eigenschaften zu bearbeiten.
-   1. Wählen Sie **googlesheets/value/1/2** aus der Dropdown-Liste in **Eigenschaftsname** aus
-
-   1. Wählen Sie unter **Operator** den Wert **gleich** aus dem Dropdown-Menü aus
-
-   1. Geben Sie den **Wert** als **1** ein
-
+   1. Wählen Sie die Vergleichseigenschaft aus und klicken Sie auf die **Konfiguration** Symbol.
+   1. Wählen Sie **googlesheets/value/1/2** aus der Dropdown-Liste in **Eigenschaftsname** aus.
+   1. Wählen Sie die **Operator** as **equal** aus dem Dropdown-Menü.
+   1. Geben Sie den **Wert** als **1** ein.
    1. Wählen Sie nun **Tabellen A1 2** aus und klicken Sie auf **Bearbeiten**.
-
-   1. Wählen Sie die Eigenschaft zum Vergleichen aus und klicken Sie auf das Symbol zum Konfigurieren, um die Eigenschaften zu bearbeiten.
-   1. Wählen Sie **googlesheets/value/1/2** aus der Dropdown-Liste in **Eigenschaftsname** aus
-
-   1. Wählen Sie den **Operator** als **2** aus
+   1. Wählen Sie die Vergleichseigenschaft aus und klicken Sie auf die **Konfiguration** Symbol.
+   1. Wählen Sie **googlesheets/value/1/2** aus der Dropdown-Liste in **Eigenschaftsname** aus.
+   1. Wählen Sie die **Operator** as **2**.
 
 1. Navigieren Sie zu Ihrem Kanal () und klicken Sie in der Aktionsleiste auf **Bearbeiten**. Im folgenden Beispiel wird ein sequenzieller Kanal **DataDrivenRestaurant** verwendet, um die Funktionalität zu demonstrieren.
 
@@ -85,6 +74,6 @@ Gehen Sie wie folgt vor, um das Nutzungsszenario für die reservierungsgesteuert
 1. **Überprüfen der Vorschau**
 
    1. Klicken Sie auf **Vorschau.** Öffnen Sie außerdem Google Tabellen und aktualisieren Sie den Wert.
-   1. Aktualisieren Sie den Wert in den Spalten **Restaurant1** und **Restaurant2**. Wenn **Restaurant1** > **Restaurant2** ist, sollten Sie ein Bild eines *Steak-Gerichts* sehen. Andernfalls wird ein Bild mit *thailändischem Essen* auf Ihrem Bildschirm angezeigt.
+   1. Aktualisieren Sie den Wert in **`Restaurant1`** und **`Restaurant2`** Spalten. Wenn **`Restaurant1`** > **`Restaurant2`,** Sie sollten ein Bild von *Steak* andernfalls *Thailändisch* Auf dem Bildschirm wird ein Bild mit Lebensmitteln angezeigt.
 
    ![result5](assets/result5.gif)

@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 46%
@@ -17,10 +17,9 @@ ht-degree: 46%
 
 Auf der folgenden Seite finden Sie einen Anwendungsfall, der sich auf die Einrichtung eines Projekts zum Erstellen eines Übernahmekanals für die einmalige Verwendung konzentriert, der einmal für eine bestimmte Zeit wiedergegeben wird.
 
-
 ## Nutzungsszenario – Beschreibung {#use-case-description}
 
-In diesem Nutzungsszenario wird erläutert, wie Sie einen Kanal erstellen, der *Übernahme* aus dem normalen Wiedergabekanal für eine Anzeige oder eine Gruppe von Anzeigen. Die Übernahme erfolgt nur einmal und für eine bestimmte Zeit.
+In diesem Anwendungsfall wird erläutert, wie Sie einen Kanal erstellen, der *Übernahme* aus dem normalen Wiedergabekanal für eine Anzeige oder eine Gruppe von Anzeigen. Die Übernahme erfolgt nur einmal und für eine bestimmte Zeit.
 
 Beispielsweise gibt es einen Übernahmekanal für die einmalige Verwendung, der von Freitag 9:00 bis 10:00 Uhr wiedergegeben wird. Während dieser Zeit sollte kein anderer Kanal wiedergegeben werden. Vor und nach dieser Zeit wird der Übernahmekanal für die einmalige Verwendung nicht wiedergegeben. Im folgenden Beispiel wird die Erstellung eines Übernahmekanals für die einmalige Verwendung gezeigt, der es ermöglicht, den Inhalt für 2 Minuten vor 12:00 Uhr am 31. Dezember bis 12:01 Uhr wiederzugeben.
 

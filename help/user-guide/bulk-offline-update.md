@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 74%
@@ -29,11 +29,11 @@ In diesem Abschnitt werden die folgenden Themen zum Massen-Offline-Update behand
 >
 >This AEM Screens functionality is only available, if you have installed AEM 6.3 Feature Pack 3 or AEM 6.4 Screens Feature Pack 1.
 >
->To get access to this Feature Pack, you must contact Adobe Support and request access. Once you have permissions you can download it from Package Share. -->
+>To get access to this Feature Pack, you must contact Adobe Support and request access. When you have permissions you can download it from Package Share. -->
 
 ## Übersicht {#overview}
 
-Bulk Offline Update ermöglicht die Massenaktualisierung aller Kanäle. Das vermeidet den Aufwand, zu einem bestimmten Kanal zu navigieren und den Inhalt zu aktualisieren. Stattdessen können Sie den gesamten Inhalt in den Kanälen für ein bestimmtes Projekt gemeinsam aktualisieren.
+Massen-Offline-Update: Ermöglicht das stapelweise Aktualisieren aller Kanäle. Das vermeidet den Aufwand, zu einem bestimmten Kanal zu navigieren und den Inhalt zu aktualisieren. Stattdessen können Sie den gesamten Inhalt in den Kanälen für ein bestimmtes Projekt gemeinsam aktualisieren.
 
 Sie können diese Aktivität auch für eine Zeit mit geringerem Netzwerk-Traffic planen.
 
@@ -50,7 +50,7 @@ Sie können das Massen-Offline-Update manuell über die Benutzeroberfläche (UI)
 Gehen Sie wie folgt vor, um das Massen-Offline-Update für ein AEM Screens-Projekt zu verwenden:
 
 1. Navigieren Sie zu Ihrem AEM Screens-Projekt.
-1. Wählen Sie das Projekt aus und klicken Sie auf **Offline-Inhalt aktualisieren** in der Aktionsleiste aus, sodass Sie den Kanalinhalt manuell aktualisieren können.
+1. Wählen Sie das Projekt aus und klicken Sie auf **Offline-Inhalt aktualisieren** in der Symbolleiste, damit Sie den Kanalinhalt manuell aktualisieren können.
 
    ![screen_shot_2018-04-24at122256pm](assets/screen_shot_2018-04-24at122256pm.png)
 
@@ -73,6 +73,6 @@ Gehen Sie wie folgt vor, um das Massen-Offline-Update für ein AEM Screens-Proje
    >
    >Geben Sie den Projektpfad relativ zum Kanal an.
 
-   **Zeitplanfrequenz** Geben Sie einen Zeitpunkt an, z. B. 17.00 Uhr, zu dem dieser Service Offline-Inhalte aktualisieren soll.
+   **Planfrequenz** Geben Sie einen Zeitpunkt an, z. B. 5:00 Uhr oder 17:00 Uhr, zu dem dieser Dienst Offline-Inhalte aktualisieren soll.
 
-1. Auswählen **Speichern** um Ihre Einstellungen zu speichern. Ihr Inhalt wird zum angegebenen Zeitpunkt aktualisiert.
+1. Auswählen **Speichern** , um Ihre Einstellungen zu speichern. Ihr Inhalt wird zum angegebenen Zeitpunkt aktualisiert.
