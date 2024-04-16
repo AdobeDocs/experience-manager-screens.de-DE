@@ -5,7 +5,7 @@ feature: Authoring Screens, Asset Level Activation
 role: Admin, Developer
 level: Intermediate
 exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1460'
 ht-degree: 54%
@@ -50,7 +50,7 @@ Die Aktivierung auf der Asset-Ebene erfolgt durch Konfiguration der Registerkart
 
 Gehen Sie wie folgt vor, um die Zeitplanung auf der Asset-Ebene durchzuführen:
 
-1. Wählen Sie einen beliebigen Kanal aus und klicken Sie dann auf **Bearbeiten** in der Aktionsleiste aus.
+1. Klicken Sie auf einen beliebigen Kanal und dann auf **Bearbeiten** in der Aktionsleiste aus.
 
    ![screen_shot_2018-04-23at111422am](/help/user-guide/assets/asset-activation/asset-level1.png)
 
@@ -61,19 +61,19 @@ Gehen Sie wie folgt vor, um die Zeitplanung auf der Asset-Ebene durchzuführen:
    >* Erstellen eines Projekts finden Sie unter [Erstellen eines neuen Projekts](creating-a-screens-project.md).
    >* Erstellen von Inhalten und Hinzufügen zu einem Kanal finden Sie unter [Verwalten von Kanälen](managing-channels.md).
 
-1. Auswählen **Bearbeiten** Sie können den Kanaleditor öffnen und ein Asset auswählen, auf das Sie die Planung anwenden möchten.
+1. Klicks **Bearbeiten** Sie können den Kanaleditor öffnen und auf ein Asset klicken, auf das Sie die Planung anwenden möchten.
 
    ![Bild](/help/user-guide/assets/asset-activation/asset-level2.png)
 
-1. Wählen Sie das Asset und dann oben links aus. **Konfigurieren** (Schraubenschlüsselsymbol).
+1. Klicken Sie auf das Asset und dann oben links auf **Konfigurieren** (Schraubenschlüsselsymbol).
 
-   Wählen Sie die **Aktivierung** Registerkarte.
+   Klicken Sie auf die Registerkarte **Aktivierung**.
 
    ![image](/help/user-guide/assets/asset-activation/asset-level3.png)
 
 1. Sie können das Datum mithilfe der Datumsauswahl über die Felder **Aktiv ab** und **Aktiv bis** angeben.
 
-   Wenn Sie die **Aktiv ab** und **Aktiv bis** Datum und Uhrzeit, wird das Asset nur zwischen Startdatum/Startzeit bzw. Enddatum/Endzeit angezeigt bzw. wiederholt.
+   Wenn Sie auf die **Aktiv ab** und **Aktiv bis** Datum und Uhrzeit, wird das Asset nur zwischen Startdatum/Startzeit bzw. Enddatum/Endzeit angezeigt bzw. wiederholt.
 
    ![Bild](/help/user-guide/assets/asset-activation/asset-level3.png)
 
@@ -85,7 +85,7 @@ Angenommen, Sie möchten ein Bild nur freitags von 13:00 Uhr bis 22:00 Uhr anzei
 
 ### DayParting {#day-parting}
 
-1. Wählen Sie das Asset aus und wählen Sie es aus **Konfigurieren** (Schraubenschlüsselsymbol), um das Dialogfeld &quot;Eigenschaften&quot;zu öffnen.
+1. Klicken Sie auf das Asset und klicken Sie auf **Konfigurieren** (Schraubenschlüsselsymbol), um das Dialogfeld &quot;Eigenschaften&quot;zu öffnen.
 
 1. Nach Eingabe von Startdatum/Startzeit und Enddatum/Endzeit können Sie einen Ausdruck oder eine natürliche Textversion verwenden, um Ihren Wiederholungsplan anzugeben.
 
@@ -111,7 +111,7 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 
 ### WeekParting {#week-parting}
 
-1. Wählen Sie das Asset aus und wählen Sie dann **Konfigurieren** (Schraubenschlüsselsymbol).
+1. Klicken Sie auf das Asset und dann auf **Konfigurieren** (Schraubenschlüsselsymbol).
 
 1. Nach Eingabe von Startdatum/Startzeit und Enddatum/Endzeit können Sie einen Ausdruck oder eine natürliche Textversion verwenden, um Ihren Wiederholungsplan anzugeben.
 
@@ -136,7 +136,7 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 
 ### MonthParting {#month-parting}
 
-1. Wählen Sie das Asset aus und wählen Sie dann **Konfigurieren** (Schraubenschlüsselsymbol).
+1. Klicken Sie auf das Asset und dann auf **Konfigurieren** (Schraubenschlüsselsymbol).
 
 1. Nach Eingabe von Startdatum/Startzeit und Enddatum/Endzeit können Sie einen Ausdruck oder eine natürliche Textversion verwenden, um Ihren Wiederholungsplan anzugeben.
 
@@ -159,7 +159,7 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 
 ### Kombination von Aufteilungen {#combined-parting}
 
-1. Wählen Sie das Asset aus und wählen Sie dann **Konfigurieren** (Schraubenschlüsselsymbol).
+1. Klicken Sie auf das Asset und dann auf **Konfigurieren** (Schraubenschlüsselsymbol).
 
 1. Nach Eingabe von Startdatum/Startzeit und Enddatum/Endzeit können Sie einen Ausdruck oder eine natürliche Textversion verwenden, um Ihren Wiederholungsplan anzugeben.
 
@@ -189,7 +189,7 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 >
 >The **Multi-asset Activation** feature is only available if you have installed AEM 6.3 Feature Pack 5 or AEM 6.4 Feature Pack 3. -->
 
-***Aktivierung für mehrere Assets*** ermöglicht dem Benutzer die Auswahl mehrerer Assets und die Anwendung eines Wiedergabezeitplans auf alle ausgewählten Assets.
+***Aktivierung für mehrere Assets*** ermöglicht dem Benutzer das Klicken auf mehrere Assets und das Anwenden eines Wiedergabezeitplans auf alle ausgewählten Assets.
 
 ### Voraussetzungen {#prerequisites}
 
@@ -200,21 +200,21 @@ Um die Aktivierung für mehrere Assets zu verwenden, erstellen Sie ein AEM Scree
 
 ![screen_shot_2018-12-21at70128am](assets/screen_shot_2018-12-21at70128am.png)
 
-Gehen Sie wie folgt vor, um mehrere Assets auszuwählen und ihre Anzeige in einem AEM Screens-Projekt zu planen:
+Gehen Sie wie folgt vor, um auf mehrere Assets zu klicken und ihre Anzeige in einem AEM Screens-Projekt zu planen:
 
-1. Auswählen **MultiAssetChannel**, wählen Sie **Bearbeiten** in der Aktionsleiste aus.
+1. Klicks **MultiAssetChannel** Klicken Sie auf **Bearbeiten** in der Aktionsleiste aus.
 
    ![screen_shot_2018-12-21at70313am](assets/screen_shot_2018-12-21at70313am.png)
 
-1. Wählen Sie mehrere Assets aus dem Editor aus und wählen Sie dann **Aktivierung bearbeiten** (Symbol oben links).
+1. Klicken Sie im Editor auf mehrere Assets und dann auf **Aktivierung bearbeiten** (Symbol oben links).
 
    ![screen_shot_2018-12-21at70550am](assets/screen_shot_2018-12-21at70550am.png)
 
-1. Wählen Sie Datum und Uhrzeit in **Aktiv ab** und **Aktiv bis** im Dialogfeld **Komponentenaktivierung** aus. Wählen Sie das Häkchen-Symbol aus, wenn Sie die Zeitpläne ausgewählt haben.
+1. Klicken Sie auf Datum und Uhrzeit in **Aktiv ab** und **Aktiv bis** aus dem **Komponentenaktivierung** Dialogfeld. Klicken Sie auf das Häkchen, nachdem Sie die Zeitpläne ausgewählt haben.
 
    ![screen_shot_2018-12-17at20337pm](assets/screen_shot_2018-12-17at20337pm.png)
 
-1. Wählen Sie &quot;Aktualisieren&quot;, um die Assets zu überprüfen, auf die der Multi-Asset-Zeitplan angewendet wird.
+1. Klicken Sie auf „Aktualisieren“, um die Assets zu überprüfen, auf die der Multi-Asset-Plan angewendet wird.
 
    >[!NOTE]
    >
@@ -232,12 +232,12 @@ Damit kann der Inhaltsautor festlegen, dass die Wiedergabe eines bestimmten Asse
 
 Die globale Überschreibung der universellen Startzeit erfolgt durch Konfiguration der Registerkarte **Aktivierung**, während auf die Eigenschaften eines Assets zugegriffen wird. Um eine globale Überschreibung für die Asset-Planung durchzuführen, gehen Sie wie folgt vor:
 
-1. Wählen Sie einen beliebigen Kanal aus und klicken Sie dann auf **Bearbeiten** über die Aktionsleiste aus, damit Sie Inhalte in Ihrem Kanal hinzufügen oder bearbeiten können.
+1. Klicken Sie auf einen beliebigen Kanal und dann auf **Bearbeiten** über die Aktionsleiste aus, damit Sie Inhalte in Ihrem Kanal hinzufügen oder bearbeiten können.
 
    ![screen_shot_2018-04-23at111422am](/help/user-guide/assets/asset-activation/asset-level1.png)
 
-1. Wählen Sie **Bearbeiten** aus.
-1. Wählen Sie im Kanaleditor ein Asset aus, dessen Zeitplan Sie darauf anwenden möchten.
+1. Klicken Sie auf **Bearbeiten**.
+1. Klicken Sie im Kanaleditor auf ein Asset, dessen Zeitplan Sie darauf anwenden möchten.
 
    ![screen_shot_2018-12-21at70550am](/help/user-guide/assets/asset-activation/Asset-level4.png)
 

@@ -5,10 +5,10 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '2118'
-ht-degree: 57%
+ht-degree: 55%
 
 ---
 
@@ -45,7 +45,7 @@ Ein ***Online-Kanal*** zeigt den aktualisierten Inhalt in der Echtzeit-Umgebung 
 
 ### 2. Wie schalte ich einen Kanal online? {#how-do-i-make-a-channel-online}
 
-Wählen Sie den Kanal aus und navigieren Sie in der Aktionsleiste zu den Kanaleigenschaften. Aktivieren Sie **Entwicklermodus (Kanal zwingen, online zu sein)** auf der Registerkarte **Kanal**, um den Kanal online zu schalten.
+Klicken Sie auf den Kanal und navigieren Sie in der Aktionsleiste zu den Kanaleigenschaften. Aktivieren Sie **Entwicklermodus (Kanal zwingen, online zu sein)** auf der Registerkarte **Kanal**, um den Kanal online zu schalten.
 
 ### 3. Was ermöglicht das Feld „Kanalrolle“? {#what-is-the-use-of-the-channel-role-field}
 
@@ -70,9 +70,9 @@ Bei Verwendung eines erstellten benutzerdefinierten clientseitigen Codes `client
 
 Gehen Sie im Kanaleditor wie folgt vor:
 
-1. Wählen Sie einen Kanal aus und wählen Sie dann **Bearbeiten** in der Aktionsleiste aus.
-1. Wählen Sie die Komponente aus, der Sie die benutzerdefinierte `clientlib` hinzufügen wollen.
-1. Wählen Sie die Schaltfläche &quot;Konfigurieren&quot;(Schraubenschlüsselsymbol).
+1. Klicken Sie auf einen Kanal und dann auf **Bearbeiten** in der Aktionsleiste aus.
+1. Klicken Sie auf die Komponente, der Sie die benutzerdefinierte `clientlib`.
+1. Klicken Sie auf die Schaltfläche &quot;Konfigurieren&quot;(Schraubenschlüsselsymbol).
 1. Gehen Sie zur Registerkarte **Offline-Konfiguration** und fügen Sie den Pfad zu Ihrer benutzerdefinierten clientlib unter **Client-seitige Bibliotheken** hinzu.
 
 ## Geräteregistrierung {#device-registration}
@@ -109,7 +109,7 @@ Aktivieren Sie den Apache Sling Referrer-Filter &quot;Allow Empty&quot;. Dies is
 
 1. Navigieren Sie zur **Konfiguration der Adobe Experience Manager-Web-Konsole**.
 1. Aktivieren Sie die Option **allow.empty**.
-1. Wählen Sie **Speichern** aus.
+1. Klicken Sie auf **Speichern**.
 
 ### 3. Wie lässt sich ein Problem beheben, wenn beim Registrieren eines AEM Screens-Players auf dem Gerät „FAILURE“ und in den Protokollen der Konsole der Fehler „ENAME_NOT_FOUND“ angezeigt wird?
 
@@ -133,14 +133,14 @@ Weitere Informationen darüber, wo Sie Geräteaktivität überwachen können, fi
 
 Im Entwicklermodus kann der Chrome OS-Player als Chrome-Browser-Plug-in installiert werden, ohne dass ein echtes Chrome-Player-Gerät erforderlich ist. Gehen Sie zur Installation wie folgt vor:
 
-1. Auswählen [here](https://download.macromedia.com/screens/) , um den neuesten Chrome-Player herunterzuladen.
+1. Klicken Sie [hier](https://download.macromedia.com/screens/), um den neuesten Chrome-Player herunterzuladen.
 1. Entpacken Sie die Datei und speichern Sie sie auf der Festplatte.
-1. Öffnen Sie den Chrome-Browser und wählen Sie im Menü die Option **Erweiterungen** oder navigieren Sie direkt zu ***chrome://extensions***.
+1. Öffnen Sie den Chrome-Browser und klicken Sie auf **Erweiterungen** aus dem Menü oder direkt zu ***chrome://extensions***.
 1. Schalten Sie die **Entwicklermodus** oben rechts.
-1. Auswählen **Entpacktes Laden** oben links und laden Sie den entpackten Chrome-Player.
+1. Klicks **Entpacktes Laden** oben links und laden Sie den entpackten Chrome-Player.
 1. Wenn in der Liste der Erweiterungen verfügbar, überprüfen Sie **AEM Screens Chrome-Player** Plug-in.
-1. Öffnen Sie eine neue Registerkarte und wählen Sie die **Apps** Symbol oben links oder navigieren Sie direkt zu ***chrome://apps***.
-1. Wählen Sie die **AEM Screens** Plug-in. Standardmäßig wird der Player im Vollbildmodus gestartet. Presse **Esc** , um den Vollbildmodus zu beenden.
+1. Öffnen Sie eine neue Registerkarte und klicken Sie auf **Apps** Symbol oben links oder navigieren Sie direkt zu ***chrome://apps***.
+1. Klicken Sie auf **AEM Screens** Plug-in. Standardmäßig wird der Player im Vollbildmodus gestartet. Presse **Esc** , um den Vollbildmodus zu beenden.
 
 ### 2. Wie kann eine Fehlerbehebung durchgeführt werden, wenn der Screens-Player nicht über die Veröffentlichungsinstanz mit dem benutzerdefinierten Fehler-Handler authentifiziert werden kann?
 
@@ -203,7 +203,7 @@ Deaktivieren Sie Livefyre, um Protokollfehler zu vermeiden, indem Sie Folgendes 
 
    * Navigieren Sie zu `https://<host>:<port>/system/console/bundles`.
    * Suchen Sie nach dem AEM Livefyre-Bundle: `com.adobe.cq.social.cq-social-livefyre`.
-   * Auswählen **Anhalten**.
+   * Klicks **Anhalten**.
 
 1. ***Livefyre-Poller deaktivieren:***
 

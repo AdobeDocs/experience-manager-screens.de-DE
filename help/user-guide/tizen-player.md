@@ -5,10 +5,10 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1208'
-ht-degree: 52%
+ht-degree: 53%
 
 ---
 
@@ -47,7 +47,7 @@ Sie können Ihrem Tizen-Player einen benutzerfreundlichen Gerätenamen zuweisen 
 
 Gehen Sie wie folgt vor, um den Namen im Tizen-Player zu konfigurieren:
 
-1. Wählen Sie die Menüschaltfläche auf Ihrer Fernbedienung aus.
+1. Drücken Sie die Menü-Taste Ihrer Fernbedienung.
 1. Navigieren Sie zu **network** > **Gerätename** damit Sie dem Player einen Namen zuweisen können.
 
 ### Konfigurieren von Aktualisierungen auf dem Samsung-Gerät {#config-updates}
@@ -55,11 +55,11 @@ Gehen Sie wie folgt vor, um den Namen im Tizen-Player zu konfigurieren:
 Führen Sie die folgenden Schritte auf dem Samsung-Gerät aus, damit Sie die Installation des AEM Screens-Players auf dem Gerät durchführen können:
 
 1. Navigieren Sie zu Ihrem Samsung-Gerät und schalten Sie es ein.
-1. Wählen Sie die **MENU** von der Fernbedienung des Geräts aus und scrollen Sie nach unten zu **System** über die linke Navigationsleiste.
-1. Blättern Sie nach unten und wählen Sie die Option **Wiedergabe über** aus und ändern Sie sie in **URL-Starter**.
+1. Drücken Sie auf der Fernbedienung des Geräts die Taste **MENU** und blättern Sie in der linken Navigationsleiste nach unten zu **System**.
+1. Scrollen Sie nach unten und klicken Sie auf **Wiedergabe über** und ändern Sie sie in **URL-Starter** -Option.
    ![Bild](/help/user-guide/assets/tizen/rms-2.png)
 1. Wenn der URL-Starter festgelegt ist, drücken Sie die **Startseite** -Schaltfläche von Ihrem Remote-Standort aus.
-1. Navigieren Sie zum **URL-Starter-Einstellungen** und geben Sie die IP-Adresse Ihres localhost-Servers ein und wählen Sie **Fertig**.
+1. Navigieren Sie zu den **URL-Starter-Einstellungen**, geben Sie die IP-Adresse des localhost-Servers ein und wählen Sie **Fertig**.
 
    >[!NOTE]
    >Der Tizen-Player sollte eine Verbindung zum HTTP-Server herstellen können.
@@ -145,29 +145,29 @@ Führen Sie die folgenden Schritte aus, um das Tizen-Gerät beim Samsung Remote 
 
 1. Navigieren Sie zur Server-Adresse, geben Sie den MagicInfo-URL-Zugriff ein und wählen Sie **Fertig**.
 
-1. Richten Sie bei Bedarf TLS ein. Navigieren Sie zum Port, wählen Sie die Portnummer vom Server aus und wählen Sie **Speichern**.
+1. Richten Sie bei Bedarf TLS ein. Navigieren Sie zum Port, klicken Sie auf die Portnummer vom Server und klicken Sie auf **Speichern**.
 
-1. Navigieren Sie zum **Gerät** und suchen Sie nach dem konfigurierten Gerät. Wenn ein Gerät gefunden wird, aktivieren Sie das Kontrollkästchen und wählen Sie **Genehmigen**.
+1. Navigieren Sie zum **Gerät** und suchen Sie nach dem konfigurierten Gerät. Wenn ein Gerät gefunden wird, klicken Sie auf das Kontrollkästchen und dann auf **Genehmigen**.
 
    >![Bild](/help/user-guide/assets/tizen/rms-3.png)
 
-1. Füllen Sie die erforderlichen Informationen aus und wählen Sie eine Gerätegruppe aus. Wählen Sie **OK** aus.
+1. Füllen Sie die erforderlichen Informationen aus und klicken Sie auf eine Gerätegruppe. Klicken Sie auf **OK**.
 
    >![Bild](/help/user-guide/assets/tizen/rms-7.png)
 
-1. Wenn das Gerät genehmigt wurde, wird es in der Geräteliste angezeigt. Auswählen *Informationen* auf Ihrem Gerät, wie im Folgenden gezeigt.
+1. Wenn das Gerät genehmigt wurde, wird es in der Geräteliste angezeigt. Klicks *Informationen* auf Ihrem Gerät, wie im Folgenden gezeigt.
 
    >![Bild](/help/user-guide/assets/tizen/rms-6.png)
 
-1. Das Dialogfeld „Geräteinformationen“ wird angezeigt. Wählen Sie die **Geräteinformationen** Registerkarte und wählen Sie **Bearbeiten**.
+1. Das Dialogfeld „Geräteinformationen“ wird angezeigt. Klicken Sie auf **Geräteinformationen** Registerkarte und klicken Sie auf **Bearbeiten**.
 
    >![Bild](/help/user-guide/assets/tizen/rms-5.png)
 
-1. Bearbeiten Sie die Geräteoptionen und wählen Sie die Registerkarte **Einrichtung** aus. Navigieren Sie zu **URL-Starter** und geben Sie die URL ein, über die WGT gehostet wird, und `SSSP config file` damit Sie eine `SSSP` wie in der folgenden Abbildung dargestellt.
+1. Bearbeiten Sie die Geräteoptionen und klicken Sie auf die Schaltfläche **Einrichtung** Registerkarte. Navigieren Sie zu **URL-Starter** und geben Sie die URL ein, über die WGT gehostet wird, und `SSSP config file` damit Sie eine `SSSP` wie in der folgenden Abbildung dargestellt.
 
-   ![Bild](/help/user-guide/assets/tizen/rms-9.png)
+   ![image](/help/user-guide/assets/tizen/rms-9.png)
 
-1. Wählen Sie **Speichern** aus.
+1. Klicken Sie auf **Speichern**.
 
 ### Verwenden der Fernbedienungs-Steuerung von Screens {#using-remote-control}
 

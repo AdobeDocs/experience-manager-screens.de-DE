@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Screens-Replikationsagenten konfigurieren.
 role: Developer
 level: Intermediate
 exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '462'
-ht-degree: 32%
+ht-degree: 35%
 
 ---
 
@@ -36,17 +36,17 @@ Gehen Sie wie folgt vor, um Benutzer zu aktivieren und das Kennwort für `screen
 
 1. Navigieren Sie zu Ihrer AEM-Autoreninstanz.
 
-1. Tools auswählen > **Sicherheit** > **Benutzer**.
+1. Klicken Sie auf Tools > **Sicherheit** > **Benutzer**.
 
    ![Bild](/help/user-guide/assets/screens-replication/screens-replication1.png)
 
 1. Suchen Sie nach **`screens-receiver-user`**.
 
-1. Wählen Sie die **`screens-receiver-user`** und wählen **Aktivieren** in der Aktionsleiste aus.
+1. Klicken Sie auf **`screens-receiver-user`** und klicken **Aktivieren** in der Aktionsleiste aus.
 
    ![Bild](/help/user-guide/assets/screens-replication/screens-replication2.png)
 
-1. Auswählen **OK** zur Bestätigung.
+1. Klicken Sie zur Bestätigung auf **OK**.
 
    ![Bild](/help/user-guide/assets/screens-replication/screens-replication3.png)
 
@@ -54,15 +54,15 @@ Gehen Sie wie folgt vor, um Benutzer zu aktivieren und das Kennwort für `screen
 
    ![Bild](/help/user-guide/assets/screens-replication/screens-replication4.png)
 
-1. Wählen Sie die **`screens-receiver-user`** und wählen **Eigenschaften** in der Aktionsleiste aus.
+1. Klicken Sie auf **`screens-receiver-user`** und klicken **Eigenschaften** in der Aktionsleiste aus.
 
    ![Bild](/help/user-guide/assets/screens-replication/screens-replication5.png)
 
-1. Auswählen **Kennwort ändern** under **Kontoeinstellungen** aus dem **Details** wie in der folgenden Abbildung dargestellt.
+1. Klicks **Kennwort ändern** under **Kontoeinstellungen** aus dem **Details** wie in der folgenden Abbildung dargestellt.
 
    ![Bild](/help/user-guide/assets/screens-replication/screens-replication6.png)
 
-1. Geben Sie im **Kennwort ändern** und wählen Sie **Speichern**.
+1. Geben Sie im **Kennwort ändern** und klicken Sie auf **Speichern**.
 
    >[!NOTE]
    >Geben Sie das vorhandene Administratorkennwort in **Ihr Passwort** -Feld.
@@ -71,22 +71,22 @@ Gehen Sie wie folgt vor, um Benutzer zu aktivieren und das Kennwort für `screen
 
 1. Klicken Sie auf **Speichern und schließen**.
 
-1. Wählen Sie die **`screens-receiver-user`** und wählen **Aktivieren** in der Aktionsleiste aus.
+1. Klicken Sie auf **`screens-receiver-user`** und klicken **Aktivieren** in der Aktionsleiste aus.
 
    ![Bild](/help/user-guide/assets/screens-replication/screens-replication8.png)
 
-1. Auswählen **OK** zur Bestätigung.
+1. Klicken Sie zur Bestätigung auf **OK**.
 
    ![Bild](/help/user-guide/assets/screens-replication/screens-replication9.png)
 
-1. Wählen Sie die **`screens-receiver-user`** und wählen **Deaktivieren** in der Aktionsleiste aus.
+1. Klicken Sie auf **`screens-receiver-user`** und klicken **Deaktivieren** in der Aktionsleiste aus.
 
    >[!IMPORTANT]
-   > Deaktivieren **`screens-receiver-user`** Deaktiviert nur diesen Benutzer aus der Authoring-Instanz und alle Benutzer in der Veröffentlichungsinstanz bleiben aktiv. Nicht auswählen **Deaktivieren** über die Aktionsleiste aus, da die Deaktivierung den Benutzer auch aus den Veröffentlichungsinstanzen entfernt.
+   > Deaktivieren **`screens-receiver-user`** Deaktiviert nur diesen Benutzer aus der Authoring-Instanz und alle Benutzer in der Veröffentlichungsinstanz bleiben aktiv. Nicht klicken **Deaktivieren** über die Aktionsleiste aus, da die Deaktivierung den Benutzer auch aus den Veröffentlichungsinstanzen entfernt.
 
    ![Bild](/help/user-guide/assets/screens-replication/screens-replication10.png)
 
-1. Auswählen **OK** zur Bestätigung.
+1. Klicken Sie zur Bestätigung auf **OK**.
 
 ## Aktualisieren der Einstellungen für den Screens-Replikationsagenten {#replicate-agent}
 
@@ -96,22 +96,22 @@ Gehen Sie wie folgt vor, um die Einstellungen im AEM Screens-Replikationsagenten
 >Führen Sie die folgenden Schritte für ALLE vorhandenen AEM Screens-Replikationsagenten aus.
 
 1. Navigieren Sie zu Ihrer AEM-Instanz.
-1. Tools auswählen > **Implementierung** > **Replikation**.
+1. Klicken Sie auf Tools > **Implementierung** > **Replikation**.
 
    ![Bild](/help/user-guide/assets/screens-replication/screens-replication1a.png)
 
-1. Auswählen **Agenten für Autor**.
+1. Klicks **Agenten für Autor**.
 
    ![Bild](/help/user-guide/assets/screens-replication/screens-replication1b.png)
 
-1. Suchen Sie nach allen AEM Screens-Replikationsagenten auf der Autoreninstanz und wählen Sie den Link aus, wie in der folgenden Abbildung dargestellt.
+1. Suchen Sie nach allen AEM Screens-Replikationsagenten auf der Autoreninstanz und klicken Sie auf den Link, wie in der folgenden Abbildung dargestellt.
 
    >[!NOTE]
    >Suchen Sie nach allen AEM Screens-Replikationsagenten. Der Name des Screens-Replikationsagenten enthält den Brief **S** im Titel.
 
    ![Bild](/help/user-guide/assets/screens-replication/screens-replication1c.png)
 
-1. Wählen Sie **Bearbeiten** aus.
+1. Klicken Sie auf **Bearbeiten**.
 
    ![Bild](/help/user-guide/assets/screens-replication/screens-replication1d.png)
 
@@ -123,9 +123,9 @@ Gehen Sie wie folgt vor, um die Einstellungen im AEM Screens-Replikationsagenten
 
    ![Bild](/help/user-guide/assets/screens-replication/screens-replication1-f.png)
 
-1. Wählen Sie **OK** aus.
+1. Klicken Sie auf **OK**.
 
-1. Nachdem Sie die vorherigen Schritte ausgeführt haben, wählen Sie **Verbindung testen** , um die Verbindung zu überprüfen.
+1. Nachdem Sie die vorherigen Schritte ausgeführt haben, klicken Sie auf **Verbindung testen** , um die Verbindung zu überprüfen.
 
    ![Bild](/help/user-guide/assets/screens-replication/screens-replication1g.png)
 

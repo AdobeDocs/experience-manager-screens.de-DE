@@ -5,10 +5,10 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1448'
-ht-degree: 34%
+ht-degree: 35%
 
 ---
 
@@ -44,7 +44,7 @@ Gehen Sie wie folgt vor, um ein Projekt und einen Kanal einzurichten:
 
 1. Erstellen Sie einen Sequenzkanal mit dem Namen **Cafeteria** im Ordner **Kanäle**.
 
-1. Wählen Sie den Kanal aus und klicken Sie auf **Bearbeiten** in der Aktionsleiste aus.
+1. Klicken Sie auf den Kanal und dann auf **Bearbeiten** in der Aktionsleiste aus.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp2.png)
 
@@ -62,13 +62,13 @@ Wenn die Projekteinrichtung abgeschlossen ist, weisen Sie den Kanal einer Anzeig
 
 1. Navigieren Sie zur gewünschten Anzeige, beispielsweise **DemoScreens** > **Standorte** > **SanJose** > **Lobby**.
 
-1. Auswählen **Kanal zuweisen** in der Aktionsleiste aus.
+1. Klicken Sie in der Aktionsleiste auf **Kanal zuweisen**.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    Oder
 
-   Auswählen **Dashboard** Wählen Sie in der Aktionsleiste die Option **+Kanal zuweisen** aus dem **ZUGEWIESENE KANÄLE UND ZEITPLÄNE** Bedienfeld.
+   Klicks **Dashboard** Klicken Sie in der Aktionsleiste auf **+Kanal zuweisen** aus dem **ZUGEWIESENE KANÄLE UND ZEITPLÄNE** Bedienfeld.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
@@ -84,14 +84,14 @@ Wenn die Projekteinrichtung abgeschlossen ist, weisen Sie den Kanal einer Anzeig
    >
    >Weitere Informationen zu den Kanalzuweisungseigenschaften finden Sie unter [Kanaleigenschaften](#channel-properties) Abschnitt.
 
-1. Aus dem **Zeitplan** auswählen, wählen Sie die **Aktivierungsfenster** und **Wiederholungsplan**.
+1. Aus dem **Zeitplan** und klicken Sie auf die **Aktivierungsfenster** und **Wiederholungsplan**.
    ![Bild](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >
    >Weitere Informationen zu den Kanalzuweisungseigenschaften finden Sie unter [Kanaleigenschaften](#channel-properties) Abschnitt.
 
-1. Auswählen **Speichern** nach der Konfiguration Ihrer Voreinstellungen.
+1. Klicken Sie auf **Speichern**, nachdem Sie Ihre Voreinstellungen konfiguriert haben.
 
 ### Anzeigen von Inhalten im Chrome-Player {#viewing-content-output}
 
@@ -111,11 +111,11 @@ Führen Sie die folgenden Schritte aus, um zur Timeline-Ansicht zu navigieren:
 
 1. Navigieren Sie zur gewünschten Anzeige, beispielsweise **DemoScreens** > **Standorte** > **SanJose** > **Lobby**.
 
-1. Auswählen **Kanal zuweisen** in der Aktionsleiste aus.
+1. Klicken Sie in der Aktionsleiste auf **Kanal zuweisen**.
 
    Oder
 
-   Auswählen **Dashboard** und wählen **Timeline** aus dem **ZUGEWIESENE KANÄLE UND ZEITPLÄNE** Bedienfeld.
+   Klicks **Dashboard** und klicken **Timeline** aus dem **ZUGEWIESENE KANÄLE UND ZEITPLÄNE** Bedienfeld.
 
    ![Bild](/help/user-guide/assets/channel-assignment/timeline-1.png)
 
@@ -181,7 +181,7 @@ Im Aktivierungsfenster können Sie eine **Startdatum** und **Enddatum** , um Ihr
 
 ### Intervallzeitplan {#recurrence-schedule}
 
-Mit dem Intervallzeitplan können Sie einen Zeitplan für Ihren Inhalt festlegen. Auswählen **+ Zeitplan hinzufügen** , um Ihrem Kanal einen Intervallzeitplan hinzuzufügen.
+Mit dem Intervallzeitplan können Sie einen Zeitplan für Ihren Inhalt festlegen. Klicks **+ Zeitplan hinzufügen** , um Ihrem Kanal einen Intervallzeitplan hinzuzufügen.
 
 >[!NOTE]
 >Sie können Ihrem Kanal mehrere Intervallzeitpläne hinzufügen.

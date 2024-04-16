@@ -10,10 +10,10 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1556'
-ht-degree: 27%
+ht-degree: 31%
 
 ---
 
@@ -101,29 +101,29 @@ Gehen Sie gemäß nachstehendem Abschnitt vor, um Screens Launch-Funktionen in I
 
    ![Bild](/help/user-guide/assets/launches-images/launches-11.png)
 
-1. Kanal auswählen **FutureLaunch** und wählen **Launch erstellen** in der Aktionsleiste aus.
+1. Klicken Sie auf den Kanal **FutureLaunch** und klicken **Launch erstellen** in der Aktionsleiste aus.
 
    ![Bild](/help/user-guide/assets/launches-images/launches-12.png)
 
-1. Der Assistent **Launch erstellen** wird geöffnet. Sie können entweder den Kanal auswählen, der bereits im Assistenten angezeigt wird, oder auswählen **+ Kanäle hinzufügen** , um den Kanal hinzuzufügen, für den Sie den Launch erstellen möchten.
+1. Der Assistent **Launch erstellen** wird geöffnet. Sie können entweder auf den Kanal klicken, der bereits im Assistenten angezeigt wird, oder auf **+ Kanäle hinzufügen** , um den Kanal hinzuzufügen, für den Sie den Launch erstellen möchten.
 
-1. Auswählen **Nächste** aus dem **Launch erstellen** Assistent. Die Option **Unterseiten einschließen** ist standardmäßig ausgewählt.
+1. Klicken Sie im Assistenten **Launch erstellen** auf **Weiter**. Die Option **Unterseiten einschließen** ist standardmäßig ausgewählt.
 
    ![Bild](/help/user-guide/assets/launches-images/launches-d.png)
 
    >[!NOTE]
    >Sie können **+ Kanäle hinzufügen** -Option, um einen weiteren Kanal hinzuzufügen, für den Sie den Launch erstellen möchten.
 
-   Verwendung **Kanäle hinzufügen** -Option, navigieren Sie zu dem Kanal, für den Sie den Launch erstellen möchten, und wählen Sie **Auswählen**.
+   Um die Option **Kanäle hinzufügen** zu verwenden, navigieren Sie zu dem Kanal, für den Sie den Launch erstellen möchten, und klicken Sie auf **Auswählen**.
 
-   Die **Auswählen** ist deaktiviert, wenn Sie versuchen, mehrere Kanäle oder einen Ordner zum Hinzufügen des Launches auszuwählen.
+   Die **Auswählen** ist deaktiviert, wenn Sie versuchen, auf mehrere Kanäle oder einen Ordner zum Hinzufügen des Launches zu klicken.
 
    ![Bild](/help/user-guide/assets/launches-images/launches-14.png)
 
-   Nachdem Sie den Kanal/die Kanäle ausgewählt haben, wählen Sie **Nächste**.
+   Klicken Sie nach dem Klicken auf den Kanal/die Kanäle auf **Nächste**.
 
 
-1. Geben Sie unter **Launch-Titel** den Wert **SummerPromotions** ein. Sie müssen für **Launch-Datum** keinen Wert festlegen, wie in der folgenden Abbildung dargestellt. Wählen Sie **Erstellen** aus.
+1. Geben Sie unter **Launch-Titel** den Wert **SummerPromotions** ein. Sie müssen für **Launch-Datum** keinen Wert festlegen, wie in der folgenden Abbildung dargestellt. Klicken Sie auf **Erstellen**.
 
    >[!NOTE]
    >
@@ -148,7 +148,7 @@ Gehen Sie gemäß nachstehendem Abschnitt vor, um Screens Launch-Funktionen in I
      >
      >Beim Live-Datum des Launches wird die Zeitzone des Players/Geräts und nicht die des Servers berücksichtigt.
 
-1. Beachten Sie, dass Ihr Launch erstellt wurde. Sie können entweder **Öffnen** , um die Seiten im Editor anzuzeigen, oder wählen Sie **Fertig** , um zu Ihrem Projekt zurückzukehren.
+1. Beachten Sie, dass Ihr Launch erstellt wurde. Sie können entweder auf **Öffnen** klicken, um die Seiten im Editor anzuzeigen, oder auf **Fertig**, um zu Ihrem Projekt zurückzukehren.
 
    ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
 
@@ -167,15 +167,15 @@ Nachdem der Launch erstellt wurde, können Sie die Eigenschaften wie Live-Datum,
 
 Gehen Sie wie folgt vor, um die Eigenschaften für den Launch zu bearbeiten:
 
-1. Navigieren zum Kanal **FutureLaunch** *(der ausstehende Start)* und wählen Sie den Kanal aus, wie in der Abbildung unten dargestellt.
+1. Navigieren zum Kanal **FutureLaunch** *(der ausstehende Start)* und klicken Sie auf den Kanal, wie in der folgenden Abbildung dargestellt.
 
    ![Bild](/help/user-guide/assets/launches-images/launches-17.png)
 
-1. Auswählen **Dashboard** in der Aktionsleiste angezeigt wird. **AUSSTEHENDE LAUNCHES** im Kanal-Dashboard aus.
+1. Klicks **Dashboard** in der Aktionsleiste angezeigt wird. **AUSSTEHENDE LAUNCHES** im Kanal-Dashboard aus.
 
    ![Bild](/help/user-guide/assets/launches-images/launches-18.png)
 
-1. Wählen Sie den Launch aus und wählen Sie **Launch-Eigenschaften** aus dem **AUSSTEHENDE LAUNCHES** Bedienfeld.
+1. Klicken Sie auf den Launch und dann auf **Launch-Eigenschaften** aus dem **AUSSTEHENDE LAUNCHES** Bedienfeld.
 
    ![Bild](/help/user-guide/assets/launches-images/launches-19.png)
 
@@ -183,7 +183,7 @@ Gehen Sie wie folgt vor, um die Eigenschaften für den Launch zu bearbeiten:
 
 Nachdem Sie den Launch erstellt haben, können Sie Kanäle zum Launch hinzufügen, bzw. daraus entfernen, indem Sie die Option **Launch bearbeiten** verwenden.
 
-Wenn Sie fertig sind, wählen Sie **Speichern** zurück zu navigieren **FutureLaunch** -Kanal.
+Klicken Sie abschließend auf **Speichern** zurück zu navigieren **FutureLaunch** -Kanal.
 
 ### Manuelles Bewerben des Screens Launch{#promote-the-screens-launch-manually}
 
@@ -199,8 +199,8 @@ Sie können die Ressourcen, die Sie im Rahmen dieser manuellen Promotion bewerbe
    * **Geänderte Seiten bewerben** - Es werden nur geänderte Launch-Ressourcen beworben. Verwenden Sie diese Option, wenn keine Überprüfung des Launches erforderlich ist.
    * **Genehmigte Seiten bewerben** - Für diese Option muss der Arbeitsablauf für die Launch-Genehmigung auf den Launch-Kanälen ausgeführt werden. Am festgelegten Live-Datum werden nur genehmigte Seiten beworben.
    * **Aktuelle Seite bewerben** - Für diese Option muss der Arbeitsablauf für die Launch-Genehmigung nur für die aktuelle Seite ausgeführt werden.
-1. Auswählen **Nächste** im **Launch bewerben** Assistent.
-1. Auswählen **Bewerben** um den Launch zu bewerben.
+1. Klicken Sie im Assistenten **Launch bewerben** auf **Weiter**.
+1. Klicken Sie auf **Bewerben**, um den Launch zu bewerben.
 
 ### Löschen eines Screens Launch
 

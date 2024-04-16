@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die AEM Screens-Player und ihre jeweilige A
 page-status-flag: de-activated
 contentOwner: jsyal
 docset: aem65
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '301'
-ht-degree: 79%
+ht-degree: 81%
 
 ---
 
@@ -45,7 +45,7 @@ Im folgenden Abschnitt sind die Player für Adobe Experience Manager (AEM) Scree
 
 ### Download-Link {#download-link}
 
-Wählen Sie den Downloadlink für iOS Player aus:
+Klicken Sie auf den Download-Link für den iOS-Player:
 
 aem-screens-player-ios-3.3.0.ipa.zip
 
@@ -76,7 +76,7 @@ aem-screens-player-ios-3.3.0.ipa.zip
 
 ### Download-Link {#download-link-1}
 
-Wählen Sie den Downloadlink für Windows 10 Player aus:
+Klicken Sie auf den Downloadlink für Windows 10 Player:
 
 aem-screens-player-windows-1.0.48-signed.exe.zip
 
@@ -92,7 +92,7 @@ aem-screens-player-windows-1.0.48-signed.exe.zip
 
 ### Download-Link {#download-link-2}
 
-Wählen Sie den Downloadlink für Android™ Player aus:
+Klicken Sie auf Downloadlink für Android™ Player:
 
 aem-screens-player-android-3.3.0.apk.zip
 

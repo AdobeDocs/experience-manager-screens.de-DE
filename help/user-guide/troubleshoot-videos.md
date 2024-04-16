@@ -9,10 +9,10 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '798'
-ht-degree: 34%
+ht-degree: 35%
 
 ---
 
@@ -29,7 +29,7 @@ Nachdem Sie das Video in den Kanal hochgeladen haben, sollten AEM damit beginnen
 So zeigen Sie das Video an:
 
 1. Navigieren Sie zu Ihrem Video, beispielsweise `http://localhost:4502/assets.html/content/dam/we-retail/en/videos`.
-1. Wählen Sie das Video aus, erweitern Sie das Menü oben links und wählen Sie **Ausgabeformate**.
+1. Klicken Sie auf das Video, erweitern Sie das Menü oben links und klicken Sie auf **Ausgabeformate**.
 
 Es sollte verschiedene Ausgabedarstellungen geben (eine MP4- oder M4V-Datei).
 
@@ -39,7 +39,7 @@ Wenn keine Ausgabe verfügbar ist, überprüfen Sie, ob ffmpeg im Betriebssystem
 >
 >Wenn keine Ausgabe verfügbar ist, überprüfen Sie, ob ffmpeg im Betriebssystem installiert ist, unter dem AEM ausgeführt wird.
 >
->Auswählen [here](https://www.ffmpeg.org/download.html) um ffmpeg zu installieren.
+>Klicken Sie [hier](https://www.ffmpeg.org/download.html), um ffmpeg zu installieren.
 
 ## Video-Assets {#video-assets}
 
@@ -51,11 +51,11 @@ Vergewissern Sie sich, dass ffmpeg installiert ist, und prüfen Sie die Videopro
 
 ### Prüfen des Videoprofils {#checking-video-profile}
 
-1. Navigieren Sie zum **Videoprofil**, d. h. `http://localhost:4502/etc/dam/video.html` und wählen **Hochladen des Testvideos**.
+1. Navigieren Sie zum **Videoprofil**, d. h. `http://localhost:4502/etc/dam/video.html`, und klicken Sie auf **Test-Video hochladen**.
 
    ![chlimage_1-3](assets/chlimage_1-3.png)
 
-1. Laden Sie ein Testvideo hoch und wählen Sie **Ok** damit Sie mit der Transkodierung beginnen können.
+1. Laden Sie ein Testvideo hoch und klicken Sie auf **Ok** damit Sie mit der Transkodierung beginnen können.
 
    Wenn das transkodierte Video fehlschlägt, erweitern Sie die ffmpeg-Ausgabe, um Fehler in der Konsolenausgabe von ffmpeg zu verstehen.
 
@@ -73,14 +73,14 @@ Vergewissern Sie sich, dass ffmpeg installiert ist, und prüfen Sie die Videopro
 
 Überprüfen Sie die Liste der Profile aus dem Seitenentwurf, wenn die Videokomponente nicht ordnungsgemäß konfiguriert ist.
 
-1. Navigieren Sie zu Ihrem Kanal und wählen Sie die **Design** -Modus.
+1. Navigieren Sie zu Ihrem Kanal und klicken Sie auf das **Design** -Modus.
 
    ![chlimage_1-6](assets/chlimage_1-6.png)
 
-1. Wählen Sie das Video aus und öffnen Sie das Dialogfeld **Bearbeiten**. Öffnen Sie die **Profile** Registerkarte.
+1. Klicken Sie auf das Video und öffnen Sie das **Bearbeiten** angezeigt. Öffnen Sie die **Profile** Registerkarte.
 
    >[!NOTE]
-   >Wählen Sie verschiedene Profile aus (mindestens sollte das Profil &quot;Hohe Qualität H.264&quot;vorhanden sein).
+   >Klicken Sie auf verschiedene Profile (mindestens sollte das Profil &quot;Hohe Qualität H.264&quot;vorhanden sein).
 
 ### Prüfen des Videos im Web-Player {#checking-the-video-in-the-web-player}
 
@@ -91,10 +91,10 @@ Wenn das Video nicht in Safari ausgeführt wird, wird es auch nicht in den OS X-
 Gehen Sie wie folgt vor, um einen DAM-Workflow zum Erstellen von FullHD-Wiedergaben zu verwenden:
 
 1. Navigieren Sie zum *Workflow-Modelladministrator* , `http://localhost:4502/libs/cq/workflow/admin/console/content/models.html/etc/workflow/models`.
-1. Wählen Sie die **Screens-Asset aktualisieren** -Modell.
-1. Auswählen **Workflow starten** in der Aktionsleiste aus.
-1. Aus dem **Workflow ausführen** Dialogfeld wählen Sie Ihr Video-Asset im **Nutzlast**.
-1. Auswählen **Ausführen**.
+1. Klicken Sie auf **Screens-Asset aktualisieren** -Modell.
+1. Klicks **Workflow starten** in der Aktionsleiste aus.
+1. Aus dem **Workflow ausführen** Klicken Sie im Dialogfeld auf Ihr Video-Asset im **Nutzlast**.
+1. Klicken Sie auf **Ausführen**.
 
 >[!NOTE]
 >
@@ -135,7 +135,7 @@ Die absolute Strategie:
 
 Gehen Sie wie folgt vor, um eine absolute Strategie einzurichten:
 
-1. Navigieren Sie zu Ihrem Kanalautor und wählen Sie die Sequenzkomponente aus, wie in der folgenden Abbildung dargestellt.
+1. Navigieren Sie zu Ihrem Kanalautor und klicken Sie auf die Sequenzkomponente , wie in der folgenden Abbildung dargestellt.
 1. Öffnen Sie das Konfigurations-Dialogfeld.
 1. Bearbeiten Sie die **Strategie** und fügen Sie „absolut“ hinzu.
 

@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 51%
+ht-degree: 54%
 
 ---
 
@@ -58,16 +58,16 @@ Gehen Sie wie folgt vor, um den Workflow zu erstellen und zu verwenden:
 Gehen Sie wie folgt vor, um einen Workflow für Ihr Video zu erstellen:
 
 1. Navigieren Sie zu Ihrer AEM-Instanz.
-1. Wählen Sie in der Seitenleiste Tools aus.
-1. Auswählen **Workflow** > **Modelle** sodass Sie ein Modell erstellen können.
+1. Klicken Sie in der Seitenleiste auf Tools .
+1. Klicks **Workflow** > **Modelle** sodass Sie ein Modell erstellen können.
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
-1. Auswählen **Modelle** > **Erstellen** > **Modell erstellen**. Geben Sie den **Titel** (als **VideoRendition**) und den **Namen** in **Workflow-Modell hinzufügen** ein. Auswählen **Fertig** , um das Workflow-Modell hinzuzufügen.
+1. Klicks **Modelle** > **Erstellen** > **Modell erstellen**. Geben Sie den **Titel** (als **VideoRendition**) und den **Namen** in **Workflow-Modell hinzufügen** ein. Klicken Sie auf **Fertig**, um das Workflow-Modell hinzuzufügen.
 
    ![screen_shot_2018-10-17at90747pm](assets/screen_shot_2018-10-17at90747pm.png)
 
-1. Nachdem Sie das Workflow-Modell erstellt haben, wählen Sie das Modell (**VideoRendition**) und wählen Sie **Bearbeiten** in der Aktionsleiste aus.
+1. Nachdem Sie das Workflow-Modell erstellt haben, klicken Sie auf das Modell (**VideoRendition**) und klicken Sie auf **Bearbeiten** in der Aktionsleiste aus.
 
    ![screen_shot_2018-10-17at91256pm](assets/screen_shot_2018-10-17at91256pm.png)
 
@@ -75,23 +75,23 @@ Gehen Sie wie folgt vor, um einen Workflow für Ihr Video zu erstellen:
 
    ![screen_shot_2018-10-22at14846pm](assets/screen_shot_2018-10-22at14846pm.png)
 
-1. Wählen Sie die **`Command Line`** und öffnen Sie das Dialogfeld &quot;Eigenschaften&quot;.
+1. Klicken Sie auf **`Command Line`** und öffnen Sie das Dialogfeld &quot;Eigenschaften&quot;.
 
    ![screen_shot_2018-10-17at95752pm](assets/screen_shot_2018-10-17at95752pm.png)
 
-1. Wählen Sie die **Argumente** Registerkarte.
+1. Klicken Sie auf die Registerkarte **Argumente.**
 1. Im **Befehlszeile - Schritteigenschaften** im Dialogfeld **MIME-Typen** (as ***video/mp4***) und der Befehl als (***/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920:height=1080:x=0:y=0:color=black&quot; cq5dam.video.fullhd-hp.mp4**). Mit diesem Befehl wird der Workflow im **Befehle** -Feld.
 
    Weitere Informationen finden Sie unter **MIME-Typen** und **Befehle** in der unten stehenden Anmerkung.
 
    ![screen_shot_2018-10-18at105300am](assets/screen_shot_2018-10-18at105300am.png)
 
-1. Wählen Sie den Workflow aus (**VideoRenditions**).
-1. Auswählen **Workflow starten** in der Aktionsleiste aus.
+1. Klicken Sie auf den Workflow (**VideoRenditions**).
+1. Klicks **Workflow starten** in der Aktionsleiste aus.
 
    ![screen_shot_2018-10-18at105335am](assets/screen_shot_2018-10-18at105335am.png)
 
-1. Im **Workflow ausführen** Wählen Sie im Dialogfeld den Pfad Ihres Assets im **Nutzlast** (as ***/content/dam/huseinpeyda-crossroads01_512kb 2.mp4***) und geben Sie die **Titel** as ***RunVideo*** und wählen **Ausführen**.
+1. Im **Workflow ausführen** Klicken Sie im Dialogfeld auf den Pfad Ihres Assets im **Nutzlast** (as ***/content/dam/huseinpeyda-crossroads01_512kb 2.mp4***) und geben Sie die **Titel** as ***RunVideo*** und klicken **Ausführen**.
 
    ![screen_shot_2018-10-18at112043am](assets/screen_shot_2018-10-18at112043am.png)
 
@@ -103,11 +103,11 @@ Gehen Sie wie folgt vor, um den Workflow in Ihrem AEM Screens-Projekt zu verwend
 
    ![screen_shot_2018-10-17at100715pm](assets/screen_shot_2018-10-17at100715pm.png)
 
-1. Auswählen **Bearbeiten** in der Aktionsleiste aus. Ziehen Sie das Video, das Sie ursprünglich in **Assets** hochgeladen haben, per Drag-and-Drop.
+1. Klicken Sie in der Aktionsleiste auf **Bearbeiten**. Ziehen Sie das Video, das Sie ursprünglich in **Assets** hochgeladen haben, per Drag-and-Drop.
 
    ![screen_shot_2018-10-17at102806pm](assets/screen_shot_2018-10-17at102806pm.png)
 
-1. Wenn Sie das Video hochgeladen haben, wählen Sie **Vorschau** , um die Ausgabe anzuzeigen.
+1. Klicken Sie nach dem Hochladen des Videos auf **Vorschau** , um die Ausgabe anzuzeigen.
 
    ![screen_shot_2018-10-22at15151pm](assets/screen_shot_2018-10-22at15151pm.png)
 

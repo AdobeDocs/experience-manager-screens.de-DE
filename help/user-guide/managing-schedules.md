@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 12%
+ht-degree: 7%
 
 ---
 
@@ -32,12 +32,12 @@ Sie können einen Zeitplan für Ihr Screens-Projekt erstellen, in dem alle Aktiv
 
 Gehen Sie wie folgt vor, um einen Zeitplan für Ihren Kanal zu erstellen:
 
-1. Wählen Sie den Adobe Experience Manager-Link (oben links) und dann Screens aus. Sie können auch direkt zu folgenden Themen wechseln: `http://localhost:4502/screens.html/content/screens`.
-1. Navigieren Sie zum Screens-Projekt und wählen Sie **Zeitpläne**.
-1. Auswählen **Erstellen** in der Aktionsleiste aus.
-1. Auswählen **Zeitplan** aus dem **Erstellen** Assistent und wählen Sie **Nächste**.
+1. Klicken Sie auf den Link Adobe Experience Manager (oben links) und dann auf Screens. Sie können auch direkt zu folgenden Themen wechseln: `http://localhost:4502/screens.html/content/screens`.
+1. Navigieren Sie zum Screens-Projekt und klicken Sie auf **Zeitpläne**.
+1. Klicken Sie in der Aktionsleiste auf **Erstellen**.
+1. Klicks **Zeitplan** aus dem **Erstellen** Assistent und klicken Sie auf **Nächste**.
 
-1. Geben Sie die **Name** und **Titel** und wählen **Erstellen**.
+1. Geben Sie die **Name** und **Titel** und klicken **Erstellen**.
 
 Sie können einen Ordner &quot;Zeitplan&quot;mit dem angegebenen Namen und Titel in Ihrem Projekt sehen.
 
@@ -52,14 +52,14 @@ Gehen Sie wie folgt vor, um das Zeitplan-Dashboard anzuzeigen. Das folgende Beis
 
    ![chlimage_1](assets/chlimage_1.png)
 
-1. Auswählen **Dashboard** in der Aktionsleiste aus.
+1. Klicks **Dashboard** in der Aktionsleiste aus.
 
    Sie können drei verschiedene Bereiche anzeigen, z. B. **PLANINFORMATIONEN**, **ZUGEWIESENE KANÄLE**, und **ZUGEWIESENE ANZEIGEN**.
 
    ![chlimage_1-1](assets/chlimage_1-1.png)
 
-   **Bereich &quot;Planinformationen&quot;** Wählen Sie oben rechts im Fenster ZEITPLANINFORMATIONEN die Option Eigenschaften aus, um die Eigenschaften des Zeitplans anzuzeigen/zu ändern.
+   **Bereich &quot;Planinformationen&quot;** Klicken Sie oben rechts im Fenster ZEITPLANINFORMATIONEN auf Eigenschaften , um die Eigenschaften des Zeitplans anzuzeigen/zu ändern.
 
-   **Bedienfeld &quot;Zugewiesene Kanäle&quot;** Wählen Sie oben rechts im Bedienfeld ZUGEWIESENE KANÄLE die Option +Kanal zuweisen aus, um das Dialogfeld Kanalzuweisung zu öffnen.
+   **Bedienfeld &quot;Zugewiesene Kanäle&quot;** Klicken Sie oben rechts im Bedienfeld ZUGEWIESENE KANÄLE auf +Kanal zuweisen , um das Dialogfeld Kanalzuweisung zu öffnen.
 
-   **Bedienfeld „Zugewiesene Anzeigen“** Wählen Sie beliebige Anzeigen aus dem Bedienfeld „ZUGEWIESENE ANZEIGEN“ aus, um das Anzeigen-Dashboard zu öffnen.
+   **Bedienfeld &quot;Zugewiesene Anzeigen&quot;** Klicken Sie auf eine der Anzeigen im Bedienfeld ZUGEWIESENE ANZEIGEN , um das Anzeigen-Dashboard zu öffnen.

@@ -9,10 +9,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 24%
+ht-degree: 26%
 
 ---
 
@@ -30,19 +30,19 @@ Die folgenden Schritte fassen die Vorgehensweise zum Einrichten von ACLs für ei
 
    ![screen_shot_2018-02-16at10156pm](assets/screen_shot_2018-02-16at10156pm.png)
 
-1. Auswählen **Gruppen** und geben Sie eine ID ein (z. B. Acme).
+1. Klicken Sie auf **Gruppen** und geben Sie eine ID ein (zum Beispiel „Acme“).
 
    Alternativ können Sie diesen Link verwenden: `http://localhost:4502/libs/granite/security/content/groupadmin.html`.
 
-   Wählen Sie als Nächstes **Speichern**.
+   Klicken Sie anschließend auf **Speichern**.
 
    ![screen_shot_2018-02-16at12648pm](assets/screen_shot_2018-02-16at12648pm.png)
 
-1. Auswählen **Mitarbeiter** aus der Liste aus und doppelklicken Sie darauf.
+1. Klicks **Mitarbeiter** aus der Liste aus und doppelklicken Sie darauf.
 
    ![screen_shot_2018-02-18at33938pm](assets/screen_shot_2018-02-18at33938pm.png)
 
-1. Fügen Sie die **Acme** (Projekt, das Sie erstellt haben) in **Mitglieder zu Gruppe hinzufügen**. Wählen Sie **Speichern** aus.
+1. Fügen Sie die **Acme** (Projekt, das Sie erstellt haben) in **Mitglieder zu Gruppe hinzufügen**. Klicken Sie auf **Speichern**.
 
    ![screen_shot_2018-02-18at35630pm](assets/screen_shot_2018-02-18at35630pm.png)
 
@@ -56,7 +56,7 @@ Die folgenden Schritte fassen die Vorgehensweise zum Einrichten von ACLs für ei
 
 1. Einrichten der Berechtigungen für die Gruppe **Acme** mithilfe dieses `(http://localhost:4502/useradmin)`.
 
-   Gruppe auswählen **Acme** und wählen Sie die **Berechtigungen**.
+   Klicken Sie auf die Gruppe **Acme** und klicken Sie auf **Berechtigungen**.
 
    ![screen_shot_2018-02-18at41534pm](assets/screen_shot_2018-02-18at41534pm.png)
 

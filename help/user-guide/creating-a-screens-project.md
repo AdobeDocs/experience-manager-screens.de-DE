@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d98b449f-6b7d-4c08-b507-a64dece84ba8
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 35%
@@ -24,15 +24,15 @@ Sie haben auch die Möglichkeit, direkt zur folgenden URL zu wechseln: `http://l
 
 >[!NOTE]
 >**Navigationstipp:**
->Sie können auch die Pfeiltasten verwenden, um durch die verschiedenen Ordner in AEM zu navigieren. Nachdem Sie eine bestimmte Entität ausgewählt haben, klicken Sie auf die Leertaste, um Eigenschaften für diesen bestimmten Ordner zu bearbeiten oder anzuzeigen.
+>Sie können auch die Pfeiltasten verwenden, um durch die verschiedenen Ordner in AEM zu navigieren. Nachdem Sie auf eine bestimmte Entität geklickt haben, klicken Sie auf die Leertaste, um Eigenschaften für diesen bestimmten Ordner zu bearbeiten oder anzuzeigen.
 
 ## Erstellen eines neuen Screens-Projekts
 
-1. Wählen Sie **Screens** in Ihrer AEM-Instanz aus.
-1. Auswählen **Screens-Projekt erstellen**.
-1. Geben Sie den Titel als **TestScreens** und wählen **Speichern**.
+1. Klicks **Screens** aus Ihrer AEM Instanz.
+1. Klicken Sie auf **Screens-Projekt erstellen**.
+1. Geben Sie **TestScreens** als Titel ein und klicken Sie auf **Speichern**.
 
-Das Projekt wird erstellt und Sie gelangen zurück zur Screens-Projektkonsole. Sie können Ihr Projekt jetzt auswählen.
+Das Projekt wird erstellt und Sie gelangen zurück zur Screens-Projektkonsole. Sie können jetzt auf Ihr Projekt klicken.
 
 In einem Projekt gibt es fünf Arten von Ordnern, wie in der folgenden Abbildung dargestellt:
 
@@ -51,7 +51,7 @@ In einem Projekt gibt es fünf Arten von Ordnern, wie in der folgenden Abbildung
 
 ## Anzeigen von Eigenschaften {#viewing-properties}
 
-Nachdem Sie das Screens-Projekt erstellt haben, wählen Sie das Projekt aus und wählen Sie **Eigenschaften** in der Aktionsleiste, damit Sie die Eigenschaften Ihres Projekts bearbeiten können.
+Klicken Sie nach dem Erstellen des Screens-Projekts auf das Projekt und klicken Sie auf **Eigenschaften** in der Aktionsleiste, damit Sie die Eigenschaften Ihres Projekts bearbeiten können.
 
 Mit den folgenden Optionen können Sie die Eigenschaften Ihres **TestScreens** bearbeiten/ändern.
 
@@ -63,10 +63,10 @@ Sie können auch einen eigenen benutzerdefinierten Ordner unter **Zeitpläne**, 
 
 Erstellen eines kundenspezifischen Ordners:
 
-1. Wählen Sie Ihr Projekt und wählen Sie **Erstellen** neben dem Pluszeichen in der Aktionsleiste.
-1. Die **Erstellen** wird geöffnet und wählen Sie die entsprechende Option aus.
-1. Wählen Sie **Weiter** aus.
-1. Geben Sie die Eigenschaften ein und wählen Sie **Erstellen**.
+1. Klicken Sie auf Ihr Projekt und klicken Sie auf **Erstellen** neben dem Pluszeichen in der Aktionsleiste.
+1. Die **Erstellen** öffnet sich und klicken Sie auf die entsprechende Option.
+1. Klicken Sie auf **Weiter**.
+1. Geben Sie die Eigenschaften ein und klicken Sie auf **Erstellen**.
 
 Die folgenden Schritte zeigen die Erstellung eines Anwendungsordners für Ihre **Anwendungen** primäre Seite in **TestScreens**.
 

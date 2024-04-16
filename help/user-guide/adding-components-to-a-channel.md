@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1402'
-ht-degree: 39%
+ht-degree: 37%
 
 ---
 
@@ -31,10 +31,10 @@ Jedes Mal, wenn Sie ein AEM Screens-Projekt erstellen, wird eine Liste der Stand
 
 Gehen Sie wie folgt vor, um die Standardkomponenten für Ihr Screens-Projekt anzuzeigen:
 
-1. Wählen Sie den Kanal aus. Beispiel: **`We.Retail In Store`** > **Kanäle** > **Idle Channel**.
+1. Klicken Sie auf den Kanal. Beispiel: **`We.Retail In Store`** > **Kanäle** > **Idle Channel**.
 
-1. Auswählen **Bearbeiten** in der Aktionsleiste aus.
-1. Wählen Sie im AEM-Editor die **+** in der Seitenleiste.
+1. Klicks **Bearbeiten** in der Aktionsleiste aus.
+1. Klicken Sie im AEM-Editor auf die **+** in der Seitenleiste.
 1. Alle Komponenten, die standardmäßig in einem AEM Screens-Projekt enthalten sind, werden wie in der folgenden Abbildung dargestellt angezeigt.
 
 ![screen_shot_2017-12-18at21350pm](assets/screen_shot_2017-12-18at21350pm.png)
@@ -45,12 +45,12 @@ AEM bietet mehrere weitere Komponenten. Sie können Ihrem Projekt jederzeit weit
 
 Das folgende Beispiel zeigt das Hinzufügen einer Livefyre-Komponente zu einem AEM Screens-Projekt:
 
-1. Wählen Sie den Kanal aus, dem Sie eine Komponente hinzufügen möchten. Beispiel: **`We.Retail In Store`** > **Kanäle** > **Idle Channel**.
+1. Klicken Sie auf den Kanal, dem Sie eine Komponente hinzufügen möchten. Beispiel: **`We.Retail In Store`** > **Kanäle** > **Idle Channel**.
 
-1. Auswählen **Bearbeiten** in der Aktionsleiste aus.
-1. Wählen Sie den Modus **Design** aus.
-1. Wählen Sie den gesamten Design-Editor auf der rechten Seite aus und wählen Sie das Einstellungssymbol aus, damit Sie den **Parsys Design** Dialogfeld.
-1. Sie können die Komponenten auswählen, die Sie in Ihr AEM Screens-Projekt importieren möchten. Im folgenden Beispiel sehen Sie, wie einem AEM Screens-Projekt eine **Livefyre**-Komponente hinzugefügt wird.
+1. Klicks **Bearbeiten** in der Aktionsleiste aus.
+1. Klicks **Design** -Modus.
+1. Klicken Sie auf der rechten Seite auf den gesamten Design-Editor und klicken Sie auf das Einstellungssymbol, damit Sie den **Parsys Design** Dialogfeld.
+1. Sie können auf die Komponenten klicken, die Sie in Ihr AEM Screens-Projekt importieren möchten. Im folgenden Beispiel sehen Sie, wie einem AEM Screens-Projekt eine **Livefyre**-Komponente hinzugefügt wird.
 
 ![adding_components](assets/adding_components.gif)
 
@@ -64,7 +64,7 @@ Im folgenden Abschnitt werden die AEM Screens-Komponenten beschrieben, die Sie f
 
 >[!NOTE]
 >
->Um die Eigenschaften einer Komponente anzuzeigen, wählen Sie die Komponente aus und wählen Sie das Hammersymbol aus, um Eigenschaften zu öffnen/anzuzeigen.
+>Um die Eigenschaften einer Komponente anzuzeigen, klicken Sie auf die Komponente und dann auf das Hammersymbol, um Eigenschaften zu öffnen/anzuzeigen.
 
 ### Programm {#application}
 
@@ -74,8 +74,8 @@ Die Anwendungskomponente verfügt über die folgenden Eigenschaften:
 
 | **Eigenschaft** | **Beschreibung** |
 |---|---|
-| ***Anwendungspfad*** | Damit wird der absolute Pfad zur Anwendung festgelegt. |
-| ***Dauer (Millisekunden)*** | Damit wird die Dauer der Anwendung festgelegt. Standardmäßig ist die Dauer auf den Wert „-1“ eingestellt. Dies bedeutet, dass das Element auf unbestimmte Zeit ausgeführt wird (bei einer Single Page Application). Wird unter „Dauer“ ein Wert über 0 festgelegt, wird das Element für die angegebene Dauer angezeigt. Anschließend wird zum nächsten Element gewechselt. |
+| ***Anwendungspfad*** | Klicken Sie auf den absoluten Pfad, in dem die Anwendung vorhanden ist. |
+| ***Dauer (Millisekunden)*** | Klicken Sie auf die Dauer der Anwendung. Standardmäßig ist die Dauer auf den Wert „-1“ eingestellt. Dies bedeutet, dass das Element auf unbestimmte Zeit ausgeführt wird (bei einer Single Page Application). Wird unter „Dauer“ ein Wert über 0 festgelegt, wird das Element für die angegebene Dauer angezeigt. Anschließend wird zum nächsten Element gewechselt. |
 
 Im folgenden Beispiel sehen Sie, wie die Komponente „Anwendung“ hinzugefügt wird, einschließlich einer Vorschau ihrer Eigenschaften:
 
@@ -193,7 +193,7 @@ Die Komponente „Dynamische eingebettete Sequenz“ verfügt über die folgende
 
 ### Experience Fragment {#experience-fragment}
 
-Mit einem Experience Fragment können Sie Ihrem AEM Screens-Kanal ein Experience Fragment hinzufügen (eine Gruppe aus einer oder mehreren Komponenten, einschließlich Inhalt und Layout, auf die innerhalb von Seiten verwiesen werden kann). Ziehen Sie die Komponente in den AEM Editor und wählen Sie das Experience Fragment aus.
+Mit einem Experience Fragment können Sie Ihrem AEM Screens-Kanal ein Experience Fragment hinzufügen (eine Gruppe aus einer oder mehreren Komponenten, einschließlich Inhalt und Layout, auf die innerhalb von Seiten verwiesen werden kann). Ziehen Sie die Komponente in den AEM Editor und klicken Sie auf das Experience Fragment.
 
 Weitere Informationen zum Erstellen eines Experience Fragments und dessen Anwendung auf ein AEM Screens-Projekt finden Sie unter [Verwenden von Experience Fragments](experience-fragments-in-screens.md).
 
@@ -221,7 +221,7 @@ Das Bild-Asset besitzt die drei Registerkarten **Bild**, **Erreichbarkeit** und 
 | **Eigenschaft** | **Beschreibung** |
 |---|---|
 | **Bild** |
-| ***Bild-Asset*** | Damit wird das Bild-Asset festgelegt. |
+| ***Bild-Asset*** | Klicken Sie auf das Bild-Asset. |
 | ***Titel*** | Hierbei handelt es sich um den Titel des Bildes. |
 | ***Verknüpfung zu*** | Damit wird dem Bild ein Link hinzugefügt. |
 | ***Beschreibung*** | Hierbei handelt es sich um eine kurze Beschreibung des Bildes. |
@@ -239,7 +239,7 @@ Die folgende Abbildung veranschaulicht die (per Drag-and-Drop hinzugefügte) Üb
 
 ![screen_shot_2019-07-25at104237am](assets/screen_shot_2019-07-25at104237am.png)
 
-Wählen Sie das Übergangssymbol aus und wählen Sie die **Konfigurieren** (Schraubenschlüsselsymbol), um die **Übergang** Dialogfeld. Dieses Dialogfeld enthält drei Registerkarten:
+Klicken Sie auf das Übergangssymbol und anschließend auf die Schaltfläche **Konfigurieren** (Schraubenschlüsselsymbol), um die **Übergang** Dialogfeld. Dieses Dialogfeld enthält drei Registerkarten:
 
 * **Übergang**
 * **Sequenz**
@@ -316,7 +316,7 @@ Die Videokomponente verfügt über die folgenden Eigenschaften:
   </tr>
   <tr>
    <td><em><strong>Video-Asset</strong></em></td>
-   <td>Damit wird der Link zum Video festgelegt.</td>
+   <td>Klicken Sie auf den Link zum Video.</td>
   </tr>
   <tr>
    <td><em><strong>Dauer</strong></em></td>

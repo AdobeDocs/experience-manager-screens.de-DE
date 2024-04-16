@@ -9,10 +9,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: 97084aee861e152abcc5f117a2a4759dced038cc
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '2135'
-ht-degree: 69%
+ht-degree: 70%
 
 ---
 
@@ -88,7 +88,7 @@ Der Quell-Code eines Screens-Projekts wird normalerweise als Maven-Projekt mit m
 
 1. **Navigieren Sie zur AEM Screens > `We.Retail` Projekt ausführen:**
 
-   Wählen Sie im AEM Startmenü das Symbol Screens aus. Überprüfen Sie die `We.Retail` Projekt ausführen wird angezeigt.
+   Klicken Sie im AEM Startmenü auf das Symbol Screens . Überprüfen Sie die `We.Retail` Projekt ausführen wird angezeigt.
 
    ![we-retaiul-run-starter](assets/we-retaiul-run-starter.png)
 
@@ -405,9 +405,9 @@ Unter a `We.Retail` Die Seite &quot;Design ausführen&quot;wird erstellt, in der
 
 Die Komponente &quot;Hello World&quot;ist für die Verwendung in einem Sequenzkanal vorgesehen. Zum Testen der Komponente wird ein neuer Sequenzkanal erstellt.
 
-1. Navigieren Sie im AEM Startmenü zu **Screens** > **`We.Retail`Ausführen** > und wählen Sie **Kanäle**.
+1. Navigieren Sie im AEM Startmenü zu **Screens** > **`We.Retail`Ausführen** > und klicken Sie auf **Kanäle**.
 
-1. Wählen Sie die **Erstellen** button
+1. Klicken Sie auf die Schaltfläche **Erstellen**
 
    1. Wahlen Sie **Entität erstellen** aus
 
@@ -435,9 +435,9 @@ Die Komponente &quot;Hello World&quot;ist für die Verwendung in einem Sequenzka
 
 1. Schalten Sie den Seitenmodus in den Modus **Design** um.
 
-   1. Wählen Sie die **Schraubenschlüssel** Symbol im Parsys , damit Sie die zulässigen Komponenten konfigurieren können.
+   1. Klicken Sie auf das **Schraubenschlüssel**-Symbol im Absatzsystem, um die zulässigen Komponenten zu konfigurieren.
 
-   1. Wählen Sie die **Screens** und **`We.Retail`Ausführen - Inhalt** hinzugefügt.
+   1. Klicken Sie auf **Screens** und **`We.Retail`Ausführen - Inhalt** hinzugefügt.
 
    ![2018-04-30_at_5_43pm](assets/2018-04-30_at_5_43pm.png)
 

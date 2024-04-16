@@ -9,10 +9,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1057'
-ht-degree: 60%
+ht-degree: 59%
 
 ---
 
@@ -32,11 +32,11 @@ Sie können die Voreinstellungen für Ihr Gerät im Geräte-Dashboard konfigurie
 
 1. Navigieren Sie vom Projekt zum Geräte-Dashboard, z. B. ***Testprojekt*** > ***Geräte***.
 
-   Wählen Sie in der Aktionsleiste die Optionen **Geräte** und **Geräte-Manager** aus.
+   Klicks **Geräte** und **Geräte-Manager** in der Aktionsleiste aus.
 
    ![chlimage_1-66](assets/chlimage_1-66.png)
 
-1. Wählen Sie das Gerät aus, damit Sie das Geräte-Dashboard öffnen können.
+1. Klicken Sie auf das Gerät, damit Sie das Geräte-Dashboard öffnen können.
 
    ![chlimage_1-67](assets/chlimage_1-67.png)
 
@@ -58,7 +58,7 @@ Um die Administrator-Benutzeroberfläche vom Screens-Player aus anzuzeigen, halt
 
 #### Zugriff auf die Optionen im Konfigurationsmenü {#configuration-options}
 
-Wenn Sie die Option **Konfiguration** -Option aus dem Seitenmenü, wie in der folgenden Abbildung dargestellt:
+Sie können Ihre Konfigurationen aktualisieren, indem Sie auf die **Konfiguration** -Option aus dem Seitenmenü, wie in der folgenden Abbildung dargestellt:
 
 ![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
 
@@ -86,7 +86,7 @@ Im Menü Konfiguration können Sie die folgenden Einstellungen ändern:
 
 Sie können den Cache für Kanäle und Anwendungen über die Administrator-Benutzeroberfläche im AEM Screens-Player löschen.
 
-Wählen Sie die **Inhalts-Cache** über die Seitenleiste aus, damit Sie den Cache aktualisieren können.
+Klicken Sie auf **Inhalts-Cache** über die Seitenleiste aus, damit Sie den Cache aktualisieren können.
 
 ![screen_shot_2018-10-15at105717am](assets/screen_shot_2018-10-15at105717am.png)
 

@@ -6,10 +6,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '291'
-ht-degree: 68%
+ht-degree: 75%
 
 ---
 
@@ -46,7 +46,7 @@ Sie können das Massen-Offline-Update manuell über die Benutzeroberfläche (UI)
 Gehen Sie wie folgt vor, um das Massen-Offline-Update für ein AEM Screens-Projekt zu verwenden:
 
 1. Navigieren Sie zu Ihrem AEM Screens-Projekt.
-1. Wählen Sie das Projekt aus und wählen Sie **Offline-Inhalt aktualisieren** in der Aktionsleiste, um den Kanalinhalt manuell zu aktualisieren.
+1. Klicken Sie auf das Projekt und klicken Sie auf **Offline-Inhalt aktualisieren** in der Aktionsleiste, um den Kanalinhalt manuell zu aktualisieren.
 
    ![screen_shot_2018-04-24at122256pm](assets/screen_shot_2018-04-24at122256pm.png)
 
@@ -63,7 +63,7 @@ Gehen Sie wie folgt vor, um das Massen-Offline-Update für ein AEM Screens-Proje
 
    **Projektpfad** Geben Sie den Pfad Ihres AEM Screens-Projekts an. Der Pfad heißt gewöhnlich `/content/screens/<Name of your project>`.
 
-   *Zum Beispiel* `/content/screens/we-retail`. Sie können diesen Pfad in der URL finden, indem Sie ein beliebiges Projekt unter AEM Screens auswählen (wählen Sie das Symbol nicht aus).
+   *Zum Beispiel* `/content/screens/we-retail`. Sie können diesen Pfad in der URL finden, indem Sie ein beliebiges Projekt unter AEM Screens auswählen (klicken Sie nicht auf das Symbol).
 
    >[!NOTE]
    >
@@ -71,4 +71,4 @@ Gehen Sie wie folgt vor, um das Massen-Offline-Update für ein AEM Screens-Proje
 
    **Planfrequenz** Geben Sie einen Zeitpunkt an, z. B. 5:00 Uhr oder 17:00 Uhr, zu dem dieser Dienst Offline-Inhalte aktualisieren soll.
 
-1. Auswählen **Speichern** sodass Sie Ihre Einstellungen speichern können. Alle Ihre Inhalte werden zum angegebenen Zeitpunkt aktualisiert.
+1. Klicks **Speichern** sodass Sie Ihre Einstellungen speichern können. Alle Ihre Inhalte werden zum angegebenen Zeitpunkt aktualisiert.

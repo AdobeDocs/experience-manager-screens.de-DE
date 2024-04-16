@@ -5,7 +5,7 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 27%
@@ -49,7 +49,7 @@ Wenn Sie mehrere Veröffentlichungsinstanzen mit einem Frontend des einzelnen Di
  }
 ```
 
-Wenn eine Veröffentlichungsinstanz von einem Dispatcher als Frontend fungiert, hilft das Aktivieren der Treue beim Dispatcher nicht, da der Lastenausgleich jede Anfrage an den Dispatcher senden kann. Wählen Sie in diesem Fall **Aktivieren** in **Stickiness** -Feld, um es auf Ihrer Lastenausgleichsebene zu aktivieren, wie in der folgenden Abbildung dargestellt:
+Wenn eine Veröffentlichungsinstanz von einem Dispatcher als Frontend fungiert, hilft das Aktivieren der Treue beim Dispatcher nicht, da der Lastenausgleich jede Anfrage an den Dispatcher senden kann. Klicken Sie in diesem Fall auf **Aktivieren** in **Stickiness** -Feld, um es auf Ihrer Lastenausgleichsebene zu aktivieren, wie in der folgenden Abbildung dargestellt:
 
 ![Bild](/help/user-guide/assets/dispatcher/dispatcher-enable.png)
 

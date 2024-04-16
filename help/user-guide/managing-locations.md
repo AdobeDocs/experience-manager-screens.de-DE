@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7935c206-7189-4243-9a2d-ccc322caf441
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '236'
-ht-degree: 51%
+ht-degree: 54%
 
 ---
 
@@ -32,12 +32,12 @@ Diese Seite zeigt, wie Standorte für Screens erstellt und verwaltet werden.
 
 Nachdem Sie Ihr Projekt für Screens erstellt haben, führen Sie die folgenden Schritte aus, um einen Standort für ein Screens-Projekt zu erstellen:
 
-1. Wählen Sie den Adobe Experience Manager-Link (oben links) und dann Screens aus. Sie haben auch die Möglichkeit, direkt zur folgenden URL zu wechseln: `http://localhost:4502/screens.html/content/screens`.
-1. Navigieren Sie zum Screens-Projekt und wählen Sie **Standorte**.
-1. Auswählen **Erstellen** neben dem Pluszeichen in der Aktionsleiste.
-1. Vorlage auswählen **Standort** Wählen Sie im Assistenten und **Nächste**.
+1. Klicken Sie auf den Link Adobe Experience Manager (oben links) und dann auf Screens. Sie haben auch die Möglichkeit, direkt zur folgenden URL zu wechseln: `http://localhost:4502/screens.html/content/screens`.
+1. Navigieren Sie zum Screens-Projekt und klicken Sie auf **Standorte**.
+1. Klicks **Erstellen** neben dem Pluszeichen in der Aktionsleiste.
+1. Klicken Sie auf die Vorlage **Standort** Klicken Sie im Assistenten auf **Nächste**.
 1. Geben Sie die Eigenschaften für **Titel und Tags**, **Weitere Titel und Beschreibungen**, **Einschaltzeit/Ausschaltzeit** und **Vanity-URL** ein.
-1. Auswählen **Erstellen** und der Speicherort erstellt und Ihrem Standortordner hinzugefügt wird.
+1. Wenn Sie auf **Erstellen** klicken, wird der Standort erstellt und Ihrem Standortordner hinzugefügt.
 
 Gehen Sie wie folgt vor, um zu verstehen, wie Sie einen Ort für ein AEM Screens-Projekt erstellen. Zur Veranschaulichung wird der neue Standort (SanJose) unter *DemoProject* erstellt.
 
@@ -49,8 +49,8 @@ Nachdem Sie einen Standort erstellt haben, erstellen Sie eine Anzeige für Ihren
 
 Bearbeiten von/Zugreifen auf die Eigenschaften eines Standorts:
 
-1. Wählen Sie den Standort aus.
-1. Wählen Sie in der Aktionsleiste **Eigenschaften** aus.
+1. Klicken Sie auf die Position.
+1. Klicken Sie in der Aktionsleiste auf **Eigenschaften**.
 
 ![player3](assets/player3.gif)
 

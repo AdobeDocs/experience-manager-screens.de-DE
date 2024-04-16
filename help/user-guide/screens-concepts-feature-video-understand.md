@@ -7,10 +7,10 @@ topic-tags: introduction
 content-type: reference
 docset: aem65
 targetaudience: target-audience new
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '159'
-ht-degree: 40%
+ht-degree: 44%
 
 ---
 
@@ -30,7 +30,7 @@ Um den Videos zu folgen, benötigen Sie Folgendes:
 
 1. Einen Screens-Player
 
-Um den AEM Screens-Player herunterzuladen, wählen Sie [here](https://download.macromedia.com/screens/). AEM Screens ist auch in verfügbar. [Google Play Store](https://play.google.com/store/apps/details?id=com.adobe.aem.screens.player&amp;hl=en). <!-- LINK IS 404 WITH NO SUITABLE REPLACEMENT See [Installing and Configuring Screens](https://helpx.adobe.com/experience-manager/6-4/help/sites-deploying/configuring-screens-introduction.html) for more details. -->
+Um einen AEM Screens-Player herunterzuladen, klicken Sie [hier](https://download.macromedia.com/screens/). AEM Screens ist auch in verfügbar. [Google Play Store](https://play.google.com/store/apps/details?id=com.adobe.aem.screens.player&amp;hl=en). <!-- LINK IS 404 WITH NO SUITABLE REPLACEMENT See [Installing and Configuring Screens](https://helpx.adobe.com/experience-manager/6-4/help/sites-deploying/configuring-screens-introduction.html) for more details. -->
 
 Im folgenden Video werden die Erstellung eines neuen Kanals, das Erstellen neuer Inhalte und das Hinzufügen eines Kanals zu einem wiederverwendbaren Zeitplan beschrieben. Das Video folgt in etwa der ersten Hälfte der [Screens-Schnellstartanleitung](kickstart-for-aem-screens.md).
 

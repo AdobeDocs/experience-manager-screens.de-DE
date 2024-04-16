@@ -10,10 +10,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3b127311-32d1-402c-97a1-e799e9f3f95e
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 47%
+ht-degree: 40%
 
 ---
 
@@ -37,7 +37,7 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 201812 ist der 16. Jan
 
 * **Zeitplanung für mehrere Assets**:
 
-  Die Zeitplanung für mehrere Assets ermöglicht es dem Benutzer, mehrere Assets auszuwählen und einen Wiedergabezeitplan auf alle ausgewählten Assets anzuwenden. Siehe **Zeitplanung für mehrere Assets** Abschnitt in **[Asset-Planung](asset-level-scheduling.md)**.
+  Die Zeitplanung für mehrere Assets ermöglicht es dem Benutzer, auf mehrere Assets zu klicken und einen Wiedergabezeitplan auf alle ausgewählten Assets anzuwenden. Siehe **Zeitplanung für mehrere Assets** Abschnitt in **[Asset-Planung](asset-level-scheduling.md)**.
 
 * **Mehrzonen-Layout**:
 

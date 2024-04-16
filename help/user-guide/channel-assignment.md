@@ -5,10 +5,10 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1174'
-ht-degree: 33%
+ht-degree: 31%
 
 ---
 
@@ -32,11 +32,11 @@ Gehen Sie wie folgt vor, um einer Anzeige einen Kanal zuzuweisen:
 
    ![Bild](assets/screen_shot_2018-08-23at25359pm.png)
 
-1. Auswählen **Kanal zuweisen** in der Aktionsleiste.
+1. Klicks **Kanal zuweisen** in der Aktionsleiste.
 
    oder
 
-   Auswählen **Dashboard** und wählen **+Kanal zuweisen** aus dem **ZUGEWIESENE KANÄLE** -Bedienfeld, damit Sie **Kanalzuweisung** Dialogfeld.
+   Klicks **Dashboard** und klicken **+Kanal zuweisen** aus dem **ZUGEWIESENE KANÄLE** -Bedienfeld, damit Sie **Kanalzuweisung** Dialogfeld.
 
    ![image](/help/user-guide/assets/channel-assign1.png)
 
@@ -78,7 +78,7 @@ Die Priorität wird verwendet, um die Zuweisungen in eine Reihenfolge zu bringen
 
 Geben Sie als Inhaltsautor an, wann ein Kanal unterbrochen wird, damit Sie nichtkritische Inhalte abschneiden und optional wichtige Inhalte wiedergeben können, bevor die Wiedergabe aufgrund der Planung abgebrochen wird.
 
-Wählen Sie eine der folgenden Optionen aus, die zum Festlegen der Unterbrechungsmethode im Dialogfeld **Kanalzuweisung** verfügbar sind:
+Klicken Sie auf eine der folgenden Optionen, die verfügbar sind, um die Unterbrechungsmethode über die **Kanalzuweisung** Dialogfeld:
 
 * **Sofort** - Wenn der Zeitplan aktiviert oder eine Aktualisierung empfangen wird, können Sie die Wiedergabe abbrechen und den neuen Inhalt sofort aktualisieren oder wiedergeben.
 * **Am Ende des aktuellen Elements** - Wenn ein neuer Zeitplan aktiviert oder eine Aktualisierung empfangen wird, können Sie optional warten, bis die Wiedergabe des aktuellen Elements in der Sequenz abgeschlossen ist. Erst danach können Sie den neuen Inhalt aktualisieren oder wiedergeben.

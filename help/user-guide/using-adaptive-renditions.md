@@ -2,10 +2,10 @@
 title: Verwenden adaptiver Ausgabedarstellungen in AEM Screens
 description: Erfahren Sie, wie Sie adaptive Ausgabeformate in AEM Screens verwenden.
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '540'
-ht-degree: 36%
+ht-degree: 32%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 36%
 
 ## Einführung {#introduction}
 
-Adaptive Ausgabedarstellungen ermöglichen es den Geräten, basierend auf vom Kunden definierten Regeln automatisch die beste Ausgabedarstellung für ein Gerät auszuwählen. Die Geräte laden automatisch die am besten geeignete Ausgabedarstellung eines Assets herunter und geben diese basierend auf diesen Regeln wieder, sodass sich Kunden nur auf das Entwerfen der *main* Erlebnis.
+Adaptive Ausgabeformate ermöglichen es den Geräten, basierend auf kundendefinierten Regeln automatisch auf die beste Ausgabedarstellung für ein Gerät zu klicken. Die Geräte laden automatisch die am besten geeignete Ausgabedarstellung eines Assets herunter und geben diese basierend auf diesen Regeln wieder, sodass sich Kunden nur auf das Entwerfen der *main* Erlebnis.
 
 ## Ziel {#objective}
 
@@ -35,12 +35,12 @@ Gehen Sie wie folgt vor, um Ausgabedarstellungen auf Assets anzuwenden, die Sie 
 1. Gehen Sie zum Ordner **Assets** in Ihrer AEM-Instanz.
 1. Erstellen Sie eine Version des Assets, die der Beschilderungs-Anzeige am besten entspricht, z. B. `seahorse.jpg`.
 1. Wählen Sie das Benennungsmuster für die Ausgabedarstellung aus, z. B. `landscape`, ähnlich dem, das in der Eigenschaft **Muster** in **CRXDE Lite** definiert wurde. Siehe [Hinzufügen von Zuordnungsregeln für Ausgabedarstellungen](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) für weitere Details.
-1. Auswählen **Ausgabedarstellung hinzufügen** , um die Ausgabedarstellung hochzuladen, wie in der folgenden Abbildung dargestellt.
+1. Klicks **Ausgabedarstellung hinzufügen** , um die Ausgabedarstellung hochzuladen, wie in der folgenden Abbildung dargestellt.
 
    ![Bild](/help/user-guide/assets/adaptive-renditions/manage-pub-asset2.png)
 
-1. Wählen Sie die umbenannte Asset-Datei aus. Die Ausgabedarstellung, die Sie hinzufügen, muss das Muster enthalten (definiert in Schritt 3), z. B. `seahorse-landscape.png`.
-1. Wenn Sie das Asset hinzugefügt haben, wählen Sie es aus und wählen Sie **Veröffentlichung verwalten** in der Aktionsleiste, um das Asset zu veröffentlichen.
+1. Klicken Sie auf die umbenannte Asset-Datei. Die Ausgabedarstellung, die Sie hinzufügen, muss das Muster enthalten (definiert in Schritt 3), z. B. `seahorse-landscape.png`.
+1. Wenn Sie das Asset hinzugefügt haben, klicken Sie auf das Asset und klicken Sie auf **Veröffentlichung verwalten** in der Aktionsleiste, um das Asset zu veröffentlichen.
 
    ![Bild](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 

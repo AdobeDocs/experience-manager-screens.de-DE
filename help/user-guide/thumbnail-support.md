@@ -2,10 +2,10 @@
 title: Unterstützung von Miniaturansichten für Videos in AEM Screens
 description: Erfahren Sie, wie Sie in AEM Screens Unterstützung für Miniaturansichten für Videos hinzufügen.
 exl-id: d2d87807-1699-47e3-b241-07c5b7e56f15
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 77%
+ht-degree: 81%
 
 ---
 
@@ -32,7 +32,7 @@ Gehen Sie wie folgt vor, um Miniaturansichten in Videos zu verwenden:
 
 1. Navigieren Sie zu einem vorhandenen AEM Screens-Kanal oder erstellen Sie einen Kanal.
 
-1. Wählen Sie den Kanal aus und wählen Sie **Bearbeiten** in der Aktionsleiste aus.
+1. Klicken Sie auf den Kanal und klicken Sie auf **Bearbeiten** in der Aktionsleiste aus.
 
    ![Bild](/help/user-guide/assets/thumbnails/thumbnail-1.png)
 
@@ -40,7 +40,7 @@ Gehen Sie wie folgt vor, um Miniaturansichten in Videos zu verwenden:
 
    ![Bild](/help/user-guide/assets/thumbnails/thumbnail-2.png)
 
-1. Wählen Sie das Video aus und wählen Sie die *Schraubenschlüssel* Symbol.
+1. Klicken Sie auf das Video und klicken Sie auf das *Schraubenschlüssel* Symbol.
 
    ![Bild](/help/user-guide/assets/thumbnails/thumbnail-3.png)
 
@@ -48,11 +48,11 @@ Gehen Sie wie folgt vor, um Miniaturansichten in Videos zu verwenden:
 
    ![Bild](/help/user-guide/assets/thumbnails/thumbnail-4.png)
 
-1. Ziehen Sie ein Bild aus der Asset-Auswahl in den Bereich **Miniatur** Dropzone und wählen Sie **Fertig**.
+1. Ziehen Sie ein Bild aus der Asset-Auswahl in die Ablagefläche **Miniaturansicht** und klicken Sie auf **Fertig**.
 
    ![Bild](/help/user-guide/assets/thumbnails/thumbnail-5.png)
 
-1. Wählen Sie **Vorschau**.
+1. Klicken Sie auf **Vorschau**. 
 
 1. Wenn für die Komponente ein Video festgelegt ist, wird das Video wiedergegeben. Wenn das nicht der Fall ist und die Miniaturansicht festgelegt ist, wird die Miniaturansicht wiedergegeben. Andernfalls wird die Komponente als nicht konfiguriert betrachtet und übersprungen.
 

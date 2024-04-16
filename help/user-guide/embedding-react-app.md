@@ -10,10 +10,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '681'
-ht-degree: 45%
+ht-degree: 49%
 
 ---
 
@@ -77,11 +77,11 @@ Gehen Sie wie folgt vor, um die interaktive REACT-App zu AEM Screens hinzuzufüg
    >
    >Stellen Sie sicher, dass Sie beim Zuweisen des Kanals zur Anzeige das Benutzerinteraktionsereignis hinzufügen.
 
-1. Auswählen **Bearbeiten** in der Aktionsleiste, damit Sie die Eigenschaften des Kanals bearbeiten können.
+1. Klicks **Bearbeiten** in der Aktionsleiste, damit Sie die Eigenschaften des Kanals bearbeiten können.
 
    ![screen_shot_2019-02-15at100555am](assets/screen_shot_2019-02-15at100555am.png)
 
-1. Ziehen Sie die **Eingebettete Seite** Komponente verwenden oder die vorhandene Komponente in einem Anwendungskanal wiederverwenden und die Startseite unter der Anwendung mysamplespa auswählen, z. B. ***/content/mysamplespa/en/home***.
+1. Ziehen Sie die **Eingebettete Seite** Komponente verwenden oder die vorhandene Komponente in einem Anwendungskanal wiederverwenden und auf die Startseite unter der Anwendung mysamplespa klicken, z. B. ***/content/mysamplespa/en/home***.
 
    ![screen_shot_2019-02-15at101104am](assets/screen_shot_2019-02-15at101104am.png)
 
@@ -103,7 +103,7 @@ Gehen Sie wie folgt vor, um die SPA mit Adobe Analytics mit Offline-Funktionen �
    Siehe [Konfigurieren von Adobe Analytics mit AEM Screens](configuring-adobe-analytics-aem-screens.md) Weitere Informationen zum Ausführen der Sequenzierung in Adobe Analytics mit AEM Screens und zum Senden benutzerdefinierter Ereignisse mit Offline-Adobe Analytics.
 
 1. Bearbeiten Sie Ihre React-App in der IDE/dem Editor Ihrer Wahl (insbesondere die Textkomponente oder eine andere Komponente, die Sie zum Ausgeben von Ereignissen verwenden möchten).
-1. Fügen Sie beim Ereignis select oder einem anderen Ereignis, das bzw. das Sie für Ihre Komponente erfassen möchten, die Analyseinformationen mithilfe des Standarddatenmodells hinzu.
+1. Fügen Sie beim Klick- oder anderen Ereignis, das Sie für Ihre Komponente erfassen möchten, die Analyseinformationen mit dem Standarddatenmodell hinzu.
 
    Siehe [Konfigurieren von Adobe Analytics mit AEM Screens](configuring-adobe-analytics-aem-screens.md) für weitere Details.
 

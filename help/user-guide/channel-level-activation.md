@@ -6,10 +6,10 @@ feature: Authoring Screens, Channels
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1769'
-ht-degree: 47%
+ht-degree: 48%
 
 ---
 
@@ -91,8 +91,8 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
 1. **Erstellen einer Anzeige unter dem Standort**
 
    1. Navigieren Sie zu **Channel Level Activation** > **Standorte** > **Region**.
-   1. Auswählen **Region** und wählen **+ Erstellen** in der Aktionsleiste aus.
-   1. Wählen Sie im Assistenten die Option **Anzeigen** aus und erstellen Sie eine Anzeige mit dem Titel **RegionDisplay.**
+   1. Klicks **Region** und klicken **+ Erstellen** in der Aktionsleiste aus.
+   1. Klicks **Anzeige** aus dem Assistenten erstellen und eine Anzeige mit dem Titel **RegionDisplay.**
 
    ![screen_shot_2018-11-27at112216am](assets/screen_shot_2018-11-27at112216am.png)
 
@@ -100,32 +100,32 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
 
    Für **MainAdChannel:**
 
-   1. Navigieren Sie zu **Aktivierung auf Kanalebene** > **Standorte** > **Region** > **RegionDisplay** und wählen **Kanal zuweisen** in der Aktionsleiste aus.
+   1. Navigieren Sie zu **Channel Level Activation** > **Standorte** > **Region** > **RegionDisplay** und klicken Sie in der Aktionsleiste auf **Kanal zuweisen**.
    1. Daraufhin wird das Dialogfeld **Kanalzuweisung** geöffnet.
-   1. Auswählen **Referenzkanal** nach Pfad.
-   1. Wählen Sie die **Kanalpfad** as **Aktivierung auf Kanalebene** > ***Kanäle*** > ***MainAdChannel***.
+   1. Klicks **Referenzkanal** nach Pfad.
+   1. Klicken Sie auf **Kanalpfad** as **Aktivierung auf Kanalebene** > ***Kanäle*** > ***MainAdChannel***.
    1. Die **Kanalrolle** wird mit **mainadchannel** ausgefüllt.
-   1. Wählen Sie als **Priorität** den Wert **1** aus.
-   1. Wählen Sie unter **Unterstützte Ereignisse** die Optionen **Erster Ladevorgang** und **Bildschirm bei Untätigkeit** aus.
-   1. Wählen Sie **Speichern** aus.
+   1. Klicken Sie auf **Priorität** as **1**.
+   1. Klicken Sie auf **Unterstützte Ereignisse** as **Erster Ladevorgang** und **Idle Screen**.
+   1. Klicken Sie auf **Speichern**.
 
    ![screen_shot_2018-11-27at124626pm](assets/screen_shot_2018-11-27at124626pm.png)
 
    >[!NOTE]
    >
-   >Sie können Kanäle auch über das Anzeigen-Dashboard zuweisen, indem Sie zu **Aktivierung auf Kanalebene** > **Standorte** > **Region** > **RegionDisplay** und auswählen **Dashboard** in der Aktionsleiste aus. Auswählen **+ Kanal zuweisen** aus dem **ZUGEWIESENE KANÄLE UND ZEITPLÄNE** Bedienfeld.
+   >Sie können Kanäle auch über das Anzeigen-Dashboard zuweisen, indem Sie zu **Aktivierung auf Kanalebene** > **Standorte** > **Region** > **RegionDisplay** und auswählen **Dashboard** in der Aktionsleiste aus. Klicken Sie im Bedienfeld **ZUGEWIESENE KANÄLE UND ZEITPLÄNE** auf **+ Kanal zuweisen**.
 
    Weisen Sie den Kanal **TargetedSinglePlay** für die Anzeige zu:
 
-   1. Navigieren Sie zu **Aktivierung auf Kanalebene** > **Standorte** > **Region** > **RegionDisplay** und wählen **Kanal zuweisen** in der Aktionsleiste aus.
+   1. Navigieren Sie zu **Channel Level Activation** > **Standorte** > **Region** > **RegionDisplay** und klicken Sie in der Aktionsleiste auf **Kanal zuweisen**.
    1. Daraufhin wird das Dialogfeld **Kanalzuweisung** geöffnet.
-   1. Auswählen **Referenzkanal** nach Pfad.
-   1. Wählen Sie die **Kanalpfad** as **Aktivierung auf Kanalebene*** > ***Kanäle*** > ***TargetedSinglePlay***.
+   1. Klicks **Referenzkanal** nach Pfad.
+   1. Klicken Sie auf **Kanalpfad** as **Aktivierung auf Kanalebene*** > ***Kanäle*** > ***TargetedSinglePlay***.
    1. Die **Kanalrolle** wird mit **targetedsingleplay** ausgefüllt.
    1. Legen Sie die als **Priorität** den Wert **2** fest.
-   1. Wählen Sie die **Unterstützte Ereignisse** as **Erster Ladevorgang**, **Idle Screen**, und **Timer**, wie in der folgenden Abbildung dargestellt.
+   1. Klicken Sie auf **Unterstützte Ereignisse** as **Erster Ladevorgang**, **Idle Screen**, und **Timer**, wie in der folgenden Abbildung dargestellt.
    1. Wählen Sie das Datum unter **aktiv aus** als 27. November 2018, 11:59 Uhr und in **aktiv bis** als 28. November 2018 um 12:05 Uhr
-   1. Wählen Sie **Speichern** aus.
+   1. Klicken Sie auf **Speichern**.
 
    >[!CAUTION]
    >
@@ -135,7 +135,7 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
 
    >[!NOTE]
    >
-   >Um denselben Tag auszuwählen, wählen Sie den nächsten Tag aus und bearbeiten Sie dann das Datum manuell auf den gleichen Tag, aber für einen späteren Zeitpunkt. Dadurch wird der Benutzer daran gehindert, ein vergangenes Datum auszuwählen. Siehe folgendes Beispiel:
+   >Um denselben Tag auszuwählen, klicken Sie auf den nächsten Tag und bearbeiten Sie dann das Datum manuell auf den gleichen Tag, aber für einen späteren Zeitpunkt. Dadurch wird der Benutzer daran gehindert, ein vergangenes Datum auszuwählen. Siehe folgendes Beispiel:
 
    ![new1](assets/new1.gif)
 
@@ -160,7 +160,7 @@ Angenommen, Sie möchten Inhalte eines Kanals nur freitags von 13:00 Uhr bis 22:
 
 ### DayParting {#day-parting}
 
-1. Wählen Sie den Kanal aus und klicken Sie auf **Dashboard** in der Aktionsleiste aus.
+1. Klicken Sie auf den Kanal und dann auf **Dashboard** in der Aktionsleiste aus.
 
 1. Nach Eingabe von Startdatum/Startzeit und Enddatum/Endzeit im Dialogfeld **Kanalzuweisung** können Sie einen Ausdruck oder eine natürliche Textversion verwenden, um Ihren Wiederholungsplan anzugeben.
 
@@ -190,7 +190,7 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 
 ### WeekParting {#week-parting}
 
-1. Wählen Sie den Kanal aus und klicken Sie auf **Dashboard** in der Aktionsleiste aus.
+1. Klicken Sie auf den Kanal und dann auf **Dashboard** in der Aktionsleiste aus.
 
 1. Nach Eingabe von Startdatum/Startzeit und Enddatum/Endzeit im Dialogfeld **Kanalzuweisung** können Sie einen Ausdruck oder eine natürliche Textversion verwenden, um Ihren Wiederholungsplan anzugeben.
 
@@ -219,7 +219,7 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 
 ### MonthParting {#month-parting}
 
-1. Wählen Sie den Kanal aus und klicken Sie auf **Dashboard** in der Aktionsleiste aus.
+1. Klicken Sie auf den Kanal und dann auf **Dashboard** in der Aktionsleiste aus.
 
 1. Nach Eingabe von Startdatum/Startzeit und Enddatum/Endzeit im Dialogfeld **Kanalzuweisung** können Sie einen Ausdruck oder eine natürliche Textversion verwenden, um Ihren Wiederholungsplan anzugeben.
 
@@ -247,7 +247,7 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 
 ### Kombination von Aufteilungen {#combined-parting}
 
-1. Wählen Sie den Kanal aus und klicken Sie auf **Dashboard** in der Aktionsleiste aus.
+1. Klicken Sie auf den Kanal und dann auf **Dashboard** in der Aktionsleiste aus.
 
 1. Nach Eingabe von Startdatum/Startzeit und Enddatum/Endzeit im Dialogfeld **Kanalzuweisung** können Sie einen Ausdruck oder eine natürliche Textversion verwenden, um Ihren Wiederholungsplan anzugeben.
 

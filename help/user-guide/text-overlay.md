@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 55%
@@ -58,15 +58,15 @@ Die folgende Abbildung zeigt das Projekt **TextOverlayDemo** mit dem Kanal **Tex
 
 Gehen Sie wie folgt vor, um die Textüberlagerung in einem AEM Screens-Kanal zu verwenden:
 
-1. Navigieren Sie zu **TextOverlayDemo** > **Kanäle** > **TextSample** und wählen **Bearbeiten** in der Aktionsleiste aus.
+1. Navigieren Sie zu **TextOverlayDemo** > **Kanäle** > **TextSample** und klicken **Bearbeiten** in der Aktionsleiste aus.
 
    ![screen_shot_2018-12-16at80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
-1. Wählen Sie das Bild aus und wählen Sie **Konfigurieren** (Schraubenschlüsselsymbol), um das Dialogfeld &quot;Eigenschaften&quot;zu öffnen.
+1. Klicken Sie auf das Bild und klicken Sie auf **Konfigurieren** (Schraubenschlüsselsymbol), um das Dialogfeld &quot;Eigenschaften&quot;zu öffnen.
 
    ![screen_shot_2018-12-16at80221pm](assets/screen_shot_2018-12-16at80221pm.png)
 
-1. Wählen Sie in der Navigationsleiste des Dialogfelds die Option **Textüberlagerung**, wie in der folgenden Abbildung dargestellt.
+1. Klicken Sie auf **Textüberlagerung** in der Navigationsleiste des Dialogfelds, wie in der folgenden Abbildung dargestellt.
 
    ![screen_shot_2018-12-16at80424pm](assets/screen_shot_2018-12-16at80424pm.png)
 
@@ -98,13 +98,13 @@ Informationen zum Einrichten und Verwalten von datengesteuerten Asset-Änderunge
 
 Nachdem Sie die erforderlichen Konfigurationen für Ihr Projekt eingerichtet haben, führen Sie die folgenden Schritte aus, um Werte aus den Google Tabellen zu verwenden:
 
-1. Navigieren Sie zu **TextOverlayDemo** > **Kanäle** > **TextSample** und wählen **Eigenschaften** in der Aktionsleiste aus.
+1. Navigieren Sie zu **TextOverlayDemo** > **Kanäle** > **TextSample** und klicken **Eigenschaften** in der Aktionsleiste aus.
 
-1. Wählen Sie die **Personalisierung** -Registerkarte, damit Sie die ContextHub-Konfigurationen einrichten können.
+1. Klicken Sie auf **Personalisierung** -Registerkarte, damit Sie die ContextHub-Konfigurationen einrichten können.
 
-   1. Wählen Sie die **ContextHub-Pfad** as **libs** > **settings** > **cloudsettings** > **default** > **ContextHub-Konfigurationen** und wählen **Auswählen**.
+   1. Klicken Sie auf **ContextHub-Pfad** as **libs** > **settings** > **cloudsettings** > **default** > **ContextHub-Konfigurationen** und klicken **Auswählen**.
 
-   1. Wählen Sie die **Segmentpfad** as **conf** > **screens** > **settings** > **wcm** > **Segmente** und wählen **Auswählen**.
+   1. Klicken Sie auf **Segmentpfad** as **conf** > **screens** > **settings** > **wcm** > **Segmente** und klicken **Auswählen**.
 
    1. Klicken Sie auf **Speichern und schließen**.
 
@@ -114,22 +114,22 @@ Nachdem Sie die erforderlichen Konfigurationen für Ihr Projekt eingerichtet hab
 
       ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
 
-1. Navigieren Sie zu **TextOverlayDemo** > **Kanäle** > **TextSample** und wählen **Bearbeiten** in der Aktionsleiste aus.
+1. Navigieren Sie zu **TextOverlayDemo** > **Kanäle** > **TextSample** und klicken **Bearbeiten** in der Aktionsleiste aus.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
 1. Fügen Sie eine Bild- und eine Textüberlagerungskomponente zu Ihrem Bild hinzu, wie im Abschnitt [Verwenden von Textüberlagerung](/help/user-guide/text-overlay.md#using-text-overlay) auf dieser Seite beschrieben.
 
-1. Wählen Sie aus **Konfigurieren** (Schraubenschlüsselsymbol), um die **Bild** Dialogfeld.
+1. Klicken Sie auf **Konfigurieren** (Schraubenschlüsselsymbol), um das Dialogfeld **Bild** zu öffnen.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay4.png)
 
-1. Navigieren Sie zur Registerkarte **ContextHub** im Dialogfeld **Bild**. Wählen Sie **Hinzufügen**.
+1. Navigieren Sie zur Registerkarte **ContextHub** im Dialogfeld **Bild**. Klicken Sie auf **Hinzufügen**.
 
    >[!NOTE]
    >Wenn Sie Ihre ContextHub-Konfiguration nicht eingerichtet haben, ist diese Option für Ihr Projekt deaktiviert.
 
-1. Eingabe **Wert** im **Platzhalter** -Feld. Wählen Sie die Zeile aus, die Sie aus Ihrem Google-Blatt abrufen möchten in **ContextHub-Variable**. In diesem Fall wird der Wert aus Zeile 2 und Spalte 1 aus den Google-Arbeitsblättern abgerufen. Geben Sie nun den **Standardwert** als **20** ein, wie in der folgenden Abbildung dargestellt. Wenn Sie fertig sind, wählen Sie das Kontrollkästchen aus.
+1. Eingabe **Wert** im **Platzhalter** -Feld. Klicken Sie auf die Zeile, die Sie aus Ihrem Google-Blatt abrufen möchten, in **ContextHub-Variable**. In diesem Fall wird der Wert aus Zeile 2 und Spalte 1 aus den Google-Arbeitsblättern abgerufen. Geben Sie nun den **Standardwert** als **20** ein, wie in der folgenden Abbildung dargestellt. Wenn Sie fertig sind, klicken Sie auf das Häkchen.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 
@@ -142,6 +142,6 @@ Nachdem Sie die erforderlichen Konfigurationen für Ihr Projekt eingerichtet hab
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay7.png)
 
-1. Wählen Sie **Vorschau**.
+1. Klicken Sie auf **Vorschau**. 
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay10.png)

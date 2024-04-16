@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d409ba46-b48a-44db-b305-27c392cd55de
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '710'
-ht-degree: 45%
+ht-degree: 49%
 
 ---
 
@@ -48,25 +48,25 @@ Gehen Sie wie folgt vor, um einen Notfallkanal einzurichten:
 
 1. **Erstellen eines Sequenzkanals**
 
-   1. Wählen Sie die **Kanäle** Ordner und auswählen **Erstellen**.
+   1. Klicken Sie auf **Kanäle** Ordner und klicken Sie auf **Erstellen**.
 
-   1. Wählen Sie im Assistenten die Option **Sequenzkanal** aus und erstellen Sie den Kanal mit dem Titel **MainAdChannel**.
+   1. Klicks **Sequenzkanal** Erstellen Sie im Assistenten den Kanal mit dem Titel **MainAdChannel**.
 
    ![screen_shot_2019-02-21at35932pm](assets/screen_shot_2019-02-21at35932pm.png)
 
 1. **Hinzufügen von Inhalten zu Sequenzkanälen**
 
-   1. Wählen Sie den Kanal (**MainAdChannel**) aus.
-   1. Auswählen **Bearbeiten** in der Aktionsleiste aus.
+   1. Klicken Sie auf den Kanal (**MainAdChannel**).
+   1. Klicks **Bearbeiten** in der Aktionsleiste aus.
    1. Ziehen Sie einige Assets per Drag-and-Drop in Ihren Kanal.
 
    ![screen_shot_2019-02-21at40053pm](assets/screen_shot_2019-02-21at40053pm.png)
 
 1. **Erstellen eines Notfallkanals**
 
-   1. Wählen Sie den Ordner **Kanäle** aus.
-   1. Wählen Sie **Erstellen** aus.
-   1. Wählen Sie im Assistenten die Option **Sequenzkanal** aus und erstellen Sie den Kanal mit dem Titel **EmergencyChannel**.
+   1. Klicken Sie auf **Kanäle** Ordner.
+   1. Klicken Sie auf **Erstellen**.
+   1. Klicks **Sequenzkanal** Erstellen Sie im Assistenten den Kanal mit dem Titel **EmergencyChannel**.
 
    >[!NOTE]
    >
@@ -76,8 +76,8 @@ Gehen Sie wie folgt vor, um einen Notfallkanal einzurichten:
 
 1. **Hinzufügen von Inhalten zu Notfallkanälen**
 
-   1. Wählen Sie den Kanal (**Notfallkanal**) aus.
-   1. Auswählen **Bearbeiten** in der Aktionsleiste aus.
+   1. Klicken Sie auf den Kanal (**Notfallkanal)**.
+   1. Klicks **Bearbeiten** in der Aktionsleiste aus.
    1. Ziehen Sie das Asset, das Sie im Notfall ausführen möchten, in Ihren Kanal.
 
    ![screen_shot_2019-02-21at40516pm](assets/screen_shot_2019-02-21at40516pm.png)
@@ -85,36 +85,36 @@ Gehen Sie wie folgt vor, um einen Notfallkanal einzurichten:
 1. **Erstellen eines Standorts**
 
    1. Navigieren Sie zum Ordner **Standorte**.
-   1. Auswählen **Erstellen** aus der Aktionsleiste und erstellen Sie einen Ort mit dem Titel **Store** aus dem Assistenten.
+   1. Klicken Sie in der Aktionsleiste auf **Erstellen** und erstellen Sie im Assistenten einen Standort mit dem Titel **Store**.
 
    ![screen_shot_2019-02-22at121638pm](assets/screen_shot_2019-02-22at121638pm.png)
 
 1. **Erstellen von Anzeigen für Ihren Standort**
 
-   Navigieren Sie zu Ihrem Standort (**Store**) und wählen Sie **Erstellen** in der Aktionsleiste aus. Erstellen Sie im Anschluss an den Assistenten zwei **Anzeigen** benannt als **StoreFront** und **StoreRear**.
+   Navigieren Sie zu Ihrem Standort (**Store**) und klicken Sie in der Aktionsleiste auf **Erstellen**. Erstellen Sie im Anschluss an den Assistenten zwei **Anzeigen** benannt als **StoreFront** und **StoreRear**.
 
    ![screen_shot_2019-02-22at122556pm](assets/screen_shot_2019-02-22at122556pm.png)
 
 1. **Erstellen eines Zeitplans**
 
    1. Navigieren Sie zum Ordner **Zeitpläne**.
-   1. Auswählen **Erstellen** in der Aktionsleiste aus.
+   1. Klicken Sie in der Aktionsleiste auf **Erstellen**.
    1. Erstellen Sie im Anschluss an den Assistenten einen Zeitplan mit dem Titel **StoreSchedule**.
 
    ![screen_shot_2019-02-22at122845pm](assets/screen_shot_2019-02-22at122845pm.png)
 
 1. Weisen Sie dem Zeitplan beide Anzeigen zu und legen Sie Prioritäten fest
 
-   1. Zeitplan auswählen **(StoreSchedule)** und wählen **Dashboard** in der Aktionsleiste aus.
+   1. Klicken Sie auf den Zeitplan **(StoreSchedule)** und klicken **Dashboard** in der Aktionsleiste aus.
 
-   1. Auswählen **+ Kanal zuweisen** aus dem **ZUGEWIESENE KANÄLE** Bedienfeld.
+   1. Klicken Sie im Bedienfeld **ZUGEWIESENE KANÄLE** auf **+ Kanal zuweisen**.
 
    1. Wählen Sie im Dialogfeld **Kanalzuweisung** Folgendes aus:
 
-      1. Wählen Sie den Pfad zum **MainAdChannel** aus
+      1. Klicken Sie auf den Pfad zum **MainAdChannel**
       1. Legen Sie die **Priorität** auf „2“ fest
       1. Wählen Sie unter „Unterstützte Ereignisse“ die Optionen **Erster Ladevorgang** und **Bildschirm bei Untätigkeit**.
-      1. Wählen Sie **Speichern** aus
+      1. Klicken Sie auf **Speichern**.
 
       Führen Sie dieselben Schritte erneut aus, um die **EmergencyChannel** und legen **Priorität**.
 
@@ -124,16 +124,16 @@ Gehen Sie wie folgt vor, um einen Notfallkanal einzurichten:
 
    ![screen_shot_2019-03-04at104636am](assets/screen_shot_2019-03-04at104636am.png)
 
-1. Auswählen **+ Kanal zuweisen** aus dem **ZUGEWIESENE KANÄLE** Bedienfeld.
+1. Klicken Sie im Bedienfeld **ZUGEWIESENE KANÄLE** auf **+ Kanal zuweisen**.
 
 1. Wählen Sie im Dialogfeld **Kanalzuweisung** Folgendes aus:
 
-   1. Wählen Sie den Pfad zum **EmergencyChannel** aus
+   1. Klicken Sie auf den Pfad zum **EmergencyChannel**
    1. Legen Sie die **Priorität** auf „1“ fest
 
    1. Wählen Sie unter „Unterstützte Ereignisse“ die Optionen **Erster Ladevorgang**, **Bildschirm bei Untätigkeit** und **Benutzerinteraktion**.
 
-   1. Wählen Sie **Speichern** aus
+   1. Klicken Sie auf **Speichern**.
 
    ![screen_shot_2019-03-04at104741am](assets/screen_shot_2019-03-04at104741am.png)
 
@@ -145,12 +145,12 @@ Gehen Sie wie folgt vor, um einen Notfallkanal einzurichten:
 
    1. Navigieren Sie zu jeder Anzeige, z. B. **EmergencyChannel** > **Standorte** > **Store** >**StoreFront**.
 
-   1. Auswählen **Dashboard** in der Aktionsleiste aus.
-   1. Auswählen **...** aus dem **ZUGEWIESENE KANÄLE UND ZEITPLÄNE** Bedienfeld und weitere Auswahl **+Zeitplan zuweisen**.
+   1. Klicks **Dashboard** in der Aktionsleiste aus.
+   1. Klicken Sie auf **...** im Bedienfeld **ZUGEWIESENE KANÄLE UND ZEITPLÄNE** und klicken Sie auf **+ Zeitplan zuweisen**.
 
-   1. Wählen Sie den Pfad zum Zeitplan aus (hier beispielsweise **EmergencyChannel** > **Zeitpläne** >**StoreSchedule**).
+   1. Klicken Sie auf den Pfad zum Zeitplan (hier beispielsweise **EmergencyChannel** > **Zeitpläne** >**StoreSchedule**).
 
-   1. Wählen Sie **Speichern** aus.
+   1. Klicken Sie auf **Speichern**.
 
    Sie können den der Anzeige zugewiesenen Zeitplan im Dashboard **StoreSchedule** anzeigen.
    ![screen_shot_2019-03-04at122003pm](assets/screen_shot_2019-03-04at122003pm.png)
@@ -165,15 +165,15 @@ Gehen Sie wie folgt vor, um einen Notfallkanal einzurichten:
 
 Führen Sie im Notfall die folgenden Schritte aus:
 
-1. Navigieren Sie zu **EmergencyChannel** > **Zeitpläne** > **StoreSchedule** und wählen **Dashboard** in der Aktionsleiste aus.
+1. Navigieren Sie zu **EmergencyChannel** > **Zeitpläne** > **StoreSchedule** und klicken **Dashboard** in der Aktionsleiste aus.
 
    ![screen_shot_2019-02-25at101112pm](assets/screen_shot_2019-02-25at101112pm.png)
 
-1. Wählen Sie die **EmergencyChannel** aus dem **StoreSchedule** Dashboard und wählen Sie **Zuweisung bearbeiten**.
+1. Klicken Sie auf **EmergencyChannel** aus dem **StoreSchedule** Dashboard und klicken Sie auf **Zuweisung bearbeiten**.
 
    ![screen_shot_2019-02-25at101239pm](assets/screen_shot_2019-02-25at101239pm.png)
 
-1. Aktualisieren Sie die **Priorität** des **EmergencyChannel** nach **3** aus dem **Kanalzuweisung** und wählen Sie **Speichern**.
+1. Aktualisieren Sie im Dialogfeld **Kanalzuweisung** die **Priorität** des **EmergencyChannel** auf **3** und klicken Sie auf **Speichern**.
 
    ![screen_shot_2019-02-25at101622pm](assets/screen_shot_2019-02-25at101622pm.png)
 

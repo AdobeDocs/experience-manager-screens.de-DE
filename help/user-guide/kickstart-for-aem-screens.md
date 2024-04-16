@@ -5,10 +5,10 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1270'
-ht-degree: 49%
+ht-degree: 55%
 
 ---
 
@@ -46,7 +46,7 @@ Gehen Sie wie folgt vor, um ein Beispielprojekt für AEM Screens zu erstellen un
 
    ![image](assets/config/empty-ref2.png)
 
-1. Auswählen **Speichern** , um den Apache Sling Referrer-Filter &quot;Allow Empty&quot;zu aktivieren.
+1. Klicken Sie auf **Speichern**, um den Apache Sling Referrer-Filter „Leere erlauben“ zu aktivieren.
 
 ## Erstellen eines Digital-Signage-Erlebnisses in fünf Minuten {#creating-a-digital-signage-experience-in-minutes}
 
@@ -54,15 +54,15 @@ Gehen Sie wie folgt vor, um ein Beispielprojekt für AEM Screens zu erstellen un
 
 Erstellen Sie zuerst ein AEM Screens-Projekt.
 
-1. Navigieren Sie zu Ihrer Adobe Experience Manager-Instanz (AEM) und wählen Sie **Screens**. Sie haben auch die Möglichkeit, direkt zur folgenden URL zu wechseln: `https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens`.
+1. Navigieren Sie zu Ihrer Adobe Experience Manager-Instanz und klicken Sie auf **Screens**. Sie haben auch die Möglichkeit, direkt zur folgenden URL zu wechseln: `https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens`.
 
-1. Auswählen **Screens-Projekt erstellen** , damit Sie ein Screens-Projekt erstellen können.
-1. Geben Sie den Titel als **DemoScreens**, wählen Sie **Speichern**.
+1. Klicks **Screens-Projekt erstellen** , damit Sie ein Screens-Projekt erstellen können.
+1. Geben Sie den Titel als **DemoScreens** Klicken Sie auf **Speichern**.
 
    ![Bild](assets/kickstart/demo-1.png)
 
    >[!NOTE]
-   >Nachdem Sie das Projekt erstellt haben, gelangen Sie zurück zur Startseite des AEM Screens-Projekts. Sie können Ihr Projekt jetzt auswählen. In einem Projekt gibt es fünf verschiedene Ordner mit dem Titel **Anwendungen**, **Kanäle**, **Geräte**, **Standorte** und **Zeitpläne**.
+   >Nachdem Sie das Projekt erstellt haben, gelangen Sie zurück zur Startseite des AEM Screens-Projekts. Sie können jetzt auf Ihr Projekt klicken. In einem Projekt gibt es fünf verschiedene Ordner mit dem Titel **Anwendungen**, **Kanäle**, **Geräte**, **Standorte** und **Zeitpläne**.
 
 ### Erstellen eines Kanals {#creating-channel}
 
@@ -70,16 +70,16 @@ Nachdem Sie Ihr AEM Screens-Projekt erstellt haben, erstellen Sie einen Kanal, i
 
 Gehen Sie wie folgt vor, um einen Kanal für Ihr Projekt zu erstellen:
 
-1. Nachdem Sie ein Projekt erstellt haben, wählen Sie die **DemoScreens** und wählen Sie das **Kanäle** -Ordner, wie in der folgenden Abbildung dargestellt. Auswählen **+ Erstellen** in der Aktionsleiste aus.
+1. Nachdem Sie ein Projekt erstellt haben, klicken Sie auf das **DemoScreens** und klicken Sie auf **Kanäle** -Ordner, wie in der folgenden Abbildung dargestellt. Klicken Sie in der Aktionsleiste auf **+ Erstellen**.
 
-   ![Bild](assets/kickstart/demo-2.png)
+   ![image](assets/kickstart/demo-2.png)
 
-1. Wählen Sie die **Sequenzkanal** Wählen Sie im Assistenten und **Nächste**.
-   ![Bild](assets/kickstart/demo-3.png)
+1. Wählen Sie im Assistenten die Vorlage **Sequenz-Kanal** aus und klicken Sie auf **Weiter**.
+   ![image](assets/kickstart/demo-3.png)
 
-1. Geben Sie die **Titel** as **TestChannel** und wählen **Erstellen**.
+1. Geben Sie **TestChannel** als **Titel** ein und klicken Sie auf **Erstellen**.
 
-   ![Bild](assets/kickstart/demo-4.png)
+   ![image](assets/kickstart/demo-4.png)
 
    Der **TestChannel** wird nun dem Ordner „Kanäle“ hinzugefügt, wie in der nachfolgenden Abbildung gezeigt.
 
@@ -91,13 +91,13 @@ Wenn Sie Ihren Kanal eingerichtet haben, fügen Sie Inhalte zu Ihrem Kanal hinzu
 
 Gehen Sie wie folgt vor, um dem Kanal (**TestChannel**) Ihres Projekts Inhalte hinzuzufügen:
 
-1. Navigieren Sie zum erstellten **DemoProject** und wählen Sie **TestChannel** aus dem Ordner **Kanäle** aus.
+1. Navigieren Sie zum **DemoProject** Sie haben erstellt und klicken Sie auf **TestChannel** aus dem **Kanäle** Ordner.
 
-1. Auswählen **Bearbeiten** über die Aktionsleiste (siehe Abbildung unten). Der Editor für den **Testkanal** wird geöffnet.
+1. Klicken Sie in der Aktionsleiste auf **Bearbeiten** (siehe Abbildung unten). Der Editor für den **Testkanal** wird geöffnet.
 
    ![image](assets/kickstart/demo-6.png)
 
-1. Wählen Sie das Symbol aus, über das das seitliche Bedienfeld auf der linken Seite der Aktionsleiste ein-/ausgeblendet wird, um die Assets und Komponenten zu öffnen.
+1. Klicken Sie auf das Symbol, das das seitliche Bedienfeld auf der linken Seite der Aktionsleiste umschaltet, um die Assets und Komponenten zu öffnen.
 
 1. Ziehen Sie die Komponenten, die Sie hinzufügen möchten, in den Kanal.
 
@@ -112,10 +112,10 @@ Wenn Sie Ihren Kanal eingerichtet haben, erstellen Sie einen Ort.
 
 Gehen Sie wie folgt vor, um einen Standort für Ihr Projekt zu erstellen:
 
-1. Navigieren Sie zum erstellten **DemoProject** und wählen Sie den Ordner **Standorte** aus.
-1. Auswählen **+ Erstellen** in der Aktionsleiste aus.
-1. Auswählen **Standort** Wählen Sie im Assistenten und **Nächste**.
-1. Geben Sie die **Name** für Ihren Standort (geben Sie den Titel als **TestLocation**) und wählen Sie **Erstellen**.
+1. Navigieren Sie zum **DemoProject** Sie haben erstellt und klicken Sie auf **Standorte** Ordner.
+1. Klicken Sie in der Aktionsleiste auf **+ Erstellen**.
+1. Klicks **Standort** Klicken Sie im Assistenten auf **Nächste**.
+1. Geben Sie den **Namen** und Titel für Ihren Standort ein (geben Sie als Titel **TestLocation** ein) und klicken Sie auf **Erstellen**.
 
 Der Standort **TestLocation** wird erstellt und dem Ordner **Standorte** hinzugefügt.
 
@@ -127,16 +127,16 @@ Wenn Sie einen Standort erstellt haben, erstellen Sie eine Anzeige für Ihren St
 >[!NOTE]
 >***Anzeige*** stellt das digitale Erlebnis dar, das auf einem oder mehreren Bildschirmen dargestellt wird.
 
-1. Navigieren Sie zur **TestLocation** und wählen Sie sie aus.
-1. Auswählen **Erstellen** in der Aktionsleiste aus.
+1. Navigieren Sie zum **TestLocation** und klicken Sie darauf.
+1. Klicken Sie in der Aktionsleiste auf **Erstellen**.
 
-   ![Bild](assets/kickstart/demo-disp1.png)
+   ![image](assets/kickstart/demo-disp1.png)
 
-1. Auswählen **Anzeige** aus dem **Erstellen** Assistent und wählen Sie **Nächste**.
+1. Klicks **Anzeige** aus dem **Erstellen** Assistent und klicken Sie auf **Nächste**.
 
-   ![Bild](assets/kickstart/demo-disp2.png)
+   ![image](assets/kickstart/demo-disp2.png)
 
-1. Geben Sie die **Titel** as **LobbyDisplay** und wählen **Erstellen**.
+1. Geben Sie unter **Titel** den Wert **LobbyDisplay** ein und klicken Sie auf **Erstellen**.
 
    ![image](assets/kickstart/demo-disp3.png)
 
@@ -150,13 +150,13 @@ Wenn die Projekteinrichtung abgeschlossen ist, weisen Sie den Kanal einer Anzeig
 
 1. Navigieren Sie von zur gewünschten Anzeige **DemoScreens** > **Standorte** > **TestLocation** > **LobbyDisplay**.
 
-1. Auswählen **Kanal zuweisen** in der Aktionsleiste aus.
+1. Klicken Sie in der Aktionsleiste auf **Kanal zuweisen**.
 
    ![image](assets/kickstart/demo-assign1.png)
 
    Oder
 
-   Auswählen **Dashboard** Wählen Sie in der Aktionsleiste die Option **+Kanal zuweisen** aus dem **ZUGEWIESENE KANÄLE UND ZEITPLÄNE** Bedienfeld.
+   Klicks **Dashboard** Klicken Sie in der Aktionsleiste auf **+Kanal zuweisen** aus dem **ZUGEWIESENE KANÄLE UND ZEITPLÄNE** Bedienfeld.
 
    ![image](assets/kickstart/demo-assign2.png)
 
@@ -170,13 +170,13 @@ Wenn die Projekteinrichtung abgeschlossen ist, weisen Sie den Kanal einer Anzeig
 
    ![Bild](assets/kickstart/demo-assign3.png)
 
-   Außerdem können Sie die **Aktivierungsfenster** und **Wiederholungsplan**.
+   Sie können auch auf die **Aktivierungsfenster** und **Wiederholungsplan**.
 
    >[!NOTE]
    >Die *Wiederholungsplan* ermöglicht Ihnen, einen Zeitplan für Ihren Kanal festzulegen. Sie richten mehrere Intervallzeitpläne für einen Kanal ein.
    >Weitere Informationen finden Sie unter [Intervallzeitplan](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule).
 
-1. Auswählen **Speichern** nach der Konfiguration Ihrer Voreinstellungen.
+1. Klicken Sie auf **Speichern**, nachdem Sie Ihre Voreinstellungen konfiguriert haben.
 
 ### Registrieren eines Geräts und Zuweisen eines Geräts zu einer Anzeige {#registering-device}
 
@@ -185,43 +185,43 @@ Registrieren Sie Ihr Gerät über das AEM Dashboard.
 >[!IMPORTANT]
 >Im Entwicklermodus kann der Chrome OS-Player als Chrome-Browser-Plug-in installiert werden, ohne dass ein echtes Chrome-Player-Gerät erforderlich ist. Gehen Sie zur Installation wie folgt vor:
 >
->1. Auswählen [here](https://download.macromedia.com/screens/) , um den neuesten Chrome-Player herunterzuladen.
+>1. Klicken Sie [hier](https://download.macromedia.com/screens/), um den neuesten Chrome-Player herunterzuladen.
 >1. Entpacken Sie die Datei und speichern Sie sie auf der Festplatte.
->1. Öffnen Sie den Chrome-Browser und wählen Sie im Menü die Option **Erweiterungen** oder navigieren Sie direkt zu ***chrome://extensions***.
+>1. Öffnen Sie den Chrome-Browser und klicken Sie auf **Erweiterungen** aus dem Menü oder direkt zu ***chrome://extensions***.
 >1. Schalten Sie die **Entwicklermodus** oben rechts.
->1. Auswählen **Entpacktes Laden** oben links und laden Sie den entpackten Chrome-Player.
+>1. Klicks **Entpacktes Laden** oben links und laden Sie den entpackten Chrome-Player.
 >1. Überprüfen **AEM Screens Chrome-Player** -Plug-in, wenn es in der Liste der Erweiterungen verfügbar ist.
->1. Öffnen Sie eine neue Registerkarte und wählen Sie die **Apps** Symbol oben links oder navigieren Sie direkt zu ***chrome://apps***.
->1. Auswählen **AEM Screens** Plug-in, damit Sie den Chrome-Player starten können. Standardmäßig wird der Player im Vollbildmodus gestartet. Presse **Esc** , um den Vollbildmodus zu beenden.
+>1. Öffnen Sie eine neue Registerkarte und klicken Sie auf **Apps** Symbol oben links oder navigieren Sie direkt zu ***chrome://apps***.
+>1. Klicks **AEM Screens** Plug-in, damit Sie den Chrome-Player starten können. Standardmäßig wird der Player im Vollbildmodus gestartet. Presse **Esc** , um den Vollbildmodus zu beenden.
 
 Nachdem Ihr Chrome OS-Player aktiviert ist, führen Sie die folgenden Schritte aus, um ein Chrome-Gerät zu registrieren.
 
 1. Navigieren Sie von Ihrer AEM-Instanz zum Ordner **Geräte** Ihres Projekts.
 
-1. Wählen Sie die **Geräte-Manager** in der Aktionsleiste aus.
+1. Klicken Sie auf **Geräte-Manager** in der Aktionsleiste aus.
 
    ![Bild](assets/kickstart/demo-register1.png)
 
-1. Wählen Sie die **Geräteregistrierung** oben rechts.
+1. Klicken Sie auf **Geräteregistrierung** oben rechts.
 
-1. Wählen Sie das gewünschte Gerät aus und wählen Sie **Gerät registrieren**.
+1. Klicken Sie auf das gewünschte Gerät und klicken Sie auf **Gerät registrieren**.
 
    ![Bild](assets/kickstart/demo-register2.png)
 
 1. Warten Sie, bis das Gerät seinen Registrierungs-Code sendet, und überprüfen Sie gleichzeitig von Ihrem Chrome-Gerät aus den **Registrierungs-Code**.
    ![Bild](assets/kickstart/demo-register3.png)
 
-1. Wenn die Variable **Registrierungs-Code** auf beiden Computern identisch ist, wählen Sie **Bestätigen** in AEM.
+1. Wenn die Variable **Registrierungs-Code** auf beiden Computern identisch ist, klicken Sie auf **Bestätigen** in AEM.
 
-1. Legen Sie den gewünschten Namen auf **ChromeDeviceforDemo** und wählen Sie **registrieren**.
+1. Legen Sie den gewünschten Namen für das Gerät als **ChromeDeviceforDemo** fest und klicken Sie auf **Registrieren**.
 
-   ![Bild](assets/kickstart/demo-register4.png)
+   ![image](assets/kickstart/demo-register4.png)
 
-1. Auswählen **Anzeige zuweisen** aus dem **Geräteregistrierung erfolgreich** Dialogfeld.
+1. Klicken Sie im Dialogfeld **Geräteregistrierung erfolgreich** auf **Anzeige zuweisen**.
 
-   ![Bild](assets/kickstart/demo-register5.png)
+   ![image](assets/kickstart/demo-register5.png)
 
-1. Wählen Sie den Pfad zu Ihrer Anzeige als **DemoScreens** > **Standorte** > **TestLocation** > **LobbyDisplay** und wählen **Zuweisen**.
+1. Klicken Sie auf den Pfad zu Ihrer Anzeige als **DemoScreens** > **Standorte** > **TestLocation** > **LobbyDisplay** und klicken **Zuweisen**.
 
    ![Bild](assets/kickstart/demo-device6.png)
 
@@ -229,7 +229,7 @@ Nachdem Ihr Chrome OS-Player aktiviert ist, führen Sie die folgenden Schritte a
 
    ![Bild](assets/kickstart/demo-register8.png)
 
-1. Auswählen **Beenden** , um den Registrierungsprozess abzuschließen. Sie können Ihr registriertes Gerät jetzt über das Anzeigen-Dashboard anzeigen.
+1. Klicks **Beenden** , um den Registrierungsprozess abzuschließen. Sie können Ihr registriertes Gerät jetzt über das Anzeigen-Dashboard anzeigen.
 
    ![Bild](assets/kickstart/demo-register9.png)
 

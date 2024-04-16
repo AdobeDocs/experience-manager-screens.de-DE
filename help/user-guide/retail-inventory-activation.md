@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '578'
-ht-degree: 38%
+ht-degree: 33%
 
 ---
 
@@ -50,19 +50,19 @@ Gehen Sie wie folgt vor, um das Anwendungsbeispiel zur Aktivierung des Einzelhan
 
    1. Fügen Sie drei neue Segmente **Für_Rot**, **Für_Grün** und **Für_Blau** hinzu.
 
-   1. Auswählen **For_Red** und wählen **Bearbeiten** in der Aktionsleiste aus.
+   1. Klicks **For_Red** und klicken **Bearbeiten** in der Aktionsleiste aus.
 
    1. Ziehen Sie die **Vergleich: Eigenschaft - Eigenschaft** in den Editor.
-   1. Wählen Sie die **Konfiguration** Symbol.
-   1. Wählen Sie **googlesheets/value/1/2** aus der Dropdown-Liste in **Name der ersten Eigenschaft** aus.
-   1. Wählen Sie unter **Operator** den Wert **größer als** aus dem Dropdown-Menü aus.
-   1. Auswählen **Datentyp** as **number**.
-   1. Auswählen **googlesheets/value/1/1** aus der Dropdown-Liste **Zweiter Eigenschaftsname**.
-   1. Drag &amp; Drop **Weiterer Vergleich: Eigenschaft - Eigenschaft** zum Editor hinzu und wählen Sie die **Konfiguration** Symbol.
-   1. Wählen Sie **googlesheets/value/1/2** aus der Dropdown-Liste in **Name der ersten Eigenschaft** aus.
-   1. Wählen Sie unter **Operator** den Wert **größer als** aus dem Dropdown-Menü aus.
-   1. Auswählen **Datentyp** as **number**.
-   1. Auswählen **googlesheets/value/1/0** aus der Dropdown-Liste **Zweiter Eigenschaftsname**.
+   1. Klicken Sie auf **Konfiguration** Symbol.
+   1. Klicks **googlesheets/value/1/2** aus der Dropdown-Liste **Vorname der Eigenschaft**.
+   1. Klicken Sie auf **Operator** as **größer als** aus dem Dropdown-Menü.
+   1. Klicks **Datentyp** as **number**.
+   1. Klicks **googlesheets/value/1/1** aus der Dropdown-Liste **Zweiter Eigenschaftsname**.
+   1. Drag &amp; Drop **Weiterer Vergleich: Eigenschaft - Eigenschaft** zum Editor hinzu und klicken Sie auf die Schaltfläche **Konfiguration** Symbol.
+   1. Klicks **googlesheets/value/1/2** aus der Dropdown-Liste **Vorname der Eigenschaft**.
+   1. Klicken Sie auf **Operator** as **größer als** aus dem Dropdown-Menü.
+   1. Klicks **Datentyp** as **number**.
+   1. Klicks **googlesheets/value/1/0** aus der Dropdown-Liste **Zweiter Eigenschaftsname**.
 
    ![screen_shot_2019-05-06at102600am](assets/screen_shot_2019-05-06at102600am.png)
 
@@ -78,8 +78,8 @@ Gehen Sie wie folgt vor, um das Anwendungsbeispiel zur Aktivierung des Einzelhan
    >
    >Beachten Sie Folgendes für Segmente **Für_Grün** und **Für_Grün** können Daten nicht im Editor aufgelöst werden, da gemäß den Werten in der Google Tabelle nur der erste Vergleich gültig ist.
 
-1. Navigieren Sie zu und wählen Sie Ihre **DataDrivenRetail** channel (ein Sequenzkanal).
-1. Auswählen **Bearbeiten** in der Aktionsleiste aus.
+1. Navigieren Sie zu und klicken Sie auf Ihre **DataDrivenRetail** channel (ein Sequenzkanal).
+1. Klicks **Bearbeiten** in der Aktionsleiste aus.
 
    ![screen_shot_2019-05-06at104257am](assets/screen_shot_2019-05-06at104257am.png)
 
@@ -91,13 +91,13 @@ Gehen Sie wie folgt vor, um das Anwendungsbeispiel zur Aktivierung des Einzelhan
 
    >[!NOTE]
    >
-   >Wählen Sie beide **Marke** und **Bereich** , damit die Aktivitäten beim Starten des Targeting-Prozesses korrekt aufgelistet werden.
+   >Klicken Sie auf beide **Marke** und **Bereich** , damit die Aktivitäten beim Starten des Targeting-Prozesses korrekt aufgelistet werden.
 
 1. **Hinzufügen eines Standardbilds**
 
-   1. Fügen Sie Ihrem Kanal ein Standardbild hinzu und wählen Sie **Targeting**.
-   1. Auswählen **Marke** und **Aktivität** aus dem Dropdown-Menü und wählen Sie **Targeting starten**.
-   1. Wählen Sie **Targeting starten**.
+   1. Fügen Sie Ihrem Kanal ein Standardbild hinzu und klicken Sie auf **Targeting**.
+   1. Klicks **Marke** und **Aktivität** aus dem Dropdown-Menü aus und klicken Sie auf **Targeting starten**.
+   1. Klicken Sie auf **Targeting starten**.
 
    ![screen_shot_2019-05-06at121253pm](assets/screen_shot_2019-05-06at121253pm.png)
 
@@ -113,7 +113,7 @@ Gehen Sie wie folgt vor, um das Anwendungsbeispiel zur Aktivierung des Einzelhan
 
 1. **Überprüfen der Vorschau**
 
-   1. Auswählen **Vorschau.**. Öffnen Sie außerdem Ihre Google Tabelle und aktualisieren Sie den Wert.
+   1. Klicken Sie auf **Vorschau**. Öffnen Sie außerdem Ihre Google Tabelle und aktualisieren Sie den Wert.
    1. Ändern Sie den Wert für alle drei verschiedenen Spalten. Beachten Sie, dass das Anzeigebild entsprechend dem höchsten Bestandswert aktualisiert wird.
 
    ![retail_result](assets/retail_result.gif)

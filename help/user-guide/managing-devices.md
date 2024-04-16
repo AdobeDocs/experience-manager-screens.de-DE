@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 41%
@@ -36,26 +36,26 @@ Gehen Sie wie folgt vor, um ein Gerät einer Anzeige zuzuweisen:
 
    ![chlimage_1-32](assets/chlimage_1-32.png)
 
-1. Wählen Sie **Geräte** Ordner und auswählen **Geräte-Manager** in der Aktionsleiste. Die zugewiesenen und nicht zugewiesenen Geräte werden angezeigt.
+1. Klicken Sie auf **Geräte** Ordner und klicken Sie auf **Geräte-Manager** in der Aktionsleiste. Die zugewiesenen und nicht zugewiesenen Geräte werden angezeigt.
 
    ![chlimage_1-33](assets/chlimage_1-33.png)
 
-1. Wählen Sie ein nicht zugewiesenes Gerät aus der Liste aus und wählen Sie die **Gerät zuweisen** in der Aktionsleiste.
+1. Klicken Sie auf ein nicht zugewiesenes Gerät in der Liste und klicken Sie auf das **Gerät zuweisen** in der Aktionsleiste.
 
    ![chlimage_1-34](assets/chlimage_1-34.png)
 
-1. Wählen Sie die Anzeige aus, der Sie das Gerät zuweisen möchten, und wählen Sie die **Zuweisen**.
+1. Klicken Sie in der Liste auf die Anzeige, der Sie das Gerät zuweisen möchten, und klicken Sie auf die **Zuweisen**.
 
    ![chlimage_1-35](assets/chlimage_1-35.png)
 
-1. Wählen Sie die **Beenden** , um den Zuweisungsprozess abzuschließen.
+1. Klicken Sie auf **Beenden** , um den Zuweisungsprozess abzuschließen.
 
 
    Das Anzeigen-Dashboard zeigt das zugewiesene Gerät im Bedienfeld **GERÄTE** an.
 
    ![chlimage_1-37](assets/chlimage_1-37.png)
 
-   Wählen Sie die (**...**) oben rechts im **Geräte** -Bedienfeld, um entweder die Gerätekonfiguration hinzuzufügen oder die Geräte zu aktualisieren.
+   Klicken Sie auf (**...**) oben rechts im **Geräte** -Bedienfeld, um entweder die Gerätekonfiguration hinzuzufügen oder die Geräte zu aktualisieren.
 
    ![chlimage_1-38](assets/chlimage_1-38.png)
 

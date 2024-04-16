@@ -10,10 +10,10 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1114'
-ht-degree: 52%
+ht-degree: 54%
 
 ---
 
@@ -46,7 +46,7 @@ Führen Sie dazu folgende Schritte durch:
 1. Legen Sie das **Attribut „SameSite“ für die Anmelde-Token-Cookies** von **Lax** (Gering) auf **None** (Keine) fest.
    ![image](/help/user-guide/assets/granite-updates.png)
 
-1. Wählen Sie **Speichern** aus.
+1. Klicken Sie auf **Speichern**.
 
 ### Ad-hoc-Methode {#ad-hoc-method}
 
@@ -55,7 +55,7 @@ Mit der Ad-hoc-Methode können Sie den neuesten Windows Player (*.exe*). Rufen S
 Nachdem Sie die Anwendung heruntergeladen haben, führen Sie die Schritte auf dem Player aus, um die Ad-hoc-Installation abzuschließen:
 
 1. Halten Sie die linke obere Ecke gedrückt, um das Admin-Bedienfeld zu öffnen.
-1. Navigieren Sie zu **Konfiguration** Geben Sie im linken Aktionsmenü den Speicherort (die Adresse) der AEM Instanz ein, zu der Sie eine Verbindung herstellen möchten, und wählen Sie **Speichern**.
+1. Navigieren Sie im linken Aktionsmenü zu **Konfiguration**, geben Sie den Standort (die Adresse) der AEM-Instanz ein, zu der Sie eine Verbindung aufbauen möchten, und klicken Sie auf **Speichern**.
 1. Navigieren Sie zum **Gerät** **Registrierung** im linken Aktionsmenü, damit Sie den Status des Prozesses zur Geräteregistrierung überprüfen können.
 
 >[!NOTE]
@@ -73,7 +73,7 @@ Sie können Ihrem Windows-Player einen benutzerfreundlichen Gerätenamen zuweise
 
 Gehen Sie wie folgt vor, um den Namen im Windows-Player zu konfigurieren:
 
-1. Auswählen **start** > **run**.
+1. Klicks **start** > **run**.
 1. Eingabe `system.cpl`.
 1. Legen Sie auf der Registerkarte &quot;Computername&quot;den Hostnamen des Computers fest.
 

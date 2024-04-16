@@ -6,10 +6,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '581'
-ht-degree: 34%
+ht-degree: 44%
 
 ---
 
@@ -67,7 +67,7 @@ Gehen Sie wie folgt vor, um benutzerdefiniertes Branding und Styling für Textü
 
 1. Kopieren Sie den Pfad zu Ihrem Projekt. In diesem Fall lautet der Pfad `/apps/settings/wcm/designs/customstyle`.
 
-1. Navigieren Sie zum Kanal mit dem Namen **DemoBrand** (erstellt in Schritt 1) und wählen Sie **Eigenschaften** in der Aktionsleiste nach Auswahl des Kanals.
+1. Navigieren Sie zum Kanal mit dem Namen **DemoBrand** (erstellt in Schritt 1) und klicken Sie nach der Auswahl des Kanals in der Aktionsleiste auf **Eigenschaften**.
 
 1. Navigieren Sie zur Registerkarte **Erweitert** und aktivieren Sie das Feld **Design**.
    ![image](/help/user-guide/assets/custom-brand/custom-brand5.png)
@@ -77,9 +77,9 @@ Gehen Sie wie folgt vor, um benutzerdefiniertes Branding und Styling für Textü
 
 1. Aktualisieren Sie das Feld **Design** mit dem Pfad zum Projektordner. In diesem Beispiel ist er auf `/apps/settings/wcm/designs/customstyle` festgelegt.
 
-   ![Bild](/help/user-guide/assets/custom-brand/custom-brand6.png)
+   ![image](/help/user-guide/assets/custom-brand/custom-brand6.png)
 
-1. Auswählen **Speichern und schließen** , um den Designpfad zu aktualisieren.
+1. Klicken Sie auf **Speichern und schließen**, um den Design-Pfad zu aktualisieren.
 
    >[!IMPORTANT]
    >Sie können optional die vorhandenen Screens-Vorlagen überlagern, um Ihre eigenen Designs standardmäßig einzufügen oder eine eigene Vorlage zu erstellen. Weitere Informationen finden Sie in den folgenden Schritten.
@@ -108,9 +108,9 @@ Wenn Sie die vorherigen Schritte ausgeführt haben, können Sie Ihre *statis.css
 
 Gehen Sie wie folgt vor, um die Textüberlagerung mit dem aktualisierten Design anzuzeigen:
 
-1. Navigieren Sie zu Ihrem AEM Screens-Projekt mit dem Titel **`customstyle`** > **Kanäle** > **DemoBrand**. Wählen Sie den Kanal aus und wählen Sie **Bearbeiten** in der Aktionsleiste aus.
+1. Navigieren Sie zu Ihrem AEM Screens-Projekt mit dem Titel **`customstyle`** > **Kanäle** > **DemoBrand**. Klicken Sie auf den Kanal und klicken Sie auf **Bearbeiten** in der Aktionsleiste aus.
 
-1. Da Sie jetzt das Design zu Ihrem **Designs** wie oben erwähnt, wählen Sie **Vorschau** um den aktuellen Stil des Bildes mit Textüberlagerung anzuzeigen.
+1. Da Sie jetzt das Design, wie oben erwähnt, dem Feld **Designs** hinzugefügt haben, klicken Sie auf **Vorschau**, um das aktuelle Bild-Styling mit der Textüberlagerung anzuzeigen.
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand7.png)
 

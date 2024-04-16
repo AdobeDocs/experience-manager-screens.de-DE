@@ -10,10 +10,10 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1462'
-ht-degree: 32%
+ht-degree: 33%
 
 ---
 
@@ -45,7 +45,7 @@ Führen Sie dazu folgende Schritte durch:
 1. Legen Sie das **Attribut „SameSite“ für die Anmelde-Token-Cookies** von **Lax** (Gering) auf **None** (Keine) fest.
    ![image](/help/user-guide/assets/granite-updates.png)
 
-1. Wählen Sie **Speichern** aus.
+1. Klicken Sie auf **Speichern**.
 
 
 ### Ad-hoc-Methode {#ad-hoc-method}
@@ -55,7 +55,7 @@ Mit der Ad-hoc-Methode können Sie den neuesten Android™ Player (*.exe*). Rufe
 Nachdem Sie die Anwendung heruntergeladen haben, führen Sie die Schritte auf dem Player aus, um die Ad-hoc-Installation abzuschließen:
 
 1. Halten Sie die linke obere Ecke gedrückt, um das Admin-Bedienfeld zu öffnen.
-1. Navigieren Sie zu **Konfiguration** Geben Sie im linken Aktionsmenü den Speicherort (die Adresse) der AEM Instanz ein, zu der Sie eine Verbindung herstellen möchten, und wählen Sie **Speichern**.
+1. Navigieren Sie im linken Aktionsmenü zu **Konfiguration**, geben Sie den Standort (die Adresse) der AEM-Instanz ein, zu der Sie eine Verbindung aufbauen möchten, und klicken Sie auf **Speichern**.
 
 1. Navigieren Sie zum **Gerät** **Registrierung** im linken Aktionsmenü, damit Sie den Status des Prozesses zur Geräteregistrierung überprüfen können.
 
@@ -193,7 +193,7 @@ Gehen Sie wie folgt vor, um die Massenbereitstellung im Android™-Player zuzula
 1. Stellen Sie sicher, dass Ihr Android™-Gerät Google Play-Dienste unterstützt.
 1. Registrieren Sie Ihre Android™-Player-Geräte mit Ihrer bevorzugten EMM-Lösung, die AppConfig unterstützt.
 1. Melden Sie sich bei Ihrer EMM-Konsole an und rufen Sie die AEM Screens Player-Anwendung von Google Play ab.
-1. Wählen Sie die verwaltete Konfiguration oder die zugehörige Option aus.
+1. Klicken Sie auf Verwaltete Konfiguration oder zugehörige Option.
 1. Sie sollten nun eine Liste der Player-Optionen sehen, die konfiguriert werden können, wie z. B. Server und Massenregistrierungs-Code.
 1. Konfigurieren Sie diese Parameter, speichern Sie sie und stellen Sie die Richtlinie auf den Geräten bereit.
 

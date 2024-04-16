@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: cdfaee19-15d9-4bcb-bc85-0b43c59d88d2
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '771'
-ht-degree: 31%
+ht-degree: 26%
 
 ---
 
@@ -42,13 +42,13 @@ Sie können Ihrem Kanal eine eingebettete Sequenz hinzufügen. Bei einer eingebe
 
 Gehen Sie wie folgt vor, um Ihrem Kanal eine eingebettete Sequenz hinzuzufügen:
 
-1. Wählen Sie den Kanal aus, in den Sie eine Seite einbetten möchten. Beispiel: **`We.Retail`Im Store** > **Kanäle** > **Idle Channel**.
+1. Klicken Sie auf den Kanal, in den Sie eine Seite einbetten möchten. Beispiel: **`We.Retail`Im Store** > **Kanäle** > **Idle Channel**.
 
-1. Auswählen **Bearbeiten** in der Aktionsleiste aus.
-1. Wählen Sie im Editor-Modus in der linken Seitenleiste das Symbol &quot;Komponenten&quot;, damit Sie die eingebettete Seite hinzufügen können. Ziehen Sie die **eingebettete Sequenz** in den Editor.
+1. Klicks **Bearbeiten** in der Aktionsleiste aus.
+1. Klicken Sie im Editor-Modus in der linken Seitenleiste auf das Symbol &quot;Komponenten&quot;, damit Sie die eingebettete Seite hinzufügen können. Ziehen Sie die **eingebettete Sequenz** in den Editor.
 1. Doppelklicken Sie auf die **Eingebettete Sequenz** -Komponente, damit Sie den Kanal zu Ihrem ursprünglichen Sequenzkanal hinzufügen können.
-1. Wählen Sie den **Kanalpfad** des Kanals aus.
-1. Wählen Sie die **Dauer (Millisekunden)** für Ihren eingebetteten Kanal im **Sequenz** Registerkarte. Standardmäßig ist die Dauer auf **-1** eingestellt. Dies bedeutet, dass der eingebettete Kanal vollständig ausgeführt wird. Wenn der Benutzer eine Dauer angibt, wird die Teilsequenz zur angegebenen Zeit unterbrochen (abgeschnitten).
+1. Klicken Sie auf **Kanalpfad** des Kanals.
+1. Klicken Sie auf **Dauer (Millisekunden)** für Ihren eingebetteten Kanal im **Sequenz** Registerkarte. Standardmäßig ist die Dauer auf **-1** eingestellt. Dies bedeutet, dass der eingebettete Kanal vollständig ausgeführt wird. Wenn der Benutzer eine Dauer angibt, wird die Teilsequenz zur angegebenen Zeit unterbrochen (abgeschnitten).
 
 1. Legen Sie die **gemessene Wiedergabestrategie** auf **normal** fest.
 
@@ -60,15 +60,15 @@ Standardmäßig ist diese auf **normal** eingestellt. Festlegen des Werts auf **
 >
 >Führen Sie die folgenden Schritte aus, nachdem Sie Ihrem Kanal aus den vorangegangenen Schritten eine eingebettete Sequenz hinzugefügt haben:
 >
->1. Navigieren Sie zur Anzeige und wählen Sie die Anzeige aus dem Ordner **Standorte** aus.
->1. Auswählen **Dashboard** in der Aktionsleiste aus.
->1. Wählen Sie im Anzeigen-Dashboard **+ Kanäle zuweisen** aus dem **ZUGEWIESENE KANÄLE UND GEPLANTE BEREICHE** Sie können die **Dialogfeld &quot;Kanalzuweisung&quot;**.
+>1. Navigieren Sie zur Anzeige und klicken Sie auf die Anzeige von **Standorte** Ordner.
+>1. Klicks **Dashboard** in der Aktionsleiste aus.
+>1. Klicken Sie im Anzeigen-Dashboard auf **+ Kanäle zuweisen** aus dem **ZUGEWIESENE KANÄLE UND GEPLANTE BEREICHE** Sie können die **Dialogfeld &quot;Kanalzuweisung&quot;**.
 >
->1. Wählen Sie den Pfad des Kanals (den Sie in der eingebetteten Sequenz verwenden) im **Kanalpfad** aus.
+>1. Klicken Sie auf den Pfad des Kanals, in dem Sie (in eingebetteter Sequenz) **Kanalpfad**.
 >1. Stellen Sie sicher, dass die **Priorität** niedriger als die des Hauptkanals ist.
 >
->1. Wählen Sie keine **Unterstützte Ereignisse**.
->1. Auswählen **Speichern** wann geschehen.
+>1. Klicken Sie nicht auf **Unterstützte Ereignisse**.
+>1. Klicks **Speichern** wann geschehen.
 >
 
 Das folgende Beispiel zeigt das Hinzufügen einer eingebetteten Sequenz (**Idle Channel - Night**) zu einem vorhandenen Kanal (**Idle Channel**).
@@ -87,16 +87,16 @@ Sie können Ihrem Kanal eine dynamische eingebettete Sequenz hinzufügen. Eine d
 
 Gehen Sie wie folgt vor, um Ihrem Kanal eine eingebettete Sequenz hinzuzufügen:
 
-1. Wählen Sie den Kanal aus, in den Sie eine dynamische Sequenz einbetten möchten. Beispiel: **`We.Retail`Im Store** > **Kanäle** > **Idle Channel**.
+1. Klicken Sie auf den Kanal, in den Sie eine dynamische Sequenz einbetten möchten. Beispiel: **`We.Retail`Im Store** > **Kanäle** > **Idle Channel**.
 
-1. Auswählen **Bearbeiten** in der Aktionsleiste aus.
-1. Wählen Sie im Editor-Modus in der linken Seitenleiste das Symbol &quot;Komponenten&quot;, damit Sie die dynamische eingebettete Sequenz hinzufügen können. Ziehen Sie die **Dynamik** **Eingebettete Sequenz** in den Editor.
+1. Klicks **Bearbeiten** in der Aktionsleiste aus.
+1. Klicken Sie im Editor-Modus in der linken Seitenleiste auf das Symbol &quot;Komponenten&quot;, damit Sie die dynamische eingebettete Sequenz hinzufügen können. Ziehen Sie die **Dynamik** **Eingebettete Sequenz** in den Editor.
 
 1. Doppelklicken Sie auf die **Dynamik** **Eingebettete Sequenz** -Komponente, damit Sie die Seite Ihrem Sequenzkanal hinzufügen können.
 
 1. Geben Sie die **Kanalzuordnungsrolle** ein.
 1. Legen Sie die **gemessene Wiedergabestrategie** auf **normal** fest. Standardmäßig ist diese auf **normal** eingestellt. Festlegen des Werts auf **normal** (Alle Elemente abspielen) bedeutet, dass die Teilsequenz bei jedem Zyklus der übergeordneten Sequenz vollständig ausgeführt wird. Der andere mögliche Wert lautet **Einzelnes Element abspielen**. Dieser Wert zeigt nur ein Element der Teilsequenz bei jeder Ausführung an. Beispielsweise das erste Element bei der ersten Schleife und das zweite Element bei der zweiten Schleife.
 
-1. Wählen Sie die **Dauer (Millisekunden)** in **Sequenz** für Ihren eingebetteten Kanal in der Sequenz.
+1. Klicken Sie auf **Dauer (Millisekunden)** in **Sequenz** für Ihren eingebetteten Kanal in der Sequenz.
 
 ![latest](assets/latest.gif)

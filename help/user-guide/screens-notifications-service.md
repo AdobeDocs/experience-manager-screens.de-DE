@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '489'
-ht-degree: 16%
+ht-degree: 20%
 
 ---
 
@@ -83,7 +83,7 @@ Gehen Sie wie folgt vor, um die E-Mail-Benachrichtigungseinstellungen zu konfigu
    >
    >Sie können nur eine E-Mail-Adresse eingeben. Um eine Massen-E-Mail zu senden, erstellen Sie eine Gruppen- oder Verteilerliste mit den entsprechenden Benutzern.
 
-1. Auswählen **Speichern** , um die Überwachungsaktivität per E-Mail für Ihr AEM Screens-Gerät zu konfigurieren.
+1. Klicken Sie auf **Speichern**, um die Überwachungsaktivität per E-Mail für Ihr AEM Screens-Gerät zu konfigurieren.
 
 ## E-Mail-Benachrichtigung {#email-notification}
 

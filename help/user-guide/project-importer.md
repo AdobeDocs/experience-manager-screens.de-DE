@@ -10,10 +10,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '619'
-ht-degree: 47%
+ht-degree: 49%
 
 ---
 
@@ -101,17 +101,17 @@ Gehen Sie wie folgt vor, um eine Datei mit den erforderlichen Mindestfeldern in 
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. Wählen Sie das Projekt &quot;DemoProjectImporter&quot;aus **>** Erstellen **>** Importverzeichnisse** aus der Seitenleiste.
+1. Klicken Sie auf das Projekt &quot;DemoProjectImporter&quot;. **>** Erstellen **>** Importverzeichnisse** aus der Seitenleiste.
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 
-1. Die **Import** angezeigt. Wählen Sie die Datei für Ihr Projekt mit Standorten aus oder wählen Sie die Datei (***minimal-file.xls***), die Sie aus dem *Voraussetzungen* Abschnitt.
+1. Die **Import** angezeigt. Klicken Sie auf die Datei für Ihr Projekt mit Standorten oder klicken Sie auf die Datei (***minimal-file.xls***), die Sie aus dem *Voraussetzungen* Abschnitt.
 
-   Nachdem Sie die Datei ausgewählt haben, wählen Sie **Nächste**.
+   Klicken Sie nach Auswahl der Datei auf **Nächste**.
 
    ![screen_shot_2019-05-15at113718am](assets/screen_shot_2019-05-15at113718am.png)
 
-1. Überprüfen Sie den Inhalt der Datei (Standorte) im Import-Assistenten und wählen Sie **Import**.
+1. Überprüfen Sie den Inhalt der Datei (Standorte) im Importassistenten und klicken Sie auf **Importieren**.
 
    ![screen_shot_2019-05-12at53131am](assets/screen_shot_2019-05-12at53131am.png)
 

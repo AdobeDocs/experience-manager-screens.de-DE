@@ -10,10 +10,10 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 37%
+ht-degree: 35%
 
 ---
 
@@ -23,15 +23,15 @@ Sie können die Leistung Ihrer AEM Screens-Player-Aktivität und Ihres Geräts �
 
 ## Durchführen der Überwachung und Fehlerbehebung über das Geräte-Kontrollzentrum {#monitor-and-troubleshoot-from-device-control-center}
 
-Über das Geräte-Dashboard können Sie die Aktivität überwachen und damit Fehler Ihres AEM Screens-Players beheben.
+Sie können die Aktivität überwachen und somit mithilfe des Geräte-Dashboards Fehler in Ihrem AEM Screens-Player beheben.
 
 ### Geräte-Dashboard {#device-dashboard}
 
 Führen Sie die folgenden Schritte aus, um zum Geräte-Dashboard zu navigieren:
 
-1. Navigieren Sie in Ihrem Projekt zum Device Dashboard, ***z. B. Test Projekt*** > ***Geräten***.
+1. Navigieren Sie vom Projekt zum Geräte-Dashboard, z. B. ***Testprojekt*** > ***Geräte***.
 
-   Wählen Sie in der Aktionsleiste die Optionen **Geräte** und **Geräte-Manager** aus.
+   Klicks **Geräte** und **Geräte-Manager** in der Aktionsleiste aus.
 
    ![screen_shot_2019-09-03at13823pm](assets/screen_shot_2019-09-03at13823pm.png)
 
@@ -39,21 +39,21 @@ Führen Sie die folgenden Schritte aus, um zum Geräte-Dashboard zu navigieren:
 
    ![screen_shot_2019-09-05at12823pm](assets/screen_shot_2019-09-05at12823pm.png)
 
-1. Wählen Sie das Gerät (**NewTestDevice**) und wählen Sie **Dashboard** in der Aktionsleiste aus.
+1. Klicken Sie auf das Gerät (**NewTestDevice**) und klicken Sie auf **Dashboard** in der Aktionsleiste aus.
 
    ![screen_shot_2019-09-05at13341pm](assets/screen_shot_2019-09-05at13341pm.png)
 
-1. Im Seite werden die Device Informationen, Aktivität und die Device Details angezeigt, mit denen Sie die Device Aktivitäten und Funktionen überwachen können.
+1. Auf der Seite werden die Geräteinformationen, die Aktivität und die Gerätedetails angezeigt, mit denen Sie die Geräteaktivitäten und -funktionen überwachen können.
 
    ![screen_shot_2019-09-05at13700pm](assets/screen_shot_2019-09-05at13700pm.png)
 
-### Überwachen der Geräteaktivität {#monitor-device-activity}
+### Geräteaktivität überwachen {#monitor-device-activity}
 
-Das **Bedienfeld &quot;Aktivität** &quot; zeigt den letzten Ping Ihres AEM Screens Players mit dem Zeitstempel an. Das letzte Ping entspricht dem letzten Zeitpunkt, zu dem der Device den Server kontaktiert hat.
+Die **Aktivität** zeigt den letzten Ping Ihres AEM Screens-Players mit dem Zeitstempel an. Der letzte Ping entspricht dem letzten Kontakt des Geräts mit dem Server.
 
 ![chlimage_1](assets/chlimage_1.png)
 
-Wählen Sie außerdem in der oberen rechten Ecke des Bedienfelds &quot;**Aktivität**&quot; die Option **&quot;Protokolle** sammeln&quot; aus, um die Protokolle für Ihren Player zu Ansicht.
+Klicken Sie außerdem auf **Protokolle erfassen** oben rechts im **Aktivität** angezeigt, um die Protokolle für Ihren Player anzuzeigen.
 
 ### Aktualisieren der Gerätedetails {#update-device-details}
 
@@ -61,23 +61,23 @@ Wählen Sie außerdem in der oberen rechten Ecke des Bedienfelds &quot;**Aktivit
 
 ![chlimage_1-1](assets/chlimage_1-1.png)
 
-Wählen Sie außerdem **Cache löschen** und **Aktualisieren** , um den Cache Ihres Geräts zu löschen und die [Firmware](screens-glossary.md) -Version aus diesem Bedienfeld aus.
+Klicken Sie außerdem auf **Cache löschen** und **Aktualisieren** , um den Cache Ihres Geräts zu löschen und die [Firmware](screens-glossary.md) -Version aus diesem Bedienfeld aus.
 
-Wählen Sie außerdem **...** oben rechts im **Gerätedetails** um den Status Ihres Players neu zu starten oder zu aktualisieren.
+Klicken Sie außerdem auf **...** oben rechts im **Gerätedetails** um den Status Ihres Players neu zu starten oder zu aktualisieren.
 
 ![chlimage_1-2](assets/chlimage_1-2.png)
 
-### Aktualisieren der Geräte Informationen {#update-device-information}
+### Aktualisieren von Geräteinformationen {#update-device-information}
 
-Überprüfen Sie das **Bedienfeld GERÄTEINFORMATIONEN** . Hier können Sie die Konfigurationsaktualisierung, Device Modell, Device Betriebssystem und die Shell-Informationen Ansicht.
+Überprüfen Sie die **GERÄTEINFORMATIONEN** Bedienfeld. Hier können Sie die Konfigurationsaktualisierung, das Gerätemodell, das Betriebssystem des Geräts und die Shell-Informationen anzeigen.
 
 ![screen_shot_2019-09-05at13853pm](assets/screen_shot_2019-09-05at13853pm.png)
 
-Wählen Sie außerdem (**...)** in der oberen rechten Ecke des Bedienfelds &quot;Device Informationen&quot; aus, um Eigenschaften zu Ansicht oder die Device zu aktualisieren.
+Klicken Sie außerdem auf (**...**) oben rechts im Bedienfeld &quot;Geräteinformationen&quot;klicken, um Eigenschaften anzuzeigen oder das Gerät zu aktualisieren.
 
 ![screen_shot_2019-09-05at14017pm](assets/screen_shot_2019-09-05at14017pm.png)
 
-Wählen Sie **Eigenschaften** aus, damit Sie das **Dialogfeld Gerät Eigenschaften** Ansicht können. Sie können den Gerätenamen bearbeiten oder die Option für Konfigurationsaktualisierungen als **Manuell** oder **Automatisch**.
+Klicks **Eigenschaften** so können Sie die **Geräteeigenschaften** Dialogfeld. Sie können den Gerätenamen bearbeiten oder die Option für Konfigurationsaktualisierungen als **Manuell** oder **Automatisch**.
 
 >[!NOTE]
 >
@@ -89,20 +89,20 @@ Wählen Sie **Eigenschaften** aus, damit Sie das **Dialogfeld Gerät Eigenschaft
 
 Sie können den Player-Screenshot für das Gerät im Bedienfeld **PLAYER-SCREENSHOT** anzeigen.
 
-Wählen Sie (**...)** in der oberen rechten Ecke des Bedienfelds &quot;Player-Screenshot&quot; und wählen Sie &quot;Aktualisieren Screenshot&quot; aus **, um den Schnappschuss** des ausgeführten Players zu Ansicht.
+Klicken Sie auf (**...**) oben rechts im Bedienfeld &quot;Player-Screenshot&quot;auf und klicken Sie auf **Screenshot aktualisieren** , um den Schnappschuss des ausgeführten Players anzuzeigen.
 
 ![screen_shot_2019-09-05at14205pm](assets/screen_shot_2019-09-05at14205pm.png)
 
-### Voreinstellungen verwalten {#manage-preferences}
+### Verwalten von Voreinstellungen {#manage-preferences}
 
 Im Bedienfeld **VOREINSTELLUNGEN** können Benutzer die Voreinstellungen des Geräts für **Administrator-Benutzeroberfläche**, **Kanalschalter** und **Remote-Debugging** ändern.
 
 >[!NOTE]
->Weitere Informationen zu diesen Optionen finden Sie unter [AEM Screens](working-with-screens-player.md) Player.
+>Weitere Informationen zu diesen Optionen finden Sie unter [AEM Screens Player](working-with-screens-player.md).
 
 ![screen_shot_2019-09-05at14250pm](assets/screen_shot_2019-09-05at14250pm.png)
 
-Wählen Sie außerdem **Einstellungen** oben rechts, um die Gerätevoreinstellungen zu aktualisieren. Sie können die folgenden Voreinstellungen aktualisieren:
+Klicken Sie außerdem auf **Einstellungen** oben rechts, um die Gerätevoreinstellungen zu aktualisieren. Sie können die folgenden Voreinstellungen aktualisieren:
 
 * **Server-URL**
 * **Auflösung**
@@ -113,7 +113,7 @@ Wählen Sie außerdem **Einstellungen** oben rechts, um die Gerätevoreinstellun
 ![screen_shot_2019-09-05at14511pm](assets/screen_shot_2019-09-05at14511pm.png)
 
 >[!NOTE]
->Sie können eine der folgenden Protokollebenen auswählen:
+>Sie können auf eine der folgenden Protokollebenen klicken:
 >* **Deaktivieren**
 >* **Debug**
 >* **Info**
@@ -122,7 +122,7 @@ Wählen Sie außerdem **Einstellungen** oben rechts, um die Gerätevoreinstellun
 
 ![screen_shot_2019-09-05at15645pm](assets/screen_shot_2019-09-05at15645pm.png)
 
-## Fehlerbehebung bei OSGi Einstellungen {#troubleshoot-osgi-settings}
+## Fehlerbehebung bei OSGi-Einstellungen {#troubleshoot-osgi-settings}
 
 Aktivieren Sie den leeren Referrer, damit das Gerät Daten an den Server posten kann. Wenn die Eigenschaft für den leeren Referrer deaktiviert ist, kann das Gerät keine Screenshots zurückgeben.
 
@@ -132,29 +132,29 @@ Führen Sie die nachfolgenden Schritte aus, um den Apache Sling Referrer-Filter 
 
 1. Navigieren Sie zur **Konfiguration der Adobe Experience Manager-Web-Konsole**: `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
 1. Aktivieren Sie die Option **allow.empty**.
-1. Wählen Sie **Speichern** aus.
+1. Klicken Sie auf **Speichern**.
 
 ![chlimage_1-3](assets/chlimage_1-3.png)
 
 ### Empfehlungen {#recommendations}
 
-Im folgenden Abschnitt wird empfohlen, die Netzwerkverbindungen, Server und Player zu überwachen, um den Zustand zu verstehen und auf Probleme zu reagieren.
+Im folgenden Abschnitt wird empfohlen, die Netzwerklinks, Server und Player zu überwachen, um den Zustand zu verstehen und auf Probleme zu reagieren.
 
-AEM ermöglicht die integrierte Überwachung für:
+AEM bietet integrierte Überwachung für:
 
 * *Heartbeat* alle 5 Sekunden, um anzugeben, dass der AEM Screens-Player aktiv ist.
 * *Screenshot* aus dem Player, der anzeigt, was auf dem Player angezeigt wird.
 * Die *AEM Screens Player-Firmware* auf dem Player installiert ist.
 * *Freier Speicherplatz* auf dem Player.
 
-Recommendations für die Fernüberwachung mit Software von Drittanbietern:
+Recommendations für Remote-Überwachung mit Drittanbietersoftware:
 
-* CPU-Auslastung auf den Playern.
-* Prüfen Sie, ob AEM Screens Player-Prozess ausgeführt wird.
-* Neustart des Players per Remote-Zugriff
+* CPU-Auslastung auf Playern.
+* Überprüfen Sie, ob der AEM Screens Player-Prozess ausgeführt wird.
+* Remote Neustart/Neustart des Players.
 * Echtzeit-Benachrichtigungen.
 
-Es wird empfohlen, die Player-Hardware und das Betriebssystem so bereitzustellen, dass Remote-Log-in Probleme diagnostizieren und den Player neu starten können.
+Es wird empfohlen, die Player-Hardware und das Betriebssystem so bereitzustellen, dass die Remote-Anmeldung Probleme diagnostizieren und den Player neu starten kann.
 
 #### Sonstige Ressourcen {#additional-resources}
 

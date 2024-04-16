@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '447'
-ht-degree: 39%
+ht-degree: 33%
 
 ---
 
@@ -46,25 +46,25 @@ Gehen Sie wie folgt vor, um das Anwendungsbeispiel für die temperaturgesteuerte
 
    1. Navigieren Sie zu den Segmenten in Ihrer Zielgruppe (siehe ***Schritt 2: Einrichten der Zielgruppensegmentierung*** in **[Konfigurieren von ContextHub in AEM Screens](configuring-context-hub.md)** Seite für weitere Details).
 
-   1. Wählen Sie die **Blätter A1 1** und wählen **Bearbeiten**.
+   1. Klicken Sie auf **Blätter A1 1** und klicken **Bearbeiten**.
 
-   1. Wählen Sie die Vergleichseigenschaft aus und wählen Sie das Konfigurationssymbol aus.
-   1. Wählen Sie **googlesheets/value/1/0** aus der Dropdown-Liste in **Eigenschaftsname** aus
+   1. Klicken Sie auf die Vergleichseigenschaft und dann auf das Konfigurationssymbol.
+   1. Klicks **googlesheets/value/1/0** aus der Dropdown-Liste **Eigenschaftsname**
 
-   1. Wählen Sie als **Operator** den Wert **größer oder gleich** aus dem Dropdown-Menü aus
-
-   1. Geben Sie den **Wert** als **50** ein
-
-   1. Wählen Sie auf ähnliche Weise die **Blätter A1 2** und wählen **Bearbeiten**.
-
-   1. Wählen Sie die **Vergleichseigenschaft - Wert** und wählen Sie das Konfigurationssymbol aus.
-   1. Wählen Sie **googlesheets/value/1/0** aus der Dropdown-Liste in **Eigenschaftsname** aus
-
-   1. Wählen Sie unter **Operator** den Wert **kleiner als** aus dem Dropdown-Menü aus
+   1. Klicken Sie auf **Operator** as **greater-than-or-equal** aus dem Dropdownmenü
 
    1. Geben Sie den **Wert** als **50** ein
 
-1. Navigieren Sie zu Ihrem Kanal () und wählen Sie ihn aus. **Bearbeiten** in der Aktionsleiste aus. Im folgenden Beispiel wird ein sequenzieller Kanal **DataDrivenWeather** verwendet, um die Funktionalität zu demonstrieren.
+   1. Wählen Sie auf ähnliche Weise die **Blätter A1 2** und klicken **Bearbeiten**.
+
+   1. Klicken Sie auf **Vergleichseigenschaft - Wert** und wählen Sie das Konfigurationssymbol aus.
+   1. Klicks **googlesheets/value/1/0** aus der Dropdown-Liste **Eigenschaftsname**
+
+   1. Klicken Sie auf **Operator** as **kleiner als** aus dem Dropdownmenü
+
+   1. Geben Sie den **Wert** als **50** ein
+
+1. Navigieren Sie zu Ihrem Kanal () und klicken Sie in der Aktionsleiste auf **Bearbeiten**. Im folgenden Beispiel wird ein sequenzieller Kanal **DataDrivenWeather** verwendet, um die Funktionalität zu demonstrieren.
 
    >[!NOTE]
    >
@@ -78,13 +78,13 @@ Gehen Sie wie folgt vor, um das Anwendungsbeispiel für die temperaturgesteuerte
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
-1. Auswählen **Targeting** und wählen Sie **Marke** und **Aktivität** aus dem Dropdown-Menü und wählen Sie **Targeting starten**.
+1. Klicks **Targeting** Klicken Sie im Editor auf **Marke** und **Aktivität** aus dem Dropdown-Menü aus und klicken Sie auf **Targeting starten**.
 
    ![new_activity3](assets/new_activity3.gif)
 
 1. **Überprüfen der Vorschau**
 
-   1. Auswählen **Vorschau.**. Öffnen Sie außerdem Ihre Google Tabelle und aktualisieren Sie den Wert.
+   1. Klicken Sie auf **Vorschau**. Öffnen Sie außerdem Ihre Google Tabelle und aktualisieren Sie den Wert.
    1. Ändern Sie den Wert in weniger als 50. Sie sollten ein Bild eines kalten Getränks sehen können. Wenn der Wert in Google Tabellen 50 oder höher ist, sollte ein Bild eines heißen Getränks angezeigt werden.
 
    ![result3](assets/result3.gif)

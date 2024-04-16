@@ -2,10 +2,10 @@
 title: Bildwiedergabedauer auf Projektebene
 description: Erfahren Sie, wie Sie die Dauer der Bildwiedergabe auf Projektebene definieren.
 contentOwner: jsyal
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '327'
-ht-degree: 33%
+ht-degree: 36%
 
 ---
 
@@ -43,10 +43,10 @@ Im folgenden Abschnitt wird beschrieben, wie Sie die Wiedergabedauer von Inhalte
 
 Gehen Sie wie folgt vor, um zu erfahren, wie Sie die Wiedergabedauer auf Projektebene aktualisieren:
 
-1. Navigieren zu Ihrem Projekt **ProjectLevelPlayback** und wählen **Eigenschaften** in der Aktionsleiste aus.
+1. Navigieren Sie zu Ihrem Projekt (**ProjectLevelPlayback**) und klicken Sie in der Aktionsleiste auf **Eigenschaften**.
    ![Assets](assets/image_playback3.png)
 
-1. Wählen Sie alle Bilder im Kanal aus und wählen Sie oben links das Schraubenschlüsselsymbol aus (wie in der Abbildung unten gezeigt), damit Sie das Dialogfeld Konfigurieren auf Kanalebene öffnen können.
+1. Klicken Sie auf alle Bilder im Kanal und klicken Sie oben links auf das Schraubenschlüsselsymbol (wie in der Abbildung unten gezeigt), damit Sie das Dialogfeld Konfigurieren auf Kanalebene öffnen können.
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 

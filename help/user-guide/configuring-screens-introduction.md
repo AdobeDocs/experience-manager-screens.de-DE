@@ -9,10 +9,10 @@ docset: aem65
 role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '679'
-ht-degree: 56%
+ht-degree: 58%
 
 ---
 
@@ -42,7 +42,7 @@ Gehen Sie wie folgt vor, um zu prüfen, ob diese beiden wichtigen Konfiguratione
    ![Assets](assets/health-check1.png)
 
 
-2. Auswählen **Ausgewählte Konsistenzprüfungen ausführen** damit Sie die Überprüfung für zwei oben aufgelistete Eigenschaften ausführen können.
+2. Klicks **Ausgewählte Konsistenzprüfungen ausführen** damit Sie die Überprüfung für zwei oben aufgelistete Eigenschaften ausführen können.
 
    Wenn beide Filter aktiviert sind, zeigt der **Screens Configuration Health Service** das **Ergebnis** als **OK** an (beide Konfigurationen sind aktiviert).
 
@@ -76,7 +76,7 @@ Die folgenden wichtigen Punkte bieten Hilfestellung beim Konfigurieren von AEM-S
 
    ![image](assets/config/empty-ref2.png)
 
-1. Auswählen **Speichern** , um den Apache Sling Referrer-Filter &quot;Allow Empty&quot;zu aktivieren.
+1. Klicken Sie auf **Speichern**, um den Apache Sling Referrer-Filter „Leere erlauben“ zu aktivieren.
 
 
 #### Apache Felix Jetty-basierter HTTP-Service {#allow-apache-felix-service}
@@ -93,7 +93,7 @@ Die folgenden wichtigen Punkte bieten Hilfestellung beim Konfigurieren von AEM-S
 
    ![image](assets/config/config-1.png)
 
-1. Auswählen **Speichern** um die *http* -Dienst.
+1. Klicken Sie auf **Speichern**, um den *HTTP*-Service zu aktivieren.
 
 #### Aktivieren der Touch-Benutzeroberfläche für AEM Screens {#enable-touch-ui-for-aem-screens}
 

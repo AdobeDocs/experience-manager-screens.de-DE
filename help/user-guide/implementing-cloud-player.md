@@ -8,10 +8,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
-source-git-commit: 10375baae631d46e9003240149a3e16d5605e7b6
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '844'
-ht-degree: 46%
+ht-degree: 43%
 
 ---
 
@@ -38,7 +38,7 @@ Die Installation des Cloud-Players kann auf verschiedenen Plattformen variieren.
 
    ![Bild](/help/user-guide/assets/cloud-player-install.png)
 
-1. Wählen Sie im Bestätigungsdialogfeld das Installationssymbol und die Installationsschaltfläche aus. Cloud Player wird als eigenständige Anwendung auf Ihrem Gerät installiert und kann über ein Symbol gestartet werden.
+1. Klicken Sie im Bestätigungsdialogfeld auf das Installationssymbol und die Schaltfläche &quot;Installieren&quot;. Cloud Player wird als eigenständige Anwendung auf Ihrem Gerät installiert und kann über ein Symbol gestartet werden.
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ Weitere Informationen zur Massenbereitstellung unter Chrome OS finden Sie unter 
 
 ## Erforderliche Konfiguration für AEM-Instanzen {#bulk-provisioning-config-aem}
 
-Wählen Sie je nach Typ der AEM-Instanz eines der folgenden Handbücher aus, um CORS zwischen AEM und Cloud-Player zu aktivieren:
+Klicken Sie je nach Typ der AEM-Instanz auf eine der folgenden Handbücher, um CORS b/w AEM und Cloud-Player zu aktivieren:
 * [AEM On-Premises/AMS](https://www.adobe.com/go/aem_screens_cors_ams_en)
 * [AEM Cloud Service](https://www.adobe.com/go/aem_screens_cors_aemaacs_en)
 

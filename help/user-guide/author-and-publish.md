@@ -2,7 +2,7 @@
 title: Konfigurieren von Autoren- und Veröffentlichungsinstanzen in AEM Screens
 description: Erfahren Sie, wie Sie eine Autoreninstanz und eine Veröffentlichungsinstanz für AEM Screens konfigurieren.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1923'
 ht-degree: 41%
@@ -66,23 +66,23 @@ Gehen Sie wie folgt vor, um einen standardmäßigen Replikationsagenten einzuric
 
    ![screen_shot_2019-02-25at24621pm](assets/screen_shot_2019-02-25at24621pm.png)
 
-1. Wählen Sie die **Replikation** in der linken Navigationsstruktur aus.
+1. Klicken Sie auf **Replikation** aus der linken Navigationsstruktur.
 
    ![screen_shot_2019-02-25at24715pm](assets/screen_shot_2019-02-25at24715pm.png)
 
-1. Wählen Sie die **Agenten für Autor** aus dem **Replikation** Ordner und auswählen **Neu** , um einen neuen standardmäßigen Replikationsagenten zu erstellen.
+1. Klicken Sie auf **Agenten für Autor** aus dem **Replikation** Ordner und klicken Sie auf **Neu** , um einen neuen standardmäßigen Replikationsagenten zu erstellen.
 
    ![screen_shot_2019-02-25at25400pm](assets/screen_shot_2019-02-25at25400pm.png)
 
-1. Geben Sie die **Titel** und **Name** , damit Sie den Replikationsagenten erstellen können, wählen Sie **Erstellen**.
+1. Geben Sie die **Titel** und **Name** , damit Sie den Replikationsagenten erstellen können, klicken Sie auf **Erstellen**.
 
    ![screen_shot_2019-02-25at25737pm](assets/screen_shot_2019-02-25at25737pm.png)
 
-1. Klicken Sie mit der rechten Maustaste auf den Replikationsagenten und wählen Sie **Öffnen** um die Einstellungen zu bearbeiten.
+1. Klicken Sie mit der rechten Maustaste auf den Replikationsagenten und klicken Sie auf **Öffnen** um die Einstellungen zu bearbeiten.
 
    ![screen_shot_2019-02-25at30018pm](assets/screen_shot_2019-02-25at30018pm.png)
 
-1. Wählen Sie **Bearbeiten** aus.
+1. Klicken Sie auf **Bearbeiten**.
 
 1. Im **Agenteneinstellungen** Geben Sie die Details ein.
 
@@ -128,7 +128,7 @@ Einrichten der Apache Sling Oak-basierten Erkennung für alle Veröffentlichungs
 Für jede Veröffentlichungsinstanz:
 
 1. Navigieren Sie zu `https://<host>:<port>/system/console/configMgr`
-1. Wählen Sie die Konfiguration **Apache Sling Oak-basierter Erkennungs-Service**.
+1. Klicks **Apache Sling Oak-basierter Erkennungsdienst** Konfiguration.
 1. Aktualisieren Sie die Topologie-Connector-URLs: Fügen Sie URLs aller beteiligten Veröffentlichungsinstanzen hinzu, die:
    * `https://publish:4503/libs/sling/topology/connector`
    * `https://publish:4504/libs/sling/topology/connector`
@@ -151,7 +151,7 @@ Bei jeder Veröffentlichungsinstanz:
 
 1. Navigieren Sie in der OSGi-Konsole zu **HAUPTANFANG** > **Crypto-Unterstützung** (`https://<host>:<port>/system/console/crypto`).
 1. Geben Sie in **Nur Text** das gewünschte Passwort ein (nur Text; für alle Instanzen gleich).
-1. Auswählen **Protect**.
+1. Klicken Sie auf **Schützen**.
 1. Kopieren Sie den Wert **Geschützter Text** in den Notizblock oder Text-Editor. Dieser Wert kann in der OSGi-Konfiguration für ActiveMQ verwendet werden.
 
 Da jede Veröffentlichungsinstanz standardmäßig über eindeutige Verschlüsselungsschlüssel verfügt, führen Sie diesen Schritt für jede Pub-Instanz aus und speichern Sie den eindeutigen Schlüssel für die nächste Konfiguration.
@@ -166,7 +166,7 @@ Da jede Veröffentlichungsinstanz standardmäßig über eindeutige Verschlüssel
 In jeder Veröffentlichungsinstanz:
 
 1. Navigieren Sie zum OSGi-Konfigurations-Manager `https://<host>:<port>/system/console/configMgr`
-1. Wählen Sie die Konfiguration **Apache ActiveMQ Artemis JMS Provider**
+1. Klicks **Apache ActiveMQ Artemis JMS Provider** Konfiguration
 1. Aktualisieren Sie Folgendes:
 
    * ***Cluster-Passwort***: Verwenden Sie einen verschlüsselten Wert aus dem vorherigen Schritt pro Instanz
@@ -191,7 +191,7 @@ Gehen Sie bei jeder Veröffentlichungsinstanz wie folgt vor:
 
 Beispiel: Das folgende Bild zeigt eine erfolgreiche Konfiguration von ActiveMQ Artemis Server.
 
-Wenn Sie die folgende Konfiguration nicht sehen von */system/console/mq* und navigieren Sie dann zu */system/console/mq* und wählen **Neu starten** , um den Broker neu zu starten.
+Wenn Sie die folgende Konfiguration über */system/console/mq* nicht sehen können, navigieren Sie zu */system/console/mq* und klicken Sie auf **Neu starten**, um den Broker neu zu starten.
 
 ![image-2018-06-18-18-14-55-449](assets/image-2018-06-18-18-14-55-449.png)
 
@@ -200,7 +200,7 @@ Wenn Sie die folgende Konfiguration nicht sehen von */system/console/mq* und nav
 Führen Sie für jede Veröffentlichungsinstanz folgende Schritte aus:
 
 1. Navigieren Sie zur **OSGi-Konsole** > **Configuration Manager**
-1. Wählen Sie **Apache Sling Referrer-Filter**
+1. Klicks **Apache Sling Referrer Filter**
 1. Aktualisieren Sie die Konfiguration und aktivieren Sie **Allow Empty**
 
 ### Konfigurieren der Autoren- und Veröffentlichungsinstanz {#configuring-author-and-publish-instance}
@@ -224,19 +224,19 @@ Nachdem Sie die Veröffentlichungstopologie eingerichtet haben, konfigurieren Si
 
 #### Schritt 2: Registrieren eines Geräts in der Autoreninstanz {#step-registering-a-device-on-author}
 
-1. Navigieren Sie zu `https://localhost:4502/screens.html/content/screens/we-retail` oder wählen Sie das Projekt aus und navigieren Sie zu „Geräte“ > „Geräte-Manager“.
-1. Wählen Sie **Gerät registrieren**.
-1. Auswählen **Geräteregistrierung**.
-1. Wählen Sie das Gerät aus, das Sie registrieren möchten, und wählen Sie **Gerät registrieren**.
-1. Überprüfen Sie den Registrierungs-Code und wählen Sie **Bestätigen**.
-1. Geben Sie einen Titel für Ihr Gerät ein und wählen Sie **registrieren**.
+1. Navigieren Sie zu `https://localhost:4502/screens.html/content/screens/we-retail` oder klicken Sie auf Ihr Projekt und navigieren Sie zu Geräte > Geräte-Manager.
+1. Klicks **Gerät registrieren**.
+1. Klicks **Geräteregistrierung**.
+1. Klicken Sie auf das Gerät, das Sie registrieren möchten, und klicken Sie auf **Gerät registrieren**.
+1. Überprüfen Sie den Registrierungs-Code und klicken Sie auf **Bestätigen**.
+1. Geben Sie einen Titel für Ihr Gerät ein und klicken Sie auf **registrieren**.
 
 #### Schritt 3: Zuweisen des Geräts zur Anzeige {#step-assigning-the-device-to-display}
 
-1. Auswählen **Anzeige zuweisen** aus dem Dialogfeld aus dem vorherigen Schritt.
-1. Wählen Sie im Ordner **Standorte** den Anzeigepfad für Ihren Kanal aus.
-1. Auswählen **Zuweisen**.
-1. Auswählen **Beenden** , um den Prozess abzuschließen, und jetzt wird das Gerät zugewiesen.
+1. Klicken Sie im Dialogfeld aus dem vorherigen Schritt auf **Anzeige zuweisen**.
+1. Klicken Sie auf den Anzeigepfad für Ihren Kanal im **Standorte** Ordner.
+1. Klicken Sie auf **Zuweisen**.
+1. Klicken Sie auf **Beenden**, um den Vorgang abzuschließen. Das Gerät ist jetzt zugewiesen.
 
 Überprüfen Sie Ihren Player und beachten Sie den Inhalt, den Sie in Ihrem Kanal hinzugefügt haben.
 
@@ -248,7 +248,7 @@ Gehen Sie wie folgt vor, um den Gerätebenutzer zu replizieren:
 
 1. Navigieren Sie zur Admin-Seite des Benutzers. Zum Beispiel: `https://localhost:4502/useradmin`.
 1. Suchen Sie nach **`screens-devices-master`** hinzugefügt.
-1. Klicken Sie mit der rechten Maustaste auf die Gruppe und wählen Sie **Aktivieren**.
+1. Klicken Sie mit der rechten Maustaste auf die Gruppe und klicken Sie **Aktivieren**.
 
 >[!CAUTION]
 >
@@ -257,14 +257,14 @@ Gehen Sie wie folgt vor, um den Gerätebenutzer zu replizieren:
 Sie können das Gerät auch über die Geräteverwaltungskonsole aktivieren. Führen Sie dazu folgende Schritte durch:
 
 1. Navigieren Sie zu Ihrem Screens-Projekt > **Geräte**.
-1. Auswählen **Geräte-Manager** in der Aktionsleiste aus.
-1. Wählen Sie das Gerät aus und wählen Sie **Aktivieren** in der Aktionsleiste, wie in der folgenden Abbildung dargestellt.
+1. Klicken Sie in der Aktionsleiste auf **Geräte-Manager**.
+1. Klicken Sie auf das Gerät und klicken Sie auf **Aktivieren** in der Aktionsleiste, wie in der folgenden Abbildung dargestellt.
 
 ![screen_shot_2019-02-21at111036am](assets/screen_shot_2019-02-21at111036am.png)
 
 >[!NOTE]
 >
->Alternativ können Sie nach der Aktivierung des Geräts auch die Server-URL bearbeiten oder aktualisieren. Auswählen **Server-URL bearbeiten** über die Aktionsleiste aus, wie in der folgenden Abbildung dargestellt, werden Ihre Änderungen an den AEM Screens-Player übertragen.
+>Alternativ können Sie nach der Aktivierung des Geräts auch die Server-URL bearbeiten oder aktualisieren. Klicks **Server-URL bearbeiten** über die Aktionsleiste aus, wie in der folgenden Abbildung dargestellt, werden Ihre Änderungen an den AEM Screens-Player übertragen.
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
@@ -293,16 +293,16 @@ Gehen Sie wie folgt vor, um das Authoring- und Publishing-Verhalten zu überprü
 #### Schritt 5: Verweisen des Geräts auf eine Veröffentlichungsinstanz im Admininistrator-Bedienfeld {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
 1. Zeigen Sie die Administrator-Benutzeroberfläche vom Screens-Player aus an, drücken Sie die linke obere Ecke, damit Sie das Menü &quot;Admin&quot;auf Ihrem Touch-optimierten AEM Screens-Player öffnen können, oder verwenden Sie eine Maus.
-1. Wählen Sie die **Konfiguration** im seitlichen Bedienfeld aus.
+1. Klicken Sie im seitlichen Bereich auf die Option **Konfiguration**.
 1. Ändern Sie die Autoreninstanz in die Veröffentlichungsinstanz in **Server**.
 
 Sehen Sie sich die Änderungen im AEM Screens-Player an.
 
 Alternativ können Sie über die Geräteverwaltungskonsole die Server-URL aktualisieren/bearbeiten:
 
-1. Navigieren Sie zu Ihrem AEM Screens-Projekt und wählen Sie den Ordner **Geräte**.
-1. Auswählen **Geräte-Manager** in der Aktionsleiste aus.
-1. Wählen Sie das Gerät aus und wählen Sie **Server-URL bearbeiten** in der Aktionsleiste, wie in der folgenden Abbildung dargestellt, und Ihre Änderungen werden in den AEM Screens-Player übertragen.
+1. Navigieren Sie zu Ihrem AEM Screens-Projekt und klicken Sie auf das **Geräte** Ordner.
+1. Klicken Sie in der Aktionsleiste auf **Geräte-Manager**.
+1. Klicken Sie auf das Gerät und klicken Sie auf **Server-URL bearbeiten** in der Aktionsleiste, wie in der folgenden Abbildung dargestellt, und Ihre Änderungen werden in den AEM Screens-Player übertragen.
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 

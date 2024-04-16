@@ -6,10 +6,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '500'
-ht-degree: 48%
+ht-degree: 52%
 
 ---
 
@@ -28,8 +28,8 @@ Um einen **AEM Screens-Player** herunterzuladen, rufen Sie die Seite [AEM 6.5 Pl
 >Nach dem Herunterladen des neuesten Players (*.exe*), führen Sie die Schritte im Player aus, damit Sie die Ad-hoc-Installation abschließen können:
 >
 >1. Halten Sie die linke obere Ecke gedrückt, um das Admin-Bedienfeld zu öffnen.
->1. Navigieren Sie zu **Konfiguration** aus dem linken Aktionsmenü aus und geben Sie die Standortadresse der AEM Instanz in **Server** und wählen **Speichern**.
->1. Auswählen **Registrierung** über den Link im linken Aktionsmenü und die folgenden Schritte, um den Prozess zur Geräteregistrierung abzuschließen.
+>1. Navigieren Sie im linken Aktionsmenü zu **Konfiguration**, geben Sie die Standortadresse der AEM-Instanz unter **Server** ein und klicken Sie auf **Speichern**.
+>1. Klicks **Registrierung** über den Link im linken Aktionsmenü und die folgenden Schritte, um den Prozess zur Geräteregistrierung abzuschließen.
 
 ## Einfache Wiedergabe-Überwachung {#playback-monitoring}
 

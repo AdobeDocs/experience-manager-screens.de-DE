@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '2426'
-ht-degree: 49%
+ht-degree: 48%
 
 ---
 
@@ -118,9 +118,9 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
 1. **Erstellen Sie unter jedem Standortordner zwei Standorte und einen Kanal.**
 
    1. Navigieren Sie zu **Demo** > **Standorte** > **Region A**.
-   1. Auswählen **Region A** und wählen **+ Erstellen** in der Aktionsleiste aus.
-   1. Wählen Sie **Standort** im Assistenten und unter **Titel** die Option **Store 1** aus. Erstellen Sie auf ähnliche Weise einen weiteren Standort im Assistenten mit dem Titel **Store 2** mit **Titel** als **Store 2**. Sie können das Feld **Name** leer lassen, während Sie **Store 1** und **Store 2** erstellen.
-   1. Wiederholen Sie Schritt (b) und wählen Sie jetzt **Sequenzkanal** im Assistenten aus. Geben Sie den **Titel** als **Region A** und den **Namen** als **region** für diesen Kanal ein.
+   1. Klicks **Region A** und klicken **+ Erstellen** in der Aktionsleiste aus.
+   1. Klicks **Standort** aus dem Assistenten mit **Titel** as **Store 1**. Erstellen Sie auf ähnliche Weise einen weiteren Standort im Assistenten mit dem Titel **Store 2** mit **Titel** als **Store 2**. Sie können das Feld **Name** leer lassen, während Sie **Store 1** und **Store 2** erstellen.
+   1. Schritt (b) wiederholen und jetzt auf **Sequenzkanal** aus dem Assistenten. Geben Sie den **Titel** als **Region A** und den **Namen** als **region** für diesen Kanal ein.
 
    >[!CAUTION]
    >
@@ -139,9 +139,9 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
 1. **Erstellen Sie eine Anzeige und einen Kanal unter jedem Standort.**
 
    1. Navigieren Sie zu **Demo** > **Standorte** > **Region A** > **Store 1**.
-   1. Auswählen **Store 1** und wählen **+ Erstellen** in der Aktionsleiste aus.
-   1. Auswählen **Anzeige** im Assistenten aus und erstellen Sie **`Store1Display`**.
-   1. Wiederholen Sie Schritt (b) und wählen Sie jetzt **Sequenzkanal** im Assistenten aus. Geben Sie die **Titel** as **`Store1Channel`** und **Name** as **store**.
+   1. Klicks **Store 1** und klicken **+ Erstellen** in der Aktionsleiste aus.
+   1. Klicks **Anzeige** im Assistenten aus und erstellen Sie **`Store1Display`**.
+   1. Wiederholen Sie Schritt (b) und klicken Sie dann auf **Sequenzkanal** aus dem Assistenten. Geben Sie die **Titel** as **`Store1Channel`** und **Name** as **store**.
 
    >[!CAUTION]
    >
@@ -169,14 +169,14 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
 
 1. **Fügen Sie den Kanälen an ihren jeweiligen Standorten Inhalt hinzu.**
 
-   Navigieren Sie zum **Demo** > **Standorte** > **Region A** > **Region A** und wählen **Bearbeiten** in der Aktionsleiste aus. Ziehen Sie die Assets, die Sie hinzufügen möchten, in Ihren Kanal.
+   Navigieren Sie zum **Demo** > **Standorte** > **Region A** > **Region A** und klicken **Bearbeiten** in der Aktionsleiste aus. Ziehen Sie die Assets, die Sie hinzufügen möchten, in Ihren Kanal.
 
    >[!NOTE]
    >Sie können die Datei ***Resources.zip*** im Abschnitt **Ressourcen** verwenden, um die Bilder als Assets für Ihren Kanalinhalt zu verwenden.
 
    ![screen_shot_2018-09-12at12438pm](assets/screen_shot_2018-09-12at12438pm.png)
 
-   Navigieren Sie auf ähnliche Weise zum **Demo** > **Standorte** > **Region B** > **Region B** und wählen **Bearbeiten** aus der Aktionsleiste, um die Assets per Drag-and-Drop in Ihren Kanal zu ziehen, wie unten dargestellt:
+   Navigieren Sie auf ähnliche Weise zum **Demo** > **Standorte** > **Region B** > **Region B** und klicken **Bearbeiten** aus der Aktionsleiste, um die Assets per Drag-and-Drop in Ihren Kanal zu ziehen, wie unten dargestellt:
 
    ![screen_shot_2018-09-12at13133pm](assets/screen_shot_2018-09-12at13133pm.png)
 
@@ -189,7 +189,7 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
 
 1. **Zeitplan erstellen**
 
-   Navigieren und Auswählen **Zeitpläne** Ordner in Ihrem AEM Screens-Projekt. Wählen Sie anschließend **Erstellen** in der Aktionsleiste aus.
+   Navigieren und klicken Sie auf **Zeitpläne** Ordner in Ihrem AEM Screens-Projekt. Klicken Sie anschließend auf **Erstellen** in der Aktionsleiste aus.
 
    Die folgende Abbildung zeigt den **AdSchedule**, der im Projekt **Demo** erstellt wurde.
 
@@ -197,29 +197,29 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
 
 1. **Weisen Sie einem Zeitplan Kanäle zu**
 
-   1. Navigieren Sie zu **Demo** > **Zeitpläne** > **AdSchedule** und wählen **Dashboard** in der Aktionsleiste aus.
-   1. Auswählen **+ Kanal zuweisen** von **ZUGEWIESENE KANÄLE** -Bedienfeld, damit Sie **Kanalzuweisung** Dialogfeld.
-   1. Auswählen **Referenzkanal** nach Pfad.
-   1. Wählen Sie die **Kanalpfad** as **Demo** > ***Kanäle*** > ***Global***.
+   1. Navigieren Sie zu **Demo** > **Zeitpläne** > **AdSchedule** und klicken **Dashboard** in der Aktionsleiste aus.
+   1. Klicks **+ Kanal zuweisen** von **ZUGEWIESENE KANÄLE** -Bedienfeld, damit Sie **Kanalzuweisung** Dialogfeld.
+   1. Klicks **Referenzkanal** nach Pfad.
+   1. Klicken Sie auf **Kanalpfad** as **Demo** > ***Kanäle*** > ***Global***.
    1. Geben Sie als **Kanalrolle** den Wert **GlobalAdSegment** ein.
-   1. Wählen Sie unter **Unterstützte Ereignisse** die Optionen **Erster Ladevorgang**, **Bildschirm bei Untätigkeit** und **Benutzerinteraktion** aus.
-   1. Wählen Sie **Speichern** aus.
+   1. Klicken Sie auf **Unterstützte Ereignisse** as **Erster Ladevorgang**, **Idle Screen**, und **Benutzerinteraktion**.
+   1. Klicken Sie auf **Speichern**.
 
    **Kanal nach Rolle für die Region zuweisen:**
 
-   1. Auswählen **+ Kanal zuweisen** von **ZUGEWIESENE KANÄLE** Bedienfeld.
-   1. Wählen Sie im Dialogfeld Kanalzuweisung die Option **Referenzkanal** nach Namen.
+   1. Klicks **+ Kanal zuweisen** von **ZUGEWIESENE KANÄLE** Bedienfeld.
+   1. Klicken Sie im Dialogfeld Kanalzuweisung auf **Referenzkanal** nach Namen.
    1. Geben Sie unter **Kanalname** den Wert **region** ein.
    1. Geben Sie als **Kanalrolle** den Wert **RegionAdSegment** ein.
-   1. Wählen Sie **Speichern** aus.
+   1. Klicken Sie auf **Speichern**.
 
    **Kanal nach Rolle für den Store zuweisen:**
 
-   1. Auswählen **+ Kanal zuweisen** von **ZUGEWIESENE KANÄLE** Bedienfeld.
-   1. Wählen Sie im Dialogfeld Kanalzuweisung die Option **Referenzkanal** nach Namen.
+   1. Klicks **+ Kanal zuweisen** von **ZUGEWIESENE KANÄLE** Bedienfeld.
+   1. Klicken Sie im Dialogfeld Kanalzuweisung auf **Referenzkanal** nach Namen.
    1. Geben Sie den **Kanalnamen** als **store** ein.
    1. Geben Sie als **Kanalrolle** den Wert **StoreAdSegment** ein.
-   1. Wählen Sie **Speichern** aus.
+   1. Klicken Sie auf **Speichern**.
 
    Die folgende Abbildung zeigt die zugewiesenen Kanäle nach Pfad und Rolle.
 
@@ -229,7 +229,7 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
 
    Navigieren Sie zum **Global** Kanal, den Sie ursprünglich in **Demo** Projekt.
 
-   Auswählen **Bearbeiten** in der Aktionsleiste aus.
+   Klicks **Bearbeiten** in der Aktionsleiste aus.
 
    ![screen_shot_2018-09-13at52754pm](assets/screen_shot_2018-09-13at52754pm.png)
 
@@ -237,17 +237,17 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
 
    Öffnen Sie die Eigenschaften einer der Komponenten und geben Sie die **Kanalzuordnungsrolle** als **RegionAdSegment** ein.
 
-   Wählen Sie auf ähnliche Weise die anderen Komponenten aus und öffnen Sie die Eigenschaften, um die **Kanalzuordnungsrolle** as **StoreAdSegment**.
+   Klicken Sie auf die anderen Komponenten und öffnen Sie die Eigenschaften, um die **Kanalzuordnungsrolle** as **StoreAdSegment**.
 
    ![channeldisplay4](assets/channeldisplay4.gif)
 
 1. **Zuweisen eines Zeitplans zu jeder Anzeige**
 
    1. Navigieren Sie zu jeder Anzeige, z. B. **Demo** > **Standorte** > **Region A** >**Store 1** >**`Store1Display`**.
-   1. Auswählen **Dashboard** in der Aktionsleiste aus.
-   1. Wählen Sie im Dashboard **...** aus dem **ZUGEWIESENE KANÄLE UND ZEITPLÄNE** und wählen Sie **+Zeitplan zuweisen**.
-   1. Wählen Sie den Pfad zum Zeitplan aus (hier beispielsweise **Demo** > **Zeitpläne** > **AdSchedule**).
-   1. Wählen Sie **Speichern** aus.
+   1. Klicks **Dashboard** in der Aktionsleiste aus.
+   1. Klicken Sie im Dashboard auf **...** aus dem **ZUGEWIESENE KANÄLE UND ZEITPLÄNE** und klicken Sie dann auf **+Zeitplan zuweisen**.
+   1. Klicken Sie auf den Pfad zum Zeitplan (hier beispielsweise **Demo** > **Zeitpläne** > **AdSchedule**).
+   1. Klicken Sie auf **Speichern**.
 
 ## Anzeigen der Ergebnisse {#viewing-the-results}
 
@@ -306,8 +306,8 @@ Gehen Sie wie folgt vor, um Gruppen und Benutzer zu erstellen und die ACLs gemä
 1. **Gruppen erstellen**
 
    1. Navigieren Sie zu **Adobe Experience Manager**.
-   1. Auswählen **Instrumente** > **Sicherheit** > **Gruppen**.
-   1. Auswählen **Gruppe erstellen** und eingeben **Global-Autor** in **ID**.
+   1. Klicks **Instrumente** > **Sicherheit** > **Gruppen**.
+   1. Klicken Sie auf **Gruppe erstellen** und geben Sie **Global-Autor** in **ID** ein.
    1. Klicken Sie auf **Speichern und schließen**.
 
    Erstellen Sie auf ähnliche Weise zwei weitere Gruppen wie **Region-Autor** und **Store-Autor**.
@@ -317,10 +317,10 @@ Gehen Sie wie folgt vor, um Gruppen und Benutzer zu erstellen und die ACLs gemä
 1. **Benutzer erstellen und Gruppen Benutzer hinzufügen**
 
    1. Navigieren Sie zu **Adobe Experience Manager**.
-   1. Auswählen **Instrumente** > **Sicherheit** > **Benutzer**.
-   1. Auswählen **Benutzer erstellen** und eingeben **Global-User** in **ID**.
+   1. Klicken Sie auf **Tools** > **Sicherheit** > **Benutzer**.
+   1. Klicken Sie auf **Benutzer erstellen** und geben Sie **Global-Benutzer** in **ID** ein.
    1. Geben Sie ein **Kennwort** ein und bestätigen Sie das Kennwort für diesen Benutzer.
-   1. Wählen Sie die **Gruppen** und geben Sie den Gruppennamen in **Gruppe auswählen** eingeben. **Global-Autor** hinzugefügt werden **Global-User** zu dieser spezifischen Gruppe.
+   1. Klicken Sie auf **Gruppen** und geben Sie den Gruppennamen in **Gruppe auswählen** eingeben. **Global-Autor** hinzugefügt werden **Global-User** zu dieser spezifischen Gruppe.
    1. Klicken Sie auf **Speichern und schließen**.
 
    Erstellen Sie auf ähnliche Weise zwei weitere Benutzer wie **Region-Benutzer** und **Store-Benutzer** und fügen Sie sie **Region-Autor** bzw. **Store-Autor** hinzu.
@@ -333,15 +333,15 @@ Gehen Sie wie folgt vor, um Gruppen und Benutzer zu erstellen und die ACLs gemä
 1. **Alle Gruppen zu den Mitwirkenden hinzufügen**
 
    1. Navigieren Sie zu **Adobe Experience Manager**.
-   1. Auswählen **Instrumente** > **Sicherheit** > **Gruppen**.
-   1. Wählen Sie in der Liste die Option **Mitwirkende** und anschließend die Registerkarte **Mitglieder** aus.
-   1. Wählen Sie die **Gruppe**, z. B. **Global-Autor**, **Region-Autor** oder **Store-Autor**, für die Mitwirkenden aus.
+   1. Klicks **Instrumente** > **Sicherheit** > **Gruppen**.
+   1. Klicks **Mitarbeiter** aus der Liste aus und klicken Sie auf **Mitglieder** Registerkarte.
+   1. Klicken Sie auf **Gruppe** wie **Global-Autor**, **Region-Autor,** und **Store-Autor** an Beitragende.
    1. Klicken Sie auf **Speichern und schließen**.
 
 1. **Auf die Berechtigungen für jede Gruppe zugreifen**
 
    1. Navigieren Sie zu *Useradmin* und ändern Sie mithilfe dieser Benutzeroberfläche die Berechtigungen für die verschiedenen Gruppen.
-   1. Suchen Sie nach **Global-Autor** und wählen **Berechtigungen** wie in der folgenden Abbildung dargestellt.
+   1. Suchen Sie nach **Global-Autor** und klicken Sie auf die Registerkarte **Berechtigungen**, wie in der Abbildung unten dargestellt.
    1. Ebenso können Sie auf die Berechtigungen für **Region-Autor** und **Store-Autor** zugreifen.
 
    ![screen_shot_2018-09-18at73523am](assets/screen_shot_2018-09-18at73523am.png)

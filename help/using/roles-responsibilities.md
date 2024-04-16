@@ -2,10 +2,10 @@
 title: Projektrollen und Zuständigkeiten in AEM Screens
 description: Erfahren Sie mehr über die Rollen und Zuständigkeiten von AEM Screens-Projekten.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1241'
-ht-degree: 68%
+ht-degree: 67%
 
 ---
 
@@ -47,7 +47,7 @@ Ein Audio-/Video-Integrator ist für die Durchführung von Erkundungen mit Endku
 
 #### Hardwarepartner {#selecting-hardware-partner}
 
-Es ist wichtig, den richtigen Hardwarepartner auszuwählen. Beantworten Sie folgende Fragen:
+Es ist wichtig, auf den richtigen Hardwarepartner zu klicken. Beantworten Sie folgende Fragen:
 
 1. Wie sehen die Service Level Agreement-Bedingungen aus?
 

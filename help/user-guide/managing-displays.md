@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 37%
@@ -38,11 +38,11 @@ Auf dieser Seite wird beschrieben, wie Anzeigen für Screens erstellt und verwal
 >Erstellen Sie einen Ort, bevor Sie eine Anzeige erstellen. Siehe [Erstellen und Verwalten von Standorten](managing-locations.md) für weitere Informationen.
 
 1. Navigieren Sie zum entsprechenden Standort, z. B. `http://localhost:4502/screens.html/content/screens/TestProject`.
-1. Wählen Sie Ihren Standortordner aus und wählen Sie **Erstellen** neben dem Pluszeichen in der Aktionsleiste.
-1. Auswählen **Anzeige** aus dem **Erstellen** Assistenten, wählen Sie **Nächste**.
+1. Klicken Sie auf Ihren Standortordner und klicken Sie auf **Erstellen** neben dem Pluszeichen in der Aktionsleiste.
+1. Klicks **Anzeige** aus dem **Erstellen** Assistent, klicken Sie auf **Nächste**.
 1. Geben Sie **Name** und **Titel** für Ihren Anzeigeort ein.
 1. Wählen Sie auf der Registerkarte **Anzeige** die Details für das Layout aus. Wählen Sie die gewünschte **Auflösung**, beispielsweise **Full HD**. Wählen Sie die Anzahl der Geräte horizontal und vertikal aus.
-1. Wählen Sie **Erstellen** aus.
+1. Klicken Sie auf **Erstellen**.
 
 Die Anzeige (*StoreDisplay*) wird erstellt und dem Standort (*SanJose*) hinzugefügt.
 
@@ -63,12 +63,12 @@ Wenn Sie die Anzeige an einer Position haben, besteht der nächste Schritt darin
 Eine Gerätekonfiguration fungiert als Platzhalter für ein Digital-Signage-Gerät, das noch nicht installiert ist.
 
 1. Navigieren Sie zur entsprechenden Anzeige, z. B. `http://localhost:4502/screens.html/content/screens/TestProject/locations/newlocation`.
-1. Wählen Sie den Anzeigeordner aus und wählen Sie **Dashboard anzeigen** in der Aktionsleiste.
-1. Auswählen **+ Gerätekonfiguration hinzufügen** oben rechts im **Geräte** Bedienfeld.
+1. Klicken Sie auf den Anzeigeordner und klicken Sie auf **Dashboard anzeigen** in der Aktionsleiste.
+1. Klicks **+ Gerätekonfiguration hinzufügen** oben rechts im **Geräte** Bedienfeld.
 
-1. Wählen Sie die **Gerätekonfiguration** als erforderliche Vorlage verwenden und auswählen **Nächste**.
+1. Klicken Sie auf **Gerätekonfiguration** als erforderliche Vorlage verwenden und auf **Nächste**.
 
-1. Geben Sie die Eigenschaften nach Bedarf ein und wählen Sie **Erstellen**.
+1. Geben Sie die Eigenschaften nach Bedarf ein und klicken Sie auf **Erstellen**.
 
 Die Gerätekonfiguration wird erstellt und der aktuellen Anzeige hinzugefügt. (In der folgenden Demonstration ist *DeviceConfig* die neue Gerätekonfiguration.)
 
@@ -92,9 +92,9 @@ Das Anzeigen-Dashboard bietet verschiedene Bedienfelder zum Verwalten von Anzeig
 
 >[!NOTE]
 >
->Sie können die Dashboard-Listen und Trigger-Massenaktionen für Elemente auswählen, anstatt jedes Element einzeln zu durchlaufen.
+>Sie können auf die Dashboard-Listen und Trigger-Massenaktionen für Elemente klicken, anstatt jedes Element einzeln zu durchlaufen.
 >
->Die folgende Abbildung zeigt beispielsweise, wie Sie mehrere Kanäle aus dem Anzeigen-Dashboard auswählen können.
+>Die folgende Abbildung zeigt beispielsweise, wie Sie im Anzeigen-Dashboard auf mehrere Kanäle klicken können.
 
 ![cqdoc9456](assets/cqdoc9456.gif)
 
@@ -102,12 +102,12 @@ Das Anzeigen-Dashboard bietet verschiedene Bedienfelder zum Verwalten von Anzeig
 
 Im Bedienfeld **ANZEIGEINFORMATIONEN** werden die Anzeigeeigenschaften angezeigt.
 
-Select (**...**) oben rechts in der **ANZEIGEINFORMATIONEN** -Bedienfeld, damit Sie die Eigenschaften anzeigen und eine Vorschau der Anzeige anzeigen können.
+Klicken Sie auf (**...**) oben rechts in der **ANZEIGEINFORMATIONEN** -Bedienfeld, damit Sie die Eigenschaften anzeigen und eine Vorschau der Anzeige anzeigen können.
 
 
 #### Anzeigen von Eigenschaften {#viewing-properties}
 
-Auswählen **Eigenschaften** sodass Sie die Eigenschaften Ihrer Anzeige anzeigen oder ändern können.
+Klicks **Eigenschaften** sodass Sie die Eigenschaften Ihrer Anzeige anzeigen oder ändern können.
 
 Außerdem können Sie den Ereignis-Timer-Wert für Ihren interaktiven Kanal in **Idle Timeout** Eigenschaft unter **Anzeige** Registerkarte. Der Standardwert ist auf *300 Sekunden* eingestellt.
 
@@ -123,9 +123,9 @@ Das Bedienfeld **ZUGEWIESENE KANÄLE** zeigt die zugewiesenen Kanäle des Gerät
 
 Das Bedienfeld **GERÄTE** bietet Informationen zu den Gerätekonfigurationen.
 
-Select (**...**) oben rechts in der **Geräte** -Bedienfeld, damit Sie Gerätekonfigurationen hinzufügen und Geräte aktualisieren können.
+Klicken Sie auf (**...**) oben rechts in der **Geräte** -Bedienfeld, damit Sie Gerätekonfigurationen hinzufügen und Geräte aktualisieren können.
 
-Wählen Sie außerdem die Gerätekonfiguration aus, um Eigenschaften anzuzeigen, ein Gerät zuzuweisen oder es vollständig zu löschen.
+Klicken Sie außerdem auf die Gerätekonfiguration, um Eigenschaften anzuzeigen, ein Gerät zuzuweisen oder es vollständig zu löschen.
 
 ![chlimage_1-13](assets/chlimage_1-13.png)
 
