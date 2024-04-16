@@ -10,10 +10,10 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '662'
-ht-degree: 46%
+ht-degree: 44%
 
 ---
 
@@ -86,6 +86,4 @@ Erfahren Sie mehr über die Vorbereitung von Projekt-Management und -Bereitstell
 
 ## Der nächste Schritt {#the-next-step}
 
-Sobald Sie mit den wichtigsten Überlegungen zum Projekt-Management für AEM Screens-Bereitstellungen vertraut sind:
-
-Navigieren Sie zu **[Teil 5: Support-Aspekte](support-considerations.md)** damit Sie Tag 2-Support und die damit verbundenen Prozesse verstehen.
+Wenn Sie wichtige Überlegungen zum Projekt-Management für AEM Screens-Bereitstellungen befolgen, navigieren Sie zu **[Teil 5: Support-Aspekte](support-considerations.md)** damit Sie Tag 2-Support und die damit verbundenen Prozesse verstehen.

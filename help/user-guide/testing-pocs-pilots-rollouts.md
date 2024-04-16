@@ -10,10 +10,10 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 51%
+source-wordcount: '536'
+ht-degree: 40%
 
 ---
 
@@ -56,12 +56,12 @@ Der Zweck eines POC besteht darin, ein erstes Feedback zu den Schlüsselfunktion
 
 Die Integration von Systemen und Software beginnt mit dem IT-Engineering-Team des Audio/Video-Integrators. Unter Bezugnahme auf den genehmigten Systementwurf konfiguriert, implementiert und überwacht das IT-Engineering-Team die Installation von Hardware-Komponenten in einer &quot;Lab-Umgebung&quot;in der Anlage des Audio-/Video-Integrators. Dies erlaubt eine genaue Überprüfung der gesamten Lösung für die Qualitätssicherung.
 
-Nach Abschluss der QS-Tests erarbeitet das IT-Engineering-Team Dokumentationen, Workflows und Schulungen zur Referenz im Tag 2-Support. Zu den getesteten Systemaspekten gehören:
+Nach Abschluss des QC-Tests erstellt das IT-Engineering-Team Dokumentation, Workflows und Schulungen zur Referenz während des Day-2-Supports. Zu den zu testenden Systemaspekten gehören:
 
-* Integrationen des AEM-Implementors
-* Systemintegrationen von Drittanbietern
-* Software
-* Hardware
+* AEM Implementierungsintegrationen.
+* Systemintegrationen von Drittanbietern.
+* Software.
+* Hardware.
 * Konnektivität
 * Workflows für die Inhaltsbereitstellung, einschließlich manueller, automatisierter und bedingter Bereitstellungen.
 
@@ -79,6 +79,6 @@ Die Berücksichtigung all dieser Phasen im übergeordneten Projektplan trägt da
 
 ## Der nächste Schritt {#the-next-step}
 
-Wenn Sie mit Tests, Machbarkeitsstudien, Pilotprogrammen und Rollouts gut vertraut sind, sehen Sie sich das nächste Tutorial an, das genauer auf das Projekt-Management und die damit verbundenen Prozesse eingeht.
+Wenn Sie mit Tests, Machbarkeitsstudien, Pilotprogrammen und Rollouts fertig sind, folgen Sie dem nächsten Tutorial, das sich eingehend mit dem Projekt-Management und den damit verbundenen Prozessen befasst.
 
 Navigieren Sie zu **[Teil 4: Projekt-Management und Bereitstellung](project-management-and-deployment.md)**, um mehr zu erfahren.

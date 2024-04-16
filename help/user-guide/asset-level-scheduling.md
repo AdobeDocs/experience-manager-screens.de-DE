@@ -5,7 +5,7 @@ feature: Authoring Screens, Asset Level Activation
 role: Admin, Developer
 level: Intermediate
 exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '1460'
 ht-degree: 54%
@@ -34,11 +34,11 @@ In diesem Abschnitt werden die folgenden Themen behandelt:
 >
 >This AEM Screens functionality is only available if you have installed AEM 6.3 Feature Pack 3 or AEM 6.4 Screens Feature Pack 1.
 >
->To get access to this Feature Pack, you must contact Adobe Support and request access. When you have permission, you can download it from Package Share. -->
+>To get access to this Feature Pack, contact Adobe Support and request access. When you have permission, you can download it from Package Share. -->
 
 ## Übersicht {#overview}
 
-***Aktivierung auf Asset-Ebene*** Ermöglicht die Aktivierung eines bestimmten Assets in einem Kanal für einen geplanten Zeitraum in der lokalen Zeitzone des Players. Diese Funktion ist für Bilder, Videos, Übergänge, Seiten und eingebettete Kanäle (dynamisch oder statisch) verfügbar.
+***Aktivierung auf Asset-Ebene*** ermöglicht Ihnen, ein bestimmtes Asset in einem Kanal für einen geplanten Zeitraum in der lokalen Zeitzone des Players zu aktivieren. Diese Funktion ist für Bilder, Videos, Übergänge, Seiten und eingebettete Kanäle (dynamisch oder statisch) verfügbar.
 
 *Beispielsweise* soll eine Sonderaktion nur montags und mittwochs während der Happy Hour (14.00 bis 17.00 Uhr) angezeigt werden.
 
@@ -61,19 +61,19 @@ Gehen Sie wie folgt vor, um die Zeitplanung auf der Asset-Ebene durchzuführen:
    >* Erstellen eines Projekts finden Sie unter [Erstellen eines neuen Projekts](creating-a-screens-project.md).
    >* Erstellen von Inhalten und Hinzufügen zu einem Kanal finden Sie unter [Verwalten von Kanälen](managing-channels.md).
 
-1. Auswählen **Bearbeiten** Sie können also den Kanaleditor öffnen und ein Asset auswählen, auf das Sie die Planung anwenden möchten.
+1. Auswählen **Bearbeiten** Sie können den Kanaleditor öffnen und ein Asset auswählen, auf das Sie die Planung anwenden möchten.
 
    ![Bild](/help/user-guide/assets/asset-activation/asset-level2.png)
 
-1. Wählen Sie das Asset aus und klicken Sie dann links oben **Konfigurieren von** (Schraubenschlüsselsymbol).
+1. Wählen Sie das Asset und dann oben links aus. **Konfigurieren** (Schraubenschlüsselsymbol).
 
-   Wählen Sie die **Aktivierung** Tabulator.
+   Wählen Sie die **Aktivierung** Registerkarte.
 
    ![image](/help/user-guide/assets/asset-activation/asset-level3.png)
 
 1. Sie können das Datum mithilfe der Datumsauswahl über die Felder **Aktiv ab** und **Aktiv bis** angeben.
 
-   Wenn Sie die **Aktives Formular** und **Aktiv bis** Datum und Uhrzeit, wird das Asset nur zwischen dem Startdatum/der Startzeit und dem Enddatum/der Endzeit angezeigt und in einer Schleife dargestellt.
+   Wenn Sie die **Aktiv ab** und **Aktiv bis** Datum und Uhrzeit, wird das Asset nur zwischen Startdatum/Startzeit bzw. Enddatum/Endzeit angezeigt bzw. wiederholt.
 
    ![Bild](/help/user-guide/assets/asset-activation/asset-level3.png)
 
@@ -81,18 +81,18 @@ Gehen Sie wie folgt vor, um die Zeitplanung auf der Asset-Ebene durchzuführen:
 
 Sie können eine Wiederholung von Assets Ihren Anforderungen entsprechend in bestimmten Intervallen auf Tages-, Wochen- oder Monatsbasis planen.
 
-Angenommen, Sie möchten ein Bild nur freitags von 13:00 bis 22:00 Uhr anzeigen. Auf der Registerkarte **Aktivierung** können Sie das gewünschte Wiederholungsintervall für Ihr Asset festlegen.
+Angenommen, Sie möchten ein Bild nur freitags von 13:00 Uhr bis 22:00 Uhr anzeigen. Auf der Registerkarte **Aktivierung** können Sie das gewünschte Wiederholungsintervall für Ihr Asset festlegen.
 
 ### DayParting {#day-parting}
 
-1. Wählen Sie das Asset aus und klicken Sie auf **Konfigurieren von** (Schraubenschlüsselsymbol), um das Dialogfeld „Eigenschaften“ zu öffnen.
+1. Wählen Sie das Asset aus und wählen Sie es aus **Konfigurieren** (Schraubenschlüsselsymbol), um das Dialogfeld &quot;Eigenschaften&quot;zu öffnen.
 
 1. Nach Eingabe von Startdatum/Startzeit und Enddatum/Endzeit können Sie einen Ausdruck oder eine natürliche Textversion verwenden, um Ihren Wiederholungsplan anzugeben.
 
    >[!NOTE]
    >Sie können die Felder **Aktiv ab** und **Aktiv bis** überspringen oder einbeziehen und den Ausdruck entsprechend Ihren Anforderungen zum Feld „Zeitpläne“ hinzufügen.
 
-1. Geben Sie den Ausdruck in das **Zeitplan** und Ihr Asset für das jeweilige Tages- und Zeitintervall angezeigt wird.
+1. Geben Sie den Ausdruck in die **Zeitplan** und Ihr Asset für das jeweilige Tages- und Uhrzeitintervall angezeigt wird.
 
 #### Beispielausdrücke für die DayParting {#example-one}
 
@@ -101,24 +101,24 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 | **Ausdruck** | **Interpretation** |
 |---|---|
 | vor 8:00 Uhr | Das Asset im Kanal wird täglich vor 8:00 Uhr wiedergegeben |
-| nach 14:00 Uhr | Das Asset im Kanal wird jeden Tag nach 14:00 Uhr wiedergegeben |
-| nach 12:15 Uhr und vor 12:45 Uhr | Das Asset im Kanal wird täglich nach 12:15 Uhr für 30 Minuten wiedergegeben |
-| vor 12:15 Uhr auch nach 12:45 Uhr | Das Asset im Kanal wird täglich vor 12:15 Uhr und dann auch nach 12:45 Uhr wiedergegeben. |
+| nach 14:00 Uhr. | Das Asset im Kanal wird täglich nach 14:00 Uhr wiedergegeben |
+| nach 12:15 Uhr und vor 12:45 Uhr | Das Asset im Kanal wird täglich 30 Minuten lang nach 12:15 Uhr wiedergegeben. |
+| vor 12:15 Uhr auch nach 12:45 Uhr | Das Asset im Kanal wird täglich vor 12:15 Uhr und danach auch nach 12:45 Uhr wiedergegeben. |
 
 >[!NOTE]
 >
->Sie können auch Folgendes verwenden _Militärzeit_ Notation (14:00) anstelle von *A.M./P.M.* (14:00 UHR)
+>Sie können auch _Militärzeit_ Notation (14:00) anstelle von *A.M./P.M* (14:00 Uhr).
 
 ### WeekParting {#week-parting}
 
-1. Wählen Sie das Asset aus und klicken Sie auf **Konfigurieren von** (Schraubenschlüsselsymbol).
+1. Wählen Sie das Asset aus und wählen Sie dann **Konfigurieren** (Schraubenschlüsselsymbol).
 
 1. Nach Eingabe von Startdatum/Startzeit und Enddatum/Endzeit können Sie einen Ausdruck oder eine natürliche Textversion verwenden, um Ihren Wiederholungsplan anzugeben.
 
    >[!NOTE]
    >Sie können die Felder **Aktiv ab** und **Aktiv bis** überspringen oder einbeziehen und den Ausdruck entsprechend Ihren Anforderungen zum Feld „Zeitpläne“ hinzufügen.
 
-1. Geben Sie den Ausdruck in das **Zeitplan** und das Asset für das jeweilige Tages- und Zeitintervall angezeigt wird.
+1. Geben Sie den Ausdruck in die **Zeitplan** und Ihr Asset für das jeweilige Tages- und Uhrzeitintervall angezeigt wird.
 
 #### Beispielhafte Ausdrücke für WeekParting {#example-two}
 
@@ -126,24 +126,24 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 
 | **Ausdruck** | **Interpretation** |
 |---|---|
-| `Mon,Wed,Fri` | Das Asset wird montags, mittwochs und freitags im Kanal von wiedergegeben |
+| `Mon,Wed,Fri` | Das Asset im Kanal wird montags, mittwochs und freitags wiedergegeben. |
 | `Mon-Thu` | Das Asset im Kanal wird von montags bis donnerstags wiedergegeben. |
 
 >[!NOTE]
 >
->Sie können auch Folgendes verwenden _Voll_ Notation (`Monday,Wednesday,Friday`) anstelle von _kurzhändig_ (`Mon,Wed,Fri`).
+>Sie können auch _full_ notation (`Monday,Wednesday,Friday`) anstelle von _kurze_ (`Mon,Wed,Fri`).
 
 
 ### MonthParting {#month-parting}
 
-1. Wählen Sie das Asset aus und klicken Sie auf **Konfigurieren von** (Schraubenschlüsselsymbol).
+1. Wählen Sie das Asset aus und wählen Sie dann **Konfigurieren** (Schraubenschlüsselsymbol).
 
 1. Nach Eingabe von Startdatum/Startzeit und Enddatum/Endzeit können Sie einen Ausdruck oder eine natürliche Textversion verwenden, um Ihren Wiederholungsplan anzugeben.
 
    >[!NOTE]
    >Sie können die Felder **Aktiv ab** und **Aktiv bis** überspringen oder einbeziehen und den Ausdruck entsprechend Ihren Anforderungen zum Feld „Zeitpläne“ hinzufügen.
 
-1. Geben Sie den Ausdruck in das **Zeitplan** und das Asset für das jeweilige Tages- und Zeitintervall angezeigt wird.
+1. Geben Sie den Ausdruck in die **Zeitplan** und Ihr Asset für das jeweilige Tages- und Uhrzeitintervall angezeigt wird.
 
 #### Beispielhafte Ausdrücke für MonthParting {#example-three}
 
@@ -151,22 +151,22 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 
 | **Ausdruck** | **Interpretation** |
 |---|---|
-| `on February,May,August,November` | Das Asset wird im Februar, Mai, August und November im Kanal wiedergegeben |
-| `on February-July` | Das Asset wird von Februar bis Ende Juli im Kanal wiedergegeben |
+| `on February,May,August,November` | Das Asset im Kanal wird im Februar, Mai, August und November wiedergegeben. |
+| `on February-July` | Das Asset im Kanal wird von Februar bis Ende Juli wiedergegeben. |
 
 >[!NOTE]
->Bei der Definition von Wochentagen und Monaten können Sie sowohl die Kurz- als auch die Vollnamennotation verwenden, z. B. Mo/Montag und Jan/Januar.
+>Bei der Definition von Wochentagen und Monaten können Sie sowohl die Abkürzung als auch die vollständige Bezeichnung verwenden, z. B. &quot;Mo.&quot;/&quot;Montag&quot;und &quot;Jan.&quot;/&quot;Januar&quot;.
 
 ### Kombination von Aufteilungen {#combined-parting}
 
-1. Wählen Sie das Asset aus und klicken Sie auf **Konfigurieren von** (Schraubenschlüsselsymbol).
+1. Wählen Sie das Asset aus und wählen Sie dann **Konfigurieren** (Schraubenschlüsselsymbol).
 
 1. Nach Eingabe von Startdatum/Startzeit und Enddatum/Endzeit können Sie einen Ausdruck oder eine natürliche Textversion verwenden, um Ihren Wiederholungsplan anzugeben.
 
    >[!NOTE]
    >Sie können die Felder **Aktiv ab** und **Aktiv bis** überspringen oder einbeziehen und den Ausdruck entsprechend Ihren Anforderungen zum Feld „Zeitpläne“ hinzufügen.
 
-1. Geben Sie den Ausdruck in das **Zeitplan** und das Asset für das jeweilige Tages- und Zeitintervall angezeigt wird.
+1. Geben Sie den Ausdruck in die **Zeitplan** und Ihr Asset für das jeweilige Tages- und Uhrzeitintervall angezeigt wird.
 
 #### Beispielausdrücke für die Kombination von Aufteilungen {#example-four}
 
@@ -175,11 +175,11 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 | **Ausdruck** | **Interpretation** |
 |---|---|
 | `after 6:00 and before 18:00 on Mon,Wed of Jan-Mar` | Das Asset im Kanal wird montags bis mittwochs von Januar bis Ende März zwischen 6 Uhr und 18 Uhr und mittwochs wiedergegeben. |
-| `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | Das Asset im Kanal wird ab dem 1. Januar um 14:00 Uhr wiedergegeben und läuft am 2. Januar den ganzen Tag bis zum 3. Januar um 3:00 Uhr weiter |
-| `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | Das Asset im Kanal wird ab dem 1. Januar um 14:00 Uhr bis zum 2. Januar um 3:00 Uhr wiedergegeben. Dann wird es am 2. Januar um 14:00 Uhr erneut gestartet und bis zum 3. Januar um 3:00 Uhr wiedergegeben |
+| `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | Die Wiedergabe des Assets im Kanal beginnt am 1. Januar um 14:00 Uhr und läuft den ganzen Tag am 2. Januar bis 3:00 Uhr am 3. Januar |
+| `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | Das Asset im Kanal startet den Player am 1. Januar um 14:00 Uhr, läuft bis 2. Januar um 3:00 Uhr und beginnt dann am 2. Januar um 2:00 Uhr und läuft bis 3:00 Uhr am 3. Januar |
 
 >[!NOTE]
->Bei der Definition von Wochentagen und Monaten können Sie sowohl die Kurz- als auch die Vollnamennotation verwenden, z. B. Mo/Montag und Jan/Januar. Außerdem können Sie Folgendes verwenden _Militärzeit_ Notation (14:00) anstelle von *A.M./P.M.*(14:00 UHR)
+>Bei der Definition von Wochentagen und Monaten können Sie sowohl die Abkürzung als auch die vollständige Bezeichnung verwenden, z. B. &quot;Mo.&quot;/&quot;Montag&quot;und &quot;Jan.&quot;/&quot;Januar&quot;. Sie können auch _Militärzeit_ Notation (14:00) anstelle von *A.M./P.M*(14:00 Uhr).
 
 
 ## Aktivierung für mehrere Assets {#multi-asset-scheduling}
@@ -189,7 +189,7 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 >
 >The **Multi-asset Activation** feature is only available if you have installed AEM 6.3 Feature Pack 5 or AEM 6.4 Feature Pack 3. -->
 
-***Aktivierung für mehrere Assets*** Ermöglicht Benutzenden die Auswahl mehrerer Assets und die Anwendung eines Wiedergabezeitplans auf alle ausgewählten Assets.
+***Aktivierung für mehrere Assets*** ermöglicht dem Benutzer die Auswahl mehrerer Assets und die Anwendung eines Wiedergabezeitplans auf alle ausgewählten Assets.
 
 ### Voraussetzungen {#prerequisites}
 
@@ -202,23 +202,23 @@ Um die Aktivierung für mehrere Assets zu verwenden, erstellen Sie ein AEM Scree
 
 Gehen Sie wie folgt vor, um mehrere Assets auszuwählen und ihre Anzeige in einem AEM Screens-Projekt zu planen:
 
-1. Auswählen **MultiAssetChannel** und wählen Sie dann **Bearbeiten** in der Aktionsleiste aus.
+1. Auswählen **MultiAssetChannel**, wählen Sie **Bearbeiten** in der Aktionsleiste aus.
 
    ![screen_shot_2018-12-21at70313am](assets/screen_shot_2018-12-21at70313am.png)
 
-1. Wählen Sie im Editor mehrere Assets aus und klicken Sie dann auf **Aktivierung bearbeiten** (Symbol oben links).
+1. Wählen Sie mehrere Assets aus dem Editor aus und wählen Sie dann **Aktivierung bearbeiten** (Symbol oben links).
 
    ![screen_shot_2018-12-21at70550am](assets/screen_shot_2018-12-21at70550am.png)
 
-1. Wählen Sie Datum und Uhrzeit in **Aktiv ab** und **Aktiv bis** im Dialogfeld **Komponentenaktivierung** aus. Wählen Sie das Häkchensymbol aus, wenn Sie mit der Auswahl der Zeitpläne fertig sind.
+1. Wählen Sie Datum und Uhrzeit in **Aktiv ab** und **Aktiv bis** im Dialogfeld **Komponentenaktivierung** aus. Wählen Sie das Häkchen-Symbol aus, wenn Sie die Zeitpläne ausgewählt haben.
 
    ![screen_shot_2018-12-17at20337pm](assets/screen_shot_2018-12-17at20337pm.png)
 
-1. Wählen Sie Aktualisieren aus, um die Assets zu überprüfen, auf die der Zeitplan für mehrere Assets angewendet wird.
+1. Wählen Sie &quot;Aktualisieren&quot;, um die Assets zu überprüfen, auf die der Multi-Asset-Zeitplan angewendet wird.
 
    >[!NOTE]
    >
-   >Das Zeitplansymbol wird in der oberen rechten Ecke für die Assets angezeigt, die über eine Aktivierung mit mehreren Assets verfügen.
+   >Das Zeitplansymbol wird in der oberen rechten Ecke für Assets angezeigt, die eine Aktivierung für mehrere Assets aufweisen.
 
    ![screen_shot_2018-12-21at70722am](assets/screen_shot_2018-12-21at70722am.png)
 
@@ -237,10 +237,10 @@ Die globale Überschreibung der universellen Startzeit erfolgt durch Konfigurati
    ![screen_shot_2018-04-23at111422am](/help/user-guide/assets/asset-activation/asset-level1.png)
 
 1. Wählen Sie **Bearbeiten** aus.
-1. Wählen Sie im Kanaleditor ein Asset aus, dessen Zeitplan Sie auf das Asset anwenden möchten.
+1. Wählen Sie im Kanaleditor ein Asset aus, dessen Zeitplan Sie darauf anwenden möchten.
 
    ![screen_shot_2018-12-21at70550am](/help/user-guide/assets/asset-activation/Asset-level4.png)
 
-1. Für eine globale Überschreibung geben Sie die Aktivierungszeit in das Feld **Zeitzonen-Überschreibung** -Abschnitt für das Asset. Wenn Sie in diesem Bereich nichts eingeben, wird die Zeitzone des Players angewendet.
+1. Geben Sie für eine globale Überschreibung die Aktivierungszeit in das Feld **Zeitzonen-Überschreibung** für das Asset. Wenn Sie in diesem Bereich nichts eingeben, wird die Zeitzone des Players angewendet.
 
 

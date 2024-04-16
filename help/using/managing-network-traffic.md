@@ -2,10 +2,10 @@
 title: Verwalten des Netzwerk-Traffics
 description: Auf dieser Seite werden die Standard-Netzwerkkonfigurationen sowie die Verwaltung des Netzwerk-Traffics beschrieben.
 exl-id: b6d8f4a3-fca2-4556-9455-b9e27b138154
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 95%
+source-wordcount: '549'
+ht-degree: 75%
 
 ---
 
@@ -13,15 +13,15 @@ ht-degree: 95%
 
 Eine Netzwerkkonfiguration kann auf diversen Strukturen basieren. Dieser Abschnitt erläutert die gängigsten Netzwerkkonfigurationen und beschreibt in verallgemeinerter Form die innerhalb eines Unternehmens verwendeten Ansätze.
 
-Dieses Handbuch bietet zunächst eine Einführung in Proxy-Server, um dann auf die diversen Netzwerkstrukturen einzugehen, die in unterschiedlichen Unternehmen eingerichtet werden.
+Dieses Handbuch enthält eine Einführung in Proxy-Server, gefolgt von den unterschiedlichen Netzwerkstrukturen, die innerhalb verschiedener Organisationen eingerichtet werden.
 
 >[!NOTE]
 >**Netzwerkanforderungen von AEM Screens**
->AEM Screens kommuniziert direkt mit AEM as a Cloud Service. Zwischen den beiden Knoten muss daher eine stabile Verbindung gewährleistet sein. Da Firewalls für den Zugriff auf das kommerzielle Internet absolut unabdingbar sind, müssen Sie verstehen, für welche Ports Sie in Firewalls und anderen für die IT-Sicherheit implementierten Netzwerkkomponenten die Kommunikation zulassen müssen.
+>AEM Screens kommuniziert direkt mit dem AEM as a Cloud Service. Daher ist es erforderlich, eine stabile Verbindung zwischen den beiden Knoten herzustellen. Firewalls sind für den kommerziellen Internetzugang obligatorisch. Als Kunde sollten Sie wissen, welche Kommunikationsanschlüsse in diesen Firewalls und anderen IT-Security-bezogenen Netzwerkkomponenten geöffnet werden müssen.
 
 ## Übersicht über Proxy-Server {#proxy-servers}
 
-Über Proxy-Server wird der Aufbau einer Verbindung zum Internet ermöglicht. Ein Proxy-Server ist ein dediziertes Computer- oder Software-System, das auf einem Computer ausgeführt wird, der als Vermittler zwischen einem Endpunktgerät (z. B. einem Computer) und einem anderen Server fungiert, von dem aus ein Benutzer oder Client einen Dienst anfordert. Der Proxy-Server kann sich auf demselben Computer befinden wie ein Firewall-Server oder auf einem separaten Server, der Anfragen über die Firewall weiterleitet.
+Über Proxy-Server wird der Aufbau einer Verbindung zum Internet ermöglicht. Ein Proxy-Server ist ein dedizierter Computer oder ein Software-System, das auf einem Computer ausgeführt wird. Sie fungiert als Vermittler zwischen einem Endpunktgerät, z. B. einem Computer, und einem anderen Server, von dem aus ein Benutzer oder Client einen Dienst anfordert. Der Proxy-Server kann sich auf demselben Computer befinden wie ein Firewall-Server oder auf einem separaten Server, der Anfragen über die Firewall weiterleitet.
 
 Ein Vorteil eines Proxy-Servers besteht darin, dass sein Cache allen Benutzern zur Verfügung stehen kann. Wenn eine oder mehrere Websites häufig aufgerufen werden, ist es wahrscheinlich, dass diese im Cache des Proxys gespeichert werden, wodurch sich die Reaktionszeit für Benutzer weiter verkürzt. Ein Proxy kann zudem die durch ihn verarbeiteten Interaktionen protokollieren, was bei der Fehlerbehebung hilfreich sein kann.
 

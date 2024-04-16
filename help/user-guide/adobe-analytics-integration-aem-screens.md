@@ -10,10 +10,10 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: 5a340534df051a4ad4bf9080b972111717f14736
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 56%
+source-wordcount: '674'
+ht-degree: 54%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 56%
 
 >[!NOTE]
 >
->Wenden Sie sich an den Adobe-Support, um Zugriff auf diese Feature Packs zu erhalten. Das neueste Feature Pack für AEM Screens steht auf dem [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) zum Download zur Verfügung (Adobe ID erforderlich).
+>Um Zugriff auf eines dieser Feature Packs zu erhalten, wenden Sie sich an den Adobe-Support und fordern Sie Zugriff an. Das neueste Feature Pack für AEM Screens steht auf dem [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) zum Download zur Verfügung (Adobe ID erforderlich).
 
 In diesem Abschnitt werden folgende Themen behandelt:
 

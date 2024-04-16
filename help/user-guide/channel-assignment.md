@@ -5,10 +5,10 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1176'
-ht-degree: 35%
+source-wordcount: '1174'
+ht-degree: 33%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 35%
 >[!IMPORTANT]
 >In diesem Abschnitt wird die Kanalzuweisung und -zeitplanung für Feature Packs beschrieben, die älter als AEM 6.5.5 Screens sind.
 
-Nachdem Sie eine Anzeige eingerichtet haben, müssen Sie der Anzeige einen Kanal zuweisen, um Ihren Inhalt anzuzeigen.
+Wenn Sie eine Anzeige eingerichtet haben, weisen Sie einen Kanal einer Anzeige zu, um Ihren Inhalt anzuzeigen.
 
 Auf dieser Seite wird beschrieben, wie Sie Ihrer Anzeige einen Kanal zuweisen.
 

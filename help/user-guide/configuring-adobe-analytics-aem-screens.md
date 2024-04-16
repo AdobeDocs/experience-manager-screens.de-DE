@@ -1,6 +1,6 @@
 ---
 title: Konfigurieren von Adobe Analytics mit AEM Screens
-description: Erfahren Sie mehr über das Sequenzieren und Senden benutzerdefinierter Ereignisse mit Offline-Adobe Analytics.
+description: Erfahren Sie mehr über die Sequenzierung und das Senden benutzerdefinierter Ereignisse mit Offline-Adobe Analytics.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,7 +10,7 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
-source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 71%
@@ -24,7 +24,7 @@ ht-degree: 71%
 >
 >This AEM Screens functionality is only available if you have installed AEM 6.4.2 Feature Pack 2 and AEM 6.3.3 Feature Pack 4.
 >
->To get access to either of these Feature Packs, you must contact Adobe Support and request access. Once you have permissions, download it from Package Share. -->
+>To get access to either of these Feature Packs, contact Adobe Support and request access. When you have permissions, download it from Package Share. -->
 
 In diesem Abschnitt werden folgende Themen behandelt:
 
@@ -33,7 +33,7 @@ In diesem Abschnitt werden folgende Themen behandelt:
 
 ## Sequenzierung in Adobe Analytics mit AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
 
-Der ***Sequenzierungsprozess*** beginnt mit dem Datenspeicher-Service, der den Adobe Analytics-Service aktiviert. Kanalinhalte senden Adobe Analytics-Ereignisse mit Kostenanalyse, d. h. die Erfassung von Datentests an Windows I/O und die Auslösung von Aufenthaltsereignissen werden ausgelöst. Die Ereignisse werden in der Index-DB gespeichert und weiter im Objektspeicher abgelegt. Je nach vom Administrator festgelegtem Zeitplan werden die Daten aus dem Objektspeicher ausgeschnitten und dann im Blockspeicher weiter übertragen. Es versucht, bei der Verbindung die maximale Datenmenge zu senden.
+Der ***Sequenzierungsprozess*** beginnt mit dem Datenspeicher-Service, der den Adobe Analytics-Service aktiviert. Kanalinhalte senden Adobe Analytics-Ereignisse mit Kostenanalyse, d. h. die Erfassung von Datentests an Windows I/O und die Auslösung von Aufenthaltsereignissen werden ausgelöst. Die Ereignisse werden in der Index-DB gespeichert und weiter im Objektspeicher abgelegt. Basierend auf dem Zeitplan, den der Administrator festlegt, werden die Daten aus dem Objektspeicher entfernt und weiter in den Blockspeicher übertragen. Es versucht, die maximale Datenmenge zu senden, wenn eine Verbindung hergestellt wird.
 
 ### Sequenzierungsdiagramm {#sequencing-diagram}
 
@@ -81,7 +81,7 @@ Die folgende Tabelle fasst das Standarddatenmodell für Ereignisse zusammen. Es 
    <td>empfohlen</td> 
    <td>Zeichenfolge</td> 
    <td>Zeitstempel – UTC</td> 
-   <td>Ereignisstartdatum - Zeit Wenn Sie dies nicht angegeben haben, wird die Ereigniszeit als die Zeit angenommen, zu der sie vom Server empfangen wurde</td> 
+   <td>Startzeitpunkt des Ereignisses, wenn Sie dies nicht angegeben haben, wird die Ereigniszeit als die Zeit angenommen, zu der es vom Server empfangen wurde</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -108,7 +108,7 @@ Die folgende Tabelle fasst das Standarddatenmodell für Ereignisse zusammen. Es 
    <td>erforderlich</td> 
    <td>Zeichenfolge</td> 
    <td> </td> 
-   <td>Hauptkategorie (DESKTOP, MOBILE, WEB, PROCESS, SDK, SERVICE, ECOSYSTEM) - Gruppierung von Ereignistypen - <strong>Player gesendet</strong></td> 
+   <td>Hauptkategorie (DESKTOP, MOBILE, WEB, PROZESS, SDK, SERVICE, ÖKOSYSTEM) - Gruppierung von Ereignistypen - <strong>Player gesendet</strong></td> 
   </tr>
   <tr>
    <td> </td> 
@@ -135,7 +135,7 @@ Die folgende Tabelle fasst das Standarddatenmodell für Ereignisse zusammen. Es 
    <td>empfohlen</td> 
    <td>Zeichenfolge</td> 
    <td> </td> 
-   <td>Untertyp des Ereignisses (Erstellen, Aktualisieren, Löschen, Veröffentlichen usw.) - Weitere Details zur Benutzeraktion</td> 
+   <td>Ereignistyp (Erstellen, Aktualisieren, Löschen, Veröffentlichen usw.) - Weitere Details zur Benutzeraktion</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -180,7 +180,7 @@ Die folgende Tabelle fasst das Standarddatenmodell für Ereignisse zusammen. Es 
    <td>optional</td> 
    <td>number</td> 
    <td> </td> 
-   <td>Häufigkeit, mit der das Ereignis aufgetreten ist - Die Videodauer wird gesendet</td> 
+   <td>Anzahl der aufgetretenen Ereignisse - Die Videodauer wird gesendet</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -189,7 +189,7 @@ Die folgende Tabelle fasst das Standarddatenmodell für Ereignisse zusammen. Es 
    <td>optional</td> 
    <td>Zeichenfolge</td> 
    <td> </td> 
-   <td>Wert des Ereignisses (z. B. Einstellungen ein/aus)</td> 
+   <td>Wert des Ereignisses (z. B. Einstellungen ein-/ausschalten)</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -288,7 +288,7 @@ Die folgende Tabelle fasst das Standarddatenmodell für Ereignisse zusammen. Es 
    <td>erforderlich</td> 
    <td>Zeichenfolge</td> 
    <td> </td> 
-   <td>Die URL zum Asset einschließlich der abgespielten Ausgabedarstellung</td> 
+   <td>Die URL zum Asset, einschließlich der wiedergegebenen Ausgabedarstellung</td> 
   </tr>
   <tr>
    <td> </td> 

@@ -9,10 +9,10 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '978'
-ht-degree: 43%
+source-wordcount: '976'
+ht-degree: 41%
 
 ---
 
@@ -34,7 +34,7 @@ Bevor Sie mit Autoren- und Veröffentlichungsservern beginnen, sollten Sie über
 
 >[!NOTE]
 >
->Diese AEM Screens-Funktion ist nur verfügbar, wenn Sie AEM 6.4 Screens Feature Pack 2 installiert haben. Wenden Sie sich an den Adobe-Support, um Zugriff auf dieses Feature Pack zu erhalten. Nachdem Sie die Berechtigung erhalten haben, laden Sie sie von Package Share herunter.
+>Diese AEM Screens-Funktion ist nur verfügbar, wenn Sie AEM 6.4 Screens Feature Pack 2 installiert haben. Um Zugriff auf dieses Feature Pack zu erhalten, wenden Sie sich an den Adobe-Support und fordern Sie Zugriff an. Nachdem Sie die Berechtigung erhalten haben, laden Sie sie von Package Share herunter.
 
 ## Einführung {#introduction}
 
