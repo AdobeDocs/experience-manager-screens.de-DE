@@ -10,9 +10,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3b127311-32d1-402c-97a1-e799e9f3f95e
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '244'
 ht-degree: 40%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 40%
 
 >[!CAUTION]
 >
->Adobe empfiehlt ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM). AEM Screens bietet Wartungs-Support für AEM 6.3 Screens-Plattform.
+>Adobe empfiehlt ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM). AEM Screens bietet Wartungs-Support für die AEM 6.3 Screens-Plattform.
 
 AEM Screens hat AEM 6.3 Feature Pack 5 und AEM 6.4 Feature Pack 3 mit folgenden Details veröffentlicht.
 
@@ -33,7 +33,7 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 201812 ist der 16. Jan
 
 * **Textüberlagerung auf Assets im Kanal**:
 
-  Textüberlagerung ist eine in AEM Screens verfügbare Funktion, mit der Sie in einem Sequenzkanal ein überzeugendes Erlebnis erstellen können, indem Sie einen Titel oder eine Beschreibung angeben, die über einem Bild überlagert ist. Siehe [**Textüberlagerung**](text-overlay.md).
+  Textüberlagerung ist eine Funktion, die in AEM Screens verfügbar ist. Damit können Sie in einem Sequenzkanal ein überzeugendes Erlebnis erstellen, indem Sie einen Titel oder eine Beschreibung angeben, die über einem Bild überlagert ist. Siehe [**Textüberlagerung**](text-overlay.md).
 
 * **Zeitplanung für mehrere Assets**:
 

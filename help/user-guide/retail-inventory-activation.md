@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '578'
-ht-degree: 33%
+ht-degree: 31%
 
 ---
 
@@ -23,9 +23,9 @@ Im folgenden Anwendungsbeispiel werden je nach den Werten in Ihrer Google Tabell
 
 ## Beschreibung {#description}
 
-In diesem Anwendungsbeispiel wird der Lagerbestand für drei verschiedenfarbige Pullover veranschaulicht. Je nachdem, wie viele Pullover auf Lager vorhanden sind (erfasst in Google Tabellen), wird das Bild (roter, grüner oder blauer Pullover) mit der höchsten Zahl auf dem Bildschirm angezeigt.
+In diesem Anwendungsbeispiel wird der Lagerbestand für drei verschiedene Pullover dargestellt. Je nachdem, wie viele Pullover auf Lager vorhanden sind (erfasst in Google Tabellen), wird das Bild (roter, grüner oder blauer Pullover) mit der höchsten Zahl auf dem Bildschirm angezeigt.
 
-Für dieses Anwendungsbeispiel wird der rote, grüne oder blaue Pullover auf dem Bildschirm angezeigt, der auf der höchsten verfügbaren Anzahl an Pullovern basiert.
+In diesem Anwendungsfall wird der rote, grüne oder blaue Pullover auf dem Bildschirm angezeigt, der auf der höchsten verfügbaren Anzahl an Pullovern basiert.
 
 ## Voraussetzungen {#preconditions}
 

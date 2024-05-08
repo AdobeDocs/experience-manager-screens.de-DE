@@ -2,10 +2,10 @@
 title: Projekttaxonomie
 description: Erfahren Sie mehr über die Projekttaxonomie im Zusammenhang mit AEM Screens.
 exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 56%
+ht-degree: 53%
 
 ---
 
@@ -52,7 +52,7 @@ Autoren starten ein AEM Screens-Projekt normalerweise durch:
 * [Erstellen von Displays](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
 * [Zuweisen von Kanälen zu den Displays](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/assigning-channels/channel-assignment)
 
-* [Anzeigen von Inhalten in einem AEM Screens-Player](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/working-with-screens-player)
+* [Anzeigen von Inhalten in einem AEM Screens-Player](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/working-with-screens-player)
 
 >[!NOTE]
 >Darüber hinaus können Sie eine Reihe von Speicherorten aus einer CSV/XLS-Tabelle per Massenimport in Ihr AEM Screens-Projekt importieren. Siehe [Importer für neue Projekte aus Datei](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/project-importer).

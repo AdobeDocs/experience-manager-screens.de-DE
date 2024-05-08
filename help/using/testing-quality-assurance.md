@@ -2,10 +2,10 @@
 title: Tests und Qualitätssicherung
 description: Weitere Informationen zu Tests und Qualitätssicherung für AEM Screens finden Sie im Best Practices-Handbuch.
 exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 51%
+source-wordcount: '332'
+ht-degree: 50%
 
 ---
 

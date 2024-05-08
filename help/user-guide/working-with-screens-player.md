@@ -9,10 +9,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1057'
-ht-degree: 59%
+ht-degree: 54%
 
 ---
 
@@ -70,9 +70,9 @@ Im Menü Konfiguration können Sie die folgenden Einstellungen ändern:
 
 * Aktivieren oder deaktivieren Sie das **Admin-Menü**, den **Kanalschalter** und die **Aktivitäts-Benutzeroberfläche** für den Screens-Player.
 
-  Wenn die **Aktivitäts-Benutzeroberfläche** im Menü **Konfiguration** aktiviert ist, zeigt der AEM Screens-Player die *Benachrichtigungen zur Player-Aktivität* oben rechts im Player an, wie in der folgenden Abbildung dargestellt.
+  Wenn die Variable **Aktivitäts-Benutzeroberfläche** wird über aktiviert. **Konfiguration** im Menü angezeigt, zeigt der AEM Screens Player die *Benachrichtigungen zu Player-Aktivitäten* in der oberen rechten Ecke des Players, wie in der Abbildung unten dargestellt.
 
-  ![image](/help/user-guide/assets/activity_ui.png)
+  ![Bild](/help/user-guide/assets/activity_ui.png)
 
 >[!NOTE]
 >
@@ -84,7 +84,7 @@ Im Menü Konfiguration können Sie die folgenden Einstellungen ändern:
 
 #### Zugriff auf die Menüoptionen im Inhalts-Cache {#content-cache-options}
 
-Sie können den Cache für Kanäle und Anwendungen über die Administrator-Benutzeroberfläche im AEM Screens-Player löschen.
+Sie können den Cache für Kanäle und Anwendungen über die Admin-Benutzeroberfläche im AEM Screens Player löschen.
 
 Klicken Sie auf **Inhalts-Cache** über die Seitenleiste aus, damit Sie den Cache aktualisieren können.
 

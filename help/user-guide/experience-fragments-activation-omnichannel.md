@@ -1,17 +1,17 @@
 ---
 title: Aktivierung von Experience Fragments
 description: Ein Anwendungsbeispiel, das Ihnen dabei hilft, mehr über die Aktivierung von Experience Fragments im Zusammenhang mit AEM Screens zu erfahren.
-source-git-commit: 97084aee861e152abcc5f117a2a4759dced038cc
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '194'
-ht-degree: 51%
+ht-degree: 49%
 
 ---
 
 
 # Aktivierung von Experience Fragments: OmniChannel-Erlebnis {#experience-fragments-activation}
 
-## Nutzungsszenario – Beschreibung {#use-case-description}
+## Anwendungsfallbeschreibung {#use-case-description}
 
 Ein Experience Fragment ist eine Gruppe aus einer oder mehreren Komponenten (einschließlich Inhalt und Layout), die innerhalb von Seiten referenziert werden.
 

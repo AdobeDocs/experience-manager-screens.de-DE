@@ -5,23 +5,23 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 570003d8-216d-4dcf-b03e-3a0dde818a43
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 68%
+source-wordcount: '274'
+ht-degree: 38%
 
 ---
 
 # Versionshinweise für Feature Pack 202112 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Adobe empfiehlt ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM). AEM Screens bietet Wartungs-Support für AEM 6.3 Screens-Plattform.
+>Adobe empfiehlt ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM). AEM Screens bietet Wartungs-Support für die AEM 6.3 Screens-Plattform.
 
 ## Verfügbarkeit {#availability}
 
 Das AEM 6.5 Feature Pack 11 für AEM Screens wurde veröffentlicht.
 
-Das neueste Feature Pack für AEM Screens 6.5.11 steht auf dem [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) zum Download zur Verfügung (Adobe ID erforderlich). Gehen Sie zur Registerkarte **Adobe Experience Manager** und suchen Sie nach **Screens**, um das neueste Feature Pack mit dem Namen **AEM 6.5 Screens FP11** herunterzuladen.
+Sie können das neueste Feature Pack für AEM Screens 6.5.11 von der [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) die Verwendung Ihrer Adobe ID. Navigieren Sie zum **Adobe Experience Manager** Registerkarte und suchen Sie nach **Screens** , um das neueste Feature Pack mit dem Titel **AEM 6.5 Screens FP11**.
 
 ## Veröffentlichungsdatum {#release-date}
 
@@ -33,19 +33,19 @@ Diese Version beinhaltet nur Fehlerbehebungen.
 
 ### Fehlerbehebungen {#bug-fixes}
 
-* Targeting/Personalisierung funktionierte nicht. Dieser Fehler wurde jetzt behoben.
+* Targeting/Personalisierung funktionierte nicht. Dieser Fehler wurde behoben.
 
-* E-Mail zur Überwachung von Screens funktionierte nach FP10 nicht mehr. Dieser Fehler wurde jetzt behoben.
+* E-Mail zur Überwachung von Screens funktionierte nach FP10 nicht mehr. Dieser Fehler wurde behoben.
 
-* Der Windows-Player stürzte beim Aufnehmen eines Screenshots im Hochformat ab. Dieser Fehler wurde jetzt behoben.
+* Der Windows Player stürzte beim Aufnehmen eines Screenshots im Hochformat ab. Dieser Fehler wurde behoben.
 
-* Der Screens-SPA-Kanal verursachte einen weißen Bildschirm in Windows Player. Dieser Fehler wurde jetzt behoben.
+* Der Screens-SPA-Kanal verursachte einen weißen Bildschirm in Windows Player. Dieser Fehler wurde behoben.
 
 * Die *wcmmode* wurde aus allen Screens-Anforderungen in der Veröffentlichungsinstanz entfernt.
 
 * Die Benutzeroberfläche der Player-Aktivität funktioniert jetzt erwartungsgemäß.
 
-* Der Player konnte die neueste Aktualisierung nicht durch die Verwaltung der Veröffentlichung durchlaufen. Dieser Fehler wurde jetzt behoben.
+* Der Player konnte die neueste Aktualisierung nicht durch die Verwaltung der Veröffentlichung durchlaufen. Dieser Fehler wurde behoben.
 
 ### Veröffentlichte AEM Screens-Player
 

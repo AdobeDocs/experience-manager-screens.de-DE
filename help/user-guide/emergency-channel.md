@@ -1,6 +1,6 @@
 ---
 title: Notfallkanal
-description: Erfahren Sie mehr über das Erstellen und Verwalten eines Notfallkanals, den der Inhaltsautor von einem Sequenzkanal aus wechseln kann, wenn eine Bedingung vorliegt.
+description: Erfahren Sie mehr über das Erstellen und Verwalten eines Notfallkanals, den der Inhaltsautor von einem Sequenzkanal wechseln kann, wenn eine Bedingung vorliegt.
 content-type: example
 topic-tags: use-case-examples
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d409ba46-b48a-44db-b305-27c392cd55de
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 49%
@@ -18,7 +18,7 @@ ht-degree: 49%
 
 # Notfallkanal {#emergency-channel}
 
-## Nutzungsszenario – Beschreibung {#use-case-description}
+## Anwendungsfallbeschreibung {#use-case-description}
 
 In diesem Abschnitt wird ein Nutzungsszenario beschrieben, das sich auf die Erstellung und Verwaltung eines Notfallkanals konzentriert, zu dem der Inhaltsautor von einem Sequenzkanal wechseln kann, wenn eine Bedingung vorliegt.
 

@@ -1,6 +1,6 @@
 ---
-title: Implementieren von Windows 10 Player
-description: Erfahren Sie mehr über die Konfiguration des AEM Screens Windows 10-Players.
+title: Implementieren von Windows Player
+description: Erfahren Sie mehr über die Konfiguration des Windows Players in AEM Screens.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
@@ -10,16 +10,16 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 54%
+source-wordcount: '1117'
+ht-degree: 44%
 
 ---
 
-# Implementieren von Windows 10 Player {#implementing-windows-player}
+# Implementieren von Windows Player {#implementing-windows-player}
 
-Dieser Abschnitt beschreibt, wie der Windows 10 Player für AEM Screens konfiguriert wird. Er enthält Informationen zur Konfigurationsdatei und präsentiert die verfügbaren Optionen und Empfehlungen zu den zum Entwickeln und Testen zu verwendenden Einstellungen.
+In diesem Abschnitt wird die Konfiguration des Windows Players in AEM Screens beschrieben. Er enthält Informationen zur Konfigurationsdatei und präsentiert die verfügbaren Optionen und Empfehlungen zu den zum Entwickeln und Testen zu verwendenden Einstellungen.
 
 ## Installieren des Windows Players {#installing-windows-player}
 
@@ -28,12 +28,12 @@ Um Windows Player für AEM Screens zu implementieren, installieren Sie Windows P
 Rufen Sie die Seite [**AEM 6.5 Player-Downloads**](https://download.macromedia.com/screens/) auf.
 
 >[!NOTE]
->Der Windows-Player verfügt über keinen Fenstermodus. Der Vollbildmodus ist immer aktiviert.
+>Es gibt keinen Fenstermodus im Windows Player. Sie befindet sich immer im Vollbildmodus.
 
 ### Einrichten der Umgebung für das AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
 
 >[!NOTE]
->Richten Sie eine Umgebung für den Windows-Player ein, wenn Sie das AEM Screens 6.5.5 Service Pack verwenden.
+>Richten Sie eine Umgebung für Windows Player ein, wenn Sie das AEM Screens 6.5.5 Service Pack verwenden.
 
 Setzen Sie in der **Konfiguration der Adobe Experience Manager-Web-Konsole** das **SameSite-Attribut für die Anmeldungs-Token-Cookies** auf allen AEM-Autoren- und Veröffentlichungsinstanzen von **Lax** (Gering) auf **None** (Keine).
 
@@ -71,7 +71,7 @@ Sie können Ihrem Windows-Player einen benutzerfreundlichen Gerätenamen zuweise
 >[!NOTE]
 >Sie können den Player-Namen nur vor der Registrierung auswählen. Nachdem der Player registriert wurde, kann der Player-Name nicht mehr geändert werden.
 
-Gehen Sie wie folgt vor, um den Namen im Windows-Player zu konfigurieren:
+Gehen Sie wie folgt vor, um den Namen im Windows Player zu konfigurieren:
 
 1. Klicks **start** > **run**.
 1. Eingabe `system.cpl`.
@@ -84,7 +84,7 @@ In diesem Abschnitt erfahren Sie, wie Sie die Standardoptionen in Windows Instal
 ## Installation mit CLI (PowerShell) {#install-powershell}
 
 1. Erstellen Sie einen benutzerdefinierten Speicherort **dediziert** für den Screens-Player, z. B.:
-   `C:\Users\User\screens-player`)
+   `C:\Users\User\screens-player`
 1. Installieren
    `aem-screens-player-electron-xxx-signed.exe /S /D=C:\Users\User\screens-player`
 1. Öffnen
@@ -102,7 +102,7 @@ C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AE
 
 ## Massenregistrierung von Windows-Playern {#bulk-registration}
 
-Bei der Implementierung des Windows-Players müssen Sie nicht jeden Player manuell konfigurieren. Stattdessen können Sie die JSON-Konfigurationsdatei aktualisieren, wenn sie getestet wurde und für die Bereitstellung bereit ist.
+Bei der Implementierung des Windows Players müssen Sie nicht jeden Player manuell konfigurieren. Stattdessen können Sie die JSON-Konfigurationsdatei aktualisieren, wenn sie getestet wurde und für die Bereitstellung bereit ist.
 
 Die Konfiguration stellt sicher, dass alle Player denselben Server in der Konfigurationsdatei pingen. Registrieren Sie jeden Player manuell.
 
@@ -124,9 +124,9 @@ Die folgende Tabelle fasst zur Referenz die Richtlinienattribute mit einer JSON-
 | resolution | Die Auflösung des Geräts. |
 | rebootSchedule | Der Zeitplan zum Neustarten des Players. |
 | enableAdminUI | Aktivierung der Administrator-Benutzeroberfläche zum Konfigurieren des Geräts vor Ort. Stellen Sie diesen Wert auf „false“ ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und in der Produktion verwendet wird. |
-| enableOSD | Aktivierung der Kanalschalter-Benutzeroberfläche, damit Benutzer zwischen Kanälen auf dem Gerät wechseln können. Stellen Sie den Wert ggf. auf „false“ ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und in der Produktion verwendet wird. |
+| enableOSD | Aktivieren Sie die Benutzeroberfläche für den Kanalschalter, damit Benutzer die Kanäle auf dem Gerät wechseln können. Stellen Sie den Wert ggf. auf „false“ ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und in der Produktion verwendet wird. |
 | enableActivityUI | Aktivieren Sie diese Option, damit Sie den Fortschritt von Aktivitäten wie Download und Synchronisierung anzeigen können. Aktivieren Sie diese Option zur Fehlerbehebung und deaktivieren Sie sie, sobald sie vollständig konfiguriert ist und sich in der Produktion befindet. |
-| cloudMode | Setzen Sie dies auf „wahr“, wenn Sie möchten, dass der Windows-Player eine Verbindung zu Screens as a Cloud Service herstellt. Auf &quot;false&quot;setzen, um eine Verbindung zu AMS oder On-Premise-AEM herzustellen. |
+| cloudMode | Setzen Sie dies auf &quot;true&quot;, wenn Sie möchten, dass der Windows Player eine Verbindung zu Screens as a Cloud Service herstellt. Auf &quot;false&quot;setzen, um eine Verbindung zu AMS oder On-Premise-AEM herzustellen. |
 | cloudToken | Anmelde-Token zur Registrierung bei Screens as a Cloud Service. |
 
 #### Beispielhafte JSON-Richtliniendatei {#example-policy-json-file}
@@ -144,11 +144,11 @@ Die folgende Tabelle fasst zur Referenz die Richtlinienattribute mit einer JSON-
 
 ## Aktivieren des Kiosk-Modus {#enabling-kiosk-mode}
 
-Bei der Bereitstellung des Windows-Players ist es wichtig, einen Kiosk-Modus zu aktivieren, damit andere Anwendungen oder die Taskleiste nicht auf dem Windows-Desktop angezeigt werden.
+Bei der Bereitstellung des Windows Players ist es wichtig, einen Kiosk-Modus zu aktivieren, damit andere Anwendungen oder die Taskleiste nicht auf dem Windows-Desktop angezeigt werden.
 
 >[!CAUTION]
 >
->Adobe empfiehlt eine Geräteverwaltungslösung, um Kiosk für Windows zu aktivieren. Gehen Sie wie folgt vor, wenn Sie keine Lösung zur Geräteverwaltung haben, um den Kiosk-Modus zu aktivieren. Diese Methode verwendet die Shell-Starterfunktion, die in Windows 10 Enterprise und Education verfügbar ist. Alle anderen von Microsoft empfohlenen Methoden für Nicht-UWP-Apps können ebenfalls angewendet werden, um Kiosk zu aktivieren, insbesondere bei anderen Windows-Editionen.
+>Adobe empfiehlt eine Geräteverwaltungslösung, um Kiosk für Windows zu aktivieren. Gehen Sie wie folgt vor, wenn Sie keine Lösung zur Geräteverwaltung haben, um den Kiosk-Modus zu aktivieren. Diese Methode verwendet die Shell-Starter-Funktion, die in Windows 10 Enterprise und Edu verfügbar ist. Alle anderen von Microsoft empfohlenen Methoden für Nicht-UWP-Apps können ebenfalls angewendet werden, um Kiosk zu aktivieren, insbesondere auf anderen Windows-Editionen.
 
 Gehen Sie wie folgt vor, um den Kiosk-Modus zu aktivieren:
 
@@ -160,8 +160,8 @@ Gehen Sie wie folgt vor, um den Kiosk-Modus zu aktivieren:
 
    Siehe ***Konfigurieren des Shell-Starters*** in **[Shell-Starter](https://learn.microsoft.com/en-us/windows/iot/iot-enterprise/customize/shell-launcher)** Seite der Microsoft® Windows-Unterstützung für weitere Informationen.
 
-1. Erstellen Sie einen Benutzer ohne Administratorrechte (falls Sie noch keinen haben), der für Kiosk verwendet werden soll. Dabei kann es sich um einen lokalen Benutzer oder einen Domänenbenutzer handeln.
-1. Installieren Sie den Windows Player für diesen Kiosk-Benutzer von der Seite [AEM Screens-Player-Downloads](https://download.macromedia.com/screens/).
+1. Erstellen Sie einen Benutzer ohne Administratorrechte (falls Sie noch keinen haben), der für Kiosk verwendet werden soll. Es kann sich um einen lokalen Benutzer oder einen Domänenbenutzer handeln.
+1. Installieren Sie den Windows Player für diesen Kiosk-Benutzer aus dem [AEM Screens Player-Downloads](https://download.macromedia.com/screens/) Seite.
 1. Siehe [Verwenden Sie Shell Launcher, um einen Windows 10-Kiosk zu erstellen](https://learn.microsoft.com/en-us/windows/configuration/assigned-access/shell-launcher/?tabs=intune) , um Ihr PowerShell-Skript zu ändern.
 
    Ändern Sie das PowerShell-Skript so, dass Sie den Benutzernamen durch den von Ihnen erstellten ersetzen können. Stellen Sie sicher, dass der Pfad zur ausführbaren Datei der Anwendung korrekt ist. Dadurch wird die benutzerdefinierte Shell als Windows Player-Anwendung für den Kiosk-Benutzer festgelegt und die Standardeinstellung wird als explorer.exe für andere Benutzer festgelegt.
@@ -171,7 +171,7 @@ Gehen Sie wie folgt vor, um den Kiosk-Modus zu aktivieren:
 
 ### Fehlerbehebung {#troubleshooting}
 
-Wenn Sie nach der Anmeldung als Kiosk-Benutzer einen schwarzen Bildschirm erhalten, bedeutet dies, dass Sie den Pfad zur ausführbaren Windows Player-Datei falsch angegeben haben. Melden Sie sich wieder als Administrator an und überprüfen Sie das Skript und führen Sie es erneut aus.
+Wenn Sie nach der Anmeldung als Kiosk-Benutzer einen schwarzen Bildschirm erhalten, bedeutet dies, dass Sie den Pfad zur ausführbaren Datei von Windows Player falsch angegeben haben. Melden Sie sich wieder als Administrator an und überprüfen Sie das Skript und führen Sie es erneut aus.
 
 Der standardmäßige Installationspfad für Windows Player lautet:
 

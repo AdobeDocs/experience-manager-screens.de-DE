@@ -5,27 +5,27 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e4149f5b-42c0-43c8-b275-ecbe90104a98
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: fe4f7d593ccea91f6109a0c759aea3faa37ae471
 workflow-type: tm+mt
 source-wordcount: '151'
-ht-degree: 74%
+ht-degree: 44%
 
 ---
 
 # Versionshinweise für Feature Pack 20240215 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->Adobe empfiehlt ein Upgrade auf die neueste Version von 6.5 Adobe Experience Manager (AEM 6.5). Sie erhalten die neuesten Versionsinformationen von [here](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/release-notes/release-notes)
+>Adobe empfiehlt ein Upgrade auf die neueste Version von 6.5 Adobe Experience Manager (AEM 6.5). Sie erhalten die neuesten Versionsinformationen von [here](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/release-notes/release-notes).
 
 ## Verfügbarkeit {#availability}
 
 Das AEM 6.5 Feature Pack 11,3 für AEM Screens wurde veröffentlicht.
 
-Das neueste Feature Pack für AEM Screens 6.5.11.3 steht auf dem [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/de/aem.html) zum Download zur Verfügung (Adobe ID erforderlich). Gehen Sie zur Registerkarte **Adobe Experience Manager** und suchen Sie nach **Screens**, um das neueste Feature Pack mit dem Namen **AEM 6.5 Screens FP11.3** herunterzuladen.
+Sie können das neueste Feature Pack für AEM Screens 6.5.11.3 von der [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/de/aem.html) die Verwendung Ihrer Adobe ID. Navigieren Sie zum **Adobe Experience Manager** Registerkarte und suchen Sie nach **Screens** , um das neueste Feature Pack mit dem Titel **AEM 6.5 Screens FP11.3**.
 
 ## Veröffentlichungsdatum {#release-date}
 
-Das Veröffentlichungsdatum für das AEM Screens Feature Pack 20240215 ist der 15. Februar 2024.
+Das Veröffentlichungsdatum für AEM Screens Feature Pack 20240215 ist der Freitag, 15. Februar 2024.
 
 ### Neue Funktionen {#what-is-new}
 

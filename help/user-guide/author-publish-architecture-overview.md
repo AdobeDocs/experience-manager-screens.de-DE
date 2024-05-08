@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '976'
 ht-degree: 41%
@@ -40,7 +40,7 @@ Bevor Sie mit Autoren- und Veröffentlichungsservern beginnen, sollten Sie über
 
 Die AEM Screens-Architektur ähnelt einer traditionellen AEM Sites-Architektur. Inhalte werden in einer AEM-Autoreninstanz erstellt und dann vorwärts an mehrere Veröffentlichungsinstanzen repliziert. Geräte in AEM Screens können jetzt über den Lastenausgleich eine Verbindung zu einer AEM Veröffentlichungsfarm herstellen. Es lassen sich zur weiteren Skalierung der Veröffentlichungs-Farm mehrere AEM-Veröffentlichungsinstanzen hinzufügen.
 
-*Beispiel*, gibt ein AEM Screens-Inhaltsautor einen Befehl auf dem Authoring-System für ein bestimmtes Gerät aus. Dieses Gerät ist für die Interaktion mit einer Veröffentlichungsfarm oder einem AEM Screens-Inhaltsautor konfiguriert, der Informationen über Geräte abruft, die für die Interaktion mit Veröffentlichungsfarmen konfiguriert sind.
+*Beispiel*, gibt ein AEM Screens Content Author einen Befehl für ein bestimmtes Gerät im Authoring-System aus. Dieses Gerät ist für die Interaktion mit einer Veröffentlichungsfarm oder einem AEM Screens Content Author konfiguriert, der Informationen über Geräte abruft, die für die Interaktion mit Veröffentlichungsfarmen konfiguriert sind.
 
 Das folgende Diagramm zeigt sowohl die Autorenumgebung als auch die Veröffentlichungsumgebung.
 

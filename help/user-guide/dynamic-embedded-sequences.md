@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '2426'
-ht-degree: 48%
+ht-degree: 47%
 
 ---
 
@@ -257,21 +257,21 @@ Wenn Sie die Einrichtung für Kanäle und die Anzeige abgeschlossen haben, start
 >
 >Weitere Informationen zum AEM Screens Player finden Sie in den folgenden Ressourcen:
 >
->* [Herunterladen des AEM Screens-Players](https://download.macromedia.com/screens/)
+>* [AEM Screens-Player herunterladen](https://download.macromedia.com/screens/)
 >* [Arbeiten mit dem AEM Screens-Player](working-with-screens-player.md)
 
 
-Die folgende Ausgabe bestätigt Ihren Kanalinhalt im AEM Screens-Player, je nach Anzeigepfad.
+Die folgende Ausgabe bestätigt Ihren Kanalinhalt im AEM Screens Player, je nach Anzeigepfad.
 
 **Szenario 1**:
 
-Wenn Sie den Anzeigepfad als **Demo** > **Standorte** > **Region A** > **Store 1** > **`Store1Display`**, wird der folgende Inhalt im AEM Screens-Player angezeigt.
+Wenn Sie den Anzeigepfad als **Demo** > **Standorte** > **Region A** > **Store 1** > **`Store1Display`**, wird der folgende Inhalt auf Ihrem AEM Screens-Player angezeigt.
 
 ![channeldisplay1](assets/channeldisplay1.gif)
 
 **Szenario 1**:
 
-Wenn Sie den Anzeigepfad als **Demo** > **Standorte** > **Region B** > **Store 3** > **`Store3Display`**, wird der folgende Inhalt im AEM Screens-Player angezeigt.
+Wenn Sie den Anzeigepfad als **Demo** > **Standorte** > **Region B** > **Store 3** > **`Store3Display`**, wird der folgende Inhalt auf Ihrem AEM Screens-Player angezeigt.
 
 ![channeldisplay2](assets/channeldisplay2.gif)
 

@@ -1,21 +1,21 @@
 ---
-title: 'Nutzungsszenario: Übergang von mehreren zu einzelnen Zonen'
+title: 'Anwendungsfall: Übergang von mehreren zu einzelnen Zonen'
 description: Auf dieser Seite erfahren Sie mehr über den Anwendungsfall Übergang von mehreren zu einzelnen Zonen.
 contentOwner: Jyotika Syal
 feature: Authoring Screens
 role: Developer, User
 level: Intermediate
 exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '400'
-ht-degree: 32%
+ht-degree: 29%
 
 ---
 
 # Übergang von mehreren zu einzelnen Zonen {#multizone-to-singlezone-use-case}
 
-## Nutzungsszenario – Beschreibung {#use-case-description}
+## Anwendungsfallbeschreibung {#use-case-description}
 
 In diesem Abschnitt wird ein Anwendungsbeispiel beschrieben, in dem erläutert wird, wie ein Mehrzonen-Layout-Kanal eingerichtet wird, der mit einem Einzelzonen-Layout-Kanal wechselt. Der Mehrzonen-Kanal verfügt über sequenzierende Bild-/Video-Assets und zeigt, wie Sie ein Projekt einrichten können, das von einer Mehrzonen- zur Einzonen-Zone und umgekehrt wechselt.
 

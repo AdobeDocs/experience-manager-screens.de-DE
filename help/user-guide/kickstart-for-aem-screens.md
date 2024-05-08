@@ -1,30 +1,30 @@
 ---
 title: Schnellstartanleitung
-description: Erfahren Sie, wie Sie ein AEM Screens-Demoprojekt erstellen. Ein Demoprojekt unterstützt Sie beim Erstellen eines Digital-Signage-Erlebnisses – von der Installation und Konfiguration eines neuen Projekts bis hin zum Anzeigen von Inhalten mit dem AEM Screens-Player.
+description: Erfahren Sie, wie Sie ein AEM Screens-Demoprojekt erstellen. Dies hilft Ihnen beim Erstellen eines Digital Signage-Erlebnisses, angefangen bei der Installation und Einrichtung eines neuen Projekts bis hin zur Anzeige Ihres Inhalts im AEM Screens Player.
 feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '1270'
-ht-degree: 55%
+source-wordcount: '1282'
+ht-degree: 43%
 
 ---
 
 # Schnellstartanleitung {#kickstart-guide}
 
-Die Schnellstartanleitung für AEM Screens zeigt, wie ein AEM Screens-Projekt eingerichtet und ausgeführt wird. Sie führt Sie durch die Einrichtung eines einfachen Digital-Signage-Erlebnisses, das Hinzufügen von Inhalten wie Assets und/oder Videos zu jedem Kanal und die weitere Veröffentlichung der Inhalte in einem AEM Screens-Player.
+Die Schnellstartanleitung für AEM Screens zeigt, wie ein AEM Screens-Projekt eingerichtet und ausgeführt wird. Er führt Sie durch die Einrichtung eines einfachen Digital Signage-Erlebnisses, das Hinzufügen von Inhalten wie Assets und/oder Videos zu jedem Kanal und die weitere Veröffentlichung des Inhalts in einem AEM Screens-Player.
 
 >[!NOTE]
->Bevor Sie an den Projektdetails arbeiten, stellen Sie sicher, dass Sie das neueste Feature Pack für AEM Screens installiert haben. Das neueste Feature Pack steht auf dem [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) zum Download zur Verfügung (Adobe ID erforderlich).
+>Bevor Sie an den Projektdetails arbeiten, stellen Sie sicher, dass Sie das neueste Feature Pack für AEM Screens installiert haben. Sie können das neueste Feature Pack im [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) die Verwendung Ihrer Adobe ID.
 
 ## Voraussetzungen {#prerequisites}
 
 Gehen Sie wie folgt vor, um ein Beispielprojekt für AEM Screens zu erstellen und Inhalte im Screens-Player zu veröffentlichen.
 
 >[!NOTE]
->Im folgenden Tutorial wird die Wiedergabe des Inhalts Ihres Kanals im Chrome OS-Player gezeigt.
+>Im folgenden Tutorial wird die Wiedergabe des Inhalts Ihres Kanals in einem Chrome OS-Player gezeigt.
 
 >[!IMPORTANT]
 >**OSGi-Konfigurationseinstellungen**
@@ -97,7 +97,7 @@ Gehen Sie wie folgt vor, um dem Kanal (**TestChannel**) Ihres Projekts Inhalte h
 
    ![image](assets/kickstart/demo-6.png)
 
-1. Klicken Sie auf das Symbol, das das seitliche Bedienfeld auf der linken Seite der Aktionsleiste umschaltet, um die Assets und Komponenten zu öffnen.
+1. Klicken Sie auf das Symbol, durch das das seitliche Bedienfeld auf der linken Seite der Aktionsleiste ein-/ausgeblendet wird, um die Assets und Komponenten zu öffnen.
 
 1. Ziehen Sie die Komponenten, die Sie hinzufügen möchten, in den Kanal.
 
@@ -162,7 +162,7 @@ Wenn die Projekteinrichtung abgeschlossen ist, weisen Sie den Kanal einer Anzeig
 
 1. Daraufhin wird das Dialogfeld **Kanalzuweisung** geöffnet.
 
-1. Wählen Sie unter **Einstellungen** den Kanal **nach Pfad** und bei **unterstützte Ereignisse** die Optionen **erstes Laden** und **inaktiver Bildschirm** aus.
+1. Aus dem **Einstellungen** Option, wählen Sie den Kanal aus **nach Pfad** und **Unterstützte Ereignisse** wie **Erster Ladevorgang** und **Idle Screen**.
 
    >[!NOTE]
    >
@@ -173,7 +173,7 @@ Wenn die Projekteinrichtung abgeschlossen ist, weisen Sie den Kanal einer Anzeig
    Sie können auch auf die **Aktivierungsfenster** und **Wiederholungsplan**.
 
    >[!NOTE]
-   >Die *Wiederholungsplan* ermöglicht Ihnen, einen Zeitplan für Ihren Kanal festzulegen. Sie richten mehrere Intervallzeitpläne für einen Kanal ein.
+   >Die *Wiederholungsplan* ermöglicht Ihnen, einen Zeitplan für Ihren Kanal festzulegen. Sie können mehrere Intervallzeitpläne für einen Kanal einrichten.
    >Weitere Informationen finden Sie unter [Intervallzeitplan](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule).
 
 1. Klicken Sie auf **Speichern**, nachdem Sie Ihre Voreinstellungen konfiguriert haben.
@@ -183,7 +183,7 @@ Wenn die Projekteinrichtung abgeschlossen ist, weisen Sie den Kanal einer Anzeig
 Registrieren Sie Ihr Gerät über das AEM Dashboard.
 
 >[!IMPORTANT]
->Im Entwicklermodus kann der Chrome OS-Player als Chrome-Browser-Plug-in installiert werden, ohne dass ein echtes Chrome-Player-Gerät erforderlich ist. Gehen Sie zur Installation wie folgt vor:
+>Der Chrome OS-Player kann im Entwicklermodus als Chrome-Browser-Plug-in installiert werden, ohne dass ein aktuelles Chrome-Player-Gerät erforderlich ist. Gehen Sie zur Installation wie folgt vor:
 >
 >1. Klicken Sie [hier](https://download.macromedia.com/screens/), um den neuesten Chrome-Player herunterzuladen.
 >1. Entpacken Sie die Datei und speichern Sie sie auf der Festplatte.

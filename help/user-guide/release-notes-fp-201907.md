@@ -10,10 +10,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 6a05a014-aedf-4261-849d-abf1ce070964
-source-git-commit: 43e89ddc3eb6baffca75d730a978e60e234aaee4
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 52%
+source-wordcount: '375'
+ht-degree: 44%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 52%
 
 >[!CAUTION]
 >
->Adobe empfiehlt ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM). AEM Screens bietet Wartungs-Support für AEM 6.3 Screens-Plattform.
+>Adobe empfiehlt ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM). AEM Screens bietet Wartungs-Support für die AEM 6.3 Screens-Plattform.
 
 AEM Screens hat AEM 6.4.5 Feature Pack 5 und AEM 6.5.1 Feature Pack 1 mit folgenden Details veröffentlicht.
 
@@ -33,15 +33,16 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 201907 ist der 31. Jul
 
 * **Datenauslöser treiben die Asset-Änderung in einem AEM Screens-Kanal**
 
-Der Player wechselt zu einem Kanal, in dem die Notfallinformationen angezeigt werden, wenn er ein vom Notfallsystem ausgelöstes Ereignis empfängt. Es wird nur dieser Kanal wiedergegeben, bis die Notsituation beendet ist.
+Der Player wechselt zu einem Kanal, der Notfallinformationen anzeigt. Das Notfallsystem sendet diese Informationen, wenn es ein Ereignis erhält. Es wird nur dieser Kanal wiedergegeben, bis die Notsituation beendet ist.
+
 
 Siehe [Notfallkanal](emergency-channel.md) Anwendungsbeispiel für die Implementierung.
 
 * Targeting für asynchrone Komponenten aktiviert
 
-Targeting kann jetzt für Assets aktiviert werden, die im AEM Screens-Projekt verwendet werden.
+Das Targeting kann jetzt für Assets aktiviert werden, die im AEM Screens-Projekt verwendet werden.
 
-Weitere Informationen dazu, wie Sie Targeting für Assets im AEM Screens-Projekt aktivieren können, finden Sie unter [Konfigurieren von ContextHub in AEM Screens](configuring-context-hub.md).
+Weitere Informationen dazu, wie Sie das Targeting für Assets im AEM Screens-Projekt aktivieren können, finden Sie unter [Konfigurieren von ContextHub in AEM Screens](configuring-context-hub.md).
 
 Nachdem Sie ContextHub für Ihr AEM Screens-Projekt konfiguriert haben, gehen Sie die verschiedenen Nutzungsszenarios durch, um zu verstehen, wie datengesteuerte Assets in verschiedenen Branchen eine wichtige Rolle spielen:
 

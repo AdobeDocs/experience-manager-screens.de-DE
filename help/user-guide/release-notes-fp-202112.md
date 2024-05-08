@@ -5,23 +5,23 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3ff32a3d-9baf-4085-a775-bb5a76a1f5b3
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 66%
+source-wordcount: '326'
+ht-degree: 39%
 
 ---
 
 # Versionshinweise für Feature Pack 202112 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Adobe empfiehlt ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM). AEM Screens bietet Wartungs-Support für AEM 6.3 Screens-Plattform.
+>Adobe empfiehlt ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM). AEM Screens bietet Wartungs-Support für die AEM 6.3 Screens-Plattform.
 
 ## Verfügbarkeit {#availability}
 
 Das AEM 6.5 Feature Pack 10 für AEM Screens wurde veröffentlicht.
 
-Das neueste Feature Pack für AEM Screens 6.5.10 steht auf dem [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) zum Download zur Verfügung (Adobe ID erforderlich). Gehen Sie zur Registerkarte **Adobe Experience Manager** und suchen Sie nach **Screens**, um das neueste Feature Pack mit dem Namen **AEM 6.5 Screens FP10** herunterzuladen.
+Sie können das neueste Feature Pack für AEM Screens 6.5.10 von der [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) die Verwendung Ihrer Adobe ID. Navigieren Sie zum **Adobe Experience Manager** Registerkarte und suchen Sie nach **Screens** , um das neueste Feature Pack mit dem Titel **AEM 6.5 Screens FP10**.
 
 ## Veröffentlichungsdatum {#release-date}
 
@@ -37,7 +37,7 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 202112 ist der 12. Jan
 
 * Beheben von Fehlern beim gleichzeitigen Download in SmartSync
 
-* Zeigen Sie als Entwickler Asset-Ausgabedarstellungen an, die Sie nur als Ausgabedarstellungseinträge unter den entsprechenden Assets im Manifest auflisten möchten, um die Erweiterbarkeit, Klarheit und Einfachheit der Manifestverarbeitung sicherzustellen.
+* Als Entwickler können Sie Asset-Ausgabedarstellungen anzeigen, die Sie nur als Ausgabedarstellungseinträge unter den entsprechenden Assets im Manifest auflisten möchten. Dadurch wird die Erweiterbarkeit, Klarheit und Einfachheit der Manifestverarbeitung sichergestellt.
 
 ### Fehlerbehebungen {#bug-fixes}
 
@@ -45,11 +45,11 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 202112 ist der 12. Jan
 
 * Erfassen Sie On-Premise-Player-Protokolle und analysieren Sie sie für einen schwarzen Bildschirm.
 
-* Das Problem, dass der Player im Splitscreen-Kanal einen leeren Bildschirm zeigt, ist jetzt behoben.
+* Der Player, der einen leeren Bildschirm mit einem Splitscreen-Kanal anzeigt, ist jetzt behoben
 
-* Benutzerdefinierte Handler-Dokumente wurden durch Hinzufügen eines Kernpakets im öffentlichen Maven korrigiert.
+* Benutzerdefinierte Handler-Dokumente wurden durch Hinzufügen eines Kernpakets in öffentlichen Maven korrigiert.
 
-* Der Player hat die Firmware-Version nach dem Upgrade nicht aktualisiert. Dieser Fehler wurde jetzt behoben.
+* Der Player hat die Firmware-Version nach dem Upgrade nicht aktualisiert. Dieser Fehler wurde behoben.
 
 * Die Anzeige-Vorschau bleibt bei der vorherigen Player-Konfiguration hängen.
 

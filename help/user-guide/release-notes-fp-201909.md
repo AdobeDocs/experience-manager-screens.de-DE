@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 577228c1-8d90-47b5-8600-7e2f1004e928
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 38%
+source-wordcount: '286'
+ht-degree: 37%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 38%
 
 >[!CAUTION]
 >
->Adobe empfiehlt ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM). AEM Screens bietet Wartungs-Support für AEM 6.3 Screens-Plattform.
+>Adobe empfiehlt ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM). AEM Screens bietet Wartungs-Support für die AEM 6.3 Screens-Plattform.
 
 AEM Screens hat AEM 6.4.6 Feature Pack 6 und AEM 6.5.2 Feature Pack 2 mit folgenden Details veröffentlicht.
 
@@ -28,7 +28,7 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 201909 ist der 7. Okt
 
 * **Verbesserte Benutzeroberfläche zum Erstellen eines Screens-Projekts**
 
-  Die aktualisierte Benutzeroberfläche zum Erstellen eines AEM Screens-Projekts ist jetzt verfügbar. Sie können ein Screens-Projekt mit wenigen einfachen Klicks erstellen. Außerdem verfügt die Registerkarte &quot;Eigenschaften&quot;für jedes Projekt jetzt über eine intuitivere Benutzeroberfläche.
+  Eine aktualisierte Benutzeroberfläche zum Erstellen eines AEM Screens-Projekts ist jetzt verfügbar. Sie können ein Screens-Projekt mit wenigen einfachen Klicks erstellen. Außerdem verfügt die Registerkarte &quot;Eigenschaften&quot;für jedes Projekt jetzt über eine intuitivere Benutzeroberfläche.
 
   Siehe [Erstellen eines neuen Screens-Projekts](creating-a-screens-project.md) für weitere Details.
 

@@ -6,10 +6,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 52%
+source-wordcount: '503'
+ht-degree: 44%
 
 ---
 
@@ -29,11 +29,11 @@ Um einen **AEM Screens-Player** herunterzuladen, rufen Sie die Seite [AEM 6.5 Pl
 >
 >1. Halten Sie die linke obere Ecke gedrückt, um das Admin-Bedienfeld zu öffnen.
 >1. Navigieren Sie im linken Aktionsmenü zu **Konfiguration**, geben Sie die Standortadresse der AEM-Instanz unter **Server** ein und klicken Sie auf **Speichern**.
->1. Klicks **Registrierung** über den Link im linken Aktionsmenü und die folgenden Schritte, um den Prozess zur Geräteregistrierung abzuschließen.
+>1. Klicken Sie auf **Registrierung** über den Link im linken Aktionsmenü und die folgenden Schritte, um den Prozess zur Geräteregistrierung abzuschließen.
 
 ## Einfache Wiedergabe-Überwachung {#playback-monitoring}
 
-Mit jedem `ping` (standardmäßig alle 30 Sekunden) meldet der Player verschiedene Wiedergabemetriken. Basierend auf diesen Metriken kann es verschiedene Edge-Fälle erkennen, wie z. B. festes Erlebnis, leerer Bildschirm und Planungsprobleme. Auf diese Weise können wir Probleme auf dem Gerät verstehen und beheben und somit gemeinsam mit Ihnen durchgeführte Untersuchungen und Abhilfemaßnahmen beschleunigen.
+Mit jedem `ping` (standardmäßig alle 30 Sekunden) meldet der Player verschiedene Wiedergabemetriken. Basierend auf diesen Metriken kann es verschiedene Edge-Fälle erkennen, wie z. B. festes Erlebnis, leerer Bildschirm und Planungsprobleme. Sie ermöglicht uns, Probleme auf dem Gerät zu verstehen und zu beheben und so eine Untersuchung und Korrekturmaßnahmen für Sie zu beschleunigen.
 
 Die grundlegende Wiedergabe-Überwachung in einem AEM Screens-Player ermöglicht Folgendes:
 
@@ -63,17 +63,17 @@ Die folgenden Eigenschaften sind in jedem `ping` enthalten:
 >|---|---|
 >| isContentRendering {boolean} | &quot;true&quot;, wenn die GPU bestätigen kann, dass tatsächlich Inhalt wiedergegeben wird (basierend auf der Pixelanalyse) |
 
-### Beschränkungen {#limitations}
+### Einschränkungen {#limitations}
 
-Im Folgenden finden Sie einige Beschränkungen bei der einfachen Wiedergabeüberwachung:
+Im Folgenden finden Sie einige Einschränkungen für die grundlegende Wiedergabe-Überwachung:
 
 * Der Player meldet dem Server seinen eigenen Wiedergabestatus, sodass eine aktive Verbindung erforderlich ist.
 
-* Die `isContentRendering` -Eigenschaft, die prüft, ob die GPU zu ressourcenintensiv ist, um standardmäßig aktiviert zu werden, und eine explizite Anmeldung über die Player-Voreinstellungen erfordert. Adobe empfiehlt, es nicht mit Videos in der Produktion zu verwenden.
+* Die `isContentRendering` -Eigenschaft, die die GPU überprüft, ist wesentlich ressourcenintensiver, um standardmäßig aktiviert zu werden, und erfordert eine explizite Anmeldung über die Player-Voreinstellungen. Adobe empfiehlt, es nicht mit Videos in der Produktion zu verwenden.
 
 * Diese Funktion wird nur für Sequenzkanäle unterstützt und deckt noch nicht den Anwendungsfall für interaktive Kanäle (SPA) ab.
 
-* Die Metriken sind noch nicht vollständig für Kunden verfügbar. Adobe arbeitet in Kürze an der Aktivierung von Dashboard-ähnlichen Berichterstellungs- und Warnmechanismen.
+* Die Metriken sind noch nicht vollständig für Kunden verfügbar, aber Adobe arbeitet in Kürze an der Aktivierung von Dashboard-ähnlichen Berichterstellungs- und Warnmechanismen.
 
 ### Sonstige Ressourcen {#additional-resources}
 
@@ -83,4 +83,4 @@ Detaillierte Informationen finden Sie in den folgenden Themen:
 
 * Informationen zur Implementierung des Chrome OS-Players finden Sie unter [Chrome Management Console](implementing-chrome-os-player.md) für weitere Informationen.
 
-* Informationen zum Konfigurieren des AEM Screens Windows-Players finden Sie unter [Implementieren von Windows Player](implementing-windows-player.md).
+* Informationen zum Konfigurieren von AEM Screens Windows Player finden Sie unter [Implementieren von Windows Player](implementing-windows-player.md).

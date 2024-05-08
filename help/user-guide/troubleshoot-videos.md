@@ -9,7 +9,7 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 35%
@@ -102,7 +102,7 @@ Gehen Sie wie folgt vor, um einen DAM-Workflow zum Erstellen von FullHD-Wiederga
 
 #### Fehlerbehebung für die automatische Wiedergaberichtlinie {#troubleshooting-autoplay-policy-flag}
 
-Wenn der AEM Screens-Player das Video zwar abruft, aber nicht anzeigt, führen Sie eine Fehlerbehebung für das Flag &quot;Autoplay-Richtlinie&quot;durch.
+Wenn der AEM Screens-Player das Video zwar abruft, aber nicht anzeigt, führen Sie eine Fehlerbehebung für das Flag Autoplay-Richtlinie durch.
 
 Führen Sie die folgenden Schritte aus, um das Problem mit der Kennzeichnung der Autoplay-Richtlinie in Google zu beheben:
 

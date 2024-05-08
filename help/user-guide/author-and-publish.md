@@ -2,10 +2,10 @@
 title: Konfigurieren von Autoren- und Veröffentlichungsinstanzen in AEM Screens
 description: Erfahren Sie, wie Sie eine Autoreninstanz und eine Veröffentlichungsinstanz für AEM Screens konfigurieren.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1923'
-ht-degree: 41%
+ht-degree: 40%
 
 ---
 
@@ -220,7 +220,7 @@ Nachdem Sie die Veröffentlichungstopologie eingerichtet haben, konfigurieren Si
 
 >[!NOTE]
 >
->Sie können einen AEM Screens-Player über die heruntergeladene AEM Screens-App oder mithilfe des Webbrowsers öffnen.
+>Sie können einen AEM Screens-Player mit der heruntergeladenen AEM Screens-App oder über den Webbrowser öffnen.
 
 #### Schritt 2: Registrieren eines Geräts in der Autoreninstanz {#step-registering-a-device-on-author}
 
@@ -286,7 +286,7 @@ Gehen Sie wie folgt vor, um das Authoring- und Publishing-Verhalten zu überprü
 1. Ausführen **Veröffentlichung verwalten** , um neue Änderungen in allen Veröffentlichungsinstanzen zu veröffentlichen.
 1. Presse **Aktivieren** , um das Gerät zu aktivieren von **Geräte-Manager**.
 1. **URL bearbeiten** von der Autoreninstanz-URL zu einer der Veröffentlichungsinstanzen-URL.
-1. Überprüfen Sie, ob der aktualisierte Kanalinhalt im AEM Screens-Player angezeigt wird.
+1. Überprüfen Sie, ob der aktualisierte Kanalinhalt auf dem AEM Screens-Player angezeigt wird.
 1. Wiederholen Sie diese Schritte mit einer anderen Veröffentlichungsinstanz.
 
 
@@ -296,13 +296,13 @@ Gehen Sie wie folgt vor, um das Authoring- und Publishing-Verhalten zu überprü
 1. Klicken Sie im seitlichen Bereich auf die Option **Konfiguration**.
 1. Ändern Sie die Autoreninstanz in die Veröffentlichungsinstanz in **Server**.
 
-Sehen Sie sich die Änderungen im AEM Screens-Player an.
+Zeigen Sie die Änderungen in Ihrem AEM Screens-Player an.
 
 Alternativ können Sie über die Geräteverwaltungskonsole die Server-URL aktualisieren/bearbeiten:
 
 1. Navigieren Sie zu Ihrem AEM Screens-Projekt und klicken Sie auf das **Geräte** Ordner.
 1. Klicken Sie in der Aktionsleiste auf **Geräte-Manager**.
-1. Klicken Sie auf das Gerät und klicken Sie auf **Server-URL bearbeiten** in der Aktionsleiste, wie in der folgenden Abbildung dargestellt, und Ihre Änderungen werden in den AEM Screens-Player übertragen.
+1. Klicken Sie auf das Gerät und klicken Sie auf **Server-URL bearbeiten** in der Aktionsleiste, wie in der folgenden Abbildung dargestellt, und Ihre Änderungen werden an den AEM Screens-Player weitergeleitet.
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 

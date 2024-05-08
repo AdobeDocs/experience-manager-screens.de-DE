@@ -9,10 +9,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: abeaed51-b18c-4366-93ef-4f05f33af649
-source-git-commit: 4102c2b2291c92823a36f87f07d5b5ca87cfa48f
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 41%
+source-wordcount: '250'
+ht-degree: 34%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 41%
 
 >[!CAUTION]
 >
->Adobe empfiehlt ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM). AEM Screens bietet Wartungs-Support für AEM 6.3 Screens-Plattform.
+>Adobe empfiehlt ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM). AEM Screens bietet Wartungs-Support für die AEM 6.3 Screens-Plattform.
 
 AEM Screens hat AEM 6.4.2 Feature Pack 2 und AEM 6.3.3 Feature Pack 4 mit folgenden Details veröffentlicht.
 
@@ -37,7 +37,7 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 201809 ist der 1. Okto
 * **Massenaktualisierung von Offline-Inhalten**: Ermöglicht das stapelweise Aktualisieren aller Kanäle und vermeidet die einfache Navigation zu einem bestimmten Kanal und die Aktualisierung des Inhalts. Siehe [Massen-Offline-Update](bulk-offline-update.md) , um mehr zu erfahren.
 
 * **Massenveröffentlichung von Kanälen in allen Veröffentlichungsinstanzen**
-* **Verbessertes Player-Protokollierungsverfahren**: Sie können die Anzahl der maximalen Protokolldateien für einen AEM Screens-Player angeben. Siehe [Arbeiten mit einem AEM Screens-Player](working-with-screens-player.md) für weitere Details.
+* **Verbesserter Player-Protokollierungsmechanismus**: Sie können die Anzahl der maximalen Protokolldateien für einen AEM Screens-Player angeben. Siehe [Arbeiten mit einem AEM Screens-Player](working-with-screens-player.md) für weitere Details.
 
 * **Autoren-/Veröffentlichungs-Bereitstellung (Härtung)**
 

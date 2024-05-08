@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: bd466576-a6d3-494c-82e5-c5326b6e0aca
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 65%
+source-wordcount: '342'
+ht-degree: 47%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 65%
 
 >[!CAUTION]
 >
->Adobe empfiehlt ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM). AEM Screens bietet Wartungs-Support für AEM 6.3 Screens-Plattform.
+>Adobe empfiehlt ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM). AEM Screens bietet Wartungs-Support für die AEM 6.3 Screens-Plattform.
 
 ## Verfügbarkeit {#availability}
 
 Das AEM 6.5 Feature Pack 5 wurde für AEM Screens veröffentlicht.
 
-Das neueste Feature Pack für AEM Screens 6.5.5 steht auf dem [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) zum Download zur Verfügung (Adobe ID erforderlich). Navigieren Sie zur Registerkarte **Adobe Experience Manager** und suchen Sie nach **Screens**, um das neueste Feature Pack herunterzuladen.
+Sie können das neueste Feature Pack für AEM Screens 6.5.5 von der [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) die Verwendung Ihrer Adobe ID. Navigieren Sie zum **Adobe Experience Manager** Registerkarte und suchen Sie nach **Screens** um das neueste Feature Pack zu erhalten.
 
 ## Veröffentlichungsdatum {#release-date}
 
@@ -38,7 +38,7 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 202008 ist der 3. Sept
 
 * **Intervallzeitplan**
 
-  Mit dem Intervallzeitplan können Sie einen Zeitplan für Ihren Kanal festlegen. Sie richten mehrere Intervallzeitpläne für einen Kanal ein.
+  Mit dem Intervallzeitplan können Sie einen Zeitplan für Ihren Kanal festlegen. Sie können mehrere Intervallzeitpläne für einen Kanal einrichten.
 
   Weitere Informationen finden Sie unter [Intervallzeitplan](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule).
 

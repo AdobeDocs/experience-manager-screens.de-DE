@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 33%
@@ -23,7 +23,7 @@ Das folgende Anwendungsbeispiel veranschaulicht die Verwendung der Temperaturakt
 
 ## Beschreibung {#description}
 
-Wenn der Wert in Google Tabellen unter 50 liegt, wird für dieses Anwendungsbeispiel ein Bild mit heißen Getränken angezeigt. Wenn der Wert größer oder gleich 50 ist, wird ein Bild mit kalten Getränken angezeigt. Wenn ein anderer Wert oder gar kein Wert vorhanden ist, zeigt der Player ein Standardbild an.
+Wenn der Wert in Google Tabellen für diesen Anwendungsfall unter 50 liegt, wird ein Bild mit heißen Getränken angezeigt. Wenn der Wert größer oder gleich 50 ist, wird ein Bild mit kalten Getränken angezeigt. Wenn ein anderer Wert oder gar kein Wert vorhanden ist, zeigt der Player ein Standardbild an.
 
 ## Voraussetzungen {#preconditions}
 

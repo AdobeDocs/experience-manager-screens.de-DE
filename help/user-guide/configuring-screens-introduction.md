@@ -9,10 +9,10 @@ docset: aem65
 role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 58%
+source-wordcount: '682'
+ht-degree: 50%
 
 ---
 
@@ -24,11 +24,11 @@ Auf dieser Seite erfahren Sie, wie Sie die Player für Screens auf Ihren Geräte
 
 >[!IMPORTANT]
 >
->Der AEM Screens-Player verwendet nicht das CSRF-Token (Cross-Site Request Forgery). Um den AEM-Server so zu konfigurieren, dass er für AEM Screens verwendet werden kann, überspringen Sie daher den Referrer-Filter, indem Sie leere Referrer zulassen.
+>AEM Screens Player verwendet das CSRF-Token (Cross-Site Request Forgery) nicht. Um den AEM-Server so zu konfigurieren, dass er für AEM Screens verwendet werden kann, überspringen Sie daher den Referrer-Filter, indem Sie leere Referrer zulassen.
 
 ## Framework für Statusprüfungen {#health-check-framework}
 
-Mit dem Framework für Statusprüfungen kann der Benutzer vor der Ausführung eines AEM Screens-Projekts prüfen, ob zwei erforderliche Konfigurationen eingerichtet wurden.
+Mit dem Framework für Statusprüfungen kann der Benutzer überprüfen, ob zwei erforderliche Konfigurationen eingerichtet sind, bevor ein AEM Screens-Projekt ausgeführt wird.
 
 So kann der Benutzer die folgenden zwei Konfigurationsprüfungen für die Ausführung eines AEM Screens-Projekts vornehmen, d. h. zur Überprüfung des Status der folgenden beiden Filter:
 
@@ -93,11 +93,11 @@ Die folgenden wichtigen Punkte bieten Hilfestellung beim Konfigurieren von AEM-S
 
    ![image](assets/config/config-1.png)
 
-1. Klicken Sie auf **Speichern**, um den *HTTP*-Service zu aktivieren.
+1. Klicks **Speichern** um die *HTTP* -Dienst.
 
 #### Aktivieren der Touch-Benutzeroberfläche für AEM Screens {#enable-touch-ui-for-aem-screens}
 
-AEM Screens erfordert die TOUCH-Benutzeroberfläche und funktioniert nicht mit der CLASSIC-Benutzeroberfläche von Adobe Experience Manager (AEM).
+AEM Screens erfordert die TOUCH-Benutzeroberfläche und funktioniert nicht mit der klassischen Benutzeroberfläche von Adobe Experience Manager (AEM).
 
 1. Navigieren Sie zu `*<yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*`
 1. Stellen Sie sicher, dass der **standardmäßige Authoring-Oberflächenmodus** auf **TOUCH** gesetzt ist, wie in der folgenden Abbildung gezeigt.
@@ -116,11 +116,11 @@ Wird AEM in der Produktion ausgeführt, wird die **NOSAMPLECONTENT** Ausführung
 
 `https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`.
 
-Dies ist erforderlich, damit der AEM Screens-Player Online-Kanäle wiedergeben kann.
+Diese Entfernung ist erforderlich, damit der AEM Screens-Player Online-Kanäle wiedergeben kann.
 
 #### Kennworteinschränkungen {#password-restrictions}
 
-Mit den neuesten Änderungen an ***DeviceServiceImpl*** müssen Sie die Kennworteinschränkungen nicht entfernen.
+Mit den neuesten Änderungen an ***DeviceServiceImpl***, müssen Sie die Kennworteinschränkungen nicht entfernen.
 
 Sie können ***DeviceServiceImpl*** über den unten stehenden Link, um die Kennworteinschränkung zu aktivieren, während Sie das Kennwort für die Benutzer des Bildschirmgeräts erstellen:
 

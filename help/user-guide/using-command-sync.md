@@ -5,10 +5,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '740'
-ht-degree: 46%
+ht-degree: 44%
 
 ---
 
@@ -71,7 +71,7 @@ Bevor Sie die Funktion zur Befehlssynchronisierung verwenden, stellen Sie sicher
    >
    >Informationen zum Registrieren eines Geräts finden Sie unter [Geräteregistrierung](/help/user-guide/device-registration.md)
 
-1. Zu Demozwecken werden in diesem Beispiel ein Chrome-Gerät und ein Windows-Player als zwei separate Geräte dargestellt. Beide Geräte verweisen auf dieselbe Anzeige.
+1. Zu Demozwecken werden in diesem Beispiel ein Chrome-Gerät und ein Windows Player als zwei separate Geräte dargestellt. Beide Geräte verweisen auf dieselbe Anzeige.
    ![image1](assets/command-sync6.png)
 
 ### Aktualisieren von Kanaleinstellungen
@@ -91,7 +91,7 @@ Bevor Sie die Funktion zur Befehlssynchronisierung verwenden, stellen Sie sicher
 ### Einrichten eines Primärgeräts {#setting-up-primary}
 
 1. Navigieren Sie über zum Anzeigen-Dashboard. **CommandSyncDemo** > **Standorte**  > **Lobby** > **LobbyDisplay** und klicken **Dashboard** in der Aktionsleiste aus.
-Beachten Sie die beiden Geräte (Chrome- und Windows-Player) in **Geräte** -Bedienfeld, wie im Folgenden gezeigt:
+Beachten Sie die beiden Geräte (Chrome und Windows Player) in **Geräte** -Bedienfeld, wie im Folgenden gezeigt:
    ![image1](assets/command-sync/command-sync10-1.png)
 
 1. Aus dem **Geräte** auf das Gerät, das Sie als primär festlegen möchten. Das folgende Beispiel veranschaulicht die Einrichtung des Chrome-Geräts als Primärgerät. Klicks **Als primäres Gerät festlegen**.
@@ -109,7 +109,7 @@ Beachten Sie die beiden Geräte (Chrome- und Windows-Player) in **Geräte** -Bed
 ### Synchronisieren mit dem Primärgerät {#sync-up-primary}
 
 1. Nachdem Sie das Chrome-Gerät als primäres Gerät festgelegt haben, synchronisieren Sie das andere Gerät (in diesem Fall den Windows-Player) mit dem primären Gerät.
-Klicken Sie auf das andere Gerät (in diesem Fall auf den Windows-Player) aus dem **Geräte** Bedienfeld und klicken Sie **Mit Primärgerät synchronisieren**.
+Klicken Sie auf das andere Gerät (in diesem Fall auf Windows Player) aus dem **Geräte** Bedienfeld und klicken Sie **Mit Primärgerät synchronisieren**.
 
    ![image1](assets/command-sync/command-sync13-1.png)
 
@@ -118,7 +118,7 @@ Klicken Sie auf das andere Gerät (in diesem Fall auf den Windows-Player) aus de
    >[HINWEIS:]
    > Die **Mit Primärgerät synchronisieren** zeigt die Liste der Primärgeräte an. Wählen Sie den bevorzugten aus.
 
-1. Wenn das Gerät (Windows-Player) mit dem primären (Chrome-Player) synchronisiert wird, wird das Gerät im **Geräte** Bedienfeld.
+1. Wenn das Gerät (Windows Player) mit dem primären (Chrome Player) synchronisiert wird, wird das Gerät im **Geräte** Bedienfeld.
 
    ![image1](assets/command-sync/command-sync14-1.png)
 

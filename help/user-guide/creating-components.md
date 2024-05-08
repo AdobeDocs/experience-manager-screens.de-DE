@@ -9,10 +9,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 4d673039-4963-458a-89e9-023a993dd354
-source-git-commit: a8055c5f859e401f7b1da4f5d95f1268dee243ad
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '282'
-ht-degree: 59%
+ht-degree: 53%
 
 ---
 
@@ -26,7 +26,7 @@ AEM-Komponenten werden verwendet, um den Inhalt, den Sie auf Ihren Web-Seiten be
 
 ## Authoring von Kanälen {#authoring-channels}
 
-Der Kanal ist das zentrale Objekt von Inhalten, die für eine Reihe von Anzeigen bereitgestellt werden. Daher öffnet eine Inhaltsautorin bzw. ein Inhaltsautor normalerweise einen Kanal im Editor, um Inhalte hinzuzufügen oder zu ändern. Da der Kanal ein *** ist`cq:Page`***, folgt es demselben herkömmlichen UX-Muster zum Hinzufügen und Ändern von Komponenten im Kanal.
+Der Kanal ist das zentrale Objekt von Inhalten, die für eine Reihe von Anzeigen bereitgestellt werden. Daher öffnet ein Inhaltsautor normalerweise einen Kanal im Editor, um Inhalte hinzuzufügen oder zu ändern. Da der Kanal ein *** ist`cq:Page`***, folgt es demselben herkömmlichen UX-Muster zum Hinzufügen und Ändern von Komponenten im Kanal.
 
 Da jedoch Komponenten innerhalb eines Kanals normalerweise im Vollbildmodus gerendert werden, leidet das Authoring-Erlebnis beim Versuch, einzelne Komponenten zu bearbeiten oder neue Bestellungen zu erstellen. Daher nutzt der Kanal Selektoren zum Rendern verschiedener Ansichten der Komponenten. Die Authoring-Umgebung verwendet den Bearbeitungsselektor, um das Rendering des benutzerdefinierten Kanals zu aktivieren.
 

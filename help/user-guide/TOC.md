@@ -8,10 +8,10 @@ user-guide-description: Erfahren Sie, wie Sie mit einer Digital Signage-Lösung 
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 + [Einführung in Screens](aem-screens-introduction.md)
 + Übersicht und Schnellstartanleitung {#overview}
    + [Schnellstartanleitung](kickstart-for-aem-screens.md)
-   + [Leitfaden zu Best Practices für Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/using/about-guide)
+   + [Leitfaden zu Best Practices für Screens](https://experienceleague.adobe.com/de/docs/experience-manager-screens/using/about-guide)
    + [Schlüsselbegriffe](screens-glossary.md)
 + Netzwerkgrundlagen für Digital Signage {#digital-signage-network}
    + [Teil 1: Projektrollen und Zuständigkeiten](project-roles-responsibilities.md)
@@ -56,7 +56,7 @@ ht-degree: 98%
    + Analytics-Integration mit AEM Screens {#analytics-integration}
       + [Adobe Analytics-Integration](adobe-analytics-integration-aem-screens.md)
       + [Konfigurieren von Adobe Analytics mit AEM Screens](configuring-adobe-analytics-aem-screens.md)
-+ Inhaltserstellung und Nutzungsszenarios {#authoring}
++ Beispiele für Authoring und Anwendungsfälle {#authoring}
    + Einrichten von Screens-Projekten {#setting-up-projects}
       + [Erstellen und Verwalten von Projekten](creating-a-screens-project.md)
       + [Erstellen und Verwalten von Kanälen](managing-channels.md)
@@ -92,7 +92,7 @@ ht-degree: 98%
       + [On-Demand-Inhaltsaktualisierungen](on-demand-content.md)
       + [Aktualisierungen von Content-as-a-Service](content-update-as-a-service.md)
       + [Inhaltsaktualisierung mit Screens Launch](launches.md)
-   + Nutzungsszenarios {#use-case-examples}
+   + Anwendungsbeispiele {#use-case-examples}
       + [Notfallkanäle](emergency-channel.md)
       + [Temperaturaktivierung für ein Reiseangebot](local-temperature-activation.md)
       + [Aktivierung der Gastgewerbereservierung](hospitality-reservation-activation.md)

@@ -2,10 +2,10 @@
 title: Überblick über die Architektur und Konfigurationen für adaptive Ausgabedarstellungen
 description: Erfahren Sie mehr über die Architekturübersicht und -konfigurationen unter CRXDE Lite für adaptive Ausgabedarstellungen in AEM Screens.
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 40%
+source-wordcount: '620'
+ht-degree: 37%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 40%
 
 ## Einführung {#introduction}
 
-Adaptive Ausgabeformate ermöglichen es den Geräten, basierend auf kundendefinierten Regeln automatisch auf die beste Ausgabedarstellung für ein Gerät zu klicken. Die Geräte laden automatisch die am besten geeignete Ausgabedarstellung eines Assets herunter und geben diese basierend auf diesen Regeln wieder, sodass sich Kunden nur auf das Entwerfen der *main* Erlebnis.
+Mit adaptiven Ausgabeformaten können Geräte anhand von kundendefinierten Regeln automatisch auf die beste Ausgabedarstellung für ein Gerät klicken. Die Geräte laden automatisch die am besten geeignete Ausgabedarstellung eines Assets herunter und geben diese basierend auf diesen Regeln wieder, sodass sich Kunden auf das Entwerfen der *main* Erlebnis.
 
 ## Ziel {#objective}
 
@@ -41,7 +41,7 @@ Gehen Sie wie folgt vor, um die Einrichtung zu konfigurieren:
    >![Bild](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
    >[!IMPORTANT]
-   >Wenn Sie das neueste Feature Pack 202109 installiert haben, sehen Sie die **rendition-mapping** Knotenstruktur, vorausgefüllt in `/conf/screens/sling:configs/rendition-mapping` in CRXDE Lite. Weitere Informationen zum neuesten Feature Pack finden Sie unter [Versionshinweise für Feature Pack 202109](/help/user-guide/release-notes-fp-202109.md).
+   >Wenn Sie das neueste Feature Pack 202109 installiert haben, sehen Sie die **rendition-mapping** Knotenstruktur, vorausgefüllt in `/conf/screens/sling:configs/rendition-mapping` in CRXDE Lite. Siehe [Versionshinweise für Feature Pack 202109](/help/user-guide/release-notes-fp-202109.md) um Details zum neuesten Feature Pack zu erhalten.
    >Stellen Sie bei vorhandenen Projekten sicher, dass dem Screens-Projekt die Konfiguration **Ausgabedarstellungszuordnung** zugeordnet ist. Siehe [Hinzufügen der Ausgabedarstellungszuordnung zu einem vorhandenen Projekt](#rendition-mapping-existing) für weitere Informationen.
 
 ### Hinzufügen der Ausgabedarstellungszuordnungs-Eigenschaft zu einem vorhandenen Projekt {#rendition-mapping-existing}
@@ -72,7 +72,7 @@ Gehen Sie wie folgt vor, um einen Knoten unter „Ausgabedarstellungszuordnung�
    >[!NOTE]
    >Siehe [Syntax der Medienabfrage verwenden](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries) , um mehr zu erfahren.
 
-   Klicks **rule1** die Sie erstellt haben, und geben Sie **Ausdruck** in **Name** und **(Ausrichtung:Querformat)** in **Wert**, wie unten dargestellt. Klicken Sie auf **Hinzufügen**.
+   Klicks **rule1** die Sie erstellt haben, und geben Sie die **Ausdruck** in **Name** und **(Ausrichtung:Querformat)** in **Wert**, wie unten dargestellt. Klicken Sie auf **Hinzufügen**.
 
    ![Bild](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
@@ -81,7 +81,7 @@ Gehen Sie wie folgt vor, um einen Knoten unter „Ausgabedarstellungszuordnung�
    >[!NOTE]
    >Der in der pattern-Eigenschaft definierte Wert wird mit der neuen Asset-Ausgabedarstellung abgeglichen und ausgewählt, wenn der Ausdruck als &quot;true&quot;ausgewertet wird.
 
-   Um die pattern-Eigenschaft hinzuzufügen, klicken Sie auf **rule1** die Sie erstellt haben, und geben Sie **pattern** in **Name** und **landscape** in **Wert**, wie unten dargestellt. Klicken Sie auf **Hinzufügen**.
+   Um die pattern-Eigenschaft hinzuzufügen, klicken Sie auf **rule1** die Sie erstellt haben, und geben Sie die **pattern** in **Name** und **landscape** in **Wert**, wie unten dargestellt. Klicken Sie auf **Hinzufügen**.
 
    ![Bild](/help/user-guide/assets/adaptive-renditions/add-node4.png)
 
@@ -91,4 +91,4 @@ Gehen Sie wie folgt vor, um einen Knoten unter „Ausgabedarstellungszuordnung�
 
 ## Die nächsten Schritte {#next-steps}
 
-Nachdem Sie Eigenschaften und Regeln für die Ausgabedarstellungszuordnung hinzugefügt haben, können Sie als Inhaltsautor Ihre Assets konfigurieren. Dazu verwenden Sie adaptive Ausgabeformate und migrieren Ihre Geräte für große Netzwerke, um diese Funktion in Ihren AEM Screens-Kanälen zu verwenden. Siehe [Verwenden adaptiver Ausgabeformate in AEM Screens](/help/user-guide/using-adaptive-renditions.md) für weitere Informationen.
+Nachdem Sie Eigenschaften und Regeln für die Ausgabedarstellungszuordnung hinzugefügt haben, können Sie als Inhaltsautor Ihre Assets konfigurieren. Sie können adaptive Ausgabeformate verwenden und Ihre Geräte für große Netzwerke migrieren, um diese Funktion in Ihren AEM Screens-Kanälen zu verwenden. Siehe [Verwenden adaptiver Ausgabeformate in AEM Screens](/help/user-guide/using-adaptive-renditions.md) für weitere Informationen.

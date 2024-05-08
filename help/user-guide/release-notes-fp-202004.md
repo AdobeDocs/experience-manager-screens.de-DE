@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 0440cb1a-4436-4479-9d88-ea8884905801
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 56%
+source-wordcount: '375'
+ht-degree: 31%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 56%
 
 >[!CAUTION]
 >
->Adobe empfiehlt ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM). AEM Screens bietet Wartungs-Support für AEM 6.3 Screens-Plattform.
+>Adobe empfiehlt ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM). AEM Screens bietet Wartungs-Support für die AEM 6.3 Screens-Plattform.
 
 ## Verfügbarkeit {#availability}
 
 AEM Screens hat AEM 6.4 Feature Pack 8 und AEM 6.5 Feature Pack 4 veröffentlicht.
 
-Das neueste Feature Pack für AEM Screens 6.4.8 oder AEM Screens 6.5.4 steht auf dem [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) zum Download zur Verfügung (Adobe ID erforderlich). Navigieren Sie zur Registerkarte **Adobe Experience Manager** und suchen Sie nach **Screens**, um das neueste Feature Pack herunterzuladen.
+Sie können das neueste Feature Pack für AEM Screens 6.4.8 oder AEM Screens 6.5.4 von der [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) die Verwendung Ihrer Adobe ID. Navigieren Sie zum **Adobe Experience Manager** Registerkarte und suchen Sie nach **Screens** um das neueste Feature Pack zu erhalten.
 
 ## Veröffentlichungsdatum {#release-date}
 
@@ -32,19 +32,19 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 202004 ist der 20. Ap
 
 * **Optionen für die Wiedergabe-Unterbrechungsstrategie**
 
-  Geben Sie als Inhaltsautor an, wann ein Kanal unterbrochen wird, damit Sie nichtkritische Inhalte abschneiden und optional wichtige Inhalte vollständig abspielen lassen können, bevor Sie die Wiedergabe aufgrund der Planung abbrechen.
+  Geben Sie als Inhaltsautor an, wann ein Kanal unterbrochen wird. Diese Aktion hilft Ihnen dabei, nicht kritische Inhalte abzuschneiden, aber optional wichtige Inhalte vollständig abspielen zu lassen, bevor die Wiedergabe aufgrund der Zeitplanung abgebrochen wird.
 
   Weitere Informationen zu den verfügbaren Optionen finden Sie unter **Kanalzuweisung** Dialogfeld, um diese Funktion in Ihr AEM Screens-Projekt zu implementieren, siehe Abschnitt **[Unterbrechungsmethode](/help/user-guide/channel-assignment.md#interruption-method-channel)**.
 
 * **Screens Launches**
 
-  Das Benutzererlebnis für den Inhaltsautor wurde verbessert und die Anzahl der erforderlichen Klicks für künftige Veröffentlichungen verringert.
+  Der Benutzererlebnisfluss in der Inhaltsautor-Benutzeroberfläche wurde verbessert und die Anzahl der Klicks zur Verwendung künftiger Veröffentlichungen wurde reduziert.
 
   Siehe **[Inhaltsaktualisierung mit Screens Launch](launches.md)** für weitere Details.
 
 * **Kanal-Dashboard**
 
-  Zeigt Aktualisierungen an den Anweisungen im Kanal-Dashboard im Bedienfeld **KANAL-Informationen** an.
+  Zeigt Aktualisierungen der Anweisungen im Kanal-Dashboard im **KANALINFORMATIONEN** Bedienfeld.
 
 
 * **Manifest anzeigen**
@@ -61,7 +61,7 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 202004 ist der 20. Ap
 
 * **Verbesserungen bei der Befehlssynchronisierung**
 
-  Dieses Feature Pack enthält Verbesserungen der Befehlssynchronisierungs-Verzögerung zwischen Asset-Änderungen.
+  Mit dieser Feature Pack-Version werden Verbesserungen der Befehlssynchronisierungsverzögerung zwischen Asset-Änderungen übernommen.
 
   Siehe **[Befehlssynchronisierung](using-command-sync.md)** für weitere Details.
 

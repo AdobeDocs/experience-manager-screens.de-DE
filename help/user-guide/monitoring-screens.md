@@ -1,6 +1,6 @@
 ---
 title: Problembehebung in der Gerätesteuerung
-description: Erfahren Sie, wie Sie mithilfe des Geräte-Dashboards die Leistung Ihrer AEM Screens-Player-Aktivität und Ihres Geräts überwachen und Fehler beheben können.
+description: Erfahren Sie, wie Sie mithilfe des Geräte-Dashboards die Leistung Ihrer AEM Screens Player-Aktivität und Ihres-Geräts überwachen und Fehler beheben können.
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,7 +10,7 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 35%
@@ -19,7 +19,7 @@ ht-degree: 35%
 
 # Problembehebung in der Gerätesteuerung {#troubleshooting-device-control-center}
 
-Sie können die Leistung Ihrer AEM Screens-Player-Aktivität und Ihres Geräts über das Geräte-Dashboard überwachen und Fehler beheben. Auf dieser Seite finden Sie Informationen zur Überwachung und Fehlerbehebung bei erkannten Leistungsproblemen des Screens-Players und der zugeordneten Geräte.
+Über das Geräte-Dashboard können Sie die Leistung Ihrer AEM Screens Player-Aktivität und Ihres Geräts überwachen und Fehler beheben. Auf dieser Seite finden Sie Informationen zur Überwachung und Fehlerbehebung bei erkannten Leistungsproblemen des Screens-Players und der zugeordneten Geräte.
 
 ## Durchführen der Überwachung und Fehlerbehebung über das Geräte-Kontrollzentrum {#monitor-and-troubleshoot-from-device-control-center}
 

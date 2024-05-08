@@ -1,10 +1,10 @@
 ---
 title: Konfigurieren des Workflows für die direkte Platzierung
 description: Auf dieser Seite wird die Konfiguration des Workflows für die direkte Platzierung beschrieben.
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '188'
-ht-degree: 46%
+ht-degree: 40%
 
 ---
 
@@ -18,11 +18,11 @@ In diesem Abschnitt werden folgende Themen behandelt:
 * Überblick
 * Konfigurieren des Workflows für die direkte Platzierung
 
-## Übersicht {#overview}
+## Überblick {#overview}
 
 Die Konfiguration des Workflows für die direkte Platzierung ordnet einen Kanal in einem AEM Screens-Projekt einem bestimmten Ordner in Assets zu und ermöglicht die Platzierung von Assets in diesem Ordner. Adobe empfiehlt, ein Massen-Offline-Update Trigger, um die Veröffentlichung abzuschließen.
 
-Alternativ kann der Inhaltsautor manuell auf **Offline-Inhalt aktualisieren** klicken.
+Alternativ können Sie als Inhaltsautor manuell auf **Offline-Inhalt aktualisieren**.
 
 >[!NOTE]
 >

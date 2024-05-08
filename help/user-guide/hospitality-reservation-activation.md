@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 26%
@@ -23,7 +23,7 @@ Das folgende Nutzungsszenario veranschaulicht die Verwendung der Aktivierung von
 
 ## Beschreibung {#description}
 
-Für dieses Anwendungsbeispiel wird die Google Tabelle mit dem Prozentsatz der Reservierungen in zwei Restaurants gefüllt. **`Restaurant1`** und **`Restaurant2`**. Eine Formel wird anhand der Werte von `Restaurant1` und `Restaurant2` und basierend auf der Formel wird der Wert 1 oder 2 dem **AdTarget** Spalte.
+In diesem Anwendungsbeispiel wird die Google Tabelle mit dem prozentualen Anteil der Reservierungen in zwei Restaurants ausgefüllt **`Restaurant1`** und **`Restaurant2`**. Eine Formel wird anhand der Werte von `Restaurant1` und `Restaurant2` und basierend auf der Formel wird der Wert 1 oder 2 dem **AdTarget** Spalte.
 
 Wenn der Wert von **`Restaurant1`** > **`Restaurant2`**, dann **AdTarget** zugewiesener Wert **1** else **AdTarget** zugewiesener Wert **2**. Wert 1 generiert *Stechnahrung* -Option und -Wert: Ergebnisse der Anzeige von *Thailändische Küche* auf Ihrem Bildschirm angezeigt.
 

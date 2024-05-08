@@ -5,10 +5,10 @@ feature: Authoring Screens, Asset Level Activation
 role: Admin, Developer
 level: Intermediate
 exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1460'
-ht-degree: 54%
+ht-degree: 50%
 
 ---
 
@@ -36,7 +36,7 @@ In diesem Abschnitt werden die folgenden Themen behandelt:
 >
 >To get access to this Feature Pack, contact Adobe Support and request access. When you have permission, you can download it from Package Share. -->
 
-## Übersicht {#overview}
+## Überblick {#overview}
 
 ***Aktivierung auf Asset-Ebene*** ermöglicht Ihnen, ein bestimmtes Asset in einem Kanal für einen geplanten Zeitraum in der lokalen Zeitzone des Players zu aktivieren. Diese Funktion ist für Bilder, Videos, Übergänge, Seiten und eingebettete Kanäle (dynamisch oder statisch) verfügbar.
 
@@ -228,7 +228,7 @@ Gehen Sie wie folgt vor, um auf mehrere Assets zu klicken und ihre Anzeige in ei
 
 Normalerweise wird die Wiedergabe von der lokalen Zeit eines bestimmten Players bestimmt; mit der globalen Überschreibung kann aber eine bestimmte universelle Startzeit verwendet werden, um die Wiedergabe des Assets zu starten.
 
-Damit kann der Inhaltsautor festlegen, dass die Wiedergabe eines bestimmten Assets zu einem bestimmten Datum/zu einer bestimmten Uhrzeit erfolgt, unabhängig von der lokalen Uhr auf allen Playern, denen der Inhalt zugewiesen wurde.
+Dadurch kann der Inhaltsautor festlegen, dass die Wiedergabe eines bestimmten Assets zu einem bestimmten Datum/zu einer bestimmten Uhrzeit erfolgt, unabhängig von der lokalen Uhr auf allen Playern, denen der Inhalt zugewiesen wurde.
 
 Die globale Überschreibung der universellen Startzeit erfolgt durch Konfiguration der Registerkarte **Aktivierung**, während auf die Eigenschaften eines Assets zugegriffen wird. Um eine globale Überschreibung für die Asset-Planung durchzuführen, gehen Sie wie folgt vor:
 

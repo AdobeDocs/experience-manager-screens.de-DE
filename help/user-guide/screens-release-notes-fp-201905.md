@@ -10,9 +10,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e4562547-2829-4a53-8e37-2cd637cef7c8
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '313'
 ht-degree: 40%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 40%
 
 >[!CAUTION]
 >
->Es wird empfohlen, ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM) durchzuführen. AEM Screens bietet Wartungs-Support für AEM 6.3 Screens-Plattform.
+>Es wird empfohlen, ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM) durchzuführen. AEM Screens bietet Wartungs-Support für die AEM 6.3 Screens-Plattform.
 
 AEM Screens hat AEM 6.3.3.3 Feature Pack 6 und AEM 6.4.4.0 Feature Pack 4 mit folgenden Details veröffentlicht.
 
@@ -45,7 +45,7 @@ Siehe **[Umstellung von ContentSync auf SmartSync](smartsync.md)** für weitere 
 
 * **Notfallkanal**
 
-In diesem Anwendungsbeispiel wird das Erstellen und Verwalten eines Notfallkanals hervorgehoben, den der Inhaltsautor von einem Sequenzkanal wechseln kann, wenn eine Bedingung vorliegt.
+In diesem Anwendungsbeispiel wird das Erstellen und Verwalten eines Notfallkanals betont, den der Inhaltsautor von einem Sequenzkanal wechseln kann, wenn eine Bedingung vorliegt.
 
 Siehe **[Notfallkanal](emergency-channel.md)** Anwendungsbeispiel für weitere Details.
 
