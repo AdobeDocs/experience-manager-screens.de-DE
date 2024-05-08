@@ -2,10 +2,10 @@
 title: Business Content-Strategie für AEM Screens
 description: Erfahren Sie mehr über die Marketing- und Business Content-Strategie im Zusammenhang mit AEM Screens.
 exl-id: efb8ea95-62c0-41ed-9e67-23d76ad12a4c
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 50%
+source-wordcount: '433'
+ht-degree: 47%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 50%
 
 >[!NOTE]
 >
->Typische Verantwortliche für diese Aktivität sind Marketing-/Geschäftsstrategen.
+>Ein typischer Verantwortlicher für diese Aktivität ist ein Marketing-/Geschäftsstratege.
 
 Inhalte sind ein wichtiger Faktor für die Förderung der Interaktion. In der Pre-Sales-Phase ist es wichtig, eine Business Content-Strategie zu definieren, in der berücksichtigt wird, wie die Anwendung Hardware-, Software- und Konnektivitätsressourcen nutzt, um den Kunden Ihres Kunden den gewünschten Wert zu liefern.
 

@@ -1,11 +1,11 @@
 ---
 title: Wechsel zu Plattform
-description: Erfahren Sie mehr über den Wechsel zu Platform in AEM Screens.
+description: Erfahren Sie mehr über den Übergang zur Plattform in AEM Screens.
 exl-id: e69f504f-d20b-4cdb-b567-5c9c1df4d331
-source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 11%
+source-wordcount: '180'
+ht-degree: 6%
 
 ---
 
@@ -13,24 +13,24 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->Typische Verantwortliche für diese Aktivität sind AEM-Implementoren.
+>Ein typischer Verantwortlicher für diese Aktivität ist ein AEM-Implementor.
 
-Nachdem sich Ihr Projekt von einer strategischen Vision zu einer Wireframe-Realität entwickelt hat, sollten Sie sich jetzt auf die Aufgaben vorbereiten, die erforderlich sind, um ein Screens-Projekt in AEM zu erstellen, das Sie bereitstellen können.
+Da Ihr Projekt von einer strategischen Vision zu einer Realität mit einem breiteren Rahmen übergegangen ist, sollten Sie jetzt mit der Vorbereitung auf die Aufgaben beginnen, die erforderlich sind, um ein Screens-Projekt in AEM zu erstellen, das Sie bereitstellen können.
 
-Dieses Projekt umfasst die Zuordnung plattformspezifischer Konfigurationen zu locker definierten Anforderungen, die in der Prototyping-Phase definiert wurden.
+Dieses Projekt umfasst die Zuordnung plattformspezifischer Konfigurationen zu lose definierten Anforderungen, die in der Prototypenphase definiert wurden.
 
-Beispiele sind die Verwendung der folgenden Elemente:
+Beispiele für die Verwendung der folgenden Elemente:
 
 * **Experience Fragments** zum Erstellen von Inhaltsgruppierungen.
 * **Inhaltsfragmente** zum Erstellen von Textvarianten.
-* **ContextHub** Zum Erstellen externer Datenspeicher verwenden Sie die SPA für interaktive Erlebnisse.
-* **OSGi-Dienste** für Netzwerk-Warnhinweise.
-* **Asset-Link** für die Creative Cloud-Beschaffung.
+* **ContextHub** zum Erstellen externer Datenspeicher SPA für interaktive Erlebnisse.
+* **OSGi-Dienste** für Netzwerkwarnungen.
+* **Asset-Link** für Creative Cloud-Sourcing.
 * **Netzwerkordner** für die Asset-Zuordnung.
 * **Textüberlagerung** für Echtzeitdaten.
-* **Zeitpläne** für Anzeige-/Kanal-Gruppierungen.
+* **Zeitpläne** für Anzeige-/Kanalgruppierungen.
 * **Workflows** für automatisierte Inhaltsbearbeitung
 
-Überprüfen Sie in dieser Phase alle erforderlichen Aufgaben und Aktivitäten, die Aufmerksamkeit erfordern, und dokumentieren Sie sie ordnungsgemäß, damit zugewiesene Aufgaben in der Bereitstellungsphase ordnungsgemäß verfolgt werden können.
+Überprüfen Sie in dieser Phase alle erforderlichen Aufgaben und Aktivitäten, die Aufmerksamkeit erfordern, und dokumentieren Sie sie ordnungsgemäß, damit zugewiesene Aufgaben in der Implementierungsphase ordnungsgemäß nachverfolgt werden können.
 
-Überprüfen Sie in dieser Phase auch alle vordefinierten Aktivitäten als mögliche Kandidaten für die Automatisierung.
+Überprüfen Sie außerdem alle vordefinierten Aktivitäten als mögliche Automatisierungskandidaten in dieser Phase.

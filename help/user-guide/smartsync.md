@@ -9,10 +9,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 69%
+source-wordcount: '435'
+ht-degree: 64%
 
 ---
 
@@ -29,7 +29,7 @@ SmartSync wird sowohl Server-seitig als auch Client-seitig ausgeführt.
 **Auf Server-Seite**:
 
 * Inhalte der Kanäle, einschließlich Assets, werden zwischengespeichert in *`/var/contentsync`*.
-* Der Cache wird den Playern über ein Manifest zur Verfügung gestellt, das den verfügbaren Inhalt für eine Anzeige beschreibt.
+* Der Cache wird den Playern über ein Manifest bereitgestellt, das den verfügbaren Inhalt für eine Anzeige beschreibt.
 
 **Auf Client-Seite**:
 
@@ -75,7 +75,7 @@ Gehen Sie wie folgt vor, um von ContentSync zu SmartSync zu wechseln:
    >
    >Der gesamte Inhalts-Cache muss vor der erstmaligen Verwendung von SmartSync gelöscht werden.
 
-1. Navigieren Sie zu **Konfiguration der Adobe Experience Manager-Web-Konsole** über AEM-Instanz > Hammersymbol > **Aktivitäten** > **Web-Konsole**.
+1. Navigieren Sie zu **Konfiguration der Adobe Experience Manager-Web-Konsole** über AEM Instanz > Hammersymbol > **Aktivitäten** > **Web-Konsole**.
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 

@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '1402'
-ht-degree: 37%
+source-wordcount: '1404'
+ht-degree: 36%
 
 ---
 
@@ -235,7 +235,7 @@ Das Bild-Asset besitzt die drei Registerkarten **Bild**, **Erreichbarkeit** und 
 
 Mit der Übergangskomponente können Sie Ihrem Screens-Projekt eine Transition hinzufügen.
 
-Die folgende Abbildung veranschaulicht die (per Drag-and-Drop hinzugefügte) Übergangskomponente im Editor.
+Die folgende Abbildung zeigt die (per Drag &amp; Drop hinzugefügte) Übergangskomponente im Editor.
 
 ![screen_shot_2019-07-25at104237am](assets/screen_shot_2019-07-25at104237am.png)
 

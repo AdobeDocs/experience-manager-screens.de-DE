@@ -2,10 +2,10 @@
 title: Empfohlener Ansatz
 description: Erfahren Sie mehr über den empfohlenen Ansatz in einem AEM Screens-Projekt.
 exl-id: 28aacffa-e9c9-4ccb-8038-720bb3e02a3f
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
 source-wordcount: '430'
-ht-degree: 38%
+ht-degree: 36%
 
 ---
 
@@ -32,8 +32,7 @@ Beginnen Sie mit vordefinierten AEM Screens-Funktionen, bevor Sie benutzerdefini
 * **Definieren von Pilotprojekten, Rollouts und POCs**:
 Erarbeiten Sie Machbarkeitsstudien (POCs), die Sie in der Pilot- und Rollout-Phase bei Bedarf anpassen.
 
-* **Vordefinieren der Inhaltsstrategie**:
-Legen Sie eine Inhaltsstrategie fest, einschließlich kurz- und langfristiger Ziele. Richten Sie außerdem Markenziele/KPIs an Funktionsverbesserungen aus.
+* **Vordefinieren der Inhaltsstrategie**: Festlegung einer Inhaltsstrategie, einschließlich kurz- und langfristiger Ziele. Richten Sie außerdem Markenziele/KPIs an Funktionsverbesserungen aus.
 
   >[!NOTE]
   >

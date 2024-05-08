@@ -2,17 +2,17 @@
 title: Tests und Qualitätssicherung
 description: Weitere Informationen zu Tests und Qualitätssicherung für AEM Screens finden Sie im Best Practices-Handbuch.
 exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 50%
+source-wordcount: '334'
+ht-degree: 28%
 
 ---
 
 # Tests und Qualitätssicherung {#testing-quality}
 
 >[!NOTE]
->Typische Verantwortliche für diese Aktivität sind Audio-/Video-Integratoren.
+>Ein typischer Verantwortlicher für diese Aktivität ist ein Audio-/Video-Integrator.
 
 Wenn Sie sich der Bereitstellung des Digital Signage-Netzwerks nähern, erstellen Sie einen Test- und QA-Plan, der alle Elemente des Netzwerks einschließlich aller Hardwarekomponenten, Softwarekomponenten und Netzwerkkomponenten abdeckt.
 In dem Schritt sollten vollständige Prüfsysteme eingerichtet und gründlich getestet werden.
@@ -21,7 +21,7 @@ Es sollte eine Checkliste erstellt werden, in der alle zuvor definierten KPIs au
 
 >[!NOTE]
 >
->Dieser Schritt sollte auch zur Erstellung eines Installations- und Benutzerhandbuchs genutzt werden, das später mit dem Gerät ausgeliefert und für künftige Referenzzwecke vor Ort aufbewahrt werden kann.
+>Diese Phase sollte auch als Tool zur Erstellung eines Installations- und Benutzerhandbuchs dienen. Beide können später mit dem Gerät ausgeliefert und für künftige Referenzzwecke vor Ort aufbewahrt werden.
 
 Folgende Elemente sollten berücksichtigt werden:
 
@@ -48,9 +48,9 @@ Folgende Überlegungen in Bezug auf die Software werden empfohlen:
 
 ## 3. Aspekte der Geräteverwaltung {#device-management-considerations}
 
-AEM Screens enthält ein Gerätesteuerungsmodul, das die Verwaltung von Endgeräten mit der Screens Player-Anwendung ermöglicht.
+AEM Screens enthält ein Gerätesteuerungsmodul, das die Verwaltung von Endpunkten der Screens-Player-Anwendung ermöglicht.
 
-Dies bezieht sich auf alle *Player*-Hardwaregeräte, auf denen die Screens Player-Anwendung installiert ist und die für eine AEM-Instanz registriert sind.
+Er bezieht sich auf alle *Player* Hardwaregerät, auf dem die Screens Player-Anwendung installiert ist und das für eine Instanz von AEM registriert ist.
 Mit diesem Modul können Sie:
 
 1. Anwendungsfehlerprotokolle des Players überwachen
@@ -62,7 +62,7 @@ Ausführliche Informationen zu ***Gerätesteuerung***, siehe [Problembehebung in
 
 >[!CAUTION]
 >
->Verwenden Sie das Device Control Center nicht für:
+>Verwenden Sie das Gerätesteuerungszentrum nicht, um:
 >
 >* Neue Versionen der Player-Anwendung installieren
 >* Ressourcen auf Systemebene überwachen

@@ -2,10 +2,10 @@
 title: Netzwerk für Direktanbindung an Mobilfunknetze
 description: Erfahren Sie mehr über die Einrichtung eines direkten mobilen Netzwerks in AEM Screens.
 exl-id: 6775bd10-7625-422f-a7af-4f7b8793fa42
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
 source-wordcount: '842'
-ht-degree: 52%
+ht-degree: 50%
 
 ---
 
@@ -92,6 +92,6 @@ Nachfolgend sind die wichtigsten Daten bezüglich Netzwerkverbindungen aufgefüh
 
 >[!NOTE]
 >
->Die Daten beziehen sich allesamt darauf, wie viel Bandbreite jedes einzelne mit dem Netzwerk verbundene Gerät beim Anfragen und Herunterladen einer Internet-Quelle beansprucht. Mit jeder dieser Anforderungen wird die Download-Zeit addiert und verlängert.
+>Alle Informationen beziehen sich auf die Nutzung der einzelnen Geräte im Netzwerk, die eine Internet-Quelle anfordern und herunterladen. Mit jeder dieser Anforderungen wird die Download-Zeit addiert und verlängert.
 
 ![](/help/using/assets/download-times-mobile.png)

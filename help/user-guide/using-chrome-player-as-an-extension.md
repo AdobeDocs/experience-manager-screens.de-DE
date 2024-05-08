@@ -5,24 +5,24 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 53d5bd81-0853-47b0-9798-01d8fd5612e6
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 36%
+source-wordcount: '453'
+ht-degree: 19%
 
 ---
 
-# Verwenden von Chrome-Player als Erweiterung {#using-chrome-player}
+# Verwenden des Chrome-Players als Erweiterung {#using-chrome-player}
 
-Der ChromeOS-Player kann im Entwicklermodus als Chrome-Browser-Plug-in installiert werden, ohne dass ein echtes Chrome-Player-Gerät erforderlich ist.
+Der ChromeOS-Player kann im Entwicklermodus als Chrome-Browser-Plug-in installiert werden, ohne dass ein tatsächliches Chrome-Player-Gerät erforderlich ist.
 
 >[!CAUTION]
 >
-> Eine Verwendung des Chrome-Players als Erweiterung zur Problembehebung wird für schnelle Demos, Debugging und auch zur Fehlerbehebung bei Kundenproblemen empfohlen. Verwenden Sie diesen Mechanismus nicht für Produktionsbereitstellungen, die den Kiosk-Modus und die zentrale Verwaltung erfordern würden.
+> Die Verwendung des Chrome-Players als Erweiterung zur Fehlerbehebung wird für schnelle Demos, Debugging und auch zur Fehlerbehebung bei Kundenproblemen empfohlen. Verwenden Sie diesen Mechanismus nicht für Produktionsbereitstellungen, die den Kiosk-Modus und die zentrale Verwaltung erfordern würden.
 
 Auf dieser Seite finden Sie Informationen zum Installieren des Chrome-Players als Browser-Erweiterung.
 
-1. Klicken Sie [hier](https://download.macromedia.com/screens/), um den neuesten Chrome-Player herunterzuladen.
+1. Klicks [here](https://download.macromedia.com/screens/) , um den neuesten Chrome-Player herunterzuladen.
 
 1. Entpacken Sie die Datei und speichern Sie sie auf der Festplatte.
 
@@ -49,12 +49,12 @@ Auf dieser Seite finden Sie Informationen zum Installieren des Chrome-Players al
 
    >[!NOTE]
    >
-   > Wenn die oben genannte URL nicht funktioniert, bedeutet dies, dass dem Player keine Anzeige zugewiesen wird oder der Inhalt nicht erfolgreich heruntergeladen wurde. Überprüfen Sie auf der Registerkarte „Netzwerk“ die Player-Konfigurations-JSON, um zu sehen, ob der Player die korrekten Details übermittelt hat oder beim Download Netzwerkprobleme aufgetreten sind.
+   > Wenn die oben genannte URL nicht funktioniert, bedeutet dies, dass dem Player keine Anzeige zugewiesen wird oder der Inhalt nicht erfolgreich heruntergeladen wurde. Überprüfen Sie die Registerkarte &quot;Netzwerk&quot;für die JSON-Player-Konfiguration, um zu sehen, ob der Player die richtigen Details erhält und ob Netzwerkprobleme beim Download auftreten.
 
 1. Klicken Sie mit der rechten Maustaste und überprüfen Sie drei Ebenen des Chrome-Players.
    **Inhalt debuggen**: Klicken Sie mit der rechten Maustaste und überprüfen Sie den Inhalt, um den laufenden Inhalt zu debuggen (im Kontextmenü sollte ein einzelnes Element namens &quot;Inspect&quot;vorhanden sein).
 
-   **Firmware debuggen**: Rufen Sie die Administrator-Benutzeroberfläche auf, klicken Sie mit der rechten Maustaste darauf und überprüfen Sie, ob der Firmware(Player)-Code debuggt wird. (Es sollte eine Option zum Überprüfen und Überprüfen der Hintergrundseite und zum Simulieren des Neustart des Browsers geben.)
+   **Firmware debuggen**: Rufen Sie die Administrator-Benutzeroberfläche auf, klicken Sie mit der rechten Maustaste darauf und überprüfen Sie, ob der Firmware(Player)-Code debuggt wird. (Es sollte eine Option zum Überprüfen und Überprüfen der Hintergrundseite und zum Simulieren eines Neustart des Browsers geben.)
 
    **Debug-Hintergrundseite**: Rufen Sie die Administrator-Benutzeroberfläche auf, klicken Sie mit der rechten Maustaste darauf und überprüfen Sie die Hintergrundseite (für Hintergrunddienste wie HTTP-Server).
 
@@ -66,4 +66,4 @@ Gehen Sie wie folgt vor, um die Player-Erweiterung zu aktualisieren, wenn eine n
 1. Benennen Sie den alten Ordner mit Player-Dateien um.
 1. Extrahieren Sie die neue Zip-Datei am selben Speicherort, an dem sich der alte Ordner befindet.
 1. Starten Sie Chrome und navigieren Sie zu `chrome://extensions`.
-1. Aktivieren Sie das Player-Symbol und klicken Sie auf die Schaltfläche „Aktualisieren“ oder „Neu laden“.
+1. Aktivieren Sie das Player-Symbol und klicken Sie auf die Schaltfläche &quot;Aktualisieren&quot;oder &quot;Neu laden&quot;

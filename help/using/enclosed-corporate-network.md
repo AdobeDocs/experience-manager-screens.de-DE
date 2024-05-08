@@ -2,7 +2,7 @@
 title: Geschlossenes Unternehmensnetzwerk
 description: Geschlossenes Unternehmensnetzwerk
 exl-id: b8c52e72-86da-4089-ba02-0c643862419f
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 53%
@@ -54,7 +54,7 @@ Die Internet-Verbindung muss ausreichend Bandbreite zur Verfügung stellen, dami
 
 >[!NOTE]
 >
->Alle Geräte haben einen gleichzeitigen Zugriff auf die Internetverbindung und die Bandbreite nimmt linear ab, wenn Sie dem Netzwerk weitere Verbraucher oder Computer hinzufügen.
+>Alle Geräte haben einen gleichzeitigen Zugriff auf die Internetverbindung und die Bandbreite nimmt linear ab, wenn Sie dem Netzwerk weitere Benutzer oder Computer hinzufügen.
 
 ### LAN (Local Area Network) {#lan-connection}
 

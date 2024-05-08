@@ -2,10 +2,10 @@
 title: AEM Platform-Konfigurationen
 description: Auf dieser Seite werden AEM Platform-Konfigurationen beschrieben.
 exl-id: cfe1769b-4da2-430d-a7b1-10dbcaf9f51b
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 44%
+source-wordcount: '446'
+ht-degree: 42%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 44%
 
 >[!NOTE]
 >
->Typische Verantwortliche für diese Aktivität sind AEM-Implementoren.
+>Ein typischer Verantwortlicher für diese Aktivität ist ein AEM-Implementor.
 
 Beginnen Sie mit AEM Screens, indem Sie die folgenden Abschnitte ausführen, um AEM Plattformkonfigurationen einzurichten.
 
@@ -66,7 +66,7 @@ Installieren Sie dieselben Softwarepakete in Ihrer lokalen Entwicklungsumgebung.
 
 >[!NOTE]
 >
->Informationen zum Installieren des neuesten Feature Packs für AEM Screens finden Sie unter [Versionshinweise](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/aem-screens-introduction).
+>Informationen zum Installieren des neuesten Feature Packs für AEM Screens finden Sie unter [Versionshinweise](https://experienceleague.adobe.com/de/docs/experience-manager-screens/user-guide/aem-screens-introduction).
 
 ## Einrichten von ACLs {#setting-up-acls}
 

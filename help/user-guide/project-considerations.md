@@ -1,6 +1,6 @@
 ---
 title: '„Teil 2: Überlegungen zum Projektumfang“'
-description: Erfahren Sie mehr über die Inhaltsstrategie, E/A-Schichten, Asset-Typen, Zielgruppensegmentierung, Dayparting, Anforderungen an den Geschäftsbetrieb und Überlegungen zur Site-Bereitschaft in AEM Screens.
+description: Erfahren Sie mehr über die Inhaltsstrategie, E/A-Schichten, Asset-Typen und Zielgruppensegmentierung in AEM Screens. Erfahren Sie mehr über Tagesaufteilungen, Anforderungen an den Geschäftsbetrieb und Überlegungen zur Site-Bereitschaft.
 contentOwner: jsyal
 content-type: reference
 topic-tags: digital-signage-networks-basics
@@ -10,10 +10,10 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 7814ee96-9220-45b6-b56e-b48a9da9a319
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 49%
+source-wordcount: '644'
+ht-degree: 21%
 
 ---
 
@@ -23,30 +23,30 @@ Diese Seite enthält Teil 2 einer 5-teiligen Serie, der Team-Mitgliedern dabei h
 
 ## Überblick {#overview}
 
-Das folgende Tutorial behandelt Elemente, die bei der Projekterkundung identifiziert werden müssen, sowie Beiträge von Beteiligten zur Bewertung des Projekts und zur Vorbereitung eines geeigneten Designs.
+Das folgende Tutorial behandelt die Elemente, die bei der Projekterkundung identifiziert werden müssen. Es umfasst auch Beiträge von Interessenträgern zur Bewertung des Projekts und die notwendigen Vorbereitungen für eine angemessene Konzeption.
 
 Die Hauptkomponenten eines Programms für digitale Beschilderung, die für eine erfolgreiche Implementierung erforderlich sind, sind:
 
 * Inhaltsstrategie
 * Anforderungen an den Geschäftsbetrieb
 * Ermittlung der IT- und Netzwerkumgebung
-* Audio-/Videoanforderungen
+* Audio-/Video-Anforderungen
 * Gerätespezifikation
 * Site-Bereitschaft
 
 >[!NOTE]
 >
->Definieren Sie eine Inhaltsstrategie, die berücksichtigt, wie die Anwendung Software-, Hardware- und Konnektivitätsressourcen verwendet, um den beabsichtigten Wert erfolgreich bereitzustellen.
+>Definieren Sie eine Inhaltsstrategie, bei der berücksichtigt wird, wie die Anwendung Software-, Hardware- und Konnektivitätsressourcen verwendet, um den beabsichtigten Wert erfolgreich bereitzustellen.
 
-## Zusammenfassung der Projektüberlegungen in einem Projekt für Digital Signage  {#summary-of-project-considerations-in-a-digital-signage}
+## Zusammenfassung der Projektüberlegungen in einem Projekt für Digital Signage {#summary-of-project-considerations-in-a-digital-signage}
 
-Bei der Entwicklung einer Inhaltsstrategie sind verschiedene Aspekte zu beachten, darunter E/A-Ebenen, Asset-Typen, Zielgruppensegmente und Dayparting-Anforderungen.
+Bei der Entwicklung einer Inhaltsstrategie sind verschiedene Aspekte zu beachten, darunter E/A-Schichten, Asset-Typen, Zielgruppensegmente und Dayparting-Anforderungen.
 
 ### E/A-Schichten {#i-o-layers}
 
-Die bedingte Wiedergabe von Inhalten wird über die E/A-Steuerung gesteuert, die auf der Ermittlung der Zielgruppennähe basiert. Wenn beispielsweise ein Sensor räumliche Nähe erkennt, kann sich die Wiedergabe des Inhalts von &quot;anziehenden&quot;oder passiven Inhalten in &quot;interaktive&quot;Wiedergabe oder interaktive Wiedergabe ändern. Dies ist besonders hilfreich bei Anwendungen, bei denen die Bereitstellung von Inhalten auf der Grundlage von demografischen Daten gewünscht wird.
+Die bedingte Wiedergabe von Inhalten wird über die E/A-Steuerung gesteuert, die auf der Ermittlung der Zielgruppennähe basiert. Wenn beispielsweise ein Sensor räumliche Nähe erkennt, kann sich die Wiedergabe des Inhalts von &quot;anziehenden&quot;oder passiven Inhalten in &quot;interaktive&quot;Wiedergabe oder interaktive Wiedergabe ändern. Diese Funktion ist besonders bei Anwendungen hilfreich, in denen die Bereitstellung von Inhalten auf der Basis demografischer Daten gewünscht wird.
 
-### Inhalts-Asset-Typen {#content-asset-types}
+### Asset-Typen für Inhalte {#content-asset-types}
 
 Beachten Sie die folgenden Punkte, um die Absicht des Endkunden in Bezug auf Content Assets zu verstehen:
 
@@ -61,11 +61,11 @@ Beachten Sie die folgenden Punkte, um die Absicht des Endkunden in Bezug auf Con
 
 ### Zielgruppensegmentierung, Dayparting {#audience-segmentation-day-parts}
 
-Durch das Einbeziehen von Dayparting-Strategien können Endkunden ihren Inhalt segmentieren und Nachrichten zur richtigen Zeit an die richtige Zielgruppe richten. Dies ist besonders effektiv für Werbe- oder Einzelhandelsnetzwerke, in denen viele Inhaltsanbieter die gesamte Playlist ausmachen.
+Durch die Einbeziehung von Dayparting-Strategien können Endkunden ihren Inhalt segmentieren. Es kann dabei helfen, Nachrichten zur richtigen Zeit an die richtige Zielgruppe zu senden. Diese Fähigkeit ist besonders effektiv für Werbe- oder Einzelhandelsnetzwerke, in denen viele Inhaltsanbieter die gesamte Wiedergabeliste ausmachen.
 
 ### Anforderungen an den Geschäftsbetrieb {#business-operations-requirements}
 
-Auch der Geschäftbetrieb ist bei der Diskussion der Inhaltsstrategie wichtig. Die Formalisierung der Supportanforderungen von Endkunden kann dazu beitragen, die Erwartungen nach der Bereitstellung zu verwalten und sicherzustellen, dass die Supportbemühungen angemessen gemessen werden.
+Auch der Geschäftsbetrieb ist bei der Konversation von Inhaltsstrategien wichtig. Die Formalisierung der Supportanforderungen von Endkunden kann dazu beitragen, die Erwartungen nach der Bereitstellung zu verwalten und sicherzustellen, dass die Supportbemühungen angemessen gemessen werden.
 
 ### Audio-/Videoanforderungen {#a-v-requirements}
 
@@ -73,20 +73,20 @@ Montageszenarios müssen ebenso definiert werden, sowie Überlegungen zum Gerät
 
 ### Site-Bereitschaft {#site-readiness}
 
-Der letzte Schritt im Pre-Sales-Prozess ist die Ermittlung der Site-Bereitschaft. Dies kann durch Site-Umfragen erleichtert werden, die Details zu Site, Projekt und Fortschritt erfassen. Site-Bereitschaft erfasst im Wesentlichen den aktuellen Status eines Standorts vor der Installation und ruft alle Elemente auf, die der Kunde vorbereiten oder behandeln muss, bevor ein Techniker eintrifft. Normalerweise umfasst dies Elemente wie Strom, Daten, Möbelentnahme und Staubbeseitigung.
+Der letzte Schritt im Pre-Sales-Prozess ist die Bestimmung der Site-Bereitschaft. Die Bereitschaft kann durch Site-Umfragen erleichtert werden, die Details zu Site, Projekt und Fortschritt erfassen. Die Site-Bereitschaft erfasst im Wesentlichen den aktuellen Status eines Standorts vor der Installation und ruft alle Elemente auf, die der Kunde vorbereiten oder behandeln muss, bevor ein Techniker eintrifft. In der Regel enthält diese Checkliste Elemente wie Leistung, Daten, Möbelentnahme und Staubbeseitigung.
 
 ## Teil 2: Video-Tutorial zu Überlegungen zum Projektumfang {#part-video-tutorial-on-considerations-as-projects-are-scoped}
 
-In diesem Tutorial erfahren Sie mehr über die Inhaltsstrategie, E/A-Schichten, Asset-Typen, Zielgruppensegmentierung, Dayparting, Anforderungen an den Geschäftsbetrieb und Überlegungen zur Site-Bereitschaft.
+Im folgenden Tutorial erfahren Sie mehr über die Inhaltsstrategie, E/A-Schichten, Asset-Typen und Zielgruppensegmentierung. Erfahren Sie mehr über Dayparting, Anforderungen an den Geschäftsbetrieb und Überlegungen zur Site-Bereitschaft.
 
 ### Überlegungen zum Projektumfang
 
 >[!VIDEO](https://video.tv.adobe.com/v/28380)
 
-*Erfahren Sie mehr über die Inhaltsstrategie, E/A-Schichten, Asset-Typen, Zielgruppensegmentierung, Dayparting, Anforderungen an den Geschäftsbetrieb und Überlegungen zur Site-Bereitschaft.*
+*Erfahren Sie mehr über die Inhaltsstrategie, E/A-Schichten, Asset-Typen und Zielgruppensegmentierung. Erfahren Sie mehr über Tagesaufteilungen, Anforderungen an den Geschäftsbetrieb und Überlegungen zur Site-Bereitschaft.*
 
 ## Der nächste Schritt {#the-next-step}
 
-Wenn Sie die Elemente verstehen, die bei der Projekterkundung identifiziert werden, sowie Beiträge von Interessenträgern zur Bewertung des Projekts und zur Vorbereitung eines geeigneten Designs, lernen Sie die Schlüsselbegriffe kennen, die in einen übergeordneten Projektplan eingebunden sind. Dazu gehören Projektzyklus, Aktionen im Zusammenhang mit Hardware-Tests, Machbarkeitsstudien, Pilotprogramme und Rollouts.
+Machen Sie sich mit den Elementen vertraut, die bei der Projekterkundung identifiziert werden, sowie mit den Beiträgen der Beteiligten zur Bewertung des Projekts und zur Vorbereitung eines geeigneten Designs. Lernen Sie die Schlüsselbegriffe eines übergeordneten Projektplans kennen. Dazu gehören Projektzyklus, Aktionen im Zusammenhang mit Hardware-Tests, Machbarkeitsstudien, Pilotprogramme und Rollouts.
 
 Navigieren Sie zu **[Tests, POCs, Pilotprogramme und Rollouts](testing-pocs-pilots-rollouts.md)**, um weitere Informationen zu erhalten.

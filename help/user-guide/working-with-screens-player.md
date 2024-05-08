@@ -9,10 +9,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 54%
+source-wordcount: '1059'
+ht-degree: 53%
 
 ---
 
@@ -28,7 +28,7 @@ Nachdem Sie einer Anzeige einen Kanal zugewiesen haben, zeigt der AEM Screens-Pl
 
 ## Verwenden des Geräte-Dashboards {#using-the-device-dashboard}
 
-Sie können die Voreinstellungen für Ihr Gerät im Geräte-Dashboard konfigurieren, auf das Sie über Ihre AEM-Autoreninstanz zugreifen können.
+Sie können die Voreinstellungen für Ihr Gerät über das Geräte-Dashboard konfigurieren, auf das Sie über Ihre AEM Authoring-Instanz zugreifen können.
 
 1. Navigieren Sie vom Projekt zum Geräte-Dashboard, z. B. ***Testprojekt*** > ***Geräte***.
 

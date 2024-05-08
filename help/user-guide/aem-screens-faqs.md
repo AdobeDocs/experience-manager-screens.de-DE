@@ -5,10 +5,10 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '2130'
-ht-degree: 40%
+source-wordcount: '2134'
+ht-degree: 39%
 
 ---
 
@@ -177,7 +177,7 @@ Führen Sie die folgenden Schritte aus, um eine Fehlerbehebung bei einem AEM Scr
 
 ### 6. Wie können Details zu Anzeige und Gerät von der Player-API abgerufen werden?
 
-Die Details zu Anzeige und Gerät erhalten Sie über:
+Die Details der Anzeige und des Geräts erhalten Sie über:
 
 * **eine interne JS-API**
 * **einen ContextHub-Store**: Drei ContextHub-Stores sind in `/libs/screens/clientlibs/contexthub` definiert, um Informationen zu Kanal, Geräte und Anzeige anzuzeigen.
@@ -247,7 +247,7 @@ Installieren Sie eine Mindestversion von AEM 6.5 Feature Pack 8 , damit der AMS-
 
 Der Service wird verwendet, um den öffentlichen Host-Namen für die Autoren- und Veröffentlichungsinstanz zu definieren. Die Werte werden dann zum Aktualisieren der Geräte-Server-URLs und auch für das ContextHub-Targeting verwendet.
 
-Der CQ Link Externalizer-Service in Screens kann wie folgt konfiguriert werden:
+Der CQ Link Externalizer-Dienst in Screens kann wie folgt konfiguriert werden:
 
 1. Navigieren Sie zu `http://localhost:4502/system/console/configMgr`
 1. Day CQ Link Externalizer 

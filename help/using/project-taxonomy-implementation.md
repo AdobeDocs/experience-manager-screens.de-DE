@@ -2,10 +2,10 @@
 title: Projekttaxonomie
 description: Erfahren Sie mehr über die Projekttaxonomie im Zusammenhang mit AEM Screens.
 exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 53%
+source-wordcount: '266'
+ht-degree: 50%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 53%
 
 >[!NOTE]
 >
->Typische Verantwortliche für diese Aktivität sind AEM-Implementoren.
+>Ein typischer Verantwortlicher für diese Aktivität ist ein AEM-Implementor.
 
 Bevor Sie ein AEM Screens-Projekt erstellen, sollten Sie alle in der UX Wireframing-Phase des Projekts definierten Komponenten verstehen und strategisch ausrichten.
 
