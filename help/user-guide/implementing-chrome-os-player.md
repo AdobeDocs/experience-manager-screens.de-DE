@@ -9,10 +9,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
+source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
 source-wordcount: '870'
-ht-degree: 43%
+ht-degree: 42%
 
 ---
 
@@ -22,10 +22,10 @@ In diesem Abschnitt wird beschrieben, wie Sie den Chrome OS-Player mit der Chrom
 
 ## Verwenden der Chrome Management Console {#using-chrome-management-console}
 
-Gehen Sie wie folgt vor, um die Chrome Management Console einzurichten:
+Gehen Sie wie folgt vor, um die Chrome-Verwaltungskonsole einzurichten:
 
 1. Registrieren Sie sich für die Chrome Management Console. Sie müssen eine Lizenz für die Chrome Management Console erwerben. Weitere Informationen zur Verwaltung von Chrome-Geräteeinstellungen finden Sie beim [Google-Support](https://support.google.com/chrome/a/answer/1375678?hl=de&amp;ref_topic=2935995).
-1. Melden Sie Ihr Chrome OS-Gerät in der Domäne an und warten Sie 15 Minuten, bis das Gerät mit der Chrome Management Console synchronisiert ist. Um mehr über die Registrierung von Chrome-Geräten zu erfahren, klicken Sie [hier](https://support.google.com/chrome/a/answer/1360534?hl=de).
+1. Melden Sie Ihr Chrome OS-Gerät in der Domäne an und warten Sie 15 Minuten, bis das Gerät mit der Chrome Management Console synchronisiert ist. Um mehr über die Registrierung von Chrome-Geräten zu erfahren, klicken Sie auf [here](https://support.google.com/chrome/a/answer/1360534?hl=de).
 1. Der Chrome-Player ist im Chrome Web Store verfügbar.
 
 >[!NOTE]

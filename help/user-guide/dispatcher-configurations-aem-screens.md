@@ -1,22 +1,22 @@
 ---
 title: Dispatcher-Konfigurationen für AEM Screens
-description: Auf dieser Seite werden Richtlinien zum Konfigurieren des Dispatchers für ein AEM Screens-Projekt beschrieben.
+description: Auf dieser Seite werden Richtlinien zum Konfigurieren eines Dispatchers für ein AEM Screens-Projekt beschrieben.
 feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 27%
+source-wordcount: '633'
+ht-degree: 25%
 
 ---
 
 # Dispatcher-Konfigurationen für AEM Screens {#dispatcher-configurations-for-aem-screens}
 
-Der Dispatcher ist das Caching- und/oder Lastenausgleichstool von Adobe Experience Manager.
+Der Dispatcher ist das Caching-Tool von Adobe Experience Manager, das Lastenausgleichstool oder beides.
 
-Auf der folgenden Seite finden Sie die Richtlinien zum Konfigurieren des Dispatchers für ein AEM Screens-Projekt.
+Die folgende Seite enthält Richtlinien zum Konfigurieren eines Dispatchers für ein AEM Screens-Projekt.
 
 >[!NOTE]
 >
@@ -30,9 +30,9 @@ Siehe [Dispatcher konfigurieren](https://experienceleague.adobe.com/de/docs/expe
 ## Konfigurieren von Dispatcher für die Manifest-Version v2 {#configuring-dispatcher}
 
 >[!IMPORTANT]
->Die folgenden Dispatcher-Konfigurationen gelten nur für die Manifest-Version v2. Siehe [Dispatcher-Konfigurationen für Manifestversion v3](#configuring-dispatcherv3) für die Manifestversion v3.
+>Die folgenden Dispatcher-Konfigurationen gelten nur für die Manifest-Version v2. Siehe [Dispatcher-Konfigurationen für Manifestversion v3](#configuring-dispatcherv3) für Manifest Version 3.
 
-AEM Screens-Player oder -Geräte verwenden authentifizierte Sitzungen, um auf die Ressourcen in den Veröffentlichungsinstanzen zuzugreifen. Wenn Sie also über mehrere Veröffentlichungsinstanzen verfügen, sollten die Anforderungen immer an dieselbe Veröffentlichungsinstanz gesendet werden, damit die authentifizierte Sitzung für alle Anforderungen gültig ist, die von den AEM Screens-Playern/Geräten stammen.
+AEM Screens-Player oder -Geräte verwenden eine authentifizierte Sitzung, um auf die Ressourcen in den Veröffentlichungsinstanzen zuzugreifen. Wenn Sie über mehrere Veröffentlichungsinstanzen verfügen, sollten die Anforderungen immer an dieselbe Veröffentlichungsinstanz gesendet werden, damit die authentifizierte Sitzung für alle Anforderungen von AEM Screens-Playern oder -Geräten gültig ist.
 
 Gehen Sie wie folgt vor, um den Dispatcher für ein AEM Screens-Projekt zu konfigurieren.
 
@@ -67,7 +67,7 @@ Fügen Sie dem Abschnitt `/clientheaders` Folgendes hinzu:
 
 ### Schritt 2: Konfigurieren von Screens-Filtern {#step-configure-screens-filters}
 
-Fügen Sie ***/filter*** Folgendes hinzu, um Screens-Filter zu konfigurieren.
+Um Screens-Filter zu konfigurieren, fügen Sie Folgendes zu *** hinzu`/filter`***.
 
 ```
 ## AEM Screens Filters
@@ -129,11 +129,11 @@ Gehen Sie wie folgt vor, um den Cache für die Assets zu aktivieren, damit die A
 
 ## Konfigurieren von Dispatcher für die Manifest-Version v3 {#configuring-dispatcherv3}
 
-Stellen Sie sicher, dass diese Filter und Cache-Regeln in Dispatchern vor den Veröffentlichungsinstanzen für die Funktion von Screens zugelassen werden.
+Stellen Sie sicher, dass diese Filter und Cache-Regeln in Dispatchern vor den Veröffentlichungsinstanzen für die Funktion von Screens zulässig sind.
 
 ### Voraussetzungen für Manifest-Version v3 {#prerequisites3}
 
-Befolgen Sie diese beiden Voraussetzungen, bevor Sie den Dispatcher (Manifestversion v3) für AEM Screens konfigurieren:
+Befolgen Sie diese beiden Voraussetzungen, bevor Sie einen Dispatcher (Manifestversion v3) für AEM Screens konfigurieren:
 
 * Stellen Sie sicher, dass Sie `v3 manifests` verwenden. Navigieren Sie zu `https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` und stellen Sie sicher, dass `Enable ContentSync Cache` deaktiviert ist.
 
@@ -143,7 +143,7 @@ Befolgen Sie diese beiden Voraussetzungen, bevor Sie den Dispatcher (Manifestver
 
   ![Bild](/help/user-guide/assets/dispatcher/dispatcher-3.png)
 
-### Filter  {#filter-v3}
+### Filter {#filter-v3}
 
 ```
 ## AEM Screens Filters
@@ -173,10 +173,10 @@ Befolgen Sie diese beiden Voraussetzungen, bevor Sie den Dispatcher (Manifestver
 
 * Fügen Sie `/allowAuthorized "1"` zum Abschnitt `/cache` in `publish_farm.any` hinzu.
 
-* Alle AEM Screens-Player verwenden eine authentifizierte Sitzung, um eine Verbindung zu AEM (Autor/Veröffentlichung) herzustellen. Der vordefinierte Dispatcher speichert diese URLs nicht zwischen, daher sollten Sie diese aktivieren.
+* Alle AEM Screens-Player verwenden eine authentifizierte Sitzung, um eine Verbindung zu AEM (Autor/Veröffentlichung) herzustellen. Standardmäßig speichert ein Dispatcher diese URLs nicht zwischen, daher sollten Sie sie aktivieren.
 
 * Hinzufügen `statfileslevel "10"` nach `/cache` Abschnitt in `publish_farm.any`
-Dies unterstützt das Caching von bis zu zehn Ebenen aus dem Cache-Basisverzeichnis und das entsprechende Invalidieren bei der Veröffentlichung von Inhalten, anstatt alles zu invalidieren. Sie können diese Ebene ändern, je nachdem, wie tief Ihre Inhaltsstruktur ist.
+Diese Regel unterstützt das Zwischenspeichern von bis zu zehn Ebenen aus dem Cache-Basisverzeichnis und das entsprechende Invalidieren bei der Veröffentlichung von Inhalten, anstatt alles zu invalidieren. Sie können diese Ebene ändern, je nachdem, wie tief Ihre Inhaltsstruktur ist.
 
 * Hinzufügen von Folgendem zu `/invalidate section in publish_farm.any`
 

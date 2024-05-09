@@ -5,10 +5,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 44%
+source-wordcount: '756'
+ht-degree: 30%
 
 ---
 
@@ -22,11 +22,11 @@ Auf der folgenden Seite wird die Verwendung der Befehlssynchronisierung beschrie
 
 ## Überblick {#overview}
 
-Digital Signage-Lösungen müssen Videowände und die synchronisierte Wiedergabe unterstützen, um Szenarien wie Neujahrszählungen oder große Videos zu unterstützen, die auf mehreren Bildschirmen wiedergegeben werden. Hier kommt die Befehlssynchronisierung zum Tragen.
+Digital Signage-Lösungen müssen Videowände und die synchronisierte Wiedergabe unterstützen. Dieses Szenario trifft zu, wenn Sie Szenarien wie Neujahrszählungen oder große Videos unterstützen möchten, die auf mehreren Bildschirmen abgespielt werden. In solchen Szenarien kommt die Befehlssynchronisierung zum Tragen.
 
-Bei der Befehlssynchronisation agiert ein Player als *Primärgerät* und sendet den Befehl. Alle anderen Player agieren als *Clients* und beginnen mit der Wiedergabe, wenn sie den Befehl erhalten.
+Zur Verwendung der Befehlssynchronisierung dient ein Player als *primary* und sendet den Befehl und alle anderen Player agieren wie *Clients* und spielen, wenn sie den Befehl erhalten.
 
-Das *Primärgerät* sendet einen Befehl an alle registrierten Clients, wenn es im Begriff ist, die Wiedergabe eines Elements zu starten. Die Payload kann hier der Index bzw. der äußere HTML-Code des abzuspielenden Elements sein.
+Das *Primärgerät* sendet einen Befehl an alle registrierten Clients, wenn es im Begriff ist, die Wiedergabe eines Elements zu starten. Die Nutzlast dieser Aktion kann der Index des abzuspielenden Elements oder der äußere HTML-Code des abzuspielenden Elements oder beides sein.
 
 ## Implementieren der Befehlssynchronisierung {#using-command-sync}
 
@@ -62,7 +62,7 @@ Bevor Sie die Funktion zur Befehlssynchronisierung verwenden, stellen Sie sicher
    >
    >Informationen zum Zuweisen eines Kanals zu einer Anzeige finden Sie unter [Erstellen und Verwalten von Anzeigen](/help/user-guide/managing-displays.md).
 
-1. Navigieren Sie zu **Geräte** Ordner.
+1. Navigieren Sie zum **Geräte** Ordner.
 1. Klicken Sie in der Aktionsleiste auf **Geräte-Manager**.
 
    ![image1](assets/command-sync5.png)
@@ -90,11 +90,11 @@ Bevor Sie die Funktion zur Befehlssynchronisierung verwenden, stellen Sie sicher
 
 ### Einrichten eines Primärgeräts {#setting-up-primary}
 
-1. Navigieren Sie über zum Anzeigen-Dashboard. **CommandSyncDemo** > **Standorte**  > **Lobby** > **LobbyDisplay** und klicken **Dashboard** in der Aktionsleiste aus.
+1. Navigieren Sie über zum Anzeigen-Dashboard. **CommandSyncDemo** > **Standorte**  > **Lobby** > **LobbyDisplay**. Klicken Sie anschließend auf **Dashboard** in der Aktionsleiste aus.
 Beachten Sie die beiden Geräte (Chrome und Windows Player) in **Geräte** -Bedienfeld, wie im Folgenden gezeigt:
    ![image1](assets/command-sync/command-sync10-1.png)
 
-1. Aus dem **Geräte** auf das Gerät, das Sie als primär festlegen möchten. Das folgende Beispiel veranschaulicht die Einrichtung des Chrome-Geräts als Primärgerät. Klicks **Als primäres Gerät festlegen**.
+1. Aus dem **Geräte** auf das Gerät, das Sie als primär festlegen möchten. Das folgende Beispiel zeigt, wie das Chrome-Gerät als primäres Gerät eingerichtet wird. Klicks **Als primäres Gerät festlegen**.
 
    ![image1](assets/command-sync/command-sync11-1.png)
 
@@ -104,7 +104,7 @@ Beachten Sie die beiden Geräte (Chrome und Windows Player) in **Geräte** -Bedi
 
 >[!NOTE]
 >
->Es können mehrere Geräte als Primärgeräte eingerichtet werden.
+>Sie können mehrere Geräte als primäre Geräte einrichten.
 
 ### Synchronisieren mit dem Primärgerät {#sync-up-primary}
 

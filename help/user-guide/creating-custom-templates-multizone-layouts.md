@@ -6,10 +6,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
-source-wordcount: '849'
-ht-degree: 28%
+source-wordcount: '862'
+ht-degree: 24%
 
 ---
 
@@ -19,7 +19,7 @@ Auf dieser Seite wird erläutert, wie Sie eine benutzerdefinierte Vorlage für e
 
 ## Wichtige Überlegungen {#considerations}
 
-Es gibt zwei wichtige Aspekte, die Sie beachten müssen, bevor Sie eine benutzerdefinierte Vorlage für ein Mehrzonen-Layout erstellen:
+Es gibt zwei wichtige Aspekte, die Sie beachten müssen, bevor Sie eine benutzerdefinierte Vorlage in einem Mehrzonen-Layout erstellen:
 
 1. **Feste Pixel-Größe oder Prozentwerte**:
 
@@ -30,11 +30,11 @@ Es gibt zwei wichtige Aspekte, die Sie beachten müssen, bevor Sie eine benutzer
 
 1. **Namenskonvention**:
 
-   Bevor Sie wissen, wie Sie benutzerdefinierte Vorlagen für mehrere Bereiche erstellen, um sie in einem AEM Screens-Projekt zu verwenden, sollten Sie die Begriffe kennen, die Sie erstellen möchten.
+   Es ist hilfreich zu verstehen, wie Sie benutzerdefinierte Vorlagen für mehrere Bereiche erstellen, die in einem AEM Screens-Projekt verwendet werden. Zunächst müssen Sie jedoch die Begriffe verstehen, die Sie erstellen möchten.
 
    | **Layoutname** | **Beschreibung** |
    |---|---|
-   | `Left20-LandscapeHD3Zone` | Ein dreistufiges Querformatlayout, mit dem Sie drei Bereiche erstellen können:<br>* Zone 1: 20 % des horizontalen und vertikalen Bildschirms von links<br>* Zone 2: 80 % des horizontalen Bildschirms und 20 % des vertikalen Bildschirms sind gerechtfertigt<br>* Zone 3: 100 % des horizontalen und 80 % des vertikalen Bildschirms mit Seitenverhältnis 16:9 |
+   | `Left20-LandscapeHD3Zone` | Ein dreistufiges Querformatlayout, mit dem Sie drei Bereiche erstellen können:<br>* Zone 1: 20 % des horizontalen und vertikalen Bildschirms von links<br>* Zone 2: 80 % des horizontalen Bildschirms und 20 % des vertikalen Bildschirms rechts ausgerichtet<br>* Zone 3: 100 % des horizontalen und 80 % des vertikalen Bildschirms. Das Seitenverhältnis beträgt 16:9. |
    | `Upper20-PortraitHD2Zone` | Eine zweizonen-Hochformatvorlage, die 20 % des Bildschirms von oben abdeckt und ein Seitenverhältnis von 16:9 aufweist. |
    | `Right20-LandscapeSD3Zone` | Eine dreistufige Vorlage, die 20 % des Bildschirms von rechts abdeckt und ein Seitenverhältnis von 4:3 aufweist. |
 
@@ -90,11 +90,11 @@ Gehen Sie wie folgt vor, um eine `Left20-LandscapeHD3Zone` Layout für ein AEM S
 
    ![Bild](/help/user-guide/assets/custom-multizone/custom-template6.png)
 
-1. Gemäß Schritt 4, in den Sie die Vorlage &quot;lbar-left&quot;kopiert haben, können Sie unter drei responsive Raster anzeigen `my-custom-layout/jcr:content`. Fügen Sie benutzerdefinierte CSS-Klassen zu jedem responsiven Raster im *`cq:cssClass`* -Eigenschaft, beispielsweise *my-custom-layout—top-left* für *r1c1* Knoten.
+1. Gemäß Schritt 4, in den Sie die Vorlage &quot;lbar-left&quot;kopiert haben, können Sie unter drei responsive Raster anzeigen `my-custom-layout/jcr:content`. Fügen Sie benutzerdefinierte CSS-Klassen zu jedem responsiven Raster im *`cq:cssClass`* -Eigenschaft, beispielsweise *my-custom-layout-top-left* für *r1c1* Knoten.
 
-   ![image](/help/user-guide/assets/custom-multizone/custom-template7.png)
+   ![Bild](/help/user-guide/assets/custom-multizone/custom-template7.png)
 
-   Fügen Sie auf die gleiche Weise *my-custom-layout--top-right* für den Knoten *r1c2* und *my-custom-layout--bottom* für den Knoten *r2c1* hinzu.
+   Fügen Sie *my-custom-layout-top-right* für *r1c2* und *my-custom-layout-bottom* für *r2c1* Knoten.
 
    >[!NOTE]
    >Diese benutzerdefinierten Klassen werden im CSS verwendet, um die Breite/Höhe für diese responsiven Raster festzulegen.
@@ -152,7 +152,7 @@ Gehen Sie wie folgt vor, um obige benutzerdefinierte Vorlage in Ihrem AEM Screen
 
    ![image](/help/user-guide/assets/custom-multizone/custom-template10.png)
 
-## Einfügen eines Bildes als Hintergrundebene  {#inserting-image}
+## Einfügen eines Bildes als Hintergrundebene {#inserting-image}
 
 Sie können ein Bild als Hintergrundebene in das Layout einfügen:
 
