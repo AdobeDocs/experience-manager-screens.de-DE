@@ -5,10 +5,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 6720e20f5254e869bde814bd167730e426d0f8fe
 workflow-type: tm+mt
-source-wordcount: '1088'
-ht-degree: 48%
+source-wordcount: '1092'
+ht-degree: 35%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 48%
 >
 >**Wichtige Datenschutzinformationen**
 >
->Befolgen Sie bei der Verwendung der Spracherkennungsfunktion alle geltenden rechtlichen und ethischen Richtlinien für Ihre Region (einschließlich, aber nicht beschränkt auf die Bereitstellung eines sichtbaren Hinweises für Endbenutzer, dass der Player die Spracherkennung verwendet). Adobe erhält, speichert oder verarbeitet keine der sprachbezogenen Informationen. Die AEM Screens-Player verwenden die standardmäßige Web Speech API, die in die Browser-Engine integriert ist. Hinter den Kulissen sendet diese API eine Wellenform Ihrer Sprache an die Server von Google zur Konvertierung von Sprache in Text. Dieser Text wird vom Player mit den konfigurierten Keywords abgeglichen.
+>Befolgen Sie bei der Verwendung der Spracherkennungsfunktion alle geltenden rechtlichen und ethischen Richtlinien für Ihre Region. Zu diesen Richtlinien gehört, aber nicht ausschließlich, die Endbenutzern einen sichtbaren Hinweis darauf geben, dass der Player die Spracherkennung verwendet.) Adobe erhält, speichert oder verarbeitet keine der sprachbezogenen Informationen. Die AEM Screens-Player verwenden die standardmäßige Web Speech API, die in der Browser-Engine integriert ist. Hinter den Kulissen sendet diese API eine Wellenform Ihrer Sprache an die Server von Google zur Konvertierung von Sprache in Text. Der Player gleicht den Text mit den konfigurierten Keywords ab.
 >
 >Siehe [Google-Datenschutz-Whitepaper zur Web Speech API](https://www.google.com/chrome/privacy/whitepaper.html#speech) für weitere Details.
 
@@ -41,7 +41,7 @@ Im folgenden Abschnitt wird beschrieben, wie Sie die Spracherkennungsfunktion in
 
 ## Anzeigen von Inhalten im Vollbild- oder Splitscreen-Kanalschalter {#sequence-channel}
 
-Bevor Sie die Funktion zur Spracherkennung verwenden, stellen Sie sicher, dass Sie ein Projekt und einen Kanal mit Inhalten für Ihr Projekt eingerichtet haben.
+Bevor Sie eine Spracherkennungsfunktion verwenden, stellen Sie sicher, dass Sie ein Projekt und einen Kanal mit Inhalten für Ihr Projekt eingerichtet haben.
 
 1. Im folgenden Beispiel sehen Sie ein Demoprojekt mit dem Namen **VoiceDemo** und drei Kanälen **Main**, **ColdDrinks** und **HotDrinks**.
 
@@ -57,7 +57,7 @@ Bevor Sie die Funktion zur Spracherkennung verwenden, stellen Sie sicher, dass S
 
    ![Bild](assets/voice-recognition/vr-emb-1.png)
 
-1. Navigieren Sie zu jedem Kanal und fügen Sie Inhalt hinzu. Navigieren Sie beispielsweise zu **VoiceDemo** > **Kanäle** > **Main** und klicken Sie auf den Kanal. Klicks **Bearbeiten** Fügen Sie in der Aktionsleiste entsprechend Ihren Anforderungen Inhalte (Bilder/Videos) hinzu. Fügen Sie auf ähnliche Weise den Kanälen **ColdDrinks** und **HotDrinks** Inhalt hinzu.
+1. Navigieren Sie zu jedem Kanal und fügen Sie Inhalt hinzu. Navigieren Sie beispielsweise zu **VoiceDemo** > **Kanäle** > **Main** und klicken Sie auf den Kanal. Klicks **Bearbeiten** Fügen Sie in der Aktionsleiste entsprechend Ihren Anforderungen Inhalte (Bilder/Videos) hinzu. Fügen Sie auf ähnliche Weise Inhalte zu beiden **ColdDrinks** und **HotDrinks** -Kanal.
 
    Die Kanäle enthalten nun Assets (Bilder), wie in den folgenden Abbildungen dargestellt.
 
@@ -73,8 +73,8 @@ Bevor Sie die Funktion zur Spracherkennung verwenden, stellen Sie sicher, dass S
 
    ![image](assets/voice-recognition/vr-2.png)
 
-   Wenn Sie dem Projekt den Splitscreen-Kanal hinzugefügt haben, navigieren Sie zu **SplitScreen**, ziehen Sie zwei eingebettete Sequenzen per Drag-and-Drop und fügen Sie Pfade zu den Kanälen **ColdDrinks** und **HotDrinks** hinzu, wie in der Abbildung unten dargestellt.
-   ![image](assets/voice-recognition/vr-emb-6.png)
+   Wenn Sie den Kanal &quot;Splitscreen&quot;zu Ihrem Projekt hinzugefügt haben, navigieren Sie zu **SplitScreen** und ziehen Sie zwei eingebettete Sequenzen per Drag &amp; Drop. Fügen Sie Pfade zu beiden **ColdDrinks** und **HotDrinks** -Kanal, wie in der folgenden Abbildung dargestellt.
+   ![Bild](assets/voice-recognition/vr-emb-6.png)
 
 
 ### Festlegen von Tags für Kanäle {#setting-tags}
@@ -97,11 +97,11 @@ Gehen Sie wie folgt vor, um Ihrem Kanal Tags hinzuzufügen:
 
    Oder
 
-   Sie können auch vorab Tags aus Ihrer AEM-Instanz für Ihr Projekt erstellen und auf diese klicken. Nachdem Sie die unter [Erstellen von Tags](#creating-tags)können Sie vom Speicherort aus auf das Tag klicken und es Ihrem Kanal hinzufügen, wie in der folgenden Abbildung dargestellt:
+   Sie können auch vorab Tags aus Ihrer AEM-Instanz für Ihr Projekt erstellen und diese auswählen. Nachdem Sie die unter [Erstellen von Tags](#creating-tags)können Sie vom Speicherort aus auf das Tag klicken und es Ihrem Kanal hinzufügen, wie in der folgenden Abbildung dargestellt:
 
-   ![image](assets/voice-recognition/vr-tag1.png)
+   ![Bild](assets/voice-recognition/vr-tag1.png)
 
-1. Fügen Sie dem Kanal **HotDrinks** in ähnlicher Weise ein Tag mit dem Namen **heiß** hinzu.
+1. Fügen Sie auf ähnliche Weise ein Tag mit dem Titel **heiß** der **HotDrinks** -Kanal.
 
 1. Wenn Sie einen Splitscreen-Kanal verwenden, fügen Sie beide Tags (**hot** und **cold**) wie in der Abbildung unten dargestellt zu den Eigenschaften des Kanals **SplitScreen** hinzu.
 
@@ -116,7 +116,7 @@ Gehen Sie wie folgt vor, um Tags zu erstellen:
 
 1. Navigieren Sie zu Ihrer AEM-Instanz.
 
-1. Klicken Sie auf das Symbol Tools > **Tagging**.
+1. Klicken Sie auf das Werkzeugsymbol > **Tagging**.
    ![Bild](assets/voice-recognition/vr-7.png)
 
 1. Klicks **Erstellen** > **Namespace erstellen**.
@@ -161,7 +161,7 @@ Jetzt können Sie diese Tags in Ihrem AEM Screens-Projekt verwenden.
 
 1. Nachdem Sie einer Anzeige Kanäle zugewiesen haben, navigieren Sie zur **LobbyDisplay** und klicken Sie auf die Anzeige. Klicken Sie in der Aktionsleiste auf **Eigenschaften**.
 
-1. Navigieren Sie zur Registerkarte **Anzeige** und aktivieren Sie die Option **Sprachaktiviert** unter **Inhalt**.
+1. Navigieren Sie zum **Anzeige** und aktivieren Sie die **Sprachaktiviert** Option unter **Inhalt**.
 
    ![image](assets/voice-recognition/vr-disp.png)
 
@@ -177,10 +177,10 @@ Wenn die vorherigen Schritte abgeschlossen sind, können Sie Ihr Chrome-Gerät r
 
 **Gewünschte Ausgabe für den Sequenz-Kanal**
 
-Der Kanal **Main** gibt seinen Inhalt wieder. Wenn Sie jedoch Wörter mit dem Keyword **heiß** verwenden, wie beispielsweise *ich möchte ein heißes Getränk*, beginnt der Kanal, den Inhalt des Kanals **HotDrinks** wiederzugeben.
+Die **Main** -Kanal gibt seinen Inhalt wieder. Wenn Sie jedoch Wörter mit dem Keyword **heiß**, beispielsweise *Ich hätte gerne ein heißes Getränk*, beginnt der Kanal mit der Wiedergabe des Inhalts der **HotDrinks** -Kanal.
 
-Gleichermaßen, wenn Sie Wörter mit einem Keyword verwenden **kalt** wie *Ich hätte gerne etwas Kaltes*, beginnt der Kanal mit der Wiedergabe des Inhalts der **ColdDrinks** -Kanal.
+Gleichermaßen, wenn Sie ein Wort mit einem Suchbegriff verwenden **kalt** wie *Ich hätte gerne etwas Kaltes*, beginnt der Kanal mit der Wiedergabe des Inhalts der **ColdDrinks** -Kanal.
 
 **Gewünschte Ausgabe für den Splitscreen-Kanal**
 
-Die **Main** -Kanal gibt seinen Inhalt wieder. Wenn Sie jedoch Wörter mit Keywords verwenden **heiß** und **kalt** zusammen, z. B. *Ich hätte gerne die Speisekarte für warme und kalte Getränke.*, gibt der Kanal den Inhalt der **SplitScreen** -Kanal. Wenn Sie *Zurück zum Hauptmenü*, kehrt er zum **Main** -Kanal.
+Die **Main** -Kanal gibt seinen Inhalt wieder. Wenn Sie jedoch Wörter mit dem Keyword **heiß** und **kalt** zusammen, z. B. *Ich hätte gerne die Speisekarte für warme und kalte Getränke.*, gibt der Kanal den Inhalt der **SplitScreen** -Kanal. Wenn Sie *zurück zum Hauptmenü*, kehrt er zum **Main** -Kanal.

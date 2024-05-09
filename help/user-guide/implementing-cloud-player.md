@@ -8,14 +8,14 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6720e20f5254e869bde814bd167730e426d0f8fe
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 43%
+source-wordcount: '854'
+ht-degree: 33%
 
 ---
 
-# Implementieren des Cloud-Players  {#implementing-cloud-player}
+# Implementieren des Cloud-Players {#implementing-cloud-player}
 
 AEM Screens bietet seit jeher verschiedene native Player-Anwendungen für verschiedene Plattformen wie ChromeOS, Windows, Android™ und `Tizen`. Aufgrund der sich wandelnden Bedürfnisse von Anwendern führte Adobe jedoch eine innovative Lösung ein - den AEM Screens Cloud Player.
 
@@ -34,7 +34,7 @@ In diesem Abschnitt wird die Implementierung des Cloud-Players beschrieben.
 Die Installation des Cloud-Players kann auf verschiedenen Plattformen variieren. Im Allgemeinen kann jede Plattform mit einem modernen Browser die Cloud Player-Anwendung ausführen, indem Sie die folgenden Schritte ausführen:
 
 1. Öffnen Sie den Browser und geben Sie die [Cloud-Player-URL](https://player.adobescreens.com/content/dam/universal-player/firmware.html) in die Adressleiste ein.
-1. Der Browser prüft, ob der Cloud-Player installiert ist, und zeigt dann in der Adressleiste ein Installationssymbol an.
+1. Der Browser prüft, ob der Cloud Player installiert ist, und zeigt dann in der Adressleiste ein Installationssymbol an.
 
    ![Bild](/help/user-guide/assets/cloud-player-install.png)
 
@@ -44,12 +44,12 @@ Die Installation des Cloud-Players kann auf verschiedenen Plattformen variieren.
 >
 >### Cloud-Player-Installationsoption {#cloud-player-install-option}
 >
-1. Die Installationsoption für eine PWA wird auch als &quot;Zum Startbildschirm hinzufügen&quot;oder &quot;A2HS-Funktion&quot;bezeichnet. Die Unterstützung für die Installation von PWAs über das Internet variiert je nach Browser und Plattform.
-1. Jeder Browser hat unterschiedliche Kriterien, um zu überprüfen, ob die PWA installiert ist oder nicht. Im Allgemeinen überprüft der Browser diese (weitere Details finden Sie hier):
+1. Die Installationsoption für eine PWA wird auch als &quot;Zum Startbildschirm hinzufügen&quot;oder &quot;A2HS-Funktion&quot;bezeichnet. Die Unterstützung für die Installation von PWA über das Internet variiert je nach Browser und Plattform.
+1. Jeder Browser hat unterschiedliche Kriterien, um zu überprüfen, ob die PWA installiert ist oder nicht. Im Allgemeinen kann der Browser Folgendes überprüfen (weitere Details finden Sie hier):
 >
 * Wenn die Anwendung über eine JSON-Manifestdatei mit minimalen erforderlichen Schlüsseln für die Installation der App auf der Plattform verfügt, d. h. Name, Symbole, start_url, Anzeige
 * Wenn die Anwendung über eine Service Worker-Datei mit einem Ereignis-Listener zum Abrufen verfügt
-* App muss über HTTPS bereitgestellt werden
+* Die App muss über HTTPS bereitgestellt werden
 >
 1. Die Installationsoption kann an verschiedenen Stellen in verschiedenen Browsern und Gerätetypen angezeigt werden. In einigen Browsern wird das Installationssymbol möglicherweise in der Menüleiste &quot;Optionen&quot;ausgeblendet.
 
@@ -62,18 +62,21 @@ Massenbereitstellung des Cloud-Players auf mehreren Geräten:
 
    1. Hosten Sie config.json auf einem Server so, dass er zugänglich ist, z. B.: `https://<config_server_host>/config.json`
    1. Um den Cloud Player zu installieren und die gehosteten Konfigurationen anzuwenden, verwenden Sie die Cloud-Player-URL wie: `https://player.adobescreens.com?playerConfigAddress=https://<config_server_host>`
-   1. Die Cloud Player-Anwendung sucht nach config.json im Stammverzeichnis von &lt;config_server_host>, analysiert die config.json, um die benutzerdefinierten Konfigurationen zu erhalten, und wendet diese Konfigurationen an.
+   1. Die Cloud Player-Anwendung sucht im Stammverzeichnis von nach config.json &lt;config_server_host>, analysiert dann die Datei &quot;config.json&quot;, um die benutzerdefinierten Konfigurationen abzurufen und diese Konfigurationen anzuwenden.
    1. Diese Konfigurationen werden bei jeder Neuladung des Players angewendet.
 
 ## Massenbereitstellung unter Chrome OS {#bulk-provisioning-chrome}
 
-Weitere Informationen zur Massenbereitstellung unter Chrome OS finden Sie unter [Installieren des Cloud-Players unter Chrome OS](https://www.adobe.com/go/aem_screens_cloud_player_en).
+Erfahren Sie mehr über die Massenbereitstellung unter Chrome OS. Siehe [Installieren des Cloud-Players unter Chrome OS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/chromeos-install-cloud-player). &lt;!-- `https://www.adobe.com/go/aem_screens_cloud_player_en` >
 
 ## Erforderliche Konfiguration für AEM-Instanzen {#bulk-provisioning-config-aem}
 
-Klicken Sie je nach Typ der AEM-Instanz auf eine der folgenden Handbücher, um CORS b/w AEM und Cloud-Player zu aktivieren:
-* [AEM On-Premises/AMS](https://www.adobe.com/go/aem_screens_cors_ams_en)
-* [AEM Cloud Service](https://www.adobe.com/go/aem_screens_cors_aemaacs_en)
+Klicken Sie je nach Typ der AEM-Instanz auf eine der folgenden Handbücher, um CORS b/w AEM und Cloud Player zu aktivieren:
+
+* [AEM On-Premises/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams) <!-- `https://www.adobe.com/go/aem_screens_cors_ams_en` -->
+
+* [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs) <!-- `https://www.adobe.com/go/aem_screens_cors_aemaacs_en` -->
+
 
 >[!NOTE]
 >
@@ -91,7 +94,7 @@ Aufgrund des Einstellungsprozesses von Google wird der Screens-Player für Chrom
 
 In verschiedenen Nutzungsszenarien erfordern Kanäle möglicherweise das Abrufen von Inhalten aus einer externen Quelle (z. B. Wetter-Widgets oder Commerce-integrierte Einzelseiten-Apps), die von Natur aus keine Offline-Unterstützung bieten können. Um Offline-Funktionen für diese spezifischen Anwendungsfälle zu aktivieren, bietet der Cloud-Player Unterstützung für benutzerdefinierte Kopfzeilen.
 
-Der Cloud-Player nutzt eine Network First-Cache-Strategie. Das bedeutet, dass versucht wird, Inhalte aus dem Netzwerk abzurufen (und dann den Cache mit den neuesten Inhalten zu aktualisieren), wobei auf den zwischengespeicherten Inhalt zurückgefallen wird, sofern verfügbar. Um die Offline-Unterstützung für ein solches Abrufen von Inhalten zu implementieren, muss die benutzerdefinierte Kopfzeile in die Anfrage aufgenommen werden. Anschließend wird die Anfrage mit dem benutzerdefinierten Header auf dem Player zwischengespeichert, was den Offline-Zugriff auf den Inhalt erleichtert und gleichzeitig die Strategie für den ersten Cache im Netzwerk verwaltet.
+Cloud Player verwendet eine Strategie für den ersten Netzwerkcache. Das bedeutet, dass versucht wird, Inhalte aus dem Netzwerk abzurufen (und dann den Cache mit der neuesten Version zu aktualisieren) und auf zwischengespeicherte Inhalte zurückzukehren, sofern verfügbar. Um die Offline-Unterstützung für ein solches Abrufen von Inhalten zu implementieren, muss die benutzerdefinierte Kopfzeile in die Anfrage aufgenommen werden. Anschließend wird die Anfrage mit dem benutzerdefinierten Header auf dem Player zwischengespeichert, was den Offline-Zugriff auf den Inhalt erleichtert und gleichzeitig die Strategie für den ersten Cache im Netzwerk verwaltet.
 
 ```
 // Sample fetch request with the 'X-Cache-Strategy' header

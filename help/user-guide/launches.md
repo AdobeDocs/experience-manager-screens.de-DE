@@ -1,6 +1,6 @@
 ---
 title: Inhaltsaktualisierung mit Screens Launch
-description: Erfahren Sie, wie Sie zukünftige Versionen der Kanäle erstellen, die als Launch bezeichnet werden, und ein Live-Datum für den Launch festlegen, damit Inhalte auf Geräten oder Playern live geschaltet werden.
+description: Erfahren Sie, wie Sie eine zukünftige Version der Kanäle erstellen, die als Launch bezeichnet wird, und ein Live-Datum für den Launch festlegen, damit Inhalte auf Geräten oder Playern live geschaltet werden.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
@@ -10,16 +10,16 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
 workflow-type: tm+mt
-source-wordcount: '1556'
-ht-degree: 31%
+source-wordcount: '1567'
+ht-degree: 24%
 
 ---
 
 # Inhaltsaktualisierung mit Screens Launch {#launches}
 
-Autoren von Inhalten können zukünftige Versionen der Kanäle erstellen, die als **Screens Launch** und legen Sie das Live-Datum für diesen Launch fest. Dadurch kann der Inhalt am angegebenen Live-Datum auf Geräten oder Playern live geschaltet werden.
+Inhaltsautoren können eine zukünftige Version der Kanäle erstellen und das Live-Datum für diesen Launch weiter festlegen. Dadurch kann der Inhalt am angegebenen Live-Datum auf Geräten oder Playern live geschaltet werden.
 
 Mithilfe von ***Screens Launch*** können Autoren die einzelnen Kanäle im Launch in der Vorschau anzeigen und sollten eine Anfrage zur Überprüfung starten können. Die Gruppe Genehmiger erhält eine Benachrichtigung und kann die Anfrage genehmigen oder ablehnen. Wenn das Live-Datum erreicht ist, wird der Inhalt auf den Geräten abgespielt.
 
@@ -37,7 +37,7 @@ Das Ausführen eines Erlebnisses am festgelegten Live-Datum auf dem Player umfas
 
 * Veröffentlichen der Ressourcen zur Veröffentlichung von Instanzen (dauert in der Regel einige Minuten, abhängig von der Größe der Kanäle oder Assets, die veröffentlicht werden müssen).
 
-* Zeit, die der Abschluss der Aktualisierung des Offline-Inhalts benötigt (dauert normalerweise einige Minuten).
+* Die Zeitdauer, die zum Abschluss der Aktualisierung des Offline-Inhalts benötigt wird (in der Regel einige Minuten).
 
 * Zeit, die die Player zum Herunterladen des Inhalts aus der Veröffentlichungsinstanz benötigen (in der Regel dauert es je nach Bandbreite und Größe der herunterzuladenden Assets einige Minuten).
 
@@ -47,22 +47,22 @@ Das Ausführen eines Erlebnisses am festgelegten Live-Datum auf dem Player umfas
 
 Damit der Player mit der Wiedergabe des Inhalts am festgelegten Live-Datum beginnen kann, starten Sie die vorherigen Aktivitäten vor dem Live-Datum.
 
-Wenn das Live-Datum *24. November, 9:00 Uhr* und die Übergangsphase *24 Stunden*, beginnt die obige Aktionssequenz am (Live-Datum - Übergangsphase) 23. November, 9:00 Uhr Serverzeit. Dadurch erhalten Sie 24 Stunden, um alle oben genannten Aktionen durchzuführen, damit der Inhalt die Player erreicht. Player wissen, dass es sich um einen Launch-Inhalt handelt. Daher wird der Inhalt nicht sofort abgespielt, aber Player können diesen Inhalt als zukünftige Version speichern und die Wiedergabe exakt am festgelegten Live-Datum in der Zeitzone des Players starten lassen.
+Wenn das Live-Datum *24. November, 9:00 Uhr* und *24 Stunden* die Übergangsphase ist, beginnt die obige Aktionssequenz am (Live-Datum - Übergangsphase) 23. November, um 9:00 Uhr Serverzeit. Mit dieser Einstellung erhalten Sie 24 Stunden, um alle oben genannten Aktionen durchzuführen, damit der Inhalt die Player erreicht. Player wissen, dass dieser Zeitraum ein Launch-Inhalt ist. Daher wird der Inhalt nicht sofort abgespielt, aber Player können diesen Inhalt als zukünftige Version speichern und die Wiedergabe exakt am festgelegten Live-Datum in der Zeitzone des Players starten lassen.
 
-Beispielsweise befindet sich der Server in PST und die Geräte in EST. Die maximale Zeitdifferenz beträgt in diesem Fall drei Stunden und geht davon aus, dass die Promotion 1 Minute dauert und die Veröffentlichung von der Autoren- zur Veröffentlichungsinstanz 10 Minuten dauert und der Player die Ressourcen in der Regel in 10-15 Minuten herunterladen kann. Dann die Übergangsphase = Zeitdifferenz (drei Stunden):
+Beispielsweise befindet sich der Server in PST und die Geräte in EST. Die maximale Zeitdifferenz beträgt drei Stunden. Es wird davon ausgegangen, dass die Promotion 1 Minute dauert und die Veröffentlichung von der Autoren- zur Veröffentlichungsinstanz 10 Minuten dauert und der Player die Ressourcen in der Regel in 10-15 Minuten herunterladen kann. Dann die Übergangsphase = Zeitdifferenz (drei Stunden):
 
 * Plus Zeit für die Weiterleitung des Launches (1 Minute)
 * Plus Zeit zur Veröffentlichung des Launches (10 Minuten)
 * Plus Zeit für den Download im Player (10-15 Minuten)
 * Plus-Puffer (30 Minuten)
 
-entspricht 3 Stunden 56 Minuten (14160 Sekunden).
+Daher 3 Stunden 56 Minuten (14160 Sekunden).
 
-Wenn Sie also einen Launch live planen, beginnt die Promotion um diesen Versatz früh. In der obigen Gleichung nehmen die meisten Elemente nicht viel Zeit in Anspruch. Sie können einen angemessenen Schätzwert für diesen Versatz verwenden, wenn Sie den maximalen Zeitunterschied zwischen dem Server und einem Player kennen.
+Wenn Sie also einen Launch live planen, beginnt die Promotion früh, indem Sie diesen Versatz berücksichtigen. In der obigen Gleichung nehmen die meisten Elemente nicht viel Zeit in Anspruch. Sie können einen angemessenen Schätzwert für diesen Versatz verwenden, wenn Sie den maximalen Zeitunterschied zwischen dem Server und einem Player kennen.
 
 >[!NOTE]
 >
->Standardmäßig ist die Übergangsphase für Screens Launch auf 24 Stunden festgelegt. Das bedeutet, dass Sie beim Festlegen des Live-Datums für einen Launch für die Ressourcen unter */content/screens*, beginnt die Promotion mit diesem Versatz.
+>Standardmäßig ist die Übergangsphase für Screens Launch auf 24 Stunden festgelegt. Das bedeutet, dass Sie beim Festlegen eines Live-Datums für einen Launch für die Ressourcen unter */content/screens*, beginnt die Promotion mit diesem Versatz.
 
 ### Aktualisieren der standardmäßigen Übergangsphase {#updating-out-of-the-box-grace-period}
 
@@ -73,7 +73,7 @@ In diesem Abschnitt wird beschrieben, wie Sie eine vordefinierte Übergangsphase
 1. Navigieren Sie zu `/apps/system/config`, klicken Sie mit der rechten Maustaste und fügen Sie den Inhalt ein.
 1. Doppelklicken `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` damit Sie die Datei im Editor unter CRXDE Lite öffnen können. Die Übergangsphase für den Pfad */content/screens/* muss als **86400** angezeigt werden. Ändern Sie diesen Wert in **600**.
 
-Der Inhalt in der Textdatei sollte nun wie folgt aussehen:
+Jetzt sollte der Inhalt in der Textdatei wie folgt aussehen:
 
 ```java
 launches.eventhandler.launch.promotion.graceperiod=[ \
@@ -81,7 +81,7 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
    ]
 ```
 
-Da Sie die Übergangsphase im vorherigen Beispiel auf 10 Minuten festgelegt haben, wenn Sie ein Live-Datum für einen beliebigen Launch der Ressourcen unter */content/screens*, beginnt die Promotion mit diesem Versatz.
+Sie legen die Übergangsphase im obigen Beispiel auf 10 Minuten fest. Wenn Sie daher ein Live-Datum für einen Launch der Ressourcen unter festlegen */content/screens*, beginnt die Promotion mit diesem Versatz.
 
 Wenn das Live-Datum beispielsweise auf den 24. November, 9.00 Uhr und die Übergangsphase auf 600 Sekunden eingestellt ist, beginnt der Promotion-Auftrag am 24. November um 8:50 Uhr.
 
@@ -112,9 +112,9 @@ Gehen Sie gemäß nachstehendem Abschnitt vor, um Screens Launch-Funktionen in I
    ![Bild](/help/user-guide/assets/launches-images/launches-d.png)
 
    >[!NOTE]
-   >Sie können **+ Kanäle hinzufügen** -Option, um einen weiteren Kanal hinzuzufügen, für den Sie den Launch erstellen möchten.
+   >Sie können die **+ Kanäle hinzufügen** -Option, um einen weiteren Kanal hinzuzufügen, für den Sie den Launch erstellen möchten.
 
-   Um die Option **Kanäle hinzufügen** zu verwenden, navigieren Sie zu dem Kanal, für den Sie den Launch erstellen möchten, und klicken Sie auf **Auswählen**.
+   So verwenden Sie die **Kanäle hinzufügen** , navigieren Sie zu dem Kanal, für den Sie den Launch erstellen möchten, und klicken Sie auf **Auswählen**.
 
    Die **Auswählen** ist deaktiviert, wenn Sie versuchen, auf mehrere Kanäle oder einen Ordner zum Hinzufügen des Launches zu klicken.
 
@@ -146,7 +146,7 @@ Gehen Sie gemäß nachstehendem Abschnitt vor, um Screens Launch-Funktionen in I
 
      >[!CAUTION]
      >
-     >Beim Live-Datum des Launches wird die Zeitzone des Players/Geräts und nicht die des Servers berücksichtigt.
+     >Das Live-Datum des Launches berücksichtigt die Zeitzone des Players/Geräts und nicht die Server.
 
 1. Beachten Sie, dass Ihr Launch erstellt wurde. Sie können entweder auf **Öffnen** klicken, um die Seiten im Editor anzuzeigen, oder auf **Fertig**, um zu Ihrem Projekt zurückzukehren.
 
@@ -162,7 +162,7 @@ Gehen Sie gemäß nachstehendem Abschnitt vor, um Screens Launch-Funktionen in I
 Nachdem der Launch erstellt wurde, können Sie die Eigenschaften wie Live-Datum, Launch-Titel und Promotion-Umfang aktualisieren, indem Sie **Launch-Eigenschaften**.
 
 * **Launch-Datum** - Das Live-Datum, d. h. das Datum oder die Uhrzeit der Wiedergabe des Inhalts im Screens-Player gemäß der Zeitzone des Players.
-* **Produktionsbereit** - Ermöglicht die Veröffentlichung der Kanäle nach der Promotion. Diese Option ist standardmäßig aktiviert, sodass Sie sie nicht ändern müssen.
+* **Produktionsbereit** - Nach der Promotion können die Kanäle veröffentlicht und native Aktionen aktiviert werden, sodass keine Änderungen erforderlich sind.
 * **Anwendungsbereich** - Entscheidet, welche Kanäle während der Launch-Promotion beworben werden.
 
 Gehen Sie wie folgt vor, um die Eigenschaften für den Launch zu bearbeiten:
@@ -179,11 +179,11 @@ Gehen Sie wie folgt vor, um die Eigenschaften für den Launch zu bearbeiten:
 
    ![Bild](/help/user-guide/assets/launches-images/launches-19.png)
 
-### Bearbeiten von Screens Launch zum Hinzufügen oder Entfernen von Kanälen  {#editing-the-screens-launch-to-add-or-remove-channels}
+### Bearbeiten von Screens Launch zum Hinzufügen oder Entfernen von Kanälen {#editing-the-screens-launch-to-add-or-remove-channels}
 
-Nachdem Sie den Launch erstellt haben, können Sie Kanäle zum Launch hinzufügen, bzw. daraus entfernen, indem Sie die Option **Launch bearbeiten** verwenden.
+Nachdem Sie den Launch erstellt haben, können Sie dem vorhandenen Launch Kanäle hinzufügen oder entfernen, indem Sie die **Launch bearbeiten** -Option.
 
-Klicken Sie abschließend auf **Speichern** zurück zu navigieren **FutureLaunch** -Kanal.
+Klicken Sie abschließend auf **Speichern** zurück zum **FutureLaunch** -Kanal.
 
 ### Manuelles Bewerben des Screens Launch{#promote-the-screens-launch-manually}
 
@@ -204,7 +204,7 @@ Sie können die Ressourcen, die Sie im Rahmen dieser manuellen Promotion bewerbe
 
 ### Löschen eines Screens Launch
 
-Sie können den Launch löschen, indem Sie im Bedienfeld **AUSSTEHENDE LAUNCHES** die Option **Launch löschen** wählen.
+Sie können den Launch mit dem **Launch löschen** Option aus der **AUSSTEHENDE LAUNCHES** Bedienfeld.
 
 >[!CAUTION]
 >

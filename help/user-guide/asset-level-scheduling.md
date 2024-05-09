@@ -1,14 +1,14 @@
 ---
 title: Aktivierung auf Asset-Ebene
-description: Erfahren Sie, wie Sie ein bestimmtes Asset in einem Kanal für einen geplanten Zeitraum in der lokalen Zeitzone des Players aktivieren.
+description: Erfahren Sie, wie Sie ein bestimmtes Asset in einem Kanal für einen geplanten Zeitraum aktivieren, und zwar innerhalb der lokalen Zeitzone des Players.
 feature: Authoring Screens, Asset Level Activation
 role: Admin, Developer
 level: Intermediate
 exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
 workflow-type: tm+mt
-source-wordcount: '1460'
-ht-degree: 50%
+source-wordcount: '1477'
+ht-degree: 32%
 
 ---
 
@@ -38,15 +38,15 @@ In diesem Abschnitt werden die folgenden Themen behandelt:
 
 ## Überblick {#overview}
 
-***Aktivierung auf Asset-Ebene*** ermöglicht Ihnen, ein bestimmtes Asset in einem Kanal für einen geplanten Zeitraum in der lokalen Zeitzone des Players zu aktivieren. Diese Funktion ist für Bilder, Videos, Übergänge, Seiten und eingebettete Kanäle (dynamisch oder statisch) verfügbar.
+***Aktivierung auf Asset-Ebene*** ermöglicht Ihnen, ein bestimmtes Asset in einem Kanal für einen geplanten Zeitraum zu aktivieren, und zwar innerhalb der lokalen Zeitzone des Players. Diese Funktion ist für Bilder, Videos, Transitionen, Seiten und eingebettete Kanäle (dynamisch oder statisch) verfügbar.
 
 *Beispielsweise* soll eine Sonderaktion nur montags und mittwochs während der Happy Hour (14.00 bis 17.00 Uhr) angezeigt werden.
 
-Mit der Funktion können Sie nicht nur Start- und Enddatum sowie -zeit, sondern auch ein Wiederholungsmuster angeben.
+Mit dieser Funktion können Sie nicht nur ein Start- und Enddatum und eine Endzeit, sondern auch ein Wiederholungsmuster angeben.
 
 ## Aktivierungsfenster {#single-event-playback}
 
-Die Aktivierung auf der Asset-Ebene erfolgt durch Konfiguration der Registerkarte **Aktivierung** beim Zugriff auf die Eigenschaften eines Assets.
+Die Aktivierung auf der Asset-Ebene erfolgt durch Konfiguration der **Aktivierung** Registerkarte beim Zugriff auf die Eigenschaften eines Assets.
 
 Gehen Sie wie folgt vor, um die Zeitplanung auf der Asset-Ebene durchzuführen:
 
@@ -58,8 +58,8 @@ Gehen Sie wie folgt vor, um die Zeitplanung auf der Asset-Ebene durchzuführen:
    >
    >Detaillierte Informationen zum
    >
-   >* Erstellen eines Projekts finden Sie unter [Erstellen eines neuen Projekts](creating-a-screens-project.md).
-   >* Erstellen von Inhalten und Hinzufügen zu einem Kanal finden Sie unter [Verwalten von Kanälen](managing-channels.md).
+   >* Erstellen Sie ein Projekt. Siehe [Erstellen eines neuen Projekts](creating-a-screens-project.md).
+   >* Erstellen und Hinzufügen von Inhalten zu einem Kanal Siehe [Kanäle verwalten](managing-channels.md).
 
 1. Klicks **Bearbeiten** Sie können den Kanaleditor öffnen und auf ein Asset klicken, auf das Sie die Planung anwenden möchten.
 
@@ -79,7 +79,7 @@ Gehen Sie wie folgt vor, um die Zeitplanung auf der Asset-Ebene durchzuführen:
 
 ## Umgang mit sich wiederholenden Assets {#handling-recurrence-in-assets}
 
-Sie können eine Wiederholung von Assets Ihren Anforderungen entsprechend in bestimmten Intervallen auf Tages-, Wochen- oder Monatsbasis planen.
+Sie können planen, dass Assets gemäß Ihren Anforderungen in bestimmten Intervallen täglich, wöchentlich oder monatlich wiederholt werden.
 
 Angenommen, Sie möchten ein Bild nur freitags von 13:00 Uhr bis 22:00 Uhr anzeigen. Auf der Registerkarte **Aktivierung** können Sie das gewünschte Wiederholungsintervall für Ihr Asset festlegen.
 
@@ -96,7 +96,7 @@ Angenommen, Sie möchten ein Bild nur freitags von 13:00 Uhr bis 22:00 Uhr anzei
 
 #### Beispielausdrücke für die DayParting {#example-one}
 
-Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hinzufügen können, während Sie einer Anzeige einen Kanal zuweisen.
+Die folgende Tabelle fasst einige Beispielausdrücke zusammen, die Sie dem Zeitplan hinzufügen können, während Sie einer Anzeige einen Kanal zuweisen.
 
 | **Ausdruck** | **Interpretation** |
 |---|---|
@@ -122,7 +122,7 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 
 #### Beispielhafte Ausdrücke für WeekParting {#example-two}
 
-Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hinzufügen können, während Sie einer Anzeige einen Kanal zuweisen.
+Die folgende Tabelle fasst einige Beispielausdrücke zusammen, die Sie dem Zeitplan hinzufügen können, während Sie einer Anzeige einen Kanal zuweisen.
 
 | **Ausdruck** | **Interpretation** |
 |---|---|
@@ -147,7 +147,7 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 
 #### Beispielhafte Ausdrücke für MonthParting {#example-three}
 
-Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hinzufügen können, während Sie einer Anzeige einen Kanal zuweisen.
+Die folgende Tabelle fasst einige Beispielausdrücke zusammen, die Sie dem Zeitplan hinzufügen können, während Sie einer Anzeige einen Kanal zuweisen.
 
 | **Ausdruck** | **Interpretation** |
 |---|---|
@@ -170,7 +170,7 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 
 #### Beispielausdrücke für die Kombination von Aufteilungen {#example-four}
 
-Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hinzufügen können, während Sie einer Anzeige einen Kanal zuweisen.
+Die folgende Tabelle fasst einige Beispielausdrücke zusammen, die Sie dem Zeitplan hinzufügen können, während Sie einer Anzeige einen Kanal zuweisen.
 
 | **Ausdruck** | **Interpretation** |
 |---|---|
@@ -214,7 +214,7 @@ Gehen Sie wie folgt vor, um auf mehrere Assets zu klicken und ihre Anzeige in ei
 
    ![screen_shot_2018-12-17at20337pm](assets/screen_shot_2018-12-17at20337pm.png)
 
-1. Klicken Sie auf „Aktualisieren“, um die Assets zu überprüfen, auf die der Multi-Asset-Plan angewendet wird.
+1. Klicken Sie auf Aktualisieren , um die Assets zu überprüfen, auf die der Multi-Asset-Zeitplan angewendet wird.
 
    >[!NOTE]
    >
@@ -226,11 +226,11 @@ Gehen Sie wie folgt vor, um auf mehrere Assets zu klicken und ihre Anzeige in ei
 
 ***Globale Überschreibung für universelle Startzeit*** ist eine Einstellung, mit der der Inhaltsautor die Wiedergabe eines Bild- oder Video-Assets basierend auf einer bestimmten Zeit definieren kann. Die Zeit-/Zeitzoneneinstellung eines einzelnen Players wird nicht verwendet.
 
-Normalerweise wird die Wiedergabe von der lokalen Zeit eines bestimmten Players bestimmt; mit der globalen Überschreibung kann aber eine bestimmte universelle Startzeit verwendet werden, um die Wiedergabe des Assets zu starten.
+Normalerweise bestimmt die lokale Zeit eines bestimmten Players die Wiedergabe. Mit der globalen Außerkraftsetzung kann jedoch eine bestimmte universelle Startzeit verwendet werden, um die Wiedergabe des Assets zu starten.
 
-Dadurch kann der Inhaltsautor festlegen, dass die Wiedergabe eines bestimmten Assets zu einem bestimmten Datum/zu einer bestimmten Uhrzeit erfolgt, unabhängig von der lokalen Uhr auf allen Playern, denen der Inhalt zugewiesen wurde.
+Daher kann der Inhaltsautor die Wiedergabe eines bestimmten Assets festlegen. Sie können sie unabhängig von der lokalen Uhr auf allen Playern mit zugewiesenem Inhalt zu einem bestimmten Datum/zu einer bestimmten Uhrzeit ausführen lassen.
 
-Die globale Überschreibung der universellen Startzeit erfolgt durch Konfiguration der Registerkarte **Aktivierung**, während auf die Eigenschaften eines Assets zugegriffen wird. Um eine globale Überschreibung für die Asset-Planung durchzuführen, gehen Sie wie folgt vor:
+***Globale Überschreibung für universelle Startzeit*** wird durch die Konfiguration der **Aktivierung** Registerkarte beim Zugriff auf die Eigenschaften eines Assets. Um eine globale Überschreibung für die Asset-Planung durchzuführen, gehen Sie wie folgt vor:
 
 1. Klicken Sie auf einen beliebigen Kanal und dann auf **Bearbeiten** über die Aktionsleiste aus, damit Sie Inhalte in Ihrem Kanal hinzufügen oder bearbeiten können.
 

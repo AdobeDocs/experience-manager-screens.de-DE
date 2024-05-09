@@ -9,16 +9,16 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 6cb2705e-83e6-46f3-bd71-6688d7edc11f
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 50%
+source-wordcount: '352'
+ht-degree: 40%
 
 ---
 
-# Verwenden der Fernbedienungs-Steuerung von Screens  {#implementing-remote-control}
+# Verwenden der Fernbedienungs-Steuerung von Screens {#implementing-remote-control}
 
-Die Fernsteuerungsfunktion erleichtert den Zugriff auf die Admin-Benutzeroberfläche, den Kanalschalter oder Funktionen wie Cache löschen und neu laden. Außerdem erhalten Sie eine Methode, die lokale Firmware-Version und Systeminformationen auf dem Player anzuzeigen. Dies ist besonders nützlich, da es schwierig sein kann, eine Maus anzuschließen und auf Produktionsgeräten zu arbeiten, die außer Reichweite sind, und umso mehr, wenn der Player die Verbindung zu AEM verloren hat. Dies ist auch bei der Verwendung von Samsung RMS nützlich, da es aufgrund der unterschiedlichen Auflösung schwierig sein kann, die Admin-Benutzeroberfläche mit einer Maus zu finden und zu öffnen.
+Die Fernsteuerungsfunktion erleichtert den Zugriff auf die Admin-Benutzeroberfläche, den Kanalschalter oder Funktionen wie Cache löschen und neu laden. Außerdem erhalten Sie eine Methode, die lokale Firmware-Version und Systeminformationen auf dem Player anzuzeigen. Diese Fähigkeit ist besonders nützlich, weil es schwierig sein kann, eine Maus zu verbinden. Oder verwenden Sie Produktionsgeräte, die nicht erreichbar sind, und noch mehr, wenn der Player die Verbindung mit AEM verloren hat. Dies ist auch bei der Verwendung von Samsung RMS nützlich, da es aufgrund der unterschiedlichen Auflösung schwierig sein kann, die Admin-Benutzeroberfläche mit einer Maus zu finden und zu öffnen.
 
 ## Gängige Tastenkombinationen für die Fernbedienungs-Steuerung {#using-common-remote-control}
 
@@ -47,7 +47,7 @@ Die folgende Abbildung veranschaulicht die Verwendung der Tasten auf einer Samsu
 ![image](assets/tizen/remote.png)
 
 >[!NOTE]
->Wenn Sie die Gerätekonfigurationswerte von enableAdminUI und/oder enableOSD auf &quot;false&quot;setzen, wird die Admin-Benutzeroberfläche und der Kanalschalter von der Remote-Konsole nicht umgeschaltet. Sie können die Pfeiltasten nicht verwenden, um in der Administrator-Benutzeroberfläche oder in den Kanälen zu navigieren. Sie können jedoch den Cache löschen und den Player neu laden. Sie können die Fernbedienungs-Steuerungsfunktion deaktivieren, wenn eine der Tastenkombinationen mit Ihren interaktiven Inhalten in Konflikt steht, indem Sie diesen Code verwenden:
+>Wenn Sie die Gerätekonfigurationswerte von enableAdminUI und/oder enableOSD auf &quot;false&quot;setzen, wird die Admin-Benutzeroberfläche und der Kanalschalter durch die Remote-Konsole nicht umgeschaltet. Sie können die Pfeiltasten nicht verwenden, um in der Admin-Benutzeroberfläche oder in den Kanälen zu navigieren. Sie können jedoch den Cache löschen und den Player neu laden. Sie können die Fernbedienungs-Steuerungsfunktion deaktivieren, wenn eine der Tastenkombinationen mit Ihren interaktiven Inhalten in Konflikt steht, indem Sie diesen Code verwenden:
 
 ```
 require(['util/ScreensDisplay'], function() {window.ScreensDisplay.ignoreRemoteControl = true;}); 
