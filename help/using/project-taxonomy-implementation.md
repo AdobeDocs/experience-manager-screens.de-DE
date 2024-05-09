@@ -2,10 +2,10 @@
 title: Projekttaxonomie
 description: Erfahren Sie mehr über die Projekttaxonomie im Zusammenhang mit AEM Screens.
 exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 50%
+source-wordcount: '268'
+ht-degree: 44%
 
 ---
 
@@ -32,7 +32,7 @@ Weitere Informationen zu diesen Begriffen finden Sie unter [Glossar](https://exp
 >Es empfiehlt sich, folgende Aspekte zu beachten:
 >
 >* Hardware-Asset-Datenbank zum automatischen Ausfüllen eines Screens-Projekts
->* Textkonfigurationsdatei, um jeden Player automatisch auf eine bestimmte AEM-Instanz zu verweisen
+>* Textkonfigurationsdatei, die jeden Player automatisch auf eine bestimmte Instanz eines AEM verweist
 
 ## Implementieren eines AEM Screens-Projekts {#creating-a-project}
 

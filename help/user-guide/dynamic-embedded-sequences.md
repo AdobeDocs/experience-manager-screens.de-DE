@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
 workflow-type: tm+mt
-source-wordcount: '2426'
-ht-degree: 47%
+source-wordcount: '2451'
+ht-degree: 39%
 
 ---
 
@@ -27,23 +27,23 @@ Die Verwendung dynamischer eingebetteter Sequenzen umfasst die folgenden Themen:
 
 ## Überblick {#overview}
 
-***Dynamische integrierte Sequenzen*** werden für große Projekte erstellt, die der Hierarchie von über- und untergeordnetem Element folgen, wobei das untergeordnete Element in einem Standortordner und nicht in einem Kanalordner referenziert wird. Benutzer können so eine Sequenz nach ***Kanalrolle*** in einen Kanal einbetten. Damit kann der Benutzer standortspezifische Platzhalter für verschiedene Büros mithilfe einer eingebetteten Sequenz innerhalb eines Hauptkanals definieren.
+***Dynamische integrierte Sequenzen*** werden für große Projekte erstellt, die einer Hierarchie zwischen über- und untergeordnetem Element folgen, wobei auf das untergeordnete Element in einem Standortordner und nicht in einem Kanalordner verwiesen wird. Benutzer können so eine Sequenz nach ***Kanalrolle*** in einen Kanal einbetten. Damit kann der Benutzer standortspezifische Platzhalter für verschiedene Büros mithilfe einer eingebetteten Sequenz innerhalb eines Hauptkanals definieren.
 
-Beim Zuweisen eines Kanals zu einer Anzeige können Sie entweder den Pfad der Anzeige oder die Rolle des Kanals angeben, der nach Kontext zu einem tatsächlichen Kanal aufgelöst wird.
+Beim Zuweisen eines Kanals zu einer Anzeige haben Sie die Möglichkeit, den Pfad der Anzeige anzugeben. Alternativ können Sie die Rolle des Kanals festlegen, der nach Kontext zu einem tatsächlichen Kanal aufgelöst wird.
 
-Um die dynamische eingebettete Sequenz zu verwenden, weisen Sie einen Kanal nach ***Kanalrolle*** zu. In „Kanalrolle“ wird der Kontext der Anzeige definiert. Die Rolle kann durch verschiedene Aktionen festgelegt werden und ist unabhängig vom eigentlichen Kanal, der der Rolle entspricht. In diesem Abschnitt wird ein Anwendungsfall beschrieben, der Kanäle nach Rolle definiert und wie Sie diesen Inhalt auf einen globalen Kanal anwenden können. Sie können sich die Rolle auch als ID für die Zuweisung oder als Alias für den Kanal im Kontext vorstellen.
+Um die dynamische eingebettete Sequenz zu verwenden, weisen Sie einen Kanal nach ***Kanalrolle*** zu. In „Kanalrolle“ wird der Kontext der Anzeige definiert. Die Rolle ermöglicht die Ausrichtung auf verschiedene Aktionen und ist unabhängig vom eigentlichen Kanal, der die Rolle erfüllt. In diesem Abschnitt wird ein Anwendungsfall beschrieben, der Kanäle nach Rolle definiert und wie Sie diesen Inhalt auf einen globalen Kanal anwenden können. Sie können sich die Rolle auch als ID für die Zuweisung oder als Alias für den Kanal im Kontext vorstellen.
 
 ### Vorteile der Verwendung dynamischer eingebetteter Sequenzen {#benefits-of-using-dynamic-embedded-sequences}
 
-Der Hauptvorteil der Platzierung eines Sequenzkanals in einem Speicherort anstelle des Kanalordners besteht darin, lokalen oder regionalen Autoren die Bearbeitung von für sie relevanten Inhalten zu ermöglichen. All dies ist zwar von der Bearbeitung von Kanälen weiter oben in der Hierarchie ausgeschlossen.
+Wenn Sie einen Sequenzkanal in einen Speicherort statt in den Ordner &quot;Kanäle&quot;platzieren, können lokale oder regionale Autoren Inhalte bearbeiten, die für sie relevant sind. Außerdem können dadurch Kanäle weiter oben in der Hierarchie bearbeitet werden.
 
-Verweisen auf eine *Kanal nach Rolle* ermöglicht Ihnen, eine lokale Version eines Kanals zu erstellen, standortspezifischen Inhalt dynamisch aufzulösen und auch einen globalen Kanal zu erstellen, der den Inhalt für standortspezifische Kanäle verwendet.
+Verweisen auf eine *Kanal nach Rolle* ermöglicht die Erstellung einer lokalen Version eines Kanals. Dadurch werden standortspezifische Inhalte dynamisch aufgelöst und Sie können auch einen globalen Kanal erstellen, der den Inhalt für standortspezifische Kanäle verwendet.
 
 >[!NOTE]
 >
 >**Eingebettete Sequenzen im Vergleich zu dynamischen eingebetteten Sequenzen**
 >
->Eine dynamische eingebettete Sequenz ist mit einer eingebetteten Sequenz vergleichbar. Sie unterscheidet sich allerdings dahingehend, dass der Benutzer einer Hierarchie folgen kann, bei der Änderungen/Aktualisierungen an einem Kanal auf einen anderen, in Bezug stehenden Kanal übertragen werden. Sie folgt einer Hierarchie und umfasst zudem Assets wie Bilder und Videos.
+>Eine dynamische eingebettete Sequenz ähnelt einer eingebetteten Sequenz, ermöglicht es dem Benutzer jedoch, einer Hierarchie zu folgen, in der Änderungen und Aktualisierungen an einem Kanal auf einen anderen in Beziehung propagiert werden. Sie folgt einer Hierarchie von über- und untergeordnetem Element und umfasst auch Assets wie Bilder oder Videos.
 >
 >Mit ***dynamischen eingebetteten Sequenzen*** können Sie standortspezifischen Inhalt anzeigen, während ***eingebettete Sequenzen*** nur eine allgemeine Diashow des Inhalts anzeigen. Konfigurieren Sie beim Einrichten dynamischer eingebetteter Sequenzen den Kanal außerdem mithilfe der Kanalrolle und des Kanalnamens. Weitere Informationen zur praktischen Umsetzung finden Sie in den folgenden Schritten.
 >
@@ -57,7 +57,7 @@ Das folgende Beispiel zeigt eine Lösung mit Konzentration auf die folgenden Sch
 
 >[!NOTE]
 >
->Weitere Infos zur Kanalzuweisung finden Sie unter **[Kanalzuweisung](channel-assignment.md)** im Abschnitt zur Inhaltserstellung der AEM Screens-Dokumentation.
+>Weitere Informationen zur Kanalzuweisung finden Sie unter **[Kanalzuweisung](channel-assignment.md)** in der AEM Screens-Dokumentation im Abschnitt Authoring .
 
 ## Verwenden dynamischer eingebetteter Sequenzen {#using-dynamic-embedded-sequence-2}
 
@@ -68,15 +68,15 @@ Im folgenden Abschnitt wird die Erstellung einer dynamischen eingebetteten Seque
 Bevor Sie mit der Implementierung dieser Funktion beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen, um mit der Implementierung dynamischer eingebetteter Sequenzen beginnen zu können:
 
 * Erstellen eines AEM Screens-Projekts (in diesem Beispiel ) **Demo**).
-* Erstellen eines Kanals als **Global** under **Kanäle** Ordner.
+* Erstellen Sie eine **Global** -Kanal unter **Kanäle** Ordner.
 * Hinzufügen von Inhalten zu Ihren **Global** Kanal (*Überprüfen **Resources.zip**für relevante Vermögenswerte*).
 
-Die folgende Abbildung zeigt das Projekt **Demo** mit dem Kanal **Global** im Ordner **Kanäle**.
+Die folgende Abbildung zeigt die **Demo** Projekt mit **Global** -Kanal im **Kanäle** Ordner.
 ![screen_shot_2018-09-07at21032pm](assets/screen_shot_2018-09-07at21032pm.png)
 
 ### Ressourcen {#resources}
 
-Sie können die folgenden Ressourcen (Bilder) herunterladen (und zu Assets hinzufügen) und diese als Kanalinhalt für Demonstrationszwecke weiterverwenden.
+Sie können die folgenden Ressourcen (Bilder) herunterladen und zu Assets hinzufügen und sie zur Veranschaulichung weiter als Kanalinhalt verwenden.
 
 [Datei abrufen](assets/resources.zip)
 
@@ -108,7 +108,7 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
    >
    >Achten Sie beim Erstellen des Ordners **Region A** darauf, den **Titel** als **Region A** einzugeben und das Feld **Name** leer zu lassen. Damit wird automatisch der Name **region-a** übernommen.
    >
-   >Ähnlich verhält es sich beim Erstellen von Standortordnern **Region B**, wie unten dargestellt:
+   >Ähnlich verhält es sich bei der Erstellung des Ordners für den Speicherort **Region B**, wie unten dargestellt:
 
    ![screen_shot_2018-09-13at23212pm](assets/screen_shot_2018-09-13at23212pm.png)
 
@@ -119,12 +119,12 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
 
    1. Navigieren Sie zu **Demo** > **Standorte** > **Region A**.
    1. Klicks **Region A** und klicken **+ Erstellen** in der Aktionsleiste aus.
-   1. Klicks **Standort** aus dem Assistenten mit **Titel** as **Store 1**. Erstellen Sie auf ähnliche Weise einen weiteren Standort im Assistenten mit dem Titel **Store 2** mit **Titel** als **Store 2**. Sie können das Feld **Name** leer lassen, während Sie **Store 1** und **Store 2** erstellen.
-   1. Schritt (b) wiederholen und jetzt auf **Sequenzkanal** aus dem Assistenten. Geben Sie den **Titel** als **Region A** und den **Namen** als **region** für diesen Kanal ein.
+   1. Klicks **Standort** aus dem Assistenten mit **Titel** as **Store 1**. Erstellen Sie auf ähnliche Weise einen anderen Speicherort im Assistenten mit dem Titel **Store 2** mit dem **Titel** as **Store 2**. Sie können das Feld **Name** leer lassen, während Sie **Store 1** und **Store 2** erstellen.
+   1. Schritt (b) wiederholen und jetzt auf **Sequenzkanal** aus dem Assistenten. Geben Sie die **Titel** as **Region A** und **Name** als **region** für diesen Kanal.
 
    >[!CAUTION]
    >
-   >Stellen Sie beim Erstellen des Kanals sicher, dass **Region A**, geben Sie die **Titel** as **Region A** und **Name** as **region**.
+   >Stellen Sie beim Erstellen des Kanals sicher, dass **Region A**, geben Sie die **Titel** as **Region A** und **Name** as a **region**.
 
    ![screen_shot_2018-09-13at22857pm](assets/screen_shot_2018-09-13at22857pm.png)
 
@@ -189,25 +189,25 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
 
 1. **Zeitplan erstellen**
 
-   Navigieren und klicken Sie auf **Zeitpläne** Ordner in Ihrem AEM Screens-Projekt. Klicken Sie anschließend auf **Erstellen** in der Aktionsleiste aus.
+   Navigieren Sie zu und klicken Sie auf die **Zeitpläne** Ordner in Ihrem AEM Screens-Projekt. Klicken Sie anschließend auf **Erstellen** in der Aktionsleiste aus.
 
-   Die folgende Abbildung zeigt den **AdSchedule**, der im Projekt **Demo** erstellt wurde.
+   Die folgende Abbildung zeigt die **AdSchedule** erstellt in der **Demo** Projekt.
 
    ![screen_shot_2018-09-13at33307pm](assets/screen_shot_2018-09-13at33307pm.png)
 
 1. **Weisen Sie einem Zeitplan Kanäle zu**
 
    1. Navigieren Sie zu **Demo** > **Zeitpläne** > **AdSchedule** und klicken **Dashboard** in der Aktionsleiste aus.
-   1. Klicks **+ Kanal zuweisen** von **ZUGEWIESENE KANÄLE** -Bedienfeld, damit Sie **Kanalzuweisung** Dialogfeld.
+   1. Klicks **+ Kanal zuweisen** aus dem **ZUGEWIESENE KANÄLE** -Bedienfeld, damit Sie **Kanalzuweisung** Dialogfeld.
    1. Klicks **Referenzkanal** nach Pfad.
-   1. Klicken Sie auf **Kanalpfad** as **Demo** > ***Kanäle*** > ***Global***.
-   1. Geben Sie als **Kanalrolle** den Wert **GlobalAdSegment** ein.
-   1. Klicken Sie auf **Unterstützte Ereignisse** as **Erster Ladevorgang**, **Idle Screen**, und **Benutzerinteraktion**.
+   1. Klicken Sie auf **Kanalpfad**, genau wie **Demo** > ***Kanäle*** > ***Global***.
+   1. Geben Sie die **Kanalrolle**, genau wie **GlobalAdSegment**.
+   1. Klicken Sie auf **Unterstützte Ereignisse**, genau wie **Erster Ladevorgang**, **Idle Screen**, und **Benutzerinteraktion**.
    1. Klicken Sie auf **Speichern**.
 
    **Kanal nach Rolle für die Region zuweisen:**
 
-   1. Klicks **+ Kanal zuweisen** von **ZUGEWIESENE KANÄLE** Bedienfeld.
+   1. Klicken Sie im Bedienfeld **ZUGEWIESENE KANÄLE** auf **+ Kanal zuweisen**.
    1. Klicken Sie im Dialogfeld Kanalzuweisung auf **Referenzkanal** nach Namen.
    1. Geben Sie unter **Kanalname** den Wert **region** ein.
    1. Geben Sie als **Kanalrolle** den Wert **RegionAdSegment** ein.
@@ -215,7 +215,7 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
 
    **Kanal nach Rolle für den Store zuweisen:**
 
-   1. Klicks **+ Kanal zuweisen** von **ZUGEWIESENE KANÄLE** Bedienfeld.
+   1. Klicken Sie im Bedienfeld **ZUGEWIESENE KANÄLE** auf **+ Kanal zuweisen**.
    1. Klicken Sie im Dialogfeld Kanalzuweisung auf **Referenzkanal** nach Namen.
    1. Geben Sie den **Kanalnamen** als **store** ein.
    1. Geben Sie als **Kanalrolle** den Wert **StoreAdSegment** ein.
@@ -227,7 +227,7 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
 
 1. **Konfigurieren Sie die dynamische eingebettete Sequenz für den Kanal „Global“.**
 
-   Navigieren Sie zum **Global** Kanal, den Sie ursprünglich in **Demo** Projekt.
+   Navigieren Sie zum **Global** Der ursprünglich im Abschnitt **Demo** Projekt.
 
    Klicks **Bearbeiten** in der Aktionsleiste aus.
 
@@ -319,11 +319,11 @@ Gehen Sie wie folgt vor, um Gruppen und Benutzer zu erstellen und die ACLs gemä
    1. Navigieren Sie zu **Adobe Experience Manager**.
    1. Klicken Sie auf **Tools** > **Sicherheit** > **Benutzer**.
    1. Klicken Sie auf **Benutzer erstellen** und geben Sie **Global-Benutzer** in **ID** ein.
-   1. Geben Sie ein **Kennwort** ein und bestätigen Sie das Kennwort für diesen Benutzer.
+   1. Eingabe **Passwort** und bestätigen Sie das Kennwort für diesen Benutzer.
    1. Klicken Sie auf **Gruppen** und geben Sie den Gruppennamen in **Gruppe auswählen** eingeben. **Global-Autor** hinzugefügt werden **Global-User** zu dieser spezifischen Gruppe.
    1. Klicken Sie auf **Speichern und schließen**.
 
-   Erstellen Sie auf ähnliche Weise zwei weitere Benutzer wie **Region-Benutzer** und **Store-Benutzer** und fügen Sie sie **Region-Autor** bzw. **Store-Autor** hinzu.
+   Erstellen Sie auf ähnliche Weise zwei weitere Benutzer wie **Region-Benutzer** und **Store-User** und fügen Sie sie zu **Region-Autor** und **Store-Autor** bzw.
 
    >[!NOTE]
    >Es empfiehlt sich, Benutzer einer Gruppe hinzuzufügen und dann den einzelnen Benutzergruppen Berechtigungen zuzuweisen.
@@ -334,14 +334,14 @@ Gehen Sie wie folgt vor, um Gruppen und Benutzer zu erstellen und die ACLs gemä
 
    1. Navigieren Sie zu **Adobe Experience Manager**.
    1. Klicks **Instrumente** > **Sicherheit** > **Gruppen**.
-   1. Klicks **Mitarbeiter** aus der Liste aus und klicken Sie auf **Mitglieder** Registerkarte.
+   1. Klicks **Mitarbeiter** aus der Liste aus und klicken Sie auf die Schaltfläche **Mitglieder** Registerkarte.
    1. Klicken Sie auf **Gruppe** wie **Global-Autor**, **Region-Autor,** und **Store-Autor** an Beitragende.
    1. Klicken Sie auf **Speichern und schließen**.
 
 1. **Auf die Berechtigungen für jede Gruppe zugreifen**
 
-   1. Navigieren Sie zu *Useradmin* und ändern Sie mithilfe dieser Benutzeroberfläche die Berechtigungen für die verschiedenen Gruppen.
-   1. Suchen Sie nach **Global-Autor** und klicken Sie auf die Registerkarte **Berechtigungen**, wie in der Abbildung unten dargestellt.
+   1. Navigieren Sie zum *Benutzeradministrator* und verwenden Sie diese Benutzeroberfläche, um die Berechtigungen für verschiedene Gruppen zu ändern.
+   1. Suchen Sie nach **Global-Autor** und klicken Sie auf **Berechtigungen** wie in der folgenden Abbildung dargestellt.
    1. Ebenso können Sie auf die Berechtigungen für **Region-Autor** und **Store-Autor** zugreifen.
 
    ![screen_shot_2018-09-18at73523am](assets/screen_shot_2018-09-18at73523am.png)
@@ -358,7 +358,7 @@ Gehen Sie wie folgt vor, um Gruppen und Benutzer zu erstellen und die ACLs gemä
    In der folgenden Abbildung werden die Schritte beschrieben:
    ![screen_shot_2018-09-18at115752am](assets/screen_shot_2018-09-18at115752am.png)
 
-   Im Folgenden wird gezeigt, dass die Variable **Global-User** hat Zugriff auf **Globaler Kanal**, und beide **Region A** und **Region B** mit allen vier Geschäften: **Store 1**, **Store 2**, **Store 3**, und **Store 4**.
+   Im Folgenden wird gezeigt, dass die Variable **Global-User** hat Zugriff auf **Globaler Kanal**. Und der Zugriff auf beide **Region A** und **Region B** mit allen vier Geschäften: **Store 1**, **Store 2**, **Store 3**, und **Store 4**.
 
    ![global](assets/global.gif)
 
@@ -374,7 +374,7 @@ Gehen Sie wie folgt vor, um Gruppen und Benutzer zu erstellen und die ACLs gemä
 
    ![screen_shot_2018-09-18at125158pm](assets/screen_shot_2018-09-18at125158pm.png)
 
-   Die folgende Abbildung zeigt, dass Region-Benutzer Zugriff auf beide **Region A** und **Region B**, mit allen vier Läden, nämlich **Store 1**, **Store 2**, **Store 3**, und **Store 4**, aber nicht auf die **Global** Kanal.
+   Die folgende Abbildung zeigt, dass Region-Benutzer Zugriff auf beide **Region A** und **Region B**. Und der Zugriff auf alle vier Stores, nämlich **Store 1**, **Store 2**, **Store 3**, und **Store 4**, aber nicht auf die **Global** Kanal.
 
    ![region](assets/region.gif)
 
@@ -391,7 +391,7 @@ Gehen Sie wie folgt vor, um Gruppen und Benutzer zu erstellen und die ACLs gemä
 
    ![screen_shot_2018-09-18at12415pm](assets/screen_shot_2018-09-18at12415pm.png)
 
-   Im Folgenden wird gezeigt, dass die Variable **Store-User** hat nur Zugriff auf **Store 1**, **Store 2**, **Store 3**, und **Store 4**, aber keine Berechtigungen für den Zugriff auf die **Global** oder Region (**Region A** und **Region B**).
+   Im Folgenden wird gezeigt, dass die Variable **Store-User** hat nur Zugriff auf **Store 1**, **Store 2**, **Store 3**, und **Store 4**. Sie verfügt jedoch nicht über Berechtigungen für den Zugriff auf die **Global** oder Region (**Region A** und **Region B**).
 
    ![store](assets/store.gif)
 

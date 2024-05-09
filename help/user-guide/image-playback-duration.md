@@ -2,26 +2,26 @@
 title: Bildwiedergabedauer
 description: Erfahren Sie mehr über die Dauer der Bildwiedergabe in AEM Screens.
 contentOwner: jsyal
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 53%
+source-wordcount: '322'
+ht-degree: 40%
 
 ---
 
 
 # Bildwiedergabedauer {#image-playback-duration}
 
-## Übersicht {#overview}
+## Überblick {#overview}
 
-Nachdem Sie einen Sequenzkanal erstellt und Bilder hinzugefügt haben, gehen standardmäßig alle Bilder von der in der Konfiguration auf Kanalebene definierten Wiedergabedauer aus. Jedes einzelne Bild kann jedoch den Standard überschreiben und eine andere Wiedergabedauer haben. Dies wird durch Bearbeiten der Wiedergabedauer der jeweiligen Bildkomponente erreicht.
+Nachdem Sie einen Sequenzkanal erstellt und Bilder hinzugefügt haben, gehen standardmäßig alle Bilder von der in der Konfiguration auf Kanalebene definierten Wiedergabedauer aus. Jedes einzelne Bild kann den Standard weiterhin überschreiben und eine andere Wiedergabedauer haben. Dies wird durch Bearbeiten der Wiedergabedauer der jeweiligen Bildkomponente erreicht.
 
 ### Voraussetzungen {#prerequisites}
 
 Bevor Sie diese Funktion implementieren, stellen Sie sicher, dass Sie ein Projekt als Voraussetzung für die Implementierung dieser Funktion eingerichtet haben. Beispiel:
 
 1. Erstellen eines AEM Screens-Projekts (in diesem Beispiel **ChannelLevelPlayback**)
-1. Erstellen eines Sequenzkanals als **PlaybackChannel** im Ordner **Kanäle**
+1. Erstellen eines Sequenzkanals als **PlaybackChannel** unter **Kanäle** Ordner
 1. Hinzufügen von Inhalten zum **PlaybackChannel**
 
 ## Bearbeiten der Bildwiedergabedauer auf Kanalebene {#editing-channel-level-image-playback-duration-assignment}
@@ -48,7 +48,7 @@ Gehen Sie wie folgt vor, um zu erfahren, wie Sie die Wiedergabedauer auf Kanaleb
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. Das Dialogfeld **Seite** wird geöffnet.
+1. Die **Seite** wird geöffnet.
 
    >[!NOTE]
    >
