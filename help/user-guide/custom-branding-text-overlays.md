@@ -6,10 +6,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 44%
+source-wordcount: '582'
+ht-degree: 35%
 
 ---
 
@@ -21,7 +21,7 @@ Erfahren Sie, wie Sie benutzerdefiniertes Branding und Styling für Textüberlag
 
 Gehen Sie wie folgt vor, um benutzerdefiniertes Branding und Styling für Textüberlagerungen zu erstellen:
 
-1. Erstellen Sie ein AEM Screens-Projekt. In diesem Beispiel wird die Funktionalität durch Erstellen eines Projekts mit dem Namen **`customstyle`** und einen Kanal mit dem Titel **DemoBrand** , wie in der folgenden Abbildung dargestellt.
+1. Erstellen Sie ein AEM Screens-Projekt. In diesem Beispiel wird die Funktionalität durch Erstellen eines Projekts mit dem Namen **`customstyle`** und einen Kanal mit dem Titel **DemoBrand**, wie in der folgenden Abbildung dargestellt.
 
    ![Bild](/help/user-guide/assets/custom-brand/custom-brand1.png)
 
@@ -36,9 +36,9 @@ Gehen Sie wie folgt vor, um benutzerdefiniertes Branding und Styling für Textü
 
 1. Erstellen Sie ein benutzerdefiniertes Design in `/apps/settings/wcm/designs/<your-project>/`Navigieren Sie in diesem Fall beispielsweise zu `/apps/settings/wcm/designs/customstyle/`
 
-   ![image](/help/user-guide/assets/custom-brand/custom-brand3.png)
+   ![Bild](/help/user-guide/assets/custom-brand/custom-brand3.png)
 
-1. Erstellen Sie die Datei *static.css* und legen Sie die folgenden CSS-Regeln fest. Dies wird auch als Beispiel in der Abbildung unter den CSS-Regeln gezeigt.
+1. Erstellen Sie eine *static.css* und legen Sie die folgenden CSS-Regeln fest. Dies wird auch als Beispiel in der Abbildung unter den CSS-Regeln gezeigt.
 
    ```shell
     //global styles
@@ -73,7 +73,7 @@ Gehen Sie wie folgt vor, um benutzerdefiniertes Branding und Styling für Textü
    ![image](/help/user-guide/assets/custom-brand/custom-brand5.png)
 
    >[!NOTE]
-   >Standardmäßig zeigt das Feld **Design** den Pfad zu Designs im Ordner „libs“ an.
+   >Die Standardeinstellung ist die **Design** zeigt den Pfad zu Designs im Ordner &quot;libs&quot;an.
 
 1. Aktualisieren Sie das Feld **Design** mit dem Pfad zum Projektordner. In diesem Beispiel ist er auf `/apps/settings/wcm/designs/customstyle` festgelegt.
 
@@ -96,7 +96,7 @@ Gehen Sie wie folgt vor, um benutzerdefiniertes Branding und Styling für Textü
 
 ### Aktualisieren von ACLs {#updating-acls}
 
-Aktualisieren Sie die ACLs für diese Designs, damit sie vom Player heruntergeladen werden können.
+Aktualisieren Sie die ACLs für diese Designs, damit der Player sie herunterladen kann.
 
 1. Navigieren Sie zu „useradmin“, wählen Sie die `screens-<project>-devices group` aus und erteilen Sie Leseberechtigung für den benutzerdefinierten Design-Pfad.
 
@@ -122,7 +122,7 @@ Gehen Sie wie folgt vor, um die Textüberlagerung mit dem aktualisierten Design 
 
    ![Bild](/help/user-guide/assets/custom-brand/custom-brand9.png)
 
-1. Außerdem können Sie die letzten beiden Codeblöcke aus *static.css* -Datei, um die Textüberlagerung mit dem geboxten Stil zu entfernen.
+1. Außerdem können Sie die letzten beiden Codeblöcke aus der *static.css* -Datei, um die Textüberlagerung mit dem geboxten Stil zu entfernen.
 
 ![Bild](/help/user-guide/assets/custom-brand/custom-brand10.png)
 
@@ -130,4 +130,4 @@ Gehen Sie wie folgt vor, um die Textüberlagerung mit dem aktualisierten Design 
 
    ![Bild](/help/user-guide/assets/custom-brand/custom-brand11.png)
 
-   Jetzt können Sie Ihre Marke und Ihr benutzerdefiniertes Styling für Textüberlagerungen aktualisieren, die Ihren Assets hinzugefügt wurden.
+   Jetzt können Sie Ihre Marke und Ihr benutzerdefiniertes Styling für Textüberlagerungen aktualisieren, die zu Ihren Assets hinzugefügt werden.

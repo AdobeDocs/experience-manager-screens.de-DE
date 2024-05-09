@@ -9,16 +9,16 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 37%
+source-wordcount: '661'
+ht-degree: 27%
 
 ---
 
 # Erstellen und Verwalten von Anzeigen {#creating-and-managing-displays}
 
-Eine Anzeige ist eine virtuelle Gruppierung von Bildschirmen, die nebeneinander angeordnet sind. Die Anzeige ist in Bezug auf eine Anlage dauerhaft. Dies ist das Objekt, mit dem Inhaltsautoren arbeiten und immer als logische Darstellung und nicht als physische Gegenteile referenzieren.
+Eine Anzeige ist eine virtuelle Gruppierung von Bildschirmen, die nebeneinander angeordnet sind. Die Anzeige ist in Bezug auf eine Anlage dauerhaft. Es ist das Objekt, mit dem Inhaltsautoren arbeiten und immer als logische Darstellung und nicht als physische Gegenteile referenzieren.
 
 Wenn Sie einen Standort erstellen, müssen Sie eine Anzeige für Ihren Standort erstellen.
 
@@ -40,7 +40,7 @@ Auf dieser Seite wird beschrieben, wie Anzeigen für Screens erstellt und verwal
 1. Navigieren Sie zum entsprechenden Standort, z. B. `http://localhost:4502/screens.html/content/screens/TestProject`.
 1. Klicken Sie auf Ihren Standortordner und klicken Sie auf **Erstellen** neben dem Pluszeichen in der Aktionsleiste.
 1. Klicks **Anzeige** aus dem **Erstellen** Assistent, klicken Sie auf **Nächste**.
-1. Geben Sie **Name** und **Titel** für Ihren Anzeigeort ein.
+1. Geben Sie Ihre **Name** und **Titel** für Ihren Anzeigeort.
 1. Wählen Sie auf der Registerkarte **Anzeige** die Details für das Layout aus. Wählen Sie die gewünschte **Auflösung**, beispielsweise **Full HD**. Wählen Sie die Anzahl der Geräte horizontal und vertikal aus.
 1. Klicken Sie auf **Erstellen**.
 
@@ -48,7 +48,7 @@ Die Anzeige (*StoreDisplay*) wird erstellt und dem Standort (*SanJose*) hinzugef
 
 ![display](assets/display.gif)
 
-Wenn Sie die Anzeige an einer Position haben, besteht der nächste Schritt darin, eine Gerätekonfiguration für diese bestimmte Anzeige zu erstellen.
+Wenn Sie eine Anzeige an einer Position haben, besteht der nächste Schritt darin, eine Gerätekonfiguration für diese bestimmte Anzeige zu erstellen.
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ Wenn Sie die Anzeige an einer Position haben, besteht der nächste Schritt darin
 >
 >Wenn Sie eine Anzeige für Ihren Standort erstellen, weisen Sie Ihrer Anzeige einen Kanal zu, um den Inhalt zu verwenden.
 >
->Weitere Informationen zum Zuweisen eines Kanals zur Anzeige finden Sie unter [Zuweisen von Kanälen](channel-assignment.md).
+>Siehe [Zuweisen von Kanälen](channel-assignment.md) -Abschnitt, um zu erfahren, wie Sie der Anzeige einen Kanal zuweisen.
 
 ## Erstellen einer neuen Gerätekonfiguration {#creating-a-new-device-config}
 
@@ -80,13 +80,13 @@ Die Gerätekonfiguration wird erstellt und der aktuellen Anzeige hinzugefügt. (
 >
 >Wie in der folgenden Abbildung gezeigt, wenn die Gerätekonfiguration in der **Geräte** -Bedienfeld, wenn dieser Gerätekonfiguration kein Kanal zugewiesen ist.
 >
->Sie sollten Vorkenntnisse im Erstellen und Verwalten von Kanälen haben. Weitere Informationen finden Sie unter [Erstellen und Verwalten von Kanälen](managing-channels.md).
+>Sie sollten über Vorkenntnisse im Erstellen und Verwalten von Kanälen verfügen. Weitere Informationen finden Sie unter [Erstellen und Verwalten von Kanälen](managing-channels.md).
 
 ![chlimage_1-9](assets/chlimage_1-9.png)
 
 ## Anzeigen-Dashboard {#display-dashboard}
 
-Das Anzeigen-Dashboard bietet verschiedene Bedienfelder zum Verwalten von Anzeigegeräten und Gerätekonfigurationen für Ihr Gerät.
+Das Anzeigen-Dashboard bietet verschiedene Bedienfelder für die Verwaltung von Anzeigegeräten. Außerdem können Sie damit Ihr Gerät konfigurieren.
 
 ![screen_shot_2018-08-23at42810pm](assets/screen_shot_2018-08-23at42810pm.png)
 
@@ -109,9 +109,9 @@ Klicken Sie auf (**...**) oben rechts in der **ANZEIGEINFORMATIONEN** -Bedienfel
 
 Klicks **Eigenschaften** sodass Sie die Eigenschaften Ihrer Anzeige anzeigen oder ändern können.
 
-Außerdem können Sie den Ereignis-Timer-Wert für Ihren interaktiven Kanal in **Idle Timeout** Eigenschaft unter **Anzeige** Registerkarte. Der Standardwert ist auf *300 Sekunden* eingestellt.
+Außerdem können Sie den Ereignis-Timer-Wert für Ihren interaktiven Kanal im **Anzeige** Registerkarte. Der Standardwert ist auf *300 Sekunden* eingestellt.
 
-Verwenden Sie **CRXDE Lite**, um auf die Eigenschaft **idleTimeout** zuzugreifen: `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels`.
+Verwendung **CRXDE Lite**, um auf die **idleTimeout** -Eigenschaft, also `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels`.
 
 
 ### Bedienfeld „Zugewiesene Kanäle“ {#assigned-channels-panel}
@@ -121,7 +121,7 @@ Das Bedienfeld **ZUGEWIESENE KANÄLE** zeigt die zugewiesenen Kanäle des Gerät
 
 ### Bedienfeld „Geräte“ {#devices-panel}
 
-Das Bedienfeld **GERÄTE** bietet Informationen zu den Gerätekonfigurationen.
+Die **Geräte** Bedienfeld enthält Informationen zu den Gerätekonfigurationen.
 
 Klicken Sie auf (**...**) oben rechts in der **Geräte** -Bedienfeld, damit Sie Gerätekonfigurationen hinzufügen und Geräte aktualisieren können.
 

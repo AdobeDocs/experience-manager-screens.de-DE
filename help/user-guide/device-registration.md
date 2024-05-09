@@ -10,10 +10,10 @@ feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 36%
+source-wordcount: '722'
+ht-degree: 32%
 
 ---
 
@@ -30,7 +30,7 @@ Der Prozess zur Geräteregistrierung erfolgt auf zwei separaten Geräten:
 
 >[!NOTE]
 >
->Nach dem Herunterladen des neuesten Windows-Players (*.exe*), von [AEM 6.4 Player-Downloads](https://download.macromedia.com/screens/) Führen Sie die Schritte im Player aus, um die Ad-hoc-Installation abzuschließen:
+>Nach dem Herunterladen des neuesten Windows-Players (*.exe*), aus dem [AEM 6.4 Player-Downloads](https://download.macromedia.com/screens/) Führen Sie die Schritte im Player aus, um die Ad-hoc-Installation abzuschließen:
 >
 >1. Halten Sie die linke obere Ecke gedrückt, um das Admin-Bedienfeld zu öffnen.
 >1. Navigieren Sie im linken Aktionsmenü zu **Konfiguration**, geben Sie die Standortadresse der AEM-Instanz unter **Server** ein und klicken Sie auf **Speichern**.
@@ -69,7 +69,7 @@ Der Prozess zur Geräteregistrierung erfolgt auf zwei separaten Geräten:
 
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
-1. Wenn die Variable **Registrierungs-Code** auf beiden Computern identisch ist, klicken Sie auf **Bestätigen** in AEM, wie im Schritt (6) gezeigt.
+1. Wenn die Variable **Registrierungs-Code** auf beiden Computern identisch ist, klicken Sie auf das **Bestätigen** in AEM, wie in Schritt (6) gezeigt.
 1. Legen Sie den gewünschten Namen für das Gerät fest und klicken Sie auf **Registrieren**.
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
@@ -112,7 +112,7 @@ Wenn Sie das Gerät nicht einer Anzeige zugewiesen haben, führen Sie die folgen
 
    ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
 
-   Sie können das Anzeigen-Dashboard auch bei Auswahl anzeigen **Beenden**.
+   Außerdem können Sie das Anzeigen-Dashboard anzeigen, indem Sie **Beenden**.
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
@@ -144,19 +144,19 @@ Wenn Sie Geräte für Ihren Player registriert haben, können Sie alle Geräte �
 * Der Benutzer kann jedes in der Variablen *Geräte-ID* oder *Gerätename*.
 
   >[!NOTE]
-  >Es wird empfohlen, die Gerätenamen in mehreren Wörtern zu erstellen, z. B. *Boston Store Lobby* und nicht *BostonStoreLobby*.
+  >Es wird empfohlen, die Gerätenamen in mehreren Wörtern zu erstellen, z. B. *`Boston Store Lobby`* anstelle von einer einzelnen *`BostonStoreLobby`*.
 
-* Wenn Sie Gerätenamen wie *Boston Store Lobby*, sucht es nach einem beliebigen Wort *Boston*, *store* oder *Lobby*. Wenn der Gerätename jedoch *BostonStoreLobby*, suchen Sie dann nach *Boston* zeigt keine Ergebnisse an.
+* Wenn Sie Gerätenamen wie *`Boston Store Lobby`*, sucht es nach einem beliebigen Wort *`boston`*, *`store`* oder *`lobby`*. Wenn der Gerätename jedoch *`BostonStoreLobby`*, suchen Sie dann nach *`boston`* zeigt keine Ergebnisse an.
 
-* Der Platzhalter `*` wird für die Suche unterstützt. Wenn Sie alle Geräte mit Namen finden möchten, die mit *Boston*, können Sie *Boston**.
+* Der Platzhalter `*` wird für die Suche unterstützt. Wenn Sie alle Geräte mit Namen finden möchten, die mit *`boston`* können Sie *`boston`**.
 
-* Wenn der Gerätename *BostonStoreLobby* und die Suche nach *Boston* gibt das Ergebnis nicht zurück, indem Sie *Boston** in Ihren Suchkriterien gibt das Ergebnis zurück.
+* Wenn der Gerätename *`BostonStoreLobby`* und die Suche nach *`boston`* gibt das Ergebnis nicht zurück, indem Sie *`boston`** in Ihren Suchkriterien gibt das Ergebnis zurück.
 
 ## Einschränkungen bei der Geräteregistrierung {#limitations-on-device-registration}
 
 Systemweite Einschränkungen des Benutzerkennworts können zu Fehlern bei der Geräteregistrierung führen. Die Geräteregistrierung verwendet ein zufällig generiertes Kennwort, um den Gerätebenutzer zu erstellen.
 
-Wenn das Kennwort durch die Variable *AuthorizableActionProvider* -Konfiguration kann das Erstellen des Gerätebenutzers fehlschlagen.
+Wenn die Variable *AuthorizableActionProvider* -Konfiguration beschränkt das Kennwort, wodurch der Gerätebenutzer möglicherweise fehlschlägt.
 
 >[!NOTE]
 >
@@ -172,4 +172,4 @@ javax.jcr.nodetype.ConstraintViolationException: Password violates password cons
 
 ### Sonstige Ressourcen {#additional-resources}
 
-Weitere Informationen zum AEM Screens-Player finden Sie unter [AEM Screens-Player](working-with-screens-player.md).
+Weitere Informationen zum AEM Screens Player finden Sie unter [AEM Screens Player](working-with-screens-player.md).

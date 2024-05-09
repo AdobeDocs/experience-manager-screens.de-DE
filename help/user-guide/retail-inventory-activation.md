@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 31%
+source-wordcount: '577'
+ht-degree: 23%
 
 ---
 
@@ -23,9 +23,9 @@ Im folgenden Anwendungsbeispiel werden je nach den Werten in Ihrer Google Tabell
 
 ## Beschreibung {#description}
 
-In diesem Anwendungsbeispiel wird der Lagerbestand für drei verschiedene Pullover dargestellt. Je nachdem, wie viele Pullover auf Lager vorhanden sind (erfasst in Google Tabellen), wird das Bild (roter, grüner oder blauer Pullover) mit der höchsten Zahl auf dem Bildschirm angezeigt.
+In diesem Anwendungsbeispiel wird der Lagerbestand für drei verschiedene Pullover dargestellt. Je nachdem, wie viele Pullover auf Lager vorhanden sind, die in Google Tabellen aufgezeichnet sind, wird das Bild (rotes, grünes oder blaues Pullover) mit der höchsten Zahl angezeigt.
 
-In diesem Anwendungsfall wird der rote, grüne oder blaue Pullover auf dem Bildschirm angezeigt, der auf der höchsten verfügbaren Anzahl an Pullovern basiert.
+Der rote, grüne oder blaue Pullover wird basierend auf dem höchsten Wert der verfügbaren Pullover angezeigt.
 
 ## Voraussetzungen {#preconditions}
 
@@ -55,22 +55,22 @@ Gehen Sie wie folgt vor, um das Anwendungsbeispiel zur Aktivierung des Einzelhan
    1. Ziehen Sie die **Vergleich: Eigenschaft - Eigenschaft** in den Editor.
    1. Klicken Sie auf **Konfiguration** Symbol.
    1. Klicks **googlesheets/value/1/2** aus der Dropdown-Liste **Vorname der Eigenschaft**.
-   1. Klicken Sie auf **Operator** as **größer als** aus dem Dropdown-Menü.
-   1. Klicks **Datentyp** as **number**.
+   1. Klicken Sie auf **Operator** und als **größer als** aus dem Dropdown-Menü.
+   1. Klicks **Datentyp** und als **number**.
    1. Klicks **googlesheets/value/1/1** aus der Dropdown-Liste **Zweiter Eigenschaftsname**.
    1. Drag &amp; Drop **Weiterer Vergleich: Eigenschaft - Eigenschaft** zum Editor hinzu und klicken Sie auf die Schaltfläche **Konfiguration** Symbol.
    1. Klicks **googlesheets/value/1/2** aus der Dropdown-Liste **Vorname der Eigenschaft**.
-   1. Klicken Sie auf **Operator** as **größer als** aus dem Dropdown-Menü.
-   1. Klicks **Datentyp** as **number**.
+   1. Klicken Sie auf **Operator** und als **größer als** aus dem Dropdown-Menü.
+   1. Klicks **Datentyp** und als **number**.
    1. Klicks **googlesheets/value/1/0** aus der Dropdown-Liste **Zweiter Eigenschaftsname**.
 
    ![screen_shot_2019-05-06at102600am](assets/screen_shot_2019-05-06at102600am.png)
 
-   Bearbeiten und fügen Sie auf gleiche Weise Vergleichseigenschaftsregeln zum Segment **Für_Blau** hinzu, wie in der folgenden Abbildung dargestellt:
+   Bearbeiten und fügen Sie auf ähnliche Weise Vergleichseigenschaftsregeln zum **For_Blue** Segment wie in der folgenden Abbildung dargestellt:
 
    ![screen_shot_2019-05-06at103728am](assets/screen_shot_2019-05-06at103728am.png)
 
-   Bearbeiten und fügen Sie auf ähnliche Weise Vergleichseigenschaftsregeln hinzu **Für_Grün** Segment wie in der folgenden Abbildung dargestellt:
+   Bearbeiten und fügen Sie auf ähnliche Weise Vergleichseigenschaftsregeln zum **Für_Grün** Segment wie in der folgenden Abbildung dargestellt:
 
    ![screen_shot_2019-05-06at103418am](assets/screen_shot_2019-05-06at103418am.png)
 
@@ -85,7 +85,7 @@ Gehen Sie wie folgt vor, um das Anwendungsbeispiel zur Aktivierung des Einzelhan
 
    >[!CAUTION]
    >
-   >Sie sollten Ihre **ContextHub** **Konfigurationen** über den Kanal **Eigenschaften** > **Personalisierung** Registerkarte.
+   >Sie hätten bereits die **ContextHub** **Konfigurationen** über den Kanal **Eigenschaften** > **Personalisierung** Registerkarte.
 
    ![screen_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
 
@@ -114,6 +114,6 @@ Gehen Sie wie folgt vor, um das Anwendungsbeispiel zur Aktivierung des Einzelhan
 1. **Überprüfen der Vorschau**
 
    1. Klicken Sie auf **Vorschau**. Öffnen Sie außerdem Ihre Google Tabelle und aktualisieren Sie den Wert.
-   1. Ändern Sie den Wert für alle drei verschiedenen Spalten. Beachten Sie, dass das Anzeigebild entsprechend dem höchsten Bestandswert aktualisiert wird.
+   1. Ändern Sie den Wert für alle drei verschiedenen Spalten. Beachten Sie, dass das Anzeigebild entsprechend dem höchsten Wert im Bestand aktualisiert wird.
 
    ![retail_result](assets/retail_result.gif)
