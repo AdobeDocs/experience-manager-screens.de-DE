@@ -10,9 +10,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '533'
 ht-degree: 40%
 
 ---
@@ -50,11 +50,11 @@ Im folgenden Abschnitt erhalten Sie einen Überblick über die Schlüsselbegriff
 
 ### Machbarkeitsstudie (POC) {#proof-of-concept-poc}
 
-Der Zweck eines POC besteht darin, ein erstes Feedback zu den Schlüsselfunktionen einer Lösung zu erhalten. Es ermöglicht sowohl dem Endkunden als auch dem Audio-/Video-Integrator die Möglichkeit, Verbesserungsbereiche zu identifizieren und Annahmen über Arbeitsanforderungen und Ressourcenanforderungen vorzubereiten. Ein POC ermöglicht es beiden Parteien auch, die Leistung der Lösung zu bewerten, die normalerweise durch Folgendes gemessen wird:
+Der Zweck eines POC besteht darin, ein erstes Feedback zu den Schlüsselfunktionen einer Lösung zu erhalten. Es ermöglicht sowohl dem Endkunden als auch dem Audio-Video-Integrator die Möglichkeit, Verbesserungsbereiche zu identifizieren und Annahmen über Arbeitsanforderungen und Ressourcenanforderungen vorzubereiten. Ein POC ermöglicht es beiden Parteien auch, die Leistung der Lösung zu bewerten, die normalerweise durch Folgendes gemessen wird:
 
 ### Qualitätskontrolle {#quality-control}
 
-Die Integration von Systemen und Software beginnt mit dem IT-Engineering-Team des Audio/Video-Integrators. Unter Bezugnahme auf den genehmigten Systementwurf konfiguriert, implementiert und überwacht das IT-Engineering-Team die Installation von Hardware-Komponenten in einer &quot;Lab-Umgebung&quot;in der Anlage des Audio-/Video-Integrators. Dies erlaubt eine genaue Überprüfung der gesamten Lösung für die Qualitätssicherung.
+Die Integration von Systemen und Software beginnt mit dem IT-Engineering-Team des Audio-Video-Integrators. Unter Bezugnahme auf den genehmigten Systementwurf konfiguriert, implementiert und überwacht das IT-Engineering-Team die Installation von Hardware-Komponenten in einer &quot;Lab-Umgebung&quot;in der Anlage des Audio-Video-Integrators. Dies erlaubt eine genaue Überprüfung der gesamten Lösung für die Qualitätssicherung.
 
 Nach Abschluss des QC-Tests erstellt das IT-Engineering-Team Dokumentation, Workflows und Schulungen zur Referenz während des Day-2-Supports. Zu den zu testenden Systemaspekten gehören:
 

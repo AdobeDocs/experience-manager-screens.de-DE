@@ -1,19 +1,19 @@
 ---
 title: Zielgruppe
 description: Erfahren Sie mehr darüber, wer die Zielgruppe für das Handbuch mit Best Practices für AEM Screens ist.
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 55%
+source-wordcount: '493'
+ht-degree: 44%
 
 ---
 
 
 # Zielgruppe  {#target-audience}
 
-Als erfahrener AEM-Implementor haben Sie wahrscheinlich gesehen, wie die Rollen als *Autoren*, *Entwickler*, und *IT/Techniker*.
+Als erfahrener AEM-Implementor haben Sie wahrscheinlich gesehen, wie die Rollen als *Autoren*, *Entwickler*, und *IT-Techniker*.
 
-In einem typischen AEM Screens-Projekt werden die Rollen weiter verfeinert, da sie jeweils eine wichtige Aufgabe im Projekt haben.
+In einem typischen AEM Screens-Projekt werden die Rollen weiter verfeinert, da sie jeweils einen wichtigen Zweck im Projekt erfüllen.
 
 Das folgende Diagramm zeigt die Rollen, die Sie im Handbuch erwarten können.
 
@@ -38,20 +38,20 @@ Benutzerdefinierte Funktionen, die für die Bearbeitung von UX-Parametern (User 
 
 AEM-Implementoren stellen benutzerdefinierte Funktionen an Standorten in der Regel schrittweise bereit. Beispielsweise richten sie möglicherweise zunächst Unterstützung für die Wiedergabe von einfachen Videoschleifen oder statischen Grafikinhalten ein. Die nächste Phase umfasst die Möglichkeit, die Wiedergabe lokalisierter Inhalte über dynamische Vorlagen und Metadaten-Tags zu unterstützen. In anderen Phasen werden interaktive Elemente über Touchscreens, Sensoren, dynamische Trigger usw. unterstützt.
 
-### Audio-/Video-Integratoren {#av-integrators}
+### Audio-Video-Integratoren {#av-integrators}
 
-Der Audio-/Video-Integrator ist der Hardwareanbieter/-partner. Dabei handelt es sich um die Partei, die sich mit der Vorbereitung von Design und Sites für den Einzelhandel beschäftigt, einschließlich Beschaffung, Konfiguration und Bereitstellung der Hardware. Es handelt sich normalerweise um einen beauftragten Drittanbieter, der Zugriff auf ein Network Operations Center (NOC) hat. Oft ist der Audio-/Video-Integrator aufgrund seiner kontinuierlichen Beteiligung nach dem Start der Anwendung der Projekteigentümer.
+Der Audio-Video-Integrator ist der Hardwareanbieter Partner. Diese Partei befasst sich mit dem Design und der Vorbereitung von Websites für den Einzelhandel, einschließlich Beschaffung, Konfiguration und Bereitstellung von Hardware. Es handelt sich normalerweise um einen beauftragten Drittanbieter, der Zugriff auf ein Network Operations Center (NOC) hat. Oft ist der Audio-Video-Integrator aufgrund seiner kontinuierlichen Beteiligung nach dem Start der Anwendung der Projekteigentümer.
 
-Ein Audio-/Video-Integrator ist für die Durchführung der Erkundung mit Endkunden verantwortlich, um Anforderungen zu definieren, die den Projektumfang für das Entwerfen, Erstellen und effektive Verwalten von Bereitstellungen rund um Digital Signage-Hardware bestimmen.
+Ein Audio-Video-Integrator ist für die Durchführung von Erkundungen mit Endkunden verantwortlich, um Anforderungen zu definieren und den Projektumfang für das Entwerfen, Erstellen und effektive Verwalten von Bereitstellungen rund um Digital Signage-Hardware zu bestimmen.
 
-### Geschäftsstratege {#business-strategist}
+### Geschäftsstratege
 
 Geschäftsstrategen vertreten die Entscheidungsträger im Unternehmen. Diese Rolle ist stark in die Erkundungs- und Anforderungsschritte eingebunden und dient als Hauptmotor für das Projekt.
 
 Geschäftsstrategen definieren die Anforderungen und richten KPI-Metriken ein. Ein Geschäftsstratege könnte zum Beispiel sein:
 
 * Marketing oder
-* Sales Manager Digital Strategy Manager Creatives / Content Management.
+* Sales Manager, Digital Strategy Manager, Creatives oder Content Management.
 
 Das Creatives- und Content Management-Team arbeitet eng mit dem Strategieteam zusammen, um Anforderungen in Kundenerlebnisse zu verwandeln. Es verwaltet das allgemeine UX-Design und kuratiert Inhalte, die zur Marke passen.
 
@@ -62,7 +62,7 @@ Das Creatives- und Content Management-Team könnte zum Beispiel sein:
 
 ### Projektmanager {#project-managers}
 
-Projekt-Manager verwalten in der Regel die gesamte Bereitstellung für Ihre AEM Screens-Umgebung. Ein Projektmanager ist die zentrale Person für die gesamte Implementierung des ausgewählten Projekts. Sie übernehmen wichtige Aufgaben wie die Festlegung von Zeitplänen, die Handhabung von Teamanforderungen und Kommunikation, die Bewältigung von Herausforderungen und die Sicherstellung, dass Ziele erreicht werden.
+Projekt-Manager verwalten in der Regel die gesamte Bereitstellung für Ihre AEM Screens-Umgebung. Ein Projektmanager ist die zentrale Person für die gesamte Implementierung des ausgewählten Projekts. Sie übernehmen wichtige Aufgaben wie die Festlegung von Zeitplänen, die Bedienung von Teamanforderungen und Kommunikation. Außerdem werden Herausforderungen angegangen und sichergestellt, dass die Ziele erreicht werden.
 
 >[!NOTE]
 >Ausführliche Informationen zu den verschiedenen Rollen und Zuständigkeiten sowie zur Zielgruppe für ein Digital Signage-Projekt finden Sie unter **[Projektrollen und Zuständigkeiten](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**.

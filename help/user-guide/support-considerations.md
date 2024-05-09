@@ -10,9 +10,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: d1472137-c15f-44fb-89c3-d251a06c392b
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '600'
 ht-degree: 42%
 
 ---
@@ -37,25 +37,25 @@ Die Planung umfasst:
 * Beheben von Fehlern bei Hardware, Software oder Konnektivität
 * Abstimmen der Kosten für die Problemlösung auf die Geschäftsanforderungen des Endkunden
 * Identifizieren der besten Methode zur Behebung von Problemen im Netzwerk.
-* Förderung der Ausrichtung zwischen dem AEM-Implementor und dem Audio-/Video-Integrator bei der Erstellung von Support-Plänen für Tag 2
+* Förderung der Ausrichtung zwischen dem AEM-Implementor und dem Audio-Video-Integrator bei der Erstellung von Support-Plänen für Tag 2
 
 ## Zusammenfassen der wichtigsten Aspekte für Tag 2-Support {#summary-of-key-considerations-involved-in-day-support}
 
 Im Folgenden finden Sie einige wichtige Aspekte für Tag 2-Support:
 
-* Um die Ausrichtung und den reibungslosen Übergang von der Implementierung zur Betriebsunterstützung sicherzustellen, arbeitet der AEM-Implementor mit dem Audio/Video-Integrator zusammen, um sicherzustellen, dass die entsprechenden Support-Skripte im Rahmen des Tag 2-Support-Plans definiert werden.
-* Anforderungen wie Remote-Geräteverwaltung, Hilfe-Desk-Verfügbarkeit und Vor-Ort-Support durch Techniker sind in diesem Stadium der Entwicklung der Digital Signage-Branche praktisch gegeben. Über diesen Grundbedarf hinaus sollten Audio-/Video-Integratoren auch Kostenvariablen zwischen proaktiven und reaktiven Monitoring- und Support-Modellen untersuchen.
+* Um die Ausrichtung und den reibungslosen Übergang von der Implementierung zur Betriebsunterstützung sicherzustellen, arbeitet der AEM-Implementor mit dem Audio-Video-Integrator zusammen, um sicherzustellen, dass die entsprechenden Support-Skripte im Rahmen des Tag 2-Support-Plans definiert werden.
+* Anforderungen wie Remote-Geräteverwaltung, Hilfe-Desk-Verfügbarkeit und Vor-Ort-Support durch Techniker sind in diesem Stadium der Entwicklung der Digital Signage-Branche praktisch gegeben. Über diesen Grundbedarf hinaus sollten Audio-Video-Integratoren auch Kostenvariablen zwischen proaktiven und reaktiven Monitoring- und Support-Modellen untersuchen.
 
-* Anforderungen wie Remote-Geräteverwaltung, Hilfe-Desk-Verfügbarkeit und Vor-Ort-Support durch Techniker sind in diesem Stadium der Entwicklung der Digital Signage-Branche praktisch gegeben. Über diesen Grundbedarf hinaus sollten Audio-/Video-Integratoren auch Kostenvariablen zwischen proaktiven und reaktiven Monitoring- und Support-Modellen untersuchen.
-* Um sich auf langfristigen Erfolg vorzubereiten, ist es von größter Bedeutung, in Zusammenarbeit mit dem Audio/Video-Integrator einen Support Level Agreement für Tag 2 (auch als &quot;S.L.A.&quot;bezeichnet) einzuführen. SLAs beschreiben Support-Services nach der Bereitstellung und helfen dabei, Kundenerwartungen festzulegen.
+* Anforderungen wie Remote-Geräteverwaltung, Hilfe-Desk-Verfügbarkeit und Vor-Ort-Support durch Techniker sind in diesem Stadium der Entwicklung der Digital Signage-Branche praktisch gegeben. Über diesen Grundbedarf hinaus sollten Audio-Video-Integratoren auch Kostenvariablen zwischen proaktiven und reaktiven Monitoring- und Support-Modellen untersuchen.
+* Um sich auf langfristigen Erfolg vorzubereiten, ist es von größter Bedeutung, in Zusammenarbeit mit dem Audio-Video-Integrator einen Support Level Agreement für Tag 2 (auch als &quot;S.L.A.&quot;bezeichnet) einzuführen. SLAs beschreiben Support-Services nach der Bereitstellung und helfen dabei, Kundenerwartungen festzulegen.
 * Eine wichtige Ressource für die erfolgreiche Verwaltung mehrerer Netzwerke ist die Wissensdatenbank. SharePoint ist eine beliebte Plattform für diese Art von Ressource. Die Wissensdatenbank enthält vordefinierte Fragen und Antworten für NOC-Agenten, um sicherzustellen, dass eingehende Anfragen zur Problemlösung konsistent behandelt werden. Wissensdatenbanken beinhalten in der Regel Referenzmaterialien für Systemkonfigurationen und Standorte, einschließlich Arbeitsblättern für Hardware und Referenzmaterialien für Systemsoftware.
 * Überwachungs- und Verwaltungsfunktionen sind weitgehend von den Betriebssystem- und Bildschirmfunktionen des Media-Players abhängig. Windows-Betriebssysteme bieten die größte Detailgenauigkeit. Bei Implementierungen, die auf Android™- oder iOS-Geräten ausgeführt werden, wird Mobile Device Management (auch MDM genannt) verwendet.
 * Einige Bildschirmhersteller bieten die Möglichkeit, Bildschirme unabhängig von Media-Playern zu überwachen, andere hingegen benötigen ein externes Gerät.
-* Audio-/Video-Integratoren verwenden eine Vielzahl von Technologien, sodass Lösungen flexibel bleiben, um die Anforderungen des Endkunden optimal zu erfüllen.
+* Audio-Video-Integratoren verwenden eine Vielzahl von Technologien, sodass Lösungen flexibel bleiben, um die Anforderungen des Endkunden optimal zu erfüllen.
 
 ## Teil 5: Video-Tutorial zu Support-Aspekten {#part-video-tutorial-on-support-considerations}
 
-In diesem abschließenden Teil eines 5-teiligen Tutorials wird erläutert, wie die Ausrichtung und der reibungslose Übergang von der Implementierung zur Betriebsunterstützung gewährleistet werden können. Außerdem wird erläutert, wie ein AEM-Implementor mit dem Audio-/Video-Integrator zusammenarbeiten muss, um geeignete Support-Skripte sicherzustellen, die im Rahmen des Tag 2-Support-Plans definiert werden.
+In diesem abschließenden Teil eines 5-teiligen Tutorials wird erläutert, wie die Ausrichtung und der reibungslose Übergang von der Implementierung zur Betriebsunterstützung gewährleistet werden können. Außerdem wird erläutert, wie ein AEM-Implementor mit dem Audio-Video-Integrator zusammenarbeiten muss, um geeignete Support-Skripte sicherzustellen, die im Rahmen des Tag 2-Support-Plans definiert werden.
 
 ### Projektüberlegungen
 

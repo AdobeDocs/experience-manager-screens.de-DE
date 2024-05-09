@@ -1,29 +1,29 @@
 ---
 title: '„Teil 1: Projektrollen und Zuständigkeiten“'
-description: In diesem Tutorial erfahren Sie, wie Sie Rollen, Verantwortlichkeiten und Zeitpläne besser verstehen, die während der Vertriebs- und Projektlebenszyklen für ein Digital Signage-Projekt erforderlich sind.
+description: In diesem Tutorial erfahren Sie, welche Rollen, Zuständigkeiten und Zeitpläne während der Vertriebs- und Projektlebenszyklen für ein Digital Signage-Projekt erforderlich sind.
 feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 313cc26f-c509-4b28-a185-4e530e826b83
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 44%
+source-wordcount: '480'
+ht-degree: 39%
 
 ---
 
 # Teil 1: Projektrollen und Zuständigkeiten {#part-project-roles-and-responsibilities}
 
-Auf dieser Seite wird Teil 1 einer 5-teiligen Serie vorgestellt, der Teammitgliedern dabei hilft, Rollen, Zuständigkeiten und Zeitpläne besser zu verstehen, die während des Vertriebs- und Projektlebenszyklus eines Digital Signage-Projekts erforderlich sind.
+Auf dieser Seite wird Teil 1 einer 5-teiligen Serie vorgestellt. Es soll Team-Mitgliedern dabei helfen, die Rollen, Zuständigkeiten und Zeitpläne besser zu verstehen, die während des Vertriebs- und Projektlebenszyklus eines Digital Signage-Projekts erforderlich sind.
 
 ## Überblick {#overview}
 
-Im folgenden Tutorial werden Projektrollen und Zuständigkeiten für Adobe, AEM-Implementoren und Audio-/Visual-Integratoren auf hoher Ebene behandelt. Sie können zu nachfolgenden Folgen navigieren, um einen umfassenden Überblick darüber zu erhalten, wie Sie AEM Screens-Chancen erfolgreich entwickeln und Bereitstellungen für langfristigen Erfolg positionieren können.
+Das folgende Tutorial behandelt Projektrollen und Zuständigkeiten für Adobe, AEM Implementoren und Audio/Visual Integratoren auf hoher Ebene. Sie können zu nachfolgenden Folgen navigieren, um einen umfassenden Überblick darüber zu erhalten, wie Sie AEM Screens-Chancen erfolgreich entwickeln und Bereitstellungen für langfristigen Erfolg positionieren können.
 
 Es gibt drei Hauptgruppen, die durch den Versandprozess interagieren:
 
 * Adobe
-* Audio-/Video-Integrator
+* Audio-Video-Integrator
 * AEM-Implementierungs-Team
 
 >[!NOTE]
@@ -44,11 +44,11 @@ Ein **AEM-Implementor** ist für die Durchführung von Entwicklungs- und Integra
 
 Benutzerdefinierte Funktionen, die für die Bearbeitung von UX-Parametern (User Experience) bei Endkunden erforderlich sind, werden dabei ebenfalls erfasst und bereitgestellt.
 
-AEM Implementoren stellen benutzerdefinierte Funktionen in der Regel stufenweise an Standorten bereit. Beispielsweise richten sie möglicherweise zunächst Unterstützung für die Wiedergabe von einfachen Videoschleifen oder statischen Grafikinhalten ein. Die nächste Phase umfasst die Möglichkeit, die Wiedergabe lokalisierter Inhalte über dynamische Vorlagen und Metadaten-Tags zu unterstützen. In anderen Phasen werden interaktive Elemente über Touchscreens, Sensoren, dynamische Trigger usw. unterstützt.
+AEM Implementoren stellen benutzerdefinierte Funktionen in der Regel stufenweise an Standorten bereit. Beispielsweise richten sie möglicherweise zunächst Unterstützung für die Wiedergabe von einfachen Videoschleifen oder statischen Grafikinhalten ein. Die nächste Phase umfasst die Aktivierung der Unterstützung der Wiedergabe lokalisierter Inhalte über dynamische Vorlagen und Metadaten-Tags. Es umfasst weitere Phasen, in denen interaktive Elemente über Touchscreens, Sensoren, dynamische Trigger usw. unterstützt werden.
 
-#### Audio-/Video-Integratoren {#av-integrators}
+#### Audio-Video-Integratoren {#av-integrators}
 
-Ein **Audio-/Video-Integrator** ist für die Durchführung der Erkundung mit Endkunden verantwortlich, um Anforderungen zu definieren, die den Projektumfang für das Entwerfen, Erstellen und effektive Verwalten von Bereitstellungen rund um Digital Signage-Hardware bestimmen.
+Ein **Audio-Video-Integrator** ist für die Durchführung der Erkundung mit Endkunden verantwortlich, um Anforderungen zu definieren und den Projektumfang für das Entwerfen, Erstellen und effektive Verwalten von Bereitstellungen rund um Digital Signage-Hardware zu bestimmen.
 
 ## Teil 1: Video-Tutorial zu Projektrollen und Zuständigkeiten {#part-video-tutorial-on-project-roles-and-responsibilities}
 

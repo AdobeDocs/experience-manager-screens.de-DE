@@ -2,10 +2,10 @@
 title: Projektrollen und Zuständigkeiten in AEM Screens
 description: Erfahren Sie mehr über die Rollen und Zuständigkeiten von AEM Screens-Projekten.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '1243'
-ht-degree: 67%
+source-wordcount: '1234'
+ht-degree: 68%
 
 ---
 
@@ -39,11 +39,11 @@ Benutzerdefinierte Funktionen, die für die Bearbeitung von UX-Parametern (User 
 
 AEM-Implementoren stellen benutzerdefinierte Funktionen an Standorten in der Regel schrittweise bereit. Beispielsweise richten sie möglicherweise zunächst Unterstützung für die Wiedergabe von einfachen Videoschleifen oder statischen Grafikinhalten ein. Die nächste Phase umfasst die Möglichkeit, die Wiedergabe lokalisierter Inhalte über dynamische Vorlagen und Metadaten-Tags zu unterstützen. In anderen Phasen werden interaktive Elemente über Touchscreens, Sensoren, dynamische Trigger usw. unterstützt.
 
-### Audio-/Video-Integratoren {#av-integrators}
+### Audio-Video-Integratoren {#av-integrators}
 
-Der Audio-/Video-Integrator ist der Hardwareanbieter/-partner. Dabei handelt es sich um die Partei, die sich mit der Vorbereitung von Design und Sites für den Einzelhandel beschäftigt, einschließlich Beschaffung, Konfiguration und Bereitstellung der Hardware. Es handelt sich normalerweise um einen beauftragten Drittanbieter, der Zugriff auf ein Network Operations Center (NOC) hat. Oft ist der Audio-/Video-Integrator aufgrund seiner kontinuierlichen Beteiligung nach dem Start der Anwendung der Projekteigentümer.
+Der Audio-Video-Integrator ist der Hardwareanbieter/-partner. Dabei handelt es sich um die Partei, die sich mit der Vorbereitung von Design und Sites für den Einzelhandel beschäftigt, einschließlich Beschaffung, Konfiguration und Bereitstellung der Hardware. Es handelt sich normalerweise um einen beauftragten Drittanbieter, der Zugriff auf ein Network Operations Center (NOC) hat. Oft ist der Audio-Video-Integrator aufgrund seiner kontinuierlichen Beteiligung nach dem Start der Anwendung der Projekteigentümer.
 
-Ein Audio-/Video-Integrator ist für die Durchführung von Erkundungen mit Endkunden verantwortlich, um Anforderungen zu definieren, die den Projektumfang für das Entwerfen, Erstellen und effektive Verwalten von Bereitstellungen rund um Digital Signage-Hardware bestimmen.
+Ein Audio-Video-Integrator ist für die Durchführung von Erkundungen mit Endkunden verantwortlich, um Anforderungen zu definieren, die den Projektumfang für das Entwerfen, Erstellen und effektive Verwalten von Bereitstellungen rund um Digital Signage-Hardware bestimmen.
 
 #### Hardwarepartner {#selecting-hardware-partner}
 
@@ -120,7 +120,7 @@ Im Folgenden finden Sie ein Beispiel für ein RACI-Diagramm mit Verwendung der R
 
 Die folgende Tabelle fasst die Überlegungen zu **Tag 0: Pre-Sales** zusammen:
 
-| **Schritt** | **Audio-/Video-Integrator** | **AEM-Implementor** | **Geschäftsstrategie** | **Content Management** |
+| **Schritt** | **Audio-Video-Integrator** | **AEM-Implementor** | **Geschäftsstrategie** | **Content Management** |
 |---|---|---|---|---|
 | Teambildung und Anbieterauswahl | I | I | RA | RA |
 | Einigung über Rollen und Zuständigkeiten | RA | RA | RA | RA |
@@ -132,7 +132,7 @@ Die folgende Tabelle fasst die Überlegungen zu **Tag 0: Pre-Sales** zusammen:
 
 Die folgende Tabelle fasst die Überlegungen zu **Tag 0: Projektimplementierung (Anwendungs-Design)** zusammen:
 
-| **Schritt** | **Audio-/Video-Integrator** | **AEM-Implementor** | **Geschäftsstrategie** | **Content Management** |
+| **Schritt** | **Audio-Video-Integrator** | **AEM-Implementor** | **Geschäftsstrategie** | **Content Management** |
 |---|---|---|---|---|
 | Einigung über Rollen und Zuständigkeiten | RA | RA | RA | RA |
 | Ausrichtung am Projekt- und Zeitplan | RA | RA | C | C |
@@ -152,7 +152,7 @@ Die folgende Tabelle fasst die Überlegungen zu **Tag 0: Projektimplementierung
 
 Die folgende Tabelle fasst die Überlegungen zu **Tag 0: Projektimplementierung (Einzelhändlervorbereitung)** zusammen:
 
-| **Schritt** | **Audio-/Video-Integrator** | **AEM-Implementor** | **Geschäftsstrategie** | **Content Management** |
+| **Schritt** | **Audio-Video-Integrator** | **AEM-Implementor** | **Geschäftsstrategie** | **Content Management** |
 |---|---|---|---|---|
 | Hardwarebestellung und -lagerung | RA | I | I | I |
 | Onboarding-Zeitplan für den Einzelhandel | I | I | C | RA |
@@ -162,7 +162,7 @@ Die folgende Tabelle fasst die Überlegungen zu **Tag 0: Projektimplementierung
 
 Die folgende Tabelle fasst die Überlegungen zu **Tag 1: Projektimplementierung (Hardware)** zusammen:
 
-| **Schritt** | **Audio-/Video-Integrator** | **AEM-Implementor** | **Geschäftsstrategie** | **Content Management** |
+| **Schritt** | **Audio-Video-Integrator** | **AEM-Implementor** | **Geschäftsstrategie** | **Content Management** |
 |---|---|---|---|---|
 | Einigung über Rollen und Zuständigkeiten | RA | RA | RA | RA |
 | Einzelhandelsdesign inklusive Verkabelung | - | - | - | - |
@@ -179,7 +179,7 @@ Die folgende Tabelle fasst die Überlegungen zu **Tag 1: Projektimplementierung
 
 * **Entwickler**: In der Regel ein Mitglied des AEM Screens-Implementierungsteams oder Übergabe an das interne Entwicklungsteam
 
-* **Techniker**: Entweder vom Audio/Video-Integrator beauftragt oder Teil desselben Unternehmens ist.
+* **Techniker**: Entweder vom Audio-Video-Integrator beauftragt oder Teil desselben Unternehmens ist.
 
 In der folgenden Tabelle wird **Tag 2 zusammengefasst: RACI-Diagramm für Post-Launch-Support**:
 

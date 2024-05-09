@@ -1,9 +1,9 @@
 ---
 title: Post-Launch-Support
 description: Weitere Informationen zur Unterstützung von AEM Screens nach dem Start finden Sie im Best Practices-Handbuch.
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '372'
 ht-degree: 23%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 23%
 
 Übersehen Sie nicht den Post-Launch-Support in der frühen Phase.
 
-Nur wenn Sites angemessenen Support von Ihrem Hardwareanbieter erhalten, können Sie den Geschäftsbetrieb richtig aufrechterhalten. Die **Audio-/Video-Integrator** sollte eng mit den Interessenträgern der Wirtschaft zusammenarbeiten und die Anforderungen aus verschiedenen Gründen ermitteln.
+Nur wenn Sites angemessenen Support von Ihrem Hardwareanbieter erhalten, können Sie den Geschäftsbetrieb richtig aufrechterhalten. Die **Audio-Video-Integrator** sollte eng mit den Interessenträgern der Wirtschaft zusammenarbeiten und die Anforderungen aus verschiedenen Gründen ermitteln.
 Beachten Sie die folgenden Anforderungen beim Post-Launch-Support:
 
 * Geräteverwaltung per Fernzugriff
@@ -22,11 +22,11 @@ Beachten Sie die folgenden Anforderungen beim Post-Launch-Support:
 * Vor-Ort-Support durch Techniker
 * Geräteverwaltung (Garantieunterstützung und Lagerung von Ersatzgeräten)
 
-Um sich auf langfristigen Erfolg vorzubereiten, ist es von größter Bedeutung, in Zusammenarbeit mit dem Audio/Video Integrator eine Service Level Agreement (SLA) für Tag 2 zu erstellen. Der SLA sollte alle Support-Services nach der Bereitstellung detailliert beschreiben, um die Kundenerwartungen genau festzulegen.
+Um sich auf langfristigen Erfolg vorzubereiten, ist es von größter Bedeutung, in Zusammenarbeit mit dem Audio-Video-Integrator eine Service Level Agreement (SLA) für Tag 2 zu erstellen. Der SLA sollte alle Support-Services nach der Bereitstellung detailliert beschreiben, um die Kundenerwartungen genau festzulegen.
 
 >[!NOTE]
 >
->Definieren Sie operative Parameter, die frühzeitig in den operationellen Budgets enthalten sind, und richten Sie die Zuständigkeiten an den AEM-Implementor und den Audio/Video-Integrator aus.
+>Definieren Sie operative Parameter, die frühzeitig in den operationellen Budgets enthalten sind, und richten Sie die Zuständigkeiten an den AEM-Implementor und den Audio-Video-Integrator aus.
 >
 >* Ist die Bereitstellung eines Werbenetzwerks mit vielen Stakeholdern an ein monetarisiertes Netzwerk gebunden? Dies kann im Vergleich zu einem Corporate Communications-Netzwerk kürzere Auflösungszeiten erfordern.
 >* Ist die Anwendung für die Führungsebene des Endkunden gut sichtbar? Sites mit hoher Sichtbarkeit können einen anderen Umgang erfordern.

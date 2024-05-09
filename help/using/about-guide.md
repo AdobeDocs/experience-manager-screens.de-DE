@@ -2,10 +2,10 @@
 title: Informationen zu diesem Handbuch
 description: Erfahren Sie mehr über Best Practices für AEM Screens-Projekte zur Planung und Ausführung von Projekten, von der strategischen und Designinformation über die Bereitstellung bis hin zur Unterstützung.
 exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 37%
+source-wordcount: '254'
+ht-degree: 48%
 
 ---
 
@@ -16,7 +16,7 @@ Das Handbuch mit Best Practices für AEM Screens enthält Anleitungen zur erfol
 Die Zielgruppe für dieses Dokument ist:
 
 * *AEM-Implementoren*
-* *Audio-/Video-Integratoren*
+* *Audio-Video-Integratoren*
 * *Geschäftsstrategen*
 * *Projektmanager*
 * *Berater*
@@ -25,7 +25,7 @@ Es sollte jedoch hervorgehoben werden, dass auch viele andere Rollen von der Lek
 
 Die AEM Screens ist eine neue Erweiterung von Adobe Experience Manager (AEM). Da es sich bei den Tools um neue Tools handelt und ihre Einsatzmöglichkeiten variieren, ist es von entscheidender Bedeutung, wichtige Aspekte und allgemeine Risikofaktoren für die Entwicklung und den Einsatz von AEM Screens zu ermitteln.
 
-Dieses Handbuch bietet umfassende Einblicke und praktische Ratschläge zur Konzeption, Entwicklung und Einbindung vorsätzlicher Kundenerlebnisse in Ihre Digital Signage-Implementierung. Darüber hinaus wird erläutert, wie Sie mithilfe von Best Practices bei der Bereitstellung eines Digital Signage-Projekts in AEM Screens positive Auswirkungen auf Ihr Unternehmen erzielen können.
+Dieses Handbuch bietet umfassende Einblicke und praktische Ratschläge zur Konzeption, Entwicklung und Einbindung vorsätzlicher Kundenerlebnisse in Ihre Digital Signage-Implementierung. Darüber hinaus wird erläutert, wie Sie mithilfe von Best Practices bei der Bereitstellung eines Digital-Signage-Projekts in AEM Screens positive Auswirkungen auf Ihr Unternehmen erzielen können.
 
 >[!IMPORTANT]
 >

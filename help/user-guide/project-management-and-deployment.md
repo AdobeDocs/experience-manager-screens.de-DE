@@ -10,26 +10,26 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 44%
+source-wordcount: '654'
+ht-degree: 45%
 
 ---
 
 # Teil 4: Projekt-Management und Bereitstellung {#part-project-management-and-deployment}
 
-Auf dieser Seite wird Teil 4 einer 5-teiligen Serie vorgestellt, der die Vorbereitung von Projekten und deren Bereitstellung abdeckt und Schlüsselfaktoren definiert, für die der Audio-/Video-Integrator im Zusammenhang mit Projekt-Management und Bereitstellungsvorbereitung verantwortlich ist.
+Auf dieser Seite wird Teil 4 einer 5-teiligen Serie vorgestellt, der sich mit der Vorbereitung von Projekten und Implementierungen befasst und Schlüsselfaktoren definiert, für die der Audio-Video-Integrator im Zusammenhang mit Projekt-Management und Bereitstellungsvorbereitung verantwortlich ist.
 
 ## Überblick {#overview}
 
 Diese Seite deckt die Projektvorbereitung, Projektinitiierung und Projektfortschritt ab.
 
-Es ist wichtig, dass alle Interessengruppen verstehen, wofür der Audio/Video-Integrator verantwortlich ist, und sicherstellen, dass dokumentierte Pläne anhand der in dieser Folge behandelten Punkte entwickelt werden
+Es ist wichtig für alle Beteiligten zu verstehen, wofür der Audio-Video-Integrator verantwortlich ist, und sicherzustellen, dass dokumentierte Pläne anhand der in dieser Folge behandelten Punkte entwickelt werden
 
 >[!NOTE]
 >
->Für den langfristigen Erfolg ist es wichtig, einen Audio-/Video-Integrator zu ermitteln, der über Erfahrung im Projektmanagement skalierter Digital Signage-Bereitstellungen verfügt. Es wird empfohlen, Projektpläne zwischen dem Audio/Video-Integrator und AEM Implementor zu vergleichen. Auf diese Weise wird die Ausrichtung bei der Entwicklung und Fertigstellung der Pläne sichergestellt.
+>Für den langfristigen Erfolg ist es wichtig, einen Audio-Video-Integrator zu ermitteln, der über Erfahrung im Projektmanagement skalierter Digital-Signage-Bereitstellungen verfügt. Es wird empfohlen, Projektpläne zwischen dem Audio-Video-Integrator und AEM Implementor zu vergleichen. Auf diese Weise wird die Ausrichtung bei der Entwicklung und Fertigstellung der Pläne sichergestellt.
 >
 >Partner, die einen ganzheitlichen Ansatz bei der Verwaltung von &quot;Projektvorbereitung&quot;, &quot;Projektinitiierung&quot;und &quot;Projektfortschritt&quot;wählen, helfen dabei sicherzustellen, dass Ihre Endkunden in der Lage sind, den größtmöglichen Nutzen aus ihrer Investition zu ziehen
 
@@ -72,11 +72,11 @@ Wenn eine Vertriebschance in ein Projekt übergeht, wird ein Auftakt-Meeting gep
 
 Der letzte Teil einer Tage 1-Initiative ist die Durchführung einer NOC-Übergabe. Wenn ein abgeschlossenes Projekt Service und Support an Tag 2 enthält, organisiert der Projekt-Manager ein NOC-Übergabe-Meeting mit den Supervisoren dieser Teams.
 
-Dieses Meeting besteht in erster Linie aus Audio/Video-Integratoren aus den Bereichen Account Management, Network Operations, Field Logistics, Content Services und Accounting. Projektverwaltungsmitarbeiter von Adobe, dem AEM-Implementor und dem Endkunden sind dabei beteiligt, wobei der Audio/Video-Integrator Zeitplan, Kadenz und Mautsätze definiert. Projekt-Manager sind in der Regel am besten in der Lage, Diskussionen zu koordinieren, um die Abstimmung der entsprechenden Parteien sicherzustellen und die erforderlichen Unterlagen für das NOC-Übergabe-Meeting zu entwickeln. Kritische Support-Dokumentation wird wahrscheinlich von IT und/oder Audio/Video Engineering sowie von Vertriebs- und Account-Management-Ressourcen aller beteiligten Parteien bereitgestellt. Für alle Clients, die Helpdesk-Unterstützung von einem NOC benötigen, muss den NOC-Supervisoren die Dokumentation zum Hochladen auf eine Knowledge Base-Plattform zur Verfügung gestellt werden.
+Dieses Meeting besteht in erster Linie aus Audio-Video-Integratoren aus den Bereichen Account Management, Network Operations, Field Logistics, Content Services und Accounting. Projektmanagement-Mitarbeiter aus Adobe, dem AEM-Implementor und dem Endkunden sind dabei gemeinsam beteiligt, wobei der Audio-Video-Integrator Zeitplan, Kadenz und Mautsätze definiert. Projekt-Manager sind in der Regel am besten in der Lage, Diskussionen zu koordinieren, um die Abstimmung der entsprechenden Parteien sicherzustellen und die erforderlichen Unterlagen für das NOC-Übergabe-Meeting zu entwickeln. Kritische Support-Dokumentation wird wahrscheinlich von IT und/oder Audio-Video-Engineering sowie von Vertriebs- und Account-Management-Ressourcen aller beteiligten Parteien bereitgestellt. Für alle Clients, die Helpdesk-Unterstützung von einem NOC benötigen, muss den NOC-Supervisoren die Dokumentation zum Hochladen auf eine Knowledge Base-Plattform zur Verfügung gestellt werden.
 
 ## Teil 4: Video-Tutorial zu Projekt-Management und Bereitstellung {#part-video-tutorial-on-project-management-and-deployment}
 
-Erfahren Sie mehr über die Vorbereitung von Projekt-Management und -Bereitstellung und definieren Sie Schlüsselfaktoren, für die der Audio-/Video-Integrator im Zusammenhang mit der Projektverwaltung und Bereitstellungsvorbereitung verantwortlich ist.
+Erfahren Sie mehr über Projektmanagement und Bereitstellungsvorbereitung und definieren Sie Schlüsselfaktoren, für die der Audio-Video-Integrator im Zusammenhang mit Projektmanagement und Bereitstellungsvorbereitung verantwortlich ist.
 
 ### Projekt-Management und Bereitstellung
 
