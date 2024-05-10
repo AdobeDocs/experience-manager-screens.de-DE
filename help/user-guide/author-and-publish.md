@@ -2,10 +2,10 @@
 title: Konfigurieren von Autoren- und Veröffentlichungsinstanzen in AEM Screens
 description: Erfahren Sie, wie Sie eine Autoreninstanz und eine Veröffentlichungsinstanz für AEM Screens konfigurieren.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 6b4fc934c31640168528fa3e72cf634773f4f8e6
 workflow-type: tm+mt
-source-wordcount: '1923'
-ht-degree: 40%
+source-wordcount: '1940'
+ht-degree: 33%
 
 ---
 
@@ -88,7 +88,7 @@ Gehen Sie wie folgt vor, um einen standardmäßigen Replikationsagenten einzuric
 
    >[!NOTE]
    >
-   >Benutzer muss **Aktiviert** , um den Replikationsagenten zu aktivieren. Aktivieren Sie diese Option bei den Replikationsagenten &quot;Standard&quot;, &quot;Screens&quot;und &quot;Rückwärtsreplikation&quot;.
+   >Der Benutzer muss **Aktiviert** , um den Replikationsagenten zu aktivieren. Aktivieren Sie diese Option bei den Replikationsagenten &quot;Standard&quot;, &quot;Screens&quot;und &quot;Rückwärtsreplikation&quot;.
 
    ![screen_shot_2019-02-25at30134pm](assets/screen_shot_2019-02-25at30134pm.png)
 
@@ -101,10 +101,10 @@ Gehen Sie wie folgt vor, um einen standardmäßigen Replikationsagenten einzuric
    >Alternativ können Sie einen vorhandenen Replikationsagenten kopieren und umbenennen.
 
 
-#### Erstellen von standardmäßigen Replikationsagenten  {#creating-standard-replication-agents}
+#### Erstellen von standardmäßigen Replikationsagenten {#creating-standard-replication-agents}
 
-1. Erstellen Sie einen standardmäßigen Replikationsagenten für pub1 (der vordefinierte Standardagent sollte bereits konfiguriert sein). Beispiel: *`https://<hostname>:4503/bin/receive?sling:authRequestLogin=1`*
-1. Richten Sie einen standardmäßigen Replikationsagenten für pub2 ein. Sie können den Replikationsagenten von pub1 kopieren und den für pub2 zu verwendenden Transport aktualisieren, indem Sie in der Transportkonfiguration den Port ändern. Zum Beispiel: *`https://<hostname>:4504/bin/receive?sling:authRequestLogin=1`*.
+1. Erstellen Sie einen standardmäßigen Replikationsagenten für pub1 (ein vordefinierter Standardagent sollte bereits konfiguriert sein). Beispiel: *`https://<hostname>:4503/bin/receive?sling:authRequestLogin=1`*
+1. Erstellen Sie einen standardmäßigen Replikationsagenten für pub2. Sie können den Replikationsagenten von pub1 kopieren und den für pub2 zu verwendenden Transport aktualisieren, indem Sie in der Transportkonfiguration den Port ändern. Zum Beispiel: *`https://<hostname>:4504/bin/receive?sling:authRequestLogin=1`*.
 
 #### Erstellen von Screens-Replikationsagenten {#creating-screens-replication-agents}
 
@@ -112,12 +112,12 @@ Gehen Sie wie folgt vor, um einen standardmäßigen Replikationsagenten einzuric
 1. Erstellen Sie einen AEM Screens-Replikationsagenten für pub2. Kopieren Sie den Screens-Replikationsagenten für pub1 und ändern Sie den Port für pub2 so, dass er auf 4504 verweist.
 
    >[!NOTE]
-   >Informationen zum Konfigurieren von Screens-Replikationsagenten finden Sie unter [Konfigurieren von Screens-Replikationsagenten](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configure-screens-replication).
+   >Informationen zum Konfigurieren von Screens-Replikationsagenten finden Sie unter [Konfigurieren des Screens-Replikationsagenten](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configure-screens-replication).
 
 #### Erstellen von Screens-Agenten für die Rückwärtsreplikation {#creating-screens-reverse-replication-agents}
 
 1. Erstellen Sie für pub1 einen Agenten für die Rückwärtsreplikation.
-1. Erstellen Sie für pub2 einen Agenten für die Rückwärtsreplikation. Sie können den Agenten für die Rückwärtsreplikation von pub1 kopieren und den für pub2 zu verwendenden Transport aktualisieren, indem Sie in der Transportkonfiguration den Port ändern.
+1. Erstellen Sie für pub2 einen Agenten für die Rückwärtsreplikation. Sie können den Agenten für die Rückwärtsreplikation für pub1 kopieren und den für pub2 zu verwendenden Transport aktualisieren, indem Sie den Port in der Transportkonfiguration ändern.
 
 ## Einrichten der Veröffentlichungstopologie {#setting-up-publish-topology}
 
@@ -152,7 +152,7 @@ Bei jeder Veröffentlichungsinstanz:
 1. Navigieren Sie in der OSGi-Konsole zu **HAUPTANFANG** > **Crypto-Unterstützung** (`https://<host>:<port>/system/console/crypto`).
 1. Geben Sie in **Nur Text** das gewünschte Passwort ein (nur Text; für alle Instanzen gleich).
 1. Klicken Sie auf **Schützen**.
-1. Kopieren Sie den Wert **Geschützter Text** in den Notizblock oder Text-Editor. Dieser Wert kann in der OSGi-Konfiguration für ActiveMQ verwendet werden.
+1. Wert kopieren **Geschützter Text** in einen Notizblock oder Texteditor. Dieser Wert kann in der OSGi-Konfiguration für ActiveMQ verwendet werden.
 
 Da jede Veröffentlichungsinstanz standardmäßig über eindeutige Verschlüsselungsschlüssel verfügt, führen Sie diesen Schritt für jede Pub-Instanz aus und speichern Sie den eindeutigen Schlüssel für die nächste Konfiguration.
 
@@ -169,7 +169,7 @@ In jeder Veröffentlichungsinstanz:
 1. Klicks **Apache ActiveMQ Artemis JMS Provider** Konfiguration
 1. Aktualisieren Sie Folgendes:
 
-   * ***Cluster-Passwort***: Verwenden Sie einen verschlüsselten Wert aus dem vorherigen Schritt pro Instanz
+   * ***Cluster-Kennwort***: Verwenden Sie den verschlüsselten Wert aus dem vorherigen Schritt pro Instanz.
    * ***Themen***: `{name: 'commands', address: 'com.adobe.cq.screens.commands', maxConsumers: 50}`
 
 #### Überprüfen des ActiveMQ Artemis-Clusters {#verify-activemq-artemis-cluster}
@@ -197,7 +197,7 @@ Wenn Sie die folgende Konfiguration über */system/console/mq* nicht sehen könn
 
 #### Anforderung für Referrer-Header entfernen {#remove-referrer-header-requirement}
 
-Führen Sie für jede Veröffentlichungsinstanz folgende Schritte aus:
+Führen Sie die Schritte in den einzelnen Veröffentlichungsinstanzen aus:
 
 1. Navigieren Sie zur **OSGi-Konsole** > **Configuration Manager**
 1. Klicks **Apache Sling Referrer Filter**
@@ -252,7 +252,7 @@ Gehen Sie wie folgt vor, um den Gerätebenutzer zu replizieren:
 
 >[!CAUTION]
 >
->Aktivieren Sie nicht &quot;author-publish-screens-service&quot;, da es sich um einen Systembenutzer handelt, der vom Autorenauftrag verwendet wird.
+>Aktivieren Sie den Dienst author-publish-screens-service nicht, da er ein vom Autorenauftrag verwendeter Systembenutzer ist.
 
 Sie können das Gerät auch über die Geräteverwaltungskonsole aktivieren. Führen Sie dazu folgende Schritte durch:
 
@@ -264,7 +264,7 @@ Sie können das Gerät auch über die Geräteverwaltungskonsole aktivieren. Füh
 
 >[!NOTE]
 >
->Alternativ können Sie nach der Aktivierung des Geräts auch die Server-URL bearbeiten oder aktualisieren. Klicks **Server-URL bearbeiten** über die Aktionsleiste aus, wie in der folgenden Abbildung dargestellt, werden Ihre Änderungen an den AEM Screens-Player übertragen.
+>Alternativ können Sie nach der Aktivierung des Geräts auch die Server-URL bearbeiten oder aktualisieren. Klicken Sie in der Aktionsleiste auf **Server-URL bearbeiten**, wie in der folgenden Abbildung dargestellt. Ihre Änderungen werden auf den AEM Screens-Player übertragen.
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
@@ -272,20 +272,20 @@ Sie können das Gerät auch über die Geräteverwaltungskonsole aktivieren. Füh
 
 Die folgenden Punkte fassen die Checkliste für Veröffentlichungen zusammen:
 
-* *Screens-Gerätebenutzer*: Dieser wird als AEM-Benutzer gespeichert und kann über **Tools** > **Sicherheit** > **Benutzer** aktiviert werden. Dem Benutzer wird &quot;screens&quot;mit einer langen serialisierten Zeichenfolge vorangestellt.
+* *Screens-Gerätebenutzer* - Diese Informationen werden als AEM Benutzer gespeichert und können über aktiviert werden. **Instrumente** > **Sicherheit** > **Benutzer**. Dem Benutzer wird &quot;screens&quot;mit einer langen serialisierten Zeichenfolge vorangestellt.
 
 * *Projekt*: Das AEM Screens-Projekt.
-* *Standort*: Der Standort, mit dem das Gerät verbunden ist.
-* *Kanäle* - einen oder mehrere Kanäle, die am Standort angezeigt werden
-* *Zeitplan*: Stellen Sie bei Verwendung eines Zeitplans sicher, dass dieser veröffentlicht wird.
-* *Standort-, Zeitplan- und Kanalordner*: Wenn sich die entsprechenden Ressourcen in einem Ordner befinden.
+* *Standort* - Standort, an den das Gerät angeschlossen ist.
+* *Kanäle* - Ein oder mehrere Kanäle, die am Standort angezeigt werden.
+* *Zeitplan* - Stellen Sie bei Verwendung eines Zeitplans sicher, dass dieser Zeitplan veröffentlicht wird.
+* *Standort-, Zeitplan- und Kanalordner* - Wenn sich die entsprechenden Ressourcen in einem Ordner befinden.
 
 Gehen Sie wie folgt vor, um das Authoring- und Publishing-Verhalten zu überprüfen:
 
 1. Aktualisieren Sie einige Kanalinhalte in der -Autoreninstanz.
 1. Ausführen **Veröffentlichung verwalten** , um neue Änderungen in allen Veröffentlichungsinstanzen zu veröffentlichen.
 1. Presse **Aktivieren** , um das Gerät zu aktivieren von **Geräte-Manager**.
-1. **URL bearbeiten** von der Autoreninstanz-URL zu einer der Veröffentlichungsinstanzen-URL.
+1. Auswählen **URL bearbeiten** von der Autoreninstanz-URL zu einer der Veröffentlichungsinstanzen-URL.
 1. Überprüfen Sie, ob der aktualisierte Kanalinhalt auf dem AEM Screens-Player angezeigt wird.
 1. Wiederholen Sie diese Schritte mit einer anderen Veröffentlichungsinstanz.
 
@@ -302,7 +302,7 @@ Alternativ können Sie über die Geräteverwaltungskonsole die Server-URL aktual
 
 1. Navigieren Sie zu Ihrem AEM Screens-Projekt und klicken Sie auf das **Geräte** Ordner.
 1. Klicken Sie in der Aktionsleiste auf **Geräte-Manager**.
-1. Klicken Sie auf das Gerät und klicken Sie auf **Server-URL bearbeiten** in der Aktionsleiste, wie in der folgenden Abbildung dargestellt, und Ihre Änderungen werden an den AEM Screens-Player weitergeleitet.
+1. Klicken Sie auf das Gerät und dann in der Aktionsleiste auf **Server-URL bearbeiten**, wie in der folgenden Abbildung dargestellt. Ihre Änderungen werden auf den AEM Screens-Player übertragen.
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
@@ -310,7 +310,7 @@ Die **Veröffentlichung verwalten** -Funktion können Sie Inhaltsaktualisierunge
 
 ## Tipps zur Fehlerbehebung {#troubleshoot-tips}
 
-Im folgenden Abschnitt finden Sie Antworten auf häufig gestellte Fragen zur Einrichtung von Autoren-/Veröffentlichungsinstanzen.
+Im folgenden Abschnitt finden Sie Antworten auf häufig gestellte Fragen zur Autoren-/Veröffentlichungseinrichtung.
 
 ### Wie kann nach der ersten Registrierung und Zuweisung eine Umleitung von https zu http hinzugefügt werden? {#add-redirect}
 
@@ -325,4 +325,4 @@ Erteilen Sie Leseberechtigungen für den Benutzer Massen-Offline-Update-Screens-
 ### Wie können Screens-Replikationsagenten-Fehler behoben werden? {#replication-agent}
 
 **Lösung**
-Vergewissern Sie sich, dass Sie in der Agentenkonfiguration die Option „Für Rückwärtsreplikation verwenden“ nicht aktiviert haben. Der Screens-Replikationsagent kann nicht als Agenten für die Rückwärtsreplikation verwendet werden und der Umfang dieser Funktion besteht darin, Gerätebefehle von der Autoreninstanz an die Veröffentlichungsinstanz weiterzuleiten.
+Vergewissern Sie sich, dass Sie in der Agentenkonfiguration die Option „Für Rückwärtsreplikation verwenden“ nicht aktiviert haben. Der Screens-Replikationsagent kann nicht als Agenten für die Rückwärtsreplikation verwendet werden und der Umfang dieser Funktion besteht darin, Gerätebefehle von der Autoren- zur Veröffentlichungsinstanz weiterzuleiten.

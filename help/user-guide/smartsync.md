@@ -9,10 +9,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 6b4fc934c31640168528fa3e72cf634773f4f8e6
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 64%
+source-wordcount: '443'
+ht-degree: 55%
 
 ---
 
@@ -24,16 +24,16 @@ In diesem Abschnitt erhalten Sie einen Überblick über die Funktion SmartSync u
 
 SmartSync ist das neueste von AEM Screens verwendete Verfahren. Es ersetzt die aktuelle Methode zum Zwischenspeichern von Offline-Kanälen und deren Bereitstellung an den Player.
 
-SmartSync wird sowohl Server-seitig als auch Client-seitig ausgeführt.
+Er wird sowohl serverseitig als auch clientseitig ausgeführt.
 
-**Auf Server-Seite**:
+**Auf Server-Seite**
 
 * Inhalte der Kanäle, einschließlich Assets, werden zwischengespeichert in *`/var/contentsync`*.
 * Der Cache wird den Playern über ein Manifest bereitgestellt, das den verfügbaren Inhalt für eine Anzeige beschreibt.
 
-**Auf Client-Seite**:
+**Auf der Client-Seite**
 
-* Der Player aktualisiert seinen Inhalt auf Grundlage des oben generierten Manifests.
+* Der Player aktualisiert seinen Inhalt basierend auf dem oben generierten Manifest.
 
 ### Vorteile von SmartSync {#benefits-of-using-smartsync}
 
@@ -65,7 +65,7 @@ Die Funktion SmartSync bietet verschiedene Vorteile für Ihr AEM Screens-Projekt
 
 Gehen Sie wie folgt vor, um von ContentSync zu SmartSync zu wechseln:
 
-1. Für die Migration von ContentSync zu SmartSync muss der ContentSync-Cache gelöscht werden, und zwar vor der Aktivierung von SmartSync.
+1. Für die Migration von ContentSync zu SmartSync muss der ContentSync-Cache gelöscht werden, bevor SmartSync aktiviert wird.
 
    Navigieren Sie von Ihrer Instanz mithilfe des Links ***https://localhost:4502/libs/cq/contentsync/content/console.html*** zur ContentSync-Konsole und klicken Sie auf **Cache leeren**, wie in der folgenden Abbildung dargestellt:
 

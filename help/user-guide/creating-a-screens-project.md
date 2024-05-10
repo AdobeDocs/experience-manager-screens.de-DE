@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d98b449f-6b7d-4c08-b507-a64dece84ba8
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6b4fc934c31640168528fa3e72cf634773f4f8e6
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 35%
+source-wordcount: '324'
+ht-degree: 34%
 
 ---
 
@@ -24,7 +24,7 @@ Sie haben auch die Möglichkeit, direkt zur folgenden URL zu wechseln: `http://l
 
 >[!NOTE]
 >**Navigationstipp:**
->Sie können auch die Pfeiltasten verwenden, um durch die verschiedenen Ordner in AEM zu navigieren. Nachdem Sie auf eine bestimmte Entität geklickt haben, klicken Sie auf die Leertaste, um Eigenschaften für diesen bestimmten Ordner zu bearbeiten oder anzuzeigen.
+>Sie können auch die Pfeiltasten verwenden, um durch die verschiedenen Ordner in AEM zu navigieren. Nachdem Sie auf eine bestimmte Entität geklickt haben, drücken Sie die Leertaste, um Eigenschaften für diesen bestimmten Ordner zu bearbeiten oder anzuzeigen.
 
 ## Erstellen eines neuen Screens-Projekts
 
@@ -46,7 +46,7 @@ In einem Projekt gibt es fünf Arten von Ordnern, wie in der folgenden Abbildung
 
 >[!NOTE]
 >
->Standardmäßig enthält die anfängliche Struktur die **Zeitpläne**, **Standorte**, **Anwendungen**, **Kanäle**, und **Geräte** Primärseiten, dies kann jedoch bei Bedarf manuell angepasst werden. Sie können die Optionen entfernen, wenn die verfügbaren Optionen für Ihr Projekt nicht relevant sind.
+>Standardmäßig enthält die anfängliche Struktur die **Zeitpläne**, **Standorte**, **Anwendungen**, **Kanäle**, und **Geräte** Primärseiten, aber diese Struktur kann bei Bedarf manuell angepasst werden. Sie können die Optionen entfernen, wenn die verfügbaren Optionen für Ihr Projekt nicht relevant sind.
 
 
 ## Anzeigen von Eigenschaften {#viewing-properties}
@@ -59,7 +59,7 @@ Mit den folgenden Optionen können Sie die Eigenschaften Ihres **TestScreens** b
 
 ## Erstellen eines benutzerspezifischen Ordners {#creating-a-custom-folder}
 
-Sie können auch einen eigenen benutzerdefinierten Ordner unter **Zeitpläne**, **Standorte**, **Anwendungen**, **Kanäle**, und **Geräte** in Ihrem Projekt verfügbare primäre Seiten.
+Sie können auch einen eigenen benutzerdefinierten Ordner unter dem **Zeitpläne**, **Standorte**, **Anwendungen**, **Kanäle**, und **Geräte** Primärseiten, die in Ihrem Projekt verfügbar sind.
 
 Erstellen eines kundenspezifischen Ordners:
 
