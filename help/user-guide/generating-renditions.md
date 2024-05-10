@@ -9,26 +9,26 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 752c74d7-5d6d-4363-97ef-b96e97d2f6b1
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 23%
+source-wordcount: '367'
+ht-degree: 17%
 
 ---
 
-# Videoausgabeformate {#video-renditions}
+# Videoausgabedarstellungen {#video-renditions}
 
-Es ist möglich, manuelle und automatische Full HD-Ausgabeformate zu generieren. Im folgenden Abschnitt wird der Workflow zum Hinzufügen von Ausgabeformaten zu Assets beschrieben.
+Sie können manuelle und automatische Full HD-Wiedergaben generieren. Im folgenden Abschnitt wird der Workflow zum Hinzufügen von Ausgabeformaten zu Assets beschrieben.
 
-## Automatisches Generieren von Full HD-Ausgabeformaten  {#automatically-generating-full-hd-renditions}
+## Automatisches Generieren von Full HD-Ausgabeformaten {#automatically-generating-full-hd-renditions}
 
 >[!NOTE]
 >
->Falls die AEM Screens-Videoausgabeformate nicht optimal auf Ihrem Gerät wiedergegeben werden, wenden Sie sich an den Hardware-Anbieter, um die Spezifikationen des Videos zu erhalten. Dies hilft, die beste Leistung auf dem Gerät zu erzielen und erstellt daher Ihr eigenes benutzerdefiniertes Videoprofil, in dem Sie die entsprechenden Parameter für FFMPEG zur Generierung Ihrer Ausgabedarstellung angeben. Gehen Sie dann wie folgt vor, um Ihr benutzerdefiniertes Videoprofil zur Profilliste hinzuzufügen.
+>Falls die AEM Screens-Videoausgabeformate nicht optimal auf Ihrem Gerät wiedergegeben werden, wenden Sie sich an den Hardware-Anbieter, um die Spezifikationen des Videos zu erhalten. Auf diese Weise erhalten Sie die beste Leistung auf dem Gerät. Sie können damit Ihr eigenes benutzerdefiniertes Videoprofil erstellen, in dem Sie die entsprechenden Parameter für FFMPEG zur Generierung Ihrer Ausgabedarstellung angeben. Gehen Sie dann wie folgt vor, um Ihr benutzerdefiniertes Videoprofil zur Profilliste hinzuzufügen.
 >
 >Siehe auch [Fehlerbehebung bei Videos](troubleshoot-videos.md) , um die Videowiedergabe in Ihrem Kanal zu debuggen und Fehler zu beheben.
 
-Gehen Sie wie folgt vor, um automatisch Full HD-Wiedergaben zu generieren:
+Gehen Sie wie folgt vor, um Full HD-Wiedergaben automatisch zu generieren:
 
 1. Klicken Sie auf den Adobe Experience Manager-Link (oben links) und dann auf das Hammersymbol, damit Sie auf **Workflow**.
 
@@ -69,7 +69,7 @@ Gehen Sie wie folgt vor, um automatisch Full HD-Wiedergaben zu generieren:
 
 ## Manuelles Generieren von Full HD-Wiedergaben {#manually-generating-full-hd-renditions}
 
-Gehen Sie wie folgt vor, um manuell Full HD-Wiedergaben zu generieren:
+Gehen Sie wie folgt vor, um Full HD-Wiedergaben manuell zu generieren:
 
 1. Klicken Sie auf den Link Adobe Experience Manager (oben links) und dann auf das Hammersymbol, damit Sie auf Tools klicken und auf **Workflow**.
 

@@ -2,10 +2,10 @@
 title: UX-Abhängigkeiten für AEM Screens
 description: Erfahren Sie mehr über UX-Abhängigkeiten für AEM Screens.
 exl-id: 05a4a7a7-0a97-47a1-b371-056ab31f4ed5
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 69%
+source-wordcount: '139'
+ht-degree: 63%
 
 ---
 
@@ -21,7 +21,7 @@ Bei der Definition der Hardware-Inhaltsstrategie sollten folgende Fragen berück
 
 1. Wie soll das Einzelhandelslayout auf die Inhaltsstrategie ausgerichtet werden?
 
-1. Sind Interaktionen (d. h. Touchscreen, Bewegungserkennung) erforderlich?
+1. Sind Interaktionen (d. h. Touchscreen, Bewegungserkennung) erforderlich?
 
 1. Welchen Zweck hat die Digital-Signage-Lösung?
 
