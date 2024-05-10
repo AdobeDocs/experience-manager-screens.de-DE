@@ -9,10 +9,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: 8c3221e17401d6ff792c61bf75275cc72e885432
+source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
 workflow-type: tm+mt
-source-wordcount: '2154'
-ht-degree: 97%
+source-wordcount: '2161'
+ht-degree: 77%
 
 ---
 
@@ -47,7 +47,7 @@ Der Quell-Code eines Screens-Projekts wird normalerweise als Maven-Projekt mit m
 [Abrufen der Datei](assets/base-screens-weretail-runuiapps-001-snapshot.zip)
 
    [Datei laden](assets/base-screens-weretail-runuicontent-001-snapshot.zip)
-   Wenn Sie mit Eclipse oder einer anderen IDE arbeiten, laden Sie **optional** das folgende Quellpaket herunter. Stellen Sie das Projekt mithilfe des folgenden Maven-Befehls in einer lokalen AEM-Instanz bereit:
+   **Optional** Wenn Sie mit Eclipse oder einer anderen IDE arbeiten, laden Sie das folgende Quellpaket herunter. Stellen Sie das Projekt mithilfe des folgenden Maven-Befehls in einer lokalen AEM-Instanz bereit:
 
    **`mvn -PautoInstallPackage clean install`**
 
@@ -66,7 +66,7 @@ Der Quell-Code eines Screens-Projekts wird normalerweise als Maven-Projekt mit m
 
 1. Das Paket **screens-weretail-run.ui.apps** installiert Code unter `/apps/weretail-run`.
 
-   Dieses Paket enthält den Code, der für das Rendern von benutzerdefinierten Komponenten für das Projekt verantwortlich ist. Dieses Paket enthält Komponenten-Code und alle erforderlichen JavaScript- oder CSS-Funktionen. Dieses Paket beinhaltet auch **screens-weretail-run.core-0.0.1-SNAPSHOT.jar**, die den Java™-Code enthält, der für das Projekt benötigt wird.
+   Dieses Paket enthält den Code, der für das Rendern von benutzerdefinierten Komponenten für das Projekt verantwortlich ist. Dieses Paket enthält Komponenten-Code und alle erforderlichen JavaScript- oder CSS-Funktionen. Dieses Paket wird auch eingebettet **screens-weretail-run.core-0.0.1-SNAPSHOT.jar** , der einen Java™-Code enthält, der für das Projekt benötigt wird.
 
    >[!NOTE]
    >
@@ -84,7 +84,7 @@ Der Quell-Code eines Screens-Projekts wird normalerweise als Maven-Projekt mit m
    * `/content/dam/we-retail-run`
    * `/content/screens/we-retail-run`
 
-   Dieses Paket enthält den für das Projekt benötigten Startinhalt und die für das Projekt erforderliche Konfigurationsstruktur. **`/conf/we-retail-run`** enthält alle Konfigurationen für das Projekt „`We.Retail` Run“. **`/content/dam/we-retail-run`** umfasst das Starten digitaler Assets für das Projekt. **`/content/screens/we-retail-run`** enthält die Screens-Inhaltsstruktur. Der Inhalt unter allen diesen Pfaden wird hauptsächlich in AEM aktualisiert. Um die Konsistenz zwischen Umgebungen (Lokal, Entwicklung, Test und Produktion) zu fördern, wird häufig eine grundlegende Inhaltsstruktur in der Quell-Code-Verwaltung gespeichert.
+   Dieses Paket enthält den für das Projekt benötigten Startinhalt und die für das Projekt erforderliche Konfigurationsstruktur. **`/conf/we-retail-run`** enthält alle Konfigurationen für das Projekt „`We.Retail` Run“. **`/content/dam/we-retail-run`** umfasst das Starten digitaler Assets für das Projekt. **`/content/screens/we-retail-run`** enthält die Screens-Inhaltsstruktur. Der Inhalt all dieser Pfade wird hauptsächlich in AEM aktualisiert. Um die Konsistenz zwischen Umgebungen (Lokal, Entwicklung, Test und Produktion) zu fördern, wird häufig eine grundlegende Inhaltsstruktur in der Quell-Code-Verwaltung gespeichert.
 
 1. **Navigieren Sie zu „AEM Screens“ > Projekt „`We.Retail` Run“:**
 
@@ -116,7 +116,7 @@ AEM Screens weist einige interessante Einschränkungen auf, die nicht unbedingt 
 
    Eigenschaften für /apps/weretail-run/components/content/helloworld
 
-   Die Komponente **Hello World** erweitert die Komponente **foundation/components/parbase**, sodass sie innerhalb eines Sequenzkanals richtig verwendet werden kann.
+   Die **Hello World** -Komponente erweitert die **foundation, components, parbase** -Komponente, damit sie ordnungsgemäß in einem Sequenzkanal verwendet werden kann.
 
 1. Erstellen Sie unter `/apps/weretail-run/components/content/helloworld` eine Datei mit dem Namen `helloworld.html.`
 
@@ -158,7 +158,7 @@ AEM Screens weist einige interessante Einschränkungen auf, die nicht unbedingt 
    </div>
    ```
 
-   Die obige Abbildung zeigt das Produktions-Markup für die Komponente „Hello World“. Ein Attribut `data-duration` ist enthalten, da die Komponente auf einem Sequenzkanal verwendet wird. Das Attribut `data-duration` wird vom Sequenzkanal verwendet, um zu erfahren, wie lange ein Sequenz-Element angezeigt werden soll.
+   Das obige ist das Produktions-Markup für die Komponente &quot;Hello World&quot;. Ein Attribut `data-duration` ist enthalten, da die Komponente auf einem Sequenzkanal verwendet wird. Die `data-duration` -Attribut wird vom Sequenzkanal verwendet, um zu erfahren, wie lange ein Sequenzelement angezeigt werden soll.
 
    Die Komponente rendert ein `div`- und ein `h1`-Tag mit Text. `${properties.message}` ist ein Teil des HTL-Skripts, der den Inhalt einer JCR-Eigenschaft mit dem Namen `message` ausgibt. Später wird ein Dialogfeld erstellt, in dem Benutzende einen Wert für den Eigenschaftstext `message` eingeben können.
 
@@ -189,20 +189,20 @@ AEM Screens weist einige interessante Einschränkungen auf, die nicht unbedingt 
    </div>
    ```
 
-   Die obige Abbildung zeigt das bearbeitete Markup für die Komponente „Hello World“. Im ersten Block wird eine bearbeitete Version der Komponente angezeigt, wenn eine Dialogfeldmeldung eingegeben wurde.
+   Oben befindet sich das bearbeitete Markup für die Komponente Hello World . Im ersten Block wird eine bearbeitete Version der Komponente angezeigt, wenn eine Dialogfeldmeldung eingegeben wurde.
 
    Der zweite Block wird gerendert, wenn keine Dialogfeldmeldung eingegeben wurde. `cq-placeholder` und `data-emptytext` rendern die Beschriftung ***Hello World*** in diesem Fall als Platzhalter. Die Zeichenfolge für die Beschriftung kann mithilfe von i18n internationalisiert werden, um die Inhaltserstellung in mehreren Gebietsschemata zu unterstützen.
 
 1. **Kopieren Sie das Screens-Bilddialogfeld, das für die Komponente „Hello World“ verwendet werden soll.**
 
-   Es ist am einfachsten, von einem vorhandenen Dialogfeld aus zu starten und dann Änderungen vorzunehmen.
+   Am einfachsten ist es, mit einem vorhandenen Dialogfeld zu beginnen und dann Änderungen vorzunehmen.
 
-   1. Kopieren Sie das Dialgofeld aus `/libs/screens/core/components/content/image/cq:dialog`
-   1. Fügen Sie das Dialogfeld hier ein: `/apps/weretail-run/components/content/helloworld`
+   1. Kopieren Sie das Dialogfeld aus: `/libs/screens/core/components/content/image/cq:dialog`
+   1. Einfügen des Dialogfelds unter `/apps/weretail-run/components/content/helloworld`
 
    ![copy-image-dialog](assets/copy-image-dialog.gif)
 
-1. **Aktualisieren Sie das Dialogfeld „Hello World“, um eine Registerkarte für die Meldung einzuschließen.**
+1. **Aktualisieren Sie das Dialogfeld &quot;Hello World&quot;, um eine Registerkarte für die Meldung einzuschließen.**
 
    Aktualisieren Sie das Dialogfeld, sodass er mit Folgendem übereinstimmt: Die JCR-Knotenstruktur des finalen Dialogfelds wird nachfolgend in XML dargestellt:
 
@@ -272,7 +272,7 @@ AEM Screens weist einige interessante Einschränkungen auf, die nicht unbedingt 
 
 Client-seitige Bibliotheken bieten einen Mechanismus zum Organisieren und Verwalten von CSS- und JavaScript-Dateien, die für eine AEM-Implementierung erforderlich sind.
 
-AEM Screens-Komponenten werden im Bearbeitungsmodus anders als im Vorschaumodus/Produktionsmodus dargestellt. Es werden zwei Gruppen von Client-Bibliotheken erstellt: eine für den Bearbeitungsmodus und eine für die Vorschau/Produktion.
+AEM Screens-Komponenten werden im Bearbeitungsmodus anders als im Vorschauproduktionsmodus dargestellt. Es werden zwei Client-Bibliotheken erstellt: eine für den Bearbeitungsmodus und eine für die Vorschau-Produktion.
 
 1. Erstellen Sie einen Ordner für Client-seitige Bibliotheken für die Komponente „Hello World“.
 
@@ -294,9 +294,9 @@ AEM Screens-Komponenten werden im Bearbeitungsmodus anders als im Vorschaumodus/
 
    Eigenschaften für /apps/weretail-run/components/content/helloworld/clientlibs/shared
 
-   Die Eigenschaft „categories“ ist eine Zeichenfolge, die die Client-Bibliothek identifiziert. Die Kategorie „cq.screens.components“ wird sowohl im Bearbeitungs- als auch im Vorschau-/Produktionsmodus verwendet. Daher wird jedes in sharedclientlib definierte CSS/JS in allen Modi geladen.
+   Die Eigenschaft „categories“ ist eine Zeichenfolge, die die Client-Bibliothek identifiziert. Die Kategorie cq.screens.componentCategory wird sowohl im Bearbeitungs- als auch im Vorschau-Produktionsmodus verwendet. Daher wird jedes in der sharedclientlib definierte CSS oder JS in allen Modi geladen.
 
-   Es empfiehlt sich, in einer Produktionsumgebung niemals Pfade direkt zu /apps bereitzustellen. Die allowProxy-Eigenschaft stellt sicher, dass auf die Pfade zu Client-Bibliotheks-CSS und -JS über ein Präfix „of/etc.clientlibs“ verwiesen wird.
+   Es empfiehlt sich, alle Pfade direkt zu `/apps` in einer Produktionsumgebung nicht ausgesetzt werden. Die Eigenschaft allowProxy stellt sicher, dass auf die CSS- und JS-Client-Bibliothek über das Präfix `/etc.clientlibs`.
 
 1. Erstellen Sie eine Datei mit dem Namen `css.txt` unter dem freigegebenen Ordner.
 
@@ -342,7 +342,7 @@ AEM Screens-Komponenten werden im Bearbeitungsmodus anders als im Vorschaumodus/
 
 1. Ändern Sie den Wert der Eigenschaft `categories` der Produktions-Client-Bibliothek in `cq.screens.components.production.`.
 
-   Dadurch wird sichergestellt, dass die Stile nur im Vorschau-/Produktionsmodus geladen werden.
+   Dadurch wird sichergestellt, dass die Stile nur im Vorschau-Produktionsmodus geladen werden.
 
    ![Eigenschaften für /apps/weretail-run/components/content/helloworld/clientlibs/production](assets/2018-04-30_at_5_04pm.png)
 
@@ -394,7 +394,7 @@ Im Folgenden wird eine „`We.Retail` Run“-Design-Seite erstellt, auf der alle
    | Name | Typ | Wert |
    |---|---|---|
    | `jcr:title` | Zeichenfolge | `We.Retail` Run |
-   | `sling:resourceType` | Zeichenfolge | wcm/core/components/designer |
+   | `sling:resourceType` | Zeichenfolge | `wcm`, `core`, `components`, `designer` |
    | `cq:doctype` | Zeichenfolge | html_5 |
 
    ![Design-Seite unter /apps/settings/wcm/designs/we-retail-run](assets/2018-05-07_at_1219pm.png)
@@ -403,7 +403,7 @@ Im Folgenden wird eine „`We.Retail` Run“-Design-Seite erstellt, auf der alle
 
 ## Erstellen eines Sequenzkanals {#create-sequence-channel}
 
-Die Komponente „Hello World“ ist für die Verwendung in einem Sequenzkanal vorgesehen. Zum Testen der Komponente wird ein neuer Sequenzkanal erstellt.
+Die Komponente &quot;Hello World&quot;ist für die Verwendung in einem Sequenzkanal vorgesehen. Zum Testen der Komponente wird ein neuer Sequenzkanal erstellt.
 
 1. Navigieren Sie im AEM Startmenü zu **Screens** > **`We.Retail`Ausführen** > und klicken Sie auf **Kanäle**.
 
@@ -441,7 +441,7 @@ Die Komponente „Hello World“ ist für die Verwendung in einem Sequenzkanal v
 
    ![2018-04-30_at_5_43pm](assets/2018-04-30_at_5_43pm.png)
 
-1. Schalten Sie den Seitenmodus in **Bearbeiten** um. Die Komponente „Hello World“ kann jetzt der Seite hinzugefügt und mit anderen Komponenten des Sequenzkanals kombiniert werden.
+1. Schalten Sie den Seitenmodus in **Bearbeiten** um. Die Komponente &quot;Hello World&quot;kann jetzt der Seite hinzugefügt und mit anderen Komponenten des Sequenzkanals kombiniert werden.
 
    ![2018-04-30_at_5_53pm](assets/2018-04-30_at_5_53pm.png)
 
@@ -453,11 +453,11 @@ Die Komponente „Hello World“ ist für die Verwendung in einem Sequenzkanal v
 
 ## Vorlage für benutzerdefinierte Handler {#custom-handlers}
 
-Wenn Ihre benutzerdefinierte Komponente externe Ressourcen wie Assets (Bilder, Videos, Schriftarten und Symbole), bestimmte Asset-Ausgabedarstellungen oder Client-seitige Bibliotheken (CSS und JS) verwendet, werden diese nicht automatisch zur Offline-Konfiguration hinzugefügt. Der Grund dafür ist, dass nur das HTML-Markup standardmäßig gebündelt wird.
+Wenn Ihre benutzerdefinierte Komponente externe Ressourcen wie Assets (Bilder, Videos, Schriftarten und Symbole), bestimmte Asset-Ausgabedarstellungen oder clientseitige Bibliotheken (CSS und JS) verwendet, werden diese Ressourcen nicht automatisch zur Offline-Konfiguration hinzugefügt. Der Grund dafür ist, dass nur das HTML-Markup standardmäßig gebündelt wird.
 
-Damit Sie genau die Assets, die in den Player heruntergeladen werden, anpassen und optimieren können, bietet Adobe einen Erweiterungsmechanismus für benutzerdefinierte Komponenten, um deren Abhängigkeiten von der Offline-Caching-Logik in AEM Screens darzustellen.
+Um die exakten Assets, die auf den Player heruntergeladen werden, anzupassen und zu optimieren, bietet Adobe einen Erweiterungsmechanismus. Dieser Mechanismus ermöglicht es benutzerdefinierten Komponenten, ihre Abhängigkeiten der Offline-Caching-Logik in AEM Screens verfügbar zu machen.
 
-Im folgenden Abschnitt werden die Vorlage für die benutzerdefinierten Offline-Ressourcen-Handler und die Mindestanforderungen in der Datei `pom.xml` für dieses spezifische Projekt vorgestellt.
+Im folgenden Abschnitt wird die Vorlage für benutzerdefinierte Offline-Ressourcen-Handler vorgestellt. Außerdem werden die Mindestanforderungen in der `pom.xml` für dieses spezifische Projekt.
 
 ```java
 package …;
@@ -546,7 +546,7 @@ Der folgende Code stellt die Mindestanforderungen in der Datei `pom.xml` für di
       </dependencies>
 ```
 
-**NOTE** : Verwenden Sie für AEMaaCS die folgende Abhängigkeit im `pom.xml` für dieses spezifische Projekt.
+**NOTE** : Wenn AEM as a Cloud Service ist, verwenden Sie die folgende Abhängigkeit im `pom.xml` für dieses spezifische Projekt.
 
 ```css
    <dependencies>
@@ -574,7 +574,7 @@ Wenn Ihre benutzerdefinierte Komponente andere Seiten oder Experience Fragments 
 1. Statt direkt `foundation/components/parbase` zu erweitern, müssen Sie entweder `screens/core/components/content/page` oder `screens/core/components/content/experiencefragment` erweitern.
 2. Der Name der Eigenschaft, mit der Sie auf den eingebetteten Inhalt verweisen, muss `pagePath` lauten.
 
-Die Nutzung dieser zwei Screens-Kernkomponenten bietet außerdem den zusätzlichen Vorteil, dass sie einige benötigte Abhängigkeiten (Client-seitige Bibliotheken, Schriftarten usw.) bündeln. Dies geschieht über deren Offline-Konfigurationsoptionen im Komponentendialogfeld, wodurch sich die Verantwortung jedes benutzerdefinierten Offline-Handlers, den Sie dafür verwenden müssen, verringert. Manchmal erübrigt sich die Notwendigkeit, einen zu verwenden, sogar vollständig.
+Die Nutzung dieser zwei Screens-Kernkomponenten bietet außerdem den zusätzlichen Vorteil, dass sie einige benötigte Abhängigkeiten (Client-seitige Bibliotheken, Schriftarten usw.) bündeln. Diese Funktion erfolgt über ihre Offline-Konfigurationsoptionen im Komponentendialogfeld. Dadurch wird die Verantwortung jedes benutzerdefinierten Offline-Handlers reduziert, den Sie dafür verwenden müssen. Manchmal erübrigt sich die Notwendigkeit, einen zu verwenden, sogar vollständig.
 
 ## Fertiger Code {#finished-code}
 
