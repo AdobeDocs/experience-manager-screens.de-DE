@@ -8,7 +8,7 @@ exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
 source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
 source-wordcount: '756'
-ht-degree: 30%
+ht-degree: 37%
 
 ---
 
@@ -46,7 +46,7 @@ Bevor Sie die Funktion zur Befehlssynchronisierung verwenden, stellen Sie sicher
 
    >[!NOTE]
    >
-   >Informationen zum Erstellen eines Kanals oder Hinzufügen von Inhalten zu einem Kanal finden Sie unter [Erstellen und Verwalten von Kanälen](/help/user-guide/managing-channels.md)
+   >Informationen zum Erstellen eines Kanals oder Hinzufügen von Inhalten zu einem Kanal finden Sie unter [Erstellen und Verwalten von Kanälen](/help/user-guide/managing-channels.md).
 
    Der Kanal enthält den folgenden Inhalt, wie in der Abbildung unten dargestellt.
 
@@ -69,7 +69,7 @@ Bevor Sie die Funktion zur Befehlssynchronisierung verwenden, stellen Sie sicher
 
    >[!NOTE]
    >
-   >Informationen zum Registrieren eines Geräts finden Sie unter [Geräteregistrierung](/help/user-guide/device-registration.md)
+   >Informationen zum Registrieren eines Geräts finden Sie unter [Geräteregistrierung](/help/user-guide/device-registration.md).
 
 1. Zu Demozwecken werden in diesem Beispiel ein Chrome-Gerät und ein Windows Player als zwei separate Geräte dargestellt. Beide Geräte verweisen auf dieselbe Anzeige.
    ![image1](assets/command-sync6.png)
@@ -77,7 +77,7 @@ Bevor Sie die Funktion zur Befehlssynchronisierung verwenden, stellen Sie sicher
 ### Aktualisieren von Kanaleinstellungen
 
 1. Navigieren Sie zu **ChannelLobby**.
-1. Klicks **Bearbeiten** in der Aktionsleiste aus.
+1. Klicken Sie in der Aktionsleiste auf **Bearbeiten**. 
 1. Klicken Sie auf den gesamten Kanal, wie in der Abbildung unten dargestellt.
    ![image1](assets/command-sync/command-sync7-1.png)
 

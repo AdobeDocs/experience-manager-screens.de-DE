@@ -1,6 +1,6 @@
 ---
 title: Versionshinweise für Feature Pack 202203
-description: Erfahren Sie mehr über das AEM Screens Feature Pack 202203, das am 25. März 2022 veröffentlicht wurde.
+description: Erfahren Sie mehr über das AEM Screens Feature Pack 202203, das am Samstag, 25. März 2022 veröffentlicht wurde.
 feature: Feature Pack
 role: Developer
 level: Intermediate
@@ -8,7 +8,7 @@ exl-id: 570003d8-216d-4dcf-b03e-3a0dde818a43
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 38%
+ht-degree: 43%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 38%
 
 Das AEM 6.5 Feature Pack 11 für AEM Screens wurde veröffentlicht.
 
-Sie können das neueste Feature Pack für AEM Screens 6.5.11 von der [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) die Verwendung Ihrer Adobe ID. Navigieren Sie zum **Adobe Experience Manager** Registerkarte und suchen Sie nach **Screens** , um das neueste Feature Pack mit dem Titel **AEM 6.5 Screens FP11**.
+Sie können das neueste Feature Pack für AEM Screens 6.5.11 von der [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/de/aem.html) die Verwendung Ihrer Adobe ID. Navigieren Sie zum **Adobe Experience Manager** Registerkarte und suchen Sie nach **Screens** , um das neueste Feature Pack mit dem Titel **AEM 6.5 Screens FP11**.
 
 ## Veröffentlichungsdatum {#release-date}
 
@@ -58,6 +58,6 @@ Die folgenden AEM Screens-Player sind für AEM 6.5 Feature Pack 11 verfügbar:
 * Linux®
 * iOS
 
-#### AEM Screens-Player-Downloads 
+#### AEM Screens-Player-Downloads
 
 Informationen zum Herunterladen des neuesten AEM Screens-Players und zu weiteren Fehlerbehebungen finden Sie unter **[AEM Screens Player-Downloads](https://download.macromedia.com/screens/index.html)**.

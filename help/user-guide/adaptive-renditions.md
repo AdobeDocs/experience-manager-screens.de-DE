@@ -5,7 +5,7 @@ exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 37%
+ht-degree: 39%
 
 ---
 
@@ -70,7 +70,7 @@ Gehen Sie wie folgt vor, um einen Knoten unter „Ausgabedarstellungszuordnung�
 1. Fügen Sie die Eigenschaft expression mit dem Wert hinzu, der den Abfrageausdruck enthält.
 
    >[!NOTE]
-   >Siehe [Syntax der Medienabfrage verwenden](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries) , um mehr zu erfahren.
+   >Weitere Informationen finden Sie unter [Verwenden der Syntax von Medienabfragen](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries).
 
    Klicks **rule1** die Sie erstellt haben, und geben Sie die **Ausdruck** in **Name** und **(Ausrichtung:Querformat)** in **Wert**, wie unten dargestellt. Klicken Sie auf **Hinzufügen**.
 

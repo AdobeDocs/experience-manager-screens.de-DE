@@ -13,7 +13,7 @@ exl-id: 7814ee96-9220-45b6-b56e-b48a9da9a319
 source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
 source-wordcount: '642'
-ht-degree: 21%
+ht-degree: 46%
 
 ---
 
@@ -25,7 +25,7 @@ Diese Seite enthält Teil 2 einer 5-teiligen Serie, der Team-Mitgliedern dabei h
 
 Das folgende Tutorial behandelt die Elemente, die bei der Projekterkundung identifiziert werden müssen. Es umfasst auch Beiträge von Interessenträgern zur Bewertung des Projekts und die notwendigen Vorbereitungen für eine angemessene Konzeption.
 
-Die Hauptkomponenten eines Programms für digitale Beschilderung, die für eine erfolgreiche Implementierung erforderlich sind, sind:
+Die Hauptkomponenten eines Digital-Signage-Programms, die für eine erfolgreiche Bereitstellung erforderlich sind, sind:
 
 * Inhaltsstrategie
 * Anforderungen an den Geschäftsbetrieb
@@ -38,25 +38,25 @@ Die Hauptkomponenten eines Programms für digitale Beschilderung, die für eine 
 >
 >Definieren Sie eine Inhaltsstrategie, bei der berücksichtigt wird, wie die Anwendung Software-, Hardware- und Konnektivitätsressourcen verwendet, um den beabsichtigten Wert erfolgreich bereitzustellen.
 
-## Zusammenfassung der Projektüberlegungen in einem Projekt für Digital Signage {#summary-of-project-considerations-in-a-digital-signage}
+## Zusammenfassung der Projektüberlegungen in einem Projekt für Digitale Beschilderung {#summary-of-project-considerations-in-a-digital-signage}
 
 Bei der Entwicklung einer Inhaltsstrategie sind verschiedene Aspekte zu beachten, darunter E/A-Schichten, Asset-Typen, Zielgruppensegmente und Dayparting-Anforderungen.
 
 ### E/A-Schichten {#i-o-layers}
 
-Die bedingte Wiedergabe von Inhalten wird über die E/A-Steuerung gesteuert, die auf der Ermittlung der Zielgruppennähe basiert. Wenn beispielsweise ein Sensor räumliche Nähe erkennt, kann sich die Wiedergabe des Inhalts von &quot;anziehenden&quot;oder passiven Inhalten in &quot;interaktive&quot;Wiedergabe oder interaktive Wiedergabe ändern. Diese Funktion ist besonders bei Anwendungen hilfreich, in denen die Bereitstellung von Inhalten auf der Basis demografischer Daten gewünscht wird.
+Die bedingte Wiedergabe von Inhalten wird über die E/A-Steuerung gesteuert, die auf der Ermittlung der Zielgruppennähe basiert. Wenn beispielsweise ein Sensor räumliche Nähe erkennt, kann sich die Wiedergabe von „anziehenden“ oder passiven Inhalten in eine „aktive“ oder interaktive Wiedergabe ändern. Diese Funktion ist besonders bei Anwendungen hilfreich, in denen die Bereitstellung von Inhalten auf der Basis demografischer Daten gewünscht wird.
 
 ### Asset-Typen für Inhalte {#content-asset-types}
 
-Beachten Sie die folgenden Punkte, um die Absicht des Endkunden in Bezug auf Content Assets zu verstehen:
+Achten Sie auf die folgenden Punkte, um die Absicht der Endkundin oder des Endkunden in Bezug auf Inhalts-Assets zu verstehen:
 
-* Ob Inhalte aus Print-, TV- oder Web-Kampagnen wiederverwendet werden?
+* Werden Inhalte aus Print-, TV- oder Web-Kampagnen wiederverwendet?
 * Besteht der Inhalt aus statischen Bildern oder Vorlagen mit dynamisch bereitgestellten Komponenten?
 * Werden Animationen als Video- oder HTML-Programme wiedergegeben?
-* Gibt es Integrationen von Drittanbietern aus Content Subscription Services, Social Media, RSS-Aggregationsdiensten oder API-Aufrufen?
+* Gibt es Integrationen von Drittanbietern aus Abonnementdiensten für Inhalte, Social-Media- oder RSS-Aggregationsdiensten oder API-Aufrufen?
 * Welche Anforderungen gelten für die Bildauflösung?
 * Sind Bildschirme standardmäßig im 16:9-Format oder benutzerdefiniert? Hochformat oder Querformat?
-* Sind Mehrbildschirm-Videowände erforderlich? Wenn ja, welche Konfigurationen gibt es?
+* Werden aus mehreren Bildschirm bestehende Videowände benötigt? Falls ja, wie lauten die Konfigurationen?
 * Sind Inhalte an operative oder Werbeeinnahmen gebunden, die Ausfallstrategien erfordern, um Ausfallzeiten zu vermeiden?
 
 ### Zielgruppensegmentierung, Dayparting {#audience-segmentation-day-parts}
@@ -65,11 +65,11 @@ Durch die Einbeziehung von Dayparting-Strategien können Endkunden ihren Inhalt 
 
 ### Anforderungen an den Geschäftsbetrieb {#business-operations-requirements}
 
-Auch der Geschäftsbetrieb ist bei der Konversation von Inhaltsstrategien wichtig. Die Formalisierung der Supportanforderungen von Endkunden kann dazu beitragen, die Erwartungen nach der Bereitstellung zu verwalten und sicherzustellen, dass die Supportbemühungen angemessen gemessen werden.
+Auch der Geschäftsbetrieb ist bei der Konversation von Inhaltsstrategien wichtig. Die Formalisierung der Support-Anforderungen der Endkundinnen und Endkunden hilft, mit den Erwartungen nach der Bereitstellung zurechtzukommen und sicherzustellen, dass der Support-Aufwand angemessen ermittelt wird.
 
 ### Audio-Video-Anforderungen {#a-v-requirements}
 
-Montageszenarios müssen ebenso definiert werden, sowie Überlegungen zum Gerätezugriff für die Wartung von Geräten. Dies wirkt sich nicht nur auf die Empfehlungen für die Erstinstallation und die Ausrüstung aus, sondern bestimmt auch die laufenden Service- und Support-Anforderungen.
+Montageszenarios müssen ebenso definiert werden, dazu Überlegungen zum Gerätezugriff für die Wartung von Geräten. Dies hat nicht nur Auswirkungen auf den Arbeitsaufwand bei der Erstinstallation und die Empfehlungen für die Geräte, sondern bestimmt auch den laufenden Service- und Support-Bedarf.
 
 ### Site-Bereitschaft {#site-readiness}
 

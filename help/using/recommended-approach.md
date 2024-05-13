@@ -5,7 +5,7 @@ exl-id: 28aacffa-e9c9-4ccb-8038-720bb3e02a3f
 source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
 source-wordcount: '430'
-ht-degree: 36%
+ht-degree: 44%
 
 ---
 
@@ -13,9 +13,9 @@ ht-degree: 36%
 
 Es wird empfohlen, alle AEM Screens-Projekte auf Unternehmensebene als langfristige Projekte zu betrachten. Eine Projektdauer von einem oder mehreren Jahren ist wahrscheinlich, insbesondere wenn die Lösung komplexe Benutzerinteraktionen ermöglicht oder auf verschiedenen Geräten und Standorten bereitgestellt wird.
 
-## Leitlinien vor der Entwicklung einer Digital Signage-Strategie {#signage-strategy}
+## Leitlinien vor der Entwicklung einer Digital-Signage-Strategie {#signage-strategy}
 
-Beachten Sie die Empfehlungen vor der Entwicklung und Bereitstellung eines Digital Signage-Projekts:
+Beachten Sie die folgenden Empfehlungen, bevor Sie ein Digital-Signage-Projekt entwickeln und bereitstellen:
 
 * **Kontrolle des Umfangs**:
 Ist die gewünschte Lösung ehrgeizig, sollten Sie die Lieferziele in einzelne Schritte unterteilen, um den Umfang des Projekts richtig steuern zu können.
@@ -42,7 +42,7 @@ Erarbeiten Sie Machbarkeitsstudien (POCs), die Sie in der Pilot- und Rollout-Pha
 
   >[!NOTE]
   >
-  > Beginnen Sie mit der Erfassung von Analysen während des Pilotprojekts, damit Geschäftsteams den Erfolg der Lösung anhand der spezifischen Metriken überprüfen können, die sie erreichen möchten. Das Wissen über die Leistung des Piloten hilft dem Geschäftsteam dabei festzustellen, welche Verbesserungen vorgenommen werden müssen.
+  > Beginnen Sie mit der Erfassung von Analysen während des Pilotprojekts, damit Geschäftsteams den Erfolg der Lösung anhand der spezifischen Metriken überprüfen können, die sie erreichen möchten. Die Ergebnisse aus dem Pilotprojekt helfen dem Geschäfts-Team dabei, zu ermitteln, welche Verbesserungen vorgenommen werden müssen.
 
 * **Aufteilen von Lieferzielen in messbare Aufgaben**: Die Aufteilung der Bereitstellung von Funktionen in messbare Aufgaben ermöglicht Feedback, bietet erreichbarere Ziele und reduziert die Gesamtrisiken des Projekts.
 

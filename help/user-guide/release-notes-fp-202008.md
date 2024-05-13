@@ -1,6 +1,6 @@
 ---
 title: Versionshinweise für Feature Pack 202008
-description: Erfahren Sie mehr über das AEM Screens Feature Pack 202008, das am 3. September 2020 veröffentlicht wurde.
+description: Erfahren Sie mehr über das AEM Screens Feature Pack 202008, das am Freitag, 3. September 2020 veröffentlicht wurde.
 feature: Feature Pack
 role: Developer
 level: Intermediate
@@ -8,7 +8,7 @@ exl-id: bd466576-a6d3-494c-82e5-c5326b6e0aca
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '342'
-ht-degree: 47%
+ht-degree: 64%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 47%
 
 Das AEM 6.5 Feature Pack 5 wurde für AEM Screens veröffentlicht.
 
-Sie können das neueste Feature Pack für AEM Screens 6.5.5 von der [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) die Verwendung Ihrer Adobe ID. Navigieren Sie zum **Adobe Experience Manager** Registerkarte und suchen Sie nach **Screens** um das neueste Feature Pack zu erhalten.
+Sie können das neueste Feature Pack für AEM Screens 6.5.5 von der [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/de/aem.html) die Verwendung Ihrer Adobe ID. Navigieren Sie zum **Adobe Experience Manager** Registerkarte und suchen Sie nach **Screens** um das neueste Feature Pack zu erhalten.
 
 ## Veröffentlichungsdatum {#release-date}
 
@@ -52,13 +52,13 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 202008 ist der 3. Sept
 
 ### Bekannte Probleme und Fehlerbehebungen {#known-issues}
 
-Richten Sie eine Umgebung für Windows- oder Android™-Player ein, wenn Sie das AEM Screens 6.5.5 Service Pack verwenden.
+Wenn Sie das AEM Screens 6.5.5 Service Pack verwenden, richten Sie eine Umgebung für den Windows- oder Android-Player ein.
 
 Setzen Sie in der **Konfiguration der Adobe Experience Manager-Web-Konsole** das **SameSite-Attribut für die Anmeldungs-Token-Cookies** auf allen AEM-Autoren- und Veröffentlichungsinstanzen von **Lax** auf **Keine**.
 
 * Weitere Informationen finden Sie unter [Implementieren von Windows 10 Player](implementing-windows-player.md#fp-environment-setup).
 
-* Siehe [Implementieren von Android™ Player](implementing-android-player.md#fp-environment-setup) für weitere Details.
+* Weitere Informationen finden Sie unter [Implementieren des Android™ Players](implementing-android-player.md#fp-environment-setup).
 
 ### Veröffentlichte AEM Screens-Player
 
@@ -68,6 +68,6 @@ Die folgenden AEM Screens-Player sind für AEM Screens 6.5 Feature Pack 5 verfü
 * Windows
 * Android™
 
-#### AEM Screens-Player-Downloads 
+#### AEM Screens-Player-Downloads
 
 Informationen zum Herunterladen des neuesten AEM Screens-Players und zu weiteren Fehlerbehebungen finden Sie unter **[AEM Screens Player-Downloads](https://download.macromedia.com/screens/index.html)**.

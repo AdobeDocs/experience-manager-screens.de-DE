@@ -12,7 +12,7 @@ exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
 source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
 source-wordcount: '686'
-ht-degree: 50%
+ht-degree: 77%
 
 ---
 
@@ -24,7 +24,7 @@ Auf dieser Seite erfahren Sie, wie Sie die Player für Screens auf Ihren Geräte
 
 >[!IMPORTANT]
 >
->AEM Screens Player verwendet das CSRF-Token (Cross-Site Request Forgery) nicht. Um den AEM-Server so zu konfigurieren, dass er für AEM Screens verwendet werden kann, überspringen Sie daher den Referrer-Filter, indem Sie leere Referrer zulassen.
+>AEM Screens Player verwendet das CSRF-Token (Cross-Site Request Forgery) nicht. Um den AEM-Server für den Einsatz von AEM Screens zu konfigurieren, müssen Sie daher den Referrer-Filter überspringen, indem Sie leere Referrer zulassen.
 
 ## Framework für Statusprüfungen {#health-check-framework}
 
@@ -55,8 +55,8 @@ Gehen Sie wie folgt vor, um zu prüfen, ob diese beiden wichtigen Konfiguratione
 
 >[!NOTE]
 >
->* So aktivieren Sie die **Apache Sling Referrer Filter**, siehe [Zulassen von leeren Referrer-Anforderungen](/help/user-guide/configuring-screens-introduction.md#allow-empty-referrer-requests).
->* So aktivieren Sie die **HTTP** -Dienst, siehe [Apache Felix Jetty-basierter HTTP-Dienst](/help/user-guide/configuring-screens-introduction.md#allow-apache-felix-service).
+>* Informationen zum Aktivieren des **Apache Sling Referrer-Filters** finden Sie unter [Zulassen von leeren Referrer-Anfragen](/help/user-guide/configuring-screens-introduction.md#allow-empty-referrer-requests).
+>* Informationen zum Aktivieren des **HTTP**-Dienstes finden Sie unter [Apache Felix Jetty-basierter HTTP-Dienst](/help/user-guide/configuring-screens-introduction.md#allow-apache-felix-service).
 
 ### Voraussetzungen {#prerequisites}
 
@@ -102,7 +102,7 @@ AEM Screens erfordert die TOUCH-Benutzeroberfläche und funktioniert nicht mit d
 1. Navigieren Sie zu `*<yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*`
 1. Stellen Sie sicher, dass der **standardmäßige Authoring-Oberflächenmodus** auf **TOUCH** gesetzt ist, wie in der folgenden Abbildung gezeigt.
 
-Alternativ können Sie dieselbe Einstellung auch mit yourAuthorInstance vornehmen *>* Tools (Hammersymbol) > **Aktivitäten** > **Web-Konsole** und suchen Sie nach **WCM Authoring UI Mode Service**.
+Alternativ können Sie dieselbe Einstellung auch mit „yourAuthorInstance“ *>* Tools (Hammersymbol) > **Vorgänge** > **Web-Konsole** vornehmen und nach **WCM Authoring UI Mode Service** suchen.
 
 ![screen_shot_2018-12-04at22425pm](assets/screen_shot_2018-12-04at22425pm.png)
 
@@ -112,7 +112,7 @@ Alternativ können Sie dieselbe Einstellung auch mit yourAuthorInstance vornehme
 
 #### AEM im NOSAMPLECONTENT-Ausführungsmodus {#aem-in-nosamplecontent-runmode}
 
-Wird AEM in der Produktion ausgeführt, wird die **NOSAMPLECONTENT** Ausführungsmodus. Entfernen Sie die Kopfzeile *X-Frame-Options=SAMEORIGIN* (im Abschnitt für die zusätzliche Antwortkopfzeile) von
+Beim Ausführen von AEM in einer Produktionsumgebung wird der Ausführungsmodus **NOSAMPLECONTENT** verwendet. Entfernen Sie die Kopfzeile *X-Frame-Options=SAMEORIGIN* (im Abschnitt für die zusätzliche Antwortkopfzeile) von
 
 `https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`.
 
@@ -122,26 +122,26 @@ Diese Entfernung ist erforderlich, damit der AEM Screens-Player Online-Kanäle w
 
 Mit den neuesten Änderungen an ***DeviceServiceImpl***, müssen Sie die Kennworteinschränkungen nicht entfernen.
 
-Sie können ***DeviceServiceImpl*** über den unten stehenden Link, um die Kennworteinschränkung zu aktivieren, während Sie das Kennwort für die Benutzer des Bildschirmgeräts erstellen:
+Sie können ***DeviceServiceImpl*** über den unten stehenden Link konfigurieren, um die Kennworteinschränkungen zu aktivieren, während Sie das Kennwort für die Screens-Gerätebenutzenden erstellen:
 
 `https://localhost:4502/system/console/configMgr/com.adobe.cq.screens.device.impl.DeviceService`
 
 Gehen Sie wie folgt vor, um ***DeviceServiceImpl*** zu konfigurieren:
 
-1. Navigieren Sie zu **Konfiguration der Adobe Experience Manager-Web-Konsole** über Ihre AEM-Instanz > Hammersymbol > **Aktivitäten** > **Web-Konsole**.
+1. Navigieren Sie zur **Konfiguration der Adobe Experience Manager-Web-Konsole** über AEM-Instanz > Hammersymbol > **Vorgänge** > **Web-Konsole**.
 
-1. Die **Konfiguration der Adobe Experience Manager-Web-Konsole** wird geöffnet. Suchen Sie nach `*deviceservice*`. Um nach der Eigenschaft zu suchen, drücken Sie **Befehl+F** für macOS und **Strg+F** für Microsoft® Windows.
+1. Die **Konfiguration der Adobe Experience Manager-Web-Konsole** wird geöffnet. Suchen Sie nach `*deviceservice*`. Um nach der Eigenschaft zu suchen, drücken Sie **Befehl+F** unter macOS und **Strg+F** unter Microsoft® Windows.
 
 ![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
 
 #### Dispatcher-Konfiguration {#dispatcher-configuration}
 
-Informationen zum Konfigurieren des Dispatchers für ein AEM Screens-Projekt finden Sie unter [Konfigurieren des Dispatchers für ein AEM Screens-Projekt](dispatcher-configurations-aem-screens.md).
+Weitere Informationen zum Konfigurieren von Dispatcher für ein AEM Screens-Projekt finden Sie unter [Konfigurieren von Dispatcher für ein AEM Screens-Projekt](dispatcher-configurations-aem-screens.md).
 
 #### Java™-Kodierung {#java-encoding}
 
-Legen Sie die ***Java™-Kodierung*** nach Unicode. Beispiel: `*Dfile.encoding=Cp1252*` funktioniert nicht.
+Stellen Sie die ***Java™-Kodierung*** auf Unicode ein. Zum Beispiel funktioniert `*Dfile.encoding=Cp1252*` nicht.
 
 >[!NOTE]
 >
->Verwenden Sie HTTPS für AEM Screens Server in der Produktionsumgebung.
+>Verwenden Sie HTTPS für AEM Screens-Server in Produktionsumgebungen.

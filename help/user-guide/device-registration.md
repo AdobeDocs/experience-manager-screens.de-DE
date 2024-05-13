@@ -13,7 +13,7 @@ exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
 source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
 source-wordcount: '722'
-ht-degree: 32%
+ht-degree: 56%
 
 ---
 
@@ -23,23 +23,23 @@ Auf der folgenden Seite wird der Prozess zur Geräteregistrierung in einem AEM S
 
 ## Registrieren von Geräten {#registering-a-device}
 
-Der Prozess zur Geräteregistrierung erfolgt auf zwei separaten Geräten:
+Der Prozess zur Geräteregistrierung erfolgt auf zwei separaten Geräten:
 
-* Das tatsächliche Gerät, das registriert werden soll, z. B. Ihre Signage-Anzeige
-* Der AEM-Server, der zum Registrieren des Geräts verwendet wird
+* dem Gerät, das registriert werden soll, etwa einer Digital-Signage-Anzeige
+* dem zur Registrierung des Geräts verwendeten AEM-Server
 
 >[!NOTE]
 >
 >Nach dem Herunterladen des neuesten Windows-Players (*.exe*), aus dem [AEM 6.4 Player-Downloads](https://download.macromedia.com/screens/) Führen Sie die Schritte im Player aus, um die Ad-hoc-Installation abzuschließen:
 >
 >1. Halten Sie die linke obere Ecke gedrückt, um das Admin-Bedienfeld zu öffnen.
->1. Navigieren Sie im linken Aktionsmenü zu **Konfiguration**, geben Sie die Standortadresse der AEM-Instanz unter **Server** ein und klicken Sie auf **Speichern**.
+>1. Navigieren Sie im linken Aktionsmenü zu **Konfiguration**, geben Sie die Speicherortadresse der AEM-Instanz unter **Server** ein und klicken Sie auf **Speichern**.
 >1. Klicken Sie auf **Registrierung** über den Link im linken Aktionsmenü und die folgenden Schritte, um den Prozess zur Geräteregistrierung abzuschließen.
 >
 
 ![screen_shot_2018-11-26at12118pm](assets/screen_shot_2018-11-26at12118pm.png)
 
-1. Starten Sie auf Ihrem Gerät den AEM Screens-Player. Die Registrierungs-Benutzeroberfläche wird angezeigt.
+1. Starten Sie den Player für AEM Screens auf dem Gerät. Daraufhin wird die Benutzeroberfläche für die Registrierung angezeigt.
 
    ![screen_shot_2018-11-26at104230am](assets/screen_shot_2018-11-26at104230am.png)
 
@@ -80,7 +80,7 @@ Der Prozess zur Geräteregistrierung erfolgt auf zwei separaten Geräten:
 
    >[!NOTE]
    >
-   >Die **Neu registrieren** ermöglicht die Registrierung eines neuen Geräts.
+   >Mit **Neu registrieren** können Sie ein neues Gerät registrieren.
    >
    >Mit **Anzeige zuweisen** können Sie das Gerät direkt einer Anzeige hinzufügen.
 
@@ -120,7 +120,7 @@ Wenn Sie das Gerät nicht einer Anzeige zugewiesen haben, führen Sie die folgen
 
 Wenn Sie Geräte für Ihren Player registriert haben, können Sie alle Geräte über die Benutzeroberfläche des Geräte-Managers anzeigen.
 
-1. Navigieren Sie von Ihrem AEM Screens-Projekt aus zur Benutzeroberfläche des Geräte-Managers, z. B.: **DemoScreens** > **Geräte**.
+1. Navigieren Sie in Ihrem AEM Screens-Projekt zur Benutzeroberfläche des Geräte-Managers, z. B. **DemoScreens** > **Geräte**.
 
 1. Klicken Sie auf **Geräte** Ordner und klicken Sie auf **Geräte-Manager** in der Aktionsleiste aus.
 
@@ -132,7 +132,7 @@ Wenn Sie Geräte für Ihren Player registriert haben, können Sie alle Geräte �
 
    ![image](/help/user-guide/assets/device-manager/device-manager-2.png)
 
-   Oder
+   ODER
 
    Auswählen `/` (Schrägstrich) zum Aufrufen der Suchfunktion.
 
@@ -154,13 +154,13 @@ Wenn Sie Geräte für Ihren Player registriert haben, können Sie alle Geräte �
 
 ## Einschränkungen bei der Geräteregistrierung {#limitations-on-device-registration}
 
-Systemweite Einschränkungen des Benutzerkennworts können zu Fehlern bei der Geräteregistrierung führen. Die Geräteregistrierung verwendet ein zufällig generiertes Kennwort, um den Gerätebenutzer zu erstellen.
+Systemweite Einschränkungen für Benutzerkennwörter verursachen möglicherweise einen Fehler bei der Geräteregistrierung. Bei der Geräteregistrierung wird ein zufällig generiertes Kennwort verwendet, um die Gerätebenutzerin bzw. den Gerätebenutzer zu erstellen.
 
 Wenn die Variable *AuthorizableActionProvider* -Konfiguration beschränkt das Kennwort, wodurch der Gerätebenutzer möglicherweise fehlschlägt.
 
 >[!NOTE]
 >
->Das derzeit generierte zufällige Passwort besteht aus 36 ASCII-Zeichen im Bereich von 33 bis 122 (enthält fast alle Sonderzeichen).
+>Das zufällig generierte Kennwort besteht zurzeit aus 36 ASCII-Zeichen aus dem Bereich von 33 bis 122 (enthält fast alle Sonderzeichen).
 
 ```java
 25.09.2016 16:54:03.140 *ERROR* [59.100.121.82 [1474844043109] POST /content/screens/svc/registration HTTP/1.1] com.adobe.cq.screens.device.registration.impl.RegistrationServlet Error during device registration

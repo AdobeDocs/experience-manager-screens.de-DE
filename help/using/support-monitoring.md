@@ -1,11 +1,11 @@
 ---
 title: Support-Überwachung
-description: Erfahren Sie mehr über das Handbuch zur Support-Überwachung für AEM Screens Best Practices .
+description: Erfahren Sie mehr über die Best Practices für die Support-Überwachung von AEM Screens.
 exl-id: b9d6f713-e26d-4f56-bedb-2d419a19a05c
 source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
 source-wordcount: '218'
-ht-degree: 23%
+ht-degree: 40%
 
 ---
 
@@ -20,7 +20,7 @@ Support-Überwachung umfasst:
 
 ## Inhaltsüberwachung {#content-monitoring}
 
-Mit der Inhaltsüberwachung können Sie Probleme im Zusammenhang mit Inhalten beheben, die nicht ordnungsgemäß auf dem Bildschirm angezeigt werden:
+Durch die Inhaltsüberwachung können Sie Fehler in Zusammenhang mit Inhalten beheben, die auf dem Bildschirm nicht ordnungsgemäß dargestellt werden:
 
 1. Wenn ein Problem mit einem leeren Bildschirm auftritt:
 
@@ -42,4 +42,4 @@ Geräteüberwachung im Zusammenhang mit der Überwachung des physischen Geräts,
 
    * Überprüfen Sie, ob das *Display* eingeschaltet ist.
    * Überprüfen Sie, ob die *Computer* eingeschaltet ist und ein Signal sendet.
-   * Rechtsklick, Überprüfung und Prüfung *Gültige Protokolle*.
+   * Klicken Sie mit der rechten Maustaste und prüfen Sie die *entsprechenden Protokolle*.

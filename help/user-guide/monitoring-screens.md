@@ -1,5 +1,5 @@
 ---
-title: Problembehebung in der Gerätesteuerung
+title: Problembehebung im Geräte-Kontrollzentrum
 description: Erfahren Sie, wie Sie mithilfe des Geräte-Dashboards die Leistung Ihrer AEM Screens Player-Aktivität und Ihres-Geräts überwachen und Fehler beheben können.
 contentOwner: Jyotika Syal
 content-type: reference
@@ -13,11 +13,11 @@ exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 35%
+ht-degree: 71%
 
 ---
 
-# Problembehebung in der Gerätesteuerung {#troubleshooting-device-control-center}
+# Problembehebung im Geräte-Kontrollzentrum {#troubleshooting-device-control-center}
 
 Über das Geräte-Dashboard können Sie die Leistung Ihrer AEM Screens Player-Aktivität und Ihres Geräts überwachen und Fehler beheben. Auf dieser Seite finden Sie Informationen zur Überwachung und Fehlerbehebung bei erkannten Leistungsproblemen des Screens-Players und der zugeordneten Geräte.
 
@@ -29,7 +29,7 @@ Sie können die Aktivität überwachen und somit mithilfe des Geräte-Dashboards
 
 Führen Sie die folgenden Schritte aus, um zum Geräte-Dashboard zu navigieren:
 
-1. Navigieren Sie vom Projekt zum Geräte-Dashboard, z. B. ***Testprojekt*** > ***Geräte***.
+1. Navigieren Sie ausgehend von Ihrem Projekt zum Geräte-Dashboard, z. B. über ***Testprojekt*** > ***Geräte***.
 
    Klicks **Geräte** und **Geräte-Manager** in der Aktionsleiste aus.
 
@@ -43,13 +43,13 @@ Führen Sie die folgenden Schritte aus, um zum Geräte-Dashboard zu navigieren:
 
    ![screen_shot_2019-09-05at13341pm](assets/screen_shot_2019-09-05at13341pm.png)
 
-1. Auf der Seite werden die Geräteinformationen, die Aktivität und die Gerätedetails angezeigt, mit denen Sie die Geräteaktivitäten und -funktionen überwachen können.
+1. Auf der Seite werden die Geräteinformationen, die Aktivitäten und die Gerätedetails angezeigt, mit denen Sie die Geräteaktivitäten und -funktionen überwachen können.
 
    ![screen_shot_2019-09-05at13700pm](assets/screen_shot_2019-09-05at13700pm.png)
 
-### Geräteaktivität überwachen {#monitor-device-activity}
+### Überwachen der Geräteaktivität {#monitor-device-activity}
 
-Die **Aktivität** zeigt den letzten Ping Ihres AEM Screens-Players mit dem Zeitstempel an. Der letzte Ping entspricht dem letzten Kontakt des Geräts mit dem Server.
+Die **Aktivität** zeigt den letzten Ping Ihres AEM Screens-Players mit dem Zeitstempel an. Der letzte Ping entspricht dem letzten Zeitpunkt, zu dem das Gerät den Server kontaktiert hat.
 
 ![chlimage_1](assets/chlimage_1.png)
 
@@ -57,7 +57,7 @@ Klicken Sie außerdem auf **Protokolle erfassen** oben rechts im **Aktivität** 
 
 ### Aktualisieren der Gerätedetails {#update-device-details}
 
-Überprüfen Sie die **Gerätedetails** -Bedienfeld, damit Sie die Geräte-IP, Speicherverwendung, Firmware-Version und Player-Betriebszeit für Ihr Gerät anzeigen können.
+Rufen Sie das Bedienfeld **Gerätedetails** auf, um dort die Geräte-IP, Speichernutzung, Firmware-Version und Player-Betriebszeit für Ihr Gerät anzuzeigen.
 
 ![chlimage_1-1](assets/chlimage_1-1.png)
 
@@ -67,9 +67,9 @@ Klicken Sie außerdem auf **...** oben rechts im **Gerätedetails** um den Statu
 
 ![chlimage_1-2](assets/chlimage_1-2.png)
 
-### Aktualisieren von Geräteinformationen {#update-device-information}
+### Aktualisieren der Geräteinformationen {#update-device-information}
 
-Überprüfen Sie die **GERÄTEINFORMATIONEN** Bedienfeld. Hier können Sie die Konfigurationsaktualisierung, das Gerätemodell, das Betriebssystem des Geräts und die Shell-Informationen anzeigen.
+Überprüfen Sie das Bedienfeld **GERÄTEINFORMATIONEN**. Dort können Sie die Konfigurationsaktualisierung, das Gerätemodell, das Betriebssystem des Geräts und die Shell-Informationen anzeigen.
 
 ![screen_shot_2019-09-05at13853pm](assets/screen_shot_2019-09-05at13853pm.png)
 
@@ -77,7 +77,7 @@ Klicken Sie außerdem auf (**...**) oben rechts im Bedienfeld &quot;Geräteinfor
 
 ![screen_shot_2019-09-05at14017pm](assets/screen_shot_2019-09-05at14017pm.png)
 
-Klicks **Eigenschaften** so können Sie die **Geräteeigenschaften** Dialogfeld. Sie können den Gerätenamen bearbeiten oder die Option für Konfigurationsaktualisierungen als **Manuell** oder **Automatisch**.
+Klicks **Eigenschaften** so können Sie die **Geräteeigenschaften** Dialogfeld. Sie können den Gerätetitel bearbeiten oder als Option für Konfigurationsaktualisierungen **Manuell** oder **Automatisch** auswählen.
 
 >[!NOTE]
 >
@@ -95,10 +95,10 @@ Klicken Sie auf (**...**) oben rechts im Bedienfeld &quot;Player-Screenshot&quot
 
 ### Verwalten von Voreinstellungen {#manage-preferences}
 
-Im Bedienfeld **VOREINSTELLUNGEN** können Benutzer die Voreinstellungen des Geräts für **Administrator-Benutzeroberfläche**, **Kanalschalter** und **Remote-Debugging** ändern.
+Im Bedienfeld **VOREINSTELLUNGEN** können Benutzende die Voreinstellungen des Geräts für **Administrator-Benutzeroberfläche**, **Kanalschalter** und **Remote-Debugging** ändern.
 
 >[!NOTE]
->Weitere Informationen zu diesen Optionen finden Sie unter [AEM Screens Player](working-with-screens-player.md).
+>Weitere Informationen zu diesen Optionen finden Sie unter [AEM Screens-Player](working-with-screens-player.md).
 
 ![screen_shot_2019-09-05at14250pm](assets/screen_shot_2019-09-05at14250pm.png)
 
@@ -122,9 +122,9 @@ Klicken Sie außerdem auf **Einstellungen** oben rechts, um die Gerätevoreinste
 
 ![screen_shot_2019-09-05at15645pm](assets/screen_shot_2019-09-05at15645pm.png)
 
-## Fehlerbehebung bei OSGi-Einstellungen {#troubleshoot-osgi-settings}
+## Durchführen der Fehlerbehebung für die OSGi-Einstellungen {#troubleshoot-osgi-settings}
 
-Aktivieren Sie den leeren Referrer, damit das Gerät Daten an den Server posten kann. Wenn die Eigenschaft für den leeren Referrer deaktiviert ist, kann das Gerät keine Screenshots zurückgeben.
+Aktivieren Sie den leeren Referrer, um dem Gerät das Bereitstellen von Daten auf dem Server zu erlauben. Wenn die Eigenschaft für den leeren Referrer deaktiviert ist, kann das Gerät keine Screenshots zurückgeben.
 
 Derzeit sind einige dieser Funktionen nur verfügbar, wenn der *Apache Sling Referrer-Filter „Allow Empty“* in der OSGi-Konfiguration aktiviert ist. Im Dashboard wird ggf. eine Warnung angezeigt, dass einige dieser Funktionen aufgrund der Sicherheitseinstellungen nicht funktionieren.
 
@@ -138,24 +138,24 @@ Führen Sie die nachfolgenden Schritte aus, um den Apache Sling Referrer-Filter 
 
 ### Empfehlungen {#recommendations}
 
-Im folgenden Abschnitt wird empfohlen, die Netzwerklinks, Server und Player zu überwachen, um den Zustand zu verstehen und auf Probleme zu reagieren.
+Im folgenden Abschnitt wird die Überwachung der Netzwerklinks, des Servers und der Player empfohlen, um Informationen zum Zustand zu erhalten und auf Probleme reagieren zu können.
 
-AEM bietet integrierte Überwachung für:
+AEM ermöglicht die integrierte Überwachung für:
 
-* *Heartbeat* alle 5 Sekunden, um anzugeben, dass der AEM Screens-Player aktiv ist.
-* *Screenshot* aus dem Player, der anzeigt, was auf dem Player angezeigt wird.
-* Die *AEM Screens Player-Firmware* auf dem Player installiert ist.
+* *Heartbeat* alle fünf Sekunden, um anzugeben, dass der AEM Screens-Player betriebsbereit ist.
+* *Screenshot* des Players, um zu sehen, was derzeit im Player angezeigt wird.
+* Die *AEM Screens-Player-Firmware* Version, die auf dem Player installiert ist.
 * *Freier Speicherplatz* auf dem Player.
 
-Recommendations für Remote-Überwachung mit Drittanbietersoftware:
+Empfehlungen für die Remote-Überwachung mit Software von Drittanbietern:
 
-* CPU-Auslastung auf Playern.
-* Überprüfen Sie, ob der AEM Screens Player-Prozess ausgeführt wird.
-* Remote Neustart/Neustart des Players.
-* Echtzeit-Benachrichtigungen.
+* CPU-Auslastung auf den Playern.
+* Überprüfung, ob der Prozess für AEM Screens-Player ausgeführt wird.
+* Remote Neustart/Reboot des Players.
+* Benachrichtigungen in Echtzeit.
 
-Es wird empfohlen, die Player-Hardware und das Betriebssystem so bereitzustellen, dass die Remote-Anmeldung Probleme diagnostizieren und den Player neu starten kann.
+Es wird empfohlen, die Player-Hardware und das Betriebssystem so bereitzustellen, dass eine Remote-Anmeldung möglich ist, um Probleme zu diagnostizieren und den Player neu zu starten.
 
 #### Sonstige Ressourcen {#additional-resources}
 
-Siehe [Konfiguration der Videowiedergabe und Fehlerbehebung](troubleshoot-videos.md) , wenn Sie die Videowiedergabe in Ihrem Kanal debuggen und Fehler beheben möchten.
+Informationen zum Debuggen und Behandeln von Problemen beim Abspielen von Videos in Ihrem Kanal finden Sie unter [Konfiguration der Videowiedergabe und Fehlerbehebung](troubleshoot-videos.md).

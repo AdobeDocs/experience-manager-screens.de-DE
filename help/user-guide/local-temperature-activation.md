@@ -13,7 +13,7 @@ exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '447'
-ht-degree: 33%
+ht-degree: 43%
 
 ---
 
@@ -29,7 +29,7 @@ Wenn der Wert in Google Tabellen für diesen Anwendungsfall unter 50 liegt, wird
 
 Bevor Sie mit der Implementierung der temperaturgesteuerten Aktivierung eines Reiseangebots beginnen, erfahren Sie, wie Sie ***Datenspeicher***, ***Zielgruppensegmentierung*** und ***Targeting für Kanäle aktivieren*** in einem AEM Screens-Projekt.
 
-Siehe [Konfigurieren von ContextHub in AEM Screens](configuring-context-hub.md) für detaillierte Informationen.
+Genaue Informationen dazu finden Sie unter [Konfigurieren von ContextHub in AEM Screens](configuring-context-hub.md).
 
 ## Grundlegender Ablauf {#basic-flow}
 
@@ -44,7 +44,7 @@ Gehen Sie wie folgt vor, um das Anwendungsbeispiel für die temperaturgesteuerte
 
 1. **Konfigurieren der Segmente in Zielgruppen gemäß den Anforderungen**
 
-   1. Navigieren Sie zu den Segmenten in Ihrer Zielgruppe (siehe ***Schritt 2: Einrichten der Zielgruppensegmentierung*** in **[Konfigurieren von ContextHub in AEM Screens](configuring-context-hub.md)** Seite für weitere Details).
+   1. Navigieren Sie zu den Segmenten in Ihrer Zielgruppe (siehe ***Schritt 2: Einrichten der Zielgruppensegmentierung*** auf der Seite **[Konfigurieren von ContextHub in AEM Screens](configuring-context-hub.md)**, um mehr zu erfahren).
 
    1. Klicken Sie auf **Blätter A1 1** und klicken **Bearbeiten**.
 
@@ -74,7 +74,7 @@ Gehen Sie wie folgt vor, um das Anwendungsbeispiel für die temperaturgesteuerte
 
    >[!CAUTION]
    >
-   >Sie sollten Ihre **ContextHub** **Konfigurationen** über den Kanal **Eigenschaften** > **Personalisierung** Registerkarte.
+   >Sie sollten Ihre **ContextHub**-**Konfigurationen** über die **Eigenschaften** für Kanäle auf der Registerkarte **Personalisierung** eingerichtet haben.
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 

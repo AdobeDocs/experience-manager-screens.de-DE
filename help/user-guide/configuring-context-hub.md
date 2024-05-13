@@ -13,27 +13,27 @@ exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
 source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1445'
-ht-degree: 40%
+ht-degree: 82%
 
 ---
 
 # Konfigurieren von ContextHub in AEM Screens {#configuring-contexthub-in-aem-screens}
 
-Dieser Abschnitt konzentriert sich auf die Erstellung und Verwaltung datengesteuerter Asset-Änderungen mithilfe eines Datenspeichers.
+Dieser Abschnitt konzentriert sich auf das Erstellen und Verwalten von datengesteuerten Asset-Änderungen mithilfe eines Datenspeichers.
 
 ## Schlüsselbegriffe {#key-terms}
 
-Bevor Sie sich mit der Erstellung und Verwaltung von bestandsgesteuerten Kanälen in Ihrem AEM Screens-Projekt befassen, sollten Sie sich mit einigen Schlüsselbegriffen für die verschiedenen Szenarien vertraut machen.
+Bevor Sie sich mit der Erstellung und Verwaltung von bestandsgesteuerten Kanälen in Ihrem AEM Screens-Projekt beschäftigen, machen Sie sich mit einigen der Schlüsselbegriffe der verschiedenen Szenarien vertraut.
 
-**Marke** - Ihre allgemeine Projektbeschreibung.
+**Marke**: Ihre allgemeine Projektbeschreibung.
 
-**Bereich** - Ihr AEM Screens-Projektname, z. B. Digital Ad Signage
+**Bereich**: bezieht sich auf den Namen Ihres AEM Screens-Projekts, z. B. „Digitale Werbebeschilderung“
 
-**Aktivität** - Definiert die Kategorieregeln wie &quot;bestandsgesteuert&quot;, &quot;wettergesteuert&quot;oder &quot;Abteilungsverfügbarkeit gesteuert&quot;.
+**Aktivität**: Definiert die Kategorieregeln wie „bestandsgesteuert“, „wettergesteuert“ oder „Abteilungsverfügbarkeits-gesteuert“.
 
-**Zielgruppe** - Definiert die Regel.
+**Zielgruppe** definiert die Regel.
 
-**Segment** - Die Version des Assets, das für die jeweilige Regel wiedergegeben werden soll. Wenn die Temperatur beispielsweise unter 50 Grad Fahrenheit liegt, zeigt der Bildschirm ein Bild eines heißen Getränks an, ansonsten ein kaltes Getränk.
+**Segment**: Die Version des Assets, das für die jeweilige Regel wiedergegeben werden soll. Wenn die Temperatur beispielsweise unter 50 Grad Fahrenheit liegt, zeigt der Bildschirm ein Bild eines heißen Getränks an, ansonsten ein kaltes Getränk.
 
 Das folgende Diagramm zeigt visuell, wie ContextHub-Konfigurationen mit Aktivität, Zielgruppe und Kanälen zusammenfallen.
 
@@ -47,19 +47,19 @@ Bevor Sie mit der Konfiguration von ContextHub-Konfigurationen für ein AEM Scre
 >
 >Google Tabellen wird im folgenden Beispiel als Beispieldatenbanksystem verwendet, von dem die Werte abgerufen werden und das ausschließlich zu Fortbildungszwecken dient. Adobe unterstützt die Verwendung von Google Tabellen in Produktionsumgebungen nicht.
 >
->Weitere Informationen finden Sie unter [API-Schlüssel abrufen](https://developers.google.com/maps/documentation/javascript/get-api-key) in der Google-Dokumentation.
+>Weitere Informationen finden Sie in der Google-Dokumentation unter [Abrufen eines API-Schlüssels](https://developers.google.com/maps/documentation/javascript/get-api-key).
 
 ## Schritt 1: Einrichten eines Datenspeichers {#step-setting-up-a-data-store}
 
 Sie können den Datenspeicher als lokales E/A-Ereignis oder als lokales Datenbankereignis einrichten.
 
-Im folgenden Trigger zu Datenprofilen auf Asset-Ebene wird ein lokales Datenbankereignis veranschaulicht, das einen Datenspeicher wie ein Excel-Blatt einrichtet, mit dem Sie ContextHub-Konfigurationen und Segmentpfade zum AEM Screens- verwenden können.
+Im folgenden Beispiel für Datenauslöser auf Asset-Ebene wird ein lokales Datenbankereignis gezeigt, das einen Datenspeicher wie beispielsweise ein Excel-Blatt einrichtet, das die Verwendung von ContextHub-Konfigurationen und Segmentpfaden zum AEM Screens-Kanal ermöglicht.
 
-Nachdem Sie die `google` korrekt angezeigt werden, wie im folgenden Beispiel gezeigt:
+Nachdem Sie das `google`-Blatt korrekt eingerichtet haben, wie im folgenden Beispiel dargestellt:
 
 ![Bild](/help/user-guide/assets/context-hub/context-hub1.png)
 
-Die folgende Validierung wird angezeigt, wenn Sie die Verbindung durch Eingabe der beiden Werte überprüfen. `*google sheet ID*` und `*API key*` im folgenden Format:
+Die folgende Validierung wird angezeigt, wenn Sie Ihre Verbindung prüfen, indem Sie die beiden Werte `*google sheet ID*` und `*API key*` im folgenden Format eingeben:
 
 `https://sheets.googleapis.com/v4/spreadsheets/<your sheet id>/values/Sheet1?key=<your API key>`
 
@@ -67,13 +67,13 @@ Die folgende Validierung wird angezeigt, wenn Sie die Verbindung durch Eingabe d
 
 >[!NOTE]
 >
->Im folgenden Beispiel werden die Google Tabellen als Datenspeicher dargestellt, in dem eine Asset-Änderung Trigger wird, wenn der Wert größer als 100 oder kleiner als 50 ist.
+>Im folgenden Beispiel werden die Google-Tabellenblätter als Datenspeicher gezeigt, der eine Asset-Änderung auslöst, wenn der Wert größer als 100 oder kleiner als 50 ist.
 
 ## Schritt 2: Einrichten von Speicherkonfigurationen {#step-setting-store-configurations}
 
 1. **Navigieren zu ContextHub**
 
-   Navigieren Sie zu Ihrer AEM-Instanz und klicken Sie in der linken Seitenleiste auf das Symbol „Tools“. Klicks **Sites** > **ContextHub**, wie in der folgenden Abbildung dargestellt.
+   Navigieren Sie zu Ihrer AEM-Instanz und klicken Sie in der linken Seitenleiste auf das Symbol „Tools“. Klicken Sie auf **Sites** > **ContextHub**, wie in der Abbildung unten gezeigt.
 
    ![Bild](/help/user-guide/assets/context-hub/context-hub3.png)
 
@@ -102,25 +102,25 @@ Die folgende Validierung wird angezeigt, wenn Sie die Verbindung durch Eingabe d
    >
    >1. Navigieren Sie zu CRXDE Lite und dann zu `/conf/screens/settings/cloudsettings`.
    >1. Überprüfen Sie, ob `cloudsettings jcr:primaryType` sich in `sling:Folder` befindet. Wenn die Variable `jcr:primaryType` sich nicht in `sling:folder` befindet, fahren Sie mit den nächsten Schritten fort.
-   >1. Rechtsklick `/conf/screens/settings` und erstellen Sie einen Knoten mit *name* as **`cloudsettings1`** und *Typ* as **`sling:Folder`** und speichern Sie die Änderungen.
+   >1. Klicken Sie mit der rechten Maustaste auf `/conf/screens/settings` und erstellen Sie einen Knoten mit *Namen* als **`cloudsettings1`** und *Typ* als **`sling:Folder`** und speichern Sie die Änderungen.
    >1. Verschieben Sie alle Knoten unter `/conf/screens/settings/cloudsettings` nach `cloudsettings1`.
    >1. Löschen Sie `cloudsettings` und speichern Sie.
    >1. Benennen Sie `cloudsettings1` in `cloudsettings` um und speichern Sie sie.
-   >1. Beachten Sie, dass `/conf/screens/settings/cloudsettings` has `jcr:primaryType` as `sling:Folder`.
+   >1. Beachten Sie, dass `/conf/screens/settings/cloudsettings` über `jcr:primaryType` als `sling:Folder` verfügt.
    >
-   >Führen Sie die folgenden Schritte in Author and Publish vor oder nach dem Upgrade aus.
+   >Führen Sie diese Schritte vor oder nach dem Upgrade im Autorenmodus und im Veröffentlichungsmodus aus.
 
-   1. Geben Sie die **Titel** as **Google Tabellen**, **Speichername** as **`googlesheets`**, und **Store Type** as **c`ontexthub.generic-jsonp`** und klicken **Nächste**.
+   1. Geben Sie unter **Titel** den Wert **Google Tabellen**, unter **Speichername** den Wert **`googlesheets`** und unter **Speichertyp** den Wert **c`ontexthub.generic-jsonp`** ein und klicken Sie auf **Weiter**.
 
       >[!CAUTION]
-      >Wenn Sie Adobe Experience Manager (AEM) 6.4 verwenden, geben Sie die **Konfigurationstitel** as **`googlesheets`** und **Store Type** as **c`ontexthub.generic-jsonp`**.
+      >Wenn Sie Adobe Experience Manager (AEM) 6.4 verwenden, geben Sie den **Konfigurationstitel** als **`googlesheets`** und den **Speichertyp** als **c`ontexthub.generic-jsonp`** ein.
 
       ![image](/help/user-guide/assets/context-hub/context-hub6.png)
 
-   1. Geben Sie Ihre spezifische json-Konfiguration ein. Sie können beispielsweise die folgende JSON-Datei für Demozwecke verwenden und auf **Speichern**. Sie sehen die Store-Konfiguration mit dem Titel **Google Tabellen** in der ContextHub-Konfiguration.
+   1. Geben Sie Ihre spezifische json-Konfiguration ein. Sie können beispielsweise die folgende JSON-Datei für Demozwecke verwenden und auf **Speichern**. Sie sehen die Speicherkonfiguration mit dem Titel **Google Tabellen** in der ContextHub-Konfiguration.
 
       >[!IMPORTANT]
-      >Stellen Sie sicher, dass Sie den Code durch Ihre `*<Sheet ID>*` und `*<API Key>*`, die Sie beim Einrichten der Google Tabellen abgerufen haben.
+      >Stellen Sie sicher, dass Sie den Code durch Ihre `*<Sheet ID>*` und Ihren `*<API Key>*` ersetzen, den Sie beim Einrichten von Google Tabellen abgerufen haben.
 
       ```
        {
@@ -140,24 +140,24 @@ Die folgende Validierung wird angezeigt, wenn Sie die Verbindung durch Eingabe d
 
       >[!NOTE]
       >
-      >Im obigen Beispielcode: **pollInterval** definiert die Häufigkeit, mit der die Werte aktualisiert werden (in Millisekunden).
+      >Im obigen Beispiel-Code definiert **pollInterval** die Häufigkeit, mit der die Werte aktualisiert werden (in Millisekunden).
       >
-      >Ersetzen Sie den Code durch Ihre `*<Sheet ID>*` und `*<API Key>*`, die Sie beim Einrichten der Google Tabellen abgerufen haben.
+      >Ersetzen Sie den Code durch Ihre `*<Sheet ID>*` und Ihren `*<API Key>*`, den Sie beim Einrichten von Google Tabellen abgerufen haben.
 
       >[!CAUTION]
       >
-      >Wenn Sie Ihre Google Tabellen-Speicherkonfigurationen außerhalb des globalen Ordners erstellen (z. B. in Ihrem eigenen Projektordner), funktioniert das Targeting nicht standardmäßig.
+      >Wenn Sie Ihre Google Tabellen-Speicherkonfigurationen außerhalb des globalen Ordners erstellen (z. B. in Ihrem eigenen Projektordner), funktioniert das Targeting nicht standardmäßig.
 
 1. **Einrichten der Speichersegmentierung**
 
-   1. Navigieren Sie zu **ContentHub-Speicherkonfiguration** und erstellen Sie eine weitere Speicherkonfiguration im AEM Screens-Konfigurationscontainer und legen Sie die **Titel** as **segmentation-contexthub**, **Speichername** as **Segmentierung** und **Store Type** as **aem.segmentation**.
+   1. Navigieren Sie zu **ContentHub-Speicherkonfiguration** und erstellen Sie eine weitere Speicherkonfiguration im AEM Screens-Konfigurationscontainer und legen Sie den **Titel** als **segmentation-contexthub**, den **Speichernamen** als **segmentation** und den **Speichertyp** als **aem.segmentation** fest.
 
       ![image](/help/user-guide/assets/context-hub/context-hub7.png)
 
    1. Klicken Sie auf **Weiter** und dann auf **Speichern**.
 
       >[!NOTE]
-      >Überspringen Sie die Definition der JSON-Datei und lassen Sie sie leer.
+      >Überspringen Sie die Definition der JSON-Datei und lassen Sie diese leer.
 
 
 ## Schritt 3: Einrichten von Segmenten in der Zielgruppe {#setting-up-audience}
@@ -168,7 +168,7 @@ Die folgende Validierung wird angezeigt, wenn Sie die Verbindung durch Eingabe d
 
    1. Klicken Sie auf **Erstellen** > **ContextHub-Segment erstellen.** Das Dialogfeld **Neues ContextHub-Segment** wird geöffnet.
 
-   1. Geben Sie die **Titel** as `**Higherthan50**` und klicken **Erstellen**. Erstellen Sie auf ähnliche Weise ein weiteres Segment mit dem Titel `**Lowerthan50**`.
+   1. Geben Sie unter **Titel** den Wert `**Higherthan50**` ein und klicken Sie auf **Erstellen**. Erstellen Sie auf ähnliche Weise ein weiteres Segment mit der Bezeichnung `**Lowerthan50**`.
 
       ![Bild](/help/user-guide/assets/context-hub/context-hub11.png)
 
@@ -179,15 +179,15 @@ Die folgende Validierung wird angezeigt, wenn Sie die Verbindung durch Eingabe d
 
    ![image](/help/user-guide/assets/context-hub/context-hub13.png)
 
-   1. Setzen Sie auf ähnliche Weise die **ContextHub-Pfad** und **Segmentpfad** für `**Lowerthan50**` -Segment.
+   1. Stellen Sie auf ähnliche Weise auch den **ContextHub-Pfad** und den **Segmentpfad** für das Segment `**Lowerthan50**` ein.
 
 ## Schritt 4: Einrichten von Marke und Bereich {#setting-brand-area}
 
-Gehen Sie wie folgt vor, um eine Marke in Ihren Aktivitäten und Bereichen unter der Marke zu erstellen:
+Gehen Sie wie folgt vor, um eine Marke in Ihren Aktivitäten und einen Bereich unter der Marke zu erstellen:
 
 1. **Erstellen einer Marke in „Aktivitäten“**
 
-   1. Navigieren Sie von Ihrer AEM-Instanz zu **Personalisierung** > **Tätigkeiten**.
+   1. Navigieren Sie von Ihrer AEM-Instanz aus zu **Personalisierung** > **Aktivitäten**.
 
    1. Klicken Sie auf **Erstellen** > **Marke erstellen**.
 
@@ -201,7 +201,7 @@ Gehen Sie wie folgt vor, um eine Marke in Ihren Aktivitäten und Bereichen unter
       >[!CAUTION]
       >
       >Bekanntes Problem:
-      >Um einen Bereich hinzuzufügen, entfernen Sie die primäre URL aus der URL, z. B.
+      >Um einen Bereich hinzuzufügen, entfernen Sie den Primär aus der URL, z. B.
       >`http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`.
 
 1. **Erstellen eines Bereichs in Ihrer Marke**
@@ -215,7 +215,7 @@ Gehen Sie wie folgt vor, um eine Marke in Ihren Aktivitäten und Bereichen unter
    1. Klicks **Bereich** aus dem **Seite erstellen** Assistent und klicken Sie auf **Nächste**.
 
    1. Geben Sie unter **Titel** den Wert **ScreensValue** ein und klicken Sie auf **Erstellen**.
-Ein Gebiet wird in Ihrer Marke erstellt.
+Es wird ein Bereich in Ihrer Marke erstellt.
 
 ## Schritt 5: Erstellen der Segmente in einer Aktivität {#step-setting-up-audience-segmentation}
 
@@ -239,7 +239,7 @@ Nachdem Sie einen Datenspeicher eingerichtet und Ihre Aktivität (Marke und Bere
 
    ![image](/help/user-guide/assets/context-hub/context-hub15.png)
 
-   1. Klicken Sie auf **Weiter** und dann auf **Speichern**. `**ValueCheck50**` -Aktivität erstellt und konfiguriert wurde.
+   1. Klicken Sie auf **Weiter** und dann auf **Speichern**. Die Aktivität `**ValueCheck50**` wird nun erstellt und konfiguriert.
 
       ![Bild](/help/user-guide/assets/context-hub/context-hub16.png)
 
@@ -251,14 +251,14 @@ Nachdem Sie einen Datenspeicher eingerichtet und Ihre Aktivität (Marke und Bere
 
    1. Klicken Sie auf das Segment `**Higherthan50**`und klicken Sie auf **Bearbeiten** in der Aktionsleiste aus.
 
-   1. Ziehen Sie die Komponente **Vergleich: Eigenschaft - Wert** in den Editor.
+   1. Ziehen Sie die Komponente **Vergleich: Eigenschaft – Wert** in den Editor.
 
-   1. Klicken Sie auf das Schraubenschlüsselsymbol, damit Sie die **Vergleich einer Eigenschaft mit einem Wert** Dialogfeld.
+   1. Klicken Sie auf das Schraubenschlüsselsymbol, um das Dialogfeld **Eigenschaft mit Wert vergleichen** zu öffnen.
 
    1. Klicks **googlesheets/value/1/0** aus der Dropdown-Liste **Eigenschaftsname**.
 
       >[!NOTE]
-      > Die **googlesheets/value/1/0** bezieht sich auf Zeile 2 und Spalte wie in `google` Blätter in der folgenden Abbildung:
+      > **googlesheets/value/1/0** bezieht sich auf die Zeile 2 und die Spalte, wie in `google` Tabellen in der folgenden Abbildung angegeben:
 
       ![Bild](/help/user-guide/assets/context-hub/context-hub17.png)
 
@@ -272,9 +272,9 @@ Nachdem Sie einen Datenspeicher eingerichtet und Ihre Aktivität (Marke und Bere
 
       ![image](/help/user-guide/assets/context-hub/context-hub18.png)
 
-   Bearbeiten Sie auf ähnliche Weise die Eigenschaftswerte in `**Lowerthan50**`.
+   Geben Sie die Eigenschaftswerte als `**Lowerthan50**` an.
 
-   1. Ziehen Sie die Komponente **Vergleich: Eigenschaft - Wert** in den Editor.
+   1. Ziehen Sie die Komponente **Vergleich: Eigenschaft – Wert** in den Editor.
 
    1. Klicken Sie auf das Schraubenschlüsselsymbol.
 
@@ -287,7 +287,7 @@ Nachdem Sie einen Datenspeicher eingerichtet und Ihre Aktivität (Marke und Bere
 
 ## Aktivieren von Targeting in Kanälen {#step-enabling-targeting-in-channels}
 
-Gehen Sie wie folgt vor, um Targeting in Ihren Kanälen zu aktivieren.
+Gehen Sie wie folgt vor, um das Targeting in Ihren Kanälen zu aktivieren.
 
 1. Navigieren Sie zu einem der AEM Screens-Kanäle. Die folgenden Schritte zeigen, wie Sie das Targeting mit **DataDrivenChannel** aktivieren, das in einem AEM Screens-Kanal erstellt wurde.
 
@@ -312,7 +312,7 @@ Gehen Sie wie folgt vor, um Targeting in Ihren Kanälen zu aktivieren.
 
       >[!NOTE]
       >
-      >Wenn Sie alles korrekt eingerichtet haben, sehen Sie **Targeting** in der Dropdown-Liste des Editors, wie in der folgenden Abbildung dargestellt.
+      >Wenn Sie alles korrekt eingerichtet haben, ist in der Dropdown-Liste des Editors die Option **Targeting** zu sehen, wie in der folgenden Abbildung dargestellt.
 
       ![Bild](/help/user-guide/assets/context-hub/context-hub21.png)
 

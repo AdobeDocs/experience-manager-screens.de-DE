@@ -1,11 +1,11 @@
 ---
 title: Bildwiedergabedauer
-description: Erfahren Sie mehr über die Dauer der Bildwiedergabe in AEM Screens.
+description: Erfahren Sie mehr über die Bildwiedergabedauer in AEM Screens.
 contentOwner: jsyal
 source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
 workflow-type: tm+mt
 source-wordcount: '322'
-ht-degree: 40%
+ht-degree: 72%
 
 ---
 
@@ -14,11 +14,11 @@ ht-degree: 40%
 
 ## Überblick {#overview}
 
-Nachdem Sie einen Sequenzkanal erstellt und Bilder hinzugefügt haben, gehen standardmäßig alle Bilder von der in der Konfiguration auf Kanalebene definierten Wiedergabedauer aus. Jedes einzelne Bild kann den Standard weiterhin überschreiben und eine andere Wiedergabedauer haben. Dies wird durch Bearbeiten der Wiedergabedauer der jeweiligen Bildkomponente erreicht.
+Nachdem Sie einen Sequenzkanal erstellt und Bilder hinzugefügt haben, gilt für alle Bilder standardmäßig die in der Konfiguration auf Kanalebene definierte Wiedergabedauer. Jedes einzelne Bild kann den Standard weiterhin überschreiben und eine andere Wiedergabedauer haben. Dies wird durch Bearbeiten der Wiedergabedauer der jeweiligen Bildkomponente erreicht.
 
 ### Voraussetzungen {#prerequisites}
 
-Bevor Sie diese Funktion implementieren, stellen Sie sicher, dass Sie ein Projekt als Voraussetzung für die Implementierung dieser Funktion eingerichtet haben. Beispiel:
+Bevor Sie diese Funktionalität implementieren, vergewissern Sie sich, dass Sie ein Projekt eingerichtet haben. Dies ist die Voraussetzung für die Implementierung dieser Funktionalität. Zum Beispiel:
 
 1. Erstellen eines AEM Screens-Projekts (in diesem Beispiel **ChannelLevelPlayback**)
 1. Erstellen eines Sequenzkanals als **PlaybackChannel** unter **Kanäle** Ordner
@@ -36,7 +36,7 @@ Gehen Sie wie folgt vor, um zu erfahren, wie Sie die Wiedergabedauer auf Kanaleb
 
    ![screen_shot_2019-06-24at62818pm](assets/screen_shot_2019-06-24at62818pm.png)
 
-1. Klicks **Bearbeiten** in der Aktionsleiste aus.
+1. Klicken Sie in der Aktionsleiste auf **Bearbeiten**. 
 
    ![screen_shot_2019-06-24at70141pm](assets/screen_shot_2019-06-24at70141pm.png)
 
@@ -44,11 +44,11 @@ Gehen Sie wie folgt vor, um zu erfahren, wie Sie die Wiedergabedauer auf Kanaleb
 
    ![screen_shot_2019-06-24at90534pm](assets/screen_shot_2019-06-24at90534pm.png)
 
-1. Klicken Sie auf alle Bilder im Kanal und klicken Sie oben links auf das Schraubenschlüsselsymbol (wie in der Abbildung unten dargestellt). Das Dialogfeld Konfiguration auf Kanalebene wird geöffnet.
+1. Klicken Sie auf alle Bilder im Kanal und klicken Sie oben links auf das Schraubenschlüsselsymbol (wie in der Abbildung unten dargestellt). Das Dialogfeld zum Konfigurieren auf Kanalebene wird geöffnet.
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. Die **Seite** wird geöffnet.
+1. Das Dialogfeld **Seite** wird geöffnet.
 
    >[!NOTE]
    >
@@ -56,7 +56,7 @@ Gehen Sie wie folgt vor, um zu erfahren, wie Sie die Wiedergabedauer auf Kanaleb
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   Bearbeiten Sie die **Dauer** von 8000 (Millisekunden) bis 3000 (Millisekunden), also 3 Sekunden. Klicken Sie oben rechts im **Seite** angezeigt, damit Sie Ihre Änderungen speichern können.
+   Ändern Sie die **Dauer** von 8000 (Millisekunden) in 3000 (Millisekunden), d. h. 3 Sekunden. Klicken Sie auf das Häkchen oben rechts im Dialogfeld **Seite**, um Ihre Änderungen zu speichern.
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
@@ -64,5 +64,5 @@ Gehen Sie wie folgt vor, um zu erfahren, wie Sie die Wiedergabedauer auf Kanaleb
 
 Wenn Sie die Dauer der Kanalwiedergabe aktualisiert haben (in diesem Beispiel alle drei Bilder), beachten Sie, dass die Bilder jetzt für 3 Sekunden statt für 8 Sekunden wiedergegeben werden (Standardwert).
 
-![channel_preview](assets/channel_preview.gif)
+![Kanalvorschau](assets/channel_preview.gif)
 

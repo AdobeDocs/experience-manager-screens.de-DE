@@ -5,7 +5,7 @@ exl-id: cfb47e94-9f65-43f3-b197-07222f3f6424
 source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 13%
+ht-degree: 92%
 
 ---
 
@@ -13,15 +13,15 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->Typische Stakeholder für diese Aktivität sind Marketing-/Geschäftsstrategen.
+>Typische Verantwortliche für diese Aktivität sind Marketing-/Geschäftsstrateginnen und -strategen.
 
-AEM Screens bietet die Möglichkeit, alle verfolgbaren Ereignisse, die einzelne Player-Geräte ausführen, lokal zu erfassen. Diese Daten werden lokal gespeichert, bis sie zur Verarbeitung in die Cloud hochgeladen werden können. Zusätzlich zu allen Ereignisdaten werden eine Geräte-ID und ein Zeitstempel hinzugefügt. Dadurch wird sichergestellt, dass Daten aus einem Player von einem anderen Player unterschieden werden können und Daten, die zu unterschiedlichen Tageszeiten ausgeführt werden, bei Bedarf separat ausgewertet werden können.
+AEM Screens bietet die Möglichkeit, alle verfolgbaren Ereignisse, die einzelne Player-Geräte ausführen, lokal zu erfassen. Diese Daten werden lokal gespeichert, bis sie zur Verarbeitung in die Cloud hochgeladen werden können. Zusätzlich zu allen Ereignisdaten werden eine Geräte-ID und ein Zeitstempel hinzugefügt. So lassen sich Daten eines Players von den Daten eines anderen Players unterscheiden und Daten, die zu unterschiedlichen Tageszeiten ausgeführt werden, bei Bedarf separat auswerten.
 
-Es gibt zwei wesentliche Gründe, warum Sie diese Daten erfassen möchten.
+Es gibt zwei wesentliche Gründe für die Erfassung dieser Daten.
 
-Der erste betrifft **Feedback-Schleifen und maschinelles Lernen** während das zweite die **Erstellung von Diagrammen, Dashboards und Berichten** die für den menschlichen Verzehr bestimmt sind.
+Der erste umfasst **Feedbackschleifen und maschinelles Lernen**, während der zweite die **Erstellung von Diagrammen, Dashboards und Berichten** beinhaltet, die für den menschlichen Gebrauch bestimmt sind.
 
-Im Anwendungsfall der Feedback-Schleife müssen Sie sich nicht mit visuellen Berichten oder Dashboards befassen, sondern Regeln definieren, die AEM zur Inhaltsänderung ausführen können. Durch Nutzung und Verarbeitung aller Screens-Player-Ereignisdaten aus einem bestimmten Zeitraum können Sie eine Regel definieren, die die Effektivität von image1 im Vergleich zu image2 bewertet. Durch Kombination von Verkaufsdaten mit Wiedergabedaten kann AEM feststellen, dass image1 einen größeren Einfluss auf den Umsatz hat, und alle Player automatisch anweisen, image1 zu verwenden.
+Im Nutzungsszenario „Feedbackschleife“ geht es nicht um visuelle Berichte oder Dashboards, sondern um eine Definition von Regeln, die AEM zur Inhaltsänderung ausführen kann. Durch Nutzung und Verarbeitung aller Screens-Player-Ereignisdaten aus einem bestimmten Zeitraum können Sie eine Regel definieren, die die Effektivität von image1 im Vergleich zu image2 bewertet. Durch Kombination von Verkaufsdaten mit Wiedergabedaten kann AEM ermitteln, dass image1 einen größeren Einfluss auf den Umsatz hat, und alle Player automatisch anweisen, image1 zu verwenden.
 
 Der zweite Anwendungsfall bei der Verwendung von Analytics besteht darin, Wiedergabeereignisse und Nutzungsdaten für den menschlichen Gebrauch mithilfe von Berichten und Dashboards zu verarbeiten.
-Sie können diese Daten verwenden, um eine Heatmap eines interaktiven Erlebnisses zu erstellen und die bevorzugte Journey-Zuordnung über die Anwendung zu bestimmen. Sie können auch ein Dashboard erstellen, das eine grafische Interpretation der Anzahl der Interaktionen von Verbrauchern mit der Anwendung ermöglicht.
+Mit diesen Daten können Sie für ein interaktives Erlebnis eine Heatmap erstellen, um mithilfe der Anwendung die bevorzugte Journey Map zu bestimmen.  Außerdem können Sie ein Dashboard einrichten, das eine grafische Interpretation der Anzahl der Interaktionen von Verbraucherinnen und Verbrauchern mit der Anwendung erlaubt.

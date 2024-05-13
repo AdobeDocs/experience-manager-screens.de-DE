@@ -21,7 +21,7 @@ ht-degree: 36%
 
 Das AEM 6.5 Feature Pack 11 für AEM Screens wurde veröffentlicht.
 
-Sie können das neueste Feature Pack für AEM Screens 6.5.11 von der [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) die Verwendung Ihrer Adobe ID. Navigieren Sie zum **Adobe Experience Manager** Registerkarte und suchen Sie nach **Screens** , um das neueste Feature Pack mit dem Titel **AEM 6.5 Screens FP11**.
+Sie können das neueste Feature Pack für AEM Screens 6.5.11 von der [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/de/aem.html) die Verwendung Ihrer Adobe ID. Navigieren Sie zum **Adobe Experience Manager** Registerkarte und suchen Sie nach **Screens** , um das neueste Feature Pack mit dem Titel **AEM 6.5 Screens FP11**.
 
 ## Veröffentlichungsdatum {#release-date}
 
@@ -57,6 +57,6 @@ Die folgenden AEM Screens-Player sind für AEM 6.5 Feature Pack 11 verfügbar:
 * Android™
 * Linux®
 
-#### AEM Screens-Player-Downloads 
+#### AEM Screens-Player-Downloads
 
 Informationen zum Herunterladen des neuesten AEM Screens-Players und zu weiteren Fehlerbehebungen finden Sie unter **[AEM Screens Player-Downloads](https://download.macromedia.com/screens/index.html)**.

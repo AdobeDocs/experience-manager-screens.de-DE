@@ -1,6 +1,6 @@
 ---
 title: Textüberlagerung
-description: Erfahren Sie mehr über Textüberlagerung in AEM Screens, mit der Sie in einem Sequenzkanal ein überzeugendes Erlebnis erstellen können, indem Sie einen Titel oder eine Beschreibung angeben, die über einem Bild überlagert ist.
+description: Erfahren Sie mehr über die Textüberlagerung in AEM Screens, mit der Sie in einem Sequenzkanal für ein überzeugendes Erlebnis sorgen können, indem Sie einen Titel oder eine Beschreibung auf einem Bild als Überlagerung einfügen.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
@@ -13,7 +13,7 @@ exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
 source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
 source-wordcount: '775'
-ht-degree: 36%
+ht-degree: 63%
 
 ---
 
@@ -28,7 +28,7 @@ In diesem Abschnitt werden folgende Themen behandelt:
 
 >[!CAUTION]
 >
->Die **Textüberlagerung** Funktion ist nur verfügbar, wenn Sie AEM 6.3 Feature Pack 5 oder AEM 6.4 Feature Pack 3 installiert haben.
+>Die Funktion **Textüberlagerung** ist nur verfügbar, wenn Sie AEM 6.3 Feature Pack 5 oder AEM 6.4 Feature Pack 3 installiert haben.
 
 ## Überblick {#overview}
 
@@ -44,7 +44,7 @@ Im folgenden Abschnitt wird die Verwendung von Textüberlagerung in AEM Screens-
 
 **Voraussetzungen**
 
-Bevor Sie diese Funktion implementieren, stellen Sie sicher, dass Sie ein Projekt als Voraussetzung für die Implementierung der Textüberlagerung eingerichtet haben. Beispiel:
+Stellen Sie vor der Implementierung der Funktion sicher, dass Sie als Voraussetzung für den Start der Implementierung der Textüberlagerung ein Projekt eingerichtet haben. Zum Beispiel:
 
 * Erstellen Sie ein AEM Screens-Projekt (in diesem Beispiel **TextOverlayDemo**)
 
@@ -58,7 +58,7 @@ Die folgende Abbildung zeigt die **TextOverlayDemo** -Projekt mit **TextSample**
 
 Gehen Sie wie folgt vor, um die Textüberlagerung in einem AEM Screens-Kanal zu verwenden:
 
-1. Navigieren Sie zu **TextOverlayDemo** > **Kanäle** > **TextSample** und klicken **Bearbeiten** in der Aktionsleiste aus.
+1. Navigieren Sie zu **TextOverlayDemo** > **Kanäle** > **TextSample** und klicken Sie in der Aktionsleiste auf **Bearbeiten**.
 
    ![screen_shot_2018-12-16at80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
@@ -94,9 +94,9 @@ Im folgenden Abschnitt wird die Verwendung von Werten aus einem Datenspeicher be
 
 Erstellen Sie ContextHub-Konfigurationen für Ihr AEM Screens-Projekt.
 
-Informationen zum Einrichten und Verwalten von datengesteuerten Asset-Änderungen mithilfe eines Datenspeichers finden Sie unter [Konfigurieren von ContextHub in AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/configuring-context-hub).
+Informationen zum Einrichten und Verwalten datengesteuerter Asset-Änderungen mithilfe eines Datenspeichers finden Sie unter [Konfigurieren von ContextHub in AEM Screens](https://experienceleague.adobe.com/de/docs/experience-manager-screens/user-guide/developing/configuring-context-hub).
 
-Nachdem Sie die erforderlichen Konfigurationen für Ihr Projekt eingerichtet haben, führen Sie die folgenden Schritte aus, um Werte aus den Google Tabellen zu verwenden:
+Nachdem Sie die erforderlichen Konfigurationen für Ihr Projekt eingerichtet haben, führen Sie die folgenden Schritte aus, um Werte aus den Google-Tabellen zu verwenden:
 
 1. Navigieren Sie zu **TextOverlayDemo** > **Kanäle** > **TextSample** und klicken **Eigenschaften** in der Aktionsleiste aus.
 
@@ -114,7 +114,7 @@ Nachdem Sie die erforderlichen Konfigurationen für Ihr Projekt eingerichtet hab
 
       ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
 
-1. Navigieren Sie zu **TextOverlayDemo** > **Kanäle** > **TextSample** und klicken **Bearbeiten** in der Aktionsleiste aus.
+1. Navigieren Sie zu **TextOverlayDemo** > **Kanäle** > **TextSample** und klicken Sie in der Aktionsleiste auf **Bearbeiten**.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
@@ -127,14 +127,14 @@ Nachdem Sie die erforderlichen Konfigurationen für Ihr Projekt eingerichtet hab
 1. Navigieren Sie zur Registerkarte **ContextHub** im Dialogfeld **Bild**. Klicken Sie auf **Hinzufügen**.
 
    >[!NOTE]
-   >Wenn Sie Ihre ContextHub-Konfiguration nicht eingerichtet haben, ist diese Option für Ihr Projekt deaktiviert.
+   >Wenn Sie Ihre ContextHub-Konfigurationen nicht eingerichtet haben, ist diese Option für Ihr Projekt deaktiviert.
 
-1. Eingabe **Wert** im **Platzhalter** -Feld. Klicken Sie auf die Zeile, die Sie aus Ihrem Google-Blatt abrufen möchten, in **ContextHub-Variable**. In diesem Fall wird der Wert aus Zeile 2 und Spalte 1 aus den Google-Arbeitsblättern abgerufen. Geben Sie nun die **Standardwert** as **20**, wie in der folgenden Abbildung dargestellt. Wenn Sie fertig sind, klicken Sie auf das Häkchen.
+1. Geben Sie den **Wert** im Feld **Platzhalter** ein. Klicken Sie auf die Zeile, die Sie aus Ihrem Google-Blatt abrufen möchten, in **ContextHub-Variable**. In diesem Fall wird der Wert aus Zeile 2 und Spalte 1 aus den Google-Tabellen abgerufen. Geben Sie nun die **Standardwert** as **20**, wie in der folgenden Abbildung dargestellt. Wenn Sie fertig sind, klicken Sie auf das Häkchen.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 
    >[!NOTE]
-   >Für Ihre Referenz zeigt die folgende Abbildung den Wert, der aus den Google Tabellen abgerufen wird:
+   >Für Ihre Referenz zeigt das folgende Bild den Wert an, der aus den Google-Tabellen abgerufen wird:
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay6.png)
 

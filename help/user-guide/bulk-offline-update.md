@@ -1,6 +1,6 @@
 ---
 title: Massen-Offline-Update
-description: Erfahren Sie, wie Sie alle Kanäle stapelweise aktualisieren können.
+description: Erfahren Sie, wie Sie alle Kanäle gemeinsam aktualisieren können.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -13,7 +13,7 @@ exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
 source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 74%
+ht-degree: 91%
 
 ---
 
@@ -31,9 +31,9 @@ In diesem Abschnitt werden die folgenden Themen zum Massen-Offline-Update behand
 >
 >To get access to this Feature Pack, contact Adobe Support and request access. When you have permissions you can download it from Package Share. -->
 
-## Übersicht {#overview}
+## Überblick {#overview}
 
-Massen-Offline-Update: Ermöglicht das stapelweise Aktualisieren aller Kanäle. Das vermeidet den Aufwand, zu einem bestimmten Kanal zu navigieren und den Inhalt zu aktualisieren. Stattdessen können Sie den gesamten Inhalt in den Kanälen für ein bestimmtes Projekt gemeinsam aktualisieren.
+Das Massen-Offline-Update ermöglicht es Ihnen, alle Kanäle gemeinsam zu aktualisieren. Das vermeidet den Aufwand, zu einem bestimmten Kanal zu navigieren und den Inhalt zu aktualisieren. Stattdessen können Sie den gesamten Inhalt in den Kanälen für ein bestimmtes Projekt gemeinsam aktualisieren.
 
 Sie können diese Aktivität auch für eine Zeit mit geringerem Netzwerk-Traffic planen.
 
@@ -73,6 +73,6 @@ Gehen Sie wie folgt vor, um das Massen-Offline-Update für ein AEM Screens-Proje
    >
    >Geben Sie den Projektpfad relativ zum Kanal an.
 
-   **Planfrequenz** Geben Sie einen Zeitpunkt an, z. B. 5:00 Uhr oder 17:00 Uhr, zu dem dieser Dienst Offline-Inhalte aktualisieren soll.
+   **Zeitplanfrequenz**: Geben Sie einen Zeitpunkt an, z. B. 17:00 Uhr, zu dem dieser Service Offline-Inhalte aktualisieren soll.
 
 1. Klicks **Speichern** , um Ihre Einstellungen zu speichern. Ihr Inhalt wird zum angegebenen Zeitpunkt aktualisiert.

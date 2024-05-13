@@ -4,14 +4,14 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens-Hilfe
 breadcrumb-title: AEM Screens-Anleitung
-user-guide-description: Erfahren Sie, wie Sie mit einer Digital Signage-Lösung dynamische und interaktive digitale Erlebnisse und Interaktionen veröffentlichen.
+user-guide-description: Erfahren Sie, wie Sie mit einer Digital-Signage-Lösung dynamische und interaktive digitale Erlebnisse und Interaktionen veröffentlichen können.
 feature-set: Experience Manager Screens
 feature: Content
 role: User
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -38,8 +38,8 @@ ht-degree: 97%
    + [Einrichten von ACLs](setting-up-acls.md)
    + [Sicherheitscheckliste für AEM Screens](security-checklist.md)
    + [Umstellung von ContentSync auf SmartSync](smartsync.md)
-   + [Importer für neue Projekte aus Datei](project-importer.md)
-   + [Replizieren von Datenauslösern auf Veröffentlichungs-Servern](replicating-data-triggers.md)
+   + [Importer für neue Projekte aus einer Datei](project-importer.md)
+   + [Replizieren von Daten-Triggern auf Veröffentlichungs-Servern](replicating-data-triggers.md)
    + [Konfigurieren von Screens-Replikationsagenten](configure-screens-replication.md)
    + Kundenspezifische Aspekte {#installing-client}
       + [Chrome OS-Player](implementing-chrome-os-player.md)
@@ -89,7 +89,7 @@ ht-degree: 97%
       + [Unterstützung von Miniaturansichten für Videos](thumbnail-support.md)
       + [Verwenden adaptiver Ausgabedarstellungen in AEM Screens](using-adaptive-renditions.md)
    + Verwalten von Inhaltsaktualisierungen {#content-updates}
-      + [On-Demand-Inhaltsaktualisierungen](on-demand-content.md)
+      + [On-Demand-Inhaltsaktualisierung](on-demand-content.md)
       + [Aktualisierungen von Content-as-a-Service](content-update-as-a-service.md)
       + [Inhaltsaktualisierung mit Screens Launch](launches.md)
    + Anwendungsbeispiele {#use-case-examples}
@@ -114,7 +114,7 @@ ht-degree: 97%
    + [Adaptive Ausgabedarstellungen: Überblick über die Architektur und Konfigurationen](/help/user-guide/adaptive-renditions.md)
 + Problembehebung und häufig gestellte Fragen {#troubleshooting}
    + [Häufig gestellte Fragen zu AEM Screens](aem-screens-faqs.md)
-   + [Problembehebung in der Gerätesteuerung](monitoring-screens.md)
+   + [Problembehebung im Geräte-Kontrollzentrum](monitoring-screens.md)
    + [Konfiguration der Videowiedergabe](troubleshoot-videos.md)
 + Versionshinweise {#release-notes}
    + [Versionshinweise für Feature Pack 202401](release-notes-fp-202401.md)

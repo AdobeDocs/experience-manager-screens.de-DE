@@ -13,7 +13,7 @@ exl-id: e4562547-2829-4a53-8e37-2cd637cef7c8
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '313'
-ht-degree: 40%
+ht-degree: 79%
 
 ---
 
@@ -33,15 +33,15 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 201905 ist der 16. Mai
 
 * **Projekt-Importer**
 
-Der Projekt-Importer ist eine Funktion, die in AEM Screens verfügbar ist und mit der Sie verschiedene Standorte aus einer CSV/XLS-Tabelle in Ihr AEM Screens-Projekt importieren können.
+Der Projekt-Importer ist eine Funktion, die in AEM Screens verfügbar ist und mit der Sie eine Gruppe von Standorten aus einer CSV-/XLS-Tabelle in Ihr AEM Screens-Projekt importieren können.
 
-Siehe **[Importer für neue Projekte aus Datei](project-importer.md)** für weitere Details.
+Weitere Informationen finden Sie unter **[Importer für neue Projekte aus Datei](project-importer.md)**.
 
 * **Umstellung von ContentSync auf SmartSync**
 
 SmartSync minimiert das Laden/Speichern auf Servern sowie den Netzwerk-Traffic, um Kosten zu senken.
 
-Siehe **[Umstellung von ContentSync auf SmartSync](smartsync.md)** für weitere Details.
+Weitere Informationen finden Sie unter **[Umstellung von ContentSync auf SmartSync](smartsync.md)**.
 
 * **Notfallkanal**
 
@@ -49,11 +49,11 @@ In diesem Anwendungsbeispiel wird das Erstellen und Verwalten eines Notfallkanal
 
 Siehe **[Notfallkanal](emergency-channel.md)** Anwendungsbeispiel für weitere Details.
 
-* **Einbetten einer REACT-Anwendung mit dem AEM SPA Editor und Integration mit AEM Screens Analytics**
+* **Einbetten einer REACT-Anwendung mit dem AEM SPA-Editor und Integration mit AEM Screens Analytics**
 
-In diesem Abschnitt wird beschrieben, wie Sie eine interaktive Einzelseitenanwendung mit REACT (oder Angular) mit dem AEM SPA-Editor einbetten. Der Editor kann von Geschäftsexperten in AEM konfiguriert werden. Außerdem wird beschrieben, wie Sie Ihre interaktive Anwendung in Offline-Adobe Analytics integrieren.
+In diesem Abschnitt wird beschrieben, wie Sie eine interaktive Single Page Application, die auf REACT (oder Angular) basiert, mit dem AEM-SPA-Editor einbetten. Der Editor kann von Business-Fachleuten in AEM konfiguriert werden. Außerdem wird beschrieben, wie Sie Ihre interaktive Anwendung in Adobe Analytics im Offline-Modus integrieren.
 
-Siehe **[Einbetten einer REACT-Anwendung mit dem AEM SPA Editor und Integration mit AEM Screens Analytics](embedding-react-app.md)** für weitere Details.
+Weitere Informationen finden Sie unter **[Einbetten einer REACT-Anwendung mit dem AEM-SPA-Editor und Integrieren in AEM Screens Analytics](embedding-react-app.md)**.
 
 ### Veröffentlichte AEM Screens-Player
 
@@ -63,6 +63,6 @@ Die folgenden AEM Screens-Player sind für AEM 6.3.3.3 Feature Pack 6 und AEM 6.
 * Windows
 * Android™
 
-#### AEM Screens-Player-Downloads 
+#### AEM Screens-Player-Downloads
 
 Informationen zum Herunterladen des neuesten AEM Screens-Players und zu weiteren Fehlerbehebungen finden Sie unter **[AEM Screens Player-Downloads](https://download.macromedia.com/screens/)**.

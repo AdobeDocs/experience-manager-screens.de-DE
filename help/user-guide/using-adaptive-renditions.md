@@ -5,7 +5,7 @@ exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
 source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 21%
+ht-degree: 22%
 
 ---
 
@@ -34,7 +34,7 @@ Gehen Sie wie folgt vor, um Ausgabeformate auf Assets anzuwenden, die Sie im Kan
 
 1. Gehen Sie zum Ordner **Assets** in Ihrer AEM-Instanz.
 1. Erstellen Sie eine Version des Assets, die der Signage-Anzeige besser entspricht, z. B. `seahorse.jpg`.
-1. Wählen Sie das Benennungsmuster für die Ausgabedarstellung aus, z. B.`landscape`, ähnlich dem, was unter **pattern** -Eigenschaft in **CRXDE Lite**. Siehe [Hinzufügen von Zuordnungsregeln für Ausgabedarstellungen](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) für weitere Details.
+1. Wählen Sie das Benennungsmuster für die Ausgabedarstellung aus, z. B.`landscape`, ähnlich dem, was unter **pattern** -Eigenschaft in **CRXDE Lite**. Weitere Informationen finden Sie unter [Hinzufügen von Zuordnungsregeln für Ausgabedarstellungen](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules).
 1. Klicks **Ausgabedarstellung hinzufügen** , um die Ausgabedarstellung hochzuladen, wie in der folgenden Abbildung dargestellt.
 
    ![Bild](/help/user-guide/assets/adaptive-renditions/manage-pub-asset2.png)

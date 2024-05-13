@@ -1,6 +1,6 @@
 ---
 title: Konfigurieren von Adobe Analytics mit AEM Screens
-description: Erfahren Sie mehr über die Sequenzierung und das Senden benutzerdefinierter Ereignisse mit Offline-Adobe Analytics.
+description: Erfahren Sie mehr über die Sequenzierung und das Senden benutzerspezifischer Ereignisse mit Adobe Analytics im Offline-Modus.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -13,7 +13,7 @@ exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
 source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
 source-wordcount: '625'
-ht-degree: 61%
+ht-degree: 80%
 
 ---
 
@@ -108,7 +108,7 @@ Die folgende Tabelle fasst das Standarddatenmodell für Ereignisse zusammen. Es 
    <td>erforderlich</td> 
    <td>Zeichenfolge</td> 
    <td> </td> 
-   <td>Hauptkategorie (DESKTOP, MOBILE, WEB, PROZESS, SDK, SERVICE, ÖKOSYSTEM) - Gruppierung von Ereignistypen - <strong>Player gesendet</strong></td> 
+   <td>Hauptkategorie (DESKTOP, MOBILE, WEB, PROZESS, SDK, SERVICE, ÖKOSYSTEM) – Gruppierung von Ereignistypen – <strong>Player gesendet</strong></td> 
   </tr>
   <tr>
    <td> </td> 
@@ -117,7 +117,7 @@ Die folgende Tabelle fasst das Standarddatenmodell für Ereignisse zusammen. Es 
    <td>empfohlen</td> 
    <td>Zeichenfolge</td> 
    <td> </td> 
-   <td>Unterkategorie - Abschnitt eines Workflows, Bereich eines Bildschirms usw. (Zuletzt verwendete Dateien, CC-Dateien, mobile Kreationen usw.)</td> 
+   <td>Unterkategorie – Abschnitt eines Workflows oder Bereich eines Bildschirms usw. (Zuletzt verwendete Dateien, CC-Dateien, mobile Kreationen usw.)</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -135,7 +135,7 @@ Die folgende Tabelle fasst das Standarddatenmodell für Ereignisse zusammen. Es 
    <td>empfohlen</td> 
    <td>Zeichenfolge</td> 
    <td> </td> 
-   <td>Ereignistyp (Erstellen, Aktualisieren, Löschen, Veröffentlichen usw.) - Weitere Details zur Benutzeraktion</td> 
+   <td>Ereignisuntertyp (Erstellen, Aktualisieren, Löschen, Veröffentlichen usw.) – weitere Details zur Benutzeraktion</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -171,7 +171,7 @@ Die folgende Tabelle fasst das Standarddatenmodell für Ereignisse zusammen. Es 
    <td>optional</td> 
    <td>Zeichenfolge<br /> </td> 
    <td>UUID</td> 
-   <td>Identifiziert die Geräte-GUID (z. B. Computer-ID oder Hash der IP-Adresse + Subnetzmaske + Netzwerk-ID + Benutzeragent) - Hier wird der Benutzername des Players gesendet, der zum Zeitpunkt der Registrierung generiert wurde.</td> 
+   <td>Identifiziert die Geräte-GUID (z. B. Computer-ID oder Hash der IP-Adresse + Subnetzmaske + Netzwerk-ID + Benutzeragent) – Senden des Benutzernamens des Players, der bei der Registrierung generiert wurde</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -180,7 +180,7 @@ Die folgende Tabelle fasst das Standarddatenmodell für Ereignisse zusammen. Es 
    <td>optional</td> 
    <td>number</td> 
    <td> </td> 
-   <td>Anzahl der aufgetretenen Ereignisse - Die Videodauer wird gesendet</td> 
+   <td>Häufigkeit des aufgetretenen Ereignisses – Senden der Videodauer</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -288,7 +288,7 @@ Die folgende Tabelle fasst das Standarddatenmodell für Ereignisse zusammen. Es 
    <td>erforderlich</td> 
    <td>Zeichenfolge</td> 
    <td> </td> 
-   <td>Die URL zum Asset, einschließlich der wiedergegebenen Ausgabedarstellung</td> 
+   <td>Die URL des Assets, einschließlich der tatsächlichen Ausgabedarstellung</td> 
   </tr>
   <tr>
    <td> </td> 

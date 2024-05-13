@@ -1,6 +1,6 @@
 ---
 title: Replizieren von Daten-Triggern auf Veröffentlichungs-Servern
-description: Erfahren Sie, wie Sie Daten-Trigger auf dem Publishing-Server für AEM Screens replizieren.
+description: Erfahren Sie, wie Sie Daten-Trigger auf dem Veröffentlichungs-Server für AEM Screens replizieren.
 feature: Administering Screens, Data Trigger
 role: Developer
 level: Intermediate
@@ -8,29 +8,29 @@ exl-id: 6f90b864-eaa0-4b74-a47e-b0967a550552
 source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '521'
-ht-degree: 40%
+ht-degree: 93%
 
 ---
 
-# Replizieren von Datenauslösern auf Veröffentlichungs-Servern {#replicating-data-triggers}
+# Replizieren von Daten-Triggern auf Veröffentlichungs-Servern {#replicating-data-triggers}
 
-Wenn Sie ContextHub und die AEM-Targeting-Engine verwenden, um Content basierend auf Datenauslösern in einem Autor-/Veröffentlichungsinstanz anzupassen, werden die ContextHub- und Personalisierung-bezogenen Konfigurationen nicht automatisch in den Kanälen repliziert, wenn sie veröffentlicht werden.
+Wenn Sie ContextHub und die AEM-Targeting-Engine verwenden, um Inhalte basierend auf Datenauslösern in einer Autoren-/Veröffentlichungsinstanz anzupassen, werden die ContextHub- und personalisierungs-bezogenen Konfigurationen nicht automatisch in den Kanälen repliziert, wenn sie veröffentlicht werden.
 
-Auf dieser Seite erfahren Sie mehr über die manuellen Schritte, die erforderlich sind, um diese Konfigurationen separat zu veröffentlichen.
+Auf dieser Seite lernen Sie die manuellen Schritte kennen, die erforderlich sind, um diese Konfigurationen separat zu veröffentlichen.
 
-Dies betrifft im Wesentlichen die manuelle Veröffentlichung:
+Das läuft im Wesentlichen auf das manuelle Veröffentlichen folgender Elemente hinaus:
 
 1. Konfigurationen der ContextHub-Store- und UI-Module
 1. Personalisierungszielgruppen
 1. Personalisierungsaktivitäten
 
-## Schritte zum Replizieren von Daten-Triggern auf den Veröffentlichungs-Server {#replicating-data-triggers-publish}
+## Schritte zum Replizieren von Daten-Triggern auf Veröffentlichungs-Servern {#replicating-data-triggers-publish}
 
 Gehen Sie wie folgt vor, um die Datenauslöser auf den Veröffentlichungs-Server zu replizieren.
 
-### Schritt 1: Replikation von ContextHub-Konfigurationen {#replicating-contexthub-configurations}
+### Schritt 1: Replizieren von ContextHub-Konfigurationen {#replicating-contexthub-configurations}
 
-1. Navigieren Sie zu **Instrumente** > **Implementierung** > **Distribution** > **Veröffentlichungsagent** und klicken Sie auf den Veröffentlichungsagenten, damit Sie Ihre Einstellungen konfigurieren können.
+1. Navigieren Sie zu **Tools** > **Bereitstellung** > **Verteilung** > **Veröffentlichungsagent** und klicken Sie auf den Veröffentlichungsagenten, um Ihre Einstellungen zu konfigurieren.
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers1.png)
 
@@ -38,13 +38,13 @@ Gehen Sie wie folgt vor, um die Datenauslöser auf den Veröffentlichungs-Server
    >
    >Alternativ können Sie mit `http://localhost:4502/libs/granite/distribution/content/distribution-agent.html?agentName=publish` direkt zum Bildschirm navigieren, um die Verbindung zu konfigurieren und zu testen.
 
-1. Klicks **Verbindung testen** in der Aktionsleiste, damit Sie die Kommunikation des Autors mit der Veröffentlichungsinstanz überprüfen können, wie im Folgenden gezeigt:
+1. Klicken Sie in der Aktionsleiste auf **Verbindung testen**, um die Kommunikation der Autoren- mit der Veröffentlichungsinstanz zu überprüfen, wie im Folgenden gezeigt:
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers2.png)
 
    >[!NOTE]
    >
-   >Wenn der Test fehlschlägt, beheben Sie die Konfiguration des Replikationsagenten zwischen der Autoren- und der Veröffentlichungsinstanz. Siehe [Fehlerbehebung bei der Testverbindung](/help/user-guide/replicating-data-triggers.md#troubleshoot-test) für weitere Details.
+   >Wenn der Test fehlschlägt, korrigieren Sie die Konfiguration des Replikationsagenten zwischen der Autoreninstanz und der Veröffentlichungsinstanz. Weitere Informationen finden Sie unter [Fehlerbehebung bei der Testverbindung](/help/user-guide/replicating-data-triggers.md#troubleshoot-test).
 
 1. Klicks **Hinzufügen** aus dem **Verteilungsagent** Bildschirmstruktur und klicken Sie auf den Konfigurationspfad für Ihr Projekt, z. B. `/conf/screens/settings/cloudsettings/configuration`.
 
@@ -52,7 +52,7 @@ Gehen Sie wie folgt vor, um die Datenauslöser auf den Veröffentlichungs-Server
 
 ### Replizieren der Zielgruppen {#replicating-audiences}
 
-1. Navigieren Sie zu Ihrer AEM > **Personalisierung** > **Zielgruppen** oder Verwendung `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/audiences.html` um direkt zu navigieren.
+1. Navigieren Sie zu Ihrer AEM-Instanz > **Personalisierung** > **Zielgruppen** oder gehen Sie mit `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/audiences.html` direkt dorthin.
 
 1. Führen Sie einen Drilldown in Ihren Projektordner aus, z. B. `/conf/screens/`.
 
@@ -66,7 +66,7 @@ Gehen Sie wie folgt vor, um die Datenauslöser auf den Veröffentlichungs-Server
 
 ### Replizieren der Aktivitäten  {#replicating-activities}
 
-1. Navigieren Sie zu Ihrer AEM > **Personalisierung** > **Tätigkeiten** oder Verwendung `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html` um direkt zu navigieren.
+1. Navigieren Sie zu Ihrer AEM-Instanz > **Personalisierung** > **Aktivitäten** oder gehen Sie mit `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html` direkt dorthin.
 
 1. Führen Sie einen Drilldown in Ihren Projektordner durch, also `/content/campaigns/screens/…`.
 
@@ -78,11 +78,11 @@ Gehen Sie wie folgt vor, um die Datenauslöser auf den Veröffentlichungs-Server
 
 >[!IMPORTANT]
 >
->Die Replizierung von ContextHub-Konfigurationen und -Zielgruppen erfolgt während der Projekteinrichtung bei der Replikation von Aktivitäten und ist jedes Mal erforderlich, wenn das Targeting innerhalb eines Kanals geändert wird.
+>Die Replizierung von ContextHub-Konfigurationen und -Zielgruppen erfolgt im Zuge der Projekteinrichtung, während Aktivitäten repliziert werden. Dies ist bei jeder Targeting-Änderung innerhalb eines Kanals erforderlich.
 
 #### Ergebnis {#result}
 
-Wenn die Replikation erfolgreich ist, sollten Sie die folgende Struktur in der Veröffentlichungsinstanz (bzw. der Entsprechung in Ihrem Projekt) sehen:
+Wenn die Replikation erfolgreich ist, sollten Sie die folgende Struktur in der Veröffentlichungsinstanz (bzw. deren Entsprechung in Ihrem Projekt) sehen:
 
 `/conf/screens/settings/cloudsettings/configuration/…`
 `/conf/screens/settings/wcm/segments/…`
@@ -94,24 +94,24 @@ Wenn die Testverbindung beim Replizieren der ContextHub-Konfigurationen fehlschl
 
 1. Navigieren Sie zu Werkzeuge > **Bereitstellung** > **Verteilung** > **Veröffentlichungsagent**.
 
-1. Klicks **Bearbeiten** in der Aktionsleiste aus und stellen Sie sicher, dass die Endpunkt-URL in **Importer Endpoints** -Feld verweist auch auf die URL des Veröffentlichungsservers im Verteilungsagenten.
+1. Klicken Sie in der Aktionsleiste auf **Bearbeiten** und stellen Sie sicher, dass die Endpunkt-URL im Feld **Importer-Endpunkte** auch auf die URL des Veröffentlichungs-Servers im Verteilungsagenten verweist.
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
-1. Wenn Sie nicht die standardmäßigen Administratorberechtigungen verwenden, müssen Sie den Verteilungsagenten mit einem anderen Benutzernamen und Kennwort konfigurieren.
+1. Wenn Sie nicht die standardmäßigen Admin-Anmeldedaten verwenden, müssen Sie den Verteilungsagenten mit einem anderen Benutzernamen und einem anderen Kennwort konfigurieren.
 
    Führen Sie dazu folgende Schritte durch:
 
-   1. Navigieren Sie zu Tools > **Aktivitäten** > **Web-Konsole** `http://localhost:4502/system/console/configMgr`Sie können die **Bildschirm &quot;Adobe Experience Manager Web Console&quot;**.
+   1. Navigieren Sie zu „Tools“ > **Vorgänge** > **Web-Konsole** `http://localhost:4502/system/console/configMgr`, um den Bildschirm für die **Adobe Experience Manager-Web-Konsole** zu öffnen.
    1. Suchen Sie nach **Apache Sling Distribution Transport Credentials – User Credentials based DistributionTransportSecretProvider**.
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers6.png)
 
-   1. Erstellen Sie eine Konfiguration, indem Sie **Name**, **Benutzername**, und **password**, beispielsweise *slingTransportSecretProvider*.
+   1. Erstellen Sie eine Konfiguration, indem Sie einen **Namen** (z. B. *slingTransportSecretProvider*), einen **Benutzernamen** und ein **Kennwort** angeben.
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers7.png)
 
    1. Klicken Sie auf **Speichern**.
-   1. Verwendung `Cmd +F` zum Suchen nach **Apache Sling Distribution Agent - Forward Agents Factory** , um die Konfigurationen zu öffnen und nach **Transport Secret Provider**.
+   1. Verwenden Sie `Cmd +F` zum Suchen nach **Apache Sling Distribution Agent - Forward Agents Factory**, um die Konfiguration zu öffnen. Gehen Sie dann zum Feld **Transport Secret Provider** (Secret-Provider für Transport).
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers8.png)
 

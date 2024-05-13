@@ -12,7 +12,7 @@ exl-id: 4a4b3a83-2b02-42a0-86a7-fce6bbf47c7d
 source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '697'
-ht-degree: 28%
+ht-degree: 73%
 
 ---
 
@@ -35,11 +35,11 @@ Gehen Sie wie folgt vor, um eine Live Copy eines Kanals in Ihrem Projektordner z
 1. Klicks **Erstellen** und klicken **Live Copy** damit Sie eine Live Copy des Kanals erstellen können.
 1. Klicken Sie auf das Ziel und klicken Sie auf **Nächste**.
 1. Klicken Sie auf den Speicherort, an dem sich die Live Copy befinden kann.
-1. Geben Sie die **Titel** und **Name** im **Erstellen einer Live Copy** Seite.
+1. Geben Sie auf der Seite **Live Copy erstellen** den **Titel** und den **Namen** ein.
 
-1. Klicks **Öffnen** zum Anzeigen des Inhalts der neuen Live Copy oder **Fertig** , um zur Hauptseite zurückzukehren.
+1. Klicken Sie auf **Öffnen**, um den Inhalt der neuen Live Copy anzuzeigen, oder auf **Fertig**, um zur Hauptseite zurückzukehren.
 
-Alternativ dazu können Sie die folgenden Schritte für eine visuelle Darstellung zum Erstellen einer neuen Live Copy eines Kanals sehen.
+Sie können auch die folgenden Schritte ausführen, um zu sehen, wie Sie eine neue Live Copy eines Kanals erstellen.
 
 Im folgenden Beispiel wird gezeigt, wie eine Live Copy (***IdleLiveCopy***) für ***Idle Channel*** (inaktiver Kanal) mit dem Zielordner ***Kanäle*** erstellt wird.
 
@@ -47,27 +47,27 @@ Im folgenden Beispiel wird gezeigt, wie eine Live Copy (***IdleLiveCopy***) für
 
 ## Anzeigen des Inhalts des Live Copy-Kanals {#viewing-content-of-the-live-copy-channel}
 
-Eine Live Copy ist eine Kopie eines existierenden Kanals.
+Eine Live Copy ist eine Kopie eines Kanals, der bereits vorhanden ist.
 
-Informationen zum Anzeigen des Inhalts Ihrer Live Copy finden Sie in den folgenden Schritten:
+Um den Inhalt einer Live Copy anzuzeigen, gehen Sie wie folgt vor:
 
-1. Navigieren Sie zum Screens-Projekt und klicken Sie auf den Speicherort, an dem Sie die Live Copy ursprünglich erstellt haben, wie im Abschnitt oben gezeigt. (Hier wurde als Speicherort der Ordner **Kanäle** gewählt.)
+1. Navigieren Sie zum Screens-Projekt und klicken Sie auf den Speicherort, an dem Sie die Live Copy ursprünglich erstellt haben, wie im obigen Abschnitt gezeigt. (Hier wurde als Speicherort der Ordner **Kanäle** gewählt.)
 
    ![chlimage_1-18](assets/chlimage_1-18.png)
 
-1. Klicks **Bearbeiten** in der Aktionsleiste aus.
+1. Klicken Sie in der Aktionsleiste auf **Erstellen**. 
 
    ![chlimage_1-19](assets/chlimage_1-19.png)
 
    >[!NOTE]
    >
-   >Beim Anzeigen von Inhalt für einen Live Copy-Kanal wird ein zusätzliches Element im Menü als **Live Copy-Status**. Weitere Informationen finden Sie im folgenden Abschnitt.
+   >Wenn Sie Inhalte für einen Live Copy-Kanal anzeigen, sehen Sie im Menü das zusätzliche Element **Live Copy-Status**. Weitere Informationen finden Sie im folgenden Abschnitt.
 
 ### Anzeigen der Eigenschaften einer Live Copy {#viewing-properties-of-a-live-copy}
 
 Außerdem können Sie die Eigenschaften Ihres Live Copy-Kanals anzeigen.
 
-1. Navigieren Sie zu Ihrem Live Copy-Kanal und klicken Sie auf **Eigenschaften** in der Aktionsleiste aus.
+1. Navigieren Sie zu Ihrem Live Copy-Kanal und klicken Sie in der Aktionsleiste auf **Eigenschaften**.
 
    ![chlimage_1-20](assets/chlimage_1-20.png)
 
@@ -77,21 +77,21 @@ Außerdem können Sie die Eigenschaften Ihres Live Copy-Kanals anzeigen.
 
 ### Live Copy-Status {#live-copy-status}
 
-Der Modus **Live Copy-Status**, wie in der folgenden Abbildung dargestellt, können Sie den Beziehungsstatus aller Assets im Kanal anzeigen.
+Der in der folgenden Abbildung dargestellte Modus **Live Copy-Status** ermöglicht es Ihnen, den Beziehungsstatus aller Assets im Kanal anzuzeigen.
 
-1. Klicks **Bearbeiten** so können Sie die **Live Copy-Status** und die Zuordnung Ihres Kanalinhalts zum ursprünglichen Kanal anzeigen (aus dem die Live Copy generiert wird).
+1. Klicken Sie auf **Bearbeiten**, um den **Live Copy-Status** auszuwählen und die Zuordnung des Kanalinhalts zum ursprünglichen Kanal (aus dem die Live Copy generiert wurde) anzuzeigen.
 
    ![chlimage_1-22](assets/chlimage_1-22.png)
 
 1. Klicks **Live Copy-Status** sodass Sie die Vorschauseite anzeigen können.
 
-   Alle Ressourcen mit grünem Rahmen zeigen, dass der Inhalt vom ursprünglichen Kanal übernommen wird.
+   Bei allen Ressourcen mit grünem Rand wurde der Inhalt des ursprünglichen Kanals übernommen.
 
    ![chlimage_1-23](assets/chlimage_1-23.png)
 
 ### Aufheben der Vererbung {#breaking-the-inheritance}
 
-Sie können die Vererbung auch von der Live Copy abbrechen, sodass der Inhalt unabhängig vom ursprünglichen Zweig wird.
+Sie können auch die Vererbung der Live Copy aufheben, sodass der Inhalt von der ursprünglichen Verzweigung unabhängig wird.
 
 Das folgende Beispiel zeigt, dass Sie auf das Bild im Bearbeitungsmodus klicken und oben rechts auf das Symbol Vererbung abbrechen klicken.
 
@@ -101,19 +101,19 @@ Das folgende Beispiel zeigt, dass Sie auf das Bild im Bearbeitungsmodus klicken 
 
 Wenn Sie Änderungen oder Aktualisierungen im ursprünglichen Kanal vornehmen, propagieren Sie diese Änderungen auch in Ihren Live Copy-Kanal.
 
-Gehen Sie wie folgt vor, um sicherzustellen, dass Ihre Änderungen vom ursprünglichen Kanal zum Live Copy-Kanal übertragen werden:
+Führen Sie die folgenden Schritte aus, um sicherzustellen, dass Ihre Änderungen vom ursprünglichen Kanal auf den Live Copy-Kanal übertragen werden:
 
 1. Klicken Sie auf den ursprünglichen Kanal (***Idle Channel***) und klicken Sie auf **Bearbeiten** in der Aktionsleiste aus.
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
-1. Bearbeiten Sie den Kanalinhalt. Löschen Sie beispielsweise ein Bild aus diesem Kanal.
+1. Bearbeiten Sie den Kanalinhalt.  Löschen Sie beispielsweise ein Bild aus diesem Kanal.
 
    ![chlimage_1-26](assets/chlimage_1-26.png)
 
-1. Klicken Sie auf die Live Copy des Kanals (***IdleLiveCopy***) und klicken Sie auf **Bearbeiten** in der Aktionsleiste aus. Beachten Sie, dass das gelöschte Bild weiterhin in der Live Copy sichtbar ist.
+1. Klicken Sie auf die Live Copy des Kanals (***IdleLiveCopy***) und klicken Sie auf **Bearbeiten** in der Aktionsleiste aus. Beachten Sie, dass das von Ihnen gelöschte Bild noch in der Live Copy sichtbar ist.
 
-   Um die Änderungen zu übertragen, synchronisieren Sie den Kanal.
+   Um die Änderungen zu übertragen, müssen Sie den Kanal synchronisieren.
 
    ![chlimage_1-27](assets/chlimage_1-27.png)
 
@@ -129,4 +129,4 @@ Gehen Sie wie folgt vor, um sicherzustellen, dass Ihre Änderungen vom ursprüng
 
    ![chlimage_1-30](assets/chlimage_1-30.png)
 
-   Beachten Sie, dass das Bild jetzt auch aus dem Live Copy-Kanal gelöscht wird.
+   Beachten Sie, dass das Bild jetzt auch aus dem Live Copy-Kanal gelöscht ist.

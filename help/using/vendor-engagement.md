@@ -1,11 +1,11 @@
 ---
 title: Anbieterinteraktion
-description: Informationen zur Anbieterinteraktion für AEM Screens - Best Practices .
+description: Erfahren Sie mehr über das Best-Practices-Handbuch zur Anbieterinteraktion bei AEM Screens.
 exl-id: b1b1cd4b-f0a8-47d4-b8b8-dc7e42464230
 source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
 source-wordcount: '126'
-ht-degree: 15%
+ht-degree: 42%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 15%
 >[!NOTE]
 >Ein typischer Verantwortlicher für diese Aktivität ist ein Audio-Video-Integrator.
 
-In dieser Aktivität müssen alle wichtigen Anbieter identifiziert werden, die für die Einrichtung und Bereitstellung des Netzwerks erforderlich sind, sowie alle Partnerabhängigkeiten:
+Bei dieser Aktivität müssen alle zentralen Anbieter, die für die Einrichtung und Implementierung des Netzwerks erforderlich sind, sowie alle Partnerabhängigkeiten identifiziert werden:
 
 * Identifizieren Sie Anbieter für alle Hardware, einschließlich Displays, Player-PCs, Halterungen und Peripheriegeräte.
 

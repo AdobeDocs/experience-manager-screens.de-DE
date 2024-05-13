@@ -12,7 +12,7 @@ exl-id: d409ba46-b48a-44db-b305-27c392cd55de
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '710'
-ht-degree: 49%
+ht-degree: 53%
 
 ---
 
@@ -42,7 +42,7 @@ Gehen Sie wie folgt vor, um einen Notfallkanal einzurichten:
 1. Erstellen Sie ein AEM Screens-Projekt mit dem Namen **EmergencyChannel**, wie unten dargestellt.
 
    >[!NOTE]
-   >Weitere Informationen zum Erstellen und Verwalten von Projekten in AEM Screens finden Sie unter Erstellen eines Projekts.
+   >Weitere Informationen zum Erstellen und Verwalten von Projekten in AEM Screens finden Sie unter „Erstellen eines Projekts“.
 
    ![screen_shot_2019-02-21at35809pm](assets/screen_shot_2019-02-21at35809pm.png)
 
@@ -57,7 +57,7 @@ Gehen Sie wie folgt vor, um einen Notfallkanal einzurichten:
 1. **Hinzufügen von Inhalten zu Sequenzkanälen**
 
    1. Klicken Sie auf den Kanal (**MainAdChannel**).
-   1. Klicks **Bearbeiten** in der Aktionsleiste aus.
+   1. Klicken Sie in der Aktionsleiste auf **Bearbeiten**. 
    1. Ziehen Sie einige Assets per Drag-and-Drop in Ihren Kanal.
 
    ![screen_shot_2019-02-21at40053pm](assets/screen_shot_2019-02-21at40053pm.png)
@@ -77,7 +77,7 @@ Gehen Sie wie folgt vor, um einen Notfallkanal einzurichten:
 1. **Hinzufügen von Inhalten zu Notfallkanälen**
 
    1. Klicken Sie auf den Kanal (**Notfallkanal)**.
-   1. Klicks **Bearbeiten** in der Aktionsleiste aus.
+   1. Klicken Sie in der Aktionsleiste auf **Bearbeiten**. 
    1. Ziehen Sie das Asset, das Sie im Notfall ausführen möchten, in Ihren Kanal.
 
    ![screen_shot_2019-02-21at40516pm](assets/screen_shot_2019-02-21at40516pm.png)
@@ -145,7 +145,7 @@ Gehen Sie wie folgt vor, um einen Notfallkanal einzurichten:
 
    1. Navigieren Sie zu jeder Anzeige, z. B. **EmergencyChannel** > **Standorte** > **Store** >**StoreFront**.
 
-   1. Klicks **Dashboard** in der Aktionsleiste aus.
+   1. Klicken Sie in der Aktionsleiste auf **Dashboard**.
    1. Klicken Sie auf **...** im Bedienfeld **ZUGEWIESENE KANÄLE UND ZEITPLÄNE** und klicken Sie auf **+ Zeitplan zuweisen**.
 
    1. Klicken Sie auf den Pfad zum Zeitplan (hier beispielsweise **EmergencyChannel** > **Zeitpläne** >**StoreSchedule**).

@@ -8,7 +8,7 @@ exl-id: fc210d9d-5fac-4147-849d-182ffbaf0a5e
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '400'
-ht-degree: 35%
+ht-degree: 52%
 
 ---
 
@@ -21,10 +21,10 @@ ht-degree: 35%
 
 Das AEM 6.5 Feature Pack 8 wurde für AEM Screens veröffentlicht.
 
-Sie können das neueste Feature Pack für AEM Screens 6.5.8 von der [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) die Verwendung Ihrer Adobe ID. Navigieren Sie zum **Adobe Experience Manager** Registerkarte und suchen Sie nach **Screens** , um das neueste Feature Pack mit dem Titel **AEM 6.5 Screens FP8**.
+Sie können das neueste Feature Pack für AEM Screens 6.5.8 von der [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/de/aem.html) die Verwendung Ihrer Adobe ID. Navigieren Sie zum **Adobe Experience Manager** Registerkarte und suchen Sie nach **Screens** , um das neueste Feature Pack mit dem Titel **AEM 6.5 Screens FP8**.
 
 >[!IMPORTANT]
->Installieren Sie die Mindestversion von AEM 6.5 Feature Pack 8 für den AMS-Connector, um nach der Installation der Pakete zu funktionieren. `screens-cloud-ams-pkg-0.0.20`, `screens-cloud-ams-pkg-0.0.16`und die `screens core bundles`.
+>Sie müssen mindestens AEM 6.5 Feature Pack 8 installieren, damit der AMS-Connector funktioniert, nachdem Sie die Pakete `screens-cloud-ams-pkg-0.0.20`, `screens-cloud-ams-pkg-0.0.16` und `screens core bundles` installiert haben.
 
 ## Veröffentlichungsdatum {#release-date}
 
@@ -39,7 +39,7 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 202105 ist der 4. Juni
 * **Benennen des AEM Screens Player-Geräts**
 
   Die AEM Screens-Player bieten jetzt die Möglichkeit, einen Gerätenamen an Adobe Experience Manager (AEM) zu senden.
-Standardmäßig wird bei der Massenregistrierung eines Geräts ein systemgenerierter Benutzername in das Titelfeld eingegeben. Alternativ kann ein Kunde ein Asset-Tag oder einen anderen benutzerfreundlichen Namen verwenden, damit es in AEM sichtbar ist und damit es einfacher ist, geeignete Inhalte zuzuweisen.
+Standardmäßig wird bei der Massenregistrierung eines Geräts ein vom System generierter Benutzername in das Titelfeld eingegeben. Alternativ kann eine Kundin oder ein Kunde ein Asset-Tag oder einen anderen benutzerfreundlichen Namen verwenden, damit es in AEM sichtbar ist und damit es einfacher ist, geeignete Inhalte zuzuweisen.
 
   Informationen zum Konfigurieren des Namens in den einzelnen unterstützten Betriebssystemen finden Sie in der folgenden Dokumentation:
 
@@ -50,7 +50,7 @@ Standardmäßig wird bei der Massenregistrierung eines Geräts ein systemgenerie
 
 * **Manifestgenerierung**
 
-  Schnellere Generierung von Kanalmanifest mit verbesserter Leistung, z. B. der Zuweisung von weniger Ressourcen auf dem Server.
+  Kanalmanifeste werden schneller und mit verbesserter Leistung generiert, z. B. durch Zuweisung weniger Ressourcen auf dem Server.
 
 ### Fehlerbehebungen {#bug-fixes}
 
@@ -67,6 +67,6 @@ Die folgenden AEM Screens-Player sind für AEM 6.5 Feature Pack 8 verfügbar:
 * Android™
 * Linux®
 
-#### AEM Screens-Player-Downloads 
+#### AEM Screens-Player-Downloads
 
 Informationen zum Herunterladen des neuesten AEM Screens-Players und zu weiteren Fehlerbehebungen finden Sie unter **[AEM Screens Player-Downloads](https://download.macromedia.com/screens/index.html)**.

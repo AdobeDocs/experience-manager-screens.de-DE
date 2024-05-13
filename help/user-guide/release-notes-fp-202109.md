@@ -8,7 +8,7 @@ exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
 source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
 source-wordcount: '916'
-ht-degree: 37%
+ht-degree: 63%
 
 ---
 
@@ -31,13 +31,13 @@ Das AEM Screens Feature Pack 202109 wurde am 23. September 2021 veröffentlicht.
 
 * **Unterstützung von Miniaturansichten für Videos**
 
-  AEM Screens unterstützt jetzt Miniaturansichten für Videos. Ein Inhaltsautor definiert eine Miniaturansicht für Videos, sodass das Bild als Platzhalter verwendet wird. Außerdem werden die Inhaltswiedergabe und das Targeting ordnungsgemäß getestet, während das entsprechende Team das eigentliche Video abschließt. Das Bild kann auch verwendet werden, falls die Wiedergabe des Videos fehlschlägt.
+  AEM Screens unterstützt jetzt Miniaturansichten für Videos. Ein Inhaltsautor definiert eine Miniaturansicht für Videos, sodass das Bild als Platzhalter verwendet wird. Außerdem werden die Inhaltswiedergabe und das Targeting ordnungsgemäß getestet, während das entsprechende Team das eigentliche Video abschließt. Das Bild kann auch verwendet werden, wenn die Wiedergabe des Videos fehlschlägt.
 Weitere Informationen finden Sie unter [Unterstützung von Miniaturansichten für Videos](/help/user-guide/thumbnail-support.md).
 
 * **Einfache Wiedergabe-Überwachung**
 
-  AEM Screens unterstützt jetzt einfache Wiedergabe-Überwachung. Der Player meldet jetzt bei jedem Ping verschiedene Wiedergabemetriken (standardmäßig 30 Sekunden). Basierend auf den Metriken werden verschiedene Edge-Fälle erkannt (festes Erlebnis, leerer Bildschirm, Planungsproblem usw.). Mit dieser Funktion kann das Team remote überwachen, ob ein Player Inhalte ordnungsgemäß wiedergibt, und die Reaktionsrate auf leere Bildschirme oder fehlerhafte Erlebnisse im Feld verbessern. Außerdem verringert dies das Risiko, dem Endbenutzer ein fehlerhaftes Erlebnis anzuzeigen.
-Weitere Informationen finden Sie unter [Einfache Wiedergabe-Überwachung](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring).
+  AEM Screens unterstützt jetzt einfache Wiedergabe-Überwachung. Der Player meldet jetzt bei jedem Ping (standardmäßig alle 30 Sekunden) verschiedene Wiedergabemetriken. Basierend auf diesen Metriken werden verschiedene Randfälle (Feststecken, leerer Bildschirm, Zeitplanprobleme usw.) erkannt. Mit dieser Funktion kann das Team remote überwachen, ob ein Player Inhalte ordnungsgemäß wiedergibt, und die Reaktionsrate auf leere Bildschirme oder fehlerhafte Erlebnisse im praktischen Einsatz verbessern. Außerdem sinkt so das Risiko, dass Endbenutzenden ein fehlerhaftes Erlebnis angezeigt wird.
+Weitere Informationen finden Sie unter [Einfache Wiedergabe-Überwachung](https://experienceleague.adobe.com/de/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring).
 
 * **Aktualisierungen des Inhaltszuweisungsberichts**
 
@@ -50,35 +50,35 @@ Weitere Informationen finden Sie unter [Inhaltszuweisungsbericht](/help/user-gui
 
   Als AEM Screens-Entwickler können Sie jetzt gerätespezifische Asset-Ausgabedarstellungen so konfigurieren, dass sie automatisch heruntergeladen und wiedergegeben werden, ohne dass alle Inhaltsvarianten manuell erstellt werden müssen. Weitere Informationen hierzu finden Sie in [Adaptive Ausgabedarstellungen: Überblick über die Architektur und Konfigurationen](/help/user-guide/adaptive-renditions.md).
 
-  Als AEM Screens Content Author können Sie Ihre Assets für die Verwendung adaptiver Ausgabeformate konfigurieren. Sie können Ihre Geräte auch für große Netzwerke migrieren, um diese Funktion in Ihren AEM Screens-Kanälen zu verwenden. Weitere Informationen finden Sie unter [Verwenden adaptiver Ausgabedarstellungen in AEM Screens](/help/user-guide/using-adaptive-renditions.md).
+  Als AEM Screens-Inhaltsautorin oder -Inhaltsautor können Sie Ihre Assets für adaptive Ausgabedarstellungen konfigurieren. Sie können Ihre Geräte auch für große Netzwerke migrieren, um diese Funktion in Ihren AEM Screens-Kanälen zu verwenden. Weitere Informationen finden Sie unter [Verwenden adaptiver Ausgabedarstellungen in AEM Screens](/help/user-guide/using-adaptive-renditions.md).
 
 * **Unterstützung für V3-Manifeste**
 
   Sie können jetzt den Dispatcher für Manifest Version 3 konfigurieren. Gehen Sie wie folgt vor, um das v3-Manifest zu aktivieren:
 
-   * Löschen Sie alle ausstehenden Offline-Inhaltsaufträge sowohl in der Autoren- als auch in der Veröffentlichungsumgebung.
+   * Löschen Sie alle ausstehenden Offline-Inhaltsaufträge sowohl in der Autoren- als auch in der Veröffentlichungsinstanz.
 
-      * Navigieren Sie in der Autoren- und Veröffentlichungsinstanz zu CRXDE Lite .
+      * Navigieren Sie in der Autoren- und der Veröffentlichungsinstanz zu CRXDE Lite.
 
-      * Klicken Sie auf Tools > Abfrage.
+      * Klicken Sie auf „Tools“ > „Abfrage“
 
       * Verwenden Sie in der Abfrage `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`.
 
-      * Hier werden alle Offline-Inhaltsaufträge aufgelistet, die derzeit ausgeführt werden oder in der Warteschlange ausstehen.
+      * Dadurch werden alle Offline-Inhaltsaufträge aufgelistet, die derzeit ausgeführt werden oder noch in der Warteschlange ausstehen.
 
-      * Warten Sie, bis die Abfrage keine weiteren Offline-Inhaltsaufträge mehr zurückgibt.
+      * Warten Sie, bis keine weiteren Offline-Inhaltsaufträge mehr von der Abfrage zurückgegeben werden.
 
    * ContentSync in `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` deaktivieren.
 
    * SmartSync in `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl` aktivieren.
 
-   * Aktualisieren Sie den Dispatcher.
+   * Führen Sie eine Dispatcher-Aktualisierung durch.
 
    * Aktualisieren Sie die benutzerdefinierte Komponente.
 
 
-   * Weitere Informationen finden Sie unter [Konfigurieren des Dispatchers für Manifest Version 3](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3).
-   * Wenn Sie außerdem benutzerdefinierte Komponenten als Teil von Manifesten der Version 3 verwenden, finden Sie weitere Informationen unter [Vorlage für benutzerdefinierte Handler](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers).
+   * Weitere Informationen finden Sie unter [Konfigurieren des Dispatchers für Manifest Version 3](https://experienceleague.adobe.com/de/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3).
+   * Wenn Sie außerdem benutzerdefinierte Komponenten als Teil von Manifesten der Version 3 verwenden, finden Sie weitere Informationen unter [Vorlage für benutzerdefinierte Handler](https://experienceleague.adobe.com/de/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers).
 
 
 ### Fehlerbehebungen {#bug-fixes}
@@ -99,11 +99,11 @@ Weitere Informationen finden Sie unter [Inhaltszuweisungsbericht](/help/user-gui
 
 * Der Zugriff auf `cmd.exe` und `reg.exe` im Windows-Player.
 
-* Ein Player muss das letzte erfolgreiche Wiedergabeereignis melden.
+* Ein Player muss sein letztes erfolgreiches Wiedergabeereignis melden.
 
 * Ein Player muss seinen Wiedergabestatus melden.
 
-* Der Player lädt Assets nicht erneut herunter, wenn `ALL` Der Cache wird gelöscht.
+* Der Player lädt Assets nicht erneut herunter, wenn der `ALL`-Cache gelöscht wird.
 
 * Als Player-Administrator können Sie jetzt einen Player-Namen auswählen.
 
@@ -118,7 +118,7 @@ Weitere Informationen finden Sie unter [Inhaltszuweisungsbericht](/help/user-gui
 **Auf der Server-Seite**
 
 * Das Ziel-Video wird nicht angezeigt.
-* Wettlaufsituationen bei der Übertragung zeigen Daten in den Folgezeiten an.
+* Konkurrenzbedingungen bei der Übertragung von Anzeigedaten an Teilsequenzen.
 
 * Die Kanalvorschau funktioniert nicht für Kanäle, die Videos enthalten.
 
@@ -128,7 +128,7 @@ Weitere Informationen finden Sie unter [Inhaltszuweisungsbericht](/help/user-gui
 
 * Aktualisieren Sie das Kanalmanifest automatisch, wenn die referenzierte Seite veröffentlicht wird.
 
-* Gelöschte Geräte blockieren jetzt nicht die Screens-Replikationswarteschlange.
+* Gelöschte Geräte blockieren jetzt nicht mehr die Screens-Replikationswarteschlange.
 
 * Das Manifest enthielt keine zielgerichteten Inhalte oder eingebetteten Sites-Seiten. Dieser Fehler wurde behoben.
 
@@ -160,6 +160,6 @@ Die folgenden AEM Screens-Player sind für AEM 6.5 Feature Pack 9 verfügbar:
 * Android™
 * Linux®
 
-#### AEM Screens-Player-Downloads 
+#### AEM Screens-Player-Downloads
 
 Informationen zum Herunterladen des neuesten AEM Screens-Players und zu weiteren Fehlerbehebungen finden Sie unter **[AEM Screens Player-Downloads](https://download.macromedia.com/screens/index.html)**.

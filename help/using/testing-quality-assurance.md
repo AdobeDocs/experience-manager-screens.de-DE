@@ -1,11 +1,11 @@
 ---
 title: Tests und Qualitätssicherung
-description: Weitere Informationen zu Tests und Qualitätssicherung für AEM Screens finden Sie im Best Practices-Handbuch.
+description: Erfahren Sie mehr über die Best Practices für Tests und die Qualitätssicherung von AEM Screens.
 exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
 source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
 source-wordcount: '332'
-ht-degree: 28%
+ht-degree: 65%
 
 ---
 
@@ -14,10 +14,10 @@ ht-degree: 28%
 >[!NOTE]
 >Ein typischer Verantwortlicher für diese Aktivität ist ein Audio-Video-Integrator.
 
-Wenn Sie sich der Bereitstellung des Digital Signage-Netzwerks nähern, erstellen Sie einen Test- und QA-Plan, der alle Elemente des Netzwerks einschließlich aller Hardwarekomponenten, Softwarekomponenten und Netzwerkkomponenten abdeckt.
+Wenn die Bereitstellung des Digital-Signage-Netzwerks Beschilderung näher rückt, sollten Sie einen Test- und QA-Plan erstellen, der alle Elemente des Netzwerks, einschließlich der Hardware-, Software- und Netzwerkkomponenten, umfasst.
 In dem Schritt sollten vollständige Prüfsysteme eingerichtet und gründlich getestet werden.
 
-Es sollte eine Checkliste erstellt werden, in der alle zuvor definierten KPIs aufgeführt und die Lieferziele anhand dieser KPIs gemessen werden.
+Es sollte eine Checkliste erstellt werden, in der alle zuvor definierten KPIs aufgeführt und anhand der entsprechenden Lieferziele gemessen werden.
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ Folgende Überlegungen in Bezug auf die Software werden empfohlen:
 * Datenbankabhängigkeiten (zuvor definiert)
 
 
-## 3. Aspekte der Geräteverwaltung {#device-management-considerations}
+## 3. Geräteverwaltungsaspekte {#device-management-considerations}
 
 AEM Screens enthält ein Gerätesteuerungsmodul, das die Verwaltung von Endpunkten der Screens-Player-Anwendung ermöglicht.
 
@@ -55,10 +55,10 @@ Mit diesem Modul können Sie:
 
 1. Anwendungsfehlerprotokolle des Players überwachen
 1. Remote-Screenshots verwalten
-1. Inhaltsdownloads verwalten
+1. Inhalts-Downloads verwalten
 1. Probleme beim Neustart der Anwendung beheben
 
-Ausführliche Informationen zu ***Gerätesteuerung***, siehe [Problembehebung in der Gerätesteuerung](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) in **AEM Screens-Benutzerhandbuch**.
+Ausführliche Informationen zu ***Gerätesteuerung***, siehe [Problembehebung in der Gerätesteuerung](https://experienceleague.adobe.com/de/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) in **AEM Screens-Benutzerhandbuch**.
 
 >[!CAUTION]
 >
@@ -72,9 +72,9 @@ Ausführliche Informationen zu ***Gerätesteuerung***, siehe [Problembehebung in
 
 >[!NOTE]
 >
-> Adobe empfiehlt die Verwendung von dedizierten Geräteverwaltungsplattformen von Drittanbietern für alle Implementierungen.
+> Adobe empfiehlt, für alle Bereitstellungen dedizierte Drittanbieter-Geräteverwaltungsplattformen zu verwenden.
 
-Die gewählte Plattform hängt von verschiedenen Faktoren ab, darunter dem ***Zielbetriebssystem***, ***Projektanforderungen***, und ***Anzahl der Endpunkte***.
+Die gewählte Plattform hängt von einer Reihe von Faktoren ab, darunter dem ***Zielbetriebssystem***, den ***Projektanforderungen*** und der ***Anzahl der Endpunkte***.
 
 Nachfolgend finden Sie einige Beispiele:
 

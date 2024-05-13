@@ -8,7 +8,7 @@ exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
 source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
 workflow-type: tm+mt
 source-wordcount: '1477'
-ht-degree: 32%
+ht-degree: 59%
 
 ---
 
@@ -81,7 +81,7 @@ Gehen Sie wie folgt vor, um die Zeitplanung auf der Asset-Ebene durchzuführen:
 
 Sie können planen, dass Assets gemäß Ihren Anforderungen in bestimmten Intervallen täglich, wöchentlich oder monatlich wiederholt werden.
 
-Angenommen, Sie möchten ein Bild nur freitags von 13:00 Uhr bis 22:00 Uhr anzeigen. Auf der Registerkarte **Aktivierung** können Sie das gewünschte Wiederholungsintervall für Ihr Asset festlegen.
+Angenommen, Sie möchten ein Bild nur freitags von 13.00 bis 22.00 Uhr anzeigen. Auf der Registerkarte **Aktivierung** können Sie das gewünschte Wiederholungsintervall für Ihr Asset festlegen.
 
 ### DayParting {#day-parting}
 
@@ -92,7 +92,7 @@ Angenommen, Sie möchten ein Bild nur freitags von 13:00 Uhr bis 22:00 Uhr anzei
    >[!NOTE]
    >Sie können die Felder **Aktiv ab** und **Aktiv bis** überspringen oder einbeziehen und den Ausdruck entsprechend Ihren Anforderungen zum Feld „Zeitpläne“ hinzufügen.
 
-1. Geben Sie den Ausdruck in die **Zeitplan** und Ihr Asset für das jeweilige Tages- und Uhrzeitintervall angezeigt wird.
+1. Geben Sie den Ausdruck in den **Zeitplan** ein. Ihr Asset wird daraufhin für das jeweilige Tages- und Uhrzeitintervall angezeigt.
 
 #### Beispielausdrücke für die DayParting {#example-one}
 
@@ -100,14 +100,14 @@ Die folgende Tabelle fasst einige Beispielausdrücke zusammen, die Sie dem Zeitp
 
 | **Ausdruck** | **Interpretation** |
 |---|---|
-| vor 8:00 Uhr | Das Asset im Kanal wird täglich vor 8:00 Uhr wiedergegeben |
-| nach 14:00 Uhr. | Das Asset im Kanal wird täglich nach 14:00 Uhr wiedergegeben |
-| nach 12:15 Uhr und vor 12:45 Uhr | Das Asset im Kanal wird täglich 30 Minuten lang nach 12:15 Uhr wiedergegeben. |
-| vor 12:15 Uhr auch nach 12:45 Uhr | Das Asset im Kanal wird täglich vor 12:15 Uhr und danach auch nach 12:45 Uhr wiedergegeben. |
+| vor 8:00 Uhr | Das Asset im Kanal wird täglich vor 8:00 Uhr wiedergegeben. |
+| nach 14:00 Uhr | Das Asset im Kanal wird täglich nach 14:00 Uhr wiedergegeben. |
+| nach 12:15 Uhr und vor 12:45 Uhr | Das Asset im Kanal wird täglich 30 Minuten lang nach 12:15 Uhr wiedergegeben. |
+| vor 12:15 Uhr auch nach 12:45 Uhr | Das Asset im Kanal wird täglich vor 12:15 Uhr und danach auch nach 12:45 Uhr wiedergegeben. |
 
 >[!NOTE]
 >
->Sie können auch _Militärzeit_ Notation (14:00) anstelle von *A.M./P.M* (14:00 Uhr).
+>Statt mit dem _24-Stunden-Format_ (z. B. 14:00 Uhr) kann die Zeit auch mit *A.M./P.M* (z. B. 2:00 P.M.) angegeben werden.
 
 ### WeekParting {#week-parting}
 
@@ -118,7 +118,7 @@ Die folgende Tabelle fasst einige Beispielausdrücke zusammen, die Sie dem Zeitp
    >[!NOTE]
    >Sie können die Felder **Aktiv ab** und **Aktiv bis** überspringen oder einbeziehen und den Ausdruck entsprechend Ihren Anforderungen zum Feld „Zeitpläne“ hinzufügen.
 
-1. Geben Sie den Ausdruck in die **Zeitplan** und Ihr Asset für das jeweilige Tages- und Uhrzeitintervall angezeigt wird.
+1. Geben Sie den Ausdruck in den **Zeitplan** ein. Ihr Asset wird daraufhin im jeweiligen Tages- und Uhrzeitintervall angezeigt.
 
 #### Beispielhafte Ausdrücke für WeekParting {#example-two}
 
@@ -131,7 +131,7 @@ Die folgende Tabelle fasst einige Beispielausdrücke zusammen, die Sie dem Zeitp
 
 >[!NOTE]
 >
->Sie können auch _full_ notation (`Monday,Wednesday,Friday`) anstelle von _kurze_ (`Mon,Wed,Fri`).
+>Sie können auch die _vollständige_ Bezeichnung (`Monday,Wednesday,Friday`) statt der _Abkürzung_ (`Mon,Wed,Fri`) verwenden.
 
 
 ### MonthParting {#month-parting}
@@ -143,7 +143,7 @@ Die folgende Tabelle fasst einige Beispielausdrücke zusammen, die Sie dem Zeitp
    >[!NOTE]
    >Sie können die Felder **Aktiv ab** und **Aktiv bis** überspringen oder einbeziehen und den Ausdruck entsprechend Ihren Anforderungen zum Feld „Zeitpläne“ hinzufügen.
 
-1. Geben Sie den Ausdruck in die **Zeitplan** und Ihr Asset für das jeweilige Tages- und Uhrzeitintervall angezeigt wird.
+1. Geben Sie den Ausdruck in den **Zeitplan** ein. Ihr Asset wird daraufhin im jeweiligen Tages- und Uhrzeitintervall angezeigt.
 
 #### Beispielhafte Ausdrücke für MonthParting {#example-three}
 
@@ -155,7 +155,7 @@ Die folgende Tabelle fasst einige Beispielausdrücke zusammen, die Sie dem Zeitp
 | `on February-July` | Das Asset im Kanal wird von Februar bis Ende Juli wiedergegeben. |
 
 >[!NOTE]
->Bei der Definition von Wochentagen und Monaten können Sie sowohl die Abkürzung als auch die vollständige Bezeichnung verwenden, z. B. &quot;Mo.&quot;/&quot;Montag&quot;und &quot;Jan.&quot;/&quot;Januar&quot;.
+>Bei der Definition von Wochentagen und Monaten können Sie sowohl die Abkürzung als auch die vollständige Bezeichnung verwenden, beispielsweise „Mo.“/„Montag“ und „Jan.“/„Januar“.
 
 ### Kombination von Aufteilungen {#combined-parting}
 
@@ -166,7 +166,7 @@ Die folgende Tabelle fasst einige Beispielausdrücke zusammen, die Sie dem Zeitp
    >[!NOTE]
    >Sie können die Felder **Aktiv ab** und **Aktiv bis** überspringen oder einbeziehen und den Ausdruck entsprechend Ihren Anforderungen zum Feld „Zeitpläne“ hinzufügen.
 
-1. Geben Sie den Ausdruck in die **Zeitplan** und Ihr Asset für das jeweilige Tages- und Uhrzeitintervall angezeigt wird.
+1. Geben Sie den Ausdruck in den **Zeitplan** ein. Ihr Asset wird daraufhin im jeweiligen Tages- und Uhrzeitintervall angezeigt.
 
 #### Beispielausdrücke für die Kombination von Aufteilungen {#example-four}
 
@@ -175,11 +175,11 @@ Die folgende Tabelle fasst einige Beispielausdrücke zusammen, die Sie dem Zeitp
 | **Ausdruck** | **Interpretation** |
 |---|---|
 | `after 6:00 and before 18:00 on Mon,Wed of Jan-Mar` | Das Asset im Kanal wird montags bis mittwochs von Januar bis Ende März zwischen 6 Uhr und 18 Uhr und mittwochs wiedergegeben. |
-| `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | Die Wiedergabe des Assets im Kanal beginnt am 1. Januar um 14:00 Uhr und läuft den ganzen Tag am 2. Januar bis 3:00 Uhr am 3. Januar |
-| `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | Das Asset im Kanal startet den Player am 1. Januar um 14:00 Uhr, läuft bis 2. Januar um 3:00 Uhr und beginnt dann am 2. Januar um 2:00 Uhr und läuft bis 3:00 Uhr am 3. Januar |
+| `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | Das Asset im Kanal wird ab dem 1. Januar um 14:00 Uhr und weiterhin den ganzen Tag am 2. Januar bis um 3:00 Uhr am 3. Januar wiedergegeben. |
+| `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | Das Asset im Kanal wird ab dem 1. Januar um 14:00 Uhr bis zum 2. Januar um 3:00 Uhr wiedergegeben. Dann wird es erneut vom 2. Januar um 14:00 Uhr bis zum 3. Januar um 3:00 Uhr wiedergegeben. |
 
 >[!NOTE]
->Bei der Definition von Wochentagen und Monaten können Sie sowohl die Abkürzung als auch die vollständige Bezeichnung verwenden, z. B. &quot;Mo.&quot;/&quot;Montag&quot;und &quot;Jan.&quot;/&quot;Januar&quot;. Sie können auch _Militärzeit_ Notation (14:00) anstelle von *A.M./P.M*(14:00 Uhr).
+>Bei der Definition von Wochentagen und Monaten können Sie sowohl die Abkürzung als auch die vollständige Bezeichnung verwenden, beispielsweise „Mo.“/„Montag“ und „Jan.“/„Januar“. Statt mit dem _24-Stunden-Format_ (z. B. 14:00 Uhr) kann die Zeit auch mit *A.M./P.M* (z. B. 2:00 P.M.) angegeben werden.
 
 
 ## Aktivierung für mehrere Assets {#multi-asset-scheduling}
@@ -196,7 +196,7 @@ Die folgende Tabelle fasst einige Beispielausdrücke zusammen, die Sie dem Zeitp
 Um die Aktivierung für mehrere Assets zu verwenden, erstellen Sie ein AEM Screens-Projekt mit einem Sequenzkanal. Im folgenden Anwendungsbeispiel wird die Implementierung der Funktion veranschaulicht:
 
 * Erstellen Sie ein AEM Screens-Projekt mit dem Titel **MultiAssetDemo**.
-* Erstellen Sie einen Kanal mit dem Titel **MultiAssetChannel** und fügen Sie dem Kanal Inhalte hinzu, wie in der folgenden Abbildung dargestellt.
+* Erstellen Sie einen Kanal mit dem Titel **MultiAssetChannel** und fügen Sie dem Kanal Inhalt hinzu, wie in der folgenden Abbildung dargestellt.
 
 ![screen_shot_2018-12-21at70128am](assets/screen_shot_2018-12-21at70128am.png)
 
@@ -218,7 +218,7 @@ Gehen Sie wie folgt vor, um auf mehrere Assets zu klicken und ihre Anzeige in ei
 
    >[!NOTE]
    >
-   >Das Zeitplansymbol wird in der oberen rechten Ecke für Assets angezeigt, die eine Aktivierung für mehrere Assets aufweisen.
+   >Das Zeitplansymbol ist bei Assets mit Aktivierung für mehrere Assets oben rechts sichtbar.
 
    ![screen_shot_2018-12-21at70722am](assets/screen_shot_2018-12-21at70722am.png)
 
@@ -241,6 +241,6 @@ Daher kann der Inhaltsautor die Wiedergabe eines bestimmten Assets festlegen. Si
 
    ![screen_shot_2018-12-21at70550am](/help/user-guide/assets/asset-activation/Asset-level4.png)
 
-1. Geben Sie für eine globale Überschreibung die Aktivierungszeit in das Feld **Zeitzonen-Überschreibung** für das Asset. Wenn Sie in diesem Bereich nichts eingeben, wird die Zeitzone des Players angewendet.
+1. Geben Sie für eine globale Überschreibung die Aktivierungszeit in das Feld **Zeitzonen-Überschreibung** für das Asset. Wenn Sie in diesem Bereich nichts eingeben, wird als Zeitzone die Zeitzone des Players verwendet.
 
 

@@ -1,6 +1,6 @@
 ---
 title: Versionshinweise für Feature Pack 202004
-description: Erfahren Sie mehr über das AEM Screens Feature Pack 202004, das am 20. April 2020 veröffentlicht wurde.
+description: Erfahren Sie mehr über das AEM Screens Feature Pack 202004, das am Dienstag, 20. April 2020 veröffentlicht wurde.
 feature: Feature Pack
 role: Developer
 level: Intermediate
@@ -8,7 +8,7 @@ exl-id: 0440cb1a-4436-4479-9d88-ea8884905801
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 31%
+ht-degree: 40%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 31%
 
 AEM Screens hat AEM 6.4 Feature Pack 8 und AEM 6.5 Feature Pack 4 veröffentlicht.
 
-Sie können das neueste Feature Pack für AEM Screens 6.4.8 oder AEM Screens 6.5.4 von der [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) die Verwendung Ihrer Adobe ID. Navigieren Sie zum **Adobe Experience Manager** Registerkarte und suchen Sie nach **Screens** um das neueste Feature Pack zu erhalten.
+Sie können das neueste Feature Pack für AEM Screens 6.4.8 oder AEM Screens 6.5.4 von der [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/de/aem.html) die Verwendung Ihrer Adobe ID. Navigieren Sie zum **Adobe Experience Manager** Registerkarte und suchen Sie nach **Screens** um das neueste Feature Pack zu erhalten.
 
 ## Veröffentlichungsdatum {#release-date}
 
@@ -40,7 +40,7 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 202004 ist der 20. Ap
 
   Der Benutzererlebnisfluss in der Inhaltsautor-Benutzeroberfläche wurde verbessert und die Anzahl der Klicks zur Verwendung künftiger Veröffentlichungen wurde reduziert.
 
-  Siehe **[Inhaltsaktualisierung mit Screens Launch](launches.md)** für weitere Details.
+  Weitere Informationen finden Sie unter **[Inhaltsaktualisierung mit Screens Launch](launches.md)**.
 
 * **Kanal-Dashboard**
 
@@ -63,7 +63,7 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 202004 ist der 20. Ap
 
   Mit dieser Feature Pack-Version werden Verbesserungen der Befehlssynchronisierungsverzögerung zwischen Asset-Änderungen übernommen.
 
-  Siehe **[Befehlssynchronisierung](using-command-sync.md)** für weitere Details.
+  Weitere Informationen finden Sie unter **[Befehlssynchronisierung](using-command-sync.md)**.
 
 ### Veröffentlichte AEM Screens-Player
 
@@ -73,6 +73,6 @@ Die folgenden AEM Screens-Player sind für AEM Screens in AEM 6.4 Feature Pack 8
 * Windows
 * Android™
 
-#### AEM Screens-Player-Downloads 
+#### AEM Screens-Player-Downloads
 
 Informationen zum Herunterladen des neuesten AEM Screens-Players und zu weiteren Fehlerbehebungen finden Sie unter **[AEM Screens Player-Downloads](https://download.macromedia.com/screens/)**.

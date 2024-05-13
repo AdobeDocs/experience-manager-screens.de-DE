@@ -8,7 +8,7 @@ exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
 source-git-commit: 6720e20f5254e869bde814bd167730e426d0f8fe
 workflow-type: tm+mt
 source-wordcount: '1092'
-ht-degree: 35%
+ht-degree: 40%
 
 ---
 
@@ -49,9 +49,9 @@ Bevor Sie eine Spracherkennungsfunktion verwenden, stellen Sie sicher, dass Sie 
 
    >[!NOTE]
    >
-   >Informationen zum Erstellen eines Kanals oder Hinzufügen von Inhalten zu einem Kanal finden Sie unter [Erstellen und Verwalten von Kanälen](/help/user-guide/managing-channels.md)
+   >Informationen zum Erstellen eines Kanals oder Hinzufügen von Inhalten zu einem Kanal finden Sie unter [Erstellen und Verwalten von Kanälen](/help/user-guide/managing-channels.md).
 
-   Oder
+   ODER
 
    Sie können drei Sequenzkanäle erstellen **Main**, **ColdDrinks**, und **HotDrinks** und einen weiteren 1x2-Splitscreen-Kanal **SplitScreen** wie in der folgenden Abbildung dargestellt.
 
@@ -95,7 +95,7 @@ Gehen Sie wie folgt vor, um Ihrem Kanal Tags hinzuzufügen:
 
    ![image](assets/voice-recognition/vr-6.png)
 
-   Oder
+   ODER
 
    Sie können auch vorab Tags aus Ihrer AEM-Instanz für Ihr Projekt erstellen und diese auswählen. Nachdem Sie die unter [Erstellen von Tags](#creating-tags)können Sie vom Speicherort aus auf das Tag klicken und es Ihrem Kanal hinzufügen, wie in der folgenden Abbildung dargestellt:
 
@@ -119,7 +119,7 @@ Gehen Sie wie folgt vor, um Tags zu erstellen:
 1. Klicken Sie auf das Werkzeugsymbol > **Tagging**.
    ![Bild](assets/voice-recognition/vr-7.png)
 
-1. Klicks **Erstellen** > **Namespace erstellen**.
+1. Klicken Sie auf **Erstellen** > **Namespace erstellen**.
    ![image](assets/voice-recognition/vr-tag3.png)
 
 1. Geben Sie den Namen Ihres Projekts ein, z. B. **VoiceDemo**, und klicken Sie auf **Erstellen**.

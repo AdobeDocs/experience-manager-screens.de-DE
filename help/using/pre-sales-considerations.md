@@ -5,7 +5,7 @@ exl-id: 6e27b0f1-3c31-4d9b-8fa2-b4ec2e9bf7b0
 source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 38%
+ht-degree: 39%
 
 ---
 
@@ -31,4 +31,4 @@ Zu den wichtigsten Lieferzielen in diesem Schritt zählen:
 >
 >Identifizieren Sie so bald wie möglich die Daten, die für die Anwendung benötigt werden und woher sie stammt. Bei der Implementierung wird eine tiefgehendere Untersuchung durchgeführt. Achten Sie jedoch darauf, dass Sie sich während der *Tag 0* um herauszufinden, welche Daten der Kunde verwenden möchte. Finden Sie heraus, wo diese Daten derzeit gespeichert sind und wie die erstellte Anwendung darauf zugreifen kann. Die Benachrichtigung des Entwicklungsteams vor dem Auftreten von Herausforderungen hilft dabei, eine Implementierung reibungsloser durchzuführen.
 
-Video ansehen [Überlegungen zum Projektumfang](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-considerations).
+Video ansehen [Überlegungen zum Projektumfang](https://experienceleague.adobe.com/de/docs/experience-manager-screens/user-guide/digital-signage-network/project-considerations).

@@ -5,7 +5,7 @@ exl-id: b6d8f4a3-fca2-4556-9455-b9e27b138154
 source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '549'
-ht-degree: 75%
+ht-degree: 79%
 
 ---
 
@@ -19,7 +19,7 @@ Dieses Handbuch enthält eine Einführung in Proxy-Server, gefolgt von den unter
 >**Netzwerkanforderungen von AEM Screens**
 >AEM Screens kommuniziert direkt mit dem AEM as a Cloud Service. Daher ist es erforderlich, eine stabile Verbindung zwischen den beiden Knoten herzustellen. Firewalls sind für den kommerziellen Internetzugang obligatorisch. Als Kunde sollten Sie wissen, welche Kommunikationsanschlüsse in diesen Firewalls und anderen IT-Security-bezogenen Netzwerkkomponenten geöffnet werden müssen.
 
-## Übersicht über Proxy-Server {#proxy-servers}
+## Überblick über Proxy-Server {#proxy-servers}
 
 Über Proxy-Server wird der Aufbau einer Verbindung zum Internet ermöglicht. Ein Proxy-Server ist ein dedizierter Computer oder ein Software-System, das auf einem Computer ausgeführt wird. Sie fungiert als Vermittler zwischen einem Endpunktgerät, z. B. einem Computer, und einem anderen Server, von dem aus ein Benutzer oder Client einen Dienst anfordert. Der Proxy-Server kann sich auf demselben Computer befinden wie ein Firewall-Server oder auf einem separaten Server, der Anfragen über die Firewall weiterleitet.
 
@@ -27,9 +27,9 @@ Ein Vorteil eines Proxy-Servers besteht darin, dass sein Cache allen Benutzern z
 
 Erhält ein Proxy-Server eine Anfrage für eine Internet-Ressource (z. B. für eine Web-Seite oder infolge der Verbindung mit einem AEM-Publisher), prüft er die im lokalen Cache gespeicherten, zu einem früheren Zeitpunkt aufgerufenen URLs. Wenn die Seite darin gefunden wird, wird sie an den Benutzer zurückgegeben, ohne die Anfrage an das Internet weiterzuleiten. Ist die Seite nicht im Cache gespeichert, fungiert der Proxy-Server als Client, der für den Benutzer die Seite vom Server im Internet abruft. Wenn der Inhalt zurückgegeben wird, ordnet ihn der Proxy-Server der ursprünglichen Anfrage zu und leitet ihn an den Benutzer weiter.
 
-## Grundlegendes zu Standard-Netzwerkkonfigurationen {#network-setups}
+## Grundlagen zu Standard-Netzwerkkonfigurationen {#network-setups}
 
-Informationen zum Implementieren einer Netzwerkkonfiguration finden Sie in den folgenden Szenarien mit ihren Stärken und Implementierungsdetails.
+Beim Implementieren einer Netzwerkkonfiguration gilt es, die nachfolgenden Szenarien zu prüfen und ihre Stärken und Eigenheiten abzuwägen.
 
 Dieses Handbuch erläutert vier Varianten von Netzwerkkonfigurationen, die innerhalb eines Unternehmens eingerichtet werden können:
 

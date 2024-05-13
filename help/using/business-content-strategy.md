@@ -42,7 +42,7 @@ Eine klar definierte Business Content-Strategie legt den Weg zum Erstellen, Vert
   >
   >Beginnen Sie in der Pre-Sales-Phase mit der Frage, nicht nur, welche Inhalte freigegeben werden sollen, sondern wo sich die Inhaltsdaten derzeit befinden. Wie wird es in einem AEM Screens-Projekt verwendet? Machen Sie sich während der Implementierung mit Inhalten vertraut, aber legen Sie im Voraus fest, welche Daten verfügbar sind und in welchem Format.
 
-## Wichtige Überlegungen {#important-considerations}
+## Wichtige Aspekte {#important-considerations}
 
 Beachten Sie folgende wichtige Überlegungen zu Inhaltsdaten:
 

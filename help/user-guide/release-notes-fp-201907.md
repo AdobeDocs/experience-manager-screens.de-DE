@@ -1,6 +1,6 @@
 ---
 title: Versionshinweise für Feature Pack 201907
-description: Erfahren Sie mehr über das AEM Screens Feature Pack 201907, das am 31. Juli 2019 veröffentlicht wurde.
+description: Erfahren Sie mehr über das AEM Screens Feature Pack 201907, das am Donnerstag, 31. Juli 2019 veröffentlicht wurde.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: release-notes
@@ -13,7 +13,7 @@ exl-id: 6a05a014-aedf-4261-849d-abf1ce070964
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 44%
+ht-degree: 53%
 
 ---
 
@@ -58,12 +58,12 @@ Der Update-Handler analysiert jetzt die Experience Fragments und erfasst alle da
 
 * **Launches**
 
-Mit Launches können Inhaltsautoren zukünftige Versionen der Kanäle erstellen. Mithilfe von Launches können Autoren die einzelnen Kanäle im Launch in der Vorschau anzeigen und sollten eine Anfrage zur Überprüfung starten können. Die Gruppe Genehmiger erhält eine Benachrichtigung und kann die Anfrage genehmigen oder ablehnen. Wenn das Live-Datum erreicht ist, wird der Inhalt auf den Geräten abgespielt.
-Siehe [Launches](launches.md) für weitere Details.
+Mit Launches können Inhaltsautoren zukünftige Versionen der Kanäle erstellen. Mithilfe von Launches können Autoren die einzelnen Kanäle im Launch in der Vorschau anzeigen und sollten eine Anfrage zur Überprüfung starten können. Die Gruppe der Genehmigenden erhält eine Benachrichtigung und kann die Anfrage genehmigen oder ablehnen. Wenn das Live-Datum erreicht ist, wird der Inhalt auf den Geräten abgespielt.
+Weitere Informationen finden Sie unter [Launches](launches.md).
 
 * **Offline-Konfigurationen in Experience Fragments**
 
-Sie können jetzt Offline-Konfigurationen (Client-seitige Bibliotheken und statische Dateien) beim Konfigurieren von Screens Experience Fragment hinzufügen. Siehe [Verwenden von Experience Fragments](experience-fragments-in-screens.md) für weitere Details.
+Sie können jetzt Offline-Konfigurationen (Client-seitige Bibliotheken und statische Dateien) beim Konfigurieren von Screens Experience Fragment hinzufügen. Weitere Informationen dazu finden Sie unter [Verwenden von Experience Fragments](experience-fragments-in-screens.md).
 
 ### Veröffentlichte AEM Screens-Player
 
@@ -73,6 +73,6 @@ Die folgenden AEM Screens-Player sind für AEM 6.4.5 Feature Pack 5 und AEM 6.5.
 * Windows
 * Android™
 
-#### AEM Screens-Player-Downloads 
+#### AEM Screens-Player-Downloads
 
 Informationen zum Herunterladen des neuesten AEM Screens-Players und zu weiteren Fehlerbehebungen finden Sie unter [AEM Screens Player-Downloads](https://download.macromedia.com/screens/).

@@ -9,11 +9,11 @@ exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
 source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
 source-wordcount: '582'
-ht-degree: 35%
+ht-degree: 44%
 
 ---
 
-# Benutzerdefiniertes Branding und Stil für Textüberlagerungen {#creating-custom-branding-styling}
+# Benutzerdefiniertes Branding und Styling für Textüberlagerungen {#creating-custom-branding-styling}
 
 Erfahren Sie, wie Sie benutzerdefiniertes Branding und Styling für Textüberlagerungen anwenden, die auf Ihre Assets in einem AEM Screens-Kanal angewendet werden.
 
@@ -32,7 +32,7 @@ Gehen Sie wie folgt vor, um benutzerdefiniertes Branding und Styling für Textü
    >[!NOTE]
    >Informationen zum Hinzufügen einer Textüberlagerung zu einem Asset in einem Kanaleditor finden Sie unter [Textüberlagerung](/help/user-guide/text-overlay.md).
 
-1. Navigieren Sie von Ihrer AEM-Instanz zu CRXDE Lite > Tools > **CRXDE Lite**.
+1. Navigieren Sie von Ihrer AEM-Instanz zu „Tools“ > **CRXDE Lite**.
 
 1. Erstellen Sie ein benutzerdefiniertes Design in `/apps/settings/wcm/designs/<your-project>/`Navigieren Sie in diesem Fall beispielsweise zu `/apps/settings/wcm/designs/customstyle/`
 
@@ -82,7 +82,7 @@ Gehen Sie wie folgt vor, um benutzerdefiniertes Branding und Styling für Textü
 1. Klicken Sie auf **Speichern und schließen**, um den Design-Pfad zu aktualisieren.
 
    >[!IMPORTANT]
-   >Sie können optional die vorhandenen Screens-Vorlagen überlagern, um Ihre eigenen Designs standardmäßig einzufügen oder eine eigene Vorlage zu erstellen. Weitere Informationen finden Sie in den folgenden Schritten.
+   >Sie können optional die vorhandenen Screens-Vorlagen überlagern, um Ihre eigenen Designs standardmäßig einzufügen oder eine eigene Vorlage zu erstellen. Führen Sie die folgenden Schritte aus, um mehr zu erfahren.
 
 1. So überlagern Sie die vorhandenen Screens-Vorlagen, um Ihre eigenen Designs standardmäßig einzufügen:
 
@@ -100,7 +100,7 @@ Aktualisieren Sie die ACLs für diese Designs, damit der Player sie herunterlade
 
 1. Navigieren Sie zu „useradmin“, wählen Sie die `screens-<project>-devices group` aus und erteilen Sie Leseberechtigung für den benutzerdefinierten Design-Pfad.
 
-1. Erteilen Sie der Gruppe `screens-<project>-administrators` Lese- und Änderungsberechtigung für diesen Pfad.
+1. Erteilen Sie der Gruppe `screens-<project>-administrators` eine Lese- und Änderungsberechtigung für diesen Pfad.
 
 ## Anzeigen des Ergebnisses {#viewing-the-result}
 

@@ -8,11 +8,11 @@ exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
 source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
 source-wordcount: '633'
-ht-degree: 25%
+ht-degree: 53%
 
 ---
 
-# Dispatcher-Konfigurationen für AEM Screens {#dispatcher-configurations-for-aem-screens}
+# Dispatcher-Konfigurationen für AEM Screens{#dispatcher-configurations-for-aem-screens}
 
 Der Dispatcher ist das Caching-Tool von Adobe Experience Manager, das Lastenausgleichstool oder beides.
 
@@ -20,12 +20,12 @@ Die folgende Seite enthält Richtlinien zum Konfigurieren eines Dispatchers für
 
 >[!NOTE]
 >
->Wenn ein Dispatcher verfügbar ist, können Verbindungen zum Registrierungs-Servlet durch Filtern in den Dispatcher-Regeln verhindert werden.
+>Bei vorhandenem Dispatcher können Verbindungen zum Registrierungs-Servlet durch Filtern in den Dispatcher-Regeln verhindert werden.
 >
->Wenn kein Dispatcher vorhanden ist, deaktivieren Sie das Registrierungs-Servlet in der Liste der OSGi-Komponenten.
+>Ist kein Dispatcher vorhanden, deaktivieren Sie das Registrierungs-Servlet in der Liste der OSGi-Komponenten.
 
 Bevor Sie den Dispatcher für ein AEM Screens-Projekt konfigurieren, sollten Sie sich mit dem Dispatcher vertraut machen.
-Siehe [Dispatcher konfigurieren](https://experienceleague.adobe.com/de/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration) für weitere Details.
+Weitere Informationen finden Sie unter [Konfigurieren von Dispatcher](https://experienceleague.adobe.com/de/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration).
 
 ## Konfigurieren von Dispatcher für die Manifest-Version v2 {#configuring-dispatcher}
 
@@ -38,7 +38,7 @@ Gehen Sie wie folgt vor, um den Dispatcher für ein AEM Screens-Projekt zu konfi
 
 ### Aktivieren von fixierbaren Sitzungen {#enable-sticky-session}
 
-Wenn Sie mehrere Veröffentlichungsinstanzen mit einem Frontend des einzelnen Dispatchers verwenden möchten, aktualisieren Sie die `dispatcher.any` -Datei, um die Treue zu aktivieren.
+Wenn Sie mehrere Veröffentlichungsinstanzen mit nur einem Dispatcher verwenden möchten, aktualisieren Sie die Datei `dispatcher.any` so, dass das Sticky-Verhalten aktiviert ist.
 
 ```xml
 /stickyConnections {
@@ -49,11 +49,11 @@ Wenn Sie mehrere Veröffentlichungsinstanzen mit einem Frontend des einzelnen Di
  }
 ```
 
-Wenn eine Veröffentlichungsinstanz von einem Dispatcher als Frontend fungiert, hilft das Aktivieren der Treue beim Dispatcher nicht, da der Lastenausgleich jede Anfrage an den Dispatcher senden kann. Klicken Sie in diesem Fall auf **Aktivieren** in **Stickiness** -Feld, um es auf Ihrer Lastenausgleichsebene zu aktivieren, wie in der folgenden Abbildung dargestellt:
+Wenn Sie eine Veröffentlichungsinstanz mit einem Dispatcher verwenden, ist die Aktivierung des Sticky-Verhaltens am Dispatcher nicht nötig, da der Load-Balancer jede Anfrage an den Dispatcher senden kann. Klicken Sie in diesem Fall auf **Aktivieren** in **Stickiness** -Feld, um es auf Ihrer Lastenausgleichsebene zu aktivieren, wie in der folgenden Abbildung dargestellt:
 
 ![Bild](/help/user-guide/assets/dispatcher/dispatcher-enable.png)
 
-Wenn Sie beispielsweise AWS ALB verwenden, lesen Sie [Zielgruppen für Ihren Anwendungs-Lastenausgleich](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html) für die Aktivierung der Stickigkeit auf ALB-Ebene. Aktivieren Sie die Stickiness für einen Tag.
+Wenn Sie z. B. AWS ALB verwenden, finden Sie unter [Zielgruppen für Ihre Application Load Balancer](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html) Informationen dazu, wie Sie das Sticky-Verhalten auf ALB-Ebene aktivieren. Aktivieren Sie das Sticky-Verhalten für einen Tag.
 
 ### Schritt 1: Konfigurieren von Client-Kopfzeilen {#step-configuring-client-headers}
 
@@ -90,9 +90,9 @@ Um Screens-Filter zu konfigurieren, fügen Sie Folgendes zu *** hinzu`/filter`**
 
 ### Schritt 3: Deaktivieren von Dispatcher-Cache {#step-disabling-dispatcher-cache}
 
-Dispatcher-Zwischenspeicherung deaktivieren für ***/content/screens path***.
+Deaktivieren Sie das Dispatcher-Caching für ***/content/screens path***.
 
-Screens-Player verwenden authentifizierte Sitzungen, sodass der Dispatcher keine der Anforderungen der Screens-Player für `channels/assets`.
+Screens-Player verwenden die authentifizierte Sitzung, sodass der Dispatcher keine Anfragen von Screens-Playern für `channels/assets` im Cache speichert.
 
 Gehen Sie wie folgt vor, um den Cache für die Assets zu aktivieren, damit die Assets aus dem Dispatcher-Cache bereitgestellt werden:
 
@@ -137,7 +137,7 @@ Befolgen Sie diese beiden Voraussetzungen, bevor Sie einen Dispatcher (Manifestv
 
 * Stellen Sie sicher, dass Sie `v3 manifests` verwenden. Navigieren Sie zu `https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` und stellen Sie sicher, dass `Enable ContentSync Cache` deaktiviert ist.
 
-* Stellen Sie sicher, dass der Dispatcher-Flush-Agent unter konfiguriert ist. `/etc/replication/agents.publish/dispatcher1useast1Agent` in der Veröffentlichungsinstanz.
+* Stellen Sie sicher, dass der Dispatcher Flush-Agent in der Veröffentlichungsinstanz unter `/etc/replication/agents.publish/dispatcher1useast1Agent` konfiguriert ist.
 
   ![image](/help/user-guide/assets/dispatcher/dispatcher-1.png)
 
@@ -231,7 +231,7 @@ Diese Regel unterstützt das Zwischenspeichern von bis zu zehn Ebenen aus dem Ca
 
 ### Hinzufügen der Invalidierungsregel für segment.js {#invalidsegmentjs}
 
-Wenn Sie zielgerichtete Kampagnen mit AEM Screens verwenden, wird die `segments.js file` vom Dispatcher bereitgestellt werden, müssen invalidiert werden, wenn Sie neue Segmente hinzufügen und auf AEM veröffentlichen. Ohne diese Invalidierungsregel funktionieren neue zielgerichtete Kampagnen nicht auf dem AEM Screens-Player (es wird stattdessen der Standardinhalt angezeigt).
+Wenn Sie zielgerichtete Kampagnen mit AEM Screens verwenden, muss die Datei `segments.js file`, die vom Dispatcher bereitgestellt wird, invalidiert werden, wenn Sie neue Segmente hinzufügen und in AEM veröffentlichen. Ohne diese Invalidierungsregel funktionieren neue zielgerichtete Kampagnen nicht auf dem AEM Screens-Player (es wird stattdessen der Standardinhalt angezeigt).
 
 * Fügen Sie eine Invalidierungsregel zu `/etc/httpd/conf.dispatcher.d/available_farms/999_ams_publish_farm.any` hinzu. Folgende Regel soll hinzugefügt werden:
 

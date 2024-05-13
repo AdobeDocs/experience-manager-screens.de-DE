@@ -4,12 +4,12 @@ description: Erfahren Sie mehr darüber, wer die Zielgruppe für das Handbuch mi
 source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
 source-wordcount: '493'
-ht-degree: 44%
+ht-degree: 45%
 
 ---
 
 
-# Zielgruppe  {#target-audience}
+# Zielgruppe {#target-audience}
 
 Als erfahrener AEM-Implementor haben Sie wahrscheinlich gesehen, wie die Rollen als *Autoren*, *Entwickler*, und *IT-Techniker*.
 
@@ -44,7 +44,7 @@ Der Audio-Video-Integrator ist der Hardwareanbieter Partner. Diese Partei befass
 
 Ein Audio-Video-Integrator ist für die Durchführung von Erkundungen mit Endkunden verantwortlich, um Anforderungen zu definieren und den Projektumfang für das Entwerfen, Erstellen und effektive Verwalten von Bereitstellungen rund um Digital Signage-Hardware zu bestimmen.
 
-### Geschäftsstratege
+### Geschäftsstrateginnen und Geschäftsstrategen
 
 Geschäftsstrategen vertreten die Entscheidungsträger im Unternehmen. Diese Rolle ist stark in die Erkundungs- und Anforderungsschritte eingebunden und dient als Hauptmotor für das Projekt.
 
@@ -60,9 +60,9 @@ Das Creatives- und Content Management-Team könnte zum Beispiel sein:
 * Kreativagentur oder
 * Markenmanager
 
-### Projektmanager {#project-managers}
+### Projekt-Managerinnen und Projekt-Manager {#project-managers}
 
 Projekt-Manager verwalten in der Regel die gesamte Bereitstellung für Ihre AEM Screens-Umgebung. Ein Projektmanager ist die zentrale Person für die gesamte Implementierung des ausgewählten Projekts. Sie übernehmen wichtige Aufgaben wie die Festlegung von Zeitplänen, die Bedienung von Teamanforderungen und Kommunikation. Außerdem werden Herausforderungen angegangen und sichergestellt, dass die Ziele erreicht werden.
 
 >[!NOTE]
->Ausführliche Informationen zu den verschiedenen Rollen und Zuständigkeiten sowie zur Zielgruppe für ein Digital Signage-Projekt finden Sie unter **[Projektrollen und Zuständigkeiten](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**.
+>Ausführliche Informationen zu den verschiedenen Rollen und Zuständigkeiten sowie zur Zielgruppe für ein Digital Signage-Projekt finden Sie unter **[Projektrollen und Zuständigkeiten](https://experienceleague.adobe.com/de/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**.

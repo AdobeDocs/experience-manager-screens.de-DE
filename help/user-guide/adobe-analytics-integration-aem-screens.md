@@ -13,7 +13,7 @@ exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '672'
-ht-degree: 46%
+ht-degree: 57%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 46%
 
 >[!NOTE]
 >
->Um Zugriff auf eines dieser Feature Packs zu erhalten, wenden Sie sich an den Adobe-Support und fordern Sie Zugriff an. Sie können das neueste Feature Pack für AEM Screens über das [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) die Verwendung Ihrer Adobe ID.
+>Um Zugriff auf eines dieser Feature Packs zu erhalten, wenden Sie sich an den Adobe-Support und fordern Sie Zugriff an. Sie können das neueste Feature Pack für AEM Screens über das [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/de/aem.html) die Verwendung Ihrer Adobe ID.
 
 In diesem Abschnitt werden folgende Themen behandelt:
 
@@ -73,13 +73,13 @@ Navigieren Sie zu **Konfiguration der Adobe Experience Manager-Web-Konsole** , d
 
 >[!CAUTION]
 >
->Wenden Sie sich vor der Konfiguration der Eigenschaften an Ihren Adobe Relationship Manager, um ein Ticket zu erstellen und eine **Analytics-API-Schlüssel** und **Analyseprojekt** zur Verwendung mit AEM Screens.
+>Wenden Sie sich vor der Konfiguration der Eigenschaften an das Adobe-Relationship-Management, um ein Ticket öffnen zu lassen und einen **Analytics-API-Schlüssel** sowie ein **Analytics-Projekt** zur Verwendung mit AEM Screens zu erhalten.
 
 ### Konfigurieren der Eigenschaften {#configuring-the-properties}
 
 >[!CAUTION]
 >
->Wenden Sie sich vor der Konfiguration der Eigenschaften an Ihren Adobe Relationship Manager, um ein Ticket zu erstellen und eine **Analytics-API-Schlüssel** und **Analyseprojekt** zur Verwendung mit AEM Screens.
+>Wenden Sie sich vor der Konfiguration der Eigenschaften an das Adobe-Relationship-Management, um ein Ticket öffnen zu lassen und einen **Analytics-API-Schlüssel** sowie ein **Analytics-Projekt** zur Verwendung mit AEM Screens zu erhalten.
 
 In der folgenden Tabelle werden die Eigenschaften mit ihrer Beschreibung zur Konfiguration von Adobe Analytics für AEM Screens aufgeführt:
 
@@ -125,4 +125,4 @@ Analytics-Ereignisse werden in indexedDB offline gespeichert und später aufgete
 
 >[!NOTE]
 >
->Weitere Informationen zum ***Sequenzierung*** und ***Standarddatenmodell für Ereignisse***, siehe **[Konfigurieren von Adobe Analytics für AEM Screens](configuring-adobe-analytics-aem-screens.md)**.
+>Weitere Informationen zum ***Sequenzieren*** und zum ***Standarddatenmodell für Ereignisse*** finden Sie unter **[Konfigurieren von Adobe Analytics für AEM Screens](configuring-adobe-analytics-aem-screens.md)**.

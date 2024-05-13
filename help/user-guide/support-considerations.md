@@ -13,7 +13,7 @@ exl-id: d1472137-c15f-44fb-89c3-d251a06c392b
 source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 42%
+ht-degree: 44%
 
 ---
 
@@ -65,4 +65,4 @@ In diesem abschließenden Teil eines 5-teiligen Tutorials wird erläutert, wie d
 
 ## Zusammenfassung {#conclusion}
 
-Diese fünfteiligen Serien konzentrieren sich auf wichtige Aspekte, die für den Erfolg Ihres Projekts entscheidend sind. Implementierungsdetails finden Sie in anderen Abschnitten des AEM Screens-Benutzerhandbuchs.
+Diese fünfteiligen Serien konzentrieren sich auf wichtige Aspekte, die für den Erfolg Ihres Projekts entscheidend sind. Einzelheiten zur Implementierung finden Sie in anderen Abschnitten des AEM Screens-Benutzerhandbuchs.

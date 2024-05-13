@@ -13,7 +13,7 @@ exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '442'
-ht-degree: 26%
+ht-degree: 37%
 
 ---
 
@@ -31,7 +31,7 @@ Wenn der Wert von **`Restaurant1`** > **`Restaurant2`**, dann **AdTarget** zugew
 
 Bevor Sie mit der Implementierung der Reservierungsaktivierung beginnen, erfahren Sie, wie Sie ***Datenspeicher***, ***Zielgruppensegmentierung*** und ***Targeting für Kanäle aktivieren*** in einem AEM Screens-Projekt.
 
-Siehe [Konfigurieren von ContextHub in AEM Screens](configuring-context-hub.md) für detaillierte Informationen.
+Genaue Informationen dazu finden Sie unter [Konfigurieren von ContextHub in AEM Screens](configuring-context-hub.md).
 
 ## Grundlegender Ablauf {#basic-flow}
 
@@ -45,7 +45,7 @@ Gehen Sie wie folgt vor, um die Aktivierung der Reservierung für Gastgewerbe f�
 
 1. **Konfigurieren der Segmente in Zielgruppen gemäß den Anforderungen**
 
-   1. Navigieren Sie zu den Segmenten in Ihrer Zielgruppe (siehe ***Schritt 2: Einrichten der Zielgruppensegmentierung*** in **[Konfigurieren von ContextHub in AEM Screens](configuring-context-hub.md)** Seite für weitere Details).
+   1. Navigieren Sie zu den Segmenten in Ihrer Zielgruppe (siehe ***Schritt 2: Einrichten der Zielgruppensegmentierung*** auf der Seite **[Konfigurieren von ContextHub in AEM Screens](configuring-context-hub.md)**, um mehr zu erfahren).
    1. Klicken Sie auf **Blätter A1 1** und klicken **Bearbeiten**.
    1. Klicken Sie auf die Vergleichseigenschaft und klicken Sie auf die **Konfiguration** Symbol.
    1. Klicks **googlesheets/value/1/2** aus der Dropdown-Liste **Eigenschaftsname**.
@@ -66,7 +66,7 @@ Gehen Sie wie folgt vor, um die Aktivierung der Reservierung für Gastgewerbe f�
 
    >[!CAUTION]
    >
-   >Sie sollten Ihre **ContextHub** **Konfigurationen** über den Kanal **Eigenschaften** > **Personalisierung** Registerkarte.
+   >Sie sollten Ihre **ContextHub**-**Konfigurationen** auf der Registerkarte **Eigenschaften** für Kanäle > **Personalisierung** eingerichtet haben.
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 

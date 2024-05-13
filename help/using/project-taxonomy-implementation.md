@@ -5,7 +5,7 @@ exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
 source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
 workflow-type: tm+mt
 source-wordcount: '268'
-ht-degree: 44%
+ht-degree: 45%
 
 ---
 
@@ -44,12 +44,12 @@ Autoren sind in AEM Screens für die Erstellung und Verwaltung des Benutzererleb
 
 Autoren starten ein AEM Screens-Projekt normalerweise durch:
 
-* [Erstellen eines AEM Screens-Projekts](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
+* [Erstellen eines AEM Screens-Projekts](https://experienceleague.adobe.com/de/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
 * [Erstellen von Kanälen](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-channels)
 * [Hinzufügen von Komponenten und Assets zum Kanal](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/adding-components-to-a-channel)
 * [Erstellen von Zeitplänen](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-schedules)
 * [Erstellen von Standorten](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-locations)
-* [Erstellen von Displays](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
+* [Erstellen von Displays](https://experienceleague.adobe.com/de/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
 * [Zuweisen von Kanälen zu den Displays](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/assigning-channels/channel-assignment)
 
 * [Anzeigen von Inhalten in einem AEM Screens-Player](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/working-with-screens-player)

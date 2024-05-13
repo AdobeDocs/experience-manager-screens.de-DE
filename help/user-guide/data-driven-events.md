@@ -6,7 +6,7 @@ contentOwner: jsyal
 source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
 source-wordcount: '164'
-ht-degree: 16%
+ht-degree: 43%
 
 ---
 
@@ -34,12 +34,12 @@ Dieses Ereignis kann weiter in Kanalunterbrechung und Platzhalter kategorisiert 
 
 #### Präsentationsbezogene Daten {#data-in-presentation}
 
-Die Daten werden im temporären Kanal ausgeführt und nach einem Trigger ändert sich ein Asset in einem Kanal.
+Daten laufen in einem temporären Kanal und nach einem Auslöser wird ein Asset in einem Kanal geändert.
 
 #### Umsetzbare Datenausgabe {#data-out-actionable}
 
-Wenn ein Befehl an den LCD-Bildschirm gesendet wird, um den Bildschirm ein- und auszuschalten. Beispiel: Helligkeit oder Lautstärke des Bildschirms.
+Ein Befehl wird an den LCD-Bildschirm zum Ein- und Ausschalten des Bildschirms gesendet. Beispiel: Helligkeit oder Lautstärke des Bildschirms.
 
 #### Präsentationsbezogene Datenausgabe    {#data-out-presentational}
 
-Die Grafik, die die Informationen in der Feedback-Schleife aggregiert. Es verwendet Analysen, um Ereignisse zu bewerten und zu erkennen.
+Die Grafik, die die Informationen in der Feedback-Schleife aggregiert. Ereignisse werden mithilfe von Analysen bewertet und kommuniziert.

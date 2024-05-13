@@ -9,7 +9,7 @@ exl-id: 757e6751-8008-487f-be89-9f53ac898928
 source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '272'
-ht-degree: 55%
+ht-degree: 59%
 
 ---
 
@@ -19,7 +19,7 @@ In diesem Abschnitt wird beschrieben, wie Sie die **Übergangskomponente** zwisc
 
 >[!CAUTION]
 >
->Ausführliche Informationen zu den Eigenschaften für die **Übergang** Komponente, siehe [Transitionen](adding-components-to-a-channel.md#transition).
+>Weitere Informationen zu den Eigenschaften der **Übergangskomponente** finden Sie unter [Übergänge](adding-components-to-a-channel.md#transition).
 
 ## Hinzufügen der Übergangskomponente zu Assets in einem Kanal {#adding-transition}
 

@@ -1,6 +1,6 @@
 ---
-title: Implementieren der Fernsteuerung
-description: Erfahren Sie mehr über die Screens-Funktion zur Fernsteuerung in AEM Screens.
+title: Implementieren der Fernbedienungs-Steuerung
+description: Erfahren Sie mehr über die Screens-Funktion zur Fernbedienungs-Steuerung in AEM Screens.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -12,13 +12,13 @@ exl-id: 6cb2705e-83e6-46f3-bd71-6688d7edc11f
 source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
 workflow-type: tm+mt
 source-wordcount: '352'
-ht-degree: 40%
+ht-degree: 71%
 
 ---
 
 # Verwenden der Fernbedienungs-Steuerung von Screens {#implementing-remote-control}
 
-Die Fernsteuerungsfunktion erleichtert den Zugriff auf die Admin-Benutzeroberfläche, den Kanalschalter oder Funktionen wie Cache löschen und neu laden. Außerdem erhalten Sie eine Methode, die lokale Firmware-Version und Systeminformationen auf dem Player anzuzeigen. Diese Fähigkeit ist besonders nützlich, weil es schwierig sein kann, eine Maus zu verbinden. Oder verwenden Sie Produktionsgeräte, die nicht erreichbar sind, und noch mehr, wenn der Player die Verbindung mit AEM verloren hat. Dies ist auch bei der Verwendung von Samsung RMS nützlich, da es aufgrund der unterschiedlichen Auflösung schwierig sein kann, die Admin-Benutzeroberfläche mit einer Maus zu finden und zu öffnen.
+Die Fernbedienungs-Steuerung erleichtert den Zugriff auf die Admin-Benutzeroberfläche, den Kanalumschalter oder Funktionen wie „Cache löschen“ und „Neu laden“. Außerdem bietet sie Ihnen eine Methode, die lokale Firmware-Version und Systeminformationen auf dem Player anzuzeigen. Diese Fähigkeit ist besonders nützlich, weil es schwierig sein kann, eine Maus zu verbinden. Oder verwenden Sie Produktionsgeräte, die nicht erreichbar sind, und noch mehr, wenn der Player die Verbindung mit AEM verloren hat. Dies ist auch bei der Verwendung von Samsung RMS nützlich, da es aufgrund der unterschiedlichen Auflösung schwierig sein kann, die Admin-Benutzeroberfläche mit einer Maus zu finden und zu öffnen.
 
 ## Gängige Tastenkombinationen für die Fernbedienungs-Steuerung {#using-common-remote-control}
 
@@ -38,16 +38,16 @@ Speziell für den Tizen-Player können Sie entweder die Hardware-Fernbedienung o
 1. C - Cache löschen
 1. D - Player neu laden
 
-## Weitere Hinweise {#using-additional-remote-control}
+## Weitere Nutzungshinweise {#using-additional-remote-control}
 
 1. Wenn die Admin-Benutzeroberfläche geöffnet ist, können Sie mit den Pfeiltasten nach oben und unten durch die Registerkarten navigieren, um Informationen auf den verschiedenen Registerkarten anzuzeigen.
-1. Wenn der Kanalschalter geöffnet ist, können Sie mit den Nach-oben- und Nach-unten-Pfeiltasten durch die Kanäle navigieren. Sie können auch die `Enter` Taste (oder die Schaltfläche in der Mitte der Pfeile auf der Fernbedienung), um die Kanäle zu wechseln.
+1. Wenn der Kanalschalter geöffnet ist, können Sie mit den Nach-oben- und Nach-unten-Pfeiltasten durch die Kanäle navigieren. Sie können auch die `Enter`-Taste (oder die Schaltfläche in der Mitte der Pfeile auf der Fernbedienung) drücken, um die Kanäle zu wechseln.
 
 Die folgende Abbildung veranschaulicht die Verwendung der Tasten auf einer Samsung-Fernbedienung:
 ![image](assets/tizen/remote.png)
 
 >[!NOTE]
->Wenn Sie die Gerätekonfigurationswerte von enableAdminUI und/oder enableOSD auf &quot;false&quot;setzen, wird die Admin-Benutzeroberfläche und der Kanalschalter durch die Remote-Konsole nicht umgeschaltet. Sie können die Pfeiltasten nicht verwenden, um in der Admin-Benutzeroberfläche oder in den Kanälen zu navigieren. Sie können jedoch den Cache löschen und den Player neu laden. Sie können die Fernbedienungs-Steuerungsfunktion deaktivieren, wenn eine der Tastenkombinationen mit Ihren interaktiven Inhalten in Konflikt steht, indem Sie diesen Code verwenden:
+>Wenn Sie die Gerätekonfigurationswerte von enableAdminUI und/oder enableOSD auf &quot;false&quot;setzen, wird die Admin-Benutzeroberfläche und der Kanalschalter durch die Remote-Konsole nicht umgeschaltet. Sie können die Pfeiltasten nicht verwenden, um in der Admin-Benutzeroberfläche oder in den Kanälen zu navigieren. Sie können jedoch weiterhin den Cache löschen und den Player neu laden. Sie können die Fernbedienungs-Steuerungsfunktion deaktivieren, wenn eine der Tastenkombinationen mit Ihren interaktiven Inhalten in Konflikt steht, indem Sie diesen Code verwenden:
 
 ```
 require(['util/ScreensDisplay'], function() {window.ScreensDisplay.ignoreRemoteControl = true;}); 

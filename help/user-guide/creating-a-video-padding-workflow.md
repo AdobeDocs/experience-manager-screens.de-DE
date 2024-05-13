@@ -13,7 +13,7 @@ exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
 source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 54%
+ht-degree: 61%
 
 ---
 
@@ -63,7 +63,7 @@ Gehen Sie wie folgt vor, um einen Workflow für Ihr Video zu erstellen:
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
-1. Klicks **Modelle** > **Erstellen** > **Modell erstellen**. Geben Sie den **Titel** (als **VideoRendition**) und den **Namen** in **Workflow-Modell hinzufügen** ein. Klicken Sie auf **Fertig**, um das Workflow-Modell hinzuzufügen.
+1. Klicken Sie auf **Modelle** > **Erstellen** > **Modell erstellen**. Geben Sie den **Titel** (als **VideoRendition**) und den **Namen** in **Workflow-Modell hinzufügen** ein. Klicken Sie auf **Fertig**, um das Workflow-Modell hinzuzufügen.
 
    ![screen_shot_2018-10-17at90747pm](assets/screen_shot_2018-10-17at90747pm.png)
 
@@ -82,7 +82,7 @@ Gehen Sie wie folgt vor, um einen Workflow für Ihr Video zu erstellen:
 1. Klicken Sie auf die Registerkarte **Argumente.**
 1. Im **Befehlszeile - Schritteigenschaften** im Dialogfeld **MIME-Typen** (as ***video/mp4***) und der Befehl als (***/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920:height=1080:x=0:y=0:color=black&quot; cq5dam.video.fullhd-hp.mp4**). Mit diesem Befehl wird der Workflow im **Befehle** -Feld.
 
-   Weitere Informationen finden Sie unter **MIME-Typen** und **Befehle** in der unten stehenden Anmerkung.
+   Einzelheiten zu **Mime-Typen** und **Befehlen** finden Sie in der unten stehenden Anmerkung.
 
    ![screen_shot_2018-10-18at105300am](assets/screen_shot_2018-10-18at105300am.png)
 

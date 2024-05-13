@@ -5,13 +5,13 @@ exl-id: 11781e0b-0aca-4d08-aaad-87a7aaf28c24
 source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
 source-wordcount: '660'
-ht-degree: 65%
+ht-degree: 95%
 
 ---
 
 # Einführung in AEM Screens {#introduction}
 
-**AEM Screens** ist eine Digital Signage-Lösung, mit der Sie dynamische und interaktive digitale Erlebnisse erstellen, veröffentlichen und wiedergeben können. Es umfasst verschiedene Arten von lokalen Anzeigebildschirmen in Abstimmung mit einer umfassenden kanalübergreifenden digitalen Marketingstrategie.
+**AEM Screens** ist eine Digital Signage-Lösung, mit der Sie dynamische und interaktive digitale Erlebnisse erstellen, veröffentlichen und wiedergeben können. Dies umfasst verschiedene Arten von lokalen Anzeigebildschirmen in Abstimmung mit einer umfassenden kanalübergreifenden digitalen Marketing-Strategie.
 
 Mit AEM Screens können Sie Folgendes erstellen:
 
@@ -19,22 +19,22 @@ Mit AEM Screens können Sie Folgendes erstellen:
 * **Produktempfehlungen**
 * **Lifestyle-Hintergrundbilder**
 
-Screens bietet außerdem viele einzigartige Anwendungen für Kunden und Mitarbeiter, die auf der Domäne basieren, in der sie bereitgestellt werden, z. B.:
+Zudem bietet Screens verschiedene spezielle Anwendungen für die Kundschaft und Belegschaft, die auf dem jeweiligen Bereich basieren, in dem sie bereitgestellt werden, z. B.:
 
 * **Interaktive Displays**
 * **Wegweiser**
 * **Branding**
 * **Zusätzliches Ambiente für Ihre Umgebung**
 
-Das Einrichten und Verwalten eines Digital-Signage-Netzwerks mit AEM Screens ist einfach und intuitiv. Eine Player-Anwendung hostet Inhaltskanäle, die von Kunden oder Implementierungspartnern für AEM Screens erstellt wurden. *Standorte* eine vordefinierte Standorthierarchie verwalten und Anzeigen enthalten. Jedes *Display* verfügt über ein Dashboard, in dem unterschiedliche angeschlossene Geräte und Bildschirme angezeigt werden. Inhalte für AEM Screens werden in *Kanälen* verwaltet. Mit dem *AEM Screens Player* lassen sich in Kanälen vorhandene Inhalte auf Displays darstellen.
+Das Einrichten und Verwalten eines Digital-Signage-Netzwerks mit AEM Screens ist einfach und intuitiv. Eine Player-Anwendung hostet Inhaltskanäle, die von Kunden oder Implementierungspartnern für AEM Screens erstellt wurden. *Standorte* verwalten eine vordefinierte Standorthierarchie und beinhalten Anzeigen. Jedes *Display* verfügt über ein Dashboard, in dem unterschiedliche angeschlossene Geräte und Bildschirme angezeigt werden. Inhalte für AEM Screens werden in *Kanälen* verwaltet. Mit dem *AEM Screens Player* lassen sich in Kanälen vorhandene Inhalte auf Displays darstellen.
 
 
 
 >[!NOTE]
 >
->Ausführliche Informationen zu den verschiedenen Funktionen bei der Entwicklung und Verwaltung von AEM Screens-Projekten finden Sie unter **[AEM Screens-Benutzerhandbuch](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/aem-screens-introduction)**.
+>Weitere Informationen zu verschiedenen Funktionen bei der Entwicklung und Verwaltung von AEM Screens-Projekten finden Sie im **[AEM Screens-Benutzerhandbuch](https://experienceleague.adobe.com/de/docs/experience-manager-screens/user-guide/aem-screens-introduction)**.
 
-## AEM Sites versus AEM Screens {#aem-sites-screens}
+## AEM Sites und AEM Screens {#aem-sites-screens}
 
 >[!NOTE]
 >
@@ -42,15 +42,15 @@ Das Einrichten und Verwalten eines Digital-Signage-Netzwerks mit AEM Screens is
 
 AEM Screens ist eine einheitliche Authoring-/Wiedergabeplattform für die Bereitstellung von Inhalten auf Digital-Signage-Geräten in öffentlichen Räumen. Der Autor des Erlebnisses sollte zwar um Konsistenz im Web und an lokalen Standorten bemüht sein. Darüber hinaus gibt es aber Unterschiede, die beachtet werden sollten.
 
-* **Verweilzeit**: In der Regel dienen Webseiten dazu, eine Vielzahl von Informationen bereitzustellen, die über einen relativ langen Zeitraum konsumiert werden können. Im Gegensatz dazu sollten digitale Vor-Ort-Erlebnisse die Bedürfnisse des Betrachters vorwegnehmen sowie klare und präzise Anweisungen geben, wie und warum der Benutzer interagieren sollte. Dies führt zu zielgerichteteren, kuratierten und kontextbezogenen Erlebnissen.
+* **Verweildauer**: In der Regel werden Web-Seiten so gestaltet, dass sie eine Vielzahl von Informationen bereitstellen, die sich über einen relativ langen Zeitraum nutzen lassen. Im Gegensatz dazu sollten digitale Vor-Ort-Erlebnisse die Bedürfnisse der Person, die sie betrachtet, vorwegnehmen sowie klare und präzise Anweisungen geben, wie und warum sie interagieren sollte. So entstehen gezieltere, kuratierte und kontextbezogene Erlebnisse.
 
-* **Betrachtungsabstand**: Betrachtungsabstände sind länger oder weiter entfernt als der typische Abstand, den Benutzer mit einer Website erleben. Daher sollte die Textgröße meist größer ausfallen; zudem sollte der Abstand zwischen Text, Bildern und anderen ergänzenden Inhalten mit Blick auf die erwartete Bildschirmgröße und Platzierung im physischen Raum getestet werden.
+* **Betrachtungsabstand**: Betrachtungsabstände sind größer oder weiter als der typische Abstand, den Benutzende bei einer Website erleben. Daher sollte die Textgröße meist größer ausfallen; zudem sollte der Abstand zwischen Text, Bildern und anderen ergänzenden Inhalten mit Blick auf die erwartete Bildschirmgröße und Platzierung im physischen Raum getestet werden.
 
-* **Persistenz**: Der Verbindungsstatus des Player-Geräts sollte niemals Einfluss darauf haben, ob dem Benutzer digitale Erlebnisse bereitgestellt werden. Der Player muss so konzipiert sein, dass stets ein oder mehrere Erlebnisse vorhanden sind und unabhängig vom Verbindungsstatus des Player-Geräts bereitgestellt werden können.
+* **Persistenz**: Der Verbindungsstatus des Player-Geräts sollte niemals Einfluss darauf haben, ob den Benutzenden digitale Erlebnisse bereitgestellt werden oder nicht. Der Player muss so konzipiert sein, dass stets ein oder mehrere Erlebnisse vorhanden sind und unabhängig vom Verbindungsstatus des Player-Geräts bereitgestellt werden können.
 
-* **Segmentierung von Medienschleifen**: Durch die Konfiguration jedes Player-Geräts für ein eigenes Schleifensegment wird sichergestellt, dass lokalisierte Inhalte innerhalb des gesamten digitalen Erlebnisses einfach erstellt, veröffentlicht und wiedergegeben werden können. Medien-Assets, die in integrierten Sequenzkanälen enthalten sind, werden dem vorherigen Schleifensegment hinzugefügt und bieten die Möglichkeit, für jede Standortgruppe ein Medienschleifensegment als Ziel festzulegen.
+* **Segmentierung von Medienschleifen**: Durch Konfiguration einzelner Player-Geräte mit eigenen Schleifensegmenten wird sichergestellt, dass lokalisierte Inhalte innerhalb des übergeordneten digitalen Erlebnisses einfach erstellt, veröffentlicht und wiedergegeben werden können. Medien-Assets, die in integrierten Sequenzkanälen enthalten sind, werden dem vorherigen Schleifensegment hinzugefügt und bieten die Möglichkeit, für jede Standortgruppe ein Medienschleifensegment als Ziel festzulegen.
 
-* **Interaktive Erlebnisse**: Eine Touch-optimierte Kiosk-Anwendung kann in einem Screens-Kanal mit AEM und dem SPA-Editor erstellt und bereitgestellt werden. Empfohlen wird die Anwendung konsistenter Omni-Channel-Design-Eigenschaften, eines Inaktivitäts-Timers zum Zurücksetzen des Erlebnisses und eines klaren Handlungsaufrufs dazu, welche Aufgaben die Anwendung ausführen kann. Die Landingpage sollte aus zentralen digitalen Elementen bestehen, die dazu dienen, Wert zu vermitteln sowie Benutzer an den Bildschirm zu locken und zur Interaktion einzuladen.
+* **Interaktive Erlebnisse**: Mit AEM und dem SPA-Editor kann in einem Screens-Kanal eine Touch-fähige Kiosk-Anwendung erzeugt und bereitgestellt werden. Empfohlen wird die Anwendung konsistenter Omni-Channel-Design-Eigenschaften, eines Inaktivitäts-Timers zum Zurücksetzen des Erlebnisses und eines klaren Handlungsaufrufs dazu, welche Aufgaben die Anwendung ausführen kann. Die Landingpage sollte aus zentralen digitalen Elementen bestehen, die dazu dienen, Wert zu vermitteln sowie Benutzer an den Bildschirm zu locken und zur Interaktion einzuladen.
 
 AEM Screens bietet ein Framework zum Bereitstellen von Inhalten auf physischen Geräten. Inhalte werden in Screens Kanälen zugewiesen, die Medieninhalte oder Touchscreen-Anwendungen enthalten können. In diesem Framework kann eine AEM Sites-Anwendung als Inhalt über einen Kanal bereitgestellt werden.
 

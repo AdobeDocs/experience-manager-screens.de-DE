@@ -1,6 +1,6 @@
 ---
 title: Einrichten von ACLs
-description: Erfahren Sie, wie Sie Projekte mithilfe von ACLs trennen, damit jede Person oder jedes Team ein eigenes Projekt erhält.
+description: Erfahren Sie, wie Sie Projekte mithilfe von ACLs separieren können, sodass jede Person bzw. jedes Team ein eigenes Projekt erhält.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -12,7 +12,7 @@ exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
 source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 26%
+ht-degree: 96%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 26%
 
 Im folgenden Abschnitt wird erläutert, wie Sie Projekte mithilfe von ACLs separieren können, sodass jede Person bzw. jedes Team ein eigenes Projekt erhält.
 
-Als AEM-Administrator möchten Sie sicherstellen, dass Teammitglieder eines Projekts nicht in andere Projekte eingreifen und jedem Benutzer gemäß den Projektanforderungen spezifische Rollen zugewiesen werden.
+Als AEM-Admin möchten Sie sicherstellen, dass für ein bestimmtes Projekt zuständige Team-Mitglieder nicht in andere Projekte eingreifen und dass den Benutzenden je nach Projektanforderungen spezifische Rollen zugewiesen werden.
 
 ## Einrichten von Berechtigungen {#setting-up-permissions}
 
@@ -42,7 +42,7 @@ Die folgenden Schritte fassen die Vorgehensweise zum Einrichten von ACLs für ei
 
    ![screen_shot_2018-02-18at33938pm](assets/screen_shot_2018-02-18at33938pm.png)
 
-1. Fügen Sie die **Acme** (Projekt, das Sie erstellt haben) in **Mitglieder zu Gruppe hinzufügen**. Klicken Sie auf **Speichern**.
+1. Fügen Sie **Acme** (das von Ihnen erstellte Projekt) zu **Mitglieder zu Gruppe hinzufügen** hinzu. Klicken Sie auf **Speichern**.
 
    ![screen_shot_2018-02-18at35630pm](assets/screen_shot_2018-02-18at35630pm.png)
 
@@ -50,11 +50,11 @@ Die folgenden Schritte fassen die Vorgehensweise zum Einrichten von ACLs für ei
    >
    >Wenn Sie möchten, dass Mitglieder aus Projekt-Teams Player registrieren (was die Erstellung eines Benutzers für jeden Player umfasst), suchen Sie nach der Gruppe „user-administrators“ und fügen Sie die ACME-Gruppe zu „user-administrators“ hinzu.
 
-1. Fügen Sie alle Benutzer hinzu, die am **Acme** Projekt für **Acme** hinzugefügt.
+1. Fügen Sie alle Benutzenden, die am Projekt **Acme** arbeiten, zur Gruppe **Acme** hinzu.
 
    ![screen_shot_2018-02-18at41320pm](assets/screen_shot_2018-02-18at41320pm.png)
 
-1. Einrichten der Berechtigungen für die Gruppe **Acme** mithilfe dieses `(http://localhost:4502/useradmin)`.
+1. Richten Sie die Berechtigungen für die Gruppe **Acme** über `(http://localhost:4502/useradmin)` ein.
 
    Klicken Sie auf die Gruppe **Acme** und klicken Sie auf **Berechtigungen**.
 
@@ -66,28 +66,28 @@ Die folgende Tabelle fasst den Pfad mit den Berechtigungen auf Projektebene zusa
 
 | **Pfad** | **Berechtigung** | **Beschreibung** |
 |---|---|---|
-| `/apps/<project>` | READ | Bietet ggf. Zugriff auf Projektdateien. |
-| `/content/dam/<project>` | ALLE | Bietet Zugriff zum Speichern von Projekt-Assets wie Bildern oder Videos in DAM. |
-| `/content/screens/<project>` | ALLE | Entfernt den Zugriff auf alle anderen Projekte unter /content/screens. |
-| `/content/screens/svc` | READ | Bietet Zugriff auf den Registrierungsdienst. |
-| `/libs/screens` | READ | Bietet Zugriff auf DCC. |
+| `/apps/<project>` | LESEN | Ermöglicht ggf. Zugriff auf Projektdateien |
+| `/content/dam/<project>` | ALLE | Ermöglicht Zugriff zum Speichern von Projekt-Assets wie Bildern oder Videos in DAM. |
+| `/content/screens/<project>` | ALLE | Entfernt den Zugriff auf alle anderen Projekte unter „/content/screens“. |
+| `/content/screens/svc` | LESEN | Ermöglicht Zugriff auf den Registrierungsdienst. |
+| `/libs/screens` | LESEN | Bietet DCC-Zugriff. |
 | `/var/contentsync/content/screens/` | ALLE | Ermöglicht die Aktualisierung von Offline-Inhalten für das Projekt. |
 
 >[!NOTE]
 >
->Manchmal können Sie Autorenfunktionen (z. B. das Verwalten von Assets und Erstellen von Kanälen) von Administratorfunktionen (z. B. das Registrieren von Playern) trennen. Erstellen Sie in einem solchen Szenario zwei Gruppen und fügen Sie die Gruppe &quot;Autoren&quot;den Mitwirkenden und die Administratorgruppe sowohl den Mitwirkenden als auch den Benutzer-Administratoren hinzu.
+>Unter Umständen möchten Sie separate Autorenfunktionen (wie das Verwalten von Assets und das Erstellen von Kanälen) von den Administratorfunktionen (wie dem Registrieren von Playern) trennen. Erstellen Sie bei solchen Szenarien zwei Gruppen, fügen Sie die Gruppe „authors“ zu „contributors“ hinzu und fügen Sie die Gruppe „admin“ sowohl zu „contributors“ als auch zu „user-administrators“ hinzu.
 
 ### Erstellen von Gruppen {#creating-groups}
 
-Beim Erstellen eines Projekts sollten auch Standard-Benutzergruppen mit einem grundlegenden Satz von Berechtigungen erstellt werden. Erweitern Sie die Berechtigungen auf die typischen, in AEM Screens definierten Rollen.
+Bei der Erstellung eines Projekts sollten auch Standardbenutzergruppen erstellt werden, denen eine Reihe grundlegender Berechtigungen zugewiesen ist. Erweitern Sie die Berechtigungen auf die typischen, in AEM Screens definierten Rollen.
 
-Sie können beispielsweise die folgenden projektspezifischen Gruppen erstellen:
+Sie können beispielsweise die folgende projektspezifischen Gruppen erstellen:
 
 * Screens-Projektadministratoren
-* Screens-Projektoperatoren (Registrieren von Playern und Verwalten von Standorten und Geräten)
-* Screens-Projektbenutzer (Arbeiten mit Kanälen, Zeitplänen und Kanalzuweisungen)
+* Operatorinnen und Operatoren von Screens-Projekten (registrieren Player und verwalten Standorte und Geräte)
+* Benutzerinnen und Benutzer von Screens-Projekten (arbeiten mit Kanälen, Zeitplänen und Kanalzuweisungen)
 
-Die folgende Tabelle fasst die Gruppen mit Beschreibungen und Berechtigungen für ein AEM Screens-Projekt zusammen:
+Die folgende Tabelle fasst bei einem AEM Screens-Projekt die Gruppen mit Beschreibungen und Berechtigungen zusammen:
 
 <table>
  <tbody>
@@ -97,35 +97,35 @@ Die folgende Tabelle fasst die Gruppen mit Beschreibungen und Berechtigungen fü
    <td><strong>Berechtigungen</strong></td>
   </tr>
   <tr>
-   <td>Screens-Administratoren<br /> <em><code>screens-admins</code></em></td>
+   <td>Screens-Administratorinnen und -Administratoren<br /> <em><code>screens-admins</code></em></td>
    <td>Zugriff auf AEM Screens-Funktionen auf Administratorebene</td>
    <td>
     <ul>
-     <li>Mitglied der beitragenden Länder</li>
-     <li>Mitglied von user-administrators</li>
-     <li>ALL /content/screens</li>
-     <li>ALL /content/dam</li>
-     <li>ALL /content/experience-fragments</li>
-     <li>ALL /etc/design/screens</li>
+     <li>Mitglied von „contributors“</li>
+     <li>Mitglied von „user-administrators“</li>
+     <li>ALLES unter „/content/screens“</li>
+     <li>ALLES unter „/content/dam“</li>
+     <li>ALLES unter „/content/experience-fragments“</li>
+     <li>ALLES unter „/etc/design/screens“</li>
     </ul> </td>
   </tr>
   <tr>
-   <td>Screens-Benutzer<br /> <em><code>screens-users</code></em></td>
+   <td>Screens-Benutzerinnen und -Benutzer<br /> <em><code>screens-users</code></em></td>
    <td>Erstellen und Aktualisieren von Kanälen und Zeitplänen und Zuweisen zu Standorten in AEM Screens</td>
    <td>
     <ul>
-     <li>Mitglied der beitragenden Länder</li>
+     <li>Mitglied von „contributors“</li>
      <li><code>&lt;project&gt; /content/screens</code></li>
      <li><code>&lt;project&gt; /content/dam</code></li>
      <li><code>&lt;project&gt; /content/experience-fragments</code></li>
     </ul> </td>
   </tr>
   <tr>
-   <td>Screens-Operatoren<br /> <em><code>screens-operators</code></em></td>
-   <td>Erstellen und aktualisieren Sie die Standortstruktur und registrieren Sie Player in AEM Screens</td>
+   <td>Screens-Operatorinnen und -Operatoren<br /> <em><code>screens-operators</code></em></td>
+   <td>Erstellen und Aktualisieren der Ortsstruktur und Registrieren der Player in AEM Screens</td>
    <td>
     <ul>
-     <li>Mitglied der beitragenden Länder</li>
+     <li>Mitglied von „contributors“</li>
      <li><code>jcr:all /home/users/screens</code></li>
      <li><code>jcr:all /home/groups/screens</code></li>
      <li><code>&lt;project&gt; /content/screens</code></li>
@@ -133,7 +133,7 @@ Die folgende Tabelle fasst die Gruppen mit Beschreibungen und Berechtigungen fü
   </tr>
   <tr>
    <td>Screens-Player<br /> <em><code>screens-&lt;project&gt;-devices</code></em></td>
-   <td>Gruppiert alle Player und alle Player/Geräte sind automatisch Mitglieder der Mitwirkenden.</td>
+   <td>Gruppieren aller Player; alle Player/Geräte automatisch Mitglied von „contributors“.</td>
    <td><p> Mitglied von „contributors“</p> </td>
   </tr>
  </tbody>

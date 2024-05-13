@@ -13,7 +13,7 @@ exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
 source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
 source-wordcount: '577'
-ht-degree: 23%
+ht-degree: 30%
 
 ---
 
@@ -31,7 +31,7 @@ Der rote, grüne oder blaue Pullover wird basierend auf dem höchsten Wert der v
 
 Bevor Sie mit der Implementierung der zielgerichteten Aktivierung des Einzelhandelsinventars beginnen, erfahren Sie, wie Sie ***Datenspeicher***, ***Zielgruppensegmentierung*** und ***Targeting für Kanäle aktivieren*** in einem AEM Screens-Projekt.
 
-Siehe [Konfigurieren von ContextHub in AEM Screens](configuring-context-hub.md) für detaillierte Informationen.
+Genaue Informationen dazu finden Sie unter [Konfigurieren von ContextHub in AEM Screens](configuring-context-hub.md).
 
 ## Grundlegender Ablauf {#basic-flow}
 
@@ -46,7 +46,7 @@ Gehen Sie wie folgt vor, um das Anwendungsbeispiel zur Aktivierung des Einzelhan
 
 1. **Konfigurieren der Zielgruppen gemäß den Anforderungen**
 
-   1. Navigieren Sie zu den Segmenten in Ihrer Zielgruppe (siehe ***Schritt 2: Einrichten der Zielgruppensegmentierung*** in **[Konfigurieren von ContextHub in AEM Screens](configuring-context-hub.md)** Seite für weitere Details).
+   1. Navigieren Sie zu den Segmenten in Ihrer Zielgruppe (weitere Informationen unter ***Schritt 2: Einrichten der Zielgruppensegmentierung*** auf der Seite **[Konfigurieren von ContextHub in AEM Screens](configuring-context-hub.md)**).
 
    1. Fügen Sie drei neue Segmente **Für_Rot**, **Für_Grün** und **Für_Blau** hinzu.
 
@@ -79,7 +79,7 @@ Gehen Sie wie folgt vor, um das Anwendungsbeispiel zur Aktivierung des Einzelhan
    >Beachten Sie Folgendes für Segmente **Für_Grün** und **Für_Grün** können Daten nicht im Editor aufgelöst werden, da gemäß den Werten in der Google Tabelle nur der erste Vergleich gültig ist.
 
 1. Navigieren Sie zu und klicken Sie auf Ihre **DataDrivenRetail** channel (ein Sequenzkanal).
-1. Klicks **Bearbeiten** in der Aktionsleiste aus.
+1. Klicken Sie in der Aktionsleiste auf **Bearbeiten**. 
 
    ![screen_shot_2019-05-06at104257am](assets/screen_shot_2019-05-06at104257am.png)
 

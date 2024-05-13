@@ -1,6 +1,6 @@
 ---
-title: Importer für neue Projekte aus Datei
-description: Mit dieser Funktion können Sie mehrere Standorte aus einer CSV/XLS-Tabelle per Massenimport in Ihr AEM Screens-Projekt importieren.
+title: Importer für neue Projekte aus einer Datei
+description: Mit dieser Funktionalität können Sie verschiedene Standorte aus einer CSV/XLS-Tabelle per Massenimport in Ihr AEM Screens-Projekt importieren.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
@@ -13,11 +13,11 @@ exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
 source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '619'
-ht-degree: 49%
+ht-degree: 85%
 
 ---
 
-# Importer für neue Projekte aus Datei {#new-project-importer-from-file}
+# Importer für neue Projekte aus einer Datei {#new-project-importer-from-file}
 
 In diesem Abschnitt wird eine Funktionalität beschrieben, mit der Sie verschiedene Standorte aus einer CSV/XLS-Tabelle per Massenimport in Ihr AEM Screens-Projekt importieren können.
 
@@ -51,19 +51,19 @@ Im Folgenden wird das Datenmodell für den Projekt-Importer beschrieben:
 | **Eigenschaft** | **Beschreibung** |
 |---|---|
 | ***`path {string*}`*** | Der Ressourcenpfad für den Standort |
-| ***`[./jcr:title] {string*}`*** | Der Name der zu verwendenden Vorlage (d. h. Standort für *screens/core/templates/location*) |
+| ***`[./jcr:title] {string*}`*** | Der Name der zu verwendenden Vorlage (d. h. Standort für *screens/core/templates/location*) |
 | ***`template {string}`*** | Optionaler Titel für die Seite |
 | ***`[./jcr:description] {string}`*** | Optionale Beschreibung für die Seite |
 
 Für die Tabellendatei (CSV/XLS) sind daher die folgenden Spalten erforderlich:
 
-* **path {string}** - Der Pfad für den zu importierenden Speicherort, wobei der Stammordner des Pfades der Standortordner für das Projekt ist (d. h. *`/foo`* importiert in *`/content/screens/<project>/locations/foo`*)
-* **template {string}** - Die für den neuen Speicherort zu verwendende Vorlage ist derzeit der einzige zulässige Wert &quot;location&quot;, aber dies wird in Zukunft auf alle Screens-Vorlagen ausgedehnt (`display`, `sequencechannel`usw.)
-* **[./*] {string}** - Jede optionale Eigenschaft, die für den Standort festgelegt wird (d. h. `./jcr:title`, `./jcr:description`, `./foo, ./bar`). Die aktuelle Version erlaubt keine Filterung.
+* **path {string}** Der Pfad für den zu importierenden Standort, wobei der Stammordner des Pfades der Standortordner für das Projekt ist (d. h. *`/foo`* wird in *`/content/screens/<project>/locations/foo`* importiert).
+* **template {string}** Die Vorlage, die für den neuen Standort verwendet werden soll. Im Moment ist nur der Wert „location“ erlaubt, aber dies wird in Zukunft auf alle Screens-Vorlagen ausgedehnt (`display`, `sequencechannel` usw.)
+* **[./*] {string}** Jede optionale Eigenschaft, die für den Standort festgelegt wird (d. h. `./jcr:title`, `./jcr:description`, `./foo, ./bar`). Die aktuelle Version erlaubt keine Filterung.
 
 >[!NOTE]
 >
->Sämtliche Spalten, die nicht mit den oben genannten Bedingungen übereinstimmen, werden ignoriert. Wenn Sie beispielsweise eine andere Spalte in Ihrer Tabellendatei (CSV/XLS) als **path**, **template**, **title**, und **description** in Ihrer -Datei werden diese Felder ignoriert. Und **Projekt-Importer** überprüft diese zusätzlichen Felder nicht, um Ihr Projekt in Ihr AEM Screens-Projekt zu importieren.
+>Sämtliche Spalten, die nicht den oben genannten Bedingungen entsprechen, werden ignoriert. Wenn Sie beispielsweise eine andere Spalte in Ihrer Tabellendatei (CSV/XLS) als **Pfad**, **Vorlage**, **Titel** und **Beschreibung** definiert haben, werden diese Felder ignoriert. Zudem überprüft der **Projekt-Importer** diese zusätzlichen Felder nicht, um Ihr Projekt in Ihr AEM Screens-Projekt zu importieren.
 
 ## Verwenden des Projekt-Importers {#using-project-importer}
 
@@ -74,22 +74,22 @@ Im folgenden Abschnitt wird beschrieben, wie der Projekt-Importer in einem AEM S
 >Beschränkungen:
 >
 >* Andere Dateien als CSV/XLS/XLSX-Erweiterungen werden in der aktuellen Version nicht unterstützt.
->* Für importierte Dateien gibt es keine Filterung der Eigenschaften und es wird alles importiert, was mit „./&quot; importiert.
+>* Für importierte Dateien gibt es keine Filterung der Eigenschaften und es wird alles importiert, was mit „./“ beginnt.
 >
 
 ### Voraussetzungen {#prerequisites}
 
-* Erstellen Sie ein Projekt mit dem Titel **DemoProjectImport**
+* Erstellen Sie ein neues Projekt mit dem Namen **DemoProjectImport**.
 
 * Verwenden Sie eine CSV- oder Excel-Beispieldatei, die Sie importieren müssen.
 
 Zu Demozwecken können Sie eine Excel-Datei aus dem folgenden Abschnitt herunterladen.
 
-[Datei abrufen](assets/minimal-file.xls)
+[Abrufen der Datei](assets/minimal-file.xls)
 
 ### Importieren der Datei mit den erforderlichen Mindestfeldern {#importing-the-file-with-minimum-required-fields}
 
-Gehen Sie wie folgt vor, um eine Datei mit den erforderlichen Mindestfeldern in einen Standortordner zu importieren:
+Gehen Sie wie folgt vor, um eine Datei mit den erforderlichen Mindestfeldern in den Standortordner zu importieren:
 
 >[!NOTE]
 >
@@ -105,7 +105,7 @@ Gehen Sie wie folgt vor, um eine Datei mit den erforderlichen Mindestfeldern in 
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 
-1. Die **Import** angezeigt. Klicken Sie auf die Datei für Ihr Projekt mit Standorten oder klicken Sie auf die Datei (***minimal-file.xls***), die Sie aus dem *Voraussetzungen* Abschnitt.
+1. Der **Importassistent** wird angezeigt. Klicken Sie auf die Datei für Ihr Projekt mit Standorten oder klicken Sie auf die Datei (***minimal-file.xls***), die Sie aus dem *Voraussetzungen* Abschnitt.
 
    Klicken Sie nach Auswahl der Datei auf **Nächste**.
 
@@ -115,6 +115,6 @@ Gehen Sie wie folgt vor, um eine Datei mit den erforderlichen Mindestfeldern in 
 
    ![screen_shot_2019-05-12at53131am](assets/screen_shot_2019-05-12at53131am.png)
 
-1. Daher können Sie jetzt alle in Ihr Projekt importierten Standorte anzeigen.
+1. Dadurch können Sie nun alle in Ihr Projekt importierten Standorte anzeigen.
 
    ![screen_shot_2019-05-12at53450am](assets/screen_shot_2019-05-12at53450am.png)

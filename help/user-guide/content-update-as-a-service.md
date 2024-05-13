@@ -1,6 +1,6 @@
 ---
-title: Inhaltsaktualisierung als Service
-description: Erfahren Sie mehr über Content Update as a Service.
+title: Content-Update as a Service
+description: Erfahren Sie mehr über Content-Update as a Service.
 contentOwner: Jyotika syal
 feature: Authoring Screens
 role: Admin, Developer
@@ -9,11 +9,11 @@ exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
 source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '291'
-ht-degree: 75%
+ht-degree: 91%
 
 ---
 
-# Inhaltsaktualisierung als Service {#content-update-as-a-service}
+# Content-Update as a Service {#content-update-as-a-service}
 
 In diesem Abschnitt werden folgende Themen zum Aktualisieren von Content-as-a-Service behandelt:
 
@@ -27,9 +27,9 @@ In diesem Abschnitt werden folgende Themen zum Aktualisieren von Content-as-a-Se
 >
 >To get access to this Feature Pack, contact Adobe Support and request access. When you have permission you can download it from Package Share. -->
 
-## Übersicht {#overview}
+## Überblick {#overview}
 
-Massen-Offline-Update: Ermöglicht das stapelweise Aktualisieren aller Kanäle. Das vermeidet den Aufwand, zu einem bestimmten Kanal zu navigieren und den Inhalt zu aktualisieren. Stattdessen können Sie den gesamten Inhalt in den Kanälen für ein bestimmtes Projekt gemeinsam aktualisieren.
+Das Massen-Offline-Update ermöglicht es Ihnen, alle Kanäle gemeinsam zu aktualisieren. Das vermeidet den Aufwand, zu einem bestimmten Kanal zu navigieren und den Inhalt zu aktualisieren. Stattdessen können Sie den gesamten Inhalt in den Kanälen für ein bestimmtes Projekt gemeinsam aktualisieren.
 
 Sie können diese Aktivität auch für eine Zeit mit geringerem Netzwerk-Traffic planen.
 
@@ -69,6 +69,6 @@ Gehen Sie wie folgt vor, um das Massen-Offline-Update für ein AEM Screens-Proje
    >
    >Geben Sie den Projektpfad relativ zum Kanal an.
 
-   **Planfrequenz** Geben Sie einen Zeitpunkt an, z. B. 5:00 Uhr oder 17:00 Uhr, zu dem dieser Dienst Offline-Inhalte aktualisieren soll.
+   **Zeitplanfrequenz**: Geben Sie einen Zeitpunkt an, z. B. 17:00 Uhr, zu dem dieser Service Offline-Inhalte aktualisieren soll.
 
 1. Klicks **Speichern** sodass Sie Ihre Einstellungen speichern können. Alle Ihre Inhalte werden zum angegebenen Zeitpunkt aktualisiert.
