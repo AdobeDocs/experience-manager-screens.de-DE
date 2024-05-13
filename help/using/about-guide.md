@@ -2,16 +2,16 @@
 title: Informationen zu diesem Handbuch
 description: Erfahren Sie mehr über Best Practices für AEM Screens-Projekte, um Projekte zu planen und auszuführen, angefangen bei der Strategie und dem Design-Briefing bis hin zur Bereitstellung und dem anschließenden Support.
 exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 99%
+source-wordcount: '257'
+ht-degree: 74%
 
 ---
 
 # Informationen zu diesem Handbuch {#about-guide}
 
-Das Handbuch mit Best Practices für AEM Screens enthält Anleitungen zur erfolgreichen Planung und Ausführung eines AEM Screens-Projekts.
+Das AEM Screens Best Practices-Handbuch enthält Anleitungen dazu, wie Sie ein AEM Screens-Projekt erfolgreich planen und abschließen können.
 
 Zur Zielgruppe für dieses Dokument gehören:
 
@@ -23,7 +23,7 @@ Zur Zielgruppe für dieses Dokument gehören:
 
 Aber auch viele andere Rollen können von der Lektüre dieses Handbuchs profitieren.
 
-AEM Screens ist eine neue Erweiterung für Adobe Experience Manager (AEM). Da es sich um neue Tools mit verschiedenen Einsatzmöglichkeiten handelt, ist es von entscheidender Bedeutung, wichtige Aspekte und allgemeine Risikofaktoren bei der Entwicklung und dem Einsatz von AEM Screens zu ermitteln.
+AEM Screens ist eine neue Erweiterung für Adobe Experience Manager (AEM). Da es sich bei den Tools um neue Tools handelt und ihre Einsatzmöglichkeiten variieren, ist es von entscheidender Bedeutung, wichtige Aspekte und allgemeine Risikofaktoren für die Entwicklung und den Einsatz von AEM Screens zu ermitteln.
 
 Dieses Handbuch bietet umfassende Erkenntnisse und praktische Ratschläge zum Entwerfen, Gestalten und Bereitstellen geplanter Kundenerlebnisse im Rahmen Ihrer Digital-Signage-Implementierung. Darüber hinaus wird erläutert, wie Sie mithilfe von Best Practices bei der Bereitstellung eines Digital-Signage-Projekts in AEM Screens positive Auswirkungen auf Ihr Unternehmen erzielen können.
 

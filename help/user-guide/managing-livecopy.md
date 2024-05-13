@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4a4b3a83-2b02-42a0-86a7-fce6bbf47c7d
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 73%
+source-wordcount: '704'
+ht-degree: 54%
 
 ---
 
@@ -22,7 +22,7 @@ Auf dieser Seite wird beschrieben, wie Live Copies von Kanälen erstellt und ver
 
 Eine ***Live Copy*** ist eine Kopie spezifischer Site-Inhalte, für die eine Live-Beziehung zur ursprünglichen Quelle beibehalten wird. Durch diese Live-Beziehung kann die Live Copy Inhalts- und Seiteneigenschaften der Quelle übernehmen.
 
-Auf dieser Seite wird beschrieben, wie eine Live Copy eines Kanals erstellt wird, Eigenschaften angezeigt werden, der Status überprüft und Änderungen von einem Kanal auf dessen Live Copy übertragen werden.
+Auf dieser Seite wird beschrieben, wie Sie eine Live Copy eines Kanals erstellen, Eigenschaften anzeigen, den Status überprüfen und Änderungen von einem Kanal auf dessen Live Copy übertragen.
 
 
 ## Erstellen von Live Copies {#creating-a-live-copy}
@@ -37,21 +37,21 @@ Gehen Sie wie folgt vor, um eine Live Copy eines Kanals in Ihrem Projektordner z
 1. Klicken Sie auf den Speicherort, an dem sich die Live Copy befinden kann.
 1. Geben Sie auf der Seite **Live Copy erstellen** den **Titel** und den **Namen** ein.
 
-1. Klicken Sie auf **Öffnen**, um den Inhalt der neuen Live Copy anzuzeigen, oder auf **Fertig**, um zur Hauptseite zurückzukehren.
+1. Klicks **Öffnen** zum Anzeigen des Inhalts der neuen Live Copy oder **Fertig** , um zur Hauptseite zurückzukehren.
 
 Sie können auch die folgenden Schritte ausführen, um zu sehen, wie Sie eine neue Live Copy eines Kanals erstellen.
 
-Im folgenden Beispiel wird gezeigt, wie eine Live Copy (***IdleLiveCopy***) für ***Idle Channel*** (inaktiver Kanal) mit dem Zielordner ***Kanäle*** erstellt wird.
+Das folgende Beispiel zeigt die Erstellung einer Live Copy (***IdleLiveCopy***) für ***Idle Channel*** mit dem Zielordner als ***Kanäle***.
 
 ![chlimage_1-2](assets/chlimage_1-2.gif)
 
 ## Anzeigen des Inhalts des Live Copy-Kanals {#viewing-content-of-the-live-copy-channel}
 
-Eine Live Copy ist eine Kopie eines Kanals, der bereits vorhanden ist.
+Eine Live Copy ist eine Kopie eines existierenden Kanals.
 
 Um den Inhalt einer Live Copy anzuzeigen, gehen Sie wie folgt vor:
 
-1. Navigieren Sie zum Screens-Projekt und klicken Sie auf den Speicherort, an dem Sie die Live Copy ursprünglich erstellt haben, wie im obigen Abschnitt gezeigt. (Hier wurde als Speicherort der Ordner **Kanäle** gewählt.)
+1. Navigieren Sie zum Screens-Projekt und klicken Sie auf den Speicherort, an dem Sie ursprünglich eine Live Copy erstellt haben, wie im Abschnitt oben gezeigt. (Hier wurde der Standort als **Kanäle** folder)
 
    ![chlimage_1-18](assets/chlimage_1-18.png)
 
@@ -79,7 +79,7 @@ Außerdem können Sie die Eigenschaften Ihres Live Copy-Kanals anzeigen.
 
 Der in der folgenden Abbildung dargestellte Modus **Live Copy-Status** ermöglicht es Ihnen, den Beziehungsstatus aller Assets im Kanal anzuzeigen.
 
-1. Klicken Sie auf **Bearbeiten**, um den **Live Copy-Status** auszuwählen und die Zuordnung des Kanalinhalts zum ursprünglichen Kanal (aus dem die Live Copy generiert wurde) anzuzeigen.
+1. Klicks **Bearbeiten** so können Sie die **Live Copy-Status**. Sie können auch die Zuordnung Ihres Kanalinhalts zum ursprünglichen Kanal anzeigen, von dem aus die Live Copy generiert wird.
 
    ![chlimage_1-22](assets/chlimage_1-22.png)
 

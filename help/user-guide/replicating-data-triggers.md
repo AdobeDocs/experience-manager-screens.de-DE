@@ -5,20 +5,20 @@ feature: Administering Screens, Data Trigger
 role: Developer
 level: Intermediate
 exl-id: 6f90b864-eaa0-4b74-a47e-b0967a550552
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 93%
+source-wordcount: '523'
+ht-degree: 73%
 
 ---
 
 # Replizieren von Daten-Triggern auf Veröffentlichungs-Servern {#replicating-data-triggers}
 
-Wenn Sie ContextHub und die AEM-Targeting-Engine verwenden, um Inhalte basierend auf Datenauslösern in einer Autoren-/Veröffentlichungsinstanz anzupassen, werden die ContextHub- und personalisierungs-bezogenen Konfigurationen nicht automatisch in den Kanälen repliziert, wenn sie veröffentlicht werden.
+Bei der Verwendung von ContextHub und AEM Targeting Engine zum Anpassen von Inhalten auf der Basis von Daten-Triggern in einer Autoren-/Veröffentlichungsinstanz werden alle ContextHub- und Personalisierungskonfigurationen bei der Veröffentlichung nicht automatisch mit den  repliziert.
 
 Auf dieser Seite lernen Sie die manuellen Schritte kennen, die erforderlich sind, um diese Konfigurationen separat zu veröffentlichen.
 
-Das läuft im Wesentlichen auf das manuelle Veröffentlichen folgender Elemente hinaus:
+Dieser Prozess bezieht sich im Wesentlichen auf die manuelle Veröffentlichung der folgenden Elemente:
 
 1. Konfigurationen der ContextHub-Store- und UI-Module
 1. Personalisierungszielgruppen
@@ -64,7 +64,7 @@ Gehen Sie wie folgt vor, um die Datenauslöser auf den Veröffentlichungs-Server
 
 1. Klicken Sie auf **Weiter** und **Veröffentlichen**.
 
-### Replizieren der Aktivitäten  {#replicating-activities}
+### Replizieren der Aktivitäten {#replicating-activities}
 
 1. Navigieren Sie zu Ihrer AEM-Instanz > **Personalisierung** > **Aktivitäten** oder gehen Sie mit `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html` direkt dorthin.
 
@@ -92,12 +92,12 @@ Wenn die Replikation erfolgreich ist, sollten Sie die folgende Struktur in der V
 
 Wenn die Testverbindung beim Replizieren der ContextHub-Konfigurationen fehlschlägt, gehen Sie zur Fehlerbehebung wie im Abschnitt unten beschrieben vor:
 
-1. Navigieren Sie zu Werkzeuge > **Bereitstellung** > **Verteilung** > **Veröffentlichungsagent**.
+1. Navigieren Sie zu **Instrumente** > **Implementierung** > **Distribution** > **Veröffentlichungsagent**.
 
-1. Klicken Sie in der Aktionsleiste auf **Bearbeiten** und stellen Sie sicher, dass die Endpunkt-URL im Feld **Importer-Endpunkte** auch auf die URL des Veröffentlichungs-Servers im Verteilungsagenten verweist.
+1. Klicks **Bearbeiten** in der Aktionsleiste aus und stellen Sie sicher, dass die Endpunkt-URL in der **Importer Endpoints** -Feld verweist auch auf die URL des Veröffentlichungsservers im Verteilungsagenten.
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
-1. Wenn Sie nicht die standardmäßigen Admin-Anmeldedaten verwenden, müssen Sie den Verteilungsagenten mit einem anderen Benutzernamen und einem anderen Kennwort konfigurieren.
+1. Wenn Sie nicht die standardmäßigen Administratorberechtigungen verwenden, müssen Sie den Verteilungsagenten mit einem anderen Benutzernamen und Kennwort konfigurieren.
 
    Führen Sie dazu folgende Schritte durch:
 

@@ -10,10 +10,10 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 72%
+source-wordcount: '536'
+ht-degree: 55%
 
 ---
 
@@ -33,7 +33,7 @@ Dieses Tutorial behandelt folgende Punkte, die für die erfolgreiche Bereitstell
 
 >[!NOTE]
 >
->Die typischen Vertriebszyklen für die Bereitstellung digitaler Beschilderung können zwischen 9 und 18 Monaten betragen. Es gibt viele Faktoren, die sich auf den endgültigen Ablauf auswirken, darunter auch die Art und Weise, wie die Endkundin oder der Endkunde den Erfolg misst und wie risikoscheu die Geschäftspartner bei der Einführung neuer Lösungen sind.
+>Die typischen Vertriebszyklen für die Bereitstellung digitaler Beschilderung können zwischen 9 und 18 Monaten betragen. Es gibt viele Faktoren, die die endgültige Zeitspanne beeinflussen. Zu diesen Faktoren gehört auch, wie der Endkunde den Erfolg misst und wie risikoscheu seine Geschäftspartner sind, wenn eine neue Lösung eingeführt wird.
 
 Beispielsweise könnten die Stakeholder für ein Digital-Signage-Programm in einer Einzelhandelsumgebung Folgendes einschließen:
 
@@ -46,7 +46,7 @@ Beispielsweise könnten die Stakeholder für ein Digital-Signage-Programm in ein
 
 ## Zusammenfassung der wichtigsten Begriffe, die in einem übergeordneten Projektplan verwendet werden {#summary-of-key-terms-involved-in-an-overall-project-plan}
 
-Im folgenden Abschnitt erhalten Sie einen Überblick über die Schlüsselbegriffe, die in einem übergeordneten Projektplan von Bedeutung sind, wie z.B. Projektzyklus, Maßnahmen bei Hardware-Tests, Machbarkeitsstudien, Pilotprogramme und Rollouts.
+Im folgenden Abschnitt finden Sie einen Überblick über die Schlüsselbegriffe, die in einem übergeordneten Projektplan verwendet werden, Schlüsselbegriffe sind Projektzyklus, Maßnahmen im Zusammenhang mit Hardware-Tests, Machbarkeitsstudien, Pilotprogramme und Rollouts.
 
 ### Machbarkeitsstudie (POC) {#proof-of-concept-poc}
 
@@ -54,7 +54,7 @@ Eine Machbarkeitsstudie dient dazu, ein erstes Feedback zu den Schlüsselfunktio
 
 ### Qualitätskontrolle {#quality-control}
 
-Die Integration von Systemen und Software beginnt mit dem IT-Engineering-Team des Audio-Video-Integrators. Unter Bezugnahme auf den genehmigten Systementwurf konfiguriert, implementiert und überwacht das IT-Engineering-Team die Installation von Hardware-Komponenten in einer &quot;Lab-Umgebung&quot;in der Anlage des Audio-Video-Integrators. Dies erlaubt eine genaue Überprüfung der gesamten Lösung für die Qualitätssicherung.
+Tests zur Integration von Systemen und Software beginnen mit dem IT-Engineering-Team der Audio-Video-Integratoren. Unter Bezugnahme auf den genehmigten Systementwurf konfiguriert, implementiert und überwacht das IT-Engineering-Team die Installation von Hardware-Komponenten in einer &quot;Lab-Umgebung&quot;in der Anlage des Audio-Video-Integrators. Diese Regelung ermöglicht eine genaue Überprüfung und Prüfung der gesamten Lösung für die Qualitätskontrolle.
 
 Nach Abschluss des QC-Tests erstellt das IT-Engineering-Team Dokumentation, Workflows und Schulungen zur Referenz während des Day-2-Supports. Zu den zu testenden Systemaspekten gehören:
 
@@ -67,7 +67,7 @@ Nach Abschluss des QC-Tests erstellt das IT-Engineering-Team Dokumentation, Work
 
 ## Teil 3: Video-Tutorial zu Tests, Machbarkeitsstudien, Pilotprogrammen und Rollouts {#part-video-tutorial-on-testing-pocs-pilots-rollouts}
 
-Sehen Sie sich das folgende Tutorial an, um sich mit Tests, Machbarkeitsstudien, Pilotprogrammen und Rollouts vertraut zu machen.
+Im folgenden Tutorial erfahren Sie mehr über Tests, Machbarkeitsstudien, Pilotprogramme und Rollouts.
 
 Wenn Sie alle diese Schritte als Teil des übergeordneten Projektplans betrachten, können Sie Erwartungen besser steuern und natürliche Punkte identifizieren, mit denen sich die Investitionen in eine AEM Screens-Bereitstellung bewerten lassen.
 

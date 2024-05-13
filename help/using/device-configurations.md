@@ -2,10 +2,10 @@
 title: Gerätespezifikationen
 description: Erfahren Sie mehr über Gerätespezifikationen im Zusammenhang mit AEM Screens.
 exl-id: c2e521b3-89f5-4537-a751-0bfa031286c4
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 69%
+source-wordcount: '211'
+ht-degree: 60%
 
 ---
 
@@ -27,7 +27,7 @@ Beantworten Sie vor Beginn der Entwicklung unter Einsatz der an *Tag 0* gesamme
 
 * Wann werden Inhalte auf Playern aktualisiert?
 
-* Wenn Sie Videos wiedergeben, müssen Sie die Spezifikationen Ihres Geräts kennen, damit sich Inhalte korrekt anzeigen lassen.
+* Wenn Sie Videos ausführen, sollten Sie die Spezifikationen Ihres Geräts kennen, damit der Inhalt ordnungsgemäß angezeigt wird.
 
 * Ist mit Blick auf die genannten Umgebungsaspekte eher Solid-State- oder Festplattenspeicher angemessen?
 

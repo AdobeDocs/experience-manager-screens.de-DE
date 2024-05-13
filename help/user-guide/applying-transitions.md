@@ -6,10 +6,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 757e6751-8008-487f-be89-9f53ac898928
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 59%
+source-wordcount: '275'
+ht-degree: 45%
 
 ---
 
@@ -37,7 +37,7 @@ Gehen Sie wie folgt vor, um Ihrem AEM Screens-Projekt eine Übergangskomponente 
 
    >[!NOTE]
    >
-   >Der Kanal **Testübergang** enthält bereits einige Assets (Bilder und Videos). Beispielsweise enthält der Kanal **Testübergang** drei Bilder und zwei Videos, wie unten dargestellt:
+   >Die **TestTransition** -Kanal enthält bereits einige Assets (Bilder und Videos). Beispielsweise enthält der Kanal **Testübergang** drei Bilder und zwei Videos, wie unten dargestellt:
 
    ![image2](assets/transitions2.png)
 
@@ -46,7 +46,7 @@ Gehen Sie wie folgt vor, um Ihrem AEM Screens-Projekt eine Übergangskomponente 
 
    >[!CAUTION]
    >
-   >Bevor Sie den Übergang zu den Assets in Ihrem Kanal hinzufügen, stellen Sie sicher, dass Sie keinen Übergang vor dem ersten Asset im Sequenzkanal hinzufügen. Das erste Element im Kanal muss ein Asset und darf kein Übergang sein.
+   >Bevor Sie den Übergang zu Ihren Assets in Ihrem Kanal hinzufügen, stellen Sie sicher, dass Sie den Übergang nicht vor dem ersten Asset im Sequenzkanal hinzufügen. Das erste Element im Kanal muss ein Asset und darf kein Übergang sein.
 
    ![image3](assets/transitions3.png)
 

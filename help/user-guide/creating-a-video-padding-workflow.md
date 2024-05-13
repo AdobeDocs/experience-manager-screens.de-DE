@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 61%
+source-wordcount: '565'
+ht-degree: 55%
 
 ---
 
@@ -33,13 +33,13 @@ In diesem Abschnitt werden folgende Themen behandelt:
 
 Das folgende Nutzungsszenario beinhaltet das Platzieren eines Videos (Beispiel: 1280 x 720) in einem Kanal mit einer Anzeige von 1920 x 1080 und das Platzieren des Videos bei 0x0 (oben links). Das Video sollte in keiner Weise gestreckt oder modifiziert werden und kein **Abdecken** in der Videokomponente verwenden.
 
-Das Video wird als Objekt von Pixel 1 bis Pixel 1280 über und von Pixel 1 bis Pixel 720 nach unten und der Rest des Kanals ist die Standardfarbe.
+Das Video wird als Objekt von Pixel 1 bis Pixel 1280 über und von Pixel 1 bis Pixel 720 nach unten angezeigt. Der Rest des Kanals ist die Standardfarbe.
 
 ## Voraussetzungen {#prerequisites}
 
 Bevor Sie einen Workflow für Videos erstellen, müssen Sie die folgenden Voraussetzungen erfüllen:
 
-1. Laden Sie ein Video in den Ordner **Assets** in Ihrer AEM-Instanz.
+1. Hochladen eines Videos im **Assets** Ordner in Ihrer AEM-Instanz
 1. Erstellen Sie ein AEM Screens-Projekt (z. B. **TestVideoRendition**) und einen Kanal mit dem Namen (**VideoRendering**), wie in der folgenden Abbildung dargestellt:
 
 ![screen_shot_2018-10-17at85307pm](assets/screen_shot_2018-10-17at85307pm.png)
@@ -58,12 +58,12 @@ Gehen Sie wie folgt vor, um den Workflow zu erstellen und zu verwenden:
 Gehen Sie wie folgt vor, um einen Workflow für Ihr Video zu erstellen:
 
 1. Navigieren Sie zu Ihrer AEM-Instanz.
-1. Klicken Sie in der Seitenleiste auf Tools .
+1. Klicken Sie in der Seitenleiste auf die Tools.
 1. Klicks **Workflow** > **Modelle** sodass Sie ein Modell erstellen können.
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
-1. Klicken Sie auf **Modelle** > **Erstellen** > **Modell erstellen**. Geben Sie den **Titel** (als **VideoRendition**) und den **Namen** in **Workflow-Modell hinzufügen** ein. Klicken Sie auf **Fertig**, um das Workflow-Modell hinzuzufügen.
+1. Klicken Sie auf **Modelle** > **Erstellen** > **Modell erstellen**. Geben Sie die **Titel** (z. B. **VideoRendition**) und **Name** im **Workflow-Modell hinzufügen**. Klicken Sie auf **Fertig**, um das Workflow-Modell hinzuzufügen.
 
    ![screen_shot_2018-10-17at90747pm](assets/screen_shot_2018-10-17at90747pm.png)
 
@@ -115,7 +115,7 @@ Gehen Sie wie folgt vor, um den Workflow in Ihrem AEM Screens-Projekt zu verwend
 
 Sie können Ihre Ausgabe wie folgt validieren:
 
-* Überprüfen Sie die Vorschau des Videos im Kanal
+* Überprüfen einer Vorschau des Videos im Kanal
 * Navigieren Sie zu ***/content/dam/testvideo.mp4/jcr:content/renditions/cq5dam.video.fullhd-hp.mp4*** in CRXDE Lite, wie in der folgenden Abbildung dargestellt:
 
 ![screen_shot_2018-10-22at14326pm](assets/screen_shot_2018-10-22at14326pm.png)

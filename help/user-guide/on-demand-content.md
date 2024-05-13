@@ -6,10 +6,10 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 9ffdb1eb-a1ba-42ac-a30f-260004e5b165
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 75%
+source-wordcount: '825'
+ht-degree: 60%
 
 ---
 
@@ -30,7 +30,7 @@ Gehen Sie wie folgt vor, um für ein AEM Screens-Projekt Inhaltsaktualisierungen
 
    ![screen_shot_2019-02-25at21420pm](assets/screen_shot_2019-02-25at21420pm.png)
 
-1. Der Assistent **Veröffentlichung verwalten** wird geöffnet. Sie können auf die **Aktion** und planen Sie außerdem die Veröffentlichungszeit für jetzt oder später. Klicken Sie auf **Weiter**.
+1. Die **Veröffentlichung verwalten** Der Assistent wird geöffnet. Sie können auf die **Aktion** und planen Sie außerdem die Veröffentlichungszeit für jetzt oder später. Klicken Sie auf **Weiter**.
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 
@@ -42,7 +42,7 @@ Gehen Sie wie folgt vor, um für ein AEM Screens-Projekt Inhaltsaktualisierungen
 
    >[!NOTE]
    >
-   >Standardmäßig werden alle Kontrollkästchen aktiviert. Sie müssen die Kontrollkästchen manuell deaktivieren, um alle Module in Ihrem Projekt zu veröffentlichen.
+   >Standardmäßig sind alle Kästchen markiert und Sie müssen die Kontrollkästchen manuell deaktivieren, um alle Module in Ihrem Projekt zu veröffentlichen.
 
    ![screen_shot_2019-02-25at23116pm](assets/screen_shot_2019-02-25at23116pm.png)
 
@@ -75,9 +75,9 @@ Mit dieser Option können Sie Aktualisierungen verwalten, die nur für zuvor ver
    >    1. Der Workflow funktioniert nicht, wenn der Autor den Replikationsprozess nicht abgeschlossen hat (Inhalte werden weiterhin in die Veröffentlichungsinstanz hochgeladen), nachdem Sie die **Veröffentlichen** im Workflow zur Verwaltung von Veröffentlichungen.
 
    >[!CAUTION]
-   >Wenn Sie als Autor oder Ersteller von Inhalten die Änderungen auf den Geräten sehen möchten, die mit der Autoreninstanz verbunden sind, klicken Sie im Kanal-Dashboard auf **Offline-Inhalte aktualisieren** oder wählen Sie das Projekt aus. In diesem Fall wird der Offline-Inhalt nur in der Autoreninstanz aktualisiert.
+   >Wenn Sie als Inhaltsersteller die Änderungen auf den Geräten sehen möchten, die mit der Autoreninstanz verbunden sind, klicken Sie auf **Offline-Inhalt aktualisieren** über das Kanal-Dashboard oder durch Auswahl des Projekts. In diesem Fall wird die Aktualisierung von Offline-Inhalten nur in der Autoreninstanz durchgeführt.
 
-1. Navigieren Sie zum Projekt und klicken Sie in der Aktionsleiste auf **Offline-Inhalt aktualisieren**. Mit dieser Aktion wird der gleiche Befehl an die Veröffentlichungsinstanz weitergeleitet, sodass die Offline-ZIP-Dateien auch in der Veröffentlichungsinstanz erstellt werden.
+1. Navigieren Sie zum Projekt und klicken Sie in der Aktionsleiste auf **Offline-Inhalt aktualisieren**. Mit dieser Aktion wird derselbe Befehl an die Veröffentlichungsinstanz weitergeleitet, sodass die Offline-Zips auch auf Ihrer Veröffentlichungsinstanz erstellt werden.
 
    ![screen_shot_2019-02-25at23451pm](assets/screen_shot_2019-02-25at23451pm.png)
 
@@ -88,7 +88,7 @@ Mit dieser Option können Sie Aktualisierungen verwalten, die nur für zuvor ver
 
    >[!CAUTION]
    >
-   >Lösen Sie „Offline-Inhalt aktualisieren“ in der Autoreninstanz aus, wenn Sie über einen beim Autoren-Server registrierten Player verfügen. Die Aktualisierung von Offline-Inhalten ist für den in der Veröffentlichungsinstanz registrierten Player nicht erforderlich.
+   >Lösen Sie „Offline-Inhalt aktualisieren“ in der Autoreninstanz aus, wenn Sie über einen beim Autoren-Server registrierten Player verfügen. Für den in der Veröffentlichungsinstanz registrierten Player ist keine Aktualisierung des Offline-Inhalts erforderlich.
 
 ### Verwalten von Veröffentlichungen für einen Kanal {#managing-publication-for-a-channel}
 
@@ -103,7 +103,7 @@ Gehen Sie wie folgt vor, um Inhaltsaktualisierungen von der Autoreninstanz in de
 
    ![screen_shot_2019-02-07at115800am](assets/screen_shot_2019-02-07at115800am.png)
 
-1. Der Assistent **Veröffentlichung verwalten** wird geöffnet. Sie können auf die **Aktion** und planen Sie außerdem die Veröffentlichungszeit für jetzt oder später. Klicken Sie auf **Weiter**.
+1. Die **Veröffentlichung verwalten** Der Assistent wird geöffnet. Sie können auf die **Aktion** und planen Sie außerdem die Veröffentlichungszeit für jetzt oder später. Klicken Sie auf **Weiter**.
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 

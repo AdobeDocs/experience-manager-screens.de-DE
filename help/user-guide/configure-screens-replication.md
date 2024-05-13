@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Screens-Replikationsagenten konfigurieren.
 role: Developer
 level: Intermediate
 exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 86%
+source-wordcount: '465'
+ht-degree: 64%
 
 ---
 
@@ -17,7 +17,7 @@ Auf dieser Seite wird beschrieben, wie Sie Screens-Replikationsagenten konfiguri
 
 ## Ziel {#objective}
 
-Der Screens-Replikationsagent ist für die Bereitstellung von Befehlsdaten von Veröffentlichung an Autor verantwortlich, z. B. *user*, *password*, *rebootSchedule*, *maxNumberOfLogFilesToKeep* und viele mehr. Dies muss unbedingt konfiguriert werden, damit der Autor den Geräte-Ping anzeigen kann.
+Der Screens-Replikationsagent ist für das Abrufen von Befehlsdaten wie *Benutzer*, *password*, *rebootSchedule*, *maxNumberOfLogFilesToKeep* und viele weitere solcher Werte vom Veröffentlichungs- zum Autorenmodus. Dieser Agent muss unbedingt konfiguriert werden, damit der Autor den Geräte-Ping anzeigen kann.
 
 >[!NOTE]
 >Weitere Informationen zu Screens-Replikationsagenten finden Sie unter [Screens-Replikationsagenten und -Befehle](https://experienceleague.adobe.com/de/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview#screens-replication-agents-and-commands).
@@ -34,7 +34,7 @@ Gehen Sie wie folgt vor, um Benutzende zu aktivieren und das Kennwort für `scre
 >[!NOTE]
 >Aus Sicherheitsgründen wird empfohlen, für `screens-receiver-user` nicht das Administratorkennwort zu verwenden.
 
-1. Navigieren Sie zu Ihrer AEM-Autoreninstanz.
+1. Navigieren Sie zu Ihrer Instanz AEM -Autors.
 
 1. Klicken Sie auf „Tools“ > **Sicherheit** > **Benutzer**.
 
@@ -104,7 +104,7 @@ Gehen Sie zum Aktualisieren der Einstellungen für den AEM Screens-Replikationsa
 
    ![Bild](/help/user-guide/assets/screens-replication/screens-replication1b.png)
 
-1. Suchen Sie nach allen AEM Screens-Replikationsagenten in der Autoreninstanz und klicken Sie auf den Link, wie in der folgenden Abbildung dargestellt.
+1. Suchen Sie nach allen AEM Screens-Replikationsagenten auf der Autoreninstanz und klicken Sie auf den Link, wie in der folgenden Abbildung dargestellt.
 
    >[!NOTE]
    >Suchen Sie nach allen AEM Screens-Replikationsagenten. Der Name des Screens-Replikationsagenten enthält den Buchstaben **S** im Titel.
@@ -129,4 +129,4 @@ Gehen Sie zum Aktualisieren der Einstellungen für den AEM Screens-Replikationsa
 
    ![Bild](/help/user-guide/assets/screens-replication/screens-replication1g.png)
 
-   Wenn die Verbindungsprüfung erfolgreich war, ist die Konfiguration des Screens-Replikationsagenten abgeschlossen.
+   Wenn die Verbindungsprüfung erfolgreich war, haben Sie die Konfiguration des Screens-Replikationsagenten abgeschlossen.
