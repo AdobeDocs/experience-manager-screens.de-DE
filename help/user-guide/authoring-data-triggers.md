@@ -5,10 +5,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 53%
+source-wordcount: '374'
+ht-degree: 50%
 
 ---
 
@@ -41,9 +41,9 @@ Wenn Sie die vorherigen Schritte ausgeführt haben, können Sie das Targeting in
 
 ## Aktivieren von Targeting in einem AEM Screens-Kanal {#enabling-targeting}
 
-Gehen Sie wie folgt vor, um Targeting in Ihren Kanälen zu aktivieren.
+Gehen Sie wie folgt vor, um das Targeting in Ihren Kanälen zu aktivieren.
 
-1. Navigieren Sie zu einem der AEM Screens-Kanäle. Die folgenden Schritte zeigen, wie Sie das Targeting mit **DataDrivenRetail** *(Sequenzkanal)* aktivieren, das in einem AEM Screens-Kanal erstellt wurde.
+1. Navigieren Sie zu einem der AEM Screens-Kanäle. Die folgenden Schritte zeigen, wie Sie das Targeting mit **DataDrivenRetail** *(Sequenzkanal)* in einem AEM Screens-Kanal erstellt.
 
 1. Klicken Sie auf den Kanal **DataDrivenRetail** und klicken **Eigenschaften** in der Aktionsleiste aus.
 
@@ -67,7 +67,7 @@ Gehen Sie wie folgt vor, um Targeting in Ihren Kanälen zu aktivieren.
 
    >[!NOTE]
    >
-   >Wenn Sie alles korrekt eingerichtet haben, sehen Sie **Targeting** in der Dropdown-Liste des Editors, wie in der folgenden Abbildung dargestellt.
+   >Wenn Sie alles korrekt eingerichtet haben, sehen Sie die **Targeting** in der Dropdown-Liste des Editors, wie in der folgenden Abbildung dargestellt.
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 

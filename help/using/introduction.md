@@ -2,10 +2,10 @@
 title: Einführung in AEM Screens
 description: Erfahren Sie mehr über AEM Screens und was es für Sie tun kann.
 exl-id: 11781e0b-0aca-4d08-aaad-87a7aaf28c24
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 95%
+source-wordcount: '667'
+ht-degree: 82%
 
 ---
 
@@ -19,7 +19,7 @@ Mit AEM Screens können Sie Folgendes erstellen:
 * **Produktempfehlungen**
 * **Lifestyle-Hintergrundbilder**
 
-Zudem bietet Screens verschiedene spezielle Anwendungen für die Kundschaft und Belegschaft, die auf dem jeweiligen Bereich basieren, in dem sie bereitgestellt werden, z. B.:
+Screens bietet außerdem viele einzigartige Anwendungen für Kunden und Mitarbeiter, die auf der Domäne basieren, in der die Anwendungen bereitgestellt werden, z. B.:
 
 * **Interaktive Displays**
 * **Wegweiser**
@@ -28,11 +28,9 @@ Zudem bietet Screens verschiedene spezielle Anwendungen für die Kundschaft und 
 
 Das Einrichten und Verwalten eines Digital-Signage-Netzwerks mit AEM Screens ist einfach und intuitiv. Eine Player-Anwendung hostet Inhaltskanäle, die von Kunden oder Implementierungspartnern für AEM Screens erstellt wurden. *Standorte* verwalten eine vordefinierte Standorthierarchie und beinhalten Anzeigen. Jedes *Display* verfügt über ein Dashboard, in dem unterschiedliche angeschlossene Geräte und Bildschirme angezeigt werden. Inhalte für AEM Screens werden in *Kanälen* verwaltet. Mit dem *AEM Screens Player* lassen sich in Kanälen vorhandene Inhalte auf Displays darstellen.
 
-
-
 >[!NOTE]
 >
->Weitere Informationen zu verschiedenen Funktionen bei der Entwicklung und Verwaltung von AEM Screens-Projekten finden Sie im **[AEM Screens-Benutzerhandbuch](https://experienceleague.adobe.com/de/docs/experience-manager-screens/user-guide/aem-screens-introduction)**.
+>Ausführliche Informationen zu den verschiedenen Funktionen bei der Entwicklung und Verwaltung von AEM Screens-Projekten finden Sie in der **[AEM Screens-Benutzerhandbuch](https://experienceleague.adobe.com/de/docs/experience-manager-screens/user-guide/aem-screens-introduction)**.
 
 ## AEM Sites und AEM Screens {#aem-sites-screens}
 
@@ -42,7 +40,7 @@ Das Einrichten und Verwalten eines Digital-Signage-Netzwerks mit AEM Screens is
 
 AEM Screens ist eine einheitliche Authoring-/Wiedergabeplattform für die Bereitstellung von Inhalten auf Digital-Signage-Geräten in öffentlichen Räumen. Der Autor des Erlebnisses sollte zwar um Konsistenz im Web und an lokalen Standorten bemüht sein. Darüber hinaus gibt es aber Unterschiede, die beachtet werden sollten.
 
-* **Verweildauer**: In der Regel werden Web-Seiten so gestaltet, dass sie eine Vielzahl von Informationen bereitstellen, die sich über einen relativ langen Zeitraum nutzen lassen. Im Gegensatz dazu sollten digitale Vor-Ort-Erlebnisse die Bedürfnisse der Person, die sie betrachtet, vorwegnehmen sowie klare und präzise Anweisungen geben, wie und warum sie interagieren sollte. So entstehen gezieltere, kuratierte und kontextbezogene Erlebnisse.
+* **Verweildauer**: In der Regel werden Web-Seiten so gestaltet, dass sie eine Vielzahl von Informationen bereitstellen, die sich über einen relativ langen Zeitraum nutzen lassen. Im Gegensatz dazu sollten digitale Vor-Ort-Erlebnisse die Bedürfnisse der Person, die sie betrachtet, vorwegnehmen sowie klare und präzise Anweisungen geben, wie und warum sie interagieren sollte. Diese Aufmerksamkeit führt zu zielgerichteteren, kuratierten und kontextbezogenen Erlebnissen.
 
 * **Betrachtungsabstand**: Betrachtungsabstände sind größer oder weiter als der typische Abstand, den Benutzende bei einer Website erleben. Daher sollte die Textgröße meist größer ausfallen; zudem sollte der Abstand zwischen Text, Bildern und anderen ergänzenden Inhalten mit Blick auf die erwartete Bildschirmgröße und Platzierung im physischen Raum getestet werden.
 
@@ -54,7 +52,7 @@ AEM Screens ist eine einheitliche Authoring-/Wiedergabeplattform für die Bereit
 
 AEM Screens bietet ein Framework zum Bereitstellen von Inhalten auf physischen Geräten. Inhalte werden in Screens Kanälen zugewiesen, die Medieninhalte oder Touchscreen-Anwendungen enthalten können. In diesem Framework kann eine AEM Sites-Anwendung als Inhalt über einen Kanal bereitgestellt werden.
 
-Bevor eine AEM Site in Screens in einem Kanal abgelegt werden kann, muss sie für die Abmessungen des Anzeigegeräts formatiert werden.
+Eine AEM Site muss für die Verwendung mit den Abmessungen des Anzeigegeräts formatiert sein. Dies sollte vor dem Ablegen in einem Kanal in Screens durchgeführt werden.
 
 >[!NOTE]
 >Viele Komponenten von AEM Sites sind nicht mit AEM Screens kompatibel. AEM Screens ist mit vielen vordefinierten Komponenten ausgestattet, sodass Sie digitale Erlebnisse auch ohne Anpassungen kreieren können. Wenn es die Projektanforderungen zulassen, sollten Sie nach Möglichkeit integrierte AEM Screens-Funktionen verwenden.

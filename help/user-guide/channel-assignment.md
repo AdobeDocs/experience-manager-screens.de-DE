@@ -5,17 +5,17 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '1174'
-ht-degree: 91%
+source-wordcount: '1179'
+ht-degree: 83%
 
 ---
 
 # Kanalzuweisung {#channel-assignment}
 
 >[!IMPORTANT]
->In diesem Abschnitt wird die Kanalzuweisung und -zeitplanung für Feature Packs beschrieben, die älter als AEM 6.5.5 Screens sind.
+>In diesem Abschnitt wird die Kanalzuweisung und -zeitplanung für Feature Packs beschrieben, die älter als AEM 6.5.5 Screens-Version sind.
 
 Wenn Sie eine Anzeige eingerichtet haben, weisen Sie einen Kanal einer Anzeige zu, um Ihren Inhalt anzuzeigen.
 
@@ -40,21 +40,21 @@ Gehen Sie wie folgt vor, um einer Anzeige einen Kanal zuzuweisen:
 
    ![image](/help/user-guide/assets/channel-assign1.png)
 
-   Sie können die Eigenschaften im Dialogfeld **Kanalzuweisung** im nachstehenden Abschnitt konfigurieren. Weitere Informationen zu Kanaleigenschaften finden Sie unter [Kanaleigenschaften](#channel-properties).
+   Sie können die Eigenschaften im Dialogfeld **Kanalzuweisung** im nachstehenden Abschnitt konfigurieren. Siehe [Kanaleigenschaften](#channel-properties) für weitere Informationen zu den Kanaleigenschaften.
 
 ## Verstehen der Kanaleigenschaften bei Kanalzuweisung {#channel-properties}
 
 ### Kanal referenzieren {#ref-channel}
 
-Diese Option ermöglicht es Ihnen, einen Verweis zum gewünschten Kanal bereitzustellen, entweder in Form des Kanalnamens oder Kanalpfads.
+Mit einem Referenzkanal können Sie einen Verweis auf den gewünschten Kanal entweder nach Kanalname oder nach Kanalpfad bereitstellen.
 
 * **nach Pfad**: Sie stellen einen expliziten Verweis durch Angabe des absoluten Pfads des Kanals bereit.
 
-* **nach Name**: Sie geben den Namen des Kanals ein, der entsprechend dem Kontext zu einem tatsächlichen Kanal führt. Mit dieser Funktion können Sie eine lokale Version eines Kanals erstellen, um ortspezifischen Inhalt dynamisch aufzulösen. Beispiel: ein Kanal mit dem Namen *Tagesangebote*, bei dem der eigentliche Inhalt in zwei Städten zwar unterschiedlich ist, aber bei allen Anzeigen dieselbe Kanalrolle vorhanden ist.
+* **nach Name**: Sie geben den Namen des Kanals ein, der entsprechend dem Kontext zu einem tatsächlichen Kanal führt. Mit dieser Funktion können Sie eine lokale Version eines Kanals erstellen, um ortsspezifische Inhalte dynamisch aufzulösen.  Beispiel: ein Kanal mit dem Namen *Tagesangebote*, bei dem der eigentliche Inhalt in zwei Städten zwar unterschiedlich ist, aber bei allen Anzeigen dieselbe Kanalrolle vorhanden ist.
 
 ### Kanalrolle {#role-channel}
 
-Mit „Kanalrolle“ wird der Kontext der Anzeige definiert. Die Rolle kann durch verschiedene Aktionen festgelegt werden und ist unabhängig vom eigentlichen Kanal, der die Rolle ausfüllt.
+Mit „Kanalrolle“ wird der Kontext der Anzeige definiert. Die Rolle ermöglicht die Ausrichtung auf verschiedene Aktionen und ist unabhängig vom eigentlichen Kanal, der die Rolle erfüllt.
 
 ### Priorität {#priority-channel}
 
@@ -76,7 +76,7 @@ Die Priorität wird verwendet, um die Zuweisungen in eine Reihenfolge zu bringen
 >
 > Diese Option ist nur mit <!--AEM 6.4 Feature Pack 8 or -->AEM 6.5 Feature Pack 4 verfügbar.
 
-Geben Sie als Inhaltsautor an, wann ein Kanal unterbrochen wird, damit Sie nichtkritische Inhalte abschneiden und optional wichtige Inhalte vor dem Abbrechen der Wiedergabe aufgrund der Planung abspielen können.
+Geben Sie als Inhaltsautor an, wann ein Kanal unterbrochen wird. Auf diese Weise können Sie nicht kritische Inhalte abschneiden, falls gewünscht, aber optional wichtige Inhalte abspielen lassen, bevor die Wiedergabe aufgrund der Zeitplanung abgebrochen wird.
 
 Klicken Sie auf eine der folgenden Optionen, die verfügbar sind, um die Unterbrechungsmethode über die **Kanalzuweisung** Dialogfeld:
 
@@ -162,7 +162,7 @@ Hier wird das Dayparting auf monatlicher Basis erstellt, sodass der Kanalinhalt 
 
 #### Anzeigen von Inhalt für Kanäle derselben Priorität {#playing-content-for-channels-with-same-priority}
 
-Diese Beispiele veranschaulichen die Verwendung von Dayparting durch einen Laden, der seine Winterkollektion mit demselben Zeitplan im Dezember präsentiert. Doch da die Priorität von Kanal B in dieser Woche 2 beträgt, wird der Inhalt von Kanal B anstelle des Inhalts von Kanal A gezeigt.
+Diese Beispiele veranschaulichen die Verwendung von Dayparting durch einen Laden, der seine Winterkollektion mit demselben Zeitplan im Dezember präsentiert. Da für Kanal B jedoch die Priorität 2 festgelegt ist, wird in dieser Woche der Inhalt von Kanal B und nicht von Kanal A wiedergegeben.
 
 | **Kanal** | **Rolle** | **Priorität** | **Zeitplan** |
 |---|---|---|---|

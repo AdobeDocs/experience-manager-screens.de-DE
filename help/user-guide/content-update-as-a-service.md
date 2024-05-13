@@ -6,10 +6,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
 source-wordcount: '291'
-ht-degree: 91%
+ht-degree: 78%
 
 ---
 
@@ -29,7 +29,7 @@ In diesem Abschnitt werden folgende Themen zum Aktualisieren von Content-as-a-Se
 
 ## Überblick {#overview}
 
-Das Massen-Offline-Update ermöglicht es Ihnen, alle Kanäle gemeinsam zu aktualisieren. Das vermeidet den Aufwand, zu einem bestimmten Kanal zu navigieren und den Inhalt zu aktualisieren. Stattdessen können Sie den gesamten Inhalt in den Kanälen für ein bestimmtes Projekt gemeinsam aktualisieren.
+Das Massen-Offline-Update ermöglicht die gebündelte Aktualisierung aller Kanäle. Das vermeidet den Aufwand, zu einem bestimmten Kanal zu navigieren und den Inhalt zu aktualisieren. Stattdessen können Sie den gesamten Inhalt in den Kanälen für ein bestimmtes Projekt gemeinsam aktualisieren.
 
 Sie können diese Aktivität auch für eine Zeit mit geringerem Netzwerk-Traffic planen.
 
@@ -39,7 +39,7 @@ Sie können diese Aktivität auch für eine Zeit mit geringerem Netzwerk-Traffic
 
 ## Verwenden des Massen-Offline-Updates {#using-bulk-offline-update}
 
-Sie können das Massen-Offline-Update manuell über die Benutzeroberfläche (UI) verwenden oder das Massen-Update über OSGi-Service planen.
+Sie können die Massen-Offline-Aktualisierung manuell über die Benutzeroberfläche (UI) verwenden oder die Massenaktualisierung über OSGi-Dienste planen.
 
 ### Verwenden der AEM Screens-Benutzeroberfläche {#using-aem-screens-user-interface}
 
@@ -55,7 +55,7 @@ Gehen Sie wie folgt vor, um das Massen-Offline-Update für ein AEM Screens-Proje
 Gehen Sie wie folgt vor, um das Massen-Offline-Update für ein AEM Screens-Projekt zu verwenden:
 
 1. Konfiguration der Adobe Experience Manager-Web-Konsole.
-1. Suchen Sie nach den Services für das Massen-Offline-Update.
+1. Suchen Sie nach Massen-Offline-Aktualisierungsdiensten.
 
    ![screen_shot_2018-04-24at121428pm](assets/screen_shot_2018-04-24at121428pm.png)
 

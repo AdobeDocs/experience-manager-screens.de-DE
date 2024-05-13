@@ -9,10 +9,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '1698'
-ht-degree: 77%
+source-wordcount: '1700'
+ht-degree: 70%
 
 ---
 
@@ -30,7 +30,7 @@ Dieses Tutorial richtet sich an Entwicklerinnen und Entwickler, die neu bei AEM 
 
 ![Custom Poster component](assets/2018-05-07_at_4_09pm.png)
 
-Die benutzerdefinierte Poster-Komponente wird durch Erweitern der Bildkomponente erstellt.
+A `Custom Poster` -Komponente wird durch Erweitern der Bildkomponente erstellt.
 
 ## Voraussetzungen {#prerequisites}
 
@@ -40,11 +40,11 @@ Um diese Anleitung abzuschließen, benötigen Sie Folgendes:
 1. [AEM Screens-Player](/help/user-guide/aem-screens-introduction.md)
 1. Lokale Entwicklungsumgebung
 
-Die Tutorial-Schritte und Screenshots werden mit CRXDE-Lite ausgeführt. [Eclipse](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse)- oder [IntelliJ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij)-IDEs können ebenfalls verwendet werden, um das Tutorial abzuschließen. Weitere Informationen zur Verwendung einer IDE zur Entwicklung mit AEM [finden Sie hier](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
+Die Tutorial-Schritte und Screenshots werden mit CRXDE-Lite ausgeführt. [Eclipse](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse)- oder [IntelliJ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij)-IDEs können ebenfalls verwendet werden, um das Tutorial abzuschließen. Weitere Informationen zur Verwendung einer IDE zur Entwicklung mit AEM [finden Sie hier](https://experienceleague.adobe.com/de/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
 
 ## Projekt-Setup {#project-setup}
 
-Der Quell-Code eines Screens-Projekts wird normalerweise als Maven-Projekt mit mehreren Modulen verwaltet. Um das Tutorial zu beschleunigen, wurde ein Projekt mithilfe des [AEM-Projektarchetyps 13](https://github.com/adobe/aem-project-archetype) vorgeneriert. Weitere Informationen zum [Erstellen eines Projekts mit einem Maven-Archetyp für AEM-Projekte finden Sie hier](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
+Der Quell-Code eines Screens-Projekts wird normalerweise als Maven-Projekt mit mehreren Modulen verwaltet. Um das Tutorial zu beschleunigen, wurde ein Projekt mithilfe des [AEM-Projektarchetyps 13](https://github.com/adobe/aem-project-archetype) vorgeneriert. Weitere Informationen zum [Erstellen eines Projekts mit einem Maven-Archetyp für AEM-Projekte finden Sie hier](https://experienceleague.adobe.com/de/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
 
 1. Laden Sie die folgenden Pakete herunter und installieren Sie diese mit **CRX Package Manage** `http://localhost:4502/crx/packmgr/index.jsp)r:`
 
@@ -133,7 +133,7 @@ Die Poster-Komponente wird im Vollbildmodus im Vorschau-/Produktionsmodus wieder
 
    Kopiertes Dialogfeld aus `/libs/wcm/foundation/components/image/cq:dialog` nach `/apps/weretail-run/components/content/poster`
 
-   Die AEM Screens `image` -Komponente ist der WCM Foundation-Komponente übergeordnet `image` -Komponente. Daher erbt die Komponente `poster` die Funktionalität von beiden. Das Dialogfeld für die Poster-Komponente besteht aus einer Kombination der Dialogfelder „Screens“ und „Foundation“. Funktionen von **Sling Resource Merger** werden verwendet, um irrelevante Dialogfelder und Registerkarten auszublenden, die von den übergeordneten Komponenten übernommen werden.
+   Die AEM Screens `image` -Komponente ist der WCM Foundation-Komponente übergeordnet `image` -Komponente. Daher wird die `poster` -Komponente erbt die Funktionalität von beiden. Das Dialogfeld für die Poster-Komponente besteht aus einer Kombination der Dialogfelder „Screens“ und „Foundation“. Funktionen von **Sling Resource Merger** werden verwendet, um irrelevante Dialogfelder und Registerkarten auszublenden, die von den übergeordneten Komponenten übernommen werden.
 
 1. Aktualisieren Sie die `cq:dialog` unter `/apps/weretail-run/components/content/poster` mit den folgenden in XML dargestellten Änderungen:
 
@@ -240,7 +240,7 @@ Die Poster-Komponente wird im Vollbildmodus im Vorschau-/Produktionsmodus wieder
 
    Die Eigenschaft `sling:hideChildren`= `"[linkURL,size]`&quot; wird auf dem Knoten `items` verwendet, um sicherzustellen, dass die Felder **linkURL** und **size** aus dem Dialogfeld ausgeblendet werden. Es genügt nicht, diese Knoten aus dem Poster-Dialogfeld zu entfernen. Mit der Eigenschaft `sling:hideResource="{Boolean}true"` auf der Registerkarte „Erreichbarkeit“ wird die gesamte Registerkarte ausgeblendet.
 
-   Dem Dialogfeld werden zwei Klickfelder hinzugefügt, damit Autoren die Textposition und Farbe des Titels und der Beschreibung steuern können.
+   Dem Dialogfeld &quot;Textposition und Textfarbe&quot;werden zwei Klickfelder hinzugefügt, damit Autoren die Position des Texts und die Farbe des Titels und der Beschreibung steuern können.
 
    ![Poster - Final Dialog Structure](assets/2018-05-03_at_4_49pm.png)
 
@@ -280,7 +280,7 @@ Die Poster-Komponente wird im Vollbildmodus im Vorschau-/Produktionsmodus wieder
 
    `The h1`- und h2-Tags werden hinzugefügt, um den Titel und die Beschreibung anhand der Komponenteneigenschaften anzuzeigen: `${properties.jcr:title}` und `${properties.jcr:description}`.
 
-   Die `h1`- und `h2`-Tags werden von einem Div-Wrapper mit drei CSS-Klassen mit Varianten von `cmp-poster__text` umgeben. Der Wert für die Eigenschaften `textPosition` und `textColor` wird verwendet, um die CSS-Klasse zu ändern, die anhand der Dialogfeldauswahl des Autors wiedergegeben wird. Im nächsten Abschnitt werden CSS aus Client-Bibliotheken geschrieben, um diese Änderungen in der Anzeige zu aktivieren.
+   Die `h1` und `h2` -Tags ist ein Div-Wrapper mit drei CSS-Klassen mit Varianten von &quot;`cmp-poster__text`.&quot; Der Wert für die Eigenschaften `textPosition` und `textColor` wird verwendet, um die CSS-Klasse zu ändern, die anhand der Dialogfeldauswahl des Autors wiedergegeben wird. Im nächsten Abschnitt werden CSS aus Client-Bibliotheken geschrieben, um diese Änderungen in der Anzeige zu aktivieren.
 
    Ein Logo ist auch als Überlagerung in der Komponente enthalten. In diesem Beispiel wird der Pfad zum` We.Retail` Das -Logo ist im DAM hartcodiert. Je nach Nutzungsszenario ist es möglicherweise sinnvoller, ein neues Dialogfeld zu erstellen, in dem der Logo-Pfad als dynamischer Wert eingegeben wird.
 
@@ -337,9 +337,9 @@ AEM Screens-Komponenten werden im Bearbeitungsmodus anders als im Vorschaumodus/
 
    Eigenschaften für /apps/weretail-run/components/content/poster/clientlibs/shared
 
-   Die Eigenschaft `categories` ist eine Zeichenfolge, die die Client-Bibliothek identifiziert. Die Kategorie `cq.screens.components` wird sowohl im Bearbeitungs- als auch im Vorschau-/Produktionsmodus verwendet. Daher wird jedes in der Clientlib `shared` definierte CSS/JS in allen Modi geladen.
+   Die Eigenschaft `categories` ist eine Zeichenfolge, die die Client-Bibliothek identifiziert. Die Kategorie `cq.screens.components` wird sowohl im Bearbeitungs- als auch im Vorschau-/Produktionsmodus verwendet. Daher ist jedes CSS/JS, das im `shared` clientlib wird in allen Modi geladen.
 
-   Es empfiehlt sich, in einer Produktionsumgebung niemals Pfade direkt zu /apps bereitzustellen. Die `allowProxy` -Eigenschaft stellt sicher, dass auf die CSS- und JS-Client-Bibliothek über ein Präfix von `/etc.clientlibs`. Weitere Informationen über die Eigenschaft „allowProxy“ [finden Sie hier](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs).
+   Es empfiehlt sich, niemals Pfade direkt zu `/apps` in einer Produktionsumgebung. Die `allowProxy` -Eigenschaft stellt sicher, dass CSS und JS der Client-Bibliothek über ein Präfix von `/etc.clientlibs`. Weitere Informationen über die Eigenschaft „allowProxy“ [finden Sie hier](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs).
 
 1. Erstellen Sie eine Datei mit dem Namen `css.txt` unter dem freigegebenen Ordner.
 
@@ -362,7 +362,7 @@ AEM Screens-Komponenten werden im Bearbeitungsmodus anders als im Vorschaumodus/
    ```css
    /*
     /apps/weretail-run/components/content/poster/clientlibs/shared/css/styles.less
-    Poster Component - Shared Style
+    Poster component - Shared Style
    */
    
    @import url('https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:400i');
@@ -418,7 +418,7 @@ AEM Screens-Komponenten werden im Bearbeitungsmodus anders als im Vorschaumodus/
 
    ![2018-05-03_at_1114pm](assets/2018-05-03_at_1114pm.png)
 
-1. Aktualisieren Sie die `categories` -Eigenschaft der Produktions-Client-Bibliothek `cq.screens.components.production.`
+1. Ändern Sie den Wert der Eigenschaft `categories` der Produktions-Client-Bibliothek in `cq.screens.components.production.`.
 
    Die Kategorie `cq.screens.components.production` stellt sicher, dass die Stile nur im Vorschau-/Produktionsmodus geladen werden.
 
@@ -431,7 +431,7 @@ AEM Screens-Komponenten werden im Bearbeitungsmodus anders als im Vorschaumodus/
    ```css
    /*
     /apps/weretail-run/components/content/poster/clientlibs/production/css/styles.less
-    Poster Component - Production Style
+    Poster component - Production Style
    */
    
    .cmp-poster {
@@ -491,7 +491,7 @@ Eine dritte Client-Bibliothekskategorie: `cq.screens.components.edit` kann verwe
 
 ## Hinzufügen einer Poster-Komponente zu einem Sequenzkanal {#add-sequence-channel}
 
-Die Poster-Komponente wird in einem Sequenzkanal verwendet. Das Startpaket für dieses Tutorial enthielt einen inaktiven Kanal. Der inaktive Kanal ist vorkonfiguriert, um Komponenten der Gruppe zuzulassen **`We.Retail Run - Content`**. Die Gruppe der Poster-Komponente ist auf `We.Retail Run - Content` eingestellt und kann dem Kanal hinzugefügt werden.
+Die Poster-Komponente wird in einem Sequenzkanal verwendet. Das Startpaket für dieses Tutorial enthielt einen inaktiven Kanal. Der inaktive Kanal ist so vorkonfiguriert, dass Komponenten der Gruppe zugelassen werden **`We.Retail Run - Content`**. Die Gruppe der Poster-Komponente ist auf `We.Retail Run - Content` eingestellt und kann dem Kanal hinzugefügt werden.
 
 1. Öffnen Sie den inaktiven Kanal über die `We.Retail` Projekt ausführen: **`http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`**
 1. Ziehen Sie eine neue Instanz der **Poster**-Komponente aus der Seitenleiste auf die Seite.
@@ -508,7 +508,7 @@ Die Poster-Komponente wird in einem Sequenzkanal verwendet. Das Startpaket für 
 
 ## Zusammenfassung {#putting-it-all-together}
 
-Das folgende Video zeigt die fertige Komponente und wie sie einem Sequenzkanal hinzugefügt werden kann. Der Kanal wird dann einer Standortsanzeige hinzugefügt und letztendlich einem Screens-Player zugewiesen.
+Das folgende Video zeigt die fertige Komponente und wie sie einem Sequenzkanal hinzugefügt werden kann. Der Kanal wird dann zu einer Standort-Anzeige hinzugefügt und letztendlich einem Screens-Player zugewiesen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22414?quaity=9)
 
@@ -516,10 +516,10 @@ Das folgende Video zeigt die fertige Komponente und wie sie einem Sequenzkanal h
 
 Unten finden Sie den fertigen Code aus dem Tutorial. **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** und **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip** sind kompilierte AEM-Pakete. Die **SRC-screens-weretail-run-0.0.1.zip** ist der nicht kompilierte Quellcode, der mithilfe von Maven bereitgestellt werden kann.
 
-[Datei abrufen](assets/final-poster-screens-weretail-runuiapps-001-snapshot.zip)
+[Abrufen der Datei](assets/final-poster-screens-weretail-runuiapps-001-snapshot.zip)
 
-[Datei abrufen](assets/final-poster-screens-weretail-runuicontent-001-snapshot.zip)
+[Abrufen der Datei](assets/final-poster-screens-weretail-runuicontent-001-snapshot.zip)
 
 SRC Final AEM Screens `We.Retail` Projekt ausführen
 
-[Datei abrufen](assets/src-screens-weretail-run-001.zip)
+[Abrufen der Datei](assets/src-screens-weretail-run-001.zip)

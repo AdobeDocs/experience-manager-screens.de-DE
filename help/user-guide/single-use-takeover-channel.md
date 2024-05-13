@@ -1,15 +1,15 @@
 ---
 title: Übernahmekanal für die einmalige Verwendung
-description: In diesem Anwendungsfall erfahren Sie, wie Sie einen Übernahmekanal für die einmalige Verwendung erstellen.
+description: In diesem Nutzungsszenario erfahren Sie, wie Sie einen Übernahmekanal für die einmalige Verwendung erstellen.
 contentOwner: jsyal
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
 source-wordcount: '623'
-ht-degree: 87%
+ht-degree: 75%
 
 ---
 
@@ -66,7 +66,7 @@ Gehen Sie wie folgt vor, um ein Projekt einzurichten:
 
    ![Asset](assets/single-takeover4.png)
 
-1. Richten Sie einen Standort und eine Anzeige für Ihre Kanäle ein. Beispielsweise werden für dieses Projekt der Standort **Lobby** und die Anzeige **MainLobbyDisplay** eingerichtet.
+1. Richten Sie einen Standort und eine Anzeige für Ihre Kanäle ein. Beispielsweise die folgenden **Lobby** Standort und **MainLobbyDisplay** für dieses Projekt eingerichtet sind.
 
    ![Asset](assets/single-takeover5.png)
 
@@ -93,12 +93,12 @@ Gehen Sie wie folgt vor, um ein Projekt einzurichten:
      >[!NOTE]
      >Die Priorität kann ein beliebiger Wert sein, der höher als die Priorität des normalerweise zur Wiedergabe verwendeten Kanals ist.
    * **Unterstützte Ereignisse**: Klicken Sie auf die **Idle Screen** und **Timer**.
-   * **Zeitplan**: Geben Sie den Text für den Zeitplan ein, nach dem dieser Kanal die Anzeige ausführen soll. Der Text hier ermöglicht es beispielsweise, den Inhalt am 31. Dezember von 2 Minuten vor Mitternacht bis 00:01 Uhr wiederzugeben.
+   * **Zeitplan**: Geben Sie den Text für den Zeitplan ein, den dieser Kanal auf der Anzeige ausführen soll. Der Text hier ermöglicht es beispielsweise, den Inhalt am 31. Dezember von 2 Minuten vor Mitternacht bis 00:01 Uhr wiederzugeben.
 Der Text im **Zeitplan** in diesem Beispiel gibt den *31. Dezember nach 23:58 Uhr sowie am 1. Januar vor 00:01 Uhr* als Zeitpunkte an.
 
      ![Asset](assets/single-takeover8.png)
 
-     Navigieren Sie zur Anzeige unter **SingleUseTakeOver** > **Standorte** > **Lobby** > **MainLobbyDisplay** und klicken Sie in der Aktionsleiste auf **Dashboard**, um die zugewiesenen Kanäle mit ihren Prioritäten anzuzeigen, wie unten dargestellt.
+     Zur Anzeige navigieren von **SingleUseTakeOver** > **Standorte** > **Lobby** > **MainLobbyDisplay**. Klicks **Dashboard** in der Symbolleiste, damit Sie die zugewiesenen Kanäle mit ihren Prioritäten anzeigen können, wie unten dargestellt.
 
      >[!NOTE]
      >Es ist zwingend erforderlich, die Priorität des Übernahmekanals auf die höchste Stufe zu setzen.

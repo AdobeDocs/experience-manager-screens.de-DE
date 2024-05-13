@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 43%
+source-wordcount: '444'
+ht-degree: 40%
 
 ---
 
@@ -74,7 +74,7 @@ Gehen Sie wie folgt vor, um das Anwendungsbeispiel für die temperaturgesteuerte
 
    >[!CAUTION]
    >
-   >Sie sollten Ihre **ContextHub**-**Konfigurationen** über die **Eigenschaften** für Kanäle auf der Registerkarte **Personalisierung** eingerichtet haben.
+   >Ihre **ContextHub** **Konfigurationen** über den Kanal **Eigenschaften** > **Personalisierung** -Tab bereits eingerichtet sein.
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
@@ -85,6 +85,6 @@ Gehen Sie wie folgt vor, um das Anwendungsbeispiel für die temperaturgesteuerte
 1. **Überprüfen der Vorschau**
 
    1. Klicken Sie auf **Vorschau**. Öffnen Sie außerdem Ihre Google Tabelle und aktualisieren Sie den Wert.
-   1. Ändern Sie den Wert in weniger als 50. Sie sollten ein Bild eines kalten Getränks sehen können. Wenn der Wert in Google Tabellen 50 oder höher ist, sollte ein Bild eines heißen Getränks angezeigt werden.
+   1. Ändern Sie den Wert in weniger als 50. Sie können ein Bild eines kalten Getränks sehen. Wenn der Wert in Google Tabellen 50 oder höher ist, sollte ein Bild eines heißen Getränks angezeigt werden.
 
    ![result3](assets/result3.gif)

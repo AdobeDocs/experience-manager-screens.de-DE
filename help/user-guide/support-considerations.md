@@ -10,10 +10,10 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: d1472137-c15f-44fb-89c3-d251a06c392b
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 44%
+source-wordcount: '608'
+ht-degree: 38%
 
 ---
 
@@ -41,17 +41,16 @@ Die Planung umfasst:
 
 ## Zusammenfassen der wichtigsten Aspekte für Tag 2-Support {#summary-of-key-considerations-involved-in-day-support}
 
-Im Folgenden finden Sie einige wichtige Aspekte für Tag 2-Support:
+Im Folgenden finden Sie einige wichtige Aspekte für Tag 2-Support:
 
-* Um die Ausrichtung und den reibungslosen Übergang von der Implementierung zur Betriebsunterstützung sicherzustellen, arbeitet der AEM-Implementor mit dem Audio-Video-Integrator zusammen, um sicherzustellen, dass die entsprechenden Support-Skripte im Rahmen des Tag 2-Support-Plans definiert werden.
+* Um die Ausrichtung und den reibungslosen Übergang von der Implementierung zur Betriebsunterstützung sicherzustellen, arbeitet der AEM-Implementor mit dem Audio-Video-Integrator zusammen. Gemeinsam stellen sie sicher, dass die entsprechenden Support-Skripte im Rahmen des Support-Plans für Tag 2 definiert werden.
 * Anforderungen wie Remote-Geräteverwaltung, Hilfe-Desk-Verfügbarkeit und Vor-Ort-Support durch Techniker sind in diesem Stadium der Entwicklung der Digital Signage-Branche praktisch gegeben. Über diesen Grundbedarf hinaus sollten Audio-Video-Integratoren auch Kostenvariablen zwischen proaktiven und reaktiven Monitoring- und Support-Modellen untersuchen.
-
 * Anforderungen wie Remote-Geräteverwaltung, Hilfe-Desk-Verfügbarkeit und Vor-Ort-Support durch Techniker sind in diesem Stadium der Entwicklung der Digital Signage-Branche praktisch gegeben. Über diesen Grundbedarf hinaus sollten Audio-Video-Integratoren auch Kostenvariablen zwischen proaktiven und reaktiven Monitoring- und Support-Modellen untersuchen.
 * Um sich auf langfristigen Erfolg vorzubereiten, ist es von größter Bedeutung, in Zusammenarbeit mit dem Audio-Video-Integrator einen Support Level Agreement für Tag 2 (auch als &quot;S.L.A.&quot;bezeichnet) einzuführen. SLAs beschreiben Support-Services nach der Bereitstellung und helfen dabei, Kundenerwartungen festzulegen.
-* Eine wichtige Ressource für die erfolgreiche Verwaltung mehrerer Netzwerke ist die Wissensdatenbank. SharePoint ist eine beliebte Plattform für diese Art von Ressource. Die Wissensdatenbank enthält vordefinierte Fragen und Antworten für NOC-Agenten, um sicherzustellen, dass eingehende Anfragen zur Problemlösung konsistent behandelt werden. Wissensdatenbanken beinhalten in der Regel Referenzmaterialien für Systemkonfigurationen und Standorte, einschließlich Arbeitsblättern für Hardware und Referenzmaterialien für Systemsoftware.
+* Eine wichtige Ressource für die erfolgreiche Verwaltung mehrerer Netzwerke ist die Wissensdatenbank. SharePoint ist eine beliebte Plattform für diese Art von Ressource. Die Wissensdatenbank enthält vordefinierte Fragen und Antworten für NOC-Agenten, um sicherzustellen, dass eingehende Anfragen zur Problemlösung konsistent behandelt werden. Wissensdatenbanken enthalten in der Regel Referenzmaterialien für Systemkonfigurationen und Standorte von Websites. Die Wissensdatenbank kann manchmal auch Stanzblätter für Hardware und Referenzmaterialien für Systemsoftware enthalten.
 * Überwachungs- und Verwaltungsfunktionen sind weitgehend von den Betriebssystem- und Bildschirmfunktionen des Media-Players abhängig. Windows-Betriebssysteme bieten die größte Detailgenauigkeit. Bei Implementierungen, die auf Android™- oder iOS-Geräten ausgeführt werden, wird Mobile Device Management (auch MDM genannt) verwendet.
 * Einige Bildschirmhersteller bieten die Möglichkeit, Bildschirme unabhängig von Media-Playern zu überwachen, andere hingegen benötigen ein externes Gerät.
-* Audio-Video-Integratoren verwenden eine Vielzahl von Technologien, sodass Lösungen flexibel bleiben, um die Anforderungen des Endkunden optimal zu erfüllen.
+* Audio-Video-Integratoren verwenden eine Vielzahl von Technologien, um sicherzustellen, dass die Lösungen flexibel bleiben, um die Anforderungen des Endkunden optimal zu erfüllen.
 
 ## Teil 5: Video-Tutorial zu Support-Aspekten {#part-video-tutorial-on-support-considerations}
 

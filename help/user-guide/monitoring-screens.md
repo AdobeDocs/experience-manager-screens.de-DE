@@ -10,10 +10,10 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 71%
+source-wordcount: '779'
+ht-degree: 68%
 
 ---
 
@@ -144,13 +144,13 @@ AEM ermöglicht die integrierte Überwachung für:
 
 * *Heartbeat* alle fünf Sekunden, um anzugeben, dass der AEM Screens-Player betriebsbereit ist.
 * *Screenshot* des Players, um zu sehen, was derzeit im Player angezeigt wird.
-* Die *AEM Screens-Player-Firmware* Version, die auf dem Player installiert ist.
+* Die *AEM Screens Player-Firmware* auf dem Player installiert ist.
 * *Freier Speicherplatz* auf dem Player.
 
 Empfehlungen für die Remote-Überwachung mit Software von Drittanbietern:
 
-* CPU-Auslastung auf den Playern.
-* Überprüfung, ob der Prozess für AEM Screens-Player ausgeführt wird.
+* CPU-Auslastung in Playern.
+* Überprüfen Sie, ob der AEM Screens Player-Prozess ausgeführt wird.
 * Remote Neustart/Reboot des Players.
 * Benachrichtigungen in Echtzeit.
 

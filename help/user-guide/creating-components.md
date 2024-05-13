@@ -9,10 +9,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 4d673039-4963-458a-89e9-023a993dd354
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
 source-wordcount: '282'
-ht-degree: 53%
+ht-degree: 40%
 
 ---
 
@@ -22,7 +22,7 @@ AEM-Komponenten werden verwendet, um den Inhalt, den Sie auf Ihren Web-Seiten be
 
 >[!NOTE]
 >
->Detaillierte Informationen über die Erstellung von AEM-Komponenten finden Sie unter „Entwickeln von AEM-Komponenten“.
+>Weitere Informationen zum Erstellen AEM Komponenten finden Sie unter Entwickeln AEM Komponenten.
 
 ## Authoring von Kanälen {#authoring-channels}
 
@@ -47,7 +47,7 @@ Die integrierten Komponenten nutzen die folgenden Client-Bibliothekskategorien:
 
 | **Komponente** | **Client-Bibliothek** |
 |---|---|
-| *cq.screens.components.edit* | CSS und JS, die bei der Inhaltserstellung geladen werden müssen |
+| *cq.screens.components.edit* | CSS und JS, die beim Authoring geladen werden müssen |
 | *cq.screens.components.production* | CSS und JS, die geladen werden müssen, wenn der Kanal ausgeführt wird |
 | *cq.screens.components* | freigegebene CSS und JS |
 
