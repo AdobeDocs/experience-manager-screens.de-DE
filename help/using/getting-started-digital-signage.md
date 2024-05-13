@@ -1,11 +1,11 @@
 ---
 title: Grundlagen von Digital Signage für [!UICONTROL AEM Screens]
-description: Lernen Sie die Grundlagen eines Digital Signage-Projekts kennen.
+description: Erfahren Sie mehr über die Grundlagen eines Digital Signage-Projekts.
 exl-id: e3913be2-9028-4773-a034-e16924a71e04
 source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '406'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Ein Definieren der Schlüsselelemente ist vor Implementierung eines Digital-Sign
 
    Die Hardware bestimmt darüber, welche Hardwarekomponenten sich zur Implementierung Ihres Digital-Signage-Projekts eignen:
    * Verfügt das Gerät über ausreichend Speicherplatz, um alle Varianten der Erlebnisse offline ausführen zu können?
-   * Sind Videokabelart und -länge zugelassen? Unterstützt das Gerät beide gewünschten Auflösungen (HD, FullHD, `4K`usw.) und Video-Codecs, die ich bereitstellen möchte (h.264, h.265 usw.)
+   * Wurden Art und Länge der Videokabel berücksichtigt? Unterstützt das Gerät sowohl die gewünschten Auflösungen (HD, FullHD, `4K`) und Video-Codecs, die ich bereitstellen möchte (h.264, h.265 )?
    * Einsatz von Kupferleitungen
    * Größe der Bildschirme
    * Anzahl der Bildschirme
@@ -58,7 +58,7 @@ Ein Definieren der Schlüsselelemente ist vor Implementierung eines Digital-Sign
 1. **Inhalt**
 
    Inhalt umfasst:
-   * Einzel- oder Mehrzonen?
+   * Einzelzone oder Mehrzonen?
       * Wie viele Medien-Assets befinden sich gleichzeitig auf dem Bildschirm?
       * Wie viele Seiten für interaktive Anwendungen?
       * Definieren der UI-Schleife
@@ -72,7 +72,7 @@ Ein Definieren der Schlüsselelemente ist vor Implementierung eines Digital-Sign
       * Tastendruck
       * Geste
    * Datenauslösung (I/O)?
-      * Senden/Empfangen von seriellen Befehlen (Kontaktschließung, PLC usw.)
+      * Senden/Empfangen von seriellen Befehlen (Schließen von Kontakt und PLC)
       * Eingehende Daten werden auf dem Bildschirm angezeigt (RSS) oder lösen Inhalt aus
       * RFID/NFC/Bluetooth/iBeacon
       * Externe Services (Wetter, Verkehr)
@@ -94,5 +94,5 @@ Ein Definieren der Schlüsselelemente ist vor Implementierung eines Digital-Sign
    * Sind Installationsanleitungen und Benutzerhandbücher erforderlich?
    * Konfigurieren (programmieren) Sie das Gerät vor dem Versand?
    * Müssen Sie jede Seriennummer zu Tracking-Zwecken erfassen?
-   * Gibt es einen Bedarf an einer Stromversorgungsreserve (unterbrechungsfreie Stromversorgung)?
+   * Gibt es Bedarf an einer Reservestromversorgung (unterbrechungsfreien Stromversorgung)?
    * Wie werden Systemaktualisierungen bereitgestellt? Und wie werden Geräte remote überwacht? Ist eine MDM-Lösung erforderlich?
