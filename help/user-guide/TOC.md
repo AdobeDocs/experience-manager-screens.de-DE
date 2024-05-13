@@ -8,10 +8,10 @@ user-guide-description: Erfahren Sie, wie Sie mit einer Digital-Signage-Lösung 
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 98%
+source-wordcount: '520'
+ht-degree: 95%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 98%
    + [Teil 4: Projekt-Management und Bereitstellung](project-management-and-deployment.md)
    + [Teil 5: Support-Aspekte](support-considerations.md)
 + Konfiguration und Verwaltung {#administering}
-   + [Screens-Server-Konfigurationen](configuring-screens-introduction.md)
+   + [Konfigurieren des Screens-Servers](configuring-screens-introduction.md)
    + [Einrichten von Dispatcher-Konfigurationen](dispatcher-configurations-aem-screens.md)
    + [Installieren des Screens-Players](installing-screens-player.md)
    + [Verbinden des Screens-Players](working-with-screens-player.md)
@@ -40,7 +40,7 @@ ht-degree: 98%
    + [Umstellung von ContentSync auf SmartSync](smartsync.md)
    + [Importer für neue Projekte aus einer Datei](project-importer.md)
    + [Replizieren von Daten-Triggern auf Veröffentlichungs-Servern](replicating-data-triggers.md)
-   + [Konfigurieren von Screens-Replikationsagenten](configure-screens-replication.md)
+   + [Konfigurieren von Replikationsagenten auf Screens](configure-screens-replication.md)
    + Kundenspezifische Aspekte {#installing-client}
       + [Chrome OS-Player](implementing-chrome-os-player.md)
       + [Verwenden von Chrome-Player als Erweiterung zur Problembehebung](using-chrome-player-as-an-extension.md)
@@ -100,7 +100,7 @@ ht-degree: 98%
       + [Anwenden von Übergängen](applying-transitions.md)
       + [Übergang von mehreren zu einzelnen Zonen](multizone-to-singlezone.md)
       + [Übernahmekanal für die einmalige Verwendung](single-use-takeover-channel.md)
-      + [Übernahmekanal für die unbefristete Verwendung](perpetual-takeover-channel.md)
+      + [Unbefristete Verwendung des Übernahmekanals](perpetual-takeover-channel.md)
 + Entwickler- und API-Ressourcen {#developing}
    + [REST-APIs](rest-api.md)
    + [Entwickeln einer benutzerdefinierten Komponente für AEM Screens](developing-custom-component-tutorial-develop.md)
@@ -112,7 +112,7 @@ ht-degree: 98%
    + [Erstellen benutzerdefinierter Vorlagen für Mehrzonen-Layouts](creating-custom-templates-multizone-layouts.md)
    + [Anwenden von benutzerdefiniertem Branding und Styling für Textüberlagerungen](custom-branding-text-overlays.md)
    + [Adaptive Ausgabedarstellungen: Überblick über die Architektur und Konfigurationen](/help/user-guide/adaptive-renditions.md)
-+ Problembehebung und häufig gestellte Fragen {#troubleshooting}
++ Fehlerbehebung und häufig gestellte Fragen {#troubleshooting}
    + [Häufig gestellte Fragen zu AEM Screens](aem-screens-faqs.md)
    + [Problembehebung im Geräte-Kontrollzentrum](monitoring-screens.md)
    + [Konfiguration der Videowiedergabe](troubleshoot-videos.md)

@@ -1,10 +1,10 @@
 ---
 title: Richtlinien zur Hardware-Auswahl für Player-Geräte
 description: Erfahren Sie mehr über Richtlinien zur Hardware-Auswahl für AEM Screens Player-Geräte.
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 74%
+source-wordcount: '228'
+ht-degree: 82%
 
 ---
 
@@ -13,14 +13,14 @@ ht-degree: 74%
 
 Im folgenden Abschnitt finden Sie die Richtlinien zur Hardware-Auswahl für einen AEM Screens-Player.
 
-## Wichtige Überlegungen {#important-considerations}
+## Wichtige Aspekte {#important-considerations}
 
 * Beziehen Sie für PC-Player und Anzeige-Panels oder Projektoren stets Komponenten von ***Handels-*** oder ***Industrie***-Qualität.
 
 * Arbeiten Sie immer mit Anbietern, die den Markt für Digital Signage bedienen.
 * Berücksichtigen Sie stets Umgebungsfaktoren wie Umgebungstemperatur und relative Luftfeuchtigkeit.
 * Überprüfen Sie stets Strombedarf und Stromkonditionierung.
-* Prüfen Sie sorgfältig die für die Anwendung erforderlichen Leistungsanforderungen und E/A-Anschlüsse.
+* Überprüfen Sie sorgfältig die für die Anwendung erforderlichen Leistungsanforderungen und I/O-Anschlüsse.
 
 ## Hardware-Konfigurationen {#hardware-configurations}
 
@@ -41,9 +41,9 @@ In der folgenden Tabelle sind die Hardware-Konfigurationen mit typischen Anwendu
   </tr>
   <tr>
    <td>Einfach</td>
-   <td>Intel® Atom-Prozessor mit Dualcore, i3 oder Quad-Core-Prozessor der Einstiegsklasse</td>
+   <td>Dual Core-, i3- oder Quad-Core Intel® Atom-Prozessor der Einstiegsklasse</td>
    <td><p>4 GB Arbeitsspeicher</p> <p>2 MB Cache</p> </td>
-   <td><p>*ChromeOS 32 GB</p> <p>*Windows 128 GB</p> </td>
+   <td><p>*Chrome OS 32 GB</p> <p>•Windows 128 GB</p> </td>
    <td>OnBoard</td>
    <td>1920 x 1080</td>
    <td>DVI<br /> Ethernet/Wireless,<br /> 2xUSB</td>
@@ -55,7 +55,7 @@ In der folgenden Tabelle sind die Hardware-Konfigurationen mit typischen Anwendu
   </tr>
   <tr>
    <td>Standard</td>
-   <td>Quadcore, Intel® Core™ i5 Prozessor</td>
+   <td>Intel® Core™ i5-Prozessor (Quad-Core)</td>
    <td><p>8 GB Arbeitsspeicher</p> <p>4 MB Cache</p> </td>
    <td>128 GB</td>
    <td>OnBoard</td>
@@ -70,7 +70,7 @@ In der folgenden Tabelle sind die Hardware-Konfigurationen mit typischen Anwendu
   </tr>
   <tr>
    <td>Erweitert</td>
-   <td>Quadcore mit Hyperthreading, Intel® Core™ i7 Prozessor</td>
+   <td>Intel® Core™ i7-Prozessor, Quad-Core mit Hyperthreading</td>
    <td><p>16 GB Arbeitsspeicher</p> <p>8 MB Cache</p> </td>
    <td>256 GB</td>
    <td>Dedizierte Grafik-GPU</td>

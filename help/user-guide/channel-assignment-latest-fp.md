@@ -5,10 +5,10 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
-source-wordcount: '1448'
-ht-degree: 86%
+source-wordcount: '1447'
+ht-degree: 79%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 86%
 
 >[!IMPORTANT]
 >
->In diesem Abschnitt werden Kanalzuweisung und -zeitplanung für das AEM Screens 6.5.5 Feature Pack (und höher) beschrieben.
+>In diesem Abschnitt wird die Kanalzuweisung und -zeitplanung für AEM 6.5.5 Screens Feature Pack (und höher) beschrieben.
 
 Wenn Sie eine Anzeige eingerichtet haben, weisen Sie einen Kanal einer Anzeige zu, um Ihren Inhalt anzuzeigen.
 
@@ -37,7 +37,7 @@ Gehen Sie wie folgt vor, um ein Projekt und einen Kanal einzurichten:
 
 1. Erstellen Sie ein AEM Screens-Projekt mit dem Titel **DemoScreens**.
 
-   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp1.png)
+   ![Bild](/help/user-guide/assets/channel-assignment/channel-assign-fp1.png)
 
    >[!NOTE]
    >Informationen zum Erstellen eines AEM Screens-Projekts finden Sie unter [Erstellen und Verwalten von Projekten](creating-a-screens-project.md).
@@ -134,7 +134,7 @@ Mit der Auswahl eines Kanals können Sie einen Verweis zum gewünschten Kanal be
 
 ### Kanalrolle {#role-channel}
 
-Mit „Kanalrolle“ wird der Kontext der Anzeige definiert. Die Rolle kann durch verschiedene Aktionen festgelegt werden und ist unabhängig vom eigentlichen Kanal, der die Rolle ausfüllt.
+Mit „Kanalrolle“ wird der Kontext der Anzeige definiert. Verschiedene Aktionen zielen auf die Rolle ab. Sie ist unabhängig vom tatsächlichen Kanal, der die Rolle erfüllt.
 
 ### Priorität {#priority-channel}
 
@@ -158,7 +158,7 @@ Die Priorität wird verwendet, um die Zuweisungen in eine Reihenfolge zu bringen
 
 Als Inhaltsautor können Sie festlegen, wann ein Kanal unterbrochen wird. Auf diese Weise können Sie nicht-kritische Inhalte wegschneiden. Die Methode bietet Ihnen jedoch auch die Möglichkeit, wichtige Inhalte vollständig wiederzugeben, bevor Sie sie aufgrund der Planung kürzen.
 
-Wählen Sie eine der folgenden Optionen aus, die zum Festlegen der Unterbrechungsmethode im Dialogfeld **Kanalzuweisung** verfügbar sind:
+Wählen Sie eine der folgenden Optionen aus, die verfügbar sind, um die Unterbrechungsmethode über die **Kanalzuweisung** Dialogfeld:
 
 * **Sofort**: Wenn der Zeitplan aktiviert oder eine Aktualisierung empfangen wird, können Sie die Wiedergabe abbrechen und den neuen Inhalt sofort aktualisieren oder wiedergeben.
 * **Ende des aktuellen Elements**: Wenn ein neuer Zeitplan aktiviert oder eine Aktualisierung empfangen wird, können Sie optional warten, bis die Wiedergabe des aktuellen Elements in der Sequenz abgeschlossen ist. Erst danach können Sie den neuen Inhalt aktualisieren oder wiedergeben.
@@ -185,11 +185,11 @@ Mit dem Intervallzeitplan können Sie einen Zeitplan für Ihre Inhalte festlegen
 
 >[!NOTE]
 >Sie können Ihrem Kanal mehrere Intervallzeitpläne hinzufügen.
->Mit den Intervallzeitplänen wird eine *Tageszeiteneinteilung* eingeführt, wodurch Sie einen globalen Zeitplan mit mehreren Kanälen festlegen können, die zu bestimmten Tageszeiten ausgeführt werden. Diese Einstellung kann dann für alle Displays wiederverwendet werden.
+>Einführung in Intervallzeitpläne *Dayparting*. Sie legen einen globalen Zeitplan mit mehreren Kanälen fest, die zu bestimmten Tageszeiten ausgeführt werden, und verwenden diese für alle Anzeigen wieder.
 
 Sie können die folgenden Optionen festlegen:
 
-* **Name**: Titel des Intervallzeitplans.
+* **Name** - Titel Ihres Intervallzeitplans.
 * **Wiederholen**: Wählen Sie aus, ob der Zeitplan **täglich**, **wöchentlich**, **monatlich** oder **jährlich** ausgeführt werden soll.
 * **Anfang**: Die Startzeit Ihres Zeitplans.
 * **Ende**: Die Endzeit Ihres Zeitplans. Sie können die Einstellung nach Zeit oder Dauer festlegen.

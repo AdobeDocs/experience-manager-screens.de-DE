@@ -1,10 +1,10 @@
 ---
 title: Umgebungen für [!UICONTROL AEM Screens]
 description: Erfahren Sie mehr über die Umgebungen für ein AEM Screens-Projekt.
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 61%
+ht-degree: 67%
 
 ---
 
@@ -29,4 +29,4 @@ Beachten Sie folgende Richtlinien zur Einrichtung der Umgebung für Ihr AEM Scr
 
 1. Installieren Sie dieselben Softwarepakete in Ihrer lokalen Entwicklungsumgebung.
 
-1. Weisen Sie Ihren Klienten an, dieselbe Konfiguration auf allen QA-, Staging- und Produktionsservern zu verwenden. Nicht übereinstimmende Serverkonfigurationen verursachen Probleme bei der Bereitstellung und beim Testen.
+1. Weisen Sie Ihren Client an, dieselbe Konfiguration auf allen QA-, Staging- und Produktions-Servern zu verwenden. Nicht übereinstimmende Server-Konfigurationen verursachen Probleme bei Bereitstellung und Tests.
