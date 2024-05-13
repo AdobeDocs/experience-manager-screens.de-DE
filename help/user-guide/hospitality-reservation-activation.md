@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 37%
+source-wordcount: '448'
+ht-degree: 33%
 
 ---
 
@@ -23,9 +23,9 @@ Das folgende Nutzungsszenario veranschaulicht die Verwendung der Aktivierung von
 
 ## Beschreibung {#description}
 
-In diesem Anwendungsbeispiel wird die Google Tabelle mit dem prozentualen Anteil der Reservierungen in zwei Restaurants ausgefüllt **`Restaurant1`** und **`Restaurant2`**. Eine Formel wird anhand der Werte von `Restaurant1` und `Restaurant2` und basierend auf der Formel wird der Wert 1 oder 2 dem **AdTarget** Spalte.
+In diesem Anwendungsbeispiel wird die Google Tabelle mit dem prozentualen Anteil der Reservierungen in zwei Restaurants ausgefüllt **`Restaurant1`** und **`Restaurant2`**. Eine Formel wird anhand der Werte von `Restaurant1` und `Restaurant2` und, basierend auf der Formel, dem Wert 1 oder 2 zugewiesen wird. **AdTarget** Spalte.
 
-Wenn der Wert von **`Restaurant1`** > **`Restaurant2`**, dann **AdTarget** zugewiesener Wert **1** else **AdTarget** zugewiesener Wert **2**. Wert 1 generiert *Stechnahrung* -Option und -Wert: Ergebnisse der Anzeige von *Thailändische Küche* auf Ihrem Bildschirm angezeigt.
+Wenn der Wert von **`Restaurant1`** > **`Restaurant2`**, dann **AdTarget** zugewiesener Wert **1** else **AdTarget** zugewiesener Wert **2**. Wert 1 generiert eine *Stechnahrung* Option und Wert zwei führt zur Anzeige von *Thailändische Küche* auf Ihrem Bildschirm angezeigt.
 
 ## Voraussetzungen {#preconditions}
 
@@ -66,7 +66,7 @@ Gehen Sie wie folgt vor, um die Aktivierung der Reservierung für Gastgewerbe f�
 
    >[!CAUTION]
    >
-   >Sie sollten Ihre **ContextHub**-**Konfigurationen** auf der Registerkarte **Eigenschaften** für Kanäle > **Personalisierung** eingerichtet haben.
+   >Ihre **ContextHub** **Konfigurationen** über den Kanal **Eigenschaften** > **Personalisierung** -Tab hätte zu diesem Zeitpunkt bereits eingerichtet sein müssen.
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 

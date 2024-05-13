@@ -2,18 +2,18 @@
 title: Empfohlener Ansatz
 description: Erfahren Sie mehr über den empfohlenen Ansatz in einem AEM Screens-Projekt.
 exl-id: 28aacffa-e9c9-4ccb-8038-720bb3e02a3f
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 44%
+source-wordcount: '424'
+ht-degree: 38%
 
 ---
 
 # Empfohlener Ansatz {#recommended-approach}
 
-Es wird empfohlen, alle AEM Screens-Projekte auf Unternehmensebene als langfristige Projekte zu betrachten. Eine Projektdauer von einem oder mehreren Jahren ist wahrscheinlich, insbesondere wenn die Lösung komplexe Benutzerinteraktionen ermöglicht oder auf verschiedenen Geräten und Standorten bereitgestellt wird.
+Es ist Best Practice, sich jedes AEM Screens-Projekt auf Unternehmensebene als langfristiges Unternehmen vorstellen zu lassen. Eine Projektdauer von einem oder mehreren Jahren ist wahrscheinlich, insbesondere wenn die Lösung komplexe Benutzerinteraktionen ermöglicht oder auf verschiedenen Geräten und Standorten bereitgestellt wird.
 
-## Leitlinien vor der Entwicklung einer Digital-Signage-Strategie {#signage-strategy}
+## Leitlinien für die Entwicklung einer Digital Signage-Strategie {#signage-strategy}
 
 Beachten Sie die folgenden Empfehlungen, bevor Sie ein Digital-Signage-Projekt entwickeln und bereitstellen:
 
@@ -38,7 +38,7 @@ Erarbeiten Sie Machbarkeitsstudien (POCs), die Sie in der Pilot- und Rollout-Pha
   >
   > Die Vorabkosten für ein AEM Screens-Projekt sind häufig höher, da in Hardware, Geräte und Site-Designs investiert werden muss. Daher kann die Vereinfachung der anfänglichen Inhaltslösungen dazu beitragen, die Budgeterwartungen zu verwalten.
 
-* **Schätzen der großmaßstäblichen Ergebnisse**: Wenn die Lösung in großem Maßstab bereitgestellt wird, wird empfohlen, die Komponenten der Anwendung an sorgfältig ausgewählten Pilotstandorten zur Verwendung in Testsendungen einzuführen. Stellen Sie die Anwendung an neuen Standorten und auf neuen Geräten bereit, sobald die Anwendung die Validierung bestanden hat.
+* **Schätzen der großmaßstäblichen Ergebnisse**: Wenn die Lösung in großem Maßstab bereitgestellt wird, sollten Sie die Komponenten der Anwendung an sorgfältig ausgewählten Pilotstandorten zur Verwendung in Testsendungen einführen. Stellen Sie die Anwendung an neuen Standorten und auf neuen Geräten bereit, sobald die Anwendung die Validierung bestanden hat.
 
   >[!NOTE]
   >
@@ -48,4 +48,4 @@ Erarbeiten Sie Machbarkeitsstudien (POCs), die Sie in der Pilot- und Rollout-Pha
 
 * **Entwickeln eines Fahrplans**: Wenn Ihr Kunde ein funktionsreiches Produkt benötigt, stellen Sie frühzeitig im Projekt einen Teil der geplanten Funktionen bereit und planen Sie andere Funktionen für künftige Phasen. Ein funktionsstarkes First Deliverable birgt ein höheres Risiko und ist schwieriger, mit dem Kunden zu validieren.
 
-* **Umfang benutzerdefinierter Integrationen**: Interaktive Komponenten mit Touchscreen-Interaktionen, Bewegungssensoren oder RFID erfordern eine umfangreiche benutzerdefinierte Entwicklung der Implementierungsmethode. Bildschirmpräsentationen, Videowerbung oder statische Menüs können in einem Screens-Kanal als grafischer Inhalt oder HTML bereitgestellt werden.
+* **Den Umfang benutzerdefinierter Integrationen verstehen**: Interaktive Komponenten mit Touchscreen-Interaktionen, Bewegungssensoren oder RFID erfordern eine umfangreiche benutzerdefinierte Entwicklung der Implementierungsmethode. Bildschirmpräsentationen, Videowerbung oder statische Menüs können in einem Screens-Kanal als grafischer Inhalt oder HTML bereitgestellt werden.

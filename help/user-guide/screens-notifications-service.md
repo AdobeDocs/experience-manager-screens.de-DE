@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 95%
+source-wordcount: '491'
+ht-degree: 75%
 
 ---
 
@@ -63,7 +63,7 @@ Gehen Sie wie folgt vor, um die Einstellungen für E-Mail-Benachrichtigungen zu 
 
    **Häufigkeit**: Geben Sie eine Zeit (z. B. 17.00 Uhr) oder eine Häufigkeit in Stunden (z. B. 1) an, zu der der Service E-Mails senden soll.
 
-   **Ping-Timeout**: Gibt das Intervall in Minuten an, nach dem ein Gerät als nicht erreichbar betrachtet werden soll.
+   **Ping Time Out** - Dieses Feld gibt das Intervall in Minuten an, nach dem ein Gerät als nicht erreichbar betrachtet werden soll.
 
    **SMTP-Server** Gibt den SMTP-Server an, der zum Senden von E-Mails verwendet werden soll.
 
@@ -91,11 +91,14 @@ Nachdem Sie die E-Mail-Benachrichtigungen konfiguriert haben, erhalten Sie eine 
 
 Durch Zugriff auf diesen Link gelangen Sie direkt zum Geräte-Dashboard.
 
-E-Mails werden nur gesendet, wenn es mindestens ein Gerät gibt, das im angegebenen Ping-Zeitraum nicht gepingt hat und zum Zeitpunkt der Generierung der E-Mail immer noch nicht pingt.
+E-Mails werden nur gesendet, wenn:
+
+* Es gibt mindestens ein Gerät, das während des angegebenen Ping-Timeouts nicht gepingt hat, und
+* zum Zeitpunkt der Generierung der E-Mail noch nicht ping.
 
 ### Beispiel-Anwendungsfälle {#example-use-cases}
 
-Im folgenden Beispiel werden zur Referenz einige Szenarien beschrieben, in denen die Eigenschaften des E-Mail-Überwachungs-Services für Screens-Geräte konfiguriert werden.
+Im folgenden Beispiel werden einige Szenarien beschrieben, in denen Sie die Eigenschaften über den E-Mail-Überwachungsdienst für Screens-Geräte konfigurieren können.
 
 **Szenario 1**
 
@@ -103,4 +106,4 @@ Sie legen die Zeitplanfrequenz auf 1:00 Uhr morgens und das Ping-Timeout auf 60
 
 **Szenario 2**
 
-Sie legen die Zeitplanfrequenz auf 1 und das Ping-Timeout auf 60 fest. Wenn Ihr AEM Screens-Gerät dann zu keiner Tageszeit einmal pingt, erhalten Sie eine E-Mail-Benachrichtigung, die die Inaktivität des Geräts bestätigt.
+Sie legen die Zeitplanfrequenz auf 1 und das Ping-Timeout auf 60 fest. Wenn Ihr AEM Screens-Gerät dann zu keiner Tageszeit pingt, erhalten Sie eine E-Mail-Benachrichtigung, die die Inaktivität des Geräts bestätigt.

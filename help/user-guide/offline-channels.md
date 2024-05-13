@@ -10,10 +10,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 67%
+source-wordcount: '427'
+ht-degree: 50%
 
 ---
 
@@ -31,7 +31,7 @@ Der Workflow für den Prozess ist der folgende:
 1. Sammeln Sie alle zugehörigen Assets.
 1. Verpacken Sie alles in einer ZIP-Datei.
 1. Laden Sie die ZIP-Datei herunter und extrahieren Sie sie lokal.
-1. Anzeige einer lokalen Kopie des Inhalts.
+1. Anzeigen einer lokalen Kopie des Inhalts.
 
 ## Update-Handler {#update-handlers}
 
@@ -67,7 +67,7 @@ Der Workflow für den Prozess ist der folgende:
   </tr>
   <tr>
    <td><code>copy</code></td> 
-   <td>kopiert die angegebene Struktur aus dem Pfad</td> 
+   <td>Kopieren Sie die angegebene Struktur aus dem Pfad</td> 
    <td> </td> 
   </tr>
  </tbody>
@@ -77,14 +77,14 @@ Der Workflow für den Prozess ist der folgende:
 
 Befolgen Sie die folgenden Schritte, um die ContentSync-Konfiguration zu testen:
 
-1. Öffnen Sie `https://localhost:4502/libs/cq/contentsync/content/console.html`
+1. Öffnen Sie `https://localhost:4502/libs/cq/contentsync/content/console.html`.
 1. Klicken Sie in der Liste auf Ihre Konfiguration .
-1. Klicken Sie auf „Cache löschen“
-1. Klicken Sie auf „Cache aktualisieren“
-1. Klicken Sie auf „Vollständig herunterladen“
-1. Entpacken Sie die ZIP-Datei
-1. Starten Sie einen lokalen Server im extrahierten Ordner
-1. Öffnen Sie Ihre Startseite und überprüfen Sie Ihren Anwendungsstatus
+1. Klicks **Cache löschen**.
+1. Klicks **Cache aktualisieren**.
+1. Klicks **VollHerunterladen**.
+1. Extrahieren Sie die ZIP-Datei.
+1. Starten Sie einen lokalen Server im extrahierten Ordner.
+1. Öffnen Sie Ihre Startseite und überprüfen Sie Ihren App-Status.
 
 ## Aktivieren der Offline-Konfiguration für einen Kanal {#enabling-offline-config-for-a-channel}
 
@@ -118,4 +118,4 @@ Befolgen Sie die folgenden Schritte, um die Offline-Konfiguration für einen Kan
 
 >[!NOTE]
 >
->Weitere Informationen zur Vorlage für benutzerdefinierte Offline-Ressourcen-Handler und zu den Mindestanforderungen in der Datei `pom.xml` für dieses Projekt finden Sie unter **Entwickeln einer benutzerdefinierten Komponente für AEM Screens** im Abschnitt [Vorlage für benutzerdefinierte Handler](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers).
+>Informationen zur Vorlage für benutzerdefinierte Offline-Ressourcen-Handler. Erfahren Sie mehr über die Mindestanforderungen in der `pom.xml` für das Projekt. Siehe [Vorlage für benutzerdefinierte Handler](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) in **Entwickeln einer benutzerdefinierten Komponente für AEM Screens**.

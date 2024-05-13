@@ -10,10 +10,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 85%
+source-wordcount: '623'
+ht-degree: 68%
 
 ---
 
@@ -30,9 +30,9 @@ Das Ziel dieser Funktion ist es, die Zeit für die Einrichtung des Projekts zu r
 Diese Funktion ermöglicht es dem Autor, eine Tabelle als Eingabedatei bereitzustellen und das System automatisch die Standortstruktur im Back-End erstellen zu lassen:
 
 * *erzielt deutlich bessere Leistung als die manuelle Auswahl über die Benutzeroberfläche*
-* *ermöglicht es dem Kunden, seine Standorte aus dem eigenen System zu exportieren und einfach direkt in AEM zu importieren*
+* *ermöglicht dem Kunden den Export seiner Standorte aus seinem eigenen System und den einfachen Import direkt in AEM*
 
-Dadurch sparen Sie Zeit und Geld bei der ersten Projekteinrichtung oder beim Erweitern bestehender AEM Screens-Projekte auf neue Standorte.
+Dadurch sparen Sie Zeit und Geld bei der ersten Projekteinrichtung oder beim Erweitern der bestehenden AEM Screens auf neue Standorte.
 
 ## Architektonischer Überblick {#architectural-overview}
 
@@ -51,14 +51,14 @@ Im Folgenden wird das Datenmodell für den Projekt-Importer beschrieben:
 | **Eigenschaft** | **Beschreibung** |
 |---|---|
 | ***`path {string*}`*** | Der Ressourcenpfad für den Standort |
-| ***`[./jcr:title] {string*}`*** | Der Name der zu verwendenden Vorlage (d. h. Standort für *screens/core/templates/location*) |
+| ***`[./jcr:title] {string*}`*** | Der Name der zu verwendenden Vorlage (d. h. der Speicherort für *screens/core/templates/location*) |
 | ***`template {string}`*** | Optionaler Titel für die Seite |
 | ***`[./jcr:description] {string}`*** | Optionale Beschreibung für die Seite |
 
 Für die Tabellendatei (CSV/XLS) sind daher die folgenden Spalten erforderlich:
 
 * **path {string}** Der Pfad für den zu importierenden Standort, wobei der Stammordner des Pfades der Standortordner für das Projekt ist (d. h. *`/foo`* wird in *`/content/screens/<project>/locations/foo`* importiert).
-* **template {string}** Die Vorlage, die für den neuen Standort verwendet werden soll. Im Moment ist nur der Wert „location“ erlaubt, aber dies wird in Zukunft auf alle Screens-Vorlagen ausgedehnt (`display`, `sequencechannel` usw.)
+* **template {string}** - Die für den neuen Speicherort zu verwendende Vorlage ist derzeit der einzige zulässige Wert &quot;location&quot;, aber dieser Wert wird auf alle Screens-Vorlagen in der Zukunft erweitert (`display`, `sequencechannel`usw.)
 * **[./*] {string}** Jede optionale Eigenschaft, die für den Standort festgelegt wird (d. h. `./jcr:title`, `./jcr:description`, `./foo, ./bar`). Die aktuelle Version erlaubt keine Filterung.
 
 >[!NOTE]
@@ -89,7 +89,7 @@ Zu Demozwecken können Sie eine Excel-Datei aus dem folgenden Abschnitt herunter
 
 ### Importieren der Datei mit den erforderlichen Mindestfeldern {#importing-the-file-with-minimum-required-fields}
 
-Gehen Sie wie folgt vor, um eine Datei mit den erforderlichen Mindestfeldern in den Standortordner zu importieren:
+Gehen Sie wie folgt vor, um eine Datei mit den erforderlichen Mindestfeldern in einen Ordner zu importieren:
 
 >[!NOTE]
 >

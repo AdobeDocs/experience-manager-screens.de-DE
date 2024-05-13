@@ -2,10 +2,10 @@
 title: Grundlagen von Digital Signage für [!UICONTROL AEM Screens]
 description: Erfahren Sie mehr über die Grundlagen eines Digital Signage-Projekts.
 exl-id: e3913be2-9028-4773-a034-e16924a71e04
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
-workflow-type: ht
-source-wordcount: '406'
-ht-degree: 100%
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+workflow-type: tm+mt
+source-wordcount: '410'
+ht-degree: 91%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 Bevor Sie sich mit Best Practices für die Implementierung von AEM Screens vertraut machen, sollten Sie sich das Projekt als Digital-Signage-Projekt vorstellen – und nicht als herkömmliche Softwareentwicklung.
 
-Dieser Abschnitt enthält Empfehlungen zu wichtigen Elementen, die vor der Implementierung eines AEM Screens-Projekts beachtet werden müssen.
+Dieser Abschnitt enthält Empfehlungen zu wichtigen Elementen, die für die Implementierung eines AEM Screens-Projekts von entscheidender Bedeutung sind.
 
 ## Schlüsselelemente von Digital Signage {#key-elements}
 
@@ -40,14 +40,14 @@ Ein Definieren der Schlüsselelemente ist vor Implementierung eines Digital-Sign
    Beim Thema Konnektivität geht es um folgende Fragen:
    * Vernetzt (per Mobilfunk oder WLAN) bzw. eigenständig?
       * Müssen Sie Aktualisierungen von USB-Inhalten zulassen?
-      * Müssen Sie die Erfassung von Nutzungsdaten zulassen?
+      * Müssen Sie die Verwendung der Datenerfassung zulassen?
 
 1. **Installation**
 
    Die Installation umfasst:
    * Displays: Querformat oder Hochformat
    * Wie wird der Bildschirm montiert?
-      * Hochformat oder Querformat
+      * Ausrichtung im Hochformat im Vergleich zur Ausrichtung im Querformat
       * Komplettes Gehäuse
       * Abdeckplatte
    * Halterung
@@ -79,7 +79,7 @@ Ein Definieren der Schlüsselelemente ist vor Implementierung eines Digital-Sign
 
 1. **Umgebung**
 
-   Bei der Umgebung geht es um Folgendes:
+   Die Umwelt legt den Schwerpunkt auf:
    * Displaystandort?
       * Drinnen vs. draußen
       * Unerreichbar oder direkter Kontakt

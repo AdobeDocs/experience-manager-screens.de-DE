@@ -2,10 +2,10 @@
 title: Business Content-Strategie für AEM Screens
 description: Erfahren Sie mehr über die Marketing- und Business Content-Strategie im Zusammenhang mit AEM Screens.
 exl-id: efb8ea95-62c0-41ed-9e67-23d76ad12a4c
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 47%
+source-wordcount: '437'
+ht-degree: 41%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 47%
 >
 >Ein typischer Verantwortlicher für diese Aktivität ist ein Marketing-/Geschäftsstratege.
 
-Inhalte sind ein wichtiger Faktor für die Förderung der Interaktion. In der Pre-Sales-Phase ist es wichtig, eine Business Content-Strategie zu definieren, in der berücksichtigt wird, wie die Anwendung Hardware-, Software- und Konnektivitätsressourcen nutzt, um den Kunden Ihres Kunden den gewünschten Wert zu liefern.
+Inhalte sind ein wichtiger Faktor für die Förderung der Interaktion. In der Pre-Sales-Phase ist es wichtig, eine Business Content-Strategie zu definieren. Bei dieser Strategie wird berücksichtigt, wie die Anwendung Hardware-, Software- und Konnektivitätsressourcen verwendet, um den Kunden Ihres Kunden den gewünschten Wert zu liefern.
 
-Eine klar definierte Business Content-Strategie legt den Weg zum Erstellen, Verteilen und Verfolgen der Nutzung von Inhalten in Bezug auf die Journey des Käufers und die Marketing-Touchpoints im Verkaufstrichter fest. Dass jeder Kunde zum richtigen Zeitpunkt die richtige Botschaft erhält, ist dabei von entscheidender Bedeutung.
+Eine klar definierte Business Content-Strategie legt den Weg zur Erstellung, Verteilung und Verfolgung der Nutzung von Inhalten im Verhältnis zur Journey des Käufers fest. Außerdem werden die Marketing-Touchpoints im Verkaufstrichter berücksichtigt. Dass jeder Kunde zum richtigen Zeitpunkt die richtige Botschaft erhält, ist dabei von entscheidender Bedeutung.
 
-Überlegen Sie, wie Screens bei dieser Aufgabe helfen kann, und legen Sie KPIs fest, um den Erfolg der Anwendung bei der Bereitstellung des Inhalts zu messen.
+Überlegen Sie, wie die Screens-Anwendung dazu beitragen kann, diese Strategie zu erreichen, und legen Sie KPIs fest, um den Erfolg der Anwendung bei der Bereitstellung dieser Inhalte zu messen.
 
 >[!NOTE]
 >

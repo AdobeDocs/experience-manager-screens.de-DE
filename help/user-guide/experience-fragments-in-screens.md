@@ -10,10 +10,10 @@ feature: Authoring Screens, Experience Fragments
 role: Admin, Developer
 level: Intermediate
 exl-id: 13c0d75e-435f-433e-8886-f451df863517
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 62%
+source-wordcount: '1102'
+ht-degree: 52%
 
 ---
 
@@ -27,7 +27,7 @@ Auf dieser Seite werden die folgenden Themen behandelt:
 
 ## Überblick {#overview}
 
-Ein ***Experience Fragment*** ist eine Gruppe aus einer oder mehreren Komponenten (einschließlich Inhalt und Layout), die innerhalb von Seiten referenziert werden können. Experience Fragments können beliebige Komponenten enthalten, beispielsweise eine oder mehrere Komponenten mit beliebigen Elementen innerhalb eines Absatzsystems, das für das Gesamterlebnis referenziert oder von einem dritten Endpunkt angefordert wird.
+Ein ***Experience Fragment*** ist eine Gruppe aus einer oder mehreren Komponenten (einschließlich Inhalt und Layout), die innerhalb von Seiten referenziert werden können. Experience Fragments können jede beliebige Komponente enthalten. Beispielsweise kann es eine oder mehrere Komponenten enthalten, die alles in einem Absatzsystem enthalten können, das in das gesamte Erlebnis referenziert oder von einem dritten Endpunkt angefordert wird.
 
 
 ## Verwenden von Experience Fragments in AEM Screens {#using-experience-fragments-in-aem-screens}
@@ -68,7 +68,7 @@ Gehen Sie wie folgt vor, um den Inhalt von **`We.Retail`** auf Ihren **TestChann
 
 1. **Navigieren zu einer Sites-Seite in We.Retail**
 
-   1. Navigieren Sie zu Sites und klicken Sie auf **`We.Retail`** > **Vereinigte Staaten** > **englisch** > **Ausrüstung** und klicken Sie auf diese Seite, damit Sie dies als Experience Fragment für Ihren Screens-Kanal verwenden können.
+   1. Navigieren Sie zu Sites und klicken Sie auf **`We.Retail`** > **Vereinigte Staaten** > **englisch** > **Ausrüstung** und klicken Sie auf diese Seite, damit Sie sie als Experience Fragment für Ihren Screens-Kanal verwenden können.
 
    1. Klicks **Bearbeiten** in der Aktionsleiste, damit Sie die Seite öffnen können, die Sie als Experience Fragment für Ihren Screens-Kanal verwenden möchten.
 
@@ -92,7 +92,7 @@ Gehen Sie wie folgt vor, um den Inhalt von **`We.Retail`** auf Ihren **TestChann
 
    ![screen_shot_2019-07-29at105918am](assets/screen_shot_2019-07-29at105918am.png)
 
-   Hinweis: Um auf eine einfachere Option zu klicken, klicken Sie auf das Kontrollkästchen rechts neben dem Feld, damit Sie das Auswahldialogfeld öffnen können.
+   Um eine einfachere Option auszuwählen, klicken Sie auf das Kontrollkästchen rechts neben dem Feld, damit Sie das Auswahldialogfeld öffnen können.
 
 1. **Erstellen einer Live Copy des Experience Fragments**
 
@@ -101,13 +101,13 @@ Gehen Sie wie folgt vor, um den Inhalt von **`We.Retail`** auf Ihren **TestChann
 
    ![screen_shot_2019-07-29at110443am](assets/screen_shot_2019-07-29at110443am.png)
 
-   c. Klicken Sie auf die **ScreensFragment** von **Erstellen einer Live Copy** Assistent und klicken Sie auf **Nächste**.
+   c. Klicken Sie auf die **ScreensFragment** aus dem **Erstellen einer Live Copy** Assistent und klicken Sie auf **Nächste**.
 
    d. Geben Sie unter **Titel** und unter **Namen** den Wert **Screens** ein.
 
    e. Klicken Sie auf **Erstellen** , damit Sie die Live Copy erstellen können.
 
-   f. Klicken Sie auf **Fertig** , damit Sie zurück zu **ScreensFragment** Seite.
+   f. Klicken Sie auf **Fertig** , damit Sie zum **ScreensFragment** Seite.
 
    ![screen_shot_2019-07-29at110616am](assets/screen_shot_2019-07-29at110616am.png)
 
@@ -121,7 +121,7 @@ Gehen Sie wie folgt vor, um den Inhalt von **`We.Retail`** auf Ihren **TestChann
 
    1. Klicken Sie auf **Offline-Konfiguration** wie in der folgenden Abbildung dargestellt.
 
-   Sie können Ihrem Experience Fragment die **Client-seitigen Bibliotheken** (Java™ und CSS) und **statischen Dateien** hinzufügen.
+   Sie können die **Client-seitige Bibliotheken** (Java™ und CSS) und **Statische Dateien** zu Ihrem Experience Fragment hinzu.
 
    Das folgende Beispiel zeigt das Hinzufügen Client-seitiger Bibliotheken und Schriftarten als Teil statischer Dateien zu Ihrem Experience Fragment. ![fragment](assets/fragment.gif)
 
@@ -137,11 +137,11 @@ Gehen Sie wie folgt vor, um den Inhalt von **`We.Retail`** auf Ihren **TestChann
 
    e. Klicken Sie auf die **Experience Fragment** und klicken Sie auf das Symbol oben links (Schraubenschlüssel), damit Sie die **Experience Fragment** Dialogfeld.
 
-   f. Klicken Sie auf die **Screens** Live Copy des Fragments, das Sie in erstellt haben *Schritt 3* in **Pfad**.
+   f. Klicken Sie auf die **Screens** Live Copy des Fragments, das Sie in *Schritt 3* in **Pfad**.
 
    ![screen_shot_2019-07-26at82650pm](assets/screen_shot_2019-07-26at82650pm.png)
 
-   f. Klicken Sie auf die **Screens** Live Copy des Fragments, das Sie in erstellt haben *Schritt 3* im **Experience Fragment**.
+   f. Klicken Sie auf die **Screens** Live Copy des Fragments, das Sie in *Schritt 3* im **Experience Fragment**.
 
    ![screen_shot_2019-07-26at82509pm](assets/screen_shot_2019-07-26at82509pm.png)
 
@@ -159,7 +159,7 @@ Gehen Sie wie folgt vor, um den Inhalt von **`We.Retail`** auf Ihren **TestChann
 
 ### Validieren des Ergebnisses {#validating-the-result}
 
-Nach Abschluss der vorherigen Schritte können Sie Ihr Experience Fragment in **ChannelOne** wie folgt validieren:
+Nach Abschluss der vorherigen Schritte können Sie Ihr Experience Fragment in **ChannelOne** durch:
 
 1. Navigieren Sie zum **TestChannel**.
 1. Wählen Sie in der Aktionsleiste die **Vorschau** aus.
@@ -171,7 +171,7 @@ Sie sehen den Inhalt der **Sites**-Seite (Live Copy des Experience Fragments) in
 
 ***Live Copy*** bezieht sich auf die Kopie (der Quelle), die durch Synchronisierungsaktionen aufrechterhalten wird, wie in den Rollout-Konfigurationen definiert.
 
-Bei dem von Ihnen erstellten Experience Fragment handelt es sich um eine Live Copy aus den **Sites**-Seiten. Wenn Sie dieses Fragment nun von der primären Seite aus ändern, können Sie die Änderungen in Ihrem Kanal sehen. Sie können auch das Ziel anzeigen, in dem Sie das Experience Fragment verwendet haben.
+Da das von Ihnen erstellte Experience Fragment eine Live Copy aus dem **Sites** und wenn Sie dieses Fragment von der primären Seite aus ändern, sehen Sie die Änderungen in Ihrem Kanal. Sie können auch das Ziel anzeigen, in dem Sie das Experience Fragment verwendet haben.
 
 >[!NOTE]
 >

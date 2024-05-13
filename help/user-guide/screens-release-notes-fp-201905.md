@@ -10,10 +10,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e4562547-2829-4a53-8e37-2cd637cef7c8
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 79%
+source-wordcount: '311'
+ht-degree: 76%
 
 ---
 
@@ -51,7 +51,7 @@ Siehe **[Notfallkanal](emergency-channel.md)** Anwendungsbeispiel für weitere D
 
 * **Einbetten einer REACT-Anwendung mit dem AEM SPA-Editor und Integration mit AEM Screens Analytics**
 
-In diesem Abschnitt wird beschrieben, wie Sie eine interaktive Single Page Application, die auf REACT (oder Angular) basiert, mit dem AEM-SPA-Editor einbetten. Der Editor kann von Business-Fachleuten in AEM konfiguriert werden. Außerdem wird beschrieben, wie Sie Ihre interaktive Anwendung in Adobe Analytics im Offline-Modus integrieren.
+In diesem Abschnitt wird beschrieben, wie Sie eine interaktive Single Page Application, die auf REACT (oder Angular) basiert, mit dem AEM-SPA-Editor einbetten. Geschäftsleute in AEM können den Editor konfigurieren. Außerdem wird beschrieben, wie Sie Ihre interaktive Anwendung in Adobe Analytics im Offline-Modus integrieren.
 
 Weitere Informationen finden Sie unter **[Einbetten einer REACT-Anwendung mit dem AEM-SPA-Editor und Integrieren in AEM Screens Analytics](embedding-react-app.md)**.
 
