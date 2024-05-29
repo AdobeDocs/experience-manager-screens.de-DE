@@ -8,10 +8,10 @@ user-guide-description: Erfahren Sie, wie Sie mit einer Digital-Signage-Lösung 
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
+source-git-commit: 1bd79ed3a0a610efb12f9ff1030a33978ccccf1e
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 95%
+source-wordcount: '522'
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 95%
    + [Teil 2: Überlegungen zum Projektumfang](project-considerations.md)
    + [Teil 3: Tests, POCs, Pilotprogramme und Rollouts](testing-pocs-pilots-rollouts.md)
    + [Teil 4: Projekt-Management und Bereitstellung](project-management-and-deployment.md)
-   + [Teil 5: Support-Aspekte](support-considerations.md)
+   + [Teil 5: Überlegungen zum Support](support-considerations.md)
 + Konfiguration und Verwaltung {#administering}
    + [Konfigurieren des Screens-Servers](configuring-screens-introduction.md)
    + [Einrichten von Dispatcher-Konfigurationen](dispatcher-configurations-aem-screens.md)
@@ -56,7 +56,7 @@ ht-degree: 95%
    + Analytics-Integration mit AEM Screens {#analytics-integration}
       + [Adobe Analytics-Integration](adobe-analytics-integration-aem-screens.md)
       + [Konfigurieren von Adobe Analytics mit AEM Screens](configuring-adobe-analytics-aem-screens.md)
-+ Beispiele für Authoring und Anwendungsfälle {#authoring}
++ Authoring und Anwendungsbeispiele {#authoring}
    + Einrichten von Screens-Projekten {#setting-up-projects}
       + [Erstellen und Verwalten von Projekten](creating-a-screens-project.md)
       + [Erstellen und Verwalten von Kanälen](managing-channels.md)
@@ -75,7 +75,7 @@ ht-degree: 95%
       + [Aktivierung auf Asset-Ebene](asset-level-scheduling.md)
       + [Aktivierung auf Kanalebene](channel-level-activation.md)
       + [Erstellen und Verwalten einer Live Copy](managing-livecopy.md)
-      + [Erstellen eines Workflows für den Videoabstand](creating-a-video-padding-workflow.md)
+      + [Erstellen eines Workflows für Video-Padding](creating-a-video-padding-workflow.md)
       + [Hinzufügen von Komponenten zu Kanälen](adding-components-to-a-channel.md)
       + [Eingebettete Sequenzen](embedded-sequences.md)
       + [Mehrzonen-Layout](multi-zone-layout-aem-screens.md)
@@ -84,6 +84,7 @@ ht-degree: 95%
       + [Dauer der Massenwiedergabe von Bildern auf Kanalebene](channel-level-image-playback.md)
       + [Befehlssynchronisierung](using-command-sync.md)
       + [Inhaltserstellung mit Datenauslösern](authoring-data-triggers.md)
+      + [Verwenden von Tags](tagging.md)
       + [Spracherkennung](voice-recognition.md)
       + [Inhaltszuweisungsbericht](content-assignment-report.md)
       + [Unterstützung von Miniaturansichten für Videos](thumbnail-support.md)
@@ -95,8 +96,8 @@ ht-degree: 95%
    + Anwendungsbeispiele {#use-case-examples}
       + [Notfallkanäle](emergency-channel.md)
       + [Temperaturaktivierung für ein Reiseangebot](local-temperature-activation.md)
-      + [Aktivierung der Gastgewerbereservierung](hospitality-reservation-activation.md)
-      + [Zielgerichtete Aktivierung des Einzelhandelsinventars](retail-inventory-activation.md)
+      + [Aktivierung der Reservierung im Gastgewerbe](hospitality-reservation-activation.md)
+      + [Zielgerichtete Aktivierung des Lagerbestands im Einzelhandel](retail-inventory-activation.md)
       + [Anwenden von Übergängen](applying-transitions.md)
       + [Übergang von mehreren zu einzelnen Zonen](multizone-to-singlezone.md)
       + [Übernahmekanal für die einmalige Verwendung](single-use-takeover-channel.md)
@@ -114,10 +115,10 @@ ht-degree: 95%
    + [Adaptive Ausgabedarstellungen: Überblick über die Architektur und Konfigurationen](/help/user-guide/adaptive-renditions.md)
 + Fehlerbehebung und häufig gestellte Fragen {#troubleshooting}
    + [Häufig gestellte Fragen zu AEM Screens](aem-screens-faqs.md)
-   + [Problembehebung im Geräte-Kontrollzentrum](monitoring-screens.md)
+   + [Fehlerbehebung über das Geräte-Kontrollzentrum](monitoring-screens.md)
    + [Konfiguration der Videowiedergabe](troubleshoot-videos.md)
 + Versionshinweise {#release-notes}
-   + [Versionshinweise für Feature Pack 202401](release-notes-fp-202401.md)
+   + [Versionshinweise für Feature Pack 202401](release-notes-fp-202401.md)
    + [Versionshinweise für Feature Pack 20240116](release-notes-fp-20240116.md)
    + [Versionshinweise für Feature Pack 20240215](release-notes-fp-20240215.md)
    + [Versionshinweise für Feature Pack 202204](release-notes-fp-202204.md)
