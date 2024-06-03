@@ -2,9 +2,9 @@
 title: Post-Launch-Support
 description: Weitere Informationen zum Post-Launch-Support für AEM Screens finden Sie im Best-Practices-Handbuch.
 source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '370'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 67%
 
 Selbst in der Frühphase sollten Sie eines keinesfalls außer Acht lassen: den Post-Launch-Support.
 
-Nur wenn Sites angemessenen Support von Ihrem Hardwareanbieter erhalten, können Sie den Geschäftsbetrieb richtig aufrechterhalten. Die **Audio-Video-Integrator** sollte eng mit den Interessenträgern der Wirtschaft zusammenarbeiten und die Anforderungen aus verschiedenen Gründen ermitteln.
+Nur wenn Sites angemessenen Support von Ihrem Hardware-Anbieter erhalten, können Sie den Geschäftsbetrieb richtig aufrechterhalten. Die **für die Audio-Video-Integration zuständige Person** sollte eng mit geschäftlichen Stakeholdern zusammenarbeiten und anhand verschiedener Aspekte den Bedarf ermitteln.
 Berücksichtigen Sie beim Post-Launch-Support folgende Anforderungen:
 
 * Geräteverwaltung per Fernzugriff
@@ -21,13 +21,13 @@ Berücksichtigen Sie beim Post-Launch-Support folgende Anforderungen:
 * Vor-Ort-Support durch Techniker
 * Geräteverwaltung (Garantieunterstützung und Lagerung von Ersatzgeräten)
 
-Um sich auf langfristigen Erfolg vorzubereiten, ist es von größter Bedeutung, in Zusammenarbeit mit dem Audio-Video-Integrator eine Service Level Agreement (SLA) für Tag 2 zu erstellen. Im SLA sollten alle Support-Dienste nach der Bereitstellung detailliert aufgeführt werden, um die Kundenerwartungen genau zu definieren.
+Für langfristigen Erfolg muss in Zusammenarbeit mit der für die Audio-Video-Integration verantwortlichen Person zudem ein Service Level Agreement (SLA) für Tag 2 erstellt werden. Im SLA sollten alle Support-Dienste nach der Bereitstellung detailliert aufgeführt werden, um die Kundenerwartungen genau zu definieren.
 
 >[!NOTE]
 >
->Definieren Sie operative Parameter, die frühzeitig in den operationellen Budgets enthalten sind, und richten Sie die Zuständigkeiten an den AEM-Implementor und den Audio-Video-Integrator aus.
+>Legen Sie frühzeitig in Betriebsbudgets integrierte operative Parameter fest und stimmen Sie die Zuständigkeiten mit den Personen ab, die AEM implementieren und für die Audio-Video-Integration verantwortlich sind.
 >
->* Ist die Bereitstellung eines Werbenetzwerks mit vielen Stakeholdern an ein monetarisiertes Netzwerk gebunden? Diese Situation kann im Vergleich zu einem Corporate Communications-Netzwerk kürzere Auflösungszeiten erfordern.
+>* Ist die Bereitstellung eines Werbenetzwerks mit vielen Stakeholdern an ein monetarisiertes Netzwerk gebunden? Diese Situation kann kürzere Auflösungszeiten im Vergleich zu einem Netzwerk für Unternehmenskommunikation erfordern.
 >* Weist die Anwendung für die Führungsebene auf Endkundenseite eine hohe Sichtbarkeit auf? Sites mit hoher Sichtbarkeit können einen anderen Umgang erfordern.
 >* Ist die Anwendung für Geschäftsabläufe wie Menü-Boards in Fast-Food-Ketten essentiell? In dem Fall benötigen Endkundinnen und Endkunden möglicherweise Vor-Ort-Auflösungen mit kurzen Reaktionszeiten sowie Redundanz bei der Wiedergabe-Hardware.
 
@@ -35,17 +35,17 @@ Um sich auf langfristigen Erfolg vorzubereiten, ist es von größter Bedeutung, 
 
 Einige Überlegungen und Fragen, die Ihnen bei der Definition von Post-Launch-Support helfen:
 
-1. Ist die Bereitstellung eines Werbenetzwerks mit vielen Stakeholdern an ein monetarisiertes Netzwerk gebunden? Diese Situation kann im Vergleich zu einem Corporate Communications-Netzwerk kürzere Auflösungszeiten erfordern.
+1. Ist die Bereitstellung eines Werbenetzwerks mit vielen Stakeholdern an ein monetarisiertes Netzwerk gebunden? Diese Situation kann kürzere Auflösungszeiten im Vergleich zu einem Netzwerk für Unternehmenskommunikation erfordern.
  
    >[!NOTE]
    >
-   >Gibt kürzere Auflösungszeiten im Vergleich zu einem Corporate Communications-Netzwerk an.
+   >Erfordert kürzere Auflösungszeiten im Vergleich zu einem Netzwerk für Unternehmenskommunikation. 
 
-1. Weist die Anwendung für die Führungsebene auf Endkundenseite eine hohe Sichtbarkeit auf?
+1. Weist die Anwendung eine hohe Sichtbarkeit für die Führungsebene auf Endkundenseite auf?
 
    >[!NOTE]
    >
-   >Gibt kürzere Auflösungszeiten im Vergleich zu einem Corporate Communications-Netzwerk an. Sites mit hoher Sichtbarkeit können einen anderen Umgang erfordern.
+   >Erfordert kürzere Auflösungszeiten im Vergleich zu einem Netzwerk für Unternehmenskommunikation. Sites mit hoher Sichtbarkeit können einen anderen Umgang erfordern.
 
 1. Ist die Anwendung für Geschäftsabläufe wie Menü-Boards in Fast-Food-Ketten essentiell?
 

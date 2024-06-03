@@ -6,22 +6,22 @@ role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
 source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '916'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
 # Versionshinweise für Feature Pack 202109 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Adobe empfiehlt ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM). AEM Screens bietet Wartungs-Support für die AEM 6.3 Screens-Plattform.
+>Adobe empfiehlt, ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM) durchzuführen. AEM Screens bietet Wartungs-Support für die AEM 6.3 Screens-Plattform.
 
 ## Verfügbarkeit {#availability}
 
 Das AEM 6.5 Feature Pack 9 für AEM Screens wurde veröffentlicht.
 
-Sie können das neueste Feature Pack für AEM Screens 6.5.9 von der [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/de/aem.html) die Verwendung Ihrer Adobe ID. Navigieren Sie zum **Adobe Experience Manager** Registerkarte und suchen Sie nach **Screens** , um das neueste Feature Pack mit dem Titel **AEM 6.5 Screens FP9**.
+Das neueste Feature Pack für AEM Screens 6.5.9 steht auf dem [Software-Verteilungsportal](https://experience.adobe.com/#/downloads/content/software-distribution/de/aem.html) zum Download zur Verfügung (Adobe ID erforderlich). Navigieren Sie zur Registerkarte **Adobe Experience Manager** und suchen Sie nach **Screens**, um das neueste Feature Pack mit dem Namen **AEM 6.5 Screens FP9** herunterzuladen.
 
 ## Veröffentlichungsdatum {#release-date}
 
@@ -31,7 +31,7 @@ Das AEM Screens Feature Pack 202109 wurde am 23. September 2021 veröffentlicht.
 
 * **Unterstützung von Miniaturansichten für Videos**
 
-  AEM Screens unterstützt jetzt Miniaturansichten für Videos. Ein Inhaltsautor definiert eine Miniaturansicht für Videos, sodass das Bild als Platzhalter verwendet wird. Außerdem werden die Inhaltswiedergabe und das Targeting ordnungsgemäß getestet, während das entsprechende Team das eigentliche Video abschließt. Das Bild kann auch verwendet werden, wenn die Wiedergabe des Videos fehlschlägt.
+  AEM Screens unterstützt jetzt Miniaturansichten für Videos. Inhaltsautorinnen und Inhaltsautoren definieren eine Miniaturansicht für Videos, sodass das Bild als Platzhalter verwendet wird. Außerdem werden die Inhaltswiedergabe und das Targeting ordnungsgemäß getestet, während das zuständige Team das eigentliche Video fertigstellt. Das Bild kann auch verwendet werden, wenn die Wiedergabe des Videos fehlschlägt.
 Weitere Informationen finden Sie unter [Unterstützung von Miniaturansichten für Videos](/help/user-guide/thumbnail-support.md).
 
 * **Einfache Wiedergabe-Überwachung**
@@ -41,12 +41,12 @@ Weitere Informationen finden Sie unter [Einfache Wiedergabe-Überwachung](https:
 
 * **Aktualisierungen des Inhaltszuweisungsberichts**
 
-  Der Inhaltszuweisungsbericht wurde jetzt optimiert und mit einem verbesserten Benutzererlebnis verbessert. Der herunterladbare Bericht zeigt verbesserte Player-bezogene Entitäten an. Zu diesen Entitäten gehören Standorte, Anzeigen und Geräte in einer Tabelle. Sie enthält auch die Informationen des Inhaltsanbieters wie Kanäle und Assets auf einer anderen Registerkarte.
+  Der Inhaltszuweisungsbericht bietet nun ein optimiertes und verbessertes Anwendererlebnis. Der herunterladbare Bericht weist Player-bezogene Verbesserungen auf. Beispielweise werden Standorte, Anzeigen und Geräte in einem Arbeitsblatt angezeigt. Zudem werden Inhaltsanbieter-Informationen wie Kanäle und Assets auf einem anderen Blatt zur Verfügung gestellt.
 Weitere Informationen finden Sie unter [Inhaltszuweisungsbericht](/help/user-guide/content-assignment-report.md).
 
 * **Adaptive Ausgabedarstellungen**
 
-  Mit adaptiven Ausgabedarstellungen kann das Gerät basierend auf kundendefinierten Regeln automatisch auf die beste Ausgabedarstellung für ein Gerät klicken.
+  Mit adaptiven Ausgabedarstellungen kann das Gerät basierend auf kundendefinierten Regeln automatisch die beste Ausgabedarstellung für ein Gerät auswählen.
 
   Als AEM Screens-Entwickler können Sie jetzt gerätespezifische Asset-Ausgabedarstellungen so konfigurieren, dass sie automatisch heruntergeladen und wiedergegeben werden, ohne dass alle Inhaltsvarianten manuell erstellt werden müssen. Weitere Informationen hierzu finden Sie in [Adaptive Ausgabedarstellungen: Überblick über die Architektur und Konfigurationen](/help/user-guide/adaptive-renditions.md).
 
@@ -89,15 +89,15 @@ Weitere Informationen finden Sie unter [Inhaltszuweisungsbericht](/help/user-gui
 
 * Die Player zeigen jetzt nur Asset-Ausgabedarstellungen an, wenn die Ausgabedarstellungszuordnung vorhanden ist.
 
-* Verbesserter Ping zur erneuten Authentifizierung, wenn die Antwort keine gültige JSON ist.
+* Verbesserter Ping zur erneuten Authentifizierung, wenn die Antwort kein gültiges JSON ist.
 
 * Numerische Kanalnamen/-rollen führen nicht mehr zu einem leeren Bildschirm.
 
-* Laden Sie optimierte Ausgabedarstellungen über SmartSync herunter.
+* Es werden über SmartSync optimierte Ausgabedarstellungen heruntergeladen.
 
 * Die Zuordnung wurde in eine Liste von Ausgabedarstellungsschlüsseln umgewandelt.
 
-* Der Zugriff auf `cmd.exe` und `reg.exe` im Windows-Player.
+* Der Zugriff auf `cmd.exe` und `reg.exe` im Windows-Player wurde entfernt.
 
 * Ein Player muss sein letztes erfolgreiches Wiedergabeereignis melden.
 
@@ -109,7 +109,7 @@ Weitere Informationen finden Sie unter [Inhaltszuweisungsbericht](/help/user-gui
 
 * Das Entfernen der Kanalzuweisung aus der Anzeige wird nicht im Player angezeigt.
 
-* Wenn der Player beim Herunterladen der Kanalaktualisierung neu geladen wird, ignoriert der Player die Aktualisierung.
+* Wenn der Player beim Herunterladen des Kanal-Updates neu geladen wird, ignoriert er das Update.
 
 * Die eingebettete Seitenkomponente berücksichtigt jetzt das Touch-Ereignis.
 
@@ -124,15 +124,15 @@ Weitere Informationen finden Sie unter [Inhaltszuweisungsbericht](/help/user-gui
 
 * Für den Splitscreen-Kanal wird der Vorschaumodus leer angezeigt.
 
-* Videominiaturen werden bei aktivierten adaptiven Ausgabeformaten leer dargestellt.
+* Videominiaturen werden bei aktivierten adaptiven Ausgabedarstellungen leer dargestellt.
 
-* Aktualisieren Sie das Kanalmanifest automatisch, wenn die referenzierte Seite veröffentlicht wird.
+* Das Kanalmanifest wird automatisch aktualisiert, wenn die referenzierte Seite veröffentlicht wird.
 
 * Gelöschte Geräte blockieren jetzt nicht mehr die Screens-Replikationswarteschlange.
 
-* Das Manifest enthielt keine zielgerichteten Inhalte oder eingebetteten Sites-Seiten. Dieser Fehler wurde behoben.
+* Das Manifest enthielt weder ausgewählte Inhalte noch eingebettete Sites-Seiten. Dieser Fehler ist jetzt behoben.
 
-* Dem Kanalmanifest wird jetzt eine neue Kernbildkomponente hinzugefügt.
+* Dem Kanalmanifest wurde nun eine neue Kernbildkomponente hinzugefügt.
 
 * Das Herunterladen optimierter Ausgabedarstellungen über SmartSync wird jetzt unterstützt.
 
@@ -140,13 +140,13 @@ Weitere Informationen finden Sie unter [Inhaltszuweisungsbericht](/help/user-gui
 
 * Unterstützung für mehrere Content-Provider-Typen wurde hinzugefügt
 
-* Die Strategie zur Wiedergabe eingebetteter Sequenzen wurde beschädigt und dieser Fehler wurde jetzt behoben.
+* Die Strategie zur Wiedergabe eingebetteter Sequenzen funktionierte nicht. Dieser Fehler wurde jetzt behoben.
 
 * Das Offline-Manifest verwendete den Anforderungsparameter `wcmmode` für einen HTML-Eintrag, wodurch er nicht mehr erreichbar war.
 
 * Eine leere dynamische eingebettete Sequenz verursachte manchmal einen leeren Bildschirm.
 
-* Der Player meldet jetzt seinen Wiedergabestatus.
+* Der Player meldet nun seinen Wiedergabestatus.
 
 * Das Video wurde in `Tiny mode` wiedergegeben und nicht als Vollbildvideo auf dem Gerät abgespielt. Das Problem wurde jetzt behoben.
 
@@ -162,4 +162,4 @@ Die folgenden AEM Screens-Player sind für AEM 6.5 Feature Pack 9 verfügbar:
 
 #### AEM Screens-Player-Downloads
 
-Informationen zum Herunterladen des neuesten AEM Screens-Players und zu weiteren Fehlerbehebungen finden Sie unter **[AEM Screens Player-Downloads](https://download.macromedia.com/screens/index.html)**.
+Navigieren Sie zu **[AEM Screens-Player-Downloads](https://download.macromedia.com/screens/index.html)**, um den neuesten AEM Screens-Player herunterzuladen und mehr über die Fehlerbehebungen zu erfahren.

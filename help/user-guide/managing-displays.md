@@ -10,15 +10,15 @@ role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
 source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '661'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
 # Erstellen und Verwalten von Anzeigen {#creating-and-managing-displays}
 
-Eine Anzeige ist eine virtuelle Gruppierung von Bildschirmen, die nebeneinander angeordnet sind. Die Installation einer Anzeige ist permanent. Es ist das Objekt, mit dem Inhaltsautoren arbeiten und immer als logische Darstellung und nicht als physische Gegenteile referenzieren.
+Eine Anzeige ist eine virtuelle Gruppierung von Bildschirmen, die nebeneinander angeordnet sind. Die Installation einer Anzeige ist permanent. Sie ist das Objekt, mit dem Inhaltsautorinnen und Inhaltsautoren arbeiten und das sie immer als logische und nicht als physische Anzeige verstehen.
 
 Wenn Sie einen Standort erstellen, müssen Sie eine Anzeige für Ihren Standort erstellen.
 
@@ -38,9 +38,9 @@ Auf dieser Seite wird gezeigt, wie Anzeigen für Screens erstellt und verwaltet 
 >Erstellen Sie einen Standort, bevor Sie eine Anzeige erstellen.  Weitere Informationen finden Sie unter [Erstellen und Verwalten von Standorten](managing-locations.md).
 
 1. Navigieren Sie zum entsprechenden Standort, z. B. `http://localhost:4502/screens.html/content/screens/TestProject`.
-1. Klicken Sie auf Ihren Standortordner und klicken Sie auf **Erstellen** neben dem Pluszeichen in der Aktionsleiste.
-1. Klicks **Anzeige** aus dem **Erstellen** Assistent, klicken Sie auf **Nächste**.
-1. Geben Sie Ihre **Name** und **Titel** für Ihren Anzeigeort.
+1. Wählen Sie Ihren Standortordner und klicken Sie neben dem Pluszeichen in der Aktionsleiste auf **Erstellen**.
+1. Klicken Sie im Assistenten **Erstellen** auf die Option **Anzeige** und dann auf **Weiter**.
+1. Geben Sie den **Namen** und **Titel** für Ihren Anzeigeort ein.
 1. Wählen Sie auf der Registerkarte **Anzeige** die Details für das Layout aus. Wählen Sie die gewünschte **Auflösung** (z. B. **Full HD**) aus. Wählen Sie die Anzahl der Geräte horizontal und vertikal aus.
 1. Klicken Sie auf **Erstellen**.
 
@@ -48,27 +48,27 @@ Die Anzeige (*StoreDisplay*) wird erstellt und dem Standort (*SanJose*) hinzugef
 
 ![display](assets/display.gif)
 
-Wenn Sie eine Anzeige an einer Position haben, besteht der nächste Schritt darin, eine Gerätekonfiguration für diese bestimmte Anzeige zu erstellen.
+Wenn Sie die Anzeige positioniert haben, besteht der nächste Schritt darin, für die Anzeige eine Gerätekonfiguration zu erstellen.
 
 >[!NOTE]
 >
 >**Der nächste Schritt**:
 >
->Wenn Sie eine Anzeige für Ihren Standort erstellen, weisen Sie Ihrer Anzeige einen Kanal zu, um den Inhalt zu verwenden.
+>Wenn Sie eine Anzeige für einen Ort erstellen, müssen Sie Ihrer Anzeige einen Kanal zuweisen, um den Inhalt verwenden zu können.
 >
->Siehe [Zuweisen von Kanälen](channel-assignment.md) -Abschnitt, um zu erfahren, wie Sie der Anzeige einen Kanal zuweisen.
+>Informationen zum Zuweisen eines Kanals zu der Anzeige finden Sie unter [Zuweisen von Kanälen](channel-assignment.md).
 
 ## Erstellen einer neuen Gerätekonfiguration {#creating-a-new-device-config}
 
 Eine Gerätekonfiguration fungiert als Platzhalter für ein Digital-Signage-Gerät, das noch nicht installiert ist.
 
 1. Navigieren Sie zur entsprechenden Anzeige, z. B. `http://localhost:4502/screens.html/content/screens/TestProject/locations/newlocation`.
-1. Klicken Sie auf den Anzeigeordner und klicken Sie auf **Dashboard anzeigen** in der Aktionsleiste.
-1. Klicks **+ Gerätekonfiguration hinzufügen** oben rechts im **Geräte** Bedienfeld.
+1. Klicken Sie auf Ihren Anzeigenordner und dann in der Aktionsleiste auf **Dashboard anzeigen**.
+1. Klicken Sie in der oberen rechten Ecke des Bedienfelds **Geräte** auf die Option **+ Gerätekonfiguration hinzufügen**.
 
-1. Klicken Sie auf **Gerätekonfiguration** als erforderliche Vorlage verwenden und auf **Nächste**.
+1. Klicken Sie auf **Gerätekonfiguration** als die erforderliche Vorlage und dann auf **Weiter**.
 
-1. Geben Sie die Eigenschaften nach Bedarf ein und klicken Sie auf **Erstellen**.
+1. Geben Sie die entsprechenden Eigenschaften ein und klicken Sie auf **Erstellen**.
 
 Die Gerätekonfiguration wird erstellt und der aktuellen Anzeige hinzugefügt. (In der folgenden Demonstration ist *DeviceConfig* die neue Gerätekonfiguration.)
 
@@ -76,25 +76,25 @@ Die Gerätekonfiguration wird erstellt und der aktuellen Anzeige hinzugefügt. (
 
 >[!NOTE]
 >
->Wenn eine Gerätekonfiguration für Ihre Anzeige am Standort festgelegt ist, besteht der nächste Schritt darin, Ihrer Anzeige einen Kanal zuzuweisen.
+>Nach der Erstellung der Gerätekonfiguration für Ihre Anzeige am Standort besteht der nächste Schritt darin, Ihrer Anzeige einen Kanal zuzuweisen.
 >
 >Wie in der folgenden Abbildung gezeigt, wird die Gerätekonfiguration im Bedienfeld **GERÄTE** als nicht zugewiesen angezeigt, wenn der Gerätekonfiguration kein Kanal zugewiesen ist.
 >
->Sie sollten über Vorkenntnisse im Erstellen und Verwalten von Kanälen verfügen. Weitere Informationen finden Sie unter [Erstellen und Verwalten von Kanälen](managing-channels.md).
+>Sie sollten Vorkenntnisse im Erstellen und Verwalten von Kanälen haben.  Weitere Informationen finden Sie unter [Erstellen und Verwalten von Kanälen](managing-channels.md).
 
 ![chlimage_1-9](assets/chlimage_1-9.png)
 
 ## Anzeigen-Dashboard {#display-dashboard}
 
-Das Anzeigen-Dashboard bietet verschiedene Bedienfelder für die Verwaltung von Anzeigegeräten. Außerdem können Sie damit Ihr Gerät konfigurieren.
+Das Anzeigen-Dashboard bietet verschiedene Bedienfelder zum Verwalten von Anzeigegeräten. Sie können darüber außerdem Ihr Gerät konfigurieren.
 
 ![screen_shot_2018-08-23at42810pm](assets/screen_shot_2018-08-23at42810pm.png)
 
 >[!NOTE]
 >
->Sie können auf die Dashboard-Listen und Trigger-Massenaktionen für Elemente klicken, anstatt jedes Element einzeln zu durchlaufen.
+>Sie können auf die Dashboard-Listen klicken und Massenaktionen für Elemente auslösen, statt jedes einzelne Element durchzugehen.
 >
->Die folgende Abbildung zeigt beispielsweise, wie Sie im Anzeigen-Dashboard auf mehrere Kanäle klicken können.
+>Beispielsweise zeigt die folgende Abbildung, wie Sie im Anzeigen-Dashboard auf mehrere Kanäle klicken können.
 
 ![cqdoc9456](assets/cqdoc9456.gif)
 
@@ -109,9 +109,9 @@ Klicken Sie oben rechts im Bedienfeld **ANZEIGEINFORMATIONEN** auf die Auslassun
 
 Klicken Sie auf **Eigenschaften**, um die Eigenschaften Ihrer Anzeige anzuzeigen oder zu ändern.
 
-Außerdem können Sie den Ereignis-Timer-Wert für Ihren interaktiven Kanal im **Anzeige** Registerkarte. Der Standardwert ist auf *300 Sekunden* eingestellt.
+Außerdem können Sie den Wert des Ereignis-Timers für Ihren interaktiven Kanal auf der Registerkarte **Anzeige** einstellen. Der Standardwert ist auf *300 Sekunden* eingestellt.
 
-Verwendung **CRXDE Lite**, um auf die **idleTimeout** -Eigenschaft, also `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels`.
+Verwenden Sie **CRXDE Lite**, um auf die Eigenschaft **idleTimeout** zuzugreifen: `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels`.
 
 
 ### Bedienfeld „Zugewiesene Kanäle“ {#assigned-channels-panel}
@@ -121,9 +121,9 @@ Das Bedienfeld **ZUGEWIESENE KANÄLE** zeigt die zugewiesenen Kanäle des Gerät
 
 ### Bedienfeld „Geräte“ {#devices-panel}
 
-Die **Geräte** Bedienfeld enthält Informationen zu den Gerätekonfigurationen.
+Das Bedienfeld **GERÄTE** bietet Informationen zu den Gerätekonfigurationen.
 
-Klicken Sie auf (**...**) oben rechts in der **Geräte** -Bedienfeld, damit Sie Gerätekonfigurationen hinzufügen und Geräte aktualisieren können.
+Klicken Sie oben rechts im Bedienfeld **GERÄTE** auf die Auslassungspunkte (**…**), um Gerätekonfigurationen hinzuzufügen und Geräte zu aktualisieren.
 
 Zudem können Sie auf die Gerätekonfiguration klicken, um Eigenschaften anzuzeigen, ein Gerät zuzuweisen oder ein Gerät komplett zu löschen.
 

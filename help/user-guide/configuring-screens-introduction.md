@@ -1,6 +1,6 @@
 ---
 title: Konfigurieren und Bereitstellen von AEM Screens
-description: Der AEM Screens-Player ist für Android&trade, Chrome OS, iOS und Windows verfügbar. Erfahren Sie mehr über die Konfiguration und Bereitstellung von AEM Screens.
+description: Der AEM Screens-Player ist für Android®, Chrome OS, iOS und Windows verfügbar. Erfahren Sie mehr über die Konfiguration und Bereitstellung von AEM Screens.
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,9 +10,9 @@ role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
 source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '686'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -24,11 +24,11 @@ Auf dieser Seite erfahren Sie, wie Sie die Player für Screens auf Ihren Geräte
 
 >[!IMPORTANT]
 >
->AEM Screens Player verwendet das CSRF-Token (Cross-Site Request Forgery) nicht. Um den AEM-Server für den Einsatz von AEM Screens zu konfigurieren, müssen Sie daher den Referrer-Filter überspringen, indem Sie leere Referrer zulassen.
+>Der AEM Screens-Player verwendet kein Cross-Site Request Forgery(CSRF)-Token.  Um den AEM-Server für den Einsatz von AEM Screens zu konfigurieren, müssen Sie daher den Referrer-Filter überspringen, indem Sie leere Referrer zulassen.
 
 ## Framework für Statusprüfungen {#health-check-framework}
 
-Mit dem Framework für Statusprüfungen kann der Benutzer überprüfen, ob zwei erforderliche Konfigurationen eingerichtet sind, bevor ein AEM Screens-Projekt ausgeführt wird.
+Mit dem Framework für Statusprüfungen kann die Benutzerin bzw. der Benutzer vor der Ausführung eines AEM Screens-Projekts prüfen, ob zwei erforderliche Konfigurationen eingerichtet wurden.
 
 So kann der Benutzer die folgenden zwei Konfigurationsprüfungen für die Ausführung eines AEM Screens-Projekts vornehmen, d. h. zur Überprüfung des Status der folgenden beiden Filter:
 
@@ -42,7 +42,7 @@ Gehen Sie wie folgt vor, um zu prüfen, ob diese beiden wichtigen Konfiguratione
    ![Assets](assets/health-check1.png)
 
 
-2. Klicks **Ausgewählte Konsistenzprüfungen ausführen** damit Sie die Überprüfung für zwei oben aufgelistete Eigenschaften ausführen können.
+2. Klicken Sie auf **Ausgewählte Statusprüfungen ausführen**, um die Validierung für zwei oben aufgelistete Eigenschaften auszuführen.
 
    Wenn beide Filter aktiviert sind, zeigt der **Screens Configuration Health Service** das **Ergebnis** als **OK** an (beide Konfigurationen sind aktiviert).
 
@@ -64,7 +64,7 @@ Die folgenden wichtigen Punkte bieten Hilfestellung beim Konfigurieren von AEM-S
 
 #### Zulassen von leeren Referrer-Anforderungen {#allow-empty-referrer-requests}
 
-1. Navigieren Sie zu **Konfiguration der Adobe Experience Manager-Web-Konsole** über AEM Instanz > Hammersymbol > **Aktivitäten** > **Web-Konsole**.
+1. Navigieren Sie über die AEM-Instanz > Hammersymbol > **Vorgänge** > **Web-Konsole** zur **Konfiguration der Adobe Experience Manager-Web-Konsole**.
 
    ![image](assets/config/empty-ref1.png)
 
@@ -81,7 +81,7 @@ Die folgenden wichtigen Punkte bieten Hilfestellung beim Konfigurieren von AEM-S
 
 #### Apache Felix Jetty-basierter HTTP-Service {#allow-apache-felix-service}
 
-1. Navigieren Sie zu **Konfiguration der Adobe Experience Manager-Web-Konsole** über AEM Instanz > Hammersymbol > **Aktivitäten** > **Web-Konsole**.
+1. Navigieren Sie über die AEM-Instanz > Hammersymbol > **Vorgänge** > **Web-Konsole** zur **Konfiguration der Adobe Experience Manager-Web-Konsole**.
 
    ![image](assets/config/empty-ref1.png)
 
@@ -93,7 +93,7 @@ Die folgenden wichtigen Punkte bieten Hilfestellung beim Konfigurieren von AEM-S
 
    ![image](assets/config/config-1.png)
 
-1. Klicks **Speichern** um die *HTTP* -Dienst.
+1. Klicken Sie auf **Speichern**, um den *HTTP*-Service zu aktivieren.
 
 #### Aktivieren der Touch-Benutzeroberfläche für AEM Screens {#enable-touch-ui-for-aem-screens}
 
@@ -116,11 +116,11 @@ Beim Ausführen von AEM in einer Produktionsumgebung wird der Ausführungsmodus 
 
 `https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`.
 
-Diese Entfernung ist erforderlich, damit der AEM Screens-Player Online-Kanäle wiedergeben kann.
+Dies Entfernung ist erforderlich, damit der AEM Screens-Player Online-Kanäle wiedergeben kann.
 
 #### Kennworteinschränkungen {#password-restrictions}
 
-Mit den neuesten Änderungen an ***DeviceServiceImpl***, müssen Sie die Kennworteinschränkungen nicht entfernen.
+Mit den letzten Änderungen an ***DeviceServiceImpl*** müssen Sie die Kennworteinschränkungen nicht entfernen.
 
 Sie können ***DeviceServiceImpl*** über den unten stehenden Link konfigurieren, um die Kennworteinschränkungen zu aktivieren, während Sie das Kennwort für die Screens-Gerätebenutzenden erstellen:
 

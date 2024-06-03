@@ -1,19 +1,19 @@
 ---
-title: Projektrollen und Zuständigkeiten in AEM Screens
+title: Rollen und Zuständigkeiten von AEM Screens-Projekten
 description: Erfahren Sie mehr über die Rollen und Zuständigkeiten von AEM Screens-Projekten.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
 source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1241'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
 # Projektrollen und Zuständigkeiten {#roles-responsibilities}
 
-Als erfahrener AEM-Implementor haben Sie wahrscheinlich gesehen, wie die Rollen als *Autoren*, *Entwickler*, und *IT-Techniker*.
+Als Person, die Erfahrung mit der AEM-Implementierung hat, haben Sie wahrscheinlich gesehen, dass die Rollen als *Autoren*, *Entwickler* und *IT-Techniker* bezeichnet werden.
 
-In einem typischen AEM Screens-Projekt werden die Rollen weiter verfeinert, da sie jeweils einen wichtigen Zweck im Projekt erfüllen.
+In einem typischen AEM Screens-Projekt werden die Rollen weiter verfeinert, da sie jeweils eine wichtige Aufgabe im Projekt haben.
 
 Das folgende Diagramm zeigt die Rollen, die Sie im Handbuch erwarten können.
 
@@ -35,25 +35,25 @@ Adobe umfasst Adobe Managed Services-Ressourcen wie CSE (Customer Success Engine
 
 AEM-Implementoren sind für die Durchführung von Entwicklungs- und Integrationsaufgaben zuständig, die der Entwicklung der Benutzererfahrung sowie benutzerdefinierter Vorlagen und Back-End-Integrationen für AEM dienen.
 
-Benutzerdefinierte Funktionen, die für die Bearbeitung von UX-Parametern (User Experience) bei Endkunden erforderlich sind, werden dabei ebenfalls erfasst und bereitgestellt.
+Benutzerdefinierte Funktionen, die für die Bearbeitung von UX-Parametern (User Experience) bei Endkundinnen und Endkunden erforderlich sind, werden dabei ebenfalls erfasst und bereitgestellt.
 
-AEM-Implementoren stellen benutzerdefinierte Funktionen an Standorten in der Regel schrittweise bereit. Beispielsweise richten sie möglicherweise zunächst Unterstützung für die Wiedergabe von einfachen Videoschleifen oder statischen Grafikinhalten ein. Die nächste Phase umfasst die Möglichkeit, die Wiedergabe lokalisierter Inhalte über dynamische Vorlagen und Metadaten-Tags zu unterstützen. In anderen Phasen werden interaktive Elemente über Touchscreens, Sensoren, dynamische Trigger usw. unterstützt.
+AEM-Implementoren stellen benutzerdefinierte Funktionen an Standorten in der Regel schrittweise bereit. Beispielsweise richten sie möglicherweise zunächst die Unterstützung für die Wiedergabe von einfachen Videoschleifen oder statischen Grafikinhalten ein. Die nächste Phase umfasst die Möglichkeit, die Wiedergabe lokalisierter Inhalte über dynamische Vorlagen und Metadaten-Tags zu unterstützen. In anderen Phasen werden interaktive Elemente über Touchscreens, Sensoren, dynamische Auslöser usw. unterstützt.
 
-### Audio-Video-Integratoren {#av-integrators}
+### Für die Audio-Video-Integration zuständige Personen {#av-integrators}
 
-Der Audio-Video-Integrator ist der Hardware-Anbieter-Partner. Sie sind die Partei, die sich mit der Vorbereitung von Einzelhandelsdesigns und -standorten beschäftigt, einschließlich Beschaffung, Konfiguration und Bereitstellung von Hardware. Es handelt sich normalerweise um einen beauftragten Drittanbieter, der Zugriff auf ein Network Operations Center (NOC) hat. Oft ist der Audio-Video-Integrator aufgrund seiner kontinuierlichen Beteiligung nach dem Start der Anwendung der Projekteigentümer.
+Die für die Audio-Video-Integration zuständige Person ist der Hardware-Anbieter oder -Partner. Dabei handelt es sich um die Partei, die sich mit der Vorbereitung von Design und Sites für den Einzelhandel beschäftigt, einschließlich Beschaffung, Konfiguration und Bereitstellung der Hardware. Es handelt sich dabei in der Regel um einen beauftragten Drittanbieter, der Zugriff auf ein Network Operations Center (NOC) hat. Häufig ist die Person, die für die Audio-Video-Integration zuständig ist, auch die bzw. der Projektverantwortliche, da sie nach der Markteinführung weiter kontinuierlich beteiligt ist.
 
-Ein Audio-Video-Integrator ist für die Durchführung von Erkundungen mit Endkunden verantwortlich, um Anforderungen zu definieren und den Projektumfang für das Entwerfen, Erstellen und effektive Verwalten von Bereitstellungen rund um Digital Signage-Hardware zu bestimmen.
+Die Person, die für die Audio-Video-Integration zuständig ist, ist für die Durchführung der Erkundung mit Endkundinnen bzw. -kunden verantwortlich, um Anforderungen zu definieren, die den Projektumfang für Entwicklung, Aufbau und effektive Verwaltung von Bereitstellungen im Zusammenhang mit Digital-Signage-Hardware bestimmen.
 
 #### Auswahl von Hardware-Partnern {#selecting-hardware-partner}
 
-Es ist wichtig, auf den richtigen Hardwarepartner zu klicken. Beantworten Sie folgende Fragen:
+Es ist wichtig, den richtigen Hardware-Partner auszuwählen. Beantworten Sie folgende Fragen:
 
 1. Wie sehen die Service Level Agreement-Bedingungen aus?
 
 1. Gibt es globale Abdeckung?
 
-1. Ist es 24-Stunden-Support?
+1. Gibt es einen Support rund um die Uhr?
 
 1. Wie werden die Geräte verwaltet?
 
@@ -77,7 +77,7 @@ Das Creatives- und Content Management-Team kann zum Beispiel beinhalten:
 
 ### Projekt-Managerinnen und Projekt-Manager {#project-managers}
 
-Projekt-Manager verwalten in der Regel die gesamte Bereitstellung für Ihre AEM Screens-Umgebung. Ein Projektmanager ist die zentrale Person für die gesamte Implementierung des ausgewählten Projekts. Sie übernehmen wichtige Aufgaben wie die Festlegung von Zeitplänen und die Bearbeitung von Teamanforderungen. Sie betreffen auch die Kommunikation, die Bewältigung von Herausforderungen und die Sicherstellung, dass Ziele erreicht werden.
+Projekt-Managerinnen und Projekt-Manager verwalten in der Regel die gesamte Bereitstellung für Ihre AEM Screens-Umgebung. Eine Projekt-Managerin bzw. ein Projekt-Manager ist die zentrale Person für die gesamte Implementierung des ausgewählten Projekts. Sie übernehmen wichtige Aufgaben wie die Festlegung von Zeitplänen und die Bearbeitung von Team-Anforderungen. Sie haben darüber hinaus Einfluss auf die Kommunikation, begegnen Herausforderungen und stellen sicher, dass Ziele erreicht werden.
 
 >[!NOTE]
 >
@@ -86,17 +86,17 @@ Projekt-Manager verwalten in der Regel die gesamte Bereitstellung für Ihre AEM 
 
 ## Projektphasen {#project-stages}
 
-Um eine erfolgreiche Bereitstellung digitaler Beschilderungen zu unterstützen, ist es üblich, das Projekt in drei Phasen zu unterteilen. Diese Phasen werden häufig als **Tage**. Es handelt sich nicht um wörtliche Tage, sondern um Bezeichnungen für die einzelnen Hauptschritte des Projekts.
+Zur Sicherstellung einer erfolgreichen Digital-Signage-Bereitstellung ist es üblich, ein Projekt in drei Phasen (Schritte) zu unterteilen. Diese Schritte werden häufig als **Tage** bezeichnet. Es handelt sich dabei nicht um Tage im wörtlichen Sinne, sondern um Bezeichnungen für die verschiedenen Hauptschritte eines Projekts.
 
-1. Der erste Schritt wird als *Tag 0* bezeichnet. Diese Phase umfasst alle Pre-Sales- und Erkundungsbemühungen, die zur Definition des Projektumfangs erforderlich sind.
+1. Der erste Schritt wird als *Tag 0* bezeichnet. Dieser Schritt umfasst alle Pre-Sales- und Erkundungsbemühungen, die zur Definition des Projektumfangs erforderlich sind.
 1. Der zweite Schritt, *Tag 1*, bezieht sich auf alle Aktivitäten, die Teil der Bereitstellung sind.
-1. Die dritte und letzte Stufe ist *Tag 2*. Er bezieht sich auf alle laufenden Vorgänge und Support-Elemente, die Teil der Gesamtlösung sind.
+1. Der dritte und letzte Schritt ist *Tag 2*. Dieser Schritt bezieht sich auf alle laufenden Operationen und unterstützenden Elemente, die Teil der Gesamtlösung sind.
 
 >[!NOTE]
 >
->Während dieser Leitfaden den Schwerpunkt hauptsächlich auf *Tag 1* und *Tag 2* müssen alle drei Phasen beachtet werden, um ein erfolgreiches Digital Signage-Projekt durchzuführen.
+>Auch wenn der Schwerpunkt dieses Handbuchs auf *Tag 1* und *Tag 2* liegt, müssen bei einem erfolgreichen Digital-Signage-Projekt alle drei Phasen beachtet werden.
 >
->Sehen Sie sich ein Video zu **[Projekt-Management und Bereitstellung](https://experienceleague.adobe.com/de/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)**.
+>Weitere Informationen zur Projektvorbereitung, zur Projektinitiierung und zum Projektfortschritt finden Sie in diesem Video zum Thema **[Projekt-Management und Bereitstellung](https://experienceleague.adobe.com/de/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)**.
 
 ## RACI-Diagramm {#raci-chart}
 
@@ -104,13 +104,13 @@ Im Folgenden finden Sie ein Beispiel für ein RACI-Diagramm unter Verwendung der
 
 >[!NOTE]
 >
->Sie müssen der Grafik nicht genau folgen. Stattdessen soll ein Beispiel für häufige Aufgaben und Überlegungen in einem AEM Screens-Projekt bereitgestellt werden.
+>Sie müssen dem Diagramm nicht genau folgen. Es soll Ihnen vielmehr als Beispiel für häufige Aufgaben und Überlegungen im Rahmen eines AEM Screens-Projekts dienen.
 
 ### RACI-Definitionen {#raci-definitions}
 
 * **Responsible (verantwortlich)**: Führt die Arbeiten zur Erledigung der Aufgabe aus.
 
-* **Accountable**: Delegiert Arbeiten und sind die letzte Partei, die die Aufgabe überprüft, bevor sie abgeschlossen ist.
+* **Accountable (rechenschaftspflichtig)**: Delegiert Arbeiten und ist die letzte Partei, die eine Aufgabe überprüft, bevor sie abgeschlossen wird.
 
 * **Consulted (konsultiert)**: Prüft die Aufgabe oder das Lieferziel, um Input zu liefern.
 
@@ -132,7 +132,7 @@ Die folgende Tabelle fasst die Überlegungen zu **Tag 0: Pre-Sales** zusammen:
 
 Die folgende Tabelle fasst die Überlegungen zu **Tag 0: Projektimplementierung (Anwendungs-Design)** zusammen:
 
-| **Schritt** | **Audio-Video-Integrator** | **AEM-Implementor** | **Geschäftsstrategie** | **Content Management** |
+| **Schritt** | **Die für die Audio-Video-Integration zuständige Person** | **AEM-Implementor** | **Geschäftsstrategie** | **Content Management** |
 |---|---|---|---|---|
 | Einigung über Rollen und Zuständigkeiten | RA | RA | RA | RA |
 | Ausrichtung am Projekt- und Zeitplan | RA | RA | C | C |
@@ -152,7 +152,7 @@ Die folgende Tabelle fasst die Überlegungen zu **Tag 0: Projektimplementierung
 
 Die folgende Tabelle fasst die Überlegungen zu **Tag 0: Projektimplementierung (Einzelhändlervorbereitung)** zusammen:
 
-| **Schritt** | **Audio-Video-Integrator** | **AEM-Implementor** | **Geschäftsstrategie** | **Content Management** |
+| **Schritt** | **Die für die Audio-Video-Integration zuständige Person** | **AEM-Implementor** | **Geschäftsstrategie** | **Content Management** |
 |---|---|---|---|---|
 | Hardwarebestellung und -lagerung | RA | I | I | I |
 | Onboarding-Zeitplan für den Einzelhandel | I | I | C | RA |
@@ -162,12 +162,12 @@ Die folgende Tabelle fasst die Überlegungen zu **Tag 0: Projektimplementierung
 
 Die folgende Tabelle fasst die Überlegungen zu **Tag 1: Projektimplementierung (Hardware)** zusammen:
 
-| **Schritt** | **Audio-Video-Integrator** | **AEM-Implementor** | **Geschäftsstrategie** | **Content Management** |
+| **Schritt** | **Die für die Audio-Video-Integration zuständige Person** | **AEM-Implementor** | **Geschäftsstrategie** | **Content Management** |
 |---|---|---|---|---|
 | Einigung über Rollen und Zuständigkeiten | RA | RA | RA | RA |
 | Einzelhandelsdesign inklusive Verkabelung | - | - | - | - |
 | Auswahl der Player-Hardware | RAC | - | - | - |
-| Geräteverwaltung der primären | RA | I | - | - |
+| Verwaltung von Primärgeräten | RA | I | - | - |
 | Bestellung, Aufbewahrung und Konfiguration von Geräten | RA | CI | I | - |
 | Definition von Supportprozessen | RA | I | RA | C |
 
@@ -177,9 +177,9 @@ Die folgende Tabelle fasst die Überlegungen zu **Tag 1: Projektimplementierung
 
 * **Autor**: Content Management + Strategie
 
-* **Entwickler**: In der Regel ein Mitglied des AEM Screens-Implementierungsteams oder Übergabe an ein internes Entwicklungsteam
+* **Entwickler**: In der Regel ein Mitglied des AEM Screens-Implementierungs-Teams oder Übergabe an das interne Entwicklungs-Team
 
-* **Techniker**: Entweder vom Audio-Video-Integrator beauftragt oder Teil desselben Unternehmens ist.
+* **Techniker**: Entweder von der für die Audio-Video-Integration zuständigen Person beauftragt oder Teil desselben Unternehmens.
 
 In der folgenden Tabelle wird **Tag 2 zusammengefasst: RACI-Diagramm für Post-Launch-Support**:
 
@@ -191,4 +191,4 @@ In der folgenden Tabelle wird **Tag 2 zusammengefasst: RACI-Diagramm für Post-
 | Level 2-Support | I | C | RA |
 | Level 3-Support | I | RA | C |
 | Inhaltsaktualisierung | RA | I | I |
-| Bewerten des UX-Erfolgs und Ermitteln von Verbesserungsbereichen | RA | C | I |
+| Bewerten des UX-Erfolgs und Ermitteln von Verbesserungsmöglichkeiten | RA | C | I |

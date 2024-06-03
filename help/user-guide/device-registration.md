@@ -11,9 +11,9 @@ role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
 source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '722'
-ht-degree: 56%
+ht-degree: 100%
 
 ---
 
@@ -30,11 +30,11 @@ Der Prozess zur Geräteregistrierung erfolgt auf zwei separaten Geräten:
 
 >[!NOTE]
 >
->Nach dem Herunterladen des neuesten Windows-Players (*.exe*), aus dem [AEM 6.4 Player-Downloads](https://download.macromedia.com/screens/) Führen Sie die Schritte im Player aus, um die Ad-hoc-Installation abzuschließen:
+>Nachdem Sie die neueste Version des Windows-Players (*.exe*) von der Seite [AEM 6.4 Player-Downloads](https://download.macromedia.com/screens/) heruntergeladen haben, führen Sie die Schritte auf dem Player aus, um die Ad-hoc-Installation abzuschließen:
 >
->1. Halten Sie die linke obere Ecke gedrückt, um das Admin-Bedienfeld zu öffnen.
+>1. Halten Sie die linke obere Ecke eine Weile gedrückt, um das Admin-Bedienfeld zu öffnen.
 >1. Navigieren Sie im linken Aktionsmenü zu **Konfiguration**, geben Sie die Speicherortadresse der AEM-Instanz unter **Server** ein und klicken Sie auf **Speichern**.
->1. Klicken Sie auf **Registrierung** über den Link im linken Aktionsmenü und die folgenden Schritte, um den Prozess zur Geräteregistrierung abzuschließen.
+>1. Klicken Sie im linken Aktionsmenü auf den Link **Registrierung** und führen Sie die Schritte darunter aus, um die Geräteregistrierung abzuschließen.
 >
 
 ![screen_shot_2018-11-26at12118pm](assets/screen_shot_2018-11-26at12118pm.png)
@@ -49,15 +49,15 @@ Der Prozess zur Geräteregistrierung erfolgt auf zwei separaten Geräten:
    >
    >Weitere Informationen zum Erstellen eines Projekts für Screens im AEM-Dashboard finden Sie unter [Erstellen und Verwalten von Screens-Projekten](creating-a-screens-project.md).
 
-1. Klicken Sie auf **Geräte-Manager** in der Aktionsleiste.
+1. Klicken Sie in der Aktionsleiste auf die Schaltfläche **Geräte-Manager**.
 
    ![screen_shot_2018-11-26at104702am](assets/screen_shot_2018-11-26at104702am.png)
 
-1. Klicken Sie auf **Geräteregistrierung** rechts oben.
+1. Klicken Sie oben rechts auf die Schaltfläche **Geräteregistrierung**.
 
    ![screen_shot_2018-11-26at104815am](assets/screen_shot_2018-11-26at104815am.png)
 
-1. Klicken Sie auf das gewünschte Gerät (wie in Schritt 1) und klicken Sie auf **Gerät registrieren**.
+1. Wählen Sie das erforderliche Gerät (dasselbe wie in Schritt 1) aus und klicken Sie auf **Gerät registrieren**.
 
    ![screen_shot_2018-11-26at105112am](assets/screen_shot_2018-11-26at105112am.png)
 
@@ -69,12 +69,12 @@ Der Prozess zur Geräteregistrierung erfolgt auf zwei separaten Geräten:
 
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
-1. Wenn die Variable **Registrierungs-Code** auf beiden Computern identisch ist, klicken Sie auf das **Bestätigen** in AEM, wie in Schritt (6) gezeigt.
+1. Wenn der **Registrierungs-Code** auf beiden Geräten identisch ist, klicken Sie in AEM auf die Schaltfläche **Validieren**, wie in Schritt (6) gezeigt.
 1. Legen Sie den gewünschten Namen für das Gerät fest und klicken Sie auf **Registrieren**.
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
 
-1. Klicks **Beenden** , um den Registrierungsprozess abzuschließen.
+1. Klicken Sie auf **Beenden**, um den Registrierungsprozess abzuschließen.
 
    ![screen_shot_2018-11-26at105456am](assets/screen_shot_2018-11-26at105456am.png)
 
@@ -84,7 +84,7 @@ Der Prozess zur Geräteregistrierung erfolgt auf zwei separaten Geräten:
    >
    >Mit **Anzeige zuweisen** können Sie das Gerät direkt einer Anzeige hinzufügen.
 
-   Wenn Sie auf **Beenden**, weisen Sie das Gerät einer Anzeige zu.
+   Wenn Sie auf **Beenden** klicken, müssen Sie das Gerät einer Anzeige zuweisen.
 
    ![screen_shot_2018-11-26at105740am](assets/screen_shot_2018-11-26at105740am.png)
 
@@ -94,17 +94,17 @@ Der Prozess zur Geräteregistrierung erfolgt auf zwei separaten Geräten:
 
 ### Zuweisen eines Geräts zu einer Anzeige {#assigning-device-to-a-display}
 
-Wenn Sie das Gerät nicht einer Anzeige zugewiesen haben, führen Sie die folgenden Schritte aus, um das Gerät einer Anzeige in Ihrem AEM Screens-Projekt zuzuweisen:
+Wenn Sie das Gerät nicht schon einer Anzeige zugewiesen haben, führen Sie die folgenden Schritte aus, um das Gerät einer Anzeige in Ihrem AEM Screens-Projekt zuzuweisen:
 
-1. Klicken Sie auf das Gerät und klicken Sie auf **Gerät zuweisen** in der Aktionsleiste aus.
+1. Wählen Sie das Gerät aus und klicken Sie in der Aktionsleiste auf **Gerät zuweisen**.
 
    ![screen_shot_2018-11-26at111026am](assets/screen_shot_2018-11-26at111026am.png)
 
-1. Klicken Sie auf den Pfad der Anzeige in **Pfad zur Anzeige/Gerätekonfiguration**.
+1. Wählen Sie den Pfad der Anzeige unter **Anzeige-/Gerätekonfiguration** aus.
 
    ![screen_shot_2018-11-26at111252am](assets/screen_shot_2018-11-26at111252am.png)
 
-1. Klicks **Zuweisen** wenn Sie auf den Pfad klicken.
+1. Klicken Sie auf **Zuweisen**, wenn Sie den Pfad auswählen.
 
    ![screen_shot_2018-11-26at111722am](assets/screen_shot_2018-11-26at111722am.png)
 
@@ -112,7 +112,7 @@ Wenn Sie das Gerät nicht einer Anzeige zugewiesen haben, führen Sie die folgen
 
    ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
 
-   Außerdem können Sie das Anzeigen-Dashboard anzeigen, indem Sie **Beenden**.
+   Außerdem können Sie das Anzeigen-Dashboard anzeigen, wenn Sie auf **Beenden** klicken.
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
@@ -120,9 +120,9 @@ Wenn Sie das Gerät nicht einer Anzeige zugewiesen haben, führen Sie die folgen
 
 Wenn Sie Geräte für Ihren Player registriert haben, können Sie alle Geräte über die Benutzeroberfläche des Geräte-Managers anzeigen.
 
-1. Navigieren Sie in Ihrem AEM Screens-Projekt zur Benutzeroberfläche des Geräte-Managers, z. B. **DemoScreens** > **Geräte**.
+1. Navigieren Sie in Ihrem AEM Screens-Projekt zur Benutzeroberfläche des Geräte-Managers, z. B. **DemoScreens** > **Geräte**.
 
-1. Klicken Sie auf **Geräte** Ordner und klicken Sie auf **Geräte-Manager** in der Aktionsleiste aus.
+1. Klicken Sie auf den Ordner **Geräte** und dann in der Aktionsleiste auf **Geräte-Manager**.
 
    ![image](/help/user-guide/assets/device-manager/device-manager-1.png)
 
@@ -134,29 +134,29 @@ Wenn Sie Geräte für Ihren Player registriert haben, können Sie alle Geräte �
 
    ODER
 
-   Auswählen `/` (Schrägstrich) zum Aufrufen der Suchfunktion.
+   Wählen Sie `/` (Schrägstrich) aus, um die Suchfunktion aufzurufen.
 
    ![Bild](/help/user-guide/assets/device-manager/device-manager-3.png)
 
 
 ### Einschränkungen bei der Suchfunktion {#limitations}
 
-* Der Benutzer kann jedes in der Variablen *Geräte-ID* oder *Gerätename*.
+* Benutzende können nach jedem Wort suchen, das in der *Geräte-ID* oder dem *Gerätenamen* vorkommt.
 
   >[!NOTE]
-  >Es wird empfohlen, die Gerätenamen in mehreren Wörtern zu erstellen, z. B. *`Boston Store Lobby`* anstelle von einer einzelnen *`BostonStoreLobby`*.
+  >Es wird empfohlen, aus mehreren Wörtern bestehende Gerätenamen zu verwenden, z. B. *`Boston Store Lobby`* statt *`BostonStoreLobby`*.
 
-* Wenn Sie Gerätenamen wie *`Boston Store Lobby`*, sucht es nach einem beliebigen Wort *`boston`*, *`store`* oder *`lobby`*. Wenn der Gerätename jedoch *`BostonStoreLobby`*, suchen Sie dann nach *`boston`* zeigt keine Ergebnisse an.
+* Wenn Sie Gerätenamen wie *`Boston Store Lobby`* erstellt haben, wird nach *`boston`*, *`store`* oder *`lobby`* gesucht. Lautet der Gerätename allerdings *`BostonStoreLobby`*, ergibt eine Suche nach *`boston`* keine Treffer.
 
-* Der Platzhalter `*` wird für die Suche unterstützt. Wenn Sie alle Geräte mit Namen finden möchten, die mit *`boston`* können Sie *`boston`**.
+* Der Platzhalter `*` wird für die Suche unterstützt. Wenn Sie nach allen Geräten suchen möchten, deren Name mit *`boston`* beginnt, können Sie *`boston`** verwenden.
 
-* Wenn der Gerätename *`BostonStoreLobby`* und die Suche nach *`boston`* gibt das Ergebnis nicht zurück, indem Sie *`boston`** in Ihren Suchkriterien gibt das Ergebnis zurück.
+* Wenn der Gerätename *`BostonStoreLobby`* lautet und die Suche nach *`boston`* kein Ergebnis liefert, können Sie stattdessen *`boston`** in Ihren Suchkriterien verwenden, um einen Treffer zu erhalten.
 
 ## Einschränkungen bei der Geräteregistrierung {#limitations-on-device-registration}
 
 Systemweite Einschränkungen für Benutzerkennwörter verursachen möglicherweise einen Fehler bei der Geräteregistrierung. Bei der Geräteregistrierung wird ein zufällig generiertes Kennwort verwendet, um die Gerätebenutzerin bzw. den Gerätebenutzer zu erstellen.
 
-Wenn die Variable *AuthorizableActionProvider* -Konfiguration beschränkt das Kennwort, wodurch der Gerätebenutzer möglicherweise fehlschlägt.
+Wenn die Konfiguration *AuthorizableActionProvider* das Kennwort beschränkt, schlägt die Erstellung der Gerätebenutzerin bzw. des Gerätebenutzers möglicherweise fehl.
 
 >[!NOTE]
 >
@@ -172,4 +172,4 @@ javax.jcr.nodetype.ConstraintViolationException: Password violates password cons
 
 ### Sonstige Ressourcen {#additional-resources}
 
-Weitere Informationen zum AEM Screens Player finden Sie unter [AEM Screens Player](working-with-screens-player.md).
+Weitere Informationen zum AEM Screens-Player finden Sie unter [AEM Screens-Player](working-with-screens-player.md).

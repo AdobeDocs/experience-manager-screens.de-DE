@@ -1,6 +1,6 @@
 ---
 title: Videoausgabedarstellungen
-description: Erfahren Sie mehr über das Generieren von Full HD-Wiedergaben für Ihr AEM Screens-Projekt.
+description: Erfahren Sie mehr über das Generieren von Full HD-Ausgabedarstellungen für Ihr AEM Screens-Projekt.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,52 +10,52 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 752c74d7-5d6d-4363-97ef-b96e97d2f6b1
 source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '367'
-ht-degree: 17%
+ht-degree: 100%
 
 ---
 
 # Videoausgabedarstellungen {#video-renditions}
 
-Sie können manuelle und automatische Full HD-Wiedergaben generieren. Im folgenden Abschnitt wird der Workflow zum Hinzufügen von Ausgabeformaten zu Assets beschrieben.
+Es ist möglich, manuelle und automatische Full HD-Ausgabedarstellungen zu generieren. Im folgenden Abschnitt wird der Workflow zum Hinzufügen von Ausgabedarstellungen zu Assets beschrieben.
 
 ## Automatisches Generieren von Full HD-Ausgabeformaten {#automatically-generating-full-hd-renditions}
 
 >[!NOTE]
 >
->Falls die AEM Screens-Videoausgabeformate nicht optimal auf Ihrem Gerät wiedergegeben werden, wenden Sie sich an den Hardware-Anbieter, um die Spezifikationen des Videos zu erhalten. Auf diese Weise erhalten Sie die beste Leistung auf dem Gerät. Sie können damit Ihr eigenes benutzerdefiniertes Videoprofil erstellen, in dem Sie die entsprechenden Parameter für FFMPEG zur Generierung Ihrer Ausgabedarstellung angeben. Gehen Sie dann wie folgt vor, um Ihr benutzerdefiniertes Videoprofil zur Profilliste hinzuzufügen.
+>Falls die AEM Screens-Videoausgabedarstellungen auf Ihrem Gerät nicht optimal wiedergegeben werden, wenden Sie sich an den Hardware-Anbieter, um sich über die Spezifikationen für das Video zu informieren. Auf diese Weise erhalten Sie die beste Leistung auf dem Gerät. Sie können damit Ihr eigenes benutzerdefiniertes Videoprofil erstellen, in dem Sie die entsprechenden Parameter für FFMPEG zur Generierung Ihrer Ausgabedarstellung angeben. Gehen Sie dann wie folgt vor, um Ihr benutzerdefiniertes Videoprofil zur Profilliste hinzuzufügen.
 >
->Siehe auch [Fehlerbehebung bei Videos](troubleshoot-videos.md) , um die Videowiedergabe in Ihrem Kanal zu debuggen und Fehler zu beheben.
+>Weitere Informationen zur Fehlerbehebung bei der Wiedergabe von Videos in Ihrem Kanal finden Sie unter [Fehlerbehebung bei Videos](troubleshoot-videos.md).
 
-Gehen Sie wie folgt vor, um Full HD-Wiedergaben automatisch zu generieren:
+Führen Sie die folgenden Schritte aus, um automatisch Full-HD-Ausgabedarstellungen zu generieren:
 
-1. Klicken Sie auf den Adobe Experience Manager-Link (oben links) und dann auf das Hammersymbol, damit Sie auf **Workflow**.
+1. Klicken Sie auf den Adobe Experience Manager-Link (oben links) und dann auf das Hammersymbol, um auf **Workflow** klicken zu können.
 
-   Klicks **Modelle**.
+   Klicken Sie auf **Modelle**.
 
    ![screen_shot_2018-02-01at123407pm](assets/screen_shot_2018-02-01at123407pm.png)
 
-1. Klicken Sie in der Workflow-Modellverwaltung auf die Schaltfläche **DAM-Update-Asset** Modell und klicken Sie **Bearbeiten** in der Aktionsleiste aus.
+1. Klicken Sie in der Workflow-Modellverwaltung auf das Modell **DAM-Update-Asset** und klicken Sie dann in der Aktionsleiste auf **Bearbeiten**.
 
    ![step5_-_edit_thedamupdateassetmodel](assets/step5_-_edit_thedamupdateassetmodel.png)
 
-1. Im **DAM-Update-Asset** durch Doppelklick auf das **FFmpeg-Transkodierung** Schritt.
+1. Doppelklicken Sie im Fenster **DAM-Update-Asset** auf den Schritt **FFmpeg-Transkodierung**.
 
    ![screen_shot_2018-02-01at124454pm](assets/screen_shot_2018-02-01at124454pm.png)
 
-1. Klicken Sie auf **Prozess** Registerkarte.
-1. Geben Sie die Full HD-Profile in die Liste unter **Argumente** wie folgt:
+1. Klicken Sie auf die Registerkarte **Prozess**.
+1. Geben Sie die vollständigen HD-Profile wie folgt in die Liste unter **Argumente** ein:
    ***`,profile:fullhd-bp,profile:fullhd-hp`***
 1. Klicken Sie auf **OK**.
 
    ![screen_shot_2018-02-02at103340am](assets/screen_shot_2018-02-02at103340am.png)
 
-1. Klicks **Speichern** oben links im **DAM-Update-Asset** angezeigt.
+1. Klicken Sie oben links im Bildschirm **DAM-Update-Asset** auf **Speichern**.
 
    ![screen_shot_2018-02-02at101830am](assets/screen_shot_2018-02-02at101830am.png)
 
-1. Navigieren Sie zu **Assets** und laden Sie ein neues Video hoch. Klicken Sie auf das Video und öffnen Sie die Seitenleiste Ausgabeformate . Beachten Sie die beiden Full HD-Videos.
+1. Navigieren Sie zu **Assets** und laden Sie ein neues Video hoch. Klicken Sie auf das Video und öffnen Sie die Seitenleiste „Ausgabedarstellungen“. Beachten Sie die beiden Full HD-Videos.
 
    ![step10_-_open_thevideoasset](assets/step10_-_open_thevideoasset.png)
 
@@ -63,25 +63,25 @@ Gehen Sie wie folgt vor, um Full HD-Wiedergaben automatisch zu generieren:
 
    ![step11_-_open_therenditionssiderail](assets/step11_-_open_therenditionssiderail.png)
 
-1. Beachten Sie zwei neue Full HD-Wiedergaben.
+1. Sie werden zwei neue Full HD-Ausgabedarstellungen bemerken.
 
    ![step12_-_2_new_renditionsareaddedtothevideo](assets/step12_-_2_new_renditionsareaddedtothevideo.png)
 
 ## Manuelles Generieren von Full HD-Wiedergaben {#manually-generating-full-hd-renditions}
 
-Gehen Sie wie folgt vor, um Full HD-Wiedergaben manuell zu generieren:
+Gehen Sie wie folgt vor, um manuell Full HD-Ausgabedarstellungen zu generieren:
 
-1. Klicken Sie auf den Link Adobe Experience Manager (oben links) und dann auf das Hammersymbol, damit Sie auf Tools klicken und auf **Workflow**.
+1. Klicken Sie auf den Adobe Experience Manager-Link (oben links) und klicken Sie auf das Hammersymbol, um auf Tools und dann auf **Workflow** zu klicken.
 
-   Klicks **Modelle**.
+   Klicken Sie auf **Modelle**.
 
    ![screen_shot_2018-02-01at123407pm-1](assets/screen_shot_2018-02-01at123407pm-1.png)
 
-1. Klicken Sie in der Workflow-Modellverwaltung auf die Schaltfläche **Screens-Asset aktualisieren** und klicken Sie auf das **Workflow starten** , um die **Workflow ausführen** Dialogfeld.
+1. Klicken Sie in der Workflow-Modellverwaltung auf das Modell **Screens – Asset aktualisieren** und klicken Sie dann auf **Workflow starten**, wodurch sich das Dialogfeld **Workflow ausführen** öffnet.
 
    ![step5_-_start_a_newscreensupdateassetworkflow](assets/step5_-_start_a_newscreensupdateassetworkflow.png)
 
-1. Klicken Sie auf das gewünschte Video im **Nutzlast** und klicken **Ausführen**.
+1. Klicken Sie auf das gewünschte Video in der **Payload** und dann auf **Ausführen**.
 
    ![step6_-_select_thedesiredvideo](assets/step6_-_select_thedesiredvideo.png)
 
@@ -89,6 +89,6 @@ Gehen Sie wie folgt vor, um Full HD-Wiedergaben manuell zu generieren:
 
    ![step7_-_open_thevideoasset](assets/step7_-_open_thevideoasset.png)
 
-1. Öffnen Sie die **Ausgabeformate** Seitenleiste. Beachten Sie die neuen Full HD-Wiedergaben.
+1. Öffnen Sie die Seitenleiste **Ausgabedarstellungen**. Beachten Sie die neuen Full HD-Ausgabedarstellungen.
 
    ![step8_-_open_therenditionssiderail](assets/step8_-_open_therenditionssiderail.png)

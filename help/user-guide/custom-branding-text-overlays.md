@@ -7,9 +7,9 @@ role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
 source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '582'
-ht-degree: 44%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Erfahren Sie, wie Sie benutzerdefiniertes Branding und Styling für Textüberlag
 
 Gehen Sie wie folgt vor, um benutzerdefiniertes Branding und Styling für Textüberlagerungen zu erstellen:
 
-1. Erstellen Sie ein AEM Screens-Projekt. In diesem Beispiel wird die Funktionalität durch Erstellen eines Projekts mit dem Namen **`customstyle`** und einen Kanal mit dem Titel **DemoBrand**, wie in der folgenden Abbildung dargestellt.
+1. Erstellen Sie ein AEM Screens-Projekt. In diesem Beispiel wird die Funktionalität veranschaulicht, indem ein Projekt mit dem Namen **`customstyle`** und ein Kanal mit dem Namen **DemoBrand** erstellt werden (siehe Abbildung unten).
 
    ![Bild](/help/user-guide/assets/custom-brand/custom-brand1.png)
 
@@ -34,11 +34,11 @@ Gehen Sie wie folgt vor, um benutzerdefiniertes Branding und Styling für Textü
 
 1. Navigieren Sie von Ihrer AEM-Instanz zu „Tools“ > **CRXDE Lite**.
 
-1. Erstellen Sie ein benutzerdefiniertes Design in `/apps/settings/wcm/designs/<your-project>/`Navigieren Sie in diesem Fall beispielsweise zu `/apps/settings/wcm/designs/customstyle/`
+1. Erstellen Sie beispielsweise ein benutzerdefiniertes Design in `/apps/settings/wcm/designs/<your-project>/`. In diesem Fall navigieren Sie zu `/apps/settings/wcm/designs/customstyle/`.
 
    ![Bild](/help/user-guide/assets/custom-brand/custom-brand3.png)
 
-1. Erstellen Sie eine *static.css* und legen Sie die folgenden CSS-Regeln fest. Dies wird auch als Beispiel in der Abbildung unter den CSS-Regeln gezeigt.
+1. Erstellen Sie die Datei *static.css* und legen Sie die folgenden CSS-Regeln fest. Dies wird auch als Beispiel in der Abbildung unter den CSS-Regeln gezeigt.
 
    ```shell
     //global styles
@@ -65,7 +65,7 @@ Gehen Sie wie folgt vor, um benutzerdefiniertes Branding und Styling für Textü
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand4.png)
 
-1. Kopieren Sie den Pfad zu Ihrem Projekt. In diesem Fall lautet der Pfad `/apps/settings/wcm/designs/customstyle`.
+1. Kopieren Sie den Pfad zu Ihrem Projekt. In diesem Fall ist der Pfad `/apps/settings/wcm/designs/customstyle`.
 
 1. Navigieren Sie zum Kanal mit dem Namen **DemoBrand** (erstellt in Schritt 1) und klicken Sie nach der Auswahl des Kanals in der Aktionsleiste auf **Eigenschaften**.
 
@@ -73,7 +73,7 @@ Gehen Sie wie folgt vor, um benutzerdefiniertes Branding und Styling für Textü
    ![image](/help/user-guide/assets/custom-brand/custom-brand5.png)
 
    >[!NOTE]
-   >Die Standardeinstellung ist die **Design** zeigt den Pfad zu Designs im Ordner &quot;libs&quot;an.
+   >Standardmäßig zeigt das Feld **Design** den Pfad an, der auf die Designs im Ordner „libs“ verweist.
 
 1. Aktualisieren Sie das Feld **Design** mit dem Pfad zum Projektordner. In diesem Beispiel ist er auf `/apps/settings/wcm/designs/customstyle` festgelegt.
 
@@ -87,11 +87,11 @@ Gehen Sie wie folgt vor, um benutzerdefiniertes Branding und Styling für Textü
 1. So überlagern Sie die vorhandenen Screens-Vorlagen, um Ihre eigenen Designs standardmäßig einzufügen:
 
    1. Überlagern Sie `/libs/screens/core/templates/sequencechannel` in `/apps/screens/core/templates/sequencechannel`.
-   1. Ändern Sie die *`cq:designPath`* -Eigenschaft in `/apps/screens/core/templates/sequencechannel/jcr:content` , damit er auf das neue Design verweist.
+   1. Ändern Sie die Eigenschaft *`cq:designPath`* in `/apps/screens/core/templates/sequencechannel/jcr:content` so, dass sie auf das neue Design verweist.
 
 1. So erstellen Sie eine eigene Vorlage:
    1. Kopieren Sie `/libs/screens/core/templates/sequencechannel` nach `/apps/customstyle/templates/styled-sequencechannel`.
-   1. Ändern Sie die *`cq:designPath`* -Eigenschaft in `/apps/customstyle/templates/styled-sequencechannel/jcr:content` , damit er auf das neue Design verweist.
+   1. Ändern Sie die Eigenschaft *`cq:designPath`* in `/apps/customstyle/templates/styled-sequencechannel/jcr:content` so, dass sie auf das neue Design verweist.
 
 
 ### Aktualisieren von ACLs {#updating-acls}
@@ -104,11 +104,11 @@ Aktualisieren Sie die ACLs für diese Designs, damit der Player sie herunterlade
 
 ## Anzeigen des Ergebnisses {#viewing-the-result}
 
-Wenn Sie die vorherigen Schritte ausgeführt haben, können Sie Ihre *statis.css* Datei aus **CRXDE Lite** und sehen Sie sich daher die Aktualisierung Ihrer Textüberlagerung an, die bereits zum Asset hinzugefügt wurde.
+Wenn Sie die obigen Schritte abgeschlossen haben, können Sie die Datei *statis.css* von **CRXDE Lite** aus aktualisieren, um die Aktualisierung Ihrer Textüberlagerung anzuzeigen, die dem Asset bereits hinzugefügt wurde.
 
 Gehen Sie wie folgt vor, um die Textüberlagerung mit dem aktualisierten Design anzuzeigen:
 
-1. Navigieren Sie zu Ihrem AEM Screens-Projekt mit dem Titel **`customstyle`** > **Kanäle** > **DemoBrand**. Klicken Sie auf den Kanal und klicken Sie auf **Bearbeiten** in der Aktionsleiste aus.
+1. Navigieren Sie zu Ihrem AEM Screens-Projekt mit dem Titel **`customstyle`** > **Channels** > **DemoBrand**. Klicken Sie auf den Kanal und dann in der Aktionsleiste auf **Bearbeiten**.
 
 1. Da Sie jetzt das Design, wie oben erwähnt, dem Feld **Designs** hinzugefügt haben, klicken Sie auf **Vorschau**, um das aktuelle Bild-Styling mit der Textüberlagerung anzuzeigen.
 
@@ -118,16 +118,16 @@ Gehen Sie wie folgt vor, um die Textüberlagerung mit dem aktualisierten Design 
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand8.png)
 
-1. Wenn Sie die Änderungen speichern und die Vorschau neu laden, wird eine Aktualisierung der Schriftart der Textüberlagerung angezeigt, wie in der folgenden Abbildung dargestellt.
+1. Wenn Sie die Änderungen gespeichert und die Vorschau neu geladen haben, wird die Schrift der Textüberlagerung aktualisiert, wie in der Abbildung unten dargestellt.
 
    ![Bild](/help/user-guide/assets/custom-brand/custom-brand9.png)
 
-1. Außerdem können Sie die letzten beiden Codeblöcke aus der *static.css* -Datei, um die Textüberlagerung mit dem geboxten Stil zu entfernen.
+1. Darüber hinaus können Sie die letzten beiden Code-Blöcke aus der Datei *static.css* entfernen, um die Rahmen um die Textüberlagerung zu entfernen.
 
 ![Bild](/help/user-guide/assets/custom-brand/custom-brand10.png)
 
-1. Zeigen Sie die aktualisierte Änderung in Ihrer Vorschau an, in der die Textüberlagerung zum Bild hinzugefügt wird.
+1. Die aktualisierte Änderung wird in Ihrer Vorschau angezeigt, wo die Textüberlagerung zum Bild hinzugefügt wird.
 
    ![Bild](/help/user-guide/assets/custom-brand/custom-brand11.png)
 
-   Jetzt können Sie Ihre Marke und Ihr benutzerdefiniertes Styling für Textüberlagerungen aktualisieren, die zu Ihren Assets hinzugefügt werden.
+   Jetzt können Sie Ihre Marke und Ihr benutzerdefiniertes Styling für Textüberlagerungen aktualisieren, die Ihren Assets hinzugefügt wurden.

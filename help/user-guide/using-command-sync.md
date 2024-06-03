@@ -6,9 +6,9 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
 source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '756'
-ht-degree: 37%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ Auf der folgenden Seite wird die Verwendung der Befehlssynchronisierung beschrie
 
 ## Überblick {#overview}
 
-Digital Signage-Lösungen müssen Videowände und die synchronisierte Wiedergabe unterstützen. Dieses Szenario trifft zu, wenn Sie Szenarien wie Neujahrszählungen oder große Videos unterstützen möchten, die auf mehreren Bildschirmen abgespielt werden. In solchen Szenarien kommt die Befehlssynchronisierung zum Tragen.
+Digital-Signage-Lösungen müssen Videowände und die synchronisierte Wiedergabe unterstützen. Dieses Szenario trifft zu, wenn Sie etwa versuchen, Szenarien wie Neujahrs-Countdowns oder große Videos zu unterstützen, die auf mehreren Bildschirmen abgespielt werden sollen. In solchen Szenarien kommt die Befehlssynchronisierung zum Tragen.
 
-Zur Verwendung der Befehlssynchronisierung dient ein Player als *primary* und sendet den Befehl und alle anderen Player agieren wie *Clients* und spielen, wenn sie den Befehl erhalten.
+Bei der Befehlssynchronisation agiert ein Player als *Primärgerät* und sendet den Befehl. Alle anderen Player agieren als *Clients* und beginnen mit der Wiedergabe, wenn sie den Befehl erhalten.
 
-Das *Primärgerät* sendet einen Befehl an alle registrierten Clients, wenn es im Begriff ist, die Wiedergabe eines Elements zu starten. Die Nutzlast dieser Aktion kann der Index des abzuspielenden Elements oder der äußere HTML-Code des abzuspielenden Elements oder beides sein.
+Das *Primärgerät* sendet einen Befehl an alle registrierten Clients, wenn es im Begriff ist, die Wiedergabe eines Elements zu starten. Die Payload dieser Aktion kann der Index des abzuspielenden Elements oder der äußere HTML-Code des abzuspielenden Elements oder beides sein.
 
 ## Implementieren der Befehlssynchronisierung {#using-command-sync}
 
@@ -52,7 +52,7 @@ Bevor Sie die Funktion zur Befehlssynchronisierung verwenden, stellen Sie sicher
 
    ![image1](assets/command-sync/command-sync2-1.png)
 
-1. Erstellen eines Standorts **Lobby** und dann eine Anzeige mit dem Titel **LobbyDisplay** im **Standorte** -Ordner, wie in der folgenden Abbildung dargestellt.
+1. Erstellen Sie einen Standort **Lobby** und dann ein Display mit dem Namen **LobbyDisplay** im Ordner **Standorte**, wie in der Abbildung unten dargestellt.
    ![image1](assets/command-sync/command-sync3-1.png)
 
 1. Weisen Sie den Kanal **ChannelLobby** Ihrem **LobbyDisplay** zu. Sie können jetzt den der Anzeige zugewiesenen Kanal im Anzeige-Dashboard anzeigen.
@@ -62,7 +62,7 @@ Bevor Sie die Funktion zur Befehlssynchronisierung verwenden, stellen Sie sicher
    >
    >Informationen zum Zuweisen eines Kanals zu einer Anzeige finden Sie unter [Erstellen und Verwalten von Anzeigen](/help/user-guide/managing-displays.md).
 
-1. Navigieren Sie zum **Geräte** Ordner.
+1. Navigieren Sie zum Ordner **Geräte**.
 1. Klicken Sie in der Aktionsleiste auf **Geräte-Manager**.
 
    ![image1](assets/command-sync5.png)
@@ -71,7 +71,7 @@ Bevor Sie die Funktion zur Befehlssynchronisierung verwenden, stellen Sie sicher
    >
    >Informationen zum Registrieren eines Geräts finden Sie unter [Geräteregistrierung](/help/user-guide/device-registration.md).
 
-1. Zu Demozwecken werden in diesem Beispiel ein Chrome-Gerät und ein Windows Player als zwei separate Geräte dargestellt. Beide Geräte verweisen auf dieselbe Anzeige.
+1. Zu Demozwecken werden in diesem Beispiel ein Chrome-Gerät und ein Windows-Player als zwei separate Geräte dargestellt. Beide Geräte verweisen auf dieselbe Anzeige.
    ![image1](assets/command-sync6.png)
 
 ### Aktualisieren von Kanaleinstellungen
@@ -81,64 +81,64 @@ Bevor Sie die Funktion zur Befehlssynchronisierung verwenden, stellen Sie sicher
 1. Klicken Sie auf den gesamten Kanal, wie in der Abbildung unten dargestellt.
    ![image1](assets/command-sync/command-sync7-1.png)
 
-1. Klicken Sie auf das Schraubenschlüsselsymbol.
+1. Klicken Sie auf das Schraubenschlüssel-Symbol.
    ![image1](assets/command-sync/command-sync8-1.png)
 
-1. Im **Seite** eingeben. *synchronisiert* Suchbegriff in **Strategie** -Feld.
+1. Geben Sie im Dialogfeld **Seite** das Keyword *synced* in das Feld **Strategie** ein.
    ![image1](assets/command-sync/command-sync9-1.png)
 
 
 ### Einrichten eines Primärgeräts {#setting-up-primary}
 
-1. Navigieren Sie über zum Anzeigen-Dashboard. **CommandSyncDemo** > **Standorte**  > **Lobby** > **LobbyDisplay**. Klicken Sie anschließend auf **Dashboard** in der Aktionsleiste aus.
-Beachten Sie die beiden Geräte (Chrome und Windows Player) in **Geräte** -Bedienfeld, wie im Folgenden gezeigt:
+1. Navigieren Sie über **CommandSyncDemo** > **Standorte** > **Lobby** > **LobbyDisplay** zum Anzeige-Dashboard. Klicken Sie dann in der Aktionsleiste auf **Dashboard**.
+Beachten Sie die beiden Geräte (Chrome und Windows-Player) im Bedienfeld **GERÄTE**, wie in der folgenden Abbildung dargestellt:
    ![image1](assets/command-sync/command-sync10-1.png)
 
-1. Aus dem **Geräte** auf das Gerät, das Sie als primär festlegen möchten. Das folgende Beispiel zeigt, wie das Chrome-Gerät als primäres Gerät eingerichtet wird. Klicks **Als primäres Gerät festlegen**.
+1. Klicken Sie im Bedienfeld **GERÄTE** auf das Gerät, das Sie als Primärgerät festlegen möchten. Das folgende Beispiel veranschaulicht die Einrichtung des Chrome-Geräts als Primärgerät. Klicken Sie auf **Als Primärgerät festlegen**.
 
    ![image1](assets/command-sync/command-sync11-1.png)
 
-1. Geben Sie die IP-Adresse in **Als primäres Gerät festlegen** und klicken **Speichern**.
+1. Geben Sie die IP-Adresse in **Als Primärgerät festlegen** ein und klicken Sie auf **Speichern**.
 
    ![image1](assets/command-sync/command-sync12-1.png)
 
 >[!NOTE]
 >
->Sie können mehrere Geräte als primäre Geräte einrichten.
+>Es können mehrere Geräte als Primärgeräte eingerichtet werden.
 
 ### Synchronisieren mit dem Primärgerät {#sync-up-primary}
 
-1. Nachdem Sie das Chrome-Gerät als primäres Gerät festgelegt haben, synchronisieren Sie das andere Gerät (in diesem Fall den Windows-Player) mit dem primären Gerät.
-Klicken Sie auf das andere Gerät (in diesem Fall auf Windows Player) aus dem **Geräte** Bedienfeld und klicken Sie **Mit Primärgerät synchronisieren**.
+1. Nachdem Sie das Chrome-Gerät als Primärgerät festgelegt haben, synchronisieren Sie das andere Gerät (in diesem Fall den Windows-Player), um es mit dem Primärgerät zu synchronisieren.
+Klicken Sie dazu im Bedienfeld **GERÄTE** auf das andere Gerät (in diesem Fall den Windows-Player) und klicken Sie auf **Mit Primärgerät synchronisieren**.
 
    ![image1](assets/command-sync/command-sync13-1.png)
 
-1. Klicken Sie auf das Gerät in der Liste und klicken Sie auf **Speichern**.
+1. Klicken Sie auf das Gerät in der Liste und dann auf **Speichern**.
 
    >[HINWEIS:]
-   > Die **Mit Primärgerät synchronisieren** zeigt die Liste der Primärgeräte an. Wählen Sie den bevorzugten aus.
+   > Im Dialogfeld **Mit Primärgerät synchronisieren** wird die Liste der Primärgeräte angezeigt. Wählen Sie das bevorzugte aus.
 
-1. Wenn das Gerät (Windows Player) mit dem primären (Chrome Player) synchronisiert wird, wird das Gerät im **Geräte** Bedienfeld.
+1. Sobald das Gerät (Windows-Player) mit dem Primärgerät (Chrome-Player) synchronisiert ist, wird das synchronisierte Gerät im Fenster **GERÄTE** angezeigt.
 
    ![image1](assets/command-sync/command-sync14-1.png)
 
 ### Aufheben der Synchronisierung mit dem Primärgerät {#desync-up-primary}
 
-Nachdem Sie ein Gerät oder Geräte mit einem primären Gerät synchronisiert haben, können Sie die Synchronisierung mit diesem Gerät aufheben.
+Sobald ein oder mehrere Geräte mit einem Primärgerät synchronisiert wurden, kann deren Synchronisierung mit diesem Gerät aufgehoben werden.
 
 >[!NOTE]
 >
 >Wenn die Synchronisierung eines Primärgeräts aufgehoben wird, werden auch alle Verknüpfungen zu Client-Geräten, die mit diesem Primärgerät verbunden sind, aufgehoben.
 
-Gehen Sie wie folgt vor, um die Synchronisierung vom primären Gerät zu entfernen:
+Um die Synchronisierung des Primärgeräts aufzuheben, führen Sie die folgenden Schritte aus:
 
-1. Navigieren Sie zum **Geräte** und klicken Sie auf das Gerät.
+1. Navigieren Sie zum Bedienfeld **GERÄTE** und klicken Sie auf das Gerät.
 
-1. Klicks **Synchronisieren von Geräten** , damit Sie die Synchronisierung des Clients mit dem primären Gerät aufheben können.
+1. Klicken Sie auf **Geräte desynchronisieren**, um die Synchronisierung des Clients mit dem Primärgerät aufzuheben.
 
    ![image1](assets/command-sync/command-sync15-1.png)
 
 1. Klicken Sie auf **Bestätigen**, um die Synchronisierung des ausgewählten Geräts mit dem Primärgerät aufzuheben.
 
    >[HINWEIS:]
-   > Wenn Sie auf das primäre Gerät klicken und die Option zur Aufhebung der Synchronisierung verwenden, wird die Synchronisierung aller mit dem primären Gerät verbundenen Geräte in einem Schritt aufgehoben.
+   > Wenn Sie auf das Primärgerät klicken und die Option zur Aufhebung der Synchronisierung verwenden, wird die Synchronisierung aller mit dem Primärgerät verbundenen Geräte in einem Schritt aufgehoben.

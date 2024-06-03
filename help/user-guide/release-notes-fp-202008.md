@@ -1,14 +1,14 @@
 ---
 title: Versionshinweise für Feature Pack 202008
-description: Erfahren Sie mehr über das AEM Screens Feature Pack 202008, das am Freitag, 3. September 2020 veröffentlicht wurde.
+description: Erfahren Sie mehr über das AEM Screens Feature Pack 202008, das am 3. September 2020 veröffentlicht wurde.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: bd466576-a6d3-494c-82e5-c5326b6e0aca
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '342'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 64%
 
 >[!CAUTION]
 >
->Adobe empfiehlt ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM). AEM Screens bietet Wartungs-Support für die AEM 6.3 Screens-Plattform.
+>Adobe empfiehlt, ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM) durchzuführen. AEM Screens bietet Wartungs-Support für die AEM 6.3 Screens-Plattform.
 
 ## Verfügbarkeit {#availability}
 
 Das AEM 6.5 Feature Pack 5 wurde für AEM Screens veröffentlicht.
 
-Sie können das neueste Feature Pack für AEM Screens 6.5.5 von der [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/de/aem.html) die Verwendung Ihrer Adobe ID. Navigieren Sie zum **Adobe Experience Manager** Registerkarte und suchen Sie nach **Screens** um das neueste Feature Pack zu erhalten.
+Das neueste Feature Pack für AEM Screens 6.5.5 steht auf dem [Software-Verteiungsportal](https://experience.adobe.com/#/downloads/content/software-distribution/de/aem.html) zum Download zur Verfügung (Adobe ID erforderlich). Navigieren Sie zur Registerkarte **Adobe Experience Manager** und suchen Sie nach **Screens**, um das neueste Feature Pack herunterzuladen.
 
 ## Veröffentlichungsdatum {#release-date}
 
@@ -46,7 +46,7 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 202008 ist der 3. Sept
 
   Die Spracherkennungsfunktion ermöglicht Inhaltsänderungen in einem AEM Screens-Kanal via Sprachinteraktionen.
 
-  Ein Inhaltsautor kann eine Anzeige so konfigurieren, dass sie sprachaktiviert ist. Mit dieser Funktion können Kunden Sprache als Methode zur Interaktion mit ihren Anzeigen verwenden.
+  Eine Inhaltsautorin oder ein Inhaltsautor kann eine Anzeige so konfigurieren, dass sie sprachaktiviert ist. Der Zweck dieser Funktion ist es, Kundinnen und Kunden die Möglichkeit zu geben, per Sprache mit ihrem Anzeigegerät zu interagieren.
 
   Weitere Informationen finden Sie unter [Spracherkennung](voice-recognition.md).
 
@@ -70,4 +70,4 @@ Die folgenden AEM Screens-Player sind für AEM Screens 6.5 Feature Pack 5 verfü
 
 #### AEM Screens-Player-Downloads
 
-Informationen zum Herunterladen des neuesten AEM Screens-Players und zu weiteren Fehlerbehebungen finden Sie unter **[AEM Screens Player-Downloads](https://download.macromedia.com/screens/index.html)**.
+Navigieren Sie zur Seite **[AEM Screens-Player-Downloads](https://download.macromedia.com/screens/index.html)**, um den neuesten AEM Screens-Player herunterzuladen und mehr über die Fehlerbehebungen zu erfahren.

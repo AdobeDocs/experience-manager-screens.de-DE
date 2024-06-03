@@ -11,9 +11,9 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
 source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '625'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ In diesem Abschnitt werden folgende Themen behandelt:
 
 ## Sequenzierung in Adobe Analytics mit AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
 
-Die ***Sequenzierungsprozess*** beginnt mit einem Datenspeicherdienst, der den Adobe Analytics-Dienst aktiviert. Kanalinhalte senden Adobe Analytics-Ereignisse mit Kostenanalyse, d. h. die Erfassung von Datentests an Windows I/O und die Auslösung von Aufenthaltsereignissen werden ausgelöst. Die Ereignisse werden in der Index-DB gespeichert und weiter in den Objektspeicher verschoben. Basierend auf dem vom Administrator festgelegten Zeitplan werden die Daten aus dem Objektspeicher ausgeschnitten und weiter in den Blockspeicher übertragen. Es versucht, die maximale Datenmenge zu senden, wenn eine Verbindung hergestellt wird.
+Der ***Sequenzierungsprozess*** beginnt mit dem Datenspeicher-Service, der den Adobe Analytics-Service aktiviert. Kanalinhalte senden Adobe Analytics-Ereignisse mit Kostenanalyse, d. h. die Erfassung von Datentests an Windows I/O und Aufenthaltsereignisse werden ausgelöst. Die Ereignisse werden in der Index-DB gespeichert und weiter im Objektspeicher abgelegt. Basierend auf dem von den Admins festgelegten Zeitplan schneidet er die Daten aus dem Objektspeicher aus und überträgt sie weiter in den Blockspeicher. Es wird versucht, die maximale Datenmenge zu senden, wenn eine Verbindung besteht.
 
 ### Sequenzierungsdiagramm {#sequencing-diagram}
 
@@ -63,7 +63,7 @@ Die folgende Tabelle fasst das Standarddatenmodell für Ereignisse zusammen. Es 
    <td>empfohlen</td> 
    <td>Zeichenfolge</td> 
    <td>UUID</td> 
-   <td>Eindeutige ID, die eine Instanz eines Ereignisses identifiziert</td> 
+   <td>Eindeutige ID, die die Instanz eines Ereignisses identifiziert</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -81,7 +81,7 @@ Die folgende Tabelle fasst das Standarddatenmodell für Ereignisse zusammen. Es 
    <td>empfohlen</td> 
    <td>Zeichenfolge</td> 
    <td>Zeitstempel – UTC</td> 
-   <td>Startzeitpunkt des Ereignisses: Wenn Sie diese Zeit nicht angegeben haben, wird die Ereigniszeit vom Server als die Zeit angenommen, zu der sie empfangen wurde.</td> 
+   <td>Startdatum und Startuhrzeit des Ereignisses; sofern nicht angegeben, wird als Ereigniszeit die Zeit angenommen, zu der das Ereignis vom Server empfangen wurde.</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -207,7 +207,7 @@ Die folgende Tabelle fasst das Standarddatenmodell für Ereignisse zusammen. Es 
    <td>optional</td> 
    <td>Zeichenfolge</td> 
    <td> </td> 
-   <td>URL der Webeigenschaft oder des mobilen Schemas - muss eine vollständig qualifizierte URL enthalten</td> 
+   <td>URL der Web-Eigenschaft oder des Mobil-Schemas – muss eine vollständig qualifizierte URL enthalten</td> 
   </tr>
   <tr>
    <td> </td> 

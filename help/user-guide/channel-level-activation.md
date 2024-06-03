@@ -7,9 +7,9 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
 source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1791'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -47,15 +47,15 @@ Im folgenden Abschnitt wird die Erstellung der Wiedergabe eines einzelnen Ereign
 
 Bevor Sie diese Funktionalität implementieren, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen, um mit der Implementierung der Aktivierung auf Kanalebene beginnen zu können:
 
-* Erstellen eines AEM Screens-Projekts, in diesem Beispiel **Aktivierung auf Kanalebene**.
+* Erstellen eines AEM Screens-Projekts, in diesem Beispiel **Channel Level Activation**.
 
-* Erstellen eines Kanals als **MainAdChannel** unter **Kanäle** Ordner.
+* Erstellen eines Kanals als **MainAdChannel** unter dem Ordner **Channels**.
 
-* Erstellen Sie einen weiteren Kanal als **TargetedSinglePlay** unter **Kanäle** Ordner.
+* Erstellen eines weiteren Kanals als **TargetedSinglePlay** unter dem Ordner **Channels**.
 
-* Fügen Sie relevante Assets zu beiden Kanälen hinzu.
+* Hinzufügen relevanter Assets zu beiden Kanälen.
 
-Die folgende Abbildung zeigt die **Aktivierung auf Kanalebene** Projekt mit **MainAdChannel** und **TargetedSinglePlay** Kanäle in **Kanäle** Ordner.
+Die folgende Abbildung zeigt das Projekt **Channel Level Activation** mit den Kanälen **MainAdChannel** und **TargetedSinglePlay** im Ordner **Channels**.
 
 ![screen_shot_2018-11-27at104500am](assets/screen_shot_2018-11-27at104500am.png)
 
@@ -91,8 +91,8 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
 1. **Erstellen einer Anzeige unter dem Standort**
 
    1. Navigieren Sie zu **Channel Level Activation** > **Standorte** > **Region**.
-   1. Klicks **Region** und klicken **+ Erstellen** in der Aktionsleiste aus.
-   1. Klicks **Anzeige** aus dem Assistenten erstellen und eine Anzeige mit dem Titel **RegionDisplay.**
+   1. Klicken Sie in der Aktionsleiste auf **Region** und dann auf **+ Erstellen**.
+   1. Klicken Sie im Assistenten auf die Option **Anzeigen** und erstellen Sie eine Anzeige mit dem Titel **RegionDisplay.**.
 
    ![screen_shot_2018-11-27at112216am](assets/screen_shot_2018-11-27at112216am.png)
 
@@ -101,45 +101,45 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
    Für **MainAdChannel:**
 
    1. Navigieren Sie zu **Channel Level Activation** > **Standorte** > **Region** > **RegionDisplay** und klicken Sie in der Aktionsleiste auf **Kanal zuweisen**.
-   1. Im **Kanalzuweisung** Dialogfeld, klicken Sie auf **Referenzkanal** nach Pfad.
-   1. Klicken Sie auf **Kanalpfad** Klicken Sie auf **Aktivierung auf Kanalebene** > ***Kanäle*** > ***MainAdChannel***.
+   1. Wählen Sie im Dialogfeld **Kanalzuweisung** die Option **Referenzkanal** nach Pfad aus.
+   1. Wählen Sie unter **Kanalpfad** den Wert **Channel Level Activation** > ***Channels*** > ***MainAdChannel*** aus.
    1. Die **Kanalrolle** wird mit **mainadchannel** ausgefüllt.
-   1. Klicken Sie auf **Priorität** und auf **1**.
-   1. Klicken Sie auf **Unterstützte Ereignisse** wie **Erster Ladevorgang** und **Idle Screen**.
+   1. Wählen Sie die Option **Priorität** aus und legen Sie den Wert **1** fest.
+   1. Wählen Sie unter **Unterstützte Ereignisse** die Optionen **Erster Ladevorgang** und **Bildschirm bei Untätigkeit** aus.
    1. Klicken Sie auf **Speichern**.
 
    ![screen_shot_2018-11-27at124626pm](assets/screen_shot_2018-11-27at124626pm.png)
 
    >[!NOTE]
    >
-   >Sie können den Kanal auch über das Anzeigen-Dashboard zuweisen. Navigieren Sie zu **Aktivierung auf Kanalebene** > **Standorte** > **Region** > **RegionDisplay**. Wählen Sie in der Aktionsleiste die Option **Dashboard**. Aus dem **ZUGEWIESENE KANÄLE UND ZEITPLÄNE** Bereich, klicken Sie **+ Kanal zuweisen**.
+   >Sie können den Kanal auch über das Anzeigen-Dashboard zuweisen. Navigieren Sie zu **Channel Level Activation** > **Standorte** > **Region** > **RegionDisplay**. Wählen Sie in der Aktionsleiste die Option **Dashboard**. Klicken Sie im Bereich **ZUGEWIESENE KANÄLE UND ZEITPLÄNE** auf **+ Kanal zuweisen**.
 
-   Weisen Sie den Kanal **TargetedSinglePlay** für die Anzeige zu:
+   Weisen Sie analog den Kanal **TargetedSinglePlay** für die Anzeige zu:
 
    1. Navigieren Sie zu **Channel Level Activation** > **Standorte** > **Region** > **RegionDisplay** und klicken Sie in der Aktionsleiste auf **Kanal zuweisen**.
-   1. Im **Kanalzuweisung** Dialogfeld, klicken Sie auf **Referenzkanal** nach Pfad.
-   1. Klicken Sie auf **Kanalpfad** Klicken Sie auf **Aktivierung auf Kanalebene** > ***Kanäle*** > ***TargetedSinglePlay***.
+   1. Wählen Sie im Dialogfeld **Kanalzuweisung** die Option **Referenzkanal** nach Pfad aus.
+   1. Wählen Sie unter **Kanalpfad** den Wert **Channel Level Activation** > ***Channels*** > ***TargetedSinglePlay*** aus.
    1. Die **Kanalrolle** wird mit **targetedsingleplay** ausgefüllt.
-   1. Legen Sie die **Priorität** nach **2**.
-   1. Klicken Sie auf **Unterstützte Ereignisse** und legen **Erster Ladevorgang**, **Idle Screen**, und **Timer**, wie in der folgenden Abbildung dargestellt.
-   1. In **aktiv aus**, festgelegt als 27. November 2018, 11:59 Uhr und in **aktiv bis**, festgelegt als 28. November 2018, 12:05 Uhr
+   1. Legen Sie als **Priorität** den Wert **2** fest.
+   1. Wählen Sie unter **Unterstützte Ereignisse** die Optionen **Erster Ladevorgang**, **Bildschirm bei Untätigkeit** und **Timer** aus, wie in der folgenden Abbildung dargestellt.
+   1. Wählen Sie als Zeitpunkt für **aktiv ab** den 27. November 2018, 23:59 Uhr und für **aktiv bis** den 28. November 2018, 00:05 Uhr aus.
    1. Klicken Sie auf **Speichern**.
 
    >[!CAUTION]
    >
-   >Legen Sie die Priorität für die **TargetedSinglePlay** Kanal höher als **MainAdSegment** -Kanal.
+   >Legen Sie für den Kanal **TargetedSinglePlay** eine höhere Priorität fest als für den Kanal **MainAdSegment**.
 
    ![screen_shot_2018-11-27at31206pm](assets/screen_shot_2018-11-27at31206pm.png)
 
    >[!NOTE]
    >
-   >Um denselben Tag auszuwählen, klicken Sie auf den nächsten Tag und bearbeiten Sie dann das Datum manuell auf den gleichen Tag, aber für einen späteren Zeitpunkt. Dadurch werden Benutzende daran gehindert, ein Datum in der Vergangenheit auszuwählen. Siehe folgendes Beispiel:
+   >Um denselben Tag festzulegen, wählen Sie den nächsten Tag aus und ändern Sie das Datum manuell auf denselben Tag, jedoch mit einer späteren Uhrzeit. Dadurch werden Benutzende daran gehindert, ein Datum in der Vergangenheit auszuwählen. Siehe folgendes Beispiel:
 
    ![new1](assets/new1.gif)
 
 ## Anzeigen der Ergebnisse {#viewing-the-results}
 
-Wenn Sie die Einrichtung für Kanäle und die Anzeige abgeschlossen haben, starten Sie den AEM Screens-Player, um den Inhalt anzuzeigen.
+Wenn Sie die Einrichtung für die Kanäle und die Anzeige abgeschlossen haben, starten Sie den AEM Screens-Player, um den Inhalt anzuzeigen.
 
 Der Player zeigt den Inhalt von **MainAdChannel** an, und genau um 23:59 Uhr (wie im Zeitplan festgelegt) gibt der Kanal **TargetedSinglePlay** seinen Inhalt bis 00:05 Uhr wieder. Anschließend wird die **MainAdChannel**-Wiedergabe fortgesetzt.
 
@@ -152,13 +152,13 @@ Der Player zeigt den Inhalt von **MainAdChannel** an, und genau um 23:59 Uhr (w
 
 ## Umgang mit sich wiederholenden Assets in einem Kanal {#handling-recurrence-in-assets}
 
-Sie können planen, dass Assets in einem Kanal gemäß Ihren Anforderungen in bestimmten Intervallen täglich, wöchentlich oder monatlich wiederholt werden.
+Sie können eine Wiederholung von Assets in einem Kanal in bestimmten Intervallen auf Tages-, Wochen- oder Monatsbasis planen.
 
-Angenommen, Sie möchten den Inhalt eines Kanals nur freitags von 13:00 Uhr bis 22:00 Uhr anzeigen. Auf der Registerkarte **Aktivierung** können Sie das gewünschte Wiederholungsintervall für Ihr Asset festlegen.
+Angenommen, Sie möchten Inhalte eines Kanals nur freitags von 13:00 bis 22:00 Uhr anzeigen. Auf der Registerkarte **Aktivierung** können Sie das gewünschte Wiederholungsintervall für Ihr Asset festlegen.
 
 ### DayParting {#day-parting}
 
-1. Klicken Sie auf den Kanal und dann auf **Dashboard** in der Aktionsleiste aus.
+1. Klicken Sie auf den Kanal und dann in der Aktionsleiste auf **Dashboard**.
 
 1. Nach Eingabe von Startdatum/Startzeit und Enddatum/Endzeit im Dialogfeld **Kanalzuweisung** können Sie einen Ausdruck oder eine natürliche Textversion verwenden, um Ihren Wiederholungsplan anzugeben.
 
@@ -168,9 +168,9 @@ Angenommen, Sie möchten den Inhalt eines Kanals nur freitags von 13:00 Uhr bis 
 
 1. Geben Sie den Ausdruck in den **Zeitplan** ein. Ihr Asset wird daraufhin im jeweiligen Tages- und Uhrzeitintervall angezeigt.
 
-#### Beispielausdrücke für die DayParting {#example-one}
+#### Beispielausdrücke für Dayparting {#example-one}
 
-Die folgende Tabelle fasst einige Beispielausdrücke zusammen, die Sie dem Zeitplan hinzufügen können, während Sie einer Anzeige einen Kanal zuweisen.
+Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hinzufügen können, während Sie einer Anzeige einen Kanal zuweisen.
 
 | **Ausdruck** | **Interpretation** |
 |---|---|
@@ -179,7 +179,7 @@ Die folgende Tabelle fasst einige Beispielausdrücke zusammen, die Sie dem Zeitp
 | nach 12:15 Uhr und vor 12:45 Uhr | Das Asset im Kanal wird täglich 30 Minuten lang nach 12:15 Uhr wiedergegeben. |
 | vor 12:15 Uhr auch nach 12:45 Uhr | Das Asset im Kanal wird täglich vor 12:15 Uhr und danach auch nach 12:45 Uhr wiedergegeben. |
 | Mo., Di., Mi. oder Mo.–Mi. | Das Asset im Kanal wird von Montag bis Mittwoch wiedergegeben. |
-| am ersten Januar nach 14:00 Uhr, auch am zweiten Januar und am dritten Januar vor 3:00 Uhr. | Das Asset im Kanal wird ab dem 1. Januar um 14:00 Uhr und weiterhin den ganzen Tag am 2. Januar bis um 3:00 Uhr am 3. Januar wiedergegeben. |
+| am 1. Januar nach 14:00 Uhr, außerdem am 2. Januar und am 3. Januar vor 3:00 Uhr | Das Asset im Kanal wird ab dem 1. Januar um 14:00 Uhr und weiterhin den ganzen Tag am 2. Januar bis um 3:00 Uhr am 3. Januar wiedergegeben. |
 | am 1./2. Januar nach 14:00 Uhr, auch am 2./3. Januar vor 3:00 Uhr | Das Asset im Kanal wird ab dem 1. Januar um 14:00 Uhr bis zum 2. Januar um 3:00 Uhr wiedergegeben. Dann wird es erneut vom 2. Januar um 14:00 Uhr bis zum 3. Januar um 3:00 Uhr wiedergegeben. |
 
 >[!NOTE]
@@ -188,7 +188,7 @@ Die folgende Tabelle fasst einige Beispielausdrücke zusammen, die Sie dem Zeitp
 
 ### WeekParting {#week-parting}
 
-1. Klicken Sie auf den Kanal und dann auf **Dashboard** in der Aktionsleiste aus.
+1. Klicken Sie auf den Kanal und dann in der Aktionsleiste auf **Dashboard**.
 
 1. Nach Eingabe von Startdatum/Startzeit und Enddatum/Endzeit im Dialogfeld **Kanalzuweisung** können Sie einen Ausdruck oder eine natürliche Textversion verwenden, um Ihren Wiederholungsplan anzugeben.
 
@@ -198,9 +198,9 @@ Die folgende Tabelle fasst einige Beispielausdrücke zusammen, die Sie dem Zeitp
 
 1. Geben Sie den Ausdruck in den **Zeitplan** ein. Ihr Asset wird daraufhin im jeweiligen Tages- und Uhrzeitintervall angezeigt.
 
-#### Beispielhafte Ausdrücke für WeekParting {#example-two}
+#### Beispielhafte Ausdrücke für Weekparting {#example-two}
 
-Die folgende Tabelle fasst einige Beispielausdrücke zusammen, die Sie dem Zeitplan hinzufügen können, während Sie einer Anzeige einen Kanal zuweisen.
+Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hinzufügen können, während Sie einer Anzeige einen Kanal zuweisen.
 
 | **Ausdruck** | **Interpretation** |
 |---|---|
@@ -217,7 +217,7 @@ Die folgende Tabelle fasst einige Beispielausdrücke zusammen, die Sie dem Zeitp
 
 ### MonthParting {#month-parting}
 
-1. Klicken Sie auf den Kanal und dann auf **Dashboard** in der Aktionsleiste aus.
+1. Klicken Sie auf den Kanal und dann in der Aktionsleiste auf **Dashboard**.
 
 1. Nach Eingabe von Startdatum/Startzeit und Enddatum/Endzeit im Dialogfeld **Kanalzuweisung** können Sie einen Ausdruck oder eine natürliche Textversion verwenden, um Ihren Wiederholungsplan anzugeben.
 
@@ -227,9 +227,9 @@ Die folgende Tabelle fasst einige Beispielausdrücke zusammen, die Sie dem Zeitp
 
 1. Geben Sie den Ausdruck in den **Zeitplan** ein. Ihr Asset wird daraufhin im jeweiligen Tages- und Uhrzeitintervall angezeigt.
 
-#### Beispielhafte Ausdrücke für MonthParting {#example-three}
+#### Beispielhafte Ausdrücke für Monthparting {#example-three}
 
-Die folgende Tabelle fasst einige Beispielausdrücke zusammen, die Sie dem Zeitplan hinzufügen können, während Sie einer Anzeige einen Kanal zuweisen.
+Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hinzufügen können, während Sie einer Anzeige einen Kanal zuweisen.
 
 | **Ausdruck** | **Interpretation** |
 |---|---|
@@ -245,7 +245,7 @@ Die folgende Tabelle fasst einige Beispielausdrücke zusammen, die Sie dem Zeitp
 
 ### Kombination von Aufteilungen {#combined-parting}
 
-1. Klicken Sie auf den Kanal und dann auf **Dashboard** in der Aktionsleiste aus.
+1. Klicken Sie auf den Kanal und dann in der Aktionsleiste auf **Dashboard**.
 
 1. Nach Eingabe von Startdatum/Startzeit und Enddatum/Endzeit im Dialogfeld **Kanalzuweisung** können Sie einen Ausdruck oder eine natürliche Textversion verwenden, um Ihren Wiederholungsplan anzugeben.
 
@@ -257,12 +257,12 @@ Die folgende Tabelle fasst einige Beispielausdrücke zusammen, die Sie dem Zeitp
 
 #### Beispielausdrücke für die Kombination von Aufteilungen {#example-four}
 
-Die folgende Tabelle fasst einige Beispielausdrücke zusammen, die Sie dem Zeitplan hinzufügen können, während Sie einer Anzeige einen Kanal zuweisen.
+Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hinzufügen können, während Sie einer Anzeige einen Kanal zuweisen.
 
 | **Ausdruck** | **Interpretation** |
 |---|---|
-| nach 6:00 und vor 18:00 Uhr am Mo., Mi. im Jan.–Mrz. | Das Asset im Kanal wird montags bis mittwochs von Januar bis Ende März zwischen 6 Uhr und 18 Uhr und mittwochs wiedergegeben. |
-| am ersten Januar nach 14:00 Uhr, auch am zweiten Januar und am dritten Januar vor 3:00 Uhr. | Das Asset im Kanal wird ab dem 1. Januar um 14:00 Uhr und weiterhin den ganzen Tag am 2. Januar bis um 3:00 Uhr am 3. Januar wiedergegeben. |
+| nach 6:00 und vor 18:00 Uhr am Mo., Mi. im Jan.–Mrz. | Das Asset im Kanal wird von Januar bis Ende März montags und mittwochs zwischen 6 Uhr und 18 Uhr wiedergegeben. |
+| am 1. Januar nach 14:00 Uhr, außerdem am 2. Januar und am 3. Januar vor 3:00 Uhr | Das Asset im Kanal wird ab dem 1. Januar um 14:00 Uhr und weiterhin den ganzen Tag am 2. Januar bis um 3:00 Uhr am 3. Januar wiedergegeben. |
 | am 1./2. Januar nach 14:00 Uhr, auch am 2./3. Januar vor 3:00 Uhr | Das Asset im Kanal wird ab dem 1. Januar um 14:00 Uhr bis zum 2. Januar um 3:00 Uhr wiedergegeben. Dann wird es erneut vom 2. Januar um 14:00 Uhr bis zum 3. Januar um 3:00 Uhr wiedergegeben. |
 
 >[!NOTE]

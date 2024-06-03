@@ -6,9 +6,9 @@ role: Developer
 level: Intermediate
 exl-id: c1a0b394-97dc-4104-b2b4-41fcbb63a22e
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '307'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 52%
 
 >[!CAUTION]
 >
->Adobe empfiehlt ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM). AEM Screens bietet Wartungs-Support für die AEM 6.3 Screens-Plattform.
+>Adobe empfiehlt, ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM) durchzuführen. AEM Screens bietet Wartungs-Support für die AEM 6.3 Screens-Plattform.
 
 ## Verfügbarkeit {#availability}
 
 Das AEM 6.5 Feature Pack 3 für AEM Screens wurde veröffentlicht.
 
-Sie können das neueste Feature Pack für AEM Screens 6.5.3 von der [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/de/aem.html) die Verwendung Ihrer Adobe ID. Navigieren Sie zum **Adobe Experience Manager** Registerkarte und suchen Sie nach **Screens** , um das neueste Feature Pack mit dem Titel **AEM 6.5 Screens FP3**.
+Das neueste Feature Pack für AEM Screens 6.5.3 steht auf dem [Software-Verteilungsportal](https://experience.adobe.com/#/downloads/content/software-distribution/de/aem.html) zum Download zur Verfügung (Adobe ID erforderlich). Navigieren Sie zur Registerkarte **Adobe Experience Manager** und suchen Sie nach **Screens**, um das neueste Feature Pack mit dem Namen **AEM 6.5 Screens FP3** herunterzuladen.
 
 ## Veröffentlichungsdatum {#release-date}
 
@@ -35,11 +35,11 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 202001 ist der 31. Jan
 Mithilfe der Befehlssynchronisierung kann die Wiedergabe über verschiedene Player hinweg synchronisiert werden. Die Player können unterschiedliche Inhalte wiedergeben, aber jedes Asset muss dieselbe Dauer haben.
 Weitere Informationen zur Befehlssynchronisierung und zum Festlegen von Primärgerät und Clients finden Sie unter [Verwenden der Befehlssynchronisierung](using-command-sync.md).
 
-* **Framework für Statusprüfungen zum Anzeigen des Status von https und zum Zulassen eines leeren Referrers**
+* **Framework für Konsistenzprüfungen zum Anzeigen des HTTPS-Status und zum Zulassen eines leeren Referrers**
 
-Mit dem Framework für Statusprüfungen kann der Benutzer überprüfen, ob zwei erforderliche Konfigurationen (Leere Referrer-Anforderungen zulassen und Apache Felix Jetty-basierter HTTP-Dienst) eingerichtet sind, bevor ein AEM Screens-Projekt ausgeführt wird.
+Mit dem Framework für Konsistenzprüfungen können Benutzende überprüfen, ob zwei erforderliche Konfigurationen (Zulassen von leeren Referrer-Anfragen und Apache Felix Jetty-basierter HTTP-Dienst) eingerichtet sind, bevor ein AEM Screens-Projekt ausgeführt wird.
 
-Weitere Informationen zum Framework für Statusprüfungen finden Sie unter [Framework für Statusprüfungen](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
+Weitere Informationen zum Framework für Konsistenzprüfungen finden Sie unter [Framework für Konsistenzprüfungen](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
 
 * **Aktualisierungen bei Standardübergangstypen**
 Die Eigenschaften der Übergangskomponente wie **Typ** sind jetzt standardmäßig auf **Ausblenden** und eine **Dauer** von **1.600 Millisekunden** eingestellt.
@@ -57,4 +57,4 @@ Die folgenden AEM Screens-Player sind für AEM 6.4 Feature Pack 7 und AEM 6.5 Fe
 
 #### AEM Screens-Player-Downloads
 
-Informationen zum Herunterladen des neuesten AEM Screens-Players und zu weiteren Fehlerbehebungen finden Sie unter [**AEM Screens Player-Downloads**](https://download.macromedia.com/screens/).
+Navigieren Sie zur Seite [**AEM Screens-Player-Downloads**](https://download.macromedia.com/screens/), um den neuesten AEM Screens-Player herunterzuladen und mehr über die Fehlerbehebungen zu erfahren.

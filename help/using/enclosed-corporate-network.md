@@ -3,9 +3,9 @@ title: Geschlossenes Unternehmensnetzwerk
 description: Geschlossenes Unternehmensnetzwerk
 exl-id: b8c52e72-86da-4089-ba02-0c643862419f
 source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '710'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -24,21 +24,21 @@ Gehen Sie wie folgt vor, um eine ordnungsgemäße Anbindung der AEM Screens-Play
 1. Testen Sie die Internet-Verbindung, indem Sie in Ihrem System-Browser eine URL aufrufen.
 
    >[!NOTE]
-   >Falls ein Fehler auftritt, überprüfen Sie die Netzwerkeinstellungen. Grundsätzlich gibt es zwei Optionen für eine ordnungsgemäße Netzwerkverbindung:
+   >Wenn ein Fehler auftritt, überprüfen Sie die Netzwerkeinstellungen. Grundsätzlich gibt es zwei Optionen für eine ordnungsgemäße Netzwerkverbindung:
    >* DHCP
    >* Manuelle IP-Konfiguration
 
 1. Stellen Sie sicher, dass die Einstellung des Netzwerkadapters mit der des Routers übereinstimmt, und prüfen Sie, ob bereits die maximal zulässige Anzahl an in Ihrem Netzwerk verwendeten IP-Adressen erreicht wurde.
 
-1. Überprüfen Sie, ob der Router ordnungsgemäß mit dem Wide Area Network (also dem Internet-Link) des Internet-Dienstanbieters verbunden ist. Diese Verbindung kann auch über eine Signal-LED auf Standard-Routern identifiziert werden.
-1. Im Falle eines erfolgreichen URL-Aufrufs können Sie mit der Installation der für AEM Screens verwendeten Bildschirme fortfahren, die Registrierung abschließen und AEM Screens starten.
+1. Überprüfen Sie, ob der Router ordnungsgemäß mit dem Wide Area Network (also dem Internet-Link) des Internet-Dienstanbieters verbunden ist. Diese Verbindung kann bei Standard-Routern auch über eine Signal-LED identifiziert werden.
+1. Im Falle eines erfolgreichen URL-Aufrufs können Sie mit der Installation der für AEM Screens verwendeten Bildschirme fortfahren, die Registrierung abschließen Starten Sie AEM Screens.
 
    >[!NOTE]
    >**Tipp zur Fehlerbehebung**
    >Gehen Sie wie folgt vor, wenn bei AEM Screens Verbindungsprobleme auftreten und die erwarteten Inhalte nicht angezeigt werden:
    >
    >1. Prüfen Sie, ob in der Firewall Ihres Internet-Routers Zugriffsbeschränkungen für `TCP/IP Port 80/443` eingerichtet sind.
-   >1. Stellen Sie sicher, dass alle erforderlichen Ports zugelassen werden.
+   >1. Stellen Sie sicher, dass alle erforderlichen Ports zugelassen sind.
 
 ## Einrichten von geschlossenen Unternehmensnetzwerken {#requirements-enclosed-networks}
 
@@ -50,11 +50,11 @@ Die Konfiguration für geschlossene Unternehmensnetzwerke kann logisch in zwei B
 ### WAN (Wide Area Network) {#wan-connection}
 
 Die Internet-Verbindung muss ausreichend Bandbreite zur Verfügung stellen, damit neben der Erreichbarkeit des Netzwerks auch reibungslose Aktualisierungen von AEM Screens-Inhalten gewährleistet werden können.
-*Ausreichende Bandbreite* hängt von der Anzahl der verbundenen AEM Screens ab. Es hängt auch von der Nutzung anderer verbundener Netzwerknutzer wie Smartphones, Tablets, Kassensystemen, Computern oder Gast-WLANs ab.
+Was eine *ausreichende Bandbreite* ist, hängt von der Anzahl der verbundenen AEM Screens-Geräte ab. Dies ist außerdem abhängig von der Nutzung anderer Verbrauchergeräte innerhalb des Netzwerks. Dazu gehören z. B. Smartphones, Tablets, Kassensysteme, Computer oder WLAN-Gastnetzwerke.
 
 >[!NOTE]
 >
->Alle Geräte haben gleichzeitigen Zugriff auf die Internet-Verbindung und die Bandbreite nimmt linear ab, wenn Sie dem Netzwerk weitere Benutzer oder Computer hinzufügen.
+>Alle Geräte greifen gleichzeitig auf die Internet-Verbindung zu. Dementsprechend nimmt die Bandbreite mit der Zahl an weiteren Verbrauchergeräten oder Computern, die dem Netzwerk hinzugefügt werden, linear ab.
 
 ### LAN (Local Area Network) {#lan-connection}
 
@@ -62,7 +62,7 @@ Die LAN-Verbindung muss ausreichend Bandbreite zur Verfügung stellen, damit neb
 
 In Unternehmen eingesetzte LAN-Netzwerke unterstützen in der Regel Übertragungsraten von mindestens 1000 MBit/s, was auch bei der Anbindung einer Vielzahl von Geräten an das System eine für eine angemessene Leistung ausreichende Bandbreite liefert. Sind aktive Netzwerkkomponenten anderer Art im Einsatz, müssen diese allesamt die Anforderungen an die Netzwerkbandbreite erfüllen. 
 
-Beispielsweise sollten die Netzwerkkomponenten mindestens mit dem 100 MBit/s-Standard übereinstimmen und mit der Bandbreite übereinstimmen, die von der Internet-Zugriffs-/Routerspezifikation bereitgestellt wird.
+Beispielsweise sollten entsprechende Netzwerkkomponenten mindestens auf den Standard 100 MBit/s ausgelegt sein und mit den Bandbreitenspezifikationen des Internet-Zugangs/-Routers übereinstimmen.
 
 ### Weitere Details zu Unternehmensnetzwerken {#other-networks}
 
@@ -78,11 +78,11 @@ AEM Screens bietet Digital-Signage-Anwendenden einen entscheidenden Vorteil dahi
 
 So kann der Normalbetrieb, wenn sich z. B. eine definierte Wiedergabeliste häufig während des Tages aktualisiert, nahezu unabhängig vom Netzwerk ablaufen, nachdem alle Dateien auf dem Player gespeichert wurden.
 
-In Szenarien, in denen es mehr Interaktionen mit Sensoren oder Triggern und dynamischen Inhalten gibt, ist eine schnelle und zuverlässige Netzwerkverbindung unerlässlich, um eine sofortige Reaktion auf den Bildschirm zu ermöglichen und so ein bestmögliches Kundenerlebnis zu gewährleisten.
+Szenarien, in denen umfangreicher mit Sensoren oder Auslösern sowie dynamischen Inhalten interagiert wird, erfordern dagegen unbedingt eine schnelle und zuverlässige Netzwerkverbindung, da nur so eine verzögerungsfreie Reaktion am Bildschirm und damit das bestmögliche Kundenerlebnis gewährleistet werden kann.
 
-Nachfolgend sind die wichtigsten Daten bezüglich Netzwerkverbindungen aufgeführt.
+In der nachfolgenden Tabelle ist eine Übersicht der wichtigsten Daten bezüglich Netzwerkverbindungen aufgeführt.
 
 >[!NOTE]
->Mithilfe dieser Informationen können Sie den Verbrauch der einzelnen Geräte im Netzwerk anzeigen, indem Sie eine Internet-Quelle anfordern und herunterladen. Mit jeder weiteren solchen Anfrage summiert sich die Bandbreitennutzung, durch die sich wiederum die Download-Zeit verlängert.
+>Diese Daten zeigen auf, wie viel Bandbreite jedes einzelne mit dem Netzwerk verbundene Gerät beim Anfragen und Herunterladen einer Internet-Quelle beansprucht. Mit jeder weiteren solchen Anfrage erhöht sich die Bandbreitennutzung, wodurch sich wiederum die Download-Zeit verlängert.
 
 ![](/help/using/assets/enclosed-network-download.png)

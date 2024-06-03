@@ -11,9 +11,9 @@ role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
 source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '775'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -32,11 +32,11 @@ In diesem Abschnitt werden folgende Themen behandelt:
 
 ## Überblick {#overview}
 
-Textüberlagerung ist eine Funktion, die in AEM Screens verfügbar ist. Damit können Sie in einem Sequenzkanal ein überzeugendes Erlebnis erstellen, indem Sie einen Titel oder eine Beschreibung angeben, die über einem Bild überlagert ist.
+Textüberlagerung ist eine Funktion, die in AEM Screens verfügbar ist. Damit können Sie in einem Sequenzkanal ein fesselndes Erlebnis schaffen, indem Sie einen Titel oder eine Beschreibung über ein Bild legen.
 
 Informationen zum Erstellen einer eigenen benutzerdefinierten Komponente finden Sie unter **Erweitern einer AEM Screens-Komponente**.
 
-In diesem Abschnitt wird nur gezeigt, wie die Poster-Komponente in einem AEM Screens-Projekt verwendet und angewendet wird. Außerdem wird gezeigt, wie Sie es als Textüberlagerung in einem Ihrer Sequenzkanäle verwenden.
+In diesem Abschnitt wird nur gezeigt, wie die Poster-Komponente in einem AEM Screens-Projekt verwendet und eingesetzt werden kann.  Außerdem wird gezeigt, wie sie als Textüberlagerung in einem der Sequenzkanäle verwendet werden kann.
 
 ## Verwenden von Textüberlagerung {#using-text-overlay}
 
@@ -48,11 +48,11 @@ Stellen Sie vor der Implementierung der Funktion sicher, dass Sie als Voraussetz
 
 * Erstellen Sie ein AEM Screens-Projekt (in diesem Beispiel **TextOverlayDemo**)
 
-* Erstellen Sie einen Sequenzkanal mit dem Titel **TextSample** unter **Kanäle** Ordner
+* Erstellen eines Sequenzkanals mit dem Namen **TextSample** im Ordner **Kanäle**
 
 * Fügen Sie Inhalte zu Ihrem Kanal **TextSample** hinzu
 
-Die folgende Abbildung zeigt die **TextOverlayDemo** -Projekt mit **TextSample** -Kanal im **Kanäle** Ordner.
+Die folgende Abbildung zeigt das Projekt **TextOverlayDemo** mit dem Kanal **TextSample** im Ordner **Kanäle**.
 
 ![screen_shot_2018-12-16at75908pm](assets/screen_shot_2018-12-16at75908pm.png)
 
@@ -62,11 +62,11 @@ Gehen Sie wie folgt vor, um die Textüberlagerung in einem AEM Screens-Kanal zu 
 
    ![screen_shot_2018-12-16at80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
-1. Klicken Sie auf das Bild und klicken Sie auf **Konfigurieren** (Schraubenschlüsselsymbol), um das Dialogfeld &quot;Eigenschaften&quot;zu öffnen.
+1. Klicken Sie auf das Bild und dann auf **Konfigurieren** (Schraubenschlüsselsymbol), um das Dialogfeld „Eigenschaften“ zu öffnen.
 
    ![screen_shot_2018-12-16at80221pm](assets/screen_shot_2018-12-16at80221pm.png)
 
-1. Klicken Sie auf **Textüberlagerung** in der Navigationsleiste des Dialogfelds, wie in der folgenden Abbildung dargestellt.
+1. Klicken Sie in der Navigationsleiste des Dialogfelds auf die Option **Textüberlagerung**, wie in der folgenden Abbildung dargestellt.
 
    ![screen_shot_2018-12-16at80424pm](assets/screen_shot_2018-12-16at80424pm.png)
 
@@ -84,11 +84,11 @@ Sie können dem Textfeld einen Text hinzufügen und typografische Hervorhebungen
 
 >[!NOTE]
 >
->Achten Sie bei Verwendung von fein abgestuften Tools darauf, die richtige Position in Pixel mit (px) als Suffix anzugeben, z. B. 200 px. Das Ergebnis dieses Ausdrucks ist 200 Pixel vom Startpunkt entfernt.
+>Für den Einsatz der Werkzeuge müssen Sie die gewünschte Position in Pixel mit „px“ als Suffix angeben (z. B. „200 px“). Das Ergebnis dieses Ausdrucks ist 200 Pixel vom Startpunkt entfernt.
 
-## Verwenden von ContextHub-Werten in Textüberlagerung {#using-text-overlay-context-hub}
+## Verwenden von ContextHub-Werten in einer Textüberlagerung {#using-text-overlay-context-hub}
 
-Im folgenden Abschnitt wird die Verwendung von Werten aus einem Datenspeicher beschrieben, z. B. Google-Tabellen in der Textüberlagerungskomponente.
+Im folgenden Abschnitt wird die Verwendung von Werten aus einem Datenspeicher beschrieben, z. B. Google-Tabellen in der Komponente für Textüberlagerung.
 
 **Voraussetzungen**
 
@@ -98,13 +98,13 @@ Informationen zum Einrichten und Verwalten datengesteuerter Asset-Änderungen mi
 
 Nachdem Sie die erforderlichen Konfigurationen für Ihr Projekt eingerichtet haben, führen Sie die folgenden Schritte aus, um Werte aus den Google-Tabellen zu verwenden:
 
-1. Navigieren Sie zu **TextOverlayDemo** > **Kanäle** > **TextSample** und klicken **Eigenschaften** in der Aktionsleiste aus.
+1. Navigieren Sie zu **TextOverlayDemo** > **Kanäle** > **TextSample** und klicken Sie in der Aktionsleiste auf **Eigenschaften**.
 
-1. Klicken Sie auf **Personalisierung** -Registerkarte, damit Sie die ContextHub-Konfigurationen einrichten können.
+1. Klicken Sie auf die Registerkarte **Personalisierung**, um die ContextHub-Konfigurationen einzurichten.
 
-   1. Klicken Sie auf **ContextHub-Pfad** as **libs** > **settings** > **cloudsettings** > **default** > **ContextHub-Konfigurationen** und klicken **Auswählen**.
+   1. Klicken Sie für den **ContextHub-Pfad** auf **libs** > **settings** > **cloudsettings** > **default** > **ContextHub-Konfigurationen** und dann auf **Auswählen**.
 
-   1. Klicken Sie auf **Segmentpfad** as **conf** > **screens** > **settings** > **wcm** > **Segmente** und klicken **Auswählen**.
+   1. Klicken Sie für den **Segmentpfad** auf **conf** > **screens** > **settings** > **wcm** > **segments** und dann auf **Auswählen**.
 
    1. Klicken Sie auf **Speichern und schließen**.
 
@@ -118,7 +118,7 @@ Nachdem Sie die erforderlichen Konfigurationen für Ihr Projekt eingerichtet hab
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
-1. Fügen Sie Ihrem Bild eine Komponente für Bild- und Textüberlagerung hinzu, wie in [Verwenden von Textüberlagerung](/help/user-guide/text-overlay.md#using-text-overlay) auf dieser Seite.
+1. Fügen Sie eine Bild- und eine Textüberlagerungskomponente zu Ihrem Bild hinzu, wie im Abschnitt [Verwenden von Textüberlagerung](/help/user-guide/text-overlay.md#using-text-overlay) auf dieser Seite beschrieben.
 
 1. Klicken Sie auf **Konfigurieren** (Schraubenschlüsselsymbol), um das Dialogfeld **Bild** zu öffnen.
 
@@ -129,7 +129,7 @@ Nachdem Sie die erforderlichen Konfigurationen für Ihr Projekt eingerichtet hab
    >[!NOTE]
    >Wenn Sie Ihre ContextHub-Konfigurationen nicht eingerichtet haben, ist diese Option für Ihr Projekt deaktiviert.
 
-1. Geben Sie den **Wert** im Feld **Platzhalter** ein. Klicken Sie auf die Zeile, die Sie aus Ihrem Google-Blatt abrufen möchten, in **ContextHub-Variable**. In diesem Fall wird der Wert aus Zeile 2 und Spalte 1 aus den Google-Tabellen abgerufen. Geben Sie nun die **Standardwert** as **20**, wie in der folgenden Abbildung dargestellt. Wenn Sie fertig sind, klicken Sie auf das Häkchen.
+1. Geben Sie den **Wert** im Feld **Platzhalter** ein. Klicken Sie unter **ContextHub-Variable** auf die Zeile, aus der Sie den Wert aus Ihrer Google-Tabelle abrufen möchten.  In diesem Fall wird der Wert aus Zeile 2 und Spalte 1 der Google-Tabellen abgerufen. Geben Sie nun den **Standardwert** als **20** ein, wie in der folgenden Abbildung dargestellt.  Wenn Sie fertig sind, klicken Sie auf das Häkchen.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 

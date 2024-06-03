@@ -7,9 +7,9 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
 source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '871'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -17,10 +17,10 @@ ht-degree: 68%
 
 Auf der folgenden Seite finden Sie ein Nutzungsszenario, in dem ein Projekt eingerichtet wird. In diesem wird ein unbefristeter Übernahmekanal erstellt, der an einem bestimmten Tag und zu einer bestimmten Zeit kontinuierlich wiedergegeben wird.
 
-## Anwendungsfallbeschreibung {#use-case-description}
+## Anwendungsfall – Beschreibung {#use-case-description}
 
-In diesem Anwendungsfall wird erläutert, wie Sie einen Kanal erstellen, der *Übernahme* aus dem normalen Wiedergabekanal für eine Anzeige oder eine Gruppe von Anzeigen. Die Übernahme erfolgt unbefristet an einem bestimmten Tag und zu einer bestimmten Zeit.
-Beispielsweise gibt es einen unbefristeten Übernahmekanal, der jeden Freitag von 9:00 Uhr bis 10:00 Uhr wiedergegeben wird. Während dieser Zeit sollte kein anderer Kanal wiedergegeben werden. Das folgende Beispiel zeigt die Erstellung eines unbefristeten Übernahmekanals, der es ermöglicht, den Inhalt jeden Mittwoch für zwei Stunden von 14:00 Uhr bis 16:00 Uhr wiederzugeben.
+In diesem Anwendungsfall wird erläutert, wie Sie einen Kanal erstellen, der die Funktion des normalerweise zur Wiedergabe verwendeten Kanals für eine Anzeige oder eine Gruppe von Anzeigen *übernimmt*. Die Übernahme erfolgt unbefristet an einem bestimmten Tag und zu einer bestimmten Zeit.
+Beispielsweise gibt es einen unbefristeten Übernahmekanal, der jeden Freitag von 9:00 Uhr bis 10:00 Uhr wiedergegeben wird. Während dieser Zeit sollte kein anderer Kanal wiedergegeben werden. Das folgende Beispiel zeigt die Erstellung eines unbefristeten Übernahmekanals, der es ermöglicht, den Inhalt jeden Mittwoch für 2 Stunden von 14:00 Uhr bis 16:00 Uhr wiederzugeben.
 
 ### Voraussetzungen {#preconditions}
 
@@ -49,7 +49,7 @@ Gehen Sie wie folgt vor, um ein Projekt einzurichten:
 
    ![Asset](assets/p_usecase2.png)
 
-1. Klicken Sie auf **MainAdChannel** und klicken **Bearbeiten** in der Aktionsleiste aus. Ziehen Sie einige Assets (Bilder, Videos, eingebettete Sequenzen) in Ihren Kanal.
+1. Klicken Sie auf den Kanal **MainAdChannel** und dann in der Aktionsleiste auf **Bearbeiten**. Ziehen Sie einige Assets (Bilder, Videos, eingebettete Sequenzen) in Ihren Kanal.
 
    ![Asset](assets/p_usecase3.png)
 
@@ -59,7 +59,7 @@ Gehen Sie wie folgt vor, um ein Projekt einzurichten:
 
 1. Erstellen Sie einen Kanal **TakeOver**, der den Inhalt des Kanals **MainAdChannel** übernimmt und jeden Mittwoch von 14:00 bis 16:00 Uhr wiedergibt.
 
-1. Klicken Sie auf **TakeOver** und klicken **Bearbeiten** in der Aktionsleiste aus. Ziehen Sie einige Assets in Ihren Kanal. Im folgenden Beispiel wird gezeigt, wie Sie diesem Kanal ein Bild für eine Einzelzone hinzufügen.
+1. Wählen Sie den Kanal **TakeOver** aus und klicken Sie in der Aktionsleiste auf **Bearbeiten**. Ziehen Sie einige Assets in Ihren Kanal. Im folgenden Beispiel wird gezeigt, wie Sie diesem Kanal ein Bild für eine Einzelzone hinzufügen.
 
    ![Asset](assets/p_usecase4.png)
 
@@ -69,27 +69,27 @@ Gehen Sie wie folgt vor, um ein Projekt einzurichten:
 
 **Zuweisen von Kanälen zu einer Anzeige**
 
-1. Klicken Sie auf die Anzeige **MainLobbyDisplay** aus dem **Standorte** Ordner. Klicken Sie in der Aktionsleiste auf **Kanal zuweisen**, um das Dialogfeld **Kanalzuweisung** zu öffnen.
+1. Wählen Sie die Anzeige **MainLobbyDisplay** aus dem Ordner **Standorte** aus. Klicken Sie in der Aktionsleiste auf **Kanal zuweisen**, um das Dialogfeld **Kanalzuweisung** zu öffnen.
 
    >[!NOTE]
    >Informationen zum Zuweisen eines Kanals zu einer Anzeige finden Sie unter **[Kanalzuweisung](channel-assignment.md)**.
 
 1. Füllen Sie die Felder (**Kanalpfad**, **Priorität** und **Unterstützte Ereignisse**) aus dem Dialogfeld **Kanalzuweisung** aus und klicken Sie auf **Speichern**, um Ihrer Anzeige den Kanal **MainAdChannel** zuzuweisen.
 
-   * **Kanalpfad**: Klicken Sie auf den Pfad zum **MainAdChannel** channel
+   * **Kanalpfad**: Wählen Sie den Pfad zum Kanal **MainAdChannel** aus
    * **Priorität**: Legen Sie die Priorität dieses Kanals auf „1“ fest.
-   * **Unterstützte Ereignisse**: Klicken Sie auf die **Erster Ladevorgang** und **Idle Screen**.
+   * **Unterstützte Ereignisse**: Wählen Sie **Erster Ladevorgang** und **Bildschirm bei Untätigkeit** aus.
 
    ![Asset](assets/p_usecase6.png)
 
-1. Klicken Sie auf die Anzeige **TakeOver** aus dem **Standorte** Ordner. Klicken Sie in der Aktionsleiste auf **Kanal zuweisen**, um den Übernahmekanal zuzuweisen.
+1. Wählen Sie die Anzeige **TakeOver** aus dem Ordner **Standorte** aus. Klicken Sie in der Aktionsleiste auf **Kanal zuweisen**, um den Übernahmekanal zuzuweisen.
 
-1. Zuweisen der **TakeOver** zu Ihrer Anzeige zu einem geplanten Zeitpunkt hinzu. Füllen Sie dann die folgenden Felder aus dem **Kanalzuweisung** Dialogfeld und Auswahl **Speichern**:
+1. Weisen Sie Ihrer Anzeige den Kanal **TakeOver** zu einem geplanten Zeitpunkt zu. Füllen Sie dann die folgenden Felder dem Dialogfeld **Kanalzuweisung** aus und wählen Sie **Speichern** aus:
 
-   * **Kanalpfad**: Klicken Sie auf den Pfad zum **TakeOver** channel
+   * **Kanalpfad**: Wählen Sie den Pfad zum Kanal **TakeOver** aus
    * **Priorität**: Legen Sie die Priorität dieses Kanals höher als die von **MainAdChannel** fest. Die in diesem Beispiel eingestellte Priorität ist beispielsweise „8“.
-   * **Unterstützte Ereignisse**: Klicken Sie auf die **Idle Screen** und **Timer**.
-   * **Zeitplan**: Geben Sie den Text für den Zeitplan ein, den dieser Kanal auf der Anzeige ausführen soll. Der in diesem Beispiel erwähnte Text im **Zeitplan** ist *am Mittwoch nach 14:00 und vor 16:00 Uhr*.
+   * **Unterstützte Ereignisse**: Klicken Sie auf **Bildschirm bei Untätigkeit** und **Timer**.
+   * **Zeitplan**: Geben Sie den Text für den Zeitplan ein, nach dem dieser Kanal in der Anzeige ausgeführt werden soll. Der in diesem Beispiel erwähnte Text im **Zeitplan** ist *am Mittwoch nach 14:00 und vor 16:00 Uhr*.
 
      >[!NOTE]
      >Weitere Informationen zu den Ausdrücken, die Sie dem **Zeitplan** hinzufügen können, finden Sie im Abschnitt [Beispielausdrücke](#example-expressions) unten.
@@ -101,7 +101,7 @@ Gehen Sie wie folgt vor, um ein Projekt einzurichten:
 
      ![Asset](assets/p_usecase7.png)
 
-     Zur Anzeige navigieren von **TakeOver** > **Standorte** > **MainLobby** > **MainLobbyDisplay** Klicken Sie dann auf **Dashboard** in der Symbolleiste, damit Sie die zugewiesenen Kanäle mit ihren Prioritäten anzeigen können, wie unten dargestellt.
+     Navigieren Sie zur Anzeige unter **TakeOver** > **Standorte** > **MainLobby** > **MainLobbyDisplay**. Klicken Sie dann in der Aktionsleiste auf **Dashboard**, um die zugewiesenen Kanäle mit ihren Prioritäten anzuzeigen (siehe unten).
 
      >[!NOTE]
      >Es ist zwingend erforderlich, die Priorität des Übernahmekanals auf die höchste Stufe zu setzen.
@@ -111,7 +111,7 @@ Nun übernimmt der Kanal **TakeOver** den **MainAdChannel** jeden Mittwoch zwei 
 
 ## Beispielausdrücke {#example-expressions}
 
-Die folgende Tabelle fasst einige Beispielausdrücke zusammen, die Sie dem Zeitplan hinzufügen können, während Sie einer Anzeige einen Kanal zuweisen.
+Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hinzufügen können, während Sie einer Anzeige einen Kanal zuweisen.
 
 | **Ausdruck** | **Interpretation** |
 |---|---|
@@ -119,8 +119,8 @@ Die folgende Tabelle fasst einige Beispielausdrücke zusammen, die Sie dem Zeitp
 | nach 14:00 Uhr | Der Inhalt des Kanals wird täglich nach 14:00 Uhr wiedergegeben. |
 | nach 12:15 Uhr und vor 12:45 Uhr | Der Inhalt des Kanals wird täglich 30 Minuten lang nach 12:15 Uhr wiedergegeben. |
 | vor 12:15 Uhr auch nach 12:45 Uhr | Der Kanal wird täglich vor 12:15 Uhr und danach auch nach 12:45 Uhr wiedergegeben |
-| am ersten Januar nach 14:00 Uhr, auch am zweiten Januar und am dritten Januar vor 3:00 Uhr. | Der Kanal startet die Wiedergabe am 01. Januar um 14:00 Uhr und läuft am 02. Januar den ganzen Tag bis um 3:00 Uhr am 03. Januar. |
-| an den 1-2 Tagen des Januar nach 14:00 Uhr auch an den 2-3 Tagen des Januar vor 3:00 Uhr. | Der Kanal startet den Player am 01. Januar um 14:00 Uhr, läuft bis 3:00 Uhr am 02. Januar und beginnt dann wieder am 02. Januar um 14:00 Uhr und läuft bis 3:00 Uhr am 03. Januar. |
+| am 1. Januar nach 14:00 Uhr, außerdem am 2. Januar und am 3. Januar vor 3:00 Uhr | Der Kanal startet die Wiedergabe am 01. Januar um 14:00 Uhr und läuft am 02. Januar den ganzen Tag bis um 3:00 Uhr am 03. Januar. |
+| am 1./2. Januar nach 14:00 Uhr, auch am 2./3. Januar vor 3:00 Uhr | Der Kanal startet den Player am 01. Januar um 14:00 Uhr, läuft bis 3:00 Uhr am 02. Januar und beginnt dann wieder am 02. Januar um 14:00 Uhr, um bis 3:00 Uhr am 03. Januar zu laufen. |
 
 >[!NOTE]
 >

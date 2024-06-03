@@ -1,22 +1,22 @@
 ---
 title: Dispatcher-Konfigurationen für AEM Screens
-description: Auf dieser Seite werden Richtlinien zum Konfigurieren eines Dispatchers für ein AEM Screens-Projekt beschrieben.
+description: Auf dieser Seite werden Richtlinien zur Dispatcher-Konfiguration für ein AEM Screens-Projekt beschrieben.
 feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
 source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '633'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
 # Dispatcher-Konfigurationen für AEM Screens{#dispatcher-configurations-for-aem-screens}
 
-Der Dispatcher ist das Caching-Tool von Adobe Experience Manager, das Lastenausgleichstool oder beides.
+Der Dispatcher ist das Caching- und/oder Lastenausgleichs-Tool von Adobe Experience Manager.
 
-Die folgende Seite enthält Richtlinien zum Konfigurieren eines Dispatchers für ein AEM Screens-Projekt.
+Die folgende Seite enthält die Richtlinien zum Konfigurieren eines Dispatchers für ein AEM Screens-Projekt.
 
 >[!NOTE]
 >
@@ -24,15 +24,15 @@ Die folgende Seite enthält Richtlinien zum Konfigurieren eines Dispatchers für
 >
 >Ist kein Dispatcher vorhanden, deaktivieren Sie das Registrierungs-Servlet in der Liste der OSGi-Komponenten.
 
-Bevor Sie den Dispatcher für ein AEM Screens-Projekt konfigurieren, sollten Sie sich mit dem Dispatcher vertraut machen.
+Um den Dispatcher für ein AEM Screens-Projekt konfigurieren zu können, benötigen Sie entsprechende Dispatcher-Vorkenntnisse.
 Weitere Informationen finden Sie unter [Konfigurieren von Dispatcher](https://experienceleague.adobe.com/de/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration).
 
 ## Konfigurieren von Dispatcher für die Manifest-Version v2 {#configuring-dispatcher}
 
 >[!IMPORTANT]
->Die folgenden Dispatcher-Konfigurationen gelten nur für die Manifest-Version v2. Siehe [Dispatcher-Konfigurationen für Manifestversion v3](#configuring-dispatcherv3) für Manifest Version 3.
+>Die folgenden Dispatcher-Konfigurationen gelten nur für die Manifest-Version v2. Informationen zur Manifest-Version v3 finden Sie unter [Dispatcher-Konfigurationen für Manifest-Version v3](#configuring-dispatcherv3).
 
-AEM Screens-Player oder -Geräte verwenden eine authentifizierte Sitzung, um auf die Ressourcen in den Veröffentlichungsinstanzen zuzugreifen. Wenn Sie über mehrere Veröffentlichungsinstanzen verfügen, sollten die Anforderungen immer an dieselbe Veröffentlichungsinstanz gesendet werden, damit die authentifizierte Sitzung für alle Anforderungen von AEM Screens-Playern oder -Geräten gültig ist.
+AEM Screens-Player oder -Geräte verwenden ebenfalls authentifizierte Sitzungen, um auf die Ressourcen in den Veröffentlichungsinstanzen zuzugreifen. Wenn Sie also über mehrere Veröffentlichungsinstanzen verfügen, sollten die Anfragen immer an dieselbe Veröffentlichungsinstanz gesendet werden, damit die authentifizierte Sitzung für alle Anfragen von den AEM Screens-Playern/-Geräten gültig ist.
 
 Gehen Sie wie folgt vor, um den Dispatcher für ein AEM Screens-Projekt zu konfigurieren.
 
@@ -49,7 +49,7 @@ Wenn Sie mehrere Veröffentlichungsinstanzen mit nur einem Dispatcher verwenden 
  }
 ```
 
-Wenn Sie eine Veröffentlichungsinstanz mit einem Dispatcher verwenden, ist die Aktivierung des Sticky-Verhaltens am Dispatcher nicht nötig, da der Load-Balancer jede Anfrage an den Dispatcher senden kann. Klicken Sie in diesem Fall auf **Aktivieren** in **Stickiness** -Feld, um es auf Ihrer Lastenausgleichsebene zu aktivieren, wie in der folgenden Abbildung dargestellt:
+Wenn Sie eine Veröffentlichungsinstanz mit einem Dispatcher verwenden, ist die Aktivierung des Sticky-Verhaltens am Dispatcher nicht nötig, da der Load-Balancer jede Anfrage an den Dispatcher senden kann. In diesem Fall wählen Sie im Feld für das **Sticky-Verhalten** die Option **Aktivieren** aus, um es auf Load-Balancer-Ebene zu aktivieren, wie in der folgenden Abbildung dargestellt:
 
 ![Bild](/help/user-guide/assets/dispatcher/dispatcher-enable.png)
 
@@ -67,7 +67,7 @@ Fügen Sie dem Abschnitt `/clientheaders` Folgendes hinzu:
 
 ### Schritt 2: Konfigurieren von Screens-Filtern {#step-configure-screens-filters}
 
-Um Screens-Filter zu konfigurieren, fügen Sie Folgendes zu *** hinzu`/filter`***.
+Fügen Sie Folgendes zu ***`/filter`*** hinzu, um Screens-Filter zu konfigurieren.
 
 ```
 ## AEM Screens Filters
@@ -88,13 +88,13 @@ Um Screens-Filter zu konfigurieren, fügen Sie Folgendes zu *** hinzu`/filter`**
 /0222 { /type "allow" /method '(GET|HEAD)' /url '/var/contentsync/content/screens/.+/jcr:content/.+/offline-config_.*\.[0-9]+\.zip' }
 ```
 
-### Schritt 3: Deaktivieren von Dispatcher-Cache {#step-disabling-dispatcher-cache}
+### Schritt 3: Deaktivieren des Dispatcher-Caches {#step-disabling-dispatcher-cache}
 
 Deaktivieren Sie das Dispatcher-Caching für ***/content/screens path***.
 
 Screens-Player verwenden die authentifizierte Sitzung, sodass der Dispatcher keine Anfragen von Screens-Playern für `channels/assets` im Cache speichert.
 
-Gehen Sie wie folgt vor, um den Cache für die Assets zu aktivieren, damit die Assets aus dem Dispatcher-Cache bereitgestellt werden:
+Um den Cache für die Assets zu aktivieren, damit die Assets aus dem Dispatcher-Cache bereitgestellt werden, gehen Sie wie folgt vor:
 
 * `/allowAuthorization 1` im Abschnitt `/cache` hinzufügen,
 * die folgenden Regeln zum Abschnitt `/rules` von `/cache` hinzufügen.
@@ -129,11 +129,11 @@ Gehen Sie wie folgt vor, um den Cache für die Assets zu aktivieren, damit die A
 
 ## Konfigurieren von Dispatcher für die Manifest-Version v3 {#configuring-dispatcherv3}
 
-Stellen Sie sicher, dass diese Filter und Cache-Regeln in Dispatchern vor den Veröffentlichungsinstanzen für die Funktion von Screens zulässig sind.
+Stellen Sie sicher, dass diese Filter und Cache-Regeln in Dispatchern von Veröffentlichungsinstanzen zugelassen sind, damit Screens funktioniert.
 
-### Voraussetzungen für Manifest-Version v3 {#prerequisites3}
+### Voraussetzungen für die Manifest-Version v3 {#prerequisites3}
 
-Befolgen Sie diese beiden Voraussetzungen, bevor Sie einen Dispatcher (Manifestversion v3) für AEM Screens konfigurieren:
+Achten Sie darauf, dass diese beiden Voraussetzungen erfüllt sind, bevor Sie einen Dispatcher (Manifest-Version v3) für AEM Screens konfigurieren:
 
 * Stellen Sie sicher, dass Sie `v3 manifests` verwenden. Navigieren Sie zu `https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` und stellen Sie sicher, dass `Enable ContentSync Cache` deaktiviert ist.
 
@@ -173,10 +173,10 @@ Befolgen Sie diese beiden Voraussetzungen, bevor Sie einen Dispatcher (Manifestv
 
 * Fügen Sie `/allowAuthorized "1"` zum Abschnitt `/cache` in `publish_farm.any` hinzu.
 
-* Alle AEM Screens-Player verwenden eine authentifizierte Sitzung, um eine Verbindung zu AEM (Autor/Veröffentlichung) herzustellen. Standardmäßig speichert ein Dispatcher diese URLs nicht zwischen, daher sollten Sie sie aktivieren.
+* Alle AEM Screens-Player verwenden eine authentifizierte Sitzung, um eine Verbindung zu AEM (Author/Publish) herzustellen. Da ein vorkonfigurierter Dispatcher diese URLs nicht zwischenspeichert, sollten Sie diese aktivieren.
 
-* Hinzufügen `statfileslevel "10"` nach `/cache` Abschnitt in `publish_farm.any`
-Diese Regel unterstützt das Zwischenspeichern von bis zu zehn Ebenen aus dem Cache-Basisverzeichnis und das entsprechende Invalidieren bei der Veröffentlichung von Inhalten, anstatt alles zu invalidieren. Sie können diese Ebene ändern, je nachdem, wie tief Ihre Inhaltsstruktur ist.
+* Fügen Sie `statfileslevel "10"` zum Abschnitt `/cache` in `publish_farm.any` hinzu.
+Dies unterstützt das Caching von bis zu 10 Ebenen aus dem Cache-Basisverzeichnis und die entsprechende Invalidierung bei der Veröffentlichung von Inhalten, anstatt alles zu invalidieren. Sie können diese Ebene ändern, je nachdem, wie tief Ihre Inhaltsstruktur ist.
 
 * Hinzufügen von Folgendem zu `/invalidate section in publish_farm.any`
 
@@ -231,7 +231,7 @@ Diese Regel unterstützt das Zwischenspeichern von bis zu zehn Ebenen aus dem Ca
 
 ### Hinzufügen der Invalidierungsregel für segment.js {#invalidsegmentjs}
 
-Wenn Sie zielgerichtete Kampagnen mit AEM Screens verwenden, muss die Datei `segments.js file`, die vom Dispatcher bereitgestellt wird, invalidiert werden, wenn Sie neue Segmente hinzufügen und in AEM veröffentlichen. Ohne diese Invalidierungsregel funktionieren neue zielgerichtete Kampagnen nicht auf dem AEM Screens-Player (es wird stattdessen der Standardinhalt angezeigt).
+Wenn Sie zielgerichtete Kampagnen mit AEM Screens verwenden, muss die Datei `segments.js file`, die vom Dispatcher bereitgestellt wird, invalidiert werden, wenn Sie neue Segmente hinzufügen und in AEM veröffentlichen. Ohne diese Invalidierungsregel funktionieren neue zielgerichtete Kampagnen im AEM Screens-Player nicht (stattdessen wird der Standardinhalt angezeigt).
 
 * Fügen Sie eine Invalidierungsregel zu `/etc/httpd/conf.dispatcher.d/available_farms/999_ams_publish_farm.any` hinzu. Folgende Regel soll hinzugefügt werden:
 

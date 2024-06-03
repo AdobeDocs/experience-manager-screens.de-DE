@@ -11,9 +11,9 @@ role: Developer
 level: Intermediate
 exl-id: 3b127311-32d1-402c-97a1-e799e9f3f95e
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '244'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 61%
 
 >[!CAUTION]
 >
->Adobe empfiehlt ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM). AEM Screens bietet Wartungs-Support für die AEM 6.3 Screens-Plattform.
+>Adobe empfiehlt, ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM) durchzuführen. AEM Screens bietet Wartungs-Support für die AEM 6.3 Screens-Plattform.
 
 AEM Screens hat AEM 6.3 Feature Pack 5 und AEM 6.4 Feature Pack 3 mit folgenden Details veröffentlicht.
 
@@ -33,11 +33,11 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 201812 ist der 16. Jan
 
 * **Textüberlagerung auf Assets im Kanal**:
 
-  Textüberlagerung ist eine Funktion, die in AEM Screens verfügbar ist. Damit können Sie in einem Sequenzkanal ein überzeugendes Erlebnis erstellen, indem Sie einen Titel oder eine Beschreibung angeben, die über einem Bild überlagert ist. Siehe [**Textüberlagerung**](text-overlay.md).
+  Textüberlagerung ist eine Funktion, die in AEM Screens verfügbar ist. Damit können Sie in einem Sequenzkanal ein fesselndes Erlebnis schaffen, indem Sie einen Titel oder eine Beschreibung über ein Bild legen. Siehe [**Textüberlagerung**](text-overlay.md).
 
 * **Zeitplanung für mehrere Assets**:
 
-  Die Zeitplanung für mehrere Assets ermöglicht es dem Benutzer, auf mehrere Assets zu klicken und einen Wiedergabezeitplan auf alle ausgewählten Assets anzuwenden. Siehe **Zeitplanung für mehrere Assets** unter **[Asset-Zeitplanung](asset-level-scheduling.md)**.
+  Die Zeitplanung für mehrere Assets ermöglicht es Benutzenden, mehrere Assets anzuklicken und einen Wiedergabezeitplan auf alle ausgewählten Assets anzuwenden. Siehe **Zeitplanung für mehrere Assets** unter **[Asset-Zeitplanung](asset-level-scheduling.md)**.
 
 * **Mehrzonen-Layout**:
 
@@ -57,4 +57,4 @@ Die folgenden AEM Screens-Player sind für AEM 6.3 Feature Pack 5 und AEM 6.4 Fe
 
 #### AEM Screens-Player-Downloads
 
-Informationen zum Herunterladen des neuesten AEM Screens-Players und zu weiteren Fehlerbehebungen finden Sie unter [**AEM Screens Player-Downloads**](https://download.macromedia.com/screens/).
+Navigieren Sie zu [**AEM Screens-Player-Downloads**](https://download.macromedia.com/screens/), um den neuesten AEM Screens-Player herunterzuladen und mehr über die Fehlerbehebungen zu erfahren.

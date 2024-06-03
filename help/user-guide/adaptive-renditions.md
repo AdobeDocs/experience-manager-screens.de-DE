@@ -1,11 +1,11 @@
 ---
 title: Überblick über die Architektur und Konfigurationen für adaptive Ausgabedarstellungen
-description: Erfahren Sie mehr über die Architekturübersicht und -konfigurationen unter CRXDE Lite für adaptive Ausgabedarstellungen in AEM Screens.
+description: Erfahren Sie mehr über den Überblick über die Architektur und Konfigurationen in CRXDE Lite für adaptive Ausgabedarstellungen in AEM Screens.
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '620'
-ht-degree: 39%
+ht-degree: 100%
 
 ---
 
@@ -13,17 +13,17 @@ ht-degree: 39%
 
 ## Einführung {#introduction}
 
-Mit adaptiven Ausgabeformaten können Geräte anhand von kundendefinierten Regeln automatisch auf die beste Ausgabedarstellung für ein Gerät klicken. Die Geräte laden automatisch die am besten geeignete Ausgabedarstellung eines Assets herunter und geben diese basierend auf diesen Regeln wieder, sodass sich Kunden auf das Entwerfen der *main* Erlebnis.
+Mit adaptiven Ausgabedarstellungen können Geräte anhand von kundendefinierten Regeln automatisch auf die beste Ausgabedarstellung für ein Gerät klicken. Die Geräte laden automatisch die am besten geeignete Ausgabedarstellung eines Assets herunter und geben diese auf Grundlage dieser Regeln wieder, sodass sich die Kundinnen und Kunden nur auf die Gestaltung des *eigentlichen* Erlebnisses konzentrieren müssen.
 
 ## Ziel {#objective}
 
-Als AEM Screens-Entwickler können Sie jetzt gerätespezifische Asset-Ausgabedarstellungen so konfigurieren, dass sie automatisch heruntergeladen und wiedergegeben werden, ohne dass alle Inhaltsvarianten manuell erstellt werden müssen. Konfigurieren Sie die adaptiven Ausgabeformate, bevor ein Inhaltsautor diese Funktion in einem AEM Screens-Kanal verwenden kann.
+Als AEM Screens-Entwickler können Sie jetzt gerätespezifische Asset-Ausgabedarstellungen so konfigurieren, dass sie automatisch heruntergeladen und wiedergegeben werden, ohne dass alle Inhaltsvarianten manuell erstellt werden müssen. Konfigurieren Sie die adaptiven Ausgabedarstellungen, bevor eine Inhaltsautorin oder ein Inhaltsautor diese Funktion in einem AEM Screens-Kanal verwenden kann.
 
-## Architektonischer Übersicht {#architectural-overview}
+## Architektonische Übersicht {#architectural-overview}
 
-Adaptive Ausgabeformate basieren auf der Idee, dass mehrere Ausgabeformate eines Assets namens nach einer bestimmten Benennungskonvention vorliegen. Die Entscheidung, eine bestimmte Ausgabedarstellung abzuspielen, wird getroffen, indem Medienabfrageausdrücke ausgewertet werden, die nur auf Geräten mit erwarteten Funktionen aufgelöst werden können.
+Adaptive Ausgabedarstellungen basieren auf der Idee, dass mehrere Asset-Ausgabedarstellungen nach einer bestimmten Namenskonvention benannt sind. Die Entscheidung, eine bestimmte Ausgabedarstellung abzuspielen, wird getroffen, indem Medienabfrageausdrücke ausgewertet werden, die nur auf Geräten mit erwarteten Funktionen aufgelöst werden können.
 
-Durch die Möglichkeit, über ein verknüpftes Ausgabedarstellungs-Benennungsmuster zu verfügen, wird eine Regel für die Ausgabedarstellungszuordnung wie Hochformat oder Querformat definiert, wie in der folgenden Abbildung dargestellt. Nach der Berechnung aller verfügbaren Ausdrücke erfasst der Screens-Player die Namensmuster, die den entsprechenden Regeln entsprechen. Die Muster werden verwendet, um die richtigen Ausgabedarstellungen während der Sequenzwiedergabe zu finden, indem nach den Mustern in den Ausgabedarstellungsnamen gesucht wird.
+Die Möglichkeit, über ein verknüpftes Ausgabedarstellungs-Namensmuster zu verfügen, definiert eine Ausgabedarstellungs-Zuordnungsregel wie Hochformat oder Querformat, wie in der folgenden Abbildung dargestellt. Nach der Berechnung aller verfügbaren Ausdrücke erfasst der Screens-Player die Namensmuster, die den entsprechenden Regeln entsprechen. Die Muster werden verwendet, um die richtigen Ausgabedarstellungen während der Sequenzwiedergabe zu finden, indem nach den Mustern in den Ausgabedarstellungsnamen gesucht wird.
 
 ![Bild](/help/user-guide/assets/adaptive-renditions/adaptive-renditions.png)
 
@@ -41,14 +41,14 @@ Gehen Sie wie folgt vor, um die Einrichtung zu konfigurieren:
    >![Bild](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
    >[!IMPORTANT]
-   >Wenn Sie das neueste Feature Pack 202109 installiert haben, sehen Sie die **rendition-mapping** Knotenstruktur, vorausgefüllt in `/conf/screens/sling:configs/rendition-mapping` in CRXDE Lite. Siehe [Versionshinweise für Feature Pack 202109](/help/user-guide/release-notes-fp-202109.md) um Details zum neuesten Feature Pack zu erhalten.
-   >Stellen Sie bei vorhandenen Projekten sicher, dass dem Screens-Projekt die Konfiguration **Ausgabedarstellungszuordnung** zugeordnet ist. Siehe [Hinzufügen der Ausgabedarstellungszuordnung zu einem vorhandenen Projekt](#rendition-mapping-existing) für weitere Informationen.
+   >Wenn Sie das neueste Feature Pack 202109 installiert haben, sehen Sie in CRXDE Lite die Knotenstruktur **rendition-mapping**, die in `/conf/screens/sling:configs/rendition-mapping` bereits vorausgefüllt ist. Weitere Informationen zum neuesten Feature Pack finden Sie unter [Versionshinweise für Feature Pack 202109](/help/user-guide/release-notes-fp-202109.md).
+   >Stellen Sie bei vorhandenen Projekten sicher, dass dem Screens-Projekt die Konfiguration **rendition-mapping** zugeordnet ist. Weitere Informationen finden Sie unter [Hinzufügen der Ausgabedarstellungszuordnung zu einem vorhandenen Projekt](#rendition-mapping-existing).
 
 ### Hinzufügen der Ausgabedarstellungszuordnungs-Eigenschaft zu einem vorhandenen Projekt {#rendition-mapping-existing}
 
 1. Gehen Sie zu **CRXDE Lite**.
 
-1. Definieren Sie explizit die Zuordnung der Ausgabedarstellung durch Hinzufügen von `sling:configRef` -Eigenschaft, die auf `/conf/screens` zum Projektinhalt-Knoten hinzu, wie in der folgenden Abbildung dargestellt.
+1. Definieren Sie die Zuweisung der Ausgabedarstellungszuordnung explizit, indem Sie die Eigenschaft `sling:configRef`, die auf `/conf/screens` verweist, zum Projektinhaltsknoten hinzufügen, wie in der folgenden Abbildung gezeigt.
 
    ![Bild](/help/user-guide/assets/adaptive-renditions/renditon-mapping2.png)
 
@@ -58,37 +58,37 @@ Gehen Sie wie folgt vor, um die Einrichtung zu konfigurieren:
 Gehen Sie wie folgt vor, um einen Knoten unter „Ausgabedarstellungszuordnung“ hinzuzufügen:
 
 1. Gehen Sie von **CRXDE Lite** zum Pfad `/conf/screens/sling:configs/rendition-mapping`.
-1. Erstellen Sie einen Knoten unter **Ausgabedarstellungszuordnung**. Rechtsklick **rendition-mapping** und klicken **Erstellen** > **Knoten erstellen**, wie in der folgenden Abbildung dargestellt.
+1. Erstellen Sie einen Knoten unter **Ausgabedarstellungszuordnung**. Klicken Sie mit der rechten Maustaste auf **Ausgabedarstellungszuordnung** und klicken Sie auf **Erstellen** > **Knoten erstellen**, wie in der folgenden Abbildung dargestellt.
 
    ![Bild](/help/user-guide/assets/adaptive-renditions/add-node1.png)
 
-1. Geben Sie die **Name** für Ihre Zuordnungsregel wie **rule1** und dem Knoten **Typ** as **`nt:unstructured`** in **Knoten erstellen** Dialogfeld. Klicken Sie auf **OK**.
+1. Geben Sie den **Namen** für Ihre Zuordnungsregel wie z. B. **Regel1** und den **Knotentyp** im Dialogfeld **Knoten erstellen** als **`nt:unstructured`** ein. Klicken Sie auf **OK**.
 
    ![Bild](/help/user-guide/assets/adaptive-renditions/add-node2.png)
 
 
-1. Fügen Sie die Eigenschaft expression mit dem Wert hinzu, der den Abfrageausdruck enthält.
+1. Fügen Sie die Ausdruckseigenschaft mit dem Wert hinzu, der den Abfrageausdruck enthält.
 
    >[!NOTE]
    >Weitere Informationen finden Sie unter [Verwenden der Syntax von Medienabfragen](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries).
 
-   Klicks **rule1** die Sie erstellt haben, und geben Sie die **Ausdruck** in **Name** und **(Ausrichtung:Querformat)** in **Wert**, wie unten dargestellt. Klicken Sie auf **Hinzufügen**.
+   Klicken Sie auf die **Regel 1**, die Sie erstellt haben, und geben Sie **Ausdruck** in **Name** und **(Ausrichtung:Querformat)** in **Wert** ein, wie unten dargestellt. Klicken Sie auf **Hinzufügen**.
 
    ![Bild](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
 1. Fügen Sie die Eigenschaft „Muster“ mit dem Wert hinzu, der das Ausgabedarstellungs-Namensmuster enthält.
 
    >[!NOTE]
-   >Der in der pattern-Eigenschaft definierte Wert wird mit der neuen Asset-Ausgabedarstellung abgeglichen und ausgewählt, wenn der Ausdruck als &quot;true&quot;ausgewertet wird.
+   >Der in der Eigenschaft „Muster“ definierte Wert wird mit der neuen Asset-Ausgabedarstellung abgeglichen und ausgewählt, wenn der Ausdruck als „true“ ausgewertet wird.
 
-   Um die pattern-Eigenschaft hinzuzufügen, klicken Sie auf **rule1** die Sie erstellt haben, und geben Sie die **pattern** in **Name** und **landscape** in **Wert**, wie unten dargestellt. Klicken Sie auf **Hinzufügen**.
+   Um die Eigenschaft „Muster“ hinzuzufügen, klicken Sie auf **Regel1**, die Sie erstellt haben, und geben Sie **Muster** in **Name** und **Querformat** in **Wert** ein, wie unten dargestellt. Klicken Sie auf **Hinzufügen**.
 
    ![Bild](/help/user-guide/assets/adaptive-renditions/add-node4.png)
 
-1. Klicks **Alle speichern** und beachten Sie die Eigenschaften unter dem Knoten, den Sie unter erstellt haben **rendition-mapping**.
+1. Klicken Sie auf **Alle speichern** und beachten Sie die Eigenschaften unter dem Knoten, den Sie unter **rendition-mapping** erstellt haben.
 
    ![Bild](/help/user-guide/assets/adaptive-renditions/add-node5.png)
 
 ## Die nächsten Schritte {#next-steps}
 
-Nachdem Sie Eigenschaften und Regeln für die Ausgabedarstellungszuordnung hinzugefügt haben, können Sie als Inhaltsautor Ihre Assets konfigurieren. Sie können adaptive Ausgabeformate verwenden und Ihre Geräte für große Netzwerke migrieren, um diese Funktion in Ihren AEM Screens-Kanälen zu verwenden. Siehe [Verwenden adaptiver Ausgabeformate in AEM Screens](/help/user-guide/using-adaptive-renditions.md) für weitere Informationen.
+Nachdem Sie Eigenschaften und Regeln für die Ausgabedarstellungszuordnung hinzugefügt haben, können Sie als Inhaltsautorin bzw. Inhaltsautor Ihre Assets konfigurieren. Sie können adaptive Ausgabedarstellungen nutzen und außerdem Ihre Geräte auch für große Netzwerke migrieren, um diese Funktion in Ihren AEM Screens-Kanälen zu verwenden. Weitere Informationen finden Sie unter [Verwenden adaptiver Ausgabedarstellungen in AEM Screens](/help/user-guide/using-adaptive-renditions.md).

@@ -10,9 +10,9 @@ role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
 source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '869'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ In diesem Abschnitt wird beschrieben, wie Sie den Chrome OS-Player mit der Chrom
 
 ## Verwenden der Chrome Management Console {#using-chrome-management-console}
 
-Gehen Sie wie folgt vor, um die Chrome-Verwaltungskonsole einzurichten:
+Führen Sie die nachfolgenden Schritte aus, um die Chrome Management Console einzurichten:
 
-1. Registrieren Sie sich für die Chrome Management Console. Sie müssen eine Lizenz für die Chrome Management Console erwerben. Weitere Informationen zur Verwaltung von Chrome-Geräteeinstellungen finden Sie beim [Google-Support](https://support.google.com/chrome/a/answer/1375678?hl=de&amp;ref_topic=2935995).
-1. Melden Sie Ihr Chrome OS-Gerät in der Domäne an und warten Sie 15 Minuten, bis das Gerät mit der Chrome Management Console synchronisiert ist. Um mehr über die Registrierung von Chrome-Geräten zu erfahren, klicken Sie auf [here](https://support.google.com/chrome/a/answer/1360534?hl=de).
-1. Der Chrome-Player ist im Chrome Web Store verfügbar.
+1. Registrieren Sie sich für die Chrome Management Console. Sie müssen eine Lizenz für die Chrome Management Console erwerben. Für weitere Informationen zur Verwaltung der Chrome-Geräteeinstellungen wenden Sie sich an den [Google-Support](https://support.google.com/chrome/a/answer/1375678?hl=de&amp;ref_topic=2935995).
+1. Melden Sie Ihr Chrome OS-Gerät in der Domain an und warten Sie 15 Minuten, bis das Gerät mit der Chrome Management Console synchronisiert ist. Um mehr über die Registrierung von Chrome-Geräten zu erfahren, klicken Sie [hier](https://support.google.com/chrome/a/answer/1360534?hl=de).
+1. Der Chrome-Player ist im Chrome-Webstore verfügbar.
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ Sie können Ihrem Chrome-Player einen benutzerfreundlichen Gerätenamen zuweisen
 
 Gehen Sie wie folgt vor, um den Namen im Chrome-Player zu konfigurieren:
 
-1. Sie können optional zulassen, dass Audio-Video-Integratoren oder IT-Administratoren die Asset-ID und den Speicherort als Teil der Unternehmensregistrierung festlegen.
+1. Sie können optional zulassen, dass die für die Audio-Video-Integration zuständigen Personen oder IT-Admins die Asset-ID und den Speicherort als Teil der Unternehmensregistrierung festlegen.
 
    ![Bild](/help/user-guide/assets/chrome-device/chrome1.png)
 
@@ -49,12 +49,12 @@ Gehen Sie wie folgt vor, um den Namen im Chrome-Player zu konfigurieren:
 
    ![Bild](/help/user-guide/assets/chrome-device/chrome2.jpg)
 
-1. Sie können die Asset-ID als Teil der Unternehmensregistrierung und in der Chrome Management Console festlegen.
+1. Sie können die Asset-ID als Teil der Unternehmensregistrierung sowie in der Chrome Management Console festlegen.
 
    ![Bild](/help/user-guide/assets/chrome-device/chrome3.png)
 
    >[!NOTE]
-   >Chrome-Player müssen bei der Unternehmensregistrierung registriert sein und der Chrome-Player muss über die Chrome Management Console bereitgestellt werden. Andernfalls wird die Asset-ID leer zurückgegeben (z. B. Chrome als Erweiterung). Der Gerätename wird erst zum Zeitpunkt der Registrierung aufgezeichnet. Zukünftige Änderungen werden von Adobe Experience Manager (AEM) nicht übernommen.
+   >Chrome-Player müssen bei der Unternehmensregistrierung registriert sein und der Chrome-Player muss über die Chrome Management Console bereitgestellt werden. Andernfalls wird die Asset-ID leer zurückgegeben (z. B. Chrome als Erweiterung). Der Gerätename wird erst zum Zeitpunkt der Registrierung aufgezeichnet. Zukünftige Änderungen werden von Adobe Experience Manager (AEM) nicht übernommen.
 
 ### Aktivieren des Kiosk-Modus {#enabling-kiosk-mode}
 
@@ -64,25 +64,25 @@ Gehen Sie wie folgt vor, um den Kiosk-Modus zu aktivieren:
 
    ![screen_shot_2017-12-08at20303pm](assets/screen_shot_2017-12-08at20303pm.png)
 
-1. Navigieren Sie zu **Geräteverwaltung** > **Chrome Management** > **Geräteeinstellungen**.
+1. Navigieren Sie zu **Geräteverwaltung** > **Chrome Management** > **Geräteeinstellungen**.
 1. Scrollen Sie nach unten zur Option **Kiosk-Einstellungen** und klicken Sie dann auf **Kiosk-Anwendungen verwalten**.
 
    ![kiosk](assets/kiosk.png)
 
-1. Klicken Sie im Chrome Web Store auf den AEM Screens-Player .
+1. Klicken Sie im Chrome-Webstore auf den AEM Screens-Player.
 
    >[!NOTE]
    >
-   >Es kann rund 15 Minuten dauern, bis eine erst kürzlich veröffentlichte App in dieser Liste angezeigt wird.
+   >Für eine erst kürzlich veröffentlichte App kann es rund 15 Minuten dauern, bis sie in dieser Liste angezeigt wird.
 
-1. Klicks **AEM Screens Player** aus dem **Kiosk-App automatisch starten** Dropdown.
+1. Klicken Sie im Dropdown-Menü **Kiosk-App automatisch starten** auf **AEM Screens-Player**.
 
    Es kann je nach Netzwerk mehrere Minuten dauern, bis die Änderungen übernommen werden. Es wird empfohlen, einen Neustart durchzuführen.
 
 #### Überprüfen des Remote-Geräte-Status {#checking-remote-device-status}
 
 1. Melden Sie sich bei der Chrome Developer Console an.
-1. Navigieren Sie zu **Geräteverwaltung** > **Chrome-Geräte** und klicken Sie auf das Gerät, das Sie steuern möchten.
+1. Navigieren Sie zu **Geräteverwaltung** > **Chrome-Geräte** und klicken Sie auf das zu kontrollierende Gerät.
 1. Klicken Sie auf **Systemaktivität und Fehlerbehebung**.
 1. Überprüfen Sie die Eigenschaften **Gerät neu starten** und **Bildschirmaufnahme** des Geräts. Sie können auch den Status und den Gesundheitszustand des Geräts überprüfen.
 
@@ -92,14 +92,14 @@ Gehen Sie wie folgt vor, um den Kiosk-Modus zu aktivieren:
 
 ### Konfigurieren der Fernkonfiguration von Chrome OS-Playern {#configuring-remote-configuration-of-chrome-os-players}
 
-AEM Screens-Player ist eine Kiosk-fähige Anwendung, die auch eine Fernkonfiguration von Richtlinien für Chrome OS-Player gestattet.
+Der AEM Screens-Player ist eine Kiosk-fähige Anwendung, die auch eine Fernkonfiguration von Richtlinien für Chrome OS-Player gestattet.
 
-Gehen Sie wie folgt vor, um die verschiedenen Player-Optionen zu konfigurieren:
+Gehen Sie wie folgt vor, um verschiedene Player-Optionen zu konfigurieren:
 
-1. Melden Sie sich bei der Chrome Management Console an.
-1. Klicks **Geräteverwaltung** > **Chrome Management** > **App-Verwaltung**. Der AEM Screens-Player wird in der Liste angezeigt.
+1. Melden Sie sich bei der Chrome Developer Console an.
+1. Klicken Sie auf **Geräteverwaltung** > **Chrome Management** > **App-Verwaltung**. Der AEM Screens-Player wird in der Liste angezeigt.
 1. Klicken Sie auf die Anwendung **AEM Screens Player**.
-1. Klicks **Kiosk-Einstellungen** und klicken Sie auf Ihre Organisation (*bei Verwendung einer Testumgebung*).
+1. Klicken Sie auf **Kiosk-Einstellungen** und dann auf Ihr Unternehmen (*wenn eine Testumgebung verwendet wird*).
 1. Klicken Sie auf **Konfigurationsdatei hochladen** und laden Sie die Konfigurationsrichtlinie hoch (*JSON-Datei*).
 1. Klicken Sie auf **Speichern**. Starten Sie das Gerät neu, um die Richtlinie zu synchronisieren.
 
@@ -143,14 +143,14 @@ In der folgenden Tabelle sind die Richtlinien und deren Funktionen aufgeführt.
 | resolution | Die Auflösung des Geräts. |
 | rebootSchedule | Der Zeitplan zum Neustarten des Players. |
 | enableAdminUI | Aktivierung der Administrator-Benutzeroberfläche zum Konfigurieren des Geräts vor Ort. Stellen Sie diesen Wert auf „false“ ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und in der Produktion verwendet wird. |
-| enableOSD | Aktivieren Sie die Benutzeroberfläche für den Kanalschalter, damit Benutzer die Kanäle auf dem Gerät wechseln können. Stellen Sie den Wert ggf. auf „false“ ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und in der Produktion verwendet wird. |
-| enableActivityUI | Aktivieren Sie diese Option, damit Sie den Fortschritt von Aktivitäten wie Download und Synchronisierung anzeigen können. Aktivieren Sie den Wert zwecks Fehlerbehebung und deaktivieren Sie ihn, sobald die Benutzeroberfläche vollständig konfiguriert ist und produktiv verwendet wird. |
-| cloudMode | Setzen Sie dies auf &quot;true&quot;, wenn Sie möchten, dass der Chrome-Player eine Verbindung zu Screens as a Cloud Service herstellt. Legen Sie den Wert auf „false“ fest, um eine Verbindung zu AMS oder AEM On-Premise herzustellen. |
+| enableOSD | Aktivierung der Kanalschalter-Benutzeroberfläche, damit Benutzende zwischen Kanälen auf dem Gerät wechseln können. Stellen Sie den Wert ggf. auf „false“ ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und in der Produktion verwendet wird. |
+| enableActivityUI | Aktivierung zum Anzeigen des Fortschritts von Aktivitäten wie Downloads und Synchronisierungen. Aktivieren Sie den Wert zwecks Fehlerbehebung und deaktivieren Sie ihn, sobald die Benutzeroberfläche vollständig konfiguriert ist und produktiv verwendet wird. |
+| cloudMode | Setzen Sie dies auf „true“, wenn Sie möchten, dass der Chrome-Player eine Verbindung zu Screens as a Cloud Service herstellt.  Legen Sie den Wert auf „false“ fest, um eine Verbindung zu AMS oder AEM On-Premise herzustellen. |
 | cloudToken | Anmelde-Token zur Registrierung bei Screens as a Cloud Service. |
 
 >[!NOTE]
 >
->Richtlinienkonfigurationen werden streng durchgesetzt und die Administrator-Benutzeroberfläche des Players überschrieben nicht manuell. Um eine manuelle Player-Konfiguration für eine bestimmte Richtlinie zu ermöglichen, geben Sie die Richtlinie nicht in der ***Richtlinienkonfiguration*** an. Wenn Sie beispielsweise eine manuelle Konfiguration für den Neustart-Zeitplan zulassen möchten, geben Sie den Schlüssel ***rebootSchedule*** nicht in der Richtlinienkonfiguration an.
+>Richtlinienkonfigurationen werden streng durchgesetzt und die Administrator-Benutzeroberfläche des Players überschreibt nicht manuell. Um eine manuelle Player-Konfiguration für eine bestimmte Richtlinie zu ermöglichen, geben Sie die Richtlinie nicht in der ***Richtlinienkonfiguration*** an. Wenn Sie beispielsweise eine manuelle Konfiguration für den Neustart-Zeitplan zulassen möchten, geben Sie den Schlüssel ***rebootSchedule*** nicht in der Richtlinienkonfiguration an.
 
 ### Verwenden der Fernbedienungs-Steuerung von Screens {#using-remote-control}
 

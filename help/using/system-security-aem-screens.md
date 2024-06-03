@@ -1,10 +1,10 @@
 ---
 title: Sicherheits-Checkliste für AEM Screens
-description: Erfahren Sie mehr über die Sicherheitscheckliste für AEM Screens.
+description: Erfahren Sie mehr über die Sicherheits-Checkliste für AEM Screens.
 source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '460'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ In diesem Abschnitt wird das Whitepaper beschrieben. (Ausstehender Whitepaper-An
 
 ## Häufig gestellte Fragen zur Sicherheit von AEM Screens {#faqs-screens}
 
-Die folgenden häufig gestellten Fragen stellen eine authentifizierte, registrierte Player-Architektur dar. Es verwendet HTTPS als Kommunikationsprotokoll zwischen Player und AEM Server.
+Die folgenden häufig gestellten Fragen gehen von einer authentifizierten, registrierten Player-Architektur aus. Sie verwendet HTTPS als Kommunikationsprotokoll zwischen Player und AEM-Server.
 
 ### Frage 1 {#faq1}
 
@@ -41,7 +41,7 @@ Sollte ich HTTP oder HTTPs verwenden?
 
 **Antwort**
 
-Verwenden Sie HTTPs. Dieses Protokoll ist ein Muss, wenn es um Sicherheit geht. Mit HTTPs wird die Kommunikation zwischen Player und Server verschlüsselt. Damit ist es unmöglich, den Inhalt abzufangen oder zu ändern.
+Verwenden Sie HTTPs. Dieses Protokoll ist unabdingbar, wenn Sie um die Sicherheit besorgt sind. Mit HTTPs wird die Kommunikation zwischen Player und Server verschlüsselt. Damit ist es unmöglich, den Inhalt abzufangen oder zu ändern.
 
 
 ### Frage 3 {#faq3}
@@ -50,7 +50,7 @@ Gibt es beim Herunterladen von Inhalten irgendeine Art von Signierung des Inhalt
 
 **Antwort**
 
-Jedes Asset wird vom Server signiert (SHA). Der Player überprüft ihn dann auf denselben Hash, um die Integrität zu gewährleisten.
+Jedes Asset wird vom Server signiert (SHA). Der Player überprüft es dann auf denselben Hash, um die Integrität zu gewährleisten.
 Wenn der Hash nicht übereinstimmt, versucht die Software dreimal, erneut zu validieren. Nach drei Versuchen wird der Download-Befehl als ungültig betrachtet.
 
 
@@ -73,7 +73,7 @@ Ein physisch kompromittierter Player kann theoretisch manipuliert werden, um bel
 
 Wahren Sie die Geräte unzugänglich auf – vorzugsweise in einem gesicherten Container – wobei die Verkabelung ebenfalls gesichert ist. Deaktivieren Sie auch alle IR-Remote-Anschlüsse.
 
-Wenn das Betriebssystem des Geräts nicht regelmäßig aktualisiert wird, kann das Betriebssystem Sicherheitslücken aufweisen und Remote-Angriffe über das Netzwerk zulassen.
+Wenn das Betriebssystem des Geräts nicht regelmäßig aktualisiert wird, kann es Sicherheitslücken aufweisen und Remote-Angriffe über das Netzwerk ermöglichen.
 
 >[!NOTE]
 >

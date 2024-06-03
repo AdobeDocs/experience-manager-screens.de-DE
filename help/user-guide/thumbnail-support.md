@@ -3,9 +3,9 @@ title: Unterstützung von Miniaturansichten für Videos in AEM Screens
 description: Erfahren Sie, wie Sie in AEM Screens Unterstützung von Miniaturansichten für Videos hinzufügen.
 exl-id: d2d87807-1699-47e3-b241-07c5b7e56f15
 source-git-commit: 6b4fc934c31640168528fa3e72cf634773f4f8e6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '396'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -13,12 +13,12 @@ ht-degree: 78%
 
 ## Einführung {#introduction}
 
-Ein Inhaltsautor kann eine Miniaturansicht für Videos definieren, sodass das Bild als Platzhalter verwendet wird. Sie können die Inhaltswiedergabe und das Targeting ordnungsgemäß testen, während das entsprechende Team das eigentliche Video abschließt. Das Bild kann auch verwendet werden, wenn die Wiedergabe des Videos fehlschlägt.
+Inhaltsautorinnen und Inhaltsautoren können eine Miniaturansicht für Videos definieren, sodass das Bild als Platzhalter verwendet wird. Sie können die Inhaltswiedergabe und das Targeting ordnungsgemäß testen, während das zuständige Team das eigentliche Video fertigstellt. Das Bild kann auch verwendet werden, wenn die Wiedergabe des Videos fehlschlägt.
 
 Durch das Hinzufügen der Unterstützung für ein Miniaturbild in der Videokomponente können Kundinnen und Kunden eine gültige Komponente mit echtem Inhalt zum Kanal hinzufügen und Targeting-Konfigurationen durchführen, bevor das Video bereitgestellt wird.
 
 >[!NOTE]
->Falls die Videowiedergabe auf dem Player fehlschlägt, wird das Miniaturbild wiedergegeben, sofern es in der Videokomponente festgelegt ist. Mit diesem Fallback können Sie die gewünschte Nachricht an die Zielgruppe senden (indem Sie Inhalte wiedergeben), anstatt sie vollständig zu überspringen.
+>Falls die Videowiedergabe auf dem Player fehlschlägt, wird das Miniaturbild wiedergegeben, sofern es in der Videokomponente festgelegt ist. Mit diesem Fallback können Sie die gewünschte Nachricht an die Zielgruppe senden (indem Inhalte wiedergegeben werden), anstatt sie vollständig zu überspringen.
 
 Mit der Unterstützung von Miniaturansichten können Sie:
 
@@ -30,9 +30,9 @@ Mit der Unterstützung von Miniaturansichten können Sie:
 
 Gehen Sie wie folgt vor, um eine Miniaturansicht in Videos zu verwenden:
 
-1. Gehen Sie zu einem vorhandenen AEM Screens-Kanal oder erstellen Sie einen Kanal.
+1. Navigieren Sie zu einem vorhandenen AEM Screens-Kanal oder erstellen Sie einen Kanal.
 
-1. Klicken Sie auf den Kanal und klicken Sie auf **Bearbeiten** in der Aktionsleiste aus.
+1. Klicken Sie auf den Kanal und dann in der Aktionsleiste auf **Bearbeiten**.
 
    ![Bild](/help/user-guide/assets/thumbnails/thumbnail-1.png)
 
@@ -40,7 +40,7 @@ Gehen Sie wie folgt vor, um eine Miniaturansicht in Videos zu verwenden:
 
    ![Bild](/help/user-guide/assets/thumbnails/thumbnail-2.png)
 
-1. Klicken Sie auf das Video und klicken Sie auf das *Schraubenschlüssel* Symbol.
+1. Klicken Sie auf das Video und dann auf das Symbol *Schraubenschlüssel*.
 
    ![Bild](/help/user-guide/assets/thumbnails/thumbnail-3.png)
 

@@ -10,9 +10,9 @@ role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
 source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2161'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -44,29 +44,29 @@ Der Quell-Code eines Screens-Projekts wird normalerweise als Maven-Projekt mit m
 
 1. Laden Sie die folgenden Pakete mit [CRX Package Manager](http://localhost:4502/crx/packmgr/index.jsp) herunter und installieren Sie sie:
 
-[Abrufen der Datei](assets/base-screens-weretail-runuiapps-001-snapshot.zip)
+[Datei abrufen](assets/base-screens-weretail-runuiapps-001-snapshot.zip)
 
-   [Datei laden](assets/base-screens-weretail-runuicontent-001-snapshot.zip)
-   **Optional** Wenn Sie mit Eclipse oder einer anderen IDE arbeiten, laden Sie das folgende Quellpaket herunter. Stellen Sie das Projekt mithilfe des folgenden Maven-Befehls in einer lokalen AEM-Instanz bereit:
+   [Datei abrufen](assets/base-screens-weretail-runuicontent-001-snapshot.zip)
+   Wenn Sie mit Eclipse oder einer anderen IDE arbeiten, laden Sie **optional** das folgende Quellpaket herunter. Stellen Sie das Projekt mithilfe des Maven-Befehls in einer lokalen AEM-Instanz bereit:
 
    **`mvn -PautoInstallPackage clean install`**
 
    Starten von HelloWorld SRC Screens im Projekt „`We.Retail` Run“
 
-[Abrufen der Datei](assets/src-screens-weretail-run.zip)
+[Datei abrufen](assets/src-screens-weretail-run.zip)
 
 1. Überprüfen Sie in [CRX Package Manager](http://localhost:4502/crx/packmgr/index.jsp), ob die folgenden beiden Pakete installiert sind:
 
    1. **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip**
    1. **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip**
 
-   ![Pakete Ui.Apps und Ui.Content für das Screens-Projekt &quot;We.Retail Run&quot;über CRX Package Manager installiert](assets/crx-packages.png)
+   ![Pakete Screens We.Retail Run Ui.Apps und Ui.Content über CRX Package Manager installiert](assets/crx-packages.png)
 
    Pakete `We.Retail` Run `Ui.Apps` und `Ui.Content` über CRX Package Manager installiert,
 
 1. Das Paket **screens-weretail-run.ui.apps** installiert Code unter `/apps/weretail-run`.
 
-   Dieses Paket enthält den Code, der für das Rendern von benutzerdefinierten Komponenten für das Projekt verantwortlich ist. Dieses Paket enthält Komponenten-Code und alle erforderlichen JavaScript- oder CSS-Funktionen. Dieses Paket wird auch eingebettet **screens-weretail-run.core-0.0.1-SNAPSHOT.jar** , der einen Java™-Code enthält, der für das Projekt benötigt wird.
+   Dieses Paket enthält den Code, der für das Rendern von benutzerdefinierten Komponenten für das Projekt verantwortlich ist. Dieses Paket enthält Komponenten-Code und alle erforderlichen JavaScript- oder CSS-Funktionen. Dieses Paket beinhaltet auch **screens-weretail-run.core-0.0.1-SNAPSHOT.jar**, die den Java™-Code enthält, der für das Projekt benötigt wird.
 
    >[!NOTE]
    >
@@ -88,7 +88,7 @@ Der Quell-Code eines Screens-Projekts wird normalerweise als Maven-Projekt mit m
 
 1. **Navigieren Sie zu „AEM Screens“ > Projekt „`We.Retail` Run“:**
 
-   Klicken Sie im AEM Startmenü auf das Symbol Screens . Vergewissern Sie sich, dass das Projekt „`We.Retail` Run“ angezeigt wird.
+   Klicken Sie im AEM-Startmenü auf das Screens-Symbol. Vergewissern Sie sich, dass das Projekt „`We.Retail` Run“ angezeigt wird.
 
    ![we-retaiul-run-starter](assets/we-retaiul-run-starter.png)
 
@@ -116,7 +116,7 @@ AEM Screens weist einige interessante Einschränkungen auf, die nicht unbedingt 
 
    Eigenschaften für /apps/weretail-run/components/content/helloworld
 
-   Die **Hello World** -Komponente erweitert die **foundation, components, parbase** -Komponente, damit sie ordnungsgemäß in einem Sequenzkanal verwendet werden kann.
+   Die Komponente **Hello World** erweitert die Komponente **foundation, components, parbase**, sodass sie innerhalb eines Sequenzkanals richtig verwendet werden kann.
 
 1. Erstellen Sie unter `/apps/weretail-run/components/content/helloworld` eine Datei mit dem Namen `helloworld.html.`
 
@@ -158,7 +158,7 @@ AEM Screens weist einige interessante Einschränkungen auf, die nicht unbedingt 
    </div>
    ```
 
-   Das obige ist das Produktions-Markup für die Komponente &quot;Hello World&quot;. Ein Attribut `data-duration` ist enthalten, da die Komponente auf einem Sequenzkanal verwendet wird. Die `data-duration` -Attribut wird vom Sequenzkanal verwendet, um zu erfahren, wie lange ein Sequenzelement angezeigt werden soll.
+   Die obige Abbildung zeigt das Produktions-Markup für die Komponente „Hello World“. Es ist ein Attribut `data-duration` enthalten, da die Komponente auf einem Sequenzkanal verwendet wird. Das Attribut `data-duration` wird vom Sequenzkanal verwendet, um zu erfahren, wie lange ein Sequenz-Element angezeigt werden soll.
 
    Die Komponente rendert ein `div`- und ein `h1`-Tag mit Text. `${properties.message}` ist ein Teil des HTL-Skripts, der den Inhalt einer JCR-Eigenschaft mit dem Namen `message` ausgibt. Später wird ein Dialogfeld erstellt, in dem Benutzende einen Wert für den Eigenschaftstext `message` eingeben können.
 
@@ -189,20 +189,20 @@ AEM Screens weist einige interessante Einschränkungen auf, die nicht unbedingt 
    </div>
    ```
 
-   Oben befindet sich das bearbeitete Markup für die Komponente Hello World . Im ersten Block wird eine bearbeitete Version der Komponente angezeigt, wenn eine Dialogfeldmeldung eingegeben wurde.
+   Die obige Abbildung zeigt das bearbeitete Markup für die Komponente „Hello World“. Im ersten Block wird eine bearbeitete Version der Komponente angezeigt, wenn eine Dialogfeldmeldung eingegeben wurde.
 
-   Der zweite Block wird gerendert, wenn keine Dialogfeldmeldung eingegeben wurde. `cq-placeholder` und `data-emptytext` rendern die Beschriftung ***Hello World*** in diesem Fall als Platzhalter. Die Zeichenfolge für die Beschriftung kann mithilfe von i18n internationalisiert werden, um die Inhaltserstellung in mehreren Gebietsschemata zu unterstützen.
+   Der zweite Block wird gerendert, wenn keine Dialogfeldmeldung eingegeben wurde. `cq-placeholder` und `data-emptytext` rendern in diesem Fall die Beschriftung ***Hello World*** als Platzhalter. Die Zeichenfolge für die Beschriftung kann mithilfe von i18n internationalisiert werden, um die Inhaltserstellung in mehreren Gebietsschemata zu unterstützen.
 
 1. **Kopieren Sie das Screens-Bilddialogfeld, das für die Komponente „Hello World“ verwendet werden soll.**
 
-   Am einfachsten ist es, mit einem vorhandenen Dialogfeld zu beginnen und dann Änderungen vorzunehmen.
+   Es ist am einfachsten, von einem vorhandenen Dialogfeld aus zu starten und dann Änderungen vorzunehmen.
 
    1. Kopieren Sie das Dialogfeld aus: `/libs/screens/core/components/content/image/cq:dialog`
-   1. Einfügen des Dialogfelds unter `/apps/weretail-run/components/content/helloworld`
+   1. Fügen Sie das Dialogfeld unterhalb von `/apps/weretail-run/components/content/helloworld` ein.
 
    ![copy-image-dialog](assets/copy-image-dialog.gif)
 
-1. **Aktualisieren Sie das Dialogfeld &quot;Hello World&quot;, um eine Registerkarte für die Meldung einzuschließen.**
+1. **Aktualisieren Sie das Dialogfeld „Hello World“, um eine Registerkarte für die Meldung einzuschließen.**
 
    Aktualisieren Sie das Dialogfeld, sodass er mit Folgendem übereinstimmt: Die JCR-Knotenstruktur des finalen Dialogfelds wird nachfolgend in XML dargestellt:
 
@@ -272,7 +272,7 @@ AEM Screens weist einige interessante Einschränkungen auf, die nicht unbedingt 
 
 Client-seitige Bibliotheken bieten einen Mechanismus zum Organisieren und Verwalten von CSS- und JavaScript-Dateien, die für eine AEM-Implementierung erforderlich sind.
 
-AEM Screens-Komponenten werden im Bearbeitungsmodus anders als im Vorschauproduktionsmodus dargestellt. Es werden zwei Client-Bibliotheken erstellt: eine für den Bearbeitungsmodus und eine für die Vorschau-Produktion.
+AEM Screens-Komponenten werden im Bearbeitungsmodus anders dargestellt als im Vorschau-/Produktionsmodus. Es werden zwei Gruppen von Client-Bibliotheken erstellt, eine für den Bearbeitungsmodus und eine für die Vorschau/Produktion.
 
 1. Erstellen Sie einen Ordner für Client-seitige Bibliotheken für die Komponente „Hello World“.
 
@@ -294,9 +294,9 @@ AEM Screens-Komponenten werden im Bearbeitungsmodus anders als im Vorschauproduk
 
    Eigenschaften für /apps/weretail-run/components/content/helloworld/clientlibs/shared
 
-   Die Eigenschaft „categories“ ist eine Zeichenfolge, die die Client-Bibliothek identifiziert. Die Kategorie cq.screens.componentCategory wird sowohl im Bearbeitungs- als auch im Vorschau-Produktionsmodus verwendet. Daher wird jedes in der sharedclientlib definierte CSS oder JS in allen Modi geladen.
+   Die Eigenschaft „categories“ ist eine Zeichenfolge, die die Client-Bibliothek identifiziert. Die Kategorie „cq.screens.components“ wird sowohl im Bearbeitungs- als auch im Vorschau-/Produktionsmodus verwendet. Daher wird jedes CSS oder JS, das in der sharedclientlib definiert ist, in allen Modi geladen.
 
-   Es empfiehlt sich, alle Pfade direkt zu `/apps` in einer Produktionsumgebung nicht ausgesetzt werden. Die Eigenschaft allowProxy stellt sicher, dass auf die CSS- und JS-Client-Bibliothek über das Präfix `/etc.clientlibs`.
+   In einer Produktionsumgebung sollten Pfade, die direkt zu `/apps` führen, niemals offengelegt werden. Die Eigenschaft „allowProxy“ stellt sicher, dass die CSS und JS der Client-Bibliothek über ein Präfix `/etc.clientlibs` verwiesen werden.
 
 1. Erstellen Sie eine Datei mit dem Namen `css.txt` unter dem freigegebenen Ordner.
 
@@ -342,7 +342,7 @@ AEM Screens-Komponenten werden im Bearbeitungsmodus anders als im Vorschauproduk
 
 1. Ändern Sie den Wert der Eigenschaft `categories` der Produktions-Client-Bibliothek in `cq.screens.components.production.`.
 
-   Dadurch wird sichergestellt, dass die Stile nur im Vorschau-Produktionsmodus geladen werden.
+   Auf diese Weise wird sichergestellt, dass die Stile nur im Vorschau-/Produktionsmodus geladen werden.
 
    ![Eigenschaften für /apps/weretail-run/components/content/helloworld/clientlibs/production](assets/2018-04-30_at_5_04pm.png)
 
@@ -403,9 +403,9 @@ Im Folgenden wird eine „`We.Retail` Run“-Design-Seite erstellt, auf der alle
 
 ## Erstellen eines Sequenzkanals {#create-sequence-channel}
 
-Die Komponente &quot;Hello World&quot;ist für die Verwendung in einem Sequenzkanal vorgesehen. Zum Testen der Komponente wird ein neuer Sequenzkanal erstellt.
+Die Komponente „Hello World“ ist für die Verwendung in einem Sequenzkanal vorgesehen. Zum Testen der Komponente wird ein neuer Sequenzkanal erstellt.
 
-1. Navigieren Sie im AEM Startmenü zu **Screens** > **`We.Retail`Ausführen** > und klicken Sie auf **Kanäle**.
+1. Navigieren Sie im AEM-Startmenü zu **Screens** > **`We.Retail`Ausführen** > und klicken Sie auf **Kanäle**.
 
 1. Klicken Sie auf die Schaltfläche **Erstellen**
 
@@ -437,11 +437,11 @@ Die Komponente &quot;Hello World&quot;ist für die Verwendung in einem Sequenzka
 
    1. Klicken Sie auf das **Schraubenschlüssel**-Symbol im Absatzsystem, um die zulässigen Komponenten zu konfigurieren.
 
-   1. Klicken Sie auf **Screens** und **`We.Retail`Ausführen - Inhalt** hinzugefügt.
+   1. Klicken Sie auf die Gruppe **Screens** und auf die Gruppe **`We.Retail` Run - Content**.
 
    ![2018-04-30_at_5_43pm](assets/2018-04-30_at_5_43pm.png)
 
-1. Schalten Sie den Seitenmodus in **Bearbeiten** um. Die Komponente &quot;Hello World&quot;kann jetzt der Seite hinzugefügt und mit anderen Komponenten des Sequenzkanals kombiniert werden.
+1. Schalten Sie den Seitenmodus in **Bearbeiten** um. Die Komponente „Hello World“ kann jetzt der Seite hinzugefügt und mit anderen Komponenten des Sequenzkanals kombiniert werden.
 
    ![2018-04-30_at_5_53pm](assets/2018-04-30_at_5_53pm.png)
 
@@ -453,11 +453,11 @@ Die Komponente &quot;Hello World&quot;ist für die Verwendung in einem Sequenzka
 
 ## Vorlage für benutzerdefinierte Handler {#custom-handlers}
 
-Wenn Ihre benutzerdefinierte Komponente externe Ressourcen wie Assets (Bilder, Videos, Schriftarten und Symbole), bestimmte Asset-Ausgabedarstellungen oder clientseitige Bibliotheken (CSS und JS) verwendet, werden diese Ressourcen nicht automatisch zur Offline-Konfiguration hinzugefügt. Der Grund dafür ist, dass nur das HTML-Markup standardmäßig gebündelt wird.
+Wenn Ihre benutzerdefinierte Komponente externe Ressourcen wie Assets (Bilder, Videos, Schriftarten und Symbole), bestimmte Asset-Ausgabedarstellungen oder Client-seitige Bibliotheken (CSS und JS) verwendet, werden diese Ressourcen nicht automatisch zur Offline-Konfiguration hinzugefügt. Der Grund dafür ist, dass nur das HTML-Markup standardmäßig gebündelt wird.
 
-Um die exakten Assets, die auf den Player heruntergeladen werden, anzupassen und zu optimieren, bietet Adobe einen Erweiterungsmechanismus. Dieser Mechanismus ermöglicht es benutzerdefinierten Komponenten, ihre Abhängigkeiten der Offline-Caching-Logik in AEM Screens verfügbar zu machen.
+Damit Sie genau die Assets anpassen und optimieren können, die in den Player geladen werden, bietet Adobe einen Erweiterungsmechanismus an. Dieser Mechanismus dient dazu, dass benutzerdefinierte Komponenten ihre Abhängigkeiten für die Offline-Caching-Logik in AEM Screens offenlegen können.
 
-Im folgenden Abschnitt wird die Vorlage für benutzerdefinierte Offline-Ressourcen-Handler vorgestellt. Außerdem werden die Mindestanforderungen in der `pom.xml` für dieses spezifische Projekt.
+Im folgenden Abschnitt wird die Vorlage für benutzerdefinierte Offline-Ressourcen-Handler vorgestellt. Er zeigt auch die Mindestanforderungen in der `pom.xml` für dieses spezielle Projekt.
 
 ```java
 package …;
@@ -546,7 +546,7 @@ Der folgende Code stellt die Mindestanforderungen in der Datei `pom.xml` für di
       </dependencies>
 ```
 
-**NOTE** : Wenn AEM as a Cloud Service ist, verwenden Sie die folgende Abhängigkeit im `pom.xml` für dieses spezifische Projekt.
+**Hinweis**: Wenn AEM as a Cloud Service verfügbar ist, verwenden Sie die untenstehende Abhängigkeit in der `pom.xml` für dieses spezielle Projekt.
 
 ```css
    <dependencies>
@@ -574,14 +574,14 @@ Wenn Ihre benutzerdefinierte Komponente andere Seiten oder Experience Fragments 
 1. Statt direkt `foundation/components/parbase` zu erweitern, müssen Sie entweder `screens/core/components/content/page` oder `screens/core/components/content/experiencefragment` erweitern.
 2. Der Name der Eigenschaft, mit der Sie auf den eingebetteten Inhalt verweisen, muss `pagePath` lauten.
 
-Die Nutzung dieser zwei Screens-Kernkomponenten bietet außerdem den zusätzlichen Vorteil, dass sie einige benötigte Abhängigkeiten (Client-seitige Bibliotheken, Schriftarten usw.) bündeln. Diese Funktion erfolgt über ihre Offline-Konfigurationsoptionen im Komponentendialogfeld. Dadurch wird die Verantwortung jedes benutzerdefinierten Offline-Handlers reduziert, den Sie dafür verwenden müssen. Manchmal erübrigt sich die Notwendigkeit, einen zu verwenden, sogar vollständig.
+Die Nutzung dieser zwei Screens-Kernkomponenten bietet außerdem den zusätzlichen Vorteil, dass sie einige benötigte Abhängigkeiten (Client-seitige Bibliotheken, Schriftarten usw.) bündeln. Diese Funktion erfolgt über ihre Offline-Konfigurationsoptionen im Komponentendialogfeld. Dies reduziert die Verantwortung eines benutzerdefinierten Offline-Handlers, der für diesen Zweck verwendet werden müsste. Manchmal erübrigt sich die Notwendigkeit, einen zu verwenden, sogar vollständig.
 
 ## Fertiger Code {#finished-code}
 
 Unten finden Sie den fertigen Code aus dem Tutorial. **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** und **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip** sind kompilierte AEM-Pakete. SRC-screens-weretail-run-0.0.1.zip ist der nicht kompilierte Quell-Code, der mithilfe von Maven bereitgestellt werden kann.
 
-[Abrufen der Datei](assets/screens-weretail-runuiapps-001-snapshot.zip)
+[Datei abrufen](assets/screens-weretail-runuiapps-001-snapshot.zip)
 
-[Abrufen der Datei](assets/screens-weretail-runuicontent-001-snapshot.zip)
+[Datei abrufen](assets/screens-weretail-runuicontent-001-snapshot.zip)
 
-[Abrufen der Datei](assets/screens-weretail-run.zip)
+[Datei abrufen](assets/screens-weretail-run.zip)

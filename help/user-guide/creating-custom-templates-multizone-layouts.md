@@ -7,9 +7,9 @@ role: Developer
 level: Intermediate
 exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
 source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '862'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Auf dieser Seite wird erläutert, wie Sie eine benutzerdefinierte Vorlage für e
 
 ## Wichtige Aspekte {#considerations}
 
-Es gibt zwei wichtige Aspekte, die Sie beachten müssen, bevor Sie eine benutzerdefinierte Vorlage in einem Mehrzonen-Layout erstellen:
+Es gibt zwei wichtige Aspekte, die Sie beachten müssen, bevor Sie eine benutzerdefinierte Vorlage für ein Mehrzonen-Layout erstellen:
 
 1. **Feste Pixel-Größe oder Prozentwerte**:
 
@@ -30,18 +30,18 @@ Es gibt zwei wichtige Aspekte, die Sie beachten müssen, bevor Sie eine benutzer
 
 1. **Namenskonvention**:
 
-   Es ist hilfreich zu verstehen, wie Sie benutzerdefinierte Vorlagen für mehrere Bereiche erstellen, die in einem AEM Screens-Projekt verwendet werden. Zunächst müssen Sie jedoch die Begriffe verstehen, die Sie erstellen möchten.
+   Es ist hilfreich zu verstehen, wie Sie benutzerdefinierte Vorlagen für Mehrzonen erstellen, die in einem AEM Screens-Projekt verwendet werden. Zunächst müssen Sie jedoch die Formulierungen der Vorlagen verstehen, die Sie erstellen möchten.
 
    | **Layoutname** | **Beschreibung** |
    |---|---|
-   | `Left20-LandscapeHD3Zone` | Ein dreistufiges Querformatlayout, mit dem Sie drei Bereiche erstellen können:<br>* Zone 1: 20 % des horizontalen und vertikalen Bildschirms von links<br>* Zone 2: 80 % des horizontalen Bildschirms und 20 % des vertikalen Bildschirms rechts ausgerichtet<br>* Zone 3: 100 % des horizontalen und 80 % des vertikalen Bildschirms. Das Seitenverhältnis beträgt 16:9. |
-   | `Upper20-PortraitHD2Zone` | Eine zweizonen-Hochformatvorlage, die 20 % des Bildschirms von oben abdeckt und ein Seitenverhältnis von 16:9 aufweist. |
-   | `Right20-LandscapeSD3Zone` | Eine dreistufige Vorlage, die 20 % des Bildschirms von rechts abdeckt und ein Seitenverhältnis von 4:3 aufweist. |
+   | `Left20-LandscapeHD3Zone` | Ein Querformat-Layout mit 3 Zonen, das die Erstellung von drei Zonen ermöglicht:<br>* Zone 1 nimmt 20 % des horizontalen und vertikalen Bildschirms von links ein.<br>* Zone 2 nimmt 80 % des horizontalen Bildschirms und 20 % des vertikalen Bildschirms von rechts ein.<br>* Zone 3 nimmt 100 % des horizontalen und 80 % des vertikalen Bildschirms ein. Das Seitenverhältnis beträgt 16:9 |
+   | `Upper20-PortraitHD2Zone` | Eine Hochformatvorlage mit 2 Zonen, die die oberen 20 % des Bildschirms abdeckt und ein Seitenverhältnis von 16:9 aufweist |
+   | `Right20-LandscapeSD3Zone` | Eine 3-Zonen-Vorlage, die die rechten 20 % des Bildschirms abdeckt und ein Seitenverhältnis von 4:3 aufweist |
 
    >[!IMPORTANT]
    >Die im benutzerdefinierten Layout definierten Zonen passen möglicherweise nicht zum Seitenverhältnis des gesamten Layouts. Mit der in diesem Dokument verwendeten Namenskonvention wird das Seitenverhältnis des benutzerdefinierten Layouts als Ganzes angegeben.
 
-## Anwendungsbeispiel `Left20-LandscapeHD3Zone` Layout {#custom-template-one}
+## Anwendungsbeispiel: `Left20-LandscapeHD3Zone`-Layout {#custom-template-one}
 
 Gehen Sie wie folgt vor, um eine benutzerdefinierte Vorlage *`Left20-LandscapeHD3Zone`* mit der folgenden Konfiguration zu erstellen:
 
@@ -71,7 +71,7 @@ Gehen Sie wie folgt vor, um ein `Left20-LandscapeHD3Zone`-Layout für ein AEM Sc
    ![Bild](/help/user-guide/assets/custom-multizone/custom-template1.png)
 
    >[!NOTE]
-   >Klicks **Alle speichern** aus der Aktionsleiste in CRXDE Lite jedes Mal, wenn Sie Inhalte erstellen, bearbeiten oder auf einen der Knoten kopieren. Andernfalls können Sie die Aktualisierungen nicht übertragen.
+   >Klicken Sie in der CRXDE Lite-Aktionsleiste jedes Mal, wenn Sie Inhalte erstellen, bearbeiten oder in einen der Knoten kopieren, auf die Option **Alle speichern**. Andernfalls können Sie die Aktualisierungen nicht übertragen.
 
 1. Kopieren Sie die Vorlage „lbar-left“ unter `/libs/screens/core/templates/splitscreenchannel/lbar-left` und fügen Sie sie unter `/apps/customtemplate/template` ein.
 
@@ -90,11 +90,11 @@ Gehen Sie wie folgt vor, um ein `Left20-LandscapeHD3Zone`-Layout für ein AEM Sc
 
    ![Bild](/help/user-guide/assets/custom-multizone/custom-template6.png)
 
-1. Nachdem Sie in Schritt 4 die Vorlage „lbar-left“ kopiert haben, werden Ihnen nun unter `my-custom-layout/jcr:content` drei responsive Raster angezeigt. Fügen Sie benutzerdefinierte CSS-Klassen zu jedem responsiven Raster im *`cq:cssClass`* -Eigenschaft, beispielsweise *my-custom-layout-top-left* für *r1c1* Knoten.
+1. Nachdem Sie in Schritt 4 die Vorlage „lbar-left“ kopiert haben, werden Ihnen nun unter `my-custom-layout/jcr:content` drei responsive Raster angezeigt. Fügen Sie zu jedem responsiven Raster in der Eigenschaft *`cq:cssClass`* benutzerdefinierte CSS-Klassen hinzu, beispielsweise *my-custom-layout-top-left* für den Knoten *r1c1*.
 
    ![Bild](/help/user-guide/assets/custom-multizone/custom-template7.png)
 
-   Fügen Sie *my-custom-layout-top-right* für *r1c2* und *my-custom-layout-bottom* für *r2c1* Knoten.
+   Fügen Sie auf die gleiche Weise *my-custom-layout--top-right* für den Knoten *r1c2* und *my-custom-layout-bottom* für den Knoten *r2c1* hinzu.
 
    >[!NOTE]
    >Diese benutzerdefinierten Klassen werden im CSS verwendet, um die Breite/Höhe für diese responsiven Raster festzulegen.
@@ -134,17 +134,17 @@ Gehen Sie wie folgt vor, um ein `Left20-LandscapeHD3Zone`-Layout für ein AEM Sc
 1. Navigieren Sie zu `/apps/<project>/templates/my-custom-layout/jcr:content` und ändern Sie die Eigenschaft *`cq:designPath`* in `/apps/settings/wcm/designs/customtemplate-designs`, um die in „static.css“ konfigurierten Stile zu laden.
 
    >[!NOTE]
-   >Geben Sie alle Stile ein, anstatt sie zu kopieren oder einzufügen. Dies kann zu Leerzeichen führen, die zu CSS-Stilproblemen führen.
+   >Geben Sie alle Stile manuell ein, anstatt sie zu kopieren oder einzufügen, da beim Einfügen Leerzeichen hinzugefügt werden könnten, die zu Problemen im Zusammenhang mit den CSS-Stilen führen.
 
 ## Anzeigen des Ergebnisses {#viewing-result}
 
-Gehen Sie wie folgt vor, um obige benutzerdefinierte Vorlage in Ihrem AEM Screens-Projekt zu verwenden:
+Gehen Sie wie folgt vor, um die obige, benutzerdefinierte Vorlage in Ihrem AEM Screens-Projekt zu verwenden:
 
-1. Navigieren Sie zu Ihrem Screens-Projekt, das Sie in Schritt 1 erstellt haben, und klicken Sie auf das **Kanäle** Ordner.
+1. Navigieren Sie zum in Schritt 1 erstellten Projekt und klicken Sie auf den Ordner **Kanäle**.
 
    ![Bild](/help/user-guide/assets/custom-multizone/custom-template8.png)
 
-1. Klicks **Erstellen** in der Aktionsleiste auf die Vorlage klicken **`Left20-LandscapeHD3Zone`** aus dem **Erstellen** Assistent.
+1. Klicken Sie in der Aktionsleiste auf die Option **Erstellen** und dann im Assistenten **`Left20-LandscapeHD3Zone`** Erstellen **auf die Vorlage**.
 
    ![Bild](/help/user-guide/assets/custom-multizone/custom-template9.png)
 
@@ -158,7 +158,7 @@ Sie können ein Bild als Hintergrundebene in das Layout einfügen:
 
 Sie können die CSS-Regel so anpassen, dass sie den „data-uri“ verwendet und das Bild (`Base64`-kodiert) direkt in die in Schritt 13 erstellte CSS-Datei *static.css* einbindet.
 
-Dies geschieht wie folgt:
+Diese Anordnung wird wie folgt vorgenommen:
 `.cq-Screens-channel--multizone.my-CustomLayout { background: url('data:image/…;base64,…') no-repeat center center; }`
 
 Sie können auch die folgenden Schritte ausführen:

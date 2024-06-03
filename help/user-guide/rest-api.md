@@ -1,6 +1,6 @@
 ---
 title: REST-APIs
-description: Erfahren Sie, wie AEM Screens eine einfache RESTful-API bereitstellt, die der Siren-Spezifikation entspricht. Erfahren Sie auch, wie Sie in der Inhaltsstruktur navigieren und Befehle an Geräte in der Umgebung senden.
+description: Erfahren Sie, wie AEM Screens eine einfache RESTful-API bereitstellt, die der Siren-Spezifikation entspricht. Lernen Sie zudem, wie Sie in der Inhaltsstruktur navigieren und Befehle an Geräte in der Umgebung senden.
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,9 +10,9 @@ role: Developer
 level: Intermediate
 exl-id: ac01935a-c3ff-485a-b60e-227fb94c75b0
 source-git-commit: 43e89ddc3eb6baffca75d730a978e60e234aaee4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '197'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
@@ -24,9 +24,9 @@ Die API steht unter [*http://localhost:4502/api/screens.json*](http://localhost
 
 ## Navigieren in der Inhaltsstruktur {#navigating-content-structure}
 
-Die von den API-Aufrufen zurückgegebene JSON-Datei listet die Entitäten auf, die im Zusammenhang mit der aktuellen Ressource stehen. Nach dem aufgelisteten Selbstlink ist jede dieser Entitäten wieder als REST-Ressource verfügbar.
+Die von den API-Aufrufen zurückgegebene JSON-Datei listet die Entitäten auf, die im Zusammenhang mit der aktuellen Ressource stehen. Über den aufgeführten Selbst-Link kann auf jede dieser Entitäten wieder als REST-Ressource zugegriffen werden.
 
-Um beispielsweise auf die Anzeigen im Demo-Flagship-Speicherort zuzugreifen, können Sie Folgendes aufrufen:
+Um beispielsweise auf die Bildschirme an dem Flagship-Standort der Demo zuzugreifen, können Sie Folgendes aufrufen:
 
 ```xml
 GET /api/screens/content/screens/we-retail/locations/demo/flagship.json HTTP/1.1
@@ -149,7 +149,7 @@ curl -u admin:admin http://localhost:4502/api/screens/content/screens/we-retail/
 }
 ```
 
-Rufen Sie Folgendes auf, um diese Aktion Trigger:
+Um diese Aktion auszulösen, rufen Sie Folgendes auf:
 
 ```xml
 POST /api/screens/content/screens/we-retail/locations/demo/flagship/single.json HTTP/1.1

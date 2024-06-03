@@ -6,9 +6,9 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
 source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1250'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -25,17 +25,17 @@ Auf dieser Seite wird gezeigt, wie Kanäle für AEM Screens erstellt und verwalt
 
 ## Erstellen von neuen Kanälen {#creating-a-new-channel}
 
-Nachdem Sie Ihr Projekt für AEM Screens erstellt haben, führen Sie die folgenden Schritte aus, um einen Kanal für Ihr Projekt zu erstellen:
+Nachdem Sie Ihr Projekt für AEM Screens erstellt haben, gehen Sie wie folgt vor, um einen Kanal für Ihr Projekt zu erstellen:
 
-1. Klicken Sie auf den Link Adobe Experience Manager (oben links) und dann auf Screens. Sie haben auch die Möglichkeit, direkt zur folgenden URL zu wechseln: `https://localhost:4502/screens.html/content/screens`.
+1. Klicken Sie auf den Link zu Adobe Experience Manager (oben links) und dann auf „Screens“.  Sie haben alternativ die Möglichkeit, direkt zur folgenden URL zu wechseln: `https://localhost:4502/screens.html/content/screens`.
 
-1. Navigieren Sie zu Ihrem Screens-Projekt und klicken Sie auf das **Kanäle** Ordner.
+1. Navigieren Sie zu Ihrem Screens-Projekt und klicken Sie auf den Ordner **Kanäle**.
 
 1. Klicken Sie in der Aktionsleiste auf **Erstellen**.
 
    ![demochannel](assets/create-channel1.png)
 
-1. Klicken Sie auf **Sequenzkanal** Vorlage aus der **Erstellen** Assistent und klicken Sie auf **Nächste**.
+1. Klicken Sie im Assistenten zum **Erstellen** auf die Vorlage **Sequenz-Kanal** und dann auf **Weiter**.
 
    ![demochannel](assets/create-channel2.png)
 
@@ -51,15 +51,15 @@ Beim Verwenden des Assistenten stehen unter anderem die folgenden Vorlagenoption
 
 | **Vorlagenoption** | **Beschreibung** |
 |---|---|
-| Kanal-Ordner | Erstellen Sie einen Ordner zum Speichern einer Sammlung von Kanälen. |
-| Sequenzkanal | Erstellen Sie einen Kanal, der die Komponenten nacheinander in einer Diashow wiedergibt. |
-| Anwendungskanal | Zeigen Sie Ihre benutzerdefinierte Webanwendung im Screens-Player an. |
-| 1×1-Splitscreen-Kanal | Eine Komponente in einem einzigen Bereich anzeigen. |
-| 1×2-Splitscreen-Kanal | Zeigen Sie die Assets in zwei Bereichen an (horizontal geteilt). |
-| 2×1-Splitscreen-Kanal | Anzeigen der Assets in zwei Bereichen (vertikal geteilt). |
-| 2×2-Splitscreen-Kanal | Zeigen Sie die Assets in vier Bereichen an (horizontal und vertikal in einer Matrix geteilt). |
-| 2:3-Splitscreen-Kanal | Zeigen Sie die Assets in zwei Bereichen an (horizontal geteilt), wobei einer der Bereiche größer ist als der andere. |
-| Splitscreen-Kanal mit L-Balken links oder rechts | Inhaltsautoren können verschiedene Asset-Typen in entsprechend großen Bereichen anzeigen. |
+| Kanal-Ordner | Zum Erstellen eines Ordners zum Speichern von Kanalsammlungen. |
+| Sequenzkanal | Zum Erstellen eines Kanals zum sequenziellen Wiedergeben der Komponenten (einzeln in einer Dia-Show). |
+| Anwendungskanal | Zum Anzeigen benutzerdefinierter Web-Anwendungen im Screens-Player. |
+| 1×1-Splitscreen-Kanal | Zum Anzeigen einer Komponente in einer einzigen Zone. |
+| 1×2-Splitscreen-Kanal | Zum Anzeigen der Assets in zwei Zonen (horizontal geteilt). |
+| 2×1-Splitscreen-Kanal | Zum Anzeigen der Assets in zwei Zonen (vertikal geteilt). |
+| 2×2-Splitscreen-Kanal | Zum Anzeigen der Assets in vier Zonen (horizontal und vertikal in einer Matrix geteilt). |
+| 2:3-Splitscreen-Kanal | Zum Anzeigen der Assets in zwei Zonen (horizontal geteilt), wobei eine Zone größer als die andere ist. |
+| Splitscreen-Kanal mit L-Balken links oder rechts | Inhaltsautorinnen und Inhaltsautoren können verschiedene Arten von Assets in entsprechend großen Zonen anzeigen. |
 
 >[!NOTE]
 >
@@ -67,7 +67,7 @@ Beim Verwenden des Assistenten stehen unter anderem die folgenden Vorlagenoption
 
 >[!IMPORTANT]
 >
->Nachdem Sie Inhalte erstellt und zu Ihrem Kanal hinzugefügt haben, müssen Sie zunächst einen Ort erstellen und anschließend eine Anzeige erstellen. Weisen Sie diesen Kanal außerdem einer Anzeige zu. Weitere Informationen finden Sie über die am Ende des Abschnitts genannten Ressourcen.
+>Nachdem Sie die Inhalte erstellt und dem Kanal hinzugefügt haben, müssen Sie als Nächstes einen Ort und dann eine Anzeige erstellen. Außerdem müssen Sie diesen Kanal einer Anzeige zuweisen. Weitere Informationen finden Sie über die am Ende des Abschnitts genannten Ressourcen.
 
 ## Arbeiten mit Kanälen {#working-with-channels}
 
@@ -80,7 +80,7 @@ Sie können Änderungen vornehmen, Eigenschaften und Dashboard anzeigen sowie ei
 
 Um Inhalt in einem Kanal hinzuzufügen oder zu bearbeiten, gehen Sie wie folgt vor:
 
-1. Klicken Sie auf den Kanal, den Sie bearbeiten möchten (wie in der Abbildung oben gezeigt).
+1. Klicken Sie auf den Kanal, den Sie bearbeiten möchten (wie in der obigen Abbildung gezeigt).
 1. Klicken Sie in der oberen linken Ecke der Aktionsleiste auf **Bearbeiten**, um die Kanaleigenschaften zu bearbeiten. Der Editor wird geöffnet. Sie haben die Möglichkeit, Ihrem Kanal Assets/Komponenten hinzuzufügen, die Sie veröffentlichen möchten.
 
 >[!NOTE]
@@ -93,8 +93,8 @@ Um Inhalt in einem Kanal hinzuzufügen oder zu bearbeiten, gehen Sie wie folgt v
 Gehen Sie wie folgt vor, um Videos in Ihren Kanal hochzuladen:
 
 1. Klicken Sie auf den Kanal, in den Sie das Video hochladen möchten.
-1. Klicken Sie in der Aktionsleiste auf **Bearbeiten**. 
-1. Klicken Sie im Editor auf **Videos** unter Assets und ziehen Sie die erforderlichen Videos per Drag-and-Drop.
+1. Klicken Sie in der Aktionsleiste auf **Bearbeiten**.
+1. Klicken Sie im Editor unter „Assets“ auf die Option **Videos** und verschieben Sie die betreffenden Videos per Drag-and-Drop.
 
 >[!NOTE]
 >Wenn Sie beim Hochladen von Videos in Ihren Kanal auf Probleme stoßen, lesen Sie [Fehlerbehebung beim Arbeiten mit Videos](troubleshoot-videos.md).
@@ -108,14 +108,14 @@ Gehen Sie wie folgt vor, um Videos in Ihren Kanal hochzuladen:
 
 ### Anzeigen des Dashboards {#viewing-dashboard}
 
-1. Klicken Sie auf den Kanal, den Sie bearbeiten möchten.
+1. Klicken Sie auf den Kanal, den Sie bearbeiten möchten.
 1. Klicken Sie in der Aktionsleiste auf **Dashboard**.
 
 ![dashboard](assets/dashboard.gif)
 
 ### Kanalinformationen {#channel-information}
 
-Im Bedienfeld „Kanalinformationen“ werden die Kanaleigenschaften zusammen mit der Kanalvorschau beschrieben. Außerdem erhalten Sie Informationen darüber, ob der Kanal offline oder online ist.
+Im Bedienfeld „Kanalinformationen“ werden die Kanaleigenschaften zusammen mit der Kanalvorschau beschrieben. Darüber hinaus finden Sie dort Informationen dazu, ob der Kanal offline oder online ist.
 
 Klicken Sie in der in Aktionsleiste **KANALINFORMATIONEN** auf (**...**), um Eigenschaften anzuzeigen, Inhalt zu bearbeiten oder den Cache (Offline-Inhalt) für den Kanal zu aktualisieren.
 
@@ -131,12 +131,12 @@ Sie können das Manifest vom Kanal-Dashboard aus anzeigen.
 Führen Sie die folgenden Schritte aus, um diese Option im Kanal-Dashboard zu aktivieren:
 
 1. **Kanal auf „Offline“ festlegen**
-   1. Klicken Sie auf den Kanal und klicken Sie auf **Eigenschaften** in der Aktionsleiste
-   1. Navigieren Sie zum **Kanal** und deaktivieren Sie **Entwicklermodus (erzwingen, dass der Kanal online ist)** option
+   1. Klicken Sie auf den Kanal und dann in der Aktionsleiste auf **Eigenschaften**.
+   1. Navigieren Sie zur Registerkarte **Kanal** und deaktivieren Sie die Option **Entwicklermodus (Kanal erzwingen, um online zu sein)**.
    1. Klicken Sie auf **Speichern und schließen**.
 1. **Offline-Inhalt aktualisieren**
-   1. Klicken Sie auf den Kanal und klicken Sie auf **Dashboard** in der Aktionsleiste
-   1. Navigieren Sie zum **KANALINFORMATIONEN** Bedienfeld und klicken Sie *...*
+   1. Klicken Sie auf den Kanal und dann in der Aktionsleiste auf **Dashboard**.
+   1. Navigieren Sie zum Bedienfeld **KANALINFORMATIONEN** und klicken Sie auf *…*
    1. Klicken Sie auf **Offline-Inhalt aktualisieren**.
 
 Jetzt sollten Sie im Kanal-Dashboard im Dialogfeld **KANALINFORMATIONEN** die Option **Manifest anzeigen** sehen.
@@ -169,7 +169,7 @@ Gehen Sie wie folgt vor, um den Kanal online zu schalten:
 
    ![screen_shot_2019-08-01at31542pm](assets/screen_shot_2019-08-01at31542pm.png)
 
-1. Überprüfen Sie die **Entwickler** **Modus (Kanal muss online sein)** um den Kanal online zu gestalten.
+1. Aktivieren Sie den **Entwicklermodus** **(erzwingen, dass der Kanal online ist)**, um den Kanal in den Online-Modus zu schalten.
 
    Klicken Sie auf **Speichern und schließen**, um Ihre Option zu speichern.
 
@@ -219,14 +219,14 @@ In der folgenden Tabelle werden die Ereignisse im Zusammenhang mit automatischen
      <li>Kanalzuweisung (Rolle, Ereignis, Planung)</li>
     </ul> </td>
    <td>Konfiguration wird automatisch aktualisiert</td>
-   <td><p>Die Konfiguration wird aktualisiert am <strong><i>Gerät: Push-Konfiguration</i></strong></p> <p>ODER</p> <p>Konfiguration aktualisiert über <strong><i>Gerät: Neustart</i></strong></p> </td>
+   <td><p>Konfiguration wird aktualisiert über <strong><i>Gerät: Push-Konfiguration</i></strong></p> <p>ODER</p> <p>Konfiguration aktualisiert über <strong><i>Gerät: Neustart</i></strong></p> </td>
   </tr>
  </tbody>
 </table>
 
 ### Zugewiesene Anzeigen {#assigned-displays}
 
-Die **Zugewiesene Anzeigen** zeigt die mit dem Kanal verknüpfte Anzeige an. Es bietet einen Überblick über die zugewiesene Anzeige und die Auflösung.
+Im Bedienfeld **Zugewiesene Anzeigen** wird die zum Kanal gehörende Anzeige angezeigt. Es bietet einen Überblick über die zugewiesene Anzeige und die Auflösung.
 
 Die zugeordneten Anzeigen werden im Bedienfeld **Zugewiesene Anzeigen** aufgelistet, wie unten gezeigt:
 
@@ -247,7 +247,7 @@ Außerdem können Sie auf die Anzeige im Bedienfeld **ZUGEWIESENE ANZEIGEN** kli
 
 Der nächste Schritt nach dem Erstellen eines Kanals und dem Hinzufügen/Bearbeiten von Inhalt in Ihrem Kanal ist das Erstellen eines Orts und einer Anzeige.  Schließlich muss dieser Anzeige dann noch ein Kanal zugewiesen werden.
 
-Die nächsten Schritte finden Sie in den folgenden Ressourcen:
+Informationen zu den nächsten Schritten finden Sie in den folgenden Ressourcen:
 
 * [Erstellen und Verwalten von Kanälen](managing-channels.md)
 * [Erstellen und Verwalten von Standorten](managing-locations.md)

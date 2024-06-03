@@ -6,9 +6,9 @@ role: Admin
 level: Intermediate
 exl-id: 28449523-a44d-4260-9771-f1987686cbb6
 source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '340'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -20,10 +20,10 @@ Die manuelle Massenregistrierung von Tausenden von Playern kann mühsam sein und
 
 Führen Sie die folgenden Schritte aus, um die automatische Registrierung von Playern zu implementieren:
 
-1. Melden Sie sich bei Ihrer AEM-Instanz an, klicken Sie auf Ihr AEM Screens-Projekt und klicken Sie auf **Eigenschaften** in der Aktionsleiste aus.
-1. Klicken Sie auf **Erweitert** -Registerkarte, damit Sie die **Geräteregistrierung** Abschnitt.
+1. Melden Sie sich bei Ihrer AEM-Instanz an, wählen Sie Ihr AEM Screens-Projekt aus und klicken Sie in der Aktionsleiste auf **Eigenschaften**.
+1. Klicken Sie auf die Registerkarte **Erweitert**, um den Abschnitt **Geräteregistrierung** anzuzeigen.
 
-1. Geben Sie im Abschnitt **Massenregistrierungscode** -Feld. Anschließend wird eine optionale Standardanzeige in der **Standardmäßige Anzeigezuweisung** , um den Player zuzuweisen, der automatisch registriert ist.
+1. Geben Sie im Feld **Massenregistrierungs-Code** einen Code für die automatische Registrierung ein. Legen Sie anschließend unter **Standardanzeigezuweisung** eine optionale Standardanzeige fest, der dem automatisch registrierten Player zugewiesen werden soll.
 
    >[!NOTE]
    >Geben Sie einen Code Ihrer Wahl ein und klicken Sie bei Bedarf auf eine Standardanzeige.
@@ -44,11 +44,11 @@ Im folgenden Abschnitt finden Sie einige der Best Practices für die Sicherheit:
 
 * Um sicherzustellen, dass der Registrierungs-Code nicht kompromittiert wird, konfigurieren Sie den Code in AEM kurz vor dem Start der Massenregistrierung und löschen Sie das Feld, wenn Sie fertig sind.
 
-* Sie können den Pfad konfigurieren `/bin/screens/registration` , damit sie nach Möglichkeit nur über bekannte IP-Bereiche zugänglich ist.
+* Sie können den Pfad `/bin/screens/registration` so konfigurieren, dass er nur über bekannte IP-Bereiche zugänglich ist, sofern möglich.
 
 * Erwägen Sie die Verwendung eines MDM, um dem Player die Konfiguration bereitzustellen.
 
 * Verwenden Sie immer `HTTPS` und nicht `HTTP` für die Player-Kommunikation mit AEM.
 
   >[!NOTE]
-  >Die standardmäßige Anzeigezuweisung funktioniert derzeit nur bei der Massenregistrierung. Es funktioniert nicht für die manuelle Registrierung, wenn kein Registrierungscode verfügbar ist.
+  >Die Standardanzeigezuweisung funktioniert derzeit nur bei der Massenregistrierung. Sie kann nicht für manuelle Registrierungen verwendet werden, wenn kein Registrierungs-Code verfügbar ist.

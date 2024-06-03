@@ -1,62 +1,62 @@
 ---
-title: Verwenden von Chrome-Player als Erweiterung
-description: Erfahren Sie mehr über die Installation des Chrome-Players als Browsererweiterung für AEM Screens.
+title: Verwenden des Chrome-Players als Erweiterung
+description: Erfahren Sie mehr über die Installation des Chrome-Players als Browser-Erweiterung für AEM Screens.
 feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 53d5bd81-0853-47b0-9798-01d8fd5612e6
 source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '453'
-ht-degree: 18%
+ht-degree: 100%
 
 ---
 
 # Verwenden des Chrome-Players als Erweiterung {#using-chrome-player}
 
-Der ChromeOS-Player kann im Entwicklermodus als Chrome-Browser-Plug-in installiert werden, ohne dass ein tatsächliches Chrome-Player-Gerät erforderlich ist.
+Im Entwicklermodus kann der ChromeOS-Player als Plug-in des Chrome-Browsers installiert werden, ohne dass ein echtes Chrome-Player-Gerät erforderlich ist.
 
 >[!CAUTION]
 >
-> Die Verwendung des Chrome-Players als Erweiterung zur Fehlerbehebung wird für schnelle Demos, Debugging und auch zur Fehlerbehebung bei Kundenproblemen empfohlen. Verwenden Sie diesen Mechanismus nicht für Produktionsbereitstellungen, die den Kiosk-Modus und die zentrale Verwaltung erfordern würden.
+> Eine Verwendung des Chrome-Players als Erweiterung zur Problembehebung wird für schnelle Demos, zum Debugging und auch zur Fehlerbehebung bei Kundenproblemen empfohlen. Verwenden Sie diesen Mechanismus nicht für Produktionsbereitstellungen, die den Kiosk-Modus und zentrale Verwaltung erfordern würden.
 
-Auf dieser Seite finden Sie Informationen zum Installieren des Chrome-Players als Browser-Erweiterung.
+Auf dieser Seite finden Sie Informationen zur Installation des Chrome-Players als Browser-Erweiterung.
 
-1. Klicks [here](https://download.macromedia.com/screens/) , um den neuesten Chrome-Player herunterzuladen.
+1. Klicken Sie [hier](https://download.macromedia.com/screens/), um den neuesten Chrome-Player herunterzuladen.
 
 1. Entpacken Sie die Datei und speichern Sie sie auf der Festplatte.
 
-1. Öffnen Sie den Chrome-Browser, klicken Sie auf das Menü mit den 3 Punkten und klicken Sie auf **Weitere Tools** von **Erweiterungen** oben rechts oder navigieren Sie direkt zu `chrome://extensions`.
+1. Öffnen Sie den Chrome-Browser, klicken Sie oben rechts auf das Symbol mit den drei Punkten und wählen Sie **Weitere Tools** bzw. **Erweiterungen** oder navigieren Sie direkt zu `chrome://extensions`.
 
-1. Schalten Sie die **Entwickler** -Modus in der oberen rechten Ecke.
+1. Aktivieren Sie den **Entwicklermodus** in der rechten oberen Ecke.
 
-1. Klicks **Entpacktes Laden** oben links und laden Sie den entpackten Chrome-Player.
+1. Klicken Sie oben links auf **Entpackte Erweiterung laden** und laden Sie den entpackten Chrome-Player.
 
-1. Überprüfen Sie, ob das AEM Screens Chrome Player-Plug-in in der Liste der Erweiterungen verfügbar ist.
+1. Überprüfen Sie, ob in der Liste der Erweiterungen das Plug-in „AEM Screens Chrome Player“ aufgeführt wird.
 
-1. Öffnen Sie eine neue Registerkarte und klicken Sie oben links auf das Symbol &quot;Apps&quot;oder navigieren Sie direkt zu `chrome://apps`.
+1. Öffnen Sie eine neue Registerkarte und klicken Sie oben links auf das Symbol „Apps“ oder navigieren Sie direkt zu `chrome://apps`.
 
-1. Klicks **AEM Screens-Plugin** damit Sie den Chrome-Player starten können.
+1. Klicken Sie auf das **AEM Screens-Plug-in**, damit Sie den Chrome-Player starten können.
 
    >[!NOTE]
    >
-   > Standardmäßig wird der Player im Vollbildmodus gestartet. Presse **Esc** , um den Vollbildmodus zu beenden.
+   > Standardmäßig wird der Player im Vollbildmodus gestartet. Drücken Sie **Esc**, um den Vollbildmodus zu beenden.
 
 
 ## Tipps zum erweiterten Debugging {#advanced-debugging-tips}
 
-1. Wenn der Player Inhalte lokal heruntergeladen hat, können Sie lokal heruntergeladene Inhalte durchsuchen, indem Sie `http://localhost:24502`.
+1. Sobald der Player Inhalte lokal heruntergeladen hat, können Sie diese durchsuchen, indem Sie zu `http://localhost:24502` navigieren.
 
    >[!NOTE]
    >
-   > Wenn die oben genannte URL nicht funktioniert, bedeutet dies, dass dem Player keine Anzeige zugewiesen wird oder der Inhalt nicht erfolgreich heruntergeladen wurde. Überprüfen Sie die Registerkarte &quot;Netzwerk&quot;für die JSON-Player-Konfiguration, um zu sehen, ob der Player die richtigen Details erhält und ob Netzwerkprobleme beim Download auftreten.
+   > Wenn die oben genannte URL nicht funktioniert, bedeutet dies, dass dem Player keine Anzeige zugewiesen bzw. der Inhalt nicht erfolgreich heruntergeladen wurde. Überprüfen Sie auf der Registerkarte „Netzwerk“ die JSON der Player-Konfiguration, um zu sehen, ob der Player die korrekten Details empfängt oder ob beim Download Netzwerkprobleme aufgetreten sind.
 
-1. Klicken Sie mit der rechten Maustaste und überprüfen Sie drei Ebenen des Chrome-Players.
-   **Inhalt debuggen**: Klicken Sie mit der rechten Maustaste und überprüfen Sie den Inhalt, um den laufenden Inhalt zu debuggen (im Kontextmenü sollte ein einzelnes Element namens &quot;Inspect&quot;vorhanden sein).
+1. Klicken Sie mit der rechten Maustaste und untersuchen Sie drei Ebenen des Chrome-Players.
+   **Inhalte debuggen**: Klicken Sie mit der rechten Maustaste und überprüfen Sie den Inhalt, um den laufenden Inhalt zu debuggen (es sollte im Kontextmenü ein einzelnes Element namens „Inspizieren“ geben).
 
-   **Firmware debuggen**: Rufen Sie die Administrator-Benutzeroberfläche auf, klicken Sie mit der rechten Maustaste darauf und überprüfen Sie, ob der Firmware(Player)-Code debuggt wird. (Es sollte eine Option zum Überprüfen und Überprüfen der Hintergrundseite und zum Simulieren eines Neustart des Browsers geben.)
+   **Firmware debuggen**: Rufen Sie die Administrator-Benutzeroberfläche auf, klicken Sie mit der rechten Maustaste darauf und überprüfen Sie, ob der Firmware-(Player)-Code das Debugging durchführt. (Es sollte eine Option geben, um die Hintergrundseite zu inspizieren und einen Neustart des Browsers zu simulieren).
 
-   **Debug-Hintergrundseite**: Rufen Sie die Administrator-Benutzeroberfläche auf, klicken Sie mit der rechten Maustaste darauf und überprüfen Sie die Hintergrundseite (für Hintergrunddienste wie HTTP-Server).
+   **Hintergrundseite debuggen**: Rufen Sie die Administrator-Benutzeroberfläche auf, klicken Sie mit der rechten Maustaste und überprüfen Sie die Hintergrundseite (für Hintergrunddienste wie HTTP-Server).
 
 ## Aktualisieren der Player-Erweiterung {#upgrading-player}
 
@@ -66,4 +66,4 @@ Gehen Sie wie folgt vor, um die Player-Erweiterung zu aktualisieren, wenn eine n
 1. Benennen Sie den alten Ordner mit Player-Dateien um.
 1. Extrahieren Sie die neue Zip-Datei am selben Speicherort, an dem sich der alte Ordner befindet.
 1. Starten Sie Chrome und navigieren Sie zu `chrome://extensions`.
-1. Aktivieren Sie das Player-Symbol und klicken Sie auf die Schaltfläche &quot;Aktualisieren&quot;oder &quot;Neu laden&quot;
+1. Aktivieren Sie das Player-Symbol und klicken Sie auf die Schaltfläche „Aktualisieren“ oder „Neu laden“.

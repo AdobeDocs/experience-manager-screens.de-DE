@@ -6,22 +6,22 @@ role: Developer
 level: Intermediate
 exl-id: a8741cc7-de4f-4e5a-b69e-852a43597123
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '389'
-ht-degree: 55%
+ht-degree: 100%
 
 ---
 
 # Versionshinweise für Feature Pack 202103 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Adobe empfiehlt ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM). AEM Screens bietet Wartungs-Support für die AEM 6.3 Screens-Plattform.
+>Adobe empfiehlt, ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM) durchzuführen. AEM Screens bietet Wartungs-Support für die AEM 6.3 Screens-Plattform.
 
 ## Verfügbarkeit {#availability}
 
-Das AEM 6.5 Feature Pack 7 wurde für AEM Screens veröffentlicht.
+Das AEM 6.5 Feature Pack 7 für AEM Screens wurde veröffentlicht.
 
-Sie können das neueste Feature Pack für AEM Screens 6.5.7 von der [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/de/aem.html) die Verwendung Ihrer Adobe ID. Navigieren Sie zum **Adobe Experience Manager** Registerkarte und suchen Sie nach **Screens** , um das neueste Feature Pack mit dem Titel **AEM 6.5 Screens FP7**.
+Das neueste Feature Pack für AEM Screens 6.5.7 steht auf dem [Software-Verteilungsportal](https://experience.adobe.com/#/downloads/content/software-distribution/de/aem.html) zum Download zur Verfügung (Adobe ID erforderlich). Navigieren Sie zur Registerkarte **Adobe Experience Manager** und suchen Sie nach **Screens**, um das neueste Feature Pack mit dem Namen **AEM 6.5 Screens FP7** herunterzuladen.
 
 ## Veröffentlichungsdatum {#release-date}
 
@@ -38,7 +38,7 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 202103 ist der 5. Mär
 
 * **Massenbereitstellung von Android™-Playern mit Enterprise Mobility Management**
 
-  Bei der Massenbereitstellung des Android™-Players wird es mühsam, jeden Player manuell bei AEM zu registrieren. Es wird dringend empfohlen, eine EMM-Lösung (Enterprise Mobility Management) zu verwenden, z. B. `VMWare Airwatch`, `MobileIron`oder `Samsung Knox` , um Ihre Implementierung remote bereitzustellen und zu verwalten. Der AEM Screens-Android™-Player unterstützt den Branchenstandard EMM AppConfig, um eine Remote-Bereitstellung zu ermöglichen.
+  Bei der Massenbereitstellung von Android™-Playern ist es mühsam, jeden einzelnen Player manuell bei AEM zu registrieren. Es wird dringend empfohlen, eine EMM(Enterprise Mobility Management)-Lösung wie `VMWare Airwatch`, `MobileIron` oder `Samsung Knox` für die Remote-Bereitstellung und -Verwaltung Ihrer Bereitstellung zu verwenden. Der AEM Screens-Android™-Player unterstützt den Branchenstandard EMM AppConfig, um eine Remote-Bereitstellung zu ermöglichen.
 
   Weitere Informationen finden Sie unter [Massenbereitstellung von Android™-Playern mit Enterprise Mobility Management](/help/user-guide/implementing-android-player.md#implementation).
 
@@ -47,17 +47,17 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 202103 ist der 5. Mär
 
 * Verbesserte Leistung bei der Berechnung von `clientlib` und `asset hashes`.
 
-* Die Migration von SmartSync würde den Player beschädigen, wenn der Cache nicht invalidiert wurde.
+* Die SmartSync-Migration würde den Player bei ausbleibender Cache-Invalidierung beschädigen.
 
 * Offline-Caches wurden nicht erstellt, wenn die Zuweisung *OfflineConfig* enthielt.
 
 * Aktualisierungen des `Tizen`-Players, die fehlschlugen, weil die Referrer-Richtlinie „strict-origin-when-cross-origin“ nicht unterstützt wird.
 
-* Zeitplan des zugewiesenen Kanals ändern *Wiederholungen* -Feld die Benutzeroberfläche beschädigte.
+* Das Ändern des Felds *Wiederholungen* des Zeitplans des zugewiesenen Kanals führte zu Fehlern in der Benutzeroberfläche.
 
 * Die Aktualisierung von Offline-Inhalten schlug mit Abfrageausnahmen fehl.
 
-* Die zeitliche Verzögerung zwischen Transitionen während der Interaktion in einem interaktiven Erlebnis wurde jetzt behoben.
+* Die Verzögerung zwischen Übergängen während der Interaktion in einem interaktiven Erlebnis wurde nun behoben.
 
 * Eine fehlgeschlagene Konfigurationsaktualisierungsanfrage verursachte leere Bildschirme.
 
@@ -71,4 +71,4 @@ Die folgenden AEM Screens-Player sind für AEM 6.5 Feature Pack 7 verfügbar:
 
 #### AEM Screens-Player-Downloads
 
-Informationen zum Herunterladen des neuesten AEM Screens-Players und zu weiteren Fehlerbehebungen finden Sie unter **[AEM Screens Player-Downloads](https://download.macromedia.com/screens/index.html)**.
+Navigieren Sie zur Seite **[AEM Screens-Player-Downloads](https://download.macromedia.com/screens/index.html)**, um den neuesten AEM Screens-Player herunterzuladen und mehr über die Fehlerbehebungen zu erfahren.

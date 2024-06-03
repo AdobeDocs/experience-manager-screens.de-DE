@@ -7,15 +7,15 @@ role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '503'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
-# Installieren des AEM Screens-Players {#installing-player}
+# Installieren eines AEM Screens-Players {#installing-player}
 
-Auf dieser Seite wird die Installation des AEM Screens-Players beschrieben.
+Auf dieser Seite wird die Installation eines AEM Screens-Players beschrieben.
 
 ## Verfügbarer Screens-Player {#available-players}
 
@@ -27,15 +27,15 @@ Um einen **AEM Screens-Player** herunterzuladen, rufen Sie die Seite [AEM 6.5 Pl
 >
 >Nachdem Sie den aktuellen Player (*.exe*) heruntergeladen haben, folgen Sie den Schritten im Player, um die Ad-hoc-Installation abzuschließen:
 >
->1. Halten Sie die linke obere Ecke gedrückt, um das Admin-Bedienfeld zu öffnen.
+>1. Halten Sie die linke obere Ecke eine Weile gedrückt, um das Admin-Bedienfeld zu öffnen.
 >1. Navigieren Sie im linken Aktionsmenü zu **Konfiguration**, geben Sie die Speicherortadresse der AEM-Instanz unter **Server** ein und klicken Sie auf **Speichern**.
->1. Klicken Sie auf **Registrierung** über den Link im linken Aktionsmenü und die folgenden Schritte, um den Prozess zur Geräteregistrierung abzuschließen.
+>1. Klicken Sie im linken Aktionsmenü auf den Link **Registrierung** und führen Sie die Schritte darunter aus, um die Geräteregistrierung abzuschließen.
 
 ## Einfache Wiedergabe-Überwachung {#playback-monitoring}
 
-Mit jedem `ping` (standardmäßig alle 30 Sekunden) meldet der Player verschiedene Wiedergabemetriken. Basierend auf diesen Metriken können wir verschiedene Randfälle wie Feststecken, leerer Bildschirm und Terminprobleme erkennen. Sie ermöglicht uns, Probleme auf dem Gerät zu verstehen und zu beheben und so eine Untersuchung und Korrekturmaßnahmen für Sie zu beschleunigen.
+Mit jedem `ping` (standardmäßig alle 30 Sekunden) meldet der Player verschiedene Wiedergabemetriken. Basierend auf diesen Metriken können wir verschiedene Randfälle wie Feststecken, leerer Bildschirm und Terminprobleme erkennen. Auf diese Weise können wir Probleme auf dem Gerät verstehen und beheben, was die Untersuchung und die Abhilfemaßnahmen für Sie beschleunigt.
 
-Die grundlegende Wiedergabe-Überwachung in einem AEM Screens-Player ermöglicht Folgendes:
+Die grundlegende Überwachung der Wiedergabe in einem AEM Screens-Player ermöglicht Folgendes:
 
 * Fernüberwachung, ob ein Player Inhalte ordnungsgemäß wiedergibt.
 
@@ -65,22 +65,22 @@ Die folgenden Eigenschaften sind in jedem `ping` enthalten:
 
 ### Einschränkungen {#limitations}
 
-Im Folgenden finden Sie einige Einschränkungen für die grundlegende Wiedergabe-Überwachung:
+Im Folgenden finden Sie einige Beschränkungen bei der grundlegenden Wiedergabeüberwachung:
 
-* Der Player meldet dem Server seinen eigenen Wiedergabestatus, sodass eine aktive Verbindung erforderlich ist.
+* Der Player meldet dem Server seinen eigenen Wiedergabestatus, weswegen eine aktive Verbindung erforderlich ist.
 
-* Die `isContentRendering` -Eigenschaft, die die GPU überprüft, ist wesentlich ressourcenintensiver, um standardmäßig aktiviert zu werden, und erfordert eine explizite Anmeldung über die Player-Voreinstellungen. Adobe empfiehlt, sie nicht zusammen mit Videos in der Produktion zu verwenden.
+* Die Eigenschaft `isContentRendering`, mit der die GPU geprüft wird, ist zu ressourcenintensiv, als dass sie standardmäßig aktiviert werden könnte, und erfordert eine explizite Aktivierung in den Player-Voreinstellungen. Adobe empfiehlt, sie nicht zusammen mit Videos in der Produktion zu verwenden.
 
 * Diese Funktion wird nur für Sequenzkanäle unterstützt und deckt noch nicht den Anwendungsfall für interaktive Kanäle (SPA) ab.
 
-* Die Metriken sind noch nicht vollständig für Kunden verfügbar, aber Adobe arbeitet in Kürze an der Aktivierung von Dashboard-ähnlichen Berichterstellungs- und Warnmechanismen.
+* Die Metriken sind noch nicht vollständig für Kundinnen und Kunden verfügbar, aber Adobe arbeitet an der baldigen Bereitstellung eines Dashboard-ähnlichen Berichts- und Warnmechanismus.
 
 ### Sonstige Ressourcen {#additional-resources}
 
-Detaillierte Informationen finden Sie in den folgenden Themen:
+In den folgenden Themen finden Sie ausführliche Informationen:
 
 * Um den Android™-Player herunterzuladen, gehen Sie zu **Google Play**. Weitere Informationen zur Implementierung von Android™ Watchdog finden Sie unter [Implementieren des Android™-Players](implementing-android-player.md).
 
 * Weitere Informationen zur Implementierung des Chrome OS-Players finden Sie unter [Chrome Management Console](implementing-chrome-os-player.md).
 
-* Informationen zum Konfigurieren von AEM Screens Windows Player finden Sie unter [Implementieren von Windows Player](implementing-windows-player.md).
+* Informationen zur Konfiguration des AEM Screens-Windows-Players finden Sie unter [Implementieren des Windows-Players](implementing-windows-player.md).

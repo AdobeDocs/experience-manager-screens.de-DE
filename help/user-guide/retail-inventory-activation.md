@@ -1,6 +1,6 @@
 ---
-title: Zielgerichtete Aktivierung des Einzelhandelsinventars
-description: Erfahren Sie mehr über dieses AEM Screens-Anwendungsbeispiel, in dem der Lagerbestand für drei verschiedene Pullover dargestellt wird.
+title: Zielgerichtete Aktivierung des Lagerbestands im Einzelhandel
+description: Erfahren Sie mehr über diesen AEM Screens-Anwendungsfall, der den Lagerbestand im Einzelhandel für drei verschiedenfarbige Sweatshirts präsentiert.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
@@ -11,25 +11,25 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
 source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '577'
-ht-degree: 30%
+ht-degree: 100%
 
 ---
 
-# Zielgerichtete Aktivierung des Einzelhandelsinventars {#retail-inventory-targeted-activation}
+# Zielgerichtete Aktivierung des Lagerbestands im Einzelhandel {#retail-inventory-targeted-activation}
 
 Im folgenden Anwendungsbeispiel werden je nach den Werten in Ihrer Google Tabelle drei verschiedene Bilder dargestellt.
 
 ## Beschreibung {#description}
 
-In diesem Anwendungsbeispiel wird der Lagerbestand für drei verschiedene Pullover dargestellt. Je nachdem, wie viele Pullover auf Lager vorhanden sind, die in Google Tabellen aufgezeichnet sind, wird das Bild (rotes, grünes oder blaues Pullover) mit der höchsten Zahl angezeigt.
+In diesem Anwendungsfall wird der Lagerbestand im Einzelhandel für drei verschiedenfarbige Sweatshirts präsentiert. Je nachdem, wie viele Sweatshirts auf Lager sind (erfasst in Google Tabellen), wird das Bild (rotes, grünes oder blaues Sweatshirt) mit der höchsten Zahl angezeigt.
 
-Der rote, grüne oder blaue Pullover wird basierend auf dem höchsten Wert der verfügbaren Pullover angezeigt.
+Das rote, grüne oder blaue Sweatshirt wird basierend auf der höchsten Anzahl verfügbarer Sweatshirts angezeigt.
 
 ## Voraussetzungen {#preconditions}
 
-Bevor Sie mit der Implementierung der zielgerichteten Aktivierung des Einzelhandelsinventars beginnen, erfahren Sie, wie Sie ***Datenspeicher***, ***Zielgruppensegmentierung*** und ***Targeting für Kanäle aktivieren*** in einem AEM Screens-Projekt.
+Bevor Sie die Targeting-Aktivierung für den Lagerbestand implementieren, müssen Sie wissen, wie Sie in einem AEM Screens-Projekt den ***Datenspeicher*** und die ***Zielgruppensegmentierung*** einrichten und das ***Targeting für Kanäle aktivieren***.
 
 Genaue Informationen dazu finden Sie unter [Konfigurieren von ContextHub in AEM Screens](configuring-context-hub.md).
 
@@ -50,70 +50,70 @@ Gehen Sie wie folgt vor, um das Anwendungsbeispiel zur Aktivierung des Einzelhan
 
    1. Fügen Sie drei neue Segmente **Für_Rot**, **Für_Grün** und **Für_Blau** hinzu.
 
-   1. Klicks **For_Red** und klicken **Bearbeiten** in der Aktionsleiste aus.
+   1. Klicken Sie auf **Für_Rot** und dann in der Aktionsleiste auf **Bearbeiten**.
 
-   1. Ziehen Sie die **Vergleich: Eigenschaft - Eigenschaft** in den Editor.
-   1. Klicken Sie auf **Konfiguration** Symbol.
-   1. Klicks **googlesheets/value/1/2** aus der Dropdown-Liste **Vorname der Eigenschaft**.
-   1. Klicken Sie auf **Operator** und als **größer als** aus dem Dropdown-Menü.
-   1. Klicks **Datentyp** und als **number**.
-   1. Klicks **googlesheets/value/1/1** aus der Dropdown-Liste **Zweiter Eigenschaftsname**.
-   1. Drag &amp; Drop **Weiterer Vergleich: Eigenschaft - Eigenschaft** zum Editor hinzu und klicken Sie auf die Schaltfläche **Konfiguration** Symbol.
-   1. Klicks **googlesheets/value/1/2** aus der Dropdown-Liste **Vorname der Eigenschaft**.
-   1. Klicken Sie auf **Operator** und als **größer als** aus dem Dropdown-Menü.
-   1. Klicks **Datentyp** und als **number**.
-   1. Klicks **googlesheets/value/1/0** aus der Dropdown-Liste **Zweiter Eigenschaftsname**.
+   1. Ziehen Sie die Komponente **Vergleich: Eigenschaft – Eigenschaft** in den Editor.
+   1. Klicken Sie auf das Symbol **Konfiguration**.
+   1. Klicken Sie im Dropdown-Menü **Erster Eigenschaftsname** auf **googlesheets/value/1/2**.
+   1. Klicken Sie im Dropdown-Menü **Operator** auf **größer als**.
+   1. Klicken Sie unter **Datentyp** auf **Zahl**.
+   1. Klicken Sie im Dropdown-Menü **Zweiter Eigenschaftsname** auf **googlesheets/value/1/0**.
+   1. Ziehen Sie eine weitere Komponente **Vergleich: Eigenschaft – Eigenschaft** in den Editor und klicken Sie auf das Symbol **Konfiguration**.
+   1. Klicken Sie im Dropdown-Menü **Erster Eigenschaftsname** auf **googlesheets/value/1/2**.
+   1. Klicken Sie im Dropdown-Menü **Operator** auf **größer als**.
+   1. Klicken Sie unter **Datentyp** auf **Zahl**.
+   1. Klicken Sie im Dropdown-Menü **Zweiter Eigenschaftsname** auf **googlesheets/value/1/0**.
 
    ![screen_shot_2019-05-06at102600am](assets/screen_shot_2019-05-06at102600am.png)
 
-   Bearbeiten und fügen Sie auf ähnliche Weise Vergleichseigenschaftsregeln zum **For_Blue** Segment wie in der folgenden Abbildung dargestellt:
+   Bearbeiten Sie auf gleiche Weise Vergleichseigenschaftsregeln für das Segment **Für_Blau** und fügen Sie diese hinzu, wie in der folgenden Abbildung dargestellt:
 
    ![screen_shot_2019-05-06at103728am](assets/screen_shot_2019-05-06at103728am.png)
 
-   Bearbeiten und fügen Sie auf ähnliche Weise Vergleichseigenschaftsregeln zum **Für_Grün** Segment wie in der folgenden Abbildung dargestellt:
+   Bearbeiten Sie auf gleiche Weise Vergleichseigenschaftsregeln für das Segment **Für_Grün** und fügen Sie diese hinzu, wie in der folgenden Abbildung dargestellt:
 
    ![screen_shot_2019-05-06at103418am](assets/screen_shot_2019-05-06at103418am.png)
 
    >[!NOTE]
    >
-   >Beachten Sie Folgendes für Segmente **Für_Grün** und **Für_Grün** können Daten nicht im Editor aufgelöst werden, da gemäß den Werten in der Google Tabelle nur der erste Vergleich gültig ist.
+   >Sie werden feststellen, dass sich die Daten für die Segmente **Für_Grün** und **Für_Grün** im Editor nicht auflösen lassen, da gemäß den Werten in der Google Tabelle von nun an nur der erste Vergleich gültig ist.
 
-1. Navigieren Sie zu und klicken Sie auf Ihre **DataDrivenRetail** channel (ein Sequenzkanal).
+1. Navigieren Sie zum Kanal **DataDrivenRetail** (ein Sequenzkanal) und klicken Sie darauf.
 1. Klicken Sie in der Aktionsleiste auf **Bearbeiten**. 
 
    ![screen_shot_2019-05-06at104257am](assets/screen_shot_2019-05-06at104257am.png)
 
    >[!CAUTION]
    >
-   >Sie hätten bereits die **ContextHub** **Konfigurationen** über den Kanal **Eigenschaften** > **Personalisierung** Registerkarte.
+   >Sie sollten Ihre **ContextHub**-**Konfigurationen** bereits über die **Eigenschaften** des Kanals auf der Registerkarte **Personalisierung** eingerichtet haben.
 
    ![screen_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
 
    >[!NOTE]
    >
-   >Klicken Sie auf beide **Marke** und **Bereich** , damit die Aktivitäten beim Starten des Targeting-Prozesses korrekt aufgelistet werden.
+   >Legen Sie die **Marke** und den **Bereich** fest, damit die Aktivitäten beim Starten des Targeting-Prozesses korrekt aufgeführt werden.
 
 1. **Hinzufügen eines Standardbilds**
 
    1. Fügen Sie Ihrem Kanal ein Standardbild hinzu und klicken Sie auf **Targeting**.
-   1. Klicks **Marke** und **Aktivität** aus dem Dropdown-Menü aus und klicken Sie auf **Targeting starten**.
+   1. Klicken Sie auf **Marke** und **Aktivität** im Dropdown-Menü und dann auf **Targeting starten**.
    1. Klicken Sie auf **Targeting starten**.
 
    ![screen_shot_2019-05-06at121253pm](assets/screen_shot_2019-05-06at121253pm.png)
 
    >[!NOTE]
    >
-   >Bevor Sie mit dem Targeting beginnen, fügen Sie die Segmente hinzu (**Für_Grün**, **For_Red**, und **For_Blue**) durch Auswahl **+ Erlebnis-Targeting hinzufügen** aus der Seitenleiste, wie in der Abbildung unten dargestellt.
+   >Bevor Sie mit dem Targeting beginnen, fügen Sie die Segmente (**Für_Grün**, **Für_Rot** und **Für_Blau**) hinzu, indem Sie in der Seitenleiste die Option **+ Experience Targeting hinzufügen** auswählen, wie in der folgenden Abbildung dargestellt.
 
    ![screen_shot_2019-05-06at123554pm](assets/screen_shot_2019-05-06at123554pm.png)
 
-1. Fügen Sie die Bilder zu allen drei verschiedenen Szenarien hinzu, wie unten dargestellt.
+1. Fügen Sie die Bilder den drei verschiedenen Szenarien hinzu, wie unten dargestellt.
 
    ![retail_targeting](assets/retail_targeting.gif)
 
 1. **Überprüfen der Vorschau**
 
    1. Klicken Sie auf **Vorschau**. Öffnen Sie außerdem Ihre Google Tabelle und aktualisieren Sie den Wert.
-   1. Ändern Sie den Wert für alle drei verschiedenen Spalten. Beachten Sie, dass das Anzeigebild entsprechend dem höchsten Wert im Bestand aktualisiert wird.
+   1. Ändern Sie den Wert für die drei verschiedenen Spalten. Beachten Sie, dass das Anzeigebild entsprechend dem höchsten Bestandswert geändert wird.
 
    ![retail_result](assets/retail_result.gif)

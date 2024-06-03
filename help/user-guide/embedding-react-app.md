@@ -11,15 +11,15 @@ role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
 source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '674'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
 # Einbetten einer REACT-Anwendung mit dem AEM-SPA-Editor und Integrieren in AEM Screens Analytics {#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}
 
-Sie können eine interaktive Single Page Application einbetten, die auf REACT (oder Angular) basiert. Dies geschieht mithilfe des AEM SPA Editors, den Geschäftsexperten in AEM konfigurieren. Sie können auch lernen, wie Sie Ihre interaktive Anwendung in Adobe Analytics im Offline-Modus integrieren.
+Sie können eine interaktive Single Page Application einbetten, die auf REACT (oder Angular) basiert. Verwenden Sie dazu den AEM-SPA-Editor, der von Unternehmens-Fachleuten in AEM konfiguriert wird. Sie können auch lernen, wie Sie Ihre interaktive Anwendung in Adobe Analytics im Offline-Modus integrieren.
 
 ## Verwenden des AEM SPA Editors {#using-the-aem-spa-editor}
 
@@ -48,15 +48,15 @@ Gehen Sie wie folgt vor, um den AEM SPA Editor zu verwenden:
    >
    >In dieser Dokumentation wird als **GroupId** der Wert ***com.adobe.aem.screens*** und als **ArtifactId** der Wert ***Meine Beispiel-SPA*** (die Standardeinstellungen) verwendet. Sie können nach Bedarf Ihre eigenen Parameter auswählen.
 
-1. Nachdem das Projekt erstellt wurde, verwenden Sie entweder eine IDE oder einen Editor Ihrer Wahl und importieren Sie das generierte Maven-Projekt.
-1. Stellen Sie in Ihrer lokalen AEM-Instanz mit dem Befehl ***mvn clean install -PautoInstallPackage*** bereit.
+1. Nachdem das Projekt erstellt wurde, verwenden Sie entweder eine IDE oder einen Editor Ihrer Wahl und importieren Sie das erstellte Maven-Projekt.
+1. Stellen Sie es in Ihrer lokalen AEM-Instanz mit dem Befehl ***mvn clean install -PautoInstallPackage*** bereit.
 
 ### Bearbeiten von Inhalten in der REACT-App {#editing-content-in-the-react-app}
 
 So bearbeiten Sie Inhalte in der REACT-App:
 
 1. Navigieren Sie zu `https://localhost:4502/editor.html/content/mysamplespa/en/home.html` (ersetzen Sie ggf. den Host-Namen, Port und Projektnamen).
-1. Sie können den Text bearbeiten, der in der Anwendung &quot;Hello World&quot;angezeigt wird.
+1. Seien Sie in der Lage, den Text zu bearbeiten, der in der Anwendung „Hello World“ angezeigt wird.
 
 ### Hinzufügen der interaktiven REACT-App zu AEM Screens {#adding-the-interactive-react-app-to-aem-screens}
 
@@ -81,7 +81,7 @@ Gehen Sie wie folgt vor, um die interaktive REACT-App zu AEM Screens hinzuzufüg
 
    ![screen_shot_2019-02-15at100555am](assets/screen_shot_2019-02-15at100555am.png)
 
-1. Ziehen Sie die **Eingebettete Seite** -Komponente oder verwenden Sie die vorhandene Komponente in einem Anwendungskanal erneut und klicken Sie auf die Startseite unter der Anwendung mysamplespa , z. B. ***/content/mysamplespa/en/home***.
+1. Ziehen Sie die Komponente **Eingebettete Seite** per Drag-and-Drop oder verwenden Sie die vorhandene Komponente erneut in einem Anwendungskanal. Klicken Sie dann auf die Startseite unter der Anwendung „mysamplespa“, z. B. ***/content/mysamplespa/en/home***.
 
    ![screen_shot_2019-02-15at101104am](assets/screen_shot_2019-02-15at101104am.png)
 
@@ -90,7 +90,7 @@ Gehen Sie wie folgt vor, um die interaktive REACT-App zu AEM Screens hinzuzufüg
    >[!NOTE]
    >Stellen Sie sicher, dass Sie beim Zuweisen des Kanals zur Anzeige das Benutzerinteraktionsereignis hinzufügen.
 
-1. Registrieren Sie einen Player für dieses Projekt, und weisen Sie ihn der Anzeige zu. Jetzt wird Ihre interaktive Anwendung in AEM Screens ausgeführt.
+1. Registrieren Sie einen Player für dieses Projekt, und weisen Sie ihn der Anzeige zu. Sie können nun sehen, wie Ihre interaktive Anwendung in AEM Screens ausgeführt wird.
 
    Weitere Informationen zur Registrierung eines Geräts finden Sie unter [Geräteregistrierung](device-registration.md).
 
@@ -102,8 +102,8 @@ Gehen Sie wie folgt vor, um die SPA mit Adobe Analytics mit Offline-Funktionen �
 
    Weitere Informationen zum Ausführen der Sequenzierung in Adobe Analytics mit AEM Screens und zum Senden benutzerdefinierter Ereignisse mit Adobe Analytics im Offline-Modus finden Sie unter [Konfigurieren von Adobe Analytics mit AEM Screens](configuring-adobe-analytics-aem-screens.md).
 
-1. Bearbeiten Sie Ihre React-App in der IDE/dem Editor Ihrer Wahl (insbesondere die Textkomponente oder andere Komponente, mit der Sie Ereignisse ausgeben möchten).
-1. Fügen Sie beim Klick- oder anderen Ereignis, das Sie für Ihre Komponente erfassen möchten, die Analyseinformationen mithilfe des Standarddatenmodells hinzu.
+1. Bearbeiten Sie Ihre React-App in der IDE oder dem Editor Ihrer Wahl (insbesondere die Textkomponente oder eine andere Komponente, die Sie zum Ausgeben von Ereignissen verwenden möchten).
+1. Fügen Sie dem Klick-Ereignis oder einem anderen Ereignis, das Sie für Ihre Komponente erfassen möchten, die Analyseinformationen mithilfe des Standarddatenmodells hinzu.
 
    Weitere Informationen finden Sie unter [Konfigurieren von Adobe Analytics mit AEM Screens](configuring-adobe-analytics-aem-screens.md).
 
