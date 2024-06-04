@@ -12,7 +12,7 @@ exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
 source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
 source-wordcount: '488'
-ht-degree: 76%
+ht-degree: 80%
 
 ---
 
@@ -34,11 +34,11 @@ Die folgenden Schritte fassen die Vorgehensweise zum Einrichten von ACLs für ei
 
    Alternativ können Sie diesen Link verwenden: `http://localhost:4502/libs/granite/security/content/groupadmin.html`.
 
-   Klicken Sie anschließend auf **Speichern**.
+   Klicken Sie als Nächstes auf **Speichern**. 
 
    ![screen_shot_2018-02-16at12648pm](assets/screen_shot_2018-02-16at12648pm.png)
 
-1. Klicks **Mitarbeiter** aus der Liste aus und doppelklicken Sie darauf.
+1. Klicken Sie auf den Eintrag für **Mitwirkende** aus der Liste und doppelklicken Sie darauf.
 
    ![screen_shot_2018-02-18at33938pm](assets/screen_shot_2018-02-18at33938pm.png)
 
@@ -56,7 +56,7 @@ Die folgenden Schritte fassen die Vorgehensweise zum Einrichten von ACLs für ei
 
 1. Richten Sie die Berechtigungen für die Gruppe **Acme** über `(http://localhost:4502/useradmin)` ein.
 
-   Klicken Sie auf die Gruppe **Acme** und klicken Sie auf **Berechtigungen**.
+   Klicken Sie auf die Gruppe **Acme** und dann auf die **Berechtigungen**.
 
    ![screen_shot_2018-02-18at41534pm](assets/screen_shot_2018-02-18at41534pm.png)
 

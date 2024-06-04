@@ -1,5 +1,5 @@
 ---
-title: 'Anwendungsfall: Übergang von mehreren zu einzelnen Zonen'
+title: 'Anwendungsfall: Übergänge von MultiZone zu SingleZone'
 description: Auf dieser Seite erfahren Sie mehr über den Anwendungsfall „Übergang von mehreren zu einzelnen Zonen“.
 contentOwner: Jyotika Syal
 feature: Authoring Screens
@@ -9,13 +9,13 @@ exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
 source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
 source-wordcount: '404'
-ht-degree: 63%
+ht-degree: 74%
 
 ---
 
 # Übergang von mehreren zu einzelnen Zonen {#multizone-to-singlezone-use-case}
 
-## Anwendungsfallbeschreibung {#use-case-description}
+## Anwendungsfall – Beschreibung {#use-case-description}
 
 In diesem Abschnitt wird ein Anwendungsfall beschrieben, indem erläutert wird, wie man einen Mehrzonen-Layout-Kanal im Wechsel mit einem Einzelzonen-Layout-Kanal einrichtet. Der Mehrzonen-Kanal verfügt über sequenzierende Bild-/Video-Assets und zeigt, wie Sie ein Projekt einrichten können, das von mehreren Zonen zu einzelnen Zonen wechselt und umgekehrt.
 
@@ -43,8 +43,8 @@ Gehen Sie wie folgt vor, um ein Projekt einzurichten:
 
 1. **Erstellen eines Mehrzonenkanals in Screens**
 
-   1. Klicken Sie auf **Kanäle** Ordner und klicken Sie auf **Erstellen** in der Symbolleiste und öffnen Sie den Assistenten, damit Sie einen Kanal erstellen können.
-   1. Klicks **Splitscreen-Kanal mit L-Balken links** Erstellen Sie im Assistenten den Kanal mit dem Titel **MultiZoneLayout**.
+   1. Klicken Sie auf den Ordner **Kanäle** und klicken Sie in der Aktionsleiste auf **Erstellen**, um den Assistenten zum Erstellen eines Kanals zu öffnen.
+   1. Klicken Sie im Assistenten auf **Splitscreen-Kanal mit L-Balken links** und erstellen Sie den Kanal mit dem Namen **MultiZoneLayout**.
    1. Fügen Sie dem Kanal Inhalt hinzu. Ziehen Sie die Assets in die einzelnen Zonen. Das folgende Beispiel zeigt einen **MultiZoneLayout**-Kanal, der aus einem Video, einem Bild und einem Textbanner (in einer eingebetteten Sequenz) besteht, wie unten dargestellt.
 
    ![Asset](assets/mz-to-sz2.png)

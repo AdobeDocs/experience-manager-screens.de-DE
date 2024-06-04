@@ -12,7 +12,7 @@ exl-id: 205235d7-e621-4134-975c-257ae60939bc
 source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 75%
+ht-degree: 80%
 
 ---
 
@@ -38,7 +38,7 @@ In diesem Abschnitt werden folgende Themen behandelt:
 
 ## Überblick {#overview}
 
-***AEM Screens-Benachrichtigungsdienst*** ermöglicht es Administratoren, eine E-Mail zu erhalten, wenn ein AEM Screens-Player während einer konfigurierbaren Zeit nicht pingt.
+Der ***AEM Screens-Benachrichtigungsdienst*** bietet Admins die Möglichkeit, sich eine E-Mail schicken zu lassen, wenn ein AEM Screens-Player in einem konfigurierbaren Zeitraum nicht gepingt hat.
 
 Der Service lässt sich in der OSGi-Web-Konsole einrichten.
 

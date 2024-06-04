@@ -12,7 +12,7 @@ exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
 source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 64%
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ Die Gerätekonsole erlaubt es Ihnen, auf den Geräte-Manager zuzugreifen, um Ihr
 
 >[!CAUTION]
 >
->Bevor Sie Ihr Gerät zuweisen, registrieren Sie es. Siehe [Geräteregistrierung](device-registration.md).
+>Registrieren Sie das Gerät, bevor Sie es zuweisen. Siehe [Geräteregistrierung](device-registration.md).
 
 ## Gerätezuweisung {#device-assignment}
 
@@ -36,19 +36,19 @@ Gehen Sie wie folgt vor, um ein Gerät einer Anzeige zuzuweisen:
 
    ![chlimage_1-32](assets/chlimage_1-32.png)
 
-1. Klicken Sie auf **Geräte** Ordner und klicken Sie auf **Geräte-Manager** in der Aktionsleiste. Die zugewiesenen und nicht zugewiesenen Geräte werden angezeigt.
+1. Klicken Sie auf den Ordner **Geräte** und dann in der Aktionsleiste auf **Geräte-Manager**. Die zugewiesenen und nicht zugewiesenen Geräte werden angezeigt.
 
    ![chlimage_1-33](assets/chlimage_1-33.png)
 
-1. Klicken Sie auf ein nicht zugewiesenes Gerät in der Liste und klicken Sie auf das **Gerät zuweisen** in der Aktionsleiste.
+1. Klicken Sie auf ein nicht zugewiesenes Gerät aus der Liste und dann in der Aktionsleiste auf **Gerät zuweisen**.
 
    ![chlimage_1-34](assets/chlimage_1-34.png)
 
-1. Klicken Sie in der Liste auf die Anzeige, der Sie das Gerät zuweisen möchten, und klicken Sie auf die **Zuweisen**.
+1. Klicken Sie in der Liste auf die Anzeige, die dem Gerät zugewiesen werden soll, und dann auf **Zuweisen**.
 
    ![chlimage_1-35](assets/chlimage_1-35.png)
 
-1. Klicken Sie auf **Beenden** , um den Zuweisungsprozess abzuschließen.
+1. Klicken Sie auf **Beenden**, um die Zuweisung abzuschließen.
 
 
    Das Anzeigen-Dashboard zeigt das zugewiesene Gerät im Bedienfeld **GERÄTE** an.
@@ -69,4 +69,4 @@ Gehen Sie wie folgt vor, um ein Gerät einer Anzeige zuzuweisen:
 
 ### Die nächsten Schritte {#the-next-steps}
 
-Wenn Sie mit dem Zuweisen eines Kanals zu einer Anzeige vertraut sind, lesen Sie[Überwachung und Fehlerbehebung](monitoring-screens.md).
+Nachdem Sie nun damit vertraut sind, wie ein Kanal einer Anzeige zugewiesen wird, fahren Sie mit dem Thema [Überwachung und Fehlerbehebung](monitoring-screens.md) fort.

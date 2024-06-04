@@ -4,18 +4,18 @@ description: Erfahren Sie mehr über die Umgebungen für ein AEM Screens-Projekt
 source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 67%
+ht-degree: 93%
 
 ---
 
 
 # Umgebungen {#environments}
 
-Ermitteln Sie im Voraus, welche AEM Umgebungen der Client hat und von Ihnen erwartet, beide für *development* und *Implementierung*.
+Ermitteln Sie im Voraus, über welche AEM-Umgebungen die Kundin oder der Kunde verfügt und von Ihnen erwartet, sowohl für die *Entwicklung* als auch für die *Bereitstellung*.
 
 >[!NOTE]
 >
->AEM Screens benötigt mehrere Pakete, damit Projekte funktionieren. In allen Umgebungen sollte dieselbe Version von Adobe Experience Manager ausgeführt werden.
+>AEM Screens setzt für funktionierende Projekte verschiedene Pakete voraus. In allen Umgebungen sollte dieselbe Version von Adobe Experience Manager ausgeführt werden.
 
 Beachten Sie folgende Richtlinien zur Einrichtung der Umgebung für Ihr AEM Screens-Projekt:
 

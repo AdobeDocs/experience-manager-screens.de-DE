@@ -13,7 +13,7 @@ exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
 source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
 source-wordcount: '536'
-ht-degree: 55%
+ht-degree: 70%
 
 ---
 
@@ -33,7 +33,7 @@ Dieses Tutorial behandelt folgende Punkte, die für die erfolgreiche Bereitstell
 
 >[!NOTE]
 >
->Die typischen Vertriebszyklen für die Bereitstellung digitaler Beschilderung können zwischen 9 und 18 Monaten betragen. Es gibt viele Faktoren, die die endgültige Zeitspanne beeinflussen. Zu diesen Faktoren gehört auch, wie der Endkunde den Erfolg misst und wie risikoscheu seine Geschäftspartner sind, wenn eine neue Lösung eingeführt wird.
+>Die typischen Verkaufszyklen für die Bereitstellung von Digital Signage in großem Umfang können zwischen 9 und 18 Monaten liegen. Es gibt viele Faktoren, die die endgültige Zeitspanne beeinflussen. Zu diesen Faktoren gehört auch, wie der Endkunde den Erfolg misst und wie risikoscheu seine Geschäftspartner sind, wenn eine neue Lösung eingeführt wird.
 
 Beispielsweise könnten die Stakeholder für ein Digital-Signage-Programm in einer Einzelhandelsumgebung Folgendes einschließen:
 
@@ -50,19 +50,19 @@ Im folgenden Abschnitt finden Sie einen Überblick über die Schlüsselbegriffe,
 
 ### Machbarkeitsstudie (POC) {#proof-of-concept-poc}
 
-Eine Machbarkeitsstudie dient dazu, ein erstes Feedback zu den Schlüsselfunktionen einer Lösung zu erhalten. Es ermöglicht sowohl dem Endkunden als auch dem Audio-Video-Integrator die Möglichkeit, Verbesserungsbereiche zu identifizieren und Annahmen über Arbeitsanforderungen und Ressourcenanforderungen vorzubereiten. Mithilfe einer Machbarkeitsstudie können darüber hinaus beide Parteien die Leistung der Lösung bewerten, die in der Regel anhand einer Qualitätskontrolle gemessen wird.
+Eine Machbarkeitsstudie dient dazu, ein erstes Feedback zu den Schlüsselfunktionen einer Lösung zu erhalten. Zudem ermöglicht sie sowohl Endkundinnen bzw. Endkunden als auch der für die Audio-Video-Integration zuständigen Person, Verbesserungsmöglichkeiten zu ermitteln und Annahmen bezüglich der Arbeitsanforderungen und des Ressourcenbedarfs vorzubereiten. Mithilfe einer Machbarkeitsstudie können darüber hinaus beide Parteien die Leistung der Lösung bewerten, die in der Regel anhand einer Qualitätskontrolle gemessen wird.
 
 ### Qualitätskontrolle {#quality-control}
 
 Tests zur Integration von Systemen und Software beginnen mit dem IT-Engineering-Team der Audio-Video-Integratoren. Unter Bezugnahme auf den genehmigten Systementwurf konfiguriert, implementiert und überwacht das IT-Engineering-Team die Installation von Hardware-Komponenten in einer &quot;Lab-Umgebung&quot;in der Anlage des Audio-Video-Integrators. Diese Regelung ermöglicht eine genaue Überprüfung und Prüfung der gesamten Lösung für die Qualitätskontrolle.
 
-Nach Abschluss des QC-Tests erstellt das IT-Engineering-Team Dokumentation, Workflows und Schulungen zur Referenz während des Day-2-Supports. Zu den zu testenden Systemaspekten gehören:
+Nach Abschluss des QC-Tests erstellt das IT-Engineering-Team Dokumentation, Workflows und Schulungen zur Referenz während des Day-2-Supports. Folgende Systemaspekte sind zu prüfen:
 
-* AEM Implementierungsintegrationen.
-* Systemintegrationen von Drittanbietern.
+* Integrationen der für die Audio-Video-Implementierung zuständigen Person.
+* Integrationen von Drittanbietersystemen.
 * Software.
 * Hardware.
-* Konnektivität
+* Konnektivität.
 * Workflows für die Inhaltsbereitstellung, einschließlich manueller, automatisierter und bedingter Bereitstellungen.
 
 ## Teil 3: Video-Tutorial zu Tests, Machbarkeitsstudien, Pilotprogrammen und Rollouts {#part-video-tutorial-on-testing-pocs-pilots-rollouts}
@@ -79,6 +79,6 @@ Wenn Sie alle diese Schritte als Teil des übergeordneten Projektplans betrachte
 
 ## Der nächste Schritt {#the-next-step}
 
-Wenn Sie mit Tests, Machbarkeitsstudien, Pilotprogrammen und Rollouts fertig sind, folgen Sie dem nächsten Tutorial, das sich eingehend mit dem Projekt-Management und den damit verbundenen Prozessen befasst.
+Wenn Sie mit Tests, Machbarkeitsstudien, Pilotprogrammen und Rollouts gut vertraut sind, sehen Sie sich das nächste Tutorial an, das genauer auf das Projekt-Management und die damit verbundenen Prozesse eingeht.
 
 Navigieren Sie zu **[Teil 4: Projekt-Management und Bereitstellung](project-management-and-deployment.md)**, um mehr zu erfahren.

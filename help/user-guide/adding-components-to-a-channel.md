@@ -13,7 +13,7 @@ exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
 source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
 source-wordcount: '1417'
-ht-degree: 70%
+ht-degree: 81%
 
 ---
 
@@ -34,7 +34,7 @@ Gehen Sie wie folgt vor, um die Standardkomponenten für ein Screens-Projekt anz
 1. Klicken Sie auf den Kanal. Beispiel: **`We.Retail In Store`** > **Kanäle** > **Idle Channel**.
 
 1. Klicken Sie in der Aktionsleiste auf **Bearbeiten**. 
-1. Klicken Sie im AEM-Editor auf die **+** in der Seitenleiste.
+1. Klicken Sie im AEM-Editor auf das **+**-Symbol in der Seitenleiste.
 1. Alle Komponenten, die standardmäßig in einem AEM Screens-Projekt enthalten sind, werden angezeigt (siehe nachfolgende Abbildung).
 
 ![screen_shot_2017-12-18at21350pm](assets/screen_shot_2017-12-18at21350pm.png)
@@ -45,12 +45,12 @@ AEM stellt verschiedene Komponenten bereit. Sie können Ihrem Projekt jederzeit 
 
 Im folgenden Beispiel sehen Sie, wie einem AEM Screens-Projekt eine Livefyre-Komponente hinzugefügt wird:
 
-1. Klicken Sie auf den Kanal, dem Sie eine Komponente hinzufügen möchten. Beispiel: **`We.Retail In Store`** > **Kanäle** > **Idle Channel**.
+1. Klicken Sie auf den Kanal, dem eine Komponente hinzugefügt werden soll. Beispiel: **`We.Retail In Store`** > **Kanäle** > **Idle Channel**.
 
-1. Klicken Sie in der Aktionsleiste auf **Bearbeiten**. 
-1. Klicks **Design** -Modus.
-1. Klicken Sie auf der rechten Seite auf den gesamten Design-Editor und klicken Sie auf das Einstellungssymbol, damit Sie den **Parsys Design** Dialogfeld.
-1. Sie können auf die Komponenten klicken, die Sie in Ihr AEM Screens-Projekt importieren möchten. Das folgende Beispiel zeigt das Hinzufügen der **Livefyre** -Komponente in ein AEM Screens-Projekt.
+1. Klicken Sie in der Aktionsleiste auf **Bearbeiten**.
+1. Klicken Sie auf den Modus **Design**.
+1. Wählen Sie rechts den kompletten Design-Editor aus und klicken Sie dann auf das Einstellungssymbol, um das Dialogfeld **ParSys-Design** zu öffnen.
+1. Sie können auf die Komponenten klicken, die in das AEM Screens-Projekt importiert werden sollen.  Das folgende Beispiel zeigt das Hinzufügen der **Livefyre** -Komponente in ein AEM Screens-Projekt.
 
 ![adding_components](assets/adding_components.gif)
 
@@ -64,7 +64,7 @@ Im folgenden Abschnitt werden die AEM Screens-Komponenten beschrieben, die Sie f
 
 >[!NOTE]
 >
->Um die Eigenschaften einer Komponente anzuzeigen, klicken Sie auf die Komponente und dann auf das Hammersymbol, um Eigenschaften zu öffnen/anzuzeigen.
+>Um die Eigenschaften einer Komponente anzuzeigen, klicken Sie auf die Komponente und dann auf das Hammersymbol. Daraufhin werden die Eigenschaften geöffnet/eingeblendet.
 
 ### Programm {#application}
 
@@ -74,8 +74,8 @@ Die Anwendungskomponente verfügt über die folgenden Eigenschaften:
 
 | **Eigenschaft** | **Beschreibung** |
 |---|---|
-| ***Anwendungspfad*** | Klicken Sie auf den absoluten Pfad, in dem die Anwendung vorhanden ist. |
-| ***Dauer (Millisekunden)*** | Klicken Sie auf die Dauer der Anwendung. Standardmäßig ist die Dauer auf -1 festgelegt, d. h. das Element wird für immer ausgeführt (d. h. eine Einzelseitenanwendung). Wird unter „Dauer“ ein Wert über 0 festgelegt, wird das Element für die angegebene Dauer angezeigt. Anschließend wird zum nächsten Element gewechselt. |
+| ***Anwendungspfad*** | Damit wird der absolute Pfad zur Anwendung festgelegt. |
+| ***Dauer (Millisekunden)*** | Damit wird die Dauer der Anwendung festgelegt. Standardmäßig ist die Dauer auf -1 festgelegt, d. h. das Element wird für immer ausgeführt (d. h. eine Einzelseitenanwendung). Wird unter „Dauer“ ein Wert über 0 festgelegt, wird das Element für die angegebene Dauer angezeigt. Anschließend wird zum nächsten Element gewechselt. |
 
 Im folgenden Beispiel sehen Sie, wie die Komponente „Anwendung“ hinzugefügt wird, einschließlich einer Vorschau ihrer Eigenschaften:
 
@@ -193,7 +193,7 @@ Die Komponente „Dynamische eingebettete Sequenz“ verfügt über die folgende
 
 ### Experience Fragment {#experience-fragment}
 
-Mit einem Experience Fragment können Sie Ihrem AEM Screens-Kanal ein Experience Fragment hinzufügen (eine Gruppe aus einer oder mehreren Komponenten, einschließlich Inhalt und Layout, auf die innerhalb von Seiten verwiesen werden kann). Ziehen Sie die Komponente in den AEM Editor und klicken Sie auf das Experience Fragment.
+Mit einem Experience Fragment können Sie Ihrem AEM Screens-Kanal ein Experience Fragment hinzufügen (eine Gruppe aus einer oder mehreren Komponenten, einschließlich Inhalt und Layout, auf die innerhalb von Seiten verwiesen werden kann). Ziehen Sie die Komponente per Drag-and-Drop in den AEM-Editor und klicken Sie auf das Experience Fragment.
 
 Weitere Informationen zum Erstellen eines Experience Fragments und dessen Anwendung auf ein AEM Screens-Projekt finden Sie unter [Verwenden von Experience Fragments](experience-fragments-in-screens.md).
 
@@ -235,11 +235,11 @@ Das Bild-Asset besitzt die drei Registerkarten **Bild**, **Erreichbarkeit** und 
 
 Mit der Komponente „Übergang“ können Sie Screens-Projekten einen Übergang hinzufügen.
 
-Die folgende Abbildung zeigt die (per Drag &amp; Drop hinzugefügte) Übergangskomponente im Editor.
+Die folgende Abbildung veranschaulicht die (per Drag-and-Drop hinzugefügte) Übergangskomponente im Editor.
 
 ![screen_shot_2019-07-25at104237am](assets/screen_shot_2019-07-25at104237am.png)
 
-Klicken Sie auf das Übergangssymbol und anschließend auf die Schaltfläche **Konfigurieren** (Schraubenschlüsselsymbol), um die **Übergang** Dialogfeld. Dieses Dialogfeld enthält drei Registerkarten:
+Klicken Sie auf das Übergangssymbol und dann auf **Konfigurieren** (Schraubenschlüsselsymbol), um das Dialogfeld **Übergang** zu öffnen. Dieses Dialogfeld enthält drei Registerkarten:
 
 * **Übergang**
 * **Sequenz**

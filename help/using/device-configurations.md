@@ -5,7 +5,7 @@ exl-id: c2e521b3-89f5-4537-a751-0bfa031286c4
 source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
 source-wordcount: '211'
-ht-degree: 60%
+ht-degree: 90%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 60%
 
 >[!NOTE]
 >
->Ein typischer Verantwortlicher für diese Aktivität ist ein Audio-Video-Integrator.
+>Ein typischer Stakeholder für diese Aktivität ist eine Person, die Audio-Video-Integration betreibt.
 
 Beantworten Sie vor Beginn der Entwicklung unter Einsatz der an *Tag 0* gesammelten Informationen folgende Fragen:
 
@@ -23,7 +23,7 @@ Beantworten Sie vor Beginn der Entwicklung unter Einsatz der an *Tag 0* gesamme
 
 * Welche Software und welches Betriebssystem müssen auf den Anzeigegeräten installiert sein?
 
-* Ist für Player eine Internetverbindung erforderlich, um die Bildschirme mit AEM-Servern zu synchronisieren?
+* Ist für Player eine Internet-Verbindung erforderlich, damit sich die Bildschirme mit AEM-Servern synchronisieren lassen?
 
 * Wann werden Inhalte auf Playern aktualisiert?
 
@@ -38,4 +38,4 @@ Beantworten Sie vor Beginn der Entwicklung unter Einsatz der an *Tag 0* gesamme
 
 >[!NOTE]
 >
->Außerdem müssen Sie die Spezifikationen der ausgewählten Hardware prüfen, um sicherzustellen, dass diese die in Entwicklung befindliche Anwendung unterstützen kann. Wenn die Anwendung beispielsweise fünf High-Definition-Videos gleichzeitig ausführen soll, unterstützt die Hardware sie?
+>Außerdem müssen Sie die Spezifikationen der ausgewählten Hardware prüfen, um sicherzustellen, dass diese die in Entwicklung befindliche Anwendung unterstützen kann. Wenn die Anwendung zum Beispiel fünf High-Definition-Videos gleichzeitig ausführen soll: Ist das mit der Hardware möglich?

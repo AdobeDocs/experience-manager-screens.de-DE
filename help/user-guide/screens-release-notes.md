@@ -12,7 +12,7 @@ exl-id: abeaed51-b18c-4366-93ef-4f05f33af649
 source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 52%
 
 >[!CAUTION]
 >
->Adobe empfiehlt ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM). AEM Screens bietet Wartungs-Support für die AEM 6.3 Screens-Plattform.
+>Adobe empfiehlt, ein Upgrade auf die neueste Version von Adobe Experience Manager (AEM) durchzuführen. AEM Screens bietet Wartungs-Support für die AEM 6.3 Screens-Plattform.
 
-AEM Screens hat AEM 6.4.2 Feature Pack 2 und AEM 6.3.3 Feature Pack 4 mit folgenden Details veröffentlicht.
+Für AEM Screens wurde AEM 6.4.2 Feature Pack 2 und AEM 6.3.3 Feature Pack 4 mit folgenden Details veröffentlicht.
 
 ## Veröffentlichungsdatum {#release-date}
 
@@ -32,12 +32,12 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 201809 ist der 1. Okto
 
 * **Adobe Analytics-Berichte als Wiedergabenachweis**: Weitere Informationen finden Sie unter [Adobe Analytics-Integration mit AEM Screens](adobe-analytics-integration-aem-screens.md).
 
-* **Adobe Analytics Player aktivieren, zwischenspeichern und senden `playback` Ereignisse in Adobe Analytics**: Siehe [Konfigurieren von Adobe Analytics mit AEM Screens](configuring-adobe-analytics-aem-screens.md) , um mehr zu erfahren.
+* **Aktivieren von Adobe Analytics in Playern zum Zwischenspeichern und Senden von `playback`-Ereignissen an Adobe Analytics**: Weitere Informationen dazu finden Sie unter [Konfigurieren von Adobe Analytics mit AEM Screens](configuring-adobe-analytics-aem-screens.md).
 
-* **Massenaktualisierung von Offline-Inhalten**: Ermöglicht das stapelweise Aktualisieren aller Kanäle und vermeidet die einfache Navigation zu einem bestimmten Kanal und die Aktualisierung des Inhalts. Weitere Informationen finden Sie unter [Massen-Offline-Update](bulk-offline-update.md).
+* **Massen-Update von Offline-Inhalten**: Damit können Sie ganze Kanäle aktualisieren, ohne extra zu einem bestimmten Kanal navigieren und den Inhalt aktualisieren zu müssen. Weitere Informationen finden Sie unter [Massen-Offline-Update](bulk-offline-update.md).
 
 * **Massenveröffentlichung von Kanälen in allen Veröffentlichungsinstanzen**
-* **Verbesserter Player-Protokollierungsmechanismus**: Sie können die Anzahl der maximalen Protokolldateien für einen AEM Screens-Player angeben. Weitere Informationen finden Sie unter [Arbeiten mit einem AEM Screens-Player](working-with-screens-player.md).
+* **Verbessertes Player-Protokollierungsverfahren**: Sie können die maximale Anzahl der Protokolldateien für einen AEM Screens-Player angeben. Weitere Informationen finden Sie unter [Arbeiten mit einem AEM Screens-Player](working-with-screens-player.md).
 
 * **Author-/Publish-Bereitstellung (Härtung)**
 
@@ -52,4 +52,4 @@ Die folgenden AEM Screens-Player sind für AEM 6.4.2 Feature Pack 2 und AEM 6.3.
 
 #### AEM Screens-Player-Downloads
 
-Informationen zum Herunterladen des neuesten AEM Screens-Players und zu weiteren Fehlerbehebungen finden Sie unter [AEM Screens Player-Downloads](https://download.macromedia.com/screens/).
+Gehen Sie zur Seite [AEM Screens-Player-Downloads](https://download.macromedia.com/screens/), um den neuesten AEM Screens-Player herunterzuladen und mehr über die Fehlerbehebungen zu erfahren.

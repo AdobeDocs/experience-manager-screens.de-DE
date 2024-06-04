@@ -9,7 +9,7 @@ exl-id: 9ffdb1eb-a1ba-42ac-a30f-260004e5b165
 source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
 source-wordcount: '825'
-ht-degree: 60%
+ht-degree: 81%
 
 ---
 
@@ -26,19 +26,19 @@ Sie können Inhalte in AEM Screens veröffentlichen und deren Veröffentlichung 
 Gehen Sie wie folgt vor, um für ein AEM Screens-Projekt Inhaltsaktualisierungen von der Autoreninstanz in der Veröffentlichungsinstanz und von dort auf einem Gerät bereitzustellen:
 
 1. Navigieren Sie zu Ihrem AEM Screens-Projekt.
-1. Klicks **Veröffentlichung verwalten** in der Aktionsleiste, damit Sie das Projekt in Ihrer Veröffentlichungsinstanz veröffentlichen können.
+1. Klicken Sie in der Aktionsleiste auf **Veröffentlichung verwalten**, um das Projekt in Ihrer Veröffentlichungsinstanz zu veröffentlichen.
 
    ![screen_shot_2019-02-25at21420pm](assets/screen_shot_2019-02-25at21420pm.png)
 
-1. Die **Veröffentlichung verwalten** Der Assistent wird geöffnet. Sie können auf die **Aktion** und planen Sie außerdem die Veröffentlichungszeit für jetzt oder später. Klicken Sie auf **Weiter**.
+1. Die **Veröffentlichung verwalten** Der Assistent wird geöffnet. Sie können auf die **Aktion** klicken und auch den Zeitpunkt der Veröffentlichung für jetzt oder später planen. Klicken Sie auf **Weiter**.
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 
-1. Aktivieren Sie das Kontrollkästchen, damit Sie auf das gesamte Projekt im **`Manage Publication`** Assistent.
+1. Markieren Sie das Kontrollkästchen, damit Sie das gesamte Projekt aus dem **`Manage Publication`**-Assistenten anklicken können.
 
    ![screen_shot_2019-02-25at22712pm](assets/screen_shot_2019-02-25at22712pm.png)
 
-1. Klicks **+ Untergeordnete Elemente einschließen** in der Aktionsleiste und deaktivieren Sie alle Optionen, damit Sie alle Module in Ihrem Projekt veröffentlichen können. Klicken Sie dann auf **Hinzufügen** zum Veröffentlichen.
+1. Klicken Sie in der Aktionsleiste auf **+ Untergeordnete Elemente einbeziehen** und deaktivieren Sie alle Optionen, damit Sie alle Module in Ihrem Projekt veröffentlichen können. Klicken Sie dann zum Veröffentlichen auf **Hinzufügen**.
 
    >[!NOTE]
    >
@@ -62,7 +62,7 @@ Mit dieser Option können Sie Aktualisierungen verwalten, die nur für die geän
 Mit dieser Option können Sie Aktualisierungen verwalten, die nur für zuvor veröffentlichte Seiten gelten.
 
 
-1. Aus dem **`Manage Publication wizard`** klicken **Veröffentlichen**.
+1. Klicken Sie im **`Manage Publication wizard`** auf **Veröffentlichen**.
 
    ![screen_shot_2019-02-25at23341pm](assets/screen_shot_2019-02-25at23341pm.png)
 
@@ -99,15 +99,15 @@ Gehen Sie wie folgt vor, um Inhaltsaktualisierungen von der Autoreninstanz in de
 >Folgen Sie diesem Abschnitt nur, wenn Änderungen in einem Kanal vorliegen. Wenn ein Kanal nach der vorherigen Aktualisierung der Offline-Inhalte keine Änderungen aufweist, funktioniert der Verwaltungs-Workflow für die Veröffentlichung eines einzelnen Kanals nicht.
 
 1. Navigieren Sie zu Ihrem AEM Screens-Projekt und klicken Sie auf den Kanal.
-1. Klicks **Veröffentlichung verwalten** in der Aktionsleiste, damit Sie den Kanal in Ihrer Veröffentlichungsinstanz veröffentlichen können.
+1. Klicken Sie in der Aktionsleiste auf die Option **Veröffentlichung verwalten**, um den Kanal in der Veröffentlichungsinstanz zu veröffentlichen.
 
    ![screen_shot_2019-02-07at115800am](assets/screen_shot_2019-02-07at115800am.png)
 
-1. Die **Veröffentlichung verwalten** Der Assistent wird geöffnet. Sie können auf die **Aktion** und planen Sie außerdem die Veröffentlichungszeit für jetzt oder später. Klicken Sie auf **Weiter**.
+1. Die **Veröffentlichung verwalten** Der Assistent wird geöffnet. Sie können auf die **Aktion** klicken und auch den Zeitpunkt der Veröffentlichung für jetzt oder später planen. Klicken Sie auf **Weiter**.
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 
-1. Klicks **Veröffentlichen** aus dem **`Manage Publication`** Assistent.
+1. Klicken Sie im Assistenten **`Manage Publication`** auf die Option **Veröffentlichen**. 
 
    ![screen_shot_2019-02-07at120507pm](assets/screen_shot_2019-02-07at120507pm.png)
 
@@ -125,6 +125,6 @@ Gehen Sie wie folgt vor, um Inhaltsaktualisierungen von der Autoreninstanz in de
 
 ### Neuzuweisung von Kanälen und Geräten: {#channel-and-device-re-assignment}
 
-Wenn Sie ein Gerät neu zugewiesen haben, veröffentlichen Sie sowohl die Erstanzeige als auch die neue Anzeige, sobald das Gerät der neuen Anzeige neu zugewiesen wurde.
+Wenn Sie ein Gerät neu zugewiesen haben, veröffentlichen Sie sowohl die Erstanzeige als auch die neue Anzeige, nachdem das Gerät der neuen Anzeige neu zugewiesen wurde.
 
-Wenn Sie einen Kanal neu zugewiesen haben, veröffentlichen Sie sowohl die Erstanzeige als auch die neue Anzeige, sobald der Kanal der neuen Anzeige neu zugewiesen wurde.
+Wenn Sie einen Kanal erneut zugewiesen haben, veröffentlichen Sie sowohl die Erstanzeige als auch die neue Anzeige, nachdem der Kanal der neuen Anzeige neu zugewiesen wurde.

@@ -1,6 +1,6 @@
 ---
 title: Anwenden von Übergängen
-description: Erfahren Sie, wie Sie Transitionen auf Ihre AEM Screens-Projekte anwenden.
+description: Erfahren Sie, wie Sie Übergänge auf Ihre AEM Screens-Projekte anwenden.
 contentOwner: jsyal
 feature: Authoring Screens
 role: Admin, Developer
@@ -9,7 +9,7 @@ exl-id: 757e6751-8008-487f-be89-9f53ac898928
 source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 45%
+ht-degree: 79%
 
 ---
 
@@ -29,7 +29,7 @@ Gehen Sie wie folgt vor, um Ihrem AEM Screens-Projekt eine Übergangskomponente 
 >
 >**Voraussetzungen**
 >
->Erstellen Sie ein AEM Screens-Projekt namens **Testprojekt** mit einem Kanal namens **Testübergang**. Richten Sie außerdem einen Standort und eine Anzeige ein, um die Ausgabe anzuzeigen.
+>Erstellen Sie ein AEM Screens-Projekt namens **Testprojekt** mit einem Kanal namens **Testübergang**. Richten Sie zudem einen Standort und eine Anzeige ein, um die Ausgabe anzuzeigen.
 
 1. Navigieren Sie zum Kanal **Testübergang** und klicken Sie in der Aktionsleiste auf **Bearbeiten**.
 
@@ -52,8 +52,8 @@ Gehen Sie wie folgt vor, um Ihrem AEM Screens-Projekt eine Übergangskomponente 
 
    >[!NOTE]
    >
-   >Standardmäßig sind die Eigenschaften der Übergangskomponente wie **Typ** auf **Überblendung** und **Dauer** auf *1600 Millisekunden*. Außerdem ist es nicht ratsam, eine Übergangsdauer festzulegen, die länger ist als das Asset, auf das sie angewendet wird.
+   >Standardmäßig sind die Eigenschaften der Übergangskomponente wie **Typ** auf **Überblendung** und die **Dauer** auf *1600 Millisekunden* eingestellt. Außerdem ist es nicht ratsam, eine Übergangsdauer festzulegen, die länger ist als die Dauer des Assets, auf das sie angewendet wird.
 
-1. Wenn Sie außerdem eine **Eingebettete Sequenz** -Komponente (die einen Sequenzkanal enthält), können Sie diesem Kanaleditor am Ende eine Übergangskomponente hinzufügen. Dadurch wird sichergestellt, dass der Inhalt in der richtigen Reihenfolge wiedergegeben wird, wie in der folgenden Abbildung dargestellt:
+1. Wenn Sie diesem Kanaleditor eine Komponente **Eingebettete Sequenz** (die einen Sequenzkanal enthält) hinzufügen, können Sie außerdem am Ende eine Übergangskomponente hinzufügen. Dadurch wird sichergestellt, dass der Inhalt in der richtigen Reihenfolge wiedergegeben wird, wie in der folgenden Abbildung dargestellt:
 
    ![image3](assets/transitions5.png)

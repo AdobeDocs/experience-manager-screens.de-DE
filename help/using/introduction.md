@@ -5,13 +5,13 @@ exl-id: 11781e0b-0aca-4d08-aaad-87a7aaf28c24
 source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
 source-wordcount: '667'
-ht-degree: 82%
+ht-degree: 87%
 
 ---
 
 # Einführung in AEM Screens {#introduction}
 
-**AEM Screens** ist eine Digital Signage-Lösung, mit der Sie dynamische und interaktive digitale Erlebnisse erstellen, veröffentlichen und wiedergeben können. Dies umfasst verschiedene Arten von lokalen Anzeigebildschirmen in Abstimmung mit einer umfassenden kanalübergreifenden digitalen Marketing-Strategie.
+**AEM Screens** ist eine Digital-Signage-Lösung, mit der Sie dynamische und interaktive digitale Erlebnisse erstellen, veröffentlichen und wiedergeben können. Dies umfasst verschiedene Arten von lokalen Anzeigebildschirmen in Abstimmung mit einer umfassenden kanalübergreifenden digitalen Marketing-Strategie.
 
 Mit AEM Screens können Sie Folgendes erstellen:
 

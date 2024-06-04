@@ -12,7 +12,7 @@ exl-id: 4a4b3a83-2b02-42a0-86a7-fce6bbf47c7d
 source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
 source-wordcount: '704'
-ht-degree: 54%
+ht-degree: 78%
 
 ---
 
@@ -29,12 +29,12 @@ Auf dieser Seite wird beschrieben, wie Sie eine Live Copy eines Kanals erstellen
 
 Gehen Sie wie folgt vor, um eine Live Copy eines Kanals in Ihrem Projektordner zu erstellen.
 
-1. Klicken Sie auf den Link Adobe Experience Manager (oben links) und dann **Screens**. Sie haben auch die Möglichkeit, direkt zur folgenden URL zu wechseln: `http://localhost:4502/screens.html/content/screens`.
+1. Wählen Sie den Adobe Experience Manager-Link (oben links) und dann **Screens** aus. Sie haben auch die Möglichkeit, direkt zur folgenden URL zu wechseln: `http://localhost:4502/screens.html/content/screens`.
 
 1. Navigieren Sie zum Screens-Projekt und klicken Sie auf **Kanäle**.
-1. Klicks **Erstellen** und klicken **Live Copy** damit Sie eine Live Copy des Kanals erstellen können.
-1. Klicken Sie auf das Ziel und klicken Sie auf **Nächste**.
-1. Klicken Sie auf den Speicherort, an dem sich die Live Copy befinden kann.
+1. Klicken Sie auf **Erstellen** und wählen Sie **Live Copy** aus, um eine Live Copy des Kanals zu erstellen.
+1. Wählen Sie das Ziel aus und klicken Sie auf **Weiter**.
+1. Wählen Sie den Speicherort aus, an dem die Live Copy gespeichert werden soll.
 1. Geben Sie auf der Seite **Live Copy erstellen** den **Titel** und den **Namen** ein.
 
 1. Klicks **Öffnen** zum Anzeigen des Inhalts der neuen Live Copy oder **Fertig** , um zur Hauptseite zurückzukehren.
@@ -71,7 +71,7 @@ Außerdem können Sie die Eigenschaften Ihres Live Copy-Kanals anzeigen.
 
    ![chlimage_1-20](assets/chlimage_1-20.png)
 
-1. Klicken Sie auf **Live Copy** -Tab, damit Sie Details zu Ihrem Kanal anzeigen können.
+1. Wählen Sie die Registerkarte **Live Copy** aus, um Details zu Ihrem Kanal anzuzeigen.
 
    ![chlimage_1-21](assets/chlimage_1-21.png)
 
@@ -83,7 +83,7 @@ Der in der folgenden Abbildung dargestellte Modus **Live Copy-Status** ermöglic
 
    ![chlimage_1-22](assets/chlimage_1-22.png)
 
-1. Klicks **Live Copy-Status** sodass Sie die Vorschauseite anzeigen können.
+1. Wählen Sie **Live Copy-Status** aus, um die Vorschauseite anzuzeigen.
 
    Bei allen Ressourcen mit grünem Rand wurde der Inhalt des ursprünglichen Kanals übernommen.
 
@@ -93,7 +93,7 @@ Der in der folgenden Abbildung dargestellte Modus **Live Copy-Status** ermöglic
 
 Sie können auch die Vererbung der Live Copy aufheben, sodass der Inhalt von der ursprünglichen Verzweigung unabhängig wird.
 
-Das folgende Beispiel zeigt, dass Sie auf das Bild im Bearbeitungsmodus klicken und oben rechts auf das Symbol Vererbung abbrechen klicken.
+Das folgende Beispiel zeigt, wie Sie das Bild im Modus „Bearbeiten“ auswählen und oben rechts auf das Symbol zum Aufheben der Vererbung klicken.
 
 ![chlimage_1-24](assets/chlimage_1-24.png)
 
@@ -103,7 +103,7 @@ Wenn Sie Änderungen oder Aktualisierungen im ursprünglichen Kanal vornehmen, p
 
 Führen Sie die folgenden Schritte aus, um sicherzustellen, dass Ihre Änderungen vom ursprünglichen Kanal auf den Live Copy-Kanal übertragen werden:
 
-1. Klicken Sie auf den ursprünglichen Kanal (***Idle Channel***) und klicken Sie auf **Bearbeiten** in der Aktionsleiste aus.
+1. Wählen Sie den ursprünglichen Kanal (***Idle Channel*** (inaktiver Kanal)) aus und klicken Sie in der Aktionsleiste auf **Bearbeiten**.
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
@@ -111,21 +111,21 @@ Führen Sie die folgenden Schritte aus, um sicherzustellen, dass Ihre Änderunge
 
    ![chlimage_1-26](assets/chlimage_1-26.png)
 
-1. Klicken Sie auf die Live Copy des Kanals (***IdleLiveCopy***) und klicken Sie auf **Bearbeiten** in der Aktionsleiste aus. Beachten Sie, dass das von Ihnen gelöschte Bild noch in der Live Copy sichtbar ist.
+1. Wählen Sie die Live Copy des Kanals (***IdleLiveCopy***) aus und klicken Sie in der Aktionsleiste auf **Bearbeiten**. Beachten Sie, dass das von Ihnen gelöschte Bild noch in der Live Copy sichtbar ist.
 
    Um die Änderungen zu übertragen, müssen Sie den Kanal synchronisieren.
 
    ![chlimage_1-27](assets/chlimage_1-27.png)
 
-1. Um Änderungen an den Live Copy-Kanal zu übertragen, navigieren Sie zum AEM Dashboard, klicken Sie auf den Live Copy-Kanal und klicken Sie auf **Eigenschaften** in der Aktionsleiste aus.
+1. Um Änderungen in den Live Copy-Kanal zu übertragen, navigieren Sie zum AEM-Dashboard. Wählen Sie dann den Live Copy-Kanal aus und klicken Sie in der Aktionsleiste auf **Eigenschaften**.
 
    ![chlimage_1-28](assets/chlimage_1-28.png)
 
-1. Klicken Sie auf **Live Copy** Registerkarte und klicken Sie auf **Synchronisieren** in der Aktionsleiste aus.
+1. Klicken Sie auf die Registerkarte **Live Copy** und klicken Sie in der Aktionsleiste auf **Synchronisieren**.
 
    ![chlimage_1-29](assets/chlimage_1-29.png)
 
-1. Klicks **Synchronisieren** Klicken Sie auf **Speichern und schließen** , um zum AEM Dashboard zurückzukehren.
+1. Klicken Sie auf **Synchronisieren** und dann auf **Speichern und schließen**, um zum AEM-Dashboard zurückzukehren.
 
    ![chlimage_1-30](assets/chlimage_1-30.png)
 

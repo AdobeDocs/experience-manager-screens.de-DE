@@ -13,7 +13,7 @@ exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
 source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
 source-wordcount: '623'
-ht-degree: 68%
+ht-degree: 82%
 
 ---
 
@@ -23,18 +23,18 @@ In diesem Abschnitt wird eine Funktionalität beschrieben, mit der Sie verschied
 
 ## Einführung {#introduction}
 
-Wenn Sie ein AEM Screens-Projekt zum ersten Mal in Ihrem Unternehmen einrichten, erstellen Sie auch alle Standorte. Wenn Ihr Projekt viele Standorte umfasst, führt dies zu einer mühsamen Aufgabe, die viel Auswahl und Warten in der Benutzeroberfläche erfordert.
+Wenn Sie zum ersten Mal in Ihrer Organisation ein AEM Screens-Projekt einrichten, müssen Sie auch alle Standorte erstellen. Bei einem Projekt mit vielen Standorten ist dies eine durchaus mühsame Aufgabe, mit großem Auswahlaufwand und entsprechender Warterei in der Benutzeroberfläche.
 
 Das Ziel dieser Funktion ist es, die Zeit für die Einrichtung des Projekts zu reduzieren und somit Budgetierungsprobleme zu lösen.
 
 Diese Funktion ermöglicht es dem Autor, eine Tabelle als Eingabedatei bereitzustellen und das System automatisch die Standortstruktur im Back-End erstellen zu lassen:
 
-* *erzielt deutlich bessere Leistung als die manuelle Auswahl über die Benutzeroberfläche*
+* *Dies ist wesentlich effizienter als eine manuelle Auswahl in der Benutzeroberfläche.*
 * *ermöglicht dem Kunden den Export seiner Standorte aus seinem eigenen System und den einfachen Import direkt in AEM*
 
 Dadurch sparen Sie Zeit und Geld bei der ersten Projekteinrichtung oder beim Erweitern der bestehenden AEM Screens auf neue Standorte.
 
-## Architektonischer Überblick {#architectural-overview}
+## Architektonische Übersicht {#architectural-overview}
 
 Das folgende Diagramm zeigt die Architekturübersicht für die Projekt-Importer-Funktion:
 
@@ -85,7 +85,7 @@ Im folgenden Abschnitt wird beschrieben, wie der Projekt-Importer in einem AEM S
 
 Zu Demozwecken können Sie eine Excel-Datei aus dem folgenden Abschnitt herunterladen.
 
-[Abrufen der Datei](assets/minimal-file.xls)
+[Datei abrufen](assets/minimal-file.xls)
 
 ### Importieren der Datei mit den erforderlichen Mindestfeldern {#importing-the-file-with-minimum-required-fields}
 
@@ -101,13 +101,13 @@ Gehen Sie wie folgt vor, um eine Datei mit den erforderlichen Mindestfeldern in 
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. Klicken Sie auf das Projekt &quot;DemoProjectImporter&quot;. **>** Erstellen **>** Importverzeichnisse** aus der Seitenleiste.
+1. Klicken Sie auf das Projekt *DemoProjectImporter“ **>** „Erstellen“ **>** „Importverzeichnisse“ aus der Seitenleiste.
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 
-1. Der **Importassistent** wird angezeigt. Klicken Sie auf die Datei für Ihr Projekt mit Standorten oder klicken Sie auf die Datei (***minimal-file.xls***), die Sie aus dem *Voraussetzungen* Abschnitt.
+1. Der **Importassistent** wird angezeigt. Klicken Sie auf die Datei mit den Standorten für Ihr Projekt oder die Datei ***minimal-file.xls***, die Sie im Abschnitt *Voraussetzungen* heruntergeladen haben.
 
-   Klicken Sie nach Auswahl der Datei auf **Nächste**.
+   Klicken Sie nach Auswahl der Datei auf **Weiter**.
 
    ![screen_shot_2019-05-15at113718am](assets/screen_shot_2019-05-15at113718am.png)
 

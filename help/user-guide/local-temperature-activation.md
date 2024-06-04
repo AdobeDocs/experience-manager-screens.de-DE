@@ -1,6 +1,6 @@
 ---
 title: Temperaturaktivierung für ein Reiseangebot
-description: Erfahren Sie, wie Sie mit AEM Screens anhand dieses Anwendungsbeispiels die Verwendung der Temperaturaktivierung für ein Reiseangebot anhand der in Google Tabellen angegebenen Werte veranschaulichen.
+description: Sehen Sie sich das folgende Nutzungsszenario an, das die Verwendung einer lokalen Temperaturaktivierung im Reisezentrum anhand der in Google-Tabellen eingegebenen Werte mithilfe von AEM Screens veranschaulicht.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
@@ -13,7 +13,7 @@ exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
 source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
 source-wordcount: '444'
-ht-degree: 40%
+ht-degree: 94%
 
 ---
 
@@ -23,11 +23,11 @@ Das folgende Anwendungsbeispiel veranschaulicht die Verwendung der Temperaturakt
 
 ## Beschreibung {#description}
 
-Wenn der Wert in Google Tabellen für diesen Anwendungsfall unter 50 liegt, wird ein Bild mit heißen Getränken angezeigt. Wenn der Wert größer oder gleich 50 ist, wird ein Bild mit kalten Getränken angezeigt. Wenn ein anderer Wert oder gar kein Wert vorhanden ist, zeigt der Player ein Standardbild an.
+Wenn der Wert in Google-Tabellen für diesen Anwendungsfall unter 50 liegt, wird ein Bild mit heißen Getränken angezeigt. Wenn der Wert größer oder gleich 50 ist, wird ein Bild mit kalten Getränken angezeigt. Wenn ein anderer Wert oder gar kein Wert vorhanden ist, zeigt der Player ein Standardbild an.
 
 ## Voraussetzungen {#preconditions}
 
-Bevor Sie mit der Implementierung der temperaturgesteuerten Aktivierung eines Reiseangebots beginnen, erfahren Sie, wie Sie ***Datenspeicher***, ***Zielgruppensegmentierung*** und ***Targeting für Kanäle aktivieren*** in einem AEM Screens-Projekt.
+Bevor Sie mit der Implementierung der lokalen Temperaturaktivierung im Reisezentrum beginnen, sollten Sie wissen, wie Sie ***Datenspeicher***, ***Zielgruppensegmentierung*** und ***Targeting für Kanäle aktivieren*** in einem AEM Screens-Projekt einrichten.
 
 Genaue Informationen dazu finden Sie unter [Konfigurieren von ContextHub in AEM Screens](configuring-context-hub.md).
 
@@ -38,7 +38,7 @@ Gehen Sie wie folgt vor, um das Anwendungsbeispiel für die temperaturgesteuerte
 1. **Ausfüllen der Google Tabellen**
 
    1. Navigieren Sie zur Google Tabelle „ContextHubDemo“.
-   1. Hinzufügen einer Spalte mit **`Heading1`** mit dem entsprechenden Temperaturwert.
+   1. Fügen Sie eine Spalte mit **`Heading1`** mit dem entsprechenden Temperaturwert hinzu.
 
    ![screen_shot_2019-05-08at112911am](assets/screen_shot_2019-05-08at112911am.png)
 
@@ -46,21 +46,21 @@ Gehen Sie wie folgt vor, um das Anwendungsbeispiel für die temperaturgesteuerte
 
    1. Navigieren Sie zu den Segmenten in Ihrer Zielgruppe (siehe ***Schritt 2: Einrichten der Zielgruppensegmentierung*** auf der Seite **[Konfigurieren von ContextHub in AEM Screens](configuring-context-hub.md)**, um mehr zu erfahren).
 
-   1. Klicken Sie auf **Blätter A1 1** und klicken **Bearbeiten**.
+   1. Klicken Sie auf **Tabellen A1 1** und dann auf **Bearbeiten**.
 
    1. Klicken Sie auf die Vergleichseigenschaft und dann auf das Konfigurationssymbol.
-   1. Klicks **googlesheets/value/1/0** aus der Dropdown-Liste **Eigenschaftsname**
+   1. Klicken Sie auf **googlesheets/value/1/0** aus der Dropdown-Liste in **Eigenschaftsname**.
 
-   1. Klicken Sie auf **Operator** as **greater-than-or-equal** aus dem Dropdownmenü
+   1. Wählen Sie für den **Operator** in der Dropdown-Liste **größer oder gleich** aus.
 
    1. Geben Sie den **Wert** als **50** ein
 
-   1. Wählen Sie auf ähnliche Weise die **Blätter A1 2** und klicken **Bearbeiten**.
+   1. Wählen Sie nun **Tabellen A1 2** aus und klicken Sie auf **Bearbeiten**.
 
-   1. Klicken Sie auf **Vergleichseigenschaft - Wert** und wählen Sie das Konfigurationssymbol aus.
-   1. Klicks **googlesheets/value/1/0** aus der Dropdown-Liste **Eigenschaftsname**
+   1. Klicken Sie auf die Option **Vergleichseigenschaft – Wert** und wählen Sie das Konfigurationssymbol aus.
+   1. Klicken Sie auf **googlesheets/value/1/0** aus der Dropdown-Liste in **Eigenschaftsname**.
 
-   1. Klicken Sie auf **Operator** as **kleiner als** aus dem Dropdownmenü
+   1. Wählen Sie für den **Operator** in der Dropdown-Liste **kleiner als** aus
 
    1. Geben Sie den **Wert** als **50** ein
 
@@ -78,13 +78,13 @@ Gehen Sie wie folgt vor, um das Anwendungsbeispiel für die temperaturgesteuerte
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
-1. Klicks **Targeting** Klicken Sie im Editor auf **Marke** und **Aktivität** aus dem Dropdown-Menü aus und klicken Sie auf **Targeting starten**.
+1. Klicken Sie im Editor auf **Targeting**, wählen Sie danach die **Marke** und die **Aktivität** aus dem Dropdown-Menü und klicken Sie auf **Targeting starten**.
 
    ![new_activity3](assets/new_activity3.gif)
 
 1. **Überprüfen der Vorschau**
 
    1. Klicken Sie auf **Vorschau**. Öffnen Sie außerdem Ihre Google Tabelle und aktualisieren Sie den Wert.
-   1. Ändern Sie den Wert in weniger als 50. Sie können ein Bild eines kalten Getränks sehen. Wenn der Wert in Google Tabellen 50 oder höher ist, sollte ein Bild eines heißen Getränks angezeigt werden.
+   1. Ändern Sie den Wert in weniger als 50. Sie können ein Bild eines kalten Getränks sehen. Wenn der Wert in Google Sheets 50 oder höher ist, sollten Sie ein Bild eines heißen Getränks sehen.
 
    ![result3](assets/result3.gif)

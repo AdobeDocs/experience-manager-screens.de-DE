@@ -8,7 +8,7 @@ exl-id: 6f90b864-eaa0-4b74-a47e-b0967a550552
 source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
 source-wordcount: '523'
-ht-degree: 73%
+ht-degree: 80%
 
 ---
 
@@ -46,7 +46,7 @@ Gehen Sie wie folgt vor, um die Datenauslöser auf den Veröffentlichungs-Server
    >
    >Wenn der Test fehlschlägt, korrigieren Sie die Konfiguration des Replikationsagenten zwischen der Autoreninstanz und der Veröffentlichungsinstanz. Weitere Informationen finden Sie unter [Fehlerbehebung bei der Testverbindung](/help/user-guide/replicating-data-triggers.md#troubleshoot-test).
 
-1. Klicks **Hinzufügen** aus dem **Verteilungsagent** Bildschirmstruktur und klicken Sie auf den Konfigurationspfad für Ihr Projekt, z. B. `/conf/screens/settings/cloudsettings/configuration`.
+1. Klicken Sie in der Struktur des Bildschirms **Verteilungsagent** auf **Hinzufügen** und klicken Sie auf den Konfigurationspfad für Ihr Projekt, zum Beispiel `/conf/screens/settings/cloudsettings/configuration`.
 
 1. Klicken Sie auf **Absenden**.
 
@@ -70,7 +70,7 @@ Gehen Sie wie folgt vor, um die Datenauslöser auf den Veröffentlichungs-Server
 
 1. Führen Sie einen Drilldown in Ihren Projektordner durch, also `/content/campaigns/screens/…`.
 
-1. Klicken Sie in der -Benutzeroberfläche auf alle Aktivitäten.
+1. Klicken Sie in der Benutzeroberfläche auf alle Aktivitäten.
 
 1. Klicken Sie in der Aktionsleiste auf **Veröffentlichung verwalten**.
 

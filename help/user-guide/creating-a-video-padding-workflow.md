@@ -1,6 +1,6 @@
 ---
-title: Erstellen eines Workflows für den Videoabstand
-description: Erfahren Sie mehr über das Erstellen eines Videoabstand im Workflow für Ihre Assets.
+title: Erstellen eines Workflows für Video-Padding
+description: Erfahren Sie, wie Sie Video-Padding im Workflow für Ihre Assets erstellen.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
@@ -13,11 +13,11 @@ exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
 source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
 source-wordcount: '565'
-ht-degree: 55%
+ht-degree: 87%
 
 ---
 
-# Erstellen eines Workflows für den Videoabstand {#creating-a-video-padding-workflow}
+# Erstellen eines Workflows für Video-Padding {#creating-a-video-padding-workflow}
 
 In diesem Abschnitt werden folgende Themen behandelt:
 
@@ -44,9 +44,9 @@ Bevor Sie einen Workflow für Videos erstellen, müssen Sie die folgenden Voraus
 
 ![screen_shot_2018-10-17at85307pm](assets/screen_shot_2018-10-17at85307pm.png)
 
-## Erstellen eines Workflows für den Videoabstand {#creating-a-video-padding-workflow-1}
+## Erstellen eines Workflows für Video-Padding {#creating-a-video-padding-workflow-1}
 
-Erstellen Sie zum Erstellen eines Workflows für den Videoabstand einen Workflow für Ihr Video und verwenden Sie diesen dann in Ihrem AEM Screens-Projektkanal.
+Um einen Video-Padding-Workflow zu erstellen, erstellen Sie einen Workflow für Ihr Video und verwenden Sie diesen dann im Kanal Ihres AEM Screens-Projekts.
 
 Gehen Sie wie folgt vor, um den Workflow zu erstellen und zu verwenden:
 
@@ -59,7 +59,7 @@ Gehen Sie wie folgt vor, um einen Workflow für Ihr Video zu erstellen:
 
 1. Navigieren Sie zu Ihrer AEM-Instanz.
 1. Klicken Sie in der Seitenleiste auf die Tools.
-1. Klicks **Workflow** > **Modelle** sodass Sie ein Modell erstellen können.
+1. Klicken Sie auf **Workflow** > **Modelle**, um ein Modell zu erstellen.
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
@@ -67,31 +67,31 @@ Gehen Sie wie folgt vor, um einen Workflow für Ihr Video zu erstellen:
 
    ![screen_shot_2018-10-17at90747pm](assets/screen_shot_2018-10-17at90747pm.png)
 
-1. Nachdem Sie das Workflow-Modell erstellt haben, klicken Sie auf das Modell (**VideoRendition**) und klicken Sie auf **Bearbeiten** in der Aktionsleiste aus.
+1. Nachdem Sie das Workflow-Modell erstellt haben, klicken Sie auf das Modell (**VideoRendition**) und dann in der Aktionsleiste auf **Bearbeiten**.
 
    ![screen_shot_2018-10-17at91256pm](assets/screen_shot_2018-10-17at91256pm.png)
 
-1. Ziehen Sie die **`Command Line`** -Komponente zu Ihrem Workflow hinzufügen.
+1. Ziehen Sie die Komponente **`Command Line`** per Drag-and-Drop in Ihren Workflow.
 
    ![screen_shot_2018-10-22at14846pm](assets/screen_shot_2018-10-22at14846pm.png)
 
-1. Klicken Sie auf **`Command Line`** und öffnen Sie das Dialogfeld &quot;Eigenschaften&quot;.
+1. Klicken Sie auf die Komponente **`Command Line`** und öffnen Sie das Dialogfeld „Eigenschaften“.
 
    ![screen_shot_2018-10-17at95752pm](assets/screen_shot_2018-10-17at95752pm.png)
 
 1. Klicken Sie auf die Registerkarte **Argumente.**
-1. Im **Befehlszeile - Schritteigenschaften** im Dialogfeld **MIME-Typen** (as ***video/mp4***) und der Befehl als (***/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920:height=1080:x=0:y=0:color=black&quot; cq5dam.video.fullhd-hp.mp4**). Mit diesem Befehl wird der Workflow im **Befehle** -Feld.
+1. Geben Sie im Dialogfeld **Befehlszeile – Schritt-Eigenschaften** unter **MIME-Typen** das Format (***video/mp4***) und unter „Befehle“ den Befehl (***/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920:height=1080:x=0:y=0:color=black&quot; cq5dam.video.fullhd-hp.mp4**) ein. Mit diesem Befehl wird der Workflow im Feld **Befehle** gestartet.
 
    Einzelheiten zu **Mime-Typen** und **Befehlen** finden Sie in der unten stehenden Anmerkung.
 
    ![screen_shot_2018-10-18at105300am](assets/screen_shot_2018-10-18at105300am.png)
 
 1. Klicken Sie auf den Workflow (**VideoRenditions**).
-1. Klicks **Workflow starten** in der Aktionsleiste aus.
+1. Klicken Sie in der Aktionsleiste auf **Workflow starten**.
 
    ![screen_shot_2018-10-18at105335am](assets/screen_shot_2018-10-18at105335am.png)
 
-1. Im **Workflow ausführen** Klicken Sie im Dialogfeld auf den Pfad Ihres Assets im **Nutzlast** (as ***/content/dam/huseinpeyda-crossroads01_512kb 2.mp4***) und geben Sie die **Titel** as ***RunVideo*** und klicken **Ausführen**.
+1. Wählen Sie im Dialogfeld **Workflow ausführen** unter **Nutzlast** (***/content/dam/huseinpeyda-crossroads01_512kb 2.mp4***) den Pfad Ihres Assets aus, geben Sie unter **Titel** den Wert ***RunVideo*** ein und klicken Sie auf **Ausführen**.
 
    ![screen_shot_2018-10-18at112043am](assets/screen_shot_2018-10-18at112043am.png)
 
@@ -107,7 +107,7 @@ Gehen Sie wie folgt vor, um den Workflow in Ihrem AEM Screens-Projekt zu verwend
 
    ![screen_shot_2018-10-17at102806pm](assets/screen_shot_2018-10-17at102806pm.png)
 
-1. Klicken Sie nach dem Hochladen des Videos auf **Vorschau** , um die Ausgabe anzuzeigen.
+1. Wenn Sie das Video hochgeladen haben, klicken Sie auf **Vorschau**, um die Ausgabe anzuzeigen.
 
    ![screen_shot_2018-10-22at15151pm](assets/screen_shot_2018-10-22at15151pm.png)
 

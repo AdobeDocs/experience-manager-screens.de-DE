@@ -1,17 +1,17 @@
 ---
 title: Richtlinien zur Hardware-Auswahl für Player-Geräte
-description: Erfahren Sie mehr über Richtlinien zur Hardware-Auswahl für AEM Screens Player-Geräte.
+description: Erfahren Sie mehr über Richtlinien zur Hardware-Auswahl für AEM Screens-Player-Geräte.
 source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
 
 # Richtlinien zur Hardware-Auswahl für Player-Geräte {#hardware-selection}
 
-Im folgenden Abschnitt finden Sie die Richtlinien zur Hardware-Auswahl für einen AEM Screens-Player.
+Der folgende Abschnitt enthält Richtlinien zur Hardware-Auswahl für einen AEM Screens-Player.
 
 ## Wichtige Aspekte {#important-considerations}
 
@@ -20,7 +20,7 @@ Im folgenden Abschnitt finden Sie die Richtlinien zur Hardware-Auswahl für eine
 * Arbeiten Sie immer mit Anbietern, die den Markt für Digital Signage bedienen.
 * Berücksichtigen Sie stets Umgebungsfaktoren wie Umgebungstemperatur und relative Luftfeuchtigkeit.
 * Überprüfen Sie stets Strombedarf und Stromkonditionierung.
-* Überprüfen Sie sorgfältig die für die Anwendung erforderlichen Leistungsanforderungen und I/O-Anschlüsse.
+* Prüfen Sie sorgfältig die für die Anwendung erforderlichen Leistungsanforderungen und E/A-Anschlüsse.
 
 ## Hardware-Konfigurationen {#hardware-configurations}
 
@@ -46,7 +46,7 @@ In der folgenden Tabelle sind die Hardware-Konfigurationen mit typischen Anwendu
    <td><p>*Chrome OS 32 GB</p> <p>•Windows 128 GB</p> </td>
    <td>OnBoard</td>
    <td>1920 x 1080</td>
-   <td>DVI<br /> Ethernet/Wireless,<br /> 2xUSB</td>
+   <td>DVI,<br /> Ethernet/Wireless,<br /> 2x USB</td>
    <td>
     <ul>
      <li>Standardschleife im Vollbildmodus<br /> </li>

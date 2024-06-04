@@ -9,7 +9,7 @@ exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
 source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
 source-wordcount: '291'
-ht-degree: 78%
+ht-degree: 81%
 
 ---
 
@@ -71,4 +71,4 @@ Gehen Sie wie folgt vor, um das Massen-Offline-Update für ein AEM Screens-Proje
 
    **Zeitplanfrequenz**: Geben Sie einen Zeitpunkt an, z. B. 17:00 Uhr, zu dem dieser Service Offline-Inhalte aktualisieren soll.
 
-1. Klicks **Speichern** sodass Sie Ihre Einstellungen speichern können. Alle Ihre Inhalte werden zum angegebenen Zeitpunkt aktualisiert.
+1. Klicken Sie auf **Speichern**, damit Sie Ihre Einstellungen speichern können. Alle Ihre Inhalte werden zum angegebenen Zeitpunkt aktualisiert.

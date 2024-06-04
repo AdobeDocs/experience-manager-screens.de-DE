@@ -12,7 +12,7 @@ exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
 source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
 source-wordcount: '368'
-ht-degree: 62%
+ht-degree: 76%
 
 ---
 
@@ -24,7 +24,7 @@ Durch die Kombination von Zeitplänen mit ***Dayparting*** können Sie einen glo
 
 >[!NOTE]
 >
->Diese AEM Screens-Funktion ist nur verfügbar, wenn Sie das Feature Pack 1 für AEM 6.3 Sites installiert haben. Um Zugriff auf dieses Feature Pack zu erhalten, wenden Sie sich an den Adobe-Support und fordern Sie Zugriff an. Nachdem Sie die erforderlichen Berechtigungen erhalten haben, können Sie es von Package Share herunterladen.
+>Diese AEM Screens-Funktion ist nur verfügbar, wenn Sie das Feature Pack 1 für AEM 6.3 Sites installiert haben. Wenden Sie sich an den Adobe-Support, um Zugriff auf dieses Feature Pack zu erhalten.  Nachdem Sie die erforderlichen Berechtigungen erhalten haben, können Sie es von Package Share herunterladen.
 
 ## Erstellen eines Zeitplans {#creating-a-schedule}
 
@@ -32,10 +32,10 @@ Sie können für Ihr Screens-Projekt einen Zeitplan erstellen, in dem alle Aktiv
 
 Gehen Sie wie folgt vor, um einen Zeitplan für Ihren Kanal zu erstellen:
 
-1. Klicken Sie auf den Link Adobe Experience Manager (oben links) und dann auf Screens. Sie haben auch die Möglichkeit, direkt zur folgenden URL zu wechseln: `http://localhost:4502/screens.html/content/screens`.
+1. Klicken Sie auf den Link zu Adobe Experience Manager (oben links) und dann auf „Screens“.  Sie haben auch die Möglichkeit, direkt zur folgenden URL zu wechseln: `http://localhost:4502/screens.html/content/screens`.
 1. Navigieren Sie zum Screens-Projekt und klicken Sie auf **Zeitpläne**.
 1. Klicken Sie in der Aktionsleiste auf **Erstellen**.
-1. Klicks **Zeitplan** aus dem **Erstellen** Assistent und klicken Sie auf **Nächste**.
+1. Klicken Sie im Assistenten **Erstellen** auf **Zeitplan** und dann auf **Weiter**.
 
 1. Geben Sie den **Namen** und den **Titel** ein und klicken Sie auf **Erstellen**.
 
@@ -62,4 +62,4 @@ Führen Sie die folgenden Schritte aus, um sich das Dashboard für den Zeitplan 
 
    **Bedienfeld „Zugewiesene Kanäle“** Klicken Sie in der oberen rechten Ecke des Bedienfelds „ZUGEWIESENE KANÄLE“ auf „+ Kanal zuweisen“, um das Dialogfeld „Kanalzuweisung“ zu öffnen.
 
-   **Bedienfeld &quot;Zugewiesene Anzeigen&quot;** Klicken Sie auf eine der Anzeigen im Bedienfeld ZUGEWIESENE ANZEIGEN , um das Anzeigen-Dashboard zu öffnen.
+   **Bedienfeld „Zugewiesene Anzeigen“** Klicken Sie im Bedienfeld „ZUGEWIESENE ANZEIGEN“ auf beliebige Anzeigen, um das Anzeigen-Dashboard zu öffnen.

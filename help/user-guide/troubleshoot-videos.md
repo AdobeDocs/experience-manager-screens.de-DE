@@ -12,7 +12,7 @@ exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
 source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
 source-wordcount: '799'
-ht-degree: 68%
+ht-degree: 80%
 
 ---
 
@@ -24,7 +24,7 @@ In den folgenden Abschnitten werden das Debugging und die Problembehebung für d
 
 ## DAM-Ausgaben {#dam-renditions}
 
-Nachdem Sie das Video in den Kanal hochgeladen haben, sollten AEM damit beginnen, einige Ausgabeformate dafür zu erstellen. Sie können Ihre Videos unter „Assets“ anzeigen.
+Nachdem Sie das Video in den Kanal hochgeladen haben, sollte AEM damit beginnen, einige Ausgaben dafür zu erzeugen. Sie können Ihre Videos unter „Assets“ anzeigen.
 
 So zeigen Sie das Video an:
 
@@ -73,11 +73,11 @@ Wenn unter dem Video kein Quellattribut angezeigt wird, wurde das Video möglich
 
 Prüfen Sie die Liste der Profile über die Design-Seite, wenn die Videokomponente nicht korrekt konfiguriert ist.
 
-1. Navigieren Sie zu Ihrem Kanal und klicken Sie auf das **Design** -Modus.
+1. Navigieren Sie zu Ihrem Kanal und klicken Sie auf den Modus **Design**.
 
    ![chlimage_1-6](assets/chlimage_1-6.png)
 
-1. Klicken Sie auf das Video und öffnen Sie das **Bearbeiten** angezeigt. Öffnen Sie die Registerkarte **Profile**.
+1. Wählen Sie das Video aus und öffnen Sie das Dialogfeld **Bearbeiten**. Öffnen Sie die Registerkarte **Profile**.
 
    >[!NOTE]
    >Klicken Sie auf verschiedene Profile (mindestens sollte das Profil &quot;Hohe Qualität H.264&quot;vorhanden sein).
@@ -91,9 +91,9 @@ Wenn das Video in Safari nicht läuft, funktioniert es auch nicht bei den OS X-
 Gehen Sie wie folgt vor, um einen DAM-Workflow zum Erstellen von FullHD-Wiedergaben zu verwenden:
 
 1. Navigieren Sie zur *Workflow-Modelladministration*, d. h. `http://localhost:4502/libs/cq/workflow/admin/console/content/models.html/etc/workflow/models`.
-1. Klicken Sie auf **Screens-Asset aktualisieren** -Modell.
-1. Klicks **Workflow starten** in der Aktionsleiste aus.
-1. Aus dem **Workflow ausführen** Klicken Sie im Dialogfeld auf Ihr Video-Asset im **Nutzlast**.
+1. Wählen Sie das Modell **Screens – Asset aktualisieren** aus.
+1. Klicken Sie in der Symbolleiste auf **Workflow starten**.
+1. Wählen Sie im Dialogfeld **Workflow ausführen** Ihr Video-Asset in der **Payload** aus.
 1. Klicken Sie auf **Ausführen**.
 
 >[!NOTE]
@@ -102,7 +102,7 @@ Gehen Sie wie folgt vor, um einen DAM-Workflow zum Erstellen von FullHD-Wiederga
 
 #### Problembehebung für das Flag „Autoplay-Richtlinie“ {#troubleshooting-autoplay-policy-flag}
 
-Wenn der AEM Screens-Player das Video zwar abruft, aber nicht anzeigt, führen Sie eine Fehlerbehebung für das Flag Autoplay-Richtlinie durch.
+Falls der AEM Screens-Player das Video zwar abruft, aber nicht anzeigt, müssen Sie eine Problembehebung für das Flag „Autoplay-Richtlinie“ durchführen.
 
 Führen Sie folgende Schritte aus, um das Problem mit dem Flag „Autoplay-Richtlinie“ von Google zu beheben:
 
@@ -135,7 +135,7 @@ Die absolute Strategie:
 
 Führen Sie die folgenden Schritte durch, um eine absolute Strategie einzurichten:
 
-1. Navigieren Sie zu Ihrem Kanalautor und klicken Sie auf die Sequenzkomponente , wie in der folgenden Abbildung dargestellt.
+1. Navigieren Sie zur Autoreninstanz Ihres Kanals und wählen Sie die Sequenzkomponenten wie in der nachfolgenden Abbildung gezeigt aus.
 1. Öffnen Sie das Konfigurations-Dialogfeld.
 1. Bearbeiten Sie die **Strategie** und fügen Sie „absolut“ hinzu.
 

@@ -1,6 +1,6 @@
 ---
 title: Offline-Kanäle
-description: Erfahren Sie mehr darüber, wie AEM Screens Player mithilfe der ContentSync-Technologie Offline-Unterstützung für Kanäle bietet.
+description: Erfahren Sie mehr darüber, wie der AEM Screens-Player mithilfe der ContentSync-Technologie eine Offline-Unterstützung für Kanäle bietet.
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -13,24 +13,24 @@ exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
 source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
 source-wordcount: '427'
-ht-degree: 50%
+ht-degree: 80%
 
 ---
 
 # Offline-Kanäle {#offline-channels}
 
-Der Screens-Player bietet Offline-Unterstützung für die Kanäle durch Verwendung der ***ContentSync*** Technologie.
+Der Screens-Player bietet eine Offline-Unterstützung für die Kanäle mithilfe der Technologie ***ContentSync***.
 
 Die Player verwenden einen lokalen HTTP-Server, um den entpackten Inhalt bereitzustellen.
 
-Wenn ein Kanal für die Ausführung konfiguriert ist *online*, stellt der Player die Kanalressourcen durch Zugriff auf den AEM bereit. Wenn der Kanal jedoch für die Ausführung konfiguriert ist *offline*, stellt der Player die Kanalressourcen von einem lokalen HTTP-Server bereit.
+Wenn ein Kanal so konfiguriert ist, dass er *online* läuft, stellt der Player die Kanal-Ressourcen durch Zugriff auf den AEM-Server bereit. Wenn der Kanal jedoch so konfiguriert ist, dass er *offline* läuft, stellt der Player die Kanalressourcen von einem lokalen HTTP-Server bereit.
 
-Der Workflow für den Prozess ist der folgende:
+Der Workflow für den Prozess ist wie folgt:
 
-1. Analysieren Sie die gewünschten Seiten.
-1. Sammeln Sie alle zugehörigen Assets.
-1. Verpacken Sie alles in einer ZIP-Datei.
-1. Laden Sie die ZIP-Datei herunter und extrahieren Sie sie lokal.
+1. Analysieren der gewünschten Seiten.
+1. Sammeln aller zugehörigen Assets.
+1. Verpacken aller Elemente in einer ZIP-Datei.
+1. Herunterladen und lokales Extrahieren der ZIP-Datei.
 1. Anzeigen einer lokalen Kopie des Inhalts.
 
 ## Update-Handler {#update-handlers}
@@ -95,12 +95,12 @@ Befolgen Sie die folgenden Schritte, um die Offline-Konfiguration für einen Kan
    ![chlimage_1-24](assets/chlimage_1-24.png)
 
 1. Navigieren Sie zum Kanal-Dashboard.
-1. Klicks **...** im **KANALINFORMATIONEN** Bedienfeld.
+1. Klicken Sie im Bedienfeld **KANALINFORMATIONEN** auf **…**.
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
 1. Navigieren Sie zu den Kanaleigenschaften.
-1. Vergewissern Sie sich auf der Registerkarte (Kanal), dass das Kontrollkästchen deaktiviert ist, und klicken Sie dann auf **Speichern und schließen**.
+1. Vergewissern Sie sich auf der Registerkarte ((Kanal)), dass das Kontrollkästchen deaktiviert ist, und klicken Sie dann auf **Speichern und schließen**.
 
    ![screen_shot_2017-12-19at122422pm](assets/screen_shot_2017-12-19at122422pm.png)
 

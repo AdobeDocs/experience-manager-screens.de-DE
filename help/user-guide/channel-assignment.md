@@ -8,7 +8,7 @@ exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
 source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
 source-wordcount: '1179'
-ht-degree: 83%
+ht-degree: 88%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 83%
 >[!IMPORTANT]
 >In diesem Abschnitt wird die Kanalzuweisung und -zeitplanung für Feature Packs beschrieben, die älter als AEM 6.5.5 Screens-Version sind.
 
-Wenn Sie eine Anzeige eingerichtet haben, weisen Sie einen Kanal einer Anzeige zu, um Ihren Inhalt anzuzeigen.
+Wenn Sie eine Anzeige eingerichtet haben, weisen Sie der Anzeige einen Kanal zu, um Ihren Inhalt anzuzeigen.
 
 Auf dieser Seite wird beschrieben, wie Sie Ihrer Anzeige einen Kanal zuweisen.
 
@@ -32,11 +32,11 @@ Gehen Sie wie folgt vor, um einer Anzeige einen Kanal zuzuweisen:
 
    ![Bild](assets/screen_shot_2018-08-23at25359pm.png)
 
-1. Klicks **Kanal zuweisen** in der Aktionsleiste.
+1. Klicken Sie in der Aktionsleiste auf **Kanal zuweisen**.
 
    ODER
 
-   Klicks **Dashboard** und klicken **+Kanal zuweisen** aus dem **ZUGEWIESENE KANÄLE** -Bedienfeld, damit Sie **Kanalzuweisung** Dialogfeld.
+   Klicken Sie auf **Dashboard** und dann im Bedienfeld **ZUGEWIESENE KANÄLE** auf **+ Kanal zuweisen**, um das Dialogfeld **Kanalzuweisung** zu öffnen.
 
    ![image](/help/user-guide/assets/channel-assign1.png)
 
@@ -58,7 +58,7 @@ Mit „Kanalrolle“ wird der Kontext der Anzeige definiert. Die Rolle ermöglic
 
 ### Priorität {#priority-channel}
 
-Die Priorität wird verwendet, um die Zuweisungen in eine Reihenfolge zu bringen, wenn mehrere Zuweisungen den Wiedergabekriterien entsprechen. Höhere Werte haben stets Vorrang vor niedrigeren Werten. Angenommen, es gibt zwei Kanäle, A und B. Wenn A die Priorität 1 und B die Priorität 2 hat, wird Kanal B angezeigt, da er eine höhere Priorität als A hat.
+Die Priorität wird verwendet, um die Zuweisungen in eine Reihenfolge zu bringen, wenn es mehrere Zuweisungen gibt, die den Wiedergabekriterien entsprechen. Höhere Werte haben stets Vorrang vor niedrigeren Werten. Angenommen, es gibt zwei Kanäle, A und B. Wenn A die Priorität 1 und B die Priorität 2 hat, wird Kanal B angezeigt, da er eine höhere Priorität als A hat.
 
 >[!NOTE]
 >Die Priorität eines Kanals wird als Zahl (1 für Minimum) im Dialogfeld **Kanalzuweisung** festgelegt, wie oben angegeben. Außerdem werden die zugewiesenen Kanäle nach absteigender Priorität sortiert.
@@ -76,7 +76,7 @@ Die Priorität wird verwendet, um die Zuweisungen in eine Reihenfolge zu bringen
 >
 > Diese Option ist nur mit <!--AEM 6.4 Feature Pack 8 or -->AEM 6.5 Feature Pack 4 verfügbar.
 
-Geben Sie als Inhaltsautor an, wann ein Kanal unterbrochen wird. Auf diese Weise können Sie nicht kritische Inhalte abschneiden, falls gewünscht, aber optional wichtige Inhalte abspielen lassen, bevor die Wiedergabe aufgrund der Zeitplanung abgebrochen wird.
+Als Inhaltsautorin oder Inhaltsautor können Sie festlegen, wann ein Kanal unterbrochen wird. Auf diese Weise können Sie nicht kritische Inhalte abschneiden, falls gewünscht, aber optional wichtige Inhalte abspielen lassen, bevor die Wiedergabe aufgrund der Zeitplanung abgebrochen wird.
 
 Klicken Sie auf eine der folgenden Optionen, die verfügbar sind, um die Unterbrechungsmethode über die **Kanalzuweisung** Dialogfeld:
 

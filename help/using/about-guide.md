@@ -5,7 +5,7 @@ exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
 source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 74%
+ht-degree: 75%
 
 ---
 
@@ -15,8 +15,8 @@ Das AEM Screens Best Practices-Handbuch enthält Anleitungen dazu, wie Sie ein A
 
 Zur Zielgruppe für dieses Dokument gehören:
 
-* *AEM-Implementoren*
-* *Audio-Video-Integratoren*
+* *Personen, die für die AEM-Implementierung zuständig sind*
+* *Personen, die für die Audio-Video-Integration zuständig sind*
 * *Geschäftsstrategen*
 * *Projektmanager*
 * *Berater*

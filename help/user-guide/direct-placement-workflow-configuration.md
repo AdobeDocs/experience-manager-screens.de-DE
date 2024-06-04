@@ -4,7 +4,7 @@ description: Auf dieser Seite wird die Konfiguration des Workflows für die dire
 source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
 source-wordcount: '189'
-ht-degree: 84%
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,7 @@ In diesem Abschnitt werden folgende Themen behandelt:
 
 Die Konfiguration des Workflows für die direkte Platzierung ordnet einen Kanal in einem AEM Screens-Projekt einem bestimmten Ordner in Assets zu und ermöglicht die Platzierung von Assets in diesem Ordner. Adobe empfiehlt, ein Massen-Offline-Update auszulösen, um die Veröffentlichung abzuschließen.
 
-Alternativ können Sie als Inhaltsautor manuell auf **Offline-Inhalt aktualisieren**.
+Alternativ können Inhaltsautorinnen und Inhaltsautoren manuell auf **Offline-Inhalt aktualisieren** klicken.
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ Alternativ können Sie als Inhaltsautor manuell auf **Offline-Inhalt aktualisier
 
 >[!IMPORTANT]
 >
->Installieren Sie vor Beginn der Konfiguration die `[Demo  Package](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip)`. Nachdem Sie das Paket installiert haben, sollten Sie es über Ihre AEM-Instanz > „Tools“ (Symbol) > **Workflow** > **Workflow-Modelle** anzeigen und darauf zugreifen können.
+>Installieren Sie `[Demo  Package](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip)`, bevor Sie mit der Konfiguration beginnen. Nachdem Sie das Paket installiert haben, sollten Sie es über Ihre AEM-Instanz > „Tools“ (Symbol) > **Workflow** > **Workflow-Modelle** anzeigen und darauf zugreifen können.
 
 So konfigurieren Sie den Workflow für die direkte Platzierung:
 

@@ -5,7 +5,7 @@ exl-id: 164bf664-15ce-4032-9ee8-5d52903b3ac9
 source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
 source-wordcount: '269'
-ht-degree: 75%
+ht-degree: 79%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 75%
 
 >[!NOTE]
 >
->Ein typischer Verantwortlicher für diese Aktivität ist ein Marketing-/Geschäftsstratege.
+>Die typischen Stakeholder für diese Aktivität sind Marketing-/Geschäftsstrateginnen und -strategen.
 
 Die Ideen, Annahmen und Abhängigkeiten, die zuvor in der UX Journey Map definiert wurden, müssen mithilfe von UX-Prototypen getestet werden.
 

@@ -8,7 +8,7 @@ exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
 source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
 source-wordcount: '1447'
-ht-degree: 79%
+ht-degree: 88%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 79%
 >
 >In diesem Abschnitt wird die Kanalzuweisung und -zeitplanung für AEM 6.5.5 Screens Feature Pack (und höher) beschrieben.
 
-Wenn Sie eine Anzeige eingerichtet haben, weisen Sie einen Kanal einer Anzeige zu, um Ihren Inhalt anzuzeigen.
+Wenn Sie eine Anzeige eingerichtet haben, weisen Sie der Anzeige einen Kanal zu, um Ihren Inhalt anzuzeigen.
 
 Auf dieser Seite wird beschrieben, wie Sie Ihrer Anzeige einen Kanal zuweisen. Außerdem werden Kanaleigenschaften und Dayparting erklärt.
 
@@ -44,7 +44,7 @@ Gehen Sie wie folgt vor, um ein Projekt und einen Kanal einzurichten:
 
 1. Erstellen Sie einen Sequenzkanal mit dem Namen **Cafeteria** im Ordner **Kanäle**.
 
-1. Klicken Sie auf den Kanal und dann auf **Bearbeiten** in der Aktionsleiste aus.
+1. Klicken Sie auf den Kanal und anschließend in der Aktionsleiste auf **Bearbeiten**.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp2.png)
 
@@ -58,7 +58,7 @@ Gehen Sie wie folgt vor, um ein Projekt und einen Kanal einzurichten:
 
 ### Zuweisen eines Kanals zu einer Anzeige {#assigning-channel-to-display}
 
-Wenn die Projekteinrichtung abgeschlossen ist, weisen Sie den Kanal einer Anzeige zu, um den Inhalt anzuzeigen.
+Wenn das Projekt fertig eingerichtet ist, weisen Sie dem Kanal eine Anzeige zu, um den Inhalt anzuzeigen.
 
 1. Navigieren Sie zur gewünschten Anzeige, z. B. **DemoScreens** > **Standorte** > **SanJose** > **Lobby**.
 
@@ -68,7 +68,7 @@ Wenn die Projekteinrichtung abgeschlossen ist, weisen Sie den Kanal einer Anzeig
 
    ODER
 
-   Klicks **Dashboard** Klicken Sie in der Aktionsleiste auf **+Kanal zuweisen** aus dem **ZUGEWIESENE KANÄLE UND ZEITPLÄNE** Bedienfeld.
+   Klicken Sie in der Aktionsleiste auf **Dashboard** und dann im Bedienfeld **ZUGEWIESENE KANÄLE UND ZEITPLÄNE** auf **+ Kanal zuweisen**.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
@@ -84,7 +84,7 @@ Wenn die Projekteinrichtung abgeschlossen ist, weisen Sie den Kanal einer Anzeig
    >
    >Weitere Informationen zu den Kanalzuweisungseigenschaften finden Sie unter [Kanaleigenschaften](#channel-properties) Abschnitt.
 
-1. Aus dem **Zeitplan** und klicken Sie auf die **Aktivierungsfenster** und **Wiederholungsplan**.
+1. Klicken Sie unter **Zeitplan** auf **Aktivierungsfenster** und **Intervallzeitplan**.
    ![Bild](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
@@ -95,7 +95,7 @@ Wenn die Projekteinrichtung abgeschlossen ist, weisen Sie den Kanal einer Anzeig
 
 ### Anzeigen von Inhalten im Chrome-Player {#viewing-content-output}
 
-In diesem Beispiel wird die Ausgabe auf einem Chrome-Player beschrieben. Wenn Sie den Kanal Ihrer Anzeige zugewiesen haben, registrieren Sie das Gerät bei einem Player.
+In diesem Beispiel wird die Ausgabe auf einem Chrome-Player beschrieben. Registrieren Sie das Gerät bei einem Player, nachdem Sie den Kanal Ihrer Anzeige zugewiesen haben.
 
 Informationen zum Registrieren eines Geräts auf einem AEM Screens-Player finden Sie unter [Geräteregistrierung](device-registration.md).
 
@@ -115,7 +115,7 @@ Führen Sie die folgenden Schritte aus, um zur Timeline-Ansicht zu navigieren:
 
    ODER
 
-   Klicks **Dashboard** und klicken **Timeline** aus dem **ZUGEWIESENE KANÄLE UND ZEITPLÄNE** Bedienfeld.
+   Klicken Sie auf **Dashboard** und dann im Bedienfeld **ZUGEWIESENE KANÄLE UND ZEITPLÄNE** auf **Timeline**.
 
    ![Bild](/help/user-guide/assets/channel-assignment/timeline-1.png)
 
@@ -138,7 +138,7 @@ Mit „Kanalrolle“ wird der Kontext der Anzeige definiert. Verschiedene Aktion
 
 ### Priorität {#priority-channel}
 
-Die Priorität wird verwendet, um die Zuweisungen in eine Reihenfolge zu bringen, wenn mehrere Zuweisungen den Wiedergabekriterien entsprechen. Höhere Werte haben stets Vorrang vor niedrigeren Werten. Angenommen, es gibt zwei Kanäle, A und B. Wenn A die Priorität 1 und B die Priorität 2 hat, wird Kanal B angezeigt, da er eine höhere Priorität als A hat.
+Die Priorität wird verwendet, um die Zuweisungen in eine Reihenfolge zu bringen, wenn es mehrere Zuweisungen gibt, die den Wiedergabekriterien entsprechen. Höhere Werte haben stets Vorrang vor niedrigeren Werten. Angenommen, es gibt zwei Kanäle, A und B. Wenn A die Priorität 1 und B die Priorität 2 hat, wird Kanal B angezeigt, da er eine höhere Priorität als A hat.
 
 >[!NOTE]
 >
@@ -156,7 +156,7 @@ Die Priorität wird verwendet, um die Zuweisungen in eine Reihenfolge zu bringen
 >[!IMPORTANT]
 > Diese Option ist nur mit <!--AEM 6.4 Feature Pack 8 or-->AEM 6.5 Feature Pack 4 verfügbar.
 
-Als Inhaltsautor können Sie festlegen, wann ein Kanal unterbrochen wird. Auf diese Weise können Sie nicht-kritische Inhalte wegschneiden. Die Methode bietet Ihnen jedoch auch die Möglichkeit, wichtige Inhalte vollständig wiederzugeben, bevor Sie sie aufgrund der Planung kürzen.
+Als Inhaltsautorin oder Inhaltsautor können Sie festlegen, wann ein Kanal unterbrochen wird. Auf diese Weise können Sie nicht-kritische Inhalte wegschneiden. Die Methode bietet Ihnen jedoch auch die Möglichkeit, wichtige Inhalte vollständig wiederzugeben, bevor Sie sie aufgrund der Planung kürzen.
 
 Wählen Sie eine der folgenden Optionen aus, die verfügbar sind, um die Unterbrechungsmethode über die **Kanalzuweisung** Dialogfeld:
 

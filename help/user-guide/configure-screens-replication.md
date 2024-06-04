@@ -7,7 +7,7 @@ exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
 source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
 source-wordcount: '465'
-ht-degree: 64%
+ht-degree: 78%
 
 ---
 
@@ -42,7 +42,7 @@ Gehen Sie wie folgt vor, um Benutzende zu aktivieren und das Kennwort für `scre
 
 1. Suchen Sie nach **`screens-receiver-user`**.
 
-1. Klicken Sie auf **`screens-receiver-user`** und klicken **Aktivieren** in der Aktionsleiste aus.
+1. Klicken Sie auf **`screens-receiver-user`** und dann in der Aktionsleiste auf **Aktivieren**.
 
    ![Bild](/help/user-guide/assets/screens-replication/screens-replication2.png)
 
@@ -50,11 +50,11 @@ Gehen Sie wie folgt vor, um Benutzende zu aktivieren und das Kennwort für `scre
 
    ![Bild](/help/user-guide/assets/screens-replication/screens-replication3.png)
 
-   Wenn Sie den Benutzer aktiviert haben, sehen Sie die **`screens-receiver-user`** as **Aktiviert** unter **Status** -Feld.
+   Wenn Sie das Benutzerprofil aktiviert haben, wird **`screens-receiver-user`** im Feld **Status** als **Aktiviert** aufgeführt.
 
    ![Bild](/help/user-guide/assets/screens-replication/screens-replication4.png)
 
-1. Klicken Sie auf **`screens-receiver-user`** und klicken **Eigenschaften** in der Aktionsleiste aus.
+1. Klicken Sie auf **`screens-receiver-user`** und dann in der Aktionsleiste auf **Eigenschaften**.
 
    ![Bild](/help/user-guide/assets/screens-replication/screens-replication5.png)
 
@@ -71,7 +71,7 @@ Gehen Sie wie folgt vor, um Benutzende zu aktivieren und das Kennwort für `scre
 
 1. Klicken Sie auf **Speichern und schließen**.
 
-1. Klicken Sie auf **`screens-receiver-user`** und klicken **Aktivieren** in der Aktionsleiste aus.
+1. Klicken Sie auf **`screens-receiver-user`** und dann in der Aktionsleiste auf **Aktivieren**.
 
    ![Bild](/help/user-guide/assets/screens-replication/screens-replication8.png)
 
@@ -79,7 +79,7 @@ Gehen Sie wie folgt vor, um Benutzende zu aktivieren und das Kennwort für `scre
 
    ![Bild](/help/user-guide/assets/screens-replication/screens-replication9.png)
 
-1. Klicken Sie auf **`screens-receiver-user`** und klicken **Deaktivieren** in der Aktionsleiste aus.
+1. Klicken Sie auf **`screens-receiver-user`** und dann in der Aktionsleiste auf **Deaktivieren**.
 
    >[!IMPORTANT]
    > Durch Deaktivieren von **`screens-receiver-user`** wird nur dieses Benutzerprofil in der Autoreninstanz deaktiviert. Alle Benutzenden in der Veröffentlichungsinstanz bleiben weiterhin aktiv. Klicken Sie in der Aktionsleiste nicht auf **Deaktivieren**, da dadurch das Benutzerprofil auch aus den Veröffentlichungsinstanzen entfernt wird.
@@ -125,7 +125,7 @@ Gehen Sie zum Aktualisieren der Einstellungen für den AEM Screens-Replikationsa
 
 1. Klicken Sie auf **OK**.
 
-1. Nachdem Sie die vorherigen Schritte ausgeführt haben, klicken Sie auf **Verbindung testen** , um die Verbindung zu überprüfen.
+1. Nachdem Sie alle vorherigen Schritte ausgeführt haben, klicken Sie auf **Verbindung testen**, um die Verbindung zu überprüfen.
 
    ![Bild](/help/user-guide/assets/screens-replication/screens-replication1g.png)
 
