@@ -3,9 +3,9 @@ title: Tagging in Screens Cloud
 description: Auf dieser Seite wird beschrieben, wie Tags in Screens Cloud erstellt, verwaltet und verwendet werden können.
 index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
-source-git-commit: 6c59d86d7c2224994686320381632b9150287fca
+source-git-commit: 62036fb6149d4babfeba69261af0bc4904ae0e82
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Benutzer können Tags in der Screens Cloud erstellen und diese zum Klassifiziere
 
 ## Erstellen und Verwalten von Tags {#create-and-manage-tags}
 
-![VIDEO-Tag erstellen](assets/tagging/create-tag.mp4).
+![Tag erstellen](assets/tagging/create-tag.gif).
 
 Verwenden Sie dasselbe Aktionsmenü, um ein Tag umzubenennen oder zu löschen.
 
@@ -35,13 +35,13 @@ Verwenden Sie dasselbe Aktionsmenü, um ein Tag umzubenennen oder zu löschen.
 
 Verwenden Sie erstellte Tags auf Anzeigen und Playern. Sie können eines mit maximal 30 Tags taggen.
 
-![VIDEO verwaltet Tagzuweisungen](assets/tagging/assign-tags-to-players.mp4).
+![Verwalten von Tag-Zuweisungen](assets/tagging/assign-tags-to-players.gif).
 
 ## Nach Tags filtern {#filter-by-tags}
 
 Wählen Sie Tags aus, um die Liste der Anzeigen oder Player zu filtern.
 
-![VIDEO-Filter nach Tags](assets/tagging/filter-by-tags.mp4).
+![nach Tags filtern](assets/tagging/filter-by-tags.gif).
 
 >[!NOTE]
 > 
