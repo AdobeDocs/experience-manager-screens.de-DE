@@ -3,9 +3,9 @@ title: Prototypen
 description: Auf dieser Seite werden Prototypen für ein AEM Screens-Projekt beschrieben.
 exl-id: 164bf664-15ce-4032-9ee8-5d52903b3ac9
 source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '269'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ In dieser Projektphase geht es mehr um die Kernfunktionen als um die Verfeinerun
 In der Regel werden in dieser Phase Beispielinhalte oder FPO-Inhalte verwendet. So können das Projekt-Management-Team sowie wichtige Stakeholder größere Lücken im UX-Fluss und mögliche Timing-Probleme bei der Wiedergabe und damit zusammenhängenden Trigger-Ereignissen identifizieren.
 In der Phase können sich auch potenzielle Probleme mit der Positionierung, Skalierung und Größe von Assets zeigen.
 
-Durch Prototypen des Erlebnisses können Sie verschiedene Szenarien für die Nutzung des Inhalts simulieren. Sie können simulieren, welche Interaktionen auftreten können und welche externen Datenabhängigkeiten zu einer Unterbrechung des beabsichtigten Erlebnisflusses führen können.
+Durch Prototypen für das Erlebnis können Sie verschiedene Szenarien für die Nutzung des Inhalts simulieren. Sie können simulieren, welche Interaktionen auftreten können und welche Abhängigkeiten von externen Daten zu einer Unterbrechung des beabsichtigten Erlebnisflusses führen können.
 
 Es wurden verschiedene Anwendungsfälle erarbeitet, die als Referenz oder Ausgangspunkt für die Prototypen bestimmter Erlebnisse dienen können.
 

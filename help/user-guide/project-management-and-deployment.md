@@ -11,9 +11,9 @@ role: User, Data Architect
 level: Beginner
 exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
 source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '654'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Diese Seite enthält den 4. Teil einer 5-teiligen Reihe, die sich mit dem Projek
 
 Diese Seite deckt die Projektvorbereitung, Projektinitiierung und Projektfortschritt ab.
 
-Es ist für alle Beteiligten wichtig zu verstehen, wofür der Audio-Video-Integrator verantwortlich ist, und sicherzustellen, dass dokumentierte Pläne anhand der in dieser Folge behandelten Punkte entwickelt werden.
+Es ist wichtig, dass alle Beteiligten verstehen, wofür die für die Audio-Video-Integration verantwortliche Person zuständig ist, und dass auf der Grundlage der in dieser Phase behandelten Punkte dokumentierte Pläne erstellt werden.
 
 >[!NOTE]
 >
@@ -39,16 +39,16 @@ Zur Sicherstellung einer erfolgreichen Digital-Signage-Bereitstellung ist es üb
 
 ### Aktivitäten am Tag 0 {#day-zero-activities}
 
-Die erste Phase heißt ***Tag 0***. Diese Phase umfasst alle Pre-Sales- und Erkundungsbemühungen, die zur Definition des Projektumfangs erforderlich sind. Der zweite Schritt, ***Tag 1***, bezieht sich auf alle Aktivitäten, die Teil der Bereitstellung sind. Schließlich ***Tag 2*** bezieht sich auf alle laufenden Vorgänge und Support-Elemente, die Teil der Gesamtlösung sind.
+Der erste Schritt wird als ***Tag 0*** bezeichnet. Dieser Schritt umfasst alle Pre-Sales- und Erkundungsbemühungen, die zur Definition des Projektumfangs erforderlich sind. Der zweite Schritt, ***Tag 1***, bezieht sich auf alle Aktivitäten, die Teil der Bereitstellung sind. ***Tag 2*** bezieht sich auf alle laufenden Operationen und unterstützenden Elemente, die Teil der Gesamtlösung sind.
 
-Zu den Aktivitäten am Tag 0 gehören Pre-Sales, Kundenerkennung, Analyse der Anwendungsanforderungen und Definition des Projektumfangs. Diese Phase kann auch die anfängliche Interaktion und Definition der Projektanforderungen für das Projektmanagement in Vorbereitung auf die Bereitstellung umfassen.
+Zu den Aktivitäten am Tag 0 gehören Pre-Sales, Kundenerkennung, Analyse der Anwendungsanforderungen und Definition des Projektumfangs. Dieser Schritt kann auch die erste Einbeziehung und Definition der Projektanforderungen für das Projekt-Management zur Vorbereitung der Bereitstellung umfassen.
 
 Tag 0 besteht aus acht wichtigen Schritten, die alle Aspekte des Projekt-Managements abdecken:
 
 * Festlegen des Arbeitsumfangs
 * Festlegen des Projektzeitplans
 * Festlegen des Anbieters und der Eigenleistung
-* Beschaffen von Ausrüstungen zu Arbeitsblättern
+* Beschaffen von Ausrüstung zum Schneiden von Blechen
 * Planen und Beschaffen von Standortgenehmigungen
 * Planen des Standortzugriffs
 * Stromversorgung und Konnektivität
@@ -70,9 +70,9 @@ Wenn eine Vertriebschance in ein Projekt übergeht, wird ein Auftakt-Meeting gep
 
 ### Aktivitäten am Tag 2 {#day-two-activities}
 
-Der letzte Teil einer Tag-1-Initiative ist die Durchführung einer NOC-Übergabe. Wenn ein abgeschlossenes Projekt Service und Support für Tag 2 enthält, organisiert der Projekt-Manager ein NOC-Übergabe-Meeting mit den Supervisoren dieser Teams.
+Der letzte Teil einer Tag-1-Initiative ist die Durchführung einer NOC-Übergabe. Wenn ein abgeschlossenes Projekt Service und Support für Tag 2 umfasst, organisiert die Projektleitung ein NOC-Übergabe-Meeting mit den Vorgesetzten dieser Teams.
 
-Dieses Meeting setzt sich hauptsächlich aus Personen zusammen, die für die Audio-Video-Integration in den Bereichen Kundenbetreuung, Netzwerkbetrieb, Außendienstlogistik, Inhaltsdienste und Buchhaltung zuständig sind. Das Projekt-Management-Team von Adobe, die für die Audio-Video-Implementierung zuständige Person und die Endkundin bzw. der Endkunde sind gemeinsam beteiligt, wobei die für die Audio-Video-Integration zuständige Person den Zeitplan, die Kadenz und Entscheidungspunkte festlegt. Projektmanager sind in der Regel am besten in der Lage, Diskussionen zu koordinieren, um die Abstimmung der entsprechenden Parteien sicherzustellen und die erforderliche Dokumentation für das NOC-Übergabe-Meeting zu entwickeln. Die kritische Support-Dokumentation stammt wahrscheinlich von der IT und/oder Audio-Video-Technik sowie von Vertriebs- und Account-Management-Ressourcen aller beteiligten Parteien. Für alle Kundinnen und Kunden, die Helpdesk-Unterstützung von einem NOC benötigen, muss den NOC-Vorgesetzten Dokumentation zum Hochladen auf eine Knowledgebase-Plattform zur Verfügung gestellt werden.
+Dieses Meeting setzt sich hauptsächlich aus Personen zusammen, die für die Audio-Video-Integration in den Bereichen Kundenbetreuung, Netzwerkbetrieb, Außendienstlogistik, Inhaltsdienste und Buchhaltung zuständig sind. Das Projekt-Management-Team von Adobe, die für die Audio-Video-Implementierung zuständige Person und die Endkundin bzw. der Endkunde sind gemeinsam beteiligt, wobei die für die Audio-Video-Integration zuständige Person den Zeitplan, die Kadenz und Entscheidungspunkte festlegt. Projekt-Managerinnen und -Manager sind in der Regel am besten in der Lage, Diskussionen zu koordinieren, um die Abstimmung der entsprechenden Parteien sicherzustellen und die erforderlichen Unterlagen für das NOC-Übergabe-Meeting zu entwickeln. Die kritische Support-Dokumentation stammt wahrscheinlich von der IT und/oder Audio-Video-Technik sowie von Vertriebs- und Account-Management-Ressourcen aller beteiligten Parteien. Für alle Kundinnen und Kunden, die Helpdesk-Unterstützung von einem NOC benötigen, muss den NOC-Vorgesetzten Dokumentation zum Hochladen auf eine Knowledgebase-Plattform zur Verfügung gestellt werden.
 
 ## Teil 4: Video-Tutorial zu Projekt-Management und Bereitstellung {#part-video-tutorial-on-project-management-and-deployment}
 
@@ -86,4 +86,4 @@ Erfahren Sie mehr über das Projekt-Management sowie die Bereitstellungsvorberei
 
 ## Der nächste Schritt {#the-next-step}
 
-Wenn Sie die wichtigsten Überlegungen zum Projekt-Management für AEM Screens-Bereitstellungen befolgen, navigieren Sie zu **[Teil 5: Support-Aspekte](support-considerations.md)** damit Sie Tag 2-Support und die damit verbundenen Prozesse verstehen.
+Wenn Sie mit den wichtigsten Überlegungen zum Projekt-Management für die Bereitstellung von AEM Screens fertig sind, navigieren Sie zu **[Teil 5: Überlegungen zum Support](support-considerations.md)**, damit Sie den Tag 2-Support und die damit verbundenen Prozesse verstehen.

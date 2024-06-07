@@ -11,9 +11,9 @@ role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
 source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '779'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Rufen Sie das Bedienfeld **Gerätedetails** auf, um dort die Geräte-IP, Speiche
 
 ![chlimage_1-1](assets/chlimage_1-1.png)
 
-Klicken Sie außerdem auf **Cache löschen** und **Aktualisieren** , um den Cache Ihres Geräts zu löschen und die [Firmware](screens-glossary.md) -Version aus diesem Bedienfeld aus.
+Klicken Sie außerdem auf **Zwischenspeicher löschen** und **Aktualisieren**, um über dieses Bedienfeld den Zwischenspeicher Ihres Geräts zu löschen bzw. die Version der [Firmware](screens-glossary.md) zu aktualisieren.
 
 Klicken Sie darüber hinaus oben rechts im Bedienfeld **Gerätedetails** auf die Auslassungspunkte (**…**), um den Player neu zu starten bzw. den Status zu aktualisieren.
 
@@ -144,13 +144,13 @@ AEM ermöglicht die integrierte Überwachung für:
 
 * *Heartbeat* alle fünf Sekunden, um anzugeben, dass der AEM Screens-Player betriebsbereit ist.
 * *Screenshot* des Players, um zu sehen, was derzeit im Player angezeigt wird.
-* Die *AEM Screens Player-Firmware* auf dem Player installiert ist.
+* Die Version der *AEM Screens-Player-Firmware*, die auf dem Player installiert ist.
 * *Freier Speicherplatz* auf dem Player.
 
 Empfehlungen für die Remote-Überwachung mit Software von Drittanbietern:
 
-* CPU-Auslastung in Playern.
-* Überprüfen Sie, ob der AEM Screens Player-Prozess ausgeführt wird.
+* CPU-Auslastung auf den Playern.
+* Überprüfung, ob der Prozess für AEM Screens-Player ausgeführt wird.
 * Remote Neustart/Reboot des Players.
 * Benachrichtigungen in Echtzeit.
 

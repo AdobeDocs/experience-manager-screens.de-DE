@@ -3,9 +3,9 @@ title: Dauer der Bildwiedergabe auf Projektebene
 description: Erfahren Sie, wie Sie die Dauer der Bildwiedergabe auf der Projektebene festlegen.
 contentOwner: jsyal
 source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '329'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Mit dieser Funktion können Sie die Dauer der Bildwiedergabe auf der Projekteben
 Bevor Sie mit der Verwendung dieser Funktion beginnen, richten Sie ein Projekt als Voraussetzung für die Implementierung dieser Funktion ein.  Zum Beispiel:
 
 1. Erstellen eines AEM Screens-Projekts (in diesem Beispiel **ProjectLevelPlayback**).
-1. Erstellen eines Sequenzkanals als **PlayBackChannel** unter **Kanäle** Ordner.
+1. Erstellen eines Sequenzkanals als **PlaybackChannel** im Ordner **Kanäle**.
 1. Hinzufügen von Inhalten zum **PlayBackChannel**
 
    ![Assets](assets/image_playback1.png)

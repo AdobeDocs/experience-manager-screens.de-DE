@@ -1,6 +1,6 @@
 ---
 title: Erstellen und Verwalten von Zeitplänen
-description: Erfahren Sie mehr über Zeitpläne, mit denen Sie Kanäle in wiederverwendbare Gruppen organisieren können, sodass Sie ihre Zuweisung nicht einzeln wiederholen müssen.
+description: Erfahren Sie mehr über Zeitpläne, mit denen Sie Ihre Kanäle in wiederverwendbare Gruppen organisieren können, sodass Sie die Zuweisung nicht einzeln wiederholen müssen.
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,15 +10,15 @@ role: Admin, Developer
 level: Intermediate
 exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
 source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '368'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
 # Erstellen und Verwalten von Zeitplänen {#creating-and-managing-schedules}
 
-**Zeitpläne** In AEM Screens können Sie Kanäle zu wiederverwendbaren Gruppen zusammenfassen. Dies bedeutet, dass Sie nicht für jede einzelne Anzeige, in der Sie Ihren Inhalt anzeigen möchten, eine neue Zuweisung vornehmen müssen.
+Mit **Zeitplänen** in AEM Screens können Sie Kanäle zu wiederverwendbaren Gruppen zusammenfassen. Dies bedeutet, dass Sie die Zuweisung nicht für jeden Bildschirm, auf dem Sie Ihre Inhalte anzeigen möchten, wiederholen müssen.
 
 Durch die Kombination von Zeitplänen mit ***Dayparting*** können Sie einen globalen Zeitplan mit mehreren Kanälen festlegen, die zu bestimmten Tageszeiten ausgeführt werden. Diese Einstellung können dann für alle Anzeigen wiederverwendet werden.
 
@@ -30,7 +30,7 @@ Durch die Kombination von Zeitplänen mit ***Dayparting*** können Sie einen glo
 
 Sie können für Ihr Screens-Projekt einen Zeitplan erstellen, in dem alle Aktivitäten für Ihren Anwendungsfall verwaltet werden.
 
-Gehen Sie wie folgt vor, um einen Zeitplan für Ihren Kanal zu erstellen:
+Führen Sie die folgenden Schritte aus, um einen Zeitplan für Ihren Kanal zu erstellen:
 
 1. Klicken Sie auf den Link zu Adobe Experience Manager (oben links) und dann auf „Screens“.  Sie haben auch die Möglichkeit, direkt zur folgenden URL zu wechseln: `http://localhost:4502/screens.html/content/screens`.
 1. Navigieren Sie zum Screens-Projekt und klicken Sie auf **Zeitpläne**.
@@ -44,7 +44,7 @@ In Ihrem Projekt wird daraufhin ein Zeitplanordner mit dem zugewiesenen Namen un
 
 ## Anzeigen des Dashboards {#viewing-dashboard}
 
-Nachdem Sie einen Ordner Zeitpläne in Ihrem Projekt erstellt haben, können Sie die Details im Dashboard Zeitpläne anzeigen.
+Sobald Sie den Zeitplanordner in Ihrem Projekt erstellt haben, können Sie sich die Details im Zeitplan-Dashboard ansehen.
 
 Führen Sie die folgenden Schritte aus, um sich das Dashboard für den Zeitplan anzeigen zu lassen. Das folgende Beispiel veranschaulicht, wie das Dashboard des `We.Retail`-Projekts angezeigt wird:
 

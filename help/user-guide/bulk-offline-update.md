@@ -11,9 +11,9 @@ role: Admin, Developer
 level: Intermediate
 exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
 source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Sie können diese Aktivität auch für eine Zeit mit geringerem Netzwerk-Traffic
 
 ## Verwenden des Massen-Offline-Updates {#using-bulk-offline-update}
 
-Sie können das Massen-Offline-Update manuell über die Benutzeroberfläche (UI) verwenden oder die Massenaktualisierung über OSGi-Dienste planen.
+Sie können das Massen-Offline-Update manuell über die Benutzeroberfläche (UI) verwenden oder ein Massen-Update über OSGi-Services planen.
 
 ### Verwenden der AEM Screens-Benutzeroberfläche {#using-aem-screens-user-interface}
 
@@ -59,7 +59,7 @@ Gehen Sie wie folgt vor, um das Massen-Offline-Update für ein AEM Screens-Proje
 Gehen Sie wie folgt vor, um das Massen-Offline-Update für ein AEM Screens-Projekt zu verwenden:
 
 1. Konfiguration der Adobe Experience Manager-Web-Konsole.
-1. Suchen Sie nach Massen-Offline-Aktualisierungsdiensten.
+1. Suchen Sie nach den Services für das Massen-Offline-Update.
 
    ![screen_shot_2018-04-24at121428pm](assets/screen_shot_2018-04-24at121428pm.png)
 

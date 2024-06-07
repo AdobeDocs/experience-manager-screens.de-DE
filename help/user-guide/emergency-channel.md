@@ -10,9 +10,9 @@ role: Admin, Developer
 level: Intermediate
 exl-id: d409ba46-b48a-44db-b305-27c392cd55de
 source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '712'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 90%
 
 ## Anwendungsfall – Beschreibung {#use-case-description}
 
-In diesem Abschnitt wird ein Anwendungsfallbeispiel beschrieben. Es wird das Erstellen und Verwalten eines Notfallkanals betont, den der Inhaltsautor von einem Sequenzkanal wechseln kann, wenn eine Bedingung vorliegt.
+In diesem Abschnitt wird ein Beispiel für einen Anwendungsfall beschrieben. Der Hauptaspekt liegt auf der Erstellung und Verwaltung eines Notfallkanals, den die Inhaltsautorin oder der Inhaltsautor aus einem Sequenzkanal umschalten kann, wenn es eine Vorbedingung gibt.
 
 ### Voraussetzungen {#preconditions}
 
@@ -84,7 +84,7 @@ Gehen Sie wie folgt vor, um einen Notfallkanal einzurichten:
 
 1. **Erstellen eines Standorts**
 
-   1. Navigieren Sie zum **Standorte** Ordner.
+   1. Navigieren Sie zum Ordner **Standorte**.
    1. Klicken Sie in der Aktionsleiste auf **Erstellen** und erstellen Sie im Assistenten einen Standort mit dem Titel **Store**.
 
    ![screen_shot_2019-02-22at121638pm](assets/screen_shot_2019-02-22at121638pm.png)
@@ -185,4 +185,4 @@ Führen Sie im Notfall die folgenden Schritte aus:
 
 Der **EmergencyChannel** zeigt seinen Inhalt so lange an, bis die Autorin bzw. der Autor des Inhalts den Prioritätswert auf 1 zurücksetzt.
 
-Wenn der Inhaltsautor die Anweisungen erhält, dass der Notfall behoben wurde, sollte er die Priorität der **MainAdChannel**. Hierdurch wird die normale Wiedergabe fortgesetzt.
+Wenn die Inhaltsautorin bzw. der Inhaltsautor die Anweisung erhält, dass der Notfall behoben wurde, sollte sie bzw. er die Priorität des **MainAdChannel** aktualisieren.  Hierdurch wird die normale Wiedergabe fortgesetzt.

@@ -10,9 +10,9 @@ role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
 source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1700'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Dieses Tutorial richtet sich an Entwicklerinnen und Entwickler, die neu bei AEM 
 
 ![Custom Poster component](assets/2018-05-07_at_4_09pm.png)
 
-A `Custom Poster` -Komponente wird durch Erweitern der Bildkomponente erstellt.
+Eine `Custom Poster`-Komponente wird durch Erweitern der Bildkomponente erstellt.
 
 ## Voraussetzungen {#prerequisites}
 
@@ -72,7 +72,7 @@ Der Quell-Code eines Screens-Projekts wird normalerweise als Maven-Projekt mit m
 
 Die Poster-Komponente erweitert die vorkonfigurierte AEM Screens-Bildkomponente. Ein Sling-Mechanismus `sling:resourceSuperType` wird verwendet, um die Kernfunktionalität der Bildkomponente zu erben, ohne dass Kopieren und Einfügen erforderlich ist. Weitere Informationen zu den Grundlagen der Sling-Anforderungsverarbeitung [finden Sie hier](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/developing/introduction/the-basics).
 
-Die Poster-Komponente wird im Vollbildmodus im Vorschau-/Produktionsmodus wiedergegeben. Im Bearbeitungsmodus ist es wichtig, die Komponente anders zu rendern, um das Authoring des Sequenzkanals zu erleichtern.
+Die Poster-Komponente wird im Vollbildmodus im Vorschau-/Produktionsmodus wiedergegeben. Im Bearbeitungsmodus ist es wichtig, die Komponente unterschiedlich zu rendern, um das Authoring des Sequenzkanals zu erleichtern.
 
 1. Erstellen Sie in **CRXDE-Lite** `http://localhost:4502/crx/de/index.jsp` (oder einer IDE Ihrer Wahl) unterhalb von `/apps/weretail-run/components/content` eine `cq:Component` namens `poster`.
 
@@ -133,7 +133,7 @@ Die Poster-Komponente wird im Vollbildmodus im Vorschau-/Produktionsmodus wieder
 
    Kopiertes Dialogfeld von `/libs/wcm/foundation/components/image/cq:dialog` nach `/apps/weretail-run/components/content/poster`
 
-   Die AEM Screens-Komponente `image` ist der WCM Foundation-Komponente `image` übergeordnet. Daher wird die `poster` -Komponente erbt die Funktionalität von beiden. Das Dialogfeld für die Poster-Komponente besteht aus einer Kombination der Dialogfelder „Screens“ und „Foundation“. Funktionen von **Sling Resource Merger** werden verwendet, um irrelevante Dialogfelder und Registerkarten auszublenden, die von den übergeordneten Komponenten übernommen werden.
+   Die AEM Screens-Komponente `image` ist der WCM Foundation-Komponente `image` übergeordnet. Daher erbt die `poster`-Komponente die Funktionalität von beiden. Das Dialogfeld für die Poster-Komponente besteht aus einer Kombination der Dialogfelder „Screens“ und „Foundation“. Funktionen von **Sling Resource Merger** werden verwendet, um irrelevante Dialogfelder und Registerkarten auszublenden, die von den übergeordneten Komponenten übernommen werden.
 
 1. Aktualisieren Sie `cq:dialog` unterhalb von `/apps/weretail-run/components/content/poster` mit den folgenden in XML dargestellten Änderungen:
 
@@ -240,7 +240,7 @@ Die Poster-Komponente wird im Vollbildmodus im Vorschau-/Produktionsmodus wieder
 
    Die Eigenschaft `sling:hideChildren`= `"[linkURL,size]`&quot; wird auf dem Knoten `items` verwendet, um sicherzustellen, dass die Felder **linkURL** und **size** aus dem Dialogfeld ausgeblendet werden. Es genügt nicht, diese Knoten aus dem Poster-Dialogfeld zu entfernen. Mit der Eigenschaft `sling:hideResource="{Boolean}true"` auf der Registerkarte „Erreichbarkeit“ wird die gesamte Registerkarte ausgeblendet.
 
-   Dem Dialogfeld &quot;Textposition und Textfarbe&quot;werden zwei Klickfelder hinzugefügt, damit Autoren die Position des Texts und die Farbe des Titels und der Beschreibung steuern können.
+   Dem Dialogfeld werden die beiden Auswahlfelder „Textposition“ und „Textfarbe“ hinzugefügt, damit Autorinnen und Autoren die Textposition und Farbe des Titels und der Beschreibung steuern können.
 
    ![Poster - Final Dialog Structure](assets/2018-05-03_at_4_49pm.png)
 
@@ -276,11 +276,11 @@ Die Poster-Komponente wird im Vollbildmodus im Vorschau-/Produktionsmodus wieder
    </div>
    ```
 
-   Das Produktions-Markup für die Poster-Komponente wird direkt oben angezeigt. Das HTL-Skript überschreibt `screens/core/components/content/image/production.html`. `image.js` ist ein Server-seitiges Skript, das ein POJO-ähnliches Bildobjekt erstellt. Das Bildobjekt kann dann aufgerufen werden, um `src` als eingebettetes Hintergrundbild wiederzugeben.
+   Das Produktions-Markup für die Poster-Komponente ist direkt hier vorstehend zu sehen. Das HTL-Skript überschreibt `screens/core/components/content/image/production.html`. `image.js` ist ein Server-seitiges Skript, das ein POJO-ähnliches Bildobjekt erstellt. Das Bildobjekt kann dann aufgerufen werden, um `src` als eingebettetes Hintergrundbild wiederzugeben.
 
    `The h1`- und h2-Tags werden hinzugefügt, um den Titel und die Beschreibung anhand der Komponenteneigenschaften anzuzeigen: `${properties.jcr:title}` und `${properties.jcr:description}`.
 
-   Die `h1` und `h2` -Tags ist ein Div-Wrapper mit drei CSS-Klassen mit Varianten von &quot;`cmp-poster__text`.&quot; Der Wert für die Eigenschaften `textPosition` und `textColor` wird verwendet, um die CSS-Klasse zu ändern, die anhand der Dialogfeldauswahl des Autors wiedergegeben wird. Im nächsten Abschnitt werden CSS aus Client-Bibliotheken geschrieben, um diese Änderungen in der Anzeige zu aktivieren.
+   Die `h1`- und `h2`-Tags werden von einem Div-Wrapper mit drei CSS-Klassen mit Varianten von `cmp-poster__text` umgeben. Der Wert für die Eigenschaften `textPosition` und `textColor` wird verwendet, um die CSS-Klasse zu ändern, die anhand der Dialogfeldauswahl des Autors wiedergegeben wird. Im nächsten Abschnitt werden CSS aus Client-Bibliotheken geschrieben, um diese Änderungen in der Anzeige zu aktivieren.
 
    Ein Logo ist auch als Überlagerung in der Komponente enthalten. In diesem Beispiel ist der Pfad zum ` We.Retail`-Logo im DAM fest kodiert. Je nach Nutzungsszenario ist es möglicherweise sinnvoller, ein neues Dialogfeld zu erstellen, in dem der Logo-Pfad als dynamischer Wert eingegeben wird.
 
@@ -308,7 +308,7 @@ Die Poster-Komponente wird im Vollbildmodus im Vorschau-/Produktionsmodus wieder
    </div>
    ```
 
-   Die **edit** Markup für die Poster-Komponente wird direkt oben angezeigt. Das HTL-Skript überschreibt `/libs/screens/core/components/content/image/edit.html`. Das Markup ähnelt dem `production.html`-Markup und zeigt den Titel und die Beschreibung über dem Bild an.
+   Das **Bearbeitungs**-Markup für die Poster-Komponente ist direkt hier vorstehend zu sehen. Das HTL-Skript überschreibt `/libs/screens/core/components/content/image/edit.html`. Das Markup ähnelt dem `production.html`-Markup und zeigt den Titel und die Beschreibung über dem Bild an.
 
    Der `aem-Screens-editWrapper` wird hinzugefügt, damit die Komponente im Editor nicht bildschirmfüllend dargestellt wird. Das Attribut `data-emptytext` stellt sicher, dass ein Platzhalter angezeigt wird, wenn kein Bild oder Inhalt eingefügt wurde.
 
@@ -337,9 +337,9 @@ AEM Screens-Komponenten werden im Bearbeitungsmodus anders als im Vorschaumodus/
 
    Eigenschaften für /apps/weretail-run/components/content/poster/clientlibs/shared
 
-   Die Eigenschaft `categories` ist eine Zeichenfolge, die die Client-Bibliothek identifiziert. Die Kategorie `cq.screens.components` wird sowohl im Bearbeitungs- als auch im Vorschau-/Produktionsmodus verwendet. Daher ist jedes CSS/JS, das im `shared` clientlib wird in allen Modi geladen.
+   Die Eigenschaft `categories` ist eine Zeichenfolge, die die Client-Bibliothek identifiziert. Die Kategorie `cq.screens.components` wird sowohl im Bearbeitungs- als auch im Vorschau-/Produktionsmodus verwendet. Daher wird jedes in der Clientlib `shared` definierte CSS/JS in allen Modi geladen.
 
-   Es empfiehlt sich, niemals Pfade direkt zu `/apps` in einer Produktionsumgebung. Die `allowProxy` -Eigenschaft stellt sicher, dass CSS und JS der Client-Bibliothek über ein Präfix von `/etc.clientlibs`. Weitere Informationen über die Eigenschaft „allowProxy“ [finden Sie hier](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs).
+   Es empfiehlt sich, in einer Produktionsumgebung niemals Pfade direkt zu `/apps` bereitzustellen. Die Eigenschaft `allowProxy` stellt sicher, dass auf das CSS/JS der Client-Bibliothek über ein Präfix `/etc.clientlibs` verwiesen wird. Weitere Informationen über die Eigenschaft „allowProxy“ [finden Sie hier](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs).
 
 1. Erstellen Sie eine Datei mit dem Namen `css.txt` unter dem freigegebenen Ordner.
 
@@ -491,9 +491,9 @@ Mit einer dritten Client-Bibliothekskategorie, `cq.screens.components.edit`, kö
 
 ## Hinzufügen einer Poster-Komponente zu einem Sequenzkanal {#add-sequence-channel}
 
-Die Poster-Komponente wird in einem Sequenzkanal verwendet. Das Startpaket für dieses Tutorial enthielt einen inaktiven Kanal. Der inaktive Kanal ist so vorkonfiguriert, dass Komponenten der Gruppe zugelassen werden **`We.Retail Run - Content`**. Die Gruppe der Poster-Komponente ist auf `We.Retail Run - Content` eingestellt und kann dem Kanal hinzugefügt werden.
+Die Poster-Komponente wird in einem Sequenzkanal verwendet. Das Startpaket für dieses Tutorial enthielt einen inaktiven Kanal. Der inaktive Kanal (Idle Channel) ist so vorkonfiguriert, dass Komponenten der Gruppe **`We.Retail Run - Content`** zugelassen werden. Die Gruppe der Poster-Komponente ist auf `We.Retail Run - Content` eingestellt und kann dem Kanal hinzugefügt werden.
 
-1. Öffnen Sie den inaktiven Kanal über die `We.Retail` Projekt ausführen: **`http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`**
+1. Öffnen Sie den inaktiven Kanal des Projekts „`We.Retail` Run“: **`http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`**
 1. Ziehen Sie eine neue Instanz der **Poster**-Komponente aus der Seitenleiste auf die Seite.
 
    ![2018-05-07_at_3_23pm](assets/2018-05-07_at_3_23pm.png)
@@ -508,7 +508,7 @@ Die Poster-Komponente wird in einem Sequenzkanal verwendet. Das Startpaket für 
 
 ## Zusammenfassung {#putting-it-all-together}
 
-Das folgende Video zeigt die fertige Komponente und wie sie einem Sequenzkanal hinzugefügt werden kann. Der Kanal wird dann zu einer Standort-Anzeige hinzugefügt und letztendlich einem Screens-Player zugewiesen.
+Das folgende Video zeigt die fertige Komponente und wie sie einem Sequenzkanal hinzugefügt werden kann. Der Kanal wird dann einer Standortsanzeige hinzugefügt und letztendlich einem Screens-Player zugewiesen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22414?quaity=9)
 

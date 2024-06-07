@@ -9,9 +9,9 @@ feature-set: Experience Manager Screens
 feature: Content
 role: User
 source-git-commit: 1bd79ed3a0a610efb12f9ff1030a33978ccccf1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '522'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 96%
    + [Umstellung von ContentSync auf SmartSync](smartsync.md)
    + [Importer für neue Projekte aus einer Datei](project-importer.md)
    + [Replizieren von Daten-Triggern auf Veröffentlichungs-Servern](replicating-data-triggers.md)
-   + [Konfigurieren von Replikationsagenten auf Screens](configure-screens-replication.md)
+   + [Konfigurieren von Replikationsagenten in Screens](configure-screens-replication.md)
    + Kundenspezifische Aspekte {#installing-client}
       + [Chrome OS-Player](implementing-chrome-os-player.md)
       + [Verwenden von Chrome-Player als Erweiterung zur Problembehebung](using-chrome-player-as-an-extension.md)
@@ -101,7 +101,7 @@ ht-degree: 96%
       + [Anwenden von Übergängen](applying-transitions.md)
       + [Übergang von mehreren zu einzelnen Zonen](multizone-to-singlezone.md)
       + [Übernahmekanal für die einmalige Verwendung](single-use-takeover-channel.md)
-      + [Unbefristete Verwendung des Übernahmekanals](perpetual-takeover-channel.md)
+      + [Übernahmekanal für die unbefristete Verwendung](perpetual-takeover-channel.md)
 + Entwickler- und API-Ressourcen {#developing}
    + [REST-APIs](rest-api.md)
    + [Entwickeln einer benutzerdefinierten Komponente für AEM Screens](developing-custom-component-tutorial-develop.md)
@@ -113,7 +113,7 @@ ht-degree: 96%
    + [Erstellen benutzerdefinierter Vorlagen für Mehrzonen-Layouts](creating-custom-templates-multizone-layouts.md)
    + [Anwenden von benutzerdefiniertem Branding und Styling für Textüberlagerungen](custom-branding-text-overlays.md)
    + [Adaptive Ausgabedarstellungen: Überblick über die Architektur und Konfigurationen](/help/user-guide/adaptive-renditions.md)
-+ Fehlerbehebung und häufig gestellte Fragen {#troubleshooting}
++ Problembehebung und häufig gestellte Fragen {#troubleshooting}
    + [Häufig gestellte Fragen zu AEM Screens](aem-screens-faqs.md)
    + [Fehlerbehebung über das Geräte-Kontrollzentrum](monitoring-screens.md)
    + [Konfiguration der Videowiedergabe](troubleshoot-videos.md)

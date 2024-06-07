@@ -3,15 +3,15 @@ title: Empfohlener Ansatz
 description: Erfahren Sie mehr über den empfohlenen Ansatz in einem AEM Screens-Projekt.
 exl-id: 28aacffa-e9c9-4ccb-8038-720bb3e02a3f
 source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '424'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
 # Empfohlener Ansatz {#recommended-approach}
 
-Es ist Best Practice, sich jedes AEM Screens-Projekt auf Unternehmensebene als langfristiges Unternehmen vorstellen zu lassen. Eine Projektdauer von einem oder mehreren Jahren ist wahrscheinlich, insbesondere wenn die Lösung komplexe Benutzerinteraktionen ermöglicht oder auf verschiedenen Geräten und Standorten bereitgestellt wird.
+Die Best Practice ist, alle AEM Screens-Projekte auf Unternehmensebene als langfristige Projekte zu betrachten. Eine Projektdauer von einem oder mehreren Jahren ist wahrscheinlich, insbesondere wenn die Lösung komplexe Benutzerinteraktionen ermöglicht oder auf verschiedenen Geräten und Standorten bereitgestellt wird.
 
 ## Leitlinien für die Entwicklung einer Digital Signage-Strategie {#signage-strategy}
 
@@ -39,7 +39,8 @@ Legen Sie eine Inhaltsstrategie fest, einschließlich kurz- und langfristiger Zi
   >
   > Die Vorlaufkosten für ein AEM Screens-Projekt sind häufig höher, da in Hardware, Geräte und Sitedesigns investiert werden muss. Daher können Inhaltslösungen, die zunächst einfach gehalten werden, dazu beitragen, den Budgeterwartungen gerecht zu werden.
 
-* **Schätzen der großmaßstäblichen Ergebnisse**: Wenn die Lösung in großem Maßstab bereitgestellt wird, sollten Sie die Komponenten der Anwendung an sorgfältig ausgewählten Pilotstandorten zur Verwendung in Testsendungen einführen. Stellen Sie die Anwendung an neuen Standorten und auf neuen Geräten bereit, sobald sie die Validierung bestanden hat.
+* **Schätzen der übergeordneten Lieferziele**:
+Wenn die Lösung in großem Maßstab implementiert werden soll, führen Sie die Komponenten der Anwendung an sorgfältig ausgewählten Pilotstandorten zum Testen ein. Stellen Sie die Anwendung an neuen Standorten und auf neuen Geräten bereit, sobald sie die Validierung bestanden hat.
 
   >[!NOTE]
   >
@@ -51,4 +52,5 @@ Eine Aufteilung der Bereitstellung von Funktionen in messbare Aufgaben erlaubt e
 * **Entwickeln einer Roadmap**:
 Wenn Ihre Kundin bzw. Ihr Kunde ein funktionsreiches Produkt benötigt, stellen Sie frühzeitig im Projekt einen Teil der geplanten Funktionen bereit und planen Sie andere Funktionen für spätere Phasen. Eine funktionsreiche erste Lieferung birgt ein höheres Risiko und erschwert die Validierung auf Kundenseite.
 
-* **Den Umfang benutzerdefinierter Integrationen verstehen**: Interaktive Komponenten mit Touchscreen-Interaktionen, Bewegungssensoren oder RFID erfordern eine umfangreiche benutzerdefinierte Entwicklung der Implementierungsmethode. Bildschirmpräsentationen, Videowerbung oder statische Menüs können in einem Screens-Kanal als grafische Inhalte oder HTML bereitgestellt werden.
+* **Verstehen des Umfangs benutzerdefinierter Integrationen**:
+Interaktive Komponenten mit Touchscreen-Interaktionen, Bewegungssensoren oder RFID erfordern bei der Implementierung eine umfangreiche benutzerdefinierte Entwicklung. Bildschirmpräsentationen, Videowerbung oder statische Menüs können in einem Screens-Kanal als grafische Inhalte oder HTML bereitgestellt werden.

@@ -2,9 +2,9 @@
 title: Konfigurieren des Workflows für die direkte Platzierung
 description: Auf dieser Seite wird die Konfiguration des Workflows für die direkte Platzierung beschrieben.
 source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '189'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -38,5 +38,5 @@ So konfigurieren Sie den Workflow für die direkte Platzierung:
 
 1. Navigieren Sie von Ihrer AEM-Instanz aus zu AEM Screens und erstellen Sie ein Screens-Projekt mit dem Titel **Asset Workflow**.
 
-1. Erstellen Sie einen Kanal mit dem Titel **Workflow-Assets** unter **Kanäle** Ordner.
+1. Erstellen Sie im Ordner **Kanäle** einen Kanal mit dem Titel **Workflow-Assets**.
 

@@ -7,9 +7,9 @@ role: Developer, User
 level: Intermediate
 exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
 source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '404'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 74%
 
 ## Anwendungsfall – Beschreibung {#use-case-description}
 
-In diesem Abschnitt wird ein Anwendungsfall beschrieben, indem erläutert wird, wie man einen Mehrzonen-Layout-Kanal im Wechsel mit einem Einzelzonen-Layout-Kanal einrichtet. Der Mehrzonen-Kanal verfügt über sequenzierende Bild-/Video-Assets und zeigt, wie Sie ein Projekt einrichten können, das von mehreren Zonen zu einzelnen Zonen wechselt und umgekehrt.
+In diesem Abschnitt wird ein Anwendungsfall beschrieben, indem erläutert wird, wie man einen Mehrzonen-Layout-Kanal im Wechsel mit einem Einzelzonen-Layout-Kanal einrichtet. Der Mehrzonenkanal verfügt über sequenzierende Bild-/Video-Assets, und es wird gezeigt, wie Sie ein Projekt einrichten können, in dem zwischen Mehr- und Einzelzonen hin- und hergewechselt werden kann.
 
 ### Voraussetzungen {#preconditions}
 
@@ -62,7 +62,7 @@ Gehen Sie wie folgt vor, um ein Projekt einzurichten:
 
    ![Asset](assets/mz-to-sz4.png)
 
-1. Öffnen Sie die Einstellungen für die Komponente Kanal und verweisen Sie sie auf den **MultiZoneLayout** Kanal, den Sie in erstellt haben *Schritt 2*.
+1. Öffnen Sie die Einstellungen für die Komponente „Kanal“ und lassen Sie sie auf den **MultiZoneLayout**-Kanal verweisen, den Sie in *Schritt 2* erstellt haben.
 
    ![Asset](assets/mz-to-sz5.png)
 
@@ -70,7 +70,7 @@ Gehen Sie wie folgt vor, um ein Projekt einzurichten:
 
    ![Asset](assets/mz-to-sz6.png)
 
-1. Öffnen Sie auf ähnliche Weise die Einstellungen für das Bild (Asset, das Sie hinzugefügt haben) und legen Sie die Dauer über die **Sequenz** -Feld zu **3000 Millisekunden**.
+1. Öffnen Sie auf ähnliche Weise die Einstellungen für das Bild (das von Ihnen hinzugefügte Asset) und legen Sie seine Dauer im Feld **Sequenz** auf **3000 Millisekunden** fest.
 
    ![Asset](assets/mz-to-sz7.png)
 
@@ -78,7 +78,7 @@ Gehen Sie wie folgt vor, um ein Projekt einzurichten:
 
 Sie können die gewünschte Ausgabe auf dem Player oder durch Auswählen der **Vorschau** im Editor anzeigen.
 
-Die Ausgabe zeigt, wie ein Mehrzonen-Layout für *10000 Millisekunden*. Anschließend wird zu einem Einzelzonen-Layout mit einer Wiedergabedauer von *3000 Millisekunden*. Und schließlich wechselt er zurück zum Mehrzonen-Layout.
+Die Ausgabe zeigt, wie ein Mehrzonen-Layout für *10000 Millisekunden* wiedergegeben wird. Anschließend wird zu einem Einzelzonen-Layout mit einer Wiedergabedauer von *3000 Millisekunden* gewechselt. Und schließlich erfolgt ein Wechsel zurück zum Mehrzonen-Layout.
 
 >[!VIDEO](https://video.tv.adobe.com/v/30366)
 

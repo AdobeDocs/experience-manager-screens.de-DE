@@ -11,9 +11,9 @@ role: User, Data Architect
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
 source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '536'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Dieses Tutorial behandelt folgende Punkte, die für die erfolgreiche Bereitstell
 
 >[!NOTE]
 >
->Die typischen Verkaufszyklen für die Bereitstellung von Digital Signage in großem Umfang können zwischen 9 und 18 Monaten liegen. Es gibt viele Faktoren, die die endgültige Zeitspanne beeinflussen. Zu diesen Faktoren gehört auch, wie der Endkunde den Erfolg misst und wie risikoscheu seine Geschäftspartner sind, wenn eine neue Lösung eingeführt wird.
+>Die typischen Verkaufszyklen für die Bereitstellung von Digital Signage in großem Umfang können zwischen 9 und 18 Monaten liegen. Es gibt viele Faktoren, die die endgültige Zeitspanne beeinflussen. Zu diesen Faktoren gehört auch, wie die Endkundin oder der Endkunde den Erfolg misst und wie risikoscheu ihre bzw. seine Geschäftspartner sind, wenn eine neue Lösung eingeführt wird.
 
 Beispielsweise könnten die Stakeholder für ein Digital-Signage-Programm in einer Einzelhandelsumgebung Folgendes einschließen:
 
@@ -46,17 +46,17 @@ Beispielsweise könnten die Stakeholder für ein Digital-Signage-Programm in ein
 
 ## Zusammenfassung der wichtigsten Begriffe, die in einem übergeordneten Projektplan verwendet werden {#summary-of-key-terms-involved-in-an-overall-project-plan}
 
-Im folgenden Abschnitt finden Sie einen Überblick über die Schlüsselbegriffe, die in einem übergeordneten Projektplan verwendet werden, Schlüsselbegriffe sind Projektzyklus, Maßnahmen im Zusammenhang mit Hardware-Tests, Machbarkeitsstudien, Pilotprogramme und Rollouts.
+Im folgenden Abschnitt erhalten Sie einen Überblick über die Schlüsselbegriffe, die in einem übergeordneten Projektplan von Bedeutung sind. Zu den Schlüsselbegriffen zählen unter anderem Projektzyklus, Maßnahmen bei Hardware-Tests, Machbarkeitsstudien, Pilotprogramme und Rollouts.
 
-### Machbarkeitsstudie (POC) {#proof-of-concept-poc}
+### Machbarkeitsstudie (Proof of Concept, POC) {#proof-of-concept-poc}
 
 Eine Machbarkeitsstudie dient dazu, ein erstes Feedback zu den Schlüsselfunktionen einer Lösung zu erhalten. Zudem ermöglicht sie sowohl Endkundinnen bzw. Endkunden als auch der für die Audio-Video-Integration zuständigen Person, Verbesserungsmöglichkeiten zu ermitteln und Annahmen bezüglich der Arbeitsanforderungen und des Ressourcenbedarfs vorzubereiten. Mithilfe einer Machbarkeitsstudie können darüber hinaus beide Parteien die Leistung der Lösung bewerten, die in der Regel anhand einer Qualitätskontrolle gemessen wird.
 
 ### Qualitätskontrolle {#quality-control}
 
-Tests zur Integration von Systemen und Software beginnen mit dem IT-Engineering-Team der Audio-Video-Integratoren. Unter Bezugnahme auf den genehmigten Systementwurf konfiguriert, implementiert und überwacht das IT-Engineering-Team die Installation von Hardware-Komponenten in einer &quot;Lab-Umgebung&quot;in der Anlage des Audio-Video-Integrators. Diese Regelung ermöglicht eine genaue Überprüfung und Prüfung der gesamten Lösung für die Qualitätskontrolle.
+Die Integrationstests für Systeme und Software beginnen mit dem IT-Engineering-Team der Person, die für die Audio-Video-Integration zuständig ist. Mit Blick auf den genehmigten Systementwurf konfiguriert, implementiert und überwacht das IT-Engineering-Team die Installation von Hardware-Komponenten in einer „Laborumgebung“ am Standort der für die Audio-Video-Integration zuständigen Person. Diese Vorgehensweise erlaubt eine genaue Überprüfung der gesamten Lösung für die Qualitätssicherung.
 
-Nach Abschluss des QC-Tests erstellt das IT-Engineering-Team Dokumentation, Workflows und Schulungen zur Referenz während des Day-2-Supports. Folgende Systemaspekte sind zu prüfen:
+Nach Abschluss der QS-Tests erarbeitet das IT-Engineering-Team Dokumentationen, Workflows und Schulungen zur Referenz im Tag 2-Support. Folgende Systemaspekte sind zu prüfen:
 
 * Integrationen der für die Audio-Video-Implementierung zuständigen Person.
 * Integrationen von Drittanbietersystemen.
@@ -67,7 +67,7 @@ Nach Abschluss des QC-Tests erstellt das IT-Engineering-Team Dokumentation, Work
 
 ## Teil 3: Video-Tutorial zu Tests, Machbarkeitsstudien, Pilotprogrammen und Rollouts {#part-video-tutorial-on-testing-pocs-pilots-rollouts}
 
-Im folgenden Tutorial erfahren Sie mehr über Tests, Machbarkeitsstudien, Pilotprogramme und Rollouts.
+Sehen Sie sich das folgende Tutorial an, um sich mit Tests, Machbarkeitsstudien, Pilotprogrammen und Rollouts vertraut zu machen.
 
 Wenn Sie alle diese Schritte als Teil des übergeordneten Projektplans betrachten, können Sie Erwartungen besser steuern und natürliche Punkte identifizieren, mit denen sich die Investitionen in eine AEM Screens-Bereitstellung bewerten lassen.
 

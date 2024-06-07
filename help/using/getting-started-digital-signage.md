@@ -3,9 +3,9 @@ title: Grundlagen von Digital Signage für [!UICONTROL AEM Screens]
 description: Erfahren Sie mehr über die Grundlagen eines Digital Signage-Projekts.
 exl-id: e3913be2-9028-4773-a034-e16924a71e04
 source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '410'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 91%
 
 Bevor Sie sich mit Best Practices für die Implementierung von AEM Screens vertraut machen, sollten Sie sich das Projekt als Digital-Signage-Projekt vorstellen – und nicht als herkömmliche Softwareentwicklung.
 
-Dieser Abschnitt enthält Empfehlungen zu wichtigen Elementen, die für die Implementierung eines AEM Screens-Projekts von entscheidender Bedeutung sind.
+Dieser Abschnitt enthält Empfehlungen zu wichtigen Elementen, die vor der Implementierung eines AEM Screens-Projekts beachtet werden müssen.
 
 ## Schlüsselelemente von Digital Signage {#key-elements}
 
@@ -40,7 +40,7 @@ Ein Definieren der Schlüsselelemente ist vor Implementierung eines Digital-Sign
    Beim Thema Konnektivität geht es um folgende Fragen:
    * Vernetzt (per Mobilfunk oder WLAN) bzw. eigenständig?
       * Müssen Sie Aktualisierungen von USB-Inhalten zulassen?
-      * Müssen Sie die Verwendung der Datenerfassung zulassen?
+      * Müssen Sie die Erfassung von Nutzungsdaten zulassen?
 
 1. **Installation**
 
@@ -79,7 +79,7 @@ Ein Definieren der Schlüsselelemente ist vor Implementierung eines Digital-Sign
 
 1. **Umgebung**
 
-   Die Umwelt legt den Schwerpunkt auf:
+   Bei der Umgebung geht es um Folgendes:
    * Displaystandort?
       * Drinnen vs. draußen
       * Unerreichbar oder direkter Kontakt

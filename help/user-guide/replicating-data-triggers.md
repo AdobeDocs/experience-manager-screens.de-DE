@@ -6,19 +6,19 @@ role: Developer
 level: Intermediate
 exl-id: 6f90b864-eaa0-4b74-a47e-b0967a550552
 source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '523'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 # Replizieren von Daten-Triggern auf Veröffentlichungs-Servern {#replicating-data-triggers}
 
-Bei der Verwendung von ContextHub und AEM Targeting Engine zum Anpassen von Inhalten auf der Basis von Daten-Triggern in einer Autoren-/Veröffentlichungsinstanz werden alle ContextHub- und Personalisierungskonfigurationen bei der Veröffentlichung nicht automatisch mit den  repliziert.
+Wenn Sie ContextHub und die AEM-Targeting-Engine verwenden, um Inhalte basierend auf Daten-Triggern in einer Autoren-/Veröffentlichungsinstanz anzupassen, werden die ContextHub- und personalisierungsbezogenen Konfigurationen im Falle einer Veröffentlichung nicht automatisch mit den Kanälen repliziert.
 
 Auf dieser Seite lernen Sie die manuellen Schritte kennen, die erforderlich sind, um diese Konfigurationen separat zu veröffentlichen.
 
-Dieser Prozess bezieht sich im Wesentlichen auf die manuelle Veröffentlichung der folgenden Elemente:
+Dieser Vorgang läuft im Grunde auf das manuelle Veröffentlichen folgender Elemente hinaus:
 
 1. Konfigurationen der ContextHub-Store- und UI-Module
 1. Personalisierungszielgruppen
@@ -90,14 +90,14 @@ Wenn die Replikation erfolgreich ist, sollten Sie die folgende Struktur in der V
 
 ## Fehlerbehebung bei der Testverbindung {#troubleshoot-test}
 
-Wenn die Testverbindung beim Replizieren der ContextHub-Konfigurationen fehlschlägt, gehen Sie zur Fehlerbehebung wie im Abschnitt unten beschrieben vor:
+Wenn die Testverbindung beim Replizieren der ContextHub-Konfigurationen fehlschlägt, gehen Sie zur Fehlerbehebung so vor, wie im Abschnitt unten beschrieben:
 
-1. Navigieren Sie zu **Instrumente** > **Implementierung** > **Distribution** > **Veröffentlichungsagent**.
+1. Navigieren Sie zu **Tools** > **Bereitstellung** > **Verteilung** > **Veröffentlichungsagent**.
 
-1. Klicks **Bearbeiten** in der Aktionsleiste aus und stellen Sie sicher, dass die Endpunkt-URL in der **Importer Endpoints** -Feld verweist auch auf die URL des Veröffentlichungsservers im Verteilungsagenten.
+1. Klicken Sie in der Aktionsleiste auf **Bearbeiten** und stellen Sie sicher, dass die Endpunkt-URL im Feld **Endpunkte des Importtools** auch auf die URL des Veröffentlichungs-Servers im Verteilungsagenten verweist.
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
-1. Wenn Sie nicht die standardmäßigen Administratorberechtigungen verwenden, müssen Sie den Verteilungsagenten mit einem anderen Benutzernamen und Kennwort konfigurieren.
+1. Wenn Sie nicht die standardmäßigen Admin-Anmeldedaten verwenden, müssen Sie den Verteilungsagenten mit einem anderen Benutzernamen und einem anderen Kennwort konfigurieren.
 
    Führen Sie dazu folgende Schritte durch:
 

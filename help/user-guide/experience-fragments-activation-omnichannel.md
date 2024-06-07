@@ -2,9 +2,9 @@
 title: Aktivierung von Experience Fragments
 description: Ein Anwendungsbeispiel, das Ihnen dabei hilft, mehr über die Aktivierung von Experience Fragments im Zusammenhang mit AEM Screens zu erfahren.
 source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '194'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Erstellen Sie in AEM Screens ein Projekt mit dem Titel **DemoProject** und einen
 
 ### Implementieren des Experience Fragments in einem AEM Screens-Projekt {#experience-fragments-implementation}
 
-Wenn Sie ein Experience Fragment erstellt und in Ihrem AEM Screens-Projekt angewendet haben, **DemoProject** können Sie das Experience Fragment entsprechend Ihren Anforderungen erweitern.
+Nachdem Sie ein Experience Fragment erstellt und in Ihrem AEM Screens-Projekt **DemoProject** verwendet haben, können Sie das Experience Fragment entsprechend Ihren Anforderungen erweitern.
 
 ### Erhöhen der Textgröße {#increasing-text-size}
 

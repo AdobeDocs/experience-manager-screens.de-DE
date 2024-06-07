@@ -11,9 +11,9 @@ role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
 source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '448'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ Das folgende Nutzungsszenario veranschaulicht die Verwendung der Aktivierung von
 
 ## Beschreibung {#description}
 
-Für diesen Anwendungsfall wird die Google-Tabelle mit dem Prozentsatz der Reservierungen für zwei Restaurants **`Restaurant1`** und **`Restaurant2`** befüllt. Eine Formel wird anhand der Werte von `Restaurant1` und `Restaurant2` und, basierend auf der Formel, dem Wert 1 oder 2 zugewiesen wird. **AdTarget** Spalte.
+Für diesen Anwendungsfall wird die Google-Tabelle mit dem Prozentsatz der Reservierungen für zwei Restaurants **`Restaurant1`** und **`Restaurant2`** befüllt. Auf der Grundlage der Werte von `Restaurant1` und `Restaurant2` wird eine Formel angewendet und auf der Grundlage der Formel wird der Spalte **AdTarget** der Wert „1“ oder „2“ zugewiesen.
 
-Wenn der Wert von **`Restaurant1`** > **`Restaurant2`** ist, dann wird **AdTarget** der Wert **1** zugewiesen, andernfalls wird **AdTarget** der Wert **2** zugewiesen. Wert 1 generiert eine *Stechnahrung* Option und Wert zwei führt zur Anzeige von *Thailändische Küche* auf Ihrem Bildschirm angezeigt.
+Wenn der Wert von **`Restaurant1`** > **`Restaurant2`** ist, dann wird **AdTarget** der Wert **1** zugewiesen, andernfalls wird **AdTarget** der Wert **2** zugewiesen. Der Wert „1“ generiert die Option *Steak-Gerichte* und der Wert „2“ zeigt die Option *Thailändisches Essen* auf Ihrem Bildschirm an.
 
 ## Voraussetzungen {#preconditions}
 
@@ -66,7 +66,7 @@ Gehen Sie wie folgt vor, um den Anwendungsfall für die reservierungsgesteuerte 
 
    >[!CAUTION]
    >
-   >Ihre **ContextHub** **Konfigurationen** über den Kanal **Eigenschaften** > **Personalisierung** -Tab hätte zu diesem Zeitpunkt bereits eingerichtet sein müssen.
+   >Ihre **ContextHub**-**Konfigurationen**, die den Kanal auf der Registerkarte **Eigenschaften** > **Personalisierung** verwenden, sollten zu diesem Zeitpunkt bereits eingerichtet sein.
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 

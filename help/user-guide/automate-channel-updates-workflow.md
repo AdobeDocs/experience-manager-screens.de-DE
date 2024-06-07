@@ -1,5 +1,5 @@
 ---
-title: Verwenden eines Workflows zur Automatisierung von Asset-Aktualisierungen für einen AEM Screens-Kanal
+title: Automatisieren von Asset-Aktualisierungen für einen AEM Screens-Kanal mit einem Workflow
 description: Erfahren Sie, wie Sie einen Workflow erstellen, um in Adobe Experience Manager hochgeladene Assets automatisch zu verarbeiten und sie dynamisch einem Screens-Kanal zuzuweisen.
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
@@ -8,14 +8,14 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '403'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 
-# Verwenden eines Workflows zur Automatisierung von Asset-Aktualisierungen für einen AEM Screens-Kanal {#automate-channel-updates-workflow}
+# Automatisieren von Asset-Aktualisierungen für einen AEM Screens-Kanal mit einem Workflow {#automate-channel-updates-workflow}
 
 Erfahren Sie, wie Sie einen Workflow erstellen, um in Adobe Experience Manager hochgeladene Assets automatisch zu verarbeiten und sie dynamisch einem Screens-Kanal zuzuweisen. In diesem Beispiel wird ein Workflow ausgelöst, wenn einem bestimmten Ordner ein Bild hinzugefügt wird. Der Workflow wendet eine dynamische Textüberlagerung (Wasserzeichenprozess) an und weist das Bild einem Screens-Kanal zu. Die aus diesem Beispiel gewonnenen Erkenntnisse lassen sich auf eine Vielzahl von Automatisierungsszenarien anwenden.
 
@@ -38,7 +38,7 @@ Das folgende Video veranschaulicht die Installation eines Beispiel-Code-Pakets, 
 
 ## Workflow-Modell {#workflow-model}
 
-Es wurde ein benutzerdefiniertes Ordner-Metadatenschema erstellt, um den Ziel-Kanal in Screens zu erfassen, dem die Bilder hinzugefügt werden sollen. Zur Automatisierung der Asset-Verarbeitung werden zwei Workflow-Modelle verwendet. Die **DAM-Update-Asset** Der Workflow wurde bearbeitet, um einen benutzerdefinierten Workflow aufzurufen, die &quot;Verarbeitung von Screens-Demo-Assets&quot;, die den Ordner des Assets prüft, um den Zielkanal für Screens zu bestimmen. Der Workflow **Demo-Asset-Verarbeitung in Screens** ist auch für das Aufbringen des Wasserzeichens auf das Bild verantwortlich.
+Es wurde ein benutzerdefiniertes Ordner-Metadatenschema erstellt, um den Ziel-Kanal in Screens zu erfassen, dem die Bilder hinzugefügt werden sollen. Zur Automatisierung der Asset-Verarbeitung werden zwei Workflow-Modelle verwendet. Der Workflow **DAM Update Asset** wurde geändert, um einen benutzerdefinierten Workflow namens **Demo-Asset-Verarbeitung in Screens** aufzurufen. Dieser überprüft den zugehörigen Ordner des Assets, um den Ziel-Kanal in Screens zu ermitteln. Der Workflow **Demo-Asset-Verarbeitung in Screens** ist auch für das Aufbringen des Wasserzeichens auf das Bild verantwortlich.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333175/?quality=12&learn=on)
 

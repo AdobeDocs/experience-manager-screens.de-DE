@@ -6,16 +6,16 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
 source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1179'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # Kanalzuweisung {#channel-assignment}
 
 >[!IMPORTANT]
->In diesem Abschnitt wird die Kanalzuweisung und -zeitplanung für Feature Packs beschrieben, die älter als AEM 6.5.5 Screens-Version sind.
+>In diesem Abschnitt wird die Kanalzuweisung und -zeitplanung für Feature Packs beschrieben, die älter als AEM 6.5.5 Screens sind.
 
 Wenn Sie eine Anzeige eingerichtet haben, weisen Sie der Anzeige einen Kanal zu, um Ihren Inhalt anzuzeigen.
 
@@ -40,13 +40,13 @@ Gehen Sie wie folgt vor, um einer Anzeige einen Kanal zuzuweisen:
 
    ![image](/help/user-guide/assets/channel-assign1.png)
 
-   Sie können die Eigenschaften im Dialogfeld **Kanalzuweisung** im nachstehenden Abschnitt konfigurieren. Siehe [Kanaleigenschaften](#channel-properties) für weitere Informationen zu den Kanaleigenschaften.
+   Sie können die Eigenschaften im Dialogfeld **Kanalzuweisung** im nachstehenden Abschnitt konfigurieren. Weitere Informationen zu den Kanaleigenschaften finden Sie im Abschnitt [Kanaleigenschaften](#channel-properties).
 
 ## Verstehen der Kanaleigenschaften bei Kanalzuweisung {#channel-properties}
 
 ### Kanal referenzieren {#ref-channel}
 
-Mit einem Referenzkanal können Sie einen Verweis auf den gewünschten Kanal entweder nach Kanalname oder nach Kanalpfad bereitstellen.
+Diese Option ermöglicht es Ihnen, einen Verweis zum gewünschten Kanal bereitzustellen, entweder in Form des Kanalnamens oder des Kanalpfads.
 
 * **nach Pfad**: Sie stellen einen expliziten Verweis durch Angabe des absoluten Pfads des Kanals bereit.
 
@@ -54,7 +54,7 @@ Mit einem Referenzkanal können Sie einen Verweis auf den gewünschten Kanal ent
 
 ### Kanalrolle {#role-channel}
 
-Mit „Kanalrolle“ wird der Kontext der Anzeige definiert. Die Rolle ermöglicht die Ausrichtung auf verschiedene Aktionen und ist unabhängig vom eigentlichen Kanal, der die Rolle erfüllt.
+Mit „Kanalrolle“ wird der Kontext der Anzeige definiert. Die Rolle kann durch verschiedene Aktionen festgelegt werden und ist unabhängig vom eigentlichen Kanal, der der Rolle entspricht.
 
 ### Priorität {#priority-channel}
 
@@ -76,9 +76,9 @@ Die Priorität wird verwendet, um die Zuweisungen in eine Reihenfolge zu bringen
 >
 > Diese Option ist nur mit <!--AEM 6.4 Feature Pack 8 or -->AEM 6.5 Feature Pack 4 verfügbar.
 
-Als Inhaltsautorin oder Inhaltsautor können Sie festlegen, wann ein Kanal unterbrochen wird. Auf diese Weise können Sie nicht kritische Inhalte abschneiden, falls gewünscht, aber optional wichtige Inhalte abspielen lassen, bevor die Wiedergabe aufgrund der Zeitplanung abgebrochen wird.
+Als Inhaltsautorin oder Inhaltsautor können Sie festlegen, wann ein Kanal unterbrochen wird. Auf diese Weise können Sie nicht kritische Inhalte auf Wunsch abschneiden, aber optional die wichtigen Inhalte vollständig abspielen, bevor die Wiedergabe aufgrund der Zeitplanung abgebrochen wird.
 
-Klicken Sie auf eine der folgenden Optionen, die verfügbar sind, um die Unterbrechungsmethode über die **Kanalzuweisung** Dialogfeld:
+Klicken Sie auf eine der folgenden Optionen, die zum Festlegen der Unterbrechungsmethode im Dialogfeld **Kanalzuweisung** verfügbar sind:
 
 * **Sofort**: Wenn der Zeitplan aktiviert oder eine Aktualisierung empfangen wird, können Sie die Wiedergabe abbrechen und sofort aktualisieren oder den neuen Inhalt wiedergeben.
 * **Am Ende des aktuellen Elements**: Wenn ein neuer Zeitplan aktiviert oder eine Aktualisierung empfangen wird, können Sie optional warten, bis die Wiedergabe des aktuellen Elements in der Sequenz abgeschlossen ist. Erst danach können Sie aktualisieren oder den neuen Inhalt wiedergeben.
@@ -162,7 +162,7 @@ Hier wird das Dayparting auf monatlicher Basis erstellt, sodass der Kanalinhalt 
 
 #### Anzeigen von Inhalt für Kanäle derselben Priorität {#playing-content-for-channels-with-same-priority}
 
-Diese Beispiele veranschaulichen die Verwendung von Dayparting durch einen Laden, der seine Winterkollektion mit demselben Zeitplan im Dezember präsentiert. Da für Kanal B jedoch die Priorität 2 festgelegt ist, wird in dieser Woche der Inhalt von Kanal B und nicht von Kanal A wiedergegeben.
+Diese Beispiele veranschaulichen die Verwendung von Dayparting durch einen Laden, der seine Winterkollektion mit demselben Zeitplan im Dezember präsentiert. Doch da die Priorität von Kanal B in dieser Woche 2 beträgt, wird der Inhalt von Kanal B anstelle des Inhalts von Kanal A gezeigt.
 
 | **Kanal** | **Rolle** | **Priorität** | **Zeitplan** |
 |---|---|---|---|

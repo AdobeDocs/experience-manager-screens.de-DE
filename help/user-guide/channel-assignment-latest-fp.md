@@ -6,9 +6,9 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
 source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1447'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 88%
 
 >[!IMPORTANT]
 >
->In diesem Abschnitt wird die Kanalzuweisung und -zeitplanung für AEM 6.5.5 Screens Feature Pack (und höher) beschrieben.
+>In diesem Abschnitt werden Kanalzuweisung und -zeitplanung für das AEM 6.5.5 Screens Feature Pack (und höher) beschrieben.
 
 Wenn Sie eine Anzeige eingerichtet haben, weisen Sie der Anzeige einen Kanal zu, um Ihren Inhalt anzuzeigen.
 
@@ -82,14 +82,14 @@ Wenn das Projekt fertig eingerichtet ist, weisen Sie dem Kanal eine Anzeige zu, 
 
    >[!NOTE]
    >
-   >Weitere Informationen zu den Kanalzuweisungseigenschaften finden Sie unter [Kanaleigenschaften](#channel-properties) Abschnitt.
+   >Weitere Informationen zu den Kanalzuweisungseigenschaften finden Sie im Abschnitt [Kanaleigenschaften](#channel-properties).
 
 1. Klicken Sie unter **Zeitplan** auf **Aktivierungsfenster** und **Intervallzeitplan**.
    ![Bild](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >
-   >Weitere Informationen zu den Kanalzuweisungseigenschaften finden Sie unter [Kanaleigenschaften](#channel-properties) Abschnitt.
+   >Weitere Informationen zu den Kanalzuweisungseigenschaften finden Sie im Abschnitt [Kanaleigenschaften](#channel-properties).
 
 1. Klicken Sie auf **Speichern**, nachdem Sie Ihre Voreinstellungen konfiguriert haben.
 
@@ -105,7 +105,7 @@ Sie werden die folgende Ausgabe auf Ihrem Player sehen:
 
 ## Timeline-Ansicht {#timeline-view}
 
-Wenn Sie einen Kanal einer Anzeige zugewiesen und einen Intervallzeitplan eingerichtet haben, können Sie die Timeline im **ZUGEWIESENE KANÄLE UND ZEITPLÄNE** Bedienfeld.
+Nachdem Sie einen Kanal einer Anzeige zugewiesen und einen Intervallzeitplan eingerichtet haben, können Sie die Timeline im Bedienfeld **ZUGEWIESENE KANÄLE UND ZEITPLÄNE** anzeigen.
 
 Führen Sie die folgenden Schritte aus, um zur Timeline-Ansicht zu navigieren:
 
@@ -134,7 +134,7 @@ Mit der Auswahl eines Kanals können Sie einen Verweis zum gewünschten Kanal be
 
 ### Kanalrolle {#role-channel}
 
-Mit „Kanalrolle“ wird der Kontext der Anzeige definiert. Verschiedene Aktionen zielen auf die Rolle ab. Sie ist unabhängig vom tatsächlichen Kanal, der die Rolle erfüllt.
+Mit „Kanalrolle“ wird der Kontext der Anzeige definiert. Durch die Rolle können verschiedene Aktionen festgelegt werden.  Sie ist unabhängig vom eigentlichen Kanal, der der Rolle entspricht.
 
 ### Priorität {#priority-channel}
 
@@ -158,7 +158,7 @@ Die Priorität wird verwendet, um die Zuweisungen in eine Reihenfolge zu bringen
 
 Als Inhaltsautorin oder Inhaltsautor können Sie festlegen, wann ein Kanal unterbrochen wird. Auf diese Weise können Sie nicht-kritische Inhalte wegschneiden. Die Methode bietet Ihnen jedoch auch die Möglichkeit, wichtige Inhalte vollständig wiederzugeben, bevor Sie sie aufgrund der Planung kürzen.
 
-Wählen Sie eine der folgenden Optionen aus, die verfügbar sind, um die Unterbrechungsmethode über die **Kanalzuweisung** Dialogfeld:
+Wählen Sie eine der folgenden Optionen aus, die zum Festlegen der Unterbrechungsmethode im Dialogfeld **Kanalzuweisung** verfügbar sind:
 
 * **Sofort**: Wenn der Zeitplan aktiviert oder eine Aktualisierung empfangen wird, können Sie die Wiedergabe abbrechen und den neuen Inhalt sofort aktualisieren oder wiedergeben.
 * **Ende des aktuellen Elements**: Wenn ein neuer Zeitplan aktiviert oder eine Aktualisierung empfangen wird, können Sie optional warten, bis die Wiedergabe des aktuellen Elements in der Sequenz abgeschlossen ist. Erst danach können Sie den neuen Inhalt aktualisieren oder wiedergeben.
@@ -181,15 +181,15 @@ Im Aktivierungsfenster können Sie ein **Anfangsdatum** und ein **Enddatum** fü
 
 ### Intervallzeitplan {#recurrence-schedule}
 
-Mit dem Intervallzeitplan können Sie einen Zeitplan für Ihre Inhalte festlegen. Klicks **+ Zeitplan hinzufügen** , um Ihrem Kanal einen Intervallzeitplan hinzuzufügen.
+Mit dem Intervallzeitplan können Sie einen Zeitplan für Ihre Inhalte festlegen. Klicken Sie auf **+ Zeitplan hinzufügen**, um Ihrem Kanal einen Intervallzeitplan hinzuzufügen.
 
 >[!NOTE]
 >Sie können Ihrem Kanal mehrere Intervallzeitpläne hinzufügen.
->Einführung in Intervallzeitpläne *Dayparting*. Sie legen einen globalen Zeitplan mit mehreren Kanälen fest, die zu bestimmten Tageszeiten ausgeführt werden, und verwenden diese für alle Anzeigen wieder.
+>Mit den Intervallzeitplänen wird eine *Tageszeiteneinteilung* eingeführt.  Sie legen einen globalen Zeitplan mit mehreren Kanälen fest, die zu bestimmten Tageszeiten ausgeführt werden. Diese Einstellung kann dann für alle Displays wiederverwendet werden.
 
 Sie können die folgenden Optionen festlegen:
 
-* **Name** - Titel Ihres Intervallzeitplans.
+* **Name**: Titel des Intervallzeitplans.
 * **Wiederholen**: Wählen Sie aus, ob der Zeitplan **täglich**, **wöchentlich**, **monatlich** oder **jährlich** ausgeführt werden soll.
 * **Anfang**: Die Startzeit Ihres Zeitplans.
 * **Ende**: Die Endzeit Ihres Zeitplans. Sie können die Einstellung nach Zeit oder Dauer festlegen.

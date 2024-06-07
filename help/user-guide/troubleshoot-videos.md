@@ -10,15 +10,15 @@ role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
 source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '799'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 # Konfiguration der Videowiedergabe und Fehlerbehebung {#video-playback-configuration-and-troubleshooting}
 
-Wenn Sie ein Video in das DAM hochladen und zu Ihrem Kanal hinzufügen, treten möglicherweise Probleme auf, bei denen das Video nicht im AEM Screens-Player wiedergegeben wird.
+Wenn Sie ein Video zu DAM hochladen und zu Ihrem Kanal hinzufügen, kann das Problem auftreten, dass das Video im AEM Screens-Player möglicherweise nicht wiedergegeben wird.
 
 In den folgenden Abschnitten werden das Debugging und die Problembehebung für die Videowiedergabe in Ihrem Kanal beschrieben.
 
@@ -33,19 +33,19 @@ So zeigen Sie das Video an:
 
 Es sollten unterschiedliche Ausgabedarstellungen vorliegen (ein MP4- oder M4V-Video).
 
-Wenn keine Ausgabedarstellung vorhanden ist, stellen Sie sicher, dass FFMPEG auf dem Betriebssystem installiert ist, unter dem AEM ausgeführt wird.
+Wenn keine Ausgabe verfügbar ist, überprüfen Sie, ob FFMPEG im Betriebssystem installiert ist, unter dem AEM ausgeführt wird.
 
 >[!CAUTION]
 >
->Wenn keine Ausgabedarstellung vorhanden ist, stellen Sie sicher, dass FFMPEG auf dem Betriebssystem installiert ist, unter dem AEM ausgeführt wird.
+>Wenn keine Ausgabe verfügbar ist, überprüfen Sie, ob FFMPEG im Betriebssystem installiert ist, unter dem AEM ausgeführt wird.
 >
->Klicks [here](https://www.ffmpeg.org/download.html) um FFMPEG zu installieren.
+>Klicken Sie [hier](https://www.ffmpeg.org/download.html), um FFMPEG zu installieren.
 
 ## Video-Assets {#video-assets}
 
 Wenn unter dem Video kein Quellattribut angezeigt wird, wurde das Video möglicherweise nicht transkodiert. Wenn das Video ordnungsgemäß transkodiert wurde, wird es im Dashboard angezeigt (wie nachfolgend dargestellt).
 
-Überprüfen Sie, ob FFMPEG und die Videoprofile installiert sind.
+Vergewissern Sie sich, dass FFMPEG installiert ist, und prüfen Sie die Videoprofile.
 
 ![chlimage_1-2](assets/chlimage_1-2.png)
 
@@ -57,7 +57,7 @@ Wenn unter dem Video kein Quellattribut angezeigt wird, wurde das Video möglich
 
 1. Laden Sie ein Testvideo hoch und klicken Sie auf **OK**, um die Transkodierung zu starten.
 
-   Wenn das transkodierte Video fehlschlägt, erweitern Sie die FFMPEG-Ausgabe, um Fehler in der Konsolenausgabe von FFMPEG zu verstehen.
+   Falls das transkodierte Video fehlschlägt, erweitern Sie die FFMPEG-Ausgabe, um die Fehler in der Konsolenausgabe von FFMPEG zu verstehen.
 
    ![chlimage_1-4](assets/chlimage_1-4.png)
 
@@ -80,13 +80,13 @@ Prüfen Sie die Liste der Profile über die Design-Seite, wenn die Videokomponen
 1. Wählen Sie das Video aus und öffnen Sie das Dialogfeld **Bearbeiten**. Öffnen Sie die Registerkarte **Profile**.
 
    >[!NOTE]
-   >Klicken Sie auf verschiedene Profile (mindestens sollte das Profil &quot;Hohe Qualität H.264&quot;vorhanden sein).
+   >Wählen Sie unterschiedliche Profile aus (es sollte wenigstens das Profil „Hohe Qualität H.264“ vorhanden sein).
 
 ### Prüfen des Videos im Web-Player {#checking-the-video-in-the-web-player}
 
 Mit dem **Web-Player** `http://localhost:4502/content/mobileapps/cq-screens-player/firmware.html/content/screens/we-retail/locations/demo/flagship/single/device0` können Sie die Wiedergabe in Browsern (Chrome und Safari) testen. Chrome wird auf Android™-Geräten genutzt, Safari ist der Browser unter OS X und iOS.
 
-Wenn das Video in Safari nicht läuft, funktioniert es auch nicht bei den OS X- und iOS-Playern.  Dieses Problem ist wahrscheinlich ein Kodierungsproblem und das Video muss neu kodiert werden.
+Wenn das Video in Safari nicht läuft, funktioniert es auch nicht bei den OS X- und iOS-Playern.  Dieses Problem wird wahrscheinlich durch einen Kodierungsfehler verursacht. Das Video muss also neu kodiert werden.
 
 Gehen Sie wie folgt vor, um einen DAM-Workflow zum Erstellen von FullHD-Wiedergaben zu verwenden:
 
@@ -109,11 +109,11 @@ Führen Sie folgende Schritte aus, um das Problem mit dem Flag „Autoplay-Richt
 1. Navigieren Sie zu ***chrome://flags/#autoplay-policy***
 1. Die **Autoplay-Richtlinie** muss von **Standard** in **Keine Benutzergeste erforderlich** geändert werden
 
-1. Starten Sie Ihren Webbrowser neu und aktualisieren Sie den Player.
+1. Starten Sie den Webbrowser neu und aktualisieren Sie den Player
 
 >[!NOTE]
 >
->Weitere Informationen zu Best Practices für gute Benutzererlebnisse mit den neuen Autoplay-Richtlinien in Chrome. Siehe *Änderungen an der Autoplay-Richtlinie* at `https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio`.
+>Weitere Informationen zu Best Practices für gute Benutzererlebnisse mit den neuen Autoplay-Richtlinien in Chrome  finden Sie unter *Änderungen an der Autoplay-Richtlinie* auf `https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio`.
 
 ### Synchronisieren von Videos über mehrere Player hinweg {#syncing-video-across-multiple-players}
 

@@ -11,9 +11,9 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
 source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '444'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ Gehen Sie wie folgt vor, um das Anwendungsbeispiel für die temperaturgesteuerte
 
    >[!CAUTION]
    >
-   >Ihre **ContextHub** **Konfigurationen** über den Kanal **Eigenschaften** > **Personalisierung** -Tab bereits eingerichtet sein.
+   >Ihre **ContextHub**-**Konfigurationen**, die den Kanal auf der Registerkarte **Eigenschaften** > **Personalisierung** verwenden, sollten bereits eingerichtet sein.
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
@@ -85,6 +85,6 @@ Gehen Sie wie folgt vor, um das Anwendungsbeispiel für die temperaturgesteuerte
 1. **Überprüfen der Vorschau**
 
    1. Klicken Sie auf **Vorschau**. Öffnen Sie außerdem Ihre Google Tabelle und aktualisieren Sie den Wert.
-   1. Ändern Sie den Wert in weniger als 50. Sie können ein Bild eines kalten Getränks sehen. Wenn der Wert in Google Sheets 50 oder höher ist, sollten Sie ein Bild eines heißen Getränks sehen.
+   1. Ändern Sie den Wert in weniger als 50. Sie können das Bild eines kalten Getränks sehen. Wenn der Wert in Google Sheets 50 oder höher ist, sollten Sie ein Bild eines heißen Getränks sehen.
 
    ![result3](assets/result3.gif)

@@ -11,9 +11,9 @@ role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
 source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1450'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -33,15 +33,15 @@ Bevor Sie sich mit der Erstellung und Verwaltung von bestandsgesteuerten Kanäle
 
 **Zielgruppe** definiert die Regel.
 
-**Segment** - Die Version eines Assets, das für die jeweilige Regel wiedergegeben werden soll. Wenn die Temperatur beispielsweise unter 50 Grad Fahrenheit liegt, zeigt der Bildschirm ein Bild eines heißen Getränks an, ansonsten ein kaltes Getränk.
+**Segment**: Die Version eines Assets, das für die jeweilige Regel wiedergegeben werden soll. Wenn die Temperatur beispielsweise unter 50 Grad Fahrenheit (10 °C) liegt, zeigt der Bildschirm ein Bild eines heißen Getränks an, ansonsten ein kaltes Getränk.
 
-Das folgende Diagramm zeigt visuell, wie ContextHub-Konfigurationen mit Aktivitäten, Zielgruppen und Kanälen zusammenfallen.
+Das folgende Diagramm zeigt visuell, wie ContextHub-Konfigurationen mit Aktivität, Zielgruppe und Kanälen zusammenfallen.
 
 ![screen_shot_2019-05-29at53729pm](assets/screen_shot_2019-05-29at53729pm.png)
 
 ## Voraussetzungen {#preconditions}
 
-Bevor Sie mit der Konfiguration von ContextHub-Konfigurationen für ein AEM Screens-Projekt beginnen, richten Sie Google Tabellen ein (zu Demonstrationszwecken).
+Bevor Sie mit der Konfiguration von ContextHub-Konfigurationen für ein AEM Screens-Projekt beginnen, richten Sie (für Demonstrationszwecke) Google-Tabellen ein.
 
 >[!IMPORTANT]
 >
@@ -53,7 +53,7 @@ Bevor Sie mit der Konfiguration von ContextHub-Konfigurationen für ein AEM Scre
 
 Sie können den Datenspeicher als lokales E/A-Ereignis oder als lokales Datenbankereignis einrichten.
 
-Im folgenden Beispiel für Trigger von Daten auf Asset-Ebene wird ein lokales Datenbankereignis veranschaulicht. Das Ereignis richtet einen Datenspeicher ein, z. B. eine Excel-Tabelle, mit der Sie ContextHub-Konfigurationen und Segmentpfade zum AEM Screens-Kanal verwenden können.
+Im folgenden Beispiel für Daten-Trigger auf Asset-Ebene wird ein lokales Datenbankereignis veranschaulicht. Das Ereignis richtet einen Datenspeicher wie etwa eine Excel-Tabelle ein, mit dem Sie ContextHub-Konfigurationen und Segmentpfade zum AEM Screens-Kanal verwenden können.
 
 Nachdem Sie das `google`-Blatt korrekt eingerichtet haben, wie im folgenden Beispiel dargestellt:
 
@@ -67,13 +67,13 @@ Die folgende Validierung wird angezeigt, wenn Sie Ihre Verbindung prüfen, indem
 
 >[!NOTE]
 >
->Im folgenden Beispiel wird Google Tabellen als Datenspeicher dargestellt, der eine Asset-Änderung Trigger, wenn der Wert größer als 100 oder kleiner als 50 ist.
+>Im folgenden Beispiel wird die Google-Tabelle als Datenspeicher gezeigt, der eine Asset-Änderung auslöst, wenn der Wert größer als 100 oder kleiner als 50 ist.
 
 ## Schritt 2: Einrichten von Speicherkonfigurationen {#step-setting-store-configurations}
 
 1. **Navigieren zu ContextHub**
 
-   Navigieren Sie zu Ihrer AEM-Instanz und klicken Sie in der linken Seitenleiste auf das Symbol &quot;Tools&quot;. Klicken Sie auf **Sites** > **ContextHub**, wie in der Abbildung unten gezeigt.
+   Navigieren Sie zu Ihrer AEM-Instanz und klicken Sie in der linken Seitenleiste auf das Symbol „Tools“. Klicken Sie auf **Sites** > **ContextHub**, wie in der Abbildung unten gezeigt.
 
    ![Bild](/help/user-guide/assets/context-hub/context-hub3.png)
 
@@ -146,7 +146,7 @@ Die folgende Validierung wird angezeigt, wenn Sie Ihre Verbindung prüfen, indem
 
       >[!CAUTION]
       >
-      >Wenn Sie Google Tabellen erstellen, um Konfigurationen außerhalb des globalen Ordners zu speichern (z. B. in Ihrem eigenen Projektordner), funktioniert das Targeting nicht standardmäßig.
+      >Wenn Sie Ihre Google Tabellen zum Speichern von Konfigurationen außerhalb des globalen Ordners erstellen (z. B. in Ihrem eigenen Projektordner), funktioniert das Targeting nicht standardmäßig.
 
 1. **Einrichten der Speichersegmentierung**
 
@@ -166,7 +166,7 @@ Die folgende Validierung wird angezeigt, wenn Sie Ihre Verbindung prüfen, indem
 
    1. Navigieren Sie von Ihrer AEM-Instanz zu **Personalisierung** > **Zielgruppen** > **Screens**.
 
-   1. Klicks **Erstellen** > **Erstellen Sie ein ContextHub-Segment.** Das Dialogfeld **Neues ContextHub-Segment** wird geöffnet.
+   1. Klicken Sie auf **Erstellen** > **ContextHub-Segment erstellen.** Das Dialogfeld **Neues ContextHub-Segment** wird geöffnet.
 
    1. Geben Sie unter **Titel** den Wert `**Higherthan50**` ein und klicken Sie auf **Erstellen**. Erstellen Sie auf ähnliche Weise ein weiteres Segment mit der Bezeichnung `**Lowerthan50**`.
 
@@ -289,7 +289,7 @@ Nachdem Sie einen Datenspeicher eingerichtet und Ihre Aktivität (Marke und Bere
 
 Gehen Sie wie folgt vor, um das Targeting in Ihren Kanälen zu aktivieren.
 
-1. Navigieren Sie zu einem der AEM Screens-Kanäle. Die folgenden Schritte zeigen, wie Sie das Targeting mit **DataDrivenChannel** in einem AEM Screens-Kanal erstellt.
+1. Navigieren Sie zu einem der AEM Screens-Kanäle. Die folgenden Schritte zeigen, wie Sie das Targeting mit dem in einem AEM Screens-Kanal erstellten **DataDrivenChannel** aktivieren.
 
 1. Klicken Sie auf den Kanal **TargetChannel** und dann in der Aktionsleiste auf **Eigenschaften**.
 
@@ -304,7 +304,7 @@ Gehen Sie wie folgt vor, um das Targeting in Ihren Kanälen zu aktivieren.
 
       >[!NOTE]
       >
-      >Verwenden Sie den ContextHub- und den Segmentpfad, in dem Sie Ihre ContextHub-Konfigurationen und -Segmente ursprünglich gespeichert haben.
+      >Verwenden Sie den ContextHub- und den Segmentpfad, in dem Sie Ihre ContextHub-Konfigurationen und -Segmente anfänglich gespeichert haben.
 
       ![Bild](/help/user-guide/assets/context-hub/context-hub20New.png)
 
@@ -312,7 +312,7 @@ Gehen Sie wie folgt vor, um das Targeting in Ihren Kanälen zu aktivieren.
 
       >[!NOTE]
       >
-      >Wenn Sie alles korrekt eingerichtet haben, sehen Sie die **Targeting** in der Dropdown-Liste des Editors, wie in der folgenden Abbildung dargestellt.
+      >Wenn Sie alles korrekt eingerichtet haben, ist in der Dropdown-Liste des Editors die Option **Targeting** zu sehen, wie in der folgenden Abbildung dargestellt.
 
       ![Bild](/help/user-guide/assets/context-hub/context-hub21.png)
 

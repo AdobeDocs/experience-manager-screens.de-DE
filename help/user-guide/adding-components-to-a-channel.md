@@ -11,9 +11,9 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
 source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1417'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Gehen Sie wie folgt vor, um die Standardkomponenten für ein Screens-Projekt anz
 
 ### Hinzufügen neuer Komponenten {#adding-a-new-component}
 
-AEM stellt verschiedene Komponenten bereit. Sie können Ihrem Projekt jederzeit weitere (nicht standardmäßig enthaltene) Komponenten hinzufügen, da diese mit AEM Screens kompatibel sind.
+AEM stellt verschiedene Komponenten bereit. Sie können Ihrem Projekt jederzeit weitere (nicht standardmäßig enthaltene) Komponenten hinzufügen, sofern diese Komponenten mit AEM Screens kompatibel sind.
 
 Im folgenden Beispiel sehen Sie, wie einem AEM Screens-Projekt eine Livefyre-Komponente hinzugefügt wird:
 
@@ -50,7 +50,7 @@ Im folgenden Beispiel sehen Sie, wie einem AEM Screens-Projekt eine Livefyre-Kom
 1. Klicken Sie in der Aktionsleiste auf **Bearbeiten**.
 1. Klicken Sie auf den Modus **Design**.
 1. Wählen Sie rechts den kompletten Design-Editor aus und klicken Sie dann auf das Einstellungssymbol, um das Dialogfeld **ParSys-Design** zu öffnen.
-1. Sie können auf die Komponenten klicken, die in das AEM Screens-Projekt importiert werden sollen.  Das folgende Beispiel zeigt das Hinzufügen der **Livefyre** -Komponente in ein AEM Screens-Projekt.
+1. Sie können auf die Komponenten klicken, die in das AEM Screens-Projekt importiert werden sollen.  Im folgenden Beispiel sehen Sie, wie einem AEM Screens-Projekt eine **Livefyre**-Komponente hinzugefügt wird.
 
 ![adding_components](assets/adding_components.gif)
 
@@ -70,12 +70,12 @@ Im folgenden Abschnitt werden die AEM Screens-Komponenten beschrieben, die Sie f
 
 Mit der Komponente **Anwendung** können Sie Kanälen eine Anwendung hinzufügen.
 
-Die Anwendungskomponente verfügt über die folgenden Eigenschaften:
+Die Komponente „Anwendung“ verfügt über die folgenden Eigenschaften:
 
 | **Eigenschaft** | **Beschreibung** |
 |---|---|
 | ***Anwendungspfad*** | Damit wird der absolute Pfad zur Anwendung festgelegt. |
-| ***Dauer (Millisekunden)*** | Damit wird die Dauer der Anwendung festgelegt. Standardmäßig ist die Dauer auf -1 festgelegt, d. h. das Element wird für immer ausgeführt (d. h. eine Einzelseitenanwendung). Wird unter „Dauer“ ein Wert über 0 festgelegt, wird das Element für die angegebene Dauer angezeigt. Anschließend wird zum nächsten Element gewechselt. |
+| ***Dauer (Millisekunden)*** | Damit wird die Dauer der Anwendung festgelegt. Standardmäßig ist die Dauer auf den Wert „-1“ festgelegt. Dies bedeutet, dass das Element auf unbestimmte Zeit ausgeführt wird (bei einer Single Page Application). Wird unter „Dauer“ ein Wert über 0 festgelegt, wird das Element für die angegebene Dauer angezeigt. Anschließend wird zum nächsten Element gewechselt. |
 
 Im folgenden Beispiel sehen Sie, wie die Komponente „Anwendung“ hinzugefügt wird, einschließlich einer Vorschau ihrer Eigenschaften:
 
@@ -83,7 +83,7 @@ Im folgenden Beispiel sehen Sie, wie die Komponente „Anwendung“ hinzugefügt
 
 >[!NOTE]
 >
->Im obigen Beispiel sehen Sie, wie Sie die Eigenschaften der einzelnen Komponenten unten anzeigen können.
+>Im Beispiel oben sehen Sie, wie die Eigenschaften aller nachfolgenden Komponenten aufgerufen werden können.
 
 ### Kanal {#channel}
 
@@ -135,9 +135,9 @@ Die Komponente „Eingebettete Seite“ verfügt über die folgenden Eigenschaft
 
 >[!NOTE]
 >
->Ausführliche Informationen zu eingebetteten Sequenzen finden Sie unter [Eingebettete Sequenzen](embedded-sequences.md) im Abschnitt &quot;Autorenbildschirme&quot;.
+>Ausführliche Informationen zu eingebetteten Sequenzen finden Sie im Abschnitt „Inhaltserstellung in Screens“ unter [Eingebettete Sequenzen](embedded-sequences.md).
 
-Mit einer eingebetteten Sequenz können Sie einen eingebetteten Sequenzkanal innerhalb des vorhandenen Kanals (mit anderen Assets) hinzufügen.
+Mit der Komponente „Eingebettete Sequenz“ können Sie einen eingebetteten Sequenzkanal in einem vorhandenen Kanal (mit anderen Assets) hinzufügen.
 
 Die Komponente „Eingebettete Sequenz“ verfügt über die folgenden Seiteneigenschaften:
 
@@ -157,16 +157,16 @@ Die Komponente „Eingebettete Sequenz“ verfügt über die folgenden Seiteneig
   </tr>
   <tr>
    <td><strong><em>Strategie</em></strong></td>
-   <td>Für diese Eigenschaft kann <strong>original</strong> oder <strong>einzeln</strong> festgelegt werden. Festlegen des Werts auf <strong>original</strong> bedeutet, dass die Teilsequenz bei jedem Zyklus der übergeordneten Sequenz vollständig ausgeführt wird. Der andere mögliche Wert lautet <strong>einzeln</strong>. Ein solcher Wert zeigt nur ein Element der Teilsequenz bei jeder Ausführung an. beispielsweise das erste Element bei der ersten Schleife und das zweite Element bei der zweiten Schleife.</td>
+   <td>Für diese Eigenschaft kann <strong>original</strong> oder <strong>einzeln</strong> festgelegt werden. Ist der Wert auf <strong>original</strong> festgelegt, wird die Teilsequenz bei jedem Zyklus der übergeordneten Sequenz vollständig ausgeführt. Der andere mögliche Wert lautet <strong>einzeln</strong>. Hierbei wird nur ein Element der Teilsequenz bei jeder Ausführung angezeigt, beispielsweise das erste Element bei der ersten Schleife und das zweite Element bei der zweiten Schleife.</td>
   </tr>
  </tbody>
 </table>
 
 ### Dynamische eingebettete Sequenz {#dynamic-embedded-sequence}
 
-Mit einer dynamischen eingebetteten Sequenz können Sie eine Sequenz hinzufügen, die der oben genannten ähnelt, mit Ausnahme der Kanalrolle.
+Mit einer dynamischen eingebetteten Sequenz können Sie eine ähnliche Sequenz wie die oben erwähnte hinzufügen, jedoch nach Kanalrolle.
 
-Weitere Informationen zu eingebetteten Sequenzen finden Sie unter [Eingebettete Sequenzen](embedded-sequences.md) im Abschnitt &quot;Autorenbildschirme&quot;.
+Weitere Informationen zu eingebetteten Sequenzen finden Sie im Abschnitt „Inhaltserstellung in Screens“ unter [Eingebettete Sequenzen](embedded-sequences.md).
 
 Die Komponente „Dynamische eingebettete Sequenz“ verfügt über die folgenden Eigenschaften:
 
@@ -186,14 +186,14 @@ Die Komponente „Dynamische eingebettete Sequenz“ verfügt über die folgende
   </tr>
   <tr>
    <td><strong><em>Strategie</em></strong></td>
-   <td>Für diese Eigenschaft kann <strong>original</strong> oder <strong>einzeln</strong> festgelegt werden. Festlegen des Werts auf <strong>original</strong> bedeutet, dass die Teilsequenz bei jedem Zyklus der übergeordneten Sequenz vollständig ausgeführt wird. Der andere mögliche Wert lautet <strong>einzeln</strong>. Ein solcher Wert zeigt nur ein Element der Teilsequenz bei jeder Ausführung an. Beispielsweise das erste Element bei der ersten Schleife und das zweite Element bei der zweiten Schleife.</td>
+   <td>Für diese Eigenschaft kann <strong>original</strong> oder <strong>einzeln</strong> festgelegt werden. Ist der Wert auf <strong>original</strong> festgelegt, wird die Teilsequenz bei jedem Zyklus der übergeordneten Sequenz vollständig ausgeführt. Der andere mögliche Wert lautet <strong>einzeln</strong>. Hierbei wird bei jeder Ausführung nur ein Element der Teilsequenz angezeigt, Beispielsweise das erste Element bei der ersten Schleife und das zweite Element bei der zweiten Schleife.</td>
   </tr>
  </tbody>
 </table>
 
 ### Experience Fragment {#experience-fragment}
 
-Mit einem Experience Fragment können Sie Ihrem AEM Screens-Kanal ein Experience Fragment hinzufügen (eine Gruppe aus einer oder mehreren Komponenten, einschließlich Inhalt und Layout, auf die innerhalb von Seiten verwiesen werden kann). Ziehen Sie die Komponente per Drag-and-Drop in den AEM-Editor und klicken Sie auf das Experience Fragment.
+Mit einem Experience Fragment können Sie dem AEM Screens-Kanal ein Experience Fragment hinzufügen (eine Gruppe aus einer oder mehreren Komponenten, einschließlich Inhalt und Layout, worauf in Seiten verwiesen werden kann). Ziehen Sie die Komponente per Drag-and-Drop in den AEM-Editor und klicken Sie auf das Experience Fragment.
 
 Weitere Informationen zum Erstellen eines Experience Fragments und dessen Anwendung auf ein AEM Screens-Projekt finden Sie unter [Verwenden von Experience Fragments](experience-fragments-in-screens.md).
 
@@ -206,7 +206,7 @@ Weitere Informationen zum Erstellen eines Experience Fragments und dessen Anwend
 | ***Dauer*** | Wählen Sie die Gesamtdauer des Experience Fragments aus, das im Kanal wiedergegeben wird. |
 | **Offline-Konfiguration** |
 | ***Client-seitige Bibliotheken*** | JavaScript- und CSS-Dateien. |
-| ***Statische Dateien*** | Statische Dateien, die Sie als Offline-Konfigurationen zu Ihrem Experience Fragment hinzufügen können. |
+| ***Statische Dateien*** | Statische Dateien, die Sie als Offline-Konfigurationen Ihrem Experience Fragment hinzufügen können. |
 
 >[!NOTE]
 >
@@ -293,7 +293,7 @@ Die Komponente „Übergang“ verfügt über die folgenden Eigenschaften:
   </tr>
   <tr>
    <td><strong><em>Aktiv bis</em></strong></td>
-   <td>Der Zeitstempel beschreibt, bis wann die Transition aktiv sein kann.</td>
+   <td>Zeitstempel, der beschreibt, bis wann der Übergang aktiv sein kann.</td>
   </tr>
   <tr>
    <td><strong><em>Zeitplan</em></strong></td>

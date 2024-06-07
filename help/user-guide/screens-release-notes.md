@@ -1,6 +1,6 @@
 ---
 title: Versionshinweise für Feature Pack 201809
-description: Erfahren Sie mehr über das AEM Screens Feature Pack 201809, das am Dienstag, 1. Oktober 2018 veröffentlicht wurde.
+description: Erfahren Sie mehr über das AEM Screens Feature Pack 201809, das am 1. Oktober 2018 veröffentlicht wurde.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,7 +10,7 @@ role: Developer
 level: Intermediate
 exl-id: abeaed51-b18c-4366-93ef-4f05f33af649
 source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '250'
 ht-degree: 100%
 
