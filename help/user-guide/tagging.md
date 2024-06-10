@@ -4,9 +4,9 @@ description: Auf dieser Seite wird beschrieben, wie Tags in der Screens Cloud er
 index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
 source-git-commit: 62036fb6149d4babfeba69261af0bc4904ae0e82
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '158'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -35,15 +35,15 @@ Verwenden Sie dasselbe Aktionsmenü, um ein Tag umzubenennen oder zu löschen.
 
 Verwenden Sie erstellte Tags auf Anzeigen und Playern. Sie können jeweils maximal 30 Tags anwenden.
 
-![Verwalten von Tag-Zuweisungen](assets/tagging/assign-tags-to-players.gif).
+![Tag-Zuweisungen verwalten](assets/tagging/assign-tags-to-players.gif).
 
 ## Filtern nach Tags {#filter-by-tags}
 
 Wählen Sie Tags aus, um die Liste der Anzeigen oder Player zu filtern.
 
-![nach Tags filtern](assets/tagging/filter-by-tags.gif).
+![Nach Tags filtern](assets/tagging/filter-by-tags.gif).
 
 >[!NOTE]
 > 
-> In der Screens Cloud definierte Tags werden nicht mit in AEM definierten Tags verknüpft/synchronisiert.
+> In der Screens-Cloud definierte Tags werden nicht mit in AEM definierten Tags verknüpft/synchronisiert.
 > 
