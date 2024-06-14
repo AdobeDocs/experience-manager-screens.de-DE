@@ -3,10 +3,10 @@ title: Tagging in der Screens Cloud
 description: Auf dieser Seite wird beschrieben, wie Tags in der Screens Cloud erstellt, verwaltet und verwendet werden können.
 index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
-source-git-commit: 62036fb6149d4babfeba69261af0bc4904ae0e82
-workflow-type: ht
-source-wordcount: '158'
-ht-degree: 100%
+source-git-commit: 43971621ae34a433cb5af3cd84b0e6f074af0c30
+workflow-type: tm+mt
+source-wordcount: '150'
+ht-degree: 82%
 
 ---
 
@@ -28,14 +28,18 @@ Verwenden Sie dasselbe Aktionsmenü, um ein Tag umzubenennen oder zu löschen.
 
 >[!NOTE]
 > 
-> Der Tag-Name darf nur Buchstaben, Zahlen, Bindestriche und Unterstriche enthalten. Am Anfang und Ende des Namens sollte nur ein Buchstabe oder eine Zahl stehen.
 > Für einen Mandanten sind insgesamt 500 Tags zulässig
 
 ## Verwalten von Tags-Zuweisungen {#manage-tags-assignments}
 
-Verwenden Sie erstellte Tags auf Anzeigen und Playern. Sie können jeweils maximal 30 Tags anwenden.
+Verwenden Sie erstellte Tags auf Anzeigen und Playern.
 
 ![Tag-Zuweisungen verwalten](assets/tagging/assign-tags-to-players.gif).
+
+>[!NOTE]
+> 
+> Eine Anzeige oder ein Player kann maximal 100 Tags enthalten.
+> Es können maximal 30 Elemente gleichzeitig mit Tags versehen werden.
 
 ## Filtern nach Tags {#filter-by-tags}
 
