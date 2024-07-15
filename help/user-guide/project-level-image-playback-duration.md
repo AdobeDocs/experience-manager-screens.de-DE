@@ -3,7 +3,7 @@ title: Dauer der Bildwiedergabe auf Projektebene
 description: Erfahren Sie, wie Sie die Dauer der Bildwiedergabe auf der Projektebene festlegen.
 contentOwner: jsyal
 source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 100%
 

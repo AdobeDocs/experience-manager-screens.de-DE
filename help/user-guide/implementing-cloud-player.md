@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
 source-git-commit: 6720e20f5254e869bde814bd167730e426d0f8fe
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 100%
 
@@ -44,14 +44,14 @@ Die Installation des Cloud-Players kann auf verschiedenen Plattformen variieren.
 >
 >### Cloud-Player-Installationsoption {#cloud-player-install-option}
 >
->1. Die Installationsoption für eine PWA wird auch als A2HS-Funktion („Add to Home Screen = Zum Startbildschirm hinzufügen“) bezeichnet.  Die Unterstützung für die Installation von PWAs über das Internet variiert je nach Browser und Plattform.
->1. Jeder Browser hat unterschiedliche Kriterien, um zu überprüfen, ob die PWA-App installiert ist oder nicht. In der Regel kann der Browser Folgendes überprüfen (weitere Details finden Sie hier):
+1. Die Installationsoption für eine PWA wird auch als A2HS-Funktion („Add to Home Screen = Zum Startbildschirm hinzufügen“) bezeichnet.  Die Unterstützung für die Installation von PWAs über das Internet variiert je nach Browser und Plattform.
+1. Jeder Browser hat unterschiedliche Kriterien, um zu überprüfen, ob die PWA-App installiert ist oder nicht. In der Regel kann der Browser Folgendes überprüfen (weitere Details finden Sie hier):
 >
->* Ob die Anwendung über eine Manifest-JSON-Datei mit minimalen erforderlichen Schlüsseln für die Installation der Anwendung auf der Plattform verfügt, d. h. Name, Symbole, start_url, Anzeige.
->* Ob die Anwendung über eine Service-Worker-Datei mit einem Ereignis-Listener zum Abrufen verfügt.
->* Die App muss über HTTPS bereitgestellt werden.
+* Ob die Anwendung über eine Manifest-JSON-Datei mit minimalen erforderlichen Schlüsseln für die Installation der Anwendung auf der Plattform verfügt, d. h. Name, Symbole, start_url, Anzeige.
+* Ob die Anwendung über eine Service-Worker-Datei mit einem Ereignis-Listener zum Abrufen verfügt.
+* Die App muss über HTTPS bereitgestellt werden.
 >
->1. Die Installationsoption kann je nach Browser und Gerätetyp an verschiedenen Stellen angezeigt werden. In einigen Browsern ist das Installationssymbol möglicherweise in der Menüleiste für Optionen versteckt.
+1. Die Installationsoption kann je nach Browser und Gerätetyp an verschiedenen Stellen angezeigt werden. In einigen Browsern ist das Installationssymbol möglicherweise in der Menüleiste für Optionen versteckt.
 
 ## Massenbereitstellung des Cloud-Players {#bulk-provisioning}
 
@@ -80,15 +80,15 @@ Klicken Sie je nach Typ der AEM-Instanz auf eines der folgenden Handbücher, um 
 
 >[!NOTE]
 >
->## Einstellung von Chrome-Apps durch Google
+## Einstellung von Chrome-Apps durch Google
 >
->1. Chrome-Apps auf Chrome OS-Hardware:
+1. Chrome-Apps auf Chrome OS-Hardware:
 >
->Google arbeitet aktiv an der Einstellung von Chrome-Apps und stellt stattdessen auf PWA-Apps um, wobei die Migration bis Januar 2025 geplant ist. Daher funktioniert die AEM Screens Player-App unter Chrome OS nicht mehr auf der Grundlage der freigegebenen Timeline. Adobe fordert Benutzende, die derzeit den Chrome-Player in der Produktion verwenden, dazu auf, die Umstellung auf den Screens Cloud-Player zu planen.
+Google arbeitet aktiv an der Einstellung von Chrome-Apps und stellt stattdessen auf PWA-Apps um, wobei die Migration bis Januar 2025 geplant ist. Daher funktioniert die AEM Screens Player-App unter Chrome OS nicht mehr auf der Grundlage der freigegebenen Timeline. Adobe fordert Benutzende, die derzeit den Chrome-Player in der Produktion verwenden, dazu auf, die Umstellung auf den Screens Cloud-Player zu planen.
 >
->1. Player für Chrome-Erweiterungen unter Mac, Windows und Linux®:
+1. Player für Chrome-Erweiterungen unter Mac, Windows und Linux®:
 >
->Aufgrund des Einstellungsprozesses von Google wird der Screens-Player für Chrome-Erweiterungen ab Google Chrome Version 114 nicht mehr unterstützt. Adobe empfiehlt dringend, für alle Entwicklungs- und Testanforderungen zu seinem Screens-Cloud-Player zu wechseln.
+Aufgrund des Einstellungsprozesses von Google wird der Screens-Player für Chrome-Erweiterungen ab Google Chrome Version 114 nicht mehr unterstützt. Adobe empfiehlt dringend, für alle Entwicklungs- und Testanforderungen zu seinem Screens-Cloud-Player zu wechseln.
 
 ## Offline-Unterstützung für Abruf von externen Inhalten {#offline-support}
 

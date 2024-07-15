@@ -3,7 +3,7 @@ title: Einführung in AEM Screens
 description: Erfahren Sie mehr über AEM Screens und was es für Sie tun kann.
 exl-id: 11781e0b-0aca-4d08-aaad-87a7aaf28c24
 source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 100%
 

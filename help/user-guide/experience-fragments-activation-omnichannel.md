@@ -2,7 +2,7 @@
 title: Aktivierung von Experience Fragments
 description: Ein Anwendungsbeispiel, das Ihnen dabei hilft, mehr über die Aktivierung von Experience Fragments im Zusammenhang mit AEM Screens zu erfahren.
 source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 100%
 

@@ -2,7 +2,7 @@
 title: Umgebungen für [!UICONTROL AEM Screens]
 description: Erfahren Sie mehr über die Umgebungen für ein AEM Screens-Projekt.
 source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 100%
 

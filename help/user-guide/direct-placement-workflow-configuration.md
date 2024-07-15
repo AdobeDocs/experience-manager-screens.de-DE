@@ -2,7 +2,7 @@
 title: Konfigurieren des Workflows für die direkte Platzierung
 description: Auf dieser Seite wird die Konfiguration des Workflows für die direkte Platzierung beschrieben.
 source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 100%
 

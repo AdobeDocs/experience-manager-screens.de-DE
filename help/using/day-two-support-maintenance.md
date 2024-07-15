@@ -3,7 +3,7 @@ title: Tag 2 – Support und Wartung
 description: Erfahren Sie mehr über Tag 2, Support und Wartung für AEM Screens.
 exl-id: 2b5511ff-c8f4-4ea3-8a65-f17f3a1ec39b
 source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 100%
 

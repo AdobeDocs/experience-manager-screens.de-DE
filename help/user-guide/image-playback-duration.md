@@ -3,7 +3,7 @@ title: Bildwiedergabedauer
 description: Erfahren Sie mehr über die Bildwiedergabedauer in AEM Screens.
 contentOwner: jsyal
 source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 100%
 

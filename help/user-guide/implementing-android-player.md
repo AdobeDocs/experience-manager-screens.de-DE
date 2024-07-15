@@ -92,7 +92,7 @@ Gehen Sie wie folgt vor, um das Android™-APK mithilfe der Herstellerschlüssel
 
 ## Einführung zu Android™-Watchdog-Services {#android-watchdog-services}
 
-Der Android™ Watchdog-übergreifende Dienst wird als Cordova-Plug-in mithilfe von *AlarmManager*.
+Der Android™ Watchdog-übergreifende Dienst wird mithilfe von *AlarmManager* als Cordova-Plug-in implementiert.
 
 Das folgende Diagramm zeigt die Implementierung des Watchdog-Services:
 

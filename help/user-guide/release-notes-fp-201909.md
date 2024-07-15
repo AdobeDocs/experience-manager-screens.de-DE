@@ -6,7 +6,7 @@ role: Developer
 level: Intermediate
 exl-id: 577228c1-8d90-47b5-8600-7e2f1004e928
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 100%
 
@@ -57,4 +57,4 @@ Die folgenden AEM Screens-Player sind für AEM 6.4.6 Feature Pack 6 und AEM 6.5.
 
 #### AEM Screens-Player-Downloads
 
-Navigieren Sie zur Seite [**AEM Screens-Player-Downloads**](https://download.macromedia.com/screens/), um den neuesten AEM Screens-Player herunterzuladen und mehr über die Fehlerbehebungen zu erfahren.
+Navigieren Sie zu [**AEM Screens-Player-Downloads**](https://download.macromedia.com/screens/), um den neuesten AEM Screens-Player herunterzuladen und mehr über die Fehlerbehebungen zu erfahren.

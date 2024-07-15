@@ -3,7 +3,7 @@ title: Voraussetzungen für [!UICONTROL AEM Screens]
 description: Erfahren Sie, welche Voraussetzungen erfüllt sein müssen, bevor Sie ein AEM Screens-Projekt starten können.
 exl-id: ff305a6c-02cb-4c06-a457-9a22f525fab5
 source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 100%
 

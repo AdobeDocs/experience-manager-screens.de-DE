@@ -2,7 +2,7 @@
 title: Sicherheits-Checkliste für AEM Screens
 description: Erfahren Sie mehr über die Sicherheits-Checkliste für AEM Screens.
 source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 100%
 

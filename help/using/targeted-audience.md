@@ -2,7 +2,7 @@
 title: Zielgruppe
 description: Erfahren Sie mehr über die Zielgruppe des Best Practices-Handbuchs von AEM Screens.
 source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 100%
 

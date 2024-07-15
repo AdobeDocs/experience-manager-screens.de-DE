@@ -3,7 +3,7 @@ title: Verwenden adaptiver Ausgabedarstellungen in AEM Screens
 description: Erfahren Sie, wie Sie adaptive Ausgabedarstellungen in AEM Screens verwenden können.
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
 source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 100%
 

@@ -3,7 +3,7 @@ title: Über dieses Handbuch
 description: Erfahren Sie mehr über Best Practices für AEM Screens-Projekte, um Projekte zu planen und auszuführen, angefangen bei der Strategie und dem Design-Briefing bis hin zur Bereitstellung und dem anschließenden Support.
 exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
 source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 100%
 

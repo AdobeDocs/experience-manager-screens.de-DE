@@ -3,7 +3,7 @@ title: Rollen und Zuständigkeiten von AEM Screens-Projekten
 description: Erfahren Sie mehr über die Rollen und Zuständigkeiten von AEM Screens-Projekten.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
 source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1241'
 ht-degree: 100%
 
@@ -132,7 +132,7 @@ Die folgende Tabelle fasst die Überlegungen zu **Tag 0: Pre-Sales** zusammen:
 
 Die folgende Tabelle fasst die Überlegungen zu **Tag 0: Projektimplementierung (Anwendungs-Design)** zusammen:
 
-| **Schritt** | **Die für die Audio-Video-Integration zuständige Person** | **AEM-Implementor** | **Geschäftsstrategie** | **Content Management** |
+| **Schritt** | **Audio-Video-Integrator** | **AEM-Implementor** | **Geschäftsstrategie** | **Content Management** |
 |---|---|---|---|---|
 | Einigung über Rollen und Zuständigkeiten | RA | RA | RA | RA |
 | Ausrichtung am Projekt- und Zeitplan | RA | RA | C | C |
@@ -152,7 +152,7 @@ Die folgende Tabelle fasst die Überlegungen zu **Tag 0: Projektimplementierung
 
 Die folgende Tabelle fasst die Überlegungen zu **Tag 0: Projektimplementierung (Einzelhändlervorbereitung)** zusammen:
 
-| **Schritt** | **Die für die Audio-Video-Integration zuständige Person** | **AEM-Implementor** | **Geschäftsstrategie** | **Content Management** |
+| **Schritt** | **Audio-Video-Integrator** | **AEM-Implementor** | **Geschäftsstrategie** | **Content Management** |
 |---|---|---|---|---|
 | Hardwarebestellung und -lagerung | RA | I | I | I |
 | Onboarding-Zeitplan für den Einzelhandel | I | I | C | RA |
@@ -162,7 +162,7 @@ Die folgende Tabelle fasst die Überlegungen zu **Tag 0: Projektimplementierung
 
 Die folgende Tabelle fasst die Überlegungen zu **Tag 1: Projektimplementierung (Hardware)** zusammen:
 
-| **Schritt** | **Die für die Audio-Video-Integration zuständige Person** | **AEM-Implementor** | **Geschäftsstrategie** | **Content Management** |
+| **Schritt** | **Audio-Video-Integrator** | **AEM-Implementor** | **Geschäftsstrategie** | **Content Management** |
 |---|---|---|---|---|
 | Einigung über Rollen und Zuständigkeiten | RA | RA | RA | RA |
 | Einzelhandelsdesign inklusive Verkabelung | - | - | - | - |
