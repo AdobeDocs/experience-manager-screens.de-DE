@@ -2,10 +2,10 @@
 title: Rollen und Zuständigkeiten von AEM Screens-Projekten
 description: Erfahren Sie mehr über die Rollen und Zuständigkeiten von AEM Screens-Projekten.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+source-git-commit: 7eae5038cb836219447d900bacf8af2faab51a43
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 100%
+source-wordcount: '1255'
+ht-degree: 98%
 
 ---
 
@@ -44,6 +44,10 @@ AEM-Implementoren stellen benutzerdefinierte Funktionen an Standorten in der Reg
 Die für die Audio-Video-Integration zuständige Person ist der Hardware-Anbieter oder -Partner. Dabei handelt es sich um die Partei, die sich mit der Vorbereitung von Design und Sites für den Einzelhandel beschäftigt, einschließlich Beschaffung, Konfiguration und Bereitstellung der Hardware. Es handelt sich dabei in der Regel um einen beauftragten Drittanbieter, der Zugriff auf ein Network Operations Center (NOC) hat. Häufig ist die Person, die für die Audio-Video-Integration zuständig ist, auch die bzw. der Projektverantwortliche, da sie nach der Markteinführung weiter kontinuierlich beteiligt ist.
 
 Die Person, die für die Audio-Video-Integration zuständig ist, ist für die Durchführung der Erkundung mit Endkundinnen bzw. -kunden verantwortlich, um Anforderungen zu definieren, die den Projektumfang für Entwicklung, Aufbau und effektive Verwaltung von Bereitstellungen im Zusammenhang mit Digital-Signage-Hardware bestimmen.
+
+>[!NOTE]
+>
+> Sie müssen über einen Audio Video Integrator im Rahmen Ihrer AEM Screens-Implementierung verfügen.
 
 #### Auswahl von Hardware-Partnern {#selecting-hardware-partner}
 
