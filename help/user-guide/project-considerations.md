@@ -1,5 +1,5 @@
 ---
-title: '„Teil 2: Überlegungen zum Projektumfang“'
+title: 'Teil 2: Überlegungen zum Projektumfang'
 description: Erfahren Sie mehr über die Inhaltsstrategie, E/A-Schichten, Asset-Typen und Zielgruppensegmentierung in AEM Screens. Erfahren Sie mehr über Dayparting, Anforderungen an den Geschäftsbetrieb und Überlegungen zur Site-Bereitschaft.
 contentOwner: jsyal
 content-type: reference

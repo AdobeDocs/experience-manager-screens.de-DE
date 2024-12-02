@@ -1,5 +1,5 @@
 ---
-title: '„Teil 5: Überlegungen zum Support“'
+title: 'Teil 5: Überlegungen zum Support'
 description: Erfahren Sie, wie sich Probleme mit Hardware, Software und Konnektivität beheben lassen. Erfahren Sie mehr zu Kostenschätzungen und Bedingungen für Vor-Ort-Support. Zudem wird erläutert, wie sich SLA-Parameter, Betriebsbudgets und NOC-Handoffs verwalten lassen.
 contentOwner: jsyal
 content-type: reference

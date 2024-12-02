@@ -1,5 +1,5 @@
 ---
-title: '„Teil 3: Tests, POCs, Pilotprogramme und Rollouts“'
+title: 'Teil 3: Tests, POCs, Pilotprogramme und Rollouts'
 description: Erfahren Sie, welche Schlüsselbegriffe in einem übergeordneten Projektplan eine Rolle spielen, wie z.B. Projektzyklus, Maßnahmen bei Hardware-Tests, Machbarkeitsstudien, Pilotprogramme und Rollouts.
 contentOwner: jsyal
 content-type: reference

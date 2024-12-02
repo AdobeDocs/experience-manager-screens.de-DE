@@ -1,5 +1,5 @@
 ---
-title: '„Teil 4: Projekt-Management und Bereitstellung“'
+title: 'Teil 4: Projekt-Management und Bereitstellung'
 description: Erfahren Sie mehr über das Projekt-Management und die Bereitstellungsvorbereitung (Projektvorbereitung, Projektinitiierung, Projektfortschritt) für AEM Screens.
 contentOwner: jsyal
 content-type: reference
