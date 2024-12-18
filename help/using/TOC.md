@@ -52,5 +52,5 @@ ht-degree: 98%
    + [Interaktionsstrategie für Anbieter](vendor-engagement.md)
 + Support und Wartung {#ongoing-support}
    + [Support und Überwachung](support-monitoring.md)
-   + [Post-Launch-Support](post-launch-support.md)
+   + [Support nach der Markteinführung](post-launch-support.md)
    + [Tag 2 – Plattform-Support und -wartung](day-two-support-maintenance.md)

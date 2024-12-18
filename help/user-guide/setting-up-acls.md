@@ -1,6 +1,6 @@
 ---
 title: Einrichten von ACLs
-description: Erfahren Sie, wie Sie Projekte mithilfe von ACLs (Access Control Lists) trennen, damit jede Person oder jedes Team ein eigenes Projekt erhält.
+description: Erfahren Sie, wie Sie Projekte mithilfe von Zugriffssteuerungslisten (ACLs) trennen können, sodass jede Person oder jedes Team ein eigenes Projekt verwaltet.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -18,7 +18,7 @@ ht-degree: 90%
 
 # Einrichten von Zugriffssteuerungslisten (ACLs) {#setting-up-acls}
 
-Im folgenden Abschnitt wird erläutert, wie Sie Projekte mithilfe von Zugriffssteuerungslisten (ACLs) separieren können, sodass jede Person oder jedes Team ein eigenes Projekt erhält.
+Im folgenden Abschnitt wird erläutert, wie Sie Projekte mithilfe von Zugriffssteuerungslisten (ACLs) trennen können, sodass jede Person bzw. jedes Team sein eigenes Projekt verwaltet.
 
 Stellen Sie als AEM-Admin sicher, dass Team-Mitglieder eines Projekts nicht in andere Projekte eingreifen. Jeder Person werden gemäß den Projektanforderungen spezifische Rollen zugewiesen.
 

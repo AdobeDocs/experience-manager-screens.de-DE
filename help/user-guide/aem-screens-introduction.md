@@ -1,5 +1,5 @@
 ---
-title: Was ist Adobe Experience Manager Screens?
+title: 'Was ist Adobe Experience Manager Screens? '
 description: Erfahren Sie mehr über den Umgang mit Adobe Experience Manager Screens, einer Lösung für digitale Beschilderung, mit der Sie dynamische und interaktive digitale Erlebnisse und Interaktionen mit verschiedenen Arten von Bildschirmen auf einer umfassenden Digital Marketing-Plattform veröffentlichen können.
 feature: Overview, Digital Signage
 role: User

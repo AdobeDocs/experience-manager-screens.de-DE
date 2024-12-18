@@ -47,7 +47,7 @@ Die Person, die für die Audio-Video-Integration zuständig ist, ist für die Du
 
 >[!NOTE]
 >
-> Sie müssen über einen Audio Video Integrator im Rahmen Ihrer AEM Screens-Implementierung verfügen.
+> Sie müssen über einen Audio-Video-Integrator als Teil Ihrer AEM Screens-Bereitstellung verfügen.
 
 #### Auswahl von Hardware-Partnern {#selecting-hardware-partner}
 

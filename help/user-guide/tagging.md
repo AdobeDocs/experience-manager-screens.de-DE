@@ -32,14 +32,14 @@ Verwenden Sie dasselbe Aktionsmenü, um ein Tag umzubenennen oder zu löschen.
 
 ## Verwalten von Tags-Zuweisungen {#manage-tags-assignments}
 
-Verwenden Sie erstellte Tags auf Anzeigen und Playern.
+Verwenden Sie erstellte Tags in Displays und Playern.
 
 ![Tag-Zuweisungen verwalten](assets/tagging/assign-tags-to-players.gif).
 
 >[!NOTE]
 > 
-> Eine Anzeige oder ein Player kann maximal 100 Tags enthalten.
-> Es können maximal 30 Elemente in einem Schritt mit Tags versehen werden.
+> Ein Display oder ein Player kann maximal 100 Tags enthalten.
+> Es können maximal 30 Elemente in einem Schritt getaggt werden.
 
 ## Filtern nach Tags {#filter-by-tags}
 

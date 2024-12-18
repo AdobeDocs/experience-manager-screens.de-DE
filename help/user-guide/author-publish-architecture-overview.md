@@ -1,6 +1,6 @@
 ---
 title: Architektur-Überblick zur Autoren- und Veröffentlichungsinstanz
-description: Die Architektur von AEM Screens ähnelt einer traditionellen AEM Sites-Architektur. Inhalte werden in einer AEM-Autoreninstanz erstellt und dann vorwärts an mehrere Veröffentlichungsinstanzen repliziert.
+description: 'Die Architektur von AEM Screens ähnelt einer traditionellen AEM Sites-Architektur. Inhalte werden in einer AEM-Autoreninstanz erstellt und dann vorwärts an mehrere Veröffentlichungsinstanzen repliziert. '
 content-type: reference
 topic-tags: administering
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS

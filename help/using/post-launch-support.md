@@ -1,15 +1,15 @@
 ---
 title: Post-Launch-Support
 description: Weitere Informationen zum Post-Launch-Support für AEM Screens finden Sie im Best-Practices-Handbuch.
-source-git-commit: dd91043434892817e1aa900e222fae85b8665da8
+exl-id: cd7442ed-52a4-43d2-adc7-f643f4f16581
+source-git-commit: d8351a35fad108c47c7a9fdfddfb62f91dec8c2c
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 99%
 
 ---
 
-
-# Post-Launch-Support {#post-launch-support}
+# Support nach der Markteinführung {#post-launch-support}
 
 Selbst in der Frühphase sollten Sie eines keinesfalls außer Acht lassen: den Post-Launch-Support.
 
