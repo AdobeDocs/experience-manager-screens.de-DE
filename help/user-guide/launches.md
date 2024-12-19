@@ -51,10 +51,10 @@ Wenn das Live-Datum der *24. November, 9:00 Uhr* ist und die Nachfrist *24 St
 
 Ein Beispiel: Der Server befindet sich in der Zeitzone „PST“ und die Geräte in der Zeitzone „EST“. Die maximale Zeitdifferenz beträgt drei Stunden. Es wird davon ausgegangen, dass die Promotion 1 Minute dauert, die Veröffentlichung von der Autoren- zur Veröffentlichungsinstanz 10 Minuten dauert und der Player die Ressourcen in der Regel in 10–15 Minuten herunterladen kann. Die Übergangsphase ist dann gleich dem Zeitunterschied (drei Stunden):
 
-* + die Zeit für die Launch-Promotion (1 Minute)
-* + die Zeit für die Launch-Veröffentlichung (10 Minuten)
-* + die Zeit für den Download im Player (10 bis 15 Minuten)
-* + Puffer (30 Minuten)
+* &#x200B;+ die Zeit für die Launch-Promotion (1 Minute)
+* &#x200B;+ die Zeit für die Launch-Veröffentlichung (10 Minuten)
+* &#x200B;+ die Zeit für den Download im Player (10 bis 15 Minuten)
+* &#x200B;+ Puffer (30 Minuten)
 
 Insgesamt sind dies dann 3 Stunden und 56 Minuten (14.160 Sekunden).
 
