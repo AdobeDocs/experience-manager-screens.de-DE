@@ -1,6 +1,6 @@
 ---
 source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 100%
 
@@ -9,7 +9,7 @@ ht-degree: 100%
 
 ## Die Verpflichtung von Adobe
 
-Um eine offene und einladende Umgebung zu fördern, verpflichten sich sowohl Mitwirkende als auch Verantwortliche, allen Teilnehmenden an einem Projekt und unserer Gemeinschaft eine belästigungsfreie Beteiligung zu ermöglichen. Diese Erfahrung ist unabhängig von Alter, Körpergröße, Behinderung, ethnischer Herkunft, Geschlechtsidentität und -ausdruck. Unabhängig von Erfahrungsniveau, Nationalität, persönlichem Erscheinungsbild, Herkunft, Religion oder sexueller Identität und Orientierung.
+Um eine offene und einladende Umgebung zu fördern, verpflichten sich sowohl Mitwirkende als auch Verantwortliche, allen Teilnehmenden an einem Projekt und unserer Gemeinschaft eine belästigungsfreie Beteiligung zu ermöglichen. Diese Erfahrung ist unabhängig von Alter, Körpergröße, Behinderung, ethnischer Zugehörigkeit sowie Geschlechtsidentität und -ausdruck. Unabhängig von Erfahrungsniveau, Nationalität, persönlichem Erscheinungsbild, Rasse, Religion oder sexueller Identität und Orientierung.
 
 ## Die Standards von Adobe
 
@@ -33,11 +33,11 @@ Zu Beispielen für inakzeptables Verhalten von Teilnehmern gehören:
 
 Projektverantwortliche haben die Aufgabe, die Standards des akzeptablen Verhaltens zu verdeutlichen, und es wird erwartet, dass sie als Reaktion auf Fälle von inakzeptablem Verhalten geeignete und angemessene Gegenmaßnahmen ergreifen.
 
-Projektverantwortliche haben das Recht und die Verantwortung, Kommentare zu entfernen, zu bearbeiten oder abzulehnen. Diese Aufsicht umfasst Bestätigungen, Code, Wiki-Bearbeitungen, Probleme oder andere Beiträge, die nicht mit diesem Verhaltenskodex in Einklang stehen. Sie dürfen zudem Mitwirkende vorübergehend oder dauerhaft aufgrund anderer Verhaltensweisen ausschließen, die sie für unangemessen, bedrohlich, beleidigend oder schädlich halten.
+Projektverantwortliche haben das Recht und die Verantwortung, Kommentare zu entfernen, zu bearbeiten oder abzulehnen. Dies betrifft Bestätigungen, Code, Wiki-Bearbeitungen, Probleme oder andere Beiträge, die nicht mit diesem Verhaltenskodex in Einklang stehen. Sie dürfen zudem Mitwirkende vorübergehend oder dauerhaft aufgrund anderer Verhaltensweisen ausschließen, die sie für unangemessen, bedrohlich, beleidigend oder schädlich halten.
 
 ## Anwendungsbereich
 
-Dieser Verhaltenskodex gilt sowohl innerhalb der Projektbereiche als auch in öffentlichen Räumen, wenn eine Person das Projekt oder die Community repräsentiert. Ein Beispiel für die Repräsentation eines Projekts oder einer Community ist die Verwendung einer offiziellen Projekt-E-Mail-Adresse. Dazu kann auch die Veröffentlichung über ein offizielles Social Media-Konto gehören. Außerdem kann sie das Handeln als ernannte Vertreterinnen oder Vertreter bei einer Online- oder Offline-Veranstaltung umfassen. Projektverantwortliche können die Repräsentation eines Projekts weiter definieren und präzisieren.
+Dieser Verhaltenskodex gilt sowohl innerhalb der Projektbereiche als auch in öffentlichen Räumen, wenn eine Person das Projekt oder die Community repräsentiert. Ein Beispiel für die Repräsentation eines Projekts oder einer Community ist die Verwendung einer offiziellen Projekt-E-Mail-Adresse. Dazu kann auch die Veröffentlichung über ein offizielles Social-Media-Konto gehören. Auch das Handeln als ernannte Repräsentierende bei einer Online- oder Offline-Veranstaltung kann dazugehören. Projektverantwortliche können die Repräsentation eines Projekts weiter definieren und präzisieren.
 
 ## Durchsetzung
 

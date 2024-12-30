@@ -1,6 +1,6 @@
 ---
 source-git-commit: 0f3a2cb6deacd0a81db8f0dc2b1554e7506aaf17
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 100%
 
@@ -9,9 +9,9 @@ ht-degree: 100%
 
 ## Dokumentationsphilosophie
 
-Adobe Experience Manager-Benutzende arbeiten in extrem wettbewerbsorientierten Umgebungen, um digitale Erlebnisse zu erstellen, die sie von ihren Wettbewerbern abheben. Wenn Adobe erweiterte Tools in AEM bereitstellt, werden diese daher durch eine genaue und klare Dokumentation ergänzt. So können Kundinnen und Kunden ihr Investment in AEM sofort nutzen und ihren ROI maximieren.
+Adobe Experience Manager-Benutzende arbeiten in extrem wettbewerbsorientierten Umgebungen, um digitale Erlebnisse zu erstellen, die sie von ihren Wettbewerbern abheben. Wenn Adobe erweiterte Tools in AEM bereitstellt, werden diese daher durch eine genaue und klare Dokumentation ergänzt. Damit können Kundinnen und Kunden ihre Investition in AEM sofort nutzen und ihren ROI maximieren.
 
-Das Ziel der AEM-Dokumentation besteht darin, AEM-Benutzende schnellstmöglich eine Dokumentation zur Verfügung zu stellen. Daher steht bei Adobe eine genaue und nutzbare Dokumentation im Vordergrund, mit dem Bemühen, die Dokumentation fortlaufend zu aktualisieren und zu verbessern.
+Das Ziel der AEM-Dokumentation besteht darin, AEM-Benutzende schnellstmöglich mit der Dokumentation vertraut zu machen. Daher steht bei Adobe eine genaue und nutzbare Dokumentation im Vordergrund, mit dem Bemühen, die Dokumentation fortlaufend zu aktualisieren und zu verbessern.
 
 ## Beiträge zur Dokumentation
 
@@ -83,11 +83,11 @@ Markierungen oder andere Anmerkungen in Screenshots (wie rote Rahmen, Pfeile ode
 
 ### Versionsspezifische Verweise
 
-Versuchen Sie nach Möglichkeit direkte Verweise auf eine bestimmte Version im gesamten Dokumentationsinhalt zu vermeiden. Durch diese Empfehlung wird die Dokumentation für künftige Versionen flexibler und erweiterbarer.
+Versuchen Sie nach Möglichkeit direkte Verweise auf eine bestimmte Version im gesamten Dokumentationsinhalt zu vermeiden. Durch diese Empfehlung wird die Dokumentation für künftige Versionen flexibler und leichter erweiterbar.
 
 ### Verwendung von Day, AEM, CQ, CRX
 
-Verweisen Sie bei der ersten Verwendung in einem Artikel immer mit dem vollständigen Namen **Adobe Experience Manager** auf das Produkt. Danach kann es als **AEM** bezeichnet werden.
+Bei der erstmaligen Verwendung in einem Artikel sollte immer der vollständige Produktname **Adobe Experience Manager** verwendet werden. Danach kann es als **AEM** bezeichnet werden.
 
 Day, Day-Software, CQ und CRX sollten nur verwendet werden, wenn dies unvermeidlich ist, z. B. in Klassennamen oder bei Verweisen auf die AEM-Historie.
 

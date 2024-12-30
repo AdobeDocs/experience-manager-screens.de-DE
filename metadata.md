@@ -7,7 +7,7 @@ index: y
 git-repo: https://github.com/AdobeDocs/experience-manager-screens.de-DE
 recommendations: noDisplay
 source-git-commit: cd3c7e0766aebd0fd5cb0ae52c0bf72095308bb5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '39'
 ht-degree: 100%
 
