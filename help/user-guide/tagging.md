@@ -3,10 +3,10 @@ title: Tagging in der Screens Cloud
 description: Auf dieser Seite wird beschrieben, wie Tags in der Screens Cloud erstellt, verwaltet und verwendet werden können.
 index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
-source-git-commit: 17e864ed69d44da159343fe95990076ac702bbb4
+source-git-commit: 2fb092c530ec335d754802a0a8af2b63ec8549d2
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 88%
+source-wordcount: '151'
+ht-degree: 81%
 
 ---
 
@@ -37,8 +37,9 @@ Verwenden Sie erstellte Tags in Displays und Playern.
 ![Tag-Zuweisungen verwalten](assets/tagging/assign-tags-to-players.gif).
 
 >[!NOTE]
->  
->Es können maximal 30 Elemente in einem Schritt getaggt werden.
+>
+> Einem Display oder Player können maximal 30 Tags zugewiesen sein.
+> Es können maximal 30 Elemente in einem Schritt getaggt werden.
 
 ## Filtern nach Tags {#filter-by-tags}
 
