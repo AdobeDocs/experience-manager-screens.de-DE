@@ -10,17 +10,17 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 45b9fce303989e2c090775131dd6188053053fc8
+source-git-commit: 7410e2d8fd7fe1e8b795a35f3a76df4ea882117e
 workflow-type: tm+mt
-source-wordcount: '1497'
-ht-degree: 99%
+source-wordcount: '1495'
+ht-degree: 97%
 
 ---
 
 # Implementieren des Android™-Players {#implementing-android-player}
 
 >[!CAUTION]
->Adobe empfiehlt, ein Upgrade auf die neueste Version (6.5) von Adobe Experience Manager (AEM 6.5) durchzuführen. Die neuesten Versionsinformationen finden sich [hier](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/release-notes/release-notes).
+>Der Android-basierte AEM Screens-Player wird offiziell nicht mehr unterstützt. Benutzern wird empfohlen, zu einem anderen Betriebssystem zu migrieren, das von AEM Screens unterstützt wird.
 
 In diesem Abschnitt wird die Konfiguration des Android™-Players beschrieben. Er enthält Informationen zur Konfigurationsdatei und präsentiert die verfügbaren Optionen und Empfehlungen zu den Einstellungen, die zum Entwickeln und Testen verwendet werden müssen.
 
