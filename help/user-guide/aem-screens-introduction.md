@@ -57,7 +57,7 @@ In der folgenden Abbildung werden die beteiligten Personen und ihre Rollen für 
 
 * **Tutorial zu den Grundlagen der Implementierung**
 
-  Folgen Sie dem geführten Lernpfad **[Grundlagen der Implementierung von Experience Manager Screens](https://experienceleague.adobe.com/?launch=AEM-7a&amp;lang=de)**, in dem grundlegende und erweiterte Funktionen von Experience Manager Screens behandelt werden.
+  Folgen Sie dem geführten Lernpfad **[Grundlagen der Implementierung von Experience Manager Screens](https://experienceleague.adobe.com/de?launch=AEM-7a&amp;lang=de)**, in dem grundlegende und erweiterte Funktionen von Experience Manager Screens behandelt werden.
 
 * **Handbuch mit Best Practices für Experience Manager Screens-Projekte**
 
