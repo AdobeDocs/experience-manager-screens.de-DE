@@ -56,7 +56,7 @@ In diesem Tutorial können Sie genau verstehen, wie sich die einzelnen Parteien 
 
 ### Teil 1: Projektrollen und Zuständigkeiten
 
->[!VIDEO](https://video.tv.adobe.com/v/28375)
+>[!VIDEO](https://video.tv.adobe.com/v/32817?captions=ger)
 
 *Erfahren Sie mehr über die Rollen und Zuständigkeiten von Adobe sowie den Personen, die für die AEM-Implementierung bzw. die Audio-Video-Integration zuständig sind.*
 

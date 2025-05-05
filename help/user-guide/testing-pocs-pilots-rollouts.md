@@ -73,7 +73,7 @@ Wenn Sie alle diese Schritte als Teil des übergeordneten Projektplans betrachte
 
 ### Tests, Machbarkeitsstudien, Pilotprogramme und Rollouts
 
->[!VIDEO](https://video.tv.adobe.com/v/28405)
+>[!VIDEO](https://video.tv.adobe.com/v/32811?captions=ger)
 
 *Erfahren Sie, welche Schlüsselbegriffe in einem übergeordneten Projektplan eine Rolle spielen, wie z.B. Projektzyklus, Maßnahmen bei Hardware-Tests, Machbarkeitsstudien, Pilotprogramme und Rollouts.*
 
