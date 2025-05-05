@@ -22,7 +22,7 @@ ht-degree: 46%
 
 Das AEM 6.5 Feature Pack 11,5 wurde für AEM Screens veröffentlicht.
 
-Das neueste Feature Pack für AEM Screens Adobe ID 6.5.11.5 steht auf dem [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/de/aem.html) zum Download zur Verfügung. Navigieren Sie zur Registerkarte **Adobe Experience Manager** und suchen Sie nach **Screens**, um das neueste Feature Pack mit dem Namen **AEM 6.5 Screens FP11.5}**.
+Das neueste Feature Pack für AEM Screens Adobe ID 6.5.11.5 steht auf dem [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/de/aem.html) zum Download zur Verfügung. Navigieren Sie zur Registerkarte **Adobe Experience Manager** und suchen Sie nach **Screens**, um das neueste Feature Pack mit dem Namen **AEM 6.5 Screens FP11.5&rbrace;**.
 
 ## Veröffentlichungsdatum {#release-date}
 

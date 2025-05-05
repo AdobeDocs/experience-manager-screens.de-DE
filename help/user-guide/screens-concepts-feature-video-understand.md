@@ -26,7 +26,7 @@ ht-degree: 93%
 
 Um diesen Videos folgen zu können, benötigen Sie Folgendes:
 
-1. **AEM 6.4** oder **AEM 6.3* + **Screens Feature Pack 1**
+1. **AEM 6.4** oder **AEM 6.3* + &#x200B;** Screens Feature Pack 1**
 
 1. Einen Screens-Player
 
