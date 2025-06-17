@@ -39,7 +39,7 @@ Verwenden Sie erstellte Tags in Displays und Playern.
 >[!NOTE]
 >
 > Einem Display oder Player können maximal 30 Tags zugewiesen sein.
-> > Es können maximal 30 Elemente in einem Schritt getaggt werden.
+> &#x200B;> Es können maximal 30 Elemente in einem Schritt getaggt werden.
 
 ## Filtern nach Tags {#filter-by-tags}
 

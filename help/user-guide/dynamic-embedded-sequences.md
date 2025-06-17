@@ -53,7 +53,7 @@ Das folgende Beispiel zeigt eine Lösung mit Konzentration auf die folgenden Sch
 
 * einen ***Hauptsequenzkanal*** für die globale Sequenz.
 * Komponenten einer ***dynamischen eingebetteten Sequenz*** für jeden lokal anpassbaren Teil der Sequenz,
-* ***einzelne Sequenzkanäle*** an den jeweiligen Standorten mit einer *Rolle* in der Anzeige, die der *Rolle*** der **Komponente der dynamischen eingebetteten Sequenz entspricht.
+* ***einzelne Sequenzkanäle*** an den jeweiligen Standorten mit einer *Rolle* in der Anzeige, die der *Rolle&#x200B;*** der &#x200B;** Komponente der dynamischen eingebetteten Sequenz entspricht.
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ Bevor Sie mit der Implementierung dieser Funktionalität beginnen, stellen Sie s
 
 * Erstellen eines AEM Screens-Projekts (in diesem Beispiel **Demo**).
 * Erstellen Sie einen Kanal als **Global** im Ordner **Kanäle**.
-* Hinzufügen von Inhalten zu Ihrem Kanal **Global** (*Überprüfen Sie **Resources.zip**für relevante Assets*)
+* Hinzufügen von Inhalten zu Ihrem Kanal **Global** (*Überprüfen Sie **Resources.zip**&#x200B;für relevante Assets*)
 
 Die folgende Abbildung zeigt das Projekt **Demo** mit dem Kanal **Global** im Ordner **Kanäle**.
 ![screen_shot_2018-09-07at21032pm](assets/screen_shot_2018-09-07at21032pm.png)
@@ -119,7 +119,7 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
 
    1. Navigieren Sie zu **Demo** > **Standorte** > **Region A**.
    1. Klicken Sie auf **Region A** und dann in der Aktionsleiste auf **+ Erstellen**.
-   1. Klicken Sie im Assistenten auf **Standort** und legen Sie **Store 1** als **Titel** fest. Erstellen Sie auf ähnliche Weise einen weiteren Standort im Assistenten mit **Store 2** als **Titel**.**** Sie können das Feld **Name** leer lassen, während Sie **Store 1** und **Store 2** erstellen.
+   1. Klicken Sie im Assistenten auf **Standort** und legen Sie **Store 1** als **Titel** fest. Erstellen Sie auf ähnliche Weise einen weiteren Standort im Assistenten mit **Store 2** als **Titel**.**&#x200B;** Sie können das Feld **Name** leer lassen, während Sie **Store 1** und **Store 2** erstellen.
    1. Wiederholen Sie Schritt (b) und klicken Sie nun im Assistenten auf **Sequenz-Kanal**. Geben Sie **Region A** als **Titel** und **region** als **Namen** für diesen Kanal ein.
 
    >[!CAUTION]

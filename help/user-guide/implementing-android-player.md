@@ -60,7 +60,7 @@ Nachdem Sie die Anwendung heruntergeladen haben, führen Sie die Schritte im Pla
 1. Halten Sie die linke obere Ecke eine Weile gedrückt, um das Admin-Bedienfeld zu öffnen.
 1. Navigieren Sie im linken Aktionsmenü zu **Konfiguration**, geben Sie den Standort (die Adresse) der AEM-Instanz ein, zu der Sie eine Verbindung aufbauen möchten, und klicken Sie auf **Speichern**.
 
-1. Navigieren Sie im linken Aktionsmenü zum Link **Geräteregistrierung******, um den Status der Geräteregistrierung zu prüfen.
+1. Navigieren Sie im linken Aktionsmenü zum Link **Geräteregistrierung**&#x200B;**&#x200B;**, um den Status der Geräteregistrierung zu prüfen.
 
 >[!NOTE]
 >

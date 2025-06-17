@@ -119,7 +119,7 @@ In der folgenden Tabelle sind die Richtlinien und deren Funktionen aufgeführt.
 
 >[!NOTE]
 >Die Richtlinienkonfigurationen der Administrator-Benutzeroberfläche des Players werden streng durchgesetzt und können nicht manuell überschrieben werden. Um eine manuelle Player-Konfiguration für eine bestimmte Richtlinie zuzulassen, geben Sie die Richtlinie nicht in der Richtlinienkonfiguration an.
->>Wenn Sie beispielsweise eine manuelle Konfiguration für den Neustart-Zeitplan zulassen möchten, geben Sie den Schlüssel `rebootSchedule` nicht in der Richtlinienkonfiguration an. Richtlinienkonfigurationen werden jedes Mal gelesen, wenn der Player neu geladen wird.
+>&#x200B;>Wenn Sie beispielsweise eine manuelle Konfiguration für den Neustart-Zeitplan zulassen möchten, geben Sie den Schlüssel `rebootSchedule` nicht in der Richtlinienkonfiguration an. Richtlinienkonfigurationen werden jedes Mal gelesen, wenn der Player neu geladen wird.
 
 | **Richtlinienname** | **Zweck** |
 |---|---|

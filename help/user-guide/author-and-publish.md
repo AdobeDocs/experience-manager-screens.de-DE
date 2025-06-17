@@ -54,7 +54,7 @@ Um Replikationsagenten zu erstellen, bringen Sie in Erfahrung, wie man einen sta
 
 Für Screens sind drei Replikationsagenten erforderlich:
 
-1. **Standardmäßiger Replikationsagent ***(angegeben als*** Standard Replication Agent**)
+1. **Standardmäßiger Replikationsagent &#x200B;***(angegeben als&#x200B;*** Standard Replication Agent**)
 1. **Screens-Replikationsagent**
 1. **Agent für Rückwärtsreplikation**
 
@@ -132,7 +132,7 @@ Für jede Veröffentlichungsinstanz:
 1. Aktualisieren Sie die Topologie-Connector-URLs: Fügen Sie URLs aller beteiligten Veröffentlichungsinstanzen hinzu, d. h.:
    * `https://publish:4503/libs/sling/topology/connector`
    * `https://publish:4504/libs/sling/topology/connector`
-1. ** `Whitelist`-Liste der Topologie-Connectoren**: Passen Sie diese entsprechend den IP-Adressen oder Subnetzen an, die alle Veröffentlichungsinstanzen abdecken. Stellen Sie sicher, dass Sie die IP-Adresse/den Host-Namen aller Veröffentlichungsinstanzen ohne Port-Nummer auf die `whitelist` setzen.
+1. **&#x200B; `Whitelist`-Liste der Topologie-Connectoren**: Passen Sie diese entsprechend den IP-Adressen oder Subnetzen an, die alle Veröffentlichungsinstanzen abdecken. Stellen Sie sicher, dass Sie die IP-Adresse/den Host-Namen aller Veröffentlichungsinstanzen ohne Port-Nummer auf die `whitelist` setzen.
 
 1. Aktivieren Sie **Auto-Stop Local-Loops**
 
@@ -159,7 +159,7 @@ Da jede Veröffentlichungsinstanz standardmäßig über eindeutige Kryptoschlüs
 >[!NOTE]
 >
 >Das Passwort sollte mit geschweiften Klammern beginnen und enden. Beispiel:
->>`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
+>&#x200B;>`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
 
 #### Schritt 4: Aktivieren des ActiveMQ Artemis-Clusters {#step-activate-activemq-artemis-cluster}
 

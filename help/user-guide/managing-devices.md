@@ -62,8 +62,8 @@ Gehen Sie wie folgt vor, um ein Gerät einer Anzeige zuzuweisen:
 >[!NOTE]
 >
 >Jedes Mal, wenn das erste Gerät zu einem neuen Screens-Projekt hinzugefügt wird, wird eine Benutzergruppe erstellt.
->>Wenn der Projektknotenname zum Beispiel *we-retail* lautet, dann lautet der Benutzergruppenname *screens-we-retail-devices*.
->>Diese Gruppe wird als Mitglied der Gruppe der **Mitwirkenden** hinzugefügt, wie in der folgenden Abbildung dargestellt:
+>&#x200B;>Wenn der Projektknotenname zum Beispiel *we-retail* lautet, dann lautet der Benutzergruppenname *screens-we-retail-devices*.
+>&#x200B;>Diese Gruppe wird als Mitglied der Gruppe der **Mitwirkenden** hinzugefügt, wie in der folgenden Abbildung dargestellt:
 
 ![chlimage_1-39](assets/chlimage_1-39.png)
 
