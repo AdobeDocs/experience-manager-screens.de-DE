@@ -2,10 +2,10 @@
 title: Grundlagen von Digital Signage für [!UICONTROL AEM Screens]
 description: Erfahren Sie mehr über die Grundlagen eines Digital Signage-Projekts.
 exl-id: e3913be2-9028-4773-a034-e16924a71e04
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 100%
+source-wordcount: '409'
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ Ein Definieren der Schlüsselelemente ist vor Implementierung eines Digital-Sign
 
 1. **Konnektivität**
 
-   Beim Thema Konnektivität geht es um folgende Fragen:
+   Die Konnektivität wirft folgende Fragen auf:
    * Vernetzt (per Mobilfunk oder WLAN) bzw. eigenständig?
       * Müssen Sie Aktualisierungen von USB-Inhalten zulassen?
       * Müssen Sie die Erfassung von Nutzungsdaten zulassen?

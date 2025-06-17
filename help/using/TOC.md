@@ -1,26 +1,26 @@
 ---
 cloud: Experience Cloud
-user-guide-title: Handbuch mit Best Practices für AEM Screens-Projekte
+user-guide-title: Best Practices für AEM Screens-Projekte
 breadcrumb-title: Handbuch mit Best Practices für AEM Screens
 solution-title: AEM Screens
 getting-started-title: AEM Screens Best Practices Guide
-getting-started-description: AEM Screens Best Practices Guide provides guidance on how to successfully plan and execute an AEM Screens project.
+getting-started-description: AEM Screens best practices provides guidance on how to successfully plan and execute an AEM Screens project.
 feature-set: Experience Manager Screens
 product: experience manager
 audience: end-user
 feature: Content
 role: User
-source-git-commit: 5e04d2a5a024f60ce1d3868f6303244de1eeee6f
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 98%
+source-wordcount: '131'
+ht-degree: 80%
 
 ---
 
 
-# Handbuch mit Best Practices für AEM Screens-Projekte {#using}
+# Best Practices für AEM Screens-Projekte {#using}
 
-+ [Informationen zu diesem Handbuch](about-guide.md)
++ [Über dieses Handbuch](about-guide.md)
 + Überblick {#overview}
    + [Einführung in AEM Screens](introduction.md)
    + [Projektrollen und Zuständigkeiten](roles-responsibilities.md)
@@ -38,10 +38,10 @@ ht-degree: 98%
    + [UX-Wireframing](wireframes.md)
    + [Wechsel zu Plattform](transition-platform.md)
    + [Dynamic Creative Optimization](dynamic-creative-optimizations.md)
-+ Bereitstellungshinweise {#deployment-brief}
++ Bereitstellungs-Briefing {#deployment-brief}
    + [AEM Platform-Konfigurationen](aem-platform-configurations.md)
    + [Projekttaxonomie und -implementierung](project-taxonomy-implementation.md)
-   + Verwaltung des Netzwerk-Traffics {#manage-network-traffic}
+   + Verwaltung des Netzwerkverkehrs {#manage-network-traffic}
       + [Verwalten des Netzwerk-Traffics](/help/using/managing-network-traffic.md)
       + [Netzwerk für direkten Internet-Zugriff (kabelgebunden/kabellos)](/help/using/direct-internet-network.md)
       + [Netzwerk für Direktanbindung an Mobilfunknetze](/help/using/mobile-network.md)

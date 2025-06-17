@@ -5,10 +5,10 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1217'
-ht-degree: 100%
+source-wordcount: '1218'
+ht-degree: 96%
 
 ---
 
@@ -119,7 +119,7 @@ In der folgenden Tabelle sind die Richtlinien und deren Funktionen aufgeführt.
 
 >[!NOTE]
 >Die Richtlinienkonfigurationen der Administrator-Benutzeroberfläche des Players werden streng durchgesetzt und können nicht manuell überschrieben werden. Um eine manuelle Player-Konfiguration für eine bestimmte Richtlinie zuzulassen, geben Sie die Richtlinie nicht in der Richtlinienkonfiguration an.
->Wenn Sie beispielsweise eine manuelle Konfiguration für den Neustart-Zeitplan zulassen möchten, geben Sie den Schlüssel `rebootSchedule` nicht in der Richtlinienkonfiguration an. Richtlinienkonfigurationen werden jedes Mal gelesen, wenn der Player neu geladen wird.
+>>Wenn Sie beispielsweise eine manuelle Konfiguration für den Neustart-Zeitplan zulassen möchten, geben Sie den Schlüssel `rebootSchedule` nicht in der Richtlinienkonfiguration an. Richtlinienkonfigurationen werden jedes Mal gelesen, wenn der Player neu geladen wird.
 
 | **Richtlinienname** | **Zweck** |
 |---|---|
@@ -128,8 +128,8 @@ In der folgenden Tabelle sind die Richtlinien und deren Funktionen aufgeführt.
 | resolution | Die Auflösung des Geräts. |
 | rebootSchedule | Der Zeitplan zum Neustarten des Players. |
 | enableAdminUI | Aktivierung der Administrator-Benutzeroberfläche zum Konfigurieren des Geräts vor Ort. Stellen Sie diesen Wert auf „false“ ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und in der Produktion verwendet wird. |
-| enableOSD | Aktivierung der Kanalschalter-Benutzeroberfläche, damit Benutzende zwischen Kanälen auf dem Gerät wechseln können. Stellen Sie den Wert ggf. auf „false“ ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und in der Produktion verwendet wird. |
-| enableActivityUI | Aktivierung zum Anzeigen des Fortschritts von Aktivitäten wie Downloads und Synchronisierungen. Aktivieren Sie den Wert zwecks Fehlerbehebung und deaktivieren Sie ihn, sobald die Benutzeroberfläche vollständig konfiguriert ist und produktiv verwendet wird. |
+| enableOSD | Aktivierung der Kanalschalter-Benutzeroberfläche, damit Benutzende zwischen Kanälen auf dem Gerät wechseln können. Erwägen Sie, ihn auf „false“ festzulegen, sobald er vollständig konfiguriert und in der Produktion verfügbar ist. |
+| enableActivityUI | Aktivieren Sie diese Option, um den Fortschritt von Aktivitäten wie Herunterladen und Synchronisieren anzuzeigen. Aktivieren Sie den Wert zwecks Fehlerbehebung und deaktivieren Sie ihn, sobald die Benutzeroberfläche vollständig konfiguriert ist und produktiv verwendet wird. |
 | cloudMode | Setzen Sie dies auf „true“, wenn Sie möchten, dass der Tizen-Player eine Verbindung zu Screens as a Cloud Service herstellt. Legen Sie den Wert auf „false“ fest, um eine Verbindung zu AMS oder AEM On-Premise herzustellen. |
 | cloudToken | Anmelde-Token zur Registrierung bei Screens as a Cloud Service. |
 
@@ -147,7 +147,7 @@ Führen Sie die folgenden Schritte aus, um das Tizen-Gerät beim Samsung Remote 
 
 1. Richten Sie ggf. TLS ein. Navigieren Sie zum Port, wählen Sie die Port-Nummer vom Server aus und klicken Sie auf **Speichern**.
 
-1. Navigieren Sie zur Registerkarte **Gerät** und suchen Sie nach dem konfigurierten Gerät. Sobald ein Gerät gefunden wurde, wählen Sie das Kontrollkästchen und dann **Genehmigen** aus.
+1. Navigieren Sie zur Registerkarte **Gerät** und suchen Sie nach dem konfigurierten Gerät. Wenn ein Gerät gefunden wird, aktivieren Sie das Kontrollkästchen und klicken Sie dann auf **Genehmigen**.
 
    >![Bild](/help/user-guide/assets/tizen/rms-3.png)
 

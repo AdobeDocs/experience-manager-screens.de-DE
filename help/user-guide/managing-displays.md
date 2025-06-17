@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 100%
+source-wordcount: '660'
+ht-degree: 98%
 
 ---
 
@@ -66,7 +66,7 @@ Eine Gerätekonfiguration fungiert als Platzhalter für ein Digital-Signage-Ger�
 1. Klicken Sie auf Ihren Anzeigenordner und dann in der Aktionsleiste auf **Dashboard anzeigen**.
 1. Klicken Sie in der oberen rechten Ecke des Bedienfelds **Geräte** auf die Option **+ Gerätekonfiguration hinzufügen**.
 
-1. Klicken Sie auf **Gerätekonfiguration** als die erforderliche Vorlage und dann auf **Weiter**.
+1. Klicken Sie auf **Gerätekonfiguration** als erforderliche Vorlage und klicken Sie auf **Weiter**.
 
 1. Geben Sie die entsprechenden Eigenschaften ein und klicken Sie auf **Erstellen**.
 

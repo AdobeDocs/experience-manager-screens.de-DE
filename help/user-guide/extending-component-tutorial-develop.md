@@ -9,10 +9,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1700'
-ht-degree: 100%
+source-wordcount: '1698'
+ht-degree: 97%
 
 ---
 
@@ -133,7 +133,7 @@ Die Poster-Komponente wird im Vollbildmodus im Vorschau-/Produktionsmodus wieder
 
    Kopiertes Dialogfeld von `/libs/wcm/foundation/components/image/cq:dialog` nach `/apps/weretail-run/components/content/poster`
 
-   Die AEM Screens-Komponente `image` ist der WCM Foundation-Komponente `image` übergeordnet. Daher erbt die `poster`-Komponente die Funktionalität von beiden. Das Dialogfeld für die Poster-Komponente besteht aus einer Kombination der Dialogfelder „Screens“ und „Foundation“. Funktionen von **Sling Resource Merger** werden verwendet, um irrelevante Dialogfelder und Registerkarten auszublenden, die von den übergeordneten Komponenten übernommen werden.
+   Die AEM Screens-Komponente `image` ist der WCM Foundation-Komponente `image` übergeordnet. Daher erbt die `poster`-Komponente die Funktionalität von beiden. Das Dialogfeld für die Poster-Komponente besteht aus einer Kombination der Dialogfelder „Screens“ und „Foundation“. Die Funktionen des **`Sling Resource Merger`** werden verwendet, um irrelevante Dialogfelder und Registerkarten auszublenden, die von den übertypisierten Komponenten übernommen werden.
 
 1. Aktualisieren Sie `cq:dialog` unterhalb von `/apps/weretail-run/components/content/poster` mit den folgenden in XML dargestellten Änderungen:
 
@@ -308,7 +308,7 @@ Die Poster-Komponente wird im Vollbildmodus im Vorschau-/Produktionsmodus wieder
    </div>
    ```
 
-   Das **Bearbeitungs**-Markup für die Poster-Komponente ist direkt hier vorstehend zu sehen. Das HTL-Skript überschreibt `/libs/screens/core/components/content/image/edit.html`. Das Markup ähnelt dem `production.html`-Markup und zeigt den Titel und die Beschreibung über dem Bild an.
+   Das **bearbeitete**-Markup für die Poster-Komponente wird direkt oben angezeigt. Das HTL-Skript überschreibt `/libs/screens/core/components/content/image/edit.html`. Das Markup ähnelt dem `production.html`-Markup und zeigt den Titel und die Beschreibung über dem Bild an.
 
    Der `aem-Screens-editWrapper` wird hinzugefügt, damit die Komponente im Editor nicht bildschirmfüllend dargestellt wird. Das Attribut `data-emptytext` stellt sicher, dass ein Platzhalter angezeigt wird, wenn kein Bild oder Inhalt eingefügt wurde.
 
@@ -355,7 +355,7 @@ AEM Screens-Komponenten werden im Bearbeitungsmodus anders als im Vorschaumodus/
 
    ![2018-05-03_at_1057pm](assets/2018-05-03_at_1057pm.png)
 
-   Anstatt CSS direkt zu schreiben, verwendet dieses Tutorial LESS. [LESS](https://lesscss.org/) ist ein beliebter CSS-Precompiler, der CSS-Variablen, Mixins und Funktionen unterstützt. AEM-Client-Bibliotheken unterstützen nativ die LESS-Kompilierung. Sass oder andere Pre-Compiler können verwendet werden, müssen aber außerhalb von AEM kompiliert werden.
+   Anstatt CSS direkt zu schreiben, verwendet dieses Tutorial LESS. [LESS](https://lesscss.org/) ist ein beliebter CSS-Precompiler, der CSS-Variablen, Mixins und Funktionen unterstützt. AEM-Client-Bibliotheken unterstützen nativ die LESS-Kompilierung. Sie können Sass oder andere Pre-Compiler verwenden, müssen sie jedoch außerhalb von AEM kompilieren.
 
 1. Füllen Sie `/apps/weretail-run/components/content/poster/clientlibs/shared/css/styles.less` wie folgt:
 

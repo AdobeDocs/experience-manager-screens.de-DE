@@ -10,10 +10,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 100%
+source-wordcount: '619'
+ht-degree: 88%
 
 ---
 
@@ -57,9 +57,9 @@ Im Folgenden wird das Datenmodell für den Projekt-Importer beschrieben:
 
 Für die Tabellendatei (CSV/XLS) sind daher die folgenden Spalten erforderlich:
 
-* **path {string}** Der Pfad für den zu importierenden Standort, wobei der Stammordner des Pfades der Standortordner für das Projekt ist (d. h. *`/foo`* wird in *`/content/screens/<project>/locations/foo`* importiert).
-* **template {string}** Die Vorlage, die für den neuen Standort verwendet werden soll. Im Moment ist nur der Wert „location“ erlaubt, aber dieser Wert wird in Zukunft auf alle Screens-Vorlagen ausgedehnt (`display`, `sequencechannel`).
-* **[./*] {string}** Jede optionale Eigenschaft, die für den Standort festgelegt wird (d. h. `./jcr:title`, `./jcr:description`, `./foo, ./bar`). Die aktuelle Version erlaubt keine Filterung.
+* **path{string}** - Der Pfad für den zu importierenden Speicherort, wobei der Stamm des Pfads der Speicherort-Ordner für das Projekt ist (d. h. *`/foo`* wird in *`/content/screens/<project>/locations/foo`* importiert)
+* **template{string}** - Die Vorlage, die für den neuen Speicherort verwendet wird. Derzeit ist der einzige zulässige Wert „location“, aber dieser Wert wird auf alle `Screens` Vorlagen in der Zukunft erweitert (`display`, `sequencechannel` usw.)
+* **[./*] {string}** - Jede optionale Eigenschaft, die für den Speicherort festgelegt werden soll (d. h. `./jcr:title`, `./jcr:description`, `./foo, ./bar`). Die aktuelle Version erlaubt keine Filterung.
 
 >[!NOTE]
 >

@@ -2,10 +2,10 @@
 title: Rollen und Zuständigkeiten von AEM Screens-Projekten
 description: Erfahren Sie mehr über die Rollen und Zuständigkeiten von AEM Screens-Projekten.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: 7eae5038cb836219447d900bacf8af2faab51a43
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1255'
-ht-degree: 98%
+source-wordcount: '1254'
+ht-degree: 96%
 
 ---
 
@@ -114,7 +114,7 @@ Im Folgenden finden Sie ein Beispiel für ein RACI-Diagramm unter Verwendung der
 
 * **Responsible (verantwortlich)**: Führt die Arbeiten zur Erledigung der Aufgabe aus.
 
-* **Accountable (rechenschaftspflichtig)**: Delegiert Arbeiten und ist die letzte Partei, die eine Aufgabe überprüft, bevor sie abgeschlossen wird.
+* **Verantwortlich**: Delegierte arbeiten und sind die letzten Parteien, die die Aufgabe überprüfen, bevor sie abgeschlossen ist.
 
 * **Consulted (konsultiert)**: Prüft die Aufgabe oder das Lieferziel, um Input zu liefern.
 
@@ -130,7 +130,7 @@ Die folgende Tabelle fasst die Überlegungen zu **Tag 0: Pre-Sales** zusammen:
 | Einigung über Rollen und Zuständigkeiten | RA | RA | RA | RA |
 | Ausrichtung auf strategische Ziele | CI | I | RA | RA |
 | Reportingbedarf und ROI-Identifizierung | I | C | RA | C |
-| Site-Besuche und Hardwareanforderungen | RA | I | C | C |
+| Site-Besuche und Hardware-Anforderungen | RA | I | C | C |
 | Definition von Supportprozessen | C | I | RA | I |
 | Definition von Arbeitsumfang und Projektplan | RA | RA | C | C |
 
@@ -146,7 +146,7 @@ Die folgende Tabelle fasst die Überlegungen zu **Tag 0: Projektimplementierung
 | Architekturdesign | I | RA | I | I |
 | Validieren der Datenstruktur mit UI-Design | I | RA | C | C |
 | Anwendungsentwicklung | RA | RA | RA | RA |
-| AEM Screens – Projekteinrichtung | I | RA | C | I |
+| AEM Screens-Projekteinrichtung | I | RA | C | I |
 | Analytics-Implementierung | I | RA | C | - |
 | Tests und Bereitstellung | RA | C | RA | I |
 | Server-Konfiguration | I | RA | I | I |
@@ -169,8 +169,8 @@ Die folgende Tabelle fasst die Überlegungen zu **Tag 1: Projektimplementierung
 | **Schritt** | **Audio-Video-Integrator** | **AEM-Implementor** | **Geschäftsstrategie** | **Content Management** |
 |---|---|---|---|---|
 | Einigung über Rollen und Zuständigkeiten | RA | RA | RA | RA |
-| Einzelhandelsdesign inklusive Verkabelung | - | - | - | - |
-| Auswahl der Player-Hardware | RAC | - | - | - |
+| Einzelhandelsdesign inklusive Verkabelung | - | – | – | - |
+| Auswahl der Player-Hardware | RAC | - | – | – |
 | Verwaltung von Primärgeräten | RA | I | - | - |
 | Bestellung, Aufbewahrung und Konfiguration von Geräten | RA | CI | I | - |
 | Definition von Supportprozessen | RA | I | RA | C |

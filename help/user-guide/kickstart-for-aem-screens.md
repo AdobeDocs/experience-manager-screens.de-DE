@@ -5,10 +5,10 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1284'
-ht-degree: 100%
+source-wordcount: '1282'
+ht-degree: 96%
 
 ---
 
@@ -28,8 +28,8 @@ Gehen Sie wie folgt vor, um ein Beispielprojekt für AEM Screens zu erstellen un
 
 >[!IMPORTANT]
 >**OSGi-Konfigurationseinstellungen**
->Sie müssen den leeren Referrer aktivieren, um dem Gerät das Bereitstellen von Daten auf dem Server zu erlauben. Wenn die Eigenschaft für den leeren Referrer deaktiviert ist, kann das Gerät keine Screenshots zurückgeben. Derzeit sind einige dieser Funktionen nur verfügbar, wenn der Apache Sling Referrer-Filter „Allow Empty“ in der OSGi-Konfiguration aktiviert ist. Im Dashboard wird ggf. eine Warnung angezeigt, dass einige dieser Funktionen aufgrund der Sicherheitseinstellungen nicht funktionieren.
->Führen Sie die nachfolgenden Schritte aus, um den ***Apache Sling Referrer-Filter „Allow Empty“*** zu aktivieren:
+>>Sie müssen den leeren Referrer aktivieren, um dem Gerät das Bereitstellen von Daten auf dem Server zu erlauben. Wenn die Eigenschaft für den leeren Referrer deaktiviert ist, kann das Gerät keine Screenshots zurückgeben. Derzeit sind einige dieser Funktionen nur verfügbar, wenn der `Apache Sling` Referrer-Filter Leer zulassen in der OSGi-Konfiguration aktiviert ist. Im Dashboard wird ggf. eine Warnung angezeigt, dass einige dieser Funktionen aufgrund der Sicherheitseinstellungen nicht funktionieren.
+>>Führen Sie die nachfolgenden Schritte aus, um den ***Apache Sling Referrer-Filter „Allow Empty“*** zu aktivieren:
 
 
 ## Zulassen von leeren Referrer-Anforderungen {#allow-empty-referrer-requests}
@@ -162,7 +162,7 @@ Wenn das Projekt fertig eingerichtet ist, weisen Sie dem Kanal eine Anzeige zu, 
 
 1. Daraufhin wird das Dialogfeld **Kanalzuweisung** geöffnet.
 
-1. Wählen Sie unter **Einstellungen** den Kanal **nach Pfad** und unter **Unterstützte Ereignisse** die Optionen **Erster Ladevorgang** und **Bildschirm bei Untätigkeit** aus.
+1. Wählen Sie über **Option** den Kanal **nach Pfad** und **Unterstützte Ereignisse** wie **Initial Load** und **Idle Screen**.
 
    >[!NOTE]
    >

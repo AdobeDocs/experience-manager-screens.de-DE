@@ -5,10 +5,10 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 100%
+source-wordcount: '1180'
+ht-degree: 98%
 
 ---
 
@@ -102,7 +102,7 @@ Mit der Option „Attraktions-QuickInfo anzeigen“ wird definiert, ob die Attra
 
 Durch die Kombination von Zeitplänen mit **Dayparting** können Sie einen globalen Zeitplan mit mehreren Kanälen festlegen, die zu bestimmten Tageszeiten ausgeführt werden. Diese Einstellung können dann für alle Anzeigen wiederverwendet werden.
 
-Beim Dayparting wird ein Tag in Zeitfenster unterteilt und festgelegt, welcher Inhalt zum gewünschten Zeitpunkt abgespielt wird. Mit AEM Screens können Sie den Dayparting-Zeitplan von Kanälen nach Bedarf für Tage, Wochen oder Monate festlegen.
+DayParting wird als Aufteilung eines Tages in Zeitschlitze bezeichnet, wobei angegeben wird, welcher Inhalt zur gewünschten Zeit abgespielt wird. Mit AEM Screens können Sie den Dayparting-Zeitplan von Kanälen nach Bedarf für Tage, Wochen oder Monate festlegen.
 
 Im Folgenden wird anhand von drei Szenarien beschrieben, wie Dayparting mit Kanälen verwendet werden kann:
 
@@ -153,8 +153,8 @@ Hier wird das Dayparting auf monatlicher Basis erstellt, sodass der Kanalinhalt 
 
 | **Kanal** | **Rolle** | **Priorität** | **Zeitplan** |
 |---|---|---|---|
-| Sommerkollektion | Sommer |  | 1. Juni 2017 – 31. August 2017 |
-| Herbstkollektion | Herbst |  | 1. September 2017 – 30. Oktober 2017 |
+| Sommerkollektion | Sommer |  | &#x200B;1. Juni 2017 – 31. August 2017 |
+| Herbstkollektion | Herbst |  | &#x200B;1. September 2017 – 30. Oktober 2017 |
 
 >[!NOTE]
 >
@@ -166,8 +166,8 @@ Diese Beispiele veranschaulichen die Verwendung von Dayparting durch einen Laden
 
 | **Kanal** | **Rolle** | **Priorität** | **Zeitplan** |
 |---|---|---|---|
-| A | Winter | 1 | 1. Dezember 2017 – 31. Dezember 2017 |
-| B | Weihnachten | 2 | 24. Dezember 2017 – 31. Dezember 2017 |
+| A | Winter | 1 | &#x200B;1. Dezember 2017 – 31. Dezember 2017 |
+| B | Weihnachten | 2 | &#x200B;24. Dezember 2017 – 31. Dezember 2017 |
 
 
 >[!NOTE]

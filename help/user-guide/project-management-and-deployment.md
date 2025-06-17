@@ -10,10 +10,10 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 100%
+source-wordcount: '656'
+ht-degree: 95%
 
 ---
 
@@ -41,9 +41,9 @@ Zur Sicherstellung einer erfolgreichen Digital-Signage-Bereitstellung ist es üb
 
 Der erste Schritt wird als ***Tag 0*** bezeichnet. Dieser Schritt umfasst alle Pre-Sales- und Erkundungsbemühungen, die zur Definition des Projektumfangs erforderlich sind. Der zweite Schritt, ***Tag 1***, bezieht sich auf alle Aktivitäten, die Teil der Bereitstellung sind. ***Tag 2*** bezieht sich auf alle laufenden Operationen und unterstützenden Elemente, die Teil der Gesamtlösung sind.
 
-Zu den Aktivitäten am Tag 0 gehören Pre-Sales, Kundenerkennung, Analyse der Anwendungsanforderungen und Definition des Projektumfangs. Dieser Schritt kann auch die erste Einbeziehung und Definition der Projektanforderungen für das Projekt-Management zur Vorbereitung der Bereitstellung umfassen.
+Aktivitäten von ***Day Zero*** umfassen Pre-Sales, Client Discovery, Anwendungsbedarfsanalyse und Definition des Projektumfangs. Dieser Schritt kann auch die erste Einbeziehung und Definition der Projektanforderungen für das Projekt-Management zur Vorbereitung der Bereitstellung umfassen.
 
-Tag 0 besteht aus acht wichtigen Schritten, die alle Aspekte des Projekt-Managements abdecken:
+All ***Day Zero*** besteht aus acht wichtigen Schritten, die alle Aspekte der Projektmanagement-Anlaufphase abdecken:
 
 * Festlegen des Arbeitsumfangs
 * Festlegen des Projektzeitplans
@@ -80,7 +80,7 @@ Erfahren Sie mehr über das Projekt-Management sowie die Bereitstellungsvorberei
 
 ### Projekt-Management und Bereitstellung
 
->[!VIDEO](https://video.tv.adobe.com/v/32790?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/28408)
 
 *Erfahren Sie mehr über Projekt-Management und die Bereitstellungsvorbereitung (Projektvorbereitung, Projektstart, Projektfortschritt).*
 

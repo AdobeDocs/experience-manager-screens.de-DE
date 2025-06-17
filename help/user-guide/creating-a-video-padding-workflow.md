@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 100%
+source-wordcount: '546'
+ht-degree: 95%
 
 ---
 
@@ -80,7 +80,7 @@ Gehen Sie wie folgt vor, um einen Workflow für Ihr Video zu erstellen:
    ![screen_shot_2018-10-17at95752pm](assets/screen_shot_2018-10-17at95752pm.png)
 
 1. Klicken Sie auf die Registerkarte **Argumente.**
-1. Geben Sie im Dialogfeld **Befehlszeile – Schritt-Eigenschaften** unter **MIME-Typen** das Format (***video/mp4***) und unter „Befehle“ den Befehl (***/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920:height=1080:x=0:y=0:color=black&quot; cq5dam.video.fullhd-hp.mp4**) ein. Mit diesem Befehl wird der Workflow im Feld **Befehle** gestartet.
+1. Geben Sie im Dialogfeld **Befehlszeile - Schritteigenschaften** das Format in die **MIME-Typen** (***video/mp4***) und den Befehl als (**`/usr/local/Cellar/ffmpeg -i ${filename} -vf "pad=1920:height=1080:x=0:y=0:color=black" cq5dam.video.fullhd-hp.mp4`***) ein. Mit diesem Befehl wird der Workflow im Feld **Befehle** gestartet.
 
    Einzelheiten zu **Mime-Typen** und **Befehlen** finden Sie in der unten stehenden Anmerkung.
 

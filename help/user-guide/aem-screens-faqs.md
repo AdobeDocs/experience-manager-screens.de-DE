@@ -5,10 +5,10 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '2135'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -31,7 +31,7 @@ Dieses Thema enthält Antworten auf häufig gestellte Fragen zu einem AEM Screen
 * Überprüfen Sie, ob es geplante Inhalte gibt und ob die Zeiten korrekt sind. Überprüfen Sie, ob die im Player eingestellte Zeit korrekt ist.
 * Überprüfen Sie die Protokolle der Player-Konsole und überprüfen Sie sie auf Fehler. Klicken Sie mit der rechten Maustaste und überprüfen Sie die Konsolenprotokolle. Wenn Sie den Windows-Player verwenden, drücken Sie `CTRL + ALT +I`, um die Entwicklungskonsole aufzurufen und die Protokolle anzuzeigen.
 
-### 2. Wie lässt sich das Problem der grauen Bildschirme in AEM Screens beim Erstellen eines Standardkanals oder -zeitplans beheben?
+### &#x200B;2. Wie lässt sich das Problem der grauen Bildschirme in AEM Screens beim Erstellen eines Standardkanals oder -zeitplans beheben?
 
 Um die leeren oder grauen Bildschirme im Feld zu vermeiden, erstellen Sie einen globalen Standardkanal oder -zeitplan, der jeder Anzeige mit der geringsten Priorität 1 zugewiesen ist. Falls bei Inhaltsaktualisierungen etwas fehlschlägt, weil die Player diesen Inhalt bereits auf der Festplatte zwischengespeichert haben. Die Wiedergabe sollte einwandfrei funktionieren und die grauen Bildschirme sollten vermieden werden.
 
@@ -64,7 +64,7 @@ Bei *dynamischen Verweisen* erfolgt die Auflösung, sobald der Kanal der Anzeige
 
 Und so weiter, bis Sie den Standortordner erreichen. Halten Sie dort vorerst an (Sie können also nicht auf einen Kanal verweisen, der sich zum Beispiel im Kanalordner befindet, sondern nur auf Kanäle in der Unterstruktur der Standorte).
 
-### 5. Wie wird die benutzerdefinierte clientlib-Offline-Konfiguration im AEM Screens-Kanal eingerichtet?
+### &#x200B;5. Wie wird die benutzerdefinierte clientlib-Offline-Konfiguration im AEM Screens-Kanal eingerichtet?
 
 Bei Verwendung eines erstellten, benutzerdefinierten Client-seitigen Codes `clientlib` in einem AEM Screens-Kanal sind die folgenden Schritte erforderlich. Die Schritte stellen sicher, dass die `clientlib`-Dateien erfolgreich in den Kanal (`manifest.json`) geladen werden und den Pfad der `clientlib` enthalten.
 
@@ -155,11 +155,11 @@ Führen Sie folgende Schritte durch, um „Stay Awake“ in einem beliebigen And
 1. Navigieren Sie zu den **Entwickleroptionen**.
 1. Aktivieren Sie **Stay Awake**.
 
-### 4. Wie lässt sich der Fenstermodus für den Windows-Player aktivieren?{#enable-player}
+### &#x200B;4. Wie lässt sich der Fenstermodus für den Windows-Player aktivieren?{#enable-player}
 
 Der Windows-Player verfügt über keinen Fenstermodus. Er befindet sich immer im Vollbildmodus.
 
-### 5. Wie kann ich das Problem beheben, wenn ein AEM Screens-Player ständig Login-Anfragen sendet? 
+### &#x200B;5. Wie kann ich das Problem beheben, wenn ein AEM Screens-Player ständig Login-Anfragen sendet? 
 
 Gehen Sie wie folgt vor, um eine Fehlerbehebung bei einem AEM Screens-Player durchzuführen, der fortlaufend Anfragen an `/content/screens/svc.json` und `/libs/granite/core/content/login.validate/j_security_check` sendet:
 
@@ -175,7 +175,7 @@ Gehen Sie wie folgt vor, um eine Fehlerbehebung bei einem AEM Screens-Player dur
 
 1. Überprüfen Sie, ob die Apache Sling Resource Resolver Factory-Konfiguration interne Neuschreibungen verursacht.
 
-### 6. Wie lassen sich Details zu Anzeige und Gerät von der Player-API abrufen?
+### &#x200B;6. Wie lassen sich Details zu Anzeige und Gerät von der Player-API abrufen?
 
 Die Details zu Anzeige und Gerät erhalten Sie über:
 
@@ -214,12 +214,12 @@ Deaktivieren Sie Livefyre, um Protokollfehler zu vermeiden, indem Sie wie folgt 
 ### 2. Wie fügt man Oak-Index-Informationen hinzu? {#add-oak-index-info}
 
 AEM Screens erstellt Indexdefinitionen für die vom Produkt verwendeten Abfragen.
-Wenn es im `error.log` *abfrageübergreifende Warnhinweise (WARN)* gibt, erstellen Sie einen benutzerdefinierten Index für Ihre Abfrage. Weitere Informationen finden Sie unter [Konfigurieren der Indizes](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes).
+Wenn *Abfrage-Traversal-WARNUNGEN* im `error.log` vorhanden sind, erstellen Sie einen benutzerdefinierten Index für Ihre Abfrage. Weitere Informationen finden Sie unter [Konfigurieren der Indizes](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes).
 
 Eine zusätzliche Ressource finden Sie in der [Oak-Dokumentation](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
 
 
-### 3. Was ist erforderlich, um v3-Manifeste zu konfigurieren? {#configure-v3}
+### &#x200B;3. Was ist erforderlich, um v3-Manifeste zu konfigurieren? {#configure-v3}
 
 Gehen Sie wie folgt vor, um das v3-Manifest zu aktivieren:
 
@@ -239,11 +239,11 @@ Weitere Informationen finden Sie unter [Vorlage für benutzerdefinierte Handler]
 
 * Geben Sie `clientlibs ` und die Ordner für statische Dateien ein, die zum Manifest hinzugefügt werden müssen.
 
-### 4. Was sollten Sie tun, wenn nach dem Paket „screens-cloud-ams-pkg-0.0.20“ zwar „screens-cloud-ams-pkg-0.0.16“ und die Screens-Core-Bundles installiert, aber nicht aktiv sind?
+### &#x200B;4. Was sollten Sie tun, wenn nach dem Paket „screens-cloud-ams-pkg-0.0.20“ zwar „screens-cloud-ams-pkg-0.0.16“ und die Screens-Core-Bundles installiert, aber nicht aktiv sind?
 
 Sie müssen mindestens die Version AEM 6.5 Feature Pack 8 installieren, damit der AMS-Connector funktioniert. Unter [Verfügbarkeit](https://experienceleague.adobe.com/de/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105#availability) finden Sie Informationen zur Mindestversion des AEM Screens Feature Packs.
 
-### 5. Wie wird der CQ Link Externalizer-Service in Screens konfiguriert?
+### &#x200B;5. Wie wird der CQ Link Externalizer-Service in Screens konfiguriert?
 
 Der Service wird verwendet, um den öffentlichen Host-Namen für die Autoren- und Veröffentlichungsinstanz zu definieren. Die Werte werden dann zum Aktualisieren der Geräte-Server-URLs und auch für das ContextHub-Targeting verwendet.
 

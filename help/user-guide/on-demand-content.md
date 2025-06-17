@@ -6,10 +6,10 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 9ffdb1eb-a1ba-42ac-a30f-260004e5b165
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 100%
+source-wordcount: '822'
+ht-degree: 90%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 100%
 
 In diesem Abschnitt werden On-Demand-Inhalte für die Verwaltung von Veröffentlichungen beschrieben.
 
-## Verwalten von Veröffentlichungen: Bereitstellen von Inhaltsaktualisierungen von der Autoreninstanz in der Veröffentlichungsinstanz und dann auf dem Gerät {#managing-publication-delivering-content-updates-from-author-to-publish-to-device}
+## Veröffentlichung verwalten: Inhaltsaktualisierungen von der Autoren- zur Veröffentlichungsinstanz auf dem Gerät bereitstellen {#managing-publication-delivering-content-updates-from-author-to-publish-to-device}
 
-Sie können Inhalte in AEM Screens veröffentlichen und deren Veröffentlichung aufheben. Mit der Funktion „Veröffentlichung verwalten“ können Sie Inhaltsaktualisierungen von der Autoreninstanz in der Veröffentlichungsinstanz und dann auf Geräten bereitstellen. Sie können Inhalte für Ihr gesamtes AEM Screens-Projekt oder nur für einzelne Kanäle, Standorte, Geräte, Anwendungen oder einen Zeitplan veröffentlichen bzw. die Veröffentlichung aufheben. 
+Sie können Inhalte in AEM Screens veröffentlichen und deren Veröffentlichung aufheben. **Veröffentlichung verwalten** ermöglicht die Bereitstellung von Inhaltsaktualisierungen von der Autoren- zur Veröffentlichungsinstanz auf dem Gerät. Sie können Inhalte für Ihr gesamtes AEM Screens-Projekt oder nur für einzelne Kanäle, Standorte, Geräte, Anwendungen oder einen Zeitplan veröffentlichen bzw. die Veröffentlichung aufheben. 
 
-### Verwalten von Veröffentlichungen für ein AEM Screens-Projekt {#managing-publication-for-an-aem-screens-project}
+### Verwalten der Veröffentlichung für ein AEM Screens-Projekt {#managing-publication-for-an-aem-screens-project}
 
 Gehen Sie wie folgt vor, um für ein AEM Screens-Projekt Inhaltsaktualisierungen von der Autoreninstanz in der Veröffentlichungsinstanz und von dort auf einem Gerät bereitzustellen:
 
@@ -72,7 +72,7 @@ Mit dieser Option können Sie Aktualisierungen verwalten, die nur für zuvor ver
    >
    >
    >    1. Der Workflow funktioniert nicht, wenn keine Änderungen am Projekt vorgenommen wurden und keine **Offline-Inhalte aktualisiert** werden.
-   >    1. Der Workflow funktioniert nicht, wenn die Autorin bzw. der Autor den Replikationsprozess nicht abgeschlossen hat (Inhalte werden noch in die Veröffentlichungsinstanz hochgeladen), nachdem die Schaltfläche **Veröffentlichen** im Workflow für die Verwaltung der Veröffentlichung ausgewählt wurde.
+   >    1. Der Workflow funktioniert nicht, wenn die Autorin oder der Autor den Replikationsprozess nicht abschließt (Inhalte werden in die Veröffentlichungsinstanz hochgeladen), nachdem die Schaltfläche **Veröffentlichen** im Workflow Veröffentlichung verwalten ausgewählt wurde.
 
    >[!CAUTION]
    >Wenn Sie als Erstellerin bzw. Ersteller von Inhalten die Änderungen auf den Geräten sehen möchten, die mit der Autoreninstanz verbunden sind, klicken Sie im Kanal-Dashboard auf **Offline-Inhalte aktualisieren** oder wählen Sie das Projekt aus. In diesem Fall wird der Offline-Inhalt nur in der Autoreninstanz aktualisiert.
@@ -90,7 +90,7 @@ Mit dieser Option können Sie Aktualisierungen verwalten, die nur für zuvor ver
    >
    >Lösen Sie „Offline-Inhalt aktualisieren“ in der Autoreninstanz aus, wenn Sie über einen beim Autoren-Server registrierten Player verfügen. Die Aktualisierung von Offline-Inhalten ist für den in der Veröffentlichungsinstanz registrierten Player nicht erforderlich.
 
-### Verwalten von Veröffentlichungen für einen Kanal {#managing-publication-for-a-channel}
+### Verwalten der Veröffentlichung für einen Kanal {#managing-publication-for-a-channel}
 
 Gehen Sie wie folgt vor, um Inhaltsaktualisierungen von der Autoreninstanz in der Veröffentlichungsinstanz und von dort auf einem Gerät für einen Kanal in einem AEM Screens-Projekt bereitzustellen:
 
@@ -123,7 +123,7 @@ Gehen Sie wie folgt vor, um Inhaltsaktualisierungen von der Autoreninstanz in de
    >
    >Veröffentlichen Sie zuerst die Offline-Inhalte und lösen Sie dann „Offline-Inhalt aktualisieren“ aus, wie in den vorhergehenden Schritten zusammengefasst.
 
-### Neuzuweisung von Kanälen und Geräten: {#channel-and-device-re-assignment}
+### Neuzuweisung von Kanal und Gerät: {#channel-and-device-re-assignment}
 
 Wenn Sie ein Gerät neu zugewiesen haben, veröffentlichen Sie sowohl die Erstanzeige als auch die neue Anzeige, nachdem das Gerät der neuen Anzeige neu zugewiesen wurde.
 

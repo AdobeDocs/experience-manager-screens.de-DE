@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
-source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 100%
+source-wordcount: '238'
+ht-degree: 92%
 
 ---
 
@@ -40,7 +40,7 @@ Gehen Sie wie folgt vor, um ein Gerät einer Anzeige zuzuweisen:
 
    ![chlimage_1-33](assets/chlimage_1-33.png)
 
-1. Klicken Sie auf ein nicht zugewiesenes Gerät aus der Liste und dann in der Aktionsleiste auf **Gerät zuweisen**.
+1. Klicken Sie auf ein nicht zugewiesenes Gerät in der Liste und dann in der Aktionsleiste auf **Gerät zuweisen**.
 
    ![chlimage_1-34](assets/chlimage_1-34.png)
 
@@ -62,8 +62,8 @@ Gehen Sie wie folgt vor, um ein Gerät einer Anzeige zuzuweisen:
 >[!NOTE]
 >
 >Jedes Mal, wenn das erste Gerät zu einem neuen Screens-Projekt hinzugefügt wird, wird eine Benutzergruppe erstellt.
->Wenn der Projektknotenname zum Beispiel *we-retail* lautet, dann lautet der Benutzergruppenname *screens-we-retail-devices*.
->Diese Gruppe wird als Mitglied der Gruppe der **Mitwirkenden** hinzugefügt, wie in der folgenden Abbildung dargestellt:
+>>Wenn der Projektknotenname zum Beispiel *we-retail* lautet, dann lautet der Benutzergruppenname *screens-we-retail-devices*.
+>>Diese Gruppe wird als Mitglied der Gruppe der **Mitwirkenden** hinzugefügt, wie in der folgenden Abbildung dargestellt:
 
 ![chlimage_1-39](assets/chlimage_1-39.png)
 

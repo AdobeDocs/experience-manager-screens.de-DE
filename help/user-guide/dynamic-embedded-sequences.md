@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '2451'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -310,7 +310,7 @@ Führen Sie die folgenden Schritte aus, um Gruppen und Benutzende zu erstellen u
    1. Klicken Sie auf **Gruppe erstellen** und geben Sie **Global-Autor** in **ID** ein.
    1. Klicken Sie auf **Speichern und schließen**.
 
-   Erstellen Sie auf ähnliche Weise zwei weitere Gruppen wie **Region-Autor** und **Store-Autor**.
+   Erstellen Sie auf ähnliche Weise zwei andere Gruppen, z. B **„Region** Autor“ und **Store-Autor**.
 
    ![screen_shot_2018-09-17at34008pm](assets/screen_shot_2018-09-17at34008pm.png)
 
@@ -318,12 +318,12 @@ Führen Sie die folgenden Schritte aus, um Gruppen und Benutzende zu erstellen u
 
    1. Navigieren Sie zu **Adobe Experience Manager**.
    1. Klicken Sie auf **Tools** > **Sicherheit** > **Benutzer**.
-   1. Klicken Sie auf **Benutzer erstellen** und geben Sie **Global-User** in **ID** ein.
+   1. Klicken Sie **Benutzer erstellen** und geben Sie dann unter **ID** &quot;**-User** ein.
    1. Geben Sie ein **Kennwort** ein und bestätigen Sie das Kennwort für dieses Benutzerprofil.
    1. Klicken Sie auf die Registerkarte **Gruppen** und geben Sie den Gruppennamen unter **Gruppe auswählen** ein. Geben Sie beispielsweise **Global-Autor** ein, um dieser Gruppe **Global-Benutzer** hinzuzufügen.
    1. Klicken Sie auf **Speichern und schließen**.
 
-   Erstellen Sie auf ähnliche Weise zwei weitere Benutzende, z. B. **Region-Benutzer** und **Store-Benutzer**, und fügen Sie sie **Region-Autor** bzw. **Store-Autor** hinzu.
+   Erstellen Sie auf ähnliche Weise zwei andere Benutzer, z. B **„Region** und **Store-User**, und fügen Sie sie **Region-Autor** und **Store-Autor** hinzu.
 
    >[!NOTE]
    >Es empfiehlt sich, Benutzer einer Gruppe hinzuzufügen und dann den einzelnen Benutzergruppen Berechtigungen zuzuweisen.

@@ -10,10 +10,10 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 100%
+source-wordcount: '626'
+ht-degree: 98%
 
 ---
 
@@ -198,7 +198,7 @@ Die folgende Tabelle fasst das Standarddatenmodell für Ereignisse zusammen. Es 
    <td>für AA erforderlich</td> 
    <td>Zeichenfolge</td> 
    <td> </td> 
-   <td>Unterstützung von Adobe Analytics für benutzerdefinierte Seitennamen</td> 
+   <td>Unterstützung für benutzerdefinierte Seitennamen in Adobe Analytics</td> 
   </tr>
   <tr>
    <td> </td> 

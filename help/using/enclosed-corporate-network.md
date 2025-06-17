@@ -2,10 +2,10 @@
 title: Geschlossenes Unternehmensnetzwerk
 description: Geschlossenes Unternehmensnetzwerk
 exl-id: b8c52e72-86da-4089-ba02-0c643862419f
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 100%
+source-wordcount: '708'
+ht-degree: 97%
 
 ---
 
@@ -60,7 +60,7 @@ Was eine *ausreichende Bandbreite* ist, hängt von der Anzahl der verbundenen AE
 
 Die LAN-Verbindung muss ausreichend Bandbreite zur Verfügung stellen, damit neben der Erreichbarkeit des Netzwerks auch eine reibungslose Aktualisierung von AEM Screens-Inhalten gewährleistet werden kann.
 
-In Unternehmen eingesetzte LAN-Netzwerke unterstützen in der Regel Übertragungsraten von mindestens 1000 MBit/s, was auch bei der Anbindung einer Vielzahl von Geräten an das System eine für eine angemessene Leistung ausreichende Bandbreite liefert. Sind aktive Netzwerkkomponenten anderer Art im Einsatz, müssen diese allesamt die Anforderungen an die Netzwerkbandbreite erfüllen. 
+In Unternehmen eingesetzte LAN-Netzwerke unterstützen in der Regel Übertragungsraten von mindestens 1000 MBit/s, was auch bei der Anbindung einer Vielzahl von Geräten an das System eine für eine angemessene Leistung ausreichende Bandbreite liefert. Bei der Verwendung anderer aktiver Netzwerkkomponenten ist es jedoch zwingend erforderlich, dass diese alle den Anforderungen an die Netzwerkbandbreite entsprechen.
 
 Beispielsweise sollten entsprechende Netzwerkkomponenten mindestens auf den Standard 100 MBit/s ausgelegt sein und mit den Bandbreitenspezifikationen des Internet-Zugangs/-Routers übereinstimmen.
 

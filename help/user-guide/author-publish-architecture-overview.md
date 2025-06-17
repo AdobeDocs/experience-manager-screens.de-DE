@@ -9,10 +9,10 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 100%
+source-wordcount: '987'
+ht-degree: 96%
 
 ---
 
@@ -71,13 +71,13 @@ Das folgende Diagramm veranschaulicht das Replikationsverfahren:
 
 ### Screens-Replikationsagenten und -Befehle {#screens-replication-agents-and-commands}
 
-Benutzerdefinierte Screens-spezifische Replikationsagenten werden erstellt, um Befehle von der Autoreninstanz an das AEM Screens-Gerät zu senden. Die AEM-Veröffentlichungsinstanzen dienen als Vermittler, um diese Befehle an das Gerät weiterzuleiten.
+Benutzerdefinierte Screens-spezifische Replikationsagenten werden erstellt, um Befehle von der Autoreninstanz an das AEM Screens-Gerät zu senden. Die AEM-Veröffentlichungsinstanzen dienen als Vermittler für die Weiterleitung dieser Befehle an das Gerät.
 
 Mit diesem Workflow können Autorinnen und Autoren das Gerät weiter verwalten, z. B. Geräteaktualisierungen senden und Screenshots der Authoring-Umgebung erstellen. Die AEM Screens-Replikationsagenten verfügen ebenso wie standardmäßige Replikationsagenten über eine benutzerdefinierte Transportkonfiguration.
 
 ### Messaging zwischen Veröffentlichungsinstanzen {#messaging-between-publish-instances}
 
-Häufig soll ein Befehl an ein Gerät nur einmal gesendet werden. In einer Veröffentlichungsarchitektur mit Lastenausgleich ist die Veröffentlichungsinstanz, mit der das Gerät eine Verbindung herstellt, allerdings unbekannt.
+Häufig soll ein Befehl an ein Gerät nur einmal gesendet werden. In einer Veröffentlichungsarchitektur mit Lastenausgleich ist die Veröffentlichungsinstanz, mit der das Gerät eine Verbindung herstellt, jedoch unbekannt.
 
 Daher sendet die Autoreninstanz die Nachricht an alle Veröffentlichungsinstanzen. Es soll jedoch nur eine einzige Nachricht an das Gerät weitergeleitet werden. Um eine korrekte Benachrichtigung sicherzustellen, muss zwischen den Veröffentlichungsinstanzen kommuniziert werden. Diese Kommunikation wird mit *Apache ActiveMQ Artemis* erreicht. Jede Veröffentlichungsinstanz wird mithilfe des Oak-basierten Sling-Erkennungsdienstes in einer locker gekoppelten Topologie platziert. ActiveMQ ist so konfiguriert, dass jede Veröffentlichungsinstanz kommunizieren und eine einzelne Nachrichtenwarteschlange erstellen kann. Das AEM Screens-Gerät fragt über den Load-Balancer die AEM Veröffentlichungs-Farm ab und übernimmt den Befehl an der Spitze der Warteschlange.
 

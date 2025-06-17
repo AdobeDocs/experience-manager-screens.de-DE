@@ -10,10 +10,10 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 100%
+source-wordcount: '773'
+ht-degree: 97%
 
 ---
 
@@ -114,6 +114,7 @@ Klicken Sie außerdem oben rechts auf die Option **Einstellungen**, um die Gerä
 
 >[!NOTE]
 >Sie können auf eine der folgenden Protokollebenen klicken:
+>
 >* **Deaktivieren**
 >* **Debug**
 >* **Info**
@@ -126,7 +127,7 @@ Klicken Sie außerdem oben rechts auf die Option **Einstellungen**, um die Gerä
 
 Aktivieren Sie den leeren Referrer, um dem Gerät das Bereitstellen von Daten auf dem Server zu erlauben. Wenn die Eigenschaft für den leeren Referrer deaktiviert ist, kann das Gerät keine Screenshots zurückgeben.
 
-Derzeit sind einige dieser Funktionen nur verfügbar, wenn der *Apache Sling Referrer-Filter „Allow Empty“* in der OSGi-Konfiguration aktiviert ist. Im Dashboard wird ggf. eine Warnung angezeigt, dass einige dieser Funktionen aufgrund der Sicherheitseinstellungen nicht funktionieren.
+Derzeit sind einige dieser Funktionen nur verfügbar, wenn die *`Apache Sling Referrer Filter Allow Empty`* in der OSGi-Konfiguration aktiviert ist. Im Dashboard wird ggf. eine Warnung angezeigt, dass einige dieser Funktionen aufgrund der Sicherheitseinstellungen nicht funktionieren.
 
 Führen Sie die nachfolgenden Schritte aus, um den Apache Sling Referrer-Filter „Allow Empty“ zu aktivieren
 

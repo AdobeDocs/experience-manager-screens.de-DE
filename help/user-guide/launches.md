@@ -1,5 +1,5 @@
 ---
-title: Inhaltsaktualisierung mit Screens Launch
+title: Inhaltsaktualisierungen mit Screens Launch
 description: Erfahren Sie, wie Sie eine zukünftige Version der Kanäle erstellen (auch als Launch bezeichnet) und ein Live-Datum für den Launch festlegen, damit Inhalte auf Geräten oder Playern live geschaltet werden.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,14 +10,14 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1567'
-ht-degree: 100%
+source-wordcount: '1568'
+ht-degree: 97%
 
 ---
 
-# Inhaltsaktualisierung mit Screens Launch {#launches}
+# Inhaltsaktualisierungen mit Screens Launch {#launches}
 
 Inhaltsautorinnen und Inhaltsautoren können eine zukünftige Version der Kanäle erstellen und darüber hinaus das Live-Datum für diesen Launch festlegen. Durch diese Funktion kann der Inhalt am angegebenen Live-Datum auf Geräten oder Playern live geschaltet werden.
 
@@ -51,14 +51,14 @@ Wenn das Live-Datum der *24. November, 9:00 Uhr* ist und die Nachfrist *24 St
 
 Ein Beispiel: Der Server befindet sich in der Zeitzone „PST“ und die Geräte in der Zeitzone „EST“. Die maximale Zeitdifferenz beträgt drei Stunden. Es wird davon ausgegangen, dass die Promotion 1 Minute dauert, die Veröffentlichung von der Autoren- zur Veröffentlichungsinstanz 10 Minuten dauert und der Player die Ressourcen in der Regel in 10–15 Minuten herunterladen kann. Die Übergangsphase ist dann gleich dem Zeitunterschied (drei Stunden):
 
-* &#x200B;+ die Zeit für die Launch-Promotion (1 Minute)
-* &#x200B;+ die Zeit für die Launch-Veröffentlichung (10 Minuten)
-* &#x200B;+ die Zeit für den Download im Player (10 bis 15 Minuten)
-* &#x200B;+ Puffer (30 Minuten)
+* + die Zeit für die Launch-Promotion (1 Minute)
+* + die Zeit für die Launch-Veröffentlichung (10 Minuten)
+* + die Zeit für den Download im Player (10 bis 15 Minuten)
+* + Puffer (30 Minuten)
 
 Insgesamt sind dies dann 3 Stunden und 56 Minuten (14.160 Sekunden).
 
-Wann immer Sie also den Live-Zeitpunkt für einen Launch planen, beginnt die Promotion um diesen Zeitversatz früher. In der obigen Gleichung nehmen die meisten Punkte nicht viel Zeit in Anspruch. Sie können einen angemessenen Schätzwert für diesen Versatz verwenden, wenn Sie den maximalen Zeitunterschied zwischen Server und Player kennen.
+Wann immer Sie also den Live-Zeitpunkt für einen Launch planen, beginnt die Promotion um diesen Zeitversatz früher. In der obigen Gleichung nehmen die meisten Punkte nicht viel Zeit in Anspruch. Sie können eine angemessene Schätzung für diesen Offset verwenden, wenn Sie die maximale Zeitdifferenz zwischen dem Server und einem beliebigen Player kennen.
 
 >[!NOTE]
 >

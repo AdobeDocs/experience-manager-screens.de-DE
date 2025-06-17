@@ -9,10 +9,10 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 100%
+source-wordcount: '794'
+ht-degree: 98%
 
 ---
 
@@ -148,7 +148,7 @@ Führen Sie die folgenden Schritte durch, um eine absolute Strategie einzurichte
 
 1. Öffnen Sie in jeder OS X-Box die Einstellungen für **Datum und Uhrzeit**.
 1. Aktivieren Sie **Datum und Uhrzeit automatisch festlegen**.
-1. Kopieren Sie den Wert 0.pool.ntp.org, 1.pool.ntp.org, 2.pool.ntp.org, 3.pool.ntp.org, time.apple.com in das Dropdown-Feld. Sie können auch einfach den Befehl *sudo ntpdate -u -v 0.pool.ntp.org* ausführen.
+1. Fügen Sie den Wert 0.pool.ntp.org, 1.pool.ntp.org, 2.pool.ntp.org, 3.pool.ntp.org, time.apple.com in das Dropdown-Menü ein oder führen Sie einfach *`sudo ntpdate -u -v 0.pool.ntp.org`* aus
 1. Starten Sie alle Player (mind. zwei).
 
 Es kann eine Weile dauern, bis die Player eine neue synchronisierte Sequenz beginnen.

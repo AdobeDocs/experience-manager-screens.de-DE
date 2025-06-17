@@ -9,10 +9,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '1067'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -48,7 +48,7 @@ Sie können die Voreinstellungen für Ihr Gerät im Geräte-Dashboard konfigurie
 
 Durch die Aktivierung der **Admin-Benutzeroberfläche** im Fenster „Voreinstellungen“ lassen sich die Admin-Einstellungen vom Screens-Player aus öffnen. Wenn Sie diese Option im Geräte-Dashboard deaktivieren, können Benutzende die Administrator-Benutzeroberfläche außerdem nicht im Player öffnen.
 
-Um die Administrator-Benutzeroberfläche vom Screens-Player aus zu öffnen, halten Sie die linke obere Ecke gedrückt, um das Menü „Admin“ auf Ihrem Touch-optimierten AEM Screens-Player zu öffnen, oder verwenden Sie eine Maus.  Nachdem die Registrierung abgeschlossen ist und die Kanäle geladen sind, werden Informationen angezeigt.
+Um die Administrator-Benutzeroberfläche vom Screens-Player aus zu öffnen, halten Sie die linke obere Ecke gedrückt, um das Menü „Admin“ auf Ihrem Touch-optimierten AEM Screens-Player zu öffnen, oder verwenden Sie eine Maus.  Informationen werden angezeigt, nachdem die Registrierung abgeschlossen und die Kanäle geladen wurden.
 
 >[!NOTE]
 >
@@ -149,7 +149,7 @@ Der folgende Abschnitt enthält Richtlinien zur Hardware-Auswahl für ein Screen
 * Beziehen Sie für PC-Player und Anzeige-Panels oder Projektoren stets Komponenten von ***Handels-*** oder ***Industrie***-Qualität.
 
 * Arbeiten Sie immer mit Anbietern, die den Markt für Digital Signage bedienen.
-* Berücksichtigen Sie stets Umgebungsfaktoren wie Umgebungstemperatur und relative Luftfeuchtigkeit.
+* Berücksichtigen Sie immer Umweltfaktoren wie Umgebungstemperatur und relative Luftfeuchtigkeit.
 * Überprüfen Sie stets Strombedarf und Stromkonditionierung.
 * Prüfen Sie sorgfältig die für die Anwendung erforderlichen Leistungsanforderungen und E/A-Anschlüsse.
 

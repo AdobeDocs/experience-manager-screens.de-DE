@@ -10,10 +10,10 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 7410e2d8fd7fe1e8b795a35f3a76df4ea882117e
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1495'
-ht-degree: 97%
+source-wordcount: '1492'
+ht-degree: 94%
 
 ---
 
@@ -60,7 +60,7 @@ Nachdem Sie die Anwendung heruntergeladen haben, führen Sie die Schritte im Pla
 1. Halten Sie die linke obere Ecke eine Weile gedrückt, um das Admin-Bedienfeld zu öffnen.
 1. Navigieren Sie im linken Aktionsmenü zu **Konfiguration**, geben Sie den Standort (die Adresse) der AEM-Instanz ein, zu der Sie eine Verbindung aufbauen möchten, und klicken Sie auf **Speichern**.
 
-1. Navigieren Sie im linken Aktionsmenü zum Link **Geräteregistrierung**&#x200B;**&#x200B;**, um den Status der Geräteregistrierung zu prüfen.
+1. Navigieren Sie im linken Aktionsmenü zum Link **Geräteregistrierung******, um den Status der Geräteregistrierung zu prüfen.
 
 >[!NOTE]
 >
@@ -74,7 +74,7 @@ Aufgrund der Android™-Architektur muss die Anwendung über Systemrechte verfü
 
 ### Signieren von Android™-`apks` mithilfe von Herstellerschlüsseln         {#signage-of-android-apks-using-manufacturer-keys}
 
-Signieren Sie das Android™-`apk` mithilfe der Herstellerschlüssel, um auf die berechtigten APIs von Android™, z. B. *PowerManager* oder *HDMIControlServices*, zuzugreifen.
+Um auf einige der privilegierten APIs von Android™ zuzugreifen, z. B. *PowerManager* oder *HDMIControlServices*, signieren Sie die `apk` von Android™ mit den Herstellerschlüsseln.
 
 >[!CAUTION]
 >
@@ -130,7 +130,7 @@ Nutzen Sie dazu eine [Beispiel-JSON-Richtlinie](#example-json) sowie eine Tabell
 1. Wenn die Player-Anwendung gestartet wird, wird diese Konfigurationsdatei gelesen und auf den entsprechenden AEM-Server verwiesen, auf dem sie registriert und dann gesteuert wird.
 
    >[!NOTE]
-   >Diese Datei ist *schreibgeschützt*, wenn die Anwendung zum ersten Mal gestartet wird, und kann nicht für nachfolgende Konfigurationen verwendet werden. Wenn der Player vor dem Ablegen der Konfigurationsdatei gestartet wird, deinstallieren Sie die App und installieren Sie sie erneut auf dem Gerät.
+   >Diese Datei ist *schreibgeschützt*, wenn die Anwendung zum ersten Mal gestartet wird, und kann nicht für nachfolgende Konfigurationen verwendet werden. Wenn der Player gestartet wird, bevor die Konfigurationsdatei abgelegt wird, deinstallieren Sie die Anwendung einfach und installieren Sie sie erneut auf dem Gerät.
 
 ### Richtlinienattribute {#policy-attributes}
 
@@ -143,7 +143,7 @@ Die folgende Tabelle fasst zur Referenz die Richtlinienattribute mit einer JSON-
 | *rebootSchedule* | Der Zeitplan für den Neustart gilt für alle Plattformen. |
 | *enableAdminUI* | Aktivierung der Administrator-Benutzeroberfläche zum Konfigurieren des Geräts vor Ort. Stellen Sie diesen Wert auf *false* ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und in der Produktion verwendet wird. |
 | *enableOSD* | Aktivierung der Kanalschalter-Benutzeroberfläche, damit Benutzende zwischen Kanälen auf dem Gerät wechseln können. Stellen Sie den Wert ggf. auf *false* ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und in der Produktion verwendet wird. |
-| *enableActivityUI* | Aktivierung zum Anzeigen des Fortschritts von Aktivitäten wie Downloads und Synchronisierungen.  Aktivieren Sie den Wert zwecks Fehlerbehebung und deaktivieren Sie ihn, sobald die Benutzeroberfläche vollständig konfiguriert ist und produktiv verwendet wird. |
+| *enableActivityUI* | Aktivieren Sie diese Option, wenn Sie den Fortschritt von Aktivitäten wie Herunterladen und Synchronisieren anzeigen möchten. Aktivieren Sie den Wert zwecks Fehlerbehebung und deaktivieren Sie ihn, sobald die Benutzeroberfläche vollständig konfiguriert ist und produktiv verwendet wird. |
 | *enableNativeVideo* | Aktivieren Sie diese Option, um die native Hardware-Beschleunigung für die Videowiedergabe zu verwenden (nur Android™). |
 
 ### Beispiel für eine JSON-Richtlinie {#example-json}

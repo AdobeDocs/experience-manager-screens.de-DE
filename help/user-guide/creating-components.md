@@ -9,10 +9,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 4d673039-4963-458a-89e9-023a993dd354
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 100%
+source-wordcount: '281'
+ht-degree: 92%
 
 ---
 
@@ -24,11 +24,11 @@ AEM-Komponenten werden verwendet, um den Inhalt, den Sie auf Ihren Web-Seiten be
 >
 >Detaillierte Informationen über die Erstellung von AEM-Komponenten finden Sie unter „Entwickeln von AEM-Komponenten“.
 
-## Authoring von Kanälen {#authoring-channels}
+## Authoring-Kanäle {#authoring-channels}
 
 Der Kanal ist das zentrale Objekt von Inhalten, die für eine Reihe von Anzeigen bereitgestellt werden. Daher öffnet eine Inhaltsautorin bzw. ein Inhaltsautor normalerweise einen Kanal im Editor, um Inhalte hinzuzufügen oder zu ändern. Da der Kanal eine ***`cq:Page`*** ist, folgt er demselben herkömmlichen UX-Muster zum Hinzufügen und Bearbeiten von Komponenten des Kanals.
 
-Da jedoch Komponenten innerhalb eines Kanals normalerweise im Vollbildmodus gerendert werden, ist das Authoring-Erlebnis bei der Bearbeitung von einzelnen Komponenten und dem Erstellen eines neuen Auftrags beeinträchtigt. Deshalb nutzt der Kanal Selektoren, um verschiedene Ansichten der Komponenten zu rendern. Die Authoring-Umgebung verwendet den Bearbeitungsselektor, um das Rendering des benutzerdefinierten Kanals zu aktivieren.
+Da jedoch Komponenten innerhalb eines Kanals normalerweise im Vollbildmodus gerendert werden, ist das Authoring-Erlebnis bei der Bearbeitung von einzelnen Komponenten und dem Erstellen eines neuen Auftrags beeinträchtigt. Deshalb nutzt der Kanal Selektoren, um verschiedene Ansichten der Komponenten zu rendern. Die Autorenumgebung verwendet den `edit` zum Aktivieren des benutzerdefinierten Kanal-Renderings.
 
 Beispiel: `http://localhost:4502/editor.html/content/screens/we-retail/channels/idle.edit.html](http://localhost:4502/editor.html/content/screens/we-retail/channels/idle.edit.html`
 

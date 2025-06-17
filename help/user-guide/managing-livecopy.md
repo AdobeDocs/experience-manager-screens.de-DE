@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4a4b3a83-2b02-42a0-86a7-fce6bbf47c7d
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '704'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -93,7 +93,7 @@ Der in der folgenden Abbildung dargestellte Modus **Live Copy-Status** ermöglic
 
 Sie können auch die Vererbung der Live Copy aufheben, sodass der Inhalt von der ursprünglichen Verzweigung unabhängig wird.
 
-Das folgende Beispiel zeigt, wie Sie das Bild im Modus „Bearbeiten“ auswählen und oben rechts auf das Symbol zum Aufheben der Vererbung klicken.
+Das folgende Beispiel zeigt, dass Sie im Bearbeitungsmodus auf das Bild klicken und oben rechts auf **Vererbung** Abbrechen) klicken.
 
 ![chlimage_1-24](assets/chlimage_1-24.png)
 

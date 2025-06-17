@@ -9,10 +9,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: 71b4f55c860d559dceaac9d5bf7ea71ce52210fa
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 90%
+ht-degree: 85%
 
 ---
 
@@ -75,7 +75,7 @@ Die folgende Tabelle fasst den Pfad mit den Berechtigungen auf Projektebene zusa
 
 >[!NOTE]
 >
->Unter Umständen möchten Sie separate Autorenfunktionen (wie das Verwalten von Assets und das Erstellen von Kanälen) von den Administratorfunktionen (wie dem Registrieren von Playern) trennen. Erstellen Sie bei solchen Szenarien zwei Gruppen, fügen Sie die Gruppe „authors“ zu „contributors“ hinzu und fügen Sie die Gruppe „admin“ sowohl zu „contributors“ als auch zu „user-administrators“ hinzu.
+>Unter Umständen möchten Sie separate Autorenfunktionen (wie das Verwalten von Assets und das Erstellen von Kanälen) von den Administratorfunktionen (wie dem Registrieren von Playern) trennen. Erstellen Sie in einem solchen Fall zwei Gruppen und fügen Sie die Gruppe des Autors den Mitwirkenden und die Administratorgruppe den Mitwirkenden und den Benutzeradministratoren hinzu.
 
 ### Erstellen von Gruppen {#creating-groups}
 

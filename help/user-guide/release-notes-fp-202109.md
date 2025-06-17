@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '916'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ Das AEM Screens Feature Pack 202109 wurde am 23. September 2021 veröffentlicht.
 
 * **Unterstützung von Miniaturansichten für Videos**
 
-  AEM Screens unterstützt jetzt Miniaturansichten für Videos. Inhaltsautorinnen und Inhaltsautoren definieren eine Miniaturansicht für Videos, sodass das Bild als Platzhalter verwendet wird. Außerdem werden die Inhaltswiedergabe und das Targeting ordnungsgemäß getestet, während das zuständige Team das eigentliche Video fertigstellt. Das Bild kann auch verwendet werden, wenn die Wiedergabe des Videos fehlschlägt.
+  In AEM Screens wird jetzt die Unterstützung von Miniaturansichten für Videos unterstützt. Inhaltsautorinnen und Inhaltsautoren definieren eine Miniaturansicht für Videos, sodass das Bild als Platzhalter verwendet wird. Außerdem werden die Inhaltswiedergabe und das Targeting ordnungsgemäß getestet, während das zuständige Team das eigentliche Video fertigstellt. Das Bild kann auch verwendet werden, wenn die Wiedergabe des Videos fehlschlägt.
 Weitere Informationen finden Sie unter [Unterstützung von Miniaturansichten für Videos](/help/user-guide/thumbnail-support.md).
 
 * **Einfache Wiedergabe-Überwachung**

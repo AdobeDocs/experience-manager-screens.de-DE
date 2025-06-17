@@ -2,10 +2,10 @@
 title: Überlegungen zum Projektumfang
 description: Erfahren Sie mehr über die Überlegungen, die beim Festlegen des Umfangs eines AEM Screens-Projekts nützlich sind.
 exl-id: 6e27b0f1-3c31-4d9b-8fa2-b4ec2e9bf7b0
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 100%
+source-wordcount: '270'
+ht-degree: 93%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 >[!NOTE]
 >Die typischen Stakeholder für diese Aktivität sind Marketing-/Geschäftsstrateginnen und -strategen.
 
-Dieser Schritt umfasst alle Pre-Sales- und Erkundungsmaßnahmen, die zur vollständigen Definition des Projektumfangs erforderlich sind. Die an Tag 0 erledigten Aufgaben setzen den Ton für den Rest des Projekts und beeinflussen den Gesamterfolg der erstellten Anwendung.
+Dieser Schritt umfasst alle Pre-Sales- und Erkundungsmaßnahmen, die zur vollständigen Definition des Projektumfangs erforderlich sind. Die am `Day Zero` abgeschlossenen Arbeiten bilden die Grundlage für das Projekt und wirken sich direkt auf den Gesamterfolg der Anwendung aus.
 In diesem Schritt werden wichtige Anbieter ermittelt und zusammengeführt, um den Projektplan zu erstellen. Bei diesem Schritt ist es wichtig, dass auch bei den wichtigsten Projektbeteiligten des Kundenunternehmens ein Buy-in eingerichtet wird. Zu diesen Stakeholdern gehören Vertriebsmitarbeitende, Marketing-Verantwortliche und IT-Teams. Diese Personen spielen alle eine wichtige Rolle bei der Entwicklung der Anwendung und ihrer fortlaufenden Pflege.
 
 ## Wichtigste Lieferziele {#key-deliverables}

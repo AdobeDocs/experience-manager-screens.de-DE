@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
-source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -65,7 +65,7 @@ Gehen Sie wie folgt vor, um das Massen-Offline-Update für ein AEM Screens-Proje
 
 1. Fügen Sie die folgenden Eigenschaften hinzu:
 
-   **Projektpfad** Geben Sie den Pfad Ihres AEM Screens-Projekts an. Der Pfad heißt gewöhnlich `/content/screens/<Name of your project>`.
+   **Projektpfad** - Gibt den Pfad Ihres AEM Screens-Projekts an. Der Pfad heißt gewöhnlich `/content/screens/<Name of your project>`.
 
    *Zum Beispiel* `/content/screens/we-retail`. Sie können diesen Pfad in der URL finden, indem Sie ein beliebiges Projekt unter AEM Screens auswählen (klicken Sie nicht auf das Symbol).
 
@@ -73,6 +73,6 @@ Gehen Sie wie folgt vor, um das Massen-Offline-Update für ein AEM Screens-Proje
    >
    >Geben Sie den Projektpfad relativ zum Kanal an.
 
-   **Zeitplanfrequenz**: Geben Sie einen Zeitpunkt an, z. B. 17:00 Uhr, zu dem dieser Service Offline-Inhalte aktualisieren soll.
+   **Zeitplanfrequenz** - Gibt einen Zeitpunkt an, z. B. 17.00 Uhr, zu dem dieser Service Offline-Inhalte aktualisieren soll.
 
 1. Klicken Sie auf **Speichern**, um Ihre Einstellungen zu speichern. Ihr Inhalt wird zum angegebenen Zeitpunkt aktualisiert.

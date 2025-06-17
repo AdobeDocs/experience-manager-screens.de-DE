@@ -6,10 +6,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
-source-git-commit: 33c469477fc38e79e0364411378c9a3a30a1eda3
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 100%
+source-wordcount: '496'
+ht-degree: 94%
 
 ---
 
@@ -33,7 +33,7 @@ Um einen **AEM Screens-Player** herunterzuladen, rufen Sie die Seite [AEM 6.5 Pl
 
 ## Einfache Wiedergabe-Überwachung {#playback-monitoring}
 
-Mit jedem `ping` (standardmäßig alle 30 Sekunden) meldet der Player verschiedene Wiedergabemetriken. Basierend auf diesen Metriken können wir verschiedene Randfälle wie Feststecken, leerer Bildschirm und Terminprobleme erkennen. Auf diese Weise können wir Probleme auf dem Gerät verstehen und beheben, was die Untersuchung und die Abhilfemaßnahmen für Sie beschleunigt.
+Mit jedem `ping` (standardmäßig alle 30 Sekunden) meldet der Player verschiedene Wiedergabemetriken. Basierend auf diesen Metriken können verschiedene Randfälle erkannt werden, z. B. steckengebliebenes Erlebnis, leerer Bildschirm und Terminprobleme. Auf diese Weise können wir Probleme auf dem Gerät verstehen und beheben, was die Untersuchung und die Abhilfemaßnahmen für Sie beschleunigt.
 
 Die grundlegende Überwachung der Wiedergabe in einem AEM Screens-Player ermöglicht Folgendes:
 
@@ -49,12 +49,12 @@ Die folgenden Eigenschaften sind in jedem `ping` enthalten:
 
 | Eigenschaft | Beschreibung |
 |---|---|
-| id {Zeichenfolge} | die Player-Kennung |
-| activeChannel {Zeichenfolge} | der derzeit wiedergebende Kanalpfad, oder null, wenn nichts geplant ist |
-| activeElements {Zeichenfolge} | Kommagetrennte Zeichenfolgen, aktuell sichtbare Elemente in allen wiedergegebenen Sequenzkanälen (mehrere bei einem Mehrzonen-Layout) |
-| isDefaultContent {Boolesch} | „true“, wenn der Wiedergabekanal als Standard- oder Fallback-Kanal betrachtet wird (d. h. hat Priorität 1 und keinen Zeitplan) |
-| hasContentChanged {Boolesch} | „true“, wenn der Inhalt in den letzten 5 Minuten geändert wurde, andernfalls „false“ |
-| lastContentChange {Zeichenfolge} | Zeitstempel der letzten Inhaltsänderung |
+| ID {string} | die Player-Kennung |
+| activeChannel {string} | der derzeit wiedergebende Kanalpfad, oder null, wenn nichts geplant ist |
+| activeElements-{string} | Kommagetrennte Zeichenfolgen, aktuell sichtbare Elemente in allen wiedergegebenen Sequenzkanälen (mehrere bei einem Mehrzonen-Layout) |
+| isDefaultContent {boolean} | „true“, wenn der Wiedergabekanal als Standard- oder Fallback-Kanal betrachtet wird (d. h. hat Priorität 1 und keinen Zeitplan) |
+| hasContentChanged-{boolean} | „true“, wenn der Inhalt in den letzten 5 Minuten geändert wurde, andernfalls „false“ |
+| lastContentChange {string} | Zeitstempel der letzten Inhaltsänderung |
 
 >[!NOTE]
 >
@@ -62,7 +62,7 @@ Die folgenden Eigenschaften sind in jedem `ping` enthalten:
 >
 >| Eigenschaft | Beschreibung |
 >|---|---|
->| isContentRendering {Boolesch} | „true“, wenn die GPU bestätigen kann, dass tatsächliche Inhalte wiedergegeben werden (basierend auf der Pixelanalyse) |
+>| isContentRendering {boolean} | „true“, wenn die GPU bestätigen kann, dass tatsächliche Inhalte wiedergegeben werden (basierend auf der Pixelanalyse) |
 
 ### Einschränkungen {#limitations}
 

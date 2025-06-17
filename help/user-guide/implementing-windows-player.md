@@ -10,10 +10,10 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1117'
-ht-degree: 100%
+source-wordcount: '1118'
+ht-degree: 96%
 
 ---
 
@@ -124,8 +124,8 @@ Die folgende Tabelle fasst zur Referenz die Richtlinienattribute mit einer JSON-
 | resolution | Die Auflösung des Geräts. |
 | rebootSchedule | Der Zeitplan zum Neustarten des Players. |
 | enableAdminUI | Aktivierung der Administrator-Benutzeroberfläche zum Konfigurieren des Geräts vor Ort. Stellen Sie diesen Wert auf „false“ ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und in der Produktion verwendet wird. |
-| enableOSD | Aktivierung der Kanalschalter-Benutzeroberfläche, damit Benutzende zwischen Kanälen auf dem Gerät wechseln können. Stellen Sie den Wert ggf. auf „false“ ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und in der Produktion verwendet wird. |
-| enableActivityUI | Aktivierung zum Anzeigen des Fortschritts von Aktivitäten wie Downloads und Synchronisierungen. Aktivieren Sie den Wert zwecks Fehlerbehebung und deaktivieren Sie ihn, sobald die Benutzeroberfläche vollständig konfiguriert ist und produktiv verwendet wird. |
+| enableOSD | Aktivierung der Kanalschalter-Benutzeroberfläche, damit Benutzende zwischen Kanälen auf dem Gerät wechseln können. Erwägen Sie, ihn auf „false“ festzulegen, sobald er vollständig konfiguriert und in der Produktion verfügbar ist. |
+| enableActivityUI | Aktivieren Sie diese Option, um den Fortschritt von Aktivitäten wie Herunterladen und Synchronisieren anzuzeigen. Aktivieren Sie den Wert zwecks Fehlerbehebung und deaktivieren Sie ihn, sobald die Benutzeroberfläche vollständig konfiguriert ist und produktiv verwendet wird. |
 | cloudMode | Legen Sie den Wert auf „true“ fest, damit der Windows-Player eine Verbindung zu Screens as a Cloud Service herstellt. Legen Sie den Wert auf „false“ fest, um eine Verbindung zu AMS oder AEM On-Premise herzustellen. |
 | cloudToken | Anmelde-Token zur Registrierung bei Screens as a Cloud Service. |
 
@@ -158,11 +158,11 @@ Gehen Sie wie folgt vor, um den Kiosk-Modus zu aktivieren:
 
 1. Aktivieren Sie das Shell-Startprogramm.
 
-   Weitere Informationen finden Sie im Abschnitt ***Konfigurieren des Shell-Startprogramms*** auf der Seite **[Shell-Startprogramm](https://learn.microsoft.com/de-de/windows/iot/iot-enterprise/customize/shell-launcher)** des Microsoft® Windows-Supports.
+   Weitere Informationen finden Sie im Abschnitt ***Konfigurieren des Shell-Startprogramms*** auf der Seite **[Shell-Startprogramm](https://learn.microsoft.com/en-us/windows/configuration/shell-launcher/)** des Microsoft® Windows-Supports.
 
 1. Erstellen Sie eine Benutzerin oder einen Benutzer ohne Administratorrechte (falls Sie nicht schon welche haben), um sie für Kiosk zu verwenden. Dabei kann es sich um eine lokale Benutzerin oder einen lokalen Benutzer bzw. um eine Domain-Benutzerin oder einen Domain-Benutzer handeln.
 1. Installieren Sie den Windows-Player für diese Kiosk-Benutzerin bzw. diesen Kiosk-Benutzer über die Seite [AEM Screens-Player-Downloads](https://download.macromedia.com/screens/).
-1. Weitere Informationen zum Ändern des PowerShell-Skripts finden Sie unter [Verwenden des Shell-Startprogramms zum Erstellen eines Windows 10-Kiosks](https://learn.microsoft.com/de-de/windows/configuration/assigned-access/shell-launcher/?tabs=intune).
+1. Weitere Informationen zum Ändern des PowerShell-Skripts finden Sie unter [Verwenden des Shell-Startprogramms zum Erstellen eines Windows 10-Kiosks](https://learn.microsoft.com/en-us/windows/configuration/shell-launcher/?tabs=intune).
 
    Ändern Sie das PowerShell-Skript, um den Benutzernamen durch den von Ihnen erstellten zu ersetzen. Stellen Sie sicher, dass der Pfad zur ausführbaren Datei der Anwendung korrekt ist. Dadurch wird die benutzerdefinierte Shell als Windows-Player-Anwendung für die Kiosk-Benutzerin bzw. den Kiosk-Benutzer festgelegt und explorer.exe als Standard für andere Benutzende.
 
@@ -181,7 +181,7 @@ Das Beispielskript in den Links aktiviert und deaktiviert die benutzerdefinierte
 
 >[!NOTE]
 >
->In einigen Windows-Umgebungen sind die PowerShell-Skripte möglicherweise durch Richtlinien eingeschränkt (insbesondere unsignierte Skripte). Um Ihr Skript auszuführen, müssen Sie diese Einschränkung vorübergehend deaktivieren und wieder aktivieren. Öffnen Sie ein PowerShell-Fenster und verwenden Sie diese Befehle.
+>Einige Windows-Umgebungen beschränken PowerShell-Skripte durch Richtlinien, insbesondere wenn die Skripte nicht signiert sind. Um Ihr Skript auszuführen, müssen Sie diese Einschränkung vorübergehend deaktivieren und wieder aktivieren. Öffnen Sie ein PowerShell-Fenster und verwenden Sie diese Befehle.
 >
 >*`set-executionpolicy unrestricted`* – zur vorübergehenden Aufhebung der Beschränkungen.
 >

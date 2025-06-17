@@ -6,10 +6,10 @@ feature: Authoring Screens, Channels
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '1791'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -105,7 +105,7 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
    1. Wählen Sie unter **Kanalpfad** den Wert **Channel Level Activation** > ***Channels*** > ***MainAdChannel*** aus.
    1. Die **Kanalrolle** wird mit **mainadchannel** ausgefüllt.
    1. Wählen Sie die Option **Priorität** aus und legen Sie den Wert **1** fest.
-   1. Wählen Sie unter **Unterstützte Ereignisse** die Optionen **Erster Ladevorgang** und **Bildschirm bei Untätigkeit** aus.
+   1. Klicken Sie auf **Unterstützte Ereignisse** z. B. **Erstladevorgang** und **Bildschirm im Leerlauf**.
    1. Klicken Sie auf **Speichern**.
 
    ![screen_shot_2018-11-27at124626pm](assets/screen_shot_2018-11-27at124626pm.png)
@@ -146,8 +146,8 @@ Der Player zeigt den Inhalt von **MainAdChannel** an, und genau um 23:59 Uhr (w
 >[!NOTE]
 >
 >Weitere Informationen zum AEM Screens-Player finden Sie unter:
->[AEM Screens-Player-Downloads](https://download.macromedia.com/screens/) 
->[Arbeiten mit dem AEM Screens-Player](working-with-screens-player.md)
+>>[AEM Screens-Player-Downloads](https://download.macromedia.com/screens/) 
+>>[Arbeiten mit dem AEM Screens-Player](working-with-screens-player.md)
 
 
 ## Umgang mit sich wiederholenden Assets in einem Kanal {#handling-recurrence-in-assets}

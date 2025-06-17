@@ -1,16 +1,16 @@
 ---
-title: Konfigurieren von Autoren- und Veröffentlichungsinstanzen in AEM Screens
+title: Konfigurieren von Autoren- und Veröffentlichungsinstanzen in AEM Screens
 description: Erfahren Sie, wie Sie eine Autoreninstanz und eine Veröffentlichungsinstanz für AEM Screens konfigurieren.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 6b4fc934c31640168528fa3e72cf634773f4f8e6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1940'
-ht-degree: 100%
+source-wordcount: '1939'
+ht-degree: 86%
 
 ---
 
 
-# Konfigurieren von Autoren- und Veröffentlichungsinstanzen in AEM Screens {#configuring-author-and-publish-in-aem-screens}
+# Konfigurieren von Autoren- und Veröffentlichungsinstanzen in AEM Screens {#configuring-author-and-publish-in-aem-screens}
 
 Auf dieser Seite werden folgende Themen hervorgehoben:
 
@@ -34,7 +34,7 @@ Bevor Sie mit Autoren- und Veröffentlichungs-Servern beginnen, sollten Sie mit 
 >
 >Wenn Sie mehr als eine Veröffentlichungsinstanz mit dem Dispatcher verwenden möchten, aktualisieren Sie den Dispatcher. Weitere Informationen finden Sie unter [Aktivieren von fixierbaren Sitzungen](dispatcher-configurations-aem-screens.md#enable-sticky-session).
 
-## Konfigurieren von Autoren- und Veröffentlichungsinstanz {#configuring-author-and-publish-instances}
+## Konfigurieren von Autoren- und Veröffentlichungsinstanzen {#configuring-author-and-publish-instances}
 
 >[!NOTE]
 >
@@ -42,13 +42,13 @@ Bevor Sie mit Autoren- und Veröffentlichungs-Servern beginnen, sollten Sie mit 
 
 Im folgenden Abschnitt wird beschrieben, wie sich in der Autoren- und Veröffentlichungstopologie Replikationsagenten einrichten lassen.
 
-Sie können ein einfaches Beispiel anlegen, in dem Sie eine Autoren- und zwei Veröffentlichungsinstanzen hosten:
+Sie können ein einfaches Beispiel einrichten, bei dem Sie eine Autoreninstanz und zwei Veröffentlichungsinstanzen hosten:
 
 * Autor > localhost:4502
 * Veröffentlichung 1 (pub1) > localhost:4503
 * Veröffentlichung 2 (pub2) > localhost:4504
 
-## Einrichten von Replikationsagenten in der Autoreninstanz {#setting-replication-agents}
+## Einrichten von Replikationsagenten auf der Autoreninstanz {#setting-replication-agents}
 
 Um Replikationsagenten zu erstellen, bringen Sie in Erfahrung, wie man einen standardmäßigen Replikationsagenten erstellt.
 
@@ -58,7 +58,7 @@ Für Screens sind drei Replikationsagenten erforderlich:
 1. **Screens-Replikationsagent**
 1. **Agent für Rückwärtsreplikation**
 
-### Schritt 1: Erstellen eines standardmäßigen Replikationsagenten {#step-creating-a-default-replication-agent}
+### Schritt 1: Erstellen eines Standardreplikationsagenten {#step-creating-a-default-replication-agent}
 
 Gehen Sie wie folgt vor, um einen standardmäßigen Replikationsagenten einzurichten:
 
@@ -112,7 +112,7 @@ Gehen Sie wie folgt vor, um einen standardmäßigen Replikationsagenten einzuric
 1. Richten Sie einen AEM Screens-Replikationsagenten für pub2 ein. Kopieren Sie den Screens-Replikationsagenten für pub1 und ändern Sie den Port für pub2 so, dass er auf 4504 verweist.
 
    >[!NOTE]
-   >Informationen zum Konfigurieren von Screens-Replikationsagenten finden Sie unter [Konfigurieren von Screens-Replikationsagenten](https://experienceleague.adobe.com/de/docs/experience-manager-screens/user-guide/administering/configure-screens-replication).
+   >Informationen zum Konfigurieren von Screens-Replikationsagenten finden Sie unter [Konfigurieren von Screens-Replikationsagenten](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configure-screens-replication).
 
 #### Erstellen von Screens-Agenten für die Rückwärtsreplikation {#creating-screens-reverse-replication-agents}
 
@@ -140,7 +140,7 @@ Die Konfiguration sollte für jede Veröffentlichungsinstanz identisch sein. Dur
 
 #### Schritt 2: Überprüfen der Veröffentlichungstopologie {#step-verify-publish-topology}
 
-Navigieren Sie bei allen Veröffentlichungsinstanzen zu `https://:/system/console/topology`. Sie sollten unter **Ausgehende Topologie-Connectoren** alle Veröffentlichungsinstanzen in der Topologie dargestellt sehen können.
+Navigieren Sie für eine der Veröffentlichungsinstanzen zu `https://:/system/console/topology`. Sie sollten unter **Ausgehende Topologie-Connectoren** alle Veröffentlichungsinstanzen in der Topologie dargestellt sehen können.
 
 #### Schritt 3: Einrichten des ActiveMQ Artemis-Clusters {#step-setup-activemq-artemis-cluster}
 
@@ -154,12 +154,12 @@ In jeder Veröffentlichungsinstanz:
 1. Klicken Sie auf **Schützen**.
 1. Kopieren Sie den Wert **Geschützter Text** in das Notepad oder einen Texteditor. Dieser Wert kann in der OSGi-Konfiguration für ActiveMQ verwendet werden.
 
-Da jede Veröffentlichungsinstanz standardmäßig über eindeutige Verschlüsselungsschlüssel verfügt, müssen Sie diesen Schritt für jede Veröffentlichungsinstanz ausführen und den eindeutigen Schlüssel für die nächste Konfiguration speichern.
+Da jede Veröffentlichungsinstanz standardmäßig über eindeutige Kryptoschlüssel verfügt, führen Sie diesen Schritt für jede Veröffentlichungsinstanz aus und speichern Sie den eindeutigen Schlüssel für die nächste Konfiguration.
 
 >[!NOTE]
 >
 >Das Passwort sollte mit geschweiften Klammern beginnen und enden. Beispiel:
->`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
+>>`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
 
 #### Schritt 4: Aktivieren des ActiveMQ Artemis-Clusters {#step-activate-activemq-artemis-cluster}
 
@@ -240,9 +240,9 @@ Nach dem Einrichten der Veröffentlichungstopologie müssen Sie die Autoren- und
 
 Überprüfen Sie den Player und beachten Sie den Inhalt, den Sie in Ihrem Kanal hinzugefügt haben.
 
-#### Schritt 4: Veröffentlichen der Gerätekonfiguration auf Veröffentlichungsinstanzen {#step-publishing-device-configuration-to-publish-instances}
+#### Schritt 4: Veröffentlichen der Gerätekonfiguration in Veröffentlichungsinstanzen {#step-publishing-device-configuration-to-publish-instances}
 
-**Überprüfen des Geräts**
+**Überprüfen Sie das Gerät**
 
 Gehen Sie wie folgt vor, um die Benutzerin bzw. den Benutzer des Geräts zu replizieren:
 
@@ -258,7 +258,7 @@ Sie können das Gerät auch über die Geräteverwaltungskonsole aktivieren. Füh
 
 1. Navigieren Sie zu Ihrem Screens-Projekt > **Geräte**.
 1. Klicken Sie in der Aktionsleiste auf **Geräte-Manager**.
-1. Wählen Sie das Gerät aus und klicken Sie in der Aktionsleiste auf **Aktivieren** (wie in der folgenden Abbildung dargestellt).
+1. Klicken Sie auf das Gerät und **Sie in** Aktionsleiste auf „Aktivieren“, wie in der folgenden Abbildung dargestellt.
 
 ![screen_shot_2019-02-21at111036am](assets/screen_shot_2019-02-21at111036am.png)
 
@@ -268,7 +268,7 @@ Sie können das Gerät auch über die Geräteverwaltungskonsole aktivieren. Füh
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
-### Checkliste für Veröffentlichungen {#publishing-check-list}
+### Checkliste veröffentlichen {#publishing-check-list}
 
 Folgende Punkte fassen die Checkliste für Veröffentlichungen zusammen:
 
@@ -284,13 +284,13 @@ Gehen Sie wie folgt vor, um das Verhalten von Autoren- und Veröffentlichungsins
 
 1. Aktualisieren Sie einige Kanalinhalte in der Autoreninstanz.
 1. Führen Sie **Veröffentlichung verwalten** aus, um neue Änderungen in allen Veröffentlichungsinstanzen zu veröffentlichen.
-1. Wählen Sie **Aktivieren**, um das Gerät über den **Geräte-Manager** zu aktivieren.
+1. Klicken Sie **Aktivieren**, um das Gerät über **Geräte-Manager** zu aktivieren.
 1. Ändern Sie die URL (**URL bearbeiten**) von der Autoreninstanz-URL in die URL einer der Veröffentlichungsinstanzen.
 1. Überprüfen Sie, ob der aktualisierte Kanalinhalt im AEM Screens-Player angezeigt wird.
 1. Wiederholen Sie diese Schritte mit einer anderen Veröffentlichungsinstanz.
 
 
-#### Schritt 5: Verweisen des Geräts auf eine Veröffentlichungsinstanz im Admin-Bedienfeld {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
+#### Schritt 5: Verweisen Sie das Gerät im Admin-Bedienfeld auf die Veröffentlichungsinstanz. {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
 1. Um die Administrator-Benutzeroberfläche vom Screens-Player aus zu öffnen, halten Sie die linke obere Ecke lange gedrückt, um das Menü „Admin“ auf Ihrem Touch-optimierten AEM Screens-Player öffnen zu können, oder verwenden Sie eine Maus.
 1. Klicken Sie im seitlichen Bereich auf die Option **Konfiguration**.
@@ -306,23 +306,20 @@ Alternativ können Sie über die Geräteverwaltungskonsole die Server-URL aktual
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
-Mit der Funktion **Veröffentlichung verwalten** können Sie Inhaltsaktualisierungen von Author an Publish und dann an das Gerät senden. Sie können Inhalte für Ihr gesamtes AEM Screens-Projekt oder nur für einzelne Kanäle, Standorte, Geräte, Anwendungen oder einen Zeitplan veröffentlichen bzw. die Veröffentlichung aufheben. Weitere Informationen zu dieser Funktion finden Sie unter [On-Demand-Inhaltsaktualisierungen](on-demand-content.md).
+Mit der Funktion **`Manage Publication`** können Sie Inhaltsaktualisierungen von der Autoren- zur Veröffentlichungsinstanz auf dem Gerät bereitstellen. Sie können Inhalte für Ihr gesamtes AEM Screens-Projekt oder nur für einzelne Kanäle, Standorte, Geräte, Anwendungen oder einen Zeitplan veröffentlichen bzw. die Veröffentlichung aufheben. Weitere Informationen zu dieser Funktion finden Sie unter [On-Demand-Inhaltsaktualisierungen](on-demand-content.md).
 
 ## Tipps zur Fehlerbehebung {#troubleshoot-tips}
 
-Im folgenden Abschnitt finden Sie Antworten auf häufig gestellte Fragen zur Einrichtung von Autoren-/Veröffentlichungsinstanzen.
+Im folgenden Abschnitt finden Sie Antworten auf häufig gestellte Fragen zur Autoren- und Veröffentlichungsinstanz.
 
 ### Wie kann nach der ersten Registrierung und Zuweisung eine Umleitung von https zu http hinzugefügt werden? {#add-redirect}
 
-**Lösung**
-Setzen Sie unter „Aktivieren“ die Option `Proxy/Load Balancer Connection in the Jetty configuration` auf `true`.
+**Lösung**: Setzen Sie `Proxy/Load Balancer Connection in the Jetty configuration` auf `true`.
 
 ### Wie werden Offline-Inhalte und Player-Download-Probleme mit Assets außerhalb von `/content/dam/projects/<project>` aktualisiert? {#update-offline-content}
 
-**Lösung**
-Erteilen Sie Leseberechtigungen für den Benutzer „bulk-offline-update-screens-service“ und die Gruppe `screens-devices-master` für ganz `/content/dam` oder, wenn Sie restriktiver sein möchten, für die spezifischen Assets, die Sie verwenden möchten.
+**Lösung** `screens-devices-master`: Erteilen Sie Leseberechtigungen für den Benutzer und die Gruppe „bulk-offline-update-screens-service“ für alle `/content/dam` oder für die spezifischen Assets, die Sie verwenden möchten, wenn Sie restriktiver sein möchten.
 
 ### Wie können Screens-Replikationsagenten-Fehler behoben werden? {#replication-agent}
 
-**Lösung**
-Vergewissern Sie sich, dass Sie in der Agentenkonfiguration die Option „Für Rückwärtsreplikation verwenden“ nicht aktiviert haben. Der Screens-Replikationsagent kann nicht als Agent für die Rückwärtsreplikation verwendet werden. Ziel dieser Funktion ist, Gerätebefehle von der Autoren- an die Veröffentlichungsinstanz weiterzuleiten.
+**Lösung** - Vergewissern Sie sich, dass Sie in der Agentenkonfiguration die Option Für Rückwärtsreplikation verwenden nicht aktiviert haben. Der Screens-Replikationsagent kann nicht als Agent für die Rückwärtsreplikation verwendet werden. Ziel dieser Funktion ist, Gerätebefehle von der Autoren- an die Veröffentlichungsinstanz weiterzuleiten.

@@ -2,10 +2,10 @@
 title: AEM-Plattformkonfigurationen
 description: Auf dieser Seite werden AEM Platform-Konfigurationen beschrieben.
 exl-id: cfe1769b-4da2-430d-a7b1-10dbcaf9f51b
-source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 100%
+source-wordcount: '438'
+ht-degree: 96%
 
 ---
 
@@ -40,7 +40,7 @@ Weitere Informationen dazu finden Sie unter **[Dispatcher-Konfigurationen für A
 Installieren Sie FFmpeg gemäß den Schritten für das entsprechende Betriebssystem (normalerweise RHEL):
 
 1. Bei Installation durch Aktivierung von EPEL und RPMFusion können Sie alle gstreamer-Codecs installieren, um die Unterstützung für FFmpeg-Konvertierungen zu erweitern.
-1. Wenn der AAC-Codec als experimentell markiert ist, schlagen FFMpeg-Konvertierungen fehl. Um das zu verhindern, fügen Sie den Videoprofilen (/etc/dam/video in AEM 6.3 und /libs/settings/dam/video in AEM 6.4) `-strict -2` hinzu.
+1. Wenn der AAC-Codec als experimentell markiert ist, schlagen FFMpeg-Konvertierungen fehl. Um dieses Problem zu vermeiden, fügen Sie den Videoprofilen `-strict -2` hinzu (in AEM 6.3 `/etc/dam/video` und nach `/libs/settings/dam/video in AEM 6.4` verschoben)
 
    >[!NOTE]
    >

@@ -10,10 +10,10 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: d1472137-c15f-44fb-89c3-d251a06c392b
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ Im Folgenden finden Sie einige wichtige Überlegungen zum Tag 2-Support:
 * Um die Ausrichtung und einen reibungslosen Übergang von der Implementierung zur Betriebsunterstützung sicherzustellen, muss die für die AEM-Implementierung zuständige Person mit der für die Audio-Video-Integration zuständigen Person zusammenarbeiten. Gemeinsam sorgen die beiden dafür, dass im Rahmen des Tag 2-Support-Plans geeignete Support-Skripte festgelegt werden.
 * Anforderungen wie Remote-Geräteverwaltung, Helpdesk-Verfügbarkeit und Vor-Ort-Support durch Technikerinnen und Techniker werden in diesem Stadium der Entwicklung der Branche für Digital Signage praktisch vorausgesetzt. Neben diesen Grundanforderungen sollten die für die AEM-Implementierung zuständigen Personen auch Kostenvariablen für proaktive und reaktive Überwachungs- und Support-Modelle erkunden.
 * Anforderungen wie Remote-Geräteverwaltung, Helpdesk-Verfügbarkeit und Vor-Ort-Support durch Technikerinnen und Techniker werden in diesem Stadium der Entwicklung der Branche für Digital Signage praktisch vorausgesetzt. Neben diesen Grundanforderungen sollten die für die AEM-Implementierung zuständigen Personen auch Kostenvariablen für proaktive und reaktive Überwachungs- und Support-Modelle erkunden.
-* Für einen langfristigen Erfolg muss in Zusammenarbeit mit der für die Audio-Video-Integration zuständigen Person außerdem ein Service Level Agreement (SLA) für Tag 2 erarbeitet werden. SLAs beschreiben Support-Leistungen nach der Bereitstellung und helfen dabei, Kundenerwartungen zu steuern.
+* Für einen langfristigen Erfolg muss in Zusammenarbeit mit der für die Audio-Video-Integration zuständigen Person außerdem ein Service Level Agreement (SLA) für Tag 2 erarbeitet werden. SLAs enthalten Details zu unterstützten Services nach der Bereitstellung und helfen beim Festlegen der Kundenerwartungen.
 * Eine wichtige Ressource für die erfolgreiche Verwaltung mehrerer Netzwerke ist die Wissensdatenbank. SharePoint ist eine beliebte Plattform für diese Art von Ressource. Die Wissensdatenbank enthält vordefinierte Fragen und Antworten für NOC-Agenten, um sicherzustellen, dass eingehende Anfragen zur Problemlösung konsistent behandelt werden. Wissensdatenbanken enthalten in der Regel Referenzmaterialien für Systemkonfigurationen und Standorte von Websites. Die Wissensdatenbank kann manchmal auch Stanzblätter für Hardware und Referenzmaterialien für Systemsoftware enthalten.
 * Überwachungs- und Verwaltungsfunktionen sind weitgehend von den Betriebssystem- und Bildschirmfunktionen des Media-Players abhängig. Windows-Betriebssysteme bieten die größte Detailgenauigkeit. Bei Bereitstellungen, die auf Android™- oder iOS-Geräten ausgeführt werden, wird Mobile Device Management (auch MDM genannt) verwendet.
 * Einige Bildschirmhersteller bieten die Möglichkeit, Bildschirme unabhängig von Media-Playern zu überwachen, andere hingegen benötigen ein externes Gerät.

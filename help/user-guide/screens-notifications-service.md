@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -53,7 +53,7 @@ Gehen Sie wie folgt vor, um die Einstellungen für E-Mail-Benachrichtigungen zu 
 
 1. Definieren Sie die folgenden Felder, um Ihre Einstellungen für E-Mail zu konfigurieren:
 
-   **Gerätepfad**: Geben Sie den Pfad zu den Screens-Projekten ein, die Sie überwachen möchten. Der Pfad heißt gewöhnlich `/home/users/screens/<Name of your project>`.
+   **Gerätepfad** - Geben Sie den Pfad zu den Screens-Projekten ein, die Sie überwachen möchten. Der Pfad heißt gewöhnlich `/home/users/screens/<Name of your project>`.
 
    Wenn Ihr Projekt beispielsweise **`We.Retail`** lautet, verwenden Sie ***/home/users/screens/we-retail*** als Projektpfad.
 

@@ -9,10 +9,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 100%
+source-wordcount: '870'
+ht-degree: 96%
 
 ---
 
@@ -24,7 +24,7 @@ In diesem Abschnitt wird beschrieben, wie Sie den Chrome OS-Player mit der Chrom
 
 Führen Sie die nachfolgenden Schritte aus, um die Chrome Management Console einzurichten:
 
-1. Registrieren Sie sich für die Chrome Management Console. Sie müssen eine Lizenz für die Chrome Management Console erwerben. Für weitere Informationen zur Verwaltung der Chrome-Geräteeinstellungen wenden Sie sich an den [Google-Support](https://support.google.com/chrome/a/answer/1375678?hl=de&amp;ref_topic=2935995).
+1. Registrieren Sie sich für die Chrome Management Console. Sie müssen eine Lizenz für die Chrome Management Console erwerben. Für weitere Informationen zur Verwaltung der Chrome-Geräteeinstellungen wenden Sie sich an den [Google-Support](https://support.google.com/chrome/a/answer/1375678?hl=de&ref_topic=2935995).
 1. Melden Sie Ihr Chrome OS-Gerät in der Domain an und warten Sie 15 Minuten, bis das Gerät mit der Chrome Management Console synchronisiert ist. Um mehr über die Registrierung von Chrome-Geräten zu erfahren, klicken Sie [hier](https://support.google.com/chrome/a/answer/1360534?hl=de).
 1. Der Chrome-Player ist im Chrome-Webstore verfügbar.
 
@@ -143,8 +143,8 @@ In der folgenden Tabelle sind die Richtlinien und deren Funktionen aufgeführt.
 | resolution | Die Auflösung des Geräts. |
 | rebootSchedule | Der Zeitplan zum Neustarten des Players. |
 | enableAdminUI | Aktivierung der Administrator-Benutzeroberfläche zum Konfigurieren des Geräts vor Ort. Stellen Sie diesen Wert auf „false“ ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und in der Produktion verwendet wird. |
-| enableOSD | Aktivierung der Kanalschalter-Benutzeroberfläche, damit Benutzende zwischen Kanälen auf dem Gerät wechseln können. Stellen Sie den Wert ggf. auf „false“ ein, sobald die Benutzeroberfläche vollständig konfiguriert ist und in der Produktion verwendet wird. |
-| enableActivityUI | Aktivierung zum Anzeigen des Fortschritts von Aktivitäten wie Downloads und Synchronisierungen. Aktivieren Sie den Wert zwecks Fehlerbehebung und deaktivieren Sie ihn, sobald die Benutzeroberfläche vollständig konfiguriert ist und produktiv verwendet wird. |
+| enableOSD | Aktivierung der Kanalschalter-Benutzeroberfläche, damit Benutzende zwischen Kanälen auf dem Gerät wechseln können. Erwägen Sie, ihn auf „false“ festzulegen, sobald er vollständig konfiguriert und in der Produktion verfügbar ist. |
+| enableActivityUI | Aktivieren Sie diese Option, um den Fortschritt von Aktivitäten wie Herunterladen und Synchronisieren anzuzeigen. Aktivieren Sie den Wert zwecks Fehlerbehebung und deaktivieren Sie ihn, sobald die Benutzeroberfläche vollständig konfiguriert ist und produktiv verwendet wird. |
 | cloudMode | Setzen Sie dies auf „true“, wenn Sie möchten, dass der Chrome-Player eine Verbindung zu Screens as a Cloud Service herstellt.  Legen Sie den Wert auf „false“ fest, um eine Verbindung zu AMS oder AEM On-Premise herzustellen. |
 | cloudToken | Anmelde-Token zur Registrierung bei Screens as a Cloud Service. |
 

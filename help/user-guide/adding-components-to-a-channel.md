@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1417'
-ht-degree: 100%
+source-wordcount: '1416'
+ht-degree: 99%
 
 ---
 
@@ -77,7 +77,7 @@ Die Komponente „Anwendung“ verfügt über die folgenden Eigenschaften:
 | ***Anwendungspfad*** | Damit wird der absolute Pfad zur Anwendung festgelegt. |
 | ***Dauer (Millisekunden)*** | Damit wird die Dauer der Anwendung festgelegt. Standardmäßig ist die Dauer auf den Wert „-1“ festgelegt. Dies bedeutet, dass das Element auf unbestimmte Zeit ausgeführt wird (bei einer Single Page Application). Wird unter „Dauer“ ein Wert über 0 festgelegt, wird das Element für die angegebene Dauer angezeigt. Anschließend wird zum nächsten Element gewechselt. |
 
-Im folgenden Beispiel sehen Sie, wie die Komponente „Anwendung“ hinzugefügt wird, einschließlich einer Vorschau ihrer Eigenschaften:
+Im folgenden Beispiel sehen Sie, wie die Komponente „Anwendung“ eingebettet wird, einschließlich einer Vorschau ihrer Eigenschaften:
 
 ![adding_componentsapplication](assets/adding_componentsapplication.gif)
 
@@ -289,7 +289,7 @@ Die Komponente „Übergang“ verfügt über die folgenden Eigenschaften:
   </tr>
   <tr>
    <td><strong><em>Aktiv ab</em></strong></td>
-   <td>Zeitstempel, der beschreibt, ab wann der Übergang aktiv sein kann.<br /> </td>
+   <td>Zeitstempel, der beschreibt, wann die Transition aktiv sein kann.<br /> </td>
   </tr>
   <tr>
    <td><strong><em>Aktiv bis</em></strong></td>

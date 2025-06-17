@@ -9,16 +9,16 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 6cb2705e-83e6-46f3-bd71-6688d7edc11f
-source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '352'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # Verwenden der Fernbedienungs-Steuerung von Screens {#implementing-remote-control}
 
-Die Fernbedienungs-Steuerung erleichtert den Zugriff auf die Admin-Benutzeroberfläche, den Kanalumschalter oder Funktionen wie „Cache löschen“ und „Neu laden“. Außerdem bietet sie Ihnen eine Methode, die lokale Firmware-Version und Systeminformationen auf dem Player anzuzeigen. Diese Funktion ist besonders nützlich, da es schwierig sein kann, eine Maus zu verbinden. Oder an Produktionsgeräten zu arbeiten, die sich außerhalb der Reichweite befinden, vor allem, wenn der Player die Verbindung zu AEM verloren hat. Sie ist auch bei der Verwendung von Samsung RMS nützlich, da es aufgrund der unterschiedlichen Auflösung schwierig sein kann, die Administrator-Benutzeroberfläche zu finden und mit einer Maus zu öffnen.
+Die Fernbedienungs-Steuerungsfunktion erleichtert den Zugriff auf die Admin-Benutzeroberfläche, den Kanalumschalter oder Funktionen wie „Cache löschen“ und „Neu laden“. Außerdem bietet sie Ihnen eine Methode, die lokale Firmware-Version und Systeminformationen auf dem Player anzuzeigen. Diese Funktion ist besonders nützlich, da es schwierig sein kann, eine Maus zu verbinden. Oder an Produktionsgeräten zu arbeiten, die sich außerhalb der Reichweite befinden, vor allem, wenn der Player die Verbindung zu AEM verloren hat. Sie ist auch bei der Verwendung von Samsung RMS nützlich, da es aufgrund der unterschiedlichen Auflösung schwierig sein kann, die Administrator-Benutzeroberfläche zu finden und mit einer Maus zu öffnen.
 
 ## Gängige Tastenkombinationen für die Fernbedienungs-Steuerung {#using-common-remote-control}
 

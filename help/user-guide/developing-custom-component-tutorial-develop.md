@@ -9,10 +9,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '2161'
-ht-degree: 100%
+source-wordcount: '2163'
+ht-degree: 99%
 
 ---
 
@@ -66,7 +66,7 @@ Der Quell-Code eines Screens-Projekts wird normalerweise als Maven-Projekt mit m
 
 1. Das Paket **screens-weretail-run.ui.apps** installiert Code unter `/apps/weretail-run`.
 
-   Dieses Paket enthält den Code, der für das Rendern von benutzerdefinierten Komponenten für das Projekt verantwortlich ist. Dieses Paket enthält Komponenten-Code und alle erforderlichen JavaScript- oder CSS-Funktionen. Dieses Paket beinhaltet auch **screens-weretail-run.core-0.0.1-SNAPSHOT.jar**, die den Java™-Code enthält, der für das Projekt benötigt wird.
+   Dieses Paket enthält den Code, der für das Rendern von benutzerdefinierten Komponenten für das Projekt verantwortlich ist. Dieses Paket enthält Komponenten-Code und alle erforderlichen JavaScript- oder CSS-Funktionen. In dieses Paket ist auch **screens-weretail-run.core-0.0.1-SNAPSHOT.jar** eingebettet, die den Java™-Code enthält, der für das Projekt benötigt wird.
 
    >[!NOTE]
    >
@@ -139,7 +139,7 @@ AEM Screens weist einige interessante Einschränkungen auf, die nicht unbedingt 
    Screens-Komponenten erfordern je nach verwendetem [Inhaltserstellungsmodus](https://experienceleague.adobe.com/de/docs/experience-manager-64/authoring/authoring/author-environment-tools) zwei unterschiedliche Wiedergaben:
 
    1. **Produktion**: Vorschau- oder Veröffentlichungsmodus (wcmmode=disabled)
-   1. **Bearbeiten**: für alle anderen Inhaltserstellungsmodi, d.h. Bearbeiten, Design, Strukturvorlage, Entwickler ...
+   1. **Bearbeiten**: für alle anderen Inhaltserstellungsmodi, d. h. Bearbeiten, Design, Strukturvorlage, Entwickler …
 
    `helloworld.html` fungiert als Schalter, der überprüft, welcher Authoring-Modus gerade aktiv ist, und zu einem anderen HTL-Skript umleitet. Eine gängige Konvention, die von Screens-Komponenten verwendet wird, besteht darin, ein `edit.html`-Skript für den Bearbeitungsmodus und ein `production.html`-Skript für den Produktionsmodus zu verwenden.
 
@@ -312,7 +312,7 @@ AEM Screens-Komponenten werden im Bearbeitungsmodus anders dargestellt als im Vo
 
    ![2018-04-30_at_3_11pm](assets/2018-04-30_at_3_11pm.png)
 
-   Anstatt CSS direkt zu schreiben, verwendet dieses Tutorial LESS. [LESS](https://lesscss.org/) ist ein beliebter CSS-Precompiler, der CSS-Variablen, Mixins und Funktionen unterstützt. AEM-Client-Bibliotheken unterstützen nativ die LESS-Kompilierung. Sass oder andere Pre-Compiler können verwendet werden, müssen aber außerhalb von AEM kompiliert werden.
+   Anstatt CSS direkt zu schreiben, verwendet dieses Tutorial LESS. [LESS](https://lesscss.org/) ist ein beliebter CSS-Precompiler, der CSS-Variablen, Mixins und Funktionen unterstützt. AEM-Client-Bibliotheken unterstützen nativ die LESS-Kompilierung. Sie können Sass oder andere Pre-Compiler verwenden, müssen sie jedoch außerhalb von AEM kompilieren.
 
 1. Füllen Sie `/apps/weretail-run/components/content/helloworld/clientlibs/shared/css/styles.less` wie folgt:
 

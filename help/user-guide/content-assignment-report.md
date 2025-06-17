@@ -5,10 +5,10 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '354'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -51,7 +51,7 @@ Folgen Sie den nachstehenden Anweisungen, um den Inhaltszuweisungsbericht herunt
 
    ![Bild](/help/user-guide/assets/content-assignment-report/can-download.png)
 
-1. Das heruntergeladene Arbeitsblatt besteht aus zwei Registerkarten, z. B. **Standort** und **Inhalt**. Die Registerkarte „Standort“ besteht aus vier Spalten (**Standorte**, **Anzeigen**, **Kanäle** und **Geräte**), mit denen diese vier Entitäten Ihres AEM Screens-Projekts untersucht werden können.
+1. Das heruntergeladene Arbeitsblatt besteht aus zwei Registerkarten, z. B **&quot;**&quot; und **Inhalt**. Die Registerkarte „Standort“ besteht aus vier Spalten (**Standorte**, **Anzeigen**, **Kanäle** und **Geräte**), mit denen diese vier Entitäten Ihres AEM Screens-Projekts untersucht werden können.
 
    ![Bild](/help/user-guide/assets/content-assignment-report/report-sheet1.png)
 

@@ -2,10 +2,10 @@
 title: Netzwerk für die Direktanbindung an Mobilfunknetze
 description: Erfahren Sie mehr über die Einrichtung eines Netzwerks für die Direktanbindung an ein Mobilfunknetz in AEM Screens.
 exl-id: 6775bd10-7625-422f-a7af-4f7b8793fa42
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '845'
-ht-degree: 100%
+source-wordcount: '843'
+ht-degree: 97%
 
 ---
 
@@ -78,7 +78,7 @@ Die vom Daten-Abo abzudeckende Mindestkapazität beträgt:
 
 Die LAN-Verbindung muss ausreichend Bandbreite zur Verfügung stellen, damit neben der Erreichbarkeit des Netzwerks auch ein reibungsloser Betrieb von AEM Screens gewährleistet werden kann. Für die LAN-Netzwerkgeschwindigkeit werden mindestens 100 MBit/s empfohlen, sodass genügend Bandbreite verfügbar ist, um viele Geräte bei stabiler System-Performance zu verbinden.
 
-Sind aktive Netzwerkkomponenten anderer Art im Einsatz, müssen diese allesamt die Anforderungen an die Netzwerkbandbreite erfüllen. Beispielsweise sollten entsprechende Netzwerkkomponenten mindestens auf den Standard 100 MBit/s ausgelegt sein und mit den Bandbreitenspezifikationen des Internet-Zugangs bzw. -Routers übereinstimmen. Andernfalls wird die Gesamtbandbreite durch das schwächste Glied in der Netzwerkkette begrenzt.
+Bei der Verwendung anderer aktiver Netzwerkkomponenten ist es jedoch zwingend erforderlich, dass diese alle den Anforderungen an die Netzwerkbandbreite entsprechen. Beispielsweise sollten entsprechende Netzwerkkomponenten mindestens auf den Standard 100 MBit/s ausgelegt sein und mit den Bandbreitenspezifikationen des Internet-Zugangs bzw. -Routers übereinstimmen. Andernfalls wird die Gesamtbandbreite durch das schwächste Glied in der Netzwerkkette begrenzt.
 
 ## Herunterladen von Medien und Assets {#download}
 

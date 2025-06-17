@@ -3,10 +3,10 @@ title: Tagging in der Screens Cloud
 description: Auf dieser Seite wird beschrieben, wie Tags in der Screens Cloud erstellt, verwaltet und verwendet werden können.
 index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
-source-git-commit: 2fb092c530ec335d754802a0a8af2b63ec8549d2
+source-git-commit: 4828cf78d1ca81f0dd6f2cb1b82fd34afd93a672
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 81%
+source-wordcount: '150'
+ht-degree: 76%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 81%
 
 >[!CAUTION]
 >
->Die **Tagging**-Funktion ist nur verfügbar, wenn sie für Ihren Mandanten aktiviert ist. Wenden Sie sich zur Aktivierung an AEM Screens Engineering.
+>Die **Tagging**-Funktion ist nur verfügbar, wenn sie für Ihren Mandanten aktiviert ist. AEM Screens Engineering kontaktieren, um sie zu aktivieren.
 
 ## Einführung {#introduction}
 
@@ -39,7 +39,7 @@ Verwenden Sie erstellte Tags in Displays und Playern.
 >[!NOTE]
 >
 > Einem Display oder Player können maximal 30 Tags zugewiesen sein.
-> Es können maximal 30 Elemente in einem Schritt getaggt werden.
+> > Es können maximal 30 Elemente in einem Schritt getaggt werden.
 
 ## Filtern nach Tags {#filter-by-tags}
 

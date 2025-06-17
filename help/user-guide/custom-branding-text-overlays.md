@@ -6,10 +6,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '582'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -114,9 +114,9 @@ Gehen Sie wie folgt vor, um die Textüberlagerung mit dem aktualisierten Design 
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand7.png)
 
-1. Navigieren Sie zu Ihrer Datei *static.css* in CRXDE Lite und fügen Sie dieser Datei wie unten dargestellt die Schrift (z. B. `font-family: "Lucida Console", Courier, monospace;`) hinzu.
+1. Navigieren Sie zu Ihrer *static.css*-Datei in CRXDE Lite und fügen Sie die Schriftart wie `font-family: "Lucida Console", Courier, monospace;` zu dieser Datei hinzu, wie unten dargestellt.
 
-   ![image](/help/user-guide/assets/custom-brand/custom-brand8.png)
+   ![Bild](/help/user-guide/assets/custom-brand/custom-brand8.png)
 
 1. Wenn Sie die Änderungen gespeichert und die Vorschau neu geladen haben, wird die Schrift der Textüberlagerung aktualisiert, wie in der Abbildung unten dargestellt.
 

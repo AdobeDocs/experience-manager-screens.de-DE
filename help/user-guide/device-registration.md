@@ -10,10 +10,10 @@ feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 100%
+source-wordcount: '721'
+ht-degree: 98%
 
 ---
 
@@ -82,7 +82,7 @@ Der Prozess zur Geräteregistrierung erfolgt auf zwei separaten Geräten:
    >
    >Mit **Neu registrieren** können Sie ein neues Gerät registrieren.
    >
-   >Mit **Anzeige zuweisen** können Sie das Gerät direkt einer Anzeige hinzufügen.
+   >**Display zuweisen** ermöglicht das direkte Hinzufügen des Geräts zu einem Display.
 
    Wenn Sie auf **Beenden** klicken, müssen Sie das Gerät einer Anzeige zuweisen.
 
