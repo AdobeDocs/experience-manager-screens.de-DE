@@ -8,10 +8,10 @@ user-guide-description: Erfahren Sie, wie Sie mit einer Digital-Signage-Lösung 
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: d8392b015c65e6bba35ba4c923d4f663e1121e0c
+source-git-commit: 6a1ecea5d54da483c3033d0be0555b2d0dc71c83
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 100%
+source-wordcount: '556'
+ht-degree: 92%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
    + [Teil 3: Tests, POCs, Pilotprogramme und Rollouts](testing-pocs-pilots-rollouts.md)
    + [Teil 4: Projekt-Management und Bereitstellung](project-management-and-deployment.md)
    + [Teil 5: Überlegungen zum Support](support-considerations.md)
-+ Konfiguration und Verwaltung {#administering}
++ Konfiguration und Administration {#administering}
    + [Konfigurieren des Screens-Servers](configuring-screens-introduction.md)
    + [Einrichten von Dispatcher-Konfigurationen](dispatcher-configurations-aem-screens.md)
    + [Installieren des Screens-Players](installing-screens-player.md)
@@ -57,8 +57,8 @@ ht-degree: 100%
    + Analytics-Integration mit AEM Screens {#analytics-integration}
       + [Adobe Analytics-Integration](adobe-analytics-integration-aem-screens.md)
       + [Konfigurieren von Adobe Analytics mit AEM Screens](configuring-adobe-analytics-aem-screens.md)
-+ Authoring und Anwendungsbeispiele {#authoring}
-   + Einrichten von Screens-Projekten {#setting-up-projects}
++ Beispiele für Authoring- und Anwendungsfälle {#authoring}
+   + Einrichten eines Screens-Projekts {#setting-up-projects}
       + [Erstellen und Verwalten von Projekten](creating-a-screens-project.md)
       + [Erstellen und Verwalten von Kanälen](managing-channels.md)
       + [Erstellen und Verwalten von Anzeigen](managing-displays.md)
@@ -114,11 +114,12 @@ ht-degree: 100%
    + [Erstellen benutzerdefinierter Vorlagen für Mehrzonen-Layouts](creating-custom-templates-multizone-layouts.md)
    + [Anwenden von benutzerdefiniertem Branding und Styling für Textüberlagerungen](custom-branding-text-overlays.md)
    + [Adaptive Ausgabedarstellungen: Überblick über die Architektur und Konfigurationen](/help/user-guide/adaptive-renditions.md)
-+ Problembehebung und häufig gestellte Fragen {#troubleshooting}
++ Fehlerbehebung und häufig gestellte Fragen {#troubleshooting}
    + [Häufig gestellte Fragen zu AEM Screens](aem-screens-faqs.md)
    + [Fehlerbehebung über das Geräte-Kontrollzentrum](monitoring-screens.md)
    + [Konfiguration der Videowiedergabe](troubleshoot-videos.md)
 + Versionshinweise {#release-notes}
+   + [Versionshinweise für Feature Pack 20251007](release-notes-fp-20251007.md)
    + [Versionshinweise für Feature Pack 20250327](release-notes-fp-20250327.md)
    + [Versionshinweise für Feature Pack 20250224](release-notes-fp-20250224.md)
    + [Versionshinweise für Feature Pack 20240715](release-notes-fp-20240715.md)
