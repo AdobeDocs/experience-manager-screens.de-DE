@@ -9,10 +9,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: 107e296237a98b7d69744b5ec4b87142d7de61cd
 workflow-type: tm+mt
-source-wordcount: '1067'
-ht-degree: 97%
+source-wordcount: '1103'
+ht-degree: 94%
 
 ---
 
@@ -143,6 +143,10 @@ Für den AEM Screens-Player gibt es zwei Arten von Updates:
 | Player-Shell-Aktualisierungen | Eine neue ausführbare Datei, die auf dem Player bereitgestellt wird. Diese Funktion erfordert, dass Sie die neue Binärdatei per Fernzugriff auf den Player kopieren und die derzeit laufende Version anhalten und die neue Version starten. Möglicherweise müssen Sie die Pakete erneut herunterladen. | Ja (über Remote-Shell) | Benutzerdefiniert | Nein |
 
 ## Richtlinien zur Hardware-Auswahl für Player-Geräte {#hardware-selection-guidelines-for-player-device}
+
+>[!NOTE]
+>
+>**VERALTET:** Diese Anleitung zur Hardware-Auswahl ist veraltet und sollte nicht für neue Bereitstellungen verwendet werden. Hardware-Spezifikationen und Empfehlungen sollten von einem qualifizierten AV-Integrator basierend auf Ihren spezifischen Bereitstellungsanforderungen und Anwendungsfällen bereitgestellt werden.
 
 Der folgende Abschnitt enthält Richtlinien zur Hardware-Auswahl für ein Screens-Projekt:
 
