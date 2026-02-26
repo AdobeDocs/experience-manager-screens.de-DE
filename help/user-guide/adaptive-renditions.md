@@ -2,16 +2,19 @@
 title: Überblick über die Architektur und Konfigurationen für adaptive Ausgabedarstellungen
 description: Erfahren Sie mehr über den Überblick über die Architektur und Konfigurationen in CRXDE Lite für adaptive Ausgabedarstellungen in AEM Screens.
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 053df80bfd6fe39be93c0fe4c800fe775740dc7e
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 100%
+source-wordcount: '639'
+ht-degree: 94%
 
 ---
 
 # Adaptive Ausgabedarstellungen: Überblick über die Architektur und Konfigurationen {#adaptive-renditions}
 
 ## Einführung {#introduction}
+
+>[!CAUTION]
+>Diese Funktion wird nur On-Premise-AEM (AEM 6.5) unterstützt. Dies wird in AEM as a Cloud Service nicht unterstützt.
 
 Mit adaptiven Ausgabedarstellungen können Geräte anhand von kundendefinierten Regeln automatisch auf die beste Ausgabedarstellung für ein Gerät klicken. Die Geräte laden automatisch die am besten geeignete Ausgabedarstellung eines Assets herunter und geben diese auf Grundlage dieser Regeln wieder, sodass sich die Kundinnen und Kunden nur auf die Gestaltung des *eigentlichen* Erlebnisses konzentrieren müssen.
 
@@ -72,7 +75,7 @@ Gehen Sie wie folgt vor, um einen Knoten unter „Ausgabedarstellungszuordnung�
    >[!NOTE]
    >Weitere Informationen finden Sie unter [Verwenden der Syntax von Medienabfragen](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries).
 
-   Klicken Sie auf die **Regel 1**, die Sie erstellt haben, und geben Sie **Ausdruck** in **Name** und **(Ausrichtung:Querformat)** in **Wert** ein, wie unten dargestellt. Klicken Sie auf **Hinzufügen**.
+   Klicken Sie auf **Regel1**, die Sie erstellt haben, und geben Sie den **Ausdruck** in **Name** und **(Ausrichtung:landscape)** in **Wert** ein, wie unten dargestellt. Klicken Sie auf **Hinzufügen**.
 
    ![Bild](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
