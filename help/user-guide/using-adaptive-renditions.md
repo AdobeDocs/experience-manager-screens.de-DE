@@ -2,10 +2,10 @@
 title: Verwenden adaptiver Ausgabedarstellungen in AEM Screens
 description: Erfahren Sie, wie Sie adaptive Ausgabedarstellungen in AEM Screens verwenden können.
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: f1ddcf5e5ee9691e436e139ce0084f2c39f9c9dd
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 100%
+source-wordcount: '561'
+ht-degree: 96%
 
 ---
 
@@ -13,11 +13,14 @@ ht-degree: 100%
 
 ## Einführung {#introduction}
 
+>[!CAUTION]
+>Diese Funktion wird nur On-Premise-AEM (AEM 6.x) unterstützt. Dies wird in AEM as a Cloud Service nicht unterstützt.
+
 Adaptive Ausgabedarstellungen ermöglichen es den Geräten, basierend auf kundenseitig definierten Regeln automatisch die beste Ausgabedarstellung für ein Gerät auszuwählen. Die Geräte laden basierend auf diesen Regeln automatisch die am besten geeignete Ausgabedarstellung eines Assets herunter und geben diese wieder. So können Kundinnen und Kunden sich auf die Gestaltung des *Haupterlebnisses* konzentrieren.
 
 ## Ziel {#objective}
 
-Als Inhaltsautorin oder Inhaltsautor von AEM Screens können Sie jetzt gerätespezifische Asset-Ausgabedarstellungen so konfigurieren, dass sie automatisch heruntergeladen und wiedergegeben werden, ohne dass alle Inhaltsvarianten manuell erstellt werden müssen.
+Als AEM Screens-Inhaltsautor können Sie jetzt gerätespezifische Asset-Ausgabedarstellungen so konfigurieren, dass sie automatisch heruntergeladen und wiedergegeben werden, ohne dass alle Inhaltsvarianten manuell erstellt werden müssen.
 Sobald Entwickelnde die Eigenschaften und Regeln für die Ausgabedarstellungs-Zuordnung hinzugefügt haben, können Sie die Ausgabedarstellungs-Zuordnung nun auf Assets anwenden und diese anschließend in einen AEM Screens-Kanal aufnehmen.
 
 >[!IMPORTANT]
