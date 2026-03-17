@@ -6,10 +6,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
-source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 100%
+source-wordcount: '893'
+ht-degree: 94%
 
 ---
 
@@ -35,8 +35,8 @@ Es gibt zwei wichtige Aspekte, die Sie beachten müssen, bevor Sie eine benutzer
    | **Layoutname** | **Beschreibung** |
    |---|---|
    | `Left20-LandscapeHD3Zone` | Ein Querformat-Layout mit 3 Zonen, das die Erstellung von drei Zonen ermöglicht:<br>* Zone 1 nimmt 20 % des horizontalen und vertikalen Bildschirms von links ein.<br>* Zone 2 nimmt 80 % des horizontalen Bildschirms und 20 % des vertikalen Bildschirms von rechts ein.<br>* Zone 3 nimmt 100 % des horizontalen und 80 % des vertikalen Bildschirms ein. Das Seitenverhältnis beträgt 16:9 |
-   | `Upper20-PortraitHD2Zone` | Eine Hochformatvorlage mit 2 Zonen, die die oberen 20 % des Bildschirms abdeckt und ein Seitenverhältnis von 16:9 aufweist |
-   | `Right20-LandscapeSD3Zone` | Eine 3-Zonen-Vorlage, die die rechten 20 % des Bildschirms abdeckt und ein Seitenverhältnis von 4:3 aufweist |
+   | `Upper20-PortraitHD2Zone` | Eine zweizeilige Hochformat-Vorlage, die 20 % des Bildschirms von oben abdeckt, mit einem Seitenverhältnis von 16 :9 |
+   | `Right20-LandscapeSD3Zone` | Eine Drei-Zonen-Vorlage, die 20 % des Bildschirms von rechts abdeckt, mit einem Seitenverhältnis von 4 :3 |
 
    >[!IMPORTANT]
    >Die im benutzerdefinierten Layout definierten Zonen passen möglicherweise nicht zum Seitenverhältnis des gesamten Layouts. Mit der in diesem Dokument verwendeten Namenskonvention wird das Seitenverhältnis des benutzerdefinierten Layouts als Ganzes angegeben.
@@ -47,7 +47,7 @@ Gehen Sie wie folgt vor, um eine benutzerdefinierte Vorlage *`Left20-LandscapeHD
 
 * **`Left20`**: Die obere Zone links, die 20 % der horizontalen und vertikalen Bildschirmgröße umfasst.
 * **`Landscape`**: Die Bildschirmausrichtung.
-* **`HD`**: Das Seitenverhältnis von 16:9
+* **`HD`** - Das Seitenverhältnis von 16 :9.
 * **`3Zone`**: Drei Zonen der Anzeige.
 
 ## Visuelle Darstellung des Mehrzonen-Layouts {#multi-layout-visual-one}

@@ -2,12 +2,12 @@
 title: 'Teil 1: Projektrollen und Zuständigkeiten'
 description: In diesem Tutorial erfahren Sie mehr über die Rollen, Verantwortlichkeiten und Zeitpläne, die in den Vertriebs- und Projektlebenszyklen eines Projekts für digitale Beschilderung erforderlich sind.
 feature: Overview
-role: User, Data Architect
+role: User, Developer
 level: Beginner
 exl-id: 313cc26f-c509-4b28-a185-4e530e826b83
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '490'
 ht-degree: 100%
 
 ---
@@ -56,7 +56,7 @@ In diesem Tutorial können Sie genau verstehen, wie sich die einzelnen Parteien 
 
 ### Teil 1: Projektrollen und Zuständigkeiten
 
->[!VIDEO](https://video.tv.adobe.com/v/32817?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/28375)
 
 *Erfahren Sie mehr über die Rollen und Zuständigkeiten von Adobe sowie den Personen, die für die AEM-Implementierung bzw. die Audio-Video-Integration zuständig sind.*
 

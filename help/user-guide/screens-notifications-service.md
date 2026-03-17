@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 97%
+source-wordcount: '492'
+ht-degree: 84%
 
 ---
 
@@ -29,12 +29,14 @@ In diesem Abschnitt werden folgende Themen behandelt:
 * **E-Mail-Benachrichtigung**
 * **Anwendungsbeispiel**
 
-<!-- OBSOLETE NOTE>
+<!-- 
+OBSOLETE NOTE>
 >[!CAUTION]
 >
 >This AEM Screens functionality is only available, if you have installed AEM 6.3.2 Feature Pack 3 or AEM 6.4.1 Screens Feature Pack 1.
 >
->To get access to this Feature Pack, contact Adobe Support and request access. After you have permissions you can download it from Package Share. -->
+>To get access to this Feature Pack, contact Adobe Support and request access. After you have permissions you can download it from Package Share. 
+-->
 
 ## Überblick {#overview}
 
@@ -61,7 +63,7 @@ Gehen Sie wie folgt vor, um die Einstellungen für E-Mail-Benachrichtigungen zu 
    >
    >Geben Sie den Projektpfad an, unter dem sich die Gerätebenutzerinnen und -benutzer befinden.
 
-   **Häufigkeit**: Geben Sie eine Zeit (z. B. 17.00 Uhr) oder eine Häufigkeit in Stunden (z. B. 1) an, zu der der Service E-Mails senden soll.
+   **Häufigkeit** - Geben Sie eine Zeit (z. B. 17 :00 Uhr oder 17 :00) oder eine Häufigkeit in Stunden (z. B. 1) an, zu der der Service E-Mails senden soll.
 
    **Ping-Timeout**: Dieses Feld gibt das Intervall in Minuten an, nach dem ein Gerät als nicht erreichbar betrachtet werden soll.
 
@@ -102,7 +104,7 @@ Im folgenden Beispiel werden zur Referenz einige Szenarien beschrieben, in denen
 
 **Szenario 1**
 
-Sie legen die Zeitplanfrequenz auf 1:00 Uhr morgens und das Ping-Timeout auf 60 fest. Wenn Ihr AEM Screens-Gerät dann nicht zwischen 12:00 Uhr und 13:00 Uhr pingt, erhalten Sie eine E-Mail-Benachrichtigung, die die Inaktivität des Geräts bestätigt.
+Sie haben die Zeitplanfrequenz auf 1 :00 und die Ping-Zeitüberschreitung auf 60 festgelegt. Wenn Ihr AEM Screens-Gerät dann zwischen 12:00 :00 und 13:00 :00 keinen Ping durchführt, erhalten Sie eine E-Mail-Benachrichtigung, die die Inaktivität des Geräts bestätigt.
 
 **Szenario 2**
 

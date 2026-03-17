@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1420'
 ht-degree: 99%
 
 ---
@@ -33,7 +33,7 @@ Gehen Sie wie folgt vor, um die Standardkomponenten für ein Screens-Projekt anz
 
 1. Klicken Sie auf den Kanal. Beispiel: **`We.Retail In Store`** > **Kanäle** > **Idle Channel**.
 
-1. Klicken Sie in der Aktionsleiste auf **Bearbeiten**. 
+1. Klicken Sie in der Aktionsleiste auf **Bearbeiten**.
 1. Klicken Sie im AEM-Editor auf das **+**-Symbol in der Seitenleiste.
 1. Alle Komponenten, die standardmäßig in einem AEM Screens-Projekt enthalten sind, werden angezeigt (siehe nachfolgende Abbildung).
 
@@ -50,7 +50,7 @@ Im folgenden Beispiel sehen Sie, wie einem AEM Screens-Projekt eine Livefyre-Kom
 1. Klicken Sie in der Aktionsleiste auf **Bearbeiten**.
 1. Klicken Sie auf den Modus **Design**.
 1. Wählen Sie rechts den kompletten Design-Editor aus und klicken Sie dann auf das Einstellungssymbol, um das Dialogfeld **ParSys-Design** zu öffnen.
-1. Sie können auf die Komponenten klicken, die in das AEM Screens-Projekt importiert werden sollen.  Im folgenden Beispiel sehen Sie, wie einem AEM Screens-Projekt eine **Livefyre**-Komponente hinzugefügt wird.
+1. Sie können auf die Komponenten klicken, die in das AEM Screens-Projekt importiert werden sollen. Im folgenden Beispiel sehen Sie, wie einem AEM Screens-Projekt eine **Livefyre**-Komponente hinzugefügt wird.
 
 ![adding_components](assets/adding_components.gif)
 
@@ -201,10 +201,10 @@ Weitere Informationen zum Erstellen eines Experience Fragments und dessen Anwend
 
 | **Eigenschaft** | **Beschreibung** |
 |---|---|
-| **Experience Fragment** |
+| **Experience Fragment** | |
 | ***Experience Fragment*** | Wählen Sie das Experience Fragment aus. |
 | ***Dauer*** | Wählen Sie die Gesamtdauer des Experience Fragments aus, das im Kanal wiedergegeben wird. |
-| **Offline-Konfiguration** |
+| **Offline-Konfiguration** |  |
 | ***Client-seitige Bibliotheken*** | JavaScript- und CSS-Dateien. |
 | ***Statische Dateien*** | Statische Dateien, die Sie als Offline-Konfigurationen Ihrem Experience Fragment hinzufügen können. |
 
@@ -220,15 +220,15 @@ Das Bild-Asset besitzt die drei Registerkarten **Bild**, **Erreichbarkeit** und 
 
 | **Eigenschaft** | **Beschreibung** |
 |---|---|
-| **Bild** |
+| **Bild** |  |
 | ***Bild-Asset*** | Klicken Sie auf das Bild-Asset. |
 | ***Titel*** | Hierbei handelt es sich um den Titel des Bildes. |
 | ***Verknüpfung zu*** | Damit wird dem Bild ein Link hinzugefügt. |
 | ***Beschreibung*** | Hierbei handelt es sich um eine kurze Beschreibung des Bildes. |
 | ***Größe*** | Hierbei handelt es sich um die Größe des Bildes. |
-| **Erreichbarkeit** |
+| **Erreichbarkeit** |  |
 | ***Alternativtext*** | Hierbei handelt es sich um Alternativtext für das Bild. |
-| **Sequenz** |
+| **Sequenz** |  |
 | ***Dauer*** | Standardmäßig ist die Dauer auf *8.000 Millisekunden* eingestellt. Wenn Sie die Wiedergabedauer des Bildes ändern möchten, aktualisieren Sie das Feld **Dauer**. |
 
 ### Übergang {#transition}

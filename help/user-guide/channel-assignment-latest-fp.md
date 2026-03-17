@@ -5,10 +5,10 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '1447'
-ht-degree: 100%
+source-wordcount: '1448'
+ht-degree: 93%
 
 ---
 
@@ -130,15 +130,15 @@ Die folgenden Eigenschaften werden über die Option **Einstellungen** im Dialogf
 Mit der Auswahl eines Kanals können Sie einen Verweis zum gewünschten Kanal bereitstellen, entweder in Form des Namens oder des Pfads des Kanals.
 
 * **Nach Pfad**: Sie stellen einen expliziten Verweis durch Angabe des absoluten Pfads des Kanals bereit.
-* **Nach Name**: Sie geben den Namen des Kanals ein, der entsprechend dem Kontext zu einem tatsächlichen Kanal führt. Mit dieser Funktion können Sie eine lokale Version eines Kanals erstellen, um ortsspezifische Inhalte dynamisch aufzulösen.  Beispiel: ein Kanal mit dem Namen *Tagesangebote*, bei dem der eigentliche Inhalt in zwei Städten zwar unterschiedlich ist, aber bei allen Anzeigen dieselbe Kanalrolle vorhanden ist.
+* **Nach Name**: Sie geben den Namen des Kanals ein, der entsprechend dem Kontext zu einem tatsächlichen Kanal führt. Mit dieser Funktion können Sie eine lokale Version eines Kanals erstellen, um ortsspezifische Inhalte dynamisch aufzulösen. Beispiel: ein Kanal mit dem Namen *Tagesangebote*, bei dem der eigentliche Inhalt in zwei Städten zwar unterschiedlich ist, aber bei allen Anzeigen dieselbe Kanalrolle vorhanden ist.
 
 ### Kanalrolle {#role-channel}
 
-Mit „Kanalrolle“ wird der Kontext der Anzeige definiert. Durch die Rolle können verschiedene Aktionen festgelegt werden.  Sie ist unabhängig vom eigentlichen Kanal, der der Rolle entspricht.
+Mit „Kanalrolle“ wird der Kontext der Anzeige definiert. Durch die Rolle können verschiedene Aktionen festgelegt werden. Sie ist unabhängig vom eigentlichen Kanal, der der Rolle entspricht.
 
 ### Priorität {#priority-channel}
 
-Die Priorität wird verwendet, um die Zuweisungen in eine Reihenfolge zu bringen, wenn es mehrere Zuweisungen gibt, die den Wiedergabekriterien entsprechen. Höhere Werte haben stets Vorrang vor niedrigeren Werten. Angenommen, es gibt zwei Kanäle, A und B. Wenn A die Priorität 1 und B die Priorität 2 hat, wird Kanal B angezeigt, da er eine höhere Priorität als A hat.
+Die Priorität wird verwendet, um die Zuweisungen in eine Reihenfolge zu bringen, wenn mehrere Zuweisungen den Wiedergabekriterien entsprechen. Höhere Werte haben stets Vorrang vor niedrigeren Werten. Wenn es beispielsweise zwei Kanäle A und B gibt. A hat die Priorität 1 und B hat die Priorität 2, dann wird Kanal B angezeigt, da er eine höhere Priorität als A hat.
 
 >[!NOTE]
 >
@@ -177,7 +177,7 @@ Die folgenden Eigenschaften werden über die Option **Zeitplan** im Dialogfeld *
 
 ### Aktivierungsfenster {#activation-window}
 
-Im Aktivierungsfenster können Sie ein **Anfangsdatum** und ein **Enddatum** für die Inhaltsanzeige auswählen.
+Im Aktivierungsfenster können Sie ein **Startdatum** und ein **Enddatum** für die Inhaltsanzeige auswählen.
 
 ### Intervallzeitplan {#recurrence-schedule}
 
@@ -185,7 +185,7 @@ Mit dem Intervallzeitplan können Sie einen Zeitplan für Ihre Inhalte festlegen
 
 >[!NOTE]
 >Sie können Ihrem Kanal mehrere Intervallzeitpläne hinzufügen.
->Mit den Intervallzeitplänen wird eine *Tageszeiteneinteilung* eingeführt.  Sie legen einen globalen Zeitplan mit mehreren Kanälen fest, die zu bestimmten Tageszeiten ausgeführt werden. Diese Einstellung kann dann für alle Displays wiederverwendet werden.
+>Mit den Intervallzeitplänen wird eine *Tageszeiteneinteilung* eingeführt. Sie legen einen globalen Zeitplan mit mehreren Kanälen fest, die zu bestimmten Tageszeiten ausgeführt werden. Diese Einstellung kann dann für alle Displays wiederverwendet werden.
 
 Sie können die folgenden Optionen festlegen:
 
@@ -198,7 +198,7 @@ Sie können die folgenden Optionen festlegen:
 
 ### Dayparting {#dayparting}
 
-Bei Dayparting wird ein Tag in Zeitfenster unterteilt und festgelegt, welcher Inhalt zum gewünschten Zeitpunkt dargestellt wird.  Mit AEM Screens können Sie den Dayparting-Zeitplan von Kanälen nach Bedarf für Tage, Wochen oder Monate festlegen.
+Bei Dayparting wird ein Tag in Zeitfenster unterteilt und festgelegt, welcher Inhalt zum gewünschten Zeitpunkt dargestellt wird. Mit AEM Screens können Sie den Dayparting-Zeitplan von Kanälen nach Bedarf für Tage, Wochen oder Monate festlegen.
 
 Im Folgenden wird in drei Szenarien beschrieben, wie Dayparting mit Kanälen verwendet werden kann:
 
@@ -210,18 +210,18 @@ Jeder Tag ist in verschiedene Zeitfenster unterteilt, sodass der Kanalinhalt gem
 
 | **Name** | **Wiederholungen** | **Anfang** | **Ende** |
 |---|---|---|---|
-| Frühstück | Täglich | 06:00 Uhr | 11:00 Uhr |
-| Mittagessen | Täglich | 11:00 Uhr | 15:00 Uhr |
-| Abendessen | Täglich | 15:00 Uhr | 20:00 Uhr |
+| Frühstück | Täglich | :00:00 Uhr | 11:00 h. |
+| Mittagessen | Täglich | 11:00 h. | 15:0000 Uhr |
+| Abendessen | Täglich | 15:0000 Uhr | :00 Uhr |
 
 #### Anzeigen von Inhalten an einem bestimmten Wochentag {#playing-content-on-a-particular-day-of-the-week}
 
-In diesem Beispiel wird gezeigt, wie Dayparting in einem Casino umgesetzt wird, wo an jedem Wochenende von 20:00 Uhr bis 22:00 Uhr eine Live-Veranstaltung stattfindet und von 22:00 Uhr bis 1:00 Uhr in der Abendkarte spezielle Gerichte angeboten werden.
+Dieses Beispiel zeigt das DayParting, das in einem Casino implementiert ist, in dem jedes Wochenende von 20 :00 bis 22 :00 stattfindet und Spezialitäten für das Abendmenü nach 22 :00 bis 1 :00 Uhr zur Verfügung stehen.
 
 | **Name** | **Wiederholungen** | **Anfang** | **Ende** |
 |---|---|---|---|
-| Wochenende | Wöchentlich: Samstag und Sonntag | 20:00 Uhr | 22:00 Uhr |
-| Sonderangebote | Täglich: Montag bis Freitag | 22:00 Uhr | 13:00 Uhr |
+| Wochenende | Wöchentlich: Samstag und Sonntag | :00 Uhr | :00:00 |
+| Sonderangebote | Täglich: Montag bis Freitag | :00:00 | 1:00 h |
 
 >[!NOTE]
 >

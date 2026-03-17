@@ -2,10 +2,10 @@
 title: Rollen und Zuständigkeiten von AEM Screens-Projekten
 description: Erfahren Sie mehr über die Rollen und Zuständigkeiten von AEM Screens-Projekten.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: 2bab8e3ff6eb722b710f6e565be06d3061439d82
 workflow-type: tm+mt
-source-wordcount: '1254'
-ht-degree: 96%
+source-wordcount: '1303'
+ht-degree: 97%
 
 ---
 
@@ -72,16 +72,16 @@ Geschäftsstrategen definieren die Anforderungen und richten KPI-Metriken ein. G
 * Marketing oder
 * Sales Manager Digital Strategy Manager Creatives / Content Management.
 
-Das Creatives- und Content Management-Team arbeitet eng mit dem Strategieteam zusammen, um Anforderungen in Kundenerlebnisse zu verwandeln. Es verwaltet das allgemeine UX-Design und kuratiert Inhalte, die zur Marke passen.
+Das Kreativ- und Content-Management-Team arbeitet eng mit dem Strategieteam zusammen, um Anforderungen in Kundenerlebnisse zu verwandeln. Es verwaltet das allgemeine UX-Design und kuratiert Inhalte, die zur Marke passen.
 
-Das Creatives- und Content Management-Team kann zum Beispiel beinhalten:
+Das Kreativ- und Content-Management-Team kann zum Beispiel beinhalten:
 
 * Kreativagentur oder
 * Markenmanager
 
 ### Projekt-Managerinnen und Projekt-Manager {#project-managers}
 
-Projekt-Managerinnen und Projekt-Manager verwalten in der Regel die gesamte Bereitstellung für Ihre AEM Screens-Umgebung. Eine Projekt-Managerin bzw. ein Projekt-Manager ist die zentrale Person für die gesamte Implementierung des ausgewählten Projekts. Sie übernehmen wichtige Aufgaben wie die Festlegung von Zeitplänen und die Bearbeitung von Team-Anforderungen. Sie haben darüber hinaus Einfluss auf die Kommunikation, begegnen Herausforderungen und stellen sicher, dass Ziele erreicht werden.
+Projekt-Managerinnen und Projekt-Manager verwalten in der Regel die gesamte Bereitstellung für Ihre AEM Screens-Umgebung. Eine Projekt-Managerin bzw. ein Projekt-Manager ist die zentrale Person für die gesamte Implementierung des ausgewählten Projekts. Sie übernehmen wichtige Aufgaben wie die Festlegung von Timelines und die Bearbeitung von Team-Anforderungen. Sie haben darüber hinaus Einfluss auf die Kommunikation, begegnen Herausforderungen und stellen sicher, dass Ziele erreicht werden.
 
 >[!NOTE]
 >
@@ -124,7 +124,7 @@ Im Folgenden finden Sie ein Beispiel für ein RACI-Diagramm mit Verwendung der R
 
 Die folgende Tabelle fasst die Überlegungen zu **Tag 0: Pre-Sales** zusammen:
 
-| **Schritt** | **Audio-Video-Integrator** | **AEM-Implementor** | **Geschäftsstrategie** | **Content Management** |
+| **Schritt** | **Audio-Video-Integrator** | **AEM-Implementor** | **Geschäftsstrategie** | **Content-Management** |
 |---|---|---|---|---|
 | Teambildung und Anbieterauswahl | I | I | RA | RA |
 | Einigung über Rollen und Zuständigkeiten | RA | RA | RA | RA |
@@ -136,7 +136,7 @@ Die folgende Tabelle fasst die Überlegungen zu **Tag 0: Pre-Sales** zusammen:
 
 Die folgende Tabelle fasst die Überlegungen zu **Tag 0: Projektimplementierung (Anwendungs-Design)** zusammen:
 
-| **Schritt** | **Audio-Video-Integrator** | **AEM-Implementor** | **Geschäftsstrategie** | **Content Management** |
+| **Schritt** | **Audio-Video-Integrator** | **AEM-Implementor** | **Geschäftsstrategie** | **Content-Management** |
 |---|---|---|---|---|
 | Einigung über Rollen und Zuständigkeiten | RA | RA | RA | RA |
 | Ausrichtung am Projekt- und Zeitplan | RA | RA | C | C |
@@ -156,7 +156,7 @@ Die folgende Tabelle fasst die Überlegungen zu **Tag 0: Projektimplementierung
 
 Die folgende Tabelle fasst die Überlegungen zu **Tag 0: Projektimplementierung (Einzelhändlervorbereitung)** zusammen:
 
-| **Schritt** | **Audio-Video-Integrator** | **AEM-Implementor** | **Geschäftsstrategie** | **Content Management** |
+| **Schritt** | **Audio-Video-Integrator** | **AEM-Implementor** | **Geschäftsstrategie** | **Content-Management** |
 |---|---|---|---|---|
 | Hardwarebestellung und -lagerung | RA | I | I | I |
 | Onboarding-Zeitplan für den Einzelhandel | I | I | C | RA |
@@ -166,12 +166,12 @@ Die folgende Tabelle fasst die Überlegungen zu **Tag 0: Projektimplementierung
 
 Die folgende Tabelle fasst die Überlegungen zu **Tag 1: Projektimplementierung (Hardware)** zusammen:
 
-| **Schritt** | **Audio-Video-Integrator** | **AEM-Implementor** | **Geschäftsstrategie** | **Content Management** |
+| **Schritt** | **Audio-Video-Integrator** | **AEM-Implementor** | **Geschäftsstrategie** | **Content-Management** |
 |---|---|---|---|---|
 | Einigung über Rollen und Zuständigkeiten | RA | RA | RA | RA |
-| Einzelhandelsdesign inklusive Verkabelung | - | – | – | - |
-| Auswahl der Player-Hardware | RAC | - | – | – |
-| Verwaltung von Primärgeräten | RA | I | - | - |
+| Einzelhandelsdesign inklusive Verkabelung | – | – | – | – |
+| Auswahl der Player-Hardware | RAC | – | – | – |
+| Verwaltung von Primärgeräten | RA | I | – | – |
 | Bestellung, Aufbewahrung und Konfiguration von Geräten | RA | CI | I | - |
 | Definition von Supportprozessen | RA | I | RA | C |
 
@@ -179,7 +179,7 @@ Die folgende Tabelle fasst die Überlegungen zu **Tag 1: Projektimplementierung
 >
 >Rollen ändern sich an Tag 2 (Post-Launch-Support).
 
-* **Autor**: Content Management + Strategie
+* **Autor**: Content-Management + Strategie
 
 * **Entwickler**: In der Regel ein Mitglied des AEM Screens-Implementierungs-Teams oder Übergabe an das interne Entwicklungs-Team
 
@@ -189,7 +189,7 @@ In der folgenden Tabelle wird **Tag 2 zusammengefasst: RACI-Diagramm für Post-
 
 | **Schritt** | **Autor** | **Entwickler** | **Techniker** |
 |---|---|---|---|
-| *Tag 2: Post-Launch-Support* |
+| *Tag 2: Post-Launch-Support* | | | |
 | Einigung über Rollen und Zuständigkeiten | RA | RA | RA |
 | Level 1-Support | I | I | RA |
 | Level 2-Support | I | C | RA |

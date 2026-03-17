@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '294'
 ht-degree: 90%
 
 ---
@@ -25,7 +25,8 @@ In diesem Abschnitt werden folgende Themen zum Aktualisieren von Content-as-a-Se
 >
 >This AEM Screens functionality is only available, if you have installed AEM 6.3 Feature Pack 3 or AEM 6.4 Screens Feature Pack 1.
 >
->To get access to this Feature Pack, contact Adobe Support and request access. When you have permission you can download it from Package Share. -->
+>To get access to this Feature Pack, contact Adobe Support and request access. When you have permission you can download it from Package Share. 
+-->
 
 ## Überblick {#overview}
 
@@ -69,6 +70,6 @@ Gehen Sie wie folgt vor, um das Massen-Offline-Update für ein AEM Screens-Proje
    >
    >Geben Sie den Projektpfad relativ zum Kanal an.
 
-   **Zeitplanfrequenz** - Gibt einen Zeitpunkt an, z. B. 17.00 Uhr, zu dem dieser Service Offline-Inhalte aktualisieren soll.
+   **Zeitplanfrequenz** - Gibt einen Zeitpunkt an, z. B:00 17 Uhr, zu :00 dieser Service Offline-Inhalte aktualisieren soll.
 
 1. Klicken Sie auf **Speichern**, damit Sie Ihre Einstellungen speichern können. Alle Ihre Inhalte werden zum angegebenen Zeitpunkt aktualisiert.

@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '761'
 ht-degree: 100%
 
 ---
@@ -77,7 +77,7 @@ Bevor Sie die Funktion zur Befehlssynchronisierung verwenden, stellen Sie sicher
 ### Aktualisieren von Kanaleinstellungen
 
 1. Navigieren Sie zu **ChannelLobby**.
-1. Klicken Sie in der Aktionsleiste auf **Bearbeiten**. 
+1. Klicken Sie in der Aktionsleiste auf **Bearbeiten**.
 1. Klicken Sie auf den gesamten Kanal, wie in der Abbildung unten dargestellt.
    ![image1](assets/command-sync/command-sync7-1.png)
 
@@ -115,7 +115,8 @@ Klicken Sie dazu im Bedienfeld **GERÄTE** auf das andere Gerät (in diesem Fall
 
 1. Klicken Sie auf das Gerät in der Liste und dann auf **Speichern**.
 
-   >[HINWEIS:]
+   >[!NOTE]
+   >
    > Im Dialogfeld **Mit Primärgerät synchronisieren** wird die Liste der Primärgeräte angezeigt. Wählen Sie das bevorzugte aus.
 
 1. Sobald das Gerät (Windows-Player) mit dem Primärgerät (Chrome-Player) synchronisiert ist, wird das synchronisierte Gerät im Fenster **GERÄTE** angezeigt.
@@ -140,5 +141,6 @@ Um die Synchronisierung des Primärgeräts aufzuheben, führen Sie die folgenden
 
 1. Klicken Sie auf **Bestätigen**, um die Synchronisierung des ausgewählten Geräts mit dem Primärgerät aufzuheben.
 
-   >[HINWEIS:]
+   >[!NOTE]
+   >
    > Wenn Sie auf das Primärgerät klicken und die Option zur Aufhebung der Synchronisierung verwenden, wird die Synchronisierung aller mit dem Primärgerät verbundenen Geräte in einem Schritt aufgehoben.

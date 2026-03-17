@@ -7,13 +7,13 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 docset: aem65
 feature: Overview
-role: User, Data Architect
+role: User, Developer
 level: Beginner
 exl-id: 7814ee96-9220-45b6-b56e-b48a9da9a319
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 100%
+source-wordcount: '657'
+ht-degree: 98%
 
 ---
 
@@ -55,7 +55,7 @@ Achten Sie auf die folgenden Punkte, um die Absicht der Endkundin oder des Endku
 * Werden Animationen als Video- oder HTML-Programme wiedergegeben?
 * Gibt es Integrationen von Drittanbietern aus Abonnementdiensten für Inhalte, Social-Media- oder RSS-Aggregationsdiensten oder API-Aufrufen?
 * Welche Anforderungen gelten für die Bildauflösung?
-* Sind Bildschirme standardmäßig im 16:9-Format oder benutzerdefiniert? Hochformat oder Querformat?
+* Sind Screens-Standardseitenverhältnisse :9 16 % oder benutzerdefiniert? Hochformat oder Querformat?
 * Werden aus mehreren Bildschirm bestehende Videowände benötigt? Falls ja, wie lauten die Konfigurationen?
 * Sind Inhalte an operative oder Werbeeinnahmen gebunden, die Ausfallstrategien erfordern, um Ausfallzeiten zu vermeiden?
 
@@ -87,6 +87,6 @@ Im folgenden Tutorial erfahren Sie mehr über die Inhaltsstrategie, E/A-Schichte
 
 ## Der nächste Schritt {#the-next-step}
 
-Erfahren Sie mehr über Elemente, die bei der Projekterkundung identifiziert werden, sowie über Beiträge von Stakeholdern zur Bewertung des Projekts und Vorbereitung eines geeigneten Designs.  Lernen Sie die wichtigsten Begriffe kennen, die in einem übergeordneten Projektplan verwendet werden.  Dazu gehören Projektzyklus, Aktionen im Zusammenhang mit Hardware-Tests, Machbarkeitsstudien, Pilotprogramme und Rollouts.
+Erfahren Sie mehr über Elemente, die bei der Projekterkundung identifiziert werden, sowie über Beiträge von Stakeholdern zur Bewertung des Projekts und Vorbereitung eines geeigneten Designs. Lernen Sie die wichtigsten Begriffe kennen, die in einem übergeordneten Projektplan verwendet werden. Dazu gehören Projektzyklus, Aktionen im Zusammenhang mit Hardware-Tests, Machbarkeitsstudien, Pilotprogramme und Rollouts.
 
 Navigieren Sie zu **[Tests, POCs, Pilotprogramme und Rollouts](testing-pocs-pilots-rollouts.md)**, um weitere Informationen zu erhalten.
