@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
 source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '2163'
-ht-degree: 99%
+source-wordcount: '2364'
+ht-degree: 95%
 
 ---
 
@@ -42,9 +42,9 @@ Die Tutorial-Schritte und Screenshots werden mithilfe von **CRXDE Lite** ausgef�
 
 Der Quell-Code eines Screens-Projekts wird normalerweise als Maven-Projekt mit mehreren Modulen verwaltet. Um das Tutorial zu beschleunigen, wurde ein Projekt mithilfe des [AEM-Projektarchetyps 13](https://github.com/adobe/aem-project-archetype) vorgeneriert. Weitere Informationen zum [Erstellen eines Projekts mit einem Maven-Archetyp für AEM-Projekte finden Sie hier](https://experienceleague.adobe.com/de/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
 
-1. Laden Sie die folgenden Pakete mit [CRX Package Manager](http://localhost:4502/crx/packmgr/index.jsp) herunter und installieren Sie sie:
+1. Laden Sie die folgenden Pakete mit dem [CRX-Paket-Manager](http://localhost:4502/crx/packmgr/index.jsp) herunter und installieren Sie sie:
 
-[Datei abrufen](assets/base-screens-weretail-runuiapps-001-snapshot.zip)
+   [Datei abrufen](assets/base-screens-weretail-runuiapps-001-snapshot.zip)
 
    [Datei abrufen](assets/base-screens-weretail-runuicontent-001-snapshot.zip)
    Wenn Sie mit Eclipse oder einer anderen IDE arbeiten, laden Sie **optional** das folgende Quellpaket herunter. Stellen Sie das Projekt mithilfe des Maven-Befehls in einer lokalen AEM-Instanz bereit:
@@ -53,16 +53,16 @@ Der Quell-Code eines Screens-Projekts wird normalerweise als Maven-Projekt mit m
 
    Starten von HelloWorld SRC Screens im Projekt „`We.Retail` Run“
 
-[Datei abrufen](assets/src-screens-weretail-run.zip)
+   [Datei abrufen](assets/src-screens-weretail-run.zip)
 
-1. Überprüfen Sie in [CRX Package Manager](http://localhost:4502/crx/packmgr/index.jsp), ob die folgenden beiden Pakete installiert sind:
+1. Überprüfen Sie im [CRX-Paket-Manager](http://localhost:4502/crx/packmgr/index.jsp), ob die folgenden beiden Pakete installiert sind:
 
    1. **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip**
    1. **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip**
 
-   ![Pakete Screens We.Retail Run Ui.Apps und Ui.Content über CRX Package Manager installiert](assets/crx-packages.png)
+   ![Über den CRXPaket-Manager installierte Ui.Apps- und Ui.Content-Pakete für das Screens-Projekt „We.Retail Run“](assets/crx-packages.png)
 
-   Pakete `We.Retail` Run `Ui.Apps` und `Ui.Content` über CRX Package Manager installiert,
+   Pakete `We.Retail` Run `Ui.Apps` und `Ui.Content` über den CRX-Paket-Manager installiert,
 
 1. Das Paket **screens-weretail-run.ui.apps** installiert Code unter `/apps/weretail-run`.
 
@@ -84,7 +84,7 @@ Der Quell-Code eines Screens-Projekts wird normalerweise als Maven-Projekt mit m
    * `/content/dam/we-retail-run`
    * `/content/screens/we-retail-run`
 
-   Dieses Paket enthält den für das Projekt benötigten Startinhalt und die für das Projekt erforderliche Konfigurationsstruktur. **`/conf/we-retail-run`** enthält alle Konfigurationen für das Projekt „`We.Retail` Run“. **`/content/dam/we-retail-run`** umfasst das Starten digitaler Assets für das Projekt. **`/content/screens/we-retail-run`** enthält die Screens-Inhaltsstruktur. Der Inhalt all dieser Pfade wird hauptsächlich in AEM aktualisiert. Um die Konsistenz zwischen Umgebungen (Lokal, Entwicklung, Test und Produktion) zu fördern, wird häufig eine grundlegende Inhaltsstruktur in der Quell-Code-Verwaltung gespeichert.
+   Dieses Paket enthält den Ausgangsinhalt und die Konfigurationsstruktur, die für das Projekt benötigt werden. **`/conf/we-retail-run`** enthält alle Konfigurationen für das Projekt &quot;`We.Retail` Run“. **`/content/dam/we-retail-run`** umfasst das Starten digitaler Assets für das Projekt. **`/content/screens/we-retail-run`** enthält die Screens-Inhaltsstruktur. Der Inhalt all dieser Pfade wird hauptsächlich in AEM aktualisiert. Um die Konsistenz zwischen Umgebungen (Lokal, Entwicklung, Test und Produktion) zu fördern, wird häufig eine grundlegende Inhaltsstruktur in der Quell-Code-Verwaltung gespeichert.
 
 1. **Navigieren Sie zu „AEM Screens“ > Projekt „`We.Retail` Run“:**
 
@@ -92,7 +92,7 @@ Der Quell-Code eines Screens-Projekts wird normalerweise als Maven-Projekt mit m
 
    ![we-retaiul-run-starter](assets/we-retaiul-run-starter.png)
 
-## Erstellen der Komponente „Hello World“  {#hello-world-cmp}
+## Erstellen der Komponente „Hello World“ {#hello-world-cmp}
 
 Die Komponente „Hello World“ ist eine einfache Komponente, mit der Benutzende eine Meldung eingeben können, die auf dem Bildschirm angezeigt werden soll. Die Komponente basiert auf der [Komponentenvorlage für AEM Screens: https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template).
 
@@ -160,7 +160,7 @@ AEM Screens weist einige interessante Einschränkungen auf, die nicht unbedingt 
 
    Die obige Abbildung zeigt das Produktions-Markup für die Komponente „Hello World“. Es ist ein Attribut `data-duration` enthalten, da die Komponente auf einem Sequenzkanal verwendet wird. Das Attribut `data-duration` wird vom Sequenzkanal verwendet, um zu erfahren, wie lange ein Sequenz-Element angezeigt werden soll.
 
-   Die Komponente rendert ein `div`- und ein `h1`-Tag mit Text. `${properties.message}` ist ein Teil des HTL-Skripts, der den Inhalt einer JCR-Eigenschaft mit dem Namen `message` ausgibt. Später wird ein Dialogfeld erstellt, in dem Benutzende einen Wert für den Eigenschaftstext `message` eingeben können.
+   Die Komponente rendert ein `div` und ein `h1`-Tag mit Text. `${properties.message}` ist ein Teil des HTL-Skripts, das den Inhalt einer JCR-Eigenschaft mit dem Namen `message` ausgibt. Später wird ein Dialogfeld erstellt, in dem Benutzende einen Wert für den Eigenschaftstext `message` eingeben können.
 
    Beachten Sie außerdem, dass die BEM-Notation (Block Element Modifier) mit der Komponente verwendet wird. BEM ist eine CSS-Kodierungskonvention, die die Erstellung wiederverwendbarer Komponenten erleichtert. BEM ist die Notation, die von den [AEM-Kernkomponenten](https://github.com/adobe/aem-core-wcm-components/wiki/CSS-coding-conventions) verwendet wird. <!-- DEAD LINK More info can be found at: [https://getbem.com/](https://getbem.com/) -->
 
@@ -312,7 +312,7 @@ AEM Screens-Komponenten werden im Bearbeitungsmodus anders dargestellt als im Vo
 
    ![2018-04-30_at_3_11pm](assets/2018-04-30_at_3_11pm.png)
 
-   Anstatt CSS direkt zu schreiben, verwendet dieses Tutorial LESS. [LESS](https://lesscss.org/) ist ein beliebter CSS-Precompiler, der CSS-Variablen, Mixins und Funktionen unterstützt. AEM-Client-Bibliotheken unterstützen nativ die LESS-Kompilierung. Sie können Sass oder andere Pre-Compiler verwenden, müssen sie jedoch außerhalb von AEM kompilieren.
+   Anstatt CSS direkt zu schreiben, verwendet dieses Tutorial LESS. [LESS](https://lesscss.org/) ist ein beliebter CSS-Vorkompilierer, der CSS-Variablen, Mixins und Funktionen unterstützt. AEM-Client-Bibliotheken unterstützen nativ die LESS-Kompilierung. Sie können Sass oder andere Pre-Compiler verwenden, müssen sie jedoch außerhalb von AEM kompilieren.
 
 1. Füllen Sie `/apps/weretail-run/components/content/helloworld/clientlibs/shared/css/styles.less` wie folgt:
 
@@ -387,7 +387,7 @@ AEM Screens verwendet [statische Seitenvorlagen](https://experienceleague.adobe.
 
 Im Folgenden wird eine „`We.Retail` Run“-Design-Seite erstellt, auf der alle für das Projekt „`We.Retail` Run“ spezifischen Konfigurationen gespeichert werden.
 
-1. Navigieren Sie in **CRXDE Lite** `http://localhost:4502/crx/de/index.jsp#/apps/settings/wcm/designs` zu `/apps/settings/wcm/designs`. 
+1. Navigieren Sie in **CRXDE Lite** `http://localhost:4502/crx/de/index.jsp#/apps/settings/wcm/designs` zu `/apps/settings/wcm/designs`.
 1. Erstellen Sie einen Knoten unterhalb des Designs-Ordners mit dem Namen `we-retail-run` und dem Typ `cq:Page`.
 1. Fügen Sie unter der Seite `we-retail-run` einen weiteren Knoten mit dem Namen `jcr:content` und dem Typ `nt:unstructured` hinzu. Fügen Sie dem Knoten `jcr:content` folgende Eigenschaften hinzu:
 
@@ -424,7 +424,7 @@ Die Komponente „Hello World“ ist für die Verwendung in einem Sequenzkanal v
 
    ![idle-channel](assets/idle-channel.gif)
 
-1. Öffnen Sie die Seiteneigenschaften für den inaktiven Kanal („Idle Channel“). 
+1. Öffnen Sie die Seiteneigenschaften für den inaktiven Kanal (Idle Channel).
 1. Aktualisieren Sie das Feld „Design“, um auf `/apps/settings/wcm/designs/we-retail-run`, die im vorherigen Abschnitt erstellte Design-Seite, zu verweisen.
 
    ![Design config /apps/settings/wcm/designs/we-retail-run](assets/2018-05-07_at_1240pm.png)
