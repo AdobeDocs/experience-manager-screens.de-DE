@@ -5,10 +5,10 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: 5cd1dcf62fa97e3183fb0c7f3395dcb1b91a3945
 workflow-type: tm+mt
-source-wordcount: '2135'
-ht-degree: 99%
+source-wordcount: '2241'
+ht-degree: 83%
 
 ---
 
@@ -21,7 +21,7 @@ Dieses Thema enthält Antworten auf häufig gestellte Fragen zu einem AEM Screen
 >[!NOTE]
 >Die Liste der obligatorischen Überprüfungen, die der primäre Support oder der kundenseitige Support durchführen sollte, bevor ein Problem gemeldet wird.
 
-### 1. Was sollten die Erste-Hilfe-Schritte zur Fehlerbehebung sein, wenn ein Kunde mit einem schwarzen Bildschirm oder nicht wiedergegebenen Inhalten konfrontiert wird? {#troubleshooting-blank-screen}
+### &#x200B;1. Was sollten die Erste-Hilfe-Schritte zur Fehlerbehebung für Kunden sein, die mit einem schwarzen Bildschirm oder nicht wiedergegebenen Inhalten konfrontiert sind? {#troubleshooting-blank-screen}
 
 * Überprüfen Sie, ob die Kanalvorschau funktioniert.
 * Überprüfen Sie, ob die Anzeigenvorschau funktioniert.
@@ -29,9 +29,9 @@ Dieses Thema enthält Antworten auf häufig gestellte Fragen zu einem AEM Screen
 * Wenn der Player auf Ihrem System läuft, navigieren Sie zu `http://localhost:24502`. Überprüfen Sie, ob der gesamte Inhalt korrekt heruntergeladen wurde.
 * Überprüfen Sie die Assets, um sicherzustellen, dass die entsprechenden Ausgabedarstellungen erstellt wurden und die richtige Ausgabedarstellung wiedergegeben wird.
 * Überprüfen Sie, ob es geplante Inhalte gibt und ob die Zeiten korrekt sind. Überprüfen Sie, ob die im Player eingestellte Zeit korrekt ist.
-* Überprüfen Sie die Protokolle der Player-Konsole und überprüfen Sie sie auf Fehler. Klicken Sie mit der rechten Maustaste und überprüfen Sie die Konsolenprotokolle. Wenn Sie den Windows-Player verwenden, drücken Sie `CTRL + ALT +I`, um die Entwicklungskonsole aufzurufen und die Protokolle anzuzeigen.
+* Überprüfen Sie die Protokolle der Player-Konsole und überprüfen Sie sie auf Fehler. Klicken Sie mit der rechten Maustaste und überprüfen Sie die Konsolenprotokolle. Wenn Sie den Windows-Player verwenden, drücken Sie `CTRL + ALT +I`, um die Developer Console aufzurufen und die Protokolldateien anzuzeigen.
 
-### &#x200B;2. Wie lässt sich das Problem der grauen Bildschirme in AEM Screens beim Erstellen eines Standardkanals oder -zeitplans beheben?
+### &#x200B;2. Wie kann ich ein Problem mit dem grauen Bildschirm in AEM Screens beheben, indem ich einen Standardkanal oder -zeitplan erstelle?
 
 Um die leeren oder grauen Bildschirme im Feld zu vermeiden, erstellen Sie einen globalen Standardkanal oder -zeitplan, der jeder Anzeige mit der geringsten Priorität 1 zugewiesen ist. Falls bei Inhaltsaktualisierungen etwas fehlschlägt, weil die Player diesen Inhalt bereits auf der Festplatte zwischengespeichert haben. Die Wiedergabe sollte einwandfrei funktionieren und die grauen Bildschirme sollten vermieden werden.
 
@@ -39,19 +39,19 @@ Alle anderen Inhalte, wie Kanäle oder Zeitpläne, haben eine Priorität größe
 
 ## Kanalverwaltung {#channel-management}
 
-### 1. Was ist der Unterschied zwischen einem Online- und einem Offline-Kanal? {#what-is-the-difference-between-an-online-and-an-offline-channel}
+### &#x200B;1. Was ist der Unterschied zwischen einem Online- und einem Offline-Kanal? {#what-is-the-difference-between-an-online-and-an-offline-channel}
 
-Ein ***Online-Kanal*** zeigt den aktualisierten Inhalt in der Echtzeitumgebung, während ein ***Offline-Kanal*** den im Cache gespeicherten Inhalt zeigt.
+Ein ***Online-Kanal*** zeigt den aktualisierten Inhalt in der Echtzeitumgebung an, während ein ***Offline-Kanal*** den im Cache gespeicherten Inhalt wiedergibt.
 
-### 2. Wie schalte ich einen Kanal online? {#how-do-i-make-a-channel-online}
+### &#x200B;2. Wie mache ich einen Kanal online? {#how-do-i-make-a-channel-online}
 
 Wählen Sie den Kanal aus und navigieren Sie in der Aktionsleiste zu den Kanaleigenschaften. Aktivieren Sie **Entwicklermodus (Kanal erzwingen, um online zu sein)** auf der Registerkarte **Kanal**, um den Kanal online zu schalten.
 
-### 3. Was ermöglicht das Feld „Kanalrolle“? {#what-is-the-use-of-the-channel-role-field}
+### &#x200B;3. Was bedeutet die Verwendung des Felds „Kanalrolle“? {#what-is-the-use-of-the-channel-role-field}
 
 Die Kanalrolle ist eine Abstraktion des tatsächlichen Kanals, die ausgeführt wird, damit sich die Autorin bzw. der Autor direkt auf das generische Erlebnis konzentrieren kann. Sie können sich die Rolle als eine Art Tag vorstellen, das den Kanal in seinem Kontext (Anzeige oder Zeitplan) eindeutig identifiziert.
 
-### 4. Wie erfolgt die tatsächliche Kanalauflösung? {#how-does-actual-channel-resolution-happen}
+### &#x200B;4. Wie erfolgt die tatsächliche Kanalauflösung? {#how-does-actual-channel-resolution-happen}
 
 Bei *statischen Verweisen* folgt die Auflösung einfach dem angegebenen Pfad.
 
@@ -64,7 +64,7 @@ Bei *dynamischen Verweisen* erfolgt die Auflösung, sobald der Kanal der Anzeige
 
 Und so weiter, bis Sie den Standortordner erreichen. Halten Sie dort vorerst an (Sie können also nicht auf einen Kanal verweisen, der sich zum Beispiel im Kanalordner befindet, sondern nur auf Kanäle in der Unterstruktur der Standorte).
 
-### &#x200B;5. Wie wird die benutzerdefinierte clientlib-Offline-Konfiguration im AEM Screens-Kanal eingerichtet?
+### &#x200B;5. Wie richte ich eine benutzerdefinierte clientlib-Offline-Konfiguration im AEM Screens-Kanal ein?
 
 Bei Verwendung eines erstellten, benutzerdefinierten Client-seitigen Codes `clientlib` in einem AEM Screens-Kanal sind die folgenden Schritte erforderlich. Die Schritte stellen sicher, dass die `clientlib`-Dateien erfolgreich in den Kanal (`manifest.json`) geladen werden und den Pfad der `clientlib` enthalten.
 
@@ -77,25 +77,25 @@ Gehen Sie im Kanaleditor wie folgt vor:
 
 ## Geräteregistrierung {#device-registration}
 
-### 1. Bei der Ermittlung von Endpunkten (z. B. Anfragen zum Onboarding und Registrieren von Geräten) kann ich Skripte für eine große Zahl von Geräten verfassen, um die Geräte zu registrieren. Ist es möglich, diese Anfragen zu schützen und fest mit dem WLAN einer Zweigstelle zu verknüpfen? {#if-i-discover-endpoints-such-as-requests-for-device-onboarding-and-registration-i-can-script-a-large-number-of-devices-and-register-these-devices-besides-locking-this-to-a-branch-wi-fi-is-it-possible-to-secure-these-requests}
+### &#x200B;1. Wenn ich Endpunkte entdecke, z. B. Anfragen für das Onboarding und die Registrierung von Geräten, kann ich Skripte für viele Geräte erstellen und diese Geräte registrieren. Ist es möglich, diese Anfragen zu schützen und fest mit dem WLAN einer Zweigstelle zu verknüpfen? {#if-i-discover-endpoints-such-as-requests-for-device-onboarding-and-registration-i-can-script-a-large-number-of-devices-and-register-these-devices-besides-locking-this-to-a-branch-wi-fi-is-it-possible-to-secure-these-requests}
 
 Derzeit ist eine Registrierung nur in der Autoreninstanz möglich. Obwohl der Registrierungsdienst nicht authentifiziert ist, erstellt er in AEM nur ein ausstehendes Gerät, das jedoch weder registriert noch einer Anzeige zugewiesen wird.
 
 Um ein Gerät zu registrieren (indem Sie in AEM eine Benutzerin oder einen Benutzer für das Gerät erstellen), authentifizieren Sie sich bei AEM und folgen Sie dem Registrierungsassistenten, um die Registrierung abzuschließen. Theoretisch kann eine böswillige Person mehrere ausstehende Geräte erstellen, jedoch ohne Anmeldung in AEM keines von ihnen registrieren.
 
-### 2. Ist es möglich, mit einer bestimmten Form von Authentifizierung HTTP GET-Anfragen in HTTP POST umzuwandeln? {#is-there-a-way-to-transform-http-get-requests-into-http-post-with-some-form-of-authentication}
+### &#x200B;2. Gibt es eine Möglichkeit, HTTP-GET-Anfragen mit einer bestimmten Form der Authentifizierung in HTTP-POST umzuwandeln? {#is-there-a-way-to-transform-http-get-requests-into-http-post-with-some-form-of-authentication}
 
 Die Registrierungsanfrage ist eine POST-Anfrage.
 
 Es wird empfohlen, die Geräte-ID aus der Sitzung abzurufen, anstatt sie als Parameter zu übernehmen. Dadurch werden die Server-Protokolle, der Browsercache usw. bereinigt. Es handelt sich dabei nicht um ein Sicherheitsproblem. Semantisch. wird GET verwendet, wenn keine Statusänderung auf dem Server erfolgt; POST kommt zum Einsatz, wenn eine Statusänderung vorhanden ist.
 
-### 3. Ist es möglich, eine Anfrage zur Geräteregistrierung abzulehnen? {#is-there-a-way-to-decline-a-device-registration-request}
+### &#x200B;3. Gibt es eine Möglichkeit, eine Anfrage zur Geräteregistrierung abzulehnen? {#is-there-a-way-to-decline-a-device-registration-request}
 
 Sie können Registrierungsanfragen nicht ablehnen. Stattdessen sollten Registrierungsanfragen nach einer Zeitüberschreitung ablaufen, die in `Adobe Experience Manager Web Console` konfiguriert ist. Standardmäßig ist dieser Wert auf einen Tag festgelegt und wird in einem Arbeitsspeicher-Cache gespeichert.
 
 ## Geräteüberwachung und Statusberichte {#device-monitoring-and-health-reports}
 
-### 1. Wie kann ich eine Fehlerbehebung vornehmen, wenn der AEM Screens-Player einen leeren Bildschirm anzeigt?
+### &#x200B;1. Wie kann ich eine Fehlerbehebung vornehmen, wenn mein AEM Screens-Player einen leeren Bildschirm anzeigt?
 
 Prüfen Sie folgende Möglichkeiten, um Probleme mit einem leeren Bildschirm zu beheben:
 
@@ -103,7 +103,7 @@ Prüfen Sie folgende Möglichkeiten, um Probleme mit einem leeren Bildschirm zu 
 * Der Kanal weist keinen Inhalt auf
 * Keines der Assets ist zum jetzigen Zeitpunkt für die Anzeige vorgesehen
 
-### 2. Was kann ich tun, wenn der AEM Screens-Player nicht registriert werden kann und den Status „Failure“ aufweist?
+### &#x200B;2. Was kann ich tun, wenn der AEM Screens-Player nicht registriert werden kann und seinen Status als „Failure“ (Fehler) anzeigt?
 
 Aktivieren Sie im Dialogfeld für den Apache Sling Referrer-Filter die Option „Allow Empty“ (Leeres Feld zulassen). Dies ist erforderlich, um eine optimale Funktionsweise des Steuerungsprotokolls zwischen dem AEM Screens-Player und dem AEM Screens-Server zu ermöglichen.
 
@@ -111,17 +111,17 @@ Aktivieren Sie im Dialogfeld für den Apache Sling Referrer-Filter die Option �
 1. Aktivieren Sie die Option **allow.empty**.
 1. Klicken Sie auf **Speichern**.
 
-### 3. Wie lässt sich das Problem beheben, wenn beim Registrieren eines AEM Screens-Players auf dem Gerät „FAILURE“ und in den Protokollen der Konsole der Fehler „ENAME_NOT_FOUND“ angezeigt wird?
+### &#x200B;3. Wie lässt sich ein Problem beheben, wenn beim Registrieren eines AEM Screens-Players auf dem Gerät „FAILURE“ (FEHLER) angezeigt wird und in den Konsolenprotokollen der Fehler „ENAME_NOT_FOUND“ angezeigt wird?
 
 Das Problem kann auftreten, wenn der Player das DNS des AEM Screens-Servers nicht finden kann. Sie können versuchen, eine Verbindung über die IP-Adresse herzustellen. Um die IP des Servers abzurufen, verwenden Sie *arp &lt;server_dns_name>*.
 
-### 4. Empfiehlt AMS, Android™ Watchdog auf allen Geräten zu implementieren? Ist das Watchdog-Plug-in (Cordova) Teil des APK? {#does-ams-recommend-implementing-an-android-watchdog-on-all-devices-is-the-watchdog-cordova-plugin-included-as-part-of-the-apk}
+### &#x200B;4. Empfiehlt AMS die Implementierung eines Android™ Watchdog auf allen Geräten? Ist das Watchdog-Plug-in (Cordova) Teil des APK? {#does-ams-recommend-implementing-an-android-watchdog-on-all-devices-is-the-watchdog-cordova-plugin-included-as-part-of-the-apk}
 
 Ein plattformübergreifender Android™-Watchdog, der reine Android™-APIs nutzt, ist bereits Bestandteil des APK. Es ist keine zusätzliche Software erforderlich. Je nach dem von Ihnen verwendeten Gerät können Sie das APK jedoch zurücksetzen, um ggf. Systemberechtigungen für einen vollständigen Aus- und Einschaltvorgang des Geräts zu erhalten (`Powermanager`-API). Falls es nicht mit den Herstellerschlüsseln neu signiert wird, wird das APK beendet und die Anwendung neu gestartet, aber nicht das Gerät aus- und wieder eingeschaltet.
 
 Weitere Informationen zur Implementierung des Android™-Players finden Sie unter [**Implementieren des Android™-Players**](implementing-android-player.md).
 
-### 5. Welche Remote-Überwachungs- und Warnmeldungs-Tools (Software) von Drittanbietern empfiehlt Adobe/AMS zur Überwachung einzelner Geräte? {#what-third-party-remote-monitoring-and-alerting-tools-software-does-adobe-ams-recommend-for-monitoring-each-device}
+### &#x200B;5. Welche Remote-Überwachungs- und Warnmeldungs-Tools (Software) von Drittanbietern empfiehlt Adobe/AMS für die Überwachung der einzelnen Geräte? {#what-third-party-remote-monitoring-and-alerting-tools-software-does-adobe-ams-recommend-for-monitoring-each-device}
 
 Je nachdem, welches Ergebnis Sie von der Überwachung und den Warnmeldungen wünschen, benachrichtigt Sie der AEM Screens-Benachrichtigungsdienst, wenn ein Gerät länger nicht mehr gepingt hat. Geeignete Tools von Drittanbietern hängen vom jeweiligen Betriebssystem, seinen Funktionen und den spezifischen Anforderungen der Kundinnen und Kunden ab.
 
@@ -129,7 +129,7 @@ Weitere Informationen dazu, wie Sie die Geräteaktivität überwachen können, f
 
 ## AEM Screens-Player
 
-### 1. Wie installiere ich den ChromeOS-Player als Plug-in des Chrome-Browsers? {#how-to-install-chromeos-player-as-chrome-browser-plugin}
+### &#x200B;1. Wie installiere ich den Chrome OS-Player als Chrome-Browser-Plug-in? {#how-to-install-chromeos-player-as-chrome-browser-plugin}
 
 Im Entwicklermodus kann der ChromeOS-Player als Plug-in des Chrome-Browsers installiert werden, ohne dass ein echtes Chrome-Player-Gerät erforderlich ist. Gehen Sie zur Installation wie folgt vor:
 
@@ -142,11 +142,11 @@ Im Entwicklermodus kann der ChromeOS-Player als Plug-in des Chrome-Browsers inst
 1. Öffnen Sie eine neue Registerkarte und klicken Sie oben links auf das Symbol **Apps** oder navigieren Sie direkt zu ***chrome://apps***.
 1. Wählen Sie das **AEM Screens**-Plug-in. Standardmäßig wird der Player im Vollbildmodus gestartet. Drücken Sie **Esc**, um den Vollbildmodus zu beenden.
 
-### 2. Wie kann ich das Problem beheben, wenn der Screens-Player bei einer Veröffentlichungsinstanz, die einen benutzerdefinierten Fehler-Handler aufweist, nicht authentifiziert werden kann?
+### &#x200B;2. Wie kann ich ein Problem beheben, wenn der Screens-Player bei einer Veröffentlichungsinstanz mit einem benutzerdefinierten Fehler-Handler nicht authentifiziert werden kann?
 
 Wenn der AEM Screens-Player beim Starten einen 404-Fehler erhält, stellt er eine Anfrage an ***/content/screens/svc.ping.json***. Der Player initiiert eine Authentifizierungsanforderung, um sich bei der Veröffentlichungsinstanz zu authentifizieren. Wenn es in der Veröffentlichungsinstanz einen benutzerdefinierten Fehler-Handler gibt, sorgen Sie dafür, dass Sie in ***/content/screens/svc.ping.json*** den 404-Status-Code für eine anonyme Person zurückgeben.
 
-### 3. Wie lässt sich der Gerätebildschirm in einem Android™-Player dauerhaft einschalten? {#how-to-set-the-device-screen-stay-on-in-an-android-player}
+### &#x200B;3. Wie lässt sich der Gerätebildschirm in einem Android™ Player dauerhaft einschalten? {#how-to-set-the-device-screen-stay-on-in-an-android-player}
 
 Führen Sie folgende Schritte durch, um „Stay Awake“ in einem beliebigen Android™-Player zu aktivieren:
 
@@ -155,11 +155,11 @@ Führen Sie folgende Schritte durch, um „Stay Awake“ in einem beliebigen And
 1. Navigieren Sie zu den **Entwickleroptionen**.
 1. Aktivieren Sie **Stay Awake**.
 
-### &#x200B;4. Wie lässt sich der Fenstermodus für den Windows-Player aktivieren?{#enable-player}
+### &#x200B;4. Wie wird der Fenstermodus für den Windows-Player aktiviert?{#enable-player}
 
 Der Windows-Player verfügt über keinen Fenstermodus. Er befindet sich immer im Vollbildmodus.
 
-### &#x200B;5. Wie kann ich das Problem beheben, wenn ein AEM Screens-Player ständig Login-Anfragen sendet? 
+### &#x200B;5. Wie lässt sich ein Problem beheben, wenn ein AEM Screens-Player ständig Anmeldeanfragen sendet?
 
 Gehen Sie wie folgt vor, um eine Fehlerbehebung bei einem AEM Screens-Player durchzuführen, der fortlaufend Anfragen an `/content/screens/svc.json` und `/libs/granite/core/content/login.validate/j_security_check` sendet:
 
@@ -175,7 +175,7 @@ Gehen Sie wie folgt vor, um eine Fehlerbehebung bei einem AEM Screens-Player dur
 
 1. Überprüfen Sie, ob die Apache Sling Resource Resolver Factory-Konfiguration interne Neuschreibungen verursacht.
 
-### &#x200B;6. Wie lassen sich Details zu Anzeige und Gerät von der Player-API abrufen?
+### &#x200B;6. Wie lassen sich die Details des Displays und Geräts über die Player-API abrufen?
 
 Die Details zu Anzeige und Gerät erhalten Sie über:
 
@@ -195,7 +195,7 @@ Die Details zu Anzeige und Gerät erhalten Sie über:
 
 ## Allgemeine Tipps zur Problembehebung {#general-troubleshooting-tips}
 
-### 1. Wie kann ich Livefyre deaktivieren, um A/P-Screens-Fehler zu vermeiden?
+### &#x200B;1. Deaktivieren von Livefyre, um A/P-Screens-Fehler zu vermeiden
 
 Deaktivieren Sie Livefyre, um Protokollfehler zu vermeiden, indem Sie wie folgt vorgehen.
 
@@ -211,7 +211,7 @@ Deaktivieren Sie Livefyre, um Protokollfehler zu vermeiden, indem Sie wie folgt 
    * Fügen Sie eine *aktivierte* Eigenschaft vom Typ *Boolesch* hinzu
    * Setzen Sie die Eigenschaft **Enabled** auf **false**.
 
-### 2. Wie fügt man Oak-Index-Informationen hinzu? {#add-oak-index-info}
+### &#x200B;2. Hinzufügen von Oak-Indexinformationen {#add-oak-index-info}
 
 AEM Screens erstellt Indexdefinitionen für die vom Produkt verwendeten Abfragen.
 Wenn *Abfrage-Traversal-WARNUNGEN* im `error.log` vorhanden sind, erstellen Sie einen benutzerdefinierten Index für Ihre Abfrage. Weitere Informationen finden Sie unter [Konfigurieren der Indizes](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes).
@@ -219,7 +219,7 @@ Wenn *Abfrage-Traversal-WARNUNGEN* im `error.log` vorhanden sind, erstellen Sie 
 Eine zusätzliche Ressource finden Sie in der [Oak-Dokumentation](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
 
 
-### &#x200B;3. Was ist erforderlich, um v3-Manifeste zu konfigurieren? {#configure-v3}
+### &#x200B;3. Was ist erforderlich, um V3-Manifeste zu konfigurieren? {#configure-v3}
 
 Gehen Sie wie folgt vor, um das v3-Manifest zu aktivieren:
 
@@ -239,7 +239,7 @@ Weitere Informationen finden Sie unter [Vorlage für benutzerdefinierte Handler]
 
 * Geben Sie `clientlibs ` und die Ordner für statische Dateien ein, die zum Manifest hinzugefügt werden müssen.
 
-### &#x200B;4. Was sollten Sie tun, wenn nach dem Paket „screens-cloud-ams-pkg-0.0.20“ zwar „screens-cloud-ams-pkg-0.0.16“ und die Screens-Core-Bundles installiert, aber nicht aktiv sind?
+### &#x200B;4. Was sollten Sie tun, wenn nach dem Paket „screens-cloud-ams-pkg-0.0.20“ „screens-cloud-ams-pkg-0.0.16“ und die Screens-Core-Bundles installiert, aber nicht aktiv sind?
 
 Sie müssen mindestens die Version AEM 6.5 Feature Pack 8 installieren, damit der AMS-Connector funktioniert. Unter [Verfügbarkeit](https://experienceleague.adobe.com/de/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105#availability) finden Sie Informationen zur Mindestversion des AEM Screens Feature Packs.
 
@@ -250,5 +250,5 @@ Der Service wird verwendet, um den öffentlichen Host-Namen für die Autoren- un
 Der CQ Link Externalizer-Dienst in Screens kann wie folgt konfiguriert werden:
 
 1. Navigieren Sie zu `http://localhost:4502/system/console/configMgr`
-1. Day CQ Link Externalizer 
+1. Day CQ Link Externalizer
 1. Ändern Sie den Host-Namen für die `author/publish`-Einträge nach Bedarf
