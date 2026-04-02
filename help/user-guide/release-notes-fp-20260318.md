@@ -23,7 +23,7 @@ ht-degree: 21%
 
 AEM Screens hat AEM 6.5 Feature Pack 11.8 veröffentlicht.
 
-Das neueste Feature Pack für AEM Screens 6.5.11.8 steht auf dem [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/de/aem.html) zum Download zur Verfügung. Navigieren Sie zur Registerkarte **Adobe Experience Manager** und suchen Sie nach **Screens**, um das neueste Feature Pack mit dem Namen **AEM 6.5 Screens FP11.8}**.
+Das neueste Feature Pack für AEM Screens 6.5.11.8 steht auf dem [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/de/aem.html) zum Download zur Verfügung. Navigieren Sie zur Registerkarte **Adobe Experience Manager** und suchen Sie nach **Screens**, um das neueste Feature Pack mit dem Namen **AEM 6.5 Screens FP11.8&rbrace;**.
 
 ## Veröffentlichungsdatum {#release-date}
 
