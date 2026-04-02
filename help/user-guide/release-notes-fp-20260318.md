@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 11e7ecb3-e853-452a-9f69-2249ad0b40b7
-source-git-commit: dce7f8bdd8c1c8d66b84d7d112e6e59f40a903dc
+source-git-commit: 926946c00f83d9125059815918da928ede6dc162
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 21%
+source-wordcount: '207'
+ht-degree: 20%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 21%
 
 AEM Screens hat AEM 6.5 Feature Pack 11.8 veröffentlicht.
 
-Das neueste Feature Pack für AEM Screens 6.5.11.8 steht auf dem [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/de/aem.html) zum Download zur Verfügung. Navigieren Sie zur Registerkarte **Adobe Experience Manager** und suchen Sie nach **Screens**, um das neueste Feature Pack mit dem Namen **AEM 6.5 Screens FP11.8&rbrace;**.
+Das neueste Feature Pack für AEM Screens 6.5.11.8 steht auf dem [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/de/aem.html) zum Download zur Verfügung. Navigieren Sie zur Registerkarte **Adobe Experience Manager** und suchen Sie nach **Screens**, um das neueste Feature Pack mit dem Namen **AEM 6.5 Screens FP11.8}**.
 
 ## Veröffentlichungsdatum {#release-date}
 
@@ -38,3 +38,4 @@ Das AEM Screens Feature Pack 20260318 wurde am 18. März 2026 veröffentlicht.
 * XSS-Problem unter /libs/screens/dcc/components/clientlibs/deviceregistration/scripts.js (SCRNS-4856)
 * XSS-Problem unter /libs/screens/dcc/components/clientlibs/actions/cq.screens.dcc.assignChannel.js (SCRNS-5068)
 * XSS-Problem unter /libs/screens/dcc/components/importreview/clientlibs/js/script.js (SCRNS-5100)
+* XSS-Problem unter /libs/screens/dcc/components/dashboard/clientlibs/heartbeat.js
