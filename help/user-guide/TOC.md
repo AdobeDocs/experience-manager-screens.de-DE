@@ -8,10 +8,10 @@ user-guide-description: Erfahren Sie, wie Sie mit einer Digital-Signage-Lösung 
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 6a1ecea5d54da483c3033d0be0555b2d0dc71c83
+source-git-commit: dce7f8bdd8c1c8d66b84d7d112e6e59f40a903dc
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 92%
+source-wordcount: '581'
+ht-degree: 90%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 92%
 + [Einführung in Screens](aem-screens-introduction.md)
 + Übersicht und Schnellstartanleitung {#overview}
    + [Schnellstartanleitung](kickstart-for-aem-screens.md)
-   + [Leitfaden zu Best Practices für Screens](https://experienceleague.adobe.com/de/docs/experience-manager-screens/using/about-guide)
+   + [Handbuch mit Best Practices für Screens](https://experienceleague.adobe.com/de/docs/experience-manager-screens/using/about-guide)
    + [Schlüsselbegriffe](screens-glossary.md)
    + [Screens-Terminologie und -Konzepte](screens-concepts-feature-video-understand.md)
 + Netzwerkgrundlagen für Digital Signage {#digital-signage-network}
@@ -45,7 +45,7 @@ ht-degree: 92%
    + Kundenspezifische Aspekte {#installing-client}
       + [Chrome OS-Player](implementing-chrome-os-player.md)
       + [Verwenden von Chrome-Player als Erweiterung zur Problembehebung](using-chrome-player-as-an-extension.md)
-      + [Android](implementing-android-player.md)
+      + [Android™ Player](implementing-android-player.md)
       + [Windows-Player](implementing-windows-player.md)
       + [Tizen-Player](tizen-player.md)
       + [Cloud-Player](implementing-cloud-player.md)
@@ -119,6 +119,7 @@ ht-degree: 92%
    + [Fehlerbehebung über das Geräte-Kontrollzentrum](monitoring-screens.md)
    + [Konfiguration der Videowiedergabe](troubleshoot-videos.md)
 + Versionshinweise {#release-notes}
+   + [Versionshinweise für Feature Pack 20260318](release-notes-fp-20260318.md)
    + [Versionshinweise für Feature Pack 20251007](release-notes-fp-20251007.md)
    + [Versionshinweise für Feature Pack 20250327](release-notes-fp-20250327.md)
    + [Versionshinweise für Feature Pack 20250224](release-notes-fp-20250224.md)
@@ -142,3 +143,4 @@ ht-degree: 92%
    + [Versionshinweise für Feature Pack 201905](screens-release-notes-fp-201905.md)
    + [Versionshinweise für Feature Pack 201812](release-notes-fp-201812.md)
    + [Versionshinweise für Feature Pack 201809](screens-release-notes.md)
+

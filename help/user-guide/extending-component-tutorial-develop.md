@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
 source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1698'
-ht-degree: 97%
+source-wordcount: '1846'
+ht-degree: 94%
 
 ---
 
@@ -40,7 +40,7 @@ Um diese Anleitung abzuschließen, benötigen Sie Folgendes:
 1. [AEM Screens-Player](/help/user-guide/aem-screens-introduction.md)
 1. Lokale Entwicklungsumgebung
 
-Die Tutorial-Schritte und Screenshots basieren auf CRXDE Lite. [Eclipse](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse)- oder [IntelliJ](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij)-IDEs können ebenfalls verwendet werden, um das Tutorial abzuschließen. Weitere Informationen zur Verwendung einer IDE zur Entwicklung mit AEM [finden Sie hier](https://experienceleague.adobe.com/de/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
+Die Schritte und Screenshots des Tutorials werden mit CRXDE-Lite ausgeführt. [Eclipse](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse)- oder [IntelliJ](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij)-IDEs können auch verwendet werden, um das Tutorial abzuschließen. Weitere Informationen zur Verwendung einer IDE zur Entwicklung mit AEM [finden Sie hier](https://experienceleague.adobe.com/de/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
 
 ## Projekt-Setup {#project-setup}
 
@@ -48,7 +48,7 @@ Der Quell-Code eines Screens-Projekts wird normalerweise als Maven-Projekt mit m
 
 1. Laden Sie die folgenden Pakete herunter und installieren Sie diese mit **CRX Package Manage** `http://localhost:4502/crx/packmgr/index.jsp)r:`
 
-[Datei abrufen](assets/start-poster-screens-weretail-runuiapps-001-snapshot.zip)
+   [Datei abrufen](assets/start-poster-screens-weretail-runuiapps-001-snapshot.zip)
 
    [Datei abrufen](assets/start-poster-screens-weretail-runuicontent-001-snapshot.zip)
    Wenn Sie mit Eclipse oder einer anderen IDE arbeiten, laden Sie **optional** das folgende Quellpaket herunter. Stellen Sie das Projekt mithilfe des Maven-Befehls in einer lokalen AEM-Instanz bereit:
@@ -57,16 +57,16 @@ Der Quell-Code eines Screens-Projekts wird normalerweise als Maven-Projekt mit m
 
    SRC – Ausgangsprojekt „`We.Retail` Run“ für AEM Screens
 
-[Datei abrufen](assets/start-poster-screens-weretail-run.zip)
+   [Datei abrufen](assets/start-poster-screens-weretail-run.zip)
 
 1. Im **CRX Package Manager** `http://localhost:4502/crx/packmgr/index.jsp` werden die folgenden zwei Pakete installiert:
 
    1. **`screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip`**
    1. **`screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip`**
 
-   ![Über CRX Package Manager installierte Ui.Apps- und Ui.Content-Pakete für das Screens-Projekt „We.Retail Run“](assets/crx-packages.png)
+   ![Über den CRXPaket-Manager installierte Ui.Apps- und Ui.Content-Pakete für das Screens-Projekt „We.Retail Run“](assets/crx-packages.png)
 
-   Über CRX Package Manager installierte `We.Retail Run Ui.Apps`- und `Ui.Content`-Pakete für AEM Screens
+   Über den CRX-Paket-Manager installierte `We.Retail Run Ui.Apps`- und `Ui.Content`-Pakete für AEM Screens
 
 ## Erstellen der Poster-Komponente {#poster-cmp}
 
@@ -129,7 +129,7 @@ Die Poster-Komponente wird im Vollbildmodus im Vorschau-/Produktionsmodus wieder
    1. Kopieren Sie das Dialgofeld aus `/libs/wcm/foundation/components/image/cq:dialog`
    1. Fügen Sie das Dialogfeld hier ein: `/apps/weretail-run/components/content/poster`
 
-   ![Copied dialog from /libs/wcm/foundation/components/image/cq:dialog to /apps/weretail-run/components/content/poster](assets/2018-05-03_at_4_13pm.png)
+   ![Das Dialogfeld wurde aus /libs/wcm/foundation/components/image/cq:dialog nach /apps/weretail-run/components/content/poster kopiert](assets/2018-05-03_at_4_13pm.png)
 
    Kopiertes Dialogfeld von `/libs/wcm/foundation/components/image/cq:dialog` nach `/apps/weretail-run/components/content/poster`
 
@@ -258,9 +258,9 @@ Die Poster-Komponente wird im Vollbildmodus im Vorschau-/Produktionsmodus wieder
 
    ```xml
    <!--/*
-   
+
        /apps/weretail-run/components/content/poster/production.html
-   
+
    */-->
    <div data-sly-use.image="image.js"
         data-duration="${properties.duration}"
@@ -292,11 +292,11 @@ Die Poster-Komponente wird im Vollbildmodus im Vorschau-/Produktionsmodus wieder
 
    ```xml
    <!--/*
-   
+
        /apps/weretail-run/components/content/poster/edit.html
-   
+
    */-->
-   
+
    <div class="aem-Screens-editWrapper ${image.cssClass} cmp-poster" data-sly-use.image="image.js" data-emptytext="${'Poster' @ i18n, locale=request.locale}">
        <img class="cmp-poster__image" src="${request.contextPath}${image.src @ context='uri'}" width="100%" />
        <div class="cmp-poster__text
@@ -355,7 +355,7 @@ AEM Screens-Komponenten werden im Bearbeitungsmodus anders als im Vorschaumodus/
 
    ![2018-05-03_at_1057pm](assets/2018-05-03_at_1057pm.png)
 
-   Anstatt CSS direkt zu schreiben, verwendet dieses Tutorial LESS. [LESS](https://lesscss.org/) ist ein beliebter CSS-Precompiler, der CSS-Variablen, Mixins und Funktionen unterstützt. AEM-Client-Bibliotheken unterstützen nativ die LESS-Kompilierung. Sie können Sass oder andere Pre-Compiler verwenden, müssen sie jedoch außerhalb von AEM kompilieren.
+   Anstatt CSS direkt zu schreiben, verwendet dieses Tutorial LESS. [LESS](https://lesscss.org/) ist ein beliebter CSS-Vorkompilierer, der CSS-Variablen, Mixins und Funktionen unterstützt. AEM-Client-Bibliotheken unterstützen nativ die LESS-Kompilierung. Sie können Sass oder andere Pre-Compiler verwenden, müssen sie jedoch außerhalb von AEM kompilieren.
 
 1. Füllen Sie `/apps/weretail-run/components/content/poster/clientlibs/shared/css/styles.less` wie folgt:
 
