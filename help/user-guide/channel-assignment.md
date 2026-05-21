@@ -5,10 +5,16 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/3KiJEdVpZNlcvEo9PBzkyYJqIsQfBgXQY7-HlZZVxVE
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: ba4275ba-c29a-4197-90dc-5a633402ca3cid: d4878390-3838-4e80-8cb3-33bc1a01ea16id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1180'
-ht-degree: 98%
+source-wordcount: 1239
+ht-degree: 91%
 
 ---
 
@@ -50,7 +56,7 @@ Diese Option ermöglicht es Ihnen, einen Verweis zum gewünschten Kanal bereitzu
 
 * **nach Pfad**: Sie stellen einen expliziten Verweis durch Angabe des absoluten Pfads des Kanals bereit.
 
-* **nach Name**: Sie geben den Namen des Kanals ein, der entsprechend dem Kontext zu einem tatsächlichen Kanal führt. Mit dieser Funktion können Sie eine lokale Version eines Kanals erstellen, um ortsspezifische Inhalte dynamisch aufzulösen.  Beispiel: ein Kanal mit dem Namen *Tagesangebote*, bei dem der eigentliche Inhalt in zwei Städten zwar unterschiedlich ist, aber bei allen Anzeigen dieselbe Kanalrolle vorhanden ist.
+* **nach Name**: Sie geben den Namen des Kanals ein, der entsprechend dem Kontext zu einem tatsächlichen Kanal führt. Mit dieser Funktion können Sie eine lokale Version eines Kanals erstellen, um ortsspezifische Inhalte dynamisch aufzulösen. Beispiel: ein Kanal mit dem Namen *Tagesangebote*, bei dem der eigentliche Inhalt in zwei Städten zwar unterschiedlich ist, aber bei allen Anzeigen dieselbe Kanalrolle vorhanden ist.
 
 ### Kanalrolle {#role-channel}
 
@@ -58,7 +64,7 @@ Mit „Kanalrolle“ wird der Kontext der Anzeige definiert. Die Rolle kann durc
 
 ### Priorität {#priority-channel}
 
-Die Priorität wird verwendet, um die Zuweisungen in eine Reihenfolge zu bringen, wenn es mehrere Zuweisungen gibt, die den Wiedergabekriterien entsprechen. Höhere Werte haben stets Vorrang vor niedrigeren Werten. Angenommen, es gibt zwei Kanäle, A und B. Wenn A die Priorität 1 und B die Priorität 2 hat, wird Kanal B angezeigt, da er eine höhere Priorität als A hat.
+Die Priorität wird verwendet, um die Zuweisungen in eine Reihenfolge zu bringen, wenn mehrere Zuweisungen den Wiedergabekriterien entsprechen. Höhere Werte haben stets Vorrang vor niedrigeren Werten. Wenn es beispielsweise zwei Kanäle A und B gibt. A hat die Priorität 1 und B hat die Priorität 2, dann wird Kanal B angezeigt, da er eine höhere Priorität als A hat.
 
 >[!NOTE]
 >Die Priorität eines Kanals wird als Zahl (1 für Minimum) im Dialogfeld **Kanalzuweisung** festgelegt, wie oben angegeben. Außerdem werden die zugewiesenen Kanäle nach absteigender Priorität sortiert.
@@ -114,13 +120,13 @@ Hier wird jeder Tag in drei Zeitfenster unterteilt, sodass der Kanalinhalt gemä
 
 | **Kanal** | **Rolle** | **Priorität** | **Zeitplan** |
 |---|---|---|---|
-| Menü_A | Frühstück |  | Nach 6:00 Uhr und vor 11:00 Uhr |
-| Menü_B | Mittagessen |  | Nach 11:00 Uhr und vor 15:00 Uhr |
-| Menü_C | Abendessen |  | Nach 15:00 Uhr und vor 20:00 Uhr |
+| Menü_A | Frühstück |  | Nach 6:00 und vor 11:00 |
+| Menü_B | Mittagessen |  | Nach 11:00 und vor 15 :00 |
+| Menü_C | Abendessen |  | Nach 15:00 und vor 20:00 |
 
 #### Anzeigen von Inhalten an einem bestimmten Wochentag {#playing-content-on-a-particular-day-of-the-week}
 
-In diesem Beispiel wird gezeigt, wie Dayparting in einem Casino umgesetzt wird, wo an jedem Wochenende von 20:00 Uhr bis 22:00 Uhr eine Live-Veranstaltung stattfindet und von 22:00 Uhr bis 1:00 Uhr laut Abendkarte spezielle Gerichte angeboten werden.
+Dieses Beispiel zeigt den DayParting in einem Casino, in dem jedes Wochenende von 20 :00 bis 22 :00 stattfindet und für das Abendmenü nach 22 :00 bis 1 :00 Uhr Sonderangebote verfügbar sind.
 
 <table>
  <tbody>
@@ -158,7 +164,7 @@ Hier wird das Dayparting auf monatlicher Basis erstellt, sodass der Kanalinhalt 
 
 >[!NOTE]
 >
->Außerdem können Sie für jeden Kanal eine ***Priorität*** festlegen. Wenn beispielsweise zwei Kanäle für denselben Tag und dieselbe Uhrzeit oder für denselben Monat festgelegt sind, wird der Kanal mit höherer Priorität zuerst gezeigt. Der Mindestwert für die Priorität beträgt 0.
+>Sie können auch die ***Priorität*** für jeden der Kanäle festlegen. Wenn beispielsweise zwei Kanäle für denselben Tag und dieselbe Uhrzeit oder für denselben Monat festgelegt sind, wird der Kanal mit höherer Priorität zuerst gezeigt. Der Mindestwert für die Priorität beträgt 0.
 
 #### Anzeigen von Inhalt für Kanäle derselben Priorität {#playing-content-for-channels-with-same-priority}
 

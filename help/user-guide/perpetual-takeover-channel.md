@@ -6,10 +6,16 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
-source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
+TQID: https://experienceleague.adobe.com/AyMWJhLtyup9EIMpvM-xl4jg9CRYqN-jwEbH4CtJzvw
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 100%
+source-wordcount: 875
+ht-degree: 61%
 
 ---
 
@@ -20,7 +26,7 @@ Auf der folgenden Seite finden Sie ein Nutzungsszenario, in dem ein Projekt eing
 ## Anwendungsfall – Beschreibung {#use-case-description}
 
 In diesem Anwendungsfall wird erläutert, wie Sie einen Kanal erstellen, der die Funktion des normalerweise zur Wiedergabe verwendeten Kanals für eine Anzeige oder eine Gruppe von Anzeigen *übernimmt*. Die Übernahme erfolgt unbefristet an einem bestimmten Tag und zu einer bestimmten Zeit.
-Beispielsweise gibt es einen unbefristeten Übernahmekanal, der jeden Freitag von 9:00 Uhr bis 10:00 Uhr wiedergegeben wird. Während dieser Zeit sollte kein anderer Kanal wiedergegeben werden. Das folgende Beispiel zeigt die Erstellung eines unbefristeten Übernahmekanals, der es ermöglicht, den Inhalt jeden Mittwoch für 2 Stunden von 14:00 Uhr bis 16:00 Uhr wiederzugeben.
+Zum Beispiel gibt es einen Perpetual TakeOver Kanal, der jeden Freitag von 9 :00 bis 10 :00 spielt. Während dieser Zeit sollte kein anderer Kanal abgespielt werden. Das folgende Beispiel zeigt die Erstellung eines unbefristeten Übernahmekanals, in dem der Inhalt jeden Mittwoch für zwei Stunden von 14 :00 16 :00 abgespielt werden kann.
 
 ### Voraussetzungen {#preconditions}
 
@@ -57,7 +63,7 @@ Gehen Sie wie folgt vor, um ein Projekt einzurichten:
    >[!NOTE]
    >Der Kanal **MainAdChannel** in diesem Beispiel ist ein Sequenzkanal, der Inhalt kontinuierlich wiedergibt.
 
-1. Erstellen Sie einen Kanal **TakeOver**, der den Inhalt des Kanals **MainAdChannel** übernimmt und jeden Mittwoch von 14:00 bis 16:00 Uhr wiedergibt.
+1. Erstellen Sie einen **TakeOver**-Kanal, der den Inhalt in **MainAdChannel** übernimmt und jeden Mittwoch von 14 :00 bis 16 :00 wiedergegeben wird.
 
 1. Wählen Sie den Kanal **TakeOver** aus und klicken Sie in der Aktionsleiste auf **Bearbeiten**. Ziehen Sie einige Assets in Ihren Kanal. Im folgenden Beispiel wird gezeigt, wie Sie diesem Kanal ein Bild für eine Einzelzone hinzufügen.
 
@@ -89,14 +95,14 @@ Gehen Sie wie folgt vor, um ein Projekt einzurichten:
    * **Kanalpfad**: Wählen Sie den Pfad zum Kanal **TakeOver** aus
    * **Priorität**: Legen Sie die Priorität dieses Kanals höher als die von **MainAdChannel** fest. Die in diesem Beispiel eingestellte Priorität ist beispielsweise „8“.
    * **Unterstützte Ereignisse**: Klicken Sie auf **Bildschirm bei Untätigkeit** und **Timer**.
-   * **Zeitplan**: Geben Sie den Text für den Zeitplan ein, nach dem dieser Kanal in der Anzeige ausgeführt werden soll. Der in diesem Beispiel erwähnte Text im **Zeitplan** ist *am Mittwoch nach 14:00 und vor 16:00 Uhr*.
+   * **Zeitplan**: Geben Sie den Text für den Zeitplan ein, nach dem dieser Kanal in der Anzeige ausgeführt werden soll. Der Text im **Zeitplan** in diesem Beispiel erwähnt wird *am Mittwoch nach 14:00 und vor 16:00*.
 
      >[!NOTE]
      >Weitere Informationen zu den Ausdrücken, die Sie dem **Zeitplan** hinzufügen können, finden Sie im Abschnitt [Beispielausdrücke](#example-expressions) unten.
    * **aktiv ab**: Startdatum und -zeit.
    * **aktiv bis**: Enddatum und -zeit.
 
-     Zum Beispiel ermöglicht der Text unter **Zeitplan** sowie die Datums- und Uhrzeitangabe unter **aktiv ab** und **aktiv bis**, dass der Inhalt jeden Mittwoch von 14:00 bis 16:00 Uhr wiedergegeben wird.
+     Zum Beispiel ermöglicht der Text in **Zeitplan** und **aktiv ab** und **aktiv bis** Datum und Uhrzeit, dass der Inhalt jeden Mittwoch von 14:00 bis 16:00 Uhr wiedergegeben wird.
 
 
      ![Asset](assets/p_usecase7.png)
@@ -106,8 +112,8 @@ Gehen Sie wie folgt vor, um ein Projekt einzurichten:
      >[!NOTE]
      >Es ist zwingend erforderlich, die Priorität des Übernahmekanals auf die höchste Stufe zu setzen.
 
-     ![Asset](assets/p_usecase8.png)
-Nun übernimmt der Kanal **TakeOver** den **MainAdChannel** jeden Mittwoch zwei Stunden lang (von 14:00 bis 16:00 Uhr) und gibt den Inhalt vom 9. Januar 2020 bis 31. Januar 2020 wieder.
+     ![asset](assets/p_usecase8.png)
+Der Kanal **TakeOver** übernimmt nun jeden Mittwoch um 14 :00 Uhr den **MainAdChannel** und spielt seinen Inhalt vom 09. Januar 2020 bis zum 31. Januar 2020 um 16 :00 Uhr ab.
 
 ## Beispielausdrücke {#example-expressions}
 
@@ -115,13 +121,13 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 
 | **Ausdruck** | **Interpretation** |
 |---|---|
-| vor 8:00 Uhr | Der Inhalt des Kanals wird täglich vor 8:00 Uhr wiedergegeben. |
-| nach 14:00 Uhr | Der Inhalt des Kanals wird täglich nach 14:00 Uhr wiedergegeben. |
-| nach 12:15 Uhr und vor 12:45 Uhr | Der Inhalt des Kanals wird täglich 30 Minuten lang nach 12:15 Uhr wiedergegeben. |
-| vor 12:15 Uhr auch nach 12:45 Uhr | Der Kanal wird täglich vor 12:15 Uhr und danach auch nach 12:45 Uhr wiedergegeben |
-| am 1. Januar nach 14:00 Uhr, außerdem am 2. Januar und am 3. Januar vor 3:00 Uhr | Der Kanal startet die Wiedergabe am 01. Januar um 14:00 Uhr und läuft am 02. Januar den ganzen Tag bis um 3:00 Uhr am 03. Januar. |
-| am 1./2. Januar nach 14:00 Uhr, auch am 2./3. Januar vor 3:00 Uhr | Der Kanal startet den Player am 01. Januar um 14:00 Uhr, läuft bis 3:00 Uhr am 02. Januar und beginnt dann wieder am 02. Januar um 14:00 Uhr, um bis 3:00 Uhr am 03. Januar zu laufen. |
+| vor :00 h. | Der Kanal spielt jeden :00 vor 8 Uhr morgens |
+| nach :00 Uhr nachmittags | Der Kanal spielt jeden :00 um 14 Uhr |
+| Nach 12:15 und vor 12:45 | Der Kanal spielt nach 12 :15 täglich 30 Minuten |
+| Vor 12:15 auch nach 12:45 | Der Kanal spielt jeden :15 vor 12 Uhr und dann auch nach :45 Uhr. |
+| am ersten Januartag nach 14 :00, auch am zweiten Januartag und auch am dritten Januartag vor 3 :00 Uhr. | Der Kanal beginnt nach 14 :00 am 01. Januar, spielt den ganzen Tag am 02. Januar bis 3:00 Uhr am 03. Januar weiter |
+| An den 1-2 Tagen des Januar nach :00 Uhr auch an den 2-3 Tagen des Januar vor :00 Uhr. | Der Kanal beginnt am 01. Januar um 14 :00, läuft bis am 02. Januar um :00 Uhr, dann beginnt er am 02. Januar um 14 :00 erneut und läuft bis zum 3. :00 am 03. Januar |
 
 >[!NOTE]
 >
->Statt mit dem _24-Stunden-Format_ (z. B. 14:00 Uhr) kann die Zeit auch mit *A.M./P.M* (z. B. 2:00 P.M.) angegeben werden.
+>Sie können auch _Militärische Zeit_ Notation (14:00) anstelle von *A.M./P.M.* (14:00) verwenden.

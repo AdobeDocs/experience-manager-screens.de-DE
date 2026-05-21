@@ -10,10 +10,16 @@ feature: Authoring Screens, Experience Fragments
 role: Admin, Developer
 level: Intermediate
 exl-id: 13c0d75e-435f-433e-8886-f451df863517
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+TQID: https://experienceleague.adobe.com/hsBfnZKyaM96INkVmC94M2t39u-TzUIDPgdmHjjCHRc
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 100%
+source-wordcount: 1109
+ht-degree: 87%
 
 ---
 
@@ -101,13 +107,13 @@ Gehen Sie wie folgt vor, um den Inhalt von **`We.Retail`** auf Ihren **TestChann
 
    ![screen_shot_2019-07-29at110443am](assets/screen_shot_2019-07-29at110443am.png)
 
-   c. Klicken Sie im Assistenten **Live Copy erstellen** auf das **ScreensFragment** und dann auf **Weiter**.
+   C. Klicken Sie im Assistenten **Live Copy erstellen** auf &quot;**ScreensFragment** und klicken Sie dann auf **Weiter**.
 
-   d. Geben Sie unter **Titel** und unter **Namen** den Wert **Screens** ein.
+   d. Geben Sie **Titel** und **Name** als **Screens** ein.
 
-   e. Klicken Sie auf **Erstellen**, um die Live Copy zu erstellen.
+   E. Klicken Sie **Erstellen**, um die Live Copy zu erstellen.
 
-   f. Klicken Sie auf **Fertig**, um zurück zur Seite **ScreensFragment** zu wechseln.
+   F. Klicken Sie **Fertig**, um zur Seite **ScreensFragment** zurückzukehren.
 
    ![screen_shot_2019-07-29at110616am](assets/screen_shot_2019-07-29at110616am.png)
 
@@ -123,7 +129,7 @@ Gehen Sie wie folgt vor, um den Inhalt von **`We.Retail`** auf Ihren **TestChann
 
    Sie können Ihrem Experience Fragment die **Client-seitigen Bibliotheken** (Java™ und CSS) und **statische Dateien** hinzufügen.
 
-   Das folgende Beispiel zeigt das Hinzufügen Client-seitiger Bibliotheken und Schriftarten als Teil statischer Dateien zu Ihrem Experience Fragment. ![fragment](assets/fragment.gif)
+   Das folgende Beispiel zeigt das Hinzufügen Client-seitiger Bibliotheken und Schriftarten als Teil statischer Dateien zu Ihrem Experience Fragment.  ![fragment](assets/fragment.gif)
 
 1. **Verwenden des Experience Fragments als Komponente im Screens-Kanal**
 
@@ -135,19 +141,19 @@ Gehen Sie wie folgt vor, um den Inhalt von **`We.Retail`** auf Ihren **TestChann
 
    ![screen_shot_2019-07-29at123115pm](assets/screen_shot_2019-07-29at123115pm.png)
 
-   e. Klicken Sie auf die Komponente **Experience Fragment** und dann auf das Schraubenschlüssel-Symbol oben links, um das Dialogfeld **Experience Fragment** zu öffnen.
+   E. Klicken Sie auf **Experience Fragment**-Komponente und dann auf das Schraubenschlüsselsymbol oben links, um das Dialogfeld **Experience Fragment** zu öffnen.
 
-   f. Klicken Sie in **Pfad** auf die Live Copy **Screens** des Fragments, das Sie in *Schritt 3* erstellt haben.
+   F. Klicken Sie auf die **Screens**-Live Copy des Fragments, das Sie in *Schritt 3* unter **Pfad** erstellt haben.
 
    ![screen_shot_2019-07-26at82650pm](assets/screen_shot_2019-07-26at82650pm.png)
 
-   f. Klicken Sie im Feld **Experience Fragment** auf die Live Copy **Screens** des Fragments, das Sie in *Schritt 3* erstellt haben.
+   F. Klicken Sie auf die **Screens**-Live Copy des Fragments, das Sie in *Schritt 3* im **Experience Fragment** erstellt haben.
 
    ![screen_shot_2019-07-26at82509pm](assets/screen_shot_2019-07-26at82509pm.png)
 
-   h. Geben Sie die Millisekunden in **Dauer** ein.
+   Std. Geben Sie die Millisekunden in **Dauer** ein.
 
-   i. Klicken Sie im Dialogfeld **Experience Fragments** auf die **Offline-Konfiguration**, um die Client-seitigen Bibliotheken und statischen Dateien zu definieren.
+   I. Klicken Sie im Dialogfeld **Experience Fragments** auf **Offline-Konfiguration**, um die Client-seitigen Bibliotheken und die statischen Dateien zu definieren.
 
    >[!NOTE]
    >
@@ -155,7 +161,7 @@ Gehen Sie wie folgt vor, um den Inhalt von **`We.Retail`** auf Ihren **TestChann
 
    ![screen_shot_2019-07-26at82844pm](assets/screen_shot_2019-07-26at82844pm.png)
 
-   j. Aktivieren Sie das Kontrollkästchen, um den Vorgang abzuschließen.
+   J. Klicken Sie auf das Häkchen, um den Vorgang abzuschließen.
 
 ### Validieren des Ergebnisses {#validating-the-result}
 

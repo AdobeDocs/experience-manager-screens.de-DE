@@ -6,10 +6,16 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 9ffdb1eb-a1ba-42ac-a30f-260004e5b165
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/qceJ4N3M62xz-CCA9XhetBuzfU4dBHJSpmhMH88wPxI
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 90%
+source-wordcount: 826
+ht-degree: 82%
 
 ---
 
@@ -19,7 +25,7 @@ In diesem Abschnitt werden On-Demand-Inhalte für die Verwaltung von Veröffentl
 
 ## Veröffentlichung verwalten: Inhaltsaktualisierungen von der Autoren- zur Veröffentlichungsinstanz auf dem Gerät bereitstellen {#managing-publication-delivering-content-updates-from-author-to-publish-to-device}
 
-Sie können Inhalte in AEM Screens veröffentlichen und deren Veröffentlichung aufheben. **Veröffentlichung verwalten** ermöglicht die Bereitstellung von Inhaltsaktualisierungen von der Autoren- zur Veröffentlichungsinstanz auf dem Gerät. Sie können Inhalte für Ihr gesamtes AEM Screens-Projekt oder nur für einzelne Kanäle, Standorte, Geräte, Anwendungen oder einen Zeitplan veröffentlichen bzw. die Veröffentlichung aufheben. 
+Sie können Inhalte in AEM Screens veröffentlichen und deren Veröffentlichung aufheben. **Veröffentlichung verwalten** ermöglicht die Bereitstellung von Inhaltsaktualisierungen von der Autoren- zur Veröffentlichungsinstanz auf dem Gerät. Sie können Inhalte für Ihr gesamtes AEM Screens-Projekt oder nur für einzelne Kanäle, Standorte, Geräte, Anwendungen oder einen Zeitplan veröffentlichen bzw. die Veröffentlichung aufheben.
 
 ### Verwalten der Veröffentlichung für ein AEM Screens-Projekt {#managing-publication-for-an-aem-screens-project}
 
@@ -42,7 +48,7 @@ Gehen Sie wie folgt vor, um für ein AEM Screens-Projekt Inhaltsaktualisierungen
 
    >[!NOTE]
    >
-   >Standardmäßig werden alle Kontrollkästchen aktiviert. Sie müssen die Kontrollkästchen manuell deaktivieren, um alle Module in Ihrem Projekt zu veröffentlichen. 
+   >Standardmäßig werden alle Kontrollkästchen aktiviert. Sie müssen die Kontrollkästchen manuell deaktivieren, um alle Module in Ihrem Projekt zu veröffentlichen.
 
    ![screen_shot_2019-02-25at23116pm](assets/screen_shot_2019-02-25at23116pm.png)
 
@@ -55,11 +61,11 @@ Die folgende Abbildung zeigt beispielsweise, wie Sie nur die geänderten Seiten 
    Lesen Sie die nachstehenden Erläuterungen, um sich mit den verfügbaren Optionen vertraut zu machen:
 
    1. **Nur unmittelbar untergeordnete Elemente einbeziehen**:
-Mit dieser Option können Sie Aktualisierungen verwalten, die nur für die Unterknoten in Ihrer Projektstruktur gelten.
-   1. **Nur geänderte Seiten einschließen**:
-Mit dieser Option können Sie Aktualisierungen verwalten, die nur für die geänderten Seiten des Projekts gelten, auf denen sich die Änderungen in Ihrer Projektstruktur befinden.
-   1. **Nur bereits veröffentlichte Seiten einschließen**:
-Mit dieser Option können Sie Aktualisierungen verwalten, die nur für zuvor veröffentlichte Seiten gelten.
+Mit dieser Option können Sie Aktualisierungen nur für die Unterknoten in Ihrer Projektstruktur verwalten.
+   1. **Nur geänderte Seiten einbeziehen**:
+Mit dieser Option können Sie Aktualisierungen nur für die geänderten Seiten des Projekts verwalten, auf denen sich die Änderungen in Ihrer Projektstruktur befinden.
+   1. **Nur bereits veröffentlichte Seiten einbeziehen**:
+Mit dieser Option können Sie Aktualisierungen nur für die Seiten verwalten, die zuvor veröffentlicht wurden.
 
 
 1. Klicken Sie im **`Manage Publication wizard`** auf **Veröffentlichen**.
@@ -107,7 +113,7 @@ Gehen Sie wie folgt vor, um Inhaltsaktualisierungen von der Autoreninstanz in de
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 
-1. Klicken Sie im Assistenten **`Manage Publication`** auf die Option **Veröffentlichen**. 
+1. Klicken Sie im Assistenten **`Manage Publication`** auf die Option **Veröffentlichen**.
 
    ![screen_shot_2019-02-07at120507pm](assets/screen_shot_2019-02-07at120507pm.png)
 

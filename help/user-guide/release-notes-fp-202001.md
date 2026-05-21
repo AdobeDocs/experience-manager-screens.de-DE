@@ -5,10 +5,14 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: c1a0b394-97dc-4104-b2b4-41fcbb63a22e
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+TQID: https://experienceleague.adobe.com/J-tjGLbbC0TT77elnAghVAyDx5nLjv8-ShcJKEv-EyE
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 100%
+source-wordcount: 319
+ht-degree: 91%
 
 ---
 
@@ -41,8 +45,8 @@ Mit dem Framework für Konsistenzprüfungen können Benutzende überprüfen, ob 
 
 Weitere Informationen zum Framework für Konsistenzprüfungen finden Sie unter [Framework für Konsistenzprüfungen](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
 
-* **Aktualisierungen bei Standardübergangstypen**
-Die Eigenschaften der Übergangskomponente wie **Typ** sind jetzt standardmäßig auf **Ausblenden** und eine **Dauer** von **1.600 Millisekunden** eingestellt.
+* **Aktualisierungen an Standardübergangstypen**
+Die Eigenschaften der Übergangskomponente wie **Typ** sind jetzt standardmäßig auf **** und **Dauer** auf **1600 Millisekunden** eingestellt.
 
   Weitere Informationen finden Sie im Anwendungsbeispiel [Anwenden von Übergängen](/help/user-guide/applying-transitions.md).
 

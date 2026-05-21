@@ -2,9 +2,13 @@
 title: Analyse mit AEM Screens
 description: Erfahren Sie mehr über Adobe Analytics mit Adobe Experience Manager Screens.
 exl-id: cfb47e94-9f65-43f3-b197-07222f3f6424
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+TQID: https://experienceleague.adobe.com/i7B7E5Kyno2U-ZTxEOPfhrr9W7fqYTWTV5vvcteRicY
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: 288
 ht-degree: 100%
 
 ---
@@ -24,4 +28,4 @@ Der erste umfasst **Feedbackschleifen und maschinelles Lernen**, während der zw
 Im Nutzungsszenario „Feedbackschleife“ geht es nicht um visuelle Berichte oder Dashboards, sondern um eine Definition von Regeln, die AEM zur Inhaltsänderung ausführen kann. Durch Nutzung und Verarbeitung aller Screens-Player-Ereignisdaten aus einem bestimmten Zeitraum können Sie eine Regel definieren, die die Effektivität von image1 im Vergleich zu image2 bewertet. Durch Kombination von Verkaufsdaten mit Wiedergabedaten kann AEM ermitteln, dass image1 einen größeren Einfluss auf den Umsatz hat, und alle Player automatisch anweisen, image1 zu verwenden.
 
 Der zweite Anwendungsfall für Analysen bezieht sich auf die Verarbeitung von Wiedergabeereignissen und Nutzungsdaten für den menschlichen Gebrauch (in Form von Berichten und Dashboards).
-Mit diesen Daten können Sie für ein interaktives Erlebnis eine Heatmap erstellen, um mithilfe der Anwendung die bevorzugte Journey Map zu bestimmen.  Außerdem können Sie ein Dashboard einrichten, das eine grafische Interpretation der Anzahl der Interaktionen von Verbraucherinnen und Verbrauchern mit der Anwendung erlaubt.
+Mit diesen Daten können Sie für ein interaktives Erlebnis eine Heatmap erstellen, um mithilfe der Anwendung die bevorzugte Journey Map zu bestimmen. Außerdem können Sie ein Dashboard einrichten, das eine grafische Interpretation der Anzahl der Interaktionen von Verbraucherinnen und Verbrauchern mit der Anwendung erlaubt.

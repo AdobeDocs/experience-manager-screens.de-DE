@@ -6,9 +6,13 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/7M6tMLxqCrYuwdLcMpep7YdQe4efLFjNGgGqVX1ewRE
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: 584
 ht-degree: 96%
 
 ---
@@ -70,7 +74,7 @@ Gehen Sie wie folgt vor, um benutzerdefiniertes Branding und Styling für Textü
 1. Navigieren Sie zum Kanal mit dem Namen **DemoBrand** (erstellt in Schritt 1) und klicken Sie nach der Auswahl des Kanals in der Aktionsleiste auf **Eigenschaften**.
 
 1. Navigieren Sie zur Registerkarte **Erweitert** und aktivieren Sie das Feld **Design**.
-   ![image](/help/user-guide/assets/custom-brand/custom-brand5.png)
+   ![Bild](/help/user-guide/assets/custom-brand/custom-brand5.png)
 
    >[!NOTE]
    >Standardmäßig zeigt das Feld **Design** den Pfad an, der auf die Designs im Ordner „libs“ verweist.

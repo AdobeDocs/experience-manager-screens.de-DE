@@ -9,9 +9,15 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d409ba46-b48a-44db-b305-27c392cd55de
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+TQID: https://experienceleague.adobe.com/v0I1gmu10jscAJFcZGWu3g7X27BUNXIuyTGfKpPwUvA
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: 717
 ht-degree: 100%
 
 ---
@@ -57,7 +63,7 @@ Gehen Sie wie folgt vor, um einen Notfallkanal einzurichten:
 1. **Hinzufügen von Inhalten zu Sequenzkanälen**
 
    1. Klicken Sie auf den Kanal (**MainAdChannel**).
-   1. Klicken Sie in der Aktionsleiste auf **Bearbeiten**. 
+   1. Klicken Sie in der Aktionsleiste auf **Bearbeiten**.
    1. Ziehen Sie einige Assets per Drag-and-Drop in Ihren Kanal.
 
    ![screen_shot_2019-02-21at40053pm](assets/screen_shot_2019-02-21at40053pm.png)
@@ -77,7 +83,7 @@ Gehen Sie wie folgt vor, um einen Notfallkanal einzurichten:
 1. **Hinzufügen von Inhalten zu Notfallkanälen**
 
    1. Klicken Sie auf den Kanal (**Notrufkanal)**.
-   1. Klicken Sie in der Aktionsleiste auf **Bearbeiten**. 
+   1. Klicken Sie in der Aktionsleiste auf **Bearbeiten**.
    1. Ziehen Sie das Asset, das Sie im Notfall ausführen möchten, per Drag-and-Drop in Ihren Kanal.
 
    ![screen_shot_2019-02-21at40516pm](assets/screen_shot_2019-02-21at40516pm.png)
@@ -120,7 +126,7 @@ Gehen Sie wie folgt vor, um einen Notfallkanal einzurichten:
 
    >[!NOTE]
    >
-   >Die Priorität wird verwendet, um die Zuweisungen in eine Reihenfolge zu bringen, wenn es mehrere Zuweisungen gibt, die den Wiedergabekriterien entsprechen. Höhere Werte haben immer Vorrang vor niedrigeren Werten.
+   >Die Priorität wird verwendet, um die Zuweisungen in eine Reihenfolge zu bringen, wenn es mehrere Zuweisungen gibt, die den Wiedergabekriterien entsprechen. Höhere Werte haben stets Vorrang vor niedrigeren Werten.
 
    ![screen_shot_2019-03-04at104636am](assets/screen_shot_2019-03-04at104636am.png)
 
@@ -185,4 +191,4 @@ Führen Sie im Notfall die folgenden Schritte aus:
 
 Der **EmergencyChannel** zeigt seinen Inhalt so lange an, bis die Autorin bzw. der Autor des Inhalts den Prioritätswert auf 1 zurücksetzt.
 
-Wenn die Inhaltsautorin bzw. der Inhaltsautor die Anweisung erhält, dass der Notfall behoben wurde, sollte sie bzw. er die Priorität des **MainAdChannel** aktualisieren.  Hierdurch wird die normale Wiedergabe fortgesetzt.
+Wenn die Inhaltsautorin bzw. der Inhaltsautor die Anweisung erhält, dass der Notfall behoben wurde, sollte sie bzw. er die Priorität des **MainAdChannel** aktualisieren. Hierdurch wird die normale Wiedergabe fortgesetzt.

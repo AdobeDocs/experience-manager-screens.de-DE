@@ -10,9 +10,14 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+TQID: https://experienceleague.adobe.com/4Qdx25kNW3IszlXshNPGYGMJNE9E2QQlndLjJICDrI4
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: 693
 ht-degree: 100%
 
 ---
@@ -21,7 +26,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->Diese AEM Screens-Funktionalität ist nur verfügbar, wenn Sie mindestens AEM 6.4.2 Feature Pack 2 oder AEM 6.3.3 Feature Pack 4 installiert haben. Kundinnen und Kunden, die AEM Screens Cloud Service nutzen, sollten sich an das Adobe-Relationship-Management wenden, um Adobe Analytics in Screens Cloud aktivieren zu lassen.
+>Diese AEM Screens-Funktionalität ist nur verfügbar, wenn Sie mindestens AEM 6.4.2 Feature Pack 2 oder AEM 6.3.3 Feature Pack 4 installiert haben. Kundinnen und Kunden, die AEM Screens-Cloud-Service nutzen, sollten sich an das Adobe-Relationship-Management wenden, um Adobe Analytics in Screens Cloud aktivieren zu lassen.
 
 >[!NOTE]
 >
@@ -119,7 +124,7 @@ In der folgenden Tabelle werden die Eigenschaften mit ihrer Beschreibung zur Kon
 
 #### Verwenden des Adobe Analytics-Service in AEM Screens {#using-adobe-analytics-service-in-aem-screens}
 
-Dieses Szenario ruft die Analytics-API über REST-Aufrufe von einem Analytics-Dienst in der Firmware auf. Außerdem werden AEM Screens-Core-Komponenten zum Erstellen und Senden von für einen bestimmten Anwendungsfall spezifischen Ereignissen eingesetzt. All diese Funktionen sind erweiterbar, wobei jede benutzerdefinierte Nachricht von einem benutzerdefinierten Kanal an Analytics gesendet werden kann.
+Dieses Szenario ruft die Analytics-API über REST-Aufrufe von einem Analytics-Dienst in der Firmware auf. Außerdem werden AEM Screens-Kernkomponenten zum Erstellen und Senden von für einen bestimmten Anwendungsfall spezifischen Ereignissen eingesetzt. All diese Funktionen sind erweiterbar, wobei jede benutzerdefinierte Nachricht von einem benutzerdefinierten Kanal an Analytics gesendet werden kann.
 
 Analytics-Ereignisse werden in indexedDB offline gespeichert und später aufgeteilt und an die Cloud gesendet.
 

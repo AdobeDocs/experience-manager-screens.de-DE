@@ -2,10 +2,14 @@
 title: Tests und Qualitätssicherung
 description: Erfahren Sie mehr über die Best Practices für Tests und die Qualitätssicherung von AEM Screens.
 exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+TQID: https://experienceleague.adobe.com/So83gHv7n21zhdoCdWHVf0yswyQuSr1hLWmCA7uHSiE
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 100%
+source-wordcount: 346
+ht-degree: 97%
 
 ---
 
@@ -25,7 +29,7 @@ Es sollte eine Checkliste erstellt werden, in der alle zuvor definierten KPIs au
 
 Folgende Elemente sollten berücksichtigt werden:
 
-## 1. Mechanische Aspekte {#mechanical-considerations}
+## &#x200B;1. Mechanische Aspekte {#mechanical-considerations}
 
 Folgende Überlegungen in Bezug auf die Mechanik werden empfohlen:
 
@@ -36,7 +40,7 @@ Folgende Überlegungen in Bezug auf die Mechanik werden empfohlen:
 * Kabelmanagement
 * Gerätenetzwerk
 
-## 2. Software-Aspekte {#software-considerations}
+## &#x200B;2. Überlegungen zur Software {#software-considerations}
 
 Folgende Überlegungen in Bezug auf die Software werden empfohlen:
 
@@ -46,7 +50,7 @@ Folgende Überlegungen in Bezug auf die Software werden empfohlen:
 * Datenbankabhängigkeiten (zuvor definiert)
 
 
-## 3. Geräteverwaltungsaspekte {#device-management-considerations}
+## &#x200B;3. Überlegungen zur Geräteverwaltung {#device-management-considerations}
 
 AEM Screens enthält das Modul „Geräte-Kontrollzentrum“, das die Verwaltung von Screens Player-Anwendungsendpunkten ermöglicht.
 

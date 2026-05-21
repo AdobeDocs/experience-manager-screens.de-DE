@@ -5,10 +5,15 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 3db8241d-03ed-4c87-bd3e-0ead2b44ae50
-source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
+TQID: https://experienceleague.adobe.com/bbQW2pnyxEfjm8d5SveI-CGuQN5RZCVmDt35iK3Ysxs
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 96%
+source-wordcount: 579
+ht-degree: 100%
 
 ---
 
@@ -26,7 +31,7 @@ Informationen zur Konfiguration und Erstellung Ihres Experience Manager Screens-
 
 Experience Manager Screens ist eine leistungsstarke Web-basierte Lösung, mit der Sie spezielle digitale Menütafeln, Produktempfehlungen und Lifestyle-Hintergrundbilder erstellen können, um die Kundeninteraktion zu verbessern. Es hilft Ihnen, einheitliche und hilfreiche Markenerlebnisse an physischen Orten wie Geschäften, Hotels, Banken, Gesundheits- und Bildungseinrichtungen und vielen anderen zu schaffen – und zwar über dieselbe Experience Manager-Plattform. Screens bietet viele einzigartige Anwendungen. Zum Beispiel interaktive Anzeigen, Orientierungssysteme und Branding. Zusätzlich kann je nach Bereitstellungs-Domain eine bestimmte Atmosphäre für Kundinnen und Kunden sowie Mitarbeiter geschaffen werden.
 
-Das Erstellen und Verwalten einer Anwendung mithilfe von Experience Manager Screens ist einfach und intuitiv. Eine *Anwendung* hostet Web-Seiten, die von Kunden oder Implementierungspartnern für Experience Manager Screens erstellt wurden. *Standorte* vordefinierte Hierarchien verwalten und (*)*. Jedes Display verfügt über ein Dashboard, in dem unterschiedliche angeschlossene Geräte und Bildschirme angezeigt werden. Inhalte für Experience Manager Screens werden in *Kanälen* organisiert. Mit dem Experience Manager Screens-Player wird der auf Kanälen vorhandene Inhalt auf Displays dargestellt.
+Das Erstellen und Verwalten einer Anwendung mithilfe von Experience Manager Screens ist einfach und intuitiv. Ein *Programm* hostet die Web-Seiten, die von Kunden und Kundinnen oder Implementierungspartnern und -Partnerinnen für Experience Manager Screens erstellt wurden. *Speicherorte* verwalten vordefinierte Hierarchien und enthalten *Anzeigen*. Jedes Display verfügt über ein Dashboard, in dem unterschiedliche angeschlossene Geräte und Bildschirme angezeigt werden. Inhalte für Experience Manager Screens werden in *Kanälen* organisiert. Mit dem Experience Manager Screens-Player wird der auf Kanälen vorhandene Inhalt auf Displays dargestellt.
 
 Die Schlüsselbegriffe in Zusammenhang mit Experience Manager Screens werden im [Glossar](screens-glossary.md) erklärt.
 
@@ -57,7 +62,7 @@ In der folgenden Abbildung werden die beteiligten Personen und ihre Rollen für 
 
 * **Tutorial zu den Grundlagen der Implementierung**
 
-  Folgen Sie dem geführten Lernpfad **[Grundlagen der Implementierung von Experience Manager Screens](https://experienceleague.adobe.com/de?launch=AEM-7a&lang=de)**, in dem grundlegende und erweiterte Funktionen von Experience Manager Screens behandelt werden.
+  Folgen Sie dem geführten Lernpfad **[Grundlagen der Implementierung von Experience Manager Screens](https://experienceleague.adobe.com/?launch=AEM-7a&lang=de)**, in dem grundlegende und erweiterte Funktionen von Experience Manager Screens behandelt werden.
 
 * **Handbuch mit Best Practices für Experience Manager Screens-Projekte**
 

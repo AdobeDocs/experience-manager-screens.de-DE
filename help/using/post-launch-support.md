@@ -2,9 +2,12 @@
 title: Post-Launch-Support
 description: Weitere Informationen zum Post-Launch-Support für AEM Screens finden Sie im Best-Practices-Handbuch.
 exl-id: cd7442ed-52a4-43d2-adc7-f643f4f16581
-source-git-commit: d8351a35fad108c47c7a9fdfddfb62f91dec8c2c
+TQID: https://experienceleague.adobe.com/PrdfsEIOJySNyu7GvWpOptg-AkyP-HFkxrbnMbJKaho
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: 390
 ht-degree: 99%
 
 ---
@@ -39,7 +42,7 @@ Einige Überlegungen und Fragen, die Ihnen bei der Definition von Post-Launch-Su
  
    >[!NOTE]
    >
-   >Erfordert kürzere Auflösungszeiten im Vergleich zu einem Netzwerk für Unternehmenskommunikation. 
+   >Erfordert kürzere Auflösungszeiten im Vergleich zu einem Netzwerk für Unternehmenskommunikation.
 
 1. Weist die Anwendung eine hohe Sichtbarkeit für die Führungsebene auf Endkundenseite auf?
 

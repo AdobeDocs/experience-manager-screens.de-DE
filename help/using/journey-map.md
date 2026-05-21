@@ -2,9 +2,12 @@
 title: Journey Map
 description: Erfahren Sie mehr über Journey Map für AEM Screens.
 exl-id: 23c368aa-5c5e-4bc8-802f-6ff53ec9e63a
-source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
+TQID: https://experienceleague.adobe.com/0nsSBxEy-LN9JRQwmUDvijGZthdcWfv40HCH4QtykiM
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: 273
 ht-degree: 100%
 
 ---
@@ -23,7 +26,7 @@ Genaue Informationen dazu, wie Verbraucherinnen und Verbraucher in einem physisc
 
 Die UX Journey Map ist eine gute Möglichkeit, um zu visualisieren, wie sich Besucherinnen und Besucher durch einen physischen Raum bewegen und auf welche Elemente sie stoßen können. Sie hilft auch dabei, zu veranschaulichen, wie das vom Netzwerk bereitgestellte digitale Erlebnis Lücken in der Journey insgesamt schließen kann.
 
-In dieser Projektphase können Sie Optionen und Abhängigkeiten für dynamische oder interaktive Inhalte definieren, damit Sie diese später als Prototypen verwenden können.  Zu solchen Optionen zählt ein Storyboard für alle Interaktionen, Datenauslöser oder Schleifensegmente, die das Netzwerk bereitstellt, zusammen mit den in der Strategiebeschreibung definierten KPIs.
+In dieser Projektphase können Sie Optionen und Abhängigkeiten für dynamische oder interaktive Inhalte definieren, damit Sie diese später als Prototypen verwenden können. Zu solchen Optionen zählt ein Storyboard für alle Interaktionen, Datenauslöser oder Schleifensegmente, die das Netzwerk bereitstellt, zusammen mit den in der Strategiebeschreibung definierten KPIs.
 
 Lassen Sie Projektleitende und wichtige Stakeholder mit der Platzierung digitaler Elemente entlang von Teilen der Store-Journey experimentieren. Lassen Sie sie die digitalen Erlebnisse beobachten, die bereitgestellt werden.
 
