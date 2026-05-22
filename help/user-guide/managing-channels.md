@@ -5,10 +5,26 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+TQID: https://experienceleague.adobe.com/tMZVrwGVdqEg0NbOKvBMO5-dKLG1k1kiNT8E8xU9msc
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2:
+  - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1250'
-ht-degree: 100%
+source-wordcount: 1256
+ht-degree: 98%
 
 ---
 
@@ -27,7 +43,7 @@ Auf dieser Seite wird gezeigt, wie Kanäle für AEM Screens erstellt und verwalt
 
 Nachdem Sie Ihr Projekt für AEM Screens erstellt haben, gehen Sie wie folgt vor, um einen Kanal für Ihr Projekt zu erstellen:
 
-1. Klicken Sie auf den Link zu Adobe Experience Manager (oben links) und dann auf „Screens“.  Sie haben alternativ die Möglichkeit, direkt zur folgenden URL zu wechseln: `https://localhost:4502/screens.html/content/screens`.
+1. Klicken Sie auf den Link zu Adobe Experience Manager (oben links) und dann auf „Screens“. Sie haben alternativ die Möglichkeit, direkt zur folgenden URL zu wechseln: `https://localhost:4502/screens.html/content/screens`.
 
 1. Navigieren Sie zu Ihrem Screens-Projekt und klicken Sie auf den Ordner **Kanäle**.
 
@@ -117,7 +133,7 @@ Gehen Sie wie folgt vor, um Videos in Ihren Kanal hochzuladen:
 
 Im Bedienfeld „Kanalinformationen“ werden die Kanaleigenschaften zusammen mit der Kanalvorschau beschrieben. Darüber hinaus finden Sie dort Informationen dazu, ob der Kanal offline oder online ist.
 
-Klicken Sie in der in Aktionsleiste **KANALINFORMATIONEN** auf (**...**), um Eigenschaften anzuzeigen, Inhalt zu bearbeiten oder den Cache (Offline-Inhalt) für den Kanal zu aktualisieren.
+Klicken Sie auf (**…**) über die **KANALINFORMATIONEN** Aktionsleiste, damit Sie Eigenschaften anzeigen, den Inhalt bearbeiten oder den Cache (Offline-Inhalt) für den Kanal aktualisieren können.
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
 
@@ -245,7 +261,7 @@ Außerdem können Sie auf die Anzeige im Bedienfeld **ZUGEWIESENE ANZEIGEN** kli
 
 ### Die nächsten Schritte {#the-next-steps}
 
-Der nächste Schritt nach dem Erstellen eines Kanals und dem Hinzufügen/Bearbeiten von Inhalt in Ihrem Kanal ist das Erstellen eines Orts und einer Anzeige.  Schließlich muss dieser Anzeige dann noch ein Kanal zugewiesen werden.
+Der nächste Schritt nach dem Erstellen eines Kanals und dem Hinzufügen/Bearbeiten von Inhalt in Ihrem Kanal ist das Erstellen eines Orts und einer Anzeige. Schließlich muss dieser Anzeige dann noch ein Kanal zugewiesen werden.
 
 Informationen zu den nächsten Schritten finden Sie in den folgenden Ressourcen:
 

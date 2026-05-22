@@ -8,9 +8,19 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
-source-git-commit: 1343b7d03c2ab8d24198547c5029ff47c54f3e7d
+TQID: https://experienceleague.adobe.com/cqLg9YgSbzZMZ9q0C1ZheiZ-e3cN38EI69hL-l7Tgeg
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: 909
 ht-degree: 99%
 
 ---
@@ -44,7 +54,7 @@ Die Installation des Cloud-Players kann auf verschiedenen Plattformen variieren.
 >
 >### Cloud-Player-Installationsoption {#cloud-player-install-option}
 >
->1. Die Installationsoption für eine PWA wird auch als A2HS-Funktion („Add to Home Screen = Zum Startbildschirm hinzufügen“) bezeichnet.  Die Unterstützung für die Installation von PWAs über das Internet variiert je nach Browser und Plattform.
+>1. Die Installationsoption für eine PWA wird auch als A2HS-Funktion („Add to Home Screen = Zum Startbildschirm hinzufügen“) bezeichnet. Die Unterstützung für die Installation von PWAs über das Internet variiert je nach Browser und Plattform.
 >1. Jeder Browser hat unterschiedliche Kriterien, um zu überprüfen, ob die PWA-App installiert ist oder nicht. In der Regel kann der Browser Folgendes überprüfen (weitere Details finden Sie hier):
 >
 >    * Ob die Anwendung über eine Manifest-JSON-Datei mit minimalen erforderlichen Schlüsseln für die Installation der Anwendung auf der Plattform verfügt, d. h. Name, Symbole, start_url, Anzeige.
@@ -67,15 +77,15 @@ Massenbereitstellung des Cloud-Players auf mehreren Geräten:
 
 ## Massenbereitstellung unter Chrome OS {#bulk-provisioning-chrome}
 
-Erfahren Sie mehr über die Massenbereitstellung unter Chrome OS. Siehe [Installieren des Cloud-Players unter dem Betriebssystem Chrome](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/chromeos-install-cloud-player). <!-- `https://www.adobe.com/go/aem_screens_cloud_player_de` -->
+Erfahren Sie mehr über die Massenbereitstellung unter Chrome OS. Siehe [Installieren des Cloud-Players unter dem Betriebssystem Chrome](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/chromeos-install-cloud-player). <!-- `https://www.adobe.com/go/aem_screens_cloud_player_en` -->
 
 ## Erforderliche Konfiguration für AEM-Instanzen {#bulk-provisioning-config-aem}
 
 Klicken Sie je nach Typ der AEM-Instanz auf eines der folgenden Handbücher, um CORS zwischen AEM und dem Cloud-Player zu aktivieren:
 
-* [AEM On-Premises/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams) <!-- `https://www.adobe.com/go/aem_screens_cors_ams_de` -->
+* [AEM On-Premises/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams) <!-- `https://www.adobe.com/go/aem_screens_cors_ams_en` -->
 
-* [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs) <!-- `https://www.adobe.com/go/aem_screens_cors_aemaacs_de` -->
+* [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs) <!-- `https://www.adobe.com/go/aem_screens_cors_aemaacs_en` -->
 
 
 >[!NOTE]
@@ -92,7 +102,7 @@ Klicken Sie je nach Typ der AEM-Instanz auf eines der folgenden Handbücher, um 
 
 ## Offline-Unterstützung für Abruf von externen Inhalten {#offline-support}
 
-In verschiedenen Nutzungsszenarien erfordern Kanäle möglicherweise das Abrufen von Inhalten aus einer externen Quelle (z. B. Wetter-Widgets oder Commerce-integrierte Single Page Applications), die grundsätzlich keine Offline-Unterstützung bieten können.  Um Offline-Funktionen für diese spezifischen Anwendungsfälle zu aktivieren, bietet der Cloud-Player Unterstützung für benutzerdefinierte Kopfzeilen.
+In verschiedenen Nutzungsszenarien erfordern Kanäle möglicherweise das Abrufen von Inhalten aus einer externen Quelle (z. B. Wetter-Widgets oder Commerce-integrierte Single Page Applications), die grundsätzlich keine Offline-Unterstützung bieten können. Um Offline-Funktionen für diese spezifischen Anwendungsfälle zu aktivieren, bietet der Cloud-Player Unterstützung für benutzerdefinierte Kopfzeilen.
 
 Der Cloud-Player nutzt eine „Network First“-Cache-Strategie. Das bedeutet, dass versucht wird, Inhalte aus dem Netzwerk abzurufen (und dann den Cache mit den neuesten Inhalten zu aktualisieren), wobei auf den zwischengespeicherten Inhalt zurückgegriffen wird, sofern verfügbar. Um die Offline-Unterstützung für ein solches Abrufen von Inhalten zu implementieren, muss die benutzerdefinierte Kopfzeile in die Anfrage aufgenommen werden. Anschließend wird die Anfrage mit der benutzerdefinierten Kopfzeile auf dem Player zwischengespeichert, was den Offline-Zugriff auf den Inhalt erleichtert und gleichzeitig die Network First-Cache-Strategie aufrechterhält.
 

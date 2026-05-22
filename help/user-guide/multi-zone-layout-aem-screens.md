@@ -10,10 +10,25 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+TQID: https://experienceleague.adobe.com/IkYpLkG1zlxS5-YmCsyXLryXc7AsnZmuHj66Dh7NJSc
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2:
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 100%
+source-wordcount: 1168
+ht-degree: 99%
 
 ---
 
@@ -41,7 +56,7 @@ Abhängig von den Projektanforderungen sind ggf. mehrere Bereiche in einem Kanal
 Bevor Sie mit der Implementierung dieser Funktionalität beginnen, vergewissern Sie sich, dass Sie mit folgenden Themen vertraut sind:
 
 * [Erstellen eines AEM Screens-Projekts](https://experienceleague.adobe.com/de/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
-* [Erstellen einer Anzeige](https://experienceleague.adobe.com/de/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
+* [Erstellen eines Displays](https://experienceleague.adobe.com/de/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
 * [Zuweisen eines Kanals zu einem Display](/help/user-guide/channel-assignment.md)
 
 ## Erstellen eines Mehrzonen-Layouts {#creating-multi-zone-layout}
@@ -146,7 +161,7 @@ Weisen Sie die Kanäle dem Display zu, um den Inhalt anzuzeigen. Gehen Sie wie f
    1. Navigieren Sie zu **Zonen** > **Standorte** > **SanJose** > **Lobby**.
    1. Klicken Sie auf die Anzeige **Lobby** und dann in der Aktionsleiste auf **Kanal zuweisen**.
    1. Geben Sie den Pfad zum Kanal **MultiZone** unter **Kanalpfad** ein.
-   1. Wählen Sie unter **Unterstützte Ereignisse** die Optionen **Erster Ladevorgang**, **Bildschirm bei Untätigkeit** und **Benutzerinteraktion**.
+   1. Wählen Sie unter **Unterstützte Ereignisse** die Optionen **Erster Ladevorgang**, **Bildschirm bei Untätigkeit** und **Timer**.
    1. Klicken Sie auf **Speichern**.
 
       ![image](/help/user-guide/assets/multi-zone/multizone-img9.png)

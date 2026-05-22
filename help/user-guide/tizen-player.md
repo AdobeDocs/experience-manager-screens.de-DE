@@ -5,10 +5,20 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/IpBm16TbDD5MoD6p3BU4vPcmatz5dCpkc-dStlr6hI8
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 96%
+source-wordcount: 1224
+ht-degree: 93%
 
 ---
 
@@ -75,7 +85,7 @@ Führen Sie die folgenden Schritte auf dem Samsung-Gerät aus, um die Installati
 >[!IMPORTANT]
 >**Dieser Abschnitt gilt für Adobe Experience Manager (AEM) 6.5.5 bis AEM 6.5.7**
 >
->Es gibt einige Browser-Engines, die mit dem Attribut *`SameSite=None`*, das im von AEM 6.5 bis AEM 6.7 herausgegebenen Anmelde-Token verwendet wird, inkompatibel sind. In den meisten Fällen kann das Problem durch eine Aktualisierung des Browsers auf die neueste verfügbare Version behoben werden. Manchmal sind solche Aktualisierungen möglicherweise nicht möglich, z. B. bei intelligenten Displays, Set-Top-Boxen oder anderen Geräten mit eingebetteten Browsing-Engines.
+>Es gibt einige Browser-Engines, die mit dem *`SameSite=None`*-Attribut inkompatibel sind, das im von AEM 6.5.5 bis AEM 6.5.7 herausgegebenen Anmelde-Token verwendet wird. Normalerweise lässt sich das Problem beheben, indem der Browser auf die neueste verfügbare Version aktualisiert wird. Manchmal sind solche Aktualisierungen möglicherweise nicht möglich, z. B. bei intelligenten Displays, Set-Top-Boxen oder anderen Geräten mit eingebetteten Browsing-Engines.
 
 Gehen Sie wie folgt vor, um diese inkompatiblen Clients auszuschließen, wenn Sie *SameSite=None* verwenden:
 
@@ -119,7 +129,7 @@ In der folgenden Tabelle sind die Richtlinien und deren Funktionen aufgeführt.
 
 >[!NOTE]
 >Die Richtlinienkonfigurationen der Administrator-Benutzeroberfläche des Players werden streng durchgesetzt und können nicht manuell überschrieben werden. Um eine manuelle Player-Konfiguration für eine bestimmte Richtlinie zuzulassen, geben Sie die Richtlinie nicht in der Richtlinienkonfiguration an.
->&#x200B;>Wenn Sie beispielsweise eine manuelle Konfiguration für den Neustart-Zeitplan zulassen möchten, geben Sie den Schlüssel `rebootSchedule` nicht in der Richtlinienkonfiguration an. Richtlinienkonfigurationen werden jedes Mal gelesen, wenn der Player neu geladen wird.
+>Wenn Sie beispielsweise eine manuelle Konfiguration für den Neustart-Zeitplan zulassen möchten, geben Sie den Schlüssel `rebootSchedule` nicht in der Richtlinienkonfiguration an. Richtlinienkonfigurationen werden jedes Mal gelesen, wenn der Player neu geladen wird.
 
 | **Richtlinienname** | **Zweck** |
 |---|---|
@@ -155,7 +165,7 @@ Führen Sie die folgenden Schritte aus, um das Tizen-Gerät beim Samsung Remote 
 
    >![Bild](/help/user-guide/assets/tizen/rms-7.png)
 
-1. Wenn das Gerät genehmigt wurde, wird es in der Geräteliste angezeigt.  Klicken Sie auf Ihrem Gerät auf *Informationen*, wie in der folgenden Abbildung dargestellt.
+1. Wenn das Gerät genehmigt wurde, wird es in der Geräteliste angezeigt. Klicken Sie auf Ihrem Gerät auf *Informationen*, wie in der folgenden Abbildung dargestellt.
 
    >![Bild](/help/user-guide/assets/tizen/rms-6.png)
 

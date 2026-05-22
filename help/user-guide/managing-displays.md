@@ -9,10 +9,24 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/orHLShhCxLB8T9Dm8Vvihvy7GNGrmJQZt8toCPs5c3k
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2:
+  - id: d8e42837-75d7-4e4e-accd-d0cdd8efe1f4
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 98%
+source-wordcount: 664
+ht-degree: 92%
 
 ---
 
@@ -35,7 +49,7 @@ Auf dieser Seite wird gezeigt, wie Anzeigen für Screens erstellt und verwaltet 
 
 >[!NOTE]
 >
->Erstellen Sie einen Standort, bevor Sie eine Anzeige erstellen.  Weitere Informationen finden Sie unter [Erstellen und Verwalten von Standorten](managing-locations.md).
+>Erstellen Sie einen Standort, bevor Sie eine Anzeige erstellen. Weitere Informationen finden Sie unter [Erstellen und Verwalten von Standorten](managing-locations.md).
 
 1. Navigieren Sie zum entsprechenden Standort, z. B. `http://localhost:4502/screens.html/content/screens/TestProject`.
 1. Wählen Sie Ihren Standortordner und klicken Sie neben dem Pluszeichen in der Aktionsleiste auf **Erstellen**.
@@ -80,7 +94,7 @@ Die Gerätekonfiguration wird erstellt und der aktuellen Anzeige hinzugefügt. (
 >
 >Wie in der folgenden Abbildung gezeigt, wird die Gerätekonfiguration im Bedienfeld **GERÄTE** als nicht zugewiesen angezeigt, wenn der Gerätekonfiguration kein Kanal zugewiesen ist.
 >
->Sie sollten Vorkenntnisse im Erstellen und Verwalten von Kanälen haben.  Weitere Informationen finden Sie unter [Erstellen und Verwalten von Kanälen](managing-channels.md).
+>Sie sollten Vorkenntnisse im Erstellen und Verwalten von Kanälen haben. Weitere Informationen finden Sie unter [Erstellen und Verwalten von Kanälen](managing-channels.md).
 
 ![chlimage_1-9](assets/chlimage_1-9.png)
 
@@ -102,7 +116,7 @@ Das Anzeigen-Dashboard bietet verschiedene Bedienfelder zum Verwalten von Anzeig
 
 Im Bedienfeld **ANZEIGEINFORMATIONEN** werden die Anzeigeeigenschaften angezeigt.
 
-Klicken Sie oben rechts im Bedienfeld **ANZEIGEINFORMATIONEN** auf die Auslassungspunkte (**...**), um die Eigenschaften der Anzeige anzuzeigen und die Anzeige in einer Vorschau darzustellen.
+Klicken (**…**) in der oberen rechten Ecke des Bedienfelds **ANZEIGEINFORMATIONEN**, damit Sie die Eigenschaften anzeigen und eine Vorschau der Anzeige anzeigen können.
 
 
 #### Anzeigen von Eigenschaften {#viewing-properties}
@@ -123,7 +137,7 @@ Das Bedienfeld **ZUGEWIESENE KANÄLE** zeigt die zugewiesenen Kanäle des Gerät
 
 Das Bedienfeld **GERÄTE** bietet Informationen zu den Gerätekonfigurationen.
 
-Klicken Sie oben rechts im Bedienfeld **GERÄTE** auf die Auslassungspunkte (**…**), um Gerätekonfigurationen hinzuzufügen und Geräte zu aktualisieren.
+Klicken (**…**) in der oberen rechten Ecke im Bedienfeld **GERÄTE**, sodass Sie Gerätekonfigurationen hinzufügen und Geräte aktualisieren können.
 
 Zudem können Sie auf die Gerätekonfiguration klicken, um Eigenschaften anzuzeigen, ein Gerät zuzuweisen oder ein Gerät komplett zu löschen.
 

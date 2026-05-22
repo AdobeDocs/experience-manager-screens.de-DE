@@ -5,10 +5,22 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
+TQID: https://experienceleague.adobe.com/qKfWLBvyu49vxRvNfsV1oliOGVgxyEum5wmjbIdSEeI
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 100%
+source-wordcount: 662
+ht-degree: 95%
 
 ---
 
@@ -127,11 +139,11 @@ Um den Cache für die Assets zu aktivieren, damit die Assets aus dem Dispatcher-
     }
 ```
 
-## Konfigurieren von Dispatcher für die Manifest-Version v3 {#configuring-dispatcherv3}
+## Konfigurieren von Dispatcher für die Manifest-Version v3{#configuring-dispatcherv3}
 
 Stellen Sie sicher, dass diese Filter und Cache-Regeln in Dispatchern von Veröffentlichungsinstanzen zugelassen sind, damit Screens funktioniert.
 
-### Voraussetzungen für die Manifest-Version v3 {#prerequisites3}
+### Voraussetzungen für die Manifest-Version v3{#prerequisites3}
 
 Achten Sie darauf, dass diese beiden Voraussetzungen erfüllt sind, bevor Sie einen Dispatcher (Manifest-Version v3) für AEM Screens konfigurieren:
 
@@ -141,7 +153,7 @@ Achten Sie darauf, dass diese beiden Voraussetzungen erfüllt sind, bevor Sie ei
 
   ![image](/help/user-guide/assets/dispatcher/dispatcher-1.png)
 
-  ![Bild](/help/user-guide/assets/dispatcher/dispatcher-3.png)
+  ![image](/help/user-guide/assets/dispatcher/dispatcher-3.png)
 
 ### Filter {#filter-v3}
 
@@ -175,8 +187,8 @@ Achten Sie darauf, dass diese beiden Voraussetzungen erfüllt sind, bevor Sie ei
 
 * Alle AEM Screens-Player verwenden eine authentifizierte Sitzung, um eine Verbindung zu AEM (Author/Publish) herzustellen. Da ein vorkonfigurierter Dispatcher diese URLs nicht zwischenspeichert, sollten Sie diese aktivieren.
 
-* Fügen Sie `statfileslevel "10"` zum Abschnitt `/cache` in `publish_farm.any` hinzu.
-Dies unterstützt das Caching von bis zu 10 Ebenen aus dem Cache-Basisverzeichnis und die entsprechende Invalidierung bei der Veröffentlichung von Inhalten, anstatt alles zu invalidieren. Sie können diese Ebene ändern, je nachdem, wie tief Ihre Inhaltsstruktur ist.
+* Hinzufügen von `statfileslevel "10"` zu `/cache` Abschnitt in `publish_farm.any`
+Diese Regel unterstützt die Zwischenspeicherung von bis zu zehn Ebenen aus dem Cache-Stamm und die entsprechende Invalidierung bei der Veröffentlichung von Inhalten, anstatt alles zu invalidieren. Sie können diese Ebene ändern, je nachdem, wie tief Ihre Inhaltsstruktur ist.
 
 * Hinzufügen von Folgendem zu `/invalidate section in publish_farm.any`
 

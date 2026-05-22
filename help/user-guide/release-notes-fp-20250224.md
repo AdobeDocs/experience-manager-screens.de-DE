@@ -5,10 +5,18 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: dc47ec1b-77f4-43e8-a6d4-2cbbc2133b4a
-source-git-commit: 4828cf78d1ca81f0dd6f2cb1b82fd34afd93a672
+TQID: https://experienceleague.adobe.com/xfjgklpXS0JAZpsKEImcl5TsVlsxMjJRKHRakdRgrOM
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 48%
+source-wordcount: 192
+ht-degree: 54%
 
 ---
 
@@ -16,14 +24,14 @@ ht-degree: 48%
 
 >[!CAUTION]
 >Adobe empfiehlt, ein Upgrade auf die neueste Version (6.5) von Adobe Experience Manager (AEM 6.5) durchzuführen. Die neuesten Versionsinformationen finden sich [hier](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/release-notes/release-notes).
->&#x200B;>Feature Pack (FP) Version 11.5 ist bis Version 21 mit Service Pack (SP) kompatibel.
+>Feature Pack (FP) Version 11.5 ist bis Version 21 mit Service Pack (SP) kompatibel.
 
 
 ## Verfügbarkeit {#availability}
 
 Das AEM 6.5 Feature Pack 11,5 wurde für AEM Screens veröffentlicht.
 
-Das neueste Feature Pack für AEM Screens Adobe ID 6.5.11.5 steht auf dem [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/de/aem.html) zum Download zur Verfügung. Navigieren Sie zur Registerkarte **Adobe Experience Manager** und suchen Sie nach **Screens**, um das neueste Feature Pack mit dem Namen **AEM 6.5 Screens FP11.5&rbrace;**.
+Das neueste Feature Pack für AEM Screens 6.5.11.5 steht auf dem [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/de/aem.html) zum Download zur Verfügung. Navigieren Sie zur Registerkarte **Adobe Experience Manager** und suchen Sie nach **Screens**, um das neueste Feature Pack mit dem Namen **AEM 6.5 Screens FP11.5&rbrace;**.
 
 ## Veröffentlichungsdatum {#release-date}
 

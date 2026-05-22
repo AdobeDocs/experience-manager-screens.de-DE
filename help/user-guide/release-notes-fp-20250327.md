@@ -5,10 +5,18 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 11e7ecb3-e853-452a-9f69-2249ad0b40b7
-source-git-commit: 4828cf78d1ca81f0dd6f2cb1b82fd34afd93a672
+TQID: https://experienceleague.adobe.com/B2rcoQaYnCjZ-YidyuREEoPv6H0zGW3ufiwP4lnkt1A
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 37%
+source-wordcount: 243
+ht-degree: 43%
 
 ---
 
@@ -16,13 +24,13 @@ ht-degree: 37%
 
 >[!CAUTION]
 >Adobe empfiehlt, ein Upgrade auf die neueste Version (6.5) von Adobe Experience Manager (AEM 6.5) durchzuführen. Die neuesten Versionsinformationen finden sich [hier](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/release-notes/release-notes).
->&#x200B;>Verwenden Sie FP11.6 mit SP(servicepack) Version 22 oder höher.
+>Verwenden Sie FP11.6 mit SP(servicepack) Version 22 oder höher.
 
 ## Verfügbarkeit {#availability}
 
 Das AEM 6.5 Feature Pack 11,6 wurde für AEM Screens veröffentlicht.
 
-Das neueste Feature Pack für AEM Screens Adobe ID 6.5.11.6 steht auf dem [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/de/aem.html) zum Download zur Verfügung. Navigieren Sie zur Registerkarte **Adobe Experience Manager** und suchen Sie nach **Screens**, um das neueste Feature Pack mit dem Namen **AEM 6.5 Screens FP11.6&rbrace;**.
+Das neueste Feature Pack für AEM Screens 6.5.11.6 steht auf dem [Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/de/aem.html) zum Download zur Verfügung. Navigieren Sie zur Registerkarte **Adobe Experience Manager** und suchen Sie nach **Screens**, um das neueste Feature Pack mit dem Namen **AEM 6.5 Screens FP11.6&rbrace;**.
 
 ## Veröffentlichungsdatum {#release-date}
 

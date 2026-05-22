@@ -6,10 +6,23 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+TQID: https://experienceleague.adobe.com/iK5EH0E-vKteNer-Dr0mDRaJke4OTmJr9JQfwTaqAt4
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2:
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 100%
+source-wordcount: 626
+ht-degree: 83%
 
 ---
 
@@ -21,7 +34,7 @@ Auf der folgenden Seite finden Sie einen Anwendungsfall zur Projekteinrichtung, 
 
 In diesem Anwendungsfall wird erläutert, wie Sie einen Kanal erstellen, der die Funktion des normalerweise zur Wiedergabe verwendeten Kanals für eine Anzeige oder eine Gruppe von Anzeigen *übernimmt*. Die Übernahme erfolgt nur einmal und für eine bestimmte Zeit.
 
-Beispielsweise gibt es einen Übernahmekanal für die einmalige Verwendung, der Inhalte von Freitag 9:00 bis 10:00 Uhr wiedergibt. Während dieser Zeit sollte kein anderer Kanal zur Wiedergabe verwendet werden. Vor und nach dieser Zeit erfolgt keine Wiedergabe über den Übernahmekanal für die einmalige Verwendung. Das folgende Beispiel zeigt die Erstellung eines Übernahmekanals für die einmalige Verwendung, der es ermöglicht, den Inhalt am 31. Dezember von 2 Minuten vor Mitternacht bis 00:01 Uhr wiederzugeben.
+Zum Beispiel gibt es einen einzelnen TakeOver-Kanal, der am Freitag, :00 Uhr bis 10 Uhr :00 wird. Während dieser Zeit sollte kein anderer Kanal abgespielt werden. Vor und nach dieser Zeit erfolgt keine Wiedergabe über den Übernahmekanal für die einmalige Verwendung. Das folgende Beispiel zeigt die Erstellung eines einzigen Übernahmekanals, in dem der Inhalt 2 Minuten vor 12 :00 Uhr am 31. Dezember bis 12 Uhr :01 wiedergegeben werden kann.
 
 ### Voraussetzungen {#preconditions}
 
@@ -62,7 +75,7 @@ Gehen Sie wie folgt vor, um ein Projekt einzurichten:
 
 1. Erstellen Sie einen Kanal **TakeOver**, der den Inhalt des Kanals **MainAdChannel** übernimmt und diesen nur einmal an einem bestimmten Tag und zu einer bestimmten Uhrzeit wiedergibt.
 
-1. Klicken Sie auf den Kanal **TakeOver** und dann in der Aktionsleiste auf **Bearbeiten**. Ziehen Sie einige Assets in Ihren Kanal. Im folgenden Beispiel wird gezeigt, wie Sie diesem Kanal ein Bild für eine Einzelzone hinzufügen.
+1. Wählen Sie den Kanal **TakeOver** aus und klicken Sie in der Aktionsleiste auf **Bearbeiten**. Ziehen Sie einige Assets in Ihren Kanal. Im folgenden Beispiel wird gezeigt, wie Sie diesem Kanal ein Bild für eine Einzelzone hinzufügen.
 
    ![Asset](assets/single-takeover4.png)
 
@@ -72,7 +85,7 @@ Gehen Sie wie folgt vor, um ein Projekt einzurichten:
 
 **Zuweisen von Kanälen zu einer Anzeige**
 
-1. Klicken Sie auf die Anzeige **MainLobbyDisplay** aus dem Ordner **Standorte**. Klicken Sie in der Aktionsleiste auf **Kanal zuweisen**.
+1. Wählen Sie die Anzeige **MainLobbyDisplay** aus dem Ordner **Standorte** aus. Klicken Sie in der Aktionsleiste auf **Kanal zuweisen**.
 
    ![Asset](assets/single-takeover6.png)
 
@@ -83,7 +96,7 @@ Gehen Sie wie folgt vor, um ein Projekt einzurichten:
 
    ![Asset](assets/single-takeover7.png)
 
-1. Klicken Sie auf die Anzeige **TakeOver** aus dem Ordner **Standorte**. Klicken Sie in der Aktionsleiste auf **Kanal zuweisen**, um den Übernahmekanal für die einmalige Verwendung zuzuweisen.
+1. Wählen Sie die Anzeige **TakeOver** aus dem Ordner **Standorte** aus. Klicken Sie in der Aktionsleiste auf **Kanal zuweisen**, um den Übernahmekanal für die einmalige Verwendung zuzuweisen.
 
 1. Weisen Sie den Kanal **TakeOver** Ihrer Anzeige zu einem geplanten Zeitpunkt zu, füllen Sie die folgenden Felder im Dialogfeld **Kanalzuweisung** aus und klicken Sie auf **Speichern**:
 
@@ -93,12 +106,12 @@ Gehen Sie wie folgt vor, um ein Projekt einzurichten:
      >[!NOTE]
      >Die Priorität kann ein beliebiger Wert sein, der höher als die Priorität des normalerweise zur Wiedergabe verwendeten Kanals ist.
    * **Unterstützte Ereignisse**: Klicken Sie auf **Bildschirm bei Untätigkeit** und **Timer**.
-   * **Zeitplan**: Geben Sie den Text für den Zeitplan ein, nach dem dieser Kanal in der Anzeige ausgeführt werden soll. Der Text hier ermöglicht es beispielsweise, den Inhalt am 31. Dezember von 2 Minuten vor Mitternacht bis 00:01 Uhr wiederzugeben.
-Der Text im **Zeitplan** in diesem Beispiel gibt den *31. Dezember nach 23:58 Uhr sowie am 1. Januar vor 00:01 Uhr* als Zeitpunkte an.
+   * **Zeitplan**: Geben Sie den Text für den Zeitplan ein, nach dem dieser Kanal in der Anzeige ausgeführt werden soll. Beispielsweise ermöglicht der Text hier die Wiedergabe des Inhalts 2 Minuten vor 12 :00 am 31. Dezember bis 12 :01 Uhr morgens.
+Der Text im **Zeitplan** in diesem Beispiel ist *am 31. Dezember nach dem 23:58 und auch am 1. Januar vor 00.01*.
 
      ![Asset](assets/single-takeover8.png)
 
-     Navigieren Sie mit **SingleUseTakeOver** > **Standorte** > **Lobby** > **MainLobbyDisplay** zur Anzeige.  Klicken Sie in der Aktionsleiste auf **Dashboard**, um die zugewiesenen Kanäle mit ihren Prioritäten anzuzeigen, wie unten dargestellt.
+     Navigieren Sie mit **SingleUseTakeOver** > **Standorte** > **Lobby** > **MainLobbyDisplay** zur Anzeige. Klicken Sie in der Aktionsleiste auf **Dashboard**, um die zugewiesenen Kanäle mit ihren Prioritäten anzuzeigen, wie unten dargestellt.
 
      >[!NOTE]
      >Es ist zwingend erforderlich, die Priorität des Übernahmekanals auf die höchste Stufe zu setzen.

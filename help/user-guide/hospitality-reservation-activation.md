@@ -10,10 +10,27 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+TQID: https://experienceleague.adobe.com/WwFvV7ZVDRUPpsXWQUKYkz6-gmEjBcpkApcHxzx5vII
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+  - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+subfeature_v2:
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 100%
+source-wordcount: 453
+ht-degree: 97%
 
 ---
 
@@ -70,10 +87,10 @@ Gehen Sie wie folgt vor, um den Anwendungsfall für die reservierungsgesteuerte 
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
-1. Klicken Sie im Editor auf **Targeting**, danach auf **Marke** und die **Aktivität** aus dem Dropdown-Menü, und klicken Sie dann auf **Targeting starten**.
+1. Klicken Sie im Editor auf **Targeting**, wählen Sie danach die **Marke** und die **Aktivität** aus dem Dropdown-Menü und klicken Sie auf **Targeting starten**.
 1. **Überprüfen der Vorschau**
 
-   1. Klicken Sie auf **Vorschau.** Öffnen Sie außerdem Google Tabellen und aktualisieren Sie den Wert.
+   1. Klicken Sie auf **Vorschau.** Öffnen Sie außerdem Ihre Google-Arbeitsblätter und aktualisieren Sie deren Wert.
    1. Aktualisieren Sie den Wert in den Spalten **`Restaurant1`** und **`Restaurant2`**. Wenn **`Restaurant1`** > **`Restaurant2`ist,** sollten Sie ein Bild eines *Steak-Gerichts* sehen. Andernfalls wird ein Bild mit *thailändischem Essen* auf Ihrem Bildschirm angezeigt.
 
    ![result5](assets/result5.gif)

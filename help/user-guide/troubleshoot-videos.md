@@ -9,10 +9,20 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/4MMy4-ShZOJ1C09ayJpXRFAeaUZDDbzhNmIifacUPPk
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 98%
+source-wordcount: 805
+ht-degree: 97%
 
 ---
 
@@ -86,7 +96,7 @@ Prüfen Sie die Liste der Profile über die Design-Seite, wenn die Videokomponen
 
 Mit dem **Web-Player** `http://localhost:4502/content/mobileapps/cq-screens-player/firmware.html/content/screens/we-retail/locations/demo/flagship/single/device0` können Sie die Wiedergabe in Browsern (Chrome und Safari) testen. Chrome wird auf Android™-Geräten genutzt, Safari ist der Browser unter OS X und iOS.
 
-Wenn das Video in Safari nicht läuft, funktioniert es auch nicht bei den OS X- und iOS-Playern.  Dieses Problem wird wahrscheinlich durch einen Kodierungsfehler verursacht. Das Video muss also neu kodiert werden.
+Wenn das Video in Safari nicht läuft, funktioniert es auch nicht bei den OS X- und iOS-Playern. Dieses Problem wird wahrscheinlich durch einen Kodierungsfehler verursacht. Das Video muss also neu kodiert werden.
 
 Gehen Sie wie folgt vor, um einen DAM-Workflow zum Erstellen von FullHD-Wiedergaben zu verwenden:
 
@@ -113,7 +123,7 @@ Führen Sie folgende Schritte aus, um das Problem mit dem Flag „Autoplay-Richt
 
 >[!NOTE]
 >
->Weitere Informationen zu Best Practices für gute Benutzererlebnisse mit den neuen Autoplay-Richtlinien in Chrome  finden Sie unter *Änderungen an der Autoplay-Richtlinie* auf `https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio`.
+>Weitere Informationen zu Best Practices für gute Benutzererlebnisse mit den neuen Autoplay-Richtlinien in Chrome finden Sie unter *Änderungen an der Autoplay-Richtlinie* auf `https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio`.
 
 ### Synchronisieren von Videos über mehrere Player hinweg {#syncing-video-across-multiple-players}
 

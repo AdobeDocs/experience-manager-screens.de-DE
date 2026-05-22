@@ -2,10 +2,18 @@
 title: AEM-Plattformkonfigurationen
 description: Auf dieser Seite werden AEM Platform-Konfigurationen beschrieben.
 exl-id: cfe1769b-4da2-430d-a7b1-10dbcaf9f51b
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/qsJ-vj45WoTXXdBU5zsNQYoB7g4HnNTLwwfFSBL-wwI
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 96%
+source-wordcount: 545
+ht-degree: 87%
 
 ---
 
@@ -49,8 +57,8 @@ Installieren Sie FFmpeg gemäß den Schritten für das entsprechende Betriebssys
 
 ## Kennworteinschränkungen {#password-restrictions}
 
-Die Kennwortrichtlinie von AEM muss bei der AMS-Instanz deaktiviert sein. Dies kann alternativ in der Web-Konsole mithilfe des Screens-Gerätediensts *com.adobe.cq.screens.device.impl.DeviceService* konfiguriert werden.
-Weitere Informationen dazu finden Sie im Abschnitt **Kennwortbeschränkungen** unter [Konfigurieren von Autoren- und Veröffentlichungsinstanzen in AEM Screens](https://experienceleague.adobe.com/de/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish).
+Die Kennwortrichtlinie von AEM muss bei der AMS-Instanz deaktiviert sein. Sie kann auch alternativ in der Web-Konsole mithilfe des Screens-Gerätedienstes *com.adobe.cq.screens.device.impl.DeviceService konfiguriert werden*
+Siehe **Kennworteinschränkungen** im Abschnitt [Konfigurieren von Autoren- und Veröffentlichungsinstanz in AEM Screens](https://experienceleague.adobe.com/de/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)
 
 ## Einrichten der Umgebungen {#setting-up-environments}
 
@@ -60,9 +68,9 @@ Installieren Sie die aktuellsten Versionen der folgenden Pakete für Ihre Versio
 * Screens Feature Pack
 * AEM Cumulative Fix Pack
 
-Ermitteln Sie außerdem alle erforderlichen Entwicklungspakete (z. B. zentrale
-WCM-Komponenten) oder Toolkits von Drittanbietern (z. B. SAP Hybris).
-Installieren Sie die gleichen Software-Pakete in Ihren lokalen Entwicklungsumgebungen.  Weisen Sie Ihren Client an, dieselbe Konfiguration auf allen QA-, Staging- und Produktions-Servern zu verwenden. Nicht übereinstimmende Server-Konfigurationen verursachen Probleme bei Bereitstellung und Tests.
+Identifizieren Sie zusätzlich zu den obigen Angaben alle Entwicklungspakete (z. B. WCM Core).
+Komponenten) oder Drittanbieter-Toolkits (z. B. SAP Hybris), die erforderlich sind.
+Installieren Sie die gleichen Software-Pakete in Ihren lokalen Entwicklungsumgebungen. Weisen Sie Ihren Client an, dieselbe Konfiguration auf allen QA-, Staging- und Produktions-Servern zu verwenden. Nicht übereinstimmende Server-Konfigurationen verursachen Probleme bei Bereitstellung und Tests.
 
 >[!NOTE]
 >

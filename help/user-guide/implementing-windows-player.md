@@ -10,10 +10,20 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/B5n5-TaA7CoiLp51ReniPu--cQGLN9vYpj3-jgP62hM
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1118'
-ht-degree: 96%
+source-wordcount: 1155
+ht-degree: 91%
 
 ---
 
@@ -35,16 +45,18 @@ Rufen Sie die Seite [**AEM 6.5 Player-Downloads**](https://download.macromedia.c
 >[!NOTE]
 >Richten Sie eine Umgebung für den Windows-Player ein, wenn Sie das AEM Screens 6.5.5 Service Pack verwenden.
 
-Setzen Sie in der **Konfiguration der Adobe Experience Manager-Web-Konsole** das **SameSite-Attribut für die Anmeldungs-Token-Cookies** auf allen AEM-Autoren- und Veröffentlichungsinstanzen von **Lax** (Gering) auf **None** (Keine).
+Setzen Sie das **SameSite-Attribut für die Cookies des Anmelde-Tokens** von **Lax** auf **None** der **Adobe Experience Manager Web Console
+Konfiguration** für alle Autoren- und Veröffentlichungsinstanzen von AEM.
 
 Führen Sie dazu folgende Schritte durch:
 
-1. Navigieren Sie zur **Konfiguration der Adobe Experience Manager-Web-Konsole** über `http://localhost:4502/system/console/configMgr`.
+1. Zu **Adobe Experience Manager Web Console navigieren
+Konfiguration** mithilfe von `http://localhost:4502/system/console/configMgr`.
 
 1. Suchen Sie nach *Adobe Granite Token Authentication Handler*.
 
 1. Legen Sie das **Attribut „SameSite“ für die Anmelde-Token-Cookies** von **Lax** (Gering) auf **None** (Keine) fest.
-   ![image](/help/user-guide/assets/granite-updates.png)
+   ![Bild](/help/user-guide/assets/granite-updates.png)
 
 1. Klicken Sie auf **Speichern**.
 

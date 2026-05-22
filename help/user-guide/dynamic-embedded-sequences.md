@@ -9,10 +9,27 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/A7x3G1fogotd69IsY1bgOMLJ7107v0aHpS7C90evJOU
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2:
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '2451'
-ht-degree: 98%
+source-wordcount: 2489
+ht-degree: 95%
 
 ---
 
@@ -35,7 +52,7 @@ Um die dynamische eingebettete Sequenz zu verwenden, weisen Sie einen Kanal nach
 
 ### Vorteile der Verwendung dynamischer eingebetteter Sequenzen {#benefits-of-using-dynamic-embedded-sequences}
 
-Die Platzierung eines Sequenzkanals innerhalb eines Standorts anstelle des Kanalordners gibt lokalen oder regionalen Autorinnen und Autoren die Möglichkeit, Inhalte zu bearbeiten, die für sie relevant sind.  Außerdem können dadurch Kanäle weiter oben in der Hierarchie bearbeitet werden.
+Die Platzierung eines Sequenzkanals innerhalb eines Standorts anstelle des Kanalordners gibt lokalen oder regionalen Autorinnen und Autoren die Möglichkeit, Inhalte zu bearbeiten, die für sie relevant sind. Außerdem können dadurch Kanäle weiter oben in der Hierarchie bearbeitet werden.
 
 Der Verweis auf einen *Kanal nach Rolle* ermöglicht die Erstellung einer lokalen Version eines Kanals. Auf diese Weise werden standortspezifische Inhalte dynamisch aufgelöst. Außerdem können Sie einen globalen Kanal erstellen, der die Inhalte der standortspezifischen Kanäle verwendet.
 
@@ -157,7 +174,7 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
 
    ![screen_shot_2018-09-19at120329pm](assets/screen_shot_2018-09-19at120329pm.png)
 
-   Führen Sie die vorherigen Schritte aus, damit Sie einen Kanal erstellen und in **`Store 3`** und **`Store 4`** unter **Region B** anzeigen können. Auch hier ist darauf zu achten, dass Sie unter **Name** denselben Wert **store** verwenden, während Sie die Kanäle **`Store3Channel`** bzw. **`Store4Channel`** erstellen.
+   Führen Sie die zuvor genannten Schritte aus, um einen Kanal zu erstellen und in **`Store 3`** und **`Store 4`** unter **Region B“**. Stellen Sie auch hier sicher, dass Sie **Name** als **store** beim Erstellen von **`Store3Channel`** bzw. **`Store4Channel`** verwenden.
 
    Die folgende Abbildung zeigt die Anzeige und den Kanal im **`Store 3`**.
 
@@ -229,7 +246,7 @@ Gehen Sie wie folgt vor, um die Funktion zu implementieren:
 
    Navigieren Sie zum Kanal **Global**, den Sie ursprünglich im Projekt **Demo** erstellt haben.
 
-   Klicken Sie in der Aktionsleiste auf **Erstellen**. 
+   Klicken Sie in der Aktionsleiste auf **Erstellen**.
 
    ![screen_shot_2018-09-13at52754pm](assets/screen_shot_2018-09-13at52754pm.png)
 
@@ -374,7 +391,7 @@ Führen Sie die folgenden Schritte aus, um Gruppen und Benutzende zu erstellen u
 
    ![screen_shot_2018-09-18at125158pm](assets/screen_shot_2018-09-18at125158pm.png)
 
-   Die folgende Abbildung zeigt, dass der Region-User Zugriff auf **Region A** und **Region B** hat. Er hat ebenfalls Zugriff auf alle vier Stores, nämlich **Store 1**, **Store 2**, **Store 3** und **Store 4**, aber nicht auf den **globalen** Kanal.
+   Die folgende Abbildung zeigt, dass der Region-Benutzer Zugriff auf **Region A** und **Region B** hat. Und Zugriff auf alle vier Stores, nämlich **Store 1**, **Store 2**, **Store 3** und **Store 4**, greift jedoch nicht auf den **Global**-Kanal zu.
 
    ![region](assets/region.gif)
 

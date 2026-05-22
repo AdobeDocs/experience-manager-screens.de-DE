@@ -2,10 +2,16 @@
 title: Verwenden adaptiver Ausgabedarstellungen in AEM Screens
 description: Erfahren Sie, wie Sie adaptive Ausgabedarstellungen in AEM Screens verwenden können.
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: f1ddcf5e5ee9691e436e139ce0084f2c39f9c9dd
+TQID: https://experienceleague.adobe.com/HZzzIXVu8Px3-aXDrbfU9xQxg-F-ZJK-Sy-BVQSH-uo
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 96%
+source-wordcount: 584
+ht-degree: 84%
 
 ---
 
@@ -53,7 +59,7 @@ Gehen Sie wie folgt vor, um Ausgabedarstellungen auf Assets anzuwenden, die Sie 
 ## Migrationsstrategie {#migration-strategy}
 
 >[!IMPORTANT]
->Für große Netzwerke empfiehlt Adobe, die Migration schrittweise durchzuführen, um die Risiken zu mindern. Der Grund dafür ist, dass die Funktion Änderungen am Manifest- und Dateispeicherformat bewirken kann. Wenn Sie das `sling:configRef` zum gesamten Projekt hinzufügen, müssen alle Player auf Feature Pack 6.5.9 aktualisiert werden. Falls Sie nur einige Player aktualisiert haben, müssen Sie das `sling:configRef` nur zu den Anzeigen-, Standort- oder Kanalordnern hinzufügen, in denen alle Player auf Feature Pack 6.5.9 aktualisiert wurden.
+>Für große Netzwerke empfiehlt Adobe, die Migration schrittweise durchzuführen, um die Risiken zu mindern. Der Grund dafür ist, dass die Funktion Änderungen am Manifest- und Dateispeicherformat bewirken kann. Wenn Sie die `sling:configRef` zum gesamten Projekt hinzufügen, müssen alle Player auf Feature Pack 6.5.9 aktualisiert werden. Falls Sie einige Player aktualisiert haben, fügen Sie die `sling:configRef` nur zu den Anzeigen-, Standort- oder Kanalordnern hinzu, in denen alle Player auf Feature Pack 6.5.9 aktualisiert wurden.
 
 Das folgende Diagramm zeigt die Migrationsstrategie für große Netzwerke:
 

@@ -2,9 +2,17 @@
 title: Mobiles Netzwerk mit mobilem WLAN-Router und aktiven Netzwerkkomponenten
 description: Auf dieser Seite wird das mobile Netzwerk mit mobilem WLAN-Router und aktiven Netzwerkkomponenten beschrieben.
 exl-id: a6b44a04-438d-49d4-ac98-32629c11dcdb
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/uKyl9w97xF0m6W9kj-PTAbIgt5HtZRAgkOUCstAuti4
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: 1050
 ht-degree: 98%
 
 ---
@@ -59,7 +67,7 @@ Die Internet-Verbindung muss ausreichend Bandbreite zur Verfügung stellen, dami
 
 Wie viel *ausreichend* ist, hängt von der Anzahl der verbundenen AEM Screens-Geräte ab. Dies ist außerdem abhängig von der Nutzung anderer Verbrauchergeräte innerhalb des Netzwerks. Dazu gehören z. B. Smartphones, Tablets, Kassensysteme, Computer oder WLAN-Gastnetzwerke.
 Beachten Sie, dass alle Geräte gleichzeitig auf die Internet-Verbindung zugreifen und dass die Bandbreite mit der Zahl an weiteren Verbrauchergeräten/Computern, die dem Netzwerk hinzugefügt werden, linear abnimmt.
-Neben einer für die jeweilige Netzwerkverbindung theoretisch ausreichenden Bandbreite muss außerdem eine *gute oder sehr gute* Netzabdeckung des mobilen WLAN-Routers sichergestellt sein.  Ferner muss das im Rahmen des zugrunde liegenden Abonnements gebuchte monatliche Datenvolumen eine für alle an das Netzwerk angebundenen Clients ausreichende Kapazität und Bandbreite zur Verfügung stellen.
+Neben einer für die jeweilige Netzwerkverbindung theoretisch ausreichenden Bandbreite muss außerdem eine *gute oder sehr gute* Netzabdeckung des mobilen WLAN-Routers sichergestellt sein. Ferner muss das im Rahmen des zugrunde liegenden Abonnements gebuchte monatliche Datenvolumen eine für alle an das Netzwerk angebundenen Clients ausreichende Kapazität und Bandbreite zur Verfügung stellen.
 
 Nachfolgend sind die Datennetze einschließlich der ihnen zugehörigen Standardbandbreite aufgeführt:
 
@@ -82,7 +90,7 @@ Bei der Wahl des Datennetzes empfiehlt Adobe, die folgenden Fragen abzuwägen:
 
 >[!IMPORTANT]
 >
->Für den erstmaligen Upload der Mediendateien bei der Integration neuer Player muss ein höheres Datenvolumen und eine längere Download-Zeit einkalkuliert werden.  Dies spiegelt sich auch in den oben genannten Annahmen wider. Ein 4G-Netz mit *guter* Abdeckung und unbegrenztem Datenvolumen sollte für die im Rahmen dieser Netzwerkkonfiguration gängigsten Installationen jedoch ausreichen.
+>Für den erstmaligen Upload der Mediendateien bei der Integration neuer Player muss ein höheres Datenvolumen und eine längere Download-Zeit einkalkuliert werden. Dies spiegelt sich auch in den oben genannten Annahmen wider. Ein 4G-Netz mit *guter* Abdeckung und unbegrenztem Datenvolumen sollte für die im Rahmen dieser Netzwerkkonfiguration gängigsten Installationen jedoch ausreichen.
 
 
 ### LAN (Local Area Network) {#lan-connection}

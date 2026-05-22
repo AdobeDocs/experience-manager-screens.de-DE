@@ -5,10 +5,18 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: bd466576-a6d3-494c-82e5-c5326b6e0aca
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+TQID: https://experienceleague.adobe.com/a-iBBktdUduSoZVzBdOWRKlZS5GeGwLWe0u92g7fXmw
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 100%
+source-wordcount: 355
+ht-degree: 92%
 
 ---
 
@@ -54,7 +62,8 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 202008 ist der 3. Sept
 
 Wenn Sie das AEM Screens 6.5.5 Service Pack verwenden, richten Sie eine Umgebung für den Windows- oder Android-Player ein.
 
-Setzen Sie in der **Konfiguration der Adobe Experience Manager-Web-Konsole** das **SameSite-Attribut für die Anmeldungs-Token-Cookies** auf allen AEM-Autoren- und Veröffentlichungsinstanzen von **Lax** auf **Keine**.
+Setzen Sie das **SameSite-Attribut für die Cookies des Anmelde-Tokens** von **Lax** auf **None** der **Adobe Experience Manager Web Console
+Konfiguration** für alle Autoren- und Veröffentlichungsinstanzen von AEM.
 
 * Weitere Informationen finden Sie unter [Implementieren von Windows 10 Player](implementing-windows-player.md#fp-environment-setup).
 

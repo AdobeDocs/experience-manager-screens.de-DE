@@ -10,10 +10,25 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/Gi6VgfG8ClNwQLFG2rrxIPFCZdK6n7FpLhc4xc1eIss
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2:
+  - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
+  - id: d2e10d71-5715-46fe-bd3d-cbd7df1343d6
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1568'
-ht-degree: 97%
+source-wordcount: 1584
+ht-degree: 90%
 
 ---
 
@@ -23,9 +38,9 @@ Inhaltsautorinnen und Inhaltsautoren können eine zukünftige Version der Kanäl
 
 Mithilfe von ***Screens Launch*** können Autorinnen und Autoren die einzelnen Kanäle im Launch in der Vorschau anzeigen und sollten eine Anfrage zur Überprüfung starten können. Die Gruppe der Genehmigenden erhält eine Benachrichtigung und kann die Anfrage genehmigen oder ablehnen. Wenn das Live-Datum erreicht ist, wird der Inhalt auf den Geräten abgespielt.
 
-Wenn die Autorin oder der Autor z. B. zukünftige Versionen von c1, c2 (Kanäle) erstellen möchte, wird ein Launch generiert und ein Live-Datum festgelegt (z. B. 10. November, 8:00 Uhr). Alle weiteren Aktualisierungen des Inhalts werden zur Überprüfung gesendet.
+Wenn der Autor beispielsweise zukünftige Versionen von c1, c2 (Kanäle) erstellen möchte, wird ein Launch erstellt und ein Live-Datum festgelegt (z. B. 10. November :00). Alle weiteren Aktualisierungen des Inhalts werden zur Überprüfung gesendet.
 
-Nach der Genehmigung wird am Live-Datum (10. November, 8:00 Uhr) der Inhalt dieses Launches auf den Geräten oder Playern wiedergegeben.
+Nach der Genehmigung und am Live-Datum (10. November:00 8 Uhr) wird der Inhalt dieses Launches auf den Geräten oder Playern wiedergegeben.
 
 ## Voraussetzungen {#requirements}
 
@@ -35,7 +50,7 @@ Das Ausführen eines Erlebnisses am festgelegten Live-Datum auf dem Player umfas
 
 * Launch-Promotion (dauert in der Regel einige Sekunden).
 
-* Veröffentlichen der Ressourcen, um Instanzen zu veröffentlichen (dauert in der Regel einige Minuten, je nach Größe der Kanäle oder Assets, die veröffentlicht werden müssen).
+* Veröffentlichen der Ressourcen auf Veröffentlichungsinstanzen (dauert in der Regel einige Minuten, je nach Größe der Kanäle oder Assets, die veröffentlicht werden müssen).
 
 * Zeit, die bis zum Abschluss der Offline-Aktualisierung benötigt wird (in der Regel einige Minuten).
 
@@ -47,7 +62,7 @@ Das Ausführen eines Erlebnisses am festgelegten Live-Datum auf dem Player umfas
 
 Damit der Player am festgelegten Live-Datum mit der Wiedergabe des Inhalts beginnen kann, müssen Sie mit den vorherigen Aktivitäten vor dem Live-Datum beginnen.
 
-Wenn das Live-Datum der *24. November, 9:00 Uhr* ist und die Nachfrist *24 Stunden* beträgt, beginnt die obige Aktionssequenz am (Live-Datum – Nachfrist) 23. November um 9:00 Uhr (Server-Zeit). Durch diese Einstellung erhalten Sie 24 Stunden Zeit, um alle oben genannten Aktionen durchzuführen, damit der Inhalt die Player erreicht. Die Player erkennen, dass es sich bei diesem Zeitraum um Launch-Inhalt handelt. Daher wird der Inhalt nicht sofort wiedergegeben. Player können diesen Inhalt jedoch als zukünftige Version speichern und die Wiedergabe exakt am festgelegten Live-Datum in der Zeitzone des Players starten.
+Wenn das Live-Datum *24. November:00 9 Uhr* und *24 Stunden* die Übergangsphase ist, beginnt die obige Sequenz von Aktionen mit (Live-Datum - Übergangsphase), d. h. dem 23. November :00 Server-Zeit. Durch diese Einstellung erhalten Sie 24 Stunden Zeit, um alle oben genannten Aktionen durchzuführen, damit der Inhalt die Player erreicht. Die Player erkennen, dass es sich bei diesem Zeitraum um Launch-Inhalt handelt. Daher wird der Inhalt nicht sofort wiedergegeben. Player können diesen Inhalt jedoch als zukünftige Version speichern und die Wiedergabe exakt am festgelegten Live-Datum in der Zeitzone des Players starten.
 
 Ein Beispiel: Der Server befindet sich in der Zeitzone „PST“ und die Geräte in der Zeitzone „EST“. Die maximale Zeitdifferenz beträgt drei Stunden. Es wird davon ausgegangen, dass die Promotion 1 Minute dauert, die Veröffentlichung von der Autoren- zur Veröffentlichungsinstanz 10 Minuten dauert und der Player die Ressourcen in der Regel in 10–15 Minuten herunterladen kann. Die Übergangsphase ist dann gleich dem Zeitunterschied (drei Stunden):
 
@@ -62,7 +77,7 @@ Wann immer Sie also den Live-Zeitpunkt für einen Launch planen, beginnt die Pro
 
 >[!NOTE]
 >
->Standardmäßig ist die Übergangsphase für Screens Launch auf 24 Stunden festgelegt. Das bedeutet, dass die Promotion mit diesem Versatz beginnt, wenn Sie für einen Launch der Ressourcen unter */content/screens* ein Live-Datum festlegen. 
+>Standardmäßig ist die Übergangsphase für Screens Launch auf 24 Stunden festgelegt. Das bedeutet, dass die Promotion mit diesem Versatz beginnt, wenn Sie für einen Launch der Ressourcen unter */content/screens* ein Live-Datum festlegen.
 
 ### Aktualisieren der standardmäßigen Nachfrist {#updating-out-of-the-box-grace-period}
 
@@ -83,7 +98,7 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
 Sie legen die Nachfrist im obigen Beispiel auf 10 Minuten fest. Daher beginnt die Promotion mit diesem Versatz, wenn Sie für einen Launch der Ressourcen unter */content/screens* ein Live-Datum festlegen.
 
-Wenn das Live-Datum beispielsweise auf den 24. November um 9:00 Uhr und die Nachfrist auf 600 Sekunden eingestellt ist, beginnt der Promotions-Auftrag am 24. November um 8:50 Uhr.
+Wenn das Live-Datum beispielsweise auf 24. November :00 Uhr und die Übergangsphase auf 600 Sekunden festgelegt ist, beginnt der Promotion-Auftrag am 24. November um :50 Uhr.
 
 ## Verwenden von Screens Launch {#using-launches}
 
