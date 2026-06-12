@@ -19,8 +19,8 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: 662
-ht-degree: 95%
+source-wordcount: 656
+ht-degree: 93%
 
 ---
 
@@ -36,8 +36,8 @@ Die folgende Seite enthält die Richtlinien zum Konfigurieren eines Dispatchers 
 >
 >Ist kein Dispatcher vorhanden, deaktivieren Sie das Registrierungs-Servlet in der Liste der OSGi-Komponenten.
 
-Um den Dispatcher für ein AEM Screens-Projekt konfigurieren zu können, benötigen Sie entsprechende Dispatcher-Vorkenntnisse.
-Weitere Informationen finden Sie unter [Konfigurieren von Dispatcher](https://experienceleague.adobe.com/de/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration).
+Bevor Sie Dispatcher für ein AEM Screens-Projekt konfigurieren, sollten Sie über Vorkenntnisse in Dispatcher verfügen.
+Weitere Informationen [&#x200B; Sie unter „Konfigurieren &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration) Dispatcher&quot;.
 
 ## Konfigurieren von Dispatcher für die Manifest-Version v2 {#configuring-dispatcher}
 

@@ -13,8 +13,8 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: 1974
-ht-degree: 85%
+source-wordcount: 1913
+ht-degree: 84%
 
 ---
 
@@ -153,7 +153,7 @@ Navigieren Sie für eine der Veröffentlichungsinstanzen zu `https://:/system/co
 #### Schritt 3: Einrichten des ActiveMQ Artemis-Clusters {#step-setup-activemq-artemis-cluster}
 
 In diesem Schritt können Sie ein verschlüsseltes Kennwort für den ActiveMQ Artemis-Cluster erstellen.
-Die Cluster-Benutzerin bzw. der Cluster-Benutzer und das Kennwort müssen für alle Veröffentlichungsinstanzen in der Topologie identisch sein. Das Kennwort der ActiveMQ Artemis-Konfiguration muss verschlüsselt werden. Da jede Instanz über einen eigenen Verschlüsselungsschlüssel verfügt, müssen Sie mit Crypto Support eine verschlüsselte Kennwortzeichenfolge erstellen. Dann wird das verschlüsselte Kennwort in der OSGi-Konfiguration für ActiveMQ verwendet.
+Der Cluster-Benutzer und das Passwort müssen für alle Veröffentlichungsinstanzen in der Topologie identisch sein. Das Kennwort der ActiveMQ Artemis-Konfiguration muss verschlüsselt sein. Da jede Instanz über einen eigenen Verschlüsselungsschlüssel verfügt, müssen Sie mit Crypto Support eine verschlüsselte Passwortzeichenfolge erstellen. Anschließend kann das verschlüsselte Passwort in der OSGi-Konfiguration für ActiveMQ verwendet werden.
 
 In jeder Veröffentlichungsinstanz:
 
@@ -166,7 +166,7 @@ Da jede Veröffentlichungsinstanz standardmäßig über eindeutige Kryptoschlüs
 
 >[!NOTE]
 >
->Das Passwort sollte mit geschweiften Klammern beginnen und enden. Beispiel:
+>Das Kennwort sollte mit geschweiften Klammern beginnen und enden. Beispiel:
 >`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
 
 #### Schritt 4: Aktivieren des ActiveMQ Artemis-Clusters {#step-activate-activemq-artemis-cluster}
