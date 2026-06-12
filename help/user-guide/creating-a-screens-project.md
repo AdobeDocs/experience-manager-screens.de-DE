@@ -24,7 +24,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: 324
+source-wordcount: 290
 ht-degree: 99%
 
 ---
@@ -37,7 +37,7 @@ Sie haben auch die Möglichkeit, direkt zur folgenden URL zu wechseln: `http://l
 
 >[!NOTE]
 >**Navigationstipp:**
->Sie können auch die Pfeiltasten verwenden, um durch die verschiedenen Ordner in AEM zu navigieren. Nachdem Sie auf eine bestimmte Entität geklickt haben, können Sie zudem die Leertaste drücken, um Eigenschaften für den betreffenden Ordner zu bearbeiten oder anzuzeigen.
+>Sie können auch die Cursortasten verwenden, um durch verschiedene Ordner in AEM zu navigieren. Nachdem Sie auf eine bestimmte Entität geklickt haben, drücken Sie die Leertaste, um die Eigenschaften für diesen bestimmten Ordner zu bearbeiten oder anzuzeigen.
 
 ## Erstellen eines neuen Screens-Projekts
 

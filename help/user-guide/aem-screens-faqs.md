@@ -22,8 +22,8 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: 2241
-ht-degree: 83%
+source-wordcount: 2200
+ht-degree: 82%
 
 ---
 
@@ -229,7 +229,7 @@ Deaktivieren Sie Livefyre, um Protokollfehler zu vermeiden, indem Sie wie folgt 
 ### &#x200B;2. Hinzufügen von Oak-Indexinformationen {#add-oak-index-info}
 
 AEM Screens erstellt Indexdefinitionen für die vom Produkt verwendeten Abfragen.
-Wenn *Abfrage-Traversal-WARNUNGEN* im `error.log` vorhanden sind, erstellen Sie einen benutzerdefinierten Index für Ihre Abfrage. Weitere Informationen finden Sie unter [Konfigurieren der Indizes](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes).
+Wenn *Abfrage-Traversal-WARNUNGEN* im `error.log` vorhanden sind, erstellen Sie einen benutzerdefinierten Index für Ihre Abfrage. Weitere [&#x200B; finden Sie unter „Konfigurieren &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes) Indizes“.
 
 Eine zusätzliche Ressource finden Sie in der [Oak-Dokumentation](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
 
@@ -238,11 +238,11 @@ Eine zusätzliche Ressource finden Sie in der [Oak-Dokumentation](https://jackra
 
 Gehen Sie wie folgt vor, um das v3-Manifest zu aktivieren:
 
-* Dispatcher aktualisieren.
-Weitere Informationen finden Sie unter [Konfigurieren des Dispatchers für Manifest Version 3](https://experienceleague.adobe.com/de/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3).
+* Aktualisieren Sie Dispatcher.
+Weitere [&#x200B; finden Sie unter „Konfigurieren von Dispatcher für &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) Version 3“.
 
 * Benutzerdefinierte Komponente aktualisieren.
-Weitere Informationen finden Sie unter [Vorlage für benutzerdefinierte Handler](https://experienceleague.adobe.com/de/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers).
+Weitere [&#x200B; finden Sie unter &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers) für benutzerdefinierte Handler.
 
 * ContentSync in `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` deaktivieren.
 

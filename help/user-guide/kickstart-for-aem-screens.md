@@ -17,8 +17,8 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: 1295
-ht-degree: 96%
+source-wordcount: 1203
+ht-degree: 97%
 
 ---
 
@@ -38,8 +38,8 @@ Gehen Sie wie folgt vor, um ein Beispielprojekt für AEM Screens zu erstellen un
 
 >[!IMPORTANT]
 >**OSGi-Konfigurationseinstellungen**
->Sie müssen den leeren Referrer aktivieren, um dem Gerät das Bereitstellen von Daten auf dem Server zu erlauben. Wenn die Eigenschaft für den leeren Referrer deaktiviert ist, kann das Gerät keine Screenshots zurückgeben. Derzeit sind einige dieser Funktionen nur verfügbar, wenn der `Apache Sling` Referrer-Filter Leer zulassen in der OSGi-Konfiguration aktiviert ist. Im Dashboard wird ggf. eine Warnung angezeigt, dass einige dieser Funktionen aufgrund der Sicherheitseinstellungen nicht funktionieren.
->Führen Sie die nachfolgenden Schritte aus, um den ***Apache Sling Referrer-Filter „Allow Empty“*** zu aktivieren:
+>Sie müssen den leeren Referrer aktivieren, damit das Gerät Daten an den Server senden kann. Wenn beispielsweise die leere Referrer-Eigenschaft deaktiviert ist, kann das Gerät keinen Screenshot zurücksenden. Derzeit sind einige dieser Funktionen nur verfügbar, wenn der `Apache Sling` Referrer-Filter Leer zulassen in der OSGi-Konfiguration aktiviert ist. Möglicherweise zeigt das Dashboard eine Warnung an, dass Sicherheitseinstellungen einige dieser Funktionen verhindern können.
+>Gehen Sie wie folgt vor, um den ***Apache Sling Referrer Filter Zulassen leer“***:
 
 
 ## Zulassen von leeren Referrer-Anforderungen {#allow-empty-referrer-requests}
@@ -183,7 +183,7 @@ Wenn das Projekt fertig eingerichtet ist, weisen Sie dem Kanal eine Anzeige zu, 
    Außerdem können Sie auf **Aktivierungsfenster** und **Intervallzeitplan** klicken.
 
    >[!NOTE]
-   >Mit dem *Intervallzeitplan* können Sie einen wiederkehrenden Zeitplan für Ihren Kanal festlegen. Sie können mehrere Intervallzeitpläne für einen Kanal einrichten.
+   >Mit *Wiederholungszeitplan* können Sie einen wiederkehrenden Zeitplan für Ihren Kanal festlegen. Sie können mehrere Wiederholungszeitpläne für einen Kanal einrichten.
    >Weitere Informationen finden Sie unter [Intervallzeitplan](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule).
 
 1. Klicken Sie auf **Speichern**, nachdem Sie Ihre Voreinstellungen konfiguriert haben.

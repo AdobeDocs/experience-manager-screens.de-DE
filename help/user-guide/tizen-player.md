@@ -17,8 +17,8 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: 1224
-ht-degree: 93%
+source-wordcount: 1128
+ht-degree: 90%
 
 ---
 
@@ -107,9 +107,9 @@ Durch die Remote-Bereitstellung des Tizen-Players können Sie Tausende von Samsu
 
 Mit dieser Funktion können Sie den Tizen-Player aus der Ferne konfigurieren und diese Konfigurationen bei Bedarf auch zentral aktualisieren. Sie benötigen lediglich den `HTTP`-Server, der zum Hosten des Tizen-Programms `(wgt and xml file)` verwendet wird, und einen Texteditor zum Speichern von `config.json` mit den entsprechenden Parametern.
 
-Stellen Sie sicher, dass Sie die URL-Starter-Adresse auf dem Tizen-Gerät konfiguriert haben. Klicken Sie auf die Schaltfläche „Home“ > „URL-Starter-Einstellungen“.
-Platzieren Sie auf dem `HTTP`-Server, der die Tizen-Anwendung hostet, die Datei `config.json` am selben Speicherort wie die Datei `wgt`. Der Dateiname muss `config.json` lauten.
-Der Tizen-Player wird installiert und beim Start (und bei jedem Neustart) überprüft und wendet die Einstellungen in der Datei `config.json` an.
+Stellen Sie sicher, dass Sie die URL-Starter-Adresse auf dem Tizen-Gerät konfiguriert haben. Klicken Sie auf die Schaltfläche Startseite > URL-Starter-Einstellungen.
+Platzieren Sie auf dem `HTTP`-Server, der die Tizen-Anwendung hostet, die Datei `config.json` am selben Speicherort wie die `wgt`. Der Dateiname muss `config.json` sein.
+Der Tizen-Player wird installiert und beim Start (und bei jedem Neustart), prüft und wendet die Einstellungen in der `config.json` an.
 
 ### Beispiel für eine JSON-Richtlinie {#example-json}
 
@@ -128,8 +128,8 @@ Der Tizen-Player wird installiert und beim Start (und bei jedem Neustart) überp
 In der folgenden Tabelle sind die Richtlinien und deren Funktionen aufgeführt.
 
 >[!NOTE]
->Die Richtlinienkonfigurationen der Administrator-Benutzeroberfläche des Players werden streng durchgesetzt und können nicht manuell überschrieben werden. Um eine manuelle Player-Konfiguration für eine bestimmte Richtlinie zuzulassen, geben Sie die Richtlinie nicht in der Richtlinienkonfiguration an.
->Wenn Sie beispielsweise eine manuelle Konfiguration für den Neustart-Zeitplan zulassen möchten, geben Sie den Schlüssel `rebootSchedule` nicht in der Richtlinienkonfiguration an. Richtlinienkonfigurationen werden jedes Mal gelesen, wenn der Player neu geladen wird.
+>Die Richtlinienkonfigurationen der Admin-Benutzeroberfläche des Players werden streng durchgesetzt und nicht manuell überschrieben. Um manuelle Player-Konfigurationen für eine bestimmte Richtlinie zuzulassen, geben Sie die Richtlinie in der Richtlinienkonfiguration nicht an.
+>Wenn Sie beispielsweise eine manuelle Konfiguration des Neustart-Zeitplans zulassen möchten, legen Sie den `rebootSchedule` in der Richtlinienkonfiguration nicht fest. Richtlinienkonfigurationen werden jedes Mal gelesen, wenn der Player neu geladen wird.
 
 | **Richtlinienname** | **Zweck** |
 |---|---|

@@ -25,8 +25,8 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: 1550
-ht-degree: 92%
+source-wordcount: 1533
+ht-degree: 91%
 
 ---
 
@@ -134,7 +134,7 @@ Bei einer Massenbereitstellung des Android™-Players muss der Player auf eine A
 Gehen Sie wie folgt vor, um die Massenbereitstellung im Android™-Player zuzulassen:
 
 1. Erstellen Sie eine JSON-Konfigurationsdatei mit dem Namen `player-config.default.json`.
-Nutzen Sie dazu eine [Beispiel-JSON-Richtlinie](#example-json) sowie eine Tabelle, die die Verwendung der verschiedenen [Richtlinienattribute](#policy-attributes) beschreibt.
+Siehe eine [JSON-Richtlinie](#example-json) und eine Tabelle, die die Verwendung der verschiedenen [Richtlinienattribute“ &#x200B;](#policy-attributes).
 
 1. Verwenden Sie einen MDM- oder ADB- oder Android™ Studio-Datei-Explorer, um diese JSON-Richtliniendatei im Ordner *sdcard* auf dem Android™-Gerät abzulegen.
 

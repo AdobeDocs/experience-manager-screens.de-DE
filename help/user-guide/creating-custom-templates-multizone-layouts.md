@@ -17,7 +17,7 @@ level_v2:
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
 source-wordcount: 893
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -166,7 +166,7 @@ Sie können ein Bild als Hintergrundebene in das Layout einfügen:
 
 Sie können die CSS-Regel so anpassen, dass sie den „data-uri“ verwendet und das Bild (`Base64`-kodiert) direkt in die in Schritt 13 erstellte CSS-Datei *static.css* einbindet.
 
-Dies geschieht wie folgt:
+Diese Anordnung wird wie folgt vorgenommen:
 `.cq-Screens-channel--multizone.my-CustomLayout { background: url('data:image/…;base64,…') no-repeat center center; }`
 
 Sie können auch die folgenden Schritte ausführen:
