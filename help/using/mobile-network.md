@@ -3,21 +3,20 @@ title: Netzwerk für die Direktanbindung an Mobilfunknetze
 description: Erfahren Sie mehr über die Einrichtung eines Netzwerks für die Direktanbindung an ein Mobilfunknetz in AEM Screens.
 exl-id: 6775bd10-7625-422f-a7af-4f7b8793fa42
 TQID: https://experienceleague.adobe.com/nesp1a9TVyKUBaWjPR8bzW6n2dGyVVme1p5469h92LA
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 847
-ht-degree: 97%
+source-wordcount: 837
+ht-degree: 89%
 
 ---
 
 # Netzwerk für die Direktanbindung an Mobilfunknetze {#mobile-network-setup}
+
+>[!IMPORTANT]
+>Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 AEM Screens-Player können auch über Mobilfunknetze angebunden werden, sofern die Datenübertragung mindestens nach 3G-Standard erfolgt.
 
@@ -68,9 +67,9 @@ Nachfolgend sind die Datennetze einschließlich der ihnen zugehörigen Standardb
 
 Beachten Sie Folgendes bei der Entscheidung, welches Datennetz verwendet werden soll:
 
-Die Geschwindigkeit des Netzwerks hängt vom jeweils mit dem Mobilnetzanbieter abgeschlossenen Abonnement und der Qualität der Netzabdeckung am Standort des AEM Screens-Controllers ab.
-Bei diesem Setup ist neben der entsprechend dem jeweiligen Daten-Abo verfügbaren Bandbreite auch zu beachten, dass einige Mobilnetzanbieter im Rahmen ihrer Abonnements auch das innerhalb eines bestimmten Zeitraums über das Netzwerk übertragbare Datenvolumen begrenzen. Es muss sichergestellt werden, dass die Daten- und Bandbreitenmengen genügend Kapazität aufweisen.
-Die vom Daten-Abo abzudeckende Mindestkapazität beträgt:
+Die verfügbare Netzwerkgeschwindigkeit hängt vom jeweiligen Plan des Mobile-Datenanbieters und der verfügbaren Abdeckung ab, die am Speicherort des AEM Screens-Controllers erreicht wird.
+Beachten Sie bei dieser Einrichtung, dass neben der verfügbaren Bandbreite einige Pläne für mobile Datenanbieter die verfügbare Datenmenge, die über die Verbindung übertragen wird, innerhalb eines bestimmten Zeitraums einschränken. Es muss sichergestellt werden, dass genügend Kapazität in den Daten- und Bandbreitenmengen vorhanden ist.
+Als Folgemaßnahme muss das erforderliche Datenpaket mindestens Folgendes umfassen:
 
 `Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
 

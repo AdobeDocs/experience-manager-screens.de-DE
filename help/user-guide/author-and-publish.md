@@ -3,24 +3,22 @@ title: Konfigurieren von Autoren- und Veröffentlichungsinstanzen in AEM Screens
 description: Erfahren Sie, wie Sie eine Autoreninstanz und eine Veröffentlichungsinstanz für AEM Screens konfigurieren.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
 TQID: https://experienceleague.adobe.com/U6Z-Mk467J0VAHiM7n6JnsWrMChwRM7B0FrWpm1-ZyA
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 1913
-ht-degree: 84%
+source-wordcount: 1959
+ht-degree: 82%
 
 ---
 
 # Konfigurieren von Autoren- und Veröffentlichungsinstanzen in AEM Screens {#configuring-author-and-publish-in-aem-screens}
 
 Auf dieser Seite werden folgende Themen hervorgehoben:
+
+>[!IMPORTANT]
+>Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 * **Konfigurieren von Autoren- und Veröffentlichungsinstanzen**
 * **Einrichten der Veröffentlichungstopologie**
@@ -62,7 +60,7 @@ Um Replikationsagenten zu erstellen, bringen Sie in Erfahrung, wie man einen sta
 
 Für Screens sind drei Replikationsagenten erforderlich:
 
-1. **Standardmäßiger Replikationsagent &#x200B;***(angegeben als&#x200B;*** Standard Replication Agent**)
+1. **Standardmäßiger Replikationsagent ***(angegeben als*** Standard Replication Agent**)
 1. **Screens-Replikationsagent**
 1. **Agent für Rückwärtsreplikation**
 
@@ -120,7 +118,7 @@ Gehen Sie wie folgt vor, um einen standardmäßigen Replikationsagenten einzuric
 1. Richten Sie einen AEM Screens-Replikationsagenten für pub2 ein. Kopieren Sie den Screens-Replikationsagenten für pub1 und ändern Sie den Port für pub2 so, dass er auf 4504 verweist.
 
    >[!NOTE]
-   >Informationen zum Konfigurieren von Screens-Replikationsagenten finden Sie unter [Konfigurieren von Screens-Replikationsagenten](https://experienceleague.adobe.com/de/docs/experience-manager-screens/user-guide/administering/configure-screens-replication).
+   >Informationen zum Konfigurieren von Screens-Replikationsagenten finden Sie unter [Konfigurieren von Screens-Replikationsagenten](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configure-screens-replication).
 
 #### Erstellen von Screens-Agenten für die Rückwärtsreplikation {#creating-screens-reverse-replication-agents}
 
@@ -140,7 +138,7 @@ Für jede Veröffentlichungsinstanz:
 1. Aktualisieren Sie die Topologie-Connector-URLs: Fügen Sie URLs aller beteiligten Veröffentlichungsinstanzen hinzu, d. h.:
    * `https://publish:4503/libs/sling/topology/connector`
    * `https://publish:4504/libs/sling/topology/connector`
-1. **&#x200B; `Whitelist`-Liste der Topologie-Connectoren**: Passen Sie diese entsprechend den IP-Adressen oder Subnetzen an, die alle Veröffentlichungsinstanzen abdecken. Stellen Sie sicher, dass Sie die IP-Adresse/den Host-Namen aller Veröffentlichungsinstanzen ohne Port-Nummer auf die `whitelist` setzen.
+1. ** `Whitelist`-Liste der Topologie-Connectoren**: Passen Sie diese entsprechend den IP-Adressen oder Subnetzen an, die alle Veröffentlichungsinstanzen abdecken. Stellen Sie sicher, dass Sie die IP-Adresse/den Host-Namen aller Veröffentlichungsinstanzen ohne Port-Nummer auf die `whitelist` setzen.
 
 1. Aktivieren Sie **Auto-Stop Local-Loops**
 

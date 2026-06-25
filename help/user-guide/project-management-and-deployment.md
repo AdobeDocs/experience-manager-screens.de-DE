@@ -11,22 +11,20 @@ role: User, Developer
 level: Beginner
 exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
 TQID: https://experienceleague.adobe.com/HFEJGJVn70peZ4VRDH39uZKXkKiktLDAMSJgjQN1h-E
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 675
-ht-degree: 95%
+source-wordcount: 721
+ht-degree: 89%
 
 ---
 
 # Teil 4: Projekt-Management und Bereitstellung {#part-project-management-and-deployment}
+
+>[!IMPORTANT]
+>Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Diese Seite enthält den 4. Teil einer 5-teiligen Reihe, die sich mit dem Projekt-Management und der Vorbereitung der Bereitstellung befasst und die Schlüsselfaktoren definiert, für die die für die Audio-Video-Integration zuständige Person im Rahmen des Projekt-Managements und der Vorbereitung der Bereitstellung verantwortlich ist.
 
@@ -89,7 +87,7 @@ Erfahren Sie mehr über das Projekt-Management sowie die Bereitstellungsvorberei
 
 ### Projekt-Management und Bereitstellung
 
->[!VIDEO](https://video.tv.adobe.com/v/32790?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/28408)
 
 *Erfahren Sie mehr über Projekt-Management und die Bereitstellungsvorbereitung (Projektvorbereitung, Projektstart, Projektfortschritt).*
 

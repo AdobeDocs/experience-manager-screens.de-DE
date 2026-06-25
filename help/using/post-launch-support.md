@@ -3,24 +3,24 @@ title: Post-Launch-Support
 description: Weitere Informationen zum Post-Launch-Support für AEM Screens finden Sie im Best-Practices-Handbuch.
 exl-id: cd7442ed-52a4-43d2-adc7-f643f4f16581
 TQID: https://experienceleague.adobe.com/PrdfsEIOJySNyu7GvWpOptg-AkyP-HFkxrbnMbJKaho
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 390
-ht-degree: 99%
+source-wordcount: 396
+ht-degree: 80%
 
 ---
 
 # Support nach der Markteinführung {#post-launch-support}
 
+>[!IMPORTANT]
+>Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+
 Selbst in der Frühphase sollten Sie eines keinesfalls außer Acht lassen: den Post-Launch-Support.
 
-Nur wenn Sites angemessenen Support von Ihrem Hardware-Anbieter erhalten, können Sie den Geschäftsbetrieb richtig aufrechterhalten. Die **für die Audio-Video-Integration zuständige Person** sollte eng mit geschäftlichen Stakeholdern zusammenarbeiten und anhand verschiedener Aspekte den Bedarf ermitteln.
-Berücksichtigen Sie beim Post-Launch-Support folgende Anforderungen:
+Entscheidend für den Geschäftsbetrieb ist, dass Websites angemessenen Support von Ihrem Hardwareanbieter erhalten. Der **Audio-Video-Integrator** sollte eng mit den Interessenträgern aus der Wirtschaft zusammenarbeiten und die Anforderungen aus verschiedenen Aspekten ermitteln.
+Beachten Sie die folgenden Anforderungen bei der Unterstützung nach der Markteinführung:
 
 * Geräteverwaltung per Fernzugriff
 * Verfügbarkeit von Support Centern
@@ -41,7 +41,7 @@ Für langfristigen Erfolg muss in Zusammenarbeit mit der für die Audio-Video-In
 
 Einige Überlegungen und Fragen, die Ihnen bei der Definition von Post-Launch-Support helfen:
 
-1. Ist die Bereitstellung eines Werbenetzwerks mit vielen Stakeholdern an ein monetarisiertes Netzwerk gebunden? Diese Situation kann kürzere Auflösungszeiten im Vergleich zu einem Netzwerk für Unternehmenskommunikation erfordern.
+1. Ist die Bereitstellung ein Advertising-Netzwerk mit vielen Stakeholdern, die an ein monetäres Netzwerk gebunden sind? Diese Situation kann kürzere Auflösungszeiträume im Vergleich zu einem Corporate Communications-Netzwerk erfordern.
  
    >[!NOTE]
    >

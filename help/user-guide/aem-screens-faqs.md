@@ -6,28 +6,22 @@ role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
 TQID: https://experienceleague.adobe.com/7M-3FuDthc-4z4OSHp49eL7QHWvt1acjKfA7C1BGWy0
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-  - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 2200
-ht-degree: 82%
+source-wordcount: 2246
+ht-degree: 81%
 
 ---
 
 # Häufig gestellte Fragen zu AEM Screens {#aem-screens-faqs}
+
+>[!IMPORTANT]
+>Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Dieses Thema enthält Antworten auf häufig gestellte Fragen zu einem AEM Screens-Projekt.
 
@@ -229,7 +223,7 @@ Deaktivieren Sie Livefyre, um Protokollfehler zu vermeiden, indem Sie wie folgt 
 ### &#x200B;2. Hinzufügen von Oak-Indexinformationen {#add-oak-index-info}
 
 AEM Screens erstellt Indexdefinitionen für die vom Produkt verwendeten Abfragen.
-Wenn *Abfrage-Traversal-WARNUNGEN* im `error.log` vorhanden sind, erstellen Sie einen benutzerdefinierten Index für Ihre Abfrage. Weitere [&#x200B; finden Sie unter „Konfigurieren &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes) Indizes“.
+Wenn *Abfrage-Traversal-WARNUNGEN* im `error.log` vorhanden sind, erstellen Sie einen benutzerdefinierten Index für Ihre Abfrage. Weitere [ finden Sie unter „Konfigurieren ](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes) Indizes“.
 
 Eine zusätzliche Ressource finden Sie in der [Oak-Dokumentation](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
 
@@ -239,10 +233,10 @@ Eine zusätzliche Ressource finden Sie in der [Oak-Dokumentation](https://jackra
 Gehen Sie wie folgt vor, um das v3-Manifest zu aktivieren:
 
 * Aktualisieren Sie Dispatcher.
-Weitere [&#x200B; finden Sie unter „Konfigurieren von Dispatcher für &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) Version 3“.
+Weitere [ finden Sie unter „Konfigurieren von Dispatcher für ](https://experienceleague.adobe.com/de/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) Version 3“.
 
 * Benutzerdefinierte Komponente aktualisieren.
-Weitere [&#x200B; finden Sie unter &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers) für benutzerdefinierte Handler.
+Weitere [ finden Sie unter ](https://experienceleague.adobe.com/de/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers) für benutzerdefinierte Handler.
 
 * ContentSync in `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` deaktivieren.
 
