@@ -6,11 +6,18 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
 TQID: https://experienceleague.adobe.com/61R-NNkhkgGx2S0KOeteDn674PiOpX5k4YOVKBmQZIs
-product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
-subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2:
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
 source-wordcount: 743
@@ -99,8 +106,8 @@ Bevor Sie die Funktion zur Befehlssynchronisierung verwenden, stellen Sie sicher
 
 ### Einrichten eines Primärgeräts {#setting-up-primary}
 
-1. Navigieren Sie zum Display-Dashboard von **CommandSyncDemo** > **Locations** > **Lobby** > **LobbyDisplay**. Klicken Sie dann in **Aktionsleiste auf**Dashboard“.
-Beachten Sie die beiden Geräte (Chrome und Windows Player) **Bedienfeld**GERÄTE“, wie im Folgenden dargestellt:
+1. Navigieren Sie zum Display-Dashboard von **CommandSyncDemo** > **Locations** > **Lobby** > **LobbyDisplay**. Klicken Sie dann in **Aktionsleiste auf**&#x200B;Dashboard“.
+Beachten Sie die beiden Geräte (Chrome und Windows Player) **Bedienfeld**&#x200B;GERÄTE“, wie im Folgenden dargestellt:
    ![image1](assets/command-sync/command-sync10-1.png)
 
 1. Klicken Sie im Bedienfeld **GERÄTE** auf das Gerät, das Sie als Primärgerät festlegen möchten. Das folgende Beispiel veranschaulicht die Einrichtung des Chrome-Geräts als Primärgerät. Klicken Sie auf **Als Primärgerät festlegen**.
