@@ -36,7 +36,7 @@ Wenn Sie eine Anzeige eingerichtet haben, weisen Sie der Anzeige einen Kanal zu,
 
 Auf dieser Seite wird beschrieben, wie Sie Ihrer Anzeige einen Kanal zuweisen.
 
-Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!NOTE]
 >Sie können einer Anzeige mehrere Kanäle zuweisen.
