@@ -26,14 +26,17 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 2489
-ht-degree: 95%
+source-wordcount: 2532
+ht-degree: 93%
 
 ---
 
 # Verwenden dynamischer eingebetteter Sequenzen {#using-dynamic-embedded-sequence}
+
+>[!IMPORTANT]
+>Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Die Verwendung dynamischer eingebetteter Sequenzen umfasst die folgenden Themen:
 
@@ -88,7 +91,7 @@ Bevor Sie mit der Implementierung dieser Funktionalität beginnen, stellen Sie s
 * Erstellen Sie einen Kanal als **Global** im Ordner **Kanäle**.
 * Hinzufügen von Inhalten zu Ihrem Kanal **Global** (*Überprüfen Sie **Resources.zip**&#x200B;für relevante Assets*)
 
-Die folgende Abbildung zeigt das Projekt **Demo** mit dem Kanal **Global** im Ordner **Kanäle**.
+Die folgende Abbildung zeigt das **Demo**-Projekt mit **Global**-Kanal im **Kanäle**-Ordner.
 ![screen_shot_2018-09-07at21032pm](assets/screen_shot_2018-09-07at21032pm.png)
 
 ### Ressourcen {#resources}

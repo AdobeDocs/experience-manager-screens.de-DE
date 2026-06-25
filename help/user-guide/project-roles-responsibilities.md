@@ -21,14 +21,17 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 490
-ht-degree: 100%
+source-wordcount: 536
+ht-degree: 91%
 
 ---
 
 # Teil 1: Projektrollen und Zuständigkeiten {#part-project-roles-and-responsibilities}
+
+>[!IMPORTANT]
+>Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Auf dieser Seite wird Teil 1 einer 5-teiligen Serie vorgestellt. Damit sollen Team-Mitglieder mehr über die Rollen, Verantwortlichkeiten und Zeitpläne erfahren, die in den Vertriebs- und Projektlebenszyklen eines Projekts für Digital Signage erforderlich sind.
 

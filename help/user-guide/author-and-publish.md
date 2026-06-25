@@ -11,16 +11,19 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 1913
-ht-degree: 84%
+source-wordcount: 1959
+ht-degree: 82%
 
 ---
 
 # Konfigurieren von Autoren- und Veröffentlichungsinstanzen in AEM Screens {#configuring-author-and-publish-in-aem-screens}
 
 Auf dieser Seite werden folgende Themen hervorgehoben:
+
+>[!IMPORTANT]
+>Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 * **Konfigurieren von Autoren- und Veröffentlichungsinstanzen**
 * **Einrichten der Veröffentlichungstopologie**

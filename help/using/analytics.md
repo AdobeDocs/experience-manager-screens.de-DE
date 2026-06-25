@@ -10,14 +10,17 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 288
-ht-degree: 100%
+source-wordcount: 289
+ht-degree: 76%
 
 ---
 
 # Analyse mit AEM Screens {#analytics-screens}
+
+>[!IMPORTANT]
+>Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!NOTE]
 >
@@ -31,5 +34,5 @@ Der erste umfasst **Feedbackschleifen und maschinelles Lernen**, während der zw
 
 Im Nutzungsszenario „Feedbackschleife“ geht es nicht um visuelle Berichte oder Dashboards, sondern um eine Definition von Regeln, die AEM zur Inhaltsänderung ausführen kann. Durch Nutzung und Verarbeitung aller Screens-Player-Ereignisdaten aus einem bestimmten Zeitraum können Sie eine Regel definieren, die die Effektivität von image1 im Vergleich zu image2 bewertet. Durch Kombination von Verkaufsdaten mit Wiedergabedaten kann AEM ermitteln, dass image1 einen größeren Einfluss auf den Umsatz hat, und alle Player automatisch anweisen, image1 zu verwenden.
 
-Der zweite Anwendungsfall für Analysen bezieht sich auf die Verarbeitung von Wiedergabeereignissen und Nutzungsdaten für den menschlichen Gebrauch (in Form von Berichten und Dashboards).
-Mit diesen Daten können Sie für ein interaktives Erlebnis eine Heatmap erstellen, um mithilfe der Anwendung die bevorzugte Journey Map zu bestimmen. Außerdem können Sie ein Dashboard einrichten, das eine grafische Interpretation der Anzahl der Interaktionen von Verbraucherinnen und Verbrauchern mit der Anwendung erlaubt.
+Der zweite Anwendungsfall, bei dem Analytics verwendet wird, besteht darin, Wiedergabeereignisse und Nutzungsdaten für den menschlichen Gebrauch über Berichte und Dashboards zu verarbeiten.
+Sie können diese Daten verwenden, um eine Heatmap eines interaktiven Erlebnisses zu erstellen und über die Anwendung die bevorzugte Journey-Map zu bestimmen. Sie können auch ein Dashboard erstellen, das eine grafische Interpretation der Interaktion von Nutzern mit dem Programm bietet.

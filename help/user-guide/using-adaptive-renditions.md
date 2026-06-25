@@ -8,16 +8,19 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 584
-ht-degree: 84%
+source-wordcount: 601
+ht-degree: 77%
 
 ---
 
 # Verwenden adaptiver Ausgabedarstellungen in AEM Screens {#adaptive-renditions}
 
 ## Einführung {#introduction}
+
+>[!IMPORTANT]
+>Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!CAUTION]
 >Diese Funktion wird nur On-Premise-AEM (AEM 6.x) unterstützt. Dies wird in AEM as a Cloud Service nicht unterstützt.
@@ -27,7 +30,7 @@ Adaptive Ausgabedarstellungen ermöglichen es den Geräten, basierend auf kunden
 ## Ziel {#objective}
 
 Als AEM Screens-Inhaltsautor können Sie jetzt gerätespezifische Asset-Ausgabedarstellungen so konfigurieren, dass sie automatisch heruntergeladen und wiedergegeben werden, ohne dass alle Inhaltsvarianten manuell erstellt werden müssen.
-Sobald Entwickelnde die Eigenschaften und Regeln für die Ausgabedarstellungs-Zuordnung hinzugefügt haben, können Sie die Ausgabedarstellungs-Zuordnung nun auf Assets anwenden und diese anschließend in einen AEM Screens-Kanal aufnehmen.
+Nachdem ein Entwickler die Eigenschaften und Regeln für die Ausgabedarstellungszuordnung hinzugefügt hat, können Sie die Ausgabedarstellungszuordnung auf Assets anwenden und sie dann in einen AEM Screens-Kanal einschließen.
 
 >[!IMPORTANT]
 >Bevor Sie mit der Verwendung von adaptiven Ausgabedarstellungen in einem AEM Screens-Kanal beginnen, empfiehlt Adobe, dass Sie sich genauer über die Architekturübersicht und -konfiguration dieser Funktion informieren. Siehe [Adaptive Ausgabedarstellungen: Überblick über die Architektur und Konfigurationen](/help/user-guide/adaptive-renditions.md).

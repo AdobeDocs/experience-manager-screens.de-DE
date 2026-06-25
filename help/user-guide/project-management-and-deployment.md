@@ -19,14 +19,17 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 675
-ht-degree: 95%
+source-wordcount: 721
+ht-degree: 89%
 
 ---
 
 # Teil 4: Projekt-Management und Bereitstellung {#part-project-management-and-deployment}
+
+>[!IMPORTANT]
+>Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Diese Seite enthält den 4. Teil einer 5-teiligen Reihe, die sich mit dem Projekt-Management und der Vorbereitung der Bereitstellung befasst und die Schlüsselfaktoren definiert, für die die für die Audio-Video-Integration zuständige Person im Rahmen des Projekt-Managements und der Vorbereitung der Bereitstellung verantwortlich ist.
 

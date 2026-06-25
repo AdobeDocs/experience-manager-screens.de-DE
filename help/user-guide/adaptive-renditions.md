@@ -8,14 +8,17 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 672
-ht-degree: 94%
+source-wordcount: 703
+ht-degree: 84%
 
 ---
 
 # Adaptive Ausgabedarstellungen: Überblick über die Architektur und Konfigurationen {#adaptive-renditions}
+
+>[!IMPORTANT]
+>Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 ## Einführung {#introduction}
 
@@ -50,7 +53,7 @@ Gehen Sie wie folgt vor, um die Einrichtung zu konfigurieren:
    >![Bild](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
    >[!IMPORTANT]
-   >Wenn Sie das neueste Feature Pack 202109 installiert haben, sehen Sie in CRXDE Lite die Knotenstruktur **rendition-mapping**, die in `/conf/screens/sling:configs/rendition-mapping` bereits vorausgefüllt ist. Weitere Informationen zum neuesten Feature Pack finden Sie unter [Versionshinweise für Feature Pack 202109](/help/user-guide/release-notes-fp-202109.md).
+   >Wenn Sie das neueste Feature Pack 202109 installiert haben, sehen Sie die Knotenstruktur **Ausgabedarstellungszuordnung**, die in `/conf/screens/sling:configs/rendition-mapping` in CRXDE Lite bereits vorausgefüllt ist. Unter [Versionshinweise für Feature Pack 202109](/help/user-guide/release-notes-fp-202109.md) finden Sie Details zum neuesten Feature Pack.
    >Stellen Sie bei vorhandenen Projekten sicher, dass dem Screens-Projekt die Konfiguration **rendition-mapping** zugeordnet ist. Weitere Informationen finden Sie unter [Hinzufügen der Ausgabedarstellungszuordnung zu einem vorhandenen Projekt](#rendition-mapping-existing).
 
 ### Hinzufügen der Ausgabedarstellungszuordnungs-Eigenschaft zu einem vorhandenen Projekt {#rendition-mapping-existing}

@@ -19,20 +19,23 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 875
-ht-degree: 61%
+source-wordcount: 857
+ht-degree: 59%
 
 ---
 
 # Unbefristeter Übernahmekanal {#perpetual-takeover-channel}
 
+>[!IMPORTANT]
+>Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+
 Auf der folgenden Seite finden Sie ein Nutzungsszenario, in dem ein Projekt eingerichtet wird. In diesem wird ein unbefristeter Übernahmekanal erstellt, der an einem bestimmten Tag und zu einer bestimmten Zeit kontinuierlich wiedergegeben wird.
 
 ## Anwendungsfall – Beschreibung {#use-case-description}
 
-In diesem Anwendungsfall wird erläutert, wie Sie einen Kanal erstellen, der die Funktion des normalerweise zur Wiedergabe verwendeten Kanals für eine Anzeige oder eine Gruppe von Anzeigen *übernimmt*. Die Übernahme erfolgt unbefristet an einem bestimmten Tag und zu einer bestimmten Zeit.
+In diesem Anwendungsbeispiel wird erläutert, wie Sie einen Kanal erstellen *der* normalen Wiedergabekanal für ein Display oder eine Gruppe von Displays übernimmt. Die Übernahme erfolgt an einem bestimmten Tag und zu einer bestimmten Uhrzeit ständig.
 Zum Beispiel gibt es einen Perpetual TakeOver Kanal, der jeden Freitag von 9 :00 bis 10 :00 spielt. Während dieser Zeit sollte kein anderer Kanal abgespielt werden. Das folgende Beispiel zeigt die Erstellung eines unbefristeten Übernahmekanals, in dem der Inhalt jeden Mittwoch für zwei Stunden von 14 :00 16 :00 abgespielt werden kann.
 
 ### Voraussetzungen {#preconditions}

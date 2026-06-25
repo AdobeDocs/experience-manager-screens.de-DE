@@ -23,14 +23,17 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 1808
-ht-degree: 70%
+source-wordcount: 1845
+ht-degree: 68%
 
 ---
 
 # Aktivierung auf Kanalebene {#channel-level-activation-single-event-playback}
+
+>[!IMPORTANT]
+>Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Auf dieser Seite wird die Aktivierung auf Kanalebene für die in Kanälen verwendeten Assets beschrieben.
 
@@ -162,7 +165,7 @@ Der Player zeigt den Inhalt von **MainAdChannel** an und genau um :59 Uhr (wie i
 
 >[!NOTE]
 >
->Weitere Informationen zum AEM Screens-Player finden Sie unter:>[AEM Screens Player-Downloads](https://download.macromedia.com/screens/)
+>Weitere Informationen zum AEM Screen Player finden Sie in den folgenden Ressourcen:>[AEM Screens Player-Downloads](https://download.macromedia.com/screens/)
 >[Arbeiten mit dem AEM Screens-Player](working-with-screens-player.md)
 
 

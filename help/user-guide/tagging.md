@@ -3,14 +3,17 @@ title: Tagging in der Screens Cloud
 description: Auf dieser Seite wird beschrieben, wie Tags in der Screens Cloud erstellt, verwaltet und verwendet werden können.
 index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
-source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 76%
+source-wordcount: '186'
+ht-degree: 61%
 
 ---
 
 # Tagging in der Screens Cloud {#tagging-on-Screens-Cloud}
+
+>[!IMPORTANT]
+>Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!CAUTION]
 >

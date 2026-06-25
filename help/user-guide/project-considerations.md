@@ -25,14 +25,17 @@ level_v2:
 topic_v2:
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 657
-ht-degree: 98%
+source-wordcount: 703
+ht-degree: 92%
 
 ---
 
 # Teil 2: Überlegungen zum Projektumfang {#part-considerations-as-projects-are-scoped}
+
+>[!IMPORTANT]
+>Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Diese Seite enthält Teil 2 einer 5-teiligen Serie, der Team-Mitgliedern dabei hilft, Pre-Sales-Aspekte bei der Entwicklung erfolgreicher AEM Screens-Bereitstellungen besser zu verstehen.
 

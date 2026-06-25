@@ -11,14 +11,17 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 418
-ht-degree: 98%
+source-wordcount: 464
+ht-degree: 89%
 
 ---
 
 # Grundlagen eines Digital Signage-Projekts {#basics-digital-signage}
+
+>[!IMPORTANT]
+>Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Bevor Sie sich mit Best Practices für die Implementierung von AEM Screens vertraut machen, sollten Sie sich das Projekt als Digital-Signage-Projekt vorstellen – und nicht als herkömmliche Softwareentwicklung.
 

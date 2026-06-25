@@ -23,14 +23,17 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 1476
-ht-degree: 98%
+source-wordcount: 1515
+ht-degree: 95%
 
 ---
 
 # Konfigurieren von ContextHub in AEM Screens {#configuring-contexthub-in-aem-screens}
+
+>[!IMPORTANT]
+>Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Dieser Abschnitt konzentriert sich auf das Erstellen und Verwalten von datengesteuerten Asset-Änderungen mithilfe eines Datenspeichers.
 
@@ -227,8 +230,8 @@ Gehen Sie wie folgt vor, um eine Marke in Ihren Aktivitäten und einen Bereich u
 
    1. Klicken Sie im Assistenten **Seite erstellen** auf **Bereich** und dann auf **Weiter**.
 
-   1. Geben Sie unter **Titel** den Wert **ScreensValue** ein und klicken Sie auf **Erstellen**.
-Es wird ein Bereich in Ihrer Marke erstellt.
+   1. Geben Sie **Titel** als **ScreensValue** ein und klicken Sie auf **Erstellen**.
+In Ihrer Marke wird ein Bereich erstellt.
 
 ## Schritt 5: Erstellen der Segmente in einer Aktivität {#step-setting-up-audience-segmentation}
 

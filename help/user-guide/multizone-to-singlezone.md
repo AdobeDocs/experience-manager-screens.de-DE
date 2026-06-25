@@ -19,16 +19,19 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 421
-ht-degree: 100%
+source-wordcount: 467
+ht-degree: 90%
 
 ---
 
 # Übergang von mehreren zu einzelnen Zonen {#multizone-to-singlezone-use-case}
 
 ## Anwendungsfall – Beschreibung {#use-case-description}
+
+>[!IMPORTANT]
+>Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 In diesem Abschnitt wird ein Anwendungsfall beschrieben, indem erläutert wird, wie man einen Mehrzonen-Layout-Kanal im Wechsel mit einem Einzelzonen-Layout-Kanal einrichtet. Der Mehrzonenkanal verfügt über sequenzierende Bild-/Video-Assets, und es wird gezeigt, wie Sie ein Projekt einrichten können, in dem zwischen Mehr- und Einzelzonen hin- und hergewechselt werden kann.
 

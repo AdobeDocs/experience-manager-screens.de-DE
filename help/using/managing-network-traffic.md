@@ -11,14 +11,17 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 537
-ht-degree: 99%
+source-wordcount: 532
+ht-degree: 90%
 
 ---
 
 # Verwalten des Netzwerk-Traffics {#managing-network-traffic}
+
+>[!IMPORTANT]
+>Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Eine Netzwerkkonfiguration kann auf diversen Strukturen basieren. Dieser Abschnitt erläutert die gängigsten Netzwerkkonfigurationen und beschreibt in verallgemeinerter Form die innerhalb eines Unternehmens verwendeten Ansätze.
 
@@ -26,7 +29,7 @@ Dieses Handbuch bietet zunächst eine Einführung in Proxy-Server, um dann auf d
 
 >[!NOTE]
 >**AEM Screens-Netzwerkanforderungen**
->AEM Screens kommuniziert direkt mit AEM as a Cloud Service. Zwischen den beiden Knoten muss daher eine stabile Verbindung gewährleistet sein. Firewalls sind für den kommerziellen Internetzugang obligatorisch. Als Kundin oder Kunde sollten Sie wissen, welche Kommunikationsanschlüsse in diesen Firewalls und anderen IT-Sicherheit-bezogenen Netzwerkkomponenten geöffnet werden müssen.
+>AEM Screens kommuniziert direkt mit AEM as a Cloud Service. Daher ist es erforderlich, eine stabile Verbindung zwischen den beiden Knoten herzustellen. Firewalls sind für den kommerziellen Internetzugang obligatorisch. Als Kunde sollten Sie wissen, welche Kommunikationsanschlüsse in diesen Firewalls und anderen IT-Sicherheitsnetzwerkkomponenten geöffnet werden müssen.
 
 ## Überblick über Proxy-Server {#proxy-servers}
 
