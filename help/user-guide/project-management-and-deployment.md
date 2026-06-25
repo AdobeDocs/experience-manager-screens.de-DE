@@ -92,7 +92,7 @@ Erfahren Sie mehr über das Projekt-Management sowie die Bereitstellungsvorberei
 
 ### Projekt-Management und Bereitstellung
 
->[!VIDEO](https://video.tv.adobe.com/v/28408)
+>[!VIDEO](https://video.tv.adobe.com/v/32790?captions=ger)
 
 *Erfahren Sie mehr über Projekt-Management und die Bereitstellungsvorbereitung (Projektvorbereitung, Projektstart, Projektfortschritt).*
 
