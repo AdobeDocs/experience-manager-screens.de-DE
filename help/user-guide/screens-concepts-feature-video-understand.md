@@ -25,7 +25,7 @@ ht-degree: 72%
 
 ## Screens-Terminologie und -Konzepte {#terminology-and-concepts}
 
->[!VIDEO](https://video.tv.adobe.com/v/21353?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/40401?captions=ger&quality=9)
 
 >[!IMPORTANT]
 >Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
@@ -42,11 +42,11 @@ Um einen AEM Screens-Player herunterzuladen, klicken Sie [hier](https://download
 
 Im folgenden Video werden die Erstellung eines neuen Kanals, das Verfassen neuer Inhalte und das Hinzufügen eines Kanals zu einem wiederverwendbaren Zeitplan beschrieben. Das Video folgt in etwa der ersten Hälfte der [Screens-Schnellstartanleitung](kickstart-for-aem-screens.md).
 
->[!VIDEO](https://video.tv.adobe.com/v/21387?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/39368?captions=ger&quality=9)
 
 ## Zuweisung von Anzeigen und Geräteregistrierung – Teil 2 {#display-and-device-pt2}
 
 Das folgende Video veranschaulicht die Erstellung eines Standorts, einer Anzeige und einer Gerätekonfiguration. Außerdem werden die Schritte zum Registrieren eines Geräts und zum Zuweisen des Geräts zu einer Anzeige erläutert. Das Video folgt in etwa der zweiten Hälfte der [Screens-Schnellstartanleitung](kickstart-for-aem-screens.md).
 
->[!VIDEO](https://video.tv.adobe.com/v/21411?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/39389?captions=ger&quality=9)
 
