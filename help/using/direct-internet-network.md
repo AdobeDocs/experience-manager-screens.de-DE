@@ -22,7 +22,7 @@ ht-degree: 93%
 # Netzwerk für direkten Internet-Zugriff (kabelgebunden/kabellos) {#direct-internet-access}
 
 >[!IMPORTANT]
->Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Das Netzwerk für direkten Internet-Zugriff beinhaltet einen Internet-Zugangspunkt, über den die Erreichbarkeit der AEM Cloud Services gewährleistet wird, mit denen AEM Screens eine Verbindung herstellen muss.
 

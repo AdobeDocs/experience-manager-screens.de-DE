@@ -20,7 +20,7 @@ ht-degree: 93%
 # Einführung in AEM Screens {#introduction}
 
 >[!IMPORTANT]
->Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 **AEM Screens** ist eine Digital-Signage-Lösung, mit der Sie dynamische und interaktive digitale Erlebnisse erstellen, veröffentlichen und wiedergeben können. Dies umfasst verschiedene Arten von lokalen Anzeigebildschirmen in Abstimmung mit einer umfassenden kanalübergreifenden digitalen Marketing-Strategie.
 

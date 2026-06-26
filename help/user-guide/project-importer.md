@@ -32,7 +32,7 @@ In diesem Abschnitt wird eine Funktionalität beschrieben, mit der Sie verschied
 ## Einführung {#introduction}
 
 >[!IMPORTANT]
->Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Wenn Sie zum ersten Mal in Ihrer Organisation ein AEM Screens-Projekt einrichten, müssen Sie auch alle Standorte erstellen. Bei einem Projekt mit vielen Standorten ist dies eine durchaus mühsame Aufgabe, mit großem Auswahlaufwand und entsprechender Warterei in der Benutzeroberfläche.
 

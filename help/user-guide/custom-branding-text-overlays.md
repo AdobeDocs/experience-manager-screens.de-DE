@@ -24,7 +24,7 @@ ht-degree: 89%
 # Benutzerdefiniertes Branding und Styling für Textüberlagerungen {#creating-custom-branding-styling}
 
 >[!IMPORTANT]
->Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Erfahren Sie, wie Sie benutzerdefiniertes Branding und Styling für Textüberlagerungen anwenden, die auf Ihre Assets in einem AEM Screens-Kanal angewendet werden.
 
