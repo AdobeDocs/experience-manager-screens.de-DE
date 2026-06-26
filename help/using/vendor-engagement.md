@@ -3,12 +3,9 @@ title: Anbieterinteraktion
 description: Erfahren Sie mehr über das Best-Practices-Handbuch zur Anbieterinteraktion bei AEM Screens.
 exl-id: b1b1cd4b-f0a8-47d4-b8b8-dc7e42464230
 TQID: https://experienceleague.adobe.com/-giwSKYfpt7HB6WLQC4zuDYgr8ywFqKYfD9KqhPeYJE
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 172
 ht-degree: 59%
@@ -18,7 +15,7 @@ ht-degree: 59%
 # Anbieterinteraktion {#vendor-engagement}
 
 >[!IMPORTANT]
->Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!NOTE]
 >Ein typischer Stakeholder für diese Aktivität ist eine Person, die Audio-Video-Integration betreibt.
@@ -32,3 +29,4 @@ Bei dieser Aktivität müssen alle zentralen Anbieter, die für die Einrichtung 
 * Bestätigen Sie die *Lead-Zeiten* der Bereitstellung für alle Leistungen. Erstellen Sie einen Bereitstellungsplan, der alle Vorlaufzeiten berücksichtigt, die von einem oder mehreren gewünschten Installationsdaten der ersten erforderlichen Installationen rückwärts arbeiten.
 
 Nach Erledigung aller vorherigen Schritte sollten Sie nun einen umfassenden Bereitstellungsplan für *Tag 1* ausführen können.
+

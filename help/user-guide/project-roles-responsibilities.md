@@ -6,22 +6,12 @@ role: User, Developer
 level: Beginner
 exl-id: 313cc26f-c509-4b28-a185-4e530e826b83
 TQID: https://experienceleague.adobe.com/ULR3Fb5MatuAz2nV4W8S8Nx0G035oB7YIachm4A3fBo
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ae478996-b206-4712-9b0c-dc78a2644453
-  - id: f18e6c98-d21a-4444-b84b-f327ce464de4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ae478996-b206-4712-9b0c-dc78a2644453id: f18e6c98-d21a-4444-b84b-f327ce464de4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 536
 ht-degree: 91%
@@ -31,7 +21,7 @@ ht-degree: 91%
 # Teil 1: Projektrollen und Zuständigkeiten {#part-project-roles-and-responsibilities}
 
 >[!IMPORTANT]
->Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Auf dieser Seite wird Teil 1 einer 5-teiligen Serie vorgestellt. Damit sollen Team-Mitglieder mehr über die Rollen, Verantwortlichkeiten und Zeitpläne erfahren, die in den Vertriebs- und Projektlebenszyklen eines Projekts für Digital Signage erforderlich sind.
 
@@ -75,7 +65,7 @@ In diesem Tutorial können Sie genau verstehen, wie sich die einzelnen Parteien 
 
 ### Teil 1: Projektrollen und Zuständigkeiten
 
->[!VIDEO](https://video.tv.adobe.com/v/32817?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/28375)
 
 *Erfahren Sie mehr über die Rollen und Zuständigkeiten von Adobe sowie den Personen, die für die AEM-Implementierung bzw. die Audio-Video-Integration zuständig sind.*
 
@@ -84,3 +74,4 @@ In diesem Tutorial können Sie genau verstehen, wie sich die einzelnen Parteien 
 Wenn Sie die Projektrollen und Zuständigkeiten bei der Implementierung eines Digital-Signage-Projekts verstanden haben, folgen Sie dem nächsten Tutorial. Es werden Themen wie Tests und Pre-Sales-Überlegungen behandelt, während der Umfang des Projekts bei der Entwicklung von AEM Screens-Chancen festgelegt wird.
 
 Navigieren Sie zu **[Teil 2: Überlegungen zum Projektumfang](project-considerations.md)**, um weitere Informationen zu erhalten.
+

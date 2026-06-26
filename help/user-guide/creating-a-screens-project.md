@@ -10,29 +10,22 @@ role: Admin, Developer
 level: Intermediate
 exl-id: d98b449f-6b7d-4c08-b507-a64dece84ba8
 TQID: https://experienceleague.adobe.com/YXT-n3t6hQwrt8entuM0NCfRVpbMCOXPjF7Pxrreuc4
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
-subfeature_v2:
-  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 336
-ht-degree: 85%
+source-wordcount: 370
+ht-degree: 87%
 
 ---
 
 # Erstellen und Verwalten von Projekten {#creating-and-managing-projects}
 
 >[!IMPORTANT]
->Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 
 Rufen Sie AEM Screens auf, indem Sie den Adobe Experience Manager-Link (oben links) und dann „Screens“ auswählen.
@@ -40,8 +33,7 @@ Rufen Sie AEM Screens auf, indem Sie den Adobe Experience Manager-Link (oben lin
 Sie haben auch die Möglichkeit, direkt zur folgenden URL zu wechseln: `http://localhost:4502/screens.html/content/screens`
 
 >[!NOTE]
->**Navigationstipp:**
->Sie können auch die Cursortasten verwenden, um durch verschiedene Ordner in AEM zu navigieren. Nachdem Sie auf eine bestimmte Entität geklickt haben, drücken Sie die Leertaste, um die Eigenschaften für diesen bestimmten Ordner zu bearbeiten oder anzuzeigen.
+>**Navigationstipp:Sie können auch die Pfeiltasten verwenden, um durch die verschiedenen Ordner in AEM zu navigieren. Nachdem Sie auf eine bestimmte Entität geklickt haben, können Sie zudem die Leertaste drücken, um Eigenschaften für den betreffenden Ordner zu bearbeiten oder anzuzeigen.
 
 ## Erstellen eines neuen Screens-Projekts
 
@@ -92,3 +84,4 @@ Die folgenden Schritte zeigen, wie Sie einen Anwendungsordner für Ihre Primärs
 ### Die nächsten Schritte {#the-next-steps}
 
 Nachdem Sie Ihr eigenes Projekt erstellt haben, informieren Sie sich unter [Kanalverwaltung](managing-channels.md), wie Sie Inhalte in Ihrem Kanal erstellen und verwalten.
+
