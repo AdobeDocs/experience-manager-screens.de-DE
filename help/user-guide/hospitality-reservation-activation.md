@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 499
 ht-degree: 88%
@@ -97,3 +97,4 @@ Gehen Sie wie folgt vor, um den Anwendungsfall für die reservierungsgesteuerte 
    1. Aktualisieren Sie den Wert in den Spalten **`Restaurant1`** und **`Restaurant2`**. Wenn **`Restaurant1`** > **`Restaurant2`ist,** sollten Sie ein Bild eines *Steak-Gerichts* sehen. Andernfalls wird ein Bild mit *thailändischem Essen* auf Ihrem Bildschirm angezeigt.
 
    ![result5](assets/result5.gif)
+

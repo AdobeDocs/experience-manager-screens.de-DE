@@ -8,10 +8,10 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 212
-ht-degree: 69%
+source-wordcount: 245
+ht-degree: 81%
 
 ---
 
@@ -33,11 +33,11 @@ Dieser Prozess kann folgendermaßen angewendet werden:
 
 Dadurch gelangt das Projekt von der Prototypenphase näher zur eigentlichen Bereitstellungsphase.
 
-In einer **Ansicht auf Asset** sollten Sie Wireframes erstellen, die verschiedene Optionen für das Inhalts-Layout und Inhaltsgruppierungen definieren. Diese Arbeit hilft zu definieren, wie mehrere Inhaltselemente aussehen können, wenn sie als Gruppe zusammengestellt werden.
-Normalerweise würden Sie in dieser Aktivität fertige Grafiken, Bilder und Videos verwenden.
+Auf einer **Asset-Ebene** sollten Sie Wireframes erstellen, die verschiedene Inhalts-Layout-Optionen und Inhaltsgruppierungen definieren. Auf diese Weise lässt sich feststellen, wie verschiedene Inhaltselemente aussehen könnten, wenn sie als Gruppe zusammengestellt werden.Normalerweise werden bei dieser Aktivität produktionsbereite Grafiken, Bilder und Videos verwendet.
 
 In einer **Kanalebenenansicht** sollten Sie Wireframes erstellen, die zeigen, wie Inhaltskanäle im Gesamterlebnis miteinander verknüpft sind, einschließlich Wiedergabestrategien für integrierte Kanäle. Außerdem lassen sich Kanalübergänge überprüfen, die auftreten können, wenn Datenauslöser aktiviert werden.
 
 Auf **Projektebene** können Sie untersuchen, wie mehrere Bildschirme oder Erlebnisse in einem physischen Raum zusammenwirken können, um eine umfassende Benutzer-Journey mit mehreren Touchpoints zu ermöglichen.
 
 Diese Strategien sollten sich an der zuvor erstellten UX Journey Map orientieren.
+

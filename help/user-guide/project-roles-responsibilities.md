@@ -21,7 +21,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 536
 ht-degree: 91%
@@ -84,3 +84,4 @@ In diesem Tutorial können Sie genau verstehen, wie sich die einzelnen Parteien 
 Wenn Sie die Projektrollen und Zuständigkeiten bei der Implementierung eines Digital-Signage-Projekts verstanden haben, folgen Sie dem nächsten Tutorial. Es werden Themen wie Tests und Pre-Sales-Überlegungen behandelt, während der Umfang des Projekts bei der Entwicklung von AEM Screens-Chancen festgelegt wird.
 
 Navigieren Sie zu **[Teil 2: Überlegungen zum Projektumfang](project-considerations.md)**, um weitere Informationen zu erhalten.
+

@@ -8,7 +8,7 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 172
 ht-degree: 59%
@@ -32,3 +32,4 @@ Bei dieser Aktivität müssen alle zentralen Anbieter, die für die Einrichtung 
 * Bestätigen Sie die *Lead-Zeiten* der Bereitstellung für alle Leistungen. Erstellen Sie einen Bereitstellungsplan, der alle Vorlaufzeiten berücksichtigt, die von einem oder mehreren gewünschten Installationsdaten der ersten erforderlichen Installationen rückwärts arbeiten.
 
 Nach Erledigung aller vorherigen Schritte sollten Sie nun einen umfassenden Bereitstellungsplan für *Tag 1* ausführen können.
+

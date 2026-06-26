@@ -10,7 +10,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 758
 ht-degree: 93%
@@ -52,3 +52,4 @@ Mehr über die Grundlagen von AEM Screens-Projekten erfahren Sie in den nachfol
    * *[Teil 3: Tests, POCs, Pilotprogramme und Rollouts](https://experienceleague.adobe.com/de/docs/experience-manager-screens/user-guide/digital-signage-network/testing-pocs-pilots-rollouts)*: Teil 3 einer 5-teiligen Serie, der Team-Mitgliedern dabei hilft, die Schlüsselbegriffe besser zu verstehen. Diese Begriffe sind entscheidend, um sicherzustellen, dass vor einem Rollout eine erfolgreiche Lösung entwickelt wird. Behandelt werden Aktionen im Zusammenhang mit Labortests und Leistungsprüfungen für Hardware, Machbarkeitsstudien (auch POCs genannt, Proofs of Concept) und Pilotprogrammen.
    * *[Teil 4: Projekt-Management und Bereitstellung](https://experienceleague.adobe.com/de/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)*: Teil 4 einer 5-teiligen Serie, der sich mit dem Projekt-Management und der Bereitstellungsvorbereitung befasst. Außerdem werden Schlüsselfaktoren definiert, für die die für die Audio-Video-Integration zuständige Person im Zusammenhang mit dem Projekt-Management und der Bereitstellungsvorbereitung verantwortlich ist. Darunter fallen die Projektvorbereitung, Projektinitiierung und Projektfortführung.
    * *[Teil 5: Support-Überlegungen](https://experienceleague.adobe.com/de/docs/experience-manager-screens/user-guide/digital-signage-network/support-considerations)*: Letzter Teil einer 5-teiligen Serie, der Team-Mitgliedern dabei hilft, Probleme mit Hardware, Software und Konnektivität zu lösen. In diesem Schritt werden Kostenschätzungen und Bedingungen für den Vor-Ort-Support untersucht. Zudem wird erläutert, wie sich SLA-Parameter, Betriebsbudgets und NOC-Handoffs verwalten lassen.
+

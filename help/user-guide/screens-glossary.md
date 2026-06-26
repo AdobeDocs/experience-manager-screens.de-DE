@@ -13,7 +13,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 488
 ht-degree: 90%
@@ -48,3 +48,4 @@ ht-degree: 90%
 **Sequenzkanal**: Ein Sequenzkanal ist eine Seite, die Sie erstellen können und die Komponenten enthält, die nacheinander in einer Diashow angezeigt werden.
 
 **Zonen**: Zonen (oder Bereiche) sind Segmentierungen von Anzeigen, die als primäre adressierbare Entitäten für Kanäle verwendet werden. In Fällen, in denen Anzeigen mehrere Bildschirme umfassen, ist es von Vorteil, die Bereiche so zu definieren, dass sie mit den Bildschirmabmessungen übereinstimmen (vor allem, wenn die Bildschirme einen deutlich sichtbaren, physischen Rahmen aufweisen).
+

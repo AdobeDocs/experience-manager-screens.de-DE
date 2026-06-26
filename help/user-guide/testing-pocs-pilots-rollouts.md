@@ -24,7 +24,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 593
 ht-degree: 92%
@@ -99,3 +99,4 @@ Wenn Sie alle diese Schritte als Teil des übergeordneten Projektplans betrachte
 Wenn Sie mit Tests, Machbarkeitsstudien, Pilotprogrammen und Rollouts gut vertraut sind, sehen Sie sich das nächste Tutorial an, das genauer auf das Projekt-Management und die damit verbundenen Prozesse eingeht.
 
 Navigieren Sie zu **[Teil 4: Projekt-Management und Bereitstellung](project-management-and-deployment.md)**, um mehr zu erfahren.
+

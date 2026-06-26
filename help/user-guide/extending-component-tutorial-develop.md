@@ -22,7 +22,7 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 1892
 ht-degree: 94%
@@ -66,7 +66,7 @@ Der Quell-Code eines Screens-Projekts wird normalerweise als Maven-Projekt mit m
 
    [Datei abrufen](assets/start-poster-screens-weretail-runuiapps-001-snapshot.zip)
 
-   [Datei abrufen](assets/start-poster-screens-weretail-runuicontent-001-snapshot.zip)
+   &lbrack;Datei abrufen
    Wenn Sie mit Eclipse oder einer anderen IDE arbeiten, laden Sie **optional** das folgende Quellpaket herunter. Stellen Sie das Projekt mithilfe des Maven-Befehls in einer lokalen AEM-Instanz bereit:
 
    **`mvn -PautoInstallPackage clean install`**
@@ -539,3 +539,4 @@ Unten finden Sie den fertigen Code aus dem Tutorial. **screens-weretail-run.ui.a
 SRC – fertiges Projekt „`We.Retail` Run“ für AEM Screens
 
 [Datei abrufen](assets/src-screens-weretail-run-001.zip)
+

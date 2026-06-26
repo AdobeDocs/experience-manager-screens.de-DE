@@ -12,10 +12,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 706
-ht-degree: 89%
+source-wordcount: 776
+ht-degree: 93%
 
 ---
 
@@ -56,7 +56,7 @@ Gehen Sie wie folgt vor, um eine ordnungsgemäße Anbindung der AEM Screens-Play
 1. Im Falle eines erfolgreichen URL-Aufrufs können Sie mit der Installation der für AEM Screens verwendeten Bildschirme fortfahren, die Registrierung abschließen Starten Sie AEM Screens.
 
    >[!NOTE]
-   >**Tipp zur Fehlerbehebung**
+   >**Tipp zur Fehlerbehebung
    >Gehen Sie wie folgt vor, wenn bei AEM Screens Verbindungsprobleme auftreten und die erwarteten Inhalte nicht angezeigt werden:
    >
    >1. Prüfen Sie, ob in der Firewall Ihres Internet-Routers Zugriffsbeschränkungen für `TCP/IP Port 80/443` eingerichtet sind.
@@ -84,8 +84,7 @@ Wie viel *ausreichend* ist, hängt von der Anzahl der verbundenen AEM Screens-Ge
 
 Die LAN-Verbindung muss ausreichend Bandbreite zur Verfügung stellen, damit neben der Erreichbarkeit des Netzwerks auch ein reibungsloser Betrieb von AEM Screens gewährleistet werden kann.
 
-Das LAN-Netzwerk entspricht in der Regel mindestens einem 100-Mbit/s-Netzwerk, sodass ausreichend Bandbreite vorhanden ist, um viele Geräte mit guter Leistung an das System anzuschließen.
-Sofern eine WLAN-Lösung für die Internet-Anbindung von AEM Screens vorgesehen ist, sollten moderne WLAN-Standards verwendet werden. Empfohlen wird hierfür mindestens `IEEE 802.11g`. Dieser Standard unterstützt Verbindungen mit bis zu 54 Mbit/s. Alle *neueren* Standards wie `802.11h-n` sind von besserer Qualität.
+LAN-Netzwerke unterstützen in der Regel Übertragungsraten von mindestens 100 MBit/s und liefern daher auch bei der Anbindung einer Vielzahl von Geräten an das System eine für eine angemessene Leistung ausreichende Bandbreite.Sofern eine WLAN-Lösung für die Internet-Anbindung von AEM Screens vorgesehen ist, sollten moderne WLAN-Standards verwendet werden. Empfohlen wird hierfür mindestens `IEEE 802.11g`. Dieser Standard unterstützt Verbindungen mit bis zu 54 MBit/s. Eine bessere Qualität liefern jedoch *neuere* Standards wie etwa `802.11h-n`.
 
 >[!NOTE]
 >
@@ -106,3 +105,4 @@ In der nachfolgenden Tabelle ist eine Übersicht der wichtigsten Daten bezüglic
 >Diese Daten zeigen auf, wie viel Bandbreite jedes einzelne mit dem Netzwerk verbundene Gerät beim Anfragen und Herunterladen einer Internet-Quelle beansprucht. Mit jeder weiteren solchen Anfrage erhöht sich die Bandbreitennutzung, wodurch sich wiederum die Download-Zeit verlängert.
 
 ![](/help/assets/download-times-direct.png)
+

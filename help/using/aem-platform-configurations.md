@@ -10,10 +10,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 543
-ht-degree: 81%
+source-wordcount: 592
+ht-degree: 80%
 
 ---
 
@@ -72,8 +72,7 @@ Installieren Sie die aktuellsten Versionen der folgenden Pakete für Ihre Versio
 * AEM Cumulative Fix Pack
 
 Identifizieren Sie zusätzlich zu den obigen Angaben alle Entwicklungspakete (z. B. WCM Core).
-Komponenten) oder Drittanbieter-Toolkits (z. B. SAP Hybris), die erforderlich sind.
-Installieren Sie dieselben Softwarepakete in Ihrer lokalen Entwicklungsumgebung. Weisen Sie Ihren Client an, dieselbe Konfiguration auf allen QS-, Staging- und Produktions-Servern anzuwenden. Nicht übereinstimmende Server-Konfigurationen verursachen Probleme bei der Bereitstellung und beim Testen.
+Komponenten) oder Drittanbieter-Toolkits (z. B. SAP Hybris), die erforderlich sind.Installieren Sie die gleichen Software-Pakete in Ihren lokalen Entwicklungsumgebungen. Weisen Sie Ihren Client an, dieselbe Konfiguration auf allen QA-, Staging- und Produktions-Servern zu verwenden. Nicht übereinstimmende Server-Konfigurationen verursachen Probleme bei Bereitstellung und Tests.
 
 >[!NOTE]
 >
@@ -84,3 +83,4 @@ Installieren Sie dieselben Softwarepakete in Ihrer lokalen Entwicklungsumgebung.
 Unter „Einrichten von ACLs“ wird erläutert, wie Projekte getrennt werden können, damit jede Person bzw. jedes Team ein eigenes Projekt erhält.
 
 Weitere Informationen finden Sie unter [Einrichten von ACLs](https://experienceleague.adobe.com/de/docs/experience-manager-screens/user-guide/administering/setting-up-acls).
+

@@ -26,9 +26,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 2532
+source-wordcount: 2539
 ht-degree: 93%
 
 ---
@@ -91,8 +91,7 @@ Bevor Sie mit der Implementierung dieser Funktionalität beginnen, stellen Sie s
 * Erstellen Sie einen Kanal als **Global** im Ordner **Kanäle**.
 * Hinzufügen von Inhalten zu Ihrem Kanal **Global** (*Überprüfen Sie **Resources.zip**&#x200B;für relevante Assets*)
 
-Die folgende Abbildung zeigt das **Demo**-Projekt mit **Global**-Kanal im **Kanäle**-Ordner.
-![screen_shot_2018-09-07at21032pm](assets/screen_shot_2018-09-07at21032pm.png)
+Die folgende Abbildung zeigt das Projekt **Demo** mit dem Kanal **Global** im Ordner **Kanäle**.![screen_shot_2018-09-07at21032pm](assets/screen_shot_2018-09-07at21032pm.png)
 
 ### Ressourcen {#resources}
 
@@ -418,3 +417,4 @@ Führen Sie die folgenden Schritte aus, um Gruppen und Benutzende zu erstellen u
 >[!NOTE]
 >
 >Ausführliche Informationen zum Einrichten von Berechtigungen finden Sie unter [Einrichten von ACLs](setting-up-acls.md).
+

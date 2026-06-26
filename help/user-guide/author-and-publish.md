@@ -11,10 +11,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1959
-ht-degree: 82%
+source-wordcount: 2022
+ht-degree: 83%
 
 ---
 
@@ -155,8 +155,7 @@ Navigieren Sie für eine der Veröffentlichungsinstanzen zu `https://:/system/co
 
 #### Schritt 3: Einrichten des ActiveMQ Artemis-Clusters {#step-setup-activemq-artemis-cluster}
 
-In diesem Schritt können Sie ein verschlüsseltes Kennwort für den ActiveMQ Artemis-Cluster erstellen.
-Der Cluster-Benutzer und das Passwort müssen für alle Veröffentlichungsinstanzen in der Topologie identisch sein. Das Kennwort der ActiveMQ Artemis-Konfiguration muss verschlüsselt sein. Da jede Instanz über einen eigenen Verschlüsselungsschlüssel verfügt, müssen Sie mit Crypto Support eine verschlüsselte Passwortzeichenfolge erstellen. Anschließend kann das verschlüsselte Passwort in der OSGi-Konfiguration für ActiveMQ verwendet werden.
+In diesem Schritt können Sie ein verschlüsseltes Kennwort für den ActiveMQ Artemis-Cluster erstellen.Die Cluster-Benutzerin bzw. der Cluster-Benutzer und das Kennwort müssen für alle Veröffentlichungsinstanzen in der Topologie identisch sein. Das Kennwort der ActiveMQ Artemis-Konfiguration muss verschlüsselt werden. Da jede Instanz über einen eigenen Verschlüsselungsschlüssel verfügt, müssen Sie mit Crypto Support eine verschlüsselte Kennwortzeichenfolge erstellen. Dann wird das verschlüsselte Kennwort in der OSGi-Konfiguration für ActiveMQ verwendet.
 
 In jeder Veröffentlichungsinstanz:
 
@@ -169,8 +168,7 @@ Da jede Veröffentlichungsinstanz standardmäßig über eindeutige Kryptoschlüs
 
 >[!NOTE]
 >
->Das Kennwort sollte mit geschweiften Klammern beginnen und enden. Beispiel:
->`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
+>Das Passwort sollte mit geschweiften Klammern beginnen und enden. Beispiel:
 
 #### Schritt 4: Aktivieren des ActiveMQ Artemis-Clusters {#step-activate-activemq-artemis-cluster}
 

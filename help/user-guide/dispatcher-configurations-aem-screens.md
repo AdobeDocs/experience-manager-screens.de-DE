@@ -17,10 +17,10 @@ level_v2:
 topic_v2:
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 702
-ht-degree: 87%
+source-wordcount: 709
+ht-degree: 89%
 
 ---
 
@@ -39,8 +39,7 @@ Die folgende Seite enthält die Richtlinien zum Konfigurieren eines Dispatchers 
 >
 >Ist kein Dispatcher vorhanden, deaktivieren Sie das Registrierungs-Servlet in der Liste der OSGi-Komponenten.
 
-Bevor Sie Dispatcher für ein AEM Screens-Projekt konfigurieren, sollten Sie über Vorkenntnisse in Dispatcher verfügen.
-Weitere Informationen [&#x200B; Sie unter „Konfigurieren &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration) Dispatcher&quot;.
+Um den Dispatcher für ein AEM Screens-Projekt konfigurieren zu können, benötigen Sie entsprechende Dispatcher-Vorkenntnisse.Weitere Informationen finden Sie unter [Konfigurieren von Dispatcher](https://experienceleague.adobe.com/de/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration).
 
 ## Konfigurieren von Dispatcher für die Manifest-Version v2 {#configuring-dispatcher}
 
@@ -262,3 +261,4 @@ Wenn Sie zielgerichtete Kampagnen mit AEM Screens verwenden, muss die Datei `seg
 ```
 
 * Diese Regel stellt sicher, dass die `segments.js`-Datei invalidiert wird und die neueste Datei abgerufen wird, wenn sie geändert wird.
+

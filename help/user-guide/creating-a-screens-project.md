@@ -22,10 +22,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 336
-ht-degree: 85%
+source-wordcount: 370
+ht-degree: 87%
 
 ---
 
@@ -40,8 +40,7 @@ Rufen Sie AEM Screens auf, indem Sie den Adobe Experience Manager-Link (oben lin
 Sie haben auch die Möglichkeit, direkt zur folgenden URL zu wechseln: `http://localhost:4502/screens.html/content/screens`
 
 >[!NOTE]
->**Navigationstipp:**
->Sie können auch die Cursortasten verwenden, um durch verschiedene Ordner in AEM zu navigieren. Nachdem Sie auf eine bestimmte Entität geklickt haben, drücken Sie die Leertaste, um die Eigenschaften für diesen bestimmten Ordner zu bearbeiten oder anzuzeigen.
+>**Navigationstipp:Sie können auch die Pfeiltasten verwenden, um durch die verschiedenen Ordner in AEM zu navigieren. Nachdem Sie auf eine bestimmte Entität geklickt haben, können Sie zudem die Leertaste drücken, um Eigenschaften für den betreffenden Ordner zu bearbeiten oder anzuzeigen.
 
 ## Erstellen eines neuen Screens-Projekts
 
@@ -92,3 +91,4 @@ Die folgenden Schritte zeigen, wie Sie einen Anwendungsordner für Ihre Primärs
 ### Die nächsten Schritte {#the-next-steps}
 
 Nachdem Sie Ihr eigenes Projekt erstellt haben, informieren Sie sich unter [Kanalverwaltung](managing-channels.md), wie Sie Inhalte in Ihrem Kanal erstellen und verwalten.
+

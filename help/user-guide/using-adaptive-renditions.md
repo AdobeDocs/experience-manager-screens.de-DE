@@ -8,10 +8,10 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 601
-ht-degree: 77%
+source-wordcount: 630
+ht-degree: 78%
 
 ---
 
@@ -29,8 +29,7 @@ Adaptive Ausgabedarstellungen ermöglichen es den Geräten, basierend auf kunden
 
 ## Ziel {#objective}
 
-Als AEM Screens-Inhaltsautor können Sie jetzt gerätespezifische Asset-Ausgabedarstellungen so konfigurieren, dass sie automatisch heruntergeladen und wiedergegeben werden, ohne dass alle Inhaltsvarianten manuell erstellt werden müssen.
-Nachdem ein Entwickler die Eigenschaften und Regeln für die Ausgabedarstellungszuordnung hinzugefügt hat, können Sie die Ausgabedarstellungszuordnung auf Assets anwenden und sie dann in einen AEM Screens-Kanal einschließen.
+Als AEM Screens-Inhaltsautor können Sie jetzt gerätespezifische Asset-Ausgabedarstellungen so konfigurieren, dass sie automatisch heruntergeladen und wiedergegeben werden, ohne dass alle Inhaltsvarianten manuell erstellt werden müssen.Sobald Entwickelnde die Eigenschaften und Regeln für die Ausgabedarstellungs-Zuordnung hinzugefügt haben, können Sie die Ausgabedarstellungs-Zuordnung nun auf Assets anwenden und diese anschließend in einen AEM Screens-Kanal aufnehmen.
 
 >[!IMPORTANT]
 >Bevor Sie mit der Verwendung von adaptiven Ausgabedarstellungen in einem AEM Screens-Kanal beginnen, empfiehlt Adobe, dass Sie sich genauer über die Architekturübersicht und -konfiguration dieser Funktion informieren. Siehe [Adaptive Ausgabedarstellungen: Überblick über die Architektur und Konfigurationen](/help/user-guide/adaptive-renditions.md).
@@ -79,3 +78,4 @@ Um die Funktion zu aktivieren, fügen Sie mindestens eine Zuordnungsregel hinzu 
 
    >[!NOTE]
    >Nachdem Sie die Migration abgeschlossen haben, stellen Sie sicher, dass Sie alle Konfigurationsverweise aus Kanälen, Anzeigen und Standorten entfernen und dem Projektinhaltsknoten einen einzelnen hinzufügen.
+

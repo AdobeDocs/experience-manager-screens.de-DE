@@ -16,7 +16,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 1349
 ht-degree: 93%
@@ -213,3 +213,4 @@ In der folgenden Tabelle wird **Tag 2 zusammengefasst: RACI-Diagramm für Post-
 | Level 3-Support | I | RA | C |
 | Inhaltsaktualisierung | RA | I | I |
 | Bewerten des UX-Erfolgs und Ermitteln von Verbesserungsmöglichkeiten | RA | C | I |
+

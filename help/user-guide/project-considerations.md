@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 703
 ht-degree: 92%
@@ -108,3 +108,4 @@ Im folgenden Tutorial erfahren Sie mehr über die Inhaltsstrategie, E/A-Schichte
 Erfahren Sie mehr über Elemente, die bei der Projekterkundung identifiziert werden, sowie über Beiträge von Stakeholdern zur Bewertung des Projekts und Vorbereitung eines geeigneten Designs. Lernen Sie die wichtigsten Begriffe kennen, die in einem übergeordneten Projektplan verwendet werden. Dazu gehören Projektzyklus, Aktionen im Zusammenhang mit Hardware-Tests, Machbarkeitsstudien, Pilotprogramme und Rollouts.
 
 Navigieren Sie zu **[Tests, POCs, Pilotprogramme und Rollouts](testing-pocs-pilots-rollouts.md)**, um weitere Informationen zu erhalten.
+

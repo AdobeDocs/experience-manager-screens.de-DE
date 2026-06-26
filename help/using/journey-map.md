@@ -8,7 +8,7 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 319
 ht-degree: 85%
@@ -38,3 +38,4 @@ Lassen Sie Projektleitende und wichtige Stakeholder mit der Platzierung digitale
 
 >[!NOTE]
 > Beginnen Sie in der Pilotphase mit der Erfassung von Analysen. So können Sie Geschäfts-Teams dabei helfen, anhand der spezifischen Metriken, die sie erreichen möchten, den Erfolg der Lösung zu überprüfen. Die Ergebnisse aus dem Pilotprojekt helfen Businessteams dabei, zu ermitteln, welche Verbesserungen vorgenommen werden müssen.
+

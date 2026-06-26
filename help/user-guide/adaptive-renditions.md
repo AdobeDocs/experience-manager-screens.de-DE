@@ -8,10 +8,10 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 703
-ht-degree: 84%
+source-wordcount: 718
+ht-degree: 88%
 
 ---
 
@@ -53,8 +53,7 @@ Gehen Sie wie folgt vor, um die Einrichtung zu konfigurieren:
    >![Bild](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
    >[!IMPORTANT]
-   >Wenn Sie das neueste Feature Pack 202109 installiert haben, sehen Sie die Knotenstruktur **Ausgabedarstellungszuordnung**, die in `/conf/screens/sling:configs/rendition-mapping` in CRXDE Lite bereits vorausgefüllt ist. Unter [Versionshinweise für Feature Pack 202109](/help/user-guide/release-notes-fp-202109.md) finden Sie Details zum neuesten Feature Pack.
-   >Stellen Sie bei vorhandenen Projekten sicher, dass dem Screens-Projekt die Konfiguration **rendition-mapping** zugeordnet ist. Weitere Informationen finden Sie unter [Hinzufügen der Ausgabedarstellungszuordnung zu einem vorhandenen Projekt](#rendition-mapping-existing).
+   >Wenn Sie das neueste Feature Pack 202109 installiert haben, sehen Sie in CRXDE Lite die Knotenstruktur **rendition-mapping**, die in `/conf/screens/sling:configs/rendition-mapping` bereits vorausgefüllt ist. Weitere Informationen zum neuesten Feature Pack finden Sie unter [Versionshinweise für Feature Pack 202109](/help/user-guide/release-notes-fp-202109.md).   >Stellen Sie bei vorhandenen Projekten sicher, dass dem Screens-Projekt die Konfiguration **rendition-mapping** zugeordnet ist. Weitere Informationen finden Sie unter [Hinzufügen der Ausgabedarstellungszuordnung zu einem vorhandenen Projekt](#rendition-mapping-existing).
 
 ### Hinzufügen der Ausgabedarstellungszuordnungs-Eigenschaft zu einem vorhandenen Projekt {#rendition-mapping-existing}
 
@@ -104,3 +103,4 @@ Gehen Sie wie folgt vor, um einen Knoten unter „Ausgabedarstellungszuordnung�
 ## Die nächsten Schritte {#next-steps}
 
 Nachdem Sie Eigenschaften und Regeln für die Ausgabedarstellungszuordnung hinzugefügt haben, können Sie als Inhaltsautorin bzw. Inhaltsautor Ihre Assets konfigurieren. Sie können adaptive Ausgabedarstellungen nutzen und außerdem Ihre Geräte auch für große Netzwerke migrieren, um diese Funktion in Ihren AEM Screens-Kanälen zu verwenden. Weitere Informationen finden Sie unter [Verwenden adaptiver Ausgabedarstellungen in AEM Screens](/help/user-guide/using-adaptive-renditions.md).
+

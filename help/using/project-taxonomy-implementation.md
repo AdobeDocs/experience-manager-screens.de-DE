@@ -11,7 +11,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 457
 ht-degree: 82%
@@ -68,3 +68,4 @@ Autoren starten ein AEM Screens-Projekt normalerweise durch:
 
 >[!NOTE]
 >Darüber hinaus können Sie eine Reihe von Speicherorten aus einer CSV/XLS-Tabelle per Massenimport in Ihr AEM Screens-Projekt importieren. Siehe [Importer für neue Projekte aus Datei](https://experienceleague.adobe.com/de/docs/experience-manager-screens/user-guide/administering/project-importer).
+

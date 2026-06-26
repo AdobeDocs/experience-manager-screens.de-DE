@@ -13,7 +13,7 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 307
 ht-degree: 85%
@@ -52,3 +52,4 @@ Es gibt zwei Hauptarten von Datenauslösern:
 
 * **Lokale Datenauslöser**: Diese Datenauslöser befinden sich lokal auf dem Gerät. Wenn Sie etwa den Bildschirm berühren, wird ein Sensor aktiviert, der einen lokalen Daten-Asset- oder Kanalwechsel auslöst.
 * **Remote-Datenauslöser**: Dies beinhaltet einen durch Daten ausgelösten Kanalwechsel bzw. einen Asset-Wechsel, je nach den von einer Webservice-API zurückgegebenen Werten.
+

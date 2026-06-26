@@ -22,7 +22,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 763
 ht-degree: 93%
@@ -202,3 +202,4 @@ Führen Sie im Notfall die folgenden Schritte aus:
 Der **EmergencyChannel** zeigt seinen Inhalt so lange an, bis die Autorin bzw. der Autor des Inhalts den Prioritätswert auf 1 zurücksetzt.
 
 Wenn die Inhaltsautorin bzw. der Inhaltsautor die Anweisung erhält, dass der Notfall behoben wurde, sollte sie bzw. er die Priorität des **MainAdChannel** aktualisieren. Hierdurch wird die normale Wiedergabe fortgesetzt.
+

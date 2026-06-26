@@ -20,7 +20,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 1201
 ht-degree: 88%
@@ -59,7 +59,7 @@ Konfiguration** mithilfe von `http://localhost:4502/system/console/configMgr`.
 1. Suchen Sie nach *Adobe Granite Token Authentication Handler*.
 
 1. Legen Sie das **Attribut „SameSite“ für die Anmelde-Token-Cookies** von **Lax** (Gering) auf **None** (Keine) fest.
-   ![Bild](/help/user-guide/assets/granite-updates.png)
+   ![image](/help/user-guide/assets/granite-updates.png)
 
 1. Klicken Sie auf **Speichern**.
 

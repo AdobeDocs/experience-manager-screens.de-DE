@@ -22,10 +22,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1132
-ht-degree: 94%
+source-wordcount: 1147
+ht-degree: 95%
 
 ---
 
@@ -93,8 +93,7 @@ Bevor Sie eine Funktion zur Spracherkennung verwenden, stellen Sie sicher, dass 
 
    ![image](assets/voice-recognition/vr-2.png)
 
-   Wenn Sie den Split Screens -Kanal zu Ihrem Projekt hinzugefügt haben, navigieren Sie zu **SplitScreen** und ziehen Sie zwei eingebettete Sequenzen per Drag-and-Drop hinüber. Fügen Sie Pfade sowohl zum Kanal **ColdDrinks** als auch **HotDrinks** hinzu, wie in der folgenden Abbildung dargestellt.
-   ![Bild](assets/voice-recognition/vr-emb-6.png)
+   Wenn Sie den Splitscreen-Kanal zu Ihrem Projekt hinzugefügt haben, navigieren Sie zu **SplitScreen** und ziehen Sie zwei eingebettete Sequenzen per Drag-and-Drop dorthin. Fügen Sie, wie in der folgenden Abbildung dargestellt, Pfade zu den beiden Kanälen **ColdDrinks** und **HotDrinks** hinzu.   ![Bild](assets/voice-recognition/vr-emb-6.png)
 
 
 ### Festlegen von Tags für Kanäle {#setting-tags}
@@ -137,7 +136,7 @@ Gehen Sie wie folgt vor, um Tags zu erstellen:
 1. Navigieren Sie zu Ihrer AEM-Instanz.
 
 1. Klicken Sie auf das Symbol „Tools“ > **Tagging**.
-   ![image](assets/voice-recognition/vr-7.png)
+   ![Bild](assets/voice-recognition/vr-7.png)
 
 1. Klicken Sie auf **Erstellen** > **Namespace erstellen**.
    ![image](assets/voice-recognition/vr-tag3.png)
@@ -204,3 +203,4 @@ Der Kanal **Main** spielt seinen Inhalt ab. Wenn Sie jedoch Wörter mit dem Keyw
 **Gewünschte Ausgabe für den Splitscreen-Kanal**
 
 Der Kanal **Main** spielt seinen Inhalt ab. Wenn Sie jedoch Wörter mit den Keywords **heiß** und **kalt** zusammen verwenden, wie z. B. *Ich möchte die Karte für heiße und kalte Getränke sehen*, spielt der Kanal den Inhalt des Kanals **SplitScreen** ab. Wenn Sie *zurück zum Hauptmenü* sagen, wird zum **Hauptkanal** zurückgekehrt.
+

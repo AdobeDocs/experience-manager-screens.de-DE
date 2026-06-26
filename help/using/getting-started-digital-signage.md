@@ -11,7 +11,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 464
 ht-degree: 89%
@@ -108,3 +108,4 @@ Ein Definieren der Schlüsselelemente ist vor Implementierung eines Digital-Sign
    * Müssen Sie jede Seriennummer zu Tracking-Zwecken erfassen?
    * Gibt es Bedarf an einer Reservestromversorgung (unterbrechungsfreien Stromversorgung)?
    * Wie werden Systemaktualisierungen bereitgestellt? Und wie werden Geräte remote überwacht? Ist eine MDM-Lösung erforderlich?
+

@@ -23,9 +23,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1579
+source-wordcount: 1600
 ht-degree: 89%
 
 ---
@@ -62,7 +62,7 @@ Führen Sie dazu folgende Schritte durch:
 1. Suchen Sie nach *Adobe Granite Token Authentication Handler*.
 
 1. Legen Sie das **Attribut „SameSite“ für die Anmelde-Token-Cookies** von **Lax** (Gering) auf **None** (Keine) fest.
-   ![Bild](/help/user-guide/assets/granite-updates.png)
+   ![image](/help/user-guide/assets/granite-updates.png)
 
 1. Klicken Sie auf **Speichern**.
 
@@ -136,8 +136,7 @@ Bei einer Massenbereitstellung des Android™-Players muss der Player auf eine A
 
 Gehen Sie wie folgt vor, um die Massenbereitstellung im Android™-Player zuzulassen:
 
-1. Erstellen Sie eine JSON-Konfigurationsdatei mit dem Namen `player-config.default.json`.
-Siehe eine [JSON-Richtlinie](#example-json) und eine Tabelle, die die Verwendung der verschiedenen [Richtlinienattribute“ &#x200B;](#policy-attributes).
+1. Erstellen Sie eine JSON-Konfigurationsdatei mit dem Namen `player-config.default.json`.Nutzen Sie dazu eine [Beispiel-JSON-Richtlinie](#example-json) sowie eine Tabelle, die die Verwendung der verschiedenen [Richtlinienattribute](#policy-attributes) beschreibt.
 
 1. Verwenden Sie einen MDM- oder ADB- oder Android™ Studio-Datei-Explorer, um diese JSON-Richtliniendatei im Ordner *sdcard* auf dem Android™-Gerät abzulegen.
 
@@ -224,3 +223,4 @@ Zudem sollten Sie sich bei Ihrem EMM-Anbieter erkundigen, ob AppConfig unterstü
 ### Verwenden der Fernbedienungs-Steuerung von Screens {#using-remote-control}
 
 AEM Screens bietet Funktionen für die Steuerung per Fernbedienung. Mehr über diese Funktion erfahren Sie hier: [Fernbedienungs-Steuerung von Screens](implementing-remote-control.md)
+

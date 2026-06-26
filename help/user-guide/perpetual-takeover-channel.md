@@ -19,10 +19,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 857
-ht-degree: 59%
+source-wordcount: 921
+ht-degree: 58%
 
 ---
 
@@ -35,8 +35,7 @@ Auf der folgenden Seite finden Sie ein Nutzungsszenario, in dem ein Projekt eing
 
 ## Anwendungsfall – Beschreibung {#use-case-description}
 
-In diesem Anwendungsbeispiel wird erläutert, wie Sie einen Kanal erstellen *der* normalen Wiedergabekanal für ein Display oder eine Gruppe von Displays übernimmt. Die Übernahme erfolgt an einem bestimmten Tag und zu einer bestimmten Uhrzeit ständig.
-Zum Beispiel gibt es einen Perpetual TakeOver Kanal, der jeden Freitag von 9 :00 bis 10 :00 spielt. Während dieser Zeit sollte kein anderer Kanal abgespielt werden. Das folgende Beispiel zeigt die Erstellung eines unbefristeten Übernahmekanals, in dem der Inhalt jeden Mittwoch für zwei Stunden von 14 :00 16 :00 abgespielt werden kann.
+In diesem Anwendungsfall wird erläutert, wie Sie einen Kanal erstellen, der die Funktion des normalerweise zur Wiedergabe verwendeten Kanals für eine Anzeige oder eine Gruppe von Anzeigen *übernimmt*. Die Übernahme erfolgt unbefristet an einem bestimmten Tag und zu einer bestimmten Zeit.Zum Beispiel gibt es einen Perpetual TakeOver Kanal, der jeden Freitag von 9 :00 bis 10 :00 spielt. Während dieser Zeit sollte kein anderer Kanal abgespielt werden. Das folgende Beispiel zeigt die Erstellung eines unbefristeten Übernahmekanals, in dem der Inhalt jeden Mittwoch für zwei Stunden von 14 :00 16 :00 abgespielt werden kann.
 
 ### Voraussetzungen {#preconditions}
 
@@ -141,3 +140,4 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 >[!NOTE]
 >
 >Sie können auch _Militärische Zeit_ Notation (14:00) anstelle von *A.M./P.M.* (14:00) verwenden.
+

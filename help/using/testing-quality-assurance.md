@@ -10,10 +10,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 376
-ht-degree: 70%
+source-wordcount: 392
+ht-degree: 86%
 
 ---
 
@@ -25,8 +25,7 @@ ht-degree: 70%
 >[!NOTE]
 >Ein typischer Stakeholder für diese Aktivität ist eine Person, die Audio-Video-Integration betreibt.
 
-Wenn Sie der Bereitstellung des Digital-Signage-Netzwerks näher kommen, erstellen Sie einen Test- und QA-Plan, der alle Elemente des Netzwerks umfasst, einschließlich Hardware-Komponenten, Software-Komponenten und Netzwerkkomponenten.
-In der Phase sollten komplette Testsysteme aufgebaut und vollständig getestet werden.
+Wenn die Bereitstellung des Digital-Signage-Netzwerks Beschilderung näher rückt, sollten Sie einen Test- und QA-Plan erstellen, der alle Elemente des Netzwerks, einschließlich der Hardware-, Software- und Netzwerkkomponenten, umfasst.In dem Schritt sollten vollständige Prüfsysteme eingerichtet und gründlich getestet werden.
 
 Es sollte eine Checkliste erstellt werden, in der alle zuvor definierten KPIs aufgeführt und anhand der entsprechenden Lieferziele gemessen werden.
 
@@ -61,8 +60,7 @@ Folgende Überlegungen in Bezug auf die Software werden empfohlen:
 
 AEM Screens enthält das Modul „Geräte-Kontrollzentrum“, das die Verwaltung von Screens Player-Anwendungsendpunkten ermöglicht.
 
-Sie bezieht sich auf jedes *Player*-Hardwaregerät, auf dem die Screens-Player-Anwendung installiert und in einer Instanz von AEM registriert ist.
-Dieses Modul ermöglicht Ihnen Folgendes:
+Dies bezieht sich auf alle *Player*-Hardware-Geräte, auf denen die Screens Player-Anwendung installiert ist und die bei einer AEM-Instanz registriert sind.Mit diesem Modul können Sie:
 
 1. Anwendungsfehlerprotokolle des Players überwachen
 1. Remote-Screenshots verwalten
@@ -94,3 +92,4 @@ Nachfolgend finden Sie einige Beispiele:
 * AirWatch
 * `42Gears`
 * Proprietäre Audio-Video-Integrator-Middleware
+

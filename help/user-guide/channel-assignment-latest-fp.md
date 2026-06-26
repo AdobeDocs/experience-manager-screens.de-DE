@@ -20,9 +20,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1464
+source-wordcount: 1494
 ht-degree: 90%
 
 ---
@@ -201,8 +201,7 @@ Im Aktivierungsfenster können Sie ein **Startdatum** und ein **Enddatum** für 
 Mit dem Intervallzeitplan können Sie einen Zeitplan für Ihre Inhalte festlegen. Klicken Sie auf **+ Zeitplan hinzufügen**, um Ihrem Kanal einen Intervallzeitplan hinzuzufügen.
 
 >[!NOTE]
->Sie können Ihrem Kanal mehrere wiederkehrende Zeitpläne hinzufügen.
->Wiederholungszeitpläne führen *DayParting* ein. Sie legen einen globalen Zeitplan mit mehreren Kanälen fest, die zu bestimmten Tageszeiten ausgeführt werden, und verwenden diesen Zeitplan dann wieder für alle Ihre Displays gleichzeitig.
+>Sie können Ihrem Kanal mehrere Intervallzeitpläne hinzufügen.Mit den Intervallzeitplänen wird eine *Tageszeiteneinteilung* eingeführt. Sie legen einen globalen Zeitplan mit mehreren Kanälen fest, die zu bestimmten Tageszeiten ausgeführt werden. Diese Einstellung kann dann für alle Displays wiederverwendet werden.
 
 Sie können die folgenden Optionen festlegen:
 
@@ -243,3 +242,4 @@ Dieses Beispiel zeigt das DayParting, das in einem Casino implementiert ist, in 
 >[!NOTE]
 >
 >Sie können auch die ***Priorität*** für jeden der Kanäle festlegen. Wenn beispielsweise zwei Kanäle für denselben Tag und dieselbe Uhrzeit oder für denselben Monat festgelegt sind, wird der Kanal mit höherer Priorität zuerst gezeigt. Der Mindestwert für die Priorität beträgt 0.
+

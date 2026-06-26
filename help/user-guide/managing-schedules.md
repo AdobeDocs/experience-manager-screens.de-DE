@@ -24,7 +24,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 416
 ht-degree: 65%
@@ -81,3 +81,4 @@ Führen Sie die folgenden Schritte aus, um sich das Dashboard für den Zeitplan 
    **Bedienfeld „Zugewiesene Kanäle** - Klicken Sie oben rechts im Bedienfeld „ZUGEWIESENE KANÄLE“ auf + Kanal zuweisen , um das Dialogfeld „Kanalzuweisung“ zu öffnen.
 
    **Bedienfeld „Zugewiesene Displays** - Klicken Sie auf eines der Displays aus dem Bedienfeld „ZUGEWIESENE DISPLAYS“, um das Display-Dashboard zu öffnen.
+

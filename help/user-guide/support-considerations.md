@@ -21,7 +21,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 677
 ht-degree: 91%
@@ -79,3 +79,4 @@ In diesem abschließenden Teil eines 5-teiligen Tutorials wird erläutert, wie d
 ## Zusammenfassung {#conclusion}
 
 In dieser fünfteiligen Serie geht es um wichtige Aspekte, die für den Erfolg Ihres Projekts entscheidend sind. Einzelheiten zur Implementierung finden Sie in anderen Abschnitten des AEM Screens-Benutzerhandbuchs.
+

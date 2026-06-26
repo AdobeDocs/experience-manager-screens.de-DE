@@ -26,10 +26,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 811
-ht-degree: 93%
+source-wordcount: 825
+ht-degree: 94%
 
 ---
 
@@ -56,8 +56,7 @@ Sie haben die Möglichkeit, die folgenden Komponenten zu Ihrem Sequenzkanal hinz
 Sie können Ihrem Kanal eine eingebettete Sequenz hinzufügen. Bei einer eingebetteten Sequenz handelt es sich um einen weiteren Kanal mit Assets wie Bildern oder Videos. Durch Hinzufügen einer eingebetteten Sequenz können Benutzer die Sequenz über den ***Kanalpfad*** in einen Kanal aufnehmen.
 
 >[!NOTE]
->***Kanalpfad*** definiert einen expliziten Verweis zum Kanal.
->Weitere Informationen zum *Kanalpfad* finden Sie unter [Kanalzuweisung](channel-assignment.md) in Authoring-Screens.
+>Der ***Kanalpfad &#x200B;*** definiert einen expliziten Verweis zum Kanal.Weitere Informationen zum *Kanalpfad* finden Sie in „Inhaltserstellung in Screens“ unter [Kanalzuweisung](channel-assignment.md).
 
 Gehen Sie wie folgt vor, um Ihrem Kanal eine eingebettete Sequenz hinzuzufügen:
 
@@ -119,3 +118,4 @@ Gehen Sie wie folgt vor, um Ihrem Kanal eine eingebettete Sequenz hinzuzufügen:
 1. Klicken Sie auf der Registerkarte **Sequenz** auf die Option **Dauer (ms)** für Ihren in die Sequenz eingebetteten Kanal.
 
 ![latest](assets/latest.gif)
+

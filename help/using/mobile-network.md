@@ -10,10 +10,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 837
-ht-degree: 89%
+source-wordcount: 910
+ht-degree: 92%
 
 ---
 
@@ -71,9 +71,7 @@ Nachfolgend sind die Datennetze einschließlich der ihnen zugehörigen Standardb
 
 Beachten Sie Folgendes bei der Entscheidung, welches Datennetz verwendet werden soll:
 
-Die verfügbare Netzwerkgeschwindigkeit hängt vom jeweiligen Plan des Mobile-Datenanbieters und der verfügbaren Abdeckung ab, die am Speicherort des AEM Screens-Controllers erreicht wird.
-Beachten Sie bei dieser Einrichtung, dass neben der verfügbaren Bandbreite einige Pläne für mobile Datenanbieter die verfügbare Datenmenge, die über die Verbindung übertragen wird, innerhalb eines bestimmten Zeitraums einschränken. Es muss sichergestellt werden, dass genügend Kapazität in den Daten- und Bandbreitenmengen vorhanden ist.
-Als Folgemaßnahme muss das erforderliche Datenpaket mindestens Folgendes umfassen:
+Die Geschwindigkeit des Netzwerks hängt vom jeweils mit dem Mobilnetzanbieter abgeschlossenen Abonnement und der Qualität der Netzabdeckung am Standort des AEM Screens-Controllers ab.Bei diesem Setup ist neben der entsprechend dem jeweiligen Daten-Abo verfügbaren Bandbreite auch zu beachten, dass einige Mobilnetzanbieter im Rahmen ihrer Abonnements auch das innerhalb eines bestimmten Zeitraums über das Netzwerk übertragbare Datenvolumen begrenzen. Es muss sichergestellt werden, dass die Daten- und Bandbreitenmengen genügend Kapazität aufweisen.Die vom Daten-Abo abzudeckende Mindestkapazität beträgt:
 
 `Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
 
@@ -106,3 +104,4 @@ In der nachfolgenden Tabelle ist eine Übersicht der wichtigsten Daten bezüglic
 >Die Daten beziehen sich allesamt darauf, wie viel Bandbreite jedes einzelne mit dem Netzwerk verbundene Gerät beim Anfragen und Herunterladen einer Internet-Quelle beansprucht. Mit jeder weiteren solchen Anfrage erhöht sich die Bandbreitennutzung, wodurch sich wiederum die Download-Zeit verlängert.
 
 ![](/help/using/assets/download-times-mobile.png)
+

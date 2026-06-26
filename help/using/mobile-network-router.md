@@ -10,10 +10,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 824
-ht-degree: 86%
+source-wordcount: 1114
+ht-degree: 94%
 
 ---
 
@@ -26,8 +26,7 @@ AEM Screens-Player können auch über Mobilfunknetze angebunden werden, sofern d
 
 Innerhalb von AEM Screens werden die erforderlichen Inhalte physisch auf den Player-Controller oder Computer heruntergeladen und dem zugrunde liegenden Betriebssystem entsprechend ordnungsgemäß gespeichert. Die angegebene Bandbreite wirkt sich daher nur auf die anfänglichen Download-Zeiten sowie auf Inhaltsaktualisierungen aus und beeinflusst nicht die Leistung bei der regelmäßigen Wiedergabe auf Anzeigen.
 
-Der Vorteil dieser Einrichtung besteht darin, dass der mobile Router an einem optimierten Ort platziert werden kann, um eine optimale Netzabdeckung zu gewährleisten. Dieser Ort befindet sich in der Regel in einer erhöhten und offenen Position mit so wenig umgebenden Beton- oder Metallstrukturen wie möglich.
-Diese Einrichtung bietet Benutzenden von AEM Screens Flexibilität, da für die Verbindung mit AEM Screens kein Festnetz erforderlich ist. Es ist auch für temporäre oder mobile Setups interessant.
+Der Vorteil dieses Setups besteht darin, dass der mobile WLAN-Router flexibel an einem Ort platziert werden kann, an dem eine optimale Netzabdeckung sichergestellt ist. In der Regel ist dies an höher gelegenen, offenen Stellen der Fall, die so wenig wie möglich von Beton- oder Metallkonstruktionen umgeben sind.Mit diesem Setup sind AEM Screens-Benutzende flexibler, da für die Anbindung an AEM Screens keine Festnetzleitung benötigt wird. Dies ist auch interessant für kurzlebige oder mobile Setups.
 
 Die folgende Abbildung zeigt das mobile Netzwerk mit mobilem WLAN-Router und aktiven Netzwerkkomponenten. Die Konfiguration umfasst für jeden AEM Screens-Controller einen Internet-Zugang, der mittels Direktzugriff auf das Internet über eine eigene 3G-, 4G- oder 5G- Datenverbindung umgesetzt wird.
 
@@ -68,9 +67,7 @@ Die Netzwerkkonfiguration kann logisch in zwei Blöcke unterteilt werden:
 
 Die Internet-Verbindung muss ausreichend Bandbreite zur Verfügung stellen, damit neben der bereits beschriebenen Erreichbarkeit des Netzwerks auch reibungslose Downloads von AEM Screens-Inhalten gewährleistet werden können.
 
-*Ausreichend* hängt von der Anzahl der angeschlossenen AEM Screens-Geräte ab. Es hängt auch von der Verwendung anderer Verbraucher innerhalb des Netzwerks ab, z. B. Smartphones, Tablets, Kassensysteme, Computer oder Gast-WLAN-Netzwerke.
-Beachten Sie, dass alle Geräte gleichzeitig auf die Internetverbindung zugreifen und dass die Bandbreite linear abnimmt, während dem Netzwerk mehr Verbraucher/Computer hinzugefügt werden.
-Neben der spezifischen theoretischen Netzwerkverbindung muss sichergestellt sein, dass die Abdeckung des mobilen Routers mindestens &quot;*&quot;*. Außerdem muss der zugrunde liegende Monatsplan genügend Datenkapazität und Bandbreite abdecken, um alle verbundenen Clients innerhalb des verbundenen LANs zu bedienen.
+Wie viel *ausreichend* ist, hängt von der Anzahl der verbundenen AEM Screens-Geräte ab. Dies ist außerdem abhängig von der Nutzung anderer Verbrauchergeräte innerhalb des Netzwerks. Dazu gehören z. B. Smartphones, Tablets, Kassensysteme, Computer oder WLAN-Gastnetzwerke.Beachten Sie, dass alle Geräte gleichzeitig auf die Internet-Verbindung zugreifen und dass die Bandbreite mit der Zahl an weiteren Verbrauchergeräten/Computern, die dem Netzwerk hinzugefügt werden, linear abnimmt.Neben einer für die jeweilige Netzwerkverbindung theoretisch ausreichenden Bandbreite muss außerdem eine *gute oder sehr gute* Netzabdeckung des mobilen WLAN-Routers sichergestellt sein. Ferner muss das im Rahmen des zugrunde liegenden Abonnements gebuchte monatliche Datenvolumen eine für alle an das Netzwerk angebundenen Clients ausreichende Kapazität und Bandbreite zur Verfügung stellen.
 
 Nachfolgend sind die Datennetze einschließlich der ihnen zugehörigen Standardbandbreite aufgeführt:
 
@@ -106,13 +103,11 @@ Sofern eine WLAN-Lösung für die Internet-Anbindung von Screens vorgesehen ist,
 
 ## Herunterladen von Medien und Assets {#download}
 
-AEM Screens bietet Benutzenden von Digital Signage einen erheblichen Vorteil. Es werden alle erforderlichen Mediendateien, wie Bilder und Videos, heruntergeladen und lokal gespeichert. Aufgrund dieses Konzepts erfolgt der Großteil des Netzwerk-Traffics für den Fall, dass neue Inhalte auf einem bestimmten Bildschirm angezeigt werden sollen.
-Für den normalen Betrieb bietet sie mit einer definierten Wiedergabeliste, die nicht häufig aktualisiert wird, einen nahezu netzwerkunabhängigen Betrieb, wenn alle Dateien auf dem Player gespeichert werden.
-Für Anwendungsfälle, bei denen mehr Interaktionen mit Sensoren oder anderen Trigger auftreten und der Inhalt dynamisch ist, ist eine schnelle und zuverlässige Netzwerkverbindung für eine sofortige Bildschirmreaktion unerlässlich. Es sorgt für das bestmögliche Kundenerlebnis.
-Die folgenden Tabellen bieten einen guten Überblick darüber, was die wichtigsten Daten zur Netzwerkkonnektivität für die erwartete Leistung und potenzielle Wartezeiten bedeuten.
+AEM Screens bietet Digital-Signage-Anwendenden einen entscheidenden Vorteil dahingehend, dass die Lösung alle erforderlichen Mediendateien (z. B. Bilder und Videos) herunterlädt und lokal speichert. Durch dieses Konzept ist der Großteil des Netzwerk-Traffics auf Phasen konzentriert, in denen neue Inhalte für die Anzeige auf einem bestimmten Bildschirm übertragen werden.So kann der Normalbetrieb, bei dem eine bestimmte Wiedergabeliste nicht regelmäßig aktualisiert wird, nahezu unabhängig vom Netzwerk ablaufen, sobald alle Dateien auf dem Player gespeichert wurden.Anwendungsfälle, in denen mehr mit Sensoren oder anderen Auslösern interagiert wird und dynamische Inhalte zum Einsatz kommen, erfordern dagegen unbedingt eine schnelle und zuverlässige Netzwerkverbindung für verzögerungsfreie Reaktionen. Dadurch wird das bestmögliche Kundenerlebnis gewährleistet.Nachfolgend finden Sie eine Aufschlüsselung der wichtigsten Daten zur Netzwerkverbindung und wie sich diese auf die zu erwartende Leistung und potenzielle Wartezeiten auswirken.
 
 >[!NOTE]
 >
 >Die Daten beziehen sich allesamt darauf, wie viel Bandbreite jedes einzelne mit dem Netzwerk verbundene Gerät beim Anfragen und Herunterladen einer Internet-Quelle beansprucht. Mit jeder weiteren solchen Anfrage erhöht sich die Bandbreitennutzung, wodurch sich wiederum die Download-Zeit verlängert.
 
 ![](/help/using/assets/mobile-router-download.png)
+

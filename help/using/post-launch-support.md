@@ -8,10 +8,10 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 396
-ht-degree: 80%
+source-wordcount: 436
+ht-degree: 88%
 
 ---
 
@@ -22,8 +22,7 @@ ht-degree: 80%
 
 Selbst in der Frühphase sollten Sie eines keinesfalls außer Acht lassen: den Post-Launch-Support.
 
-Entscheidend für den Geschäftsbetrieb ist, dass Websites angemessenen Support von Ihrem Hardwareanbieter erhalten. Der **Audio-Video-Integrator** sollte eng mit den Interessenträgern aus der Wirtschaft zusammenarbeiten und die Anforderungen aus verschiedenen Aspekten ermitteln.
-Beachten Sie die folgenden Anforderungen bei der Unterstützung nach der Markteinführung:
+Nur wenn Sites angemessenen Support von Ihrem Hardware-Anbieter erhalten, können Sie den Geschäftsbetrieb richtig aufrechterhalten. Die **für die Audio-Video-Integration zuständige Person** sollte eng mit geschäftlichen Stakeholdern zusammenarbeiten und anhand verschiedener Aspekte den Bedarf ermitteln.Berücksichtigen Sie beim Post-Launch-Support folgende Anforderungen:
 
 * Geräteverwaltung per Fernzugriff
 * Verfügbarkeit von Support Centern
@@ -44,8 +43,7 @@ Für langfristigen Erfolg muss in Zusammenarbeit mit der für die Audio-Video-In
 
 Einige Überlegungen und Fragen, die Ihnen bei der Definition von Post-Launch-Support helfen:
 
-1. Ist die Bereitstellung ein Advertising-Netzwerk mit vielen Stakeholdern, die an ein monetäres Netzwerk gebunden sind? Diese Situation kann kürzere Auflösungszeiträume im Vergleich zu einem Corporate Communications-Netzwerk erfordern.
- 
+1. Ist die Bereitstellung eines Werbenetzwerks mit vielen Stakeholdern an ein monetarisiertes Netzwerk gebunden? Diese Situation kann kürzere Auflösungszeiten im Vergleich zu einem Netzwerk für Unternehmenskommunikation erfordern.
    >[!NOTE]
    >
    >Erfordert kürzere Auflösungszeiten im Vergleich zu einem Netzwerk für Unternehmenskommunikation.
@@ -69,3 +67,4 @@ Einige Überlegungen und Fragen, die Ihnen bei der Definition von Post-Launch-Su
 1. Welche Ihrer Verkaufsstandorte erfordern eine Überwachung rund um die Uhr?
 
 1. Sind die Displays integraler Bestandteil Ihrer Geschäfte? (d. h. Autokonfigurator, Verkaufswarnungen)
+

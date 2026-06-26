@@ -19,7 +19,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 721
 ht-degree: 89%
@@ -99,3 +99,4 @@ Erfahren Sie mehr über das Projekt-Management sowie die Bereitstellungsvorberei
 ## Der nächste Schritt {#the-next-step}
 
 Wenn Sie mit den wichtigsten Überlegungen zum Projekt-Management für die Bereitstellung von AEM Screens fertig sind, navigieren Sie zu **[Teil 5: Überlegungen zum Support](support-considerations.md)**, damit Sie den Tag 2-Support und die damit verbundenen Prozesse verstehen.
+
