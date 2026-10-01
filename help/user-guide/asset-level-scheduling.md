@@ -8,29 +8,35 @@ exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
 TQID: https://experienceleague.adobe.com/6ZaAh-q6ZXjHFhdPDqnJi4n08TXLSd8ZNggljGoIPzA
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+    internal-label: Authoring Screens
 subfeature_v2:
   - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+    internal-label: Content
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Implementation
+source-git-commit: 6ecc9375c5ddbc8c0aea5f267fdd4596dcfdec6f
 workflow-type: tm+mt
-source-wordcount: 1536
-ht-degree: 84%
-
+source-wordcount: '1559'
+ht-degree: 83%
 ---
-
 # Aktivierung auf Asset-Ebene {#asset-level-scheduling}
 
 >[!IMPORTANT]
->Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Auf dieser Seite wird die Aktivierung auf der Asset-Ebene für die in Kanälen verwendeten Assets beschrieben.
 
@@ -40,10 +46,10 @@ In diesem Abschnitt werden die folgenden Themen behandelt:
 * Aktivierungsfenster
 * Wiedergabe eines einzelnen Ereignisses
 * Umgang mit sich wiederholenden Assets
-   * Dayparting
-   * WeekParting
-   * MonthParting
-   * Kombination von Aufteilungen
+  * Dayparting
+  * WeekParting
+  * MonthParting
+  * Kombination von Aufteilungen
 * Aktivierung für mehrere Assets
 * Globale Überschreibung für universelle Startzeit
 
@@ -101,7 +107,7 @@ Gehen Sie wie folgt vor, um die Zeitplanung auf der Asset-Ebene durchzuführen:
 
 Sie können eine Wiederholung von Assets Ihren Anforderungen entsprechend in bestimmten Intervallen auf Tages-, Wochen- oder Monatsbasis planen.
 
-Angenommen, Sie möchten ein Bild nur freitags von 13 :00 bis 23 :00 anzeigen. Auf der Registerkarte **Aktivierung** können Sie das gewünschte Intervall für das Asset festlegen.
+Angenommen, Sie möchten ein Bild nur freitags von 13:00 bis 22:00 Uhr anzeigen. Auf der Registerkarte **Aktivierung** können Sie das gewünschte Intervall für das Asset festlegen.
 
 ### DayParting {#day-parting}
 
@@ -120,14 +126,14 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 
 | **Ausdruck** | **Interpretation** |
 |---|---|
-| vor :00 h. | Das Asset im Kanal wird täglich vor :00 Uhr abgespielt |
-| nach :00 Uhr nachmittags | Das Asset im Kanal wird täglich nach 14 :00 wiedergegeben |
-| Nach 12:15 und vor 12:45 | das Asset im Kanal wird nach 12 :15 täglich für 30 Minuten wiedergegeben |
-| Vor 12:15 auch nach 12:45 | Das Asset im Kanal wird täglich vor 12 :15 und dann auch nach 24 :45 wiedergegeben. |
+| vor 8:00 Uhr | Das Asset im Kanal wird täglich vor 8:00 Uhr wiedergegeben |
+| nach 14:00 Uhr | Das Asset im Kanal wird täglich nach 14:00 Uhr wiedergegeben |
+| Nach 12:15 und vor 12:45 Uhr | Das Asset im Kanal wird täglich nach 12:15 Uhr für 30 Minuten wiedergegeben |
+| Vor 12:15 Uhr auch nach 12:45 Uhr | Das Asset im Kanal wird täglich vor 12:15 Uhr und dann auch nach 12:45 Uhr wiedergegeben. |
 
 >[!NOTE]
 >
->Sie können auch _Militärische Zeit_ Notation (14:00) anstelle von *A.M./P.M.* (14:00) verwenden.
+>Sie können auch _Militärische Zeit_-Notation (14:00) anstelle von *A.M./P.M.* (14:00 Uhr) verwenden.
 
 ### WeekParting {#week-parting}
 
@@ -175,6 +181,7 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 | `on February-July` | Das Asset im Kanal wird von Februar bis Ende Juli wiedergegeben. |
 
 >[!NOTE]
+>
 >Bei der Definition von Wochentagen und Monaten können Sie sowohl die Abkürzung als auch die vollständige Bezeichnung verwenden, beispielsweise „Mo.“/„Montag“ und „Jan.“/„Januar“.
 
 ### Kombination von Aufteilungen {#combined-parting}
@@ -183,8 +190,9 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 
 1. Nach Eingabe von Startdatum/Startzeit und Enddatum/Endzeit können Sie einen Ausdruck oder eine natürliche Textversion verwenden, um Ihren Intervallplan anzugeben.
 
-   >[!NOTE]
-   >Sie können die Felder **Aktiv ab** und **Aktiv bis** überspringen oder einbeziehen und den Ausdruck entsprechend Ihren Anforderungen zum Feld „Zeitpläne“ hinzufügen.
+>[!NOTE]
+>
+>>Sie können die Felder **Aktiv ab** und **Aktiv bis** überspringen oder einbeziehen und den Ausdruck entsprechend Ihren Anforderungen zum Feld „Zeitpläne“ hinzufügen.
 
 1. Geben Sie den Ausdruck in den **Zeitplan** ein. Ihr Asset wird daraufhin im jeweiligen Tages- und Uhrzeitintervall angezeigt.
 
@@ -195,11 +203,12 @@ Die folgende Tabelle enthält einige Beispielausdrücke, die Sie dem Zeitplan hi
 | **Ausdruck** | **Interpretation** |
 |---|---|
 | `after 6:00 and before 18:00 on Mon,Wed of Jan-Mar` | Das Asset im Kanal wird von Januar bis Ende März montags und mittwochs zwischen 6 Uhr und 18 Uhr wiedergegeben. |
-| `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | Das Asset im Kanal wird ab dem 1. Januar um :00 Uhr wiedergegeben und läuft am 2. Januar den ganzen Tag lang bis zum 3. Januar :00 Uhr morgens weiter |
-| `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | Das Asset im Kanal wird ab dem 1. Januar um :00 Uhr bis zum 2. Januar um :00 Uhr wiedergegeben. Dann wird es am 2. Januar um 14 :00 erneut gestartet und bis zum 3. Januar :00 Uhr fortgesetzt |
+| `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | Das Asset im Kanal wird ab dem 1. Januar um 14:00 Uhr wiedergegeben und läuft am 2. Januar den ganzen Tag bis zum 3. Januar um 3:00 Uhr weiter |
+| `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | Das Asset im Kanal wird ab dem 1. Januar um 14:00 Uhr bis zum 2. Januar um 3:00 Uhr wiedergegeben. Dann wird es erneut am 2. Januar um 14:00 Uhr bis zum 3. Januar um 3:00 Uhr wiedergegeben |
 
 >[!NOTE]
->Bei der Definition von Wochentagen und Monaten können Sie sowohl die Abkürzung als auch die vollständige Bezeichnung verwenden, beispielsweise „Mo.“/„Montag“ und „Jan.“/„Januar“. Sie können auch die Notation _Militärische Zeit_ (14:00) anstelle von *A.M./P.M.*(18:00) verwenden.
+>
+>Bei der Definition von Wochentagen und Monaten können Sie sowohl die Abkürzung als auch die vollständige Bezeichnung verwenden, beispielsweise „Mo.“/„Montag“ und „Jan.“/„Januar“. Sie können auch die Notation _Militärische Zeit_ (14:00) anstelle von *A.M./P.M.* (14:00 Uhr) verwenden.
 
 
 ## Aktivierung für mehrere Assets {#multi-asset-scheduling}
@@ -263,6 +272,3 @@ Die ***globale Überschreibung der universellen Startzeit*** erfolgt durch Konfi
    ![screen_shot_2018-12-21at70550am](/help/user-guide/assets/asset-activation/Asset-level4.png)
 
 1. Für eine globale Überschreibung geben Sie im Abschnitt zur **Zeitzonen-Überschreibung** für das Asset die Aktivierungszeit ein. Wenn Sie in diesem Bereich nichts eingeben, wird als Zeitzone die Zeitzone des Players verwendet.
-
-
-

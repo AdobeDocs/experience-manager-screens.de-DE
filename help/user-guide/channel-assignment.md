@@ -8,35 +8,43 @@ exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
 TQID: https://experienceleague.adobe.com/3KiJEdVpZNlcvEo9PBzkyYJqIsQfBgXQY7-HlZZVxVE
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+    internal-label: Authoring Screens
 subfeature_v2:
   - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
+    internal-label: Channels
   - id: d4878390-3838-4e80-8cb3-33bc1a01ea16
+    internal-label: Channel assignment
   - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+    internal-label: Content
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Intermediate
+source-git-commit: 08f666494c3dd0648c6379dabeb5d60bb16d950a
 workflow-type: tm+mt
-source-wordcount: 1285
-ht-degree: 88%
-
+source-wordcount: '1295'
+ht-degree: 87%
 ---
-
 # Kanalzuweisung {#channel-assignment}
 
 >[!IMPORTANT]
+>
 >In diesem Abschnitt wird die Kanalzuweisung und -zeitplanung für Feature Packs beschrieben, die älter als AEM 6.5.5 Screens sind.
 
 Wenn Sie eine Anzeige eingerichtet haben, weisen Sie der Anzeige einen Kanal zu, um Ihren Inhalt anzuzeigen.
 
 Auf dieser Seite wird beschrieben, wie Sie Ihrer Anzeige einen Kanal zuweisen.
 
-Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!NOTE]
 >Sie können einer Anzeige mehrere Kanäle zuweisen.
@@ -78,6 +86,7 @@ Mit „Kanalrolle“ wird der Kontext der Anzeige definiert. Die Rolle kann durc
 Die Priorität wird verwendet, um die Zuweisungen in eine Reihenfolge zu bringen, wenn mehrere Zuweisungen den Wiedergabekriterien entsprechen. Höhere Werte haben stets Vorrang vor niedrigeren Werten. Wenn es beispielsweise zwei Kanäle A und B gibt. A hat die Priorität 1 und B hat die Priorität 2, dann wird Kanal B angezeigt, da er eine höhere Priorität als A hat.
 
 >[!NOTE]
+>
 >Die Priorität eines Kanals wird als Zahl (1 für Minimum) im Dialogfeld **Kanalzuweisung** festgelegt, wie oben angegeben. Außerdem werden die zugewiesenen Kanäle nach absteigender Priorität sortiert.
 
 ### Unterstützte Ereignisse {#supported-events-channel}
@@ -131,13 +140,13 @@ Hier wird jeder Tag in drei Zeitfenster unterteilt, sodass der Kanalinhalt gemä
 
 | **Kanal** | **Rolle** | **Priorität** | **Zeitplan** |
 |---|---|---|---|
-| Menü_A | Frühstück |  | Nach 6:00 und vor 11:00 |
-| Menü_B | Mittagessen |  | Nach 11:00 und vor 15 :00 |
-| Menü_C | Abendessen |  | Nach 15:00 und vor 20:00 |
+| Menü_A | Frühstück |  | Nach 6:00 Uhr und vor 11:00 Uhr |
+| Menü_B | Mittagessen |  | Nach 11:00 Uhr und vor 15:00 Uhr |
+| Menü_C | Abendessen |  | Nach 15:00 Uhr und vor 20:00 Uhr |
 
 #### Anzeigen von Inhalten an einem bestimmten Wochentag {#playing-content-on-a-particular-day-of-the-week}
 
-Dieses Beispiel zeigt den DayParting in einem Casino, in dem jedes Wochenende von 20 :00 bis 22 :00 stattfindet und für das Abendmenü nach 22 :00 bis 1 :00 Uhr Sonderangebote verfügbar sind.
+Dieses Beispiel zeigt den DayParting in einem Casino, in dem jedes Wochenende von 20:00 bis 22:00 Uhr Live-Veranstaltungen stattfinden und nach 22:00 bis 1:00 Uhr Abendmenü serviert wird.
 
 <table>
  <tbody>
