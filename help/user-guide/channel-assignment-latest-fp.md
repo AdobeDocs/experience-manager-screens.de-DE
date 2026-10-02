@@ -8,25 +8,32 @@ exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
 TQID: https://experienceleague.adobe.com/-hIHgs66ksW-qvVaUp4euiJlPfbn0OGk88ASNIc4QZI
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+    internal-label: Authoring Screens
 subfeature_v2:
   - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
+    internal-label: Channels
   - id: d4878390-3838-4e80-8cb3-33bc1a01ea16
+    internal-label: Channel assignment
   - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+    internal-label: Content
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Intermediate
+source-git-commit: 6ecc9375c5ddbc8c0aea5f267fdd4596dcfdec6f
 workflow-type: tm+mt
-source-wordcount: 1494
+source-wordcount: '1508'
 ht-degree: 90%
-
 ---
-
 # Kanalzuweisung {#channel-assignment}
 
 >[!IMPORTANT]
@@ -171,7 +178,8 @@ Die Priorität wird verwendet, um die Zuweisungen in eine Reihenfolge zu bringen
 ### Unterbrechungsmethode {#interruption-method-channel}
 
 >[!IMPORTANT]
-> Diese Option ist nur mit <!--AEM 6.4 Feature Pack 8 or-->AEM 6.5 Feature Pack 4 verfügbar.
+>
+>Diese Option ist nur mit <!--AEM 6.4 Feature Pack 8 or-->AEM 6.5 Feature Pack 4 verfügbar.
 
 Als Inhaltsautorin oder Inhaltsautor können Sie festlegen, wann ein Kanal unterbrochen wird. Auf diese Weise können Sie nicht-kritische Inhalte wegschneiden. Die Methode bietet Ihnen jedoch auch die Möglichkeit, wichtige Inhalte vollständig wiederzugeben, bevor Sie sie aufgrund der Planung kürzen.
 
@@ -180,13 +188,15 @@ Wählen Sie eine der folgenden Optionen aus, die zum Festlegen der Unterbrechung
 * **Sofort**: Wenn der Zeitplan aktiviert oder eine Aktualisierung empfangen wird, können Sie die Wiedergabe abbrechen und den neuen Inhalt sofort aktualisieren oder wiedergeben.
 * **Ende des aktuellen Elements**: Wenn ein neuer Zeitplan aktiviert oder eine Aktualisierung empfangen wird, können Sie optional warten, bis die Wiedergabe des aktuellen Elements in der Sequenz abgeschlossen ist. Erst danach können Sie den neuen Inhalt aktualisieren oder wiedergeben.
 
-  >[!NOTE]
-  >Standardmäßig ist diese Option aktiviert.
+>[!NOTE]
+>
+>Standardmäßig ist diese Option aktiviert.
 
 * **Am Ende der Sequenz**: Wenn ein neuer Zeitplan aktiviert oder eine Aktualisierung empfangen wird, können Sie optional warten, bis die gesamte Sequenz ihr Ende erreicht. Kurz vor der gewünschten Sequenz können Sie dann zum ersten Element zurückkehren, aktualisieren oder den neuen Inhalt wiedergeben.
 
-  >[!NOTE]
-  >Die Verwendung der zweiten oder dritten Option kann dazu führen, dass sich die für die Zuweisung festgelegten Planungszeiten geringfügig verschieben. Dies liegt daran, dass der Player vor der Aktualisierung auf das Ende des Elements oder der Sequenz (nach der angegebenen Zeit) wartet. Die Verzögerung hängt von der Wiedergabedauer des Elements ab.
+>[!NOTE]
+>
+>Die Verwendung der zweiten oder dritten Option kann dazu führen, dass sich die für die Zuweisung festgelegten Planungszeiten geringfügig verschieben. Dies liegt daran, dass der Player vor der Aktualisierung auf das Ende des Elements oder der Sequenz (nach der angegebenen Zeit) wartet. Die Verzögerung hängt von der Wiedergabedauer des Elements ab.
 
 Die folgenden Eigenschaften werden über die Option **Zeitplan** im Dialogfeld **Kanalzuweisung** festgelegt.
 
@@ -201,7 +211,8 @@ Im Aktivierungsfenster können Sie ein **Startdatum** und ein **Enddatum** für 
 Mit dem Intervallzeitplan können Sie einen Zeitplan für Ihre Inhalte festlegen. Klicken Sie auf **+ Zeitplan hinzufügen**, um Ihrem Kanal einen Intervallzeitplan hinzuzufügen.
 
 >[!NOTE]
->Sie können Ihrem Kanal mehrere Intervallzeitpläne hinzufügen.Mit den Intervallzeitplänen wird eine *Tageszeiteneinteilung* eingeführt. Sie legen einen globalen Zeitplan mit mehreren Kanälen fest, die zu bestimmten Tageszeiten ausgeführt werden. Diese Einstellung kann dann für alle Displays wiederverwendet werden.
+>Sie können Ihrem Kanal mehrere Intervallzeitpläne hinzufügen.
+>Mit den Intervallzeitplänen wird eine *Tageszeiteneinteilung* eingeführt. Sie legen einen globalen Zeitplan mit mehreren Kanälen fest, die zu bestimmten Tageszeiten ausgeführt werden. Diese Einstellung kann dann für alle Displays wiederverwendet werden.
 
 Sie können die folgenden Optionen festlegen:
 
@@ -209,8 +220,8 @@ Sie können die folgenden Optionen festlegen:
 * **Wiederholen**: Wählen Sie aus, ob der Zeitplan **täglich**, **wöchentlich**, **monatlich** oder **jährlich** ausgeführt werden soll.
 * **Anfang**: Die Startzeit Ihres Zeitplans.
 * **Ende**: Die Endzeit Ihres Zeitplans. Sie können die Einstellung nach Zeit oder Dauer festlegen.
-   * **Zeit**: Der Zeitplan endet zu einer bestimmten Zeit.
-   * **Dauer**: Der Zeitplan wird für eine bestimmte Zeitdauer in Stunden oder Minuten ausgeführt.
+  * **Zeit**: Der Zeitplan endet zu einer bestimmten Zeit.
+  * **Dauer**: Der Zeitplan wird für eine bestimmte Zeitdauer in Stunden oder Minuten ausgeführt.
 
 ### Dayparting {#dayparting}
 
@@ -226,18 +237,18 @@ Jeder Tag ist in verschiedene Zeitfenster unterteilt, sodass der Kanalinhalt gem
 
 | **Name** | **Wiederholungen** | **Anfang** | **Ende** |
 |---|---|---|---|
-| Frühstück | Täglich | :00:00 Uhr | 11:00 h. |
-| Mittagessen | Täglich | 11:00 h. | 15:0000 Uhr |
-| Abendessen | Täglich | 15:0000 Uhr | :00 Uhr |
+| Frühstück | Täglich | 06:00 | 11:00 |
+| Mittagessen | Täglich | 11:00 | 15:00 |
+| Abendessen | Täglich | 15:00 | 20:00 |
 
 #### Anzeigen von Inhalten an einem bestimmten Wochentag {#playing-content-on-a-particular-day-of-the-week}
 
-Dieses Beispiel zeigt das DayParting, das in einem Casino implementiert ist, in dem jedes Wochenende von 20 :00 bis 22 :00 stattfindet und Spezialitäten für das Abendmenü nach 22 :00 bis 1 :00 Uhr zur Verfügung stehen.
+Dieses Beispiel zeigt die Implementierung von DayParting in einem Casino, in dem jedes Wochenende von 20:00 bis 22:00 Uhr Live-Veranstaltungen stattfinden und nach 22:00 bis 1:00 Uhr Abendmenü serviert wird.
 
 | **Name** | **Wiederholungen** | **Anfang** | **Ende** |
 |---|---|---|---|
-| Wochenende | Wöchentlich: Samstag und Sonntag | :00 Uhr | :00:00 |
-| Sonderangebote | Täglich: Montag bis Freitag | :00:00 | 1:00 h |
+| Wochenende | Wöchentlich: Samstag und Sonntag | 20:00 | 22:00 |
+| Sonderangebote | Täglich: Montag bis Freitag | 22:00 | 01:00 |
 
 >[!NOTE]
 >
