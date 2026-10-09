@@ -55,7 +55,7 @@ Mit dem Framework für Konsistenzprüfungen können Benutzende überprüfen, ob 
 Weitere Informationen zum Framework für Konsistenzprüfungen finden Sie unter [Framework für Konsistenzprüfungen](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
 
 * **Aktualisierungen an Standardübergangstypen**
-Die Eigenschaften der Übergangskomponente wie **Typ** sind jetzt standardmäßig auf **** und **Dauer** auf **1600 Millisekunden** eingestellt.
+Die Eigenschaften der Übergangskomponente wie **Typ** sind jetzt standardmäßig auf **&#x200B;**&#x200B;und **Dauer** auf **1600 Millisekunden** eingestellt.
 
   Weitere Informationen finden Sie im Anwendungsbeispiel [Anwenden von Übergängen](/help/user-guide/applying-transitions.md).
 
