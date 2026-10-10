@@ -5,21 +5,26 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: fc210d9d-5fac-4147-849d-182ffbaf0a5e
-TQID: https://experienceleague.adobe.com/lm2FhBZ2X-GzGoCRrsUuAKmC7vPfyaPXwYXSTxxOBJg
+TQID: 'https://experienceleague.adobe.com/lm2FhBZ2X-GzGoCRrsUuAKmC7vPfyaPXwYXSTxxOBJg'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ad636d67-61fa-5d69-a17e-20f06cb716b9
+    internal-label: Feature Pack
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+    internal-label: Intermediate
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 415
+source-wordcount: '410'
 ht-degree: 100%
-
 ---
-
 # Versionshinweise für Feature Pack 202105 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
@@ -47,14 +52,14 @@ Das Veröffentlichungsdatum für AEM Screens Feature Pack 202105 ist der 4. Juni
 * **Benennen des AEM Screens Player-Geräts**
 
   Die AEM Screens-Player bieten jetzt die Möglichkeit, einen Gerätenamen an Adobe Experience Manager (AEM) zu senden.
-Standardmäßig wird bei der Massenregistrierung eines Geräts ein vom System generierter Benutzername in das Titelfeld eingegeben. Alternativ kann eine Kundin oder ein Kunde ein Asset-Tag oder einen anderen benutzerfreundlichen Namen verwenden, damit es in AEM sichtbar ist und damit es einfacher ist, geeignete Inhalte zuzuweisen.
+  Standardmäßig wird bei der Massenregistrierung eines Geräts ein vom System generierter Benutzername in das Titelfeld eingegeben. Alternativ kann eine Kundin oder ein Kunde ein Asset-Tag oder einen anderen benutzerfreundlichen Namen verwenden, damit es in AEM sichtbar ist und damit es einfacher ist, geeignete Inhalte zuzuweisen.
 
   In der folgenden Dokumentation erfahren Sie, wie Sie den Namen in jedem unterstützten Betriebssystem konfigurieren:
 
-   * [Android™](/help/user-guide/implementing-android-player.md#name-android)
-   * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
-   * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
-   * [Chrome OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
+  * [Android™](/help/user-guide/implementing-android-player.md#name-android)
+  * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
+  * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
+  * [Chrome OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
 
 * **Manifestgenerierung**
 

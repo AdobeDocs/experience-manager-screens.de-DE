@@ -5,23 +5,31 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-TQID: https://experienceleague.adobe.com/IpBm16TbDD5MoD6p3BU4vPcmatz5dCpkc-dStlr6hI8
+TQID: 'https://experienceleague.adobe.com/IpBm16TbDD5MoD6p3BU4vPcmatz5dCpkc-dStlr6hI8'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: d51a71e3-4c5a-568a-bfd8-34f29ea843db
+    internal-label: Administering Screens
+  - id: c5322876-5f25-5295-aae6-7dbbb1548c49
+    internal-label: Players
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Troubleshooting
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 1274
+source-wordcount: '1274'
 ht-degree: 90%
-
 ---
-
 # Implementieren des Tizen-Players {#tizen-player}
 
 >[!IMPORTANT]
@@ -110,7 +118,9 @@ Durch die Remote-Bereitstellung des Tizen-Players können Sie Tausende von Samsu
 
 Mit dieser Funktion können Sie den Tizen-Player aus der Ferne konfigurieren und diese Konfigurationen bei Bedarf auch zentral aktualisieren. Sie benötigen lediglich den `HTTP`-Server, der zum Hosten des Tizen-Programms `(wgt and xml file)` verwendet wird, und einen Texteditor zum Speichern von `config.json` mit den entsprechenden Parametern.
 
-Stellen Sie sicher, dass Sie die URL-Starter-Adresse auf dem Tizen-Gerät konfiguriert haben. Klicken Sie auf die Schaltfläche „Home“ > „URL-Starter-Einstellungen“.Platzieren Sie auf dem `HTTP`-Server, der die Tizen-Anwendung hostet, die Datei `config.json` am selben Speicherort wie die Datei `wgt`. Der Dateiname muss `config.json` lauten.Der Tizen-Player wird installiert und beim Start (und bei jedem Neustart) überprüft und wendet die Einstellungen in der Datei `config.json` an.
+Stellen Sie sicher, dass Sie die URL-Starter-Adresse auf dem Tizen-Gerät konfiguriert haben. Klicken Sie auf die Schaltfläche „Home“ > „URL-Starter-Einstellungen“.
+Platzieren Sie auf dem `HTTP`-Server, der die Tizen-Anwendung hostet, die Datei `config.json` am selben Speicherort wie die Datei `wgt`. Der Dateiname muss `config.json` lauten.
+Der Tizen-Player wird installiert und beim Start (und bei jedem Neustart) überprüft und wendet die Einstellungen in der Datei `config.json` an.
 
 ### Beispiel für eine JSON-Richtlinie {#example-json}
 
@@ -129,7 +139,8 @@ Stellen Sie sicher, dass Sie die URL-Starter-Adresse auf dem Tizen-Gerät konfig
 In der folgenden Tabelle sind die Richtlinien und deren Funktionen aufgeführt.
 
 >[!NOTE]
->Die Richtlinienkonfigurationen der Administrator-Benutzeroberfläche des Players werden streng durchgesetzt und können nicht manuell überschrieben werden. Um eine manuelle Player-Konfiguration für eine bestimmte Richtlinie zuzulassen, geben Sie die Richtlinie nicht in der Richtlinienkonfiguration an.Wenn Sie beispielsweise eine manuelle Konfiguration für den Neustart-Zeitplan zulassen möchten, geben Sie den Schlüssel `rebootSchedule` nicht in der Richtlinienkonfiguration an. Richtlinienkonfigurationen werden jedes Mal gelesen, wenn der Player neu geladen wird.
+>Die Richtlinienkonfigurationen der Administrator-Benutzeroberfläche des Players werden streng durchgesetzt und können nicht manuell überschrieben werden. Um eine manuelle Player-Konfiguration für eine bestimmte Richtlinie zuzulassen, geben Sie die Richtlinie nicht in der Richtlinienkonfiguration an.
+>Wenn Sie beispielsweise eine manuelle Konfiguration für den Neustart-Zeitplan zulassen möchten, geben Sie den Schlüssel `rebootSchedule` nicht in der Richtlinienkonfiguration an. Richtlinienkonfigurationen werden jedes Mal gelesen, wenn der Player neu geladen wird.
 
 | **Richtlinienname** | **Zweck** |
 |---|---|

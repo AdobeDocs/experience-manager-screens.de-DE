@@ -5,21 +5,26 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-TQID: https://experienceleague.adobe.com/INOW-DVlJkMChau5JzHRlHL-Sv1XglwVoCFMVDX2LLs
+TQID: 'https://experienceleague.adobe.com/INOW-DVlJkMChau5JzHRlHL-Sv1XglwVoCFMVDX2LLs'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ad636d67-61fa-5d69-a17e-20f06cb716b9
+    internal-label: Feature Pack
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+    internal-label: Intermediate
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 977
+source-wordcount: '989'
 ht-degree: 98%
-
 ---
-
 # Versionshinweise für Feature Pack 202109 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
@@ -40,17 +45,17 @@ Das AEM Screens Feature Pack 202109 wurde am 23. September 2021 veröffentlicht.
 * **Unterstützung von Miniaturansichten für Videos**
 
   In AEM Screens wird jetzt die Unterstützung von Miniaturansichten für Videos unterstützt. Inhaltsautorinnen und Inhaltsautoren definieren eine Miniaturansicht für Videos, sodass das Bild als Platzhalter verwendet wird. Außerdem werden die Inhaltswiedergabe und das Targeting ordnungsgemäß getestet, während das zuständige Team das eigentliche Video fertigstellt. Das Bild kann auch verwendet werden, wenn die Wiedergabe des Videos fehlschlägt.
-Weitere Informationen finden Sie unter [Unterstützung von Miniaturansichten für Videos](/help/user-guide/thumbnail-support.md).
+  Weitere Informationen finden Sie unter [Unterstützung von Miniaturansichten für Videos](/help/user-guide/thumbnail-support.md).
 
 * **Einfache Wiedergabe-Überwachung**
 
   AEM Screens unterstützt jetzt einfache Wiedergabe-Überwachung. Der Player meldet jetzt bei jedem Ping (standardmäßig alle 30 Sekunden) verschiedene Wiedergabemetriken. Basierend auf diesen Metriken werden verschiedene Randfälle (Feststecken, leerer Bildschirm, Zeitplanprobleme usw.) erkannt. Mit dieser Funktion kann das Team remote überwachen, ob ein Player Inhalte ordnungsgemäß wiedergibt, und die Reaktionsrate auf leere Bildschirme oder fehlerhafte Erlebnisse im praktischen Einsatz verbessern. Außerdem sinkt so das Risiko, dass Endbenutzenden ein fehlerhaftes Erlebnis angezeigt wird.
-Weitere Informationen finden Sie unter [Einfache Wiedergabe-Überwachung](https://experienceleague.adobe.com/de/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring).
+  Weitere Informationen finden Sie unter [Einfache Wiedergabe-Überwachung](https://experienceleague.adobe.com/de/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring).
 
 * **Aktualisierungen des Inhaltszuweisungsberichts**
 
   Der Inhaltszuweisungsbericht bietet nun ein optimiertes und verbessertes Anwendererlebnis. Der herunterladbare Bericht weist Player-bezogene Verbesserungen auf. Beispielweise werden Standorte, Anzeigen und Geräte in einem Arbeitsblatt angezeigt. Zudem werden Inhaltsanbieter-Informationen wie Kanäle und Assets auf einem anderen Blatt zur Verfügung gestellt.
-Weitere Informationen finden Sie unter [Inhaltszuweisungsbericht](/help/user-guide/content-assignment-report.md).
+  Weitere Informationen finden Sie unter [Inhaltszuweisungsbericht](/help/user-guide/content-assignment-report.md).
 
 * **Adaptive Ausgabedarstellungen**
 
@@ -64,29 +69,29 @@ Weitere Informationen finden Sie unter [Inhaltszuweisungsbericht](/help/user-gui
 
   Sie können jetzt den Dispatcher für Manifest Version 3 konfigurieren. Gehen Sie wie folgt vor, um das v3-Manifest zu aktivieren:
 
-   * Löschen Sie alle ausstehenden Offline-Inhaltsaufträge sowohl in der Autoren- als auch in der Veröffentlichungsinstanz.
+  * Löschen Sie alle ausstehenden Offline-Inhaltsaufträge sowohl in der Autoren- als auch in der Veröffentlichungsinstanz.
 
-      * Navigieren Sie in der Autoren- und der Veröffentlichungsinstanz zu CRXDE Lite.
+    * Navigieren Sie in der Autoren- und der Veröffentlichungsinstanz zu CRXDE Lite.
 
-      * Klicken Sie auf „Tools“ > „Abfrage“
+    * Klicken Sie auf „Tools“ > „Abfrage“
 
-      * Verwenden Sie in der Abfrage `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`.
+    * Verwenden Sie in der Abfrage `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`.
 
-      * Dadurch werden alle Offline-Inhaltsaufträge aufgelistet, die derzeit ausgeführt werden oder noch in der Warteschlange ausstehen.
+    * Dadurch werden alle Offline-Inhaltsaufträge aufgelistet, die derzeit ausgeführt werden oder noch in der Warteschlange ausstehen.
 
-      * Warten Sie, bis keine weiteren Offline-Inhaltsaufträge mehr von der Abfrage zurückgegeben werden.
+    * Warten Sie, bis keine weiteren Offline-Inhaltsaufträge mehr von der Abfrage zurückgegeben werden.
 
-   * ContentSync in `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` deaktivieren.
+  * ContentSync in `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` deaktivieren.
 
-   * SmartSync in `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl` aktivieren.
+  * SmartSync in `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl` aktivieren.
 
-   * Führen Sie eine Dispatcher-Aktualisierung durch.
+  * Führen Sie eine Dispatcher-Aktualisierung durch.
 
-   * Aktualisieren Sie die benutzerdefinierte Komponente.
+  * Aktualisieren Sie die benutzerdefinierte Komponente.
 
 
-   * Weitere Informationen finden Sie unter [Konfigurieren des Dispatchers für Manifest Version 3](https://experienceleague.adobe.com/de/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3).
-   * Wenn Sie außerdem benutzerdefinierte Komponenten als Teil von Manifesten der Version 3 verwenden, finden Sie weitere Informationen unter [Vorlage für benutzerdefinierte Handler](https://experienceleague.adobe.com/de/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers).
+  * Weitere Informationen finden Sie unter [Konfigurieren des Dispatchers für Manifest Version 3](https://experienceleague.adobe.com/de/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3).
+  * Wenn Sie außerdem benutzerdefinierte Komponenten als Teil von Manifesten der Version 3 verwenden, finden Sie weitere Informationen unter [Vorlage für benutzerdefinierte Handler](https://experienceleague.adobe.com/de/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers).
 
 
 ### Fehlerbehebungen {#bug-fixes}
