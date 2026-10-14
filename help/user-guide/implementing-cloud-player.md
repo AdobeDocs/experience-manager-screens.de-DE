@@ -34,13 +34,13 @@ ht-degree: 94%
 # Implementieren des Cloud-Players {#implementing-cloud-player}
 
 >[!IMPORTANT]
->Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Bisher hat AEM Screens separate native Player-Anwendungen für verschiedene Plattformen wie ChromeOS, Windows, Android und `Tizen` angeboten. Da sich die Bedürfnisse von Benutzenden jedoch ständig weiterentwickeln, hat Adobe eine innovative Lösung eingeführt: den AEM Screens-Cloud-Player.
 
 Der Cloud-Player weicht deutlich von den vorherigen nativen Adobe-Anwendungen ab. Es handelt sich dabei um eine Progressive Web App (PWA), die auf einem Server gehostet wird. Dieser transformative Ansatz stellt Kundinnen und Kunden einen plattformunabhängigen Player zur Verfügung, der direkt in einem Webbrowser ausgeführt wird.
 
-Der Zugriff auf den Cloud-Player erfolgt ganz einfach über `https://player.adobescreens.com`. Benutzende können ihn unabhängig von der Plattform auf ihrem Gerät installieren und sich über ein nahtloses Erlebnis für digitale Beschilderungen freuen. Die Kompatibilität des Cloud-Players hängt von der Verfügbarkeit eines modernen Browsers mit PWA-Unterstützung ab, um eine konsistente Leistung auf verschiedenen Geräten sicherzustellen. Manuelle Aktualisierungen haben ein Ende. Freuen Sie sich stattdessen über einen Player, der automatisch Fehlerbehebungen und Funktionen bereitstellt, sodass Sie stets über die neuesten Funktionen verfügen. Diese Umstellung auf einen PWA-basierten Cloud-Player stellt eine spannende Weiterentwicklung des Adobe-Angebots an Digital Signage dar, das dadurch leichter zugänglich, vielseitiger und benutzerfreundlicher als je zuvor wird.
+Der Zugriff auf den Cloud-Player erfolgt ganz einfach über `https://player.adobescreens.com`. Benutzende können ihn unabhängig von der Plattform auf ihrem Gerät installieren und sich über ein nahtloses Erlebnis für Digital Signage freuen. Die Kompatibilität des Cloud-Players hängt von der Verfügbarkeit eines modernen Browsers mit PWA-Unterstützung ab, um eine konsistente Leistung auf verschiedenen Geräten sicherzustellen. Manuelle Aktualisierungen haben ein Ende. Freuen Sie sich stattdessen über einen Player, der automatisch Fehlerbehebungen und Funktionen bereitstellt, sodass Sie stets über die neuesten Funktionen verfügen. Diese Umstellung auf einen PWA-basierten Cloud-Player stellt eine spannende Weiterentwicklung des Adobe-Angebots an Digital Signage dar, das dadurch leichter zugänglich, vielseitiger und benutzerfreundlicher als je zuvor wird.
 
 In diesem Abschnitt wird die Implementierung des Cloud-Players beschrieben.
 

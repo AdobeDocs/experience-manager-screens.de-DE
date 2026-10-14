@@ -12,9 +12,7 @@ source-git-commit: f6d6f9295d60388b33c1a55752ce28c5b70f07ca
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 90%
-
 ---
-
 
 # AEM Screens-Benutzerhandbuch {#user-guide}
 
@@ -44,7 +42,7 @@ ht-degree: 90%
   + [Konfigurieren von Replikationsagenten in Screens](configure-screens-replication.md)
   + Kundenspezifische Aspekte {#installing-client}
     + [Chrome OS-Player](implementing-chrome-os-player.md)
-    + [Verwenden von Chrome-Player als Erweiterung zur Problembehebung](using-chrome-player-as-an-extension.md)
+    + [Verwenden des Chrome-Players als Erweiterung zur Fehlerbehebung](using-chrome-player-as-an-extension.md)
     + [Android™ Player](implementing-android-player.md)
     + [Windows-Player](implementing-windows-player.md)
     + [Tizen-Player](tizen-player.md)
@@ -77,7 +75,7 @@ ht-degree: 90%
     + [Aktivierung auf Kanalebene](channel-level-activation.md)
     + [Erstellen und Verwalten einer Live Copy](managing-livecopy.md)
     + [Erstellen eines Workflows für Video-Padding](creating-a-video-padding-workflow.md)
-    + [Hinzufügen von Komponenten zu Kanälen](adding-components-to-a-channel.md)
+    + [Hinzufügen von Komponenten zu einem Kanal](adding-components-to-a-channel.md)
     + [Eingebettete Sequenzen](embedded-sequences.md)
     + [Mehrzonen-Layout](multi-zone-layout-aem-screens.md)
     + [Videoausgabedarstellungen](generating-renditions.md)
@@ -95,13 +93,13 @@ ht-degree: 90%
     + [Inhaltsaktualisierung mit Screens Launch](launches.md)
   + Anwendungsbeispiele {#use-case-examples}
     + [Notfallkanäle](emergency-channel.md)
-    + [Temperaturaktivierung für ein Reiseangebot](local-temperature-activation.md)
+    + [Temperaturaktivierung für ein Reisezentrum](local-temperature-activation.md)
     + [Aktivierung der Reservierung im Gastgewerbe](hospitality-reservation-activation.md)
     + [Zielgerichtete Aktivierung des Lagerbestands im Einzelhandel](retail-inventory-activation.md)
     + [Anwenden von Übergängen](applying-transitions.md)
     + [Übergang von mehreren zu einzelnen Zonen](multizone-to-singlezone.md)
     + [Übernahmekanal für die einmalige Verwendung](single-use-takeover-channel.md)
-    + [Übernahmekanal für die unbefristete Verwendung](perpetual-takeover-channel.md)
+    + [Unbefristete Verwendung des TakeOver-Kanals](perpetual-takeover-channel.md)
 + Entwickler- und API-Ressourcen {#developing}
   + [REST-APIs](rest-api.md)
   + [Entwickeln einer benutzerdefinierten Komponente für AEM Screens](developing-custom-component-tutorial-develop.md)
@@ -115,7 +113,7 @@ ht-degree: 90%
   + [Adaptive Ausgabedarstellungen: Überblick über die Architektur und Konfigurationen](/help/user-guide/adaptive-renditions.md)
 + Fehlerbehebung und häufig gestellte Fragen {#troubleshooting}
   + [Häufig gestellte Fragen zu AEM Screens](aem-screens-faqs.md)
-  + [Fehlerbehebung über das Geräte-Kontrollzentrum](monitoring-screens.md)
+  + [Fehlerbehebung für das Geräte-Kontrollzentrum](monitoring-screens.md)
   + [Konfiguration der Videowiedergabe](troubleshoot-videos.md)
 + Versionshinweise {#release-notes}
   + [Versionshinweise für Feature Pack 20260318](release-notes-fp-20260318.md)
@@ -132,7 +130,7 @@ ht-degree: 90%
   + [Versionshinweise für Feature Pack 202112](release-notes-fp-202112.md)
   + [Versionshinweise für Feature Pack 202109](release-notes-fp-202109.md)
   + [Versionshinweise für Feature Pack 202105](release-notes-fp-202105.md)
-  + [Versionshinweise für Feature Pack 202103](release-notes-fp-202103.md)
+  + [Versionshinweise zu Feature Pack 202103](release-notes-fp-202103.md)
   + [Versionshinweise für Feature Pack 202011](release-notes-fp-202011.md)
   + [Versionshinweise für Feature Pack 202008](release-notes-fp-202008.md)
   + [Versionshinweise für Feature Pack 202004](release-notes-fp-202004.md)

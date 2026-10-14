@@ -5,27 +5,30 @@ exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
 TQID: https://experienceleague.adobe.com/So83gHv7n21zhdoCdWHVf0yswyQuSr1hLWmCA7uHSiE
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 392
+source-wordcount: '392'
 ht-degree: 86%
-
 ---
-
 # Tests und Qualitätssicherung {#testing-quality}
 
 >[!IMPORTANT]
->Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!NOTE]
 >Ein typischer Stakeholder für diese Aktivität ist eine Person, die Audio-Video-Integration betreibt.
 
-Wenn die Bereitstellung des Digital-Signage-Netzwerks Beschilderung näher rückt, sollten Sie einen Test- und QA-Plan erstellen, der alle Elemente des Netzwerks, einschließlich der Hardware-, Software- und Netzwerkkomponenten, umfasst.In dem Schritt sollten vollständige Prüfsysteme eingerichtet und gründlich getestet werden.
+Wenn die Bereitstellung des Digital-Signage-Netzwerks Beschilderung näher rückt, sollten Sie einen Test- und QA-Plan erstellen, der alle Elemente des Netzwerks, einschließlich der Hardware-, Software- und Netzwerkkomponenten, umfasst.
+In dem Schritt sollten vollständige Prüfsysteme eingerichtet und gründlich getestet werden.
 
 Es sollte eine Checkliste erstellt werden, in der alle zuvor definierten KPIs aufgeführt und anhand der entsprechenden Lieferziele gemessen werden.
 
@@ -60,7 +63,8 @@ Folgende Überlegungen in Bezug auf die Software werden empfohlen:
 
 AEM Screens enthält das Modul „Geräte-Kontrollzentrum“, das die Verwaltung von Screens Player-Anwendungsendpunkten ermöglicht.
 
-Dies bezieht sich auf alle *Player*-Hardware-Geräte, auf denen die Screens Player-Anwendung installiert ist und die bei einer AEM-Instanz registriert sind.Mit diesem Modul können Sie:
+Dies bezieht sich auf alle *Player*-Hardware-Geräte, auf denen die Screens Player-Anwendung installiert ist und die bei einer AEM-Instanz registriert sind.
+Mit diesem Modul können Sie:
 
 1. Anwendungsfehlerprotokolle des Players überwachen
 1. Remote-Screenshots verwalten

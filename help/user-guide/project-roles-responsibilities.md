@@ -1,6 +1,6 @@
 ---
 title: 'Teil 1: Projektrollen und Zuständigkeiten'
-description: In diesem Tutorial erfahren Sie mehr über die Rollen, Verantwortlichkeiten und Zeitpläne, die in den Vertriebs- und Projektlebenszyklen eines Projekts für digitale Beschilderung erforderlich sind.
+description: In diesem Tutorial erfahren Sie mehr über die Rollen, Verantwortlichkeiten und Zeitpläne, die in den Vertriebs- und Projektlebenszyklen eines Projekts für Digital Signage erforderlich sind.
 feature: Overview
 role: User, Developer
 level: Beginner
@@ -44,7 +44,7 @@ ht-degree: 91%
 # Teil 1: Projektrollen und Zuständigkeiten {#part-project-roles-and-responsibilities}
 
 >[!IMPORTANT]
->Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Auf dieser Seite wird Teil 1 einer 5-teiligen Serie vorgestellt. Damit sollen Team-Mitglieder mehr über die Rollen, Verantwortlichkeiten und Zeitpläne erfahren, die in den Vertriebs- und Projektlebenszyklen eines Projekts für Digital Signage erforderlich sind.
 
@@ -88,7 +88,7 @@ In diesem Tutorial können Sie genau verstehen, wie sich die einzelnen Parteien 
 
 ### Teil 1: Projektrollen und Zuständigkeiten
 
->[!VIDEO](https://video.tv.adobe.com/v/32817?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/28375)
 
 *Erfahren Sie mehr über die Rollen und Zuständigkeiten von Adobe sowie den Personen, die für die AEM-Implementierung bzw. die Audio-Video-Integration zuständig sind.*
 

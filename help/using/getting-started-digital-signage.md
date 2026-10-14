@@ -5,23 +5,26 @@ exl-id: e3913be2-9028-4773-a034-e16924a71e04
 TQID: https://experienceleague.adobe.com/w0fVaYNPs2emLyL377rLTXLZRcXd05B56FtIn3Yjoqg
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
 source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 464
+source-wordcount: '464'
 ht-degree: 89%
-
 ---
-
 # Grundlagen eines Digital Signage-Projekts {#basics-digital-signage}
 
 >[!IMPORTANT]
->Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Dieser Inhalt gilt für AEM On-Premise/AMS (AEM 6.5LTS und AEM 6.5). Informationen zu AEM as a Cloud Service Screens-Inhalten finden Sie im [AEM as a Cloud Service-Handbuch](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Bevor Sie sich mit Best Practices für die Implementierung von AEM Screens vertraut machen, sollten Sie sich das Projekt als Digital-Signage-Projekt vorstellen – und nicht als herkömmliche Softwareentwicklung.
 
@@ -43,25 +46,25 @@ Ein Definieren der Schlüsselelemente ist vor Implementierung eines Digital-Sign
    * Einsatz von Kupferleitungen
    * Größe der Bildschirme
    * Anzahl der Bildschirme
-      * Ausrichtung
-      * Seitenverhältnis
-      * Voreingestellte Auflösung
+     * Ausrichtung
+     * Seitenverhältnis
+     * Voreingestellte Auflösung
 
 1. **Konnektivität**
 
    Die Konnektivität wirft folgende Fragen auf:
    * Vernetzt (per Mobilfunk oder WLAN) bzw. eigenständig?
-      * Müssen Sie Aktualisierungen von USB-Inhalten zulassen?
-      * Müssen Sie die Erfassung von Nutzungsdaten zulassen?
+     * Müssen Sie Aktualisierungen von USB-Inhalten zulassen?
+     * Müssen Sie die Erfassung von Nutzungsdaten zulassen?
 
 1. **Installation**
 
    Die Installation umfasst:
    * Displays: Querformat oder Hochformat
    * Wie wird der Bildschirm montiert?
-      * Ausrichtung im Hochformat im Vergleich zur Ausrichtung im Querformat
-      * Komplettes Gehäuse
-      * Abdeckplatte
+     * Ausrichtung im Hochformat im Vergleich zur Ausrichtung im Querformat
+     * Komplettes Gehäuse
+     * Abdeckplatte
    * Halterung
    * Personal: verantwortlich für Installation und Anschluss des Geräts an das Netzwerk
    * Wie weit ist die Stromquelle vom Gerät entfernt?
@@ -71,30 +74,30 @@ Ein Definieren der Schlüsselelemente ist vor Implementierung eines Digital-Sign
 
    Inhalt umfasst:
    * Einzelzone oder Mehrzonen?
-      * Wie viele Medien-Assets befinden sich gleichzeitig auf dem Bildschirm?
-      * Wie viele Seiten für interaktive Anwendungen?
-      * Definieren der UI-Schleife
-      * Datengesteuerter Inhalt?
+     * Wie viele Medien-Assets befinden sich gleichzeitig auf dem Bildschirm?
+     * Wie viele Seiten für interaktive Anwendungen?
+     * Definieren der UI-Schleife
+     * Datengesteuerter Inhalt?
    * Versionskontrolle
 
 1. **Interaktives**
 
    Interaktives beinhaltet:
    * bevorzugter Touchscreen? (resistiv, kapazitiv, Multi-Touch)
-      * Tastendruck
-      * Geste
+     * Tastendruck
+     * Geste
    * Datenauslösung (I/O)?
-      * Senden/Empfangen von seriellen Befehlen (Schließen von Kontakt und PLC)
-      * Eingehende Daten werden auf dem Bildschirm angezeigt (RSS) oder lösen Inhalt aus
-      * RFID/NFC/Bluetooth/iBeacon
-      * Externe Services (Wetter, Verkehr)
+     * Senden/Empfangen von seriellen Befehlen (Schließen von Kontakt und PLC)
+     * Eingehende Daten werden auf dem Bildschirm angezeigt (RSS) oder lösen Inhalt aus
+     * RFID/NFC/Bluetooth/iBeacon
+     * Externe Services (Wetter, Verkehr)
 
 1. **Umgebung**
 
    Bei der Umgebung geht es um Folgendes:
    * Displaystandort?
-      * Drinnen vs. draußen
-      * Unerreichbar oder direkter Kontakt
+     * Drinnen vs. draußen
+     * Unerreichbar oder direkter Kontakt
    * Spezielle Temperaturbedingungen?
    * Schutz vor Vandalismus?
    * Starkes Umgebungslicht? Starke Kontraste?
