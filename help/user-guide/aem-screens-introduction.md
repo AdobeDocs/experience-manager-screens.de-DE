@@ -1,6 +1,6 @@
 ---
 title: Was ist Adobe Experience Manager Screens?
-description: Erfahren Sie mehr über den Umgang mit Adobe Experience Manager Screens, einer Lösung für digitale Beschilderung, mit der Sie dynamische und interaktive digitale Erlebnisse und Interaktionen mit verschiedenen Arten von Bildschirmen auf einer umfassenden Digital Marketing-Plattform veröffentlichen können.
+description: Erfahren Sie mehr über den Umgang mit Adobe Experience Manager Screens, einer Lösung für Digital Signage, mit der Sie dynamische und interaktive digitale Erlebnisse und Interaktionen mit verschiedenen Arten von Bildschirmen auf einer umfassenden Digital Marketing-Plattform veröffentlichen können.
 feature: Overview, Digital Signage
 role: User
 level: Beginner
@@ -42,7 +42,7 @@ ht-degree: 92%
 
 **Experience Manager Screens** – eine Lösung für Digital Signage, mit der Sie dynamische und interaktive digitale Erlebnisse und Interaktionen auf verschiedenen Arten von Bildschirmen veröffentlichen können, und das alles auf einer umfassenden Digital Marketing-Plattform.
 
-Nutzen Sie den [Schnellstart für AEM Screens](kickstart-for-aem-screens.md) für einen schnellen Einstieg in diese einfach zu nutzende Lösung für digitale Beschilderung.
+Nutzen Sie den [Schnellstart für AEM Screens](kickstart-for-aem-screens.md) für einen schnellen Einstieg in diese einfach zu nutzende Lösung für Digital Signage.
 
 Informationen zur Konfiguration und Erstellung Ihres Experience Manager Screens-Projekts in Experience Manager as a Cloud Service finden Sie [hier](https://experienceleague.adobe.com/de/docs/experience-manager-screens/using/about-guide).
 
@@ -68,7 +68,7 @@ In [Schnellstart für Experience Manager Screens](kickstart-for-aem-screens.md) 
 
 ## Starten eines neuen Experience Manager Screens-Projekts {#starting-a-new-aem-screens-project}
 
-Für den Start eines neuen Erlebnisses mit digitaler Beschilderung müssen mehrere Personen mit unterschiedlichen Rollen zusammenarbeiten. Die folgenden Rollen bieten einen Ausgangspunkt für die Erstellung eines Screens-Projekts:
+Für den Start eines neuen Erlebnisses mit Digital Signage müssen mehrere Personen mit unterschiedlichen Rollen zusammenarbeiten. Die folgenden Rollen bieten einen Ausgangspunkt für die Erstellung eines Screens-Projekts:
 
 * **Autor**
 * **Entwickler**

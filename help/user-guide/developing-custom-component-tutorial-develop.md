@@ -119,7 +119,7 @@ Die Komponente „Hello World“ ist eine einfache Komponente, mit der Benutzend
 
 AEM Screens weist einige interessante Einschränkungen auf, die nicht unbedingt für herkömmliche Komponenten von WCM-Sites gelten.
 
-* Die meisten Screens-Komponenten müssen auf den Zielgeräten für digitale Displays im Vollbildmodus ausgeführt werden
+* Die meisten Screens-Komponenten müssen auf den Digital-Signage-Zielgeräten im Vollbildmodus ausgeführt werden
 * Die meisten Screens-Komponenten müssen in den Sequenzkanälen einbettbar, um Diashows zu generieren.
 * Bei der Inhaltserstellung sollte es möglich sein, einzelne Komponenten in einem Sequenzkanal zu bearbeiten, sodass das Rendern im Vollbildmodus nicht in Frage kommt
 

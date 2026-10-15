@@ -1,6 +1,6 @@
 ---
 title: 'Teil 1: Projektrollen und Zuständigkeiten'
-description: In diesem Tutorial erfahren Sie mehr über die Rollen, Verantwortlichkeiten und Zeitpläne, die in den Vertriebs- und Projektlebenszyklen eines Projekts für digitale Beschilderung erforderlich sind.
+description: In diesem Tutorial erfahren Sie mehr über die Rollen, Verantwortlichkeiten und Zeitpläne, die in den Vertriebs- und Projektlebenszyklen eines Projekts für Digital Signage erforderlich sind.
 feature: Overview
 role: User, Developer
 level: Beginner
